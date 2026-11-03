@@ -101,12 +101,16 @@ test('dedupe keys survive tracking parameters and title whitespace', () => {
   assert.ok(findSeen(state, second));
 });
 
-test('slot status is settled only for ready or sent', () => {
+test('slot status is settled for ready, sent, or skipped', () => {
   const state = emptyState();
   assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), false);
   markSlot(state, '2026-11-02T08:30+03:30', { status: 'empty' });
   assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), false);
   markSlot(state, '2026-11-02T08:30+03:30', { status: 'ready' });
+  assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), true);
+  markSlot(state, '2026-11-02T08:30+03:30', { status: 'sent' });
+  assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), true);
+  markSlot(state, '2026-11-02T08:30+03:30', { status: 'skipped' });
   assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), true);
 });
 

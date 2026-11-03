@@ -168,7 +168,7 @@ export function markSlot(state, key, record) {
 
 export function isSlotSettled(state, key) {
   const status = state.slots[key]?.status;
-  return status === 'ready' || status === 'sent';
+  return status === 'ready' || status === 'sent' || status === 'skipped';
 }
 
 export function quotaSnapshot(config, state, week) {
