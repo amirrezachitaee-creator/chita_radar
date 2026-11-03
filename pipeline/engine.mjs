@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import { canonicalUrl, freshness, windowFor } from './normalize.mjs';
 import { dateMentioned, hasReferral } from './offers.mjs';
 import { hasAiMention } from './relevance.mjs';
+import { newsDateLine } from './newstime.mjs';
 
 export const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36';
 export const MAIN_CATEGORIES = ['tools', 'models', 'security', 'business'];
@@ -502,7 +503,7 @@ const QA_FIX_HINTS = {
   image_used: 'تصویر مجاز را استفاده کن یا خالی بگذار.',
 };
 
-export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previousWhy = '' }) {
+export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previousWhy = '', newsDate = '' }) {
   const problemNames = qa?.problems ?? [];
   const schemaBroken = problemNames.some((name) =>
     ['schema', 'verification_enum', 'verification_source', 'source_url', 'image_exact', 'dedupe_key'].includes(name)
@@ -529,14 +530,14 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
   const title = String(parsed?.title ?? '');
   const body = String(parsed?.body ?? '');
   const titleWords = title.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
-  const captionChars = visibleLength(`${title}\n\n${body}`);
+  const captionChars = visibleLength([title, newsDate].filter(Boolean).join('\n') + (body ? `\n\n${body}` : ''));
   const target = CAPTION_SAFE_LIMIT - 50;
   const cut = Math.max(0, captionChars - target);
   const limits = [
     imageUrl
       ? captionChars > target
-        ? `طول فعلی تیتر و body ${captionChars} کاراکتر است؛ باید حداکثر ${target} کاراکتر شود، یعنی حدود ${cut} کاراکتر کوتاه‌تر. خط منبع هم داخل همین حساب است.`
-        : `طول فعلی تیتر و body ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
+        ? `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است؛ باید حداکثر ${target} کاراکتر شود، یعنی حدود ${cut} کاراکتر کوتاه‌تر. خط منبع هم داخل همین حساب است.`
+        : `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
       : 'طول body با post_type بخواند.',
     `تیتر الان ${titleWords} کلمه است؛ حداکثر ۱۲ کلمه باشد.`,
     'خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.',
@@ -599,7 +600,8 @@ export function qaPost(parsed, context) {
   const bullets = (body.match(/^\s*[-•–]\s+/gm) || []).length;
   const tags = ((`${body}\n${quote}`).match(/#[\p{L}\p{N}_]+/gu) || []).length;
   const type = parsed.post_type;
-  const caption = `${title}\n\n${body}`;
+  const newsDate = newsDateLine(context.publishedAt);
+  const caption = [title, newsDate].filter(Boolean).join('\n') + (body ? `\n\n${body}` : '');
 
   add('schema', POST_TYPES.includes(type) &&
     Number.isInteger(parsed.importance) && parsed.importance >= 1 && parsed.importance <= 5 &&
@@ -677,6 +679,7 @@ export function qaPost(parsed, context) {
   })());
   add('image_exact', parsed.image_url === '' || parsed.image_url === context.imageUrl);
   add('caption', !parsed.image_url || visibleLength(caption) <= CAPTION_SAFE_LIMIT, visibleLength(caption) ? `${visibleLength(caption)}` : '');
+  add('news_date', Boolean(newsDate), newsDate, false);
   add('deep_with_image', !(parsed.image_url && type === 'deep'));
   add('image_https', !parsed.image_url || /^https:\/\//.test(parsed.image_url));
 
@@ -788,6 +791,7 @@ export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, so
   .content { padding: 20px 22px 24px; }
   h1 { font-size: 24px; line-height: 1.5; margin: 0 0 14px; }
   .caption { white-space: normal; line-height: 2; font-size: 17px; }
+  .date { margin: -6px 0 14px; color: #5b6b7d; font-size: 14px; }
   .caption a { color: #0b63c5; }
   .quote { margin-top: 16px; padding: 12px 16px; border-right: 4px solid #9fb4cc; background: #f4f7fb; border-radius: 8px; line-height: 2; font-size: 16px; }
   .source { margin-top: 18px; font-size: 13px; color: #5b6b7d; word-break: break-all; }
@@ -809,6 +813,7 @@ export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, so
     ${imageBlock}
     <div class="content">
       <h1>${escapeHtml(title)}</h1>
+      ${post?.news_date ? `<div class="date">${escapeHtml(post.news_date)}</div>` : ''}
       <div class="caption">${formatPreviewBody(body)}</div>
       ${post?.quote ? `<blockquote class="quote">${formatPreviewBody(post.quote)}</blockquote>` : ''}
       <div class="source">منبع ورودی: ${escapeHtml(sourceUrl)}</div>

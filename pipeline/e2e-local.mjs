@@ -19,6 +19,8 @@ import {
   renderPreview,
   MAIN_CATEGORIES,
 } from './engine.mjs';
+import { postText } from './telegram.mjs';
+import { newsDateLine } from './newstime.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const args = process.argv.slice(2);
@@ -105,6 +107,7 @@ async function main() {
   }
 
   const publishedAt = article.published || item.published;
+  const newsDate = newsDateLine(publishedAt);
   const preGate = freshness(publishedAt, now, { maxAgeHours: windowFor(undefined) });
   const preGateResult = evaluateItem(
     { id: item.title, published_at: publishedAt, url: article.url, content: article.content },
@@ -238,7 +241,7 @@ async function main() {
         apiKey: env.AMD_API_KEY,
         model: MODEL,
         system,
-        user: buildQaRepairMessage({ user, parsed, qa, imageUrl, previousWhy: '' }),
+        user: buildQaRepairMessage({ user, parsed, qa, imageUrl, previousWhy: '', newsDate }),
         redact,
       },
       2,
@@ -285,6 +288,7 @@ async function main() {
     parsed?.decision === 'publish'
       ? {
           title: String(parsed.title ?? '').trim(),
+          news_date: newsDate,
           body: String(parsed.body ?? ''),
           quote: String(parsed.quote ?? '').trim(),
         }
@@ -343,7 +347,7 @@ async function main() {
       .join('\n\n')
   );
   await writeFile(resolve(outDir, 'parsed.json'), JSON.stringify(parsed, null, 2));
-  await writeFile(resolve(outDir, 'post.txt'), `${[post.title, post.body, post.quote].filter(Boolean).join('\n\n')}\n`);
+  await writeFile(resolve(outDir, 'post.txt'), `${[postText(post), post.quote].filter(Boolean).join('\n\n')}\n`);
   await writeFile(resolve(outDir, 'report.json'), JSON.stringify(report, null, 2));
   await writeFile(
     resolve(outDir, 'preview.html'),

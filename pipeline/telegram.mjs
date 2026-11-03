@@ -6,7 +6,8 @@ export const TELEGRAM_MESSAGE_LIMIT = 4096;
 const RLM = '\u200F';
 
 export function postText(post) {
-  return [post?.title, post?.body].filter(Boolean).join('\n\n');
+  const head = [post?.title, post?.news_date].filter(Boolean).join('\n');
+  return [head, post?.body].filter(Boolean).join('\n\n');
 }
 
 export function captionLength(post) {
@@ -40,8 +41,13 @@ export function formatBodyHtml(body) {
 
 export function postHtml(post) {
   const title = String(post?.title ?? '').trim();
+  const date = String(post?.news_date ?? '').trim();
   const body = formatBodyHtml(post?.body ?? '');
-  return [title ? `<b>${RLM}${escapeHtml(title)}</b>` : '', body].filter(Boolean).join('\n\n');
+  const head = [
+    title ? `<b>${RLM}${escapeHtml(title)}</b>` : '',
+    date ? `${RLM}${escapeHtml(date)}` : '',
+  ].filter(Boolean).join('\n');
+  return [head, body].filter(Boolean).join('\n\n');
 }
 
 function mimeFor(path) {

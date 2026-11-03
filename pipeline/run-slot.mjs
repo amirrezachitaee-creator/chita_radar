@@ -35,7 +35,8 @@ import {
   recordPublished,
   pruneState,
 } from './store.mjs';
-import { sendTelegram, sendText, captionLength } from './telegram.mjs';
+import { sendTelegram, sendText, captionLength, postText } from './telegram.mjs';
+import { newsDateLine } from './newstime.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const args = process.argv.slice(2);
@@ -470,6 +471,7 @@ async function main() {
     console.log(`  WRITER ${writer.role} model=${writer.model}`);
     parsed = normalizePostFields(parsed);
 
+    const newsDate = newsDateLine(publishedAt);
     const qaContext = {
       url: article.url,
       host,
@@ -493,7 +495,7 @@ async function main() {
     if (parsed.decision === 'publish' && (!qa.pass || styleWarning) && !offerQaFailed && !relevanceFailed && !offerContext) {
       console.log(`  ${qa.pass ? 'STYLE_WARNING' : 'QA_FAILED'} ${qa.problems.join(',') || qa.warnings.join(',')} | one repair retry`);
       repair = await callWithRetry(
-        writerOptions(writer, buildQaRepairMessage({ user: activeUser, parsed, qa, imageUrl, previousWhy })),
+        writerOptions(writer, buildQaRepairMessage({ user: activeUser, parsed, qa, imageUrl, previousWhy, newsDate })),
         2,
         console.log
       );
@@ -595,6 +597,7 @@ async function main() {
 
     const post = {
       title: String(parsed.title).trim(),
+      news_date: newsDate,
       body: String(parsed.body).trim(),
       quote: String(parsed.quote ?? '').trim(),
     };
@@ -637,6 +640,7 @@ async function main() {
       qa,
       post: {
         title: post.title,
+        news_date: post.news_date,
         body: post.body,
         quote: post.quote,
         caption_chars: caption,
@@ -651,6 +655,7 @@ async function main() {
       mode: RUN_MODE,
       category,
       title: post.title,
+      news_date: post.news_date,
       body: post.body,
       quote: post.quote,
       image_url: downloaded ? parsed.image_url : '',
@@ -665,7 +670,7 @@ async function main() {
       qa: { pass: qa.pass, score: qa.score, possible: qa.possible, warnings: qa.warnings },
       createdAt: NOW,
     }, null, 2));
-    await writeFile(postFile, `${[post.title, post.body, post.quote].filter(Boolean).join('\n\n')}\n`);
+    await writeFile(postFile, `${[postText(post), post.quote].filter(Boolean).join('\n\n')}\n`);
     await writeFile(resolve(dir, 'report.json'), JSON.stringify(report, null, 2));
     await writeFile(
       resolve(dir, 'response.txt'),
