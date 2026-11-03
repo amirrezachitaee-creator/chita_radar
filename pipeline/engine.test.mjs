@@ -32,6 +32,19 @@ test('quote is trimmed and kept as a separate field', () => {
   assert.equal(normalized.quote, 'جزئیات بیشتر');
 });
 
+test('translated tech terms are rewritten deterministically', () => {
+  const normalized = normalizePostFields({
+    title: 'عامل‌های هوشمند در شهرها',
+    body: 'این عامل‌ها با مدل متن‌باز کار می‌کنند و هر عامل هوشمند یک وظیفه دارد.\n\nعامل اصلی رشد همین است.',
+    quote: 'یک عامل دیگر هم هست.',
+  });
+  assert.equal(normalized.title, 'ایجنت‌های هوشمند در شهرها');
+  assert.ok(normalized.body.includes('ایجنت‌ها با مدل اوپن سورس'));
+  assert.ok(normalized.body.includes('هر ایجنت هوشمند'));
+  assert.ok(normalized.body.includes('عامل اصلی رشد همین است.'));
+  assert.equal(normalized.quote, 'یک عامل دیگر هم هست.');
+});
+
 test('repeating the previous importance opener is only a soft warning', () => {
   const base = {
     decision: 'publish',

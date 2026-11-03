@@ -444,9 +444,21 @@ export function visibleLength(value) {
     .length;
 }
 
+const TERM_FIXES = [
+  [/عامل[\u200c\s]*های/gu, 'ایجنت‌های'],
+  [/عامل[\u200c\s]*ها/gu, 'ایجنت‌ها'],
+  [/عامل[ \u200c]+هوشمند/gu, 'ایجنت هوشمند'],
+  [/متن[\u200c\s]*باز/gu, 'اوپن سورس'],
+];
+
+export function fixTerminology(value) {
+  const text = String(value ?? '');
+  return TERM_FIXES.reduce((result, [pattern, replacement]) => result.replace(pattern, replacement), text);
+}
+
 export function normalizePostFields(parsed) {
   if (!parsed || typeof parsed !== 'object') return parsed;
-  const body = String(parsed.body ?? '')
+  const body = fixTerminology(String(parsed.body ?? ''))
     .replace(/\r\n?/g, '\n')
     .replace(
       /^[ \t]*(?:\*\*)?[ \t]*چرا[\s\u200c]+مهم(?:[\s\u200c]+است|[\s\u200c]*ه)?[ \t]*[:：][ \t]*(?:\*\*)?[ \t]*/gmu,
@@ -454,11 +466,11 @@ export function normalizePostFields(parsed) {
     )
     .replace(/\n{3,}/g, '\n\n')
     .trim();
-  const quote = String(parsed.quote ?? '')
+  const quote = fixTerminology(String(parsed.quote ?? ''))
     .replace(/\r\n?/g, '\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
-  return { ...parsed, title: String(parsed.title ?? '').trim(), body, quote };
+  return { ...parsed, title: fixTerminology(String(parsed.title ?? '')).trim(), body, quote };
 }
 
 function lengthBounds(type) {
