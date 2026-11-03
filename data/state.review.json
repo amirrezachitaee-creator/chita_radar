@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T13:48:43.566Z",
+  "updatedAt": "2026-11-03T14:35:08.013Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -207,6 +207,148 @@
       "slot": "2026-11-03T23:00+03:30",
       "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
       "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications"
+    },
+    "url:11a3e4cb137f5266": {
+      "at": "2026-11-03T14:12:51.108Z",
+      "decision": "qa_failed",
+      "reason": "source",
+      "category": "tools",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses"
+    },
+    "title:991a1e24c6cf5354": {
+      "at": "2026-11-03T14:12:51.108Z",
+      "decision": "qa_failed",
+      "reason": "source",
+      "category": "tools",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses"
+    },
+    "url:9ff666e7421f5314": {
+      "at": "2026-11-03T14:14:23.101Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps"
+    },
+    "title:ddec446bf6e75514": {
+      "at": "2026-11-03T14:14:23.101Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps"
+    },
+    "url:d38f7b5068359c02": {
+      "at": "2026-11-03T14:16:04.552Z",
+      "decision": "qa_failed",
+      "reason": "why",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens"
+    },
+    "title:5ea54929098df16f": {
+      "at": "2026-11-03T14:16:04.552Z",
+      "decision": "qa_failed",
+      "reason": "why",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens"
+    },
+    "url:a6f54d325d31634f": {
+      "at": "2026-11-03T14:20:31.856Z",
+      "decision": "qa_failed",
+      "reason": "why",
+      "category": "tools",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic"
+    },
+    "title:a09becdea08de5db": {
+      "at": "2026-11-03T14:20:31.856Z",
+      "decision": "qa_failed",
+      "reason": "why",
+      "category": "tools",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic"
+    },
+    "url:977334dcf0434eb1": {
+      "at": "2026-11-03T14:26:19.526Z",
+      "decision": "qa_failed",
+      "reason": "caption",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts"
+    },
+    "title:c6062d64584cb2e7": {
+      "at": "2026-11-03T14:26:19.526Z",
+      "decision": "qa_failed",
+      "reason": "caption",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts"
+    },
+    "url:62954b6003d956ad": {
+      "at": "2026-11-03T14:31:35.741Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "models",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai"
+    },
+    "title:0058817750a1149a": {
+      "at": "2026-11-03T14:31:35.741Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "models",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai"
+    },
+    "url:896ea6e6a603f203": {
+      "at": "2026-11-03T14:32:24.893Z",
+      "decision": "qa_failed",
+      "reason": "why,length",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers"
+    },
+    "title:e37f9575ae67f591": {
+      "at": "2026-11-03T14:32:24.893Z",
+      "decision": "qa_failed",
+      "reason": "why,length",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers"
+    },
+    "url:18125b40f49b8675": {
+      "at": "2026-11-03T14:35:08.009Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+      "url": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold"
+    },
+    "title:43d2b9b4fc8625b3": {
+      "at": "2026-11-03T14:35:08.009Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+      "url": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold"
     }
   },
   "slots": {
@@ -229,12 +371,12 @@
       "mode": "send_review"
     },
     "2026-11-03T17:00+03:30": {
-      "at": "2026-11-03T13:02:05.360Z",
+      "at": "2026-11-03T14:35:08.009Z",
       "status": "sent",
-      "category": "models",
-      "title": "Message Threads آنتروپیک زمان پاسخ را ۳۵ درصد کم کرد",
-      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-03/17-00",
-      "messageId": 5,
+      "category": "business",
+      "title": "نخبگان هوش مصنوعی را مثل طلا احتکار می‌کنند",
+      "postDir": "C:\\Users\\Amir\\Documents\\Qoder\\2026-11-01\\4bdef85b\\results\\outbox\\2026-11-03\\17-00",
+      "messageId": 9,
       "mode": "send_review"
     },
     "2026-11-03T20:30+03:30": {
@@ -321,6 +463,17 @@
       "dedupe_key": "nvidia-cities-physical-agentic-ai",
       "post_key": "2026-11-03/23-00",
       "at": "2026-11-03T13:48:43.565Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-03T17:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "نخبگان هوش مصنوعی را مثل طلا احتکار می‌کنند",
+      "why": "این بحث از این جهت مهمه که نگاه نخبگان به هوش مصنوعی می‌تونه تعیین کنه که مزایای اون بین بقیه مردم پخش بشه یا نه.",
+      "dedupe_key": "venkatesh-rao-ai-mercantilism-essay",
+      "post_key": "2026-11-03/17-00",
+      "at": "2026-11-03T14:35:08.012Z"
     }
   ]
 }
