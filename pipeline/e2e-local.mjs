@@ -347,7 +347,7 @@ async function main() {
       .join('\n\n')
   );
   await writeFile(resolve(outDir, 'parsed.json'), JSON.stringify(parsed, null, 2));
-  await writeFile(resolve(outDir, 'post.txt'), `${[postText(post), post.quote].filter(Boolean).join('\n\n')}\n`);
+  await writeFile(resolve(outDir, 'post.txt'), `${postText(post)}\n`);
   await writeFile(resolve(outDir, 'report.json'), JSON.stringify(report, null, 2));
   await writeFile(
     resolve(outDir, 'preview.html'),

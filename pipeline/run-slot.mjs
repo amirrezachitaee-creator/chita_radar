@@ -670,7 +670,7 @@ async function main() {
       qa: { pass: qa.pass, score: qa.score, possible: qa.possible, warnings: qa.warnings },
       createdAt: NOW,
     }, null, 2));
-    await writeFile(postFile, `${[postText(post), post.quote].filter(Boolean).join('\n\n')}\n`);
+    await writeFile(postFile, `${postText(post)}\n`);
     await writeFile(resolve(dir, 'report.json'), JSON.stringify(report, null, 2));
     await writeFile(
       resolve(dir, 'response.txt'),
@@ -704,7 +704,6 @@ async function main() {
         });
         status = 'sent';
         messageId = sent.messageId;
-        if (sent.quoteError) console.log(`  QUOTE_FAILED ${redact(sent.quoteError)}`);
       } catch (error) {
         status = 'ready';
         markSlot(state, slot.key, {

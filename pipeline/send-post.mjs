@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadEnv, makeRedactor } from './engine.mjs';
 import { captionLength, sendTelegram } from './telegram.mjs';
+import { newsDateLine } from './newstime.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const args = process.argv.slice(2);
@@ -40,6 +41,7 @@ try {
   const report = JSON.parse(await readFile(resolve(DIR, 'report.json'), 'utf8'));
   post = {
     title: parsed.title,
+    news_date: newsDateLine(report.item?.published_at || report.article?.published_at),
     body: parsed.body,
     quote: parsed.quote ?? '',
     image_url: parsed.image_url ?? '',
@@ -66,7 +68,7 @@ if (!APPLY) {
 const redact = makeRedactor(env);
 try {
   const sent = await sendTelegram(
-    { title: post.title, body: post.body, quote: post.quote },
+    { title: post.title, news_date: post.news_date, body: post.body, quote: post.quote },
     {
       token: env.TELEGRAM_BOT_TOKEN,
       chatId: env.TELEGRAM_CHAT_ID,
@@ -74,7 +76,6 @@ try {
     }
   );
   console.log(`SENT message_id=${sent.messageId}`);
-  if (sent.quoteError) console.log(`QUOTE_FAILED ${redact(sent.quoteError)}`);
 } catch (error) {
   console.error(`SEND_FAILED ${redact(error?.message)}`);
   process.exit(1);

@@ -177,6 +177,17 @@ test('the repair message still asks to shorten a body that is too long', () => {
   assert.match(message, /کوتاه/);
 });
 
+test('the repair message keeps an existing quote inside the post', () => {
+  const message = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, image_url: 'https://example.com/a.jpg', body: 'ا'.repeat(500), quote: 'جزئیات بیشتر' },
+    qa: { problems: ['caption'], warnings: [] },
+    imageUrl: 'https://example.com/a.jpg',
+  });
+  assert.match(message, /داخل همین پیام/);
+  assert.doesNotMatch(message, /بولت و quote را خالی بگذار/);
+});
+
 test('a body with no blank-line paragraph breaks is rejected', () => {
   const parsed = {
     decision: 'publish',

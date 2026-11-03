@@ -7,7 +7,8 @@ const RLM = '\u200F';
 
 export function postText(post) {
   const head = [post?.title, post?.news_date].filter(Boolean).join('\n\n');
-  return [head, post?.body].filter(Boolean).join('\n\n');
+  const main = [head, post?.body].filter(Boolean).join('\n\n');
+  return [main, post?.quote].filter(Boolean).join('\n\n');
 }
 
 export function captionLength(post) {
@@ -43,11 +44,14 @@ export function postHtml(post) {
   const title = String(post?.title ?? '').trim();
   const date = String(post?.news_date ?? '').trim();
   const body = formatBodyHtml(post?.body ?? '');
+  const quote = String(post?.quote ?? '').trim();
   const head = [
     title ? `<b>${RLM}${escapeHtml(title)}</b>` : '',
     date ? `${RLM}${escapeHtml(date)}` : '',
   ].filter(Boolean).join('\n\n');
-  return [head, body].filter(Boolean).join('\n\n');
+  const main = [head, body].filter(Boolean).join('\n\n');
+  const quoteHtml = quote ? `<blockquote expandable>${formatBodyHtml(quote)}</blockquote>` : '';
+  return [main, quoteHtml].filter(Boolean).join('\n\n');
 }
 
 function mimeFor(path) {
@@ -177,20 +181,6 @@ export async function deleteMessage(messageId, {
   }
 }
 
-async function attachQuote(result, quote, options) {  if (!quote) return result;
-  try {
-    const html = `<blockquote expandable>${formatBodyHtml(quote)}</blockquote>`;
-    const sent = await sendText(html, {
-      ...options,
-      parseMode: 'HTML',
-      replyTo: result.messageId,
-    });
-    return { ...result, quoteMessageId: sent.messageId };
-  } catch (error) {
-    return { ...result, quoteError: String(error?.message ?? error) };
-  }
-}
-
 export async function sendTelegram(post, {
   token,
   chatId,
@@ -203,13 +193,10 @@ export async function sendTelegram(post, {
   if (!chatId) throw new Error('TELEGRAM_CHAT_ID_MISSING');
   const text = postHtml(post);
   if (!text.trim()) throw new Error('EMPTY_POST');
-  const quote = String(post?.quote ?? '').trim();
-  const options = { token, chatId, baseUrl, timeoutMs, fetchImpl };
 
   if (!imagePath) {
     if (captionLength(post) > TELEGRAM_MESSAGE_LIMIT) throw new Error('MESSAGE_TOO_LONG');
-    const sent = await sendText(text, { ...options, parseMode: 'HTML' });
-    return attachQuote(sent, quote, options);
+    return sendText(text, { token, chatId, baseUrl, timeoutMs, fetchImpl, parseMode: 'HTML' });
   }
 
   if (captionLength(post) > TELEGRAM_CAPTION_LIMIT) throw new Error('CAPTION_TOO_LONG');
@@ -224,8 +211,7 @@ export async function sendTelegram(post, {
     form.set('parse_mode', 'HTML');
     form.set('photo', new Blob([buffer], { type: mimeFor(imagePath) }), basename(imagePath));
     const response = await fetchImpl(url, { method: 'POST', body: form, signal: controller.signal });
-    const sent = await readResult(response, 'sendPhoto');
-    return attachQuote(sent, quote, options);
+    return await readResult(response, 'sendPhoto');
   } catch (error) {
     if (error?.message?.startsWith('TELEGRAM_')) throw error;
     throw new Error(error?.name === 'AbortError' ? 'TELEGRAM_TIMEOUT' : 'TELEGRAM_REQUEST_FAILED');

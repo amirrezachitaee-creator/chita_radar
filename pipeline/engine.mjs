@@ -498,7 +498,7 @@ const QA_FIX_HINTS = {
   dedupe_key: 'dedupe_key فقط حروف کوچک لاتین و خط تیره باشد.',
   source_url: 'source_url باید دقیقاً همان URL ورودی باشد.',
   image_exact: 'image_url یا خالی باشد یا دقیقاً همان تصویر مجاز ورودی.',
-  caption: 'مجموع تیتر و body حداکثر ۹۰۰ کاراکتر باشد؛ جزئیات کم‌اهمیت را حذف کن، نه منبع و جمله اهمیت را.',
+  caption: 'مجموع تیتر، تاریخ خبر، body و quote حداکثر ۹۰۰ کاراکتر باشد؛ جزئیات کم‌اهمیت را حذف کن، نه منبع و جمله اهمیت را.',
   deep_with_image: 'برای پست deep تصویر نگذار.',
   image_https: 'image_url باید https باشد.',
   category_fresh: 'این آیتم برای این دسته تازه نیست؛ skip بده.',
@@ -538,8 +538,9 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
     });
   const title = String(parsed?.title ?? '');
   const body = String(parsed?.body ?? '');
+  const quote = String(parsed?.quote ?? '');
   const titleWords = title.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
-  const captionChars = visibleLength([title, newsDate].filter(Boolean).join('\n') + (body ? `\n\n${body}` : ''));
+  const captionChars = visibleLength([title, newsDate, body, quote].filter(Boolean).join('\n\n'));
   const target = CAPTION_SAFE_LIMIT - 50;
   const cut = Math.max(0, captionChars - target);
   const bodyRange = lengthBounds(parsed?.post_type) ?? lengthBounds('standard');
@@ -561,9 +562,12 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
         : `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
       : bodyLengthLimit,
     `تیتر الان ${titleWords} کلمه است؛ حداکثر ۱۲ کلمه باشد.`,
-    'خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.',
+    `خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.${quote ? ' quote را هم بعد از خط منبع و داخل همان پیام نگه دار.' : ''}`,
     'پاراگراف اهمیت باید «چرا مهم است» را با جمله‌ای تازه بگوید و شروع پست قبلی را تکرار نکند؛ خط منبع با «منبع:» و لینک همان URL ورودی.',
     'اگر جا کم آمد، فقط پاراگراف ۲ را کوتاه کن؛ اهمیت و منبع را هرگز حذف نکن.',
+    ...(imageUrl && quote
+      ? ['quote داخل همین پیام می‌ماند و به پیام جدا منتقل نمی‌شود؛ اگر با کوتاه‌کردن body جا نشد، آن را تا حدود ۲۰۰ کاراکتر کوتاه کن.']
+      : []),
     schemaBroken
       ? 'خروجی قبلی از نظر فیلدها ناقص است. همه فیلدهای لازم را دوباره پر کن: decision, reason_code, reason, category, post_type, importance, title, body, quote, key_facts (حداقل ۲ مورد), numbers, entities.companies, entities.models, entities.people, verification, source_url, image_url, dedupe_key. برای منبع خبری verification را reported بگذار؛ source_url همان URL ورودی، image_url همان تصویر مجاز ورودی، و dedupe_key حروف کوچک لاتین با خط تیره باشد.'
       : tooShort
@@ -573,7 +577,9 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
       ? 'این بازنویسی است نه ویرایش جزئی: برای رسیدن به حداقل طول، یک پاراگراف زمینه یا جزئیات مستند از منبع اضافه کن؛ از نتیجه، علت یا بزرگ‌نمایی تازه استفاده نکن.'
       : 'این بازنویسی است نه ویرایش جزئی: جمله‌های کم‌اهمیت را کامل حذف کن، نه اینکه کلمه‌ها را کوتاه کنی.',
     'فقط ۳ عدد مهم را نگه دار؛ بقیه عددها و جزئیات فرعی را حذف کن.',
-    'بولت و quote را خالی بگذار.',
+    quote
+      ? 'بولت را خالی بگذار و quote را داخل همان پست نگه دار؛ فقط در صورت کمبود جا آن را کوتاه کن.'
+      : 'بولت و quote را خالی بگذار.',
     'فقط از اطلاعات همین منبع بنویس؛ نتیجه، علت، شدت یا بزرگ‌نمایی اضافه نکن. اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
   ];
   return `${user}
@@ -626,7 +632,7 @@ export function qaPost(parsed, context) {
   const tags = ((`${body}\n${quote}`).match(/#[\p{L}\p{N}_]+/gu) || []).length;
   const type = parsed.post_type;
   const newsDate = newsDateLine(context.publishedAt);
-  const caption = [title, newsDate].filter(Boolean).join('\n') + (body ? `\n\n${body}` : '');
+  const caption = [title, newsDate, body, quote].filter(Boolean).join('\n\n');
 
   add('schema', POST_TYPES.includes(type) &&
     Number.isInteger(parsed.importance) && parsed.importance >= 1 && parsed.importance <= 5 &&

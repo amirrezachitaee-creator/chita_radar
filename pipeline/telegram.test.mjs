@@ -32,6 +32,7 @@ function startMock() {
 test('post text is title plus body without extra blank lines', () => {
   assert.equal(postText({ title: 'عنوان', body: 'متن' }), 'عنوان\n\nمتن');
   assert.equal(postText({ title: 'عنوان', body: '' }), 'عنوان');
+  assert.equal(postText({ title: 'عنوان', body: 'متن', quote: 'جزئیات' }), 'عنوان\n\nمتن\n\nجزئیات');
 });
 
 test('post html bolds the title, keeps links clickable, and cleans bullets', () => {
@@ -97,19 +98,41 @@ test('image post uses sendPhoto with HTML caption and parse mode', async () => {
   }
 });
 
-test('extra detail is sent as a reply blockquote', async () => {
+test('extra detail stays inside the same text post', async () => {
   const { server, baseUrl, requests } = await startMock();
   try {
     const result = await sendTelegram(
       { title: 'عنوان', body: 'متن اصلی', quote: 'توضیح مفصل‌تر در کتیشن' },
       { token: 'TEST', chatId: '1', baseUrl }
     );
-    assert.equal(requests.length, 2);
-    assert.equal(result.quoteMessageId, 44);
-    const payload = JSON.parse(requests[1].body.toString('utf8'));
+    assert.equal(result.method, 'sendMessage');
+    assert.equal(requests.length, 1);
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
     assert.equal(payload.parse_mode, 'HTML');
-    assert.equal(payload.text, '<blockquote expandable>\u200Fتوضیح مفصل‌تر در کتیشن</blockquote>');
-    assert.equal(payload.reply_parameters.message_id, 43);
+    assert.ok(payload.text.includes('<blockquote expandable>'));
+    assert.ok(payload.text.includes('توضیح مفصل‌تر در کتیشن'));
+    assert.equal('reply_parameters' in payload, false);
+  } finally {
+    server.close();
+  }
+});
+
+test('extra detail stays inside the image caption', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  const dir = await mkdtemp(join(tmpdir(), 'qoder-photo-quote-'));
+  const imagePath = join(dir, 'image.png');
+  await writeFile(imagePath, Buffer.from('89504e470d0a1a0a', 'hex'));
+  try {
+    const result = await sendTelegram(
+      { title: 'عنوان', body: 'متن اصلی', quote: 'توضیح کوتاه' },
+      { token: 'TEST', chatId: '1', baseUrl, imagePath }
+    );
+    assert.equal(result.method, 'sendPhoto');
+    assert.equal(requests.length, 1);
+    const body = requests[0].body.toString('utf8');
+    assert.ok(body.includes('<blockquote expandable>'));
+    assert.ok(body.includes('توضیح کوتاه'));
+    assert.equal(body.includes('reply_parameters'), false);
   } finally {
     server.close();
   }

@@ -73,6 +73,19 @@ test('QA checks the date line and reserves caption space for it', () => {
   assert.ok(overflowing.problems.includes('caption'));
 });
 
+test('QA counts the quote in the image caption budget', () => {
+  const withoutQuote = qaPost({ ...basePost, title: 'تیتر خبر', body: 'ا'.repeat(540) }, context);
+  assert.equal(withoutQuote.checks.find((check) => check.name === 'caption').ok, true);
+
+  const withQuote = qaPost(
+    { ...basePost, title: 'تیتر خبر', body: 'ا'.repeat(540), quote: 'ا'.repeat(330) },
+    context
+  );
+  const captionCheck = withQuote.checks.find((check) => check.name === 'caption');
+  assert.equal(captionCheck.ok, false);
+  assert.ok(withQuote.problems.includes('caption'));
+});
+
 test('QA has no date line when the timestamp is invalid', () => {
   const qa = qaPost({ ...basePost, title: 'تیتر خبر', body: 'ا'.repeat(500) }, { ...context, publishedAt: '' });
   const dateCheck = qa.checks.find((check) => check.name === 'news_date');
