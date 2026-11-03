@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T13:02:05.360Z",
+  "updatedAt": "2026-11-03T13:29:13.735Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -87,18 +87,18 @@
       "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them"
     },
     "url:68284f46466970f3": {
-      "at": "2026-11-03T13:02:05.360Z",
+      "at": "2026-11-03T13:29:13.733Z",
       "decision": "publish",
-      "category": "models",
-      "slot": "2026-11-03T17:00+03:30",
+      "category": "tools",
+      "slot": "2026-11-03T20:30+03:30",
       "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
       "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations"
     },
     "title:68d76376dd726da3": {
-      "at": "2026-11-03T13:02:05.360Z",
+      "at": "2026-11-03T13:29:13.733Z",
       "decision": "publish",
-      "category": "models",
-      "slot": "2026-11-03T17:00+03:30",
+      "category": "tools",
+      "slot": "2026-11-03T20:30+03:30",
       "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
       "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations"
     }
@@ -130,6 +130,15 @@
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-03/17-00",
       "messageId": 5,
       "mode": "send_review"
+    },
+    "2026-11-03T20:30+03:30": {
+      "at": "2026-11-03T13:29:13.733Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "Message Threads آنتروپیک، زمان پاسخ را ۳۵ درصد کم کرد",
+      "postDir": "C:\\Users\\Amir\\Documents\\Qoder\\2026-11-01\\4bdef85b\\results\\outbox\\2026-11-03\\20-30",
+      "messageId": 6,
+      "mode": "send_review"
     }
   },
   "published": [
@@ -142,17 +151,6 @@
       "dedupe_key": "omen-ai-aquatic-labs-acquisition",
       "post_key": "2026-11-02/20-30",
       "at": "2026-11-02T16:58:19.725Z"
-    },
-    {
-      "week": "2026-10-31",
-      "slot": "2026-11-03Tmanual",
-      "category": "business",
-      "kind": "news",
-      "title": "درآمد آنتروپیک ۱۲ برابر شد، اما ضرر ۲۳ میلیارد دلاری ثبت کرد",
-      "dedupe_key": "anthropic-ipo-loss",
-      "post_key": "manual/2026-11-03",
-      "at": "2026-11-02T22:33:19.353Z",
-      "why": "این موضوع از اونجایی مهمه که هزینه‌های سنگین روی عرضه اولیه سهام فشار میاره؛ عرضه‌ای که می‌تونه حدود ۱۰۰ میلیارد دلار جذب کنه."
     },
     {
       "week": "2026-10-31",
@@ -175,6 +173,28 @@
       "dedupe_key": "anthropic-message-threads-beta",
       "post_key": "2026-11-03/17-00",
       "at": "2026-11-03T13:02:05.360Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-03T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "Message Threads آنتروپیک، زمان پاسخ را ۳۵ درصد کم کرد",
+      "why": "این تغییر از این جهت مهمه که برای مکالمات طولانی، سرعت پاسخ‌دهی به‌طور محسوسی بالا می‌ره و تجربه کار با عامل‌های هوش مصنوعی روان‌تر می‌شه.",
+      "dedupe_key": "anthropic-message-threads-beta",
+      "post_key": "2026-11-03/20-30",
+      "at": "2026-11-03T13:29:13.734Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-03Tmanual",
+      "category": "business",
+      "kind": "news",
+      "title": "درآمد آنتروپیک ۱۲ برابر شد، اما ضرر ۲۳ میلیارد دلاری ثبت کرد",
+      "dedupe_key": "anthropic-ipo-loss",
+      "post_key": "manual/2026-11-03",
+      "at": "2026-11-02T22:33:19.353Z",
+      "why": "این موضوع از اونجایی مهمه که هزینه‌های سنگین روی عرضه اولیه سهام فشار میاره؛ عرضه‌ای که می‌تونه حدود ۱۰۰ میلیارد دلار جذب کنه."
     }
   ]
 }
