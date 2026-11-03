@@ -47,6 +47,18 @@ test('an early trigger keeps the upcoming slot', () => {
   assert.equal(result.slot, '08:30');
 });
 
+test('a five-minute window accepts a trigger inside the window', () => {
+  const result = resolveSlot('2026-11-02T04:56:00Z', { slots: SLOTS, earlyMinutes: 5 });
+  assert.equal(result.ready, true);
+  assert.equal(result.slot, '08:30');
+});
+
+test('a five-minute window does not take the next slot ten minutes early', () => {
+  const result = resolveSlot('2026-11-02T07:50:00Z', { slots: SLOTS, earlyMinutes: 5 });
+  assert.equal(result.ready, false);
+  assert.equal(result.next.slot, '11:30');
+});
+
 test('a late trigger inside the grace window still uses the slot', () => {
   const result = resolveSlot('2026-11-02T06:30:00Z', { slots: SLOTS });
   assert.equal(result.ready, true);

@@ -61,7 +61,8 @@ const NO_TELEGRAM = flag('--no-telegram');
 const MAX_CANDIDATES = Number(option('--max-candidates', '4'));
 const PER_SOURCE = Number(option('--per-source', '12'));
 const MIN_CONTENT = Number(option('--min-content', '300'));
-const EARLY_MINUTES = Number(option('--early-minutes', '30'));
+// Keep the early window small so a delayed run cannot take the next slot early.
+const EARLY_MINUTES = Number(option('--early-minutes', '5'));
 const LATE_MINUTES = Number(option('--late-minutes', '90'));
 const SOURCE_FILTER = option('--sources', '')
   .split(',')
