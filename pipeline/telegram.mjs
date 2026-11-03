@@ -6,7 +6,7 @@ export const TELEGRAM_MESSAGE_LIMIT = 4096;
 const RLM = '\u200F';
 
 export function postText(post) {
-  const head = [post?.title, post?.news_date].filter(Boolean).join('\n');
+  const head = [post?.title, post?.news_date].filter(Boolean).join('\n\n');
   return [head, post?.body].filter(Boolean).join('\n\n');
 }
 
@@ -46,7 +46,7 @@ export function postHtml(post) {
   const head = [
     title ? `<b>${RLM}${escapeHtml(title)}</b>` : '',
     date ? `${RLM}${escapeHtml(date)}` : '',
-  ].filter(Boolean).join('\n');
+  ].filter(Boolean).join('\n\n');
   return [head, body].filter(Boolean).join('\n\n');
 }
 

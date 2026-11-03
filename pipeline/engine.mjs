@@ -461,10 +461,19 @@ export function normalizePostFields(parsed) {
   return { ...parsed, title: String(parsed.title ?? '').trim(), body, quote };
 }
 
-export function lengthOk(type, length) {
+function lengthBounds(type) {
   const range = RANGES[type];
-  if (!range) return false;
-  return length >= range[0] * 0.9 && length <= range[1] * 1.1;
+  if (!range) return null;
+  return {
+    min: Math.ceil(range[0] * 0.9),
+    max: Math.floor(range[1] * 1.1),
+  };
+}
+
+export function lengthOk(type, length) {
+  const bounds = lengthBounds(type);
+  if (!bounds) return false;
+  return length >= bounds.min && length <= bounds.max;
 }
 
 const QA_FIX_HINTS = {
@@ -533,20 +542,36 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
   const captionChars = visibleLength([title, newsDate].filter(Boolean).join('\n') + (body ? `\n\n${body}` : ''));
   const target = CAPTION_SAFE_LIMIT - 50;
   const cut = Math.max(0, captionChars - target);
+  const bodyRange = lengthBounds(parsed?.post_type) ?? lengthBounds('standard');
+  const minBody = bodyRange.min;
+  const maxBody = bodyRange.max;
+  const bodyChars = body.length;
+  const lengthProblem = problemNames.includes('length');
+  const tooShort = lengthProblem && bodyChars < minBody;
+  const tooLong = lengthProblem && bodyChars > maxBody;
+  const bodyLengthLimit = tooShort
+    ? `طول body الان ${bodyChars} کاراکتر است؛ برای ${parsed?.post_type} حداقل ${minBody} کاراکتر لازم است. آن را با جزئیات مستند منبع به حدود ${minBody + 80} کاراکتر برسان.`
+    : tooLong
+      ? `طول body الان ${bodyChars} کاراکتر است؛ برای ${parsed?.post_type} حداکثر ${maxBody} کاراکتر مجاز است. آن را به حدود ${maxBody - 40} کاراکتر برسان.`
+      : 'طول body با post_type بخواند.';
   const limits = [
     imageUrl
       ? captionChars > target
         ? `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است؛ باید حداکثر ${target} کاراکتر شود، یعنی حدود ${cut} کاراکتر کوتاه‌تر. خط منبع هم داخل همین حساب است.`
         : `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
-      : 'طول body با post_type بخواند.',
+      : bodyLengthLimit,
     `تیتر الان ${titleWords} کلمه است؛ حداکثر ۱۲ کلمه باشد.`,
     'خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.',
     'پاراگراف اهمیت باید «چرا مهم است» را با جمله‌ای تازه بگوید و شروع پست قبلی را تکرار نکند؛ خط منبع با «منبع:» و لینک همان URL ورودی.',
     'اگر جا کم آمد، فقط پاراگراف ۲ را کوتاه کن؛ اهمیت و منبع را هرگز حذف نکن.',
     schemaBroken
       ? 'خروجی قبلی از نظر فیلدها ناقص است. همه فیلدهای لازم را دوباره پر کن: decision, reason_code, reason, category, post_type, importance, title, body, quote, key_facts (حداقل ۲ مورد), numbers, entities.companies, entities.models, entities.people, verification, source_url, image_url, dedupe_key. برای منبع خبری verification را reported بگذار؛ source_url همان URL ورودی، image_url همان تصویر مجاز ورودی، و dedupe_key حروف کوچک لاتین با خط تیره باشد.'
-      : 'فقط title و body را کوتاه کن؛ بقیه فیلدها را دقیقاً از خروجی قبلی نگه دار و key_facts و entities را خالی نکن.',
-    'این بازنویسی است نه ویرایش جزئی: جمله‌های کم‌اهمیت را کامل حذف کن، نه اینکه کلمه‌ها را کوتاه کنی.',
+      : tooShort
+        ? 'فقط title و body را اصلاح کن؛ body را گسترش بده و بقیه فیلدها را دقیقاً از خروجی قبلی نگه دار و key_facts و entities را خالی نکن.'
+        : 'فقط title و body را کوتاه کن؛ بقیه فیلدها را دقیقاً از خروجی قبلی نگه دار و key_facts و entities را خالی نکن.',
+    tooShort
+      ? 'این بازنویسی است نه ویرایش جزئی: برای رسیدن به حداقل طول، یک پاراگراف زمینه یا جزئیات مستند از منبع اضافه کن؛ از نتیجه، علت یا بزرگ‌نمایی تازه استفاده نکن.'
+      : 'این بازنویسی است نه ویرایش جزئی: جمله‌های کم‌اهمیت را کامل حذف کن، نه اینکه کلمه‌ها را کوتاه کنی.',
     'فقط ۳ عدد مهم را نگه دار؛ بقیه عددها و جزئیات فرعی را حذف کن.',
     'بولت و quote را خالی بگذار.',
     'فقط از اطلاعات همین منبع بنویس؛ نتیجه، علت، شدت یا بزرگ‌نمایی اضافه نکن. اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
@@ -652,7 +677,7 @@ export function qaPost(parsed, context) {
   add('source', /منبع/.test(body) || body.includes(context.host) || body.includes(context.url));
   add('no_signature', !body.includes('✉️') && !quote.includes('✉️'));
   add('hashtags', tags === 0);
-  add('length', lengthOk(type, body.length));
+  add('length', lengthOk(type, body.length), `${body.length}`);
   add('no_banned', !BANNED.some((phrase) => body.includes(phrase)) && !BANNED.some((phrase) => quote.includes(phrase)));
   const proseForStyle = `${body}\n${quote}`
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
@@ -791,7 +816,7 @@ export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, so
   .content { padding: 20px 22px 24px; }
   h1 { font-size: 24px; line-height: 1.5; margin: 0 0 14px; }
   .caption { white-space: normal; line-height: 2; font-size: 17px; }
-  .date { margin: -6px 0 14px; color: #5b6b7d; font-size: 14px; }
+  .date { margin: 0 0 14px; color: #5b6b7d; font-size: 14px; }
   .caption a { color: #0b63c5; }
   .quote { margin-top: 16px; padding: 12px 16px; border-right: 4px solid #9fb4cc; background: #f4f7fb; border-radius: 8px; line-height: 2; font-size: 16px; }
   .source { margin-top: 18px; font-size: 13px; color: #5b6b7d; word-break: break-all; }

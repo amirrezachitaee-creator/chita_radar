@@ -18,5 +18,5 @@ export function newsDate(value) {
 
 export function newsDateLine(value) {
   const date = newsDate(value);
-  return date ? `تاریخ خبر: ${date}` : '';
+  return date ? `📅 تاریخ خبر: ${date}` : '';
 }

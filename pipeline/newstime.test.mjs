@@ -8,7 +8,7 @@ const RLM = '\u200F';
 
 test('the shamsi date uses the article timestamp in Tehran', () => {
   assert.equal(newsDate('2026-11-03T12:35:49Z'), 'سه‌شنبه ۱۲ آبان ۱۴۰۵');
-  assert.equal(newsDateLine('2026-11-03T12:35:49Z'), 'تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵');
+  assert.equal(newsDateLine('2026-11-03T12:35:49Z'), '📅 تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵');
 });
 
 test('the shamsi date rolls over at Tehran midnight', () => {
@@ -22,12 +22,12 @@ test('a missing or invalid timestamp has no date line', () => {
   assert.equal(newsDateLine(''), '');
 });
 
-const newsDateLineSample = 'تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵';
+const newsDateLineSample = '📅 تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵';
 
 test('the date line sits under the title and counts toward the caption', () => {
   const post = { title: 'عنوان', news_date: newsDateLineSample, body: 'متن' };
-  assert.equal(postText(post), `عنوان\n${newsDateLineSample}\n\nمتن`);
-  assert.ok(postHtml(post).includes(`</b>\n${RLM}${newsDateLineSample}\n\n${RLM}متن`));
+  assert.equal(postText(post), `عنوان\n\n${newsDateLineSample}\n\nمتن`);
+  assert.ok(postHtml(post).includes(`</b>\n\n${RLM}${newsDateLineSample}\n\n${RLM}متن`));
   assert.equal(captionLength(post), postText(post).length);
 });
 
@@ -63,7 +63,7 @@ test('QA checks the date line and reserves caption space for it', () => {
   const dateCheck = passing.checks.find((check) => check.name === 'news_date');
   assert.equal(dateCheck.ok, true);
   assert.equal(dateCheck.hard, false);
-  assert.equal(dateCheck.detail, 'تاریخ خبر: دوشنبه ۱۱ آبان ۱۴۰۵');
+  assert.equal(dateCheck.detail, '📅 تاریخ خبر: دوشنبه ۱۱ آبان ۱۴۰۵');
   const passingCaption = passing.checks.find((check) => check.name === 'caption');
   assert.equal(passingCaption.ok, true);
 

@@ -6,6 +6,7 @@ import {
   qaPost,
   clampText,
   buildUserMessage,
+  buildQaRepairMessage,
   callModel,
   callWithRetry,
 } from './engine.mjs';
@@ -137,6 +138,43 @@ test('callWithRetry stops at once on an auth error so the fallback can start', a
   } finally {
     globalThis.fetch = original;
   }
+});
+
+const repairPost = {
+  decision: 'publish',
+  category: 'models',
+  post_type: 'standard',
+  importance: 3,
+  quote: '',
+  key_facts: ['یک', 'دو'],
+  numbers: [],
+  entities: { companies: [], models: [] },
+  verification: 'reported',
+  source_url: 'https://example.com',
+  image_url: '',
+  dedupe_key: 'repair-length-test',
+  title: 'تیتر خبر',
+};
+
+test('the repair message asks to expand a body that is too short', () => {
+  const message = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, body: 'ا'.repeat(300) },
+    qa: { problems: ['length'], warnings: [] },
+  });
+  assert.match(message, /حداقل 360 کاراکتر/);
+  assert.match(message, /گسترش/);
+  assert.doesNotMatch(message, /فقط title و body را کوتاه کن/);
+});
+
+test('the repair message still asks to shorten a body that is too long', () => {
+  const message = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, body: 'ا'.repeat(1100) },
+    qa: { problems: ['length'], warnings: [] },
+  });
+  assert.match(message, /حداکثر 990 کاراکتر/);
+  assert.match(message, /کوتاه/);
 });
 
 test('a body with no blank-line paragraph breaks is rejected', () => {
