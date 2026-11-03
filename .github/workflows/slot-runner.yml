@@ -72,6 +72,9 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Test env
+        run: printf 'AMD_API_KEY=test\n' > .env
+
       - name: Test
         run: node --test pipeline/*.test.mjs
 
