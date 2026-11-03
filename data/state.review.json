@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T13:29:13.735Z",
+  "updatedAt": "2026-11-03T13:48:43.566Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -101,6 +101,112 @@
       "slot": "2026-11-03T20:30+03:30",
       "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
       "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations"
+    },
+    "url:e449cbc152068e60": {
+      "at": "2026-11-03T13:39:34.995Z",
+      "decision": "qa_failed",
+      "reason": "length",
+      "category": "business",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Nvidia pushes cloud customers to cut back on China business",
+      "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business"
+    },
+    "title:e85127ddf3df81b4": {
+      "at": "2026-11-03T13:39:34.995Z",
+      "decision": "qa_failed",
+      "reason": "length",
+      "category": "business",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Nvidia pushes cloud customers to cut back on China business",
+      "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business"
+    },
+    "url:53bdbae8745ae4db": {
+      "at": "2026-11-03T13:40:45.452Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "business",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market",
+      "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market"
+    },
+    "title:ff5fd08ccbaabde2": {
+      "at": "2026-11-03T13:40:45.452Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "business",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Huawei tells customers to find their own AI chip memory, effectively outsourcing procurement to the black market",
+      "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market"
+    },
+    "url:470a998b1a8d8ded": {
+      "at": "2026-11-03T13:42:04.305Z",
+      "decision": "qa_failed",
+      "reason": "title_words,length,caption",
+      "category": "security",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security",
+      "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security"
+    },
+    "title:f21f62b52de33752": {
+      "at": "2026-11-03T13:42:04.305Z",
+      "decision": "qa_failed",
+      "reason": "title_words,length,caption",
+      "category": "security",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security",
+      "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security"
+    },
+    "url:6cb04e97391f407a": {
+      "at": "2026-11-03T13:43:43.974Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "tools",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs"
+    },
+    "title:a59dd8d818b5ada5": {
+      "at": "2026-11-03T13:43:43.974Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "tools",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs"
+    },
+    "url:b0b84c07d575e9f9": {
+      "at": "2026-11-03T13:47:30.093Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "tools",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing"
+    },
+    "title:ceea7a03c3868418": {
+      "at": "2026-11-03T13:47:30.093Z",
+      "decision": "qa_failed",
+      "reason": "length,caption",
+      "category": "tools",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing"
+    },
+    "url:2eec94a2d2923fe4": {
+      "at": "2026-11-03T13:48:43.565Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications"
+    },
+    "title:8608b373007b76b6": {
+      "at": "2026-11-03T13:48:43.565Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-03T23:00+03:30",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications"
     }
   },
   "slots": {
@@ -138,6 +244,15 @@
       "title": "Message Threads آنتروپیک، زمان پاسخ را ۳۵ درصد کم کرد",
       "postDir": "C:\\Users\\Amir\\Documents\\Qoder\\2026-11-01\\4bdef85b\\results\\outbox\\2026-11-03\\20-30",
       "messageId": 6,
+      "mode": "send_review"
+    },
+    "2026-11-03T23:00+03:30": {
+      "at": "2026-11-03T13:48:43.564Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "انویدیا هوش مصنوعی فیزیکی و عامل‌ها را به شهرها می‌آورد",
+      "postDir": "C:\\Users\\Amir\\Documents\\Qoder\\2026-11-01\\4bdef85b\\results\\outbox\\2026-11-03\\23-00",
+      "messageId": 7,
       "mode": "send_review"
     }
   },
@@ -195,6 +310,17 @@
       "post_key": "manual/2026-11-03",
       "at": "2026-11-02T22:33:19.353Z",
       "why": "این موضوع از اونجایی مهمه که هزینه‌های سنگین روی عرضه اولیه سهام فشار میاره؛ عرضه‌ای که می‌تونه حدود ۱۰۰ میلیارد دلار جذب کنه."
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-03T23:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "انویدیا هوش مصنوعی فیزیکی و عامل‌ها را به شهرها می‌آورد",
+      "why": "شهرها برای شروع به سرمایه‌گذاری عظیم نیاز ندارن؛ بسته به حجم کار، یه ایستگاه کاری RTX یا یه سیستم GPU کوچیک کافیه. این یعنی شهرهای کوچیک هم می‌تونن خدمات هوشمند رو بدون خریدن زیرساخت سنگین اجرا کنن.",
+      "dedupe_key": "nvidia-cities-physical-agentic-ai",
+      "post_key": "2026-11-03/23-00",
+      "at": "2026-11-03T13:48:43.565Z"
     }
   ]
 }
