@@ -35,6 +35,23 @@ test('post text is title plus body without extra blank lines', () => {
   assert.equal(postText({ title: 'عنوان', body: 'متن', quote: 'جزئیات' }), 'عنوان\n\nمتن\n\nجزئیات');
 });
 
+test('a quote sits above the source line', () => {
+  const post = {
+    title: 'عنوان',
+    body: 'متن اصلی\n\nمنبع: [منبع](https://example.com/a)',
+    quote: 'جزئیات',
+  };
+  assert.equal(
+    postText(post),
+    'عنوان\n\nمتن اصلی\n\nجزئیات\n\nمنبع: [منبع](https://example.com/a)'
+  );
+  const html = postHtml(post);
+  const quoteAt = html.indexOf('<blockquote');
+  const sourceAt = html.indexOf('منبع:');
+  assert.ok(quoteAt > 0);
+  assert.ok(quoteAt < sourceAt);
+});
+
 test('post html bolds the title, keeps links clickable, and cleans bullets', () => {
   const html = postHtml({
     title: 'عنوان <تست>',

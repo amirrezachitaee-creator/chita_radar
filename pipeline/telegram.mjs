@@ -5,10 +5,28 @@ export const TELEGRAM_CAPTION_LIMIT = 1024;
 export const TELEGRAM_MESSAGE_LIMIT = 4096;
 const RLM = '\u200F';
 
+function splitSource(body) {
+  const text = String(body ?? '').trimEnd();
+  if (!text) return { body: '', source: '', separator: '\n\n' };
+  const lines = text.split('\n');
+  const lastIndex = lines.findLastIndex((line) => line.trim());
+  if (lastIndex < 0 || !/^منبع\s*[:：]/u.test(lines[lastIndex].trim())) {
+    return { body: text, source: '', separator: '\n\n' };
+  }
+  const before = lines.slice(0, lastIndex).join('\n').trimEnd();
+  const separator = !before || !lines[lastIndex - 1]?.trim() ? '\n\n' : '\n';
+  return {
+    body: before,
+    source: lines[lastIndex].trim(),
+    separator,
+  };
+}
+
 export function postText(post) {
   const head = [post?.title, post?.news_date].filter(Boolean).join('\n\n');
-  const main = [head, post?.body].filter(Boolean).join('\n\n');
-  return [main, post?.quote].filter(Boolean).join('\n\n');
+  const { body, source, separator } = splitSource(post?.body);
+  const main = [head, body, post?.quote].filter(Boolean).join('\n\n');
+  return source ? `${main}${separator}${source}` : main;
 }
 
 export function captionLength(post) {
@@ -43,15 +61,17 @@ export function formatBodyHtml(body) {
 export function postHtml(post) {
   const title = String(post?.title ?? '').trim();
   const date = String(post?.news_date ?? '').trim();
-  const body = formatBodyHtml(post?.body ?? '');
+  const { body, source, separator } = splitSource(post?.body);
+  const bodyHtml = formatBodyHtml(body);
+  const sourceHtml = formatBodyHtml(source);
   const quote = String(post?.quote ?? '').trim();
   const head = [
     title ? `<b>${RLM}${escapeHtml(title)}</b>` : '',
     date ? `${RLM}${escapeHtml(date)}` : '',
   ].filter(Boolean).join('\n\n');
-  const main = [head, body].filter(Boolean).join('\n\n');
   const quoteHtml = quote ? `<blockquote expandable>${formatBodyHtml(quote)}</blockquote>` : '';
-  return [main, quoteHtml].filter(Boolean).join('\n\n');
+  const main = [head, bodyHtml, quoteHtml].filter(Boolean).join('\n\n');
+  return sourceHtml ? `${main}${separator}${sourceHtml}` : main;
 }
 
 function mimeFor(path) {

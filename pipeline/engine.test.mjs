@@ -1,6 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  applyLeadPolicy,
+  ensureSourceLine,
+  fitCaption,
   imageVerdict,
   normalizePostFields,
   qaPost,
@@ -10,6 +13,23 @@ import {
   callModel,
   callWithRetry,
 } from './engine.mjs';
+
+test('an over-limit image caption drops the quote before the image', () => {
+  const body = 'م'.repeat(850);
+  const date = '📅 تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵';
+  const base = {
+    decision: 'publish',
+    title: 'عنوان',
+    body,
+    quote: 'ط'.repeat(100),
+    image_url: 'https://example.com/a.jpg',
+  };
+  const withQuote = fitCaption(base, date);
+  assert.equal(withQuote.quote, '');
+  assert.equal(withQuote.image_url, base.image_url);
+  const withoutImage = fitCaption({ ...base, quote: '' }, `${date} ${'x'.repeat(80)}`);
+  assert.equal(withoutImage.image_url, '');
+});
 
 test('image policy rejects logos and stock files even with underscore names', () => {
   assert.equal(imageVerdict('https://example.com/goldman_sachs_logo.png').ok, false);
@@ -25,6 +45,20 @@ test('the old why label is rewritten into a natural sentence', () => {
   });
   assert.ok(normalized.body.includes('اهمیتش اینه که این تصمیم هزینه تیم‌ها را کم می‌کند.'));
   assert.equal(normalized.body.includes('چرا مهمه:'), false);
+});
+
+test('an official course lead is always routed to tools', () => {
+  const parsed = { decision: 'publish', category: 'education' };
+  assert.equal(applyLeadPolicy(parsed, { officialCourse: true }).category, 'tools');
+  assert.equal(applyLeadPolicy(parsed, {}).category, 'education');
+  assert.equal(
+    applyLeadPolicy({ decision: 'skip', category: 'education' }, { officialCourse: true }).category,
+    'education'
+  );
+  assert.equal(
+    applyLeadPolicy({ decision: 'publish', category: 'models' }, { officialCourse: true }).category,
+    'tools'
+  );
 });
 
 test('quote is trimmed and kept as a separate field', () => {
@@ -84,6 +118,59 @@ test('repeating the previous importance opener is only a soft warning', () => {
     body: 'لید خبر.\n\nاهمیتش اینه که هزینه‌ها روی عرضه اولیه فشار میاره.\n\nمنبع: [منبع](https://example.com)',
   }, context);
   assert.equal(varied.warnings.includes('why_repeat'), false);
+  const implicit = qaPost({
+    ...base,
+    body: 'لید خبر.\n\nبا این کار، تیم‌های کوچک هم می‌تونن مدل سنگین رو اجرا کنن.\n\nمنبع: [منبع](https://example.com)',
+  }, { ...context, previousWhy: '' });
+  assert.equal(implicit.problems.includes('why'), false);
+});
+
+test('a missing source line is appended and source QA checks the last line', () => {
+  const body = 'لید خبر.\n\nهوش منبعی کمیاب است.\n\nاهمیتش اینه که دسترسی برای همه مهمه.';
+  const fixed = ensureSourceLine(
+    { decision: 'publish', body },
+    { sourceName: 'The Decoder', sourceUrl: 'https://example.com/a' }
+  );
+  assert.ok(fixed.body.endsWith('منبع: [The Decoder](https://example.com/a)'));
+  const already = ensureSourceLine(
+    { decision: 'publish', body: `${body}\n\nمنبع: [The Decoder](https://example.com/a)` },
+    { sourceName: 'The Decoder', sourceUrl: 'https://example.com/a' }
+  );
+  assert.ok(already.body.endsWith('منبع: [The Decoder](https://example.com/a)'));
+  assert.equal(already.body.match(/https:\/\/example\.com\/a/g).length, 1);
+
+  const base = {
+    decision: 'publish',
+    category: 'business',
+    post_type: 'standard',
+    importance: 4,
+    title: 'خبر کوتاه',
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [], people: [] },
+    verification: 'reported',
+    source_url: 'https://example.com/a',
+    image_url: '',
+    dedupe_key: 'test-source-line',
+  };
+  const context = {
+    url: 'https://example.com/a',
+    host: 'example.com',
+    sourceType: 'news',
+    category: 'business',
+    imageUrl: '',
+    title: 'خبر کوتاه',
+    description: '',
+    content: '',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+    previousWhy: '',
+  };
+  const missing = qaPost({ ...base, body }, context);
+  assert.equal(missing.checks.find((check) => check.name === 'source').ok, false);
+  const present = qaPost({ ...base, body: `${body}\n\nمنبع: [The Decoder](https://example.com/a)` }, context);
+  assert.equal(present.checks.find((check) => check.name === 'source').ok, true);
 });
 
 test('clampText cuts long input at a word boundary for small-context writers', () => {
@@ -94,6 +181,21 @@ test('clampText cuts long input at a word boundary for small-context writers', (
   assert.equal(out.includes('پنج شش'), false);
   assert.equal(clampText('کوتاه', 100), 'کوتاه');
   assert.equal(clampText('هر چه', 0), 'هر چه');
+});
+
+test('an official course input carries the news policy to the writer', () => {
+  const article = { title: 'Claude Academy', published: '2026-11-03', content: 'دوره رسمی', imageAlt: '' };
+  const story = {
+    item: { title: 'Claude Academy', published: '2026-11-03' },
+    article,
+    url: 'https://www.anthropic.com/learn/claude',
+    now: '2026-11-03',
+  };
+  const withCourse = buildUserMessage({ ...story, officialCourse: true });
+  const withoutCourse = buildUserMessage(story);
+  assert.ok(withCourse.includes('دوره رسمی از خود شرکت'));
+  assert.ok(withCourse.includes('reason_code promo'));
+  assert.equal(withoutCourse.includes('دوره رسمی از خود شرکت'), false);
 });
 
 test('buildUserMessage can clamp the article for the emergency writer', () => {
@@ -201,6 +303,55 @@ test('the repair message keeps an existing quote inside the post', () => {
   assert.doesNotMatch(message, /بولت و quote را خالی بگذار/);
 });
 
+test('a tools use case counts as the importance and a missing why never blocks the post', () => {
+  const base = {
+    decision: 'publish',
+    category: 'tools',
+    post_type: 'standard',
+    importance: 4,
+    title: 'ابزار تازه برای ایجنت‌ها',
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [], people: [] },
+    verification: 'reported',
+    source_url: 'https://example.com/tool',
+    image_url: '',
+    dedupe_key: 'test-why-tools',
+  };
+  const context = {
+    url: 'https://example.com/tool',
+    host: 'example.com',
+    sourceType: 'news',
+    category: 'tools',
+    imageUrl: '',
+    title: 'ابزار تازه برای ایجنت‌ها',
+    description: '',
+    content: '',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+    previousWhy: '',
+  };
+  const tools = qaPost(
+    { ...base, body: 'لید خبر.\n\nبرای اجراش به یک سرور ساده نیاز دارید.\n\nمنبع: [منبع](https://example.com/tool)' },
+    context
+  );
+  assert.equal(tools.problems.includes('why'), false);
+  assert.equal(tools.warnings.includes('why'), false);
+  assert.equal(tools.checks.find((check) => check.name === 'why').hard, false);
+
+  const business = qaPost(
+    {
+      ...base,
+      category: 'business',
+      body: 'لید خبر.\n\nاین ابزار روی یک سرور معمولی اجرا می‌شه.\n\nمنبع: [منبع](https://example.com/tool)',
+    },
+    { ...context, category: 'business' }
+  );
+  assert.equal(business.problems.includes('why'), false);
+  assert.equal(business.warnings.includes('why'), true);
+});
+
 test('a body with no blank-line paragraph breaks is rejected', () => {
   const parsed = {
     decision: 'publish',
@@ -231,4 +382,36 @@ test('a body with no blank-line paragraph breaks is rejected', () => {
     now: new Date().toISOString(),
   });
   assert.ok(qa.problems.includes('body_paragraphs'));
+});
+
+test('a post containing Chinese characters fails QA', () => {
+  const parsed = {
+    decision: 'publish',
+    category: 'tools',
+    post_type: 'standard',
+    importance: 4,
+    title: 'ابزار تازه',
+    body: 'لید خبر و جزئیات.\n\nاهمیتش اینه که کار ساده‌تر می‌شه.\n\nمنبع: [منبع](https://example.com)',
+    quote: 'حساب提供商 خود را وصل کنید.',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [], people: [] },
+    verification: 'reported',
+    source_url: 'https://example.com',
+    image_url: '',
+    dedupe_key: 'test-script',
+  };
+  const qa = qaPost(parsed, {
+    url: 'https://example.com',
+    host: 'example.com',
+    sourceType: 'news',
+    category: 'tools',
+    imageUrl: '',
+    title: 'ابزار تازه',
+    description: '',
+    content: '',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+  });
+  assert.ok(qa.problems.includes('script_clean'));
 });

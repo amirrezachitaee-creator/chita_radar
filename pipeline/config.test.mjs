@@ -182,6 +182,70 @@ test('news sources and vendor registry do not overlap', () => {
   }
 });
 
+test('telegram discovery is lead-only, starts today and keeps the filter', () => {
+  const telegram = sources.sources.filter((source) => source.type === 'telegram_channel');
+  assert.equal(telegram.length, 15);
+  assert.deepEqual(
+    telegram.map((source) => source.username).sort(),
+    [
+      'ArchiveTell',
+      'Mohammad_zammani',
+      'Sajadverse',
+      'ai_farshad',
+      'aibysadeghi',
+      'asrnovin_ir',
+      'codecloude',
+      'dunijet_ai',
+      'marketing_aida',
+      'mgh_mobin',
+      'miladxtalks',
+      'pedramgholizadeh',
+      'shayanode',
+      'techiin_ir',
+      'web3nabu',
+    ].sort()
+  );
+  assert.equal(new Set(telegram.map((source) => source.username.toLowerCase())).size, 15);
+  for (const source of telegram) {
+    assert.equal(source.use, 'lead_only', `${source.id} must be lead_only`);
+    assert.equal(source.status, 'verified', `${source.id} must be verified`);
+    assert.match(source.url, /^https:\/\/t\.me\//, `${source.id} is not a telegram link`);
+    assert.match(source.username, /^[A-Za-z0-9_]+$/, `${source.id} has a bad username`);
+    assert.equal(source.feed_url, undefined, `${source.id} must not claim a feed`);
+    assert.equal(source.active_from, config.telegram_discovery.active_from, `${source.id} has a different start`);
+    assert.ok(Date.parse(source.active_from) > 0, `${source.id} has an invalid start`);
+    assert.ok(source.max_posts_per_check > 0, `${source.id} has no cap`);
+    assert.ok(source.categories.length > 0, `${source.id} has no category`);
+    for (const category of source.categories) {
+      assert.ok(MAIN.includes(category), `${source.id} uses a non-main category`);
+    }
+  }
+  assert.equal(config.telegram_discovery.enabled, true);
+  assert.equal(config.telegram_discovery.education_review, true);
+  assert.equal(config.telegram_discovery.per_channel, 15);
+  for (const domain of ['instagram.com', 'youtube.com', 'x.com', 't.me', 'bit.ly']) {
+    assert.ok(config.telegram_discovery.deny_domains.includes(domain), `${domain} is not denied`);
+  }
+  for (const extension of ['.png', '.mp4', '.pdf']) {
+    assert.ok(config.telegram_discovery.deny_extensions.includes(extension));
+  }
+  for (const domain of ['cafebazaar.ir', 'play.google.com', 'apps.apple.com']) {
+    assert.ok(config.telegram_discovery.promo_domains.includes(domain), `${domain} is not promo`);
+  }
+  for (const domain of ['anthropic.com', 'claude.com', 'openai.com']) {
+    assert.ok(
+      config.telegram_discovery.official_course_domains.includes(domain),
+      `${domain} is not an official course domain`
+    );
+  }
+  assert.equal(
+    config.telegram_discovery.promo_domains.some((domain) =>
+      config.telegram_discovery.official_course_domains.includes(domain)
+    ),
+    false
+  );
+});
+
 test('the eight earlier gap sources are recorded as proposed, not verified', () => {
   const proposed = sources.sources
     .filter((source) => source.status === 'proposed')

@@ -1,0 +1,648 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {
+  buildEducationDigest,
+  buildEducationMessage,
+  buildEducationMessages,
+  classifyLead,
+  educationDigestLeads,
+  educationLeadLabel,
+  hasPromoText,
+  isAllowedLink,
+  isEducationLead,
+  isOfficialCourse,
+  isPromotionalUrl,
+  leadTitle,
+  parseTelegramChannel,
+  selectAnyLink,
+  selectLeadLink,
+} from './telegram-source.mjs';
+import { collectCandidates } from './collect.mjs';
+import { emptyState } from './store.mjs';
+
+const NOW = '2026-11-03T15:00:00Z';
+const ACTIVE_FROM = '2026-11-03T00:00:00+03:30';
+
+const block = ({ id, datetime, text = '', preview = null, forwarded = false }) => `
+<div class="tgme_widget_message_wrap js-widget_message_wrap">
+  <div class="tgme_widget_message" data-post="testchannel/${id}">
+    ${forwarded ? '<div class="tgme_widget_message_forwarded_from"><a href="https://t.me/other">Other</a></div>' : ''}
+    <div class="tgme_widget_message_text js-message_text" dir="auto">${text}</div>
+    ${
+      preview
+        ? `<a class="tgme_widget_message_link_preview" href="${preview.url}">
+            <div class="link_preview_site_name">${preview.site ?? 'Example'}</div>
+            <div class="link_preview_title">${preview.title ?? ''}</div>
+            <div class="link_preview_description">${preview.description ?? ''}</div>
+          </a>`
+        : ''
+    }
+    <div class="tgme_widget_message_footer">
+      <a class="tgme_widget_message_date" href="https://t.me/testchannel/${id}">
+        <time datetime="${datetime}">time</time>
+      </a>
+    </div>
+  </div>
+</div>`;
+
+const page = [
+  block({
+    id: 101,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      '&rlm;خبر تازه هوش مصنوعی<br/><a href="https://example.com/article?utm_source=tg">جزئیات</a>',
+    preview: {
+      url: 'https://example.com/article?utm_source=tg',
+      title: 'OpenAI ships a new agent model',
+      description: 'A short description',
+    },
+  }),
+  block({
+    id: 102,
+    datetime: '2026-11-03T11:00:00+00:00',
+    text: 'عکس جدید <a href="https://www.instagram.com/p/abc">اینستاگرام</a>',
+    preview: { url: 'https://www.instagram.com/p/abc', title: 'Instagram post' },
+  }),
+  block({
+    id: 103,
+    datetime: '2026-11-03T12:00:00+00:00',
+    text: 'یک یادداشت کوتاه بدون لینک',
+  }),
+  block({
+    id: 104,
+    datetime: '2026-11-01T10:00:00+00:00',
+    text: 'خبر قدیمی <a href="https://example.com/old">old</a>',
+    preview: { url: 'https://example.com/old', title: 'Old article' },
+  }),
+  block({
+    id: 105,
+    datetime: '2026-11-03T13:00:00+00:00',
+    text: 'عامل هوشمند تازه برای ساخت ابزار <a href="https://example.org/allowed">لینک</a>',
+    preview: { url: 'https://www.youtube.com/watch?v=1', title: 'Video' },
+  }),
+  block({
+    id: 106,
+    datetime: '2026-11-03T13:30:00+00:00',
+    forwarded: true,
+    text:
+      'ایجنت هوش مصنوعی برای کدنویسی <a href="https://github.com/example/repo">repo</a>',
+    preview: { url: 'https://github.com/example/repo', title: 'GitHub - example/repo', site: 'GitHub' },
+  }),
+].join('\n');
+
+const fetchPage = (html, url = 'https://t.me/s/testchannel') => async (target) => {
+  assert.equal(target, url);
+  return { text: html, url: target };
+};
+
+test('parser reads message id, date, text and preview without leaking markup', () => {
+  const messages = parseTelegramChannel(page, 'testchannel');
+  assert.equal(messages.length, 6);
+  assert.deepEqual(messages.map((message) => message.id), [101, 102, 103, 104, 105, 106]);
+  assert.equal(messages[0].published, '2026-11-03T10:00:00+00:00');
+  assert.ok(messages[0].text.includes('خبر تازه هوش مصنوعی'));
+  assert.ok(!messages[0].text.includes('<a'));
+  assert.ok(!messages[0].text.includes('\u200f'));
+  assert.equal(messages[0].preview.title, 'OpenAI ships a new agent model');
+  assert.equal(messages[0].preview.site, 'Example');
+  assert.equal(messages[5].forwarded, true);
+  assert.equal(messages[3].forwarded, false);
+});
+
+test('link filter keeps articles and drops social, video and shorteners', () => {
+  assert.equal(isAllowedLink('https://example.com/a'), true);
+  assert.equal(isAllowedLink('https://github.com/example/repo'), true);
+  assert.equal(isAllowedLink('https://blog.google/technology/ai/x'), true);
+  assert.equal(isAllowedLink('https://www.instagram.com/p/x'), false);
+  assert.equal(isAllowedLink('https://youtu.be/x'), false);
+  assert.equal(isAllowedLink('https://www.youtube.com/watch?v=x'), false);
+  assert.equal(isAllowedLink('https://x.com/x'), false);
+  assert.equal(isAllowedLink('https://bit.ly/x'), false);
+  assert.equal(isAllowedLink('https://news.google.com/rss/articles/x'), false);
+  assert.equal(isAllowedLink('tg://webproxy?server=x'), false);
+  assert.equal(isAllowedLink('https://example.com/file.pdf'), false);
+  assert.equal(isAllowedLink('https://localhost/a'), false);
+  assert.equal(isAllowedLink('https://example.com/'), false);
+  assert.equal(isAllowedLink('http://Helixworld.ai/'), false);
+  assert.equal(isAllowedLink('https://example.com/?utm_source=tg'), false);
+  assert.equal(isAllowedLink('https://example.com/?p=123'), true);
+});
+
+test('lead selection prefers an allowed article over a denied preview', () => {
+  const messages = parseTelegramChannel(page, 'testchannel');
+  const first = selectLeadLink(messages[0]);
+  assert.equal(first.url, 'https://example.com/article?utm_source=tg');
+  assert.equal(first.canonical, 'https://example.com/article');
+  assert.equal(selectLeadLink(messages[1]), null);
+  assert.equal(selectLeadLink(messages[2]), null);
+  assert.equal(selectLeadLink(messages[4]).url, 'https://example.org/allowed');
+  assert.equal(selectLeadLink(messages[5]).url, 'https://github.com/example/repo');
+});
+
+test('lead titles come from the preview or a meaningful text line', () => {
+  const messages = parseTelegramChannel(page, 'testchannel');
+  assert.equal(leadTitle(messages[0], messages[0].preview.title), 'OpenAI ships a new agent model');
+  assert.ok(leadTitle(messages[4]).startsWith('عامل هوشمند'));
+  assert.equal(leadTitle({ id: 9, text: 'Web Proxy\nیک توضیح سه کلمه‌ای' }), 'یک توضیح سه کلمه‌ای');
+  assert.equal(leadTitle({ id: 9, text: '' }), 'سرنخ 9');
+});
+
+test('channel products, app-store links and referrals are promotions', () => {
+  assert.equal(isPromotionalUrl('https://cafebazaar.ir/app/com.lahze.app'), true);
+  assert.equal(isPromotionalUrl('https://play.google.com/store/apps/details?id=x'), true);
+  assert.equal(isPromotionalUrl('https://zcode.z.ai/invite/GCCYZR39'), true);
+  assert.equal(isPromotionalUrl('https://example.com/article'), false);
+  assert.equal(hasPromoText('اپلیکیشن لحظه! در کافه‌بازار منتشر شد'), true);
+  assert.equal(hasPromoText('وقت کلیم کردن رسیده'), true);
+  assert.equal(hasPromoText('با لینک من جوین شید'), true);
+  assert.equal(hasPromoText('خبر تازه مدل زبانی'), false);
+  assert.equal(
+    classifyLead('https://cafebazaar.ir/app/com.lahze.app', 'اپلیکیشن لحظه'),
+    'promotion'
+  );
+  assert.equal(
+    classifyLead('https://example.com/shop', 'کد تخفیف دوره را بزنید'),
+    'education'
+  );
+  assert.equal(classifyLead('https://example.com/news', 'خبر تازه مدل زبانی'), 'news');
+});
+
+test('only official academy courses are news-eligible', () => {
+  assert.equal(
+    classifyLead('https://www.anthropic.com/learn/claude', 'دوره رسمی کلود منتشر شد'),
+    'official_course'
+  );
+  assert.equal(classifyLead('https://openai.com/academy', 'OpenAI Academy'), 'official_course');
+  assert.equal(
+    classifyLead(
+      'https://grow.google/healthcare-professionals/',
+      'دوره تخصصی هوش مصنوعی برای کادر درمان'
+    ),
+    'official_course'
+  );
+  assert.equal(isOfficialCourse('https://www.anthropic.com/learn/claude', 'دوره'), true);
+  assert.equal(isOfficialCourse('https://example.com/course', 'دوره'), false);
+  assert.equal(
+    classifyLead('https://example.com/course', 'دوره آموزش هوش مصنوعی'),
+    'education'
+  );
+  assert.equal(classifyLead('https://example.com/course', 'دوره رسمی کلود'), 'education');
+  assert.equal(
+    classifyLead('https://example.com/machine-learning-news', 'machine learning model'),
+    'news'
+  );
+});
+
+test('lead selection skips promo links and keeps a real article', () => {
+  const message = {
+    id: 1,
+    preview: null,
+    links: ['https://cafebazaar.ir/app/com.lahze.app', 'https://example.com/article'],
+  };
+  assert.equal(selectLeadLink(message).url, 'https://example.com/article');
+  assert.equal(
+    selectLeadLink({ id: 2, preview: null, links: ['https://cafebazaar.ir/app/x'] }),
+    null
+  );
+  assert.equal(
+    selectLeadLink({ id: 3, preview: null, links: ['https://zcode.z.ai/invite/ABC'] }),
+    null
+  );
+});
+
+test('education posts are flagged for the private lane', () => {
+  assert.equal(isEducationLead('دوره رایگان یادگیری هوش مصنوعی'), true);
+  assert.equal(isEducationLead('ثبت‌نام وبینار تازه'), true);
+  assert.equal(isEducationLead('AI for beginners course'), true);
+  assert.equal(isEducationLead('آموزش نصب برنامه'), true);
+  assert.equal(isEducationLead('در این ویدیو یاد می‌دم چطور بکاپ بگیرید'), true);
+  assert.equal(isEducationLead('آموزش مدل زبانی روی داده‌های جدید'), false);
+  assert.equal(isEducationLead('این ویدیو مدرکشه که مدل جدید آمده'), false);
+  assert.equal(isEducationLead('خبر تازه مدل زبانی'), false);
+  assert.equal(isEducationLead(''), false);
+});
+
+test('education digest keeps one link per lead and stays private', () => {
+  const digest = buildEducationDigest({
+    leads: [
+      {
+        title: 'دوره مقدماتی هوش مصنوعی',
+        sourceName: 'کانال تست',
+        leadSource: 'testchannel',
+        published: '2026-11-03T10:00:00Z',
+        canonical: 'https://example.com/course',
+      },
+      {
+        title: 'همان دوره',
+        sourceName: 'کانال تست',
+        leadSource: 'testchannel',
+        published: '2026-11-03T10:00:00Z',
+        canonical: 'https://example.com/course',
+      },
+      {
+        title: 'کارگاه تازه',
+        sourceName: 'کانال دوم',
+        leadSource: 'second',
+        canonical: 'https://example.com/workshop',
+      },
+    ],
+    date: '2026-11-03',
+    slot: '14:00',
+  });
+  assert.ok(digest.includes('لیدهای آموزشی'));
+  assert.ok(digest.includes('دوره مقدماتی هوش مصنوعی'));
+  assert.ok(digest.includes('کارگاه تازه'));
+  assert.equal(digest.match(/https:\/\/example\.com\/course/g).length, 1);
+  assert.ok(digest.includes('https://example.com/workshop'));
+  assert.ok(digest.includes('کانال اصلی'));
+  assert.equal(buildEducationDigest({ leads: [] }), '');
+  const many = Array.from({ length: 7 }, (_, index) => ({
+    title: `دوره ${index}`,
+    canonical: `https://example.com/course-${index}`,
+  }));
+  assert.equal(educationDigestLeads(many).length, 7);
+  const fullDigest = buildEducationDigest({ leads: many });
+  assert.equal(fullDigest.match(/^برچسب:/gm).length, 7);
+  assert.equal(fullDigest.includes('لید آموزشی دیگر'), false);
+  assert.ok(fullDigest.includes('https://example.com/course-6'));
+});
+
+test('education labels separate a tutorial from a course sale', () => {
+  assert.equal(
+    educationLeadLabel({
+      title: 'ثبت نام دوره جامع هوش مدرن',
+      messageText: 'ظرفیت محدود، ثبت نام دوره جامع',
+      link: 'https://www.mghacademy.ir/product/modern-intelligence-course',
+    }),
+    'فروش دوره'
+  );
+  assert.equal(
+    educationLeadLabel({
+      title: 'آموزش اجرای هرمس روی سرور رایگان',
+      messageText: 'در این ویدئو قدم به قدم یاد می‌دم',
+      link: 'https://youtu.be/d9n6cRNhFSc',
+    }),
+    'آموزش'
+  );
+  assert.equal(
+    educationLeadLabel({ title: 'یک ویدئوی تازه', link: 'https://www.youtube.com/watch?v=1' }),
+    'آموزش'
+  );
+  assert.equal(educationLeadLabel({ title: 'یک یادداشت کوتاه', link: 'https://example.com/a' }), 'نامشخص');
+});
+
+test('an education message carries the original text and both links', () => {
+  const message = buildEducationMessage({
+    title: 'آموزش بکاپ هرمس',
+    messageText: 'در این ویدئو یاد می‌دم چطور از هرمس بکاپ بگیرید.',
+    sourceName: 'کانال تست',
+    leadSource: 'testchannel',
+    published: '2026-11-03T10:00:00Z',
+    canonical: 'https://youtu.be/x',
+    link: 'https://youtu.be/x',
+    leadPostUrl: 'https://t.me/testchannel/5',
+  });
+  assert.ok(message.includes('لید آموزشی | آموزش'));
+  assert.ok(message.includes('در این ویدئو یاد می‌دم'));
+  assert.ok(message.includes('https://t.me/testchannel/5'));
+  assert.ok(message.includes('https://youtu.be/x'));
+  const long = buildEducationMessages({
+    title: 'آموزش بلند',
+    messageText: 'خط\n'.repeat(2000),
+    link: 'https://youtu.be/x',
+  });
+  assert.ok(long.length > 1);
+  assert.ok(long.every((part) => part.length < 4096));
+  assert.ok(long.at(-1).includes('https://youtu.be/x'));
+  assert.ok(long.join('\n').includes('🎓 لید آموزشی | ادامه'));
+  assert.equal((long.join('\n').match(/^خط$/gm) || []).length, 2000);
+  assert.equal(long.join('\n').includes(' …'), false);
+  assert.equal(selectAnyLink({ preview: null, links: ['https://youtu.be/x'] }), 'https://youtu.be/x');
+  assert.equal(selectAnyLink({ preview: null, links: [] }), '');
+});
+
+test('a title already present in the original text is not repeated', () => {
+  const [message] = buildEducationMessages({
+    title: '🚀 نسخه جدید #TheFeed (v.0.41.0)',
+    messageText: '🚀 نسخه جدید #TheFeed (v.0.41.0)\nجزئیات بیشتر در پست.',
+    sourceName: 'کانال تست',
+    leadPostUrl: 'https://t.me/ch/1',
+  });
+  assert.equal((message.match(/#TheFeed/g) || []).length, 1);
+});
+
+test('collector marks education leads and keeps channel focus', async () => {
+  const state = emptyState();
+  const eduPage = block({
+    id: 201,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'دوره تازه هوش مصنوعی <a href="https://example.com/course">ثبت‌نام</a>',
+    preview: { url: 'https://example.com/course', title: 'AI course' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-edu',
+        name: 'Edu channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        focus: 'education',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(eduPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].educationHint, true);
+  assert.equal(result.candidates[0].sourceFocus, 'education');
+});
+
+test('a tutorial with only a YouTube link still reaches the private lane', async () => {
+  const state = emptyState();
+  const eduPage = block({
+    id: 202,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: '🎬 آموزش اجرای هرمس روی سرور رایگان<br/><a href="https://youtu.be/d9n6cRNhFSc">یوتیوب</a>',
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-edu-video',
+        name: 'Edu video channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        focus: 'education',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(eduPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.leadKind, 'education');
+  assert.equal(lead.educationHint, true);
+  assert.equal(lead.link, 'https://youtu.be/d9n6cRNhFSc');
+  assert.equal(lead.leadPostUrl, 'https://t.me/testchannel/202');
+  assert.ok(lead.messageText.includes('آموزش'));
+  assert.equal(result.stats.telegram.denied, 0);
+  assert.equal(result.stats.telegram.leads, 1);
+});
+
+test('a linkless education post falls back to its channel permalink', async () => {
+  const state = emptyState();
+  const eduPage = block({
+    id: 203,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'آموزش کوتاه: قبل از هر آپدیت از مدل بکاپ بگیرید.',
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-edu-note',
+        name: 'Edu note channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(eduPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].leadKind, 'education');
+  assert.equal(result.candidates[0].link, 'https://t.me/testchannel/203');
+  assert.equal(result.stats.telegram.noLink, 0);
+});
+
+test('collector drops channel product ads before they reach news', async () => {
+  const state = emptyState();
+  const promoPage = block({
+    id: 301,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'اپلیکیشن لحظه! در کافه‌بازار منتشر شد <a href="https://cafebazaar.ir/app/com.lahze.app">لینک</a>',
+    preview: { url: 'https://cafebazaar.ir/app/com.lahze.app', title: 'لحظه' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-promo',
+        name: 'Promo channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(promoPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 0);
+  assert.equal(result.stats.telegram.promoted, 1);
+  assert.equal(result.stats.telegram.leads, 0);
+  assert.equal(state.telegram.testchannel.last_id, 301);
+});
+
+test('collector keeps an official academy course as a news lead', async () => {
+  const state = emptyState();
+  const coursePage = block({
+    id: 302,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'دوره رسمی کلود <a href="https://www.anthropic.com/learn/claude">ثبت‌نام</a>',
+    preview: { url: 'https://www.anthropic.com/learn/claude', title: 'Claude Academy' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-course',
+        name: 'Course channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        focus: 'education',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(coursePage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].leadKind, 'official_course');
+  assert.equal(result.candidates[0].officialCourse, true);
+  assert.equal(result.candidates[0].educationHint, false);
+  assert.equal(result.stats.telegram.leads, 1);
+});
+
+test('channel focus alone does not turn news into education', async () => {
+  const state = emptyState();
+  const newsPage = block({
+    id: 303,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'خبر تازه مدل زبانی <a href="https://example.com/model">جزئیات</a>',
+    preview: { url: 'https://example.com/model', title: 'A new language model' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-edu-channel',
+        name: 'Edu channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        focus: 'education',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(newsPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].leadKind, 'news');
+  assert.equal(result.candidates[0].educationHint, false);
+  assert.equal(result.candidates[0].sourceFocus, 'education');
+});
+
+test('collector turns channel posts into article leads and stores a cursor', async () => {
+  const state = emptyState();
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-test',
+        name: 'Test channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true },
+  });
+
+  assert.equal(result.candidates.length, 3);
+  assert.equal(result.stats.telegram.posts, 6);
+  assert.equal(result.stats.telegram.leads, 3);
+  assert.equal(result.stats.telegram.beforeStart, 1);
+  assert.equal(result.stats.telegram.denied, 1);
+  assert.equal(result.stats.telegram.noLink, 1);
+  assert.equal(result.stats.telegram.duplicate, 0);
+  assert.equal(state.telegram.testchannel.last_id, 106);
+
+  const first = result.candidates.find((candidate) => candidate.leadMessageId === 101);
+  assert.equal(first.link, 'https://example.com/article?utm_source=tg');
+  assert.equal(first.canonical, 'https://example.com/article');
+  assert.equal(first.title, 'OpenAI ships a new agent model');
+  assert.equal(first.summary, '');
+  assert.deepEqual(first.images, []);
+  assert.equal(first.sourceType, 'telegram_channel');
+  assert.equal(first.leadSource, 'testchannel');
+  assert.equal(first.offerHint, false);
+  assert.equal(first.aiHint, true);
+  assert.equal(first.leadKind, 'news');
+  assert.equal(first.educationHint, false);
+  assert.equal(first.officialCourse, false);
+  assert.equal(first.sourceFocus, '');
+  assert.equal(result.stats.telegram.promoted, 0);
+
+  const second = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-test',
+        name: 'Test channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true },
+  });
+  assert.equal(second.candidates.length, 0);
+  assert.equal(second.stats.telegram.pending, 0);
+  assert.equal(second.stats.telegram.leads, 0);
+  assert.equal(state.telegram.testchannel.last_id, 106);
+});
+
+test('a new channel message after the cursor becomes a new lead', async () => {
+  const state = emptyState();
+  state.telegram.testchannel = { last_id: 106, last_at: '2026-11-03T13:30:00+00:00' };
+  const next = page + block({
+    id: 107,
+    datetime: '2026-11-03T14:00:00+00:00',
+    text: 'مدل زبانی تازه <a href="https://example.com/new">لینک</a>',
+    preview: { url: 'https://example.com/new', title: 'A new language model' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-test',
+        name: 'Test channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(next),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].leadMessageId, 107);
+  assert.equal(state.telegram.testchannel.last_id, 107);
+});
+
+test('disabled telegram discovery leaves the channel unread', async () => {
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-test',
+        name: 'Test channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+      },
+    ],
+    state: emptyState(),
+    now: NOW,
+    fetchImpl: async () => {
+      throw new Error('must not fetch');
+    },
+    telegram: { enabled: false },
+  });
+  assert.equal(result.stats.telegram.channels, 0);
+  assert.equal(result.candidates.length, 0);
+});

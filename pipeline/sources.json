@@ -542,6 +542,252 @@
       "use": "lead_only",
       "paywalled": true,
       "status": "proposed"
+    },
+    {
+      "id": "tg-archive-tell",
+      "name": "ArchiveTell",
+      "url": "https://t.me/ArchiveTell",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "ArchiveTell",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "tools",
+      "status": "verified"
+    },
+    {
+      "id": "tg-pedram-gholizadeh",
+      "name": "Pedram Gholizadeh | پدرام قلی‌زاده",
+      "url": "https://t.me/pedramgholizadeh",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "pedramgholizadeh",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "education",
+      "status": "verified"
+    },
+    {
+      "id": "tg-ai-farshad",
+      "name": "آموزش هوش مصنوعی | ابزار و پرامپت",
+      "url": "https://t.me/ai_farshad",
+      "categories": [
+        "tools"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "ai_farshad",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "education",
+      "status": "verified"
+    },
+    {
+      "id": "tg-mohammad-zammani",
+      "name": "هوش مصنوعی | محمد زمانی",
+      "url": "https://t.me/Mohammad_zammani",
+      "categories": [
+        "tools",
+        "models",
+        "business"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "Mohammad_zammani",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-techiin",
+      "name": "تِک‌این | آموزش و فناوری",
+      "url": "https://t.me/techiin_ir",
+      "categories": [
+        "tools",
+        "models",
+        "security",
+        "business"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "techiin_ir",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 10,
+      "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-mgh-mobin",
+      "name": "M G H M O B I N",
+      "url": "https://t.me/mgh_mobin",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "mgh_mobin",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "education",
+      "status": "verified"
+    },
+    {
+      "id": "tg-web3nabu",
+      "name": "nabu",
+      "url": "https://t.me/web3nabu",
+      "categories": [
+        "tools",
+        "business"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "web3nabu",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-asr-novin",
+      "name": "عصر نوین | AminiYT",
+      "url": "https://t.me/asrnovin_ir",
+      "categories": [
+        "tools",
+        "models",
+        "security"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "asrnovin_ir",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-shayanode",
+      "name": "Shayanode",
+      "url": "https://t.me/shayanode",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "shayanode",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "education",
+      "status": "verified"
+    },
+    {
+      "id": "tg-ai-by-sadeghi",
+      "name": "اخبار جدید Ai",
+      "url": "https://t.me/aibysadeghi",
+      "categories": [
+        "tools",
+        "models",
+        "business"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "aibysadeghi",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-codecloude",
+      "name": "Code.Cloud | کـــد کلاد",
+      "url": "https://t.me/codecloude",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "codecloude",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-dunijet-ai",
+      "name": "دانیجت | Dunijet",
+      "url": "https://t.me/dunijet_ai",
+      "categories": [
+        "tools",
+        "models",
+        "security",
+        "business"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "dunijet_ai",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-marketing-aida",
+      "name": "Marketing and Ai",
+      "url": "https://t.me/marketing_aida",
+      "categories": [
+        "tools",
+        "business"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "marketing_aida",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "business",
+      "status": "verified"
+    },
+    {
+      "id": "tg-miladxtalks",
+      "name": "MiladXtalks | آموزش هوش مصنوعی",
+      "url": "https://t.me/miladxtalks",
+      "categories": [
+        "tools"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "miladxtalks",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "education",
+      "status": "verified"
+    },
+    {
+      "id": "tg-sajadverse",
+      "name": "هوش مصنوعی سجادوِرس",
+      "url": "https://t.me/Sajadverse",
+      "categories": [
+        "tools",
+        "models",
+        "business"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "Sajadverse",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "news",
+      "status": "verified"
     }
   ],
   "vendor_registry": "vendors.json"

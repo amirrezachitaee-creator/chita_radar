@@ -109,7 +109,7 @@ export function weekKey(value) {
 }
 
 export function emptyState() {
-  return { version: 1, updatedAt: '', seen: {}, slots: {}, published: [] };
+  return { version: 1, updatedAt: '', seen: {}, slots: {}, published: [], telegram: {} };
 }
 
 export async function loadState(path) {
@@ -122,6 +122,7 @@ export async function loadState(path) {
       seen: parsed.seen && typeof parsed.seen === 'object' ? parsed.seen : {},
       slots: parsed.slots && typeof parsed.slots === 'object' ? parsed.slots : {},
       published: Array.isArray(parsed.published) ? parsed.published : [],
+      telegram: parsed.telegram && typeof parsed.telegram === 'object' ? parsed.telegram : {},
     };
   } catch (error) {
     if (error?.code === 'ENOENT') return emptyState();

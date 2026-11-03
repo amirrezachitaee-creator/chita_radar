@@ -292,7 +292,7 @@ export function clampText(value, maxChars = 0) {
   return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
 }
 
-export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0 }) {
+export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false }) {
   const host = (() => {
     try {
       return new URL(url).hostname;
@@ -311,6 +311,13 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
         'دسته باید tools باشد و تاریخ انقضا با روز، ماه و سال در متن پست نوشته شود.',
       ].join('\n')
     : '';
+  const courseBlock = officialCourse
+    ? [
+        'این ورودی یک دوره رسمی از خود شرکت هوش مصنوعی روی دامنه رسمی است:',
+        'دسته tools است و اعلان دوره خبر محسوب می‌شود؛ آن را با reason_code promo یا off_topic رد نکن.',
+        'اگر صفحه اطلاعات کافی دارد، پست خبری کوتاه بنویس و لینک ثبت‌نام رسمی را به عنوان منبع بیاور.',
+      ].join('\n')
+    : '';
   return [
     `عنوان: ${article.title || item.title}`,
     `تاریخ انتشار: ${article.published || item.published}`,
@@ -320,6 +327,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     `حداکثر سن مجاز: ${maxAgeHours} ساعت`,
     imageBlock,
     offerBlock,
+    courseBlock,
     'یادآوری نگارش: تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات اضافه را در فیلد quote بگذار.',
     '',
     'متن خبر:',
@@ -456,6 +464,12 @@ export function fixTerminology(value) {
   return TERM_FIXES.reduce((result, [pattern, replacement]) => result.replace(pattern, replacement), text);
 }
 
+export function applyLeadPolicy(parsed, lead = {}) {
+  if (!parsed || parsed.decision !== 'publish' || !lead.officialCourse) return parsed;
+  if (parsed.category === 'tools') return parsed;
+  return { ...parsed, category: 'tools' };
+}
+
 export function normalizePostFields(parsed) {
   if (!parsed || typeof parsed !== 'object') return parsed;
   const body = fixTerminology(String(parsed.body ?? ''))
@@ -471,6 +485,35 @@ export function normalizePostFields(parsed) {
     .replace(/\n{3,}/g, '\n\n')
     .trim();
   return { ...parsed, title: fixTerminology(String(parsed.title ?? '')).trim(), body, quote };
+}
+
+export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '' } = {}) {
+  if (!parsed || parsed.decision !== 'publish') return parsed;
+  const body = String(parsed.body ?? '').trimEnd();
+  if (!body || !sourceUrl) return parsed;
+  const lines = body.split('\n');
+  const last = [...lines].reverse().find((line) => line.trim())?.trim() ?? '';
+  if (/^منبع\s*[:：]/u.test(last) && last.includes(sourceUrl)) return parsed;
+  const safeName = String(sourceName || 'منبع')
+    .replace(/[\[\]\n]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim() || 'منبع';
+  const withoutBrokenSource = /^منبع\s*[:：]/u.test(last)
+    ? lines.slice(0, -1).join('\n').trimEnd()
+    : body;
+  return { ...parsed, body: `${withoutBrokenSource}\n\nمنبع: [${safeName}](${sourceUrl})` };
+}
+
+export function fitCaption(parsed, newsDate = '', limit = CAPTION_SAFE_LIMIT) {
+  if (!parsed || parsed.decision !== 'publish' || !parsed.image_url) return parsed;
+  const captionLengthOf = (value) =>
+    visibleLength([value.title, newsDate, value.body, value.quote].filter(Boolean).join('\n\n'));
+  if (captionLengthOf(parsed) <= limit) return parsed;
+  if (parsed.quote) {
+    const withoutQuote = { ...parsed, quote: '' };
+    if (captionLengthOf(withoutQuote) <= limit) return withoutQuote;
+  }
+  return { ...parsed, image_url: '' };
 }
 
 function lengthBounds(type) {
@@ -495,7 +538,7 @@ const QA_FIX_HINTS = {
   body_paragraphs: 'body را به ۲ تا ۳ پاراگراف با یک خط خالی بین آن‌ها تقسیم کن؛ جمله اهمیت باید پاراگراف آخر و مستقل باشد.',
   title_clean: 'تیتر بدون نقطه یا علامت سؤال انتهایی، بدون Markdown و بدون عبارت کلیشه‌ای باشد.',
   bullets: 'بولت یا صفر باشد یا بین ۲ تا ۵.',
-  why: 'جمله اهمیت باید آخرین پاراگراف body و قبل از خط منبع باشد.',
+  why: 'جمله اهمیت باید آخرین پاراگراف body و قبل از خط منبع باشد؛ برای ابزار، همان جمله کاربرد یا مزیت کافی است.',
   why_label: 'برچسب «چرا مهمه:» نگذار؛ اهمیت را داخل جمله طبیعی بیاور.',
   why_repeat: 'جمله اهمیت را با شروع تازه بازنویسی کن؛ همان شروع پست قبلی را تکرار نکن.',
   quote_length: 'quote حداکثر ۱۲۰۰ کاراکتر باشد.',
@@ -507,6 +550,7 @@ const QA_FIX_HINTS = {
   no_banned: 'عبارت ممنوع را حذف کن.',
   formal_verbs: 'فعل‌های رسمی را محاوره‌ای کن: «گزارش کرده است» → «گزارش کرده»، «رسیده است» → «رسیده»، «می‌شود» → «می‌شه»، «می‌کند» → «می‌کنه».',
   no_placeholder: 'هیچ placeholder مثل [نام] باقی نگذار.',
+  script_clean: 'حرف یا واژهٔ چینی، ژاپنی یا کره‌ای در متن نگذار؛ معادل فارسی همان عبارت را بنویس.',
   dedupe_key: 'dedupe_key فقط حروف کوچک لاتین و خط تیره باشد.',
   source_url: 'source_url باید دقیقاً همان URL ورودی باشد.',
   image_exact: 'image_url یا خالی باشد یا دقیقاً همان تصویر مجاز ورودی.',
@@ -538,13 +582,16 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
     return `- ${name}: ${QA_FIX_HINTS[name] || 'این مورد را اصلاح کن.'}`;
   });
   const warningNotes = (qa?.warnings ?? [])
-    .filter((name) => ['grounding_cues', 'formal_verbs', 'why_repeat'].includes(name))
+    .filter((name) => ['grounding_cues', 'formal_verbs', 'why_repeat', 'why'].includes(name))
     .map((name) => {
       if (name === 'formal_verbs') {
         return '- formal_verbs: فعل رسمی را محاوره‌ای کن؛ «گزارش کرده است» → «گزارش کرده»، «رسیده است» → «رسیده»، «می‌شود» → «می‌شه».';
       }
       if (name === 'why_repeat') {
         return `- why_repeat: جمله اهمیت را با شروع تازه بنویس؛ پست قبلی با این عبارت شروع شده بود: «${String(previousWhy).trim().slice(0, 80)}».`;
+      }
+      if (name === 'why') {
+        return '- why: آخرین پاراگراف body باید اهمیت یا کاربرد روشن را بگوید؛ برای ابزار، همان کاربرد مشخص کافی است و لازم نیست با «اهمیتش اینه که» شروع شود.';
       }
       return '- grounding_cues: عبارت‌های بزرگ‌نمایی یا قطعیتی که در منبع نیست را حذف کن.';
     });
@@ -574,7 +621,7 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
         : `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
       : bodyLengthLimit,
     `تیتر الان ${titleWords} کلمه است؛ حداکثر ۱۲ کلمه باشد.`,
-    `خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.${quote ? ' quote را هم بعد از خط منبع و داخل همان پیام نگه دار.' : ''}`,
+    `خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.${quote ? ' quote را هم بالای خط منبع و داخل همان پیام نگه دار.' : ''}`,
     'پاراگراف اهمیت باید «چرا مهم است» را با جمله‌ای تازه بگوید و شروع پست قبلی را تکرار نکند؛ خط منبع با «منبع:» و لینک همان URL ورودی.',
     'اگر جا کم آمد، فقط پاراگراف ۲ را کوتاه کن؛ اهمیت و منبع را هرگز حذف نکن.',
     ...(imageUrl && quote
@@ -590,7 +637,7 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
       : 'این بازنویسی است نه ویرایش جزئی: جمله‌های کم‌اهمیت را کامل حذف کن، نه اینکه کلمه‌ها را کوتاه کنی.',
     'فقط ۳ عدد مهم را نگه دار؛ بقیه عددها و جزئیات فرعی را حذف کن.',
     quote
-      ? 'بولت را خالی بگذار و quote را داخل همان پست نگه دار؛ فقط در صورت کمبود جا آن را کوتاه کن.'
+      ? 'بولت را خالی بگذار و quote را بالای خط منبع و داخل همان پست نگه دار؛ فقط در صورت کمبود جا آن را کوتاه کن.'
       : 'بولت و quote را خالی بگذار.',
     'فقط از اطلاعات همین منبع بنویس؛ نتیجه، علت، شدت یا بزرگ‌نمایی اضافه نکن. اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
   ];
@@ -672,12 +719,17 @@ export function qaPost(parsed, context) {
   add('title_words', words > 0 && words <= 12);
   add('title_clean', title.length > 0 && !/[.?!؟]\s*$/.test(title) && !/\*\*/.test(title) && !BANNED.some((phrase) => title.includes(phrase)));
   add('bullets', type === 'breaking' ? true : bullets === 0 || (bullets >= 2 && bullets <= 5));
-  const whyCue = /(مهمه|مهمه که|مهم اینه|اهمیت|اهمیتش|از اونجایی که|از اونجا که|نکته مهم|از این جهت|به همین دلیل|اثرش|اثر واقعی|پیامد|نتیجه‌اش|برای مخاطب|در عمل|یعنی)/u;
+  const whyCue = /(مهمه|مهمه که|مهم اینه|اهمیت|اهمیتش|از اونجایی که|از اونجا که|نکته مهم|نکته اینجاست|از این جهت|به همین دلیل|به همین خاطر|به این ترتیب|از این رو|با این کار|این یعنی|در نتیجه|اثرش|اثر واقعی|اثر این|تأثیر|تاثیر|پیامد|نتیجه‌اش|نتیجه اینه|برای مخاطب|در عمل|در واقع|یعنی)/u;
+  const whyUseCase = /(کاربرد|کاربردی|استفاده|برای\s+(?:اجرا|ساخت|راه\s*اندازی|کار|تیم|کسانی|همه)|می‌تونید|می‌تونن|می‌تونی|کمک\s*می‌کنه|اجازه\s*می‌ده|مناسب|به\s*دست|نیاز\s*دارید|کافیه|امکان\s*می\s*ده|می‌سازه|قابل\s*استفاده|جایگزین|به\s*جای)/u;
   const sourceLine = body.match(/^[ \t]*منبع\s*[:：]/m);
   const beforeSource = sourceLine ? body.slice(0, sourceLine.index) : body;
   const paragraphs = beforeSource.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean);
   const lastParagraph = paragraphs[paragraphs.length - 1] || '';
-  add('why', type === 'breaking' ? true : whyCue.test(lastParagraph));
+  const whyOk =
+    type === 'breaking' ||
+    whyCue.test(lastParagraph) ||
+    (parsed.category === 'tools' && whyUseCase.test(lastParagraph));
+  add('why', whyOk, '', false);
   add('body_paragraphs', type === 'breaking' || paragraphs.length >= 2);
   add('why_label', !/چرا[\s\u200c]+مهم(?:[\s\u200c]+است|[\s\u200c]*ه)?[ \t]*[:：]/u.test(body));
   const whyOpener = (text) =>
@@ -692,7 +744,19 @@ export function qaPost(parsed, context) {
     !/\[(نام|تاریخ|لینک|عدد|شرکت|منبع)\]/u.test(quote) &&
     !quote.includes('✉️')
   ));
-  add('source', /منبع/.test(body) || body.includes(context.host) || body.includes(context.url));
+  const lastBodyLine = body
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .pop() ?? '';
+  const sourceLineUrl = lastBodyLine.match(/https?:\/\/[^\s)]+/)?.[0] ?? '';
+  add('source', /^منبع\s*[:：]/u.test(lastBodyLine) && (() => {
+    try {
+      return canonicalEqual(sourceLineUrl, context.url);
+    } catch {
+      return false;
+    }
+  })());
   add('no_signature', !body.includes('✉️') && !quote.includes('✉️'));
   add('hashtags', tags === 0);
   add('length', lengthOk(type, body.length), `${body.length}`);
@@ -712,6 +776,7 @@ export function qaPost(parsed, context) {
   const formalCount = formalPatterns.filter((pattern) => pattern.test(proseForStyle)).length;
   add('formal_verbs', formalCount === 0, formalCount ? `${formalCount}` : '', false);
   add('no_placeholder', !/\[(نام|تاریخ|لینک|عدد|شرکت|منبع)\]/u.test(`${body}\n${quote}`));
+  add('script_clean', !/[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]/u.test(`${title}\n${body}\n${quote}`));
   add('dedupe_key', /^[a-z0-9]+(-[a-z0-9]+)*$/.test(String(parsed.dedupe_key ?? '')));
   add('source_url', (() => {
     try {
@@ -803,6 +868,17 @@ function formatPreviewBody(value) {
     .replace(/\n/g, '<br>');
 }
 
+function splitPreviewSource(body) {
+  const text = String(body ?? '').trimEnd();
+  if (!text) return { body: '', source: '' };
+  const lines = text.split('\n');
+  const lastIndex = lines.findLastIndex((line) => line.trim());
+  if (lastIndex < 0 || !/^منبع\s*[:：]/u.test(lines[lastIndex].trim())) {
+    return { body: text, source: '' };
+  }
+  return { body: lines.slice(0, lastIndex).join('\n').trimEnd(), source: lines[lastIndex].trim() };
+}
+
 export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, sourceUrl, inspectOnly, banner }) {
   const checks = qa?.checks ?? [];
   const rows = checks
@@ -813,6 +889,7 @@ export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, so
     .join('\n');
   const title = post?.title || 'بدون عنوان';
   const body = post?.body || '';
+  const { body: bodyMain, source: bodySource } = splitPreviewSource(body);
   const imageBlock = imageUsed
     ? `<img src="${escapeHtml(imagePath)}" alt="">`
     : imagePath
@@ -857,14 +934,15 @@ export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, so
     <div class="content">
       <h1>${escapeHtml(title)}</h1>
       ${post?.news_date ? `<div class="date">${escapeHtml(post.news_date)}</div>` : ''}
-      <div class="caption">${formatPreviewBody(body)}</div>
+      <div class="caption">${formatPreviewBody(bodyMain)}</div>
       ${post?.quote ? `<blockquote class="quote">${formatPreviewBody(post.quote)}</blockquote>` : ''}
-      <div class="source">منبع ورودی: ${escapeHtml(sourceUrl)}</div>
+      ${bodySource ? `<div class="source">${formatPreviewBody(bodySource)}</div>` : ''}
     </div>
   </div>
   <details>
     <summary>نتیجه بازبینی کیفیت</summary>
     <p class="muted">وضعیت کلی: ${qa?.pass ? 'قبول' : 'نیازمند اصلاح'} — امتیاز ${qa?.score ?? 0} از ${qa?.possible ?? 0}</p>
+    <p class="muted">آدرس ورودی: ${escapeHtml(sourceUrl)}</p>
     <table>${rows}</table>
   </details>
 </div>

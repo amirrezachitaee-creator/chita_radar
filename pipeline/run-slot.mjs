@@ -14,11 +14,15 @@ import {
   callWithRetry,
   extractJson,
   qaPost,
+  applyLeadPolicy,
+  ensureSourceLine,
   normalizePostFields,
+  fitCaption,
   renderPreview,
   MAIN_CATEGORIES,
 } from './engine.mjs';
 import { collectCandidates } from './collect.mjs';
+import { buildEducationDigest, buildEducationMessages, educationDigestLeads } from './telegram-source.mjs';
 import { assessOffer, detectOffer, offerUsage, reviewText } from './offers.mjs';
 import {
   loadState,
@@ -53,6 +57,7 @@ const MODEL = option('--model', 'DeepSeek-V4-Flash');
 const SEND = flag('--send');
 const REVIEW_SEND = flag('--review-send');
 const FORCE = flag('--force');
+const NO_TELEGRAM = flag('--no-telegram');
 const MAX_CANDIDATES = Number(option('--max-candidates', '4'));
 const PER_SOURCE = Number(option('--per-source', '12'));
 const MIN_CONTENT = Number(option('--min-content', '300'));
@@ -212,7 +217,16 @@ async function main() {
     return;
   }
 
-  let sources = registry.sources.filter((source) => source.feed_url);
+  let sources = registry.sources.filter((source) => {
+    if (source.type === 'telegram_channel') {
+      return (
+        !NO_TELEGRAM &&
+        config.telegram_discovery?.enabled !== false &&
+        Boolean(source.username)
+      );
+    }
+    return Boolean(source.feed_url);
+  });
   if (SOURCE_FILTER.length) {
     sources = sources.filter((source) => SOURCE_FILTER.includes(source.id));
     if (sources.length === 0) {
@@ -228,27 +242,116 @@ async function main() {
     perSource: PER_SOURCE,
     maxAgeHours: config.freshness_hours.pre_gate,
     redact,
+    telegram: config.telegram_discovery,
   });
   console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} kept=${stats.kept} errors=${stats.errors.length}`);
-  for (const error of stats.errors) console.log(`  FEED_ERROR ${error.source}: ${error.error}`);
+  for (const error of stats.errors) {
+    const label = error.kind === 'telegram' ? 'TELEGRAM_ERROR' : 'FEED_ERROR';
+    console.log(`  ${label} ${error.source}: ${error.error}`);
+  }
+  const tg = stats.telegram;
+  if (tg.channels > 0) {
+    console.log(
+      `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
+    );
+  }
+  await saveState(STATE_PATH, state);
 
-  if (candidates.length === 0) {
-    markSlot(state, slot.key, { status: 'empty', reason: 'no_candidates' });
+  const educationLeads = candidates.filter((candidate) => candidate.educationHint);
+  const educationSet = new Set(educationLeads);
+  const mainCandidates = candidates.filter((candidate) => !educationSet.has(candidate));
+  if (educationLeads.length) {
+    console.log(`TELEGRAM_EDU_LEADS ${educationLeads.length} private_only=yes`);
+    for (const candidate of educationLeads) {
+      console.log(`  EDU_LEAD ${candidate.leadSource} | ${candidate.leadKind} | ${candidate.title}`);
+    }
+    const digestLeads = educationDigestLeads(educationLeads);
+    const digest = buildEducationDigest({
+      leads: educationLeads,
+      date: slot.date,
+      slot: slot.slot,
+    });
+    const digestDir = resolve(REVIEW_ROOT, slot.date, `${slot.slot.replace(':', '-')}-education`);
+    await mkdir(digestDir, { recursive: true });
+    const digestPath = resolve(digestDir, 'education.txt');
+    await writeFile(digestPath, `${digest}\n`);
+
+    const sentIds = [];
+    let digestError = '';
+    let sentCount = 0;
+    if (SEND && config.telegram_discovery?.education_review !== false && REVIEW_CHAT_ID) {
+      let sentAnything = false;
+      for (const candidate of digestLeads) {
+        const messages = buildEducationMessages(candidate);
+        let leadSent = 0;
+        for (const message of messages) {
+          if (sentAnything) {
+            await new Promise((resolveDelay) => setTimeout(resolveDelay, 1200));
+          }
+          try {
+            const sent = await sendText(message, {
+              token: env.TELEGRAM_BOT_TOKEN,
+              chatId: REVIEW_CHAT_ID,
+            });
+            if (sent.messageId) sentIds.push(sent.messageId);
+            sentCount += 1;
+            sentAnything = true;
+            leadSent += 1;
+          } catch (error) {
+            digestError = String(error?.message ?? error);
+            break;
+          }
+        }
+        if (leadSent === messages.length && candidate.keys?.length) {
+          markSeen(state, candidate.keys, {
+            decision: 'education_review',
+            reason: 'education_private',
+            category: '',
+            slot: slot.key,
+            title: candidate.title,
+            url: candidate.canonical,
+          });
+        }
+        if (/TELEGRAM_(401|403)/.test(digestError)) break;
+      }
+      if (sentCount) await saveState(STATE_PATH, state);
+    } else if (SEND && config.telegram_discovery?.education_review === false) {
+      console.log('  EDU_REVIEW_DISABLED');
+    } else if (SEND) {
+      console.log('  EDU_REVIEW_CREDENTIALS_MISSING');
+    }
+    console.log(
+      `  EDU_REVIEW sent=${sentCount}${sentIds.length ? ` ids=${sentIds.join(',')}` : ''}${sentCount ? '' : ` mode=${RUN_MODE}`} file=${digestPath}`
+    );
+    if (digestError) console.log(`  EDU_REVIEW_SEND_FAILED ${redact(digestError)}`);
+  }
+  const courseLeads = mainCandidates.filter((candidate) => candidate.officialCourse);
+  if (courseLeads.length) {
+    console.log(`TELEGRAM_OFFICIAL_COURSES ${courseLeads.length} news_eligible=yes`);
+    for (const candidate of courseLeads.slice(0, 5)) {
+      console.log(`  COURSE_LEAD ${candidate.leadSource} | official | ${candidate.title}`);
+    }
+  }
+
+  if (mainCandidates.length === 0) {
+    const reason = educationLeads.length ? 'education_only' : 'no_candidates';
+    markSlot(state, slot.key, { status: 'empty', reason });
     await saveState(STATE_PATH, state);
-    console.log('RESULT EMPTY reason=no_candidates');
+    console.log(`RESULT EMPTY reason=${reason}`);
     console.log('NOTHING_WAS_SENT');
     return;
   }
 
-  const relevantCandidates = candidates.filter((candidate) =>
+  const relevantCandidates = mainCandidates.filter((candidate) =>
     candidate.offerHint ||
+    candidate.officialCourse ||
     candidate.sourceType === 'official_blog' ||
     AI_ONLY_SOURCES.has(candidate.sourceId) ||
     candidate.aiCentral
   );
   const relevantSet = new Set(relevantCandidates);
-  const droppedCandidates = candidates.filter((candidate) => !relevantSet.has(candidate));
-  console.log(`RELEVANCE candidates=${candidates.length} kept=${relevantCandidates.length} dropped=${droppedCandidates.length}`);
+  const droppedCandidates = mainCandidates.filter((candidate) => !relevantSet.has(candidate));
+  console.log(`RELEVANCE candidates=${mainCandidates.length} kept=${relevantCandidates.length} dropped=${droppedCandidates.length}`);
   for (const candidate of droppedCandidates.slice(0, 8)) {
     console.log(`  SKIP_NOT_AI ${candidate.sourceName} | ${candidate.title}`);
   }
@@ -321,6 +424,13 @@ async function main() {
   for (const candidate of relevantCandidates.slice(0, MAX_CANDIDATES)) {
     const label = `${candidate.sourceName} | ${candidate.title} | ${candidate.ageHours}h`;
     console.log(`ATTEMPT ${attempts.length + 1}/${Math.min(MAX_CANDIDATES, relevantCandidates.length)} ${label}`);
+    const applyPolicy = (value) => {
+      const next = applyLeadPolicy(value, candidate);
+      if (next !== value) {
+        console.log(`  CATEGORY_FIX ${value.category || 'none'}->${next.category} official_course`);
+      }
+      return next;
+    };
 
     let article;
     try {
@@ -332,6 +442,15 @@ async function main() {
       console.log(`  FETCH_FAILED ${redact(error?.message)}`);
       continue;
     }
+
+    const finalizePost = (value) => {
+      const normalized = applyPolicy(normalizePostFields(value));
+      const ensured = ensureSourceLine(normalized, { sourceName: candidate.sourceName, sourceUrl: article.url });
+      if (ensured !== normalized) console.log('  SOURCE_FIX appended');
+      const fitted = fitCaption(ensured, newsDateLine(publishedAt));
+      if (fitted !== ensured) console.log('  CAPTION_FIT dropped_quote_or_image');
+      return fitted;
+    };
 
     const publishedAt = article.published || candidate.published;
     const gate = freshness(publishedAt, NOW, { maxAgeHours: config.freshness_hours.pre_gate });
@@ -410,6 +529,7 @@ async function main() {
       imageUrl,
       maxAgeHours: offerContext ? config.offers.max_age_hours : config.freshness_hours.pre_gate,
       offer: offerContext,
+      officialCourse: Boolean(candidate.officialCourse),
     };
     const user = buildUserMessage(story);
     console.log(`  MODEL ${PRIMARY.model} | image ${imageUrl ? 'allowed' : verdict.reason}`);
@@ -469,7 +589,7 @@ async function main() {
     }
 
     console.log(`  WRITER ${writer.role} model=${writer.model}`);
-    parsed = normalizePostFields(parsed);
+    parsed = finalizePost(parsed);
 
     const newsDate = newsDateLine(publishedAt);
     const qaContext = {
@@ -491,7 +611,10 @@ async function main() {
 
     const offerQaFailed = Boolean(offerContext) && qa.problems.some((problem) => problem.startsWith('offer_'));
     const relevanceFailed = qa.problems.includes('ai_relevance');
-    const styleWarning = qa.warnings.includes('formal_verbs') || qa.warnings.includes('why_repeat');
+    const styleWarning =
+      qa.warnings.includes('formal_verbs') ||
+      qa.warnings.includes('why_repeat') ||
+      qa.warnings.includes('why');
     if (parsed.decision === 'publish' && (!qa.pass || styleWarning) && !offerQaFailed && !relevanceFailed && !offerContext) {
       console.log(`  ${qa.pass ? 'STYLE_WARNING' : 'QA_FAILED'} ${qa.problems.join(',') || qa.warnings.join(',')} | one repair retry`);
       repair = await callWithRetry(
@@ -508,8 +631,8 @@ async function main() {
       totalTokens += repairTokens;
       const repaired = extractJson(repair.content);
       if (repaired) {
-        const candidate = normalizePostFields(repaired);
-        const candidateQa = qaPost(candidate, { ...qaContext, category: candidate.category });
+        const repairedPost = finalizePost(repaired);
+        const candidateQa = qaPost(repairedPost, { ...qaContext, category: repairedPost.category });
         const better =
           (candidateQa.pass && !qa.pass) ||
           (candidateQa.pass === qa.pass && candidateQa.warnings.length < qa.warnings.length) ||
@@ -517,7 +640,7 @@ async function main() {
             candidateQa.warnings.length === qa.warnings.length &&
             candidateQa.score >= qa.score);
         if (better) {
-          parsed = candidate;
+          parsed = repairedPost;
           qa = candidateQa;
         }
         console.log(`  REPAIR_QA ${qa.pass ? 'PASS' : 'FAIL'} | score ${qa.score}/${qa.possible} | problems ${qa.problems.join(',') || 'none'} | warnings ${qa.warnings.join(',') || 'none'}${better ? '' : ' | kept original'}`);
