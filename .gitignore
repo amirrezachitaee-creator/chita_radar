@@ -1,0 +1,5 @@
+.env
+node_modules/
+results/
+data/state.dry.json
+data/state.test*.json

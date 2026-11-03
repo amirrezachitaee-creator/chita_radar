@@ -1,0 +1,172 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {
+  imageVerdict,
+  normalizePostFields,
+  qaPost,
+  clampText,
+  buildUserMessage,
+  callModel,
+  callWithRetry,
+} from './engine.mjs';
+
+test('image policy rejects logos and stock files even with underscore names', () => {
+  assert.equal(imageVerdict('https://example.com/goldman_sachs_logo.png').ok, false);
+  assert.equal(imageVerdict('https://example.com/stock-photo.jpg').ok, false);
+  assert.equal(imageVerdict('https://example.com/assets/banner_2026.webp').ok, false);
+  assert.equal(imageVerdict('https://example.com/2026/11/goldman-sachs-office.jpg').ok, true);
+});
+
+test('the old why label is rewritten into a natural sentence', () => {
+  const normalized = normalizePostFields({
+    title: 'خبر',
+    body: 'لید خبر.\n\nچرا مهمه: این تصمیم هزینه تیم‌ها را کم می‌کند.\n\nمنبع: [منبع](https://example.com)',
+  });
+  assert.ok(normalized.body.includes('اهمیتش اینه که این تصمیم هزینه تیم‌ها را کم می‌کند.'));
+  assert.equal(normalized.body.includes('چرا مهمه:'), false);
+});
+
+test('quote is trimmed and kept as a separate field', () => {
+  const normalized = normalizePostFields({ title: 'خبر', body: 'متن', quote: '  جزئیات بیشتر  ' });
+  assert.equal(normalized.quote, 'جزئیات بیشتر');
+});
+
+test('repeating the previous importance opener is only a soft warning', () => {
+  const base = {
+    decision: 'publish',
+    category: 'business',
+    post_type: 'standard',
+    importance: 4,
+    title: 'خبر کوتاه',
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [], people: [] },
+    verification: 'reported',
+    source_url: 'https://example.com',
+    image_url: '',
+    dedupe_key: 'test-why-repeat',
+  };
+  const context = {
+    url: 'https://example.com',
+    host: 'example.com',
+    sourceType: 'news',
+    category: 'business',
+    imageUrl: '',
+    title: 'خبر کوتاه',
+    description: '',
+    content: '',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+    previousWhy: 'این موضوع از اونجایی مهمه که هزینه‌ها روی عرضه اولیه فشار میاره.',
+  };
+  const repeated = qaPost({
+    ...base,
+    body: 'لید خبر.\n\nاین موضوع از اونجایی مهمه که هزینه‌ها روی عرضه اولیه فشار میاره.\n\nمنبع: [منبع](https://example.com)',
+  }, context);
+  assert.ok(repeated.warnings.includes('why_repeat'));
+  const varied = qaPost({
+    ...base,
+    body: 'لید خبر.\n\nاهمیتش اینه که هزینه‌ها روی عرضه اولیه فشار میاره.\n\nمنبع: [منبع](https://example.com)',
+  }, context);
+  assert.equal(varied.warnings.includes('why_repeat'), false);
+});
+
+test('clampText cuts long input at a word boundary for small-context writers', () => {
+  const text = 'یک دو سه چهار پنج شش هفت هشت';
+  const out = clampText(text, 15);
+  assert.ok(out.endsWith(' …'));
+  assert.ok(out.length <= 15);
+  assert.equal(out.includes('پنج شش'), false);
+  assert.equal(clampText('کوتاه', 100), 'کوتاه');
+  assert.equal(clampText('هر چه', 0), 'هر چه');
+});
+
+test('buildUserMessage can clamp the article for the emergency writer', () => {
+  const article = { title: 'عنوان', published: '2026-11-03', content: 'الف '.repeat(2000), imageAlt: '' };
+  const story = { item: { title: 'عنوان', published: '2026-11-03' }, article, url: 'https://example.com/a', now: '2026-11-03' };
+  const full = buildUserMessage(story);
+  const trimmed = buildUserMessage({ ...story, maxContentChars: 1200 });
+  assert.ok(full.includes(article.content));
+  assert.equal(trimmed.includes(article.content), false);
+  assert.ok(trimmed.length < full.length);
+  assert.ok(trimmed.includes('…'));
+});
+
+test('callModel sends reasoning_effort only when requested', async () => {
+  const bodies = [];
+  const original = globalThis.fetch;
+  globalThis.fetch = async (url, options) => {
+    bodies.push(JSON.parse(options.body));
+    return new Response(JSON.stringify({ choices: [{ message: { content: '{}' }, finish_reason: 'stop' }], usage: {} }), { status: 200 });
+  };
+  try {
+    await callModel({ base: 'https://api.example.com/v1', apiKey: 'k', model: 'm', system: 's', user: 'u' });
+    await callModel({
+      base: 'https://api.example.com/v1',
+      apiKey: 'k',
+      model: 'm',
+      system: 's',
+      user: 'u',
+      reasoningEffort: 'low',
+      maxTokens: 1800,
+    });
+  } finally {
+    globalThis.fetch = original;
+  }
+  assert.equal('reasoning_effort' in bodies[0], false);
+  assert.equal(bodies[1].reasoning_effort, 'low');
+  assert.equal(bodies[1].max_tokens, 1800);
+});
+
+test('callWithRetry stops at once on an auth error so the fallback can start', async () => {
+  let hits = 0;
+  const original = globalThis.fetch;
+  globalThis.fetch = async () => {
+    hits += 1;
+    return new Response(JSON.stringify({ error: { message: 'bad key' } }), { status: 401 });
+  };
+  try {
+    const result = await callWithRetry(
+      { base: 'https://api.example.com/v1', apiKey: 'k', model: 'm', system: 's', user: 'u' },
+      4
+    );
+    assert.equal(result.status, 401);
+    assert.equal(result.attempts, 1);
+    assert.equal(hits, 1);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('a body with no blank-line paragraph breaks is rejected', () => {
+  const parsed = {
+    decision: 'publish',
+    category: 'business',
+    post_type: 'standard',
+    importance: 4,
+    title: 'خبر کوتاه',
+    body: 'لید خبر و جزئیات.\nاهمیتش اینه که هزینه‌ها کم می‌شه.\n\nمنبع: [منبع](https://example.com)',
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [], people: [] },
+    verification: 'reported',
+    source_url: 'https://example.com',
+    image_url: '',
+    dedupe_key: 'test-paragraphs',
+  };
+  const qa = qaPost(parsed, {
+    url: 'https://example.com',
+    host: 'example.com',
+    sourceType: 'news',
+    category: 'business',
+    imageUrl: '',
+    title: 'خبر کوتاه',
+    description: '',
+    content: '',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+  });
+  assert.ok(qa.problems.includes('body_paragraphs'));
+});

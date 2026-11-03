@@ -1,0 +1,82 @@
+[
+  {
+    "id": "tools-01",
+    "expected": "tools",
+    "title": "Nota launches offline meeting notes with on-device transcription",
+    "url": "https://example.com/nota-offline",
+    "published_at": "2026-10-31",
+    "content": "Nota, a small productivity startup, released version 2.0 of its meeting notes app. The update adds fully offline transcription for English and Persian, running a 1.2B parameter speech model on the user's device. The company says a 45-minute meeting takes about 20 seconds to transcribe on a modern laptop. The free plan includes 500 minutes per month; the Pro plan costs $8 per month and removes the limit. The app exports to Markdown and supports Apple Silicon and Windows on ARM. Nota says the offline mode never uploads audio."
+  },
+  {
+    "id": "models-01",
+    "expected": "models",
+    "title": "Aster Labs releases Aster-3 32B with open weights",
+    "url": "https://example.com/aster-3",
+    "published_at": "2026-10-30",
+    "content": "Aster Labs released Aster-3 32B, a dense language model under Apache 2.0. The company reports 71.4 on MMLU-Pro, 58.2 on GPQA Diamond and 46.9 on SWE-bench Verified. On its hosted API, input costs $0.15 per million tokens and output $0.60 per million, roughly 40 percent below the previous model. Context window is 256K tokens. Weights are available on Hugging Face, and the model runs on a single 80GB GPU at BF16 or two 24GB cards at 4-bit quantization."
+  },
+  {
+    "id": "security-01",
+    "expected": "security",
+    "title": "Prompt injection flaw in popular RAG library exposes private documents",
+    "url": "https://example.com/rag-cve",
+    "published_at": "2026-10-29",
+    "content": "Security researchers disclosed a flaw in VectorKit, an open-source retrieval library used by about 12,000 exposed deployments. A malicious PDF can hide instructions in its metadata; when the document is indexed, the instructions are inserted into the model context and can make the assistant reveal other users' documents. The issue is tracked as CVE-2026-41822 and rated 8.1. Version 2.4.1 blocks metadata from entering the context by default. Researchers say exploitation requires the attacker to upload a file to the same collection. VectorKit maintainers recommend rotating API keys for any deployment that processed untrusted uploads."
+  },
+  {
+    "id": "business-01",
+    "expected": "business",
+    "title": "VectorDB Inc raises $40M Series B",
+    "url": "https://example.com/vectordb-series-b",
+    "published_at": "2026-10-28",
+    "content": "VectorDB Inc, which sells a managed vector database for AI applications, raised $40 million in a Series B round led by Northline Capital, with participation from existing investors. The company did not disclose its valuation. It says it has 900 enterprise customers, up from 400 a year ago, and that revenue tripled. The new money will fund a European region and a team focused on on-premises deployments. Competitors include Pinecone, Weaviate and cloud providers' built-in vector search."
+  },
+  {
+    "id": "education-01",
+    "expected": "education",
+    "title": "Free six-hour course on building AI agents",
+    "url": "https://example.com/agents-course",
+    "published_at": "2026-10-27",
+    "content": "OpenCourseLab published a free six-hour course on building AI agents. The course has 12 short lessons covering tool calling, retrieval, evaluation and guardrails, with Python notebooks for each lesson. It assumes basic Python but no machine learning background. All lessons use open-weight models and a local inference server, so learners do not need an API key. The course is available on the lab's site and on YouTube, with Persian subtitles expected next month."
+  },
+  {
+    "id": "thin-01",
+    "expected": "skip",
+    "title": "Major lab teases an announcement for next week",
+    "url": "https://example.com/teaser",
+    "published_at": "2026-10-31",
+    "content": "A major AI lab posted a short video on social media with the caption 'Something new is coming next week.' No product details, pricing or date were provided."
+  },
+  {
+    "id": "old-01",
+    "expected": "skip",
+    "title": "Aster-2 8B released with 128K context",
+    "url": "https://example.com/aster-2",
+    "published_at": "2025-06-10",
+    "content": "Aster Labs released Aster-2 8B, an open-weight model with a 128K context window. It scores 62.1 on MMLU-Pro and runs on a single 24GB GPU at 4-bit. The model is available under Apache 2.0."
+  },
+  {
+    "id": "terms-01",
+    "expected": "tools",
+    "title": "ContextBridge spec adds OAuth 2.1 and streamable HTTP transport",
+    "url": "https://example.com/contextbridge-2026",
+    "published_at": "2026-10-30",
+    "content": "The ContextBridge specification published revision 2026-09-01. The update adds OAuth 2.1 authorization, tool annotations, and a streamable HTTP transport alongside the existing stdio transport. Reference SDKs for TypeScript, Python and Go were updated. The spec also deprecates the legacy SSE transport, with a removal date of March 2027. Maintainers say the changes are backward compatible for clients that already support the new transport, but server implementers must handle token refresh."
+  },
+  {
+    "id": "promo-01",
+    "expected": "skip",
+    "title": "AI Summit webinar: early-bird tickets 40% off",
+    "url": "https://example.com/webinar-promo",
+    "published_at": "2026-10-30",
+    "content": "Register now for the AI Summit webinar series. Early-bird tickets are 40 percent off until Friday. The series features 12 speakers from industry and includes a certificate of attendance. Use code AIEARLY at checkout. Seats are limited."
+  },
+  {
+    "id": "rumor-01",
+    "expected": "skip",
+    "title": "Sources say a major lab is working on a new model",
+    "url": "https://example.com/rumor",
+    "published_at": "2026-10-31",
+    "content": "According to people familiar with the matter, a major AI lab is working on a new model that could be released sometime next year. The people did not provide details on the model's size, capabilities or pricing. The lab declined to comment."
+  }
+]

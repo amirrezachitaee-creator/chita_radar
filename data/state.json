@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-02T22:33:19.353Z",
+  "seen": {
+    "url:cfe776d783ceaa5c": {
+      "at": "2026-11-02T16:57:28.268Z",
+      "decision": "qa_failed",
+      "reason": "title_words,caption",
+      "category": "business",
+      "slot": "2026-11-02T20:30+03:30",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior"
+    },
+    "title:b63a9dbb36244138": {
+      "at": "2026-11-02T16:57:28.268Z",
+      "decision": "qa_failed",
+      "reason": "title_words,caption",
+      "category": "business",
+      "slot": "2026-11-02T20:30+03:30",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior"
+    },
+    "url:933fd030f1efc51b": {
+      "at": "2026-11-02T22:33:19.352Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "manual-2026-11-03",
+      "title": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
+    },
+    "title:ae7443264d4258e9": {
+      "at": "2026-11-02T22:33:19.352Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "manual-2026-11-03",
+      "title": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
+    },
+    "url:a5ec1de84c4f7884": {
+      "at": "2026-11-02T16:58:04.567Z",
+      "decision": "qa_failed",
+      "reason": "caption,deep_with_image",
+      "category": "models",
+      "slot": "2026-11-02T20:30+03:30",
+      "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
+      "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts"
+    },
+    "title:4d99f4e15cf7829f": {
+      "at": "2026-11-02T16:58:04.567Z",
+      "decision": "qa_failed",
+      "reason": "caption,deep_with_image",
+      "category": "models",
+      "slot": "2026-11-02T20:30+03:30",
+      "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
+      "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts"
+    },
+    "url:d9c7a4169daa7151": {
+      "at": "2026-11-02T16:58:19.725Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-02T20:30+03:30",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition"
+    },
+    "title:a08e1f3ba3ac478d": {
+      "at": "2026-11-02T16:58:19.725Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-02T20:30+03:30",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition"
+    }
+  },
+  "slots": {
+    "2026-11-02T20:30+03:30": {
+      "at": "2026-11-02T16:58:19.725Z",
+      "status": "sent",
+      "category": "business",
+      "title": "Omen AI با خرید Aquatic Labs به سراغ خنک‌کننده دیتاسنترها رفت",
+      "postDir": "C:\\Users\\Amir\\Documents\\Qoder\\2026-11-01\\4bdef85b\\results\\outbox\\2026-11-02\\20-30",
+      "messageId": 2,
+      "mode": "send"
+    }
+  },
+  "published": [
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-02T20:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "Omen AI با خرید Aquatic Labs به سراغ خنک‌کننده دیتاسنترها رفت",
+      "dedupe_key": "omen-ai-aquatic-labs-acquisition",
+      "post_key": "2026-11-02/20-30",
+      "at": "2026-11-02T16:58:19.725Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-03Tmanual",
+      "category": "business",
+      "kind": "news",
+      "title": "درآمد آنتروپیک ۱۲ برابر شد، اما ضرر ۲۳ میلیارد دلاری ثبت کرد",
+      "dedupe_key": "anthropic-ipo-loss",
+      "post_key": "manual/2026-11-03",
+      "at": "2026-11-02T22:33:19.353Z",
+      "why": "این موضوع از اونجایی مهمه که هزینه‌های سنگین روی عرضه اولیه سهام فشار میاره؛ عرضه‌ای که می‌تونه حدود ۱۰۰ میلیارد دلار جذب کنه."
+    }
+  ]
+}

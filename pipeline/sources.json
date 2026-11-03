@@ -1,0 +1,548 @@
+{
+  "version": 1,
+  "verified_on": "2026-11-01",
+  "notes": "نشانی‌ها برای شروع کار ثبت شده‌اند؛ نوع فید هر منبع پیش از اتصال کرالر یک‌بار تست می‌شود.",
+  "sources": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/",
+      "categories": [
+        "models",
+        "tools"
+      ],
+      "type": "official_blog",
+      "use": "feed"
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "categories": [
+        "models",
+        "tools"
+      ],
+      "type": "official_blog",
+      "use": "feed"
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/",
+      "feed_url": "https://blog.google/technology/ai/rss/",
+      "verified_at": "2026-11-02",
+      "categories": [
+        "models",
+        "tools"
+      ],
+      "type": "official_blog",
+      "use": "feed"
+    },
+    {
+      "id": "meta-ai-blog",
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/",
+      "categories": [
+        "models",
+        "tools"
+      ],
+      "type": "official_blog",
+      "use": "feed"
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "verified_at": "2026-11-02",
+      "categories": [
+        "models",
+        "tools"
+      ],
+      "type": "official_blog",
+      "use": "feed"
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "verified_at": "2026-11-02",
+      "categories": [
+        "models",
+        "business"
+      ],
+      "type": "official_blog",
+      "use": "feed"
+    },
+    {
+      "id": "nvidia-ai-blog",
+      "name": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/",
+      "feed_url": "https://blogs.nvidia.com/feed/",
+      "verified_at": "2026-11-02",
+      "categories": [
+        "models",
+        "business",
+        "tools"
+      ],
+      "type": "official_blog",
+      "use": "feed"
+    },
+    {
+      "id": "arena",
+      "name": "Arena Leaderboard",
+      "url": "https://arena.ai/leaderboard",
+      "categories": [
+        "models"
+      ],
+      "type": "benchmark",
+      "use": "reference"
+    },
+    {
+      "id": "artificial-analysis",
+      "name": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "categories": [
+        "models",
+        "business"
+      ],
+      "type": "benchmark",
+      "use": "reference"
+    },
+    {
+      "id": "livebench",
+      "name": "LiveBench",
+      "url": "https://livebench.ai/",
+      "categories": [
+        "models"
+      ],
+      "type": "benchmark",
+      "use": "reference"
+    },
+    {
+      "id": "hf-papers",
+      "name": "Hugging Face Daily Papers",
+      "url": "https://huggingface.co/papers",
+      "categories": [
+        "models"
+      ],
+      "type": "research_index",
+      "use": "feed"
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/",
+      "categories": [
+        "tools"
+      ],
+      "type": "community_board",
+      "use": "feed"
+    },
+    {
+      "id": "github-trending",
+      "name": "GitHub Trending",
+      "url": "https://github.com/trending",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "code_trending",
+      "use": "reference"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "code_host",
+      "use": "api"
+    },
+    {
+      "id": "hf-spaces",
+      "name": "Hugging Face Spaces",
+      "url": "https://huggingface.co/spaces",
+      "categories": [
+        "tools"
+      ],
+      "type": "space_index",
+      "use": "reference"
+    },
+    {
+      "id": "owasp-genai",
+      "name": "OWASP GenAI LLM Top 10 2026",
+      "url": "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+      "categories": [
+        "security"
+      ],
+      "type": "standard",
+      "use": "reference"
+    },
+    {
+      "id": "ai-incident-db",
+      "name": "AI Incident Database",
+      "url": "https://incidentdatabase.ai/",
+      "categories": [
+        "security"
+      ],
+      "type": "incident_db",
+      "use": "reference"
+    },
+    {
+      "id": "mit-ai-incident-tracker",
+      "name": "MIT AI Incident Tracker",
+      "url": "https://airisk.mit.edu/ai-incident-tracker",
+      "categories": [
+        "security"
+      ],
+      "type": "incident_tracker",
+      "use": "reference"
+    },
+    {
+      "id": "simon-willison-prompt-injection",
+      "name": "Simon Willison - Prompt Injection",
+      "url": "https://simonwillison.net/tags/prompt-injection/",
+      "categories": [
+        "security"
+      ],
+      "type": "blog_tag",
+      "use": "feed"
+    },
+    {
+      "id": "nvd",
+      "name": "NVD",
+      "url": "https://nvd.nist.gov/",
+      "categories": [
+        "security"
+      ],
+      "type": "cve_db",
+      "use": "reference"
+    },
+    {
+      "id": "project-zero",
+      "name": "Google Project Zero",
+      "url": "https://googleprojectzero.blogspot.com/",
+      "categories": [
+        "security"
+      ],
+      "type": "security_blog",
+      "use": "feed"
+    },
+    {
+      "id": "msrc",
+      "name": "Microsoft MSRC",
+      "url": "https://msrc.microsoft.com/blog/",
+      "categories": [
+        "security"
+      ],
+      "type": "security_blog",
+      "use": "feed"
+    },
+    {
+      "id": "reuters-tech",
+      "name": "Reuters Technology",
+      "url": "https://www.reuters.com/technology/",
+      "categories": [
+        "business"
+      ],
+      "type": "news",
+      "use": "feed"
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "feed_url": "https://techcrunch.com/feed/",
+      "categories": [
+        "business",
+        "tools",
+        "models"
+      ],
+      "type": "news",
+      "use": "feed"
+    },
+    {
+      "id": "the-decoder",
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/",
+      "feed_url": "https://the-decoder.com/feed/",
+      "verified_at": "2026-11-02",
+      "categories": [
+        "models",
+        "business",
+        "tools"
+      ],
+      "type": "news",
+      "use": "feed"
+    },
+    {
+      "id": "arstechnica-ai",
+      "name": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "verified_at": "2026-11-02",
+      "categories": [
+        "security",
+        "business",
+        "models",
+        "tools"
+      ],
+      "type": "news",
+      "use": "feed"
+    },
+    {
+      "id": "sec-edgar",
+      "name": "SEC EDGAR Full-Text Search",
+      "url": "https://www.sec.gov/edgar/search/",
+      "categories": [
+        "business"
+      ],
+      "type": "filings",
+      "use": "reference"
+    },
+    {
+      "id": "crunchbase-news",
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/",
+      "categories": [
+        "business"
+      ],
+      "type": "news",
+      "use": "feed"
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI",
+      "url": "https://importai.substack.com/",
+      "categories": [
+        "business",
+        "models"
+      ],
+      "type": "newsletter",
+      "use": "feed"
+    },
+    {
+      "id": "the-batch",
+      "name": "The Batch",
+      "url": "https://www.deeplearning.ai/the-batch/",
+      "categories": [
+        "business",
+        "models"
+      ],
+      "type": "newsletter",
+      "use": "feed"
+    },
+    {
+      "id": "the-information",
+      "name": "The Information",
+      "url": "https://www.theinformation.com/",
+      "categories": [
+        "business"
+      ],
+      "type": "news",
+      "use": "lead_only",
+      "paywalled": true
+    },
+    {
+      "id": "bloomberg-tech",
+      "name": "Bloomberg Technology",
+      "url": "https://www.bloomberg.com/technology",
+      "categories": [
+        "business"
+      ],
+      "type": "news",
+      "use": "lead_only",
+      "paywalled": true
+    },
+    {
+      "id": "hf-learn",
+      "name": "Hugging Face Learn",
+      "url": "https://huggingface.co/learn",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "deeplearning-ai",
+      "name": "DeepLearning.AI Short Courses",
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "openai-cookbook",
+      "name": "OpenAI Cookbook",
+      "url": "https://cookbook.openai.com/",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "anthropic-courses",
+      "name": "Anthropic Courses",
+      "url": "https://github.com/anthropics/courses",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "google-ai-docs",
+      "name": "Google AI for Developers",
+      "url": "https://ai.google.dev/",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "microsoft-learn",
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "fast-ai",
+      "name": "fast.ai",
+      "url": "https://www.fast.ai/",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "kaggle-learn",
+      "name": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "categories": [
+        "education"
+      ],
+      "type": "course",
+      "use": "reference",
+      "lane": "private_research"
+    },
+    {
+      "id": "google-news-rss",
+      "name": "Google News RSS",
+      "url": "https://news.google.com/",
+      "categories": [
+        "tools",
+        "models",
+        "security",
+        "business"
+      ],
+      "type": "aggregator",
+      "use": "feed",
+      "status": "proposed"
+    },
+    {
+      "id": "gdelt",
+      "name": "GDELT",
+      "url": "https://www.gdeltproject.org/",
+      "categories": [
+        "tools",
+        "models",
+        "security",
+        "business"
+      ],
+      "type": "aggregator",
+      "use": "api",
+      "status": "proposed"
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "categories": [
+        "models"
+      ],
+      "type": "research_index",
+      "use": "feed",
+      "status": "proposed"
+    },
+    {
+      "id": "the-record",
+      "name": "The Record",
+      "url": "https://therecord.media/",
+      "categories": [
+        "security",
+        "business"
+      ],
+      "type": "news",
+      "use": "feed",
+      "status": "proposed"
+    },
+    {
+      "id": "bleepingcomputer",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/",
+      "categories": [
+        "security"
+      ],
+      "type": "news",
+      "use": "feed",
+      "status": "proposed"
+    },
+    {
+      "id": "krebs",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/",
+      "categories": [
+        "security"
+      ],
+      "type": "security_blog",
+      "use": "feed",
+      "status": "proposed"
+    },
+    {
+      "id": "trm-labs",
+      "name": "TRM Labs",
+      "url": "https://www.trmlabs.com/",
+      "categories": [
+        "security",
+        "business"
+      ],
+      "type": "security_blog",
+      "use": "feed",
+      "status": "proposed"
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "url": "https://www.wsj.com/",
+      "categories": [
+        "business"
+      ],
+      "type": "news",
+      "use": "lead_only",
+      "paywalled": true,
+      "status": "proposed"
+    }
+  ],
+  "vendor_registry": "vendors.json"
+}

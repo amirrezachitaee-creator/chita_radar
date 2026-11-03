@@ -1,0 +1,86 @@
+{
+  "channel": "main",
+  "timezone": "Asia/Tehran",
+  "categories": {
+    "tools": {
+      "label": "ابزارها و محصولات",
+      "weekly_quota": 17,
+      "main_channel": true
+    },
+    "models": {
+      "label": "مدل‌ها و پژوهش",
+      "weekly_quota": 13,
+      "main_channel": true
+    },
+    "security": {
+      "label": "امنیت و حریم خصوصی",
+      "weekly_quota": 6,
+      "main_channel": true
+    },
+    "business": {
+      "label": "کسب‌وکار و بازار",
+      "weekly_quota": 6,
+      "main_channel": true
+    },
+    "education": {
+      "label": "آموزش و ورکفلو",
+      "weekly_quota": 0,
+      "main_channel": false,
+      "lane": "private_research"
+    }
+  },
+  "schedule": {
+    "slots": ["08:30", "11:30", "14:00", "17:00", "20:30", "23:00"],
+    "quiet_hours": ["00:00", "08:30"],
+    "max_posts_per_day": 6,
+    "quota_note": "سهمیه‌ها سقف هفتگی‌اند؛ پر نشدنشان اشکال ندارد و شش پست در روز تعهد نیست."
+  },
+  "freshness_hours": {
+    "pre_gate": 72,
+    "tools": 48,
+    "models": 48,
+    "security": 72,
+    "business": 72,
+    "education": 720
+  },
+  "max_future_hours": 24,
+  "media": {
+    "max_caption_chars": 900,
+    "telegram_caption_limit": 1024,
+    "allowed": ["article_lead_image"],
+    "forbidden": [
+      "logo",
+      "avatar",
+      "icon",
+      "ad_banner",
+      "tracking_pixel",
+      "stock_photo",
+      "social_screenshot",
+      "aggregator_thumbnail"
+    ],
+    "fallback": "text_only"
+  },
+  "offers": {
+    "status": "active",
+    "category": "tools",
+    "official_source_only": true,
+    "requires_expiry": true,
+    "min_remaining_hours": 24,
+    "max_age_hours": 24,
+    "max_per_day": 1,
+    "max_per_week": 3,
+    "referral_allowed": false,
+    "priority": "next_slot",
+    "review": {
+      "enabled": true,
+      "chat_env": "TELEGRAM_REVIEW_CHAT_ID",
+      "reasons": [
+        "source_not_official",
+        "expiry_missing",
+        "expiry_ambiguous",
+        "expiry_soon",
+        "offer_qa_failed"
+      ]
+    }
+  }
+}

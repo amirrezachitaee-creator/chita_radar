@@ -1,0 +1,193 @@
+name: slot-runner
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry = تولید بدون ارسال | send = ارسال واقعی"
+        type: choice
+        options:
+          - dry
+          - send
+        default: dry
+      target:
+        description: "مقصد ارسال (فقط در حالت send)"
+        type: choice
+        options:
+          - review
+          - main
+        default: review
+      slot:
+        description: "اسلات دستی مثل 08:30 — خالی یعنی انتخاب خودکار"
+        type: string
+        default: ""
+      force:
+        description: "اجرای دوباره حتی اگر اسلات ثبت شده باشد"
+        type: boolean
+        default: false
+      sources:
+        description: "شناسه منابع با کاما — خالی یعنی همه"
+        type: string
+        default: ""
+      max_candidates:
+        description: "حداکثر کاندید در این اجرا"
+        type: string
+        default: "4"
+  repository_dispatch:
+    types: [slot-tick]
+  schedule:
+    - cron: "0 5 * * *"
+    - cron: "0 8 * * *"
+    - cron: "30 10 * * *"
+    - cron: "30 13 * * *"
+    - cron: "0 17 * * *"
+    - cron: "30 19 * * *"
+
+concurrency:
+  group: slot-runner
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      MODE: ${{ github.event.inputs.mode || github.event.client_payload.mode || vars.PIPELINE_MODE || 'dry' }}
+      TARGET: ${{ github.event.inputs.target || github.event.client_payload.target || vars.PIPELINE_TARGET || 'main' }}
+      SLOT: ${{ github.event.inputs.slot || github.event.client_payload.slot || '' }}
+      FORCE: ${{ github.event.inputs.force || github.event.client_payload.force || 'false' }}
+      SOURCES: ${{ github.event.inputs.sources || github.event.client_payload.sources || '' }}
+      MAX_CANDIDATES: ${{ github.event.inputs.max_candidates || github.event.client_payload.max_candidates || '4' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Test
+        run: node --test pipeline/*.test.mjs
+
+      - name: Preflight
+        env:
+          AMD_API_KEY: ${{ secrets.AMD_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_REVIEW_CHAT_ID: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          case "${MODE}" in dry|send) ;; *) echo "BAD_MODE ${MODE}"; exit 2 ;; esac
+          case "${TARGET}" in review|main) ;; *) echo "BAD_TARGET ${TARGET}"; exit 2 ;; esac
+          if [ -z "${AMD_API_KEY:-}" ]; then echo "MISSING_SECRET AMD_API_KEY"; exit 2; fi
+          if [ "${MODE}" = "send" ] && [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then echo "MISSING_SECRET TELEGRAM_BOT_TOKEN"; exit 2; fi
+          if [ "${MODE}" = "send" ] && [ "${TARGET}" = "review" ] && [ -z "${TELEGRAM_REVIEW_CHAT_ID:-}" ]; then echo "MISSING_SECRET TELEGRAM_REVIEW_CHAT_ID"; exit 2; fi
+          if [ "${MODE}" = "send" ] && [ "${TARGET}" = "main" ] && [ -z "${TELEGRAM_CHAT_ID:-}" ]; then echo "MISSING_SECRET TELEGRAM_CHAT_ID"; exit 2; fi
+          if [ -n "${SLOT}" ] && ! printf '%s' "${SLOT}" | grep -Eq '^[0-2][0-9]:[0-5][0-9]$'; then echo "BAD_SLOT ${SLOT}"; exit 2; fi
+          if ! printf '%s' "${MAX_CANDIDATES}" | grep -Eq '^[1-9][0-9]*$'; then echo "BAD_MAX_CANDIDATES ${MAX_CANDIDATES}"; exit 2; fi
+          echo "PREFLIGHT_OK mode=${MODE} target=${TARGET} slot=${SLOT:-auto}"
+
+      - name: Write .env
+        env:
+          AMD_API_KEY: ${{ secrets.AMD_API_KEY }}
+          AMD_BASE_URL: ${{ vars.AMD_BASE_URL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_REVIEW_CHAT_ID: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          {
+            printf 'AMD_API_KEY=%s\n' "${AMD_API_KEY:-}"
+            printf 'AMD_BASE_URL=%s\n' "${AMD_BASE_URL:-}"
+            printf 'GROQ_API_KEY=%s\n' "${GROQ_API_KEY:-}"
+            printf 'GROQ_MODEL=%s\n' "${GROQ_MODEL:-}"
+            printf 'TELEGRAM_BOT_TOKEN=%s\n' "${TELEGRAM_BOT_TOKEN:-}"
+            printf 'TELEGRAM_CHAT_ID=%s\n' "${TELEGRAM_CHAT_ID:-}"
+            printf 'TELEGRAM_REVIEW_CHAT_ID=%s\n' "${TELEGRAM_REVIEW_CHAT_ID:-}"
+          } > .env
+          chmod 600 .env
+
+      - name: Seed state
+        run: |
+          set -euo pipefail
+          if [ "${MODE}" = "dry" ] && [ ! -f data/state.dry.json ]; then
+            cp data/state.json data/state.dry.json
+            echo "SEEDED_DRY_STATE"
+          fi
+          if [ "${MODE}" = "send" ] && [ "${TARGET}" = "review" ] && [ ! -f data/state.review.json ]; then
+            cp data/state.json data/state.review.json
+            echo "SEEDED_REVIEW_STATE"
+          fi
+
+      - name: Run slot
+        run: |
+          set -euo pipefail
+          args=()
+          if [ "${MODE}" = "send" ]; then
+            args+=(--send)
+            if [ "${TARGET}" = "review" ]; then args+=(--review-send); fi
+          else
+            if [ -n "${SLOT}" ]; then FORCE=true; fi
+          fi
+          if [ -n "${SLOT}" ]; then args+=(--slot "${SLOT}"); fi
+          if [ "${FORCE}" = "true" ]; then args+=(--force); fi
+          if [ -n "${SOURCES}" ]; then args+=(--sources "${SOURCES}"); fi
+          args+=(--max-candidates "${MAX_CANDIDATES}")
+          printf 'RUN_ARGS %s\n' "${args[*]}"
+          node pipeline/run-slot.mjs "${args[@]}"
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: slot-results-${{ github.run_id }}
+          path: results/
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Commit state
+        if: always()
+        run: |
+          set -euo pipefail
+          if [ ! -d .git ]; then echo "NO_GIT_CHECKOUT"; exit 0; fi
+          files=()
+          for f in data/state.json data/state.review.json; do
+            if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
+          done
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "STATE_UNCHANGED"
+            exit 0
+          fi
+          git add "${files[@]}"
+          git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): ${GITHUB_RUN_ID} ${MODE} ${TARGET}"
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "STATE_PUSHED attempt=${attempt}"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "STATE_PUSH_FAILED"
+          exit 1
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+        run: |
+          if [ -z "${TOKEN:-}" ] || [ -z "${CHAT:-}" ]; then exit 0; fi
+          text="اجرای اسلات در گیت‌هاب شکست خورد: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          curl -sS --max-time 20 -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" --data-urlencode "chat_id=${CHAT}" --data-urlencode "text=${text}" > /dev/null || true
+
+      - name: Remove .env
+        if: always()
+        run: rm -f .env
