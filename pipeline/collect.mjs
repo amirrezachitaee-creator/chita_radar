@@ -2,12 +2,9 @@ import { canonicalUrl, freshness } from './normalize.mjs';
 import { fetchText, parseFeed } from './engine.mjs';
 import { dedupeKeys, findSeen } from './store.mjs';
 import { offerHint } from './offers.mjs';
+import { aiHint, isAiCentral } from './relevance.mjs';
 
-const AI_HINT = /\b(ai|a\.i\.|openai|anthropic|claude|chatgpt|gemini|deepmind|llm|llms|model|models|agent|agents|agentic|inference|nvidia|gpu|gpus|data center|data centers|machine learning|neural|chatbot|copilot|robot|robotics|semiconductor|chip|chips)\b/i;
-
-export function aiHint(text) {
-  return AI_HINT.test(String(text ?? ''));
-}
+export { aiHint };
 
 export function rankCandidates(candidates) {
   return [...candidates].sort(
@@ -96,6 +93,7 @@ export async function collectCandidates({
         images: item.images,
         ageHours: gate.ageHours,
         aiHint: aiHint(`${item.title} ${item.summary}`),
+        aiCentral: isAiCentral(item.title, item.summary),
         offerHint: offerHint(`${item.title} ${item.summary}`),
         keys,
       });

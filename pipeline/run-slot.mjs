@@ -61,6 +61,7 @@ const SOURCE_FILTER = option('--sources', '')
   .split(',')
   .map((value) => value.trim())
   .filter(Boolean);
+const AI_ONLY_SOURCES = new Set(['the-decoder', 'arstechnica-ai']);
 const STATE_PATH = resolve(
   ROOT,
   option('--state', SEND ? (REVIEW_SEND ? 'data/state.review.json' : 'data/state.json') : 'data/state.dry.json')
@@ -238,6 +239,29 @@ async function main() {
     return;
   }
 
+  const relevantCandidates = candidates.filter((candidate) =>
+    candidate.offerHint ||
+    candidate.sourceType === 'official_blog' ||
+    AI_ONLY_SOURCES.has(candidate.sourceId) ||
+    candidate.aiCentral
+  );
+  const relevantSet = new Set(relevantCandidates);
+  const droppedCandidates = candidates.filter((candidate) => !relevantSet.has(candidate));
+  console.log(`RELEVANCE candidates=${candidates.length} kept=${relevantCandidates.length} dropped=${droppedCandidates.length}`);
+  for (const candidate of droppedCandidates.slice(0, 8)) {
+    console.log(`  SKIP_NOT_AI ${candidate.sourceName} | ${candidate.title}`);
+  }
+  if (droppedCandidates.length > 8) {
+    console.log(`  SKIP_NOT_AI ... +${droppedCandidates.length - 8} more`);
+  }
+  if (relevantCandidates.length === 0) {
+    markSlot(state, slot.key, { status: 'empty', reason: 'no_ai_candidates' });
+    await saveState(STATE_PATH, state);
+    console.log('RESULT EMPTY reason=no_ai_candidates');
+    console.log('NOTHING_WAS_SENT');
+    return;
+  }
+
   const attempts = [];
   let published = null;
   let totalCost = 0;
@@ -293,9 +317,9 @@ async function main() {
     return dir;
   }
 
-  for (const candidate of candidates.slice(0, MAX_CANDIDATES)) {
+  for (const candidate of relevantCandidates.slice(0, MAX_CANDIDATES)) {
     const label = `${candidate.sourceName} | ${candidate.title} | ${candidate.ageHours}h`;
-    console.log(`ATTEMPT ${attempts.length + 1}/${Math.min(MAX_CANDIDATES, candidates.length)} ${label}`);
+    console.log(`ATTEMPT ${attempts.length + 1}/${Math.min(MAX_CANDIDATES, relevantCandidates.length)} ${label}`);
 
     let article;
     try {
@@ -464,8 +488,9 @@ async function main() {
     let repair = null;
 
     const offerQaFailed = Boolean(offerContext) && qa.problems.some((problem) => problem.startsWith('offer_'));
+    const relevanceFailed = qa.problems.includes('ai_relevance');
     const styleWarning = qa.warnings.includes('formal_verbs') || qa.warnings.includes('why_repeat');
-    if (parsed.decision === 'publish' && (!qa.pass || styleWarning) && !offerQaFailed && !offerContext) {
+    if (parsed.decision === 'publish' && (!qa.pass || styleWarning) && !offerQaFailed && !relevanceFailed && !offerContext) {
       console.log(`  ${qa.pass ? 'STYLE_WARNING' : 'QA_FAILED'} ${qa.problems.join(',') || qa.warnings.join(',')} | one repair retry`);
       repair = await callWithRetry(
         writerOptions(writer, buildQaRepairMessage({ user: activeUser, parsed, qa, imageUrl, previousWhy })),

@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { canonicalUrl, freshness, windowFor } from './normalize.mjs';
 import { dateMentioned, hasReferral } from './offers.mjs';
+import { hasAiMention } from './relevance.mjs';
 
 export const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36';
 export const MAIN_CATEGORIES = ['tools', 'models', 'security', 'business'];
@@ -610,6 +611,7 @@ export function qaPost(parsed, context) {
     Array.isArray(parsed.key_facts) && parsed.key_facts.filter((fact) => typeof fact === 'string' && fact.trim()).length >= 2 &&
     parsed.entities && Array.isArray(parsed.entities.companies) && Array.isArray(parsed.entities.models));
   add('category_main', MAIN_CATEGORIES.includes(parsed.category));
+  add('ai_relevance', hasAiMention(`${title}\n${body}\n${quote}`));
   add('post_type', POST_TYPES.includes(type));
   add('importance', Number.isInteger(parsed.importance) && parsed.importance >= 3 && parsed.importance <= 5);
   add('verification_enum', VERIFICATIONS.includes(parsed.verification));

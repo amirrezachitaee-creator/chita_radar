@@ -228,8 +228,9 @@ async function main() {
   };
   let qa = qaPost(parsed, qaContext);
 
+  const relevanceFailed = qa.problems.includes('ai_relevance');
   const styleWarning = qa.warnings.includes('formal_verbs') || qa.warnings.includes('why_repeat');
-  if (parsed?.decision === 'publish' && (!qa.pass || styleWarning)) {
+  if (parsed?.decision === 'publish' && (!qa.pass || styleWarning) && !relevanceFailed) {
     console.log(`${qa.pass ? 'STYLE_WARNING' : 'QA_FAILED'} ${qa.problems.join(',') || qa.warnings.join(',')} | one repair retry`);
     repair = await callWithRetry(
       {
