@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T01:39:45.557Z",
+  "updatedAt": "2026-11-03T13:02:05.360Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -85,6 +85,22 @@
       "slot": "2026-11-03T08:30+03:30",
       "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
       "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them"
+    },
+    "url:68284f46466970f3": {
+      "at": "2026-11-03T13:02:05.360Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
+      "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations"
+    },
+    "title:68d76376dd726da3": {
+      "at": "2026-11-03T13:02:05.360Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-03T17:00+03:30",
+      "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
+      "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations"
     }
   },
   "slots": {
@@ -104,6 +120,15 @@
       "title": "دستگاه جیبی اوکراینی دوربین پهپادهای روسی را لو می‌دهد",
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-03/08-30",
       "messageId": 4,
+      "mode": "send_review"
+    },
+    "2026-11-03T17:00+03:30": {
+      "at": "2026-11-03T13:02:05.360Z",
+      "status": "sent",
+      "category": "models",
+      "title": "Message Threads آنتروپیک زمان پاسخ را ۳۵ درصد کم کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-03/17-00",
+      "messageId": 5,
       "mode": "send_review"
     }
   },
@@ -139,6 +164,17 @@
       "dedupe_key": "code380-dvision-sdr-ukraine",
       "post_key": "2026-11-03/08-30",
       "at": "2026-11-03T01:39:45.557Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-03T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "Message Threads آنتروپیک زمان پاسخ را ۳۵ درصد کم کرد",
+      "why": "اهمیتش اینه که برای گفتگوهای طولانی، سرعت پاسخ‌دهی به‌طور محسوسی بالا می‌ره و هزینه اضافه‌ای هم نداره.",
+      "dedupe_key": "anthropic-message-threads-beta",
+      "post_key": "2026-11-03/17-00",
+      "at": "2026-11-03T13:02:05.360Z"
     }
   ]
 }
