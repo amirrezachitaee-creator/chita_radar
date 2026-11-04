@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T17:50:31.674Z",
+  "updatedAt": "2026-11-04T20:17:27.696Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -345,9 +345,64 @@
       "slot": "2026-11-04T20:30+03:30",
       "title": "GitHub - gmpetrov/agent-screenplay: Beautiful screen recordings, made by your favorite AI agent.",
       "url": "https://github.com/gmpetrov/agent-screenplay"
+    },
+    "url:ac2776547aacb7b8": {
+      "at": "2026-11-04T20:17:27.696Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-04T23:00+03:30",
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy"
+    },
+    "title:ff268ae7e231a73f": {
+      "at": "2026-11-04T20:17:27.696Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-04T23:00+03:30",
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy"
     }
   },
-  "deferred": {},
+  "deferred": {
+    "defer:url:60b49bd40bcd399c": {
+      "id": "defer:url:60b49bd40bcd399c",
+      "at": "2026-11-04T20:17:12.665Z",
+      "firstAt": "2026-11-04T20:17:12.665Z",
+      "attempts": 1,
+      "reason": "qa_failed",
+      "reasons": [
+        "qa_failed"
+      ],
+      "keys": [
+        "url:60b49bd40bcd399c",
+        "title:50e9912d86ada5f6"
+      ],
+      "canonical": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
+      "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+        "link": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+        "canonical": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
+        "published": "Wed, 04 Nov 2026 19:44:20 +0000",
+        "summary": "OpenAI is adding a GIF feature to ChatGPT. With the new Images 2.6 model, users can create animated GIFs from text prompts or photos and then adjust speed and individual frames. The model's image consistency is strong enough to keep characters recognizable across frames, making flipbook-style animation possible. According to OpenAI, users now generate more than four billion images per week. The article ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model appeared first on The Decoder .",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/openai_gif_cat.png"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "keys": [
+          "url:60b49bd40bcd399c",
+          "title:50e9912d86ada5f6"
+        ]
+      },
+      "detail": "dedupe_key"
+    }
+  },
   "slots": {
     "2026-11-02T20:30+03:30": {
       "at": "2026-11-02T16:58:19.725Z",
@@ -407,6 +462,15 @@
       "title": "ابزار Screenplay ویدیوهای شیک از کار ایجنت می‌سازد",
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/20-30",
       "messageId": 13,
+      "mode": "send"
+    },
+    "2026-11-04T23:00+03:30": {
+      "at": "2026-11-04T20:17:27.696Z",
+      "status": "sent",
+      "category": "business",
+      "title": "DuckDuckGo به مدارس پیشنهاد می‌دهد موتور جستجوی پیش‌فرض را عوض",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/23-00",
+      "messageId": 14,
       "mode": "send"
     }
   },
@@ -486,83 +550,94 @@
       "dedupe_key": "screenplay-screen-recording-agent",
       "post_key": "2026-11-04/20-30",
       "at": "2026-11-04T17:50:31.674Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-04T23:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "DuckDuckGo به مدارس پیشنهاد می‌دهد موتور جستجوی پیش‌فرض را عوض",
+      "why": "اهمیتش اینه که مدارس حالا انتخاب واقعی بین موتور جستجوی با هوش مصنوعی اجباری و بدون اون دارن.",
+      "dedupe_key": "duckduckgo-schools-google-ai-policy",
+      "post_key": "2026-11-04/23-00",
+      "at": "2026-11-04T20:17:27.696Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8294,
-      "last_at": "2026-11-04T11:58:22+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "last_id": 8296,
+      "last_at": "2026-11-04T19:07:44+00:00",
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "ai_farshad": {
-      "last_id": 6356,
-      "last_at": "2026-11-04T16:38:16+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "last_id": 6360,
+      "last_at": "2026-11-04T19:31:34+00:00",
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "Mohammad_zammani": {
       "last_id": 7155,
       "last_at": "2026-11-04T16:28:53+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "techiin_ir": {
       "last_id": 20678,
       "last_at": "2026-11-04T15:50:01+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "mgh_mobin": {
       "last_id": 450,
       "last_at": "2026-11-03T14:32:14+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "asrnovin_ir": {
-      "last_id": 11403,
-      "last_at": "2026-11-04T14:46:50+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "last_id": 11404,
+      "last_at": "2026-11-04T19:20:01+00:00",
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "shayanode": {
-      "last_id": 71,
-      "last_at": "2026-11-03T19:03:00+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "last_id": 72,
+      "last_at": "2026-11-04T19:11:06+00:00",
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "codecloude": {
       "last_id": 2551,
       "last_at": "2026-11-04T17:43:48+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "dunijet_ai": {
       "last_id": 2503,
       "last_at": "2026-11-04T08:16:16+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     },
     "Sajadverse": {
       "last_id": 1242,
       "last_at": "2026-11-04T07:39:03+00:00",
-      "checked_at": "2026-11-04T17:50:01.223Z"
+      "checked_at": "2026-11-04T20:16:40.967Z"
     }
   }
 }
