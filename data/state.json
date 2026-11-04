@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T18:22:45.000Z",
+  "updatedAt": "2026-11-04T05:48:14.874Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -69,6 +69,112 @@
       "slot": "2026-11-02T20:30+03:30",
       "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
       "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition"
+    },
+    "url:3dd56b9d6773980f": {
+      "at": "2026-11-04T05:43:28.368Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "🔔 ثبت نام دوره جامع هوش مدرن",
+      "url": "https://www.mghacademy.ir/product/modern-intelligence-course"
+    },
+    "title:f1c5b4843527b562": {
+      "at": "2026-11-04T05:43:28.368Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "🔔 ثبت نام دوره جامع هوش مدرن",
+      "url": "https://www.mghacademy.ir/product/modern-intelligence-course"
+    },
+    "url:9c7fc65e3e03b438": {
+      "at": "2026-11-04T05:43:29.780Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "🤖 5 پلاگین رایگان که Claude Code رو چند برابر قدرتمندتر می‌کنن!",
+      "url": "https://t.me/ai_farshad"
+    },
+    "title:61a83868051abc46": {
+      "at": "2026-11-04T05:43:29.780Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "🤖 5 پلاگین رایگان که Claude Code رو چند برابر قدرتمندتر می‌کنن!",
+      "url": "https://t.me/ai_farshad"
+    },
+    "url:844b0b7aa418eb7b": {
+      "at": "2026-11-04T05:43:31.165Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "آموزش فعال‌سازی VPN داخلی فایرفاکس",
+      "url": "https://t.me/shayanode"
+    },
+    "title:b4d0b98002c879ba": {
+      "at": "2026-11-04T05:43:31.165Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "آموزش فعال‌سازی VPN داخلی فایرفاکس",
+      "url": "https://t.me/shayanode"
+    },
+    "url:fa00b4f66d246a49": {
+      "at": "2026-11-04T05:45:24.891Z",
+      "decision": "qa_failed",
+      "reason": "length",
+      "category": "models",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+    },
+    "title:4d73e88b0b55894f": {
+      "at": "2026-11-04T05:45:24.891Z",
+      "decision": "qa_failed",
+      "reason": "length",
+      "category": "models",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+    },
+    "url:9427f87f31ac6b74": {
+      "at": "2026-11-04T05:47:15.022Z",
+      "decision": "qa_failed",
+      "reason": "length",
+      "category": "business",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom"
+    },
+    "title:c8719d688e6cbb4a": {
+      "at": "2026-11-04T05:47:15.022Z",
+      "decision": "qa_failed",
+      "reason": "length",
+      "category": "business",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom"
+    },
+    "url:24379856c459e00a": {
+      "at": "2026-11-04T05:48:14.873Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back"
+    },
+    "title:609373eef0be813b": {
+      "at": "2026-11-04T05:48:14.873Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-04T08:30+03:30",
+      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back"
     }
   },
   "slots": {
@@ -85,6 +191,15 @@
       "at": "2026-11-03T18:22:45.000Z",
       "status": "skipped",
       "reason": "start_tomorrow",
+      "mode": "send"
+    },
+    "2026-11-04T08:30+03:30": {
+      "at": "2026-11-04T05:48:14.873Z",
+      "status": "sent",
+      "category": "security",
+      "title": "روسیه به‌دنبال انتقال دیتاسنترها به زیرزمین",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/08-30",
+      "messageId": 9,
       "mode": "send"
     }
   },
@@ -109,6 +224,94 @@
       "post_key": "manual/2026-11-03",
       "at": "2026-11-02T22:33:19.353Z",
       "why": "این موضوع از اونجایی مهمه که هزینه‌های سنگین روی عرضه اولیه سهام فشار میاره؛ عرضه‌ای که می‌تونه حدود ۱۰۰ میلیارد دلار جذب کنه."
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-04T08:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "روسیه به‌دنبال انتقال دیتاسنترها به زیرزمین",
+      "why": "تمرکز شدید زیرساخت‌های ابری روسیه زیر دست چند شرکت بزرگ، حالا در جنگ به یک نقطه ضعف بزرگ تبدیل شده.",
+      "dedupe_key": "russia-underground-datacenters-drone",
+      "post_key": "2026-11-04/08-30",
+      "at": "2026-11-04T05:48:14.874Z"
     }
-  ]
+  ],
+  "telegram": {
+    "ArchiveTell": {
+      "last_id": 8289,
+      "last_at": "2026-11-03T14:56:54+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "pedramgholizadeh": {
+      "last_id": 785,
+      "last_at": "2026-11-03T12:28:47+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "ai_farshad": {
+      "last_id": 6350,
+      "last_at": "2026-11-03T19:28:41+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "Mohammad_zammani": {
+      "last_id": 7151,
+      "last_at": "2026-11-03T14:33:19+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "techiin_ir": {
+      "last_id": 20672,
+      "last_at": "2026-11-03T17:15:55+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "mgh_mobin": {
+      "last_id": 450,
+      "last_at": "2026-11-03T14:32:14+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "web3nabu": {
+      "last_id": 2150,
+      "last_at": "2026-11-03T14:30:50+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "asrnovin_ir": {
+      "last_id": 11399,
+      "last_at": "2026-11-03T19:32:10+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "shayanode": {
+      "last_id": 71,
+      "last_at": "2026-11-03T19:03:00+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "aibysadeghi": {
+      "last_id": 68,
+      "last_at": "2026-11-03T11:57:57+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "codecloude": {
+      "last_id": 2549,
+      "last_at": "2026-11-03T11:17:23+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "dunijet_ai": {
+      "last_id": 2501,
+      "last_at": "2026-11-04T04:22:09+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "marketing_aida": {
+      "last_id": 100,
+      "last_at": "2026-11-03T08:08:17+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "miladxtalks": {
+      "last_id": 240,
+      "last_at": "2026-11-02T20:28:18+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    },
+    "Sajadverse": {
+      "last_id": 1241,
+      "last_at": "2026-11-03T17:35:55+00:00",
+      "checked_at": "2026-11-04T05:43:19.529Z"
+    }
+  }
 }
