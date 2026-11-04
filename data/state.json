@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T11:33:33.556Z",
+  "updatedAt": "2026-11-04T14:37:03.193Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -277,6 +277,40 @@
       "slot": "2026-11-04T14:00+03:30",
       "title": "Schools that turn off Google's AI will lose search too starting in 2027",
       "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027"
+    },
+    "url:db0f755307615b03": {
+      "at": "2026-11-04T14:30:38.141Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T17:00+03:30",
+      "title": "🔍گوگل قراره از اوایل سال آینده میلادی، دسترسی به ابزارهای هوش مصنوعی خودش رو برای حساب‌های",
+      "url": "https://t.me/mohammad_zammani"
+    },
+    "title:b4bf77b9a711c5d1": {
+      "at": "2026-11-04T14:30:38.141Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T17:00+03:30",
+      "title": "🔍گوگل قراره از اوایل سال آینده میلادی، دسترسی به ابزارهای هوش مصنوعی خودش رو برای حساب‌های",
+      "url": "https://t.me/mohammad_zammani"
+    },
+    "url:64e891378c13ac06": {
+      "at": "2026-11-04T14:37:03.192Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-04T17:00+03:30",
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges"
+    },
+    "title:67f9c74229fbc815": {
+      "at": "2026-11-04T14:37:03.192Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-04T17:00+03:30",
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges"
     }
   },
   "slots": {
@@ -320,6 +354,15 @@
       "title": "مدارس از ۲۰۲۷ یا هوش مصنوعی گوگل یا جست‌وجو",
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/14-00",
       "messageId": 11,
+      "mode": "send"
+    },
+    "2026-11-04T17:00+03:30": {
+      "at": "2026-11-04T14:37:03.192Z",
+      "status": "sent",
+      "category": "business",
+      "title": "فال با جذب ۱.۳ میلیارد دلار، ارزشش دو برابر شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/17-00",
+      "messageId": 12,
       "mode": "send"
     }
   },
@@ -377,83 +420,94 @@
       "dedupe_key": "google-schools-ai-search-ultimatum",
       "post_key": "2026-11-04/14-00",
       "at": "2026-11-04T11:33:33.556Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-04T17:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "فال با جذب ۱.۳ میلیارد دلار، ارزشش دو برابر شد",
+      "why": "این رشد نشون می‌ده که بازار اجرای مدل‌های اوپن سورس چقدر داغ شده و سرمایه‌ها دارن به سمت زیرساخت‌های inference می‌آن.",
+      "dedupe_key": "fal-16b-valuation-funding",
+      "post_key": "2026-11-04/17-00",
+      "at": "2026-11-04T14:37:03.192Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8293,
-      "last_at": "2026-11-04T09:16:03+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "last_id": 8294,
+      "last_at": "2026-11-04T11:58:22+00:00",
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "ai_farshad": {
-      "last_id": 6353,
-      "last_at": "2026-11-04T10:33:33+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "last_id": 6355,
+      "last_at": "2026-11-04T13:30:55+00:00",
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7152,
-      "last_at": "2026-11-04T07:03:21+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "last_id": 7154,
+      "last_at": "2026-11-04T13:32:37+00:00",
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "techiin_ir": {
-      "last_id": 20675,
-      "last_at": "2026-11-04T09:15:13+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "last_id": 20677,
+      "last_at": "2026-11-04T14:29:31+00:00",
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "mgh_mobin": {
       "last_id": 450,
       "last_at": "2026-11-03T14:32:14+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "asrnovin_ir": {
-      "last_id": 11400,
-      "last_at": "2026-11-04T06:23:49+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "last_id": 11402,
+      "last_at": "2026-11-04T13:27:42+00:00",
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "shayanode": {
       "last_id": 71,
       "last_at": "2026-11-03T19:03:00+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "codecloude": {
       "last_id": 2549,
       "last_at": "2026-11-03T11:17:23+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "dunijet_ai": {
       "last_id": 2503,
       "last_at": "2026-11-04T08:16:16+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     },
     "Sajadverse": {
       "last_id": 1242,
       "last_at": "2026-11-04T07:39:03+00:00",
-      "checked_at": "2026-11-04T11:29:26.101Z"
+      "checked_at": "2026-11-04T14:30:30.928Z"
     }
   }
 }
