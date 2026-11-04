@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T09:04:55.252Z",
+  "updatedAt": "2026-11-04T11:33:33.556Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -243,6 +243,40 @@
       "slot": "2026-11-04T11:30+03:30",
       "title": "Rapid LLM development is outrunning the research meant to explain it, study finds",
       "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds"
+    },
+    "url:812b0c1e1630a741": {
+      "at": "2026-11-04T11:30:25.698Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-04T14:00+03:30",
+      "title": "Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms",
+      "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms"
+    },
+    "title:873e838b77da171f": {
+      "at": "2026-11-04T11:30:25.698Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-04T14:00+03:30",
+      "title": "Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms",
+      "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms"
+    },
+    "url:b481e902538ec1d4": {
+      "at": "2026-11-04T11:33:33.556Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-04T14:00+03:30",
+      "title": "Schools that turn off Google's AI will lose search too starting in 2027",
+      "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027"
+    },
+    "title:b50465c44d7fbcdd": {
+      "at": "2026-11-04T11:33:33.556Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-04T14:00+03:30",
+      "title": "Schools that turn off Google's AI will lose search too starting in 2027",
+      "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027"
     }
   },
   "slots": {
@@ -277,6 +311,15 @@
       "title": "تحقیق استنفورد: بیشتر یافته‌های پژوهشی درباره مدل‌های زبانی منقضی شده",
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/11-30",
       "messageId": 10,
+      "mode": "send"
+    },
+    "2026-11-04T14:00+03:30": {
+      "at": "2026-11-04T11:33:33.556Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "مدارس از ۲۰۲۷ یا هوش مصنوعی گوگل یا جست‌وجو",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/14-00",
+      "messageId": 11,
       "mode": "send"
     }
   },
@@ -323,83 +366,94 @@
       "dedupe_key": "stanford-llm-findings-expiration-study",
       "post_key": "2026-11-04/11-30",
       "at": "2026-11-04T09:04:55.252Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-04T14:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "مدارس از ۲۰۲۷ یا هوش مصنوعی گوگل یا جست‌وجو",
+      "why": "این تصمیم حق انتخاب مدارس را در استفاده از فناوری محدود می‌کند و می‌تواند الگویی برای بقیه بازارها شود.",
+      "dedupe_key": "google-schools-ai-search-ultimatum",
+      "post_key": "2026-11-04/14-00",
+      "at": "2026-11-04T11:33:33.556Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8292,
-      "last_at": "2026-11-04T08:44:23+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "last_id": 8293,
+      "last_at": "2026-11-04T09:16:03+00:00",
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "ai_farshad": {
-      "last_id": 6351,
-      "last_at": "2026-11-04T07:31:34+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "last_id": 6353,
+      "last_at": "2026-11-04T10:33:33+00:00",
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "Mohammad_zammani": {
       "last_id": 7152,
       "last_at": "2026-11-04T07:03:21+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "techiin_ir": {
-      "last_id": 20673,
-      "last_at": "2026-11-04T08:17:39+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "last_id": 20675,
+      "last_at": "2026-11-04T09:15:13+00:00",
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "mgh_mobin": {
       "last_id": 450,
       "last_at": "2026-11-03T14:32:14+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "asrnovin_ir": {
       "last_id": 11400,
       "last_at": "2026-11-04T06:23:49+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "shayanode": {
       "last_id": 71,
       "last_at": "2026-11-03T19:03:00+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "codecloude": {
       "last_id": 2549,
       "last_at": "2026-11-03T11:17:23+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "dunijet_ai": {
       "last_id": 2503,
       "last_at": "2026-11-04T08:16:16+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     },
     "Sajadverse": {
       "last_id": 1242,
       "last_at": "2026-11-04T07:39:03+00:00",
-      "checked_at": "2026-11-04T08:52:13.977Z"
+      "checked_at": "2026-11-04T11:29:26.101Z"
     }
   }
 }
