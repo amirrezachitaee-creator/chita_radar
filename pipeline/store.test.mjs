@@ -15,8 +15,17 @@ import {
   saveState,
   dedupeKeys,
   findSeen,
+  findSeenInStates,
+  deliveredEntries,
+  SEEN_RETENTION_DAYS,
   markSeen,
   markSlot,
+  deferCandidate,
+  deferredId,
+  clearDeferred,
+  listDeferred,
+  MAX_DEFER_ATTEMPTS,
+  DEFER_TTL_HOURS,
   isSlotSettled,
   quotaSnapshot,
   recordPublished,
@@ -101,6 +110,86 @@ test('dedupe keys survive tracking parameters and title whitespace', () => {
   assert.ok(findSeen(state, second));
 });
 
+test('seen lookup reaches both lanes and ignores records older than 30 days', () => {
+  const active = emptyState();
+  const review = emptyState();
+  const recent = dedupeKeys({ url: 'https://example.com/recent', title: 'Recent story' });
+  const old = dedupeKeys({ url: 'https://example.com/old', title: 'Old story' });
+  markSeen(review, recent, { at: '2026-11-01T00:00:00.000Z', decision: 'review' });
+  markSeen(review, old, { at: '2026-09-01T00:00:00.000Z', decision: 'publish' });
+
+  assert.equal(SEEN_RETENTION_DAYS, 30);
+  assert.equal(findSeenInStates([active], recent, '2026-11-02T15:00:00.000Z'), null);
+  assert.ok(findSeenInStates([active, review], recent, '2026-11-02T15:00:00.000Z'));
+  assert.equal(findSeenInStates([active, review], old, '2026-11-02T15:00:00.000Z'), null);
+});
+
+test('legacy seen records without a date still block an exact repeat', () => {
+  const state = emptyState();
+  const keys = dedupeKeys({ url: 'https://example.com/legacy', title: 'Legacy story' });
+  markSeen(state, keys, { at: '', decision: 'skip' });
+  assert.ok(findSeenInStates([state], keys, '2026-11-02T15:00:00.000Z'));
+});
+
+test('delivered memory keeps published and review entries only for 30 days', () => {
+  const now = '2026-11-02T15:00:00.000Z';
+  const main = emptyState();
+  const review = emptyState();
+  main.published = [
+    { title: 'Main story', at: '2026-10-29T15:00:00.000Z', slot: '2026-10-29T20:30+03:30', category: 'tools' },
+    { title: 'Old main story', at: '2026-09-01T15:00:00.000Z', slot: '2026-09-01T20:30+03:30', category: 'tools' },
+  ];
+  markSeen(main, dedupeKeys({ url: 'https://example.com/reviewed', title: 'Reviewed story' }), {
+    at: '2026-11-01T00:00:00.000Z',
+    decision: 'review',
+    title: 'Reviewed story',
+    slot: '2026-11-01T08:30+03:30',
+  });
+  markSeen(main, dedupeKeys({ url: 'https://example.com/edu', title: 'Education story' }), {
+    at: '2026-10-20T00:00:00.000Z',
+    decision: 'education_review',
+    title: 'Education story',
+    slot: '2026-10-20T08:30+03:30',
+  });
+  markSeen(main, dedupeKeys({ url: 'https://example.com/failed', title: 'Rejected story' }), {
+    at: '2026-11-01T00:00:00.000Z',
+    decision: 'qa_failed',
+    title: 'Rejected story',
+  });
+  markSeen(main, dedupeKeys({ url: 'https://example.com/dupe', title: 'Education duplicate' }), {
+    at: '2026-11-01T00:00:00.000Z',
+    decision: 'education_duplicate',
+    title: 'Education duplicate',
+  });
+  review.published = [
+    { title: 'Review story', at: '2026-11-02T10:00:00.000Z', slot: '2026-11-02T14:00+03:30', category: 'models' },
+  ];
+  markSeen(review, dedupeKeys({ url: 'https://example.com/review-published', title: 'Review story' }), {
+    at: '2026-11-02T10:00:00.000Z',
+    decision: 'publish',
+    title: 'Review story',
+    slot: '2026-11-02T14:00+03:30',
+  });
+  markSeen(review, dedupeKeys({ url: 'https://example.com/old-review', title: 'Old review story' }), {
+    at: '2026-09-15T00:00:00.000Z',
+    decision: 'review',
+    title: 'Old review story',
+  });
+
+  const entries = deliveredEntries(
+    [{ lane: 'main', state: main }, { lane: 'review', state: review }],
+    now,
+    { days: SEEN_RETENTION_DAYS }
+  );
+  assert.deepEqual(
+    entries.map((entry) => `${entry.lane}|${entry.title}`),
+    ['review|Review story', 'main|Reviewed story', 'main|Main story', 'main|Education story']
+  );
+  assert.equal(entries[0].decision, 'publish');
+  assert.equal(entries[1].decision, 'review');
+  assert.equal(entries[3].decision, 'education_review');
+});
+
 test('slot status is settled for ready, sent, or skipped', () => {
   const state = emptyState();
   assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), false);
@@ -178,4 +267,79 @@ test('missing state file starts empty', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-state-missing-'));
   const state = await loadState(join(dir, 'none.json'));
   assert.deepEqual(state, emptyState());
+});
+
+const deferredCandidate = {
+  title: 'خبر تازه',
+  link: 'https://example.com/a',
+  canonical: 'https://example.com/a',
+  keys: dedupeKeys({ url: 'https://example.com/a', title: 'خبر تازه' }),
+  published: '2026-11-02T00:00:00.000Z',
+};
+
+test('a deferred candidate is retried and cleared after publishing', () => {
+  const state = emptyState();
+  const first = deferCandidate(state, deferredCandidate, { reason: 'invalid_json' });
+  assert.equal(first.attempts, 1);
+  assert.equal(listDeferred(state, '2026-11-02T02:00:00Z').length, 1);
+
+  const second = deferCandidate(state, deferredCandidate, { reason: 'fetch_failed' });
+  assert.equal(second.attempts, 2);
+  assert.deepEqual(second.reasons, ['invalid_json', 'fetch_failed']);
+
+  markSeen(state, deferredCandidate.keys, { decision: 'publish' });
+  assert.equal(listDeferred(state, '2026-11-02T02:00:00Z').length, 0);
+  assert.equal(state.deferred[deferredId(deferredCandidate)], undefined);
+});
+
+test('deferred retries stop at the attempt cap and after the freshness ttl', () => {
+  const state = emptyState();
+  for (let index = 0; index < MAX_DEFER_ATTEMPTS; index += 1) {
+    deferCandidate(state, deferredCandidate, { reason: 'quota_full' });
+  }
+  assert.equal(listDeferred(state, '2026-11-02T02:00:00Z').length, 0);
+  assert.equal(listDeferred(state, '2026-11-02T02:00:00Z', { maxAttempts: MAX_DEFER_ATTEMPTS + 1 }).length, 1);
+
+  const old = { ...deferredCandidate, title: 'خبر قدیمی', link: 'https://example.com/old', canonical: 'https://example.com/old', published: '2026-10-25T00:00:00.000Z' };
+  deferCandidate(state, old, { reason: 'invalid_json' });
+  assert.equal(
+    listDeferred(state, '2026-11-02T02:00:00Z', { ttlHours: DEFER_TTL_HOURS }).some((entry) => entry.title === 'خبر قدیمی'),
+    false
+  );
+});
+
+test('pruning drops expired deferred records and caps the queue', () => {
+  const state = emptyState();
+  for (let index = 0; index < 55; index += 1) {
+    deferCandidate(
+      state,
+      {
+        ...deferredCandidate,
+        title: `خبر ${index}`,
+        link: `https://example.com/${index}`,
+        canonical: `https://example.com/${index}`,
+      },
+      { reason: 'invalid_json' }
+    );
+  }
+  for (const entry of Object.values(state.deferred)) entry.at = '2026-11-02T00:00:00.000Z';
+  pruneState(state, '2026-11-02T01:00:00Z');
+  assert.equal(Object.keys(state.deferred).length, 50);
+
+  const stale = Object.values(state.deferred)[0];
+  stale.at = '2026-01-01T00:00:00.000Z';
+  pruneState(state, '2026-11-02T01:00:00Z');
+  assert.equal(state.deferred[stale.id], undefined);
+});
+
+test('deferred records survive a state round-trip', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'qoder-state-deferred-'));
+  const path = join(dir, 'state.json');
+  const state = emptyState();
+  deferCandidate(state, deferredCandidate, { reason: 'invalid_json', detail: 'writer=primary' });
+  await saveState(path, state);
+  const loaded = await loadState(path);
+  assert.equal(Object.keys(loaded.deferred).length, 1);
+  assert.equal(Object.values(loaded.deferred)[0].reason, 'invalid_json');
+  assert.equal(Object.values(loaded.deferred)[0].candidate.canonical, 'https://example.com/a');
 });

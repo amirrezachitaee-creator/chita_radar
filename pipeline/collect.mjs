@@ -1,6 +1,6 @@
 import { canonicalUrl, freshness } from './normalize.mjs';
 import { fetchText, parseFeed } from './engine.mjs';
-import { dedupeKeys, findSeen } from './store.mjs';
+import { dedupeKeys, findSeenInStates } from './store.mjs';
 import { offerHint } from './offers.mjs';
 import { aiHint, isAiCentral } from './relevance.mjs';
 import {
@@ -46,13 +46,35 @@ const emptyTelegramStats = () => ({
   stale: 0,
   beforeStart: 0,
   duplicate: 0,
+  crossLane: 0,
   truncated: 0,
   errors: 0,
 });
 
+function seenAcrossLanes(state, memoryStates, keys, now) {
+  const active = findSeenInStates([state], keys, now);
+  if (active) return { hit: active, crossLane: false };
+  const memory = findSeenInStates(memoryStates, keys, now);
+  if (memory) return { hit: memory, crossLane: true };
+  return null;
+}
+
+function isSameChannelUrl(raw, username) {
+  try {
+    const url = new URL(String(raw));
+    const host = url.hostname.toLowerCase().replace(/^www\./, '');
+    if (host !== 't.me' && host !== 'telegram.me') return false;
+    const [owner] = url.pathname.split('/').filter(Boolean);
+    return String(owner ?? '').toLowerCase() === String(username ?? '').toLowerCase();
+  } catch {
+    return false;
+  }
+}
+
 async function collectTelegramSource({
   source,
   state,
+  memoryStates,
   now,
   maxAgeHours,
   fetchImpl,
@@ -148,7 +170,8 @@ async function collectTelegramSource({
         officialCourseDomains: settings.official_course_domains ?? [],
       });
     } else if (isEducationLead(hint)) {
-      link = selectAnyLink(message) || message.url;
+      const anyLink = selectAnyLink(message);
+      link = anyLink && !isSameChannelUrl(anyLink, source.username) ? anyLink : message.url;
       leadKind = 'education';
     }
     if (!link) {
@@ -176,9 +199,14 @@ async function collectTelegramSource({
     }
 
     const keys = dedupeKeys({ url: canonical, title });
-    if (findSeen(state, keys)) {
+    const seen = seenAcrossLanes(state, memoryStates, keys, now);
+    if (seen) {
       stats.duplicate += 1;
       stats.telegram.duplicate += 1;
+      if (seen.crossLane) {
+        stats.crossLane += 1;
+        stats.telegram.crossLane += 1;
+      }
       continue;
     }
 
@@ -224,6 +252,7 @@ async function collectTelegramSource({
 export async function collectCandidates({
   sources,
   state,
+  memoryStates = [],
   now,
   perSource = 12,
   maxAgeHours = 72,
@@ -237,6 +266,7 @@ export async function collectCandidates({
     stale: 0,
     noDate: 0,
     duplicate: 0,
+    crossLane: 0,
     kept: 0,
     errors: [],
     telegram: emptyTelegramStats(),
@@ -249,6 +279,7 @@ export async function collectCandidates({
       await collectTelegramSource({
         source,
         state,
+        memoryStates,
         now,
         maxAgeHours,
         fetchImpl,
@@ -297,8 +328,10 @@ export async function collectCandidates({
       }
 
       const keys = dedupeKeys({ url: canonical, title: item.title });
-      if (findSeen(state, keys)) {
+      const seen = seenAcrossLanes(state, memoryStates, keys, now);
+      if (seen) {
         stats.duplicate += 1;
+        if (seen.crossLane) stats.crossLane += 1;
         continue;
       }
 

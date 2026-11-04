@@ -56,7 +56,7 @@ test('freshness windows match the approved policy', () => {
     models: 48,
     security: 72,
     business: 72,
-    education: 720,
+    education: 72,
   });
   assert.equal(config.max_future_hours, 24);
 });

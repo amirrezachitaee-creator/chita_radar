@@ -7,12 +7,14 @@ import {
   classifyLead,
   educationDigestLeads,
   educationLeadLabel,
+  educationSignals,
   hasPromoText,
   isAllowedLink,
   isEducationLead,
   isOfficialCourse,
   isPromotionalUrl,
   leadTitle,
+  matchesPublishedStory,
   parseTelegramChannel,
   selectAnyLink,
   selectLeadLink,
@@ -222,6 +224,95 @@ test('education posts are flagged for the private lane', () => {
   assert.equal(isEducationLead(''), false);
 });
 
+test('a news story about education is not an education lead', () => {
+  const classroomStory = [
+    'گوگل قراره از اوایل سال آینده میلادی، دسترسی به ابزارهای هوش مصنوعی خودش رو برای حساب‌های دانش‌آموزی مدارس ابتدایی تا دبیرستان به‌صورت پیش‌فرض غیرفعال کنه.',
+    'این شرکت در ماه اوت، قابلیت‌های هوش مصنوعی رو به‌صورت پیش‌فرض در گوگل کلاس‌روم فعال کرده بود.',
+    'کریس فیلیپس، معاون بخش آموزش گوگل، در گفت‌وگو با نیویورک تایمز گفته جست‌وجو و هوش مصنوعی به‌شدت به هم وابسته و یکپارچه شدن.',
+  ].join(' ');
+
+  assert.equal(isEducationLead(classroomStory), false);
+  assert.equal(classifyLead('https://example.com/news', classroomStory), 'news');
+  assert.equal(
+    educationLeadLabel({
+      title: classroomStory,
+      messageText: classroomStory,
+      link: 'https://example.com/news',
+    }),
+    'نامشخص'
+  );
+
+  const signals = educationSignals(classroomStory);
+  assert.ok(signals.news.includes('announcement'));
+  assert.ok(signals.news.includes('educationTopic'));
+  assert.equal(signals.education.includes('course'), false);
+  assert.equal(signals.education.includes('tutorial'), false);
+  assert.ok(signals.newsScore > signals.educationScore);
+
+  assert.equal(
+    isEducationLead('کریس فیلیپس، معاون بخش آموزش گوگل، گفت جست‌وجو و هوش مصنوعی یکی شده‌اند.'),
+    false
+  );
+});
+
+test('education needs more than one weak word and keeps real courses', () => {
+  assert.equal(isEducationLead('دوره متوسطه و مدارس ابتدایی'), false);
+  assert.equal(isEducationLead('کلاس‌روم گوگل برای مدارس'), false);
+  assert.equal(isEducationLead('خبر تازه مدل زبانی'), false);
+
+  const signals = educationSignals('دوره رایگان یادگیری هوش مصنوعی');
+  assert.ok(signals.education.includes('course'));
+  assert.ok(signals.education.includes('qualifier'));
+  assert.ok(signals.educationScore >= 3);
+  assert.equal(isEducationLead('دوره رایگان یادگیری هوش مصنوعی'), true);
+
+  assert.equal(isEducationLead('در گوگل کلاس‌روم دوره هوش مصنوعی را ثبت‌نام کنید'), true);
+
+  const guidePost =
+    'این ۳ ابزار رایگان با فایل PDF راهنمای فارسی (۱۰ صفحه) و نصب قدم‌به‌قدم برای مک و ویندوز و پرامپت‌های آماده';
+  assert.equal(isEducationLead(guidePost), true);
+  assert.equal(
+    educationLeadLabel({
+      title: 'صدای واقعی برای ویدیوهایی که با کلاود می‌سازی',
+      messageText: guidePost,
+      link: 'https://github.com/example/skills',
+    }),
+    'آموزش'
+  );
+  assert.equal(
+    educationLeadLabel({
+      title: 'ثبت نام دوره جامع هوش مدرن',
+      messageText: 'آموزش کامل هوش مصنوعی از پایه',
+      link: 'https://www.mghacademy.ir/product/modern-intelligence-course',
+    }),
+    'فروش دوره'
+  );
+});
+
+test('a review lead that repeats a published story is detected', () => {
+  const published = { title: 'مدارس از ۲۰۲۷ یا هوش مصنوعی گوگل یا جست‌وجو' };
+  const classroomStory = [
+    '🔍گوگل قراره از اوایل سال آینده میلادی، دسترسی به ابزارهای هوش مصنوعی خودش رو برای حساب‌های دانش‌آموزی مدارس ابتدایی تا دبیرستان به‌صورت پیش‌فرض غیرفعال کنه.',
+    'این شرکت در ماه اوت، قابلیت‌های هوش مصنوعی رو به‌صورت پیش‌فرض در گوگل کلاس‌روم فعال کرده بود.',
+    'کریس فیلیپس، معاون بخش آموزش گوگل، در گفت‌وگو با نیویورک تایمز گفته جست‌وجو و هوش مصنوعی به‌شدت به هم وابسته و یکپارچه شدن.',
+  ].join(' ');
+
+  assert.equal(matchesPublishedStory(classroomStory, published), true);
+  assert.equal(
+    matchesPublishedStory('گوگل مدل جمینی ۳ را معرفی کرد و در دسترس همه قرار داد', published),
+    false
+  );
+  assert.equal(
+    matchesPublishedStory('بودجه مدارس برای آموزش هوش مصنوعی دو برابر شد', published),
+    false
+  );
+  assert.equal(
+    matchesPublishedStory('گوگل سیاست جدیدش برای مدارس را اصلاح کرد', published),
+    false
+  );
+  assert.equal(matchesPublishedStory(classroomStory, {}), false);
+});
+
 test('education digest keeps one link per lead and stays private', () => {
   const digest = buildEducationDigest({
     leads: [
@@ -427,6 +518,36 @@ test('a linkless education post falls back to its channel permalink', async () =
   assert.equal(result.candidates[0].leadKind, 'education');
   assert.equal(result.candidates[0].link, 'https://t.me/testchannel/203');
   assert.equal(result.stats.telegram.noLink, 0);
+});
+
+test('a channel mention link does not replace the education post permalink', async () => {
+  const state = emptyState();
+  const eduPage = block({
+    id: 204,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'آموزش فعال‌سازی VPN فایرفاکس <a href="https://t.me/testchannel">کانال</a>',
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-edu-mention',
+        name: 'Edu mention channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(eduPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].leadKind, 'education');
+  assert.equal(result.candidates[0].link, 'https://t.me/testchannel/204');
+  assert.equal(result.candidates[0].canonical, 'https://t.me/testchannel/204');
 });
 
 test('collector drops channel product ads before they reach news', async () => {

@@ -12,6 +12,7 @@ export const VERIFICATIONS = ['official', 'reported', 'rumor', 'unverified'];
 export const RANGES = { breaking: [150, 400], standard: [400, 900], deep: [900, 1800] };
 export const CAPTION_SAFE_LIMIT = 900;
 export const QUOTE_MAX_CHARS = 1200;
+export const TITLE_MAX_WORDS = 12;
 export const BANNED = [
   'باورنکردنی',
   'شوکه‌کننده',
@@ -516,6 +517,127 @@ export function fitCaption(parsed, newsDate = '', limit = CAPTION_SAFE_LIMIT) {
   return { ...parsed, image_url: '' };
 }
 
+export function countTitleWords(value) {
+  const title = String(value ?? '').trim();
+  if (!title) return 0;
+  return title.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
+}
+
+const TITLE_STOPWORDS = new Set(['و', 'یا', 'با', 'از', 'به', 'در', 'برای', 'که', 'تا', 'بر', 'این', 'آن', 'اما', 'ولی', 'هم']);
+
+export function trimTitle(value, max = TITLE_MAX_WORDS) {
+  const title = String(value ?? '').replace(/\*\*/g, ' ').replace(/\s+/g, ' ').trim();
+  if (!title) return title;
+  const words = title.split(/\s+/).filter(Boolean);
+  const kept = [];
+  let count = 0;
+  for (const word of words) {
+    const weight = word.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
+    if (count + weight > max) break;
+    kept.push(word);
+    count += weight;
+  }
+  if (!kept.length) kept.push(words[0]);
+  while (kept.length > 1 && TITLE_STOPWORDS.has(kept[kept.length - 1].replace(/[.,،؛:!؟?]+$/u, ''))) kept.pop();
+  return kept.join(' ').replace(/[.,،؛:!؟?]+$/u, '').trim();
+}
+
+function normalizeBullets(value) {
+  const body = String(value ?? '');
+  const lines = body.split('\n');
+  const count = lines.filter((line) => /^\s*[-•–]\s+/.test(line)).length;
+  if (count === 0 || (count >= 2 && count <= 5)) return body;
+  return lines.map((line) => line.replace(/^(\s*)[-•–]\s+/, '$1')).join('\n');
+}
+
+function shortenText(value, max) {
+  const text = String(value ?? '');
+  if (text.length <= max) return text;
+  const slice = text.slice(0, Math.max(0, max));
+  const sentence = Math.max(
+    slice.lastIndexOf('.'),
+    slice.lastIndexOf('!'),
+    slice.lastIndexOf('?'),
+    slice.lastIndexOf('؟'),
+    slice.lastIndexOf('…'),
+    slice.lastIndexOf('\n')
+  );
+  if (sentence >= Math.min(80, Math.floor(max * 0.5))) return slice.slice(0, sentence + 1).trim();
+  const space = slice.lastIndexOf(' ');
+  return (space > 0 ? slice.slice(0, space) : slice).trim();
+}
+
+function splitSourceLine(value) {
+  const lines = String(value ?? '').split('\n');
+  for (let index = lines.length - 1; index >= 0; index -= 1) {
+    if (/^\s*منبع\s*[:：]/u.test(lines[index])) {
+      return {
+        content: lines.slice(0, index).join('\n').trim(),
+        source: lines.slice(index).join('\n').trim(),
+      };
+    }
+  }
+  return { content: String(value ?? '').trim(), source: '' };
+}
+
+export function trimBody(value, max = 990) {
+  const { content, source } = splitSourceLine(value);
+  if (!content) return String(value ?? '');
+  const budget = max - (source ? source.length + 2 : 0);
+  if (content.length <= budget) return String(value ?? '');
+  const paragraphs = content
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+  while (paragraphs.join('\n\n').length > budget && paragraphs.length > 2) {
+    let index = 1;
+    for (let current = 1; current < paragraphs.length - 1; current += 1) {
+      if (paragraphs[current].length < paragraphs[index].length) index = current;
+    }
+    paragraphs.splice(index, 1);
+  }
+  let joined = paragraphs.join('\n\n');
+  let guard = 0;
+  while (joined.length > budget && paragraphs.length >= 2 && guard < 20) {
+    let index = 0;
+    for (let current = 0; current < paragraphs.length - 1; current += 1) {
+      if (paragraphs[current].length > paragraphs[index].length) index = current;
+    }
+    if (paragraphs[index].length <= 60) break;
+    const target = Math.max(60, paragraphs[index].length - (joined.length - budget) - 8);
+    const shorter = shortenText(paragraphs[index], target);
+    paragraphs[index] = shorter || paragraphs[index].slice(0, 60).trim();
+    joined = paragraphs.join('\n\n');
+    guard += 1;
+  }
+  if (joined.length > budget) joined = shortenText(joined, Math.max(0, budget));
+  const trimmed = `${joined}${source ? `\n\n${source}` : ''}`.trim();
+  return trimmed.length <= max ? trimmed : `${shortenText(joined, Math.max(0, budget))}${source ? `\n\n${source}` : ''}`.trim();
+}
+
+export function trimQuote(value, max = QUOTE_MAX_CHARS) {
+  const quote = String(value ?? '').trim();
+  if (quote.length <= max) return quote;
+  return shortenText(quote, max);
+}
+
+export function applyMechanicalFixes(parsed, { newsDate = '', sourceName = '', sourceUrl = '', captionLimit = CAPTION_SAFE_LIMIT } = {}) {
+  if (!parsed || parsed.decision !== 'publish') return parsed;
+  let next = normalizePostFields(parsed);
+  next = ensureSourceLine(next, { sourceName, sourceUrl });
+  const bounds = lengthBounds(next.post_type) ?? lengthBounds('standard');
+  return fitCaption(
+    {
+      ...next,
+      title: trimTitle(next.title),
+      body: trimBody(normalizeBullets(next.body), bounds.max),
+      quote: trimQuote(next.quote),
+    },
+    newsDate,
+    captionLimit
+  );
+}
+
 function lengthBounds(type) {
   const range = RANGES[type];
   if (!range) return null;
@@ -534,7 +656,7 @@ export function lengthOk(type, length) {
 const QA_FIX_HINTS = {
   schema: 'همه فیلدهای اسکیمای JSON را کامل و با نوع درست بده؛ key_facts حداقل دو مورد و entities.companies و entities.models آرایه باشند.',
   decision: 'decision فقط publish یا skip باشد.',
-  title_words: 'تیتر را به حداکثر ۱۰ کلمه کوتاه کن و فعل و بخش اصلی خبر را نگه دار.',
+  title_words: 'تیتر را به حداکثر ۱۲ کلمه کوتاه کن و فعل و بخش اصلی خبر را نگه دار.',
   body_paragraphs: 'body را به ۲ تا ۳ پاراگراف با یک خط خالی بین آن‌ها تقسیم کن؛ جمله اهمیت باید پاراگراف آخر و مستقل باشد.',
   title_clean: 'تیتر بدون نقطه یا علامت سؤال انتهایی، بدون Markdown و بدون عبارت کلیشه‌ای باشد.',
   bullets: 'بولت یا صفر باشد یا بین ۲ تا ۵.',
@@ -546,7 +668,7 @@ const QA_FIX_HINTS = {
   source: 'خط منبع اجباری است و باید آخرین خط body باشد.',
   no_signature: 'امضا یا ایموجی ✉️ نگذار.',
   hashtags: 'هشتگ نگذار.',
-  length: 'طول body با post_type بخواند؛ برای standard بین ۴۰۰ تا ۹۰۰ کاراکتر.',
+  length: 'طول body با post_type بخواند؛ برای standard هدف ۴۰۰ تا ۸۵۰ کاراکتر و سقف مطلق ۹۹۰ کاراکتر است.',
   no_banned: 'عبارت ممنوع را حذف کن.',
   formal_verbs: 'فعل‌های رسمی را محاوره‌ای کن: «گزارش کرده است» → «گزارش کرده»، «رسیده است» → «رسیده»، «می‌شود» → «می‌شه»، «می‌کند» → «می‌کنه».',
   no_placeholder: 'هیچ placeholder مثل [نام] باقی نگذار.',
@@ -576,8 +698,8 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
   const notes = problemNames.map((name) => {
     if (name === 'title_words') {
       const currentTitle = String(parsed?.title ?? '').trim();
-      const count = currentTitle.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
-      return `- title_words: تیتر فعلی «${currentTitle}» ${count} کلمه است؛ آن را به حداکثر ۱۰ کلمه کوتاه کن و فعل و بخش اصلی خبر را نگه دار.`;
+      const count = countTitleWords(currentTitle);
+      return `- title_words: تیتر فعلی «${currentTitle}» ${count} کلمه است؛ آن را به حداکثر ${TITLE_MAX_WORDS} کلمه کوتاه کن و فعل و بخش اصلی خبر را نگه دار.`;
     }
     return `- ${name}: ${QA_FIX_HINTS[name] || 'این مورد را اصلاح کن.'}`;
   });
@@ -598,7 +720,7 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
   const title = String(parsed?.title ?? '');
   const body = String(parsed?.body ?? '');
   const quote = String(parsed?.quote ?? '');
-  const titleWords = title.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
+  const titleWords = countTitleWords(title);
   const captionChars = visibleLength([title, newsDate, body, quote].filter(Boolean).join('\n\n'));
   const target = CAPTION_SAFE_LIMIT - 50;
   const cut = Math.max(0, captionChars - target);
@@ -609,10 +731,13 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
   const lengthProblem = problemNames.includes('length');
   const tooShort = lengthProblem && bodyChars < minBody;
   const tooLong = lengthProblem && bodyChars > maxBody;
+  const targetBody = parsed?.post_type === 'standard'
+    ? 850
+    : Math.min(maxBody, RANGES[parsed?.post_type]?.[1] ?? maxBody);
   const bodyLengthLimit = tooShort
     ? `طول body الان ${bodyChars} کاراکتر است؛ برای ${parsed?.post_type} حداقل ${minBody} کاراکتر لازم است. آن را با جزئیات مستند منبع به حدود ${minBody + 80} کاراکتر برسان.`
     : tooLong
-      ? `طول body الان ${bodyChars} کاراکتر است؛ برای ${parsed?.post_type} حداکثر ${maxBody} کاراکتر مجاز است. آن را به حدود ${maxBody - 40} کاراکتر برسان.`
+      ? `طول body الان ${bodyChars} کاراکتر است؛ برای ${parsed?.post_type} حداکثر ${maxBody} کاراکتر مجاز است (هدف ${targetBody}). آن را به حدود ${targetBody} کاراکتر برسان.`
       : 'طول body با post_type بخواند.';
   const limits = [
     imageUrl
@@ -620,7 +745,7 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
         ? `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است؛ باید حداکثر ${target} کاراکتر شود، یعنی حدود ${cut} کاراکتر کوتاه‌تر. خط منبع هم داخل همین حساب است.`
         : `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
       : bodyLengthLimit,
-    `تیتر الان ${titleWords} کلمه است؛ حداکثر ۱۲ کلمه باشد.`,
+    `تیتر الان ${titleWords} کلمه است؛ حداکثر ${TITLE_MAX_WORDS} کلمه باشد.`,
     `خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.${quote ? ' quote را هم بالای خط منبع و داخل همان پیام نگه دار.' : ''}`,
     'پاراگراف اهمیت باید «چرا مهم است» را با جمله‌ای تازه بگوید و شروع پست قبلی را تکرار نکند؛ خط منبع با «منبع:» و لینک همان URL ورودی.',
     'اگر جا کم آمد، فقط پاراگراف ۲ را کوتاه کن؛ اهمیت و منبع را هرگز حذف نکن.',
@@ -653,7 +778,7 @@ ${limits.map((line) => `- ${line}`).join('\n')}
 خروجی قبلی:
 ${JSON.stringify(parsed)}
 
-همان خبر را دوباره و کوتاه‌تر بنویس و فقط یک آبجکت JSON معتبر بده.`;
+${tooShort ? 'همان خبر را با همان فکت‌های منبع گسترده‌تر بازنویسی کن و فقط یک آبجکت JSON معتبر بده.' : 'همان خبر را دوباره و کوتاه‌تر بنویس و فقط یک آبجکت JSON معتبر بده.'}`;
 }
 
 export function qaPost(parsed, context) {
@@ -716,7 +841,7 @@ export function qaPost(parsed, context) {
         : VERIFICATIONS.includes(parsed.verification);
   add('verification_source', verificationSourceOk, `${context.sourceType}:${parsed.verification}`);
 
-  add('title_words', words > 0 && words <= 12);
+  add('title_words', words > 0 && words <= TITLE_MAX_WORDS);
   add('title_clean', title.length > 0 && !/[.?!؟]\s*$/.test(title) && !/\*\*/.test(title) && !BANNED.some((phrase) => title.includes(phrase)));
   add('bullets', type === 'breaking' ? true : bullets === 0 || (bullets >= 2 && bullets <= 5));
   const whyCue = /(مهمه|مهمه که|مهم اینه|اهمیت|اهمیتش|از اونجایی که|از اونجا که|نکته مهم|نکته اینجاست|از این جهت|به همین دلیل|به همین خاطر|به این ترتیب|از این رو|با این کار|این یعنی|در نتیجه|اثرش|اثر واقعی|اثر این|تأثیر|تاثیر|پیامد|نتیجه‌اش|نتیجه اینه|برای مخاطب|در عمل|در واقع|یعنی)/u;

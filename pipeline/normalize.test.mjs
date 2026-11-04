@@ -24,13 +24,9 @@ test('security window is 72 hours', () => {
   assert.equal(freshness('2026-10-30T11:00:00Z', NOW, { maxAgeHours: windowFor('security') }).reason, 'stale');
 });
 
-test('education window is 30 days', () => {
-  assert.equal(freshness('2026-10-20', NOW, { maxAgeHours: windowFor('education') }).ok, true);
-  assert.equal(freshness('2026-10-02', NOW, { maxAgeHours: windowFor('education') }).reason, 'stale');
-});
-
-test('evergreen flag wins over category', () => {
-  assert.equal(freshness('2026-10-20', NOW, { maxAgeHours: windowFor(undefined, { allowEvergreen: true }) }).ok, true);
+test('education window is 72 hours', () => {
+  assert.equal(freshness('2026-10-30T13:00:00Z', NOW, { maxAgeHours: windowFor('education') }).ok, true);
+  assert.equal(freshness('2026-10-30T11:00:00Z', NOW, { maxAgeHours: windowFor('education') }).reason, 'stale');
 });
 
 test('missing date is rejected', () => {

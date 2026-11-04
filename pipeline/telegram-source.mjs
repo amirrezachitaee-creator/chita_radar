@@ -388,7 +388,7 @@ export function isOfficialCourse(raw, text, { officialCourseDomains = [] } = {})
   if (!hostIn(host, domains)) return false;
 
   return (
-    OFFICIAL_COURSE_TEXT_PATTERN.test(String(text ?? '')) ||
+    OFFICIAL_COURSE_TEXT_PATTERN.test(normalizeConceptText(text)) ||
     OFFICIAL_COURSE_PATH_PATTERN.test(url.pathname)
   );
 }
@@ -467,13 +467,16 @@ function clipTitle(value) {
   return words.slice(0, 16).join(' ').slice(0, 110);
 }
 
-const COURSE_CONTEXT_PATTERN =
-  /(دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|bootcamp|webinar|workshop|academy|curriculum|lesson|learning[\s-]+path|training[\s-]+(?:course|program))/iu;
-
-const TUTORIAL_CONTEXT_PATTERN =
-  /((?:آموزش|یاد[\s\u200c]*گیری)[\s\u200c]*(?:[^\n]{0,30})?(?:وید[ئيی]و|یوتیوب|تصویری|قدم|نصب|راه[\s\u200c]*اندازی|استفاده|کار[\s\u200c]*با|ساخت|اجرا|برنامه|پروژه|تلگرام|هوش[\s\u200c]*مصنوعی)|^آموزش(?=[\s:：،]|$)|در[\s\u200c]*این[\s\u200c]*وید[ئيی]و|یاد[\s\u200c]*می[\s\u200c]*د[هم]م?|قدم[\s\u200c]*به[\s\u200c]*قدم|tutorial|how[\s\u200c]*to|راهنمای[\s\u200c]+(?:نصب|استفاده|کار)|(?:وید[ئيی]و|یوتیوب|tutorial)[^\n]{0,30}(?:آموزش|یادگیری))/iu;
-
-const CERTIFICATE_PATTERN = /(مدرک\s*(?:دوره|کلاس|وبینار)|certificate)/iu;
+function normalizeConceptText(value) {
+  return String(value ?? '')
+    .replace(/\r\n?/g, '\n')
+    .replace(/(?:(?:گوگل|google)\s*)?(?:کلاس[\s\u200c-]*(?:روم|room)|classroom)/giu, ' ')
+    .replace(/آموزش[\s\u200c]*و[\s\u200c]*پرورش/giu, ' ')
+    .replace(/آموزش[\s\u200c]*عالی/giu, ' ')
+    .replace(/(?:معاون|مدیر|رئیس|سخنگوی|سرپرست|وزیر)\s*(?:بخش\s*)?آموزش(?![\p{L}\p{N}])/giu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
 const ML_TRAINING_PATTERN =
   /(آموزش\s*(?:مدل|مدل‌ها|شبکه|شبکه‌های|داده)|داده(?:[\u200c\s])*های\s*آموزشی|آموزش\s*دیده|آموزش\s*دیدن)/iu;
@@ -484,15 +487,159 @@ const OFFICIAL_COURSE_TEXT_PATTERN =
 const OFFICIAL_COURSE_PATH_PATTERN =
   /(?:^|\/)(?:learn|learning|academy|courses?|training|education|certification|curriculum|lessons?)(?:\/|$)/i;
 
+const EDUCATION_CONCEPTS = [
+  {
+    name: 'enrollment',
+    weight: 3,
+    pattern:
+      /(?:ثبت[\s\u200c]*نام|پیش[\s\u200c]*ثبت|شهریه|ظرفیت[\s\u200c]*(?:محدود|تکمیل)|پرداخت|خرید|تخفیف)[^\n]{0,60}(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|کورس|course|bootcamp|webinar|workshop)|(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|کورس|course|bootcamp|webinar|workshop)[^\n]{0,60}(?:ثبت[\s\u200c]*نام|پیش[\s\u200c]*ثبت|شهریه|ظرفیت|پرداخت|خرید|تخفیف|enroll|tuition)/iu,
+  },
+  {
+    name: 'course',
+    weight: 2,
+    pattern:
+      /دوره(?![\s\u200c]*(?:ای|زمانی|متوسطه|ابتدایی|راهنمایی|دبیرستان))|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|کورس|\bcourse\b|\bbootcamp\b|\bwebinar\b|\bworkshop\b|\bacademy\b/iu,
+  },
+  {
+    name: 'tutorial',
+    weight: 3,
+    pattern:
+      /(?:(?:آموزش|یادگیری)[\s\u200c]+[^\n]{0,30}?(?:وید[ئيی]و|یوتیوب|تصویری|قدم|نصب|راه[\s\u200c]*اندازی|استفاده|کار[\s\u200c]*با|ساخت|اجرا|برنامه|پروژه|تلگرام|هوش[\s\u200c]*مصنوعی)|^آموزش(?=[\s:：،]|$)|در[\s\u200c]*این[\s\u200c]*وید[ئيی]و|یاد[\s\u200c]*می[\s\u200c]*د[هم]م?|آموزش[\s\u200c]+قدم[\s\u200c]*به[\s\u200c]*قدم|tutorial|how[\s\u200c]*to|راهنمای[\s\u200c]+(?:نصب|استفاده|کار)|(?:وید[ئيی]و|یوتیوب|tutorial)[^\n]{0,30}?(?:آموزش|یادگیری))/iu,
+  },
+  {
+    name: 'guide',
+    weight: 2,
+    pattern:
+      /(?:راهنما|راهنمای)[\s\u200c]+[^\n]{0,25}?(?:فارسی|PDF|نصب|استفاده|کار|قدم|گام|ابزار)|(?:فایل|نسخه)[\s\u200c]*(?:PDF|پی[\s\u200c]*دی[\s\u200c]*اف)|پرامپت[\s\u200c]*(?:های)?[\s\u200c]*آماده|نصب[\s\u200c]*(?:قدم[\s\u200c]*به[\s\u200c]*قدم|گام[\s\u200c]*به[\s\u200c]*گام)/iu,
+  },
+  {
+    name: 'credential',
+    weight: 3,
+    pattern:
+      /(?:مدرک|گواهی)[^\n]{0,30}(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|bootcamp|webinar)|(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|bootcamp|webinar)[^\n]{0,30}(?:مدرک|گواهی|certificate)|certificate/iu,
+  },
+  {
+    name: 'qualifier',
+    weight: 1,
+    pattern:
+      /(?:رایگان|مقدماتی|پیشرفته|تخصصی|جامع|آنلاین|حضوری|زنده|مجازی|خصوصی|گروهی|رسمی|هوش[\s\u200c]*مصنوعی|برنامه[\s\u200c]*نویسی|یادگیری|آموزشی|بین[\s\u200c]*المللی|beginner|beginners|advanced|professional|free|online)/iu,
+  },
+];
+
+const NEWS_CONCEPTS = [
+  {
+    name: 'announcement',
+    weight: 2,
+    pattern:
+      /(?:اعلام|گفت|گفته|تصمیم|قرار[\s\u200c]*است|از[\s\u200c]*(?:سال|ماه|هفته)|طرح|قانون|دستور|ممنوع|اجازه|حذف|افزود|برگزار|شروع|متوقف|توقف|رونمایی|منتشر|عرضه|معرفی)/iu,
+  },
+  {
+    name: 'institution',
+    weight: 1,
+    pattern:
+      /(?:گوگل|مایکروسافت|اپن[\s\u200c]*ای[\s\u200c]*آی|آنتروپیک|متا|انویدیا|آمازون|اپل|دولت|وزارت|کمیسیون|کنگره|مجلس|شهرداری|دانشگاه|شرکت|استارتاپ|سازمان|اتحادیه)/iu,
+  },
+  {
+    name: 'educationTopic',
+    weight: 2,
+    pattern:
+      /(?:مدارس|مدرسه|دانش[\s\u200c]*آموز(?:ان)?|دانش[\s\u200c]*جو(?:یان)?|معلمان?|دبیران?|کلاس[\s\u200c]*درس|سیاست[\s\u200c]*آموزشی|نظام[\s\u200c]*آموزشی|آموزش[\s\u200c]*و[\s\u200c]*پرورش)/iu,
+  },
+  {
+    name: 'research',
+    weight: 1,
+    pattern: /(?:گزارش|پژوهش|تحقیق|مطالعه|بررسی|نظرسنجی|داده[\s\u200c]*ها|یافته)/iu,
+  },
+  {
+    name: 'market',
+    weight: 1,
+    pattern:
+      /(?:سرمایه[\s\u200c]*گذاری|درآمد|سهام|ارزش|خرید|همکاری|توافق|قرارداد|میلیارد|میلیون)/iu,
+  },
+];
+
+export function educationSignals(text) {
+  const value = normalizeConceptText(text);
+  if (!value) {
+    return { education: [], news: [], educationScore: 0, newsScore: 0 };
+  }
+  const education = EDUCATION_CONCEPTS.filter((concept) => concept.pattern.test(value));
+  const news = NEWS_CONCEPTS.filter((concept) => concept.pattern.test(value));
+  return {
+    education: education.map((concept) => concept.name),
+    news: news.map((concept) => concept.name),
+    educationScore: education.reduce((sum, concept) => sum + concept.weight, 0),
+    newsScore: news.reduce((sum, concept) => sum + concept.weight, 0),
+  };
+}
+
 export function isEducationLead(text) {
-  const value = String(text ?? '');
+  const value = normalizeConceptText(text);
   if (!value) return false;
   if (ML_TRAINING_PATTERN.test(value)) return false;
-  return (
-    COURSE_CONTEXT_PATTERN.test(value) ||
-    TUTORIAL_CONTEXT_PATTERN.test(value) ||
-    CERTIFICATE_PATTERN.test(value)
-  );
+
+  const signals = educationSignals(value);
+  if (!signals.education.length) return false;
+  if (signals.education.length === 1 && signals.educationScore < 3) return false;
+  if (
+    signals.news.length >= 2 &&
+    signals.newsScore >= signals.educationScore &&
+    signals.education.length < 3
+  ) {
+    return false;
+  }
+  return true;
+}
+
+const stripJoiners = (value) => String(value ?? '').replace(/[\u200c\u200d]/g, '');
+
+const STORY_STOPWORDS = new Set([
+  'است', 'بود', 'هست', 'شد', 'شده', 'کرد', 'کرده', 'کند', 'کنند', 'دهد', 'دهند',
+  'رسید', 'رسیده', 'رسد', 'گفت', 'گفته', 'اعلام', 'جدید', 'تازه', 'خبر', 'گزارش',
+  'سال', 'ماه', 'روز', 'هفته', 'امروز', 'دیروز', 'فردا', 'میلادی', 'آینده', 'اوایل',
+  'این', 'آن', 'از', 'به', 'با', 'در', 'را', 'که', 'و', 'یا', 'برای', 'تا', 'بر', 'هم',
+  'نیز', 'اما', 'اگر', 'چه', 'همه', 'یک', 'دو', 'سه', 'چهار', 'پنج', 'شش', 'هفت', 'هشت',
+  'نه', 'ده', 'های', 'ها', 'هایی', 'خود', 'خودش', 'رو', 'می‌شود', 'می‌کند', 'می‌دهد',
+  'نمی‌شود', 'نیست', 'دارد', 'دارند', 'داریم', 'صورت', 'طور', 'مورد', 'درباره', 'بین',
+  'پس', 'قبل', 'بعد', 'حالا', 'الان', 'همین', 'همان', 'دیگر', 'بیشتر', 'کمتر', 'بسیار',
+  'خیلی', 'فناوری', 'بازار', 'ابزار', 'حساب', 'هوش', 'مصنوعی', 'هوش‌مصنوعی', 'پیش‌فرض',
+  'به‌صورت',
+].map(stripJoiners));
+
+const STORY_SYNONYMS = new Map([
+  ['مدارس', 'مدرسه'],
+  ['دانش‌آموزی', 'دانش‌آموز'],
+  ['دانش‌آموزان', 'دانش‌آموز'],
+  ['سرچ', 'جست‌وجو'],
+  ['جستجو', 'جست‌وجو'],
+  ['جست‌وجوی', 'جست‌وجو'],
+  ['حساب‌های', 'حساب'],
+  ['حساب‌ها', 'حساب'],
+  ['ابزارهای', 'ابزار'],
+  ['ابزارها', 'ابزار'],
+  ['دیتاسنترها', 'دیتاسنتر'],
+].map(([key, value]) => [stripJoiners(key), stripJoiners(value)]));
+
+function storyTokens(value) {
+  const tokens = normalizeConceptText(value)
+    .toLowerCase()
+    .replace(/[\u200c\u200d]/g, '')
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .split(/\s+/)
+    .map((token) => STORY_SYNONYMS.get(token) ?? token)
+    .filter((token) => token.length >= 3 && !STORY_STOPWORDS.has(token));
+  return new Set(tokens);
+}
+
+export function matchesPublishedStory(text, entry = {}) {
+  const leadTokens = storyTokens(text);
+  const publishedTokens = storyTokens(entry.title ?? '');
+  if (!leadTokens.size || !publishedTokens.size) return false;
+  let shared = 0;
+  for (const token of publishedTokens) {
+    if (leadTokens.has(token)) shared += 1;
+  }
+  return shared >= 3 && shared / publishedTokens.size >= 0.6;
 }
 
 export function selectAnyLink(message) {
@@ -510,10 +657,20 @@ export function selectAnyLink(message) {
 }
 
 const COURSE_SALE_PATTERN =
-  /(?:(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|class|bootcamp)[^\n]{0,50}(?:ثبت[\s\u200c]*نام|پیش[\s\u200c]*ثبت|شهریه|قیمت|تخفیف|کد\s*تخفیف|ظرفیت|پرداخت|خرید|enroll|tuition|price|discount|cohort)|(?:ثبت[\s\u200c]*نام|شهریه|قیمت|تخفیف|خرید)[^\n]{0,50}(?:دوره|کلاس|وبینار|کارگاه|course|class|bootcamp))/iu;
+  /(?:(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|class|bootcamp)[^\n]{0,50}(?:قیمت|تخفیف|کد\s*تخفیف|شهریه|هزینه|پرداخت|خرید|ظرفیت[\s\u200c]*محدود|تومان|ریال|دلار|price|discount|tuition|enroll|cohort)|(?:قیمت|تخفیف|کد\s*تخفیف|شهریه|هزینه|پرداخت|خرید|ظرفیت[\s\u200c]*محدود|تومان|ریال|دلار|price|discount|tuition|enroll|cohort)[^\n]{0,50}(?:دوره|کلاس|وبینار|کارگاه|course|class|bootcamp))/iu;
 
-const TUTORIAL_PATTERN =
-  /(آموزش|یاد\s*می\s*د[هم]م?|قدم\s*به\s*قدم|در\s*این\s*ویدئو|ویدئو|tutorial|how\s*to|guide|راهنما|github|وبلاگ|مقاله|یوتیوب)/iu;
+const COURSE_SALE_PATH_PATTERN =
+  /(?:^|\/)(?:product|products|pricing|plans?|shop|store|checkout|cart|buy)(?:\/|$)/i;
+
+function isCourseSaleLink(raw) {
+  try {
+    const url = new URL(String(raw));
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') return false;
+    return COURSE_SALE_PATH_PATTERN.test(url.pathname);
+  } catch {
+    return false;
+  }
+}
 
 const SOCIAL_TUTORIAL_DOMAINS = ['youtube.com', 'youtu.be', 'twitter.com', 'x.com', 'instagram.com'];
 
@@ -526,17 +683,18 @@ function isSocialTutorialLink(raw) {
 }
 
 export function educationLeadLabel(lead = {}) {
-  const text = `${lead.title ?? ''} ${lead.messageText ?? ''}`;
-  if (COURSE_SALE_PATTERN.test(text)) return 'فروش دوره';
-  if (
-    TUTORIAL_PATTERN.test(text) ||
+  const text = normalizeConceptText(`${lead.title ?? ''} ${lead.messageText ?? ''}`);
+  const social =
     isSocialTutorialLink(lead.link) ||
     isSocialTutorialLink(lead.canonical) ||
-    isSocialTutorialLink(lead.leadPostUrl)
-  ) {
-    return 'آموزش';
-  }
-  return 'نامشخص';
+    isSocialTutorialLink(lead.leadPostUrl);
+  if (!isEducationLead(text)) return social ? 'آموزش' : 'نامشخص';
+  const sale =
+    COURSE_SALE_PATTERN.test(text) ||
+    isCourseSaleLink(lead.link) ||
+    isCourseSaleLink(lead.canonical);
+  if (sale) return 'فروش دوره';
+  return 'آموزش';
 }
 
 export function educationDigestLeads(leads = []) {

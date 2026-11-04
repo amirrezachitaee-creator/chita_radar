@@ -76,6 +76,43 @@ test('collector drops stale, duplicate and already seen items', async () => {
   assert.equal(result.candidates[0].keys.length, 2);
 });
 
+test('collector skips an item already seen in the other lane', async () => {
+  const active = emptyState();
+  const review = emptyState();
+  markSeen(active, dedupeKeys({ url: 'https://two.example/active', title: 'Active AI item' }), {
+    at: '2026-11-02T10:00:00.000Z',
+    decision: 'qa_failed',
+  });
+  markSeen(review, dedupeKeys({ url: 'https://two.example/reviewed', title: 'Reviewed AI item' }), {
+    at: '2026-11-02T10:00:00.000Z',
+    decision: 'review',
+  });
+  markSeen(review, dedupeKeys({ url: 'https://two.example/old-review', title: 'Old reviewed AI item' }), {
+    at: '2026-09-01T10:00:00.000Z',
+    decision: 'review',
+  });
+
+  const result = await collectCandidates({
+    sources: [{ id: 'two', name: 'Two', type: 'news', feed_url: 'https://two.example/feed' }],
+    state: active,
+    memoryStates: [review],
+    now: NOW,
+    fetchImpl: async (url) => ({
+      text: feed([
+        item({ title: 'Active AI item', link: 'https://two.example/active', date: 'Mon, 02 Nov 2026 13:00:00 +0000' }),
+        item({ title: 'Reviewed AI item', link: 'https://two.example/reviewed', date: 'Mon, 02 Nov 2026 13:00:00 +0000' }),
+        item({ title: 'Old reviewed AI item', link: 'https://two.example/old-review', date: 'Mon, 02 Nov 2026 13:00:00 +0000' }),
+      ]),
+      url,
+    }),
+  });
+
+  assert.deepEqual(result.candidates.map((entry) => entry.title), ['Old reviewed AI item']);
+  assert.equal(result.stats.duplicate, 2);
+  assert.equal(result.stats.crossLane, 1);
+  assert.equal(result.stats.kept, 1);
+});
+
 test('a feed error does not stop the other sources', async () => {
   const result = await collectCandidates({
     sources: [

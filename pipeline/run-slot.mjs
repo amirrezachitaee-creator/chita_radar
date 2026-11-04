@@ -15,14 +15,12 @@ import {
   extractJson,
   qaPost,
   applyLeadPolicy,
-  ensureSourceLine,
-  normalizePostFields,
-  fitCaption,
+  applyMechanicalFixes,
   renderPreview,
   MAIN_CATEGORIES,
 } from './engine.mjs';
 import { collectCandidates } from './collect.mjs';
-import { buildEducationDigest, buildEducationMessages, educationDigestLeads } from './telegram-source.mjs';
+import { buildEducationDigest, buildEducationMessages, educationDigestLeads, matchesPublishedStory } from './telegram-source.mjs';
 import { assessOffer, detectOffer, offerUsage, reviewText } from './offers.mjs';
 import {
   loadState,
@@ -35,9 +33,17 @@ import {
   isSlotSettled,
   markSeen,
   markSlot,
+  findSeen,
   quotaSnapshot,
   recordPublished,
   pruneState,
+  deferCandidate,
+  deferredId,
+  listDeferred,
+  clearDeferred,
+  deliveredEntries,
+  MAX_DEFER_ATTEMPTS,
+  DEFER_TTL_HOURS,
 } from './store.mjs';
 import { sendTelegram, sendText, captionLength, postText } from './telegram.mjs';
 import { newsDateLine } from './newstime.mjs';
@@ -59,6 +65,7 @@ const REVIEW_SEND = flag('--review-send');
 const FORCE = flag('--force');
 const NO_TELEGRAM = flag('--no-telegram');
 const MAX_CANDIDATES = Number(option('--max-candidates', '4'));
+const MAX_DEFERRED_PER_RUN = Number(option('--max-deferred', '1'));
 const PER_SOURCE = Number(option('--per-source', '12'));
 const MIN_CONTENT = Number(option('--min-content', '300'));
 // Keep the early window small so a delayed run cannot take the next slot early.
@@ -190,6 +197,31 @@ function outboxDir(slot) {
   return resolve(OUT_ROOT, date, time.slice(0, 5).replace(':', '-'));
 }
 
+const MAIN_STATE_FILE = option('--main-state', 'data/state.json');
+const REVIEW_STATE_FILE = option('--review-state', 'data/state.review.json');
+const MEMORY_DAYS = 30;
+
+async function loadMemoryLanes() {
+  if (REVIEW_SEND) {
+    return [{ lane: 'main', state: await loadState(resolve(ROOT, MAIN_STATE_FILE)) }];
+  }
+  if (SEND) {
+    return [{ lane: 'review', state: await loadState(resolve(ROOT, REVIEW_STATE_FILE)) }];
+  }
+  return [
+    { lane: 'main', state: await loadState(resolve(ROOT, MAIN_STATE_FILE)) },
+    { lane: 'review', state: await loadState(resolve(ROOT, REVIEW_STATE_FILE)) },
+  ];
+}
+
+function storyText(candidate) {
+  return [candidate.title, candidate.messageText, candidate.summary].filter(Boolean).join(' ');
+}
+
+function findStoryDuplicate(candidate, delivered) {
+  return delivered.find((entry) => matchesPublishedStory(storyText(candidate), entry));
+}
+
 const importanceOf = (body) => {
   const before = String(body ?? '').split(/^[ \t]*منبع\s*[:：]/m)[0];
   return before.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean).at(-1) ?? '';
@@ -201,9 +233,28 @@ async function main() {
   const previousWhy = [...(state.published ?? [])].reverse().find((entry) => entry.why)?.why ?? '';
   const week = weekKey(slot.date);
   const quota = quotaSnapshot(config, state, week);
+  const allDeferred = Object.values(state.deferred ?? {});
+  const deferredEntries = listDeferred(state, NOW, { ttlHours: DEFER_TTL_HOURS })
+    .filter((entry) => !findSeen(state, entry.keys ?? []));
+  let deferredCandidates = deferredEntries.map((entry) => ({
+    ...entry.candidate,
+    deferred: { id: entry.id, attempts: entry.attempts },
+  }));
+  const deferredIds = new Set(allDeferred.map((entry) => entry.id));
+  const deferredKeys = new Set(allDeferred.flatMap((entry) => entry.keys ?? []));
+  const matchesDeferred = (candidate) =>
+    deferredIds.has(deferredId(candidate)) || (candidate.keys ?? []).some((key) => deferredKeys.has(key));
 
   console.log(`SLOT ${slot.key} | WEEK ${week} | MODE ${RUN_MODE.toUpperCase()}`);
   console.log(`QUOTA ${MAIN_CATEGORIES.map((category) => `${category} ${quota[category].used}/${quota[category].quota}`).join(' | ')}`);
+  if (deferredEntries.length) {
+    console.log(`DEFERRED_POOL ${deferredEntries.length}`);
+    for (const entry of deferredEntries.slice(0, 5)) {
+      console.log(`  DEFERRED ${entry.reason || 'unknown'} | try ${entry.attempts}/${MAX_DEFER_ATTEMPTS} | ${entry.title}`);
+    }
+  }
+  const exhaustedDeferred = allDeferred.filter((entry) => Number(entry.attempts ?? 0) >= MAX_DEFER_ATTEMPTS).length;
+  if (exhaustedDeferred) console.log(`DEFERRED_EXHAUSTED ${exhaustedDeferred}`);
 
   if (isSlotSettled(state, slot.key) && !FORCE) {
     console.log(`SLOT_ALREADY_DONE ${slot.key} status=${state.slots[slot.key].status}`);
@@ -217,6 +268,8 @@ async function main() {
     console.log('NOTHING_WAS_SENT');
     return;
   }
+
+  const memoryLanes = await loadMemoryLanes();
 
   let sources = registry.sources.filter((source) => {
     if (source.type === 'telegram_channel') {
@@ -239,13 +292,14 @@ async function main() {
   const { candidates, stats } = await collectCandidates({
     sources,
     state,
+    memoryStates: memoryLanes.map(({ state: memoryState }) => memoryState),
     now: NOW,
     perSource: PER_SOURCE,
     maxAgeHours: config.freshness_hours.pre_gate,
     redact,
     telegram: config.telegram_discovery,
   });
-  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} kept=${stats.kept} errors=${stats.errors.length}`);
+  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
   for (const error of stats.errors) {
     const label = error.kind === 'telegram' ? 'TELEGRAM_ERROR' : 'FEED_ERROR';
     console.log(`  ${label} ${error.source}: ${error.error}`);
@@ -253,14 +307,109 @@ async function main() {
   const tg = stats.telegram;
   if (tg.channels > 0) {
     console.log(
-      `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
+      `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate} dup_other=${tg.crossLane}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
     );
   }
   await saveState(STATE_PATH, state);
 
-  const educationLeads = candidates.filter((candidate) => candidate.educationHint);
-  const educationSet = new Set(educationLeads);
-  const mainCandidates = candidates.filter((candidate) => !educationSet.has(candidate));
+  const deliveredLanes = [
+    ...(SEND ? [{ lane: REVIEW_SEND ? 'review' : 'main', state }] : []),
+    ...memoryLanes,
+  ];
+  const delivered = deliveredEntries(deliveredLanes, NOW, { days: MEMORY_DAYS });
+  const laneSummary = deliveredLanes
+    .map(({ lane }) => `${lane}:${delivered.filter((entry) => entry.lane === lane).length}`)
+    .join(',');
+  console.log(`MEMORY lanes=${laneSummary || 'none'} delivered=${delivered.length} window=${MEMORY_DAYS}d`);
+
+  const educationHinted = candidates.filter((candidate) => candidate.educationHint);
+  const educationSet = new Set(educationHinted);
+  let mainCandidates = candidates.filter((candidate) => !educationSet.has(candidate));
+  let educationLeads = educationHinted;
+  const educationDuplicates = [];
+  let memoryChanged = false;
+  if (educationHinted.length) {
+    const sendableLeads = [];
+    for (const candidate of educationHinted) {
+      const match = findStoryDuplicate(candidate, delivered);
+      if (match) educationDuplicates.push({ candidate, match });
+      else sendableLeads.push(candidate);
+    }
+    educationLeads = sendableLeads;
+    if (educationDuplicates.length) {
+      console.log(`TELEGRAM_EDU_DUPLICATES ${educationDuplicates.length} skipped=worked_story`);
+      for (const { candidate, match } of educationDuplicates) {
+        console.log(`  EDU_DUPLICATE ${candidate.leadSource} | ${candidate.title} | already ${match.lane}: ${match.title}`);
+        if (SEND && candidate.keys?.length) {
+          markSeen(state, candidate.keys, {
+            decision: 'education_duplicate',
+            reason: `already_${match.lane}`,
+            category: '',
+            slot: slot.key,
+            title: candidate.title,
+            url: candidate.canonical,
+          });
+          memoryChanged = true;
+        }
+      }
+    }
+  }
+
+  const mainStoryDuplicates = [];
+  const sendableMain = [];
+  for (const candidate of mainCandidates) {
+    const match = findStoryDuplicate(candidate, delivered);
+    if (match) mainStoryDuplicates.push({ candidate, match });
+    else sendableMain.push(candidate);
+  }
+  mainCandidates = sendableMain;
+  if (mainStoryDuplicates.length) {
+    console.log(`STORY_DUPLICATES ${mainStoryDuplicates.length} skipped=worked_story`);
+    for (const { candidate, match } of mainStoryDuplicates) {
+      console.log(`  STORY_DUPLICATE ${candidate.sourceName} | ${candidate.title} | already ${match.lane}: ${match.title}`);
+      if (SEND && candidate.keys?.length) {
+        markSeen(state, candidate.keys, {
+          decision: 'story_duplicate',
+          reason: `already_${match.lane}`,
+          category: '',
+          slot: slot.key,
+          title: candidate.title,
+          url: candidate.canonical,
+        });
+        memoryChanged = true;
+      }
+    }
+  }
+
+  const deferredStoryDuplicates = [];
+  const sendableDeferred = [];
+  for (const candidate of deferredCandidates) {
+    const match = findStoryDuplicate(candidate, delivered);
+    if (match) deferredStoryDuplicates.push({ candidate, match });
+    else sendableDeferred.push(candidate);
+  }
+  deferredCandidates = sendableDeferred;
+  if (deferredStoryDuplicates.length) {
+    console.log(`DEFERRED_STORY_DUPLICATES ${deferredStoryDuplicates.length} skipped=worked_story`);
+    for (const { candidate, match } of deferredStoryDuplicates) {
+      console.log(`  DEFERRED_DUPLICATE ${candidate.sourceName} | ${candidate.title} | already ${match.lane}: ${match.title}`);
+      if (SEND) {
+        if (candidate.deferred?.id) clearDeferred(state, { id: candidate.deferred.id });
+        if (candidate.keys?.length) {
+          markSeen(state, candidate.keys, {
+            decision: 'story_duplicate',
+            reason: `already_${match.lane}`,
+            category: '',
+            slot: slot.key,
+            title: candidate.title,
+            url: candidate.canonical,
+          });
+        }
+        memoryChanged = true;
+      }
+    }
+  }
+  if (SEND && memoryChanged) await saveState(STATE_PATH, state);
   if (educationLeads.length) {
     console.log(`TELEGRAM_EDU_LEADS ${educationLeads.length} private_only=yes`);
     for (const candidate of educationLeads) {
@@ -334,8 +483,10 @@ async function main() {
     }
   }
 
-  if (mainCandidates.length === 0) {
-    const reason = educationLeads.length ? 'education_only' : 'no_candidates';
+  if (mainCandidates.length === 0 && deferredCandidates.length === 0) {
+    const memorySkipped =
+      educationDuplicates.length + mainStoryDuplicates.length + deferredStoryDuplicates.length;
+    const reason = memorySkipped ? 'story_duplicate' : educationHinted.length ? 'education_only' : 'no_candidates';
     markSlot(state, slot.key, { status: 'empty', reason });
     await saveState(STATE_PATH, state);
     console.log(`RESULT EMPTY reason=${reason}`);
@@ -359,13 +510,22 @@ async function main() {
   if (droppedCandidates.length > 8) {
     console.log(`  SKIP_NOT_AI ... +${droppedCandidates.length - 8} more`);
   }
-  if (relevantCandidates.length === 0) {
+  if (relevantCandidates.length === 0 && deferredCandidates.length === 0) {
     markSlot(state, slot.key, { status: 'empty', reason: 'no_ai_candidates' });
     await saveState(STATE_PATH, state);
     console.log('RESULT EMPTY reason=no_ai_candidates');
     console.log('NOTHING_WAS_SENT');
     return;
   }
+
+  const freshQueue = relevantCandidates.filter((candidate) => !matchesDeferred(candidate));
+  const deferredSlots = Math.max(
+    Math.max(0, MAX_DEFERRED_PER_RUN),
+    Math.max(0, MAX_CANDIDATES) - freshQueue.length
+  );
+  const deferredQueue = deferredCandidates.slice(0, deferredSlots);
+  const queue = [...deferredQueue, ...freshQueue].slice(0, Math.max(0, MAX_CANDIDATES));
+  if (deferredQueue.length) console.log(`DEFERRED_RETRY ${deferredQueue.map((candidate) => candidate.title).join(' | ')}`);
 
   const attempts = [];
   let published = null;
@@ -422,9 +582,24 @@ async function main() {
     return dir;
   }
 
-  for (const candidate of relevantCandidates.slice(0, MAX_CANDIDATES)) {
+  async function deferOrClose(candidate, reason, detail = '') {
+    const entry = deferCandidate(state, candidate, { reason, detail });
+    const count = Number(entry?.attempts ?? 0);
+    attempts.push({ title: candidate.title, result: 'deferred', reason, attempts: count, detail });
+    if (entry) {
+      console.log(`  DEFERRED ${reason} | try ${count}/${MAX_DEFER_ATTEMPTS}`);
+      if (count >= MAX_DEFER_ATTEMPTS) console.log(`  DEFER_LIMIT ${reason} | no more retries`);
+    } else {
+      console.log(`  DEFER_FAILED ${reason} | no stable id`);
+    }
+    await saveState(STATE_PATH, state);
+    return entry;
+  }
+
+  for (const [index, candidate] of queue.entries()) {
     const label = `${candidate.sourceName} | ${candidate.title} | ${candidate.ageHours}h`;
-    console.log(`ATTEMPT ${attempts.length + 1}/${Math.min(MAX_CANDIDATES, relevantCandidates.length)} ${label}`);
+    const deferredLabel = candidate.deferred ? ` | deferred ${candidate.deferred.attempts}/${MAX_DEFER_ATTEMPTS}` : '';
+    console.log(`ATTEMPT ${index + 1}/${queue.length}${deferredLabel} ${label}`);
     const applyPolicy = (value) => {
       const next = applyLeadPolicy(value, candidate);
       if (next !== value) {
@@ -439,29 +614,38 @@ async function main() {
       article = extractArticle(page.text, candidate.title);
       article.url = page.url || candidate.link;
     } catch (error) {
-      attempts.push({ title: candidate.title, result: 'fetch_failed', error: redact(error?.message) });
       console.log(`  FETCH_FAILED ${redact(error?.message)}`);
+      await deferOrClose(candidate, 'fetch_failed', redact(error?.message));
       continue;
     }
 
+    const publishedAt = article.published || candidate.published;
     const finalizePost = (value) => {
-      const normalized = applyPolicy(normalizePostFields(value));
-      const ensured = ensureSourceLine(normalized, { sourceName: candidate.sourceName, sourceUrl: article.url });
-      if (ensured !== normalized) console.log('  SOURCE_FIX appended');
-      const fitted = fitCaption(ensured, newsDateLine(publishedAt));
-      if (fitted !== ensured) console.log('  CAPTION_FIT dropped_quote_or_image');
-      return fitted;
+      const policy = applyPolicy(value);
+      const fixed = applyMechanicalFixes(policy, {
+        newsDate: newsDateLine(publishedAt),
+        sourceName: candidate.sourceName,
+        sourceUrl: article.url,
+      });
+      if (fixed.title !== policy.title) console.log('  TITLE_TRIM');
+      if (fixed.body !== policy.body) console.log('  BODY_TRIM');
+      if (String(fixed.quote ?? '') !== String(policy.quote ?? '')) console.log('  QUOTE_TRIM');
+      if (fixed.image_url !== policy.image_url) console.log('  CAPTION_FIT dropped_image');
+      return fixed;
     };
 
-    const publishedAt = article.published || candidate.published;
     const gate = freshness(publishedAt, NOW, { maxAgeHours: config.freshness_hours.pre_gate });
     if (!gate.ok) {
-      attempts.push({ title: candidate.title, result: `gate_${gate.reason}` });
-      console.log(`  GATE_${gate.reason.toUpperCase()} ${gate.ageHours}h/${gate.maxAgeHours}h`);
+      if (gate.reason === 'stale') {
+        attempts.push({ title: candidate.title, result: `gate_${gate.reason}` });
+        console.log(`  GATE_${gate.reason.toUpperCase()} ${gate.ageHours}h/${gate.maxAgeHours}h`);
+      } else {
+        await deferOrClose(candidate, `gate_${gate.reason}`, `${gate.ageHours}h/${gate.maxAgeHours}h`);
+      }
       continue;
     }
     if (article.content.length < MIN_CONTENT) {
-      attempts.push({ title: candidate.title, result: 'thin_content', chars: article.content.length });
+      await deferOrClose(candidate, 'thin_content', `${article.content.length} chars`);
       console.log(`  THIN_CONTENT ${article.content.length} chars`);
       continue;
     }
@@ -577,14 +761,7 @@ async function main() {
     totalTokens += tokens;
 
     if (!parsed) {
-      attempts.push({ title: candidate.title, result: 'invalid_json', writer: writer.role, cost, tokens });
-      markSeen(state, candidate.keys, {
-        decision: 'invalid_json',
-        category: '',
-        slot: slot.key,
-        title: candidate.title,
-        url: candidate.canonical,
-      });
+      await deferOrClose(candidate, 'invalid_json', `writer=${writer.role} cost=${cost.toFixed(6)}`);
       console.log(`  INVALID_JSON writer=${writer.role} cost $${cost.toFixed(6)}`);
       continue;
     }
@@ -675,34 +852,32 @@ async function main() {
         console.log(`  QA_FAILED ${qa.problems.join(',')} | score ${qa.score}/${qa.possible}`);
         continue;
       }
-      attempts.push({ title: candidate.title, result: 'qa_failed', problems: qa.problems, cost, tokens });
-      markSeen(state, candidate.keys, {
-        decision: 'qa_failed',
-        reason: qa.problems.join(','),
-        category: parsed.category || '',
-        slot: slot.key,
-        title: candidate.title,
-        url: candidate.canonical,
-      });
+      const contentReject = qa.problems.includes('ai_relevance') || qa.problems.includes('category_fresh');
+      if (contentReject) {
+        attempts.push({ title: candidate.title, result: 'qa_failed', problems: qa.problems, cost, tokens });
+        markSeen(state, candidate.keys, {
+          decision: 'qa_failed',
+          reason: qa.problems.join(','),
+          category: parsed.category || '',
+          slot: slot.key,
+          title: candidate.title,
+          url: candidate.canonical,
+        });
+      } else {
+        await deferOrClose(candidate, 'qa_failed', qa.problems.join(','));
+      }
       console.log(`  QA_FAILED ${qa.problems.join(',')} | score ${qa.score}/${qa.possible}`);
       continue;
     }
 
     const category = parsed.category;
     if (!MAIN_CATEGORIES.includes(category)) {
-      attempts.push({ title: candidate.title, result: 'bad_category', category, cost, tokens });
+      await deferOrClose(candidate, 'bad_category', String(category ?? ''));
       console.log(`  BAD_CATEGORY ${category}`);
       continue;
     }
     if (quota[category].remaining <= 0) {
-      attempts.push({ title: candidate.title, result: 'quota_full', category, cost, tokens });
-      markSeen(state, candidate.keys, {
-        decision: 'quota',
-        category,
-        slot: slot.key,
-        title: candidate.title,
-        url: candidate.canonical,
-      });
+      await deferOrClose(candidate, 'quota_full', category);
       console.log(`  QUOTA_FULL ${category}`);
       continue;
     }
@@ -837,14 +1012,7 @@ async function main() {
           postDir: dir,
           error: String(error?.message ?? error),
         });
-        markSeen(state, candidate.keys, {
-          decision: 'publish',
-          category,
-          slot: slot.key,
-          title: candidate.title,
-          url: candidate.canonical,
-        });
-        await saveState(STATE_PATH, state);
+        await deferOrClose(candidate, 'send_failed', String(error?.message ?? error));
         console.log(`SEND_FAILED ${String(error?.message ?? error)}`);
         console.log(`OUTBOX ${dir}`);
         console.log('NOTHING_WAS_SENT');
@@ -887,12 +1055,12 @@ async function main() {
     markSlot(state, slot.key, { status: 'empty', reason: 'all_candidates_rejected' });
     pruneState(state, NOW);
     await saveState(STATE_PATH, state);
-    console.log(`RESULT EMPTY attempts=${attempts.length} reviews=${reviews} | cost $${totalCost.toFixed(6)} | tokens ${totalTokens}`);
+    console.log(`RESULT EMPTY attempts=${attempts.length} reviews=${reviews} deferred=${Object.keys(state.deferred ?? {}).length} | cost $${totalCost.toFixed(6)} | tokens ${totalTokens}`);
     console.log('NOTHING_WAS_SENT');
     return;
   }
 
-  console.log(`RESULT ${published.status === 'sent' ? 'SENT' : 'READY'} category=${published.category} | offer=${published.offer ? 'yes' : 'no'} | image=${published.image ? 'yes' : 'no'} | QA ${published.qa.score}/${published.qa.possible} | cost $${published.cost.toFixed(6)} | tokens ${published.tokens}`);
+  console.log(`RESULT ${published.status === 'sent' ? 'SENT' : 'READY'} category=${published.category} | offer=${published.offer ? 'yes' : 'no'} | image=${published.image ? 'yes' : 'no'} | QA ${published.qa.score}/${published.qa.possible} | cost $${totalCost.toFixed(6)} | post $${published.cost.toFixed(6)} | tokens ${totalTokens}`);
   console.log(`TITLE ${published.post.title}`);
   console.log(`OUTBOX ${published.dir}`);
   console.log(SEND ? (REVIEW_SEND ? 'SENT_TO_REVIEW' : 'SENT_TO_TELEGRAM') : 'DRY_RUN — NOTHING_WAS_SENT');

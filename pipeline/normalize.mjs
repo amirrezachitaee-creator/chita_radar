@@ -9,7 +9,6 @@ const PRE_GATE_HOURS = config.freshness_hours.pre_gate;
 const CATEGORY_WINDOW_HOURS = Object.fromEntries(
   Object.entries(config.freshness_hours).filter(([key]) => key !== 'pre_gate')
 );
-const EVERGREEN_HOURS = config.freshness_hours.education;
 const MAX_FUTURE_HOURS = config.max_future_hours;
 
 const TRACKING = new Set([
@@ -35,8 +34,7 @@ export function contentHash(text) {
   return createHash('sha256').update(normalized).digest('hex').slice(0, 16);
 }
 
-export function windowFor(category, { allowEvergreen = false } = {}) {
-  if (allowEvergreen) return EVERGREEN_HOURS;
+export function windowFor(category) {
   return CATEGORY_WINDOW_HOURS[category] ?? PRE_GATE_HOURS;
 }
 
@@ -51,8 +49,8 @@ export function freshness(publishedAt, now, { maxAgeHours = PRE_GATE_HOURS } = {
   return { ok: true, reason: 'ok', ageHours, maxAgeHours };
 }
 
-export function evaluateItem(item, { now, category, allowEvergreen = false }) {
-  const maxAgeHours = windowFor(category, { allowEvergreen });
+export function evaluateItem(item, { now, category }) {
+  const maxAgeHours = windowFor(category);
   const fresh = freshness(item.published_at, now, { maxAgeHours });
   let canonical;
   try {

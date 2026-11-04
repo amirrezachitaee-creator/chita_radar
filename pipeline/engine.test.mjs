@@ -2,11 +2,16 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   applyLeadPolicy,
+  applyMechanicalFixes,
+  countTitleWords,
   ensureSourceLine,
   fitCaption,
   imageVerdict,
   normalizePostFields,
   qaPost,
+  trimBody,
+  trimTitle,
+  TITLE_MAX_WORDS,
   clampText,
   buildUserMessage,
   buildQaRepairMessage,
@@ -414,4 +419,54 @@ test('a post containing Chinese characters fails QA', () => {
     now: new Date().toISOString(),
   });
   assert.ok(qa.problems.includes('script_clean'));
+});
+
+test('a long title is trimmed to the shared word limit and cleaned', () => {
+  const title = 'یک دو سه چهار پنج شش هفت هشت نه ده یازده دوازده سیزده **';
+  const trimmed = trimTitle(title);
+  assert.equal(countTitleWords(trimmed), TITLE_MAX_WORDS);
+  assert.equal(trimmed.endsWith('.'), false);
+  assert.equal(trimmed.includes('**'), false);
+  const compound = trimTitle('یک دو سه چهار پنج شش هفت هشت نه ده می‌شود دوازده سیزده');
+  assert.ok(countTitleWords(compound) <= TITLE_MAX_WORDS);
+});
+
+test('an over-long body is trimmed without losing the source or the importance paragraph', () => {
+  const importance = 'اهمیتش اینه که این ابزار زمان تیم را کم می‌کند.';
+  const body = [
+    `لید خبر. ${'الف '.repeat(120).trim()}`,
+    `زمینه. ${'ب '.repeat(120).trim()}`,
+    importance,
+    'منبع: [منبع](https://example.com/a)',
+  ].join('\n\n');
+  const trimmed = trimBody(body, 990);
+  assert.ok(trimmed.length <= 990);
+  assert.ok(trimmed.includes(importance));
+  assert.ok(trimmed.includes('منبع: [منبع](https://example.com/a)'));
+  assert.ok(trimmed.split(/\n{2,}/).filter(Boolean).length >= 2);
+});
+
+test('mechanical fixes repair title, body and quote before QA', () => {
+  const importance = 'اهمیتش اینه که کار تیم ساده‌تر می‌شه.';
+  const parsed = {
+    decision: 'publish',
+    post_type: 'standard',
+    title: 'یک دو سه چهار پنج شش هفت هشت نه ده یازده دوازده سیزده',
+    body: [
+      `لید. ${'الف '.repeat(140).trim()}`,
+      `زمینه. ${'ب '.repeat(140).trim()}`,
+      importance,
+    ].join('\n\n'),
+    quote: 'ق'.repeat(1300),
+    image_url: '',
+  };
+  const fixed = applyMechanicalFixes(parsed, {
+    sourceName: 'منبع',
+    sourceUrl: 'https://example.com/a',
+  });
+  assert.ok(trimTitle(fixed.title).split(/\s+/).filter(Boolean).length <= TITLE_MAX_WORDS);
+  assert.ok(fixed.body.length <= 990);
+  assert.ok(fixed.body.includes(importance));
+  assert.ok(fixed.body.endsWith('منبع: [منبع](https://example.com/a)'));
+  assert.ok(fixed.quote.length <= 1200);
 });
