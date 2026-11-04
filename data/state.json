@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T14:37:03.193Z",
+  "updatedAt": "2026-11-04T17:50:31.674Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -311,8 +311,43 @@
       "slot": "2026-11-04T17:00+03:30",
       "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
       "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges"
+    },
+    "url:e7e58e1f94f0bef3": {
+      "at": "2026-11-04T17:50:09.343Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T20:30+03:30",
+      "title": "✈️ تلگرام تو نسخه بتای اندروید خودش داره یه قابلیت جدید به اسم Compact Mode رو",
+      "url": "https://t.me/Mohammad_zammani/7155"
+    },
+    "title:27449c090b0b7d12": {
+      "at": "2026-11-04T17:50:09.343Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T20:30+03:30",
+      "title": "✈️ تلگرام تو نسخه بتای اندروید خودش داره یه قابلیت جدید به اسم Compact Mode رو",
+      "url": "https://t.me/Mohammad_zammani/7155"
+    },
+    "url:fd0a13e525334741": {
+      "at": "2026-11-04T17:50:31.674Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-04T20:30+03:30",
+      "title": "GitHub - gmpetrov/agent-screenplay: Beautiful screen recordings, made by your favorite AI agent.",
+      "url": "https://github.com/gmpetrov/agent-screenplay"
+    },
+    "title:b0932bb69fad3ac6": {
+      "at": "2026-11-04T17:50:31.674Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-04T20:30+03:30",
+      "title": "GitHub - gmpetrov/agent-screenplay: Beautiful screen recordings, made by your favorite AI agent.",
+      "url": "https://github.com/gmpetrov/agent-screenplay"
     }
   },
+  "deferred": {},
   "slots": {
     "2026-11-02T20:30+03:30": {
       "at": "2026-11-02T16:58:19.725Z",
@@ -363,6 +398,15 @@
       "title": "فال با جذب ۱.۳ میلیارد دلار، ارزشش دو برابر شد",
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/17-00",
       "messageId": 12,
+      "mode": "send"
+    },
+    "2026-11-04T20:30+03:30": {
+      "at": "2026-11-04T17:50:31.674Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "ابزار Screenplay ویدیوهای شیک از کار ایجنت می‌سازد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/20-30",
+      "messageId": 13,
       "mode": "send"
     }
   },
@@ -431,83 +475,94 @@
       "dedupe_key": "fal-16b-valuation-funding",
       "post_key": "2026-11-04/17-00",
       "at": "2026-11-04T14:37:03.192Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-04T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ابزار Screenplay ویدیوهای شیک از کار ایجنت می‌سازد",
+      "why": "برای تیم‌هایی که می‌خوان مستندات یا دموی محصولشون رو سریع و بدون دردسر بسازن، این ابزار می‌تونه کلی وقت ذخیره کنه.",
+      "dedupe_key": "screenplay-screen-recording-agent",
+      "post_key": "2026-11-04/20-30",
+      "at": "2026-11-04T17:50:31.674Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8294,
       "last_at": "2026-11-04T11:58:22+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "ai_farshad": {
-      "last_id": 6355,
-      "last_at": "2026-11-04T13:30:55+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "last_id": 6356,
+      "last_at": "2026-11-04T16:38:16+00:00",
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7154,
-      "last_at": "2026-11-04T13:32:37+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "last_id": 7155,
+      "last_at": "2026-11-04T16:28:53+00:00",
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "techiin_ir": {
-      "last_id": 20677,
-      "last_at": "2026-11-04T14:29:31+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "last_id": 20678,
+      "last_at": "2026-11-04T15:50:01+00:00",
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "mgh_mobin": {
       "last_id": 450,
       "last_at": "2026-11-03T14:32:14+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "asrnovin_ir": {
-      "last_id": 11402,
-      "last_at": "2026-11-04T13:27:42+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "last_id": 11403,
+      "last_at": "2026-11-04T14:46:50+00:00",
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "shayanode": {
       "last_id": 71,
       "last_at": "2026-11-03T19:03:00+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "codecloude": {
-      "last_id": 2549,
-      "last_at": "2026-11-03T11:17:23+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "last_id": 2551,
+      "last_at": "2026-11-04T17:43:48+00:00",
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "dunijet_ai": {
       "last_id": 2503,
       "last_at": "2026-11-04T08:16:16+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     },
     "Sajadverse": {
       "last_id": 1242,
       "last_at": "2026-11-04T07:39:03+00:00",
-      "checked_at": "2026-11-04T14:30:30.928Z"
+      "checked_at": "2026-11-04T17:50:01.223Z"
     }
   }
 }
