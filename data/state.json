@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T05:48:14.874Z",
+  "updatedAt": "2026-11-04T09:04:55.252Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -175,6 +175,74 @@
       "slot": "2026-11-04T08:30+03:30",
       "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
       "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back"
+    },
+    "url:87e56ec436dd1538": {
+      "at": "2026-11-04T08:52:20.640Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "🎧 صدای واقعی برای ویدیوهایی که با کلاود می‌سازی",
+      "url": "http://github.com/Clipwing/skills"
+    },
+    "title:06cb2592ca36ed9d": {
+      "at": "2026-11-04T08:52:20.640Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "🎧 صدای واقعی برای ویدیوهایی که با کلاود می‌سازی",
+      "url": "http://github.com/Clipwing/skills"
+    },
+    "url:954fbd2e34ab1eb9": {
+      "at": "2026-11-04T08:58:44.559Z",
+      "decision": "invalid_json",
+      "category": "",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "GitHub - Muvon/octomind: Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Run",
+      "url": "https://github.com/Muvon/octomind"
+    },
+    "title:ca17457c6da91f73": {
+      "at": "2026-11-04T08:58:44.559Z",
+      "decision": "invalid_json",
+      "category": "",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "GitHub - Muvon/octomind: Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Run",
+      "url": "https://github.com/Muvon/octomind"
+    },
+    "url:7ae7ecb0a3914f39": {
+      "at": "2026-11-04T09:02:59.893Z",
+      "decision": "qa_failed",
+      "reason": "title_words,length",
+      "category": "models",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+      "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week"
+    },
+    "title:7b05a3f65f3abeab": {
+      "at": "2026-11-04T09:02:59.893Z",
+      "decision": "qa_failed",
+      "reason": "title_words,length",
+      "category": "models",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+      "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week"
+    },
+    "url:95f772f833e5ba7f": {
+      "at": "2026-11-04T09:04:55.251Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "Rapid LLM development is outrunning the research meant to explain it, study finds",
+      "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds"
+    },
+    "title:e312965e2d5c7f03": {
+      "at": "2026-11-04T09:04:55.251Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-04T11:30+03:30",
+      "title": "Rapid LLM development is outrunning the research meant to explain it, study finds",
+      "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds"
     }
   },
   "slots": {
@@ -200,6 +268,15 @@
       "title": "روسیه به‌دنبال انتقال دیتاسنترها به زیرزمین",
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/08-30",
       "messageId": 9,
+      "mode": "send"
+    },
+    "2026-11-04T11:30+03:30": {
+      "at": "2026-11-04T09:04:55.251Z",
+      "status": "sent",
+      "category": "models",
+      "title": "تحقیق استنفورد: بیشتر یافته‌های پژوهشی درباره مدل‌های زبانی منقضی شده",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/11-30",
+      "messageId": 10,
       "mode": "send"
     }
   },
@@ -235,83 +312,94 @@
       "dedupe_key": "russia-underground-datacenters-drone",
       "post_key": "2026-11-04/08-30",
       "at": "2026-11-04T05:48:14.874Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-04T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "تحقیق استنفورد: بیشتر یافته‌های پژوهشی درباره مدل‌های زبانی منقضی شده",
+      "why": "این تحقیق نشون می‌ده که یافته‌های پژوهشی درباره مدل‌ها باید به‌عنوان مشاهده‌هایی در یک مقطع خاص دیده بشن، نه حقایق همیشگی.",
+      "dedupe_key": "stanford-llm-findings-expiration-study",
+      "post_key": "2026-11-04/11-30",
+      "at": "2026-11-04T09:04:55.252Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8289,
-      "last_at": "2026-11-03T14:56:54+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "last_id": 8292,
+      "last_at": "2026-11-04T08:44:23+00:00",
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "ai_farshad": {
-      "last_id": 6350,
-      "last_at": "2026-11-03T19:28:41+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "last_id": 6351,
+      "last_at": "2026-11-04T07:31:34+00:00",
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7151,
-      "last_at": "2026-11-03T14:33:19+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "last_id": 7152,
+      "last_at": "2026-11-04T07:03:21+00:00",
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "techiin_ir": {
-      "last_id": 20672,
-      "last_at": "2026-11-03T17:15:55+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "last_id": 20673,
+      "last_at": "2026-11-04T08:17:39+00:00",
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "mgh_mobin": {
       "last_id": 450,
       "last_at": "2026-11-03T14:32:14+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "asrnovin_ir": {
-      "last_id": 11399,
-      "last_at": "2026-11-03T19:32:10+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "last_id": 11400,
+      "last_at": "2026-11-04T06:23:49+00:00",
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "shayanode": {
       "last_id": 71,
       "last_at": "2026-11-03T19:03:00+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "codecloude": {
       "last_id": 2549,
       "last_at": "2026-11-03T11:17:23+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "dunijet_ai": {
-      "last_id": 2501,
-      "last_at": "2026-11-04T04:22:09+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "last_id": 2503,
+      "last_at": "2026-11-04T08:16:16+00:00",
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "checked_at": "2026-11-04T08:52:13.977Z"
     },
     "Sajadverse": {
-      "last_id": 1241,
-      "last_at": "2026-11-03T17:35:55+00:00",
-      "checked_at": "2026-11-04T05:43:19.529Z"
+      "last_id": 1242,
+      "last_at": "2026-11-04T07:39:03+00:00",
+      "checked_at": "2026-11-04T08:52:13.977Z"
     }
   }
 }
