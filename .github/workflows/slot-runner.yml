@@ -32,7 +32,7 @@ on:
       max_candidates:
         description: "حداکثر کاندید در این اجرا"
         type: string
-        default: "4"
+        default: "6"
   repository_dispatch:
     types: [slot-tick]
   schedule:
@@ -61,7 +61,7 @@ jobs:
       SLOT: ${{ github.event.inputs.slot || github.event.client_payload.slot || '' }}
       FORCE: ${{ github.event.inputs.force || github.event.client_payload.force || 'false' }}
       SOURCES: ${{ github.event.inputs.sources || github.event.client_payload.sources || '' }}
-      MAX_CANDIDATES: ${{ github.event.inputs.max_candidates || github.event.client_payload.max_candidates || '4' }}
+      MAX_CANDIDATES: ${{ github.event.inputs.max_candidates || github.event.client_payload.max_candidates || '6' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

@@ -17,6 +17,8 @@ import {
   buildQaRepairMessage,
   callModel,
   callWithRetry,
+  extractArticle,
+  parseFeed,
 } from './engine.mjs';
 
 test('an over-limit image caption drops the quote before the image', () => {
@@ -469,4 +471,39 @@ test('mechanical fixes repair title, body and quote before QA', () => {
   assert.ok(fixed.body.includes(importance));
   assert.ok(fixed.body.endsWith('منبع: [منبع](https://example.com/a)'));
   assert.ok(fixed.quote.length <= 1200);
+});
+
+test('article extraction keeps the original date next to the modified date', () => {
+  const article = extractArticle(`<html><head>
+    <meta property="og:title" content="Story">
+    <meta property="article:published_time" content="2026-10-20T08:00:00Z">
+    <meta property="article:modified_time" content="2026-11-05T08:00:00Z">
+  </head><body><p>${'متن خبر. '.repeat(40)}</p></body></html>`);
+  assert.equal(article.published, '2026-10-20T08:00:00Z');
+  assert.equal(article.modified, '2026-11-05T08:00:00Z');
+
+  const structured = extractArticle(`<html><head><script type="application/ld+json">
+    {"@type":"NewsArticle","headline":"Structured","datePublished":"2026-10-21T08:00:00Z","dateModified":"2026-11-04T08:00:00Z"}
+  </script></head></html>`);
+  assert.equal(structured.published, '2026-10-21T08:00:00Z');
+  assert.equal(structured.modified, '2026-11-04T08:00:00Z');
+});
+
+test('feed parsing keeps published and updated dates apart', () => {
+  const [atom] = parseFeed(`<feed><entry>
+    <title>Atom story</title>
+    <link href="https://example.com/atom"/>
+    <published>2026-10-20T08:00:00Z</published>
+    <updated>2026-11-05T08:00:00Z</updated>
+  </entry></feed>`);
+  assert.equal(atom.published, '2026-10-20T08:00:00Z');
+  assert.equal(atom.updated, '2026-11-05T08:00:00Z');
+
+  const [onlyUpdated] = parseFeed(`<feed><entry>
+    <title>Only updated</title>
+    <link href="https://example.com/updated"/>
+    <updated>2026-11-05T08:00:00Z</updated>
+  </entry></feed>`);
+  assert.equal(onlyUpdated.published, '2026-11-05T08:00:00Z');
+  assert.equal(onlyUpdated.updated, '2026-11-05T08:00:00Z');
 });

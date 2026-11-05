@@ -35,6 +35,21 @@ export function dateKey(value) {
   return `${parts.year}-${pad(parts.month)}-${pad(parts.day)}`;
 }
 
+function minutesOfSlot(slot) {
+  const match = /^(\d{1,2}):(\d{2})$/.exec(String(slot));
+  return match ? Number(match[1]) * 60 + Number(match[2]) : null;
+}
+
+export function inQuietHours(value, quietHours = []) {
+  if (!Array.isArray(quietHours) || quietHours.length < 2) return false;
+  const from = minutesOfSlot(quietHours[0]);
+  const to = minutesOfSlot(quietHours[1]);
+  if (from === null || to === null || from === to) return false;
+  const parts = tehranParts(value);
+  const now = parts.hour * 60 + parts.minute;
+  return from < to ? now >= from && now < to : now >= from || now < to;
+}
+
 export function slotStart(date, slot) {
   const match = /^(\d{2}):(\d{2})$/.exec(String(slot));
   if (!match) throw new Error(`invalid slot ${slot}`);
@@ -62,22 +77,26 @@ export function resolveSlot(now, { slots, earlyMinutes = 15, lateMinutes = 90 })
   const nowMs = now instanceof Date ? now.getTime() : Date.parse(String(now));
   if (!Number.isFinite(nowMs)) throw new Error('invalid now');
   const today = dateKey(nowMs);
+  const yesterday = addDays(today, -1);
   let matched = null;
 
-  for (const slot of slots) {
-    const start = slotStart(today, slot);
+  const consider = (date, slot) => {
+    const start = slotStart(date, slot);
     const startMs = start.getTime();
     if (nowMs >= startMs - earlyMinutes * 60000 && nowMs <= startMs + lateMinutes * 60000) {
-      if (!matched || startMs > matched.startMs) matched = { slot, start, startMs };
+      if (!matched || startMs > matched.startMs) matched = { slot, start, startMs, date };
     }
-  }
+  };
+  // The 23:00 grace window runs past midnight; keep it attached to its own day.
+  for (const slot of slots) consider(yesterday, slot);
+  for (const slot of slots) consider(today, slot);
 
   if (matched) {
     return {
       ready: true,
-      date: today,
+      date: matched.date,
       slot: matched.slot,
-      key: slotKey(today, matched.slot),
+      key: slotKey(matched.date, matched.slot),
       startsAt: matched.start.toISOString(),
     };
   }
@@ -114,21 +133,38 @@ export function weekKey(value) {
 }
 
 export function emptyState() {
-  return { version: 1, updatedAt: '', seen: {}, deferred: {}, slots: {}, published: [], telegram: {} };
+  return {
+    version: 2,
+    updatedAt: '',
+    seen: {},
+    deferred: {},
+    slots: {},
+    published: [],
+    telegram: {},
+    offerReviews: [],
+    educationReviews: [],
+    reviewPending: {},
+  };
 }
 
 export async function loadState(path) {
   try {
     const raw = await readFile(path, 'utf8');
     const parsed = JSON.parse(raw);
+    const defaults = emptyState();
     return {
-      ...emptyState(),
+      ...defaults,
       ...parsed,
+      version: defaults.version,
       seen: parsed.seen && typeof parsed.seen === 'object' ? parsed.seen : {},
       deferred: parsed.deferred && typeof parsed.deferred === 'object' ? parsed.deferred : {},
       slots: parsed.slots && typeof parsed.slots === 'object' ? parsed.slots : {},
       published: Array.isArray(parsed.published) ? parsed.published : [],
       telegram: parsed.telegram && typeof parsed.telegram === 'object' ? parsed.telegram : {},
+      offerReviews: Array.isArray(parsed.offerReviews) ? parsed.offerReviews : [],
+      educationReviews: Array.isArray(parsed.educationReviews) ? parsed.educationReviews : [],
+      reviewPending:
+        parsed.reviewPending && typeof parsed.reviewPending === 'object' ? parsed.reviewPending : {},
     };
   } catch (error) {
     if (error?.code === 'ENOENT') return emptyState();
@@ -303,7 +339,7 @@ export function markSlot(state, key, record) {
 
 export function isSlotSettled(state, key) {
   const status = state.slots[key]?.status;
-  return status === 'ready' || status === 'sent' || status === 'skipped';
+  return status === 'ready' || status === 'sent' || status === 'skipped' || status === 'review';
 }
 
 export function quotaSnapshot(config, state, week) {
@@ -316,7 +352,22 @@ export function quotaSnapshot(config, state, week) {
   return snapshot;
 }
 
-export function recordPublished(state, { slot, category, title, dedupeKey = '', postKey = '', kind = 'news', why = '' }) {
+export function recordPublished(
+  state,
+  {
+    slot,
+    category,
+    title,
+    dedupeKey = '',
+    postKey = '',
+    kind = 'news',
+    why = '',
+    sourceId = '',
+    sourceName = '',
+    sourceType = '',
+    url = '',
+  }
+) {
   const entry = {
     week: weekKey(slotDateKey(slot)),
     slot,
@@ -326,16 +377,64 @@ export function recordPublished(state, { slot, category, title, dedupeKey = '', 
     why,
     dedupe_key: dedupeKey,
     post_key: postKey,
+    sourceId,
+    sourceName,
+    sourceType,
+    url,
     at: new Date().toISOString(),
   };
   state.published.push(entry);
   return entry;
 }
 
+export function recordEducationReview(state, { source = '', title = '', url = '', slot = '', at = '' }) {
+  if (!Array.isArray(state.educationReviews)) state.educationReviews = [];
+  const entry = {
+    source,
+    title,
+    url,
+    slot,
+    at: at || new Date().toISOString(),
+  };
+  state.educationReviews.push(entry);
+  return entry;
+}
+
+export function educationReviewUsage(state, now, { source = '' } = {}) {
+  const day = dateKey(now);
+  const entries = (state.educationReviews ?? []).filter((entry) => {
+    try {
+      return dateKey(entry?.at ?? '') === day;
+    } catch {
+      return false;
+    }
+  });
+  const bySource = {};
+  for (const entry of entries) {
+    const key = String(entry?.source ?? '');
+    if (!key) continue;
+    bySource[key] = (bySource[key] ?? 0) + 1;
+  }
+  return {
+    total: entries.length,
+    source: source ? entries.filter((entry) => entry.source === source).length : 0,
+    bySource,
+  };
+}
+
 export function pruneState(
   state,
   now,
-  { seenDays = SEEN_RETENTION_DAYS, publishedDays = 90, slotDays = 90, deferredDays = 14, deferredCap = MAX_DEFERRED } = {}
+  {
+    seenDays = SEEN_RETENTION_DAYS,
+    publishedDays = 90,
+    slotDays = 90,
+    deferredDays = 14,
+    deferredCap = MAX_DEFERRED,
+    reviewDays = 14,
+    reviewPendingHours = 168,
+    reviewPendingCap = 200,
+  } = {}
 ) {
   const nowMs = now instanceof Date ? now.getTime() : Date.parse(String(now));
   if (!Number.isFinite(nowMs)) throw new Error('invalid now');
@@ -368,6 +467,29 @@ export function pruneState(
     .sort(([, left], [, right]) => Date.parse(right?.at ?? '') - Date.parse(left?.at ?? ''))
     .slice(deferredCap);
   for (const [id] of overflow) delete state.deferred[id];
+
+  if (!Array.isArray(state.offerReviews)) state.offerReviews = [];
+  state.offerReviews = state.offerReviews.filter((entry) => {
+    const at = Date.parse(entry?.at ?? '');
+    return Number.isFinite(at) && at >= cutoff(reviewDays);
+  });
+
+  if (!Array.isArray(state.educationReviews)) state.educationReviews = [];
+  state.educationReviews = state.educationReviews.filter((entry) => {
+    const at = Date.parse(entry?.at ?? '');
+    return Number.isFinite(at) && at >= cutoff(reviewDays);
+  });
+
+  if (!state.reviewPending || typeof state.reviewPending !== 'object') state.reviewPending = {};
+  const pendingCutoff = nowMs - reviewPendingHours * 3600000;
+  for (const [id, entry] of Object.entries(state.reviewPending)) {
+    const at = Date.parse(entry?.queuedAt ?? '');
+    if (!Number.isFinite(at) || at < pendingCutoff) delete state.reviewPending[id];
+  }
+  const pendingOverflow = Object.entries(state.reviewPending)
+    .sort(([, left], [, right]) => Date.parse(left?.queuedAt ?? '') - Date.parse(right?.queuedAt ?? ''))
+    .slice(reviewPendingCap);
+  for (const [id] of pendingOverflow) delete state.reviewPending[id];
 
   return state;
 }

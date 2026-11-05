@@ -100,9 +100,9 @@ export function parseFeed(xml) {
         block.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["']alternate["']/i);
       if (alternate) link = alternate[1];
       if (!link) link = block.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*>/i)?.[1] ?? '';
-      const published = stripHtml(
-        pickTag(block, 'pubDate') || pickTag(block, 'published') || pickTag(block, 'updated')
-      );
+      const publishedRaw = stripHtml(pickTag(block, 'pubDate') || pickTag(block, 'published'));
+      const updatedRaw = stripHtml(pickTag(block, 'updated'));
+      const published = publishedRaw || updatedRaw;
       const summary = stripHtml(
         pickTag(block, 'description') ||
           pickTag(block, 'summary') ||
@@ -114,7 +114,7 @@ export function parseFeed(xml) {
         .filter(Boolean);
       const enclosure = block.match(/<enclosure\b[^>]*url=["']([^"']+)["'][^>]*>/i)?.[1];
       const inline = block.match(/<img\b[^>]*src=["']([^"']+)["']/i)?.[1];
-      return { title, link, published, summary, images: [...new Set([...media, enclosure, inline].filter(Boolean))] };
+      return { title, link, published, updated: updatedRaw, summary, images: [...new Set([...media, enclosure, inline].filter(Boolean))] };
     })
     .filter((item) => item.title && item.link);
 }
@@ -221,6 +221,12 @@ export function extractArticle(html, fallbackTitle = '') {
   const title = meta['og:title'] || findDeep(jsonLd, 'headline') || fallbackTitle;
   const description = meta['og:description'] || findDeep(jsonLd, 'description') || '';
   const published = meta['article:published_time'] || meta['date'] || findDeep(jsonLd, 'datePublished') || '';
+  const modified =
+    meta['article:modified_time'] ||
+    meta['og:updated_time'] ||
+    meta['last-modified'] ||
+    findDeep(jsonLd, 'dateModified') ||
+    '';
   let imageUrl = meta['og:image'] || meta['twitter:image'] || findImage(jsonLd) || '';
   if (Array.isArray(imageUrl)) imageUrl = imageUrl[0] || '';
   const imageAlt = meta['og:image:alt'] || meta['twitter:image:alt'] || '';
@@ -250,6 +256,7 @@ export function extractArticle(html, fallbackTitle = '') {
     title: stripHtml(title),
     description: stripHtml(description),
     published,
+    modified,
     imageUrl,
     imageAlt,
     content: content.replace(/\s+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim().slice(0, 20000),

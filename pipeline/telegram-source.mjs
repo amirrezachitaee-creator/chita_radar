@@ -1,4 +1,5 @@
 import { canonicalUrl } from './normalize.mjs';
+import { isAiCentral } from './relevance.mjs';
 import { newsDate } from './newstime.mjs';
 
 export const TELEGRAM_SOURCE_TYPE = 'telegram_channel';
@@ -372,6 +373,46 @@ export function hasPromoText(text) {
   return PROMO_TEXT_PATTERN.test(String(text ?? ''));
 }
 
+const TOOL_TEXT_PATTERN =
+  /(?:ابزار|اپلیکیشن|(?<![\p{L}])اپ(?![\p{L}])|سرویس|پلتفرم|افزونه|بات(?:‌ها)?|نرم‌افزار|داشبورد|کلاینت|\btools?\b|\bapps?\b|\bplatforms?\b|\bplugins?\b|\bextensions?\b|\bapi\b|\bsdk\b|نسخه(?:‌|\s)?(?:جدید|تازه))/iu;
+
+const TOOL_HOSTS = [
+  'github.com',
+  'gitlab.com',
+  'huggingface.co',
+  'producthunt.com',
+  'replicate.com',
+  'npmjs.com',
+  'pypi.org',
+];
+
+export function hasToolText(text) {
+  return TOOL_TEXT_PATTERN.test(String(text ?? ''));
+}
+
+export function isToolUrl(raw) {
+  try {
+    const url = new URL(String(raw));
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') return false;
+    const host = normalizeDomain(url.hostname);
+    if (hostIn(host, TOOL_HOSTS)) return true;
+    return /(?:^|\/)(?:tool|tools|app|apps|product|products|features?|pricing|plugin|extension)(?:\/|$)/i.test(
+      url.pathname
+    );
+  } catch {
+    return false;
+  }
+}
+
+export function isPromoHost(raw, { promoDomains = [] } = {}) {
+  try {
+    const host = normalizeDomain(new URL(String(raw)).hostname);
+    return hostIn(host, [...DEFAULT_PROMO_DOMAINS, ...promoDomains].map(normalizeDomain));
+  } catch {
+    return false;
+  }
+}
+
 export function isOfficialCourse(raw, text, { officialCourseDomains = [] } = {}) {
   let url;
   try {
@@ -393,13 +434,69 @@ export function isOfficialCourse(raw, text, { officialCourseDomains = [] } = {})
   );
 }
 
+const AD_START_PATTERN =
+  /^[\s>*•\-–—]*(?:تبلیغات?|اسپانسر|رپورتاژ|پیشنهاد\s*ویژه|sponsored|advertisement|\bad\b)/iu;
+const AD_CONTACT_PATTERN =
+  /(?:جهت|برای)\s*(?:تبلیغات|همکاری|ارتباط)|ارتباط\s*با\s*ما|تبلیغات\s*در|رپورتاژ\s*آگهی/iu;
+const AD_OFFER_PATTERN =
+  /(?:کد\s*(?:تخفیف|دعوت|رفرال)|لینک\s*(?:دعوت|رفرال)|با\s*لینک\s*من|تخفیف\s*ویژه|فرصت\s*محدود|همین\s*حالا\s*ثبت)/iu;
+
+export function stripLeadNoise(text, { maxChars = 0 } = {}) {
+  const lines = String(text ?? '').replace(/\r\n?/g, '\n').split('\n');
+  const kept = [];
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      kept.push('');
+      continue;
+    }
+    if (AD_START_PATTERN.test(trimmed) || AD_CONTACT_PATTERN.test(trimmed)) break;
+    if (AD_OFFER_PATTERN.test(trimmed)) {
+      const remainder = trimmed
+        .replace(AD_OFFER_PATTERN, ' ')
+        .replace(/\s+/g, ' ')
+        .replace(/\s+(?:با|و|از|به|در|برای|تا)$/u, '')
+        .trim();
+      if (remainder.split(/\s+/).filter(Boolean).length < 3) continue;
+      kept.push(remainder);
+      continue;
+    }
+    if (/^https?:\/\//i.test(trimmed) || /^t\.me\//i.test(trimmed)) continue;
+    kept.push(trimmed);
+  }
+  let value = kept
+    .join('\n')
+    .replace(/https?:\/\/\S+/gi, ' ')
+    .replace(/[ \t]{2,}/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+  const limit = Number(maxChars) || 0;
+  if (limit > 0 && value.length > limit) {
+    const cut = value.slice(0, limit);
+    const boundary = cut.search(/\s+\S*$/);
+    value = `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
+  }
+  return value;
+}
+
 export function classifyLead(
   url,
   text,
-  { promoDomains = [], officialCourseDomains = [] } = {}
+  {
+    promoDomains = [],
+    officialCourseDomains = [],
+    aiRelevant = false,
+    aiCentral = false,
+    offerCue = false,
+  } = {}
 ) {
-  if (isOfficialCourse(url, text, { officialCourseDomains })) return 'official_course';
-  if (isEducationLead(text)) return 'education';
+  if (isOfficialCourse(url, text, { officialCourseDomains }) && (aiRelevant || aiCentral)) {
+    return 'official_course';
+  }
+  if (isPromoHost(url, { promoDomains })) return 'promotion';
+  if (isEducationLead(text)) return aiCentral ? 'education' : 'off_topic_education';
+  if (aiRelevant && offerCue) return 'free_offer';
+  if (aiRelevant && (isToolUrl(url) || hasToolText(text))) return 'tool_lead';
   if (isPromotionalUrl(url, { promoDomains }) || hasPromoText(text)) return 'promotion';
   return 'news';
 }
@@ -439,6 +536,36 @@ export function selectLeadLink(
     seen.add(canonical);
     if (!isAllowedLink(candidate.url, { denyDomains, denyExtensions })) continue;
     if (isPromotionalUrl(candidate.url, { promoDomains })) continue;
+    return { url: candidate.url, canonical, previewTitle: candidate.previewTitle };
+  }
+  return null;
+}
+
+export function selectReviewLink(
+  message,
+  { denyDomains = [], denyExtensions = [], promoDomains = [] } = {}
+) {
+  const candidates = [];
+  if (message?.preview?.url) {
+    candidates.push({ url: message.preview.url, previewTitle: message.preview.title ?? '' });
+  }
+  for (const url of message?.links ?? []) {
+    candidates.push({ url, previewTitle: '' });
+  }
+  const seen = new Set();
+  for (const candidate of candidates) {
+    let canonical = '';
+    try {
+      canonical = canonicalUrl(candidate.url);
+    } catch {
+      continue;
+    }
+    if (seen.has(canonical)) continue;
+    seen.add(canonical);
+    if (!isAllowedLink(candidate.url, { denyDomains, denyExtensions })) continue;
+    // A referral path or tracking parameter is allowed here so it can be reviewed;
+    // app-store hosts are still advertising and never become leads.
+    if (isPromoHost(candidate.url, { promoDomains })) continue;
     return { url: candidate.url, canonical, previewTitle: candidate.previewTitle };
   }
   return null;
@@ -683,7 +810,7 @@ function isSocialTutorialLink(raw) {
 }
 
 export function educationLeadLabel(lead = {}) {
-  const text = normalizeConceptText(`${lead.title ?? ''} ${lead.messageText ?? ''}`);
+  const text = normalizeConceptText(`${lead.title ?? ''} ${stripLeadNoise(lead.messageText ?? '')}`);
   const social =
     isSocialTutorialLink(lead.link) ||
     isSocialTutorialLink(lead.canonical) ||
@@ -697,16 +824,38 @@ export function educationLeadLabel(lead = {}) {
   return 'آموزش';
 }
 
-export function educationDigestLeads(leads = []) {
+export function educationDigestLeads(leads = [], { max = 5 } = {}) {
   const unique = [];
-  const seen = new Set();
+  const seenUrls = new Set();
+  const seenTitles = new Set();
   for (const lead of leads) {
     const url = String(lead?.canonical || lead?.link || lead?.leadPostUrl || '').trim();
-    if (!url || seen.has(url)) continue;
-    seen.add(url);
-    unique.push({ ...lead, url });
+    const titleKey = String(lead?.title ?? '').replace(/\s+/g, ' ').trim().toLowerCase();
+    if (!url || seenUrls.has(url)) continue;
+    if (titleKey && seenTitles.has(titleKey)) continue;
+    seenUrls.add(url);
+    if (titleKey) seenTitles.add(titleKey);
+    const aiCentral =
+      lead?.aiCentral ??
+      isAiCentral(lead?.title ?? '', stripLeadNoise(lead?.messageText ?? '', { maxChars: 600 }));
+    const titleAi = isAiCentral(lead?.title ?? '', '');
+    const publishedMs = Date.parse(String(lead?.published ?? ''));
+    unique.push({
+      ...lead,
+      url,
+      aiCentral,
+      digestScore: (aiCentral ? 4 : 0) + (titleAi ? 3 : 0),
+      digestPublished: Number.isFinite(publishedMs) ? publishedMs : 0,
+    });
   }
-  return unique;
+  unique.sort(
+    (left, right) =>
+      right.digestScore - left.digestScore ||
+      right.digestPublished - left.digestPublished ||
+      String(left.title ?? '').localeCompare(String(right.title ?? ''))
+  );
+  const cap = Number(max);
+  return cap > 0 ? unique.slice(0, cap) : unique;
 }
 
 function educationSourceLine(lead) {
@@ -758,14 +907,14 @@ function splitChunks(value, max) {
   return chunks;
 }
 
-export function buildEducationMessages(lead = {}) {
+export function buildEducationMessages(lead = {}, { maxTextChars = 1200 } = {}) {
   const title = String(lead.title ?? '').replace(/\s+/g, ' ').trim() || 'بدون عنوان';
   const label = educationLeadLabel(lead);
   const source = educationSourceLine(lead);
   const published = newsDate(lead.published) || String(lead.published ?? '').trim();
   const postUrl = String(lead.leadPostUrl ?? '').trim();
   const external = String(lead.link ?? lead.url ?? '').trim();
-  const rawText = String(lead.messageText ?? '').replace(/\r\n?/g, '\n').trim();
+  const rawText = stripLeadNoise(lead.messageText ?? '', { maxChars: maxTextChars });
   const firstLine = rawText.split('\n').find((line) => line.trim())?.trim() ?? '';
   const titleAlreadyInText = firstLine.replace(/\s+/g, ' ').trim() === title;
   const header = `🎓 لید آموزشی | ${label}`;

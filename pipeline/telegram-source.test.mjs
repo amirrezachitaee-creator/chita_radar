@@ -164,31 +164,48 @@ test('channel products, app-store links and referrals are promotions', () => {
   );
   assert.equal(
     classifyLead('https://example.com/shop', 'کد تخفیف دوره را بزنید'),
-    'education'
+    'off_topic_education'
   );
   assert.equal(classifyLead('https://example.com/news', 'خبر تازه مدل زبانی'), 'news');
 });
 
 test('only official academy courses are news-eligible', () => {
   assert.equal(
-    classifyLead('https://www.anthropic.com/learn/claude', 'دوره رسمی کلود منتشر شد'),
+    classifyLead('https://www.anthropic.com/learn/claude', 'دوره رسمی کلود منتشر شد', {
+      aiRelevant: true,
+    }),
     'official_course'
   );
-  assert.equal(classifyLead('https://openai.com/academy', 'OpenAI Academy'), 'official_course');
+  assert.equal(
+    classifyLead('https://openai.com/academy', 'OpenAI Academy', { aiRelevant: true }),
+    'official_course'
+  );
   assert.equal(
     classifyLead(
       'https://grow.google/healthcare-professionals/',
-      'دوره تخصصی هوش مصنوعی برای کادر درمان'
+      'دوره تخصصی هوش مصنوعی برای کادر درمان',
+      { aiRelevant: true }
     ),
     'official_course'
+  );
+  assert.equal(
+    classifyLead('https://learn.microsoft.com/excel', 'دوره جامع اکسل برای کارمندان'),
+    'off_topic_education'
   );
   assert.equal(isOfficialCourse('https://www.anthropic.com/learn/claude', 'دوره'), true);
   assert.equal(isOfficialCourse('https://example.com/course', 'دوره'), false);
   assert.equal(
     classifyLead('https://example.com/course', 'دوره آموزش هوش مصنوعی'),
+    'off_topic_education'
+  );
+  assert.equal(
+    classifyLead('https://example.com/course', 'دوره آموزش هوش مصنوعی', { aiCentral: true }),
     'education'
   );
-  assert.equal(classifyLead('https://example.com/course', 'دوره رسمی کلود'), 'education');
+  assert.equal(
+    classifyLead('https://example.com/course', 'دوره رسمی کلود', { aiCentral: true }),
+    'education'
+  );
   assert.equal(
     classifyLead('https://example.com/machine-learning-news', 'machine learning model'),
     'news'
@@ -351,11 +368,22 @@ test('education digest keeps one link per lead and stays private', () => {
     title: `دوره ${index}`,
     canonical: `https://example.com/course-${index}`,
   }));
-  assert.equal(educationDigestLeads(many).length, 7);
+  assert.equal(educationDigestLeads(many, { max: 100 }).length, 7);
+  assert.equal(educationDigestLeads(many).length, 5);
   const fullDigest = buildEducationDigest({ leads: many });
-  assert.equal(fullDigest.match(/^برچسب:/gm).length, 7);
+  assert.equal(fullDigest.match(/^برچسب:/gm).length, 5);
   assert.equal(fullDigest.includes('لید آموزشی دیگر'), false);
-  assert.ok(fullDigest.includes('https://example.com/course-6'));
+  assert.equal(fullDigest.includes('https://example.com/course-6'), false);
+
+  const ranked = educationDigestLeads([
+    { title: 'دوره تازه', canonical: 'https://example.com/new', published: '2026-11-05T10:00:00Z' },
+    {
+      title: 'دوره هوش مصنوعی',
+      canonical: 'https://example.com/ai',
+      published: '2026-11-01T10:00:00Z',
+    },
+  ]);
+  assert.equal(ranked[0].canonical, 'https://example.com/ai');
 });
 
 test('education labels separate a tutorial from a course sale', () => {
@@ -397,17 +425,35 @@ test('an education message carries the original text and both links', () => {
   assert.ok(message.includes('در این ویدئو یاد می‌دم'));
   assert.ok(message.includes('https://t.me/testchannel/5'));
   assert.ok(message.includes('https://youtu.be/x'));
-  const long = buildEducationMessages({
-    title: 'آموزش بلند',
-    messageText: 'خط\n'.repeat(2000),
-    link: 'https://youtu.be/x',
-  });
+  const long = buildEducationMessages(
+    {
+      title: 'آموزش بلند',
+      messageText: 'خط\n'.repeat(2000),
+      link: 'https://youtu.be/x',
+    },
+    { maxTextChars: 100000 }
+  );
   assert.ok(long.length > 1);
   assert.ok(long.every((part) => part.length < 4096));
   assert.ok(long.at(-1).includes('https://youtu.be/x'));
   assert.ok(long.join('\n').includes('🎓 لید آموزشی | ادامه'));
   assert.equal((long.join('\n').match(/^خط$/gm) || []).length, 2000);
   assert.equal(long.join('\n').includes(' …'), false);
+
+  const [capped] = buildEducationMessages(
+    { title: 'آموزش بلند', messageText: 'جمله '.repeat(500) },
+    { maxTextChars: 1200 }
+  );
+  assert.ok(capped.includes(' …'));
+
+  const [cleaned] = buildEducationMessages({
+    title: 'آموزش پاک‌سازی',
+    messageText: 'خط اول\nhttps://example.com/promo\nخط دوم',
+    link: 'https://example.com/main',
+  });
+  assert.equal(cleaned.includes('https://example.com/promo'), false);
+  assert.ok(cleaned.includes('https://example.com/main'));
+
   assert.equal(selectAnyLink({ preview: null, links: ['https://youtu.be/x'] }), 'https://youtu.be/x');
   assert.equal(selectAnyLink({ preview: null, links: [] }), '');
 });
@@ -459,7 +505,8 @@ test('a tutorial with only a YouTube link still reaches the private lane', async
   const eduPage = block({
     id: 202,
     datetime: '2026-11-03T10:00:00+00:00',
-    text: '🎬 آموزش اجرای هرمس روی سرور رایگان<br/><a href="https://youtu.be/d9n6cRNhFSc">یوتیوب</a>',
+    text:
+      '🎬 آموزش اجرای عامل هوش مصنوعی هرمس روی سرور رایگان<br/><a href="https://youtu.be/d9n6cRNhFSc">یوتیوب</a>',
   });
   const result = await collectCandidates({
     sources: [
@@ -495,7 +542,7 @@ test('a linkless education post falls back to its channel permalink', async () =
   const eduPage = block({
     id: 203,
     datetime: '2026-11-03T10:00:00+00:00',
-    text: 'آموزش کوتاه: قبل از هر آپدیت از مدل بکاپ بگیرید.',
+    text: 'آموزش کوتاه: قبل از هر آپدیت از مدل هوش مصنوعی بکاپ بگیرید.',
   });
   const result = await collectCandidates({
     sources: [
@@ -520,12 +567,80 @@ test('a linkless education post falls back to its channel permalink', async () =
   assert.equal(result.stats.telegram.noLink, 0);
 });
 
+test('education without AI relevance never reaches the private lane', async () => {
+  const state = emptyState();
+  const eduPage = block({
+    id: 205,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'دوره رایگان مدیریت زمان و بهره‌وری <a href="https://example.com/time">ثبت‌نام</a>',
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-edu-offtopic',
+        name: 'Off-topic education',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        focus: 'education',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(eduPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 0);
+  assert.equal(result.stats.telegram.nonAiEducation, 1);
+  assert.equal(result.stats.telegram.leads, 0);
+  assert.equal(state.telegram.testchannel.last_id, 205);
+});
+
+test('an advertisement inside an AI education post is stripped', async () => {
+  const state = emptyState();
+  const eduPage = block({
+    id: 206,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'دوره هوش مصنوعی برای مبتدی‌ها<br/>تبلیغات: فلان سرویس ویژه<br/><a href="https://example.com/course">ثبت‌نام</a>',
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-edu-ad',
+        name: 'AI education with an ad',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        focus: 'education',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(eduPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.educationHint, true);
+  assert.equal(lead.aiCentral, true);
+  assert.ok(lead.messageText.includes('دوره هوش مصنوعی'));
+  assert.equal(lead.messageText.includes('تبلیغات'), false);
+  assert.equal(lead.messageText.includes('سرویس ویژه'), false);
+});
+
 test('a channel mention link does not replace the education post permalink', async () => {
   const state = emptyState();
   const eduPage = block({
     id: 204,
     datetime: '2026-11-03T10:00:00+00:00',
-    text: 'آموزش فعال‌سازی VPN فایرفاکس <a href="https://t.me/testchannel">کانال</a>',
+    text:
+      'آموزش فعال‌سازی دستیار هوش مصنوعی در فایرفاکس <a href="https://t.me/testchannel">کانال</a>',
   });
   const result = await collectCandidates({
     sources: [
@@ -579,6 +694,175 @@ test('collector drops channel product ads before they reach news', async () => {
   assert.equal(result.stats.telegram.promoted, 1);
   assert.equal(result.stats.telegram.leads, 0);
   assert.equal(state.telegram.testchannel.last_id, 301);
+});
+
+test('collector keeps an AI tool from Telegram for the main lane', async () => {
+  const state = emptyState();
+  const toolPage = block({
+    id: 401,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'ابزار جدید هوش مصنوعی برای ساخت ویدیو <a href="https://example.com/tool">تست</a>',
+    preview: { url: 'https://example.com/tool', title: 'AI video tool' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-tool',
+        name: 'Tool channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(toolPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.leadKind, 'tool_lead');
+  assert.equal(lead.toolHint, true);
+  assert.equal(lead.offerHint, false);
+  assert.equal(lead.educationHint, false);
+  assert.equal(lead.needsReview, false);
+  assert.equal(lead.categoryHint, 'tools');
+  assert.equal(result.stats.telegram.promoted, 0);
+});
+
+test('collector keeps a Telegram free offer instead of calling it promotion', async () => {
+  const state = emptyState();
+  const offerPage = block({
+    id: 402,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'اعتبار رایگان OpenAI برای ساخت اپلیکیشن <a href="https://platform.openai.com/apps">دریافت</a>',
+    preview: { url: 'https://platform.openai.com/apps', title: 'OpenAI free credits' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-offer',
+        name: 'Offer channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(offerPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.leadKind, 'free_offer');
+  assert.equal(lead.offerHint, true);
+  assert.equal(lead.educationHint, false);
+  assert.equal(result.stats.telegram.promoted, 0);
+});
+
+test('an AI referral link goes to review instead of being dropped', async () => {
+  const state = emptyState();
+  const referralPage = block({
+    id: 403,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'سرویس هوش مصنوعی زدکد رایگان با لینک دعوت <a href="https://zcode.z.ai/invite/ABC">لینک</a>',
+    preview: { url: 'https://zcode.z.ai/invite/ABC', title: 'ZCode free access' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-referral',
+        name: 'Referral channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(referralPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.leadKind, 'free_offer');
+  assert.equal(lead.referral, true);
+  assert.equal(lead.needsReview, true);
+  assert.equal(lead.reviewReason, 'referral_link');
+  assert.equal(result.stats.telegram.promoted, 0);
+});
+
+test('a referral query on an AI tool lead routes to review, not the main lane', async () => {
+  const state = emptyState();
+  const partnerPage = block({
+    id: 405,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'عامل کدنویسی هوش مصنوعی تازه <a href="https://github.com/example/agent?partner=acme">repo</a>',
+    preview: { url: 'https://github.com/example/agent?partner=acme', title: 'AI coding agent' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-partner',
+        name: 'Partner channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(partnerPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.leadKind, 'tool_lead');
+  assert.equal(lead.referral, true);
+  assert.equal(lead.needsReview, true);
+  assert.equal(result.stats.telegram.promoted, 0);
+});
+
+test('an AI app-store ad is still a promotion, not a tool', async () => {
+  const state = emptyState();
+  const storePage = block({
+    id: 404,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'اپلیکیشن هوش مصنوعی ما در کافه‌بازار <a href="https://cafebazaar.ir/app/com.ai.app">نصب</a>',
+    preview: { url: 'https://cafebazaar.ir/app/com.ai.app', title: 'AI app' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-store',
+        name: 'Store channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(storePage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 0);
+  assert.equal(result.stats.telegram.promoted, 1);
 });
 
 test('collector keeps an official academy course as a news lead', async () => {

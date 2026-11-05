@@ -1,12 +1,14 @@
 {
   "version": 1,
-  "verified_on": "2026-11-01",
-  "notes": "نشانی‌ها برای شروع کار ثبت شده‌اند؛ نوع فید هر منبع پیش از اتصال کرالر یک‌بار تست می‌شود.",
+  "verified_on": "2026-11-04",
+  "notes": "هر منبع فید یک نشانی تست‌شده و تاریخ تأیید دارد؛ منابع بدون فید عمومی به لید یا رابط منتقل شده‌اند.",
   "sources": [
     {
       "id": "openai-news",
       "name": "OpenAI News",
       "url": "https://openai.com/news/",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "verified_at": "2026-11-04",
       "categories": [
         "models",
         "tools"
@@ -23,7 +25,8 @@
         "tools"
       ],
       "type": "official_blog",
-      "use": "feed"
+      "use": "lead_only",
+      "no_feed_reason": "no public RSS/Atom feed found on 2026-11-04"
     },
     {
       "id": "google-ai-blog",
@@ -47,7 +50,8 @@
         "tools"
       ],
       "type": "official_blog",
-      "use": "feed"
+      "use": "lead_only",
+      "no_feed_reason": "no public RSS/Atom feed found on 2026-11-04"
     },
     {
       "id": "huggingface-blog",
@@ -124,16 +128,20 @@
       "id": "hf-papers",
       "name": "Hugging Face Daily Papers",
       "url": "https://huggingface.co/papers",
+      "api_url": "https://huggingface.co/api/daily_papers",
       "categories": [
         "models"
       ],
       "type": "research_index",
-      "use": "feed"
+      "use": "api",
+      "no_feed_reason": "RSS returns 401; JSON API returns 200 on 2026-11-04"
     },
     {
       "id": "product-hunt",
       "name": "Product Hunt",
       "url": "https://www.producthunt.com/",
+      "feed_url": "https://www.producthunt.com/feed",
+      "verified_at": "2026-11-04",
       "categories": [
         "tools"
       ],
@@ -206,6 +214,8 @@
       "id": "simon-willison-prompt-injection",
       "name": "Simon Willison - Prompt Injection",
       "url": "https://simonwillison.net/tags/prompt-injection/",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "verified_at": "2026-11-04",
       "categories": [
         "security"
       ],
@@ -226,6 +236,8 @@
       "id": "project-zero",
       "name": "Google Project Zero",
       "url": "https://googleprojectzero.blogspot.com/",
+      "feed_url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
+      "verified_at": "2026-11-04",
       "categories": [
         "security"
       ],
@@ -240,7 +252,8 @@
         "security"
       ],
       "type": "security_blog",
-      "use": "feed"
+      "use": "lead_only",
+      "no_feed_reason": "feed returns one stale 2022 item; blog page has no feed link on 2026-11-04"
     },
     {
       "id": "reuters-tech",
@@ -250,13 +263,15 @@
         "business"
       ],
       "type": "news",
-      "use": "feed"
+      "use": "lead_only",
+      "no_feed_reason": "feed endpoints return 401/404 on 2026-11-04"
     },
     {
       "id": "techcrunch",
       "name": "TechCrunch",
       "url": "https://techcrunch.com/",
       "feed_url": "https://techcrunch.com/feed/",
+      "verified_at": "2026-11-04",
       "categories": [
         "business",
         "tools",
@@ -308,6 +323,8 @@
       "id": "crunchbase-news",
       "name": "Crunchbase News",
       "url": "https://news.crunchbase.com/",
+      "feed_url": "https://news.crunchbase.com/feed/",
+      "verified_at": "2026-11-04",
       "categories": [
         "business"
       ],
@@ -318,6 +335,8 @@
       "id": "import-ai",
       "name": "Import AI",
       "url": "https://importai.substack.com/",
+      "feed_url": "https://importai.substack.com/feed",
+      "verified_at": "2026-11-04",
       "categories": [
         "business",
         "models"
@@ -334,7 +353,8 @@
         "models"
       ],
       "type": "newsletter",
-      "use": "feed"
+      "use": "lead_only",
+      "no_feed_reason": "no public RSS/Atom feed found on 2026-11-04"
     },
     {
       "id": "the-information",
@@ -450,6 +470,7 @@
       "id": "google-news-rss",
       "name": "Google News RSS",
       "url": "https://news.google.com/",
+      "verified_at": "2026-11-04",
       "categories": [
         "tools",
         "models",
@@ -457,8 +478,9 @@
         "business"
       ],
       "type": "aggregator",
-      "use": "feed",
-      "status": "proposed"
+      "use": "reference",
+      "status": "verified",
+      "no_feed_reason": "Google News RSS links are redirects with no extractable article text."
     },
     {
       "id": "gdelt",
@@ -478,24 +500,28 @@
       "id": "arxiv",
       "name": "arXiv",
       "url": "https://arxiv.org/",
+      "feed_url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=20",
+      "verified_at": "2026-11-04",
       "categories": [
         "models"
       ],
       "type": "research_index",
       "use": "feed",
-      "status": "proposed"
+      "status": "verified"
     },
     {
       "id": "the-record",
       "name": "The Record",
       "url": "https://therecord.media/",
+      "feed_url": "https://therecord.media/feed/",
+      "verified_at": "2026-11-04",
       "categories": [
         "security",
         "business"
       ],
       "type": "news",
       "use": "feed",
-      "status": "proposed"
+      "status": "verified"
     },
     {
       "id": "bleepingcomputer",
@@ -505,31 +531,36 @@
         "security"
       ],
       "type": "news",
-      "use": "feed",
-      "status": "proposed"
+      "use": "lead_only",
+      "status": "proposed",
+      "no_feed_reason": "feed returns 403 behind Cloudflare on 2026-11-04"
     },
     {
       "id": "krebs",
       "name": "Krebs on Security",
       "url": "https://krebsonsecurity.com/",
+      "feed_url": "https://krebsonsecurity.com/feed/",
+      "verified_at": "2026-11-04",
       "categories": [
         "security"
       ],
       "type": "security_blog",
       "use": "feed",
-      "status": "proposed"
+      "status": "verified"
     },
     {
       "id": "trm-labs",
       "name": "TRM Labs",
       "url": "https://www.trmlabs.com/",
+      "feed_url": "https://www.trmlabs.com/blog/rss.xml",
+      "verified_at": "2026-11-04",
       "categories": [
         "security",
         "business"
       ],
       "type": "security_blog",
       "use": "feed",
-      "status": "proposed"
+      "status": "verified"
     },
     {
       "id": "wsj",

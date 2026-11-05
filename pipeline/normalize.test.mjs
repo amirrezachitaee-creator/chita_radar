@@ -1,6 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { canonicalUrl, contentHash, freshness, windowFor, evaluateItem } from './normalize.mjs';
+import {
+  canonicalUrl,
+  contentHash,
+  earliestDate,
+  freshness,
+  windowFor,
+  evaluateItem,
+} from './normalize.mjs';
 
 const NOW = '2026-11-02T12:00:00Z';
 
@@ -27,6 +34,18 @@ test('security window is 72 hours', () => {
 test('education window is 72 hours', () => {
   assert.equal(freshness('2026-10-30T13:00:00Z', NOW, { maxAgeHours: windowFor('education') }).ok, true);
   assert.equal(freshness('2026-10-30T11:00:00Z', NOW, { maxAgeHours: windowFor('education') }).reason, 'stale');
+});
+
+test('the earliest valid date wins so an updated page cannot look fresh', () => {
+  assert.equal(
+    earliestDate('2026-10-20T00:00:00Z', '2026-11-05T00:00:00Z'),
+    '2026-10-20T00:00:00.000Z'
+  );
+  assert.equal(
+    earliestDate('', 'bad-date', '2026-11-02T10:00:00Z'),
+    '2026-11-02T10:00:00.000Z'
+  );
+  assert.equal(earliestDate('', null, undefined), '');
 });
 
 test('missing date is rejected', () => {

@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { contentHash, freshness, windowFor } from './normalize.mjs';
+import { contentHash, earliestDate, freshness, windowFor } from './normalize.mjs';
 import {
   loadEnv,
   makeRedactor,
@@ -20,8 +20,9 @@ import {
   MAIN_CATEGORIES,
 } from './engine.mjs';
 import { collectCandidates } from './collect.mjs';
+import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } from './diversity.mjs';
 import { buildEducationDigest, buildEducationMessages, educationDigestLeads, matchesPublishedStory } from './telegram-source.mjs';
-import { assessOffer, detectOffer, offerUsage, reviewText } from './offers.mjs';
+import { assessOffer, detectOffer, offerUsage, offerReviewUsage, recordOfferReview, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
   loadState,
   saveState,
@@ -31,11 +32,14 @@ import {
   dateKey,
   weekKey,
   isSlotSettled,
+  inQuietHours,
   markSeen,
   markSlot,
   findSeen,
   quotaSnapshot,
   recordPublished,
+  recordEducationReview,
+  educationReviewUsage,
   pruneState,
   deferCandidate,
   deferredId,
@@ -64,8 +68,7 @@ const SEND = flag('--send');
 const REVIEW_SEND = flag('--review-send');
 const FORCE = flag('--force');
 const NO_TELEGRAM = flag('--no-telegram');
-const MAX_CANDIDATES = Number(option('--max-candidates', '4'));
-const MAX_DEFERRED_PER_RUN = Number(option('--max-deferred', '1'));
+const MAX_CANDIDATES_ARG = option('--max-candidates', '');
 const PER_SOURCE = Number(option('--per-source', '12'));
 const MIN_CONTENT = Number(option('--min-content', '300'));
 // Keep the early window small so a delayed run cannot take the next slot early.
@@ -99,6 +102,10 @@ if (!env.AMD_API_KEY) {
 }
 
 const config = JSON.parse(await readFile(resolve(ROOT, 'pipeline/config.json'), 'utf8'));
+const MAX_CANDIDATES = Math.max(
+  1,
+  Number(MAX_CANDIDATES_ARG || config.diversity?.max_candidates || 6)
+);
 const registry = JSON.parse(await readFile(resolve(ROOT, SOURCES_FILE), 'utf8'));
 const system = await readFile(resolve(ROOT, 'bench/system-prompt.md'), 'utf8');
 const base = option('--base', env.AMD_BASE_URL || 'https://developer.amd.com.cn/radeon/api/v1').replace(/\/$/, '');
@@ -230,6 +237,17 @@ const importanceOf = (body) => {
 async function main() {
   const slot = activeSlot();
   const state = await loadState(STATE_PATH);
+  const memoryLanes = await loadMemoryLanes();
+  const quiet = !REVIEW_SEND && inQuietHours(NOW, config.schedule.quiet_hours);
+  const reviewEnabled = config.offers?.review?.enabled !== false;
+  const reviewPrune = {
+    reviewPendingHours: config.offers?.review?.pending_ttl_hours,
+    reviewPendingCap: config.offers?.review?.max_pending,
+  };
+  const reviewStates = [state, ...memoryLanes.map(({ state: laneState }) => laneState)];
+  let reviewUsage = offerReviewUsage(reviewStates, NOW);
+  const attempts = [];
+  let reviews = 0;
   const previousWhy = [...(state.published ?? [])].reverse().find((entry) => entry.why)?.why ?? '';
   const week = weekKey(slot.date);
   const quota = quotaSnapshot(config, state, week);
@@ -247,6 +265,7 @@ async function main() {
 
   console.log(`SLOT ${slot.key} | WEEK ${week} | MODE ${RUN_MODE.toUpperCase()}`);
   console.log(`QUOTA ${MAIN_CATEGORIES.map((category) => `${category} ${quota[category].used}/${quota[category].quota}`).join(' | ')}`);
+  console.log(`DIVERSITY_TARGET ${slotTarget(config, slot.date, slot.slot) || 'any'} | slot ${slot.slot}`);
   if (deferredEntries.length) {
     console.log(`DEFERRED_POOL ${deferredEntries.length}`);
     for (const entry of deferredEntries.slice(0, 5)) {
@@ -255,6 +274,199 @@ async function main() {
   }
   const exhaustedDeferred = allDeferred.filter((entry) => Number(entry.attempts ?? 0) >= MAX_DEFER_ATTEMPTS).length;
   if (exhaustedDeferred) console.log(`DEFERRED_EXHAUSTED ${exhaustedDeferred}`);
+
+  function reviewPayload({
+    candidate,
+    article,
+    assessment,
+    reason,
+    kind,
+    mainEligible = false,
+    post = null,
+    text = '',
+    note = '',
+  }) {
+    const effectiveReason = reason || assessment?.reason || 'review';
+    const resolvedKind =
+      kind || (assessment?.expiry ? 'offer' : candidate?.toolHint ? 'tool' : 'post');
+    const url = article?.url || candidate?.canonical || candidate?.link || '';
+    const title = article?.title || candidate?.title || '';
+    const payload = {
+      id: `${dateKey(NOW)}|${candidate?.sourceId || candidate?.leadSource || 'unknown'}|${url || title}`,
+      source: candidate?.sourceId || candidate?.leadSource || '',
+      sourceName: candidate?.sourceName || '',
+      title,
+      url,
+      reason: effectiveReason,
+      kind: resolvedKind,
+      mainEligible: Boolean(mainEligible),
+      slot: slot.key,
+      at: NOW,
+      publishedAt: article?.published || candidate?.published || '',
+      keys: candidate?.keys ?? [],
+      leadPostUrl: candidate?.leadPostUrl ?? '',
+      messageText: candidate?.messageText ?? '',
+      expiry: assessment?.expiry ?? null,
+      text: '',
+    };
+    payload.text = reviewText({
+      article,
+      candidate,
+      assessment: { ...(assessment ?? {}), reason: effectiveReason },
+      offer: resolvedKind === 'offer' ? { isOffer: true } : null,
+      kind: resolvedKind,
+      mainEligible,
+      note,
+      post,
+      text,
+    });
+    return payload;
+  }
+
+  async function writeReviewFiles(payload) {
+    const slug = contentHash(payload.url || payload.title).slice(0, 8);
+    const dir = resolve(REVIEW_ROOT, slot.date, `${slot.slot.replace(':', '-')}-${slug}`);
+    await mkdir(dir, { recursive: true });
+    await writeFile(resolve(dir, 'review.json'), JSON.stringify({
+      slot: slot.key,
+      mode: RUN_MODE,
+      kind: payload.kind,
+      reason: payload.reason,
+      main_eligible: payload.mainEligible,
+      source: { id: payload.source, name: payload.sourceName, url: payload.url },
+      title: payload.title,
+      published_at: payload.publishedAt,
+      expiry: payload.expiry,
+      note: 'این مورد به کانال اصلی منتشر نشده و فقط برای بازبینی ثبت شده است.',
+      createdAt: NOW,
+    }, null, 2));
+    await writeFile(resolve(dir, 'review.txt'), `${payload.text}\n`);
+    return dir;
+  }
+
+  async function sendReviewText(text) {
+    if (!SEND) return { messageId: null, sendError: '' };
+    if (!reviewEnabled) return { messageId: null, sendError: 'REVIEW_DISABLED' };
+    if (!REVIEW_CHAT_ID) return { messageId: null, sendError: 'REVIEW_CREDENTIALS_MISSING' };
+    try {
+      const sent = await sendText(text, { token: env.TELEGRAM_BOT_TOKEN, chatId: REVIEW_CHAT_ID });
+      return { messageId: sent.messageId ?? null, sendError: '' };
+    } catch (error) {
+      return { messageId: null, sendError: redact(String(error?.message ?? error)) };
+    }
+  }
+
+  function markReviewSeen(candidate, decision, reason) {
+    if (!candidate?.keys?.length) return;
+    markSeen(state, candidate.keys, {
+      decision,
+      reason,
+      category: '',
+      slot: slot.key,
+      title: candidate.title,
+      url: candidate.canonical,
+    });
+  }
+
+  async function deliverReview(input) {
+    const payload = reviewPayload(input);
+    const capacity = reviewCapacity({ config, usage: reviewUsage, sourceKey: payload.source });
+    if (!capacity.ok) {
+      enqueueReviewPending(state, payload);
+      markReviewSeen(input.candidate, 'review_pending', `${payload.reason}:${capacity.reason}`);
+      attempts.push({ title: payload.title, result: 'review_queued', reason: payload.reason, cap: capacity.reason });
+      console.log(
+        `  REVIEW_QUEUED reason=${payload.reason} cap=${capacity.reason} pending=${Object.keys(state.reviewPending ?? {}).length}`
+      );
+      await saveState(STATE_PATH, state);
+      return { queued: true, payload };
+    }
+
+    const dir = await writeReviewFiles(payload);
+    const { messageId, sendError } = await sendReviewText(payload.text);
+    if (SEND && !messageId) {
+      enqueueReviewPending(state, {
+        ...payload,
+        attempts: Number(state.reviewPending?.[payload.id]?.attempts ?? 0) + 1,
+      });
+      markReviewSeen(input.candidate, 'review_pending', `${payload.reason}:review_send_failed`);
+      attempts.push({ title: payload.title, result: 'review_queued', reason: payload.reason, detail: sendError });
+      console.log(`  REVIEW_SEND_FAILED ${sendError} | pending kept`);
+      await saveState(STATE_PATH, state);
+      return { queued: true, payload, dir };
+    }
+
+    recordOfferReview(state, {
+      source: payload.source,
+      title: payload.title,
+      url: payload.url,
+      reason: payload.reason,
+      slot: slot.key,
+      at: NOW,
+      mainEligible: payload.mainEligible,
+      kind: payload.kind,
+    });
+    reviewUsage = offerReviewUsage(reviewStates, NOW);
+    markReviewSeen(input.candidate, 'review', payload.reason);
+    reviews += 1;
+    attempts.push({ title: payload.title, result: 'review', reason: payload.reason, dir });
+    console.log(`  REVIEW_REQUIRED reason=${payload.reason}${messageId ? ` sent=${messageId}` : ''}`);
+    console.log(`  REVIEW_DIR ${dir}`);
+    await saveState(STATE_PATH, state);
+    return { queued: false, payload, dir, messageId };
+  }
+
+  async function flushPendingReviews() {
+    const pending = listReviewPending(state, NOW, {
+      ttlHours: config.offers?.review?.pending_ttl_hours,
+    });
+    if (!pending.length) return;
+    console.log(`REVIEW_PENDING pool=${pending.length}`);
+    for (const entry of pending) {
+      const capacity = reviewCapacity({ config, usage: reviewUsage, sourceKey: entry.source });
+      if (!capacity.ok) {
+        console.log(`  REVIEW_PENDING_WAIT ${entry.sourceName || entry.source} | ${capacity.reason}`);
+        continue;
+      }
+      const payload = { ...entry };
+      const dir = await writeReviewFiles(payload);
+      const { messageId, sendError } = await sendReviewText(payload.text);
+      if (SEND && !messageId) {
+        entry.attempts = Number(entry.attempts ?? 0) + 1;
+        state.reviewPending[entry.id] = entry;
+        console.log(`  REVIEW_SEND_FAILED ${sendError} | pending kept`);
+        continue;
+      }
+      recordOfferReview(state, {
+        source: entry.source,
+        title: entry.title,
+        url: entry.url,
+        reason: entry.reason,
+        slot: slot.key,
+        at: NOW,
+        mainEligible: entry.mainEligible,
+        kind: entry.kind,
+      });
+      reviewUsage = offerReviewUsage(reviewStates, NOW);
+      if (entry.keys?.length) {
+        markSeen(state, entry.keys, {
+          decision: 'review',
+          reason: entry.reason,
+          category: '',
+          slot: slot.key,
+          title: entry.title,
+          url: entry.url,
+        });
+      }
+      removeReviewPending(state, entry.id);
+      reviews += 1;
+      attempts.push({ title: entry.title, result: 'review_flushed', reason: entry.reason, dir });
+      console.log(`  REVIEW_FLUSHED reason=${entry.reason}${messageId ? ` sent=${messageId}` : ''}`);
+      await saveState(STATE_PATH, state);
+    }
+  }
+
+  if (reviewEnabled) await flushPendingReviews();
 
   if (isSlotSettled(state, slot.key) && !FORCE) {
     console.log(`SLOT_ALREADY_DONE ${slot.key} status=${state.slots[slot.key].status}`);
@@ -268,8 +480,6 @@ async function main() {
     console.log('NOTHING_WAS_SENT');
     return;
   }
-
-  const memoryLanes = await loadMemoryLanes();
 
   let sources = registry.sources.filter((source) => {
     if (source.type === 'telegram_channel') {
@@ -307,7 +517,7 @@ async function main() {
   const tg = stats.telegram;
   if (tg.channels > 0) {
     console.log(
-      `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate} dup_other=${tg.crossLane}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
+      `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} nonai=${tg.nonAiEducation} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate} dup_other=${tg.crossLane}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
     );
   }
   await saveState(STATE_PATH, state);
@@ -410,70 +620,121 @@ async function main() {
     }
   }
   if (SEND && memoryChanged) await saveState(STATE_PATH, state);
-  if (educationLeads.length) {
-    console.log(`TELEGRAM_EDU_LEADS ${educationLeads.length} private_only=yes`);
-    for (const candidate of educationLeads) {
-      console.log(`  EDU_LEAD ${candidate.leadSource} | ${candidate.leadKind} | ${candidate.title}`);
-    }
-    const digestLeads = educationDigestLeads(educationLeads);
-    const digest = buildEducationDigest({
-      leads: educationLeads,
-      date: slot.date,
-      slot: slot.slot,
-    });
-    const digestDir = resolve(REVIEW_ROOT, slot.date, `${slot.slot.replace(':', '-')}-education`);
-    await mkdir(digestDir, { recursive: true });
-    const digestPath = resolve(digestDir, 'education.txt');
-    await writeFile(digestPath, `${digest}\n`);
 
-    const sentIds = [];
-    let digestError = '';
-    let sentCount = 0;
-    if (SEND && config.telegram_discovery?.education_review !== false && REVIEW_CHAT_ID) {
-      let sentAnything = false;
-      for (const candidate of digestLeads) {
-        const messages = buildEducationMessages(candidate);
-        let leadSent = 0;
-        for (const message of messages) {
-          if (sentAnything) {
-            await new Promise((resolveDelay) => setTimeout(resolveDelay, 1200));
-          }
-          try {
-            const sent = await sendText(message, {
-              token: env.TELEGRAM_BOT_TOKEN,
-              chatId: REVIEW_CHAT_ID,
-            });
-            if (sent.messageId) sentIds.push(sent.messageId);
-            sentCount += 1;
-            sentAnything = true;
-            leadSent += 1;
-          } catch (error) {
-            digestError = String(error?.message ?? error);
-            break;
-          }
-        }
-        if (leadSent === messages.length && candidate.keys?.length) {
-          markSeen(state, candidate.keys, {
-            decision: 'education_review',
-            reason: 'education_private',
-            category: '',
-            slot: slot.key,
-            title: candidate.title,
-            url: candidate.canonical,
-          });
-        }
-        if (/TELEGRAM_(401|403)/.test(digestError)) break;
-      }
-      if (sentCount) await saveState(STATE_PATH, state);
-    } else if (SEND && config.telegram_discovery?.education_review === false) {
-      console.log('  EDU_REVIEW_DISABLED');
-    } else if (SEND) {
-      console.log('  EDU_REVIEW_CREDENTIALS_MISSING');
+  const reviewLeads = mainCandidates.filter((candidate) => candidate.needsReview);
+  mainCandidates = mainCandidates.filter((candidate) => !candidate.needsReview);
+  if (reviewLeads.length) {
+    console.log(`TELEGRAM_REFERRAL_REVIEWS ${reviewLeads.length} separate_from_main=yes`);
+    for (const candidate of reviewLeads) {
+      const kind = candidate.offerHint ? 'offer' : candidate.toolHint ? 'tool' : 'post';
+      await deliverReview({
+        candidate,
+        article: null,
+        assessment: { reason: 'referral_link' },
+        reason: 'referral_link',
+        kind,
+        text: candidate.messageText,
+        note: 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.',
+      });
+    }
+  }
+
+  if (educationLeads.length) {
+    const educationCap = Number(config.education_review?.max_per_day ?? 5);
+    const educationSourceCap = Number(config.education_review?.max_per_source_per_day ?? 1);
+    const usage = educationReviewUsage(state, NOW);
+    const rankedLeads = educationDigestLeads(educationLeads, {
+      max: Math.max(educationCap * 4, 20),
+    });
+    const remaining = Math.max(0, educationCap - usage.total);
+    const sourceCounts = new Map(Object.entries(usage.bySource ?? {}));
+    const selectedLeads = [];
+    for (const candidate of rankedLeads) {
+      if (selectedLeads.length >= remaining) break;
+      const source = candidate.sourceId || candidate.leadSource || '';
+      if (source && (sourceCounts.get(source) ?? 0) >= educationSourceCap) continue;
+      selectedLeads.push(candidate);
+      if (source) sourceCounts.set(source, (sourceCounts.get(source) ?? 0) + 1);
     }
     console.log(
-      `  EDU_REVIEW sent=${sentCount}${sentIds.length ? ` ids=${sentIds.join(',')}` : ''}${sentCount ? '' : ` mode=${RUN_MODE}`} file=${digestPath}`
+      `TELEGRAM_EDU_LEADS ${educationLeads.length} selected=${selectedLeads.length} cap=${educationCap} used=${usage.total} private_only=yes`
     );
-    if (digestError) console.log(`  EDU_REVIEW_SEND_FAILED ${redact(digestError)}`);
+    for (const candidate of selectedLeads) {
+      console.log(`  EDU_LEAD ${candidate.leadSource} | ${candidate.leadKind} | ${candidate.title}`);
+    }
+    if (selectedLeads.length === 0) {
+      console.log('  EDU_REVIEW_SKIPPED cap_or_no_ai');
+    } else {
+      const digest = buildEducationDigest({
+        leads: selectedLeads,
+        date: slot.date,
+        slot: slot.slot,
+      });
+      const digestDir = resolve(REVIEW_ROOT, slot.date, `${slot.slot.replace(':', '-')}-education`);
+      await mkdir(digestDir, { recursive: true });
+      const digestPath = resolve(digestDir, 'education.txt');
+      await writeFile(digestPath, `${digest}\n`);
+
+      const sentIds = [];
+      let digestError = '';
+      let sentCount = 0;
+      if (SEND && config.telegram_discovery?.education_review !== false && REVIEW_CHAT_ID) {
+        let sentAnything = false;
+        for (const candidate of selectedLeads) {
+          const messages = buildEducationMessages(candidate, {
+            maxTextChars: config.education_review?.max_text_chars,
+          });
+          let leadSent = 0;
+          for (const message of messages) {
+            if (sentAnything) {
+              await new Promise((resolveDelay) => setTimeout(resolveDelay, 1200));
+            }
+            try {
+              const sent = await sendText(message, {
+                token: env.TELEGRAM_BOT_TOKEN,
+                chatId: REVIEW_CHAT_ID,
+              });
+              if (sent.messageId) sentIds.push(sent.messageId);
+              sentCount += 1;
+              sentAnything = true;
+              leadSent += 1;
+            } catch (error) {
+              digestError = String(error?.message ?? error);
+              break;
+            }
+          }
+          if (leadSent === messages.length) {
+            if (candidate.keys?.length) {
+              markSeen(state, candidate.keys, {
+                decision: 'education_review',
+                reason: 'education_private',
+                category: '',
+                slot: slot.key,
+                title: candidate.title,
+                url: candidate.canonical,
+              });
+            }
+            recordEducationReview(state, {
+              source: candidate.sourceId || candidate.leadSource || '',
+              title: candidate.title,
+              url: candidate.canonical,
+              slot: slot.key,
+              at: NOW,
+            });
+          }
+          if (/TELEGRAM_(401|403)/.test(digestError)) break;
+        }
+        if (sentCount) await saveState(STATE_PATH, state);
+      } else if (SEND && config.telegram_discovery?.education_review === false) {
+        console.log('  EDU_REVIEW_DISABLED');
+      } else if (SEND) {
+        console.log('  EDU_REVIEW_CREDENTIALS_MISSING');
+      }
+      console.log(
+        `  EDU_REVIEW sent=${sentCount}${sentIds.length ? ` ids=${sentIds.join(',')}` : ''}${sentCount ? '' : ` mode=${RUN_MODE}`} file=${digestPath}`
+      );
+      if (digestError) console.log(`  EDU_REVIEW_SEND_FAILED ${redact(digestError)}`);
+    }
   }
   const courseLeads = mainCandidates.filter((candidate) => candidate.officialCourse);
   if (courseLeads.length) {
@@ -486,7 +747,13 @@ async function main() {
   if (mainCandidates.length === 0 && deferredCandidates.length === 0) {
     const memorySkipped =
       educationDuplicates.length + mainStoryDuplicates.length + deferredStoryDuplicates.length;
-    const reason = memorySkipped ? 'story_duplicate' : educationHinted.length ? 'education_only' : 'no_candidates';
+    const reason = memorySkipped
+      ? 'story_duplicate'
+      : reviewLeads.length
+        ? 'review_only'
+        : educationHinted.length
+          ? 'education_only'
+          : 'no_candidates';
     markSlot(state, slot.key, { status: 'empty', reason });
     await saveState(STATE_PATH, state);
     console.log(`RESULT EMPTY reason=${reason}`);
@@ -496,6 +763,8 @@ async function main() {
 
   const relevantCandidates = mainCandidates.filter((candidate) =>
     candidate.offerHint ||
+    candidate.toolHint ||
+    candidate.needsReview ||
     candidate.officialCourse ||
     candidate.sourceType === 'official_blog' ||
     AI_ONLY_SOURCES.has(candidate.sourceId) ||
@@ -519,68 +788,39 @@ async function main() {
   }
 
   const freshQueue = relevantCandidates.filter((candidate) => !matchesDeferred(candidate));
-  const deferredSlots = Math.max(
-    Math.max(0, MAX_DEFERRED_PER_RUN),
-    Math.max(0, MAX_CANDIDATES) - freshQueue.length
+  const planned = planSlotQueue({
+    config,
+    state,
+    date: slot.date,
+    slot: slot.slot,
+    week,
+    candidates: [...deferredCandidates, ...freshQueue],
+    maxCandidates: MAX_CANDIDATES,
+  });
+  const queue = planned.queue;
+  const rejectedLabel =
+    Object.entries(planned.rejected)
+      .filter(([, count]) => count > 0)
+      .map(([reason, count]) => `${reason}:${count}`)
+      .join(',') || 'none';
+  console.log(
+    `DIVERSITY target=${planned.target || 'any'} queue=${queue.length} fresh=${freshQueue.length} deferred=${deferredCandidates.length} rejected=${rejectedLabel}`
   );
-  const deferredQueue = deferredCandidates.slice(0, deferredSlots);
-  const queue = [...deferredQueue, ...freshQueue].slice(0, Math.max(0, MAX_CANDIDATES));
-  if (deferredQueue.length) console.log(`DEFERRED_RETRY ${deferredQueue.map((candidate) => candidate.title).join(' | ')}`);
+  if (queue.length) {
+    console.log(`  DIVERSITY_QUEUE ${queue.map((candidate) => `${candidate.categoryHint || '?'}:${candidate.sourceName}`).join(' | ')}`);
+  }
+  if (queue.length === 0) {
+    markSlot(state, slot.key, { status: 'empty', reason: 'diversity_unavailable' });
+    await saveState(STATE_PATH, state);
+    console.log('RESULT EMPTY reason=diversity_unavailable');
+    console.log('NOTHING_WAS_SENT');
+    return;
+  }
 
-  const attempts = [];
   let published = null;
   let totalCost = 0;
   let totalTokens = 0;
-  let reviews = 0;
   let fallbackSpent = false;
-
-  async function routeReview({ candidate, article, assessment, reason }) {
-    const effective = { ...assessment, reason: reason || assessment?.reason };
-    const text = reviewText({ article, candidate, assessment: effective, offer: { isOffer: true } });
-    const slug = contentHash(candidate.canonical).slice(0, 8);
-    const dir = resolve(REVIEW_ROOT, slot.date, `${slot.slot.replace(':', '-')}-${slug}`);
-    await mkdir(dir, { recursive: true });
-    await writeFile(resolve(dir, 'review.json'), JSON.stringify({
-      slot: slot.key,
-      mode: RUN_MODE,
-      reason: effective.reason,
-      source: { id: candidate.sourceId, name: candidate.sourceName, url: article.url },
-      title: article.title || candidate.title,
-      published_at: article.published || candidate.published,
-      expiry: effective.expiry ?? null,
-      note: 'این مورد به کانال اصلی منتشر نشده و فقط برای بازبینی ثبت شده است.',
-      createdAt: NOW,
-    }, null, 2));
-    await writeFile(resolve(dir, 'review.txt'), `${text}\n`);
-
-    let messageId = null;
-    let sendError = '';
-    if (SEND && config.offers?.review?.enabled && REVIEW_CHAT_ID) {
-      try {
-        const sent = await sendText(text, { token: env.TELEGRAM_BOT_TOKEN, chatId: REVIEW_CHAT_ID });
-        messageId = sent.messageId;
-      } catch (error) {
-        sendError = String(error?.message ?? error);
-      }
-    }
-
-    markSeen(state, candidate.keys, {
-      decision: 'review',
-      reason: effective.reason,
-      category: '',
-      slot: slot.key,
-      title: candidate.title,
-      url: candidate.canonical,
-    });
-    reviews += 1;
-    attempts.push({ title: candidate.title, result: 'review', reason: effective.reason, dir });
-    console.log(`  REVIEW_REQUIRED reason=${effective.reason}${messageId ? ` sent=${messageId}` : ''}`);
-    console.log(`  REVIEW_DIR ${dir}`);
-    if (SEND && !REVIEW_CHAT_ID) console.log('  REVIEW_CREDENTIALS_MISSING');
-    if (sendError) console.log(`  REVIEW_SEND_FAILED ${redact(sendError)}`);
-    await saveState(STATE_PATH, state);
-    return dir;
-  }
 
   async function deferOrClose(candidate, reason, detail = '') {
     const entry = deferCandidate(state, candidate, { reason, detail });
@@ -608,6 +848,30 @@ async function main() {
       return next;
     };
 
+    const preOffer = detectOffer({
+      title: candidate.title,
+      content: `${candidate.summary ?? ''} ${candidate.messageText ?? ''}`,
+    });
+    const leftover = String(candidate.messageText ?? '').trim();
+    const protectedLead = Boolean(
+      candidate.offerHint || candidate.toolHint || candidate.officialCourse || preOffer.isOffer
+    );
+
+    if (candidate.needsReview) {
+      const kind = candidate.offerHint || preOffer.isOffer ? 'offer' : candidate.toolHint ? 'tool' : 'post';
+      console.log(`  TELEGRAM_REFERRAL_REVIEW kind=${kind}`);
+      await deliverReview({
+        candidate,
+        article: null,
+        assessment: { reason: 'referral_link' },
+        reason: 'referral_link',
+        kind,
+        text: candidate.messageText,
+        note: 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.',
+      });
+      continue;
+    }
+
     let article;
     try {
       const page = await fetchText(candidate.link, { redact });
@@ -615,11 +879,28 @@ async function main() {
       article.url = page.url || candidate.link;
     } catch (error) {
       console.log(`  FETCH_FAILED ${redact(error?.message)}`);
-      await deferOrClose(candidate, 'fetch_failed', redact(error?.message));
+      if (protectedLead) {
+        const kind = candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
+        await deliverReview({
+          candidate,
+          article: null,
+          assessment: { reason: 'fetch_failed' },
+          reason: 'fetch_failed',
+          kind,
+          text: candidate.messageText,
+          note: `خطای دریافت صفحه اصلی: ${redact(String(error?.message ?? error))}`,
+        });
+      } else {
+        await deferOrClose(candidate, 'fetch_failed', redact(error?.message));
+      }
       continue;
     }
 
-    const publishedAt = article.published || candidate.published;
+    const publishedAt =
+      earliestDate(article.published, article.modified, candidate.published) ||
+      article.published ||
+      candidate.published;
+    article.published = publishedAt;
     const finalizePost = (value) => {
       const policy = applyPolicy(value);
       const fixed = applyMechanicalFixes(policy, {
@@ -639,37 +920,77 @@ async function main() {
       if (gate.reason === 'stale') {
         attempts.push({ title: candidate.title, result: `gate_${gate.reason}` });
         console.log(`  GATE_${gate.reason.toUpperCase()} ${gate.ageHours}h/${gate.maxAgeHours}h`);
+      } else if (protectedLead) {
+        const kind = candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { reason: `gate_${gate.reason}` },
+          reason: `gate_${gate.reason}`,
+          kind,
+          text: leftover,
+        });
       } else {
         await deferOrClose(candidate, `gate_${gate.reason}`, `${gate.ageHours}h/${gate.maxAgeHours}h`);
       }
       continue;
     }
+    if (article.content.length < MIN_CONTENT && leftover.length >= 80) {
+      article.content = `${article.content}\n\n${leftover}`;
+      console.log(`  CONTENT_SUPPLEMENT +${leftover.length} chars telegram`);
+    }
     if (article.content.length < MIN_CONTENT) {
-      await deferOrClose(candidate, 'thin_content', `${article.content.length} chars`);
+      if (candidate.offerHint || candidate.toolHint || preOffer.isOffer) {
+        const kind = candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { reason: 'thin_content' },
+          reason: 'thin_content',
+          kind,
+          text: leftover,
+        });
+      } else {
+        await deferOrClose(candidate, 'thin_content', `${article.content.length} chars`);
+      }
       console.log(`  THIN_CONTENT ${article.content.length} chars`);
       continue;
     }
 
-    const offer = detectOffer({ title: article.title || candidate.title, content: article.content });
+    const offerContent = leftover && !article.content.includes(leftover)
+      ? `${leftover}\n\n${article.content}`
+      : article.content;
+    const offer = detectOffer({ title: article.title || candidate.title, content: offerContent });
     let offerAssessment = null;
     let offerContext = null;
     if (offer.isOffer) {
       offerAssessment = assessOffer({
-        offer: { isOffer: true, title: article.title || candidate.title, content: article.content },
+        offer: { isOffer: true, title: article.title || candidate.title, content: offerContent },
         sourceType: candidate.sourceType,
+        sourceUrl: article.url,
+        sourceKey: candidate.sourceId,
         publishedAt,
         now: NOW,
         config,
         quota,
         usage: offerUsage(state, NOW),
+        reviewUsage,
       });
-      const reviewReasons = config.offers?.review?.reasons ?? [];
-      if (
-        offerAssessment.status === 'review' &&
-        config.offers?.review?.enabled &&
-        reviewReasons.includes(offerAssessment.reason)
-      ) {
-        await routeReview({ candidate, article, assessment: offerAssessment });
+      if (offerAssessment.status === 'review' || offerAssessment.status === 'defer') {
+        await deliverReview({
+          candidate,
+          article,
+          assessment: offerAssessment,
+          reason: offerAssessment.reason,
+          kind: 'offer',
+          note:
+            offerAssessment.status === 'defer'
+              ? `ظرفیت صف بازبینی پر بود (${offerAssessment.cap || offerAssessment.reason})؛ مورد در صف نگه داشته شد.`
+              : '',
+        });
+        console.log(
+          `  OFFER_${offerAssessment.status.toUpperCase()} ${offerAssessment.reason}${offerAssessment.cap ? ` cap=${offerAssessment.cap}` : ''}`
+        );
         continue;
       }
       if (offerAssessment.status !== 'publish') {
@@ -761,7 +1082,19 @@ async function main() {
     totalTokens += tokens;
 
     if (!parsed) {
-      await deferOrClose(candidate, 'invalid_json', `writer=${writer.role} cost=${cost.toFixed(6)}`);
+      if (protectedLead || offerContext) {
+        const kind = offerContext || candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { ...(offerAssessment ?? {}), reason: 'model_failed' },
+          reason: 'model_failed',
+          kind,
+          note: `مدل خروجی JSON معتبر نداد (${writer.role}).`,
+        });
+      } else {
+        await deferOrClose(candidate, 'invalid_json', `writer=${writer.role} cost=${cost.toFixed(6)}`);
+      }
       console.log(`  INVALID_JSON writer=${writer.role} cost $${cost.toFixed(6)}`);
       continue;
     }
@@ -828,26 +1161,51 @@ async function main() {
     }
 
     if (parsed.decision === 'skip') {
-      attempts.push({ title: candidate.title, result: 'model_skip', reason: parsed.reason, cost, tokens });
-      markSeen(state, candidate.keys, {
-        decision: 'skip',
-        reason: parsed.reason_code || '',
-        category: '',
-        slot: slot.key,
-        title: candidate.title,
-        url: candidate.canonical,
-      });
+      if (protectedLead || offerContext) {
+        const kind = offerContext || candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { ...(offerAssessment ?? {}), reason: 'model_skip' },
+          reason: 'model_skip',
+          kind,
+          note: `مدل این مورد را رد کرد: ${String(parsed.reason || parsed.reason_code || '').slice(0, 300)}`,
+        });
+      } else {
+        attempts.push({ title: candidate.title, result: 'model_skip', reason: parsed.reason, cost, tokens });
+        markSeen(state, candidate.keys, {
+          decision: 'skip',
+          reason: parsed.reason_code || '',
+          category: '',
+          slot: slot.key,
+          title: candidate.title,
+          url: candidate.canonical,
+        });
+      }
       console.log(`  MODEL_SKIP ${parsed.reason_code || '-'} | ${String(parsed.reason || '').slice(0, 120)}`);
       continue;
     }
 
     if (!qa.pass) {
       if (offerContext && qa.problems.some((problem) => problem.startsWith('offer_'))) {
-        await routeReview({
+        await deliverReview({
           candidate,
           article,
           assessment: { ...offerAssessment, origin: 'qa_failed' },
           reason: 'offer_qa_failed',
+          kind: 'offer',
+        });
+        console.log(`  QA_FAILED ${qa.problems.join(',')} | score ${qa.score}/${qa.possible}`);
+        continue;
+      }
+      if (candidate.toolHint || candidate.officialCourse) {
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { reason: 'tool_incomplete' },
+          reason: 'tool_incomplete',
+          kind: 'tool',
+          note: `بررسی کیفیت پاس نشد: ${qa.problems.join(',')}`,
         });
         console.log(`  QA_FAILED ${qa.problems.join(',')} | score ${qa.score}/${qa.possible}`);
         continue;
@@ -872,13 +1230,54 @@ async function main() {
 
     const category = parsed.category;
     if (!MAIN_CATEGORIES.includes(category)) {
-      await deferOrClose(candidate, 'bad_category', String(category ?? ''));
+      if (candidate.toolHint || candidate.officialCourse || offerContext) {
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { reason: 'bad_category' },
+          reason: 'bad_category',
+          kind: offerContext ? 'offer' : 'tool',
+          note: `دسته نامعتبر از مدل: ${String(category ?? '')}`,
+        });
+      } else {
+        await deferOrClose(candidate, 'bad_category', String(category ?? ''));
+      }
       console.log(`  BAD_CATEGORY ${category}`);
       continue;
     }
     if (quota[category].remaining <= 0) {
-      await deferOrClose(candidate, 'quota_full', category);
+      if (candidate.toolHint || candidate.officialCourse || offerContext) {
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { reason: 'quota_full' },
+          reason: 'quota_full',
+          kind: offerContext ? 'offer' : 'tool',
+          note: `سهمیه دسته ${category} پر است.`,
+        });
+      } else {
+        await deferOrClose(candidate, 'quota_full', category);
+      }
       console.log(`  QUOTA_FULL ${category}`);
+      continue;
+    }
+
+    const offerPriority = Boolean(offerContext || candidate.offerHint);
+    const categoryCap = Number(config.diversity?.max_per_category_per_day ?? 3);
+    const todayCategoryCount = categoryCountForDate(state, slot.date)[category] ?? 0;
+    if (todayCategoryCount >= categoryCap) {
+      console.log(`  DIVERSITY_CATEGORY_DAILY ${category} ${todayCategoryCount}/${categoryCap}`);
+      await deferOrClose(candidate, 'category_daily_cap', category);
+      continue;
+    }
+    const previous = lastPublishedOnDate(state, slot.date);
+    if (
+      config.diversity?.no_consecutive_category !== false &&
+      !offerPriority &&
+      previous?.category === category
+    ) {
+      console.log(`  DIVERSITY_CATEGORY_CONSECUTIVE ${category}`);
+      await deferOrClose(candidate, 'category_consecutive', category);
       continue;
     }
 
@@ -909,6 +1308,11 @@ async function main() {
       source: { id: candidate.sourceId, name: candidate.sourceName, url: article.url },
       item: { title: article.title, published_at: publishedAt, age_hours: gate.ageHours },
       category,
+      diversity: {
+        target: planned.target,
+        hint: candidate.categoryHint ?? '',
+        source_usage: planned.sourceUsage,
+      },
       offer: offerContext ? {
         detected: true,
         expiry: offerContext.expiry,
@@ -986,11 +1390,48 @@ async function main() {
         imagePath: downloaded ? `image.${downloaded.ext}` : '',
         imageVerdict: downloaded ? '' : downloadError || verdict.reason,
         sourceUrl: article.url,
-        banner: SEND
+        banner: SEND && !quiet
           ? 'خروجی ارسال واقعی — وضعیت در گزارش ثبت شده است'
           : 'اجرای خشک محلی — هیچ چیزی به تلگرام ارسال نشده است',
       })
     );
+
+    if (quiet) {
+      const kind = offerContext ? 'offer' : candidate.toolHint ? 'tool' : 'post';
+      await deliverReview({
+        candidate,
+        article,
+        assessment: offerAssessment ?? { reason: 'quiet_hours' },
+        reason: 'quiet_hours',
+        kind,
+        mainEligible: true,
+        post,
+        note: 'این پست در ساعات آرام آماده شد و به جای انتشار در کانال اصلی، با برچسب واجد شرایط به بازبینی کپی شده است.',
+      });
+      markSlot(state, slot.key, {
+        status: 'review',
+        category,
+        title: post.title,
+        postDir: dir,
+        mode: RUN_MODE,
+        reason: 'quiet_hours',
+      });
+      await saveState(STATE_PATH, state);
+      console.log('  QUIET_HOURS review_copy=yes main_eligible=yes');
+      published = {
+        post,
+        category,
+        dir,
+        status: 'review',
+        messageId: null,
+        cost,
+        tokens,
+        qa,
+        image: Boolean(downloaded),
+        offer: Boolean(offerContext),
+      };
+      break;
+    }
 
     let status = 'ready';
     let messageId = null;
@@ -1005,15 +1446,32 @@ async function main() {
         messageId = sent.messageId;
       } catch (error) {
         status = 'ready';
+        const sendError = String(error?.message ?? error);
         markSlot(state, slot.key, {
           status,
           category,
           title: post.title,
           postDir: dir,
-          error: String(error?.message ?? error),
+          error: sendError,
         });
-        await deferOrClose(candidate, 'send_failed', String(error?.message ?? error));
-        console.log(`SEND_FAILED ${String(error?.message ?? error)}`);
+        if (offerContext || candidate.toolHint || candidate.officialCourse) {
+          try {
+            await deliverReview({
+              candidate,
+              article,
+              assessment: { reason: 'send_failed', expiry: offerAssessment?.expiry },
+              reason: 'send_failed',
+              kind: offerContext ? 'offer' : 'tool',
+              mainEligible: true,
+              post,
+              note: `ارسال به کانال اصلی ناموفق بود (${sendError.slice(0, 160)})؛ پست آماده برای بازبینی نگه داشته شد.`,
+            });
+          } catch (reviewError) {
+            console.log(`REVIEW_PRESERVE_FAILED ${redact(reviewError?.message ?? reviewError)}`);
+          }
+        }
+        await deferOrClose(candidate, 'send_failed', sendError);
+        console.log(`SEND_FAILED ${sendError}`);
         console.log(`OUTBOX ${dir}`);
         console.log('NOTHING_WAS_SENT');
         process.exit(1);
@@ -1043,8 +1501,12 @@ async function main() {
       postKey: `${slot.date}/${slot.slot.replace(':', '-')}`,
       kind: offerContext ? 'offer' : 'news',
       why: importanceOf(parsed.body),
+      sourceId: candidate.sourceId || candidate.leadSource || '',
+      sourceName: candidate.sourceName || candidate.leadSource || '',
+      sourceType: candidate.sourceType || 'telegram_channel',
+      url: article.url,
     });
-    pruneState(state, NOW);
+    pruneState(state, NOW, reviewPrune);
     await saveState(STATE_PATH, state);
 
     published = { post, category, dir, status, messageId, cost, tokens, qa, image: Boolean(downloaded), offer: Boolean(offerContext) };
@@ -1053,17 +1515,24 @@ async function main() {
 
   if (!published) {
     markSlot(state, slot.key, { status: 'empty', reason: 'all_candidates_rejected' });
-    pruneState(state, NOW);
+    pruneState(state, NOW, reviewPrune);
     await saveState(STATE_PATH, state);
     console.log(`RESULT EMPTY attempts=${attempts.length} reviews=${reviews} deferred=${Object.keys(state.deferred ?? {}).length} | cost $${totalCost.toFixed(6)} | tokens ${totalTokens}`);
     console.log('NOTHING_WAS_SENT');
     return;
   }
 
-  console.log(`RESULT ${published.status === 'sent' ? 'SENT' : 'READY'} category=${published.category} | offer=${published.offer ? 'yes' : 'no'} | image=${published.image ? 'yes' : 'no'} | QA ${published.qa.score}/${published.qa.possible} | cost $${totalCost.toFixed(6)} | post $${published.cost.toFixed(6)} | tokens ${totalTokens}`);
+  const resultLabel = published.status === 'sent' ? 'SENT' : published.status === 'review' ? 'REVIEW' : 'READY';
+  console.log(`RESULT ${resultLabel} category=${published.category} | offer=${published.offer ? 'yes' : 'no'} | image=${published.image ? 'yes' : 'no'} | QA ${published.qa.score}/${published.qa.possible} | cost $${totalCost.toFixed(6)} | post $${published.cost.toFixed(6)} | tokens ${totalTokens}`);
   console.log(`TITLE ${published.post.title}`);
   console.log(`OUTBOX ${published.dir}`);
-  console.log(SEND ? (REVIEW_SEND ? 'SENT_TO_REVIEW' : 'SENT_TO_TELEGRAM') : 'DRY_RUN — NOTHING_WAS_SENT');
+  console.log(
+    published.status === 'review'
+      ? 'REVIEW_COPY — NOTHING_SENT_TO_MAIN'
+      : SEND
+        ? (REVIEW_SEND ? 'SENT_TO_REVIEW' : 'SENT_TO_TELEGRAM')
+        : 'DRY_RUN — NOTHING_WAS_SENT'
+  );
 }
 
 await main();

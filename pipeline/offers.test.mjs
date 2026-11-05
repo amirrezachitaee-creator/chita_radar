@@ -7,6 +7,12 @@ import {
   detectOffer,
   extractExpiry,
   offerUsage,
+  offerReviewUsage,
+  recordOfferReview,
+  reviewCapacity,
+  enqueueReviewPending,
+  listReviewPending,
+  removeReviewPending,
   reviewText,
 } from './offers.mjs';
 import { qaPost } from './engine.mjs';
@@ -238,4 +244,143 @@ test('review text names the reason and links the original source', () => {
   assert.match(text, /تاریخ انقضا: روشن نیست/);
   assert.match(text, /https:\/\/example\.com\/a/);
   assert.match(text, /کانال اصلی/);
+});
+
+test('review usage counts every state once and tracks the source channel', () => {
+  const main = { offerReviews: [] };
+  const review = { offerReviews: [] };
+  recordOfferReview(main, { source: 'tg-a', title: 'آفر', url: 'https://example.com/a', at: NOW });
+  recordOfferReview(main, { source: 'tg-b', title: 'ابزار', url: 'https://example.com/b', at: NOW, kind: 'tool' });
+  recordOfferReview(review, { source: 'tg-a', title: 'آفر', url: 'https://example.com/a', at: NOW });
+  recordOfferReview(main, { source: 'tg-c', title: 'قدیمی', url: 'https://example.com/c', at: '2026-11-01T15:00:00Z' });
+
+  const usage = offerReviewUsage([main, review], NOW);
+  assert.equal(usage.today, 2);
+  assert.equal(usage.perSource.get('tg-a'), 1);
+  assert.equal(usage.perSource.get('tg-b'), 1);
+});
+
+test('review caps allow five items a day and one item per source', () => {
+  const usage = { today: 0, perSource: new Map() };
+  assert.equal(reviewCapacity({ config, usage, sourceKey: 'tg-a' }).ok, true);
+
+  const sourceFull = { today: 1, perSource: new Map([['tg-a', 1]]) };
+  assert.deepEqual(reviewCapacity({ config, usage: sourceFull, sourceKey: 'tg-a' }), {
+    ok: false,
+    reason: 'review_source_cap',
+  });
+  assert.equal(reviewCapacity({ config, usage: sourceFull, sourceKey: 'tg-b' }).ok, true);
+
+  const dayFull = { today: 5, perSource: new Map() };
+  assert.deepEqual(reviewCapacity({ config, usage: dayFull, sourceKey: 'tg-b' }), {
+    ok: false,
+    reason: 'review_daily_cap',
+  });
+  assert.deepEqual(reviewCapacity({ config, usage: dayFull }), { ok: false, reason: 'review_daily_cap' });
+});
+
+test('a full review queue defers the offer instead of skipping it', () => {
+  const noExpiry = {
+    title: offerArticle.title,
+    content: 'Free credits for developers. Available while supplies last.',
+  };
+  const offer = detectOffer(noExpiry);
+  const base = {
+    offer: { ...offer, ...noExpiry },
+    sourceType: 'official_blog',
+    sourceUrl: 'https://openai.com/news/test-offer',
+    sourceKey: 'openai-news',
+    publishedAt: '2026-11-02T15:00:00Z',
+    now: NOW,
+    config,
+    quota,
+    usage: { today: 0, week: 0 },
+  };
+  const daily = assessOffer({ ...base, reviewUsage: { today: 5, perSource: new Map() } });
+  assert.equal(daily.status, 'defer');
+  assert.equal(daily.reason, 'expiry_missing');
+  assert.equal(daily.cap, 'review_daily_cap');
+
+  const source = assessOffer({
+    ...base,
+    reviewUsage: { today: 1, perSource: new Map([['openai-news', 1]]) },
+  });
+  assert.equal(source.status, 'defer');
+  assert.equal(source.reason, 'expiry_missing');
+  assert.equal(source.cap, 'review_source_cap');
+});
+
+test('the pending review queue keeps overflow and drops it only after the ttl', () => {
+  const state = { reviewPending: {} };
+  const entry = enqueueReviewPending(state, {
+    source: 'tg-a',
+    sourceName: 'کانال',
+    title: 'آفر',
+    url: 'https://example.com/a',
+    reason: 'review_source_cap',
+    kind: 'offer',
+    at: '2026-11-02T17:00:00Z',
+    text: 'متن بازبینی',
+  });
+  assert.ok(entry);
+  assert.equal(listReviewPending(state, '2026-11-03T17:00:00Z').length, 1);
+  assert.equal(listReviewPending(state, '2026-11-12T17:00:00Z').length, 0);
+
+  const expiring = enqueueReviewPending(state, {
+    source: 'tg-b',
+    title: 'آفر دوم',
+    url: 'https://example.com/b',
+    kind: 'offer',
+    at: '2026-11-02T17:00:00Z',
+    expiry: { date: '2026-11-03' },
+    text: 'متن دوم',
+  });
+  assert.equal(listReviewPending(state, '2026-11-05T17:00:00Z').some((item) => item.id === expiring.id), false);
+  assert.equal(removeReviewPending(state, entry.id), 1);
+  assert.equal(state.reviewPending[entry.id], undefined);
+});
+
+test('a tool review text marks main eligibility and carries the prepared post', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'ابزار تازه',
+      sourceName: 'کانال تست',
+      link: 'https://example.com/tool',
+      leadPostUrl: 'https://t.me/testchannel/10',
+      toolHint: true,
+    },
+    assessment: { reason: 'tool_incomplete' },
+    kind: 'tool',
+    mainEligible: true,
+    text: 'متن اصلی کانال',
+    post: { title: 'تیتر آماده', news_date: '۲ نوامبر ۲۰۲۶', body: 'بدنه آماده', quote: 'نقل‌قول' },
+  });
+  assert.match(text, /بازبینی ابزار/);
+  assert.match(text, /واجد شرایط/);
+  assert.match(text, /پست آماده انتشار/);
+  assert.match(text, /تیتر آماده/);
+  assert.match(text, /متن اصلی کانال/);
+  assert.match(text, /https:\/\/t\.me\/testchannel\/10/);
+  assert.match(text, /این پیام فقط برای بازبینی است/);
+});
+
+test('a failed main send keeps the prepared offer in review', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'آفر رایگان',
+      sourceName: 'منبع رسمی',
+      link: 'https://example.com/offer',
+      offerHint: true,
+    },
+    assessment: { reason: 'send_failed' },
+    kind: 'offer',
+    mainEligible: true,
+    post: { title: 'تیتر آفر', body: 'بدنه آفر' },
+    note: 'ارسال به کانال اصلی ناموفق بود؛ پست آماده برای بازبینی نگه داشته شد.',
+  });
+  assert.match(text, /بازبینی آفر/);
+  assert.match(text, /ارسال به کانال اصلی ناموفق بود/);
+  assert.match(text, /واجد شرایط/);
+  assert.match(text, /پست آماده انتشار/);
+  assert.match(text, /تیتر آفر/);
 });

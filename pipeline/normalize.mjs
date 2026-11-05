@@ -38,6 +38,16 @@ export function windowFor(category) {
   return CATEGORY_WINDOW_HOURS[category] ?? PRE_GATE_HOURS;
 }
 
+export function earliestDate(...values) {
+  let best = null;
+  for (const value of values) {
+    const ms = Date.parse(String(value ?? ''));
+    if (!Number.isFinite(ms)) continue;
+    if (best === null || ms < best) best = ms;
+  }
+  return best === null ? '' : new Date(best).toISOString();
+}
+
 export function freshness(publishedAt, now, { maxAgeHours = PRE_GATE_HOURS } = {}) {
   const published = Date.parse(String(publishedAt ?? ''));
   if (!Number.isFinite(published)) return { ok: false, reason: 'no_date', ageHours: null, maxAgeHours };

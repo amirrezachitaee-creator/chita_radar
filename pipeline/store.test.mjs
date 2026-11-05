@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile } from 'node:fs/promises';
+import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { readFileSync } from 'node:fs';
@@ -27,8 +27,11 @@ import {
   MAX_DEFER_ATTEMPTS,
   DEFER_TTL_HOURS,
   isSlotSettled,
+  inQuietHours,
   quotaSnapshot,
   recordPublished,
+  recordEducationReview,
+  educationReviewUsage,
   pruneState,
 } from './store.mjs';
 
@@ -81,10 +84,26 @@ test('a trigger between windows reports the next slot', () => {
   assert.equal(result.next.key, '2026-11-02T11:30+03:30');
 });
 
-test('after midnight nothing is published until the morning slot', () => {
+test('the 23:00 grace window after midnight stays on the previous day', () => {
   const result = resolveSlot('2026-11-02T20:40:00Z', { slots: SLOTS });
+  assert.equal(result.ready, true);
+  assert.equal(result.slot, '23:00');
+  assert.equal(result.key, '2026-11-02T23:00+03:30');
+});
+
+test('after the grace window nothing is published until the morning slot', () => {
+  const result = resolveSlot('2026-11-02T21:10:00Z', { slots: SLOTS });
   assert.equal(result.ready, false);
   assert.equal(result.next.key, '2026-11-03T08:30+03:30');
+});
+
+test('quiet hours cover Tehran midnight to 08:30 only', () => {
+  assert.equal(inQuietHours('2026-11-02T20:40:00Z', ['00:00', '08:30']), true);
+  assert.equal(inQuietHours('2026-11-03T04:59:00Z', ['00:00', '08:30']), true);
+  assert.equal(inQuietHours('2026-11-03T05:00:00Z', ['00:00', '08:30']), false);
+  assert.equal(inQuietHours('2026-11-02T19:35:00Z', ['00:00', '08:30']), false);
+  assert.equal(inQuietHours('2026-11-02T20:40:00Z', []), false);
+  assert.equal(inQuietHours('2026-11-02T20:40:00Z', ['23:00', '08:30']), true);
 });
 
 test('a late evening trigger stays inside the same day', () => {
@@ -190,7 +209,7 @@ test('delivered memory keeps published and review entries only for 30 days', () 
   assert.equal(entries[3].decision, 'education_review');
 });
 
-test('slot status is settled for ready, sent, or skipped', () => {
+test('slot status is settled for ready, sent, skipped, or reviewed', () => {
   const state = emptyState();
   assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), false);
   markSlot(state, '2026-11-02T08:30+03:30', { status: 'empty' });
@@ -200,6 +219,8 @@ test('slot status is settled for ready, sent, or skipped', () => {
   markSlot(state, '2026-11-02T08:30+03:30', { status: 'sent' });
   assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), true);
   markSlot(state, '2026-11-02T08:30+03:30', { status: 'skipped' });
+  assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), true);
+  markSlot(state, '2026-11-02T08:30+03:30', { status: 'review' });
   assert.equal(isSlotSettled(state, '2026-11-02T08:30+03:30'), true);
 });
 
@@ -231,6 +252,68 @@ test('recording a publish sets the week from the slot key', () => {
   assert.equal(quotaSnapshot(config, state, '2026-10-31').tools.used, 1);
 });
 
+test('recording a publish stores the source for diversity caps', () => {
+  const state = emptyState();
+  const entry = recordPublished(state, {
+    slot: '2026-11-07T08:30+03:30',
+    category: 'models',
+    title: 'مدل تازه',
+    sourceId: 'source-one',
+    sourceName: 'Source One',
+    sourceType: 'news',
+    url: 'https://example.com/model',
+  });
+  assert.equal(entry.sourceId, 'source-one');
+  assert.equal(entry.sourceName, 'Source One');
+  assert.equal(entry.sourceType, 'news');
+  assert.equal(entry.url, 'https://example.com/model');
+  assert.equal(entry.week, '2026-11-07');
+  assert.equal(state.published[0].sourceId, 'source-one');
+});
+
+test('education reviews are counted per Tehran day and source', () => {
+  const state = emptyState();
+  recordEducationReview(state, {
+    source: 'channel-a',
+    title: 'دوره یک',
+    url: 'https://example.com/one',
+    at: '2026-11-06T20:00:00.000Z',
+  });
+  recordEducationReview(state, {
+    source: 'channel-a',
+    title: 'دوره دو',
+    url: 'https://example.com/two',
+    at: '2026-11-07T05:30:00.000Z',
+  });
+  recordEducationReview(state, {
+    source: 'channel-b',
+    title: 'دوره سه',
+    url: 'https://example.com/three',
+    at: '2026-11-07T08:00:00.000Z',
+  });
+  const usage = educationReviewUsage(state, '2026-11-07T12:00:00Z');
+  assert.equal(usage.total, 2);
+  assert.equal(usage.source, 0);
+  assert.deepEqual(usage.bySource, { 'channel-a': 1, 'channel-b': 1 });
+  assert.equal(educationReviewUsage(state, '2026-11-07T12:00:00Z', { source: 'channel-a' }).source, 1);
+});
+
+test('old education reviews are pruned after fourteen days', () => {
+  const state = emptyState();
+  recordEducationReview(state, {
+    source: 'old',
+    title: 'قدیمی',
+    at: '2026-10-01T00:00:00.000Z',
+  });
+  recordEducationReview(state, {
+    source: 'new',
+    title: 'تازه',
+    at: '2026-11-01T00:00:00.000Z',
+  });
+  pruneState(state, '2026-11-05T00:00:00Z');
+  assert.deepEqual(state.educationReviews.map((entry) => entry.source), ['new']);
+});
+
 test('state round-trips through disk and prunes old records', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-state-'));
   const path = join(dir, 'state.json');
@@ -259,7 +342,7 @@ test('state round-trips through disk and prunes old records', async () => {
   assert.equal(loaded.published.length, 1);
 
   const raw = JSON.parse(await readFile(path, 'utf8'));
-  assert.equal(raw.version, 1);
+  assert.equal(raw.version, 2);
   assert.ok(raw.updatedAt);
 });
 
@@ -267,6 +350,16 @@ test('missing state file starts empty', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-state-missing-'));
   const state = await loadState(join(dir, 'none.json'));
   assert.deepEqual(state, emptyState());
+});
+
+test('an old state file is loaded into the current schema', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'qoder-state-migrate-'));
+  const path = join(dir, 'state.json');
+  await writeFile(path, JSON.stringify({ version: 1, seen: {}, published: [] }));
+  const state = await loadState(path);
+  assert.equal(state.version, 2);
+  assert.deepEqual(state.educationReviews, []);
+  assert.deepEqual(state.reviewPending, {});
 });
 
 const deferredCandidate = {
@@ -342,4 +435,43 @@ test('deferred records survive a state round-trip', async () => {
   assert.equal(Object.keys(loaded.deferred).length, 1);
   assert.equal(Object.values(loaded.deferred)[0].reason, 'invalid_json');
   assert.equal(Object.values(loaded.deferred)[0].candidate.canonical, 'https://example.com/a');
+});
+
+test('review history and the pending review queue survive a round-trip and prune', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'qoder-state-review-'));
+  const path = join(dir, 'state.json');
+  const state = emptyState();
+  state.offerReviews.push({
+    id: '2026-11-02|tg-a|https://example.com/a',
+    date: '2026-11-02',
+    at: '2026-11-02T05:00:00.000Z',
+    source: 'tg-a',
+    title: 'آفر',
+    url: 'https://example.com/a',
+    reason: 'expiry_missing',
+    kind: 'offer',
+    mainEligible: false,
+  });
+  state.reviewPending['2026-11-02|tg-a|https://example.com/a'] = {
+    id: '2026-11-02|tg-a|https://example.com/a',
+    queuedAt: '2026-11-02T05:00:00.000Z',
+    source: 'tg-a',
+    title: 'آفر',
+    url: 'https://example.com/a',
+    reason: 'expiry_missing',
+    kind: 'offer',
+    text: 'متن بازبینی',
+  };
+  await saveState(path, state);
+  const loaded = await loadState(path);
+  assert.equal(loaded.offerReviews.length, 1);
+  assert.equal(Object.keys(loaded.reviewPending).length, 1);
+
+  pruneState(loaded, '2026-11-02T06:00:00Z');
+  assert.equal(loaded.offerReviews.length, 1);
+  assert.equal(Object.keys(loaded.reviewPending).length, 1);
+
+  pruneState(loaded, '2026-11-20T06:00:00Z');
+  assert.equal(loaded.offerReviews.length, 0);
+  assert.equal(Object.keys(loaded.reviewPending).length, 0);
 });

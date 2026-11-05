@@ -5,6 +5,10 @@ import { readFileSync } from 'node:fs';
 const config = JSON.parse(readFileSync(new URL('./config.json', import.meta.url), 'utf8'));
 const sources = JSON.parse(readFileSync(new URL('./sources.json', import.meta.url), 'utf8'));
 const vendors = JSON.parse(readFileSync(new URL('./vendors.json', import.meta.url), 'utf8'));
+const workflow = readFileSync(
+  new URL('../.github/workflows/slot-runner.yml', import.meta.url),
+  'utf8'
+);
 
 const MAIN = ['tools', 'models', 'security', 'business'];
 const USES = new Set(['feed', 'reference', 'lead_only', 'api', 'page']);
@@ -34,6 +38,26 @@ test('education is private and never part of the main channel', () => {
   assert.equal(config.categories.education.main_channel, false);
   assert.equal(config.categories.education.weekly_quota, 0);
   assert.equal(config.categories.education.lane, 'private_research');
+});
+
+test('the workflow candidate cap cannot override the runtime config', () => {
+  assert.ok(
+    workflow.includes(`default: "${config.diversity.max_candidates}"`),
+    'the dispatch default drifted from config.diversity.max_candidates'
+  );
+  assert.ok(
+    workflow.includes(`|| '${config.diversity.max_candidates}'`),
+    'the scheduled fallback drifted from config.diversity.max_candidates'
+  );
+});
+
+test('education review is capped, AI-gated and text-limited', () => {
+  assert.equal(config.education_review.enabled, true);
+  assert.equal(config.education_review.max_per_day, 5);
+  assert.equal(config.education_review.max_per_source_per_day, 1);
+  assert.equal(config.education_review.require_ai_central, true);
+  assert.ok(config.education_review.max_text_chars >= 600);
+  assert.ok(config.education_review.max_text_chars <= 2000);
 });
 
 test('six Tehran slots, sorted, none inside sleeping hours', () => {
@@ -246,19 +270,44 @@ test('telegram discovery is lead-only, starts today and keeps the filter', () =>
   );
 });
 
-test('the eight earlier gap sources are recorded as proposed, not verified', () => {
+test('every feed source has a unique verified https feed url', () => {
+  const feeds = sources.sources.filter((source) => source.use === 'feed');
+  assert.ok(feeds.length >= 17, 'the verified feed roster lost sources');
+  for (const source of feeds) {
+    assert.match(source.feed_url ?? '', /^https:\/\//, `${source.id} has no feed url`);
+    assert.match(source.verified_at ?? '', /^\d{4}-\d{2}-\d{2}$/, `${source.id} has no verification date`);
+    assert.equal(source.status === 'proposed', false, `${source.id} is still proposed`);
+  }
+  const urls = feeds.map((source) => source.feed_url);
+  assert.equal(new Set(urls).size, urls.length, 'two feed sources share one address');
+});
+
+test('sources without a public feed are reclassified instead of skipped silently', () => {
+  for (const source of sources.sources) {
+    if (source.use === 'feed') continue;
+    assert.equal(source.feed_url, undefined, `${source.id} is not a feed but claims a feed url`);
+    if (source.no_feed_reason) assert.ok(source.no_feed_reason.length > 0);
+  }
+  const reclassified = sources.sources
+    .filter((source) => source.no_feed_reason)
+    .map((source) => source.id)
+    .sort();
+  assert.deepEqual(reclassified, [
+    'anthropic-news',
+    'bleepingcomputer',
+    'google-news-rss',
+    'hf-papers',
+    'meta-ai-blog',
+    'msrc',
+    'reuters-tech',
+    'the-batch',
+  ]);
+});
+
+test('the remaining proposed sources are recorded as proposed, not verified', () => {
   const proposed = sources.sources
     .filter((source) => source.status === 'proposed')
     .map((source) => source.id)
     .sort();
-  assert.deepEqual(proposed, [
-    'arxiv',
-    'bleepingcomputer',
-    'gdelt',
-    'google-news-rss',
-    'krebs',
-    'the-record',
-    'trm-labs',
-    'wsj',
-  ]);
+  assert.deepEqual(proposed, ['bleepingcomputer', 'gdelt', 'wsj']);
 });

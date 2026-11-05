@@ -35,6 +35,30 @@
     "max_posts_per_day": 6,
     "quota_note": "سهمیه‌ها سقف هفتگی‌اند؛ پر نشدنشان اشکال ندارد و شش پست در روز تعهد نیست."
   },
+  "diversity": {
+    "enabled": true,
+    "weekly_matrix": {
+      "sat": ["models", "tools", "business", "models", "tools", "security"],
+      "sun": ["tools", "models", "tools", "security", "models", "tools"],
+      "mon": ["business", "models", "tools", "security", "models", "tools"],
+      "tue": ["models", "tools", "business", "tools", "models", "tools"],
+      "wed": ["security", "models", "tools", "business", "tools", "models"],
+      "thu": ["tools", "models", "security", "tools", "business", "tools"],
+      "fri": ["models", "security", "tools", "models", "business", "tools"]
+    },
+    "max_per_category_per_day": 3,
+    "max_per_source_per_day": 1,
+    "max_per_source_per_week": 4,
+    "max_candidates": 6,
+    "no_consecutive_category": true
+  },
+  "education_review": {
+    "enabled": true,
+    "max_per_day": 5,
+    "max_per_source_per_day": 1,
+    "require_ai_central": true,
+    "max_text_chars": 1200
+  },
   "freshness_hours": {
     "pre_gate": 72,
     "tools": 48,
@@ -74,12 +98,38 @@
     "review": {
       "enabled": true,
       "chat_env": "TELEGRAM_REVIEW_CHAT_ID",
+      "max_per_day": 5,
+      "max_per_source_per_day": 1,
+      "pending_ttl_hours": 168,
+      "max_pending": 200,
+      "quiet_hours_main_eligible": true,
       "reasons": [
         "source_not_official",
         "expiry_missing",
         "expiry_ambiguous",
         "expiry_soon",
-        "offer_qa_failed"
+        "offer_referral",
+        "offer_quota_full",
+        "offer_daily_cap",
+        "offer_weekly_cap",
+        "offer_qa_failed",
+        "review_daily_cap",
+        "review_source_cap",
+        "referral_link",
+        "thin_content",
+        "fetch_failed",
+        "tool_incomplete",
+        "model_skip",
+        "model_failed",
+        "bad_category",
+        "quota_full",
+        "gate_future",
+        "gate_no_date",
+        "gate_bad_date",
+        "offer_expired",
+        "offer_stale",
+        "quiet_hours",
+        "send_failed"
       ]
     }
   },

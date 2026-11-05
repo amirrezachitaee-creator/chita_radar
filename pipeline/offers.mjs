@@ -235,14 +235,128 @@ export function offerUsage(state, now) {
   };
 }
 
+export function offerReviewUsage(states, now) {
+  const today = dateKey(now);
+  const entries = [];
+  const seen = new Set();
+  for (const state of states ?? []) {
+    for (const entry of state?.offerReviews ?? []) {
+      if (String(entry?.date ?? '') !== today) continue;
+      const id = String(entry?.id ?? '');
+      if (!id || seen.has(id)) continue;
+      seen.add(id);
+      entries.push(entry);
+    }
+  }
+  const perSource = new Map();
+  for (const entry of entries) {
+    const key = String(entry?.source ?? '');
+    perSource.set(key, (perSource.get(key) ?? 0) + 1);
+  }
+  return { today: entries.length, perSource };
+}
+
+export function recordOfferReview(
+  state,
+  { source = '', title = '', url = '', reason = '', slot = '', at = '', mainEligible = false, kind = 'offer' }
+) {
+  if (!Array.isArray(state.offerReviews)) state.offerReviews = [];
+  const parsed = Date.parse(String(at));
+  const atMs = Number.isFinite(parsed) ? parsed : Date.now();
+  const date = dateKey(atMs);
+  const id = `${date}|${source}|${url || title}`;
+  const entry = {
+    id,
+    date,
+    at: new Date(atMs).toISOString(),
+    source,
+    title,
+    url,
+    reason,
+    slot,
+    kind,
+    mainEligible: Boolean(mainEligible),
+  };
+  const index = state.offerReviews.findIndex((existing) => existing.id === id);
+  if (index >= 0) state.offerReviews[index] = entry;
+  else state.offerReviews.push(entry);
+  return entry;
+}
+
+export const REVIEW_PENDING_TTL_HOURS = 168;
+
+export function enqueueReviewPending(state, payload = {}) {
+  if (!state.reviewPending || typeof state.reviewPending !== 'object') state.reviewPending = {};
+  const at = payload.at || new Date().toISOString();
+  const date = dateKey(at);
+  const id = payload.id || `${date}|${payload.source || ''}|${payload.url || payload.title || ''}`;
+  const previous = state.reviewPending[id];
+  const entry = {
+    ...previous,
+    ...payload,
+    id,
+    queuedAt: previous?.queuedAt || at,
+    attempts: Number(payload.attempts ?? previous?.attempts ?? 0),
+  };
+  if (!entry.text) return null;
+  state.reviewPending[id] = entry;
+  return entry;
+}
+
+export function listReviewPending(
+  state,
+  now,
+  { ttlHours = REVIEW_PENDING_TTL_HOURS, limit = 0 } = {}
+) {
+  const nowMs = now instanceof Date ? now.getTime() : Date.parse(String(now));
+  if (!Number.isFinite(nowMs)) throw new Error('invalid now');
+  const entries = Object.values(state.reviewPending ?? {})
+    .filter((entry) => {
+      if (!entry || !entry.text) return false;
+      const at = Date.parse(String(entry.queuedAt ?? ''));
+      if (!Number.isFinite(at)) return false;
+      if (nowMs - at > ttlHours * 3600000) return false;
+      const expiry = String(entry?.expiry?.date ?? '');
+      if (/^\d{4}-\d{2}-\d{2}$/.test(expiry)) {
+        const end = Date.parse(`${expiry}T23:59:59+03:30`);
+        if (Number.isFinite(end) && end < nowMs) return false;
+      }
+      return true;
+    })
+    .sort((left, right) => Date.parse(left.queuedAt) - Date.parse(right.queuedAt));
+  return limit > 0 ? entries.slice(0, limit) : entries;
+}
+
+export function removeReviewPending(state, id) {
+  if (!state.reviewPending?.[id]) return 0;
+  delete state.reviewPending[id];
+  return 1;
+}
+
+export function reviewCapacity({ config, usage, sourceKey = '' }) {
+  const review = config?.offers?.review ?? {};
+  if (review.enabled === false) return { ok: false, reason: 'review_disabled' };
+  if (!usage) return { ok: true, reason: 'ok' };
+  const maxDay = Number(review.max_per_day ?? 5);
+  const maxSource = Number(review.max_per_source_per_day ?? 1);
+  if (usage.today >= maxDay) return { ok: false, reason: 'review_daily_cap' };
+  if (sourceKey && (usage.perSource?.get(sourceKey) ?? 0) >= maxSource) {
+    return { ok: false, reason: 'review_source_cap' };
+  }
+  return { ok: true, reason: 'ok' };
+}
+
 export function assessOffer({
   offer,
   sourceType,
+  sourceUrl = '',
+  sourceKey = '',
   publishedAt,
   now,
   config,
   quota,
   usage,
+  reviewUsage = null,
 }) {
   if (!offer?.isOffer) return { status: 'not_offer', reason: 'not_offer' };
   if (config.offers?.status !== 'active') return { status: 'skip', reason: 'offers_inactive' };
@@ -264,29 +378,33 @@ export function assessOffer({
     return { status: 'skip', reason: 'offer_expired', ageHours, expiry };
   }
 
+  const reviewFor = (reason, extra = {}) => {
+    const capacity = reviewCapacity({ config, usage: reviewUsage, sourceKey });
+    if (!capacity.ok) {
+      return { status: 'defer', reason, cap: capacity.reason, ageHours, expiry, ...extra };
+    }
+    return { status: 'review', reason, ageHours, expiry, ...extra };
+  };
+
   if (config.offers.official_source_only && sourceType !== 'official_blog') {
-    return {
-      status: 'review',
-      reason: 'source_not_official',
-      ageHours,
-      expiry,
-    };
+    return reviewFor('source_not_official');
   }
 
   if (config.offers.requires_expiry && !expiry.ok) {
-    return { status: 'review', reason: expiry.reason, ageHours, expiry };
+    return reviewFor(expiry.reason);
   }
 
   if (expiry.ok && expiry.remainingHours < Number(config.offers.min_remaining_hours ?? 24)) {
-    return { status: 'review', reason: 'expiry_soon', ageHours, expiry };
+    return reviewFor('expiry_soon');
   }
 
-  if (config.offers.referral_allowed === false && REFERRAL.test(`${offer.title ?? ''}\n${offer.content ?? ''}`)) {
-    return { status: 'skip', reason: 'offer_referral', ageHours, expiry };
+  const referral = hasReferral(sourceUrl) || REFERRAL.test(`${offer.title ?? ''}\n${offer.content ?? ''}`);
+  if (config.offers.referral_allowed === false && referral) {
+    return reviewFor('offer_referral', { referral: true });
   }
 
   if (!quota?.tools || quota.tools.remaining <= 0) {
-    return { status: 'skip', reason: 'offer_quota_full', ageHours, expiry };
+    return reviewFor('offer_quota_full');
   }
 
   const limits = {
@@ -294,10 +412,10 @@ export function assessOffer({
     week: Number(config.offers.max_per_week ?? 3),
   };
   if (usage && usage.today >= limits.today) {
-    return { status: 'skip', reason: 'offer_daily_cap', ageHours, expiry, usage };
+    return reviewFor('offer_daily_cap', { usage });
   }
   if (usage && usage.week >= limits.week) {
-    return { status: 'skip', reason: 'offer_weekly_cap', ageHours, expiry, usage };
+    return reviewFor('offer_weekly_cap', { usage });
   }
 
   return { status: 'publish', reason: 'ok', ageHours, expiry };
@@ -335,23 +453,73 @@ const REASON_FA = {
   offer_daily_cap: 'سقف روزانه آفر پر شده است',
   offer_weekly_cap: 'سقف هفتگی آفر پر شده است',
   offer_qa_failed: 'خروجی مدل برای آفر کامل نبود',
+  review_daily_cap: 'سقف روزانه صف بازبینی پر شده است',
+  review_source_cap: 'سقف روزانه این منبع در صف بازبینی پر شده است',
+  review_disabled: 'صف بازبینی غیرفعال است',
+  referral_link: 'لینک ارجاعی حل نشده است',
+  quiet_hours: 'در ساعات آرام پیدا شد',
+  send_failed: 'ارسال به کانال اصلی ناموفق بود',
+  thin_content: 'متن کافی برای ساخت پست نبود',
+  fetch_failed: 'دریافت صفحه اصلی ناموفق بود',
+  tool_incomplete: 'جزئیات ابزار کامل نشد',
+  model_skip: 'مدل این مورد را رد کرد',
+  model_failed: 'مدل خروجی معتبر نداد',
+  bad_category: 'دسته پیشنهادی مدل معتبر نبود',
+  quota_full: 'سهمیه دسته پر است',
+  gate_future: 'تاریخ انتشار در آینده است',
+  gate_no_date: 'تاریخ انتشار روشن نیست',
+  gate_bad_date: 'تاریخ انتشار نامعتبر است',
 };
 
-export function reviewText({ article, candidate, assessment }) {
+const KIND_FA = { offer: 'آفر', tool: 'ابزار', post: 'پست' };
+
+export function reviewText({
+  article,
+  candidate,
+  assessment,
+  offer = null,
+  kind = '',
+  mainEligible = false,
+  note = '',
+  post = null,
+  text = '',
+} = {}) {
+  const resolvedKind =
+    kind || (offer?.isOffer || assessment?.expiry ? 'offer' : candidate?.toolHint ? 'tool' : 'post');
+  const reason = assessment?.reason ?? '';
+  const reasonFa = REASON_FA[reason] ?? reason ?? 'دلیل نامشخص';
   const expiry = assessment?.expiry;
   const expiryLine = expiry?.date
-    ? `${expiry.date} (${expiry.remainingHours} ساعت اعتبار باقی‌مانده)`
+    ? `${expiry.date}${Number.isFinite(expiry.remainingHours) ? ` (${expiry.remainingHours} ساعت اعتبار باقی‌مانده)` : ''}`
     : 'روشن نیست';
-  return [
-    `بازبینی آفر — ${REASON_FA[assessment?.reason] ?? assessment?.reason ?? 'دلیل نامشخص'}`,
+  const link = article?.url || candidate?.link || candidate?.canonical || '';
+  const lines = [
+    `بازبینی ${KIND_FA[resolvedKind] ?? KIND_FA.post} — ${reasonFa}`,
     '',
     `عنوان: ${article?.title || candidate?.title || ''}`,
     `منبع: ${candidate?.sourceName || ''}`,
     `تاریخ انتشار: ${article?.published || candidate?.published || ''}`,
-    `تاریخ انقضا: ${expiryLine}`,
-    `دلیل بازبینی: ${REASON_FA[assessment?.reason] ?? assessment?.reason ?? ''}`,
-    `لینک: ${article?.url || candidate?.link || ''}`,
-    '',
-    'این پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.',
-  ].join('\n');
+  ];
+  if (resolvedKind === 'offer') lines.push(`تاریخ انقضا: ${expiryLine}`);
+  lines.push(`دلیل بازبینی: ${reasonFa}`);
+  lines.push(
+    `وضعیت کانال اصلی: ${
+      mainEligible ? 'واجد شرایط — نسخه کانال اصلی آماده است و فقط به بازبینی کپی شد' : 'نیازمند بررسی پیش از انتشار'
+    }`
+  );
+  if (link) lines.push(`لینک: ${link}`);
+  if (candidate?.leadPostUrl) lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
+  const original = String(text || candidate?.messageText || article?.content || '').trim();
+  if (original) {
+    lines.push('', 'متن اصلی:', original.slice(0, post ? 900 : 2400));
+  }
+  if (post) {
+    lines.push('', 'پست آماده انتشار:', `عنوان: ${post.title ?? ''}`);
+    if (post.news_date) lines.push(String(post.news_date));
+    lines.push(String(post.body ?? '').slice(0, 1200));
+    if (post.quote) lines.push(`نقل‌قول: ${String(post.quote).slice(0, 400)}`);
+  }
+  if (note) lines.push('', String(note).slice(0, 400));
+  lines.push('', 'این پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.');
+  return lines.join('\n');
 }
