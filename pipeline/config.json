@@ -130,6 +130,7 @@
         "offer_expired",
         "offer_stale",
         "quiet_hours",
+        "daily_cap",
         "send_failed"
       ]
     }

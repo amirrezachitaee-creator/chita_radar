@@ -459,6 +459,7 @@ const REASON_FA = {
   referral_link: 'لینک ارجاعی حل نشده است',
   research_paper: 'مقاله پژوهشی منتخب',
   quiet_hours: 'در ساعات آرام پیدا شد',
+  daily_cap: 'سقف پست روزانه پر شده است',
   send_failed: 'ارسال به کانال اصلی ناموفق بود',
   thin_content: 'متن کافی برای ساخت پست نبود',
   fetch_failed: 'دریافت صفحه اصلی ناموفق بود',

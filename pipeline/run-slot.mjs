@@ -21,6 +21,7 @@ import {
 } from './engine.mjs';
 import { collectCandidates } from './collect.mjs';
 import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } from './diversity.mjs';
+import { dailyBudget, sendWindow } from './guards.mjs';
 import { buildEducationDigest, buildEducationMessages, educationDigestLeads, matchesPublishedStory } from './telegram-source.mjs';
 import { assessOffer, detectOffer, offerUsage, offerReviewUsage, recordOfferReview, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
@@ -251,6 +252,7 @@ async function main() {
   const previousWhy = [...(state.published ?? [])].reverse().find((entry) => entry.why)?.why ?? '';
   const week = weekKey(slot.date);
   const quota = quotaSnapshot(config, state, week);
+  const budget = dailyBudget({ config, state, date: slot.date });
   const allDeferred = Object.values(state.deferred ?? {});
   const deferredEntries = listDeferred(state, NOW, { ttlHours: DEFER_TTL_HOURS })
     .filter((entry) => !findSeen(state, entry.keys ?? []));
@@ -265,6 +267,7 @@ async function main() {
 
   console.log(`SLOT ${slot.key} | WEEK ${week} | MODE ${RUN_MODE.toUpperCase()}`);
   console.log(`QUOTA ${MAIN_CATEGORIES.map((category) => `${category} ${quota[category].used}/${quota[category].quota}`).join(' | ')}`);
+  console.log(`DAILY ${budget.used}/${budget.cap}`);
   console.log(`DIVERSITY_TARGET ${slotTarget(config, slot.date, slot.slot) || 'any'} | slot ${slot.slot}`);
   if (deferredEntries.length) {
     console.log(`DEFERRED_POOL ${deferredEntries.length}`);
@@ -477,6 +480,13 @@ async function main() {
     markSlot(state, slot.key, { status: 'empty', reason: 'quota_full' });
     await saveState(STATE_PATH, state);
     console.log('RESULT EMPTY reason=quota_full');
+    console.log('NOTHING_WAS_SENT');
+    return;
+  }
+  if (!budget.ok) {
+    markSlot(state, slot.key, { status: 'empty', reason: 'daily_cap' });
+    await saveState(STATE_PATH, state);
+    console.log('RESULT EMPTY reason=daily_cap');
     console.log('NOTHING_WAS_SENT');
     return;
   }
@@ -1401,6 +1411,10 @@ async function main() {
         .filter(Boolean)
         .join('\n\n')
     );
+    const window = SEND
+      ? sendWindow({ config, state, date: slot.date, now: new Date().toISOString(), reviewSend: REVIEW_SEND })
+      : null;
+
     await writeFile(
       resolve(dir, 'preview.html'),
       renderPreview({
@@ -1410,23 +1424,27 @@ async function main() {
         imagePath: downloaded ? `image.${downloaded.ext}` : '',
         imageVerdict: downloaded ? '' : downloadError || verdict.reason,
         sourceUrl: article.url,
-        banner: SEND && !quiet
-          ? 'خروجی ارسال واقعی — وضعیت در گزارش ثبت شده است'
-          : 'اجرای خشک محلی — هیچ چیزی به تلگرام ارسال نشده است',
+        banner: quiet
+          ? 'کپی بازبینی — چیزی به کانال اصلی ارسال نشد'
+          : window && !window.ok
+            ? 'ارسال به کانال اصلی با گارد زمان اجرا متوقف شد — کپی واجد شرایط به بازبینی رفت'
+            : SEND
+              ? 'خروجی ارسال واقعی — وضعیت در گزارش ثبت شده است'
+              : 'اجرای خشک محلی — هیچ چیزی به تلگرام ارسال نشده است',
       })
     );
 
-    if (quiet) {
+    const routeReviewCopy = async ({ reason, note }) => {
       const kind = offerContext ? 'offer' : candidate.toolHint ? 'tool' : 'post';
       await deliverReview({
         candidate,
         article,
-        assessment: offerAssessment ?? { reason: 'quiet_hours' },
-        reason: 'quiet_hours',
+        assessment: offerAssessment ?? { reason },
+        reason,
         kind,
         mainEligible: true,
         post,
-        note: 'این پست در ساعات آرام آماده شد و به جای انتشار در کانال اصلی، با برچسب واجد شرایط به بازبینی کپی شده است.',
+        note,
       });
       markSlot(state, slot.key, {
         status: 'review',
@@ -1434,10 +1452,9 @@ async function main() {
         title: post.title,
         postDir: dir,
         mode: RUN_MODE,
-        reason: 'quiet_hours',
+        reason,
       });
       await saveState(STATE_PATH, state);
-      console.log('  QUIET_HOURS review_copy=yes main_eligible=yes');
       published = {
         post,
         category,
@@ -1450,12 +1467,31 @@ async function main() {
         image: Boolean(downloaded),
         offer: Boolean(offerContext),
       };
+    };
+
+    if (quiet) {
+      await routeReviewCopy({
+        reason: 'quiet_hours',
+        note: 'این پست در ساعات آرام آماده شد و به جای انتشار در کانال اصلی، با برچسب واجد شرایط به بازبینی کپی شده است.',
+      });
+      console.log('  QUIET_HOURS review_copy=yes main_eligible=yes');
       break;
     }
 
     let status = 'ready';
     let messageId = null;
     if (SEND) {
+      if (!window.ok) {
+        await routeReviewCopy({
+          reason: window.reason,
+          note:
+            window?.reason === 'quiet_hours'
+              ? 'پست در مرز ساعات آرام آماده شد؛ ارسال به کانال اصلی متوقف و نسخه واجد شرایط به بازبینی رفت.'
+              : 'سقف پست روزانه پر شده بود؛ پست آماده به کانال اصلی نرفت و برای بازبینی نگه داشته شد.',
+        });
+        console.log(`  SEND_GUARD ${window?.reason ?? 'blocked'} review_copy=yes main_eligible=yes`);
+        break;
+      }
       try {
         const sent = await sendTelegram(post, {
           token: env.TELEGRAM_BOT_TOKEN,
