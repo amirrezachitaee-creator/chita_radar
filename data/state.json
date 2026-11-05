@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T05:49:10.036Z",
+  "updatedAt": "2026-11-05T09:01:57.763Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -413,14 +413,86 @@
       "slot": "2026-11-05T08:30+03:30",
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
       "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage"
+    },
+    "url:bb430c6408aecc00": {
+      "at": "2026-11-05T08:54:18.290Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "تا ۷۵٪ تخفیف در جشنواره پاییزی لینگانو!",
+      "url": "https://t.me/Lingano_support"
+    },
+    "title:ba7f2157f6080e45": {
+      "at": "2026-11-05T08:54:18.290Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "تا ۷۵٪ تخفیف در جشنواره پاییزی لینگانو!",
+      "url": "https://t.me/Lingano_support"
+    },
+    "url:9aa9af5eccb44d40": {
+      "at": "2026-11-05T08:58:04.985Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "طی دیروز و امروز تعداد زیادی اکانت Claude ظاهراً مسدود شده.",
+      "url": "https://chromewebstore.google.com/detail/spoof-timezone/kcabmhnajflfolhelachlflngdbfhboe"
+    },
+    "title:d0baf504d1777cfd": {
+      "at": "2026-11-05T08:58:04.985Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "طی دیروز و امروز تعداد زیادی اکانت Claude ظاهراً مسدود شده.",
+      "url": "https://chromewebstore.google.com/detail/spoof-timezone/kcabmhnajflfolhelachlflngdbfhboe"
+    },
+    "url:97d764cb5c028097": {
+      "at": "2026-11-05T09:01:49.489Z",
+      "decision": "skip",
+      "reason": "duplicate",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "How Much Does Reasoning Effort Affect Score and Cost? | Vals AI",
+      "url": "https://vals.ai/blogs/reasoning-effort"
+    },
+    "title:366c0ce9f643e3a5": {
+      "at": "2026-11-05T09:01:49.489Z",
+      "decision": "skip",
+      "reason": "duplicate",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "How Much Does Reasoning Effort Affect Score and Cost? | Vals AI",
+      "url": "https://vals.ai/blogs/reasoning-effort"
+    },
+    "url:5523ef782a102f94": {
+      "at": "2026-11-05T09:01:57.762Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared"
+    },
+    "title:389b7b52a372a69b": {
+      "at": "2026-11-05T09:01:57.762Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-05T11:30+03:30",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared"
     }
   },
   "deferred": {
     "defer:url:60b49bd40bcd399c": {
       "id": "defer:url:60b49bd40bcd399c",
-      "at": "2026-11-05T05:46:55.207Z",
+      "at": "2026-11-05T08:57:51.351Z",
       "firstAt": "2026-11-04T20:17:12.665Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "qa_failed",
       "reasons": [
         "qa_failed"
@@ -453,7 +525,7 @@
         ],
         "deferred": {
           "id": "defer:url:60b49bd40bcd399c",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "dedupe_key"
@@ -537,6 +609,11 @@
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/08-30",
       "messageId": 15,
       "mode": "send"
+    },
+    "2026-11-05T11:30+03:30": {
+      "at": "2026-11-05T09:01:57.762Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected"
     }
   },
   "published": [
@@ -641,79 +718,79 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8298,
-      "last_at": "2026-11-04T21:11:02+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 8300,
+      "last_at": "2026-11-05T08:01:37+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "ai_farshad": {
-      "last_id": 6360,
-      "last_at": "2026-11-04T19:31:34+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 6362,
+      "last_at": "2026-11-05T07:52:39+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7156,
-      "last_at": "2026-11-05T04:16:15+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 7160,
+      "last_at": "2026-11-05T08:42:10+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "techiin_ir": {
-      "last_id": 20678,
-      "last_at": "2026-11-04T15:50:01+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 20679,
+      "last_at": "2026-11-05T08:45:15+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "mgh_mobin": {
-      "last_id": 450,
-      "last_at": "2026-11-03T14:32:14+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 453,
+      "last_at": "2026-11-05T07:07:32+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "asrnovin_ir": {
-      "last_id": 11405,
-      "last_at": "2026-11-04T20:39:34+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 11406,
+      "last_at": "2026-11-05T08:23:54+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "shayanode": {
       "last_id": 72,
       "last_at": "2026-11-04T19:11:06+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "codecloude": {
       "last_id": 2552,
       "last_at": "2026-11-05T04:18:58+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "dunijet_ai": {
-      "last_id": 2503,
-      "last_at": "2026-11-04T08:16:16+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 2505,
+      "last_at": "2026-11-05T06:46:15+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "checked_at": "2026-11-05T08:54:11.786Z"
     },
     "Sajadverse": {
-      "last_id": 1242,
-      "last_at": "2026-11-04T07:39:03+00:00",
-      "checked_at": "2026-11-05T05:45:58.997Z"
+      "last_id": 1243,
+      "last_at": "2026-11-05T07:23:28+00:00",
+      "checked_at": "2026-11-05T08:54:11.786Z"
     }
   }
 }
