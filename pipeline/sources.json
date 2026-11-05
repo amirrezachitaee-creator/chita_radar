@@ -101,7 +101,8 @@
         "models"
       ],
       "type": "benchmark",
-      "use": "reference"
+      "use": "reference",
+      "no_feed_reason": "Leaderboard is a client-rendered app and returns 403 to non-browser requests on 2026-11-05."
     },
     {
       "id": "artificial-analysis",
@@ -112,7 +113,8 @@
         "business"
       ],
       "type": "benchmark",
-      "use": "reference"
+      "use": "reference",
+      "no_feed_reason": "Leaderboard has no feed or public key-free API; benchmark news comes from artificial-analysis-articles."
     },
     {
       "id": "livebench",
@@ -122,7 +124,23 @@
         "models"
       ],
       "type": "benchmark",
-      "use": "reference"
+      "use": "reference",
+      "no_feed_reason": "Leaderboard is a JavaScript app that serves CSV score tables only, with no dated article to write from."
+    },
+    {
+      "id": "artificial-analysis-articles",
+      "name": "Artificial Analysis Articles",
+      "url": "https://artificialanalysis.ai/articles",
+      "index_url": "https://artificialanalysis.ai/articles",
+      "parser": "aa_articles",
+      "verified_at": "2026-11-05",
+      "categories": [
+        "models"
+      ],
+      "type": "benchmark",
+      "use": "page",
+      "status": "verified",
+      "no_feed_reason": "No RSS; the server-rendered article index is the only dated listing."
     },
     {
       "id": "hf-papers",

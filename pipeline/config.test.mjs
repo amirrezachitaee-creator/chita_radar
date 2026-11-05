@@ -294,14 +294,30 @@ test('sources without a public feed are reclassified instead of skipped silently
     .sort();
   assert.deepEqual(reclassified, [
     'anthropic-news',
+    'arena',
+    'artificial-analysis',
+    'artificial-analysis-articles',
     'bleepingcomputer',
     'google-news-rss',
     'hf-papers',
+    'livebench',
     'meta-ai-blog',
     'msrc',
     'reuters-tech',
     'the-batch',
   ]);
+});
+
+test('page sources have a verified index and a known parser', () => {
+  const pages = sources.sources.filter((source) => source.use === 'page');
+  assert.deepEqual(pages.map((source) => source.id).sort(), ['artificial-analysis-articles']);
+  for (const source of pages) {
+    assert.match(source.index_url ?? '', /^https:\/\//, `${source.id} has no index url`);
+    assert.ok(['aa_articles'].includes(source.parser), `${source.id} has an unknown parser`);
+    assert.equal(source.status, 'verified', `${source.id} is not verified`);
+    assert.match(source.verified_at ?? '', /^\d{4}-\d{2}-\d{2}$/, `${source.id} has no verification date`);
+    assert.ok(source.categories.includes('models'), `${source.id} is not a models source`);
+  }
 });
 
 test('the remaining proposed sources are recorded as proposed, not verified', () => {

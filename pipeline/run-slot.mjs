@@ -489,7 +489,7 @@ async function main() {
         Boolean(source.username)
       );
     }
-    return Boolean(source.feed_url);
+    return Boolean(source.feed_url) || (source.use === 'page' && Boolean(source.index_url));
   });
   if (SOURCE_FILTER.length) {
     sources = sources.filter((source) => SOURCE_FILTER.includes(source.id));
@@ -509,9 +509,9 @@ async function main() {
     redact,
     telegram: config.telegram_discovery,
   });
-  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
+  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
   for (const error of stats.errors) {
-    const label = error.kind === 'telegram' ? 'TELEGRAM_ERROR' : 'FEED_ERROR';
+    const label = error.kind === 'telegram' ? 'TELEGRAM_ERROR' : error.kind === 'benchmark' ? 'INDEX_ERROR' : 'FEED_ERROR';
     console.log(`  ${label} ${error.source}: ${error.error}`);
   }
   const tg = stats.telegram;
