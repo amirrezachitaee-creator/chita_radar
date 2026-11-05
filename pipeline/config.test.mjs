@@ -51,6 +51,19 @@ test('the workflow candidate cap cannot override the runtime config', () => {
   );
 });
 
+test('external dispatch cannot force a slot and the six cron slots stay as backup', () => {
+  assert.match(workflow, /repository_dispatch:\s*\n\s*types:\s*\[slot-tick\]/);
+  assert.equal(workflow.includes('client_payload.force'), false, 'dispatch can still force a run');
+  assert.ok(
+    workflow.includes("github.event_name == 'workflow_dispatch' && github.event.inputs.force"),
+    'force is not limited to manual dispatch'
+  );
+  assert.ok(workflow.includes('DISPATCH_FORCE_REJECTED'));
+  for (const cron of ['0 5 * * *', '0 8 * * *', '30 10 * * *', '30 13 * * *', '0 17 * * *', '30 19 * * *']) {
+    assert.ok(workflow.includes(`cron: "${cron}"`), `backup cron ${cron} is missing`);
+  }
+});
+
 test('education review is capped, AI-gated and text-limited', () => {
   assert.equal(config.education_review.enabled, true);
   assert.equal(config.education_review.max_per_day, 5);
