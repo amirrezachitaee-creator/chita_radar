@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-11-05T14:33:27.918Z",
+  "version": 2,
+  "updatedAt": "2026-11-05T17:53:38.727Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -607,6 +607,76 @@
       "slot": "2026-11-05T17:00+03:30",
       "title": "Anthropic reverses course and pays for news content for the first time",
       "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time"
+    },
+    "url:28d17b7ef7a86f47": {
+      "at": "2026-11-05T17:53:07.913Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
+      "url": "https://huggingface.co/papers/2611.05609"
+    },
+    "title:80b495c107e5758b": {
+      "at": "2026-11-05T17:53:07.913Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
+      "url": "https://huggingface.co/papers/2611.05609"
+    },
+    "url:73ab791f8ce68635": {
+      "at": "2026-11-05T17:53:13.806Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "🔐 پلاگین antigravity-filter-bypass برای Antigravity",
+      "url": "https://github.com/v1ktorrr0x/antigravity-filter-bypass"
+    },
+    "title:b52b2c30be0f2bd2": {
+      "at": "2026-11-05T17:53:13.806Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "🔐 پلاگین antigravity-filter-bypass برای Antigravity",
+      "url": "https://github.com/v1ktorrr0x/antigravity-filter-bypass"
+    },
+    "url:b3ab12a34ee36e8a": {
+      "at": "2026-11-05T17:53:17.775Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps"
+    },
+    "title:d4b1323db6480c9f": {
+      "at": "2026-11-05T17:53:17.775Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps"
+    },
+    "url:b3b7fa6c1f3dcbf6": {
+      "at": "2026-11-05T17:53:38.726Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too"
+    },
+    "title:7a86536800a64106": {
+      "at": "2026-11-05T17:53:38.726Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-05T20:30+03:30",
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too"
     }
   },
   "deferred": {
@@ -651,6 +721,143 @@
         }
       },
       "detail": "dedupe_key"
+    },
+    "defer:url:a6ba9ef21e2f6a77": {
+      "id": "defer:url:a6ba9ef21e2f6a77",
+      "at": "2026-11-05T17:53:13.944Z",
+      "firstAt": "2026-11-05T17:53:13.944Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:a6ba9ef21e2f6a77",
+        "title:334c22465a915601"
+      ],
+      "canonical": "https://gizmodo.com/did-claude-help-an-amateur-astronomer-discover-a-new-planet-2000824393",
+      "title": "Did Claude Help an Amateur Astronomer Discover a New Planet?",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "Did Claude Help an Amateur Astronomer Discover a New Planet?",
+        "link": "https://gizmodo.com/did-claude-help-an-amateur-astronomer-discover-a-new-planet-2000824393",
+        "canonical": "https://gizmodo.com/did-claude-help-an-amateur-astronomer-discover-a-new-planet-2000824393",
+        "messageText": "یه ستاره‌شناس آماتور با کمک Claude Code توی داده‌های عمومی تلسکوپ TESS یه سیاره جدید پیدا کرد 😂😂👌🏻\n\nاسم این بابا Rabtsevich هست و ۷۴ تا تست طراحی کرد تا فرضیه خودش رو رد کنه.\n\nتوی یکی از تست‌ها دو دیتاست TESS رو به Claude Code داد و ازش خواست افت نور ستاره رو توی دیتاست سوم پیش‌بینی کنه؛ همه پیش‌بینی‌ها درست از آب دراومد.\n\nهنوز این یه کاندیداست، نه سیاره تأییدشده\n\ngizmodo.com/did-claude-help-an-amateur-astronomer-discover-a-new-planet-2000824393\n\n@dunijet_ai",
+        "leadPostUrl": "https://t.me/dunijet_ai/2509",
+        "published": "2026-11-05T15:48:02+00:00",
+        "summary": "",
+        "images": [],
+        "ageHours": 2.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "toolHint": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:a6ba9ef21e2f6a77",
+          "title:334c22465a915601"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2509,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "news",
+        "educationHint": false,
+        "officialCourse": false
+      },
+      "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
+    },
+    "defer:url:1c50a99dbb5387de": {
+      "id": "defer:url:1c50a99dbb5387de",
+      "at": "2026-11-05T17:53:13.988Z",
+      "firstAt": "2026-11-05T17:53:13.988Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:1c50a99dbb5387de",
+        "title:60af740bab87c7a7"
+      ],
+      "canonical": "https://www.producthunt.com/products/easy-peasy-ai",
+      "title": "AI Employees by Easy-Peasy.AI",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "AI Employees by Easy-Peasy.AI",
+        "link": "https://www.producthunt.com/products/easy-peasy-ai",
+        "canonical": "https://www.producthunt.com/products/easy-peasy-ai",
+        "published": "2026-11-03T22:19:49-08:00",
+        "summary": "<p> Hire an AI team that splits the work and asks before sending </p> <p> <a href=\"https://www.producthunt.com/products/easy-peasy-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1303820?app_id=339\">Link</a> </p>",
+        "images": [],
+        "ageHours": 35.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:1c50a99dbb5387de",
+          "title:60af740bab87c7a7"
+        ]
+      },
+      "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
+    },
+    "defer:url:295354ff422b0d4d": {
+      "id": "defer:url:295354ff422b0d4d",
+      "at": "2026-11-05T17:53:17.822Z",
+      "firstAt": "2026-11-05T17:53:17.822Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:295354ff422b0d4d",
+        "title:7a086a99a7333bd0"
+      ],
+      "canonical": "https://openai.com/index/introducing-images-2-6",
+      "title": "Introducing Images 2.6",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Introducing Images 2.6",
+        "link": "https://openai.com/index/introducing-images-2-6",
+        "canonical": "https://openai.com/index/introducing-images-2-6",
+        "published": "Wed, 04 Nov 2026 00:00:00 GMT",
+        "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+        "images": [],
+        "ageHours": 41.9,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:295354ff422b0d4d",
+          "title:7a086a99a7333bd0"
+        ]
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -754,6 +961,20 @@
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/17-00",
       "messageId": 17,
       "mode": "send"
+    },
+    "2026-11-05T20:30+03:30": {
+      "at": "2026-11-05T17:53:38.726Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "مدارس یا همه ابزارهای هوش مصنوعی گوگل را فعال کنند یا جستجو",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/20-30",
+      "messageId": 18,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.000691124,
+      "tokens": 17590,
+      "qa": "37/37"
     }
   },
   "published": [
@@ -876,83 +1097,126 @@
       "dedupe_key": "anthropic-ap-licensing-deal",
       "post_key": "2026-11-05/17-00",
       "at": "2026-11-05T14:33:27.918Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-05T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "مدارس یا همه ابزارهای هوش مصنوعی گوگل را فعال کنند یا جستجو",
+      "why": "این تصمیم مدارس رو مجبور می‌کنه بین دسترسی به جستجوی گوگل و نگرانی‌هاشون یکی رو انتخاب کنن؛ چیزی که گوگل روش حساب کرده. مدارس ناراضی می‌تونن به جایگزین‌هایی مثل DuckDuckGo برن.",
+      "dedupe_key": "google-schools-ai-search-optout",
+      "post_key": "2026-11-05/20-30",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "at": "2026-11-05T17:53:38.726Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8302,
-      "last_at": "2026-11-05T11:30:09+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "last_id": 8303,
+      "last_at": "2026-11-05T15:46:07+00:00",
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "pedramgholizadeh": {
-      "last_id": 785,
-      "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "last_id": 786,
+      "last_at": "2026-11-05T16:05:24+00:00",
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "ai_farshad": {
-      "last_id": 6364,
-      "last_at": "2026-11-05T11:31:55+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "last_id": 6366,
+      "last_at": "2026-11-05T16:32:37+00:00",
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7160,
-      "last_at": "2026-11-05T08:42:10+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "last_id": 7161,
+      "last_at": "2026-11-05T15:51:38+00:00",
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "techiin_ir": {
-      "last_id": 20687,
-      "last_at": "2026-11-05T14:18:09+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "last_id": 20688,
+      "last_at": "2026-11-05T16:18:48+00:00",
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "mgh_mobin": {
       "last_id": 454,
       "last_at": "2026-11-05T12:45:09+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "asrnovin_ir": {
-      "last_id": 11408,
-      "last_at": "2026-11-05T09:51:32+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "last_id": 11409,
+      "last_at": "2026-11-05T17:21:13+00:00",
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "codecloude": {
       "last_id": 2552,
       "last_at": "2026-11-05T04:18:58+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "dunijet_ai": {
-      "last_id": 2508,
-      "last_at": "2026-11-05T12:26:44+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "last_id": 2509,
+      "last_at": "2026-11-05T15:48:02+00:00",
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     },
     "Sajadverse": {
       "last_id": 1243,
       "last_at": "2026-11-05T07:23:28+00:00",
-      "checked_at": "2026-11-05T14:30:15.687Z"
+      "checked_at": "2026-11-05T17:52:56.850Z"
     }
-  }
+  },
+  "offerReviews": [
+    {
+      "id": "2026-11-05|hf-papers|https://huggingface.co/papers/2611.05609",
+      "date": "2026-11-05",
+      "at": "2026-11-05T17:52:56.850Z",
+      "source": "hf-papers",
+      "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
+      "url": "https://huggingface.co/papers/2611.05609",
+      "reason": "research_paper",
+      "slot": "2026-11-05T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-05|tg-archive-tell|https://github.com/v1ktorrr0x/antigravity-filter-bypass",
+      "date": "2026-11-05",
+      "at": "2026-11-05T17:52:56.850Z",
+      "source": "tg-archive-tell",
+      "title": "GitHub - v1ktorrr0x/antigravity-filter-bypass",
+      "url": "https://github.com/v1ktorrr0x/antigravity-filter-bypass",
+      "reason": "model_skip",
+      "slot": "2026-11-05T20:30+03:30",
+      "kind": "tool",
+      "mainEligible": false
+    }
+  ],
+  "educationReviews": [],
+  "reviewPending": {}
 }
