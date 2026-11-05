@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T09:01:57.763Z",
+  "updatedAt": "2026-11-05T11:25:04.183Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -485,6 +485,58 @@
       "slot": "2026-11-05T11:30+03:30",
       "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
       "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared"
+    },
+    "url:1e2e5ef69de0d725": {
+      "at": "2026-11-05T11:24:13.888Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T14:00+03:30",
+      "title": "آموزش کامل ساخت ویدیو های شورت وایرال با کلاد بدون نیاز به هزینه",
+      "url": "https://youtu.be/gp5lnwT3M4I"
+    },
+    "title:654b0c40ac4299d1": {
+      "at": "2026-11-05T11:24:13.888Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T14:00+03:30",
+      "title": "آموزش کامل ساخت ویدیو های شورت وایرال با کلاد بدون نیاز به هزینه",
+      "url": "https://youtu.be/gp5lnwT3M4I"
+    },
+    "url:b6aee48f79a77ac4": {
+      "at": "2026-11-05T11:24:15.281Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T14:00+03:30",
+      "title": "فایل skill مورد نیاز کلاد دسکتاپ جهت ساخت ویدیو های شورت وایرال با بازدید میلیونی برای",
+      "url": "https://t.me/asrnovin_ir/11407"
+    },
+    "title:96c50d673d804df8": {
+      "at": "2026-11-05T11:24:15.281Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T14:00+03:30",
+      "title": "فایل skill مورد نیاز کلاد دسکتاپ جهت ساخت ویدیو های شورت وایرال با بازدید میلیونی برای",
+      "url": "https://t.me/asrnovin_ir/11407"
+    },
+    "url:95666940021eb80c": {
+      "at": "2026-11-05T11:25:04.182Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-05T14:00+03:30",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month"
+    },
+    "title:05427319ee512781": {
+      "at": "2026-11-05T11:25:04.182Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-05T14:00+03:30",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month"
     }
   },
   "deferred": {
@@ -614,6 +666,15 @@
       "at": "2026-11-05T09:01:57.762Z",
       "status": "empty",
       "reason": "all_candidates_rejected"
+    },
+    "2026-11-05T14:00+03:30": {
+      "at": "2026-11-05T11:25:04.182Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "اولین محصول AI محور Nothing دسامبر عرضه می‌شود",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/14-00",
+      "messageId": 16,
+      "mode": "send"
     }
   },
   "published": [
@@ -714,83 +775,94 @@
       "dedupe_key": "apple-ai-budget-cuts",
       "post_key": "2026-11-05/08-30",
       "at": "2026-11-05T05:49:10.036Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-05T14:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "اولین محصول AI محور Nothing دسامبر عرضه می‌شود",
+      "why": "اهمیتش اینه که Nothing با این محصول، مسیر متفاوتی از گجت‌های پوشیدنی رایج رو برای ورود AI به زندگی روزمره امتحان می‌کنه.",
+      "dedupe_key": "nothing-ai-product-launch",
+      "post_key": "2026-11-05/14-00",
+      "at": "2026-11-05T11:25:04.182Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8300,
-      "last_at": "2026-11-05T08:01:37+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "last_id": 8301,
+      "last_at": "2026-11-05T11:21:21+00:00",
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "ai_farshad": {
-      "last_id": 6362,
-      "last_at": "2026-11-05T07:52:39+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "last_id": 6363,
+      "last_at": "2026-11-05T09:30:02+00:00",
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "Mohammad_zammani": {
       "last_id": 7160,
       "last_at": "2026-11-05T08:42:10+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "techiin_ir": {
-      "last_id": 20679,
-      "last_at": "2026-11-05T08:45:15+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "last_id": 20684,
+      "last_at": "2026-11-05T09:52:12+00:00",
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "mgh_mobin": {
       "last_id": 453,
       "last_at": "2026-11-05T07:07:32+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "asrnovin_ir": {
-      "last_id": 11406,
-      "last_at": "2026-11-05T08:23:54+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "last_id": 11408,
+      "last_at": "2026-11-05T09:51:32+00:00",
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "shayanode": {
-      "last_id": 72,
-      "last_at": "2026-11-04T19:11:06+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "last_id": 78,
+      "last_at": "2026-11-05T09:09:14+00:00",
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "codecloude": {
       "last_id": 2552,
       "last_at": "2026-11-05T04:18:58+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "dunijet_ai": {
-      "last_id": 2505,
-      "last_at": "2026-11-05T06:46:15+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "last_id": 2507,
+      "last_at": "2026-11-05T10:46:17+00:00",
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     },
     "Sajadverse": {
       "last_id": 1243,
       "last_at": "2026-11-05T07:23:28+00:00",
-      "checked_at": "2026-11-05T08:54:11.786Z"
+      "checked_at": "2026-11-05T11:24:06.287Z"
     }
   }
 }
