@@ -152,6 +152,19 @@ jobs:
           printf 'RUN_ARGS %s\n' "${args[*]}"
           node pipeline/run-slot.mjs "${args[@]}"
 
+      - name: Daily report
+        if: always()
+        run: |
+          set -u
+          state="data/state.json"
+          if [ "${MODE}" = "dry" ]; then state="data/state.dry.json"; fi
+          if [ "${MODE}" = "send" ] && [ "${TARGET}" = "review" ]; then state="data/state.review.json"; fi
+          args=(--state "${state}")
+          for extra in data/state.json data/state.review.json; do
+            if [ "${extra}" != "${state}" ] && [ -f "${extra}" ]; then args+=(--state "${extra}"); fi
+          done
+          node pipeline/report.mjs "${args[@]}" || echo "REPORT_FAILED"
+
       - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4

@@ -441,7 +441,7 @@ export function dateMentioned(body, expiry) {
   return new RegExp(`\\b${monthName}\\b`, 'i').test(text) || text.includes(monthFa);
 }
 
-const REASON_FA = {
+export const REASON_FA = {
   source_not_official: 'منبع رسمی شرکت نیست',
   expiry_missing: 'تاریخ انقضا در منبع نیامده',
   expiry_ambiguous: 'تاریخ انقضا روشن نیست',

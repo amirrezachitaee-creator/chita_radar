@@ -1453,6 +1453,11 @@ async function main() {
         postDir: dir,
         mode: RUN_MODE,
         reason,
+        model: writer.model,
+        fallback,
+        cost,
+        tokens,
+        qa: `${qa.score}/${qa.possible}`,
       });
       await saveState(STATE_PATH, state);
       published = {
@@ -1509,6 +1514,10 @@ async function main() {
           title: post.title,
           postDir: dir,
           error: sendError,
+          model: writer.model,
+          cost,
+          tokens,
+          qa: `${qa.score}/${qa.possible}`,
         });
         if (offerContext || candidate.toolHint || candidate.officialCourse) {
           try {
@@ -1541,6 +1550,11 @@ async function main() {
       postDir: dir,
       messageId,
       mode: RUN_MODE,
+      model: writer.model,
+      fallback,
+      cost,
+      tokens,
+      qa: `${qa.score}/${qa.possible}`,
     });
     markSeen(state, candidate.keys, {
       decision: 'publish',
@@ -1570,7 +1584,7 @@ async function main() {
   }
 
   if (!published) {
-    markSlot(state, slot.key, { status: 'empty', reason: 'all_candidates_rejected' });
+    markSlot(state, slot.key, { status: 'empty', reason: 'all_candidates_rejected', cost: totalCost, tokens: totalTokens });
     pruneState(state, NOW, reviewPrune);
     await saveState(STATE_PATH, state);
     console.log(`RESULT EMPTY attempts=${attempts.length} reviews=${reviews} deferred=${Object.keys(state.deferred ?? {}).length} | cost $${totalCost.toFixed(6)} | tokens ${totalTokens}`);
