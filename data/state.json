@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T11:25:04.183Z",
+  "updatedAt": "2026-11-05T14:33:27.918Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -537,6 +537,76 @@
       "slot": "2026-11-05T14:00+03:30",
       "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
       "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month"
+    },
+    "url:0f329442a6c16bcc": {
+      "at": "2026-11-05T14:30:25.575Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "دوره آموزشی هوش مدرن",
+      "url": "https://mghacademy.ir/product/modern-intelligence-course"
+    },
+    "title:1409fb268fd5a887": {
+      "at": "2026-11-05T14:30:25.575Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "دوره آموزشی هوش مدرن",
+      "url": "https://mghacademy.ir/product/modern-intelligence-course"
+    },
+    "url:f2497d2da3243c28": {
+      "at": "2026-11-05T14:30:25.592Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "🔋قابلیت Guided Learning گوگل به Google Classroom اضافه شد!",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026"
+    },
+    "title:704067567cc24c13": {
+      "at": "2026-11-05T14:30:25.592Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "🔋قابلیت Guided Learning گوگل به Google Classroom اضافه شد!",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026"
+    },
+    "url:e60b71453d8fabcf": {
+      "at": "2026-11-05T14:30:26.097Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "✅ دوره رایگان بهره‌وری و مدیریت زمان برای افراد غرق شده در افکار",
+      "url": "https://git.ir/p/28YMA"
+    },
+    "title:6df6e3778e6d3e90": {
+      "at": "2026-11-05T14:30:26.097Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "✅ دوره رایگان بهره‌وری و مدیریت زمان برای افراد غرق شده در افکار",
+      "url": "https://git.ir/p/28YMA"
+    },
+    "url:a6cf9949747a20c4": {
+      "at": "2026-11-05T14:33:27.917Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "Anthropic reverses course and pays for news content for the first time",
+      "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time"
+    },
+    "title:45b65feb41d8c2ca": {
+      "at": "2026-11-05T14:33:27.917Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-05T17:00+03:30",
+      "title": "Anthropic reverses course and pays for news content for the first time",
+      "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time"
     }
   },
   "deferred": {
@@ -675,6 +745,15 @@
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/14-00",
       "messageId": 16,
       "mode": "send"
+    },
+    "2026-11-05T17:00+03:30": {
+      "at": "2026-11-05T14:33:27.917Z",
+      "status": "sent",
+      "category": "business",
+      "title": "آنتروپیک برای اولین‌بار بابت محتوای خبری پول می‌دهد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/17-00",
+      "messageId": 17,
+      "mode": "send"
     }
   },
   "published": [
@@ -786,83 +865,94 @@
       "dedupe_key": "nothing-ai-product-launch",
       "post_key": "2026-11-05/14-00",
       "at": "2026-11-05T11:25:04.182Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-05T17:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "آنتروپیک برای اولین‌بار بابت محتوای خبری پول می‌دهد",
+      "why": "این قرارداد از این جهت مهمه که آنتروپیک را در آستانه عرضه اولیه سهام، به مدل تجاری رقبا نزدیک می‌کنه و دسترسی کلود به اخبار به‌روز را باز می‌کنه.",
+      "dedupe_key": "anthropic-ap-licensing-deal",
+      "post_key": "2026-11-05/17-00",
+      "at": "2026-11-05T14:33:27.918Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8301,
-      "last_at": "2026-11-05T11:21:21+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "last_id": 8302,
+      "last_at": "2026-11-05T11:30:09+00:00",
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "ai_farshad": {
-      "last_id": 6363,
-      "last_at": "2026-11-05T09:30:02+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "last_id": 6364,
+      "last_at": "2026-11-05T11:31:55+00:00",
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "Mohammad_zammani": {
       "last_id": 7160,
       "last_at": "2026-11-05T08:42:10+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "techiin_ir": {
-      "last_id": 20684,
-      "last_at": "2026-11-05T09:52:12+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "last_id": 20687,
+      "last_at": "2026-11-05T14:18:09+00:00",
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "mgh_mobin": {
-      "last_id": 453,
-      "last_at": "2026-11-05T07:07:32+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "last_id": 454,
+      "last_at": "2026-11-05T12:45:09+00:00",
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "asrnovin_ir": {
       "last_id": 11408,
       "last_at": "2026-11-05T09:51:32+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "codecloude": {
       "last_id": 2552,
       "last_at": "2026-11-05T04:18:58+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "dunijet_ai": {
-      "last_id": 2507,
-      "last_at": "2026-11-05T10:46:17+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "last_id": 2508,
+      "last_at": "2026-11-05T12:26:44+00:00",
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     },
     "Sajadverse": {
       "last_id": 1243,
       "last_at": "2026-11-05T07:23:28+00:00",
-      "checked_at": "2026-11-05T11:24:06.287Z"
+      "checked_at": "2026-11-05T14:30:15.687Z"
     }
   }
 }
