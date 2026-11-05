@@ -147,12 +147,14 @@
       "name": "Hugging Face Daily Papers",
       "url": "https://huggingface.co/papers",
       "api_url": "https://huggingface.co/api/daily_papers",
+      "verified_at": "2026-11-05",
       "categories": [
         "models"
       ],
       "type": "research_index",
       "use": "api",
-      "no_feed_reason": "RSS returns 401; JSON API returns 200 on 2026-11-04"
+      "status": "verified",
+      "no_feed_reason": "RSS returns 401; the JSON API is the verified listing (2026-11-05)"
     },
     {
       "id": "product-hunt",

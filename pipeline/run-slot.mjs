@@ -489,7 +489,11 @@ async function main() {
         Boolean(source.username)
       );
     }
-    return Boolean(source.feed_url) || (source.use === 'page' && Boolean(source.index_url));
+    return (
+      Boolean(source.feed_url) ||
+      (source.use === 'page' && Boolean(source.index_url)) ||
+      (source.use === 'api' && Boolean(source.api_url))
+    );
   });
   if (SOURCE_FILTER.length) {
     sources = sources.filter((source) => SOURCE_FILTER.includes(source.id));
@@ -508,10 +512,18 @@ async function main() {
     maxAgeHours: config.freshness_hours.pre_gate,
     redact,
     telegram: config.telegram_discovery,
+    hfPapers: config.hf_papers,
   });
-  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
+  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} api=${stats.apiItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
   for (const error of stats.errors) {
-    const label = error.kind === 'telegram' ? 'TELEGRAM_ERROR' : error.kind === 'benchmark' ? 'INDEX_ERROR' : 'FEED_ERROR';
+    const label =
+      error.kind === 'telegram'
+        ? 'TELEGRAM_ERROR'
+        : error.kind === 'benchmark'
+          ? 'INDEX_ERROR'
+          : error.kind === 'api'
+            ? 'API_ERROR'
+            : 'FEED_ERROR';
     console.log(`  ${label} ${error.source}: ${error.error}`);
   }
   const tg = stats.telegram;
@@ -621,20 +633,27 @@ async function main() {
   }
   if (SEND && memoryChanged) await saveState(STATE_PATH, state);
 
+  const reviewReasonOf = (candidate) => candidate.reviewReason || 'referral_link';
+  const reviewNoteOf = (reason) =>
+    reason === 'research_paper'
+      ? 'این مقاله پژوهشی برای بازبینی جدا شده و به کانال اصلی نرفته است.'
+      : 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.';
+
   const reviewLeads = mainCandidates.filter((candidate) => candidate.needsReview);
   mainCandidates = mainCandidates.filter((candidate) => !candidate.needsReview);
   if (reviewLeads.length) {
-    console.log(`TELEGRAM_REFERRAL_REVIEWS ${reviewLeads.length} separate_from_main=yes`);
+    console.log(`REVIEW_LEADS ${reviewLeads.length} separate_from_main=yes`);
     for (const candidate of reviewLeads) {
+      const reason = reviewReasonOf(candidate);
       const kind = candidate.offerHint ? 'offer' : candidate.toolHint ? 'tool' : 'post';
       await deliverReview({
         candidate,
         article: null,
-        assessment: { reason: 'referral_link' },
-        reason: 'referral_link',
+        assessment: { reason },
+        reason,
         kind,
         text: candidate.messageText,
-        note: 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.',
+        note: reviewNoteOf(reason),
       });
     }
   }
@@ -858,16 +877,17 @@ async function main() {
     );
 
     if (candidate.needsReview) {
+      const reason = reviewReasonOf(candidate);
       const kind = candidate.offerHint || preOffer.isOffer ? 'offer' : candidate.toolHint ? 'tool' : 'post';
-      console.log(`  TELEGRAM_REFERRAL_REVIEW kind=${kind}`);
+      console.log(`  REVIEW_LEAD kind=${kind} reason=${reason}`);
       await deliverReview({
         candidate,
         article: null,
-        assessment: { reason: 'referral_link' },
-        reason: 'referral_link',
+        assessment: { reason },
+        reason,
         kind,
         text: candidate.messageText,
-        note: 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.',
+        note: reviewNoteOf(reason),
       });
       continue;
     }

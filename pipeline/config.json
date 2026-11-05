@@ -116,6 +116,7 @@
         "review_daily_cap",
         "review_source_cap",
         "referral_link",
+        "research_paper",
         "thin_content",
         "fetch_failed",
         "tool_incomplete",
@@ -242,6 +243,40 @@
       ".rar",
       ".apk",
       ".exe"
+    ]
+  },
+  "hf_papers": {
+    "enabled": true,
+    "min_comments": 4,
+    "notable_min_comments": 2,
+    "max_candidates": 1,
+    "notable_organizations": [
+      "openai",
+      "anthropic",
+      "google",
+      "deepmind",
+      "meta",
+      "microsoft",
+      "nvidia",
+      "tencent",
+      "bytedance",
+      "alibaba",
+      "qwen",
+      "deepseek",
+      "mistral",
+      "baidu",
+      "apple",
+      "amazon",
+      "xai",
+      "moonshot",
+      "zhipu",
+      "minimax",
+      "huawei",
+      "samsung",
+      "salesforce",
+      "snowflake",
+      "ibm",
+      "ant group"
     ]
   }
 }

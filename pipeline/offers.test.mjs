@@ -246,6 +246,21 @@ test('review text names the reason and links the original source', () => {
   assert.match(text, /کانال اصلی/);
 });
 
+test('research paper reviews carry their own Persian reason and abstract', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'Think Less, Locally',
+      sourceName: 'Hugging Face Daily Papers',
+      link: 'https://huggingface.co/papers/2611.00001',
+      messageText: 'short abstract about reasoning compression',
+    },
+    assessment: { reason: 'research_paper' },
+  });
+  assert.match(text, /بازبینی پست — مقاله پژوهشی منتخب/);
+  assert.match(text, /short abstract about reasoning compression/);
+  assert.match(text, /نیازمند بررسی پیش از انتشار/);
+});
+
 test('review usage counts every state once and tracks the source channel', () => {
   const main = { offerReviews: [] };
   const review = { offerReviews: [] };

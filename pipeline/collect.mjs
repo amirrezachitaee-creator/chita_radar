@@ -5,6 +5,7 @@ import { hasReferral, offerHint } from './offers.mjs';
 import { aiHint, isAiCentral } from './relevance.mjs';
 import { categoryHint } from './diversity.mjs';
 import { fetchArticleIndex } from './benchmark.mjs';
+import { fetchDailyPapers, selectDailyPapers } from './hf-papers.mjs';
 import {
   classifyLead,
   hasExternalLink,
@@ -131,6 +132,93 @@ async function collectIndexSource({
       aiHint: aiHint(`${item.title} ${summary}`),
       aiCentral: isAiCentral(item.title, summary),
       offerHint: false,
+      sourceCategories: Array.isArray(source.categories) ? source.categories : [],
+      categoryHint: categoryHint({
+        title: item.title,
+        summary,
+        sourceCategories: source.categories ?? [],
+      }),
+      keys,
+    });
+  }
+}
+
+async function collectApiSource({
+  source,
+  state,
+  memoryStates,
+  now,
+  maxAgeHours,
+  settings,
+  fetchImpl,
+  redact,
+  stats,
+  candidates,
+  seenThisRun,
+}) {
+  if (settings.enabled === false) return;
+  stats.sources += 1;
+
+  let items;
+  try {
+    items = await fetchDailyPapers(source, fetchImpl, redact);
+  } catch (error) {
+    stats.errors.push({ source: source.id, kind: 'api', error: String(error?.message ?? error) });
+    return;
+  }
+  stats.apiItems += items.length;
+
+  const eligible = [];
+  for (const item of items) {
+    const gate = freshness(item.published, now, { maxAgeHours });
+    if (!gate.ok) {
+      if (gate.reason === 'no_date' || gate.reason === 'bad_date') stats.noDate += 1;
+      else stats.stale += 1;
+      continue;
+    }
+    eligible.push({ ...item, gate });
+  }
+
+  for (const item of selectDailyPapers(eligible, settings)) {
+    const { gate } = item;
+    let canonical;
+    try {
+      canonical = canonicalUrl(item.url);
+    } catch {
+      stats.noDate += 1;
+      continue;
+    }
+    if (seenThisRun.has(canonical)) {
+      stats.duplicate += 1;
+      continue;
+    }
+    const keys = dedupeKeys({ url: canonical, title: item.title });
+    const seen = seenAcrossLanes(state, memoryStates, keys, now);
+    if (seen) {
+      stats.duplicate += 1;
+      if (seen.crossLane) stats.crossLane += 1;
+      continue;
+    }
+
+    seenThisRun.add(canonical);
+    const summary = item.summary ?? '';
+    candidates.push({
+      sourceId: source.id,
+      sourceName: source.name,
+      sourceType: source.type,
+      title: item.title,
+      link: item.url,
+      canonical,
+      published: item.published,
+      summary,
+      messageText: summary,
+      images: [],
+      ageHours: gate.ageHours,
+      aiHint: aiHint(`${item.title} ${summary}`),
+      aiCentral: isAiCentral(item.title, summary),
+      offerHint: false,
+      needsReview: true,
+      reviewReason: 'research_paper',
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],
       categoryHint: categoryHint({
         title: item.title,
@@ -383,11 +471,13 @@ export async function collectCandidates({
   fetchImpl = fetchText,
   redact,
   telegram = {},
+  hfPapers = {},
 }) {
   const stats = {
     sources: 0,
     feedItems: 0,
     indexItems: 0,
+    apiItems: 0,
     stale: 0,
     noDate: 0,
     duplicate: 0,
@@ -425,6 +515,22 @@ export async function collectCandidates({
         now,
         maxAgeHours,
         perSource,
+        fetchImpl,
+        redact,
+        stats,
+        candidates,
+        seenThisRun,
+      });
+      continue;
+    }
+    if (source.use === 'api' && source.api_url) {
+      await collectApiSource({
+        source,
+        state,
+        memoryStates,
+        now,
+        maxAgeHours,
+        settings: hfPapers,
         fetchImpl,
         redact,
         stats,

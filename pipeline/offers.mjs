@@ -457,6 +457,7 @@ const REASON_FA = {
   review_source_cap: 'سقف روزانه این منبع در صف بازبینی پر شده است',
   review_disabled: 'صف بازبینی غیرفعال است',
   referral_link: 'لینک ارجاعی حل نشده است',
+  research_paper: 'مقاله پژوهشی منتخب',
   quiet_hours: 'در ساعات آرام پیدا شد',
   send_failed: 'ارسال به کانال اصلی ناموفق بود',
   thin_content: 'متن کافی برای ساخت پست نبود',

@@ -320,6 +320,24 @@ test('page sources have a verified index and a known parser', () => {
   }
 });
 
+test('api sources have a verified endpoint and a strict paper filter', () => {
+  const apis = sources.sources.filter((source) => source.use === 'api' && source.api_url);
+  assert.deepEqual(apis.map((source) => source.id).sort(), ['hf-papers']);
+  for (const source of apis) {
+    assert.match(source.api_url ?? '', /^https:\/\//, `${source.id} has no api url`);
+    assert.equal(source.status, 'verified', `${source.id} is not verified`);
+    assert.match(source.verified_at ?? '', /^\d{4}-\d{2}-\d{2}$/, `${source.id} has no verification date`);
+    assert.ok(source.categories.includes('models'), `${source.id} is not a models source`);
+  }
+  assert.equal(config.hf_papers.enabled, true);
+  assert.ok(config.hf_papers.min_comments >= 3, 'the firehose bar is too low');
+  assert.ok(config.hf_papers.notable_min_comments < config.hf_papers.min_comments);
+  assert.ok(config.hf_papers.max_candidates >= 1 && config.hf_papers.max_candidates <= 2);
+  for (const name of ['openai', 'anthropic', 'google', 'nvidia', 'tencent', 'qwen', 'deepseek']) {
+    assert.ok(config.hf_papers.notable_organizations.includes(name), `${name} is missing`);
+  }
+});
+
 test('the remaining proposed sources are recorded as proposed, not verified', () => {
   const proposed = sources.sources
     .filter((source) => source.status === 'proposed')
