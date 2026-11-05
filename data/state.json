@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T20:17:27.696Z",
+  "updatedAt": "2026-11-05T05:49:10.036Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -361,14 +361,66 @@
       "slot": "2026-11-04T23:00+03:30",
       "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
       "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy"
+    },
+    "url:16422f89b0b2c94d": {
+      "at": "2026-11-05T05:46:06.509Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T08:30+03:30",
+      "title": "🤖 کمپانی OpenAI بالاخره ChatGPT Images 2.6 رو داد بیرون و دست گذاشت روی چیزی که",
+      "url": "https://t.me/Mohammad_zammani/7156"
+    },
+    "title:860bc5227862b363": {
+      "at": "2026-11-05T05:46:06.509Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-05T08:30+03:30",
+      "title": "🤖 کمپانی OpenAI بالاخره ChatGPT Images 2.6 رو داد بیرون و دست گذاشت روی چیزی که",
+      "url": "https://t.me/Mohammad_zammani/7156"
+    },
+    "url:64adb33da300d978": {
+      "at": "2026-11-05T05:47:07.915Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-05T08:30+03:30",
+      "title": "تیر خلاص بر پیکر بی جان طراحان سایت با وردپرس🤦🏻‍♂️",
+      "url": "https://wp.me/chatgpt"
+    },
+    "title:5b6d3565b8cfb92f": {
+      "at": "2026-11-05T05:47:07.915Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-05T08:30+03:30",
+      "title": "تیر خلاص بر پیکر بی جان طراحان سایت با وردپرس🤦🏻‍♂️",
+      "url": "https://wp.me/chatgpt"
+    },
+    "url:6df289088a3e596c": {
+      "at": "2026-11-05T05:49:10.035Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-05T08:30+03:30",
+      "title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage"
+    },
+    "title:27af587d318d74f9": {
+      "at": "2026-11-05T05:49:10.035Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-05T08:30+03:30",
+      "title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage"
     }
   },
   "deferred": {
     "defer:url:60b49bd40bcd399c": {
       "id": "defer:url:60b49bd40bcd399c",
-      "at": "2026-11-04T20:17:12.665Z",
+      "at": "2026-11-05T05:46:55.207Z",
       "firstAt": "2026-11-04T20:17:12.665Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "qa_failed",
       "reasons": [
         "qa_failed"
@@ -398,7 +450,11 @@
         "keys": [
           "url:60b49bd40bcd399c",
           "title:50e9912d86ada5f6"
-        ]
+        ],
+        "deferred": {
+          "id": "defer:url:60b49bd40bcd399c",
+          "attempts": 1
+        }
       },
       "detail": "dedupe_key"
     }
@@ -471,6 +527,15 @@
       "title": "DuckDuckGo به مدارس پیشنهاد می‌دهد موتور جستجوی پیش‌فرض را عوض",
       "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-04/23-00",
       "messageId": 14,
+      "mode": "send"
+    },
+    "2026-11-05T08:30+03:30": {
+      "at": "2026-11-05T05:49:10.035Z",
+      "status": "sent",
+      "category": "business",
+      "title": "اپل بودجه استفاده داخلی از هوش مصنوعی را کم می‌کند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/08-30",
+      "messageId": 15,
       "mode": "send"
     }
   },
@@ -561,83 +626,94 @@
       "dedupe_key": "duckduckgo-schools-google-ai-policy",
       "post_key": "2026-11-04/23-00",
       "at": "2026-11-04T20:17:27.696Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-05T08:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "اپل بودجه استفاده داخلی از هوش مصنوعی را کم می‌کند",
+      "why": "این کاهش‌ها نشان می‌دهد شرکت‌ها بعد از موج اولیه استفاده حداکثری، به دنبال کنترل هزینه‌های سنگین هوش مصنوعی هستند.",
+      "dedupe_key": "apple-ai-budget-cuts",
+      "post_key": "2026-11-05/08-30",
+      "at": "2026-11-05T05:49:10.036Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8296,
-      "last_at": "2026-11-04T19:07:44+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "last_id": 8298,
+      "last_at": "2026-11-04T21:11:02+00:00",
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "pedramgholizadeh": {
       "last_id": 785,
       "last_at": "2026-11-03T12:28:47+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "ai_farshad": {
       "last_id": 6360,
       "last_at": "2026-11-04T19:31:34+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7155,
-      "last_at": "2026-11-04T16:28:53+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "last_id": 7156,
+      "last_at": "2026-11-05T04:16:15+00:00",
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "techiin_ir": {
       "last_id": 20678,
       "last_at": "2026-11-04T15:50:01+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "mgh_mobin": {
       "last_id": 450,
       "last_at": "2026-11-03T14:32:14+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "asrnovin_ir": {
-      "last_id": 11404,
-      "last_at": "2026-11-04T19:20:01+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "last_id": 11405,
+      "last_at": "2026-11-04T20:39:34+00:00",
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "shayanode": {
       "last_id": 72,
       "last_at": "2026-11-04T19:11:06+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "codecloude": {
-      "last_id": 2551,
-      "last_at": "2026-11-04T17:43:48+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "last_id": 2552,
+      "last_at": "2026-11-05T04:18:58+00:00",
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "dunijet_ai": {
       "last_id": 2503,
       "last_at": "2026-11-04T08:16:16+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     },
     "Sajadverse": {
       "last_id": 1242,
       "last_at": "2026-11-04T07:39:03+00:00",
-      "checked_at": "2026-11-04T20:16:40.967Z"
+      "checked_at": "2026-11-05T05:45:58.997Z"
     }
   }
 }
