@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-05T17:53:38.727Z",
+  "updatedAt": "2026-11-05T19:31:10.958Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -677,6 +677,22 @@
       "slot": "2026-11-05T20:30+03:30",
       "title": "Google will let schools skip AI tools, but they have to give up search, too",
       "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too"
+    },
+    "url:b2e861cf858b7f41": {
+      "at": "2026-11-05T19:31:10.957Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-05T23:00+03:30",
+      "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+      "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent"
+    },
+    "title:eff643896a6ae198": {
+      "at": "2026-11-05T19:31:10.957Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-05T23:00+03:30",
+      "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+      "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent"
     }
   },
   "deferred": {
@@ -975,6 +991,20 @@
       "cost": 0.000691124,
       "tokens": 17590,
       "qa": "37/37"
+    },
+    "2026-11-05T23:00+03:30": {
+      "at": "2026-11-05T19:31:10.957Z",
+      "status": "sent",
+      "category": "models",
+      "title": "مدل ویدیویی جدید گوگل ۱۵ ثانیه‌ای و ۳۰ درصد ارزان‌تر",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-05/23-00",
+      "messageId": 19,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0017420872,
+      "tokens": 18011,
+      "qa": "37/37"
     }
   },
   "published": [
@@ -1112,83 +1142,98 @@
       "sourceType": "news",
       "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
       "at": "2026-11-05T17:53:38.726Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-05T23:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل ویدیویی جدید گوگل ۱۵ ثانیه‌ای و ۳۰ درصد ارزان‌تر",
+      "why": "اثر واقعی‌اش اینه که تولید ویدیوی تبلیغاتی و محتوای کوتاه برای تیم‌های کوچک هم از نظر هزینه و هم سرعت عملی‌تر می‌شه.",
+      "dedupe_key": "google-gemini-omni12-flash-ga",
+      "post_key": "2026-11-05/23-00",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+      "at": "2026-11-05T19:31:10.957Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8303,
-      "last_at": "2026-11-05T15:46:07+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "last_id": 8309,
+      "last_at": "2026-11-05T19:11:37+00:00",
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "ai_farshad": {
-      "last_id": 6366,
-      "last_at": "2026-11-05T16:32:37+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "last_id": 6367,
+      "last_at": "2026-11-05T18:34:21+00:00",
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "Mohammad_zammani": {
       "last_id": 7161,
       "last_at": "2026-11-05T15:51:38+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "techiin_ir": {
       "last_id": 20688,
       "last_at": "2026-11-05T16:18:48+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "mgh_mobin": {
       "last_id": 454,
       "last_at": "2026-11-05T12:45:09+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "asrnovin_ir": {
       "last_id": 11409,
       "last_at": "2026-11-05T17:21:13+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "codecloude": {
-      "last_id": 2552,
-      "last_at": "2026-11-05T04:18:58+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "last_id": 2553,
+      "last_at": "2026-11-05T19:14:53+00:00",
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "dunijet_ai": {
-      "last_id": 2509,
-      "last_at": "2026-11-05T15:48:02+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "last_id": 2510,
+      "last_at": "2026-11-05T19:28:16+00:00",
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     },
     "Sajadverse": {
       "last_id": 1243,
       "last_at": "2026-11-05T07:23:28+00:00",
-      "checked_at": "2026-11-05T17:52:56.850Z"
+      "checked_at": "2026-11-05T19:30:36.770Z"
     }
   },
   "offerReviews": [
