@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T13:31:50.004Z",
+  "updatedAt": "2026-11-06T17:01:36.227Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -775,6 +775,24 @@
       "slot": "2026-11-06T17:00+03:30",
       "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+    },
+    "url:b0671b3fa0f50f91": {
+      "at": "2026-11-06T17:01:36.226Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,dedupe_key,category_fresh",
+      "category": "tools",
+      "slot": "2026-11-06T20:30+03:30",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent"
+    },
+    "title:0d6274f2273a5cc4": {
+      "at": "2026-11-06T17:01:36.226Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,dedupe_key,category_fresh",
+      "category": "tools",
+      "slot": "2026-11-06T20:30+03:30",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent"
     }
   },
   "deferred": {
@@ -822,9 +840,9 @@
     },
     "defer:url:a6ba9ef21e2f6a77": {
       "id": "defer:url:a6ba9ef21e2f6a77",
-      "at": "2026-11-06T10:30:56.276Z",
+      "at": "2026-11-06T17:01:09.791Z",
       "firstAt": "2026-11-05T17:53:13.944Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -875,7 +893,7 @@
         "officialCourse": false,
         "deferred": {
           "id": "defer:url:a6ba9ef21e2f6a77",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
@@ -1016,6 +1034,87 @@
         "officialCourse": false
       },
       "detail": "tools"
+    },
+    "defer:url:c268f72e5fa452d2": {
+      "id": "defer:url:c268f72e5fa452d2",
+      "at": "2026-11-06T17:01:09.842Z",
+      "firstAt": "2026-11-06T17:01:09.842Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:c268f72e5fa452d2",
+        "title:f2f533734c08f5fc"
+      ],
+      "canonical": "https://www.producthunt.com/products/cloptima",
+      "title": "Cloptima",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Cloptima",
+        "link": "https://www.producthunt.com/products/cloptima",
+        "canonical": "https://www.producthunt.com/products/cloptima",
+        "published": "2026-11-05T15:40:34-08:00",
+        "summary": "<p> AI Gateway, Guardrails & LLM FinOps </p> <p> <a href=\"https://www.producthunt.com/products/cloptima?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1306023?app_id=339\">Link</a> </p>",
+        "images": [],
+        "ageHours": 17.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:c268f72e5fa452d2",
+          "title:f2f533734c08f5fc"
+        ]
+      },
+      "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
+    },
+    "defer:url:bbd492caba72ca54": {
+      "id": "defer:url:bbd492caba72ca54",
+      "at": "2026-11-06T17:01:09.912Z",
+      "firstAt": "2026-11-06T17:01:09.912Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:bbd492caba72ca54",
+        "title:eba11b40682526b9"
+      ],
+      "canonical": "https://openai.com/index/cultfit-builds-with-codex",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Cult.fit builds operational muscle with Codex",
+        "link": "https://openai.com/index/cultfit-builds-with-codex",
+        "canonical": "https://openai.com/index/cultfit-builds-with-codex",
+        "published": "Thu, 05 Nov 2026 20:00:00 GMT",
+        "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+        "images": [],
+        "ageHours": 21,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:bbd492caba72ca54",
+          "title:eba11b40682526b9"
+        ]
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -1203,6 +1302,13 @@
       "cost": 0.0002864568,
       "tokens": 7971,
       "qa": "37/37"
+    },
+    "2026-11-06T20:30+03:30": {
+      "at": "2026-11-06T17:01:36.226Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.00114198,
+      "tokens": 7669
     }
   },
   "published": [
@@ -1419,79 +1525,79 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8310,
-      "last_at": "2026-11-06T11:22:35+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "last_id": 8312,
+      "last_at": "2026-11-06T14:38:54+00:00",
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "ai_farshad": {
-      "last_id": 6374,
-      "last_at": "2026-11-06T09:58:56+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "last_id": 6376,
+      "last_at": "2026-11-06T16:32:37+00:00",
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "Mohammad_zammani": {
       "last_id": 7164,
       "last_at": "2026-11-06T08:52:25+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "techiin_ir": {
-      "last_id": 20697,
-      "last_at": "2026-11-06T12:41:14+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "last_id": 20702,
+      "last_at": "2026-11-06T16:49:08+00:00",
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "mgh_mobin": {
       "last_id": 456,
       "last_at": "2026-11-06T08:50:33+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "asrnovin_ir": {
-      "last_id": 11412,
-      "last_at": "2026-11-06T08:56:58+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "last_id": 11414,
+      "last_at": "2026-11-06T16:57:02+00:00",
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "codecloude": {
       "last_id": 2554,
       "last_at": "2026-11-06T05:59:18+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "dunijet_ai": {
       "last_id": 2511,
       "last_at": "2026-11-06T11:55:43+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "marketing_aida": {
       "last_id": 101,
       "last_at": "2026-11-06T12:21:46+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "checked_at": "2026-11-06T17:01:01.019Z"
     },
     "Sajadverse": {
-      "last_id": 1244,
-      "last_at": "2026-11-06T08:19:07+00:00",
-      "checked_at": "2026-11-06T13:30:39.931Z"
+      "last_id": 1245,
+      "last_at": "2026-11-06T15:10:29+00:00",
+      "checked_at": "2026-11-06T17:01:01.019Z"
     }
   },
   "offerReviews": [
