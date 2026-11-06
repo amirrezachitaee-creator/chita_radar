@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-05T19:31:10.958Z",
+  "updatedAt": "2026-11-06T05:01:20.110Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -693,6 +693,22 @@
       "slot": "2026-11-05T23:00+03:30",
       "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
       "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent"
+    },
+    "url:cb9b318f703a0f1a": {
+      "at": "2026-11-06T05:01:20.109Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-06T08:30+03:30",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents"
+    },
+    "title:1f37277a6de4f38d": {
+      "at": "2026-11-06T05:01:20.109Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-06T08:30+03:30",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents"
     }
   },
   "deferred": {
@@ -1005,6 +1021,20 @@
       "cost": 0.0017420872,
       "tokens": 18011,
       "qa": "37/37"
+    },
+    "2026-11-06T08:30+03:30": {
+      "at": "2026-11-06T05:01:20.109Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "پردازنده ورا انویدیا برای اجرای همزمان ایجنت‌های هوش مصنوعی",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-06/08-30",
+      "messageId": 20,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0012376,
+      "tokens": 8075,
+      "qa": "37/37"
     }
   },
   "published": [
@@ -1157,83 +1187,98 @@
       "sourceType": "news",
       "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
       "at": "2026-11-05T19:31:10.957Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-06T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "پردازنده ورا انویدیا برای اجرای همزمان ایجنت‌های هوش مصنوعی",
+      "why": "چون دیتاسنترها با محدودیت برق مواجه‌ان، انتخاب سخت‌افزاری که به‌ازای هر وات کار بیشتری بکنه، اهمیت زیادی داره. با ورا، شرکت‌ها می‌تونن یک نوع پردازنده رو برای انواع بار کاری ایجنت‌ها استفاده کنن و نیازی به ترکیب چند مدل مختلف برای تعادل بین سرعت و ظرفیت ندارن.",
+      "dedupe_key": "nvidia-vera-launch",
+      "post_key": "2026-11-06/08-30",
+      "sourceId": "nvidia-ai-blog",
+      "sourceName": "NVIDIA AI Blog",
+      "sourceType": "official_blog",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "at": "2026-11-06T05:01:20.109Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8309,
       "last_at": "2026-11-05T19:11:37+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "ai_farshad": {
       "last_id": 6367,
       "last_at": "2026-11-05T18:34:21+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "Mohammad_zammani": {
       "last_id": 7161,
       "last_at": "2026-11-05T15:51:38+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "techiin_ir": {
       "last_id": 20688,
       "last_at": "2026-11-05T16:18:48+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "mgh_mobin": {
       "last_id": 454,
       "last_at": "2026-11-05T12:45:09+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "asrnovin_ir": {
       "last_id": 11409,
       "last_at": "2026-11-05T17:21:13+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "codecloude": {
       "last_id": 2553,
       "last_at": "2026-11-05T19:14:53+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "dunijet_ai": {
       "last_id": 2510,
       "last_at": "2026-11-05T19:28:16+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     },
     "Sajadverse": {
       "last_id": 1243,
       "last_at": "2026-11-05T07:23:28+00:00",
-      "checked_at": "2026-11-05T19:30:36.770Z"
+      "checked_at": "2026-11-06T05:00:47.571Z"
     }
   },
   "offerReviews": [
