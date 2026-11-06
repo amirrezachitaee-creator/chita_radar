@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T05:01:20.110Z",
+  "updatedAt": "2026-11-06T08:03:15.120Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -709,6 +709,22 @@
       "slot": "2026-11-06T08:30+03:30",
       "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
       "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents"
+    },
+    "url:df9d4138a6f415f7": {
+      "at": "2026-11-06T08:03:15.120Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-06T11:30+03:30",
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them"
+    },
+    "title:2782666c820bd8f7": {
+      "at": "2026-11-06T08:03:15.120Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-06T11:30+03:30",
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them"
     }
   },
   "deferred": {
@@ -890,6 +906,52 @@
         ]
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:e12ad59c369bd96f": {
+      "id": "defer:url:e12ad59c369bd96f",
+      "at": "2026-11-06T08:02:17.434Z",
+      "firstAt": "2026-11-06T08:02:17.434Z",
+      "attempts": 1,
+      "reason": "qa_failed",
+      "reasons": [
+        "qa_failed"
+      ],
+      "keys": [
+        "url:e12ad59c369bd96f",
+        "title:dae32787caab074b"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable",
+      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+        "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+        "canonical": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable",
+        "published": "Thu, 05 Nov 2026 21:40:36 +0000",
+        "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-500x500-1748638352.jpg"
+        ],
+        "ageHours": 10.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:e12ad59c369bd96f",
+          "title:dae32787caab074b"
+        ]
+      },
+      "detail": "grounding_superlatives"
     }
   },
   "slots": {
@@ -1035,6 +1097,20 @@
       "cost": 0.0012376,
       "tokens": 8075,
       "qa": "37/37"
+    },
+    "2026-11-06T11:30+03:30": {
+      "at": "2026-11-06T08:03:15.119Z",
+      "status": "sent",
+      "category": "models",
+      "title": "GPT-6 Cyber از OpenAI؛ هم نفوذ می‌کنه، هم وصله می‌ده",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-06/11-30",
+      "messageId": 21,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0011149376,
+      "tokens": 20069,
+      "qa": "36/37"
     }
   },
   "published": [
@@ -1202,83 +1278,98 @@
       "sourceType": "official_blog",
       "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
       "at": "2026-11-06T05:01:20.109Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-06T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "GPT-6 Cyber از OpenAI؛ هم نفوذ می‌کنه، هم وصله می‌ده",
+      "why": "اهمیتش اینه که ابزارهای امنیتی خودکار با این سطح از دقت، می‌تونن سرعت پیدا کردن و رفع باگ‌های حیاتی رو به‌طرز چشمگیری بالا ببرن و کار محققان امنیتی رو راحت‌تر کنن.",
+      "dedupe_key": "openai-gpt6-cyber-launch",
+      "post_key": "2026-11-06/11-30",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+      "at": "2026-11-06T08:03:15.120Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8309,
       "last_at": "2026-11-05T19:11:37+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "ai_farshad": {
-      "last_id": 6367,
-      "last_at": "2026-11-05T18:34:21+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "last_id": 6368,
+      "last_at": "2026-11-06T07:32:50+00:00",
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7161,
-      "last_at": "2026-11-05T15:51:38+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "last_id": 7163,
+      "last_at": "2026-11-06T05:36:02+00:00",
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "techiin_ir": {
       "last_id": 20688,
       "last_at": "2026-11-05T16:18:48+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "mgh_mobin": {
       "last_id": 454,
       "last_at": "2026-11-05T12:45:09+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "asrnovin_ir": {
-      "last_id": 11409,
-      "last_at": "2026-11-05T17:21:13+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "last_id": 11410,
+      "last_at": "2026-11-06T05:50:41+00:00",
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "codecloude": {
-      "last_id": 2553,
-      "last_at": "2026-11-05T19:14:53+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "last_id": 2554,
+      "last_at": "2026-11-06T05:59:18+00:00",
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "dunijet_ai": {
       "last_id": 2510,
       "last_at": "2026-11-05T19:28:16+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     },
     "Sajadverse": {
       "last_id": 1243,
       "last_at": "2026-11-05T07:23:28+00:00",
-      "checked_at": "2026-11-06T05:00:47.571Z"
+      "checked_at": "2026-11-06T08:00:46.808Z"
     }
   },
   "offerReviews": [
