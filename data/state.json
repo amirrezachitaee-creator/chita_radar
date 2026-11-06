@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T17:01:36.227Z",
+  "updatedAt": "2026-11-06T17:45:03.722Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -793,6 +793,24 @@
       "slot": "2026-11-06T20:30+03:30",
       "title": "datasette-agent 0.5a0",
       "url": "https://simonwillison.net/2026/Nov/3/datasette-agent"
+    },
+    "url:b7aa5d4fa5c79c45": {
+      "at": "2026-11-06T17:45:03.721Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-06T20:30+03:30",
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel"
+    },
+    "title:a6ba913ff7c30d6c": {
+      "at": "2026-11-06T17:45:03.721Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-06T20:30+03:30",
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel"
     }
   },
   "deferred": {
@@ -1077,9 +1095,9 @@
     },
     "defer:url:bbd492caba72ca54": {
       "id": "defer:url:bbd492caba72ca54",
-      "at": "2026-11-06T17:01:09.912Z",
+      "at": "2026-11-06T17:44:57.795Z",
       "firstAt": "2026-11-06T17:01:09.912Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -1112,9 +1130,53 @@
         "keys": [
           "url:bbd492caba72ca54",
           "title:eba11b40682526b9"
-        ]
+        ],
+        "deferred": {
+          "id": "defer:url:bbd492caba72ca54",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:c950dc177f5da82b": {
+      "id": "defer:url:c950dc177f5da82b",
+      "at": "2026-11-06T17:44:57.752Z",
+      "firstAt": "2026-11-06T17:44:57.752Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:c950dc177f5da82b",
+        "title:161e855d78849c3e"
+      ],
+      "canonical": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+      "title": "crystl",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "crystl",
+        "link": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+        "canonical": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+        "published": "2026-11-05T18:44:33-08:00",
+        "summary": "<p> multitasking terminal for AI coding agents, built for macOS </p> <p> <a href=\"https://www.producthunt.com/products/crystl-multitasking-terminal?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1306125?app_id=339\">Link</a> </p>",
+        "images": [],
+        "ageHours": 15,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:c950dc177f5da82b",
+          "title:161e855d78849c3e"
+        ]
+      },
+      "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
     }
   },
   "slots": {
@@ -1304,11 +1366,11 @@
       "qa": "37/37"
     },
     "2026-11-06T20:30+03:30": {
-      "at": "2026-11-06T17:01:36.226Z",
+      "at": "2026-11-06T17:45:03.721Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.00114198,
-      "tokens": 7669
+      "cost": 0.001064,
+      "tokens": 7443
     }
   },
   "published": [
@@ -1527,77 +1589,77 @@
     "ArchiveTell": {
       "last_id": 8312,
       "last_at": "2026-11-06T14:38:54+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "ai_farshad": {
       "last_id": 6376,
       "last_at": "2026-11-06T16:32:37+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "Mohammad_zammani": {
       "last_id": 7164,
       "last_at": "2026-11-06T08:52:25+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "techiin_ir": {
       "last_id": 20702,
       "last_at": "2026-11-06T16:49:08+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "mgh_mobin": {
       "last_id": 456,
       "last_at": "2026-11-06T08:50:33+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "asrnovin_ir": {
       "last_id": 11414,
       "last_at": "2026-11-06T16:57:02+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "codecloude": {
       "last_id": 2554,
       "last_at": "2026-11-06T05:59:18+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "dunijet_ai": {
       "last_id": 2511,
       "last_at": "2026-11-06T11:55:43+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "marketing_aida": {
       "last_id": 101,
       "last_at": "2026-11-06T12:21:46+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     },
     "Sajadverse": {
       "last_id": 1245,
       "last_at": "2026-11-06T15:10:29+00:00",
-      "checked_at": "2026-11-06T17:01:01.019Z"
+      "checked_at": "2026-11-06T17:44:48.383Z"
     }
   },
   "offerReviews": [
