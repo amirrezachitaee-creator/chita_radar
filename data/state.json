@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T10:31:28.041Z",
+  "updatedAt": "2026-11-06T13:31:50.004Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -759,6 +759,22 @@
       "slot": "2026-11-06T14:00+03:30",
       "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
       "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable"
+    },
+    "url:13e4c95dcbaa6d34": {
+      "at": "2026-11-06T13:31:50.004Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-06T17:00+03:30",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+    },
+    "title:dfd4f4b1a6c34171": {
+      "at": "2026-11-06T13:31:50.004Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-06T17:00+03:30",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
     }
   },
   "deferred": {
@@ -944,6 +960,62 @@
         ]
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:2ba86ede56413468": {
+      "id": "defer:url:2ba86ede56413468",
+      "at": "2026-11-06T13:31:27.745Z",
+      "firstAt": "2026-11-06T13:31:27.745Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:2ba86ede56413468",
+        "title:53162100f1cebe9b"
+      ],
+      "canonical": "http://anthropic.com/research/how-researchers-use-claude",
+      "title": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا",
+        "link": "http://anthropic.com/research/how-researchers-use-claude",
+        "canonical": "http://anthropic.com/research/how-researchers-use-claude",
+        "messageText": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا چطور ازش استفاده می‌کنن\n\nبیشترین استفاده توی علوم رسمی مثل کامپیوتر و ریاضی و آماره و کمترین توی سلامت و علوم آزمایشگاهی. یک‌سوم مکالمه‌های Claude و تقریبا نصف Claude Code فقط تحلیل داده‌ست، بعدش نوشتن. جالب اینکه تولید ایده کم استفاده می‌شه، هرچند خود پژوهشگرا توی نظرسنجی گفتن مهم‌ترین بخش کشف علمیه.\n\nتوی سناریوی خوش‌بینانه، اگه AI همه کارهای غیرفیزیکی رو انجام بده، خروجی پژوهش توی کامپیوتر و آمار تا ۱۵ برابر و توی شیمی و زیست سه-چهار برابر می‌شه. حدود ۴۰ درصد پژوهشگرای کاربر AI هم فکر می‌کنن تا ۲۰۳۰ مدل‌ها خودشون پروژه کامل تحقیقاتی انجام می‌دن.\n\nanthropic.com/research/how-researchers-use-claude\n\n@dunijet_ai\n\n❤3",
+        "leadPostUrl": "https://t.me/dunijet_ai/2511",
+        "published": "2026-11-06T11:55:43+00:00",
+        "summary": "",
+        "images": [],
+        "ageHours": 1.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "toolHint": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "models",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:2ba86ede56413468",
+          "title:53162100f1cebe9b"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2511,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "news",
+        "educationHint": false,
+        "officialCourse": false
+      },
+      "detail": "tools"
     }
   },
   "slots": {
@@ -1116,6 +1188,20 @@
       "fallback": null,
       "cost": 0.0004191768,
       "tokens": 8724,
+      "qa": "37/37"
+    },
+    "2026-11-06T17:00+03:30": {
+      "at": "2026-11-06T13:31:50.004Z",
+      "status": "sent",
+      "category": "models",
+      "title": "دو لهجه جدید به جدول Open ASR اضافه شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-06/17-00",
+      "messageId": 23,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0002864568,
+      "tokens": 7971,
       "qa": "37/37"
     }
   },
@@ -1314,83 +1400,98 @@
       "sourceType": "news",
       "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
       "at": "2026-11-06T10:31:28.040Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-06T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "دو لهجه جدید به جدول Open ASR اضافه شد",
+      "why": "اهمیتش اینه که مدل‌های تشخیص گفتار، برای لهجه‌های کم‌نماینده بهتر ارزیابی می‌شن و این یعنی مدل‌ها برای جمعیت بیشتری از دنیا کارایی واقعی‌تری پیدا می‌کنن.",
+      "dedupe_key": "huggingface-open-asr-leaderboard-liva-accents",
+      "post_key": "2026-11-06/17-00",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "at": "2026-11-06T13:31:50.004Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8309,
-      "last_at": "2026-11-05T19:11:37+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "last_id": 8310,
+      "last_at": "2026-11-06T11:22:35+00:00",
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "ai_farshad": {
       "last_id": 6374,
       "last_at": "2026-11-06T09:58:56+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "Mohammad_zammani": {
       "last_id": 7164,
       "last_at": "2026-11-06T08:52:25+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "techiin_ir": {
-      "last_id": 20692,
-      "last_at": "2026-11-06T10:06:37+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "last_id": 20697,
+      "last_at": "2026-11-06T12:41:14+00:00",
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "mgh_mobin": {
       "last_id": 456,
       "last_at": "2026-11-06T08:50:33+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "asrnovin_ir": {
       "last_id": 11412,
       "last_at": "2026-11-06T08:56:58+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "codecloude": {
       "last_id": 2554,
       "last_at": "2026-11-06T05:59:18+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "dunijet_ai": {
-      "last_id": 2510,
-      "last_at": "2026-11-05T19:28:16+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "last_id": 2511,
+      "last_at": "2026-11-06T11:55:43+00:00",
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "marketing_aida": {
-      "last_id": 100,
-      "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "last_id": 101,
+      "last_at": "2026-11-06T12:21:46+00:00",
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     },
     "Sajadverse": {
       "last_id": 1244,
       "last_at": "2026-11-06T08:19:07+00:00",
-      "checked_at": "2026-11-06T10:30:45.073Z"
+      "checked_at": "2026-11-06T13:30:39.931Z"
     }
   },
   "offerReviews": [
