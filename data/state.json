@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T08:03:15.120Z",
+  "updatedAt": "2026-11-06T10:31:28.041Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -725,6 +725,40 @@
       "slot": "2026-11-06T11:30+03:30",
       "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
       "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them"
+    },
+    "url:87991a28de6f57dc": {
+      "at": "2026-11-06T10:31:05.085Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-06T14:00+03:30",
+      "title": "ia-da-sobrevivencia/README.en.md at main · sdalberto/ia-da-sobrevivencia",
+      "url": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md"
+    },
+    "title:a53d97b6d122055d": {
+      "at": "2026-11-06T10:31:05.085Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-06T14:00+03:30",
+      "title": "ia-da-sobrevivencia/README.en.md at main · sdalberto/ia-da-sobrevivencia",
+      "url": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md"
+    },
+    "url:e12ad59c369bd96f": {
+      "at": "2026-11-06T10:31:28.040Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-06T14:00+03:30",
+      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable"
+    },
+    "title:dae32787caab074b": {
+      "at": "2026-11-06T10:31:28.040Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-06T14:00+03:30",
+      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable"
     }
   },
   "deferred": {
@@ -772,9 +806,9 @@
     },
     "defer:url:a6ba9ef21e2f6a77": {
       "id": "defer:url:a6ba9ef21e2f6a77",
-      "at": "2026-11-05T17:53:13.944Z",
+      "at": "2026-11-06T10:30:56.276Z",
       "firstAt": "2026-11-05T17:53:13.944Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -822,7 +856,11 @@
         "sourceFocus": "news",
         "leadKind": "news",
         "educationHint": false,
-        "officialCourse": false
+        "officialCourse": false,
+        "deferred": {
+          "id": "defer:url:a6ba9ef21e2f6a77",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
     },
@@ -906,52 +944,6 @@
         ]
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:e12ad59c369bd96f": {
-      "id": "defer:url:e12ad59c369bd96f",
-      "at": "2026-11-06T08:02:17.434Z",
-      "firstAt": "2026-11-06T08:02:17.434Z",
-      "attempts": 1,
-      "reason": "qa_failed",
-      "reasons": [
-        "qa_failed"
-      ],
-      "keys": [
-        "url:e12ad59c369bd96f",
-        "title:dae32787caab074b"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable",
-      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
-        "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-        "canonical": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable",
-        "published": "Thu, 05 Nov 2026 21:40:36 +0000",
-        "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-500x500-1748638352.jpg"
-        ],
-        "ageHours": 10.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:e12ad59c369bd96f",
-          "title:dae32787caab074b"
-        ]
-      },
-      "detail": "grounding_superlatives"
     }
   },
   "slots": {
@@ -1111,6 +1103,20 @@
       "cost": 0.0011149376,
       "tokens": 20069,
       "qa": "36/37"
+    },
+    "2026-11-06T14:00+03:30": {
+      "at": "2026-11-06T10:31:28.040Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "گوگل: مدارس می‌تونن جمینی رو خاموش کنن، اما جستجوی هوشمند نه",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-06/14-00",
+      "messageId": 22,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0004191768,
+      "tokens": 8724,
+      "qa": "37/37"
     }
   },
   "published": [
@@ -1293,83 +1299,98 @@
       "sourceType": "news",
       "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
       "at": "2026-11-06T08:03:15.120Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-06T14:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "گوگل: مدارس می‌تونن جمینی رو خاموش کنن، اما جستجوی هوشمند نه",
+      "why": "این سیاست برای همه کاربران گوگل مهمه، نه فقط مدارس؛ چون گوگل می‌گه هوش مصنوعی آینده جستجوئه و برنام‌ای برای ساخت کلید خاموش‌کردن اون نداره.",
+      "dedupe_key": "google-schools-ai-search-policy",
+      "post_key": "2026-11-06/14-00",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "at": "2026-11-06T10:31:28.040Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8309,
       "last_at": "2026-11-05T19:11:37+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "ai_farshad": {
-      "last_id": 6368,
-      "last_at": "2026-11-06T07:32:50+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "last_id": 6374,
+      "last_at": "2026-11-06T09:58:56+00:00",
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7163,
-      "last_at": "2026-11-06T05:36:02+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "last_id": 7164,
+      "last_at": "2026-11-06T08:52:25+00:00",
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "techiin_ir": {
-      "last_id": 20688,
-      "last_at": "2026-11-05T16:18:48+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "last_id": 20692,
+      "last_at": "2026-11-06T10:06:37+00:00",
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "mgh_mobin": {
-      "last_id": 454,
-      "last_at": "2026-11-05T12:45:09+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "last_id": 456,
+      "last_at": "2026-11-06T08:50:33+00:00",
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "asrnovin_ir": {
-      "last_id": 11410,
-      "last_at": "2026-11-06T05:50:41+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "last_id": 11412,
+      "last_at": "2026-11-06T08:56:58+00:00",
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "codecloude": {
       "last_id": 2554,
       "last_at": "2026-11-06T05:59:18+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "dunijet_ai": {
       "last_id": 2510,
       "last_at": "2026-11-05T19:28:16+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "marketing_aida": {
       "last_id": 100,
       "last_at": "2026-11-03T08:08:17+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "checked_at": "2026-11-06T10:30:45.073Z"
     },
     "Sajadverse": {
-      "last_id": 1243,
-      "last_at": "2026-11-05T07:23:28+00:00",
-      "checked_at": "2026-11-06T08:00:46.808Z"
+      "last_id": 1244,
+      "last_at": "2026-11-06T08:19:07+00:00",
+      "checked_at": "2026-11-06T10:30:45.073Z"
     }
   },
   "offerReviews": [
@@ -1394,6 +1415,18 @@
       "url": "https://github.com/v1ktorrr0x/antigravity-filter-bypass",
       "reason": "model_skip",
       "slot": "2026-11-05T20:30+03:30",
+      "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-06|tg-sajadverse|https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
+      "date": "2026-11-06",
+      "at": "2026-11-06T10:30:45.073Z",
+      "source": "tg-sajadverse",
+      "title": "ia-da-sobrevivencia/README.en.md at main · sdalberto/ia-da-sobrevivencia",
+      "url": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
+      "reason": "model_skip",
+      "slot": "2026-11-06T14:00+03:30",
       "kind": "tool",
       "mainEligible": false
     }
