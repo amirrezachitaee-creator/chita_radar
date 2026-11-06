@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T17:45:03.722Z",
+  "updatedAt": "2026-11-06T19:31:25.699Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -811,6 +811,40 @@
       "slot": "2026-11-06T20:30+03:30",
       "title": "Quoting Nilay Patel",
       "url": "https://simonwillison.net/2026/Nov/6/nilay-patel"
+    },
+    "url:cedbfcb0a00e30b9": {
+      "at": "2026-11-06T19:30:53.100Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-06T23:00+03:30",
+      "title": "اگه خاطرتون باشه اون زمانی که deepseek اومده بود بحث بحث ریاضیات بود، یه جور کل",
+      "url": "http://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them"
+    },
+    "title:109f31433b7d765e": {
+      "at": "2026-11-06T19:30:53.100Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-06T23:00+03:30",
+      "title": "اگه خاطرتون باشه اون زمانی که deepseek اومده بود بحث بحث ریاضیات بود، یه جور کل",
+      "url": "http://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them"
+    },
+    "url:0b47ae94b8dc6c92": {
+      "at": "2026-11-06T19:31:25.698Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-06T23:00+03:30",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web"
+    },
+    "title:b6bedf6e7df3868e": {
+      "at": "2026-11-06T19:31:25.698Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-06T23:00+03:30",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web"
     }
   },
   "deferred": {
@@ -1371,6 +1405,20 @@
       "reason": "all_candidates_rejected",
       "cost": 0.001064,
       "tokens": 7443
+    },
+    "2026-11-06T23:00+03:30": {
+      "at": "2026-11-06T19:31:25.698Z",
+      "status": "sent",
+      "category": "security",
+      "title": "بیش از ۸۰۰ نمونه ابزار هک آرتکس در اینترنت در دسترس عموم",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-06/23-00",
+      "messageId": 24,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.00138264,
+      "tokens": 8910,
+      "qa": "37/37"
     }
   },
   "published": [
@@ -1583,83 +1631,98 @@
       "sourceType": "official_blog",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
       "at": "2026-11-06T13:31:50.004Z"
+    },
+    {
+      "week": "2026-10-31",
+      "slot": "2026-11-06T23:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "بیش از ۸۰۰ نمونه ابزار هک آرتکس در اینترنت در دسترس عموم",
+      "why": "اهمیتش اینه که همین اشتباه ساده، یعنی باز گذاشتن یک سیستم بدون رمز، هم ابزار حمله رو لو می‌ده و هم می‌تونه هدف‌های جدیدی برای سوءاستفاده ایجاد کنه.",
+      "dedupe_key": "artex-ai-hacking-tools-exposed",
+      "post_key": "2026-11-06/23-00",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "at": "2026-11-06T19:31:25.699Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8312,
       "last_at": "2026-11-06T14:38:54+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "pedramgholizadeh": {
       "last_id": 786,
       "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "ai_farshad": {
-      "last_id": 6376,
-      "last_at": "2026-11-06T16:32:37+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "last_id": 6377,
+      "last_at": "2026-11-06T18:35:40+00:00",
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "Mohammad_zammani": {
       "last_id": 7164,
       "last_at": "2026-11-06T08:52:25+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "techiin_ir": {
       "last_id": 20702,
       "last_at": "2026-11-06T16:49:08+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "mgh_mobin": {
       "last_id": 456,
       "last_at": "2026-11-06T08:50:33+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "asrnovin_ir": {
       "last_id": 11414,
       "last_at": "2026-11-06T16:57:02+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "codecloude": {
       "last_id": 2554,
       "last_at": "2026-11-06T05:59:18+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "dunijet_ai": {
-      "last_id": 2511,
-      "last_at": "2026-11-06T11:55:43+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "last_id": 2513,
+      "last_at": "2026-11-06T19:27:09+00:00",
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "marketing_aida": {
       "last_id": 101,
       "last_at": "2026-11-06T12:21:46+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     },
     "Sajadverse": {
       "last_id": 1245,
       "last_at": "2026-11-06T15:10:29+00:00",
-      "checked_at": "2026-11-06T17:44:48.383Z"
+      "checked_at": "2026-11-06T19:30:42.750Z"
     }
   },
   "offerReviews": [
