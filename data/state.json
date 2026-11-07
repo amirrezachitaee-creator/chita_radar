@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-07T08:02:37.633Z",
+  "updatedAt": "2026-11-07T10:32:50.426Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -933,6 +933,40 @@
       "slot": "2026-11-07T11:30+03:30",
       "title": "The Week’s 10 Biggest Funding Rounds: AI, Defense And Space Tech Lead For Large Rounds",
       "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline"
+    },
+    "url:2af345503cb4dc3a": {
+      "at": "2026-11-07T10:31:15.259Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,verification_source,body_paragraphs",
+      "category": "business",
+      "slot": "2026-11-07T14:00+03:30",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google"
+    },
+    "title:bae754a30dc73b0a": {
+      "at": "2026-11-07T10:31:15.259Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,verification_source,body_paragraphs",
+      "category": "business",
+      "slot": "2026-11-07T14:00+03:30",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google"
+    },
+    "url:ba641420a32ec637": {
+      "at": "2026-11-07T10:32:50.424Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-07T14:00+03:30",
+      "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
+      "url": "https://therecord.media/ceo-spoofing-scammers-charged"
+    },
+    "title:40dd430a936bf78e": {
+      "at": "2026-11-07T10:32:50.424Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-07T14:00+03:30",
+      "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
+      "url": "https://therecord.media/ceo-spoofing-scammers-charged"
     }
   },
   "deferred": {
@@ -1035,46 +1069,6 @@
           "id": "defer:url:a6ba9ef21e2f6a77",
           "attempts": 2
         }
-      },
-      "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
-    },
-    "defer:url:1c50a99dbb5387de": {
-      "id": "defer:url:1c50a99dbb5387de",
-      "at": "2026-11-05T17:53:13.988Z",
-      "firstAt": "2026-11-05T17:53:13.988Z",
-      "attempts": 1,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:1c50a99dbb5387de",
-        "title:60af740bab87c7a7"
-      ],
-      "canonical": "https://www.producthunt.com/products/easy-peasy-ai",
-      "title": "AI Employees by Easy-Peasy.AI",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "AI Employees by Easy-Peasy.AI",
-        "link": "https://www.producthunt.com/products/easy-peasy-ai",
-        "canonical": "https://www.producthunt.com/products/easy-peasy-ai",
-        "published": "2026-11-03T22:19:49-08:00",
-        "summary": "<p> Hire an AI team that splits the work and asks before sending </p> <p> <a href=\"https://www.producthunt.com/products/easy-peasy-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1303820?app_id=339\">Link</a> </p>",
-        "images": [],
-        "ageHours": 35.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:1c50a99dbb5387de",
-          "title:60af740bab87c7a7"
-        ]
       },
       "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
     },
@@ -1486,6 +1480,20 @@
       "cost": 0.0004454968,
       "tokens": 8791,
       "qa": "37/37"
+    },
+    "2026-11-07T14:00+03:30": {
+      "at": "2026-11-07T10:32:50.424Z",
+      "status": "sent",
+      "category": "security",
+      "title": "کلاهبرداری ۱۲۹ میلیون دلاری با جعل صدا و تصویر مدیرعامل با هوش",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-07/14-00",
+      "messageId": 26,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0009890440000000001,
+      "tokens": 18914,
+      "qa": "36/37"
     }
   },
   "published": [
@@ -1728,83 +1736,98 @@
       "sourceType": "news",
       "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
       "at": "2026-11-07T05:04:03.561Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-07T14:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "کلاهبرداری ۱۲۹ میلیون دلاری با جعل صدا و تصویر مدیرعامل با هوش",
+      "why": "این پرونده نشون می‌ده چطور هوش مصنوعی می‌تونه برای کلاهبرداری در مقیاس بزرگ به کار بره و هشدار جدی به شرکت‌هاست که جلوی تماس‌های مالی مشکوک هوشیار باشن.",
+      "dedupe_key": "doj-ceo-spoofing-ai-fraud",
+      "post_key": "2026-11-07/14-00",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "url": "https://therecord.media/ceo-spoofing-scammers-charged",
+      "at": "2026-11-07T10:32:50.425Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8313,
       "last_at": "2026-11-06T20:42:01+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "pedramgholizadeh": {
-      "last_id": 787,
-      "last_at": "2026-11-06T19:53:38+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "last_id": 789,
+      "last_at": "2026-11-07T10:08:00+00:00",
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "ai_farshad": {
       "last_id": 6378,
       "last_at": "2026-11-07T07:30:53+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7167,
-      "last_at": "2026-11-07T07:26:39+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "last_id": 7168,
+      "last_at": "2026-11-07T08:12:48+00:00",
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "techiin_ir": {
-      "last_id": 20702,
-      "last_at": "2026-11-06T16:49:08+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "last_id": 20705,
+      "last_at": "2026-11-07T10:24:25+00:00",
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "mgh_mobin": {
-      "last_id": 456,
-      "last_at": "2026-11-06T08:50:33+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "last_id": 459,
+      "last_at": "2026-11-07T08:35:26+00:00",
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "asrnovin_ir": {
-      "last_id": 11414,
-      "last_at": "2026-11-06T16:57:02+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "last_id": 11417,
+      "last_at": "2026-11-07T10:01:06+00:00",
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "codecloude": {
-      "last_id": 2555,
-      "last_at": "2026-11-06T20:47:32+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "last_id": 2556,
+      "last_at": "2026-11-07T08:10:02+00:00",
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "dunijet_ai": {
       "last_id": 2517,
       "last_at": "2026-11-07T04:16:37+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "marketing_aida": {
       "last_id": 102,
       "last_at": "2026-11-07T07:42:31+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     },
     "Sajadverse": {
       "last_id": 1245,
       "last_at": "2026-11-06T15:10:29+00:00",
-      "checked_at": "2026-11-07T08:00:48.466Z"
+      "checked_at": "2026-11-07T10:30:38.915Z"
     }
   },
   "offerReviews": [
