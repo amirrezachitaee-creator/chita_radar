@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-07T05:04:03.561Z",
+  "updatedAt": "2026-11-07T08:02:37.633Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -897,6 +897,42 @@
       "slot": "2026-11-07T08:30+03:30",
       "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
       "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model"
+    },
+    "url:a8fc5de6487f58f9": {
+      "at": "2026-11-07T08:01:35.922Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "tools",
+      "slot": "2026-11-07T11:30+03:30",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent"
+    },
+    "title:cc6cd0162af9b182": {
+      "at": "2026-11-07T08:01:35.922Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "tools",
+      "slot": "2026-11-07T11:30+03:30",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent"
+    },
+    "url:53a2f4f2343d3af0": {
+      "at": "2026-11-07T08:01:41.017Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-07T11:30+03:30",
+      "title": "The Week’s 10 Biggest Funding Rounds: AI, Defense And Space Tech Lead For Large Rounds",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline"
+    },
+    "title:5c6be60b288d5136": {
+      "at": "2026-11-07T08:01:41.017Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-07T11:30+03:30",
+      "title": "The Week’s 10 Biggest Funding Rounds: AI, Defense And Space Tech Lead For Large Rounds",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline"
     }
   },
   "deferred": {
@@ -1129,9 +1165,9 @@
     },
     "defer:url:c950dc177f5da82b": {
       "id": "defer:url:c950dc177f5da82b",
-      "at": "2026-11-06T17:44:57.752Z",
+      "at": "2026-11-07T08:01:35.943Z",
       "firstAt": "2026-11-06T17:44:57.752Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -1163,9 +1199,59 @@
         "keys": [
           "url:c950dc177f5da82b",
           "title:161e855d78849c3e"
-        ]
+        ],
+        "deferred": {
+          "id": "defer:url:c950dc177f5da82b",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
+    },
+    "defer:url:0b33259ab4386660": {
+      "id": "defer:url:0b33259ab4386660",
+      "at": "2026-11-07T08:02:37.633Z",
+      "firstAt": "2026-11-07T08:02:37.633Z",
+      "attempts": 1,
+      "reason": "send_failed",
+      "reasons": [
+        "send_failed"
+      ],
+      "keys": [
+        "url:0b33259ab4386660",
+        "title:fca4a60663f20aff"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update",
+      "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+        "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update",
+        "published": "Fri, 06 Nov 2026 17:43:02 +0000",
+        "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-500x500.jpg"
+        ],
+        "ageHours": 14.3,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:0b33259ab4386660",
+          "title:fca4a60663f20aff"
+        ]
+      },
+      "detail": "TELEGRAM_REQUEST_FAILED"
     }
   },
   "slots": {
@@ -1388,6 +1474,18 @@
       "cost": 0.0006832672000000001,
       "tokens": 17091,
       "qa": "36/37"
+    },
+    "2026-11-07T11:30+03:30": {
+      "at": "2026-11-07T08:02:37.633Z",
+      "status": "ready",
+      "category": "business",
+      "title": "متا برنامه تغییر قوانین تجاری را indefinitely معلق کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-07/11-30",
+      "error": "TELEGRAM_REQUEST_FAILED",
+      "model": "DeepSeek-V4-Flash",
+      "cost": 0.0004454968,
+      "tokens": 8791,
+      "qa": "37/37"
     }
   },
   "published": [
@@ -1636,77 +1734,77 @@
     "ArchiveTell": {
       "last_id": 8313,
       "last_at": "2026-11-06T20:42:01+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "pedramgholizadeh": {
       "last_id": 787,
       "last_at": "2026-11-06T19:53:38+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "ai_farshad": {
-      "last_id": 6377,
-      "last_at": "2026-11-06T18:35:40+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "last_id": 6378,
+      "last_at": "2026-11-07T07:30:53+00:00",
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7164,
-      "last_at": "2026-11-06T08:52:25+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "last_id": 7167,
+      "last_at": "2026-11-07T07:26:39+00:00",
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "techiin_ir": {
       "last_id": 20702,
       "last_at": "2026-11-06T16:49:08+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "mgh_mobin": {
       "last_id": 456,
       "last_at": "2026-11-06T08:50:33+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "asrnovin_ir": {
       "last_id": 11414,
       "last_at": "2026-11-06T16:57:02+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "codecloude": {
       "last_id": 2555,
       "last_at": "2026-11-06T20:47:32+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "dunijet_ai": {
       "last_id": 2517,
       "last_at": "2026-11-07T04:16:37+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "marketing_aida": {
-      "last_id": 101,
-      "last_at": "2026-11-06T12:21:46+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "last_id": 102,
+      "last_at": "2026-11-07T07:42:31+00:00",
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     },
     "Sajadverse": {
       "last_id": 1245,
       "last_at": "2026-11-06T15:10:29+00:00",
-      "checked_at": "2026-11-07T05:00:51.513Z"
+      "checked_at": "2026-11-07T08:00:48.466Z"
     }
   },
   "offerReviews": [
