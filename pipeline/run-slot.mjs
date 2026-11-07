@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { contentHash, earliestDate, freshness, windowFor } from './normalize.mjs';
+import { canonicalUrl, contentHash, earliestDate, freshness, windowFor } from './normalize.mjs';
 import {
   loadEnv,
   makeRedactor,
@@ -16,6 +16,8 @@ import {
   qaPost,
   applyLeadPolicy,
   applyMechanicalFixes,
+  isFalseStaleSkip,
+  pickToolUsageLink,
   renderPreview,
   MAIN_CATEGORIES,
 } from './engine.mjs';
@@ -24,7 +26,7 @@ import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } 
 import { dailyBudget, sendWindow } from './guards.mjs';
 import { buildEducationForward, matchesPublishedStory } from './telegram-source.mjs';
 import { watchOnce, selectTargets } from './offer-watch.mjs';
-import { assessOffer, detectOffer, offerUsage, offerReviewUsage, recordOfferReview, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
+import { assessOffer, detectOffer, offerUsage, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
   loadState,
   saveState,
@@ -69,6 +71,7 @@ const SEND = flag('--send');
 const REVIEW_SEND = flag('--review-send');
 const FORCE = flag('--force');
 const NO_TELEGRAM = flag('--no-telegram');
+const NO_OFFERS = flag('--no-offers');
 const MAX_CANDIDATES_ARG = option('--max-candidates', '');
 const PER_SOURCE = Number(option('--per-source', '12'));
 const MIN_CONTENT = Number(option('--min-content', '300'));
@@ -107,7 +110,16 @@ const MAX_CANDIDATES = Math.max(
   1,
   Number(MAX_CANDIDATES_ARG || config.diversity?.max_candidates || 8)
 );
+const STRICT_FRESH_HOURS = Math.min(
+  ...MAIN_CATEGORIES.map((category) =>
+    Number(config.freshness_hours?.[category] ?? config.freshness_hours?.pre_gate ?? 72)
+  )
+);
 const registry = JSON.parse(await readFile(resolve(ROOT, SOURCES_FILE), 'utf8'));
+const vendorDocument = JSON.parse(
+  await readFile(resolve(ROOT, config.offers?.watch?.vendors_file || 'pipeline/vendors.json'), 'utf8')
+);
+const linkVendors = Array.isArray(vendorDocument.vendors) ? vendorDocument.vendors : [];
 const system = await readFile(resolve(ROOT, 'bench/system-prompt.md'), 'utf8');
 const base = option('--base', env.AMD_BASE_URL || 'https://developer.amd.com.cn/radeon/api/v1').replace(/\/$/, '');
 const REVIEW_CHAT_ID = env[config.offers?.review?.chat_env || 'TELEGRAM_REVIEW_CHAT_ID'] || '';
@@ -242,7 +254,7 @@ function findStoryDuplicate(candidate, delivered) {
 }
 
 const importanceOf = (body) => {
-  const before = String(body ?? '').split(/^[ \t]*منبع\s*[:：]/m)[0];
+  const before = String(body ?? '').split(/^[ \t]*(?:منبع|لینک استفاده)\s*[:：]/m)[0];
   return before.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean).at(-1) ?? '';
 };
 
@@ -316,6 +328,7 @@ async function main() {
       reason: effectiveReason,
       kind: resolvedKind,
       mainEligible: Boolean(mainEligible),
+      needsLinkApproval: Boolean(candidate?.needsLinkApproval || effectiveReason === 'link_missing'),
       slot: slot.key,
       at: NOW,
       publishedAt: article?.published || candidate?.published || '',
@@ -349,6 +362,7 @@ async function main() {
       kind: payload.kind,
       reason: payload.reason,
       main_eligible: payload.mainEligible,
+      needs_link_approval: Boolean(payload.needsLinkApproval),
       source: { id: payload.source, name: payload.sourceName, url: payload.url },
       title: payload.title,
       published_at: payload.publishedAt,
@@ -583,7 +597,7 @@ async function main() {
   }
 
   if (reviewEnabled) await flushPendingReviews();
-  await runOfferWatch();
+  if (reviewEnabled && !NO_OFFERS) await runOfferWatch();
 
   if (isSlotSettled(state, slot.key) && !FORCE) {
     console.log(`SLOT_ALREADY_DONE ${slot.key} status=${state.slots[slot.key].status}`);
@@ -651,6 +665,32 @@ async function main() {
     console.log(`  ${label} ${error.source}: ${error.error}`);
   }
   const tg = stats.telegram;
+  for (const candidate of candidates) {
+    if (!candidate.offerHint || candidate.reviewReason !== 'no_link') continue;
+    const resolved = resolveVendorLink(
+      `${candidate.title}\n${candidate.messageText ?? ''}`,
+      linkVendors
+    );
+    if (!resolved) {
+      candidate.reviewReason = 'link_missing';
+      candidate.needsLinkApproval = true;
+      console.log(`LINK_MISSING ${candidate.leadSource || candidate.sourceId} | ${candidate.title}`);
+      continue;
+    }
+    candidate.link = resolved.url;
+    try {
+      candidate.canonical = canonicalUrl(resolved.url);
+    } catch {
+      candidate.reviewReason = 'link_missing';
+      candidate.needsLinkApproval = true;
+      console.log(`LINK_MISSING bad_url ${resolved.url}`);
+      continue;
+    }
+    candidate.resolvedLink = true;
+    candidate.needsReview = false;
+    candidate.reviewReason = '';
+    console.log(`LINK_RESOLVED vendor=${resolved.vendor} url=${resolved.url}`);
+  }
   if (tg.channels > 0) {
     console.log(
       `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} nonai=${tg.nonAiEducation} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate} dup_other=${tg.crossLane}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
@@ -758,10 +798,15 @@ async function main() {
   if (SEND && memoryChanged) await saveState(STATE_PATH, state);
 
   const reviewReasonOf = (candidate) => candidate.reviewReason || 'referral_link';
-  const reviewNoteOf = (reason) =>
-    reason === 'research_paper'
-      ? 'این مقاله پژوهشی برای بازبینی جدا شده و به کانال اصلی نرفته است.'
-      : 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.';
+  const reviewNoteOf = (reason) => {
+    if (reason === 'research_paper') {
+      return 'این مقاله پژوهشی برای بازبینی جدا شده و به کانال اصلی نرفته است.';
+    }
+    if (reason === 'link_missing') {
+      return 'لینک معتبر پیدا نشد؛ این مورد فقط برای تأیید لینک و ارسال به کانال اصلی ثبت شده است.';
+    }
+    return 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.';
+  };
 
   const reviewLeads = mainCandidates.filter((candidate) => candidate.needsReview);
   mainCandidates = mainCandidates.filter((candidate) => !candidate.needsReview);
@@ -1030,11 +1075,24 @@ async function main() {
     let article;
     try {
       const page = await fetchText(candidate.link, { redact });
-      article = extractArticle(page.text, candidate.title);
+      article = extractArticle(page.text, candidate.title, page.url || candidate.link);
       article.url = page.url || candidate.link;
     } catch (error) {
       const fetchError = redact(String(error?.message ?? error));
       console.log(`  FETCH_FAILED ${fetchError}`);
+      if (candidate.resolvedLink) {
+        console.log('  LINK_UNVERIFIED fetch_failed');
+        await deliverReview({
+          candidate,
+          article: null,
+          assessment: { reason: 'link_missing' },
+          reason: 'link_missing',
+          kind: 'offer',
+          text: candidate.messageText,
+          note: `صفحه رسمی فروشنده باز نشد: ${fetchError}`,
+        });
+        continue;
+      }
       const fallbackText = [candidate.messageText, candidate.summary]
         .filter(Boolean)
         .join('\n\n')
@@ -1074,17 +1132,24 @@ async function main() {
       article.published ||
       candidate.published;
     article.published = publishedAt;
+    const newsDate = newsDateLine(publishedAt);
+    let toolUsage = null;
     const finalizePost = (value) => {
       const policy = applyPolicy(value);
       const fixed = applyMechanicalFixes(policy, {
-        newsDate: newsDateLine(publishedAt),
         sourceName: candidate.sourceName,
         sourceUrl: article.url,
+        usageUrl: toolUsage?.url ?? '',
+        usageName: toolUsage?.name ?? '',
+        imageUrl,
+        newsDate,
+        sourceType: candidate.sourceType,
       });
       if (fixed.title !== policy.title) console.log('  TITLE_TRIM');
       if (fixed.body !== policy.body) console.log('  BODY_TRIM');
       if (String(fixed.quote ?? '') !== String(policy.quote ?? '')) console.log('  QUOTE_TRIM');
-      if (fixed.image_url !== policy.image_url) console.log('  CAPTION_FIT dropped_image');
+      if (fixed.post_type !== policy.post_type) console.log('  TYPE_STANDARDIZED_FOR_IMAGE');
+      if (fixed.image_url !== policy.image_url) console.log('  IMAGE_SET_BY_POLICY');
       return fixed;
     };
 
@@ -1115,13 +1180,15 @@ async function main() {
     if (article.content.length < MIN_CONTENT) {
       if (candidate.offerHint || candidate.toolHint || preOffer.isOffer) {
         const kind = candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
+        const reason = candidate.resolvedLink ? 'link_missing' : 'thin_content';
         await deliverReview({
           candidate,
           article,
-          assessment: { reason: 'thin_content' },
-          reason: 'thin_content',
+          assessment: { reason },
+          reason,
           kind,
           text: leftover,
+          note: candidate.resolvedLink ? 'صفحه رسمی محتوای کافی برای تأیید آفر نداشت.' : '',
         });
       } else {
         await deferOrClose(candidate, 'thin_content', `${article.content.length} chars`);
@@ -1134,6 +1201,19 @@ async function main() {
       ? `${leftover}\n\n${article.content}`
       : article.content;
     const offer = detectOffer({ title: article.title || candidate.title, content: offerContent });
+    if (candidate.resolvedLink && !offer.isOffer) {
+      console.log('  LINK_UNVERIFIED official_page_has_no_offer');
+      await deliverReview({
+        candidate,
+        article,
+        assessment: { reason: 'link_missing' },
+        reason: 'link_missing',
+        kind: 'offer',
+        text: leftover,
+        note: 'صفحه رسمی فروشنده این آفر را تأیید نکرد؛ لینک نیازمند تأیید است.',
+      });
+      continue;
+    }
     let offerAssessment = null;
     let offerContext = null;
     if (offer.isOffer) {
@@ -1189,6 +1269,19 @@ async function main() {
       console.log(`  OFFER eligible | expires ${offerAssessment.expiry.date} | ${offerAssessment.expiry.remainingHours}h left`);
     }
 
+    toolUsage = pickToolUsageLink({
+      article,
+      sourceUrl: article.url,
+      sourceType: candidate.sourceType,
+      offer: Boolean(offerContext),
+      officialCourse: Boolean(candidate.officialCourse),
+    });
+    console.log(
+      toolUsage
+        ? `  TOOL_LINK candidate ${toolUsage.url} | score ${toolUsage.score}`
+        : '  TOOL_LINK candidate none | source fallback'
+    );
+
     const rawImage = article.imageUrl || candidate.images[0] || '';
     const verdict = imageVerdict(rawImage, article.imageAlt);
     const imageUrl = verdict.ok ? rawImage : '';
@@ -1209,6 +1302,7 @@ async function main() {
       maxAgeHours: offerContext ? config.offers.max_age_hours : config.freshness_hours.pre_gate,
       offer: offerContext,
       officialCourse: Boolean(candidate.officialCourse),
+      toolUrl: toolUsage?.url ?? '',
     };
     const user = buildUserMessage(story);
     console.log(`  MODEL ${PRIMARY.model} | image ${imageUrl ? 'allowed' : verdict.reason}`);
@@ -1225,6 +1319,14 @@ async function main() {
       parsed = extractJson(retry.content);
     }
     let fallback = null;
+
+    if (isFalseStaleSkip(parsed, gate, STRICT_FRESH_HOURS)) {
+      console.log(`  MODEL_FALSE_STALE ${gate.ageHours}h/${STRICT_FRESH_HOURS}h | one corrective retry`);
+      const corrective = `${activeUser}\n\nخروجی قبلی خبر را «stale» رد کرد، ولی سن خبر ${gate.ageHours} ساعت و کمتر از سقف ${STRICT_FRESH_HOURS} ساعت است. این خبر تازه است؛ فقط اگر دلیل دیگری برای رد داری همان را بگو، وگرنه publish کن. فقط یک آبجکت JSON معتبر بده.`;
+      retry = await callWithRetry(writerOptions(writer, corrective), 2, console.log);
+      const corrected = extractJson(retry.content);
+      if (corrected) parsed = corrected;
+    }
 
     if (!parsed && FALLBACK_ENABLED && !fallbackSpent) {
       fallbackSpent = true;
@@ -1275,7 +1377,6 @@ async function main() {
     console.log(`  WRITER ${writer.role} model=${writer.model}`);
     parsed = finalizePost(parsed);
 
-    const newsDate = newsDateLine(publishedAt);
     const qaContext = {
       url: article.url,
       host,
@@ -1285,6 +1386,8 @@ async function main() {
       title: article.title,
       description: article.description,
       content: article.content,
+      links: (article.links ?? []).map((link) => link.url),
+      usageUrl: toolUsage?.url ?? '',
       publishedAt,
       now: NOW,
       offer: offerContext,
@@ -1302,7 +1405,7 @@ async function main() {
     if (parsed.decision === 'publish' && (!qa.pass || styleWarning) && !offerQaFailed && !relevanceFailed && !offerContext) {
       console.log(`  ${qa.pass ? 'STYLE_WARNING' : 'QA_FAILED'} ${qa.problems.join(',') || qa.warnings.join(',')} | one repair retry`);
       repair = await callWithRetry(
-        writerOptions(writer, buildQaRepairMessage({ user: activeUser, parsed, qa, imageUrl, previousWhy, newsDate })),
+        writerOptions(writer, buildQaRepairMessage({ user: activeUser, parsed, qa, imageUrl, previousWhy, newsDate, usageUrl: toolUsage?.url ?? '', usageName: toolUsage?.name ?? '' })),
         2,
         console.log
       );
@@ -1402,6 +1505,9 @@ async function main() {
     }
 
     const category = parsed.category;
+    if (category === 'tools') {
+      console.log(`  TOOL_LINK ${toolUsage ? `applied ${toolUsage.url}` : 'none | source line kept'}`);
+    }
     if (!MAIN_CATEGORIES.includes(category)) {
       if (candidate.toolHint || candidate.officialCourse || offerContext) {
         await deliverReview({
@@ -1481,6 +1587,7 @@ async function main() {
       source: { id: candidate.sourceId, name: candidate.sourceName, url: article.url },
       item: { title: article.title, published_at: publishedAt, age_hours: gate.ageHours },
       category,
+      tool_link: toolUsage ? { url: toolUsage.url, name: toolUsage.name, score: toolUsage.score } : null,
       diversity: {
         target: planned.target,
         hint: candidate.categoryHint ?? '',
@@ -1538,6 +1645,7 @@ async function main() {
       image_file: downloaded?.file ?? '',
       source_url: article.url,
       source_name: candidate.sourceName,
+      tool_link: parsed.category === 'tools' && toolUsage ? toolUsage.url : '',
       dedupe_key: parsed.dedupe_key,
       post_type: parsed.post_type,
       importance: parsed.importance,

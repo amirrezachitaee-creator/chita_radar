@@ -92,7 +92,7 @@ function startTwoOfferFixture() {
 
 function run(args) {
   return new Promise((resolve) => {
-    const child = spawn(process.execPath, ['pipeline/run-slot.mjs', ...args], {
+    const child = spawn(process.execPath, ['pipeline/run-slot.mjs', '--no-offers', ...args], {
       cwd: ROOT,
       windowsHide: true,
     });

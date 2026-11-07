@@ -8,6 +8,7 @@ import {
   captionLength,
   deleteMessage,
   editMessageCaption,
+  formatTitle,
   sendPhotoUrl,
   sendTelegram,
   postText,
@@ -43,6 +44,25 @@ test('post text is title plus body without extra blank lines', () => {
   assert.equal(postText({ title: 'عنوان', body: 'متن', quote: 'جزئیات' }), 'عنوان\n\nمتن\n\nجزئیات');
 });
 
+test('a persian number stays attached to the latin name before it', () => {
+  assert.equal(
+    formatTitle('OpenAI ۱۱ میلیارد دلار سرمایه جذب کرد'),
+    'OpenAI\u200F ۱۱ میلیارد دلار سرمایه جذب کرد'
+  );
+  assert.equal(formatTitle('Gemini ۳.۵ عرضه شد'), 'Gemini\u200F ۳.۵ عرضه شد');
+  assert.equal(formatTitle('مدل GPT-5 عرضه شد'), 'مدل GPT-5 عرضه شد');
+  assert.equal(formatTitle('\u200FOpenAI ۱۱ میلیارد'), 'OpenAI\u200F ۱۱ میلیارد');
+  assert.equal(formatTitle('۱۱ میلیارد دلار سرمایه'), '۱۱ میلیارد دلار سرمایه');
+});
+
+test('the sent html renders the title number on the right side of the latin name', () => {
+  const html = postHtml({
+    title: 'OpenAI ۱۱ میلیارد دلار سرمایه جذب کرد',
+    body: 'متن',
+  });
+  assert.ok(html.startsWith('<b>\u200FOpenAI\u200F ۱۱ میلیارد دلار سرمایه جذب کرد</b>'));
+});
+
 test('a quote sits above the source line', () => {
   const post = {
     title: 'عنوان',
@@ -58,6 +78,75 @@ test('a quote sits above the source line', () => {
   const sourceAt = html.indexOf('منبع:');
   assert.ok(quoteAt > 0);
   assert.ok(quoteAt < sourceAt);
+});
+
+test('a usage-link tail stays last with the quote and conclusion above it', () => {
+  const post = {
+    title: 'ابزار تازه',
+    body: 'لید ابزار\n\nنتیجه و اهمیت\n\nلینک استفاده: [gemini.google.com](https://gemini.google.com/)',
+    quote: 'جزئیات تکمیلی',
+  };
+  assert.equal(
+    postText(post),
+    'ابزار تازه\n\nلید ابزار\n\nجزئیات تکمیلی\n\nنتیجه و اهمیت\n\nلینک استفاده: [gemini.google.com](https://gemini.google.com/)'
+  );
+  const html = postHtml(post);
+  const quoteAt = html.indexOf('<blockquote');
+  const conclusionAt = html.indexOf('نتیجه و اهمیت');
+  const usageAt = html.lastIndexOf('لینک استفاده:');
+  assert.ok(quoteAt > 0);
+  assert.ok(conclusionAt > quoteAt);
+  assert.ok(usageAt > conclusionAt);
+});
+
+test('with a quote, the conclusion paragraph sits after the quote and before the source', () => {
+  const post = {
+    title: 'عنوان',
+    body: 'لید و روایت اصلی\n\nجزئیات بدنه\n\nنتیجه و اهمیت',
+    quote: 'جزئیات تکمیلی',
+  };
+  assert.equal(
+    postText(post),
+    'عنوان\n\nلید و روایت اصلی\n\nجزئیات بدنه\n\nجزئیات تکمیلی\n\nنتیجه و اهمیت'
+  );
+  const withSource = {
+    ...post,
+    body: `${post.body}\n\nمنبع: [منبع](https://example.com/a)`,
+  };
+  assert.equal(
+    postText(withSource),
+    'عنوان\n\nلید و روایت اصلی\n\nجزئیات بدنه\n\nجزئیات تکمیلی\n\nنتیجه و اهمیت\n\nمنبع: [منبع](https://example.com/a)'
+  );
+  const html = postHtml(withSource);
+  const quoteAt = html.indexOf('<blockquote');
+  const conclusionAt = html.indexOf('نتیجه و اهمیت');
+  const sourceAt = html.indexOf('منبع:');
+  assert.ok(quoteAt > 0);
+  assert.ok(conclusionAt > quoteAt);
+  assert.ok(sourceAt > conclusionAt);
+});
+
+test('without a quote the body keeps its paragraph order', () => {
+  const post = {
+    title: 'عنوان',
+    body: 'لید و روایت اصلی\n\nجزئیات بدنه\n\nنتیجه و اهمیت\n\nمنبع: [منبع](https://example.com/a)',
+  };
+  assert.equal(
+    postText(post),
+    'عنوان\n\nلید و روایت اصلی\n\nجزئیات بدنه\n\nنتیجه و اهمیت\n\nمنبع: [منبع](https://example.com/a)'
+  );
+});
+
+test('a single-paragraph body stays above the quote', () => {
+  const post = {
+    title: 'عنوان',
+    body: 'متن اصلی\n\nمنبع: [منبع](https://example.com/a)',
+    quote: 'جزئیات',
+  };
+  assert.equal(
+    postText(post),
+    'عنوان\n\nمتن اصلی\n\nجزئیات\n\nمنبع: [منبع](https://example.com/a)'
+  );
 });
 
 test('post html bolds the title, keeps links clickable, and cleans bullets', () => {

@@ -16,6 +16,9 @@ import {
   extractJson,
   qaPost,
   normalizePostFields,
+  applyMechanicalFixes,
+  isFalseStaleSkip,
+  pickToolUsageLink,
   renderPreview,
   MAIN_CATEGORIES,
 } from './engine.mjs';
@@ -89,7 +92,7 @@ async function main() {
   let article;
   try {
     const page = await fetchText(item.link, { redact });
-    article = extractArticle(page.text, item.title);
+    article = extractArticle(page.text, item.title, page.url || item.link);
     article.url = page.url || item.link;
   } catch (error) {
     article = {
@@ -125,6 +128,7 @@ async function main() {
       return '';
     }
   })();
+  const toolUsage = pickToolUsageLink({ article, sourceUrl: article.url, sourceType: source.type });
 
   const baseInfo = {
     ranAt: now,
@@ -188,12 +192,13 @@ async function main() {
   }
 
   const system = await readFile(resolve(ROOT, 'bench/system-prompt.md'), 'utf8');
-  const user = buildUserMessage({ item, article, url: article.url, now, imageUrl, maxAgeHours: windowFor(undefined) });
+  const user = buildUserMessage({ item, article, url: article.url, now, imageUrl, maxAgeHours: windowFor(undefined), toolUrl: toolUsage?.url ?? '' });
   const base = (env.AMD_BASE_URL || 'https://developer.amd.com.cn/radeon/api/v1').replace(/\/$/, '');
 
   console.log(`SOURCE ${source.id} | ITEM ${item.title}`);
   console.log(`AGE ${preGate.ageHours}h | PRE_GATE ok (${preGate.maxAgeHours}h)`);
   console.log(`CONTENT ${article.content.length} chars | IMAGE ${imageUrl ? 'allowed' : `rejected:${imageRejected}`}`);
+  console.log(`TOOL_LINK ${toolUsage ? `${toolUsage.url} | score ${toolUsage.score}` : 'none | source fallback'}`);
   console.log(`MODEL ${MODEL} | CALLING`);
 
   const first = await callWithRetry(
@@ -213,8 +218,36 @@ async function main() {
     );
     parsed = extractJson(second.content);
   }
+  let staleRetry = null;
+  const strictFreshHours = Math.min(
+    windowFor('tools'),
+    windowFor('models'),
+    windowFor('security'),
+    windowFor('business')
+  );
+  if (isFalseStaleSkip(parsed, preGate, strictFreshHours)) {
+    console.log(`MODEL_FALSE_STALE ${preGate.ageHours}h/${strictFreshHours}h | one corrective retry`);
+    const corrective = `${user}\n\nخروجی قبلی خبر را «stale» رد کرد، ولی سن خبر ${preGate.ageHours} ساعت و کمتر از سقف ${strictFreshHours} ساعت است. این خبر تازه است؛ فقط اگر دلیل دیگری برای رد داری همان را بگو، وگرنه publish کن. فقط یک آبجکت JSON معتبر بده.`;
+    staleRetry = await callWithRetry(
+      { base, apiKey: env.AMD_API_KEY, model: MODEL, system, user: corrective, redact },
+      2,
+      console.log
+    );
+    const corrected = extractJson(staleRetry.content);
+    if (corrected) parsed = corrected;
+  }
   let repair = null;
-  parsed = parsed ? normalizePostFields(parsed) : parsed;
+  const finalizePost = (value) =>
+    applyMechanicalFixes(value, {
+      sourceName: host,
+      sourceUrl: article.url,
+      usageUrl: toolUsage?.url ?? '',
+      usageName: toolUsage?.name ?? '',
+      imageUrl,
+      newsDate,
+      sourceType: source.type,
+    });
+  parsed = parsed ? finalizePost(parsed) : parsed;
 
   const qaContext = {
     url: article.url,
@@ -225,6 +258,8 @@ async function main() {
     title: article.title,
     description: article.description,
     content: article.content,
+    links: (article.links ?? []).map((link) => link.url),
+    usageUrl: toolUsage?.url ?? '',
     publishedAt,
     now,
     previousWhy: '',
@@ -241,7 +276,7 @@ async function main() {
         apiKey: env.AMD_API_KEY,
         model: MODEL,
         system,
-        user: buildQaRepairMessage({ user, parsed, qa, imageUrl, previousWhy: '', newsDate }),
+        user: buildQaRepairMessage({ user, parsed, qa, imageUrl, previousWhy: '', newsDate, usageUrl: toolUsage?.url ?? '', usageName: toolUsage?.name ?? '' }),
         redact,
       },
       2,
@@ -249,7 +284,7 @@ async function main() {
     );
     const repaired = extractJson(repair.content);
     if (repaired) {
-      const candidate = normalizePostFields(repaired);
+      const candidate = finalizePost(repaired);
       const candidateQa = qaPost(candidate, { ...qaContext, category: candidate.category });
       const better =
         (candidateQa.pass && !qa.pass) ||
@@ -267,7 +302,7 @@ async function main() {
     }
   }
 
-  const calls = [first, second, repair].filter(Boolean);
+  const calls = [first, second, staleRetry, repair].filter(Boolean);
   const usage = calls.reduce(
     (total, entry) => ({
       prompt_tokens: (total.prompt_tokens ?? 0) + (Number(entry.usage?.prompt_tokens) || 0),
@@ -299,6 +334,7 @@ async function main() {
   const report = {
     ...baseInfo,
     gate: { ...baseInfo.gate, category: { category: effectiveCategory, result: categoryGate } },
+    tool_link: toolUsage ? { url: toolUsage.url, name: toolUsage.name, score: toolUsage.score } : null,
     image: {
       ...baseInfo.image,
       downloaded: downloaded ? { bytes: downloaded.bytes, type: downloaded.type, file: downloaded.file } : null,
@@ -314,7 +350,7 @@ async function main() {
       usage,
       cost,
       raw_chars: lastCall.content.length,
-      json_retry: Boolean(second),
+      json_retry: Boolean(second || staleRetry),
       qa_repair: Boolean(repair),
       error: lastCall.error,
     },
@@ -342,7 +378,7 @@ async function main() {
   }, null, 2));
   await writeFile(
     resolve(outDir, 'response.txt'),
-    [first.content, second ? `--- JSON RETRY ---\n\n${second.content}` : '', repair ? `--- QA REPAIR ---\n\n${repair.content}` : '']
+    [first.content, second ? `--- JSON RETRY ---\n\n${second.content}` : '', staleRetry ? `--- STALE RETRY ---\n\n${staleRetry.content}` : '', repair ? `--- QA REPAIR ---\n\n${repair.content}` : '']
       .filter(Boolean)
       .join('\n\n')
   );

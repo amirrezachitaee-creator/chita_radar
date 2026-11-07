@@ -4,6 +4,7 @@ import { canonicalUrl, contentHash, freshness, windowFor } from './normalize.mjs
 import { dateMentioned, hasReferral } from './offers.mjs';
 import { hasAiMention } from './relevance.mjs';
 import { newsDateLine } from './newstime.mjs';
+import { formatTitle } from './telegram.mjs';
 
 export const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36';
 export const MAIN_CATEGORIES = ['tools', 'models', 'security', 'business'];
@@ -231,7 +232,213 @@ function pickPublishedDate(values) {
   return clocked || first;
 }
 
-export function extractArticle(html, fallbackTitle = '') {
+const USAGE_TAIL_LINE = /^(?:منبع|لینک استفاده)\s*[:：]/u;
+const USAGE_BLOCKED_HOST =
+  /(?:^|\.)(?:facebook\.com|instagram\.com|twitter\.com|x\.com|linkedin\.com|youtube\.com|youtu\.be|tiktok\.com|reddit\.com|discord\.gg|discord\.com|t\.me|telegram\.me|pinterest\.com|threads\.net|medium\.com|substack\.com|patreon\.com|producthunt\.com|news\.ycombinator\.com|bsky\.app)(?:$|\.)/i;
+const USAGE_SKIP_PATH =
+  /(?:^|\/)(?:privacy|terms|legal|contact|about|careers?|jobs?|login|signin|signup|register|subscribe|newsletter|cookies?|sitemap|rss|feed|tags?|categories?|authors?|search|share|amp|pricing|support|help)(?:\/|$)/i;
+const USAGE_ARTICLE_PATH =
+  /(?:^|\/)(?:blog|news|press|resources?\/articles?|articles?|stories|story|posts?|magazine|insights)(?:\/|$)|(?:\/(?:19|20)\d{2}\/)/i;
+const USAGE_STRONG_PATH =
+  /(?:^|\/)(?:docs?|documentation|api|reference|quickstart|guides?|playground|demo|try|app|chat|studio|download|install|releases?|spaces|package|project)(?:\/|$)/i;
+const USAGE_ANCHOR_CUE =
+  /\b(?:try|use|install|download|launch|open|demo|docs?|documentation|api|repo|github|playground|get started|sign up|start|code|build)\b|(?:استفاده|نصب|دانلود|دمو|مستندات|مخزن|شروع|کد|ساخت)/i;
+const HF_RESERVED_PATH =
+  /^\/(?:datasets|models|spaces|papers|learn|organizations|enterprise|storage|tasks|chat|docs|pricing|join|login)\//;
+const isHfRepoPath = (path) =>
+  /^\/[^/]+\/[^/]+$/.test(path) && !USAGE_ARTICLE_PATH.test(path) && !HF_RESERVED_PATH.test(path);
+const USAGE_TITLE_STOP = new Set([
+  'this', 'that', 'with', 'from', 'into', 'your', 'their', 'about', 'after', 'before',
+  'new', 'news', 'update', 'updates', 'launch', 'launches', 'release', 'releases',
+  'model', 'models', 'agent', 'agents', 'tool', 'tools', 'app', 'apps', 'api', 'apis',
+  'platform', 'google', 'microsoft', 'meta', 'openai', 'nvidia', 'anthropic',
+  'company', 'startup', 'users', 'more', 'than', 'will', 'can', 'now',
+]);
+const TOOL_HOME_HOSTS = new Set([
+  'claude.ai', 'chatgpt.com', 'chat.openai.com', 'gemini.google.com',
+  'aistudio.google.com', 'notebooklm.google.com', 'copilot.microsoft.com',
+  'perplexity.ai', 'grok.com', 'deepseek.com',
+]);
+
+function canonicalOrEmpty(url) {
+  try {
+    return canonicalUrl(url);
+  } catch {
+    return '';
+  }
+}
+
+function registrableHost(value) {
+  const host = String(value ?? '').toLowerCase().replace(/^www\./, '');
+  const parts = host.split('.').filter(Boolean);
+  return parts.length > 2 ? parts.slice(-2).join('.') : host;
+}
+
+function latinTokens(value) {
+  return String(value ?? '').toLowerCase().match(/[a-z][a-z0-9.+-]*/g) ?? [];
+}
+
+function collectArticleLinks(html, baseUrl = '') {
+  const links = [];
+  const seen = new Set();
+  const add = (href, label, inBody) => {
+    const raw = decodeEntities(String(href ?? '').trim());
+    if (!raw || /^(?:#|mailto:|tel:|javascript:|data:)/i.test(raw)) return;
+    let absolute;
+    try {
+      absolute = new URL(raw, baseUrl || undefined);
+    } catch {
+      return;
+    }
+    if (!/^https?:$/.test(absolute.protocol)) return;
+    absolute.hash = '';
+    const url = absolute.toString();
+    if (seen.has(url)) return;
+    seen.add(url);
+    links.push({
+      url,
+      text: stripHtml(label ?? '').replace(/\s+/g, ' ').trim().slice(0, 160),
+      inBody,
+    });
+  };
+  const anchorPattern = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  for (const paragraph of html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)) {
+    for (const anchor of paragraph[1].matchAll(anchorPattern)) add(anchor[1], anchor[2], true);
+  }
+  for (const anchor of html.matchAll(anchorPattern)) add(anchor[1], anchor[2], false);
+  return links;
+}
+
+export function usageLinkName(url) {
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.toLowerCase().replace(/^www\./, '');
+    const segments = parsed.pathname.split('/').filter(Boolean);
+    if (/^(?:github|gitlab)\.com$/.test(host) && segments.length >= 2) {
+      return `${segments[0]}/${segments[1]}`.slice(0, 60);
+    }
+    if (
+      host === 'huggingface.co' &&
+      segments.length >= 3 &&
+      ['spaces', 'models', 'datasets'].includes(segments[0])
+    ) {
+      return `${segments[0]}/${segments[1]}/${segments[2]}`.slice(0, 60);
+    }
+    return host;
+  } catch {
+    return 'ابزار';
+  }
+}
+
+function isToolHomeUrl(url) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return false;
+  }
+  const host = parsed.hostname.toLowerCase().replace(/^www\./, '');
+  const path = parsed.pathname.replace(/\/+$/, '') || '/';
+  const articlePath = USAGE_ARTICLE_PATH.test(path);
+  if (/^(?:github|gitlab)\.com$/.test(host) && /^\/[^/]+\/[^/]+$/.test(path)) return true;
+  if (host === 'huggingface.co') {
+    if (/^\/(?:spaces|models|datasets)\/[^/]+\/[^/]+$/.test(path)) return true;
+    if (isHfRepoPath(path)) return true;
+  }
+  if (host === 'npmjs.com' && /^\/package\/[^/]+$/.test(path)) return true;
+  if (host === 'pypi.org' && /^\/project\/[^/]+$/.test(path)) return true;
+  if (TOOL_HOME_HOSTS.has(host)) return !articlePath && !USAGE_SKIP_PATH.test(path);
+  return false;
+}
+
+function scoreUsageCandidate(link, { sourceUrl, sourceType, titleTokens, openSourceCue = false }) {
+  let parsed;
+  try {
+    parsed = new URL(link.url);
+  } catch {
+    return null;
+  }
+  const host = parsed.hostname.toLowerCase().replace(/^www\./, '');
+  const path = parsed.pathname;
+  if (!host || USAGE_BLOCKED_HOST.test(host)) return null;
+  if (USAGE_SKIP_PATH.test(path)) return null;
+  const sourceHost = (() => {
+    try {
+      return new URL(sourceUrl).hostname;
+    } catch {
+      return '';
+    }
+  })();
+  const sameSourceHost = Boolean(sourceHost) && registrableHost(host) === registrableHost(sourceHost);
+  const repoLike =
+    (/^(?:github|gitlab)\.com$/.test(host) && /^\/[^/]+\/[^/]+\/?$/.test(path)) ||
+    (host === 'huggingface.co' && /^\/(?:spaces|models|datasets)\/[^/]+\/[^/]+/.test(path)) ||
+    (host === 'huggingface.co' && isHfRepoPath(path));
+  const strongPath = USAGE_STRONG_PATH.test(path);
+  if (sameSourceHost && sourceType === 'news' && !repoLike && !strongPath) return null;
+  const toolHome = TOOL_HOME_HOSTS.has(host) && !USAGE_ARTICLE_PATH.test(path) && !USAGE_SKIP_PATH.test(path);
+  let score = link.inBody ? 4 : 0;
+  if (repoLike) score += 14;
+  if (/^(?:github|gitlab)\.com$/.test(host) && repoLike) score += 8;
+  if (host === 'npmjs.com' && /^\/package\//.test(path)) score += 10;
+  if (host === 'pypi.org' && /^\/project\//.test(path)) score += 10;
+  if (strongPath) score += 8;
+  if (toolHome) score += openSourceCue ? 6 : 30;
+  if (USAGE_ANCHOR_CUE.test(link.text)) score += 5;
+  const haystack = `${host}${path} ${link.text}`.toLowerCase();
+  const matches = [...titleTokens].filter((token) => haystack.includes(token)).length;
+  if (matches) score += Math.min(12, matches * 6);
+  if (sameSourceHost) score += 3;
+  if (USAGE_ARTICLE_PATH.test(path)) score -= 10;
+  if (!link.inBody && !repoLike && !strongPath) score -= 4;
+  if (!matches && !repoLike) return null;
+  if (score < 10) return null;
+  return { ...link, score, repoLike, titleMatches: matches };
+}
+
+export function pickToolUsageLink({ article, sourceUrl, sourceType = '', offer = false, officialCourse = false } = {}) {
+  if (!sourceUrl || offer || officialCourse) return null;
+  if (isToolHomeUrl(sourceUrl)) {
+    return { url: sourceUrl, name: usageLinkName(sourceUrl), score: 100, repoLike: true, titleMatches: 0 };
+  }
+  const sourceCanonical = canonicalOrEmpty(sourceUrl);
+  const titleTokens = new Set(
+    latinTokens(article?.title).filter((token) => token.length >= 4 && !USAGE_TITLE_STOP.has(token))
+  );
+  const openSourceCue = /open[- ]?source|open[- ]?weights|\bweights\b|\brepo(?:sitory)?\b|github|apache|mit license|متن باز|مدل باز|مخزن/u.test(
+    `${article?.title ?? ''} ${article?.description ?? ''}`
+  );
+  const scored = [];
+  for (const link of Array.isArray(article?.links) ? article.links : []) {
+    if (!link?.url || canonicalOrEmpty(link.url) === sourceCanonical) continue;
+    const candidate = scoreUsageCandidate(link, { sourceUrl, sourceType, titleTokens, openSourceCue });
+    if (candidate) scored.push(candidate);
+  }
+  scored.sort((left, right) => right.score - left.score || Number(right.repoLike) - Number(left.repoLike));
+  if (!scored.length) return null;
+  const titled = scored.some((candidate) => candidate.titleMatches > 0);
+  const untitledRepos = scored.filter((candidate) => candidate.repoLike && candidate.titleMatches === 0);
+  if (!titled && untitledRepos.length > 2) return null;
+  const best = scored[0];
+  return {
+    url: best.url,
+    name: usageLinkName(best.url),
+    score: best.score,
+    repoLike: best.repoLike,
+    titleMatches: best.titleMatches,
+  };
+}
+
+export function usageTailLine(url, name = '') {
+  const safeName = String(name || usageLinkName(url))
+    .replace(/[\[\]\n\r]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim() || 'ابزار';
+  const safeUrl = String(url).replace(/\s+/g, '%20').replace(/\)/g, '%29');
+  return `لینک استفاده: [${safeName}](${safeUrl})`;
+}
+
+export function extractArticle(html, fallbackTitle = '', baseUrl = '') {
   const meta = extractMeta(html);
   const jsonLd = extractJsonLd(html);
   const title = meta['og:title'] || findDeep(jsonLd, 'headline') || fallbackTitle;
@@ -280,6 +487,7 @@ export function extractArticle(html, fallbackTitle = '') {
     imageUrl,
     imageAlt,
     content: content.replace(/\s+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim().slice(0, 20000),
+    links: collectArticleLinks(html, baseUrl),
     meta,
     jsonLd,
   };
@@ -320,7 +528,7 @@ export function clampText(value, maxChars = 0) {
   return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
 }
 
-export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false }) {
+export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, toolUrl = '' }) {
   const host = (() => {
     try {
       return new URL(url).hostname;
@@ -346,6 +554,9 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
         'اگر صفحه اطلاعات کافی دارد، پست خبری کوتاه بنویس و لینک ثبت‌نام رسمی را به عنوان منبع بیاور.',
       ].join('\n')
     : '';
+  const toolBlock = toolUrl
+    ? `لینک استفاده (tool_url): ${toolUrl}`
+    : 'لینک استفاده (tool_url): ندارد';
   return [
     `عنوان: ${article.title || item.title}`,
     `تاریخ انتشار: ${article.published || item.published}`,
@@ -353,10 +564,11 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     `نام منبع: ${host}`,
     `تاریخ جاری: ${now}`,
     `حداکثر سن مجاز: ${maxAgeHours} ساعت`,
+    toolBlock,
     imageBlock,
     offerBlock,
     courseBlock,
-    'یادآوری نگارش: تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات اضافه را در فیلد quote بگذار.',
+    'یادآوری نگارش: تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
     '',
     'متن خبر:',
     clampText(article.content, maxContentChars),
@@ -481,6 +693,7 @@ export function visibleLength(value) {
 }
 
 const TERM_FIXES = [
+  [/وصله/gu, 'پچ'],
   [/عامل[\u200c\s]*های/gu, 'ایجنت‌های'],
   [/عامل[\u200c\s]*ها/gu, 'ایجنت‌ها'],
   [/عامل[ \u200c]+هوشمند/gu, 'ایجنت هوشمند'],
@@ -490,6 +703,16 @@ const TERM_FIXES = [
 export function fixTerminology(value) {
   const text = String(value ?? '');
   return TERM_FIXES.reduce((result, [pattern, replacement]) => result.replace(pattern, replacement), text);
+}
+
+export function isFalseStaleSkip(parsed, gate, maxAgeHours = Infinity) {
+  return Boolean(
+    parsed &&
+      parsed.decision === 'skip' &&
+      parsed.reason_code === 'stale' &&
+      gate?.ok &&
+      Number(gate.ageHours) <= maxAgeHours
+  );
 }
 
 export function applyLeadPolicy(parsed, lead = {}) {
@@ -515,33 +738,31 @@ export function normalizePostFields(parsed) {
   return { ...parsed, title: fixTerminology(String(parsed.title ?? '')).trim(), body, quote };
 }
 
-export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '' } = {}) {
+export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '' } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   const body = String(parsed.body ?? '').trimEnd();
   if (!body || !sourceUrl) return parsed;
-  const lines = body.split('\n');
-  const last = [...lines].reverse().find((line) => line.trim())?.trim() ?? '';
-  if (/^منبع\s*[:：]/u.test(last) && last.includes(sourceUrl)) return parsed;
-  const safeName = String(sourceName || 'منبع')
+  const useUsage = parsed.category === 'tools' && Boolean(usageUrl);
+  const targetUrl = useUsage ? usageUrl : sourceUrl;
+  const targetPrefix = useUsage ? 'لینک استفاده' : 'منبع';
+  const safeSourceName = String(sourceName || 'منبع')
     .replace(/[\[\]\n]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim() || 'منبع';
-  const withoutBrokenSource = /^منبع\s*[:：]/u.test(last)
-    ? lines.slice(0, -1).join('\n').trimEnd()
-    : body;
-  return { ...parsed, body: `${withoutBrokenSource}\n\nمنبع: [${safeName}](${sourceUrl})` };
-}
-
-export function fitCaption(parsed, newsDate = '', limit = CAPTION_SAFE_LIMIT) {
-  if (!parsed || parsed.decision !== 'publish' || !parsed.image_url) return parsed;
-  const captionLengthOf = (value) =>
-    visibleLength([value.title, newsDate, value.body, value.quote].filter(Boolean).join('\n\n'));
-  if (captionLengthOf(parsed) <= limit) return parsed;
-  if (parsed.quote) {
-    const withoutQuote = { ...parsed, quote: '' };
-    if (captionLengthOf(withoutQuote) <= limit) return withoutQuote;
+  const lines = body.split('\n');
+  const lastIndex = lines.findLastIndex((line) => line.trim());
+  const last = (lastIndex >= 0 ? lines[lastIndex] : '').trim();
+  if (new RegExp(`^${targetPrefix}\\s*[:：]`, 'u').test(last)) {
+    const lastUrl = last.match(/https?:\/\/[^\s)]+/)?.[0] ?? '';
+    if (canonicalOrEmpty(lastUrl) === canonicalOrEmpty(targetUrl)) return parsed;
   }
-  return { ...parsed, image_url: '' };
+  const withoutTail = lastIndex >= 0 && USAGE_TAIL_LINE.test(last)
+    ? lines.slice(0, lastIndex).join('\n').trimEnd()
+    : body;
+  const line = useUsage
+    ? usageTailLine(targetUrl, usageName)
+    : `منبع: [${safeSourceName}](${targetUrl})`;
+  return { ...parsed, body: `${withoutTail}\n\n${line}` };
 }
 
 export function countTitleWords(value) {
@@ -597,7 +818,7 @@ function shortenText(value, max) {
 function splitSourceLine(value) {
   const lines = String(value ?? '').split('\n');
   for (let index = lines.length - 1; index >= 0; index -= 1) {
-    if (/^\s*منبع\s*[:：]/u.test(lines[index])) {
+    if (USAGE_TAIL_LINE.test(lines[index].trim())) {
       return {
         content: lines.slice(0, index).join('\n').trim(),
         source: lines.slice(index).join('\n').trim(),
@@ -605,6 +826,28 @@ function splitSourceLine(value) {
     }
   }
   return { content: String(value ?? '').trim(), source: '' };
+}
+
+function enforceDetailQuote(parsed) {
+  if (!parsed || parsed.decision !== 'publish') return parsed;
+  const { content, source } = splitSourceLine(parsed.body);
+  const paragraphs = content
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+  if (paragraphs.length < 3 || content.length < 550) return parsed;
+  const middle = paragraphs.slice(1, -1);
+  if (!middle.length || middle.some((paragraph) => /^[ \t]*[-•–][ \t]+/mu.test(paragraph))) return parsed;
+  const details = middle.join('\n\n').trim();
+  if (details.length < 80) return parsed;
+  const quote = String(parsed.quote ?? '').trim();
+  const combined = quote ? `${quote}\n\n${details}` : details;
+  if (combined.length > QUOTE_MAX_CHARS) return parsed;
+  return {
+    ...parsed,
+    body: [paragraphs[0], paragraphs.at(-1), source].filter(Boolean).join('\n\n'),
+    quote: combined,
+  };
 }
 
 export function trimBody(value, max = 990) {
@@ -648,6 +891,42 @@ export function trimQuote(value, max = QUOTE_MAX_CHARS) {
   return shortenText(quote, max);
 }
 
+export function fitImageCaption(parsed, newsDate = '', limit = CAPTION_SAFE_LIMIT) {
+  if (!parsed || !parsed.image_url) return parsed;
+  const measure = (value) =>
+    visibleLength([value.title, newsDate, value.body, value.quote].filter(Boolean).join('\n\n'));
+  if (measure(parsed) <= limit) return parsed;
+  let next = { ...parsed };
+  if (next.quote) {
+    const overflow = measure(next) - limit;
+    next.quote = trimQuote(next.quote, Math.max(120, next.quote.length - overflow - 12));
+  }
+  if (measure(next) > limit) {
+    const { content, source } = splitSourceLine(next.body);
+    const paragraphs = content
+      .split(/\n{2,}/)
+      .map((paragraph) => paragraph.trim())
+      .filter(Boolean);
+    if (paragraphs.length >= 2) {
+      const overflow = measure(next) - limit;
+      const lead = paragraphs[0];
+      const rest = paragraphs.slice(1);
+      const shorter = shortenText(lead, Math.max(60, lead.length - overflow - 12));
+      next = { ...next, body: [shorter, ...rest, source].filter(Boolean).join('\n\n') };
+    }
+  }
+  if (measure(next) > limit) {
+    const fixed = visibleLength([next.title, newsDate, next.quote].filter(Boolean).join('\n\n'));
+    const bodyBudget = limit - fixed - 8;
+    if (bodyBudget >= 120) next = { ...next, body: trimBody(next.body, bodyBudget) };
+  }
+  if (measure(next) > limit && next.quote) {
+    const overflow = measure(next) - limit;
+    next.quote = trimQuote(next.quote, Math.max(60, next.quote.length - overflow - 8));
+  }
+  return next;
+}
+
 export function ensureDedupeKey(parsed, { sourceUrl = '', title = '' } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   const current = String(parsed.dedupe_key ?? '').trim();
@@ -656,22 +935,25 @@ export function ensureDedupeKey(parsed, { sourceUrl = '', title = '' } = {}) {
   return { ...parsed, dedupe_key: `post-${contentHash(seed)}` };
 }
 
-export function applyMechanicalFixes(parsed, { newsDate = '', sourceName = '', sourceUrl = '', captionLimit = CAPTION_SAFE_LIMIT } = {}) {
+export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '', imageUrl = '', newsDate = '', sourceType = '' } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   let next = normalizePostFields(parsed);
-  next = ensureSourceLine(next, { sourceName, sourceUrl });
+  if (sourceType === 'official_blog' && (!next.verification || next.verification === 'reported')) {
+    next = { ...next, verification: 'official' };
+  }
+  if (imageUrl && next.post_type === 'deep') next = { ...next, post_type: 'standard' };
+  next = ensureSourceLine(next, { sourceName, sourceUrl, usageUrl, usageName });
+  next = enforceDetailQuote(next);
   next = ensureDedupeKey(next, { sourceUrl, title: next.title });
   const bounds = lengthBounds(next.post_type) ?? lengthBounds('standard');
-  return fitCaption(
-    {
-      ...next,
-      title: trimTitle(next.title),
-      body: trimBody(normalizeBullets(next.body), bounds.max),
-      quote: trimQuote(next.quote),
-    },
-    newsDate,
-    captionLimit
-  );
+  const trimmed = {
+    ...next,
+    title: trimTitle(next.title),
+    body: trimBody(normalizeBullets(next.body), bounds.max),
+    quote: trimQuote(next.quote),
+    image_url: String(imageUrl || ''),
+  };
+  return fitImageCaption(trimmed, newsDate);
 }
 
 function lengthBounds(type) {
@@ -696,12 +978,13 @@ const QA_FIX_HINTS = {
   body_paragraphs: 'body را به ۲ تا ۳ پاراگراف با یک خط خالی بین آن‌ها تقسیم کن؛ جمله اهمیت باید پاراگراف آخر و مستقل باشد.',
   title_clean: 'تیتر بدون نقطه یا علامت سؤال انتهایی، بدون Markdown و بدون عبارت کلیشه‌ای باشد.',
   bullets: 'بولت یا صفر باشد یا بین ۲ تا ۵.',
-  why: 'جمله اهمیت باید آخرین پاراگراف body و قبل از خط منبع باشد؛ برای ابزار، همان جمله کاربرد یا مزیت کافی است.',
+  why: 'جمله اهمیت باید آخرین پاراگراف body و قبل از خط پایانی (منبع یا لینک استفاده) باشد؛ برای ابزار، همان جمله کاربرد یا مزیت کافی است.',
   why_label: 'برچسب «چرا مهمه:» نگذار؛ اهمیت را داخل جمله طبیعی بیاور.',
   why_repeat: 'جمله اهمیت را با شروع تازه بازنویسی کن؛ همان شروع پست قبلی را تکرار نکن.',
   quote_length: 'quote حداکثر ۱۲۰۰ کاراکتر باشد.',
   quote_clean: 'quote عبارت ممنوع یا placeholder نداشته باشد.',
-  source: 'خط منبع اجباری است و باید آخرین خط body باشد.',
+  source: 'خط پایانی body باید «منبع: ...» باشد؛ برای دسته tools اگر لینک استفادهٔ مجاز در ورودی هست، خط پایانی «لینک استفاده: ...» و با همان آدرس است.',
+  links_grounded: 'هر لینکی در body یا quote باید از لینک‌های ورودی یا منبع باشد؛ لینک تازه نساز و آدرس حدس نزن.',
   no_signature: 'امضا یا ایموجی ✉️ نگذار.',
   hashtags: 'هشتگ نگذار.',
   length: 'طول body با post_type بخواند؛ برای standard هدف ۴۰۰ تا ۸۵۰ کاراکتر و سقف مطلق ۹۹۰ کاراکتر است.',
@@ -712,21 +995,21 @@ const QA_FIX_HINTS = {
   dedupe_key: 'dedupe_key فقط حروف کوچک لاتین و خط تیره باشد.',
   source_url: 'source_url باید دقیقاً همان URL ورودی باشد.',
   image_exact: 'image_url یا خالی باشد یا دقیقاً همان تصویر مجاز ورودی.',
-  caption: 'مجموع تیتر، تاریخ خبر، body و quote حداکثر ۹۰۰ کاراکتر باشد؛ جزئیات کم‌اهمیت را حذف کن، نه منبع و جمله اهمیت را.',
-  deep_with_image: 'برای پست deep تصویر نگذار.',
+  caption: 'مجموع تیتر، تاریخ خبر، body و quote حداکثر ۹۰۰ کاراکتر باشد؛ اول quote را کوتاه کن، بعد پاراگراف میانی را؛ تصویر، خط پایانی و جمله اهمیت را حذف نکن.',
+  deep_with_image: 'وقتی تصویر مجاز هست post_type باید standard باشد؛ deep را با تصویر نفرست.',
+  image_used: 'تصویر مجاز را حذف نکن؛ image_url را دقیقاً همان تصویر ورودی بگذار.',
   image_https: 'image_url باید https باشد.',
   category_fresh: 'این آیتم برای این دسته تازه نیست؛ skip بده.',
   category_main: 'دسته باید یکی از tools، models، security یا business باشد.',
   post_type: 'post_type باید breaking یا standard یا deep باشد.',
   importance: 'importance بین ۳ تا ۵ باشد.',
   verification_enum: 'verification باید یکی از official، reported، rumor یا unverified باشد.',
-  verification_source: 'وضعیت تأیید باید با نوع منبع بخواند.',
+  verification_source: 'برای رسانه خبری reported (یا rumor/unverified) و برای وبلاگ رسمی خود شرکت official بگذار.',
   grounding_superlatives: 'بزرگ‌نمایی یا صفت قطعی که در منبع نیست را حذف کن؛ اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
   numbers_grounded: 'فقط اعدادی را بنویس که در منبع آمده‌اند.',
-  image_used: 'تصویر مجاز را استفاده کن یا خالی بگذار.',
 };
 
-export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previousWhy = '', newsDate = '' }) {
+export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previousWhy = '', newsDate = '', usageUrl = '', usageName = '' }) {
   const problemNames = qa?.problems ?? [];
   const schemaBroken = problemNames.some((name) =>
     ['schema', 'verification_enum', 'verification_source', 'source_url', 'image_exact', 'dedupe_key'].includes(name)
@@ -756,6 +1039,9 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
   const title = String(parsed?.title ?? '');
   const body = String(parsed?.body ?? '');
   const quote = String(parsed?.quote ?? '');
+  const usageTail = parsed?.category === 'tools' && Boolean(usageUrl);
+  const tailLabel = usageTail ? 'لینک استفاده' : 'منبع';
+  const tailTarget = usageTail ? ` (${usageUrl})` : '';
   const titleWords = countTitleWords(title);
   const captionChars = visibleLength([title, newsDate, body, quote].filter(Boolean).join('\n\n'));
   const target = CAPTION_SAFE_LIMIT - 50;
@@ -778,27 +1064,30 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
   const limits = [
     imageUrl
       ? captionChars > target
-        ? `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است؛ باید حداکثر ${target} کاراکتر شود، یعنی حدود ${cut} کاراکتر کوتاه‌تر. خط منبع هم داخل همین حساب است.`
-        : `طول فعلی تیتر، تاریخ خبر و body ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
+        ? `طول فعلی تیتر، تاریخ خبر، body و quote ${captionChars} کاراکتر است؛ باید حداکثر ${target} کاراکتر شود، یعنی حدود ${cut} کاراکتر کوتاه‌تر. خط پایانی هم داخل همین حساب است. تصویر و quote را حذف نکن؛ اول quote و پاراگراف میانی را کوتاه کن.`
+        : `طول فعلی تیتر، تاریخ خبر، body و quote ${captionChars} کاراکتر است و در سقف مجاز است؛ لحن را اصلاح کن و از ${target} کاراکتر بیشتر نکن.`
       : bodyLengthLimit,
     `تیتر الان ${titleWords} کلمه است؛ حداکثر ${TITLE_MAX_WORDS} کلمه باشد.`,
-    `خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط منبع به‌عنوان آخرین خط.${quote ? ' quote را هم بالای خط منبع و داخل همان پیام نگه دار.' : ''}`,
-    'پاراگراف اهمیت باید «چرا مهم است» را با جمله‌ای تازه بگوید و شروع پست قبلی را تکرار نکند؛ خط منبع با «منبع:» و لینک همان URL ورودی.',
-    'اگر جا کم آمد، فقط پاراگراف ۲ را کوتاه کن؛ اهمیت و منبع را هرگز حذف نکن.',
+    `خروجی باید دقیقاً این بلوک‌ها را داشته باشد و هیچ بلوکی حذف نشود: تیتر؛ پاراگراف ۱ خبر اصلی با حداکثر ۲۲۰ کاراکتر؛ پاراگراف ۲ یک دلیل یا زمینه با حداکثر ۱۸۰ کاراکتر؛ پاراگراف اهمیت با حداکثر ۲۰۰ کاراکتر؛ خط ${tailLabel} به‌عنوان آخرین خط.${quote ? ` quote را هم بالای خط ${tailLabel} و داخل همان پیام نگه دار.` : ''}`,
+    `پاراگراف اهمیت باید «چرا مهم است» را با جمله‌ای تازه بگوید و شروع پست قبلی را تکرار نکند؛ خط ${tailLabel} با «${tailLabel}:» و همان لینک مجاز${tailTarget}.`,
+    `اگر جا کم آمد، اول quote را کوتاه کن، بعد پاراگراف میانی را؛ جمله اهمیت، خط ${tailLabel} و تصویر مجاز را هرگز حذف نکن.`,
+    ...(imageUrl
+      ? ['image_url را دقیقاً همان تصویر مجاز ورودی بگذار و هرگز حذفش نکن؛ با وجود تصویر post_type باید standard باشد.']
+      : []),
     ...(imageUrl && quote
-      ? ['quote داخل همین پیام می‌ماند و به پیام جدا منتقل نمی‌شود؛ اگر با کوتاه‌کردن body جا نشد، آن را تا حدود ۲۰۰ کاراکتر کوتاه کن.']
+      ? ['quote داخل همین پیام می‌ماند و به پیام جدا منتقل نمی‌شود؛ اگر با کوتاه‌کردن body جا نشد، فقط متن quote را کوتاه کن.']
       : []),
     schemaBroken
-      ? 'خروجی قبلی از نظر فیلدها ناقص است. همه فیلدهای لازم را دوباره پر کن: decision, reason_code, reason, category, post_type, importance, title, body, quote, key_facts (حداقل ۲ مورد), numbers, entities.companies, entities.models, entities.people, verification, source_url, image_url, dedupe_key. برای منبع خبری verification را reported بگذار؛ source_url همان URL ورودی، image_url همان تصویر مجاز ورودی، و dedupe_key حروف کوچک لاتین با خط تیره باشد.'
+      ? 'خروجی قبلی از نظر فیلدها ناقص است. همه فیلدهای لازم را دوباره پر کن: decision, reason_code, reason, category, post_type, importance, title, body, quote, key_facts (حداقل ۲ مورد), numbers, entities.companies, entities.models, entities.people, verification, source_url, image_url, dedupe_key. برای منبع خبری verification را reported و برای وبلاگ رسمی خود شرکت official بگذار؛ source_url همان URL ورودی، image_url همان تصویر مجاز ورودی، و dedupe_key حروف کوچک لاتین با خط تیره باشد.'
       : tooShort
         ? 'فقط title و body را اصلاح کن؛ body را گسترش بده و بقیه فیلدها را دقیقاً از خروجی قبلی نگه دار و key_facts و entities را خالی نکن.'
-        : 'فقط title و body را کوتاه کن؛ بقیه فیلدها را دقیقاً از خروجی قبلی نگه دار و key_facts و entities را خالی نکن.',
+        : 'فقط title، body و در صورت کمبود جا quote را کوتاه کن؛ بقیه فیلدها (به‌ویژه image_url) را دقیقاً از خروجی قبلی نگه دار و key_facts و entities را خالی نکن.',
     tooShort
       ? 'این بازنویسی است نه ویرایش جزئی: برای رسیدن به حداقل طول، یک پاراگراف زمینه یا جزئیات مستند از منبع اضافه کن؛ از نتیجه، علت یا بزرگ‌نمایی تازه استفاده نکن.'
       : 'این بازنویسی است نه ویرایش جزئی: جمله‌های کم‌اهمیت را کامل حذف کن، نه اینکه کلمه‌ها را کوتاه کنی.',
     'فقط ۳ عدد مهم را نگه دار؛ بقیه عددها و جزئیات فرعی را حذف کن.',
     quote
-      ? 'بولت را خالی بگذار و quote را بالای خط منبع و داخل همان پست نگه دار؛ فقط در صورت کمبود جا آن را کوتاه کن.'
+      ? `بولت را خالی بگذار و quote را بالای خط ${tailLabel} و داخل همان پست نگه دار؛ فقط در صورت کمبود جا آن را کوتاه کن.`
       : 'بولت و quote را خالی بگذار.',
     'فقط از اطلاعات همین منبع بنویس؛ نتیجه، علت، شدت یا بزرگ‌نمایی اضافه نکن. اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
   ];
@@ -882,7 +1171,7 @@ export function qaPost(parsed, context) {
   add('bullets', type === 'breaking' ? true : bullets === 0 || (bullets >= 2 && bullets <= 5));
   const whyCue = /(مهمه|مهمه که|مهم اینه|اهمیت|اهمیتش|از اونجایی که|از اونجا که|نکته مهم|نکته اینجاست|از این جهت|به همین دلیل|به همین خاطر|به این ترتیب|از این رو|با این کار|این یعنی|در نتیجه|اثرش|اثر واقعی|اثر این|تأثیر|تاثیر|پیامد|نتیجه‌اش|نتیجه اینه|برای مخاطب|در عمل|در واقع|یعنی)/u;
   const whyUseCase = /(کاربرد|کاربردی|استفاده|برای\s+(?:اجرا|ساخت|راه\s*اندازی|کار|تیم|کسانی|همه)|می‌تونید|می‌تونن|می‌تونی|کمک\s*می‌کنه|اجازه\s*می‌ده|مناسب|به\s*دست|نیاز\s*دارید|کافیه|امکان\s*می\s*ده|می‌سازه|قابل\s*استفاده|جایگزین|به\s*جای)/u;
-  const sourceLine = body.match(/^[ \t]*منبع\s*[:：]/m);
+  const sourceLine = body.match(/^[ \t]*(?:منبع|لینک استفاده)\s*[:：]/m);
   const beforeSource = sourceLine ? body.slice(0, sourceLine.index) : body;
   const paragraphs = beforeSource.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean);
   const lastParagraph = paragraphs[paragraphs.length - 1] || '';
@@ -910,14 +1199,17 @@ export function qaPost(parsed, context) {
     .map((line) => line.trim())
     .filter(Boolean)
     .pop() ?? '';
+  const tailMatch = lastBodyLine.match(/^(منبع|لینک استفاده)\s*[:：]/u);
   const sourceLineUrl = lastBodyLine.match(/https?:\/\/[^\s)]+/)?.[0] ?? '';
-  add('source', /^منبع\s*[:：]/u.test(lastBodyLine) && (() => {
+  const expectedTailLabel = parsed.category === 'tools' && context.usageUrl ? 'لینک استفاده' : 'منبع';
+  const expectedTailUrl = expectedTailLabel === 'لینک استفاده' ? context.usageUrl : context.url;
+  add('source', Boolean(tailMatch) && tailMatch[1] === expectedTailLabel && (() => {
     try {
-      return canonicalEqual(sourceLineUrl, context.url);
+      return canonicalEqual(sourceLineUrl, expectedTailUrl);
     } catch {
       return false;
     }
-  })());
+  })(), tailMatch ? `${tailMatch[1]}:${parsed.category}` : 'missing');
   add('no_signature', !body.includes('✉️') && !quote.includes('✉️'));
   add('hashtags', tags === 0);
   add('length', lengthOk(type, body.length), `${body.length}`);
@@ -937,6 +1229,21 @@ export function qaPost(parsed, context) {
   const formalCount = formalPatterns.filter((pattern) => pattern.test(proseForStyle)).length;
   add('formal_verbs', formalCount === 0, formalCount ? `${formalCount}` : '', false);
   add('no_placeholder', !/\[(نام|تاریخ|لینک|عدد|شرکت|منبع)\]/u.test(`${body}\n${quote}`));
+  const allowedLinks = new Set(
+    [
+      context.url,
+      context.usageUrl,
+      ...(Array.isArray(context.links) ? context.links : []),
+      ...[...`${context.title ?? ''} ${context.description ?? ''} ${context.content ?? ''}`.matchAll(/https?:\/\/[^\s)\]>]+/g)]
+        .map((match) => match[0].replace(/[.,،؛!؟]+$/u, '')),
+    ]
+      .map(canonicalOrEmpty)
+      .filter(Boolean)
+  );
+  const inventedLinks = [...`${body}\n${quote}`.matchAll(/https?:\/\/[^\s)\]>]+/g)]
+    .map((match) => match[0].replace(/[.,،؛!؟]+$/u, ''))
+    .filter((url) => !allowedLinks.has(canonicalOrEmpty(url)));
+  add('links_grounded', inventedLinks.length === 0, inventedLinks.slice(0, 4).join(','));
   add('script_clean', !/[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]/u.test(`${title}\n${body}\n${quote}`));
   add('dedupe_key', /^[a-z0-9]+(-[a-z0-9]+)*$/.test(String(parsed.dedupe_key ?? '')));
   add('source_url', (() => {
@@ -963,8 +1270,8 @@ export function qaPost(parsed, context) {
     add('offer_referral', !hasReferral(`${body}\n${parsed.source_url ?? ''}`));
   }
 
-  if (context.imageUrl && !parsed.image_url) {
-    add('image_used', false, 'model dropped the allowed image', false);
+  if (context.imageUrl && !parsed.image_url && type !== 'deep') {
+    add('image_used', false, 'allowed image missing', true);
   }
 
   const sourceNumbers = new Set([
@@ -1034,7 +1341,7 @@ function splitPreviewSource(body) {
   if (!text) return { body: '', source: '' };
   const lines = text.split('\n');
   const lastIndex = lines.findLastIndex((line) => line.trim());
-  if (lastIndex < 0 || !/^منبع\s*[:：]/u.test(lines[lastIndex].trim())) {
+  if (lastIndex < 0 || !USAGE_TAIL_LINE.test(lines[lastIndex].trim())) {
     return { body: text, source: '' };
   }
   return { body: lines.slice(0, lastIndex).join('\n').trimEnd(), source: lines[lastIndex].trim() };
@@ -1048,7 +1355,7 @@ export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, so
         `<tr class="${check.ok ? 'ok' : 'bad'}"><td>${escapeHtml(check.name)}</td><td>${check.ok ? 'قبول' : 'رد'}</td><td>${escapeHtml(check.detail || '')}</td></tr>`
     )
     .join('\n');
-  const title = post?.title || 'بدون عنوان';
+  const title = formatTitle(post?.title) || 'بدون عنوان';
   const body = post?.body || '';
   const { body: bodyMain, source: bodySource } = splitPreviewSource(body);
   const imageBlock = imageUsed
@@ -1093,7 +1400,7 @@ export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, so
   <div class="card">
     ${imageBlock}
     <div class="content">
-      <h1>${escapeHtml(title)}</h1>
+      <h1>\u200F${escapeHtml(title)}</h1>
       ${post?.news_date ? `<div class="date">${escapeHtml(post.news_date)}</div>` : ''}
       <div class="caption">${formatPreviewBody(bodyMain)}</div>
       ${post?.quote ? `<blockquote class="quote">${formatPreviewBody(post.quote)}</blockquote>` : ''}

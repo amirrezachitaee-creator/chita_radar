@@ -5,8 +5,9 @@ import {
   applyMechanicalFixes,
   countTitleWords,
   ensureSourceLine,
-  fitCaption,
+  fitImageCaption,
   imageVerdict,
+  isFalseStaleSkip,
   normalizePostFields,
   qaPost,
   trimBody,
@@ -19,23 +20,112 @@ import {
   callWithRetry,
   extractArticle,
   parseFeed,
+  pickToolUsageLink,
 } from './engine.mjs';
 
-test('an over-limit image caption drops the quote before the image', () => {
-  const body = 'م'.repeat(850);
+test('an over-limit image caption is shortened without dropping the image or the quote', () => {
   const date = '📅 تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵';
   const base = {
     decision: 'publish',
     title: 'عنوان',
-    body,
-    quote: 'ط'.repeat(100),
+    body: 'م'.repeat(700),
+    quote: 'ط'.repeat(500),
     image_url: 'https://example.com/a.jpg',
   };
-  const withQuote = fitCaption(base, date);
-  assert.equal(withQuote.quote, '');
-  assert.equal(withQuote.image_url, base.image_url);
-  const withoutImage = fitCaption({ ...base, quote: '' }, `${date} ${'x'.repeat(80)}`);
-  assert.equal(withoutImage.image_url, '');
+  const fitted = fitImageCaption(base, date);
+  assert.equal(fitted.image_url, base.image_url);
+  assert.ok(fitted.quote.length > 0);
+  assert.ok(fitted.quote.length < base.quote.length);
+  const visible = (value) =>
+    [value.title, date, value.body, value.quote].filter(Boolean).join('\n\n').length;
+  assert.ok(visible(fitted) <= 900);
+
+  const bodyHeavy = fitImageCaption(
+    { ...base, body: 'م'.repeat(950), quote: '' },
+    date
+  );
+  assert.equal(bodyHeavy.image_url, base.image_url);
+  assert.ok(bodyHeavy.body.length < 950);
+});
+
+test('a long middle paragraph moves into the telegram quote and the image survives', () => {
+  const lead = `لید خبر. ${'الف '.repeat(100).trim()}`;
+  const middle = `جزئیات تکمیلی. ${'ب '.repeat(120).trim()}`;
+  const importance = 'اهمیتش اینه که کار تیم‌ها ساده‌تر می‌شه.';
+  const parsed = {
+    decision: 'publish',
+    category: 'models',
+    post_type: 'standard',
+    importance: 4,
+    title: 'خبر تازه',
+    body: [lead, middle, importance].join('\n\n'),
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [] },
+    verification: 'reported',
+    source_url: 'https://example.com/a',
+    image_url: 'https://example.com/a.jpg',
+    dedupe_key: 'test-detail-quote',
+  };
+  const fixed = applyMechanicalFixes(parsed, {
+    sourceName: 'منبع',
+    sourceUrl: 'https://example.com/a',
+    imageUrl: 'https://example.com/a.jpg',
+    newsDate: '📅 تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵',
+  });
+  assert.ok(fixed.quote.includes('جزئیات تکمیلی'));
+  assert.ok(fixed.body.startsWith('لید خبر'));
+  assert.ok(fixed.body.includes(importance));
+  assert.equal(fixed.body.includes('جزئیات تکمیلی'), false);
+  assert.equal(fixed.image_url, 'https://example.com/a.jpg');
+  assert.equal(fixed.post_type, 'standard');
+  assert.ok(fixed.body.endsWith('منبع: [منبع](https://example.com/a)'));
+});
+
+test('an allowed image is mandatory and deep becomes standard', () => {
+  const parsed = {
+    decision: 'publish',
+    category: 'tools',
+    post_type: 'deep',
+    importance: 4,
+    title: 'ابزار تازه',
+    body: 'لید خبر.\n\nاهمیتش اینه که کار ساده‌تر می‌شه.',
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [] },
+    verification: 'reported',
+    source_url: 'https://example.com/tool',
+    image_url: '',
+    dedupe_key: 'test-image-mandatory',
+  };
+  const fixed = applyMechanicalFixes(parsed, {
+    sourceName: 'منبع',
+    sourceUrl: 'https://example.com/tool',
+    imageUrl: 'https://example.com/tool.jpg',
+    newsDate: '📅 تاریخ خبر: سه‌شنبه ۱۲ آبان ۱۴۰۵',
+  });
+  assert.equal(fixed.image_url, 'https://example.com/tool.jpg');
+  assert.equal(fixed.post_type, 'standard');
+
+  const qa = qaPost(
+    { ...fixed, image_url: '', body: `${fixed.body}` },
+    {
+      url: 'https://example.com/tool',
+      host: 'example.com',
+      sourceType: 'news',
+      category: 'tools',
+      imageUrl: 'https://example.com/tool.jpg',
+      title: 'ابزار تازه',
+      description: '',
+      content: '',
+      publishedAt: new Date().toISOString(),
+      now: new Date().toISOString(),
+      previousWhy: '',
+    }
+  );
+  assert.ok(qa.problems.includes('image_used'));
 });
 
 test('image policy rejects logos and stock files even with underscore names', () => {
@@ -84,6 +174,21 @@ test('translated tech terms are rewritten deterministically', () => {
   assert.ok(normalized.body.includes('هر ایجنت هوشمند'));
   assert.ok(normalized.body.includes('عامل اصلی رشد همین است.'));
   assert.equal(normalized.quote, 'یک عامل دیگر هم هست.');
+});
+
+test('the patch term keeps its transliteration instead of the literal word', () => {
+  const normalized = normalizePostFields({
+    title: 'یک وصله کوچک برای خلاصه هوشمند',
+    body: 'این پچ فقط تکرار خط‌ها را رفع می‌کند. سرویس ابری روز ۵ نوامبر وصله شده و دو وصله امنیتی دیگر هم منتشر شد.\n\nاین وصله‌ها فقط برای نسخه دسکتاپ هستند.',
+    quote: 'این پچ امنیتی هنوز منتشر نشده.',
+  });
+  assert.equal(normalized.title, 'یک پچ کوچک برای خلاصه هوشمند');
+  assert.ok(normalized.body.includes('این پچ فقط تکرار'));
+  assert.ok(normalized.body.includes('روز ۵ نوامبر پچ شده'));
+  assert.ok(normalized.body.includes('دو پچ امنیتی دیگر'));
+  assert.ok(normalized.body.includes('این پچ‌ها فقط'));
+  assert.equal(normalized.quote, 'این پچ امنیتی هنوز منتشر نشده.');
+  assert.ok(!/وصله/u.test(`${normalized.title}\n${normalized.body}\n${normalized.quote}`));
 });
 
 test('repeating the previous importance opener is only a soft warning', () => {
@@ -178,6 +283,236 @@ test('a missing source line is appended and source QA checks the last line', () 
   assert.equal(missing.checks.find((check) => check.name === 'source').ok, false);
   const present = qaPost({ ...base, body: `${body}\n\nمنبع: [The Decoder](https://example.com/a)` }, context);
   assert.equal(present.checks.find((check) => check.name === 'source').ok, true);
+});
+
+test('a tools post ends with the usage link and falls back to the source line', () => {
+  const source = { sourceName: 'Google Blog', sourceUrl: 'https://blog.google/a' };
+  const body = 'لید خبر.\n\nابزار چه ویژگی‌هایی دارد.\n\nاهمیتش اینه که کار کاربر ساده‌تر می‌شه.\n\nمنبع: [Google Blog](https://blog.google/a)';
+  const fixed = ensureSourceLine(
+    { decision: 'publish', category: 'tools', body },
+    { ...source, usageUrl: 'https://gemini.google.com/', usageName: 'gemini.google.com' }
+  );
+  assert.ok(fixed.body.endsWith('لینک استفاده: [gemini.google.com](https://gemini.google.com/)'));
+  assert.ok(!fixed.body.includes('منبع:'));
+
+  const again = ensureSourceLine(
+    fixed,
+    { ...source, usageUrl: 'https://gemini.google.com/', usageName: 'gemini.google.com' }
+  );
+  assert.equal(again.body, fixed.body);
+
+  const noUsage = ensureSourceLine(
+    { decision: 'publish', category: 'tools', body },
+    source
+  );
+  assert.ok(noUsage.body.endsWith('منبع: [Google Blog](https://blog.google/a)'));
+
+  const otherCategory = ensureSourceLine(
+    { decision: 'publish', category: 'models', body },
+    { ...source, usageUrl: 'https://gemini.google.com/' }
+  );
+  assert.ok(otherCategory.body.endsWith('منبع: [Google Blog](https://blog.google/a)'));
+});
+
+test('a tool page yields a grounded usage link and ignores nav and news paths', () => {
+  const article = {
+    title: 'Gemini 3 developer release',
+    links: [
+      { url: 'https://ai.google.dev/gemini-api/docs', text: 'documentation', inBody: true },
+      { url: 'https://www.theverge.com/2026/11/7/gemini-3', text: 'The Verge', inBody: true },
+      { url: 'https://blog.google/about/', text: 'About', inBody: false },
+    ],
+  };
+  const picked = pickToolUsageLink({
+    article,
+    sourceUrl: 'https://blog.google/technology/ai/gemini-3/',
+    sourceType: 'news',
+  });
+  assert.equal(picked.url, 'https://ai.google.dev/gemini-api/docs');
+  assert.equal(picked.name, 'ai.google.dev');
+
+  const repo = pickToolUsageLink({
+    article: {
+      title: 'Gemini CLI is now open source',
+      links: [
+        { url: 'https://github.com/google-gemini/gemini-cli', text: 'github.com/google-gemini/gemini-cli', inBody: true },
+        { url: 'https://x.com/Google', text: 'X', inBody: false },
+      ],
+    },
+    sourceUrl: 'https://blog.google/technology/ai/gemini-cli/',
+    sourceType: 'news',
+  });
+  assert.equal(repo.url, 'https://github.com/google-gemini/gemini-cli');
+  assert.equal(repo.name, 'google-gemini/gemini-cli');
+
+  const openSource = pickToolUsageLink({
+    article: {
+      title: 'ToyBlocks robot learning framework',
+      links: [
+        { url: 'https://huggingface.co/datasets/allenai/toyblocks-data', text: 'Data', inBody: true },
+        { url: 'https://github.com/allenai/ToyBlocks', text: 'ToyBlocks', inBody: true },
+      ],
+    },
+    sourceUrl: 'https://huggingface.co/blog/allenai/toyblocks',
+    sourceType: 'official_blog',
+  });
+  assert.equal(openSource.url, 'https://github.com/allenai/ToyBlocks');
+
+  const modelCard = pickToolUsageLink({
+    article: {
+      title: 'NVIDIA Cosmos 3 open models',
+      links: [
+        { url: 'https://huggingface.co/collections/nvidia/cosmos3', text: 'Cosmos 3', inBody: true },
+        { url: 'https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto', text: 'Cosmos3-Nano-Transfer-Auto', inBody: true },
+      ],
+    },
+    sourceUrl: 'https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation',
+    sourceType: 'official_blog',
+  });
+  assert.equal(modelCard.url, 'https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto');
+});
+
+test('a hosted tool home beats an unrelated repo unless the story is open source', () => {
+  const link = (url, text) => ({ url, text, inBody: true });
+  const hosted = pickToolUsageLink({
+    article: {
+      title: 'Gemini 3 launches for everyone',
+      links: [
+        link('https://github.com/someone/random-agent', 'GitHub'),
+        link('https://gemini.google.com/', 'Try Gemini'),
+      ],
+    },
+    sourceUrl: 'https://blog.google/technology/ai/gemini-3/',
+    sourceType: 'news',
+  });
+  assert.equal(hosted.url, 'https://gemini.google.com/');
+
+  const openSource = pickToolUsageLink({
+    article: {
+      title: 'Gemini CLI is now open source',
+      links: [
+        link('https://gemini.google.com/', 'Try Gemini'),
+        link('https://github.com/google-gemini/gemini-cli', 'gemini-cli'),
+      ],
+    },
+    sourceUrl: 'https://blog.google/technology/ai/gemini-cli/',
+    sourceType: 'news',
+  });
+  assert.equal(openSource.url, 'https://github.com/google-gemini/gemini-cli');
+});
+
+test('a tool home or repo source doubles as the usage link and offers are excluded', () => {
+  const home = pickToolUsageLink({
+    article: { title: 'ChatGPT update', links: [] },
+    sourceUrl: 'https://chatgpt.com/',
+    sourceType: 'repo',
+  });
+  assert.equal(home.url, 'https://chatgpt.com/');
+  assert.equal(home.score, 100);
+
+  const repo = pickToolUsageLink({
+    article: { title: 'Whisper', links: [] },
+    sourceUrl: 'https://github.com/openai/whisper',
+    sourceType: 'repo',
+  });
+  assert.equal(repo.url, 'https://github.com/openai/whisper');
+
+  const modelPage = pickToolUsageLink({
+    article: { title: 'ToyBlocks', links: [] },
+    sourceUrl: 'https://huggingface.co/allenai/ToyBlocks',
+    sourceType: 'repo',
+  });
+  assert.equal(modelPage.url, 'https://huggingface.co/allenai/ToyBlocks');
+
+  const providerBlog = pickToolUsageLink({
+    article: { title: 'Perplexity launches a new agent', links: [] },
+    sourceUrl: 'https://www.perplexity.ai/hub/blog/teammates-are-agents',
+    sourceType: 'official_blog',
+  });
+  assert.equal(providerBlog, null);
+
+  const blogSource = pickToolUsageLink({
+    article: { title: 'ToyBlocks', links: [] },
+    sourceUrl: 'https://huggingface.co/blog/allenai/toyblocks',
+    sourceType: 'official_blog',
+  });
+  assert.equal(blogSource, null);
+
+  const offer = pickToolUsageLink({
+    article: { title: 'Free tokens', links: [] },
+    sourceUrl: 'https://github.com/acme/tool',
+    sourceType: 'telegram',
+    offer: true,
+  });
+  assert.equal(offer, null);
+
+  const course = pickToolUsageLink({
+    article: { title: 'Official course', links: [] },
+    sourceUrl: 'https://chatgpt.com/',
+    sourceType: 'news',
+    officialCourse: true,
+  });
+  assert.equal(course, null);
+});
+
+test('article extraction resolves relative links and marks body anchors', () => {
+  const html = [
+    '<p>See <a href="/docs/quickstart">the quickstart</a>.</p>',
+    '<p><a href="https://github.com/acme/tool">acme/tool</a></p>',
+    '<a href="/about">About</a>',
+  ].join('');
+  const article = extractArticle(html, 'Acme Tool', 'https://acme.dev/news/acme-tool');
+  assert.ok(article.links.some((link) => link.url === 'https://acme.dev/docs/quickstart' && link.inBody));
+  assert.ok(article.links.some((link) => link.url === 'https://github.com/acme/tool' && link.inBody));
+  assert.ok(article.links.some((link) => link.url === 'https://acme.dev/about' && !link.inBody));
+});
+
+test('QA expects the usage tail on a tools post and rejects invented links', () => {
+  const source = 'https://blog.google/a';
+  const usage = 'https://gemini.google.com/';
+  const base = {
+    decision: 'publish',
+    category: 'tools',
+    post_type: 'standard',
+    importance: 4,
+    title: 'ابزار تازه برای نوشتن',
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [], people: [] },
+    verification: 'reported',
+    source_url: source,
+    image_url: '',
+    dedupe_key: 'test-usage-tail',
+  };
+  const context = {
+    url: source,
+    host: 'blog.google',
+    sourceType: 'news',
+    category: 'tools',
+    imageUrl: '',
+    title: 'ابزار تازه برای نوشتن',
+    description: '',
+    content: '',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+    previousWhy: '',
+    links: [usage],
+    usageUrl: usage,
+  };
+  const body = 'لید خبر.\n\nابزار چه ویژگی‌هایی دارد.\n\nاهمیتش اینه که کار کاربر ساده‌تر می‌شه.\n\nلینک استفاده: [gemini.google.com](https://gemini.google.com/)';
+  const qa = qaPost({ ...base, body }, context);
+  assert.equal(qa.checks.find((check) => check.name === 'source').ok, true);
+  assert.equal(qa.checks.find((check) => check.name === 'links_grounded').ok, true);
+
+  const sourceTail = qaPost({ ...base, body: `${body.split('\n\n')[0]}\n\nاهمیتش اینه که کار کاربر ساده‌تر می‌شه.\n\nمنبع: [Google Blog](${source})` }, context);
+  assert.equal(sourceTail.checks.find((check) => check.name === 'source').ok, false);
+
+  const invented = qaPost(
+    { ...base, body: body.replace(usage, 'https://fake.example/tool') },
+    { ...context, usageUrl: '', links: [] }
+  );
+  assert.equal(invented.checks.find((check) => check.name === 'links_grounded').ok, false);
 });
 
 test('clampText cuts long input at a word boundary for small-context writers', () => {
@@ -297,6 +632,18 @@ test('the repair message still asks to shorten a body that is too long', () => {
   });
   assert.match(message, /حداکثر 990 کاراکتر/);
   assert.match(message, /کوتاه/);
+});
+
+test('the repair message targets the usage link on a tools post', () => {
+  const message = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, category: 'tools', body: 'متن\n\nمنبع: [Hugging Face](https://huggingface.co/blog/a)' },
+    qa: { problems: ['source'], warnings: [] },
+    usageUrl: 'https://github.com/acme/tool',
+  });
+  assert.match(message, /خط لینک استفاده/);
+  assert.match(message, /https:\/\/github\.com\/acme\/tool/);
+  assert.doesNotMatch(message, /خط منبع/);
 });
 
 test('the repair message keeps an existing quote inside the post', () => {
@@ -523,4 +870,44 @@ test('feed parsing keeps published and updated dates apart', () => {
   </entry></feed>`);
   assert.equal(onlyUpdated.published, '2026-11-05T08:00:00Z');
   assert.equal(onlyUpdated.updated, '2026-11-05T08:00:00Z');
+});
+
+test('a fresh item skipped as stale is caught for one corrective retry', () => {
+  assert.equal(isFalseStaleSkip({ decision: 'skip', reason_code: 'stale' }, { ok: true, ageHours: 0.4 }), true);
+  assert.equal(isFalseStaleSkip({ decision: 'skip', reason_code: 'stale' }, { ok: false, ageHours: 90 }), false);
+  assert.equal(isFalseStaleSkip({ decision: 'skip', reason_code: 'duplicate' }, { ok: true }), false);
+  assert.equal(isFalseStaleSkip({ decision: 'publish', reason_code: '' }, { ok: true }), false);
+  assert.equal(isFalseStaleSkip(null, { ok: true }), false);
+  assert.equal(
+    isFalseStaleSkip({ decision: 'skip', reason_code: 'stale' }, { ok: true, ageHours: 60 }, 48),
+    false
+  );
+});
+
+test('an official company blog gets the official verification label mechanically', () => {
+  const base = {
+    decision: 'publish',
+    category: 'tools',
+    post_type: 'standard',
+    importance: 4,
+    title: 'ابزار تازه',
+    body: 'لید خبر.\n\nاهمیتش اینه که کار ساده‌تر می‌شه.',
+    quote: '',
+    verification: 'reported',
+    dedupe_key: 'official-blog-test',
+  };
+  const official = applyMechanicalFixes(base, {
+    sourceName: 'NVIDIA',
+    sourceUrl: 'https://blogs.nvidia.com/blog/x',
+    sourceType: 'official_blog',
+  });
+  assert.equal(official.verification, 'official');
+  const news = applyMechanicalFixes(base, {
+    sourceName: 'The Decoder',
+    sourceUrl: 'https://the-decoder.com/x',
+    sourceType: 'news',
+  });
+  assert.equal(news.verification, 'reported');
+  const rumor = applyMechanicalFixes({ ...base, verification: 'rumor' }, { sourceType: 'official_blog' });
+  assert.equal(rumor.verification, 'rumor');
 });

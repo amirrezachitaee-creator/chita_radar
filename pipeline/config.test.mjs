@@ -157,9 +157,10 @@ test('source ids are unique and no directory is left in the news registry', () =
   assert.equal(sources.vendor_registry, 'vendors.json');
 });
 
-test('the vendor registry carries all 55 sources from the user document', () => {
-  assert.equal(vendors.vendors.length, 55);
-  assert.equal(new Set(vendors.vendors.map((vendor) => vendor.id)).size, 55);
+test('the vendor registry carries the 55 user sources plus watched additions', () => {
+  assert.ok(vendors.vendors.length >= 55);
+  assert.equal(new Set(vendors.vendors.map((vendor) => vendor.id)).size, vendors.vendors.length);
+  assert.ok(vendors.vendors.some((vendor) => vendor.id === 'nvidia-build'));
   for (const vendor of vendors.vendors) {
     assert.ok(vendor.id, 'vendor id is required');
     assert.match(vendor.url, /^https:\/\//, `${vendor.id} is not https`);

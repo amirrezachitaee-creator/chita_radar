@@ -2,7 +2,7 @@
   "version": 1,
   "source_document": "user-document-2026-11-01",
   "verified_on": "2026-11-01",
-  "notes": "این رجیستری همان ۵۵ منبع/برنامه سند کاربر است. وضعیت‌ها عمداً needs_review هستند تا پیش از انتشار آفر، صفحه رسمی دوباره بررسی شود.",
+  "notes": "این رجیستری همان ۵۵ منبع/برنامه سند کاربر به‌همراه NVIDIA Build است که از سرنخ تلگرامی اضافه شد. وضعیت‌ها عمداً needs_review هستند تا پیش از انتشار آفر، صفحه رسمی دوباره بررسی شود.",
   "discovery_rule": "منابع کشف فقط برای پیدا کردن آفر هستند؛ انتشار آفر فقط با لینک رسمی خود شرکت و با تاریخ انقضای تأییدشده مجاز است.",
   "vendors": [
     {
@@ -224,6 +224,20 @@
       "verified_on": "2026-11-01",
       "verification_status": "needs_review",
       "note": "مخزن مدل و Spaces رایگان است، ولی با inference رایگان نامحدود یکی نیست."
+    },
+    {
+      "id": "nvidia-build",
+      "name": "NVIDIA Build",
+      "aliases": ["انویدیا", "nvidia", "build.nvidia.com"],
+      "url": "https://build.nvidia.com/",
+      "watch_url": "https://build.nvidia.com/",
+      "categories": ["models", "tools"],
+      "type": "api_provider",
+      "offer_watch": true,
+      "priority": "very_high",
+      "verified_on": "2026-11-07",
+      "verification_status": "live_checked",
+      "note": "صفحه رسمی استنتاج رایگان انویدیا؛ سرنخ تلگرامی متین لینک خارجی نداشت و مستقیم به همین صفحه اشاره می‌کرد."
     },
     {
       "id": "fireworks-ai",

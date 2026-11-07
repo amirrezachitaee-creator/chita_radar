@@ -2,8 +2,10 @@ import { dateKey, slotDateKey, tehranParts, weekKey } from './store.mjs';
 
 const STRONG_OFFER = [
   /\bfree\s+(?:api\s+)?(?:credits?|tier|plan|trial|access|usage|quota|tokens?|month|year)\b/i,
+  /\bfree\s+(?:inference|endpoints?|hosting|compute|gpus?|gpu\s+hours?)\b/i,
   /\bfree\s+for\s+(?:a\s+)?(?:limited\s+time|\d+\s+(?:days?|weeks?|months?))\b/i,
   /\bno[- ]cost\b/i,
+  /\b(?:no|without)\s+(?:a\s+)?(?:credit|bank|debit)\s+card\b/i,
   /\bon[- ]us\b/i,
   /\bpromo(?:tion(?:al)?)?\b/i,
   /\bcoupon\b/i,
@@ -15,6 +17,7 @@ const STRONG_OFFER = [
   /\bcomplimentary\s+(?:access|credits?|tokens?|plan)\b/i,
   /رایگان/,
   /اعتبار\s+رایگان/,
+  /بدون\s+(?:نیاز\s+به\s+)?کارت\s+بانکی/,
   /کد\s*تخفیف/,
   /تخفیف/,
   /ترایال/,
@@ -457,6 +460,7 @@ export const REASON_FA = {
   review_source_cap: 'سقف روزانه این منبع در صف بازبینی پر شده است',
   review_disabled: 'صف بازبینی غیرفعال است',
   referral_link: 'لینک ارجاعی حل نشده است',
+  link_missing: 'لینک معتبر برای این آفر پیدا نشد',
   research_paper: 'مقاله پژوهشی منتخب',
   quiet_hours: 'در ساعات آرام پیدا شد',
   daily_cap: 'سقف پست روزانه پر شده است',
@@ -474,6 +478,37 @@ export const REASON_FA = {
 };
 
 const KIND_FA = { offer: 'آفر', tool: 'ابزار', post: 'پست' };
+
+function aliasIndex(haystack, alias) {
+  if (/^[a-z0-9._-]+$/.test(alias)) {
+    const escaped = alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const match = haystack.match(new RegExp(`(?:^|[^a-z0-9])${escaped}(?:[^a-z0-9]|$)`));
+    return match ? match.index : -1;
+  }
+  return haystack.indexOf(alias);
+}
+
+export function resolveVendorLink(text, vendors = []) {
+  const haystack = String(text ?? '').toLowerCase();
+  if (!haystack) return null;
+  const hits = [];
+  for (const vendor of vendors) {
+    const aliases = Array.isArray(vendor?.aliases) ? vendor.aliases : [];
+    for (const alias of aliases) {
+      const needle = String(alias ?? '').toLowerCase().trim();
+      if (needle.length < 3) continue;
+      const index = aliasIndex(haystack, needle);
+      if (index >= 0) hits.push({ vendor, index });
+    }
+  }
+  if (!hits.length) return null;
+  hits.sort((left, right) => left.index - right.index);
+  const best = hits[0];
+  if (hits.some((hit) => hit.index === best.index && hit.vendor.id !== best.vendor.id)) return null;
+  const url = String(best.vendor.offer_url || best.vendor.url || best.vendor.watch_url || '');
+  if (!/^https?:\/\//i.test(url)) return null;
+  return { vendor: best.vendor.id, name: best.vendor.name, url };
+}
 
 export function reviewText({
   article,
@@ -495,7 +530,9 @@ export function reviewText({
     ? `${expiry.date}${Number.isFinite(expiry.remainingHours) ? ` (${expiry.remainingHours} ساعت اعتبار باقی‌مانده)` : ''}`
     : 'روشن نیست';
   const link = article?.url || candidate?.link || candidate?.canonical || '';
+  const needsLinkApproval = reason === 'link_missing';
   const lines = [
+    ...(needsLinkApproval ? ['⚠️ نیازمند تأیید لینک و ارسال به کانال اصلی', ''] : []),
     `بازبینی ${KIND_FA[resolvedKind] ?? KIND_FA.post} — ${reasonFa}`,
     '',
     `عنوان: ${article?.title || candidate?.title || ''}`,

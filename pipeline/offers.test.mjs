@@ -13,6 +13,7 @@ import {
   enqueueReviewPending,
   listReviewPending,
   removeReviewPending,
+  resolveVendorLink,
   reviewText,
 } from './offers.mjs';
 import { qaPost } from './engine.mjs';
@@ -87,6 +88,21 @@ test('offer detection needs a strong term and avoids passing mentions', () => {
   assert.equal(detectOffer({ title: 'Pricing update', content: 'The free tier exists.' }).isOffer, false);
   assert.equal(
     detectOffer({ title: 'Pricing update', content: 'The free tier exists. The offer is valid until December 31, 2026.' }).isOffer,
+    true
+  );
+});
+
+test('free inference and no-bank-card offers are detected', () => {
+  assert.equal(
+    detectOffer({ title: 'Free inference with leading models', content: 'Use Inference Endpoints' }).isOffer,
+    true
+  );
+  assert.equal(
+    detectOffer({ title: 'Free access to three models', content: 'No bank card required.' }).isOffer,
+    true
+  );
+  assert.equal(
+    detectOffer({ title: 'دسترسی رایگان به سه مدل', content: 'بدون نیاز به کارت بانکی ثبت‌نام کنید.' }).isOffer,
     true
   );
 });
@@ -258,6 +274,40 @@ test('research paper reviews carry their own Persian reason and abstract', () =>
   });
   assert.match(text, /بازبینی پست — مقاله پژوهشی منتخب/);
   assert.match(text, /short abstract about reasoning compression/);
+  assert.match(text, /نیازمند بررسی پیش از انتشار/);
+});
+
+test('a linkless offer resolves the registered official page from its vendor name', () => {
+  const vendors = [
+    { id: 'nvidia-build', name: 'NVIDIA Build', aliases: ['انویدیا', 'nvidia'], url: 'https://build.nvidia.com/' },
+    { id: 'other', name: 'Other', aliases: ['otherlab'], url: 'https://other.example.com/' },
+  ];
+  const text = 'انویدیا دسترسی رایگان به ۳ مدل هوش مصنوعی را فراهم کرده. بدون نیاز به کارت بانکی.';
+  assert.deepEqual(resolveVendorLink(text, vendors), {
+    vendor: 'nvidia-build',
+    name: 'NVIDIA Build',
+    url: 'https://build.nvidia.com/',
+  });
+  assert.equal(resolveVendorLink('یک سرویس ناشناس دسترسی رایگان داده', vendors), null);
+  assert.equal(
+    resolveVendorLink('acme offer', [
+      { id: 'a', name: 'A', aliases: ['acme'], url: 'https://a.example.com/' },
+      { id: 'b', name: 'B', aliases: ['acme'], url: 'https://b.example.com/' },
+    ]),
+    null
+  );
+});
+
+test('a missing link review starts with the approval banner', () => {
+  const text = reviewText({
+    candidate: { title: 'Free credits', sourceName: 'Telegram', link: 'https://t.me/example/1' },
+    assessment: { reason: 'link_missing' },
+    kind: 'offer',
+    mainEligible: false,
+  });
+  const lines = text.split('\n');
+  assert.equal(lines[0], '⚠️ نیازمند تأیید لینک و ارسال به کانال اصلی');
+  assert.match(text, /لینک معتبر برای این آفر پیدا نشد/);
   assert.match(text, /نیازمند بررسی پیش از انتشار/);
 });
 

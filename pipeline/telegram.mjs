@@ -39,7 +39,7 @@ function splitSource(body) {
   if (!text) return { body: '', source: '', separator: '\n\n' };
   const lines = text.split('\n');
   const lastIndex = lines.findLastIndex((line) => line.trim());
-  if (lastIndex < 0 || !/^منبع\s*[:：]/u.test(lines[lastIndex].trim())) {
+  if (lastIndex < 0 || !/^(?:منبع|لینک استفاده)\s*[:：]/u.test(lines[lastIndex].trim())) {
     return { body: text, source: '', separator: '\n\n' };
   }
   const before = lines.slice(0, lastIndex).join('\n').trimEnd();
@@ -51,10 +51,19 @@ function splitSource(body) {
   };
 }
 
+function splitConclusion(body, hasQuote) {
+  if (!hasQuote) return { lead: body, conclusion: '' };
+  const parts = String(body ?? '').split(/\n{2,}/);
+  if (parts.length < 2) return { lead: body, conclusion: '' };
+  return { lead: parts.slice(0, -1).join('\n\n'), conclusion: parts.at(-1) };
+}
+
 export function postText(post) {
-  const head = [post?.title, post?.news_date].filter(Boolean).join('\n\n');
+  const head = [formatTitle(post?.title), post?.news_date].filter(Boolean).join('\n\n');
   const { body, source, separator } = splitSource(post?.body);
-  const main = [head, body, post?.quote].filter(Boolean).join('\n\n');
+  const quote = String(post?.quote ?? '').trim();
+  const { lead, conclusion } = splitConclusion(body, Boolean(quote));
+  const main = [head, lead, quote, conclusion].filter(Boolean).join('\n\n');
   return source ? `${main}${separator}${source}` : main;
 }
 
@@ -65,6 +74,15 @@ export function captionLength(post) {
     .replace(/<[^>]*>/g, '')
     .replace(/\u200F/g, '')
     .length;
+}
+
+const PERSIAN_DIGITS = /[\u06F0-\u06F9\u0660-\u0669]/;
+
+export function formatTitle(value) {
+  return String(value ?? '')
+    .replace(/^\u200F+/, '')
+    .trim()
+    .replace(/([A-Za-z][A-Za-z0-9.+#&'’-]*)(\s*)(?=[\u06F0-\u06F9\u0660-\u0669])/gu, '$1\u200F$2');
 }
 
 function escapeHtml(value) {
@@ -88,18 +106,20 @@ export function formatBodyHtml(body) {
 }
 
 export function postHtml(post) {
-  const title = String(post?.title ?? '').trim();
+  const title = formatTitle(post?.title);
   const date = String(post?.news_date ?? '').trim();
   const { body, source, separator } = splitSource(post?.body);
-  const bodyHtml = formatBodyHtml(body);
-  const sourceHtml = formatBodyHtml(source);
   const quote = String(post?.quote ?? '').trim();
+  const { lead, conclusion } = splitConclusion(body, Boolean(quote));
+  const bodyHtml = formatBodyHtml(lead);
+  const conclusionHtml = formatBodyHtml(conclusion);
+  const sourceHtml = formatBodyHtml(source);
   const head = [
     title ? `<b>${RLM}${escapeHtml(title)}</b>` : '',
     date ? `${RLM}${escapeHtml(date)}` : '',
   ].filter(Boolean).join('\n\n');
   const quoteHtml = quote ? `<blockquote expandable>${formatBodyHtml(quote)}</blockquote>` : '';
-  const main = [head, bodyHtml, quoteHtml].filter(Boolean).join('\n\n');
+  const main = [head, bodyHtml, quoteHtml, conclusionHtml].filter(Boolean).join('\n\n');
   return sourceHtml ? `${main}${separator}${sourceHtml}` : main;
 }
 
