@@ -234,10 +234,10 @@ test('weekly quotas count only the current week and category', () => {
   ];
   const snapshot = quotaSnapshot(config, state, '2026-10-31');
   assert.equal(snapshot.tools.used, 2);
-  assert.equal(snapshot.tools.remaining, 15);
+  assert.equal(snapshot.tools.remaining, 29);
   assert.equal(snapshot.business.used, 1);
   assert.equal(snapshot.models.used, 0);
-  assert.equal(snapshot.models.remaining, 13);
+  assert.equal(snapshot.models.remaining, 24);
 });
 
 test('recording a publish sets the week from the slot key', () => {

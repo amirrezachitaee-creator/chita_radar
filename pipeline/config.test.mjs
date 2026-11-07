@@ -24,14 +24,14 @@ const VENDOR_TYPES = new Set([
   'credit_program',
 ]);
 
-test('four main categories carry the weekly quotas and sum to 42', () => {
+test('four main categories carry the weekly quotas and sum to 77', () => {
   assert.deepEqual(Object.keys(config.categories).filter((key) => config.categories[key].main_channel), MAIN);
   const total = MAIN.reduce((sum, key) => sum + config.categories[key].weekly_quota, 0);
-  assert.equal(total, 42);
-  assert.equal(config.categories.tools.weekly_quota, 17);
-  assert.equal(config.categories.models.weekly_quota, 13);
-  assert.equal(config.categories.security.weekly_quota, 6);
-  assert.equal(config.categories.business.weekly_quota, 6);
+  assert.equal(total, 77);
+  assert.equal(config.categories.tools.weekly_quota, 31);
+  assert.equal(config.categories.models.weekly_quota, 24);
+  assert.equal(config.categories.security.weekly_quota, 11);
+  assert.equal(config.categories.business.weekly_quota, 11);
 });
 
 test('education is private and never part of the main channel', () => {
@@ -64,16 +64,16 @@ test('external dispatch cannot force a slot and the six cron slots stay as backu
   }
 });
 
-test('education review is capped, AI-gated and text-limited', () => {
+test('education review is uncapped, model-free and verbatim', () => {
   assert.equal(config.education_review.enabled, true);
-  assert.equal(config.education_review.max_per_day, 5);
-  assert.equal(config.education_review.max_per_source_per_day, 1);
-  assert.equal(config.education_review.require_ai_central, true);
-  assert.ok(config.education_review.max_text_chars >= 600);
-  assert.ok(config.education_review.max_text_chars <= 2000);
+  assert.equal(config.education_review.max_per_day, 0);
+  assert.equal(config.education_review.max_per_source_per_day, 0);
+  assert.equal(config.education_review.require_ai_central, false);
+  assert.equal(config.education_review.verbatim, true);
+  assert.equal(config.education_review.max_text_chars, 0);
 });
 
-test('six Tehran slots, sorted, none inside sleeping hours', () => {
+test('six Tehran slots, sorted, none inside sleeping hours and two posts each', () => {
   const slots = config.schedule.slots;
   assert.equal(slots.length, 6);
   assert.equal(new Set(slots).size, 6);
@@ -83,7 +83,9 @@ test('six Tehran slots, sorted, none inside sleeping hours', () => {
     assert.ok(slot >= quietEnd || slot <= quietStart, `${slot} is inside quiet hours`);
   }
   assert.equal(config.timezone, 'Asia/Tehran');
-  assert.equal(config.schedule.max_posts_per_day, 6);
+  assert.equal(config.schedule.max_posts_per_day, 11);
+  assert.equal(config.schedule.max_posts_per_slot, 2);
+  assert.equal(config.schedule.min_gap_minutes, 12);
 });
 
 test('freshness windows match the approved policy', () => {
@@ -221,11 +223,12 @@ test('news sources and vendor registry do not overlap', () => {
 
 test('telegram discovery is lead-only, starts today and keeps the filter', () => {
   const telegram = sources.sources.filter((source) => source.type === 'telegram_channel');
-  assert.equal(telegram.length, 15);
+  assert.equal(telegram.length, 17);
   assert.deepEqual(
     telegram.map((source) => source.username).sort(),
     [
       'ArchiveTell',
+      'MatinSenPaii',
       'Mohammad_zammani',
       'Sajadverse',
       'ai_farshad',
@@ -239,10 +242,11 @@ test('telegram discovery is lead-only, starts today and keeps the filter', () =>
       'pedramgholizadeh',
       'shayanode',
       'techiin_ir',
+      'thenimaonAI',
       'web3nabu',
     ].sort()
   );
-  assert.equal(new Set(telegram.map((source) => source.username.toLowerCase())).size, 15);
+  assert.equal(new Set(telegram.map((source) => source.username.toLowerCase())).size, 17);
   for (const source of telegram) {
     assert.equal(source.use, 'lead_only', `${source.id} must be lead_only`);
     assert.equal(source.status, 'verified', `${source.id} must be verified`);

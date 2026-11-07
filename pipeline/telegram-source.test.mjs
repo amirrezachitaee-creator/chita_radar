@@ -111,6 +111,15 @@ test('parser reads message id, date, text and preview without leaking markup', (
   assert.equal(messages[3].forwarded, false);
 });
 
+test('pinned service notices never become posts', () => {
+  const pinned = block({
+    id: 199,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'MiladXtalks | آموزش هوش مصنوعی | MX AI ACADEMY pinned a GIF',
+  });
+  assert.deepEqual(parseTelegramChannel(pinned, 'testchannel'), []);
+});
+
 test('link filter keeps articles and drops social, video and shorteners', () => {
   assert.equal(isAllowedLink('https://example.com/a'), true);
   assert.equal(isAllowedLink('https://github.com/example/repo'), true);
@@ -304,6 +313,145 @@ test('education needs more than one weak word and keeps real courses', () => {
     }),
     'فروش دوره'
   );
+});
+
+test('real channel noise does not enter the education lane', () => {
+  const productNews = [
+    '🤖 قابلیت جدید Gemini؛ ساخت و شخصی‌سازی بیش از ۲۰۰۰ نوع صدا با هوش مصنوعی!',
+    '🔵گوگل از قابلیت جدیدی به نام Voice Remixing برای مدل Gemini 3.8 Flash TTS رونمایی کرده که امکان انتخاب، طراحی و تغییر صداها را با استفاده از دستورات متنی فراهم می‌کند.',
+    '🔵با این قابلیت می‌توانید از میان بیش از ۲۰۰۰ صدای مختلف انتخاب کنید یا حتی صدایی کاملاً جدید با ویژگی‌های دلخواه خود بسازید.',
+    '🔵این قابلیت از طریق Google AI Studio و Gemini API در دسترس قرار گرفته و می‌تواند در ساخت پادکست، کتاب صوتی، دوبله، ویدئو و محتوای آموزشی کاربرد زیادی داشته باشد.',
+    '🔵نکته مهم اینکه برای استفاده از قابلیت ریمیکس و ذخیره صداهای اختصاصی، پروژه شما در Gemini API باید به سطح پرداختی ارتقا پیدا کرده باشد.',
+    '🔵 معرفی و آموزش رسمی:',
+    'همراه ما باشید @ai_farshad',
+  ].join('\n');
+  assert.equal(isEducationLead(productNews), false);
+  assert.notEqual(
+    classifyLead('https://ai.google.dev/gemini-api/docs/voice-remixing', productNews, {
+      aiRelevant: true,
+      aiCentral: true,
+    }),
+    'education'
+  );
+  assert.equal(
+    educationLeadLabel({
+      title: '🤖 قابلیت جدید Gemini؛ ساخت و شخصی‌سازی بیش از ۲۰۰۰ نوع صدا با هوش مصنوعی!',
+      messageText: productNews,
+      link: 'https://ai.google.dev/gemini-api/docs/voice-remixing',
+    }),
+    'نامشخص'
+  );
+
+  const domainFreebie = [
+    '✅دامنه رایگان✅',
+    'رایگان به مدت 1 سال',
+    'o6-MtSm-iDh',
+    'دوره اعتبار: تا 8 نوامبر 2026',
+    'لینک دریافت:',
+    'order.idwebhost.com/domain-gratis',
+  ].join('\n');
+  assert.equal(isEducationLead(domainFreebie), false);
+
+  const diary = [
+    'دارم فکر میکنم همین ربات ثبت نام کارت به کارت رو میشه فروخت به آنلاین شاپا یا پیج های آموزشی اینستا 🤔',
+    'پیام پارسال دقیقا همین روز',
+    'جایی که ثبت نام دوره‌ها داشت با کارت به کارت انجام می‌شد و یه ربات هوشمند ساخته بودیم که عکس رسید رو چک میکرد.',
+  ].join('\n');
+  assert.equal(isEducationLead(diary), false);
+
+  assert.equal(
+    isEducationLead(
+      '✈️ تلگرام تو نسخه بتای اندروید خودش داره یه قابلیت جدید به اسم Compact Mode رو تست می‌کنه که می‌تونه ظاهر چت کردن با ایجنت‌های هوش مصنوعی رو شبیه به رابط ChatGPT کنه. تیم تلگرام داره تجربه پیام‌رسانی کلاسیک خودش رو برای آینده تطبیق می‌ده.'
+    ),
+    false
+  );
+  assert.equal(
+    isEducationLead(
+      '🤖 کمپانی OpenAI بالاخره ChatGPT Images 2.6 رو داد بیرون و ساخت مستقیم گیف‌های متحرک رو ممکن کرد. این یعنی رسماً دوره زیر و رو کردن ده تا سایت و بات برای ساخت میم متحرک تموم شد.'
+    ),
+    false
+  );
+  assert.equal(
+    isEducationLead(
+      'Certificate authority DigiCert reports data breach involving business customer info. DigiCert explained that an internal business system was externally accessible when that was not intended, and someone had created an unauthorized account.'
+    ),
+    false
+  );
+  assert.equal(
+    isEducationLead(
+      'Understanding AI from the Inside: Neural networks are among the most consequential artefacts in human history. We continue to build increasingly powerful systems without fully understanding how they work, how they will behave in unfamiliar situations, or how to reliably control them.'
+    ),
+    false
+  );
+
+  const toolWithTutorialLink = [
+    '😍😍😍😍😍',
+    'نسخه اندروید BPB منتشر شد و حالا به راحتی میتونید با گوشی موبایلتون کانفیگ های اختصاصی بسازید و استفاده کنید.',
+    '———',
+    'برای مشاهده آموزش از یوتیوب اینجا بزنید 😎',
+    '———',
+    'لینک پروژه و دانلود برنامه مورد نیاز از گیتهاب ⛓',
+  ].join('\n');
+  assert.equal(isEducationLead(toolWithTutorialLink), false);
+
+  assert.equal(
+    isEducationLead(
+      '😍😍😍😍😍\nآموزش کامل ساخت ویدیو های شورت وایرال با کلاد بدون نیاز به هزینه\nبرای مشاهده آموزش از یوتیوب اینجا بزنید 😎'
+    ),
+    true
+  );
+  assert.equal(isEducationLead('آموزش فعال‌سازی VPN داخلی فایرفاکس'), true);
+  assert.equal(
+    isEducationLead(
+      `${'توضیح بلند درباره ایجنت‌ها و ابزارهای هوش مصنوعی. '.repeat(80)}دوره جامع هوش مدرن با ثبت نام از طریق لینک`
+    ),
+    true
+  );
+  assert.equal(
+    isEducationLead(
+      'یادم میاد پارسال دنبال دوره بودم؛ برای ثبت نام دوره جامع هوش مصنوعی از لینک زیر استفاده کنید'
+    ),
+    true
+  );
+});
+
+test('a product news post with a tutorial phrase stays out of education', async () => {
+  const gemini = [
+    '🤖 قابلیت جدید Gemini؛ ساخت و شخصی‌سازی بیش از ۲۰۰۰ نوع صدا با هوش مصنوعی!',
+    '🔵گوگل از قابلیت جدیدی به نام Voice Remixing برای مدل Gemini 3.8 Flash TTS رونمایی کرده که امکان انتخاب، طراحی و تغییر صداها را با استفاده از دستورات متنی فراهم می‌کند.',
+    '🔵با این قابلیت می‌توانید از میان بیش از ۲۰۰۰ صدای مختلف انتخاب کنید یا حتی صدایی کاملاً جدید با ویژگی‌های دلخواه خود بسازید؛ مثلاً صدایی شبیه یک اژدهای افسانه‌ای!',
+    '🔵این قابلیت از طریق Google AI Studio و Gemini API در دسترس قرار گرفته و می‌تواند در ساخت پادکست، کتاب صوتی، دوبله، ویدئو و محتوای آموزشی کاربرد زیادی داشته باشد.',
+    '🔵نکته مهم اینکه برای استفاده از قابلیت ریمیکس و ذخیره صداهای اختصاصی، پروژه شما در Gemini API باید به سطح پرداختی ارتقا پیدا کرده باشد.',
+    '🔵 معرفی و آموزش رسمی:',
+    'همراه ما باشید @ai_farshad',
+  ].join('\n');
+  assert.equal(isEducationLead(gemini), false);
+
+  const newsPage = block({
+    id: 302,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: `${gemini}<br/><a href="https://ai.google.dev/gemini-api/docs/voice-remixing">معرفی</a>`,
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-news',
+        name: 'AI channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state: emptyState(),
+    now: NOW,
+    fetchImpl: fetchPage(newsPage),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].educationHint, false);
+  assert.notEqual(result.candidates[0].leadKind, 'education');
 });
 
 test('a review lead that repeats a published story is detected', () => {
@@ -567,7 +715,7 @@ test('a linkless education post falls back to its channel permalink', async () =
   assert.equal(result.stats.telegram.noLink, 0);
 });
 
-test('education without AI relevance never reaches the private lane', async () => {
+test('education without AI centrality still reaches the private lane', async () => {
   const state = emptyState();
   const eduPage = block({
     id: 205,
@@ -593,13 +741,15 @@ test('education without AI relevance never reaches the private lane', async () =
     fetchImpl: fetchPage(eduPage),
     telegram: { enabled: true },
   });
-  assert.equal(result.candidates.length, 0);
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].leadKind, 'education');
+  assert.equal(result.candidates[0].educationHint, true);
   assert.equal(result.stats.telegram.nonAiEducation, 1);
-  assert.equal(result.stats.telegram.leads, 0);
+  assert.equal(result.stats.telegram.leads, 1);
   assert.equal(state.telegram.testchannel.last_id, 205);
 });
 
-test('an advertisement inside an AI education post is stripped', async () => {
+test('verbatim education keeps the original text even when it contains an ad line', async () => {
   const state = emptyState();
   const eduPage = block({
     id: 206,
@@ -630,8 +780,8 @@ test('an advertisement inside an AI education post is stripped', async () => {
   assert.equal(lead.educationHint, true);
   assert.equal(lead.aiCentral, true);
   assert.ok(lead.messageText.includes('دوره هوش مصنوعی'));
-  assert.equal(lead.messageText.includes('تبلیغات'), false);
-  assert.equal(lead.messageText.includes('سرویس ویژه'), false);
+  assert.ok(lead.messageText.includes('تبلیغات'));
+  assert.ok(lead.messageText.includes('سرویس ویژه'));
 });
 
 test('a channel mention link does not replace the education post permalink', async () => {
@@ -865,7 +1015,7 @@ test('an AI app-store ad is still a promotion, not a tool', async () => {
   assert.equal(result.stats.telegram.promoted, 1);
 });
 
-test('collector keeps an official academy course as a news lead', async () => {
+test('collector routes an official academy course to news, not education', async () => {
   const state = emptyState();
   const coursePage = block({
     id: 302,
@@ -893,9 +1043,55 @@ test('collector keeps an official academy course as a news lead', async () => {
   });
   assert.equal(result.candidates.length, 1);
   assert.equal(result.candidates[0].leadKind, 'official_course');
-  assert.equal(result.candidates[0].officialCourse, true);
   assert.equal(result.candidates[0].educationHint, false);
+  assert.equal(result.candidates[0].officialCourse, true);
   assert.equal(result.stats.telegram.leads, 1);
+});
+
+test('web education feeds mark only AI tutorials as education', async () => {
+  const state = emptyState();
+  const feed = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Edu Feed</title>
+  <item>
+    <title>How to build an AI agent with Python</title>
+    <link>https://edu.example/ai-agent</link>
+    <description>Build a small AI agent step by step.</description>
+    <pubDate>Tue, 03 Nov 2026 10:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Decorators for Timing and Caching in Python</title>
+    <link>https://edu.example/decorators</link>
+    <description>Learn how Python decorators work under the hood.</description>
+    <pubDate>Tue, 03 Nov 2026 11:00:00 GMT</pubDate>
+  </item>
+</channel></rss>`;
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'edu-feed',
+        name: 'Edu Feed',
+        type: 'education_blog',
+        use: 'feed',
+        feed_url: 'https://edu.example/feed',
+        categories: ['education'],
+        lane: 'private_research',
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: async (target) => {
+      assert.equal(target, 'https://edu.example/feed');
+      return { text: feed, url: target };
+    },
+    telegram: { enabled: false },
+  });
+
+  const education = result.candidates.filter((candidate) => candidate.educationHint);
+  assert.equal(education.length, 1);
+  assert.match(education[0].title, /AI agent/);
+  assert.equal(education[0].webEducation, true);
+  const decorators = result.candidates.find((candidate) => /Decorators/.test(candidate.title));
+  assert.equal(decorators.educationHint, false);
 });
 
 test('channel focus alone does not turn news into education', async () => {

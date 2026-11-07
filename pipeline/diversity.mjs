@@ -143,10 +143,17 @@ export function planSlotQueue({
   const counts = categoryCountForDate(state, date);
   const usage = sourceUsage(state, { date, week });
   const options = config.diversity ?? {};
-  const categoryCap = Number(options.max_per_category_per_day ?? 3);
+  const categoryCap = (category) => {
+    const value = options.max_per_category_per_day;
+    if (value && typeof value === 'object' && !Array.isArray(value)) {
+      return Math.max(0, Number(value[category] ?? 3));
+    }
+    return Math.max(0, Number(value ?? 3));
+  };
   const sourceDayCap = Number(options.max_per_source_per_day ?? 1);
   const sourceWeekCap = Number(options.max_per_source_per_week ?? 4);
   const noConsecutiveCategory = options.no_consecutive_category !== false;
+  const deferredPriority = options.deferred_priority !== false;
   const rejected = {
     source_daily: 0,
     source_weekly: 0,
@@ -178,7 +185,7 @@ export function planSlotQueue({
       continue;
     }
     if (hint && MAIN_CATEGORIES.includes(hint)) {
-      if ((counts[hint] ?? 0) >= categoryCap) {
+      if ((counts[hint] ?? 0) >= categoryCap(hint)) {
         rejected.category_daily += 1;
         continue;
       }
@@ -197,6 +204,11 @@ export function planSlotQueue({
   eligible.sort((left, right) => {
     const leftHint = left.categoryHint ?? '';
     const rightHint = right.categoryHint ?? '';
+    if (deferredPriority) {
+      const leftDeferred = Boolean(left.deferred);
+      const rightDeferred = Boolean(right.deferred);
+      if (leftDeferred !== rightDeferred) return leftDeferred ? -1 : 1;
+    }
     const leftTarget = leftHint === target && pressureOf(leftHint) > 0;
     const rightTarget = rightHint === target && pressureOf(rightHint) > 0;
     if (leftTarget !== rightTarget) return leftTarget ? -1 : 1;
@@ -211,7 +223,7 @@ export function planSlotQueue({
 
   return {
     target,
-    queue: buildQueue(eligible, target, maxCandidates),
+    queue: buildQueue(eligible, target, maxCandidates, deferredPriority),
     rejected,
     counts,
     sourceUsage: {
@@ -221,7 +233,7 @@ export function planSlotQueue({
   };
 }
 
-function buildQueue(eligible, target, maxCandidates) {
+function buildQueue(eligible, target, maxCandidates, deferredPriority = true) {
   const limit = Math.max(0, maxCandidates);
   const seenSources = new Set();
   const unique = eligible.filter((candidate) => {
@@ -231,9 +243,12 @@ function buildQueue(eligible, target, maxCandidates) {
     seenSources.add(source);
     return true;
   });
-  const targetPool = unique.filter((candidate) => candidate.categoryHint === target);
-  const others = unique.filter((candidate) => candidate.categoryHint !== target);
+  const deferred = deferredPriority ? unique.filter((candidate) => candidate.deferred) : [];
+  const deferredSet = new Set(deferred);
+  const rest = unique.filter((candidate) => !deferredSet.has(candidate));
+  const targetPool = rest.filter((candidate) => candidate.categoryHint === target);
+  const others = rest.filter((candidate) => candidate.categoryHint !== target);
   const lead = targetPool.slice(0, 2);
   const tail = targetPool.slice(2);
-  return [...lead, ...others, ...tail].slice(0, limit);
+  return [...deferred.slice(0, 2), ...lead, ...others, ...tail].slice(0, limit);
 }

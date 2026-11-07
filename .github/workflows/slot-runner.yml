@@ -32,7 +32,7 @@ on:
       max_candidates:
         description: "حداکثر کاندید در این اجرا"
         type: string
-        default: "6"
+        default: "8"
   repository_dispatch:
     types: [slot-tick]
   schedule:
@@ -62,7 +62,7 @@ jobs:
       # External dispatch and cron never bypass the slot window.
       FORCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force || 'false' }}
       SOURCES: ${{ github.event.inputs.sources || github.event.client_payload.sources || '' }}
-      MAX_CANDIDATES: ${{ github.event.inputs.max_candidates || github.event.client_payload.max_candidates || '6' }}
+      MAX_CANDIDATES: ${{ github.event.inputs.max_candidates || github.event.client_payload.max_candidates || '8' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -180,7 +180,7 @@ jobs:
           set -euo pipefail
           if [ ! -d .git ]; then echo "NO_GIT_CHECKOUT"; exit 0; fi
           files=()
-          for f in data/state.json data/state.review.json; do
+          for f in data/state.json data/state.review.json data/offer-watch.json; do
             if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
           done
           if [ ${#files[@]} -eq 0 ]; then

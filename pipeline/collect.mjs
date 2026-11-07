@@ -11,6 +11,8 @@ import {
   hasExternalLink,
   hasPromoText,
   isEducationLead,
+  isOfficialCourse,
+  isPromoHost,
   isPromotionalUrl,
   leadTitle,
   parseTelegramChannel,
@@ -327,11 +329,32 @@ async function collectTelegramSource({
       );
 
     const title = leadTitle(message, message.preview?.title ?? '');
+    const rawText = String(message.text ?? '').replace(/\r\n?/g, '\n').trim();
+    const detectionText = stripLeadNoise(message.text);
     const cleanText = stripLeadNoise(message.text, { maxChars: 1600 });
-    const hint = `${title} ${cleanText}`;
+    const hint = `${title} ${detectionText}`;
+    const officialCourseLink = [...(message.links ?? []), message.preview?.url]
+      .filter(Boolean)
+      .find((url) =>
+        isOfficialCourse(url, hint, {
+          officialCourseDomains: settings.official_course_domains ?? [],
+        })
+      );
+    const educationCue = isEducationLead(hint) && !officialCourseLink;
     const aiCentral = isAiCentral(title, stripLeadNoise(message.text, { maxChars: 600 }));
     const aiMention = aiHint(hint);
     const offerCue = offerHint(hint);
+    const promoHost =
+      (message.preview?.url
+        ? isPromoHost(message.preview.url, { promoDomains: settings.promo_domains ?? [] })
+        : false) ||
+      (message.links ?? []).some((link) =>
+        isPromoHost(link, { promoDomains: settings.promo_domains ?? [] })
+      );
+    if (promoHost && !educationCue) {
+      stats.telegram.promoted += 1;
+      continue;
+    }
     const selectionOptions = {
       denyDomains: settings.deny_domains ?? [],
       denyExtensions: settings.deny_extensions ?? [],
@@ -345,7 +368,15 @@ async function collectTelegramSource({
     }
     let link = selection?.url ?? '';
     let leadKind = '';
-    if (selection) {
+    let linkFallback = '';
+    if (educationCue) {
+      leadKind = 'education';
+      if (!aiCentral) stats.telegram.nonAiEducation += 1;
+      if (!link) {
+        const anyLink = selectAnyLink(message);
+        link = anyLink && !isSameChannelUrl(anyLink, source.username) ? anyLink : message.url;
+      }
+    } else if (selection) {
       leadKind = classifyLead(link, hint, {
         promoDomains: settings.promo_domains ?? [],
         officialCourseDomains: settings.official_course_domains ?? [],
@@ -356,14 +387,10 @@ async function collectTelegramSource({
       if (fallbackLink && aiMention && leadKind === 'promotion') {
         leadKind = 'news';
       }
-    } else if (isEducationLead(hint)) {
-      if (!aiCentral) {
-        stats.telegram.nonAiEducation += 1;
-        continue;
-      }
-      const anyLink = selectAnyLink(message);
-      link = anyLink && !isSameChannelUrl(anyLink, source.username) ? anyLink : message.url;
-      leadKind = 'education';
+    } else if (aiMention) {
+      link = message.url;
+      leadKind = 'news';
+      linkFallback = hasExternalLink(message) ? 'denied_link' : 'no_link';
     }
     if (!link) {
       if (promo) stats.telegram.promoted += 1;
@@ -371,7 +398,7 @@ async function collectTelegramSource({
       else stats.telegram.noLink += 1;
       continue;
     }
-    if (leadKind === 'promotion' || leadKind === 'off_topic_education') {
+    if (!educationCue && (leadKind === 'promotion' || leadKind === 'off_topic_education')) {
       if (leadKind === 'promotion') stats.telegram.promoted += 1;
       else stats.telegram.nonAiEducation += 1;
       continue;
@@ -407,9 +434,10 @@ async function collectTelegramSource({
       hasReferral(link) ||
       isPromotionalUrl(link, { promoDomains: settings.promo_domains ?? [] });
     const needsReview =
-      aiMention &&
-      (fallbackLink || referral) &&
-      (leadKind === 'tool_lead' || leadKind === 'free_offer' || leadKind === 'news');
+      Boolean(linkFallback) ||
+      (aiMention &&
+        (fallbackLink || referral) &&
+        (leadKind === 'tool_lead' || leadKind === 'free_offer' || leadKind === 'news'));
     candidates.push({
       sourceId: source.id,
       sourceName: source.name,
@@ -417,11 +445,11 @@ async function collectTelegramSource({
       title,
       link,
       canonical,
-      messageText: cleanText,
+      messageText: leadKind === 'education' ? rawText : cleanText,
       leadPostUrl: message.url,
       published: message.published,
       summary: '',
-      images: [],
+      images: message.images ?? [],
       ageHours: gate.ageHours,
       aiHint: aiMention,
       aiCentral,
@@ -438,7 +466,7 @@ async function collectTelegramSource({
       }),
       referral,
       needsReview,
-      reviewReason: needsReview ? 'referral_link' : '',
+      reviewReason: linkFallback || (needsReview ? 'referral_link' : ''),
       keys,
       leadSource: source.username,
       leadMessageId: message.id,
@@ -446,6 +474,7 @@ async function collectTelegramSource({
       sourceFocus: source.focus || '',
       leadKind,
       educationHint: leadKind === 'education',
+      webEducation: false,
       officialCourse: leadKind === 'official_course',
     });
     stats.telegram.leads += 1;
@@ -584,6 +613,11 @@ export async function collectCandidates({
       }
 
       seenThisRun.add(canonical);
+      const feedText = `${item.title} ${item.summary}`;
+      const aiRelevant = aiHint(feedText);
+      const educationCategory =
+        Array.isArray(source.categories) && source.categories.includes('education');
+      const educationCue = aiRelevant && (educationCategory || isEducationLead(feedText));
       candidates.push({
         sourceId: source.id,
         sourceName: source.name,
@@ -593,19 +627,24 @@ export async function collectCandidates({
         canonical,
         published: item.published,
         summary: item.summary,
+        messageText: educationCue ? String(item.summary ?? '') : '',
+        leadPostUrl: item.link,
         images: item.images,
         ageHours: gate.ageHours,
-        aiHint: aiHint(`${item.title} ${item.summary}`),
+        aiHint: aiRelevant,
         aiCentral: isAiCentral(item.title, item.summary),
-        offerHint: offerHint(`${item.title} ${item.summary}`),
+        offerHint: offerHint(feedText),
         sourceCategories: Array.isArray(source.categories) ? source.categories : [],
         categoryHint: categoryHint({
           title: item.title,
           summary: item.summary,
           sourceCategories: source.categories ?? [],
-          offerHint: offerHint(`${item.title} ${item.summary}`),
+          offerHint: offerHint(feedText),
         }),
         keys,
+        educationHint: educationCue,
+        webEducation: educationCue,
+        leadKind: educationCue ? 'education' : '',
       });
     }
   }

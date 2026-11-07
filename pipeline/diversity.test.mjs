@@ -38,22 +38,30 @@ const run = (candidates, { state = emptyState(), date = '2026-11-07', slot = '08
   });
 };
 
-test('the matrix fills every slot and totals the weekly quotas', () => {
+test('the matrix fills every slot and stays a soft guide below the 77 cap', () => {
   assert.deepEqual(Object.keys(config.diversity.weekly_matrix).sort(), [...DAYS].sort());
   for (const [day, row] of Object.entries(config.diversity.weekly_matrix)) {
     assert.equal(row.length, config.schedule.slots.length, `${day} has the wrong slot count`);
   }
-  assert.deepEqual(matrixTotals(config), {
+  const matrix = matrixTotals(config);
+  assert.deepEqual(matrix, {
     tools: 17,
     models: 13,
     security: 6,
     business: 6,
   });
-  assert.equal(config.diversity.max_per_category_per_day, 3);
+  assert.equal(Object.values(matrix).reduce((sum, value) => sum + value, 0), 42);
+  assert.deepEqual(config.diversity.max_per_category_per_day, {
+    tools: 4,
+    models: 4,
+    security: 2,
+    business: 2,
+  });
   assert.equal(config.diversity.max_per_source_per_day, 1);
   assert.equal(config.diversity.max_per_source_per_week, 4);
-  assert.equal(config.diversity.max_candidates, 6);
+  assert.equal(config.diversity.max_candidates, 8);
   assert.equal(config.diversity.no_consecutive_category, true);
+  assert.equal(config.diversity.deferred_priority, true);
 });
 
 test('no category repeats back to back inside the week or at its edges', () => {
@@ -151,11 +159,12 @@ test('category daily and consecutive caps are enforced', () => {
     { slot: '2026-11-07T08:30+03:30', category: 'models', sourceId: 'a', week },
     { slot: '2026-11-07T11:30+03:30', category: 'models', sourceId: 'b', week },
     { slot: '2026-11-07T14:00+03:30', category: 'models', sourceId: 'c', week },
-    { slot: '2026-11-07T17:00+03:30', category: 'tools', sourceId: 'd', week },
+    { slot: '2026-11-07T17:00+03:30', category: 'models', sourceId: 'd', week },
+    { slot: '2026-11-07T20:30+03:30', category: 'tools', sourceId: 'e', week },
   ];
   const plan = run(
     [
-      live('مدل چهارم', 'models', 's1'),
+      live('مدل پنجم', 'models', 's1'),
       live('ابزار دوم', 'tools', 's2'),
       live('کسب‌وکار', 'business', 's3'),
     ],

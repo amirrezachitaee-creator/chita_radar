@@ -231,6 +231,8 @@ export function deliveredEntries(states, now, { days = SEEN_RETENTION_DAYS } = {
       at: Number.isFinite(at) ? at : 0,
       slot: String(record?.slot ?? ''),
       title: String(title),
+      sourceTitle: String(record?.sourceTitle ?? ''),
+      sourceText: String(record?.sourceText ?? '').slice(0, 1600),
       category: String(record?.category ?? ''),
       decision: String(record?.decision ?? 'publish'),
     };
@@ -334,7 +336,9 @@ export function listDeferred(state, now, { ttlHours = DEFER_TTL_HOURS, maxAttemp
 }
 
 export function markSlot(state, key, record) {
-  state.slots[key] = { at: new Date().toISOString(), ...record };
+  const previous = state.slots[key] ?? {};
+  const posts = Array.isArray(record?.posts) ? record.posts : previous.posts ?? [];
+  state.slots[key] = { at: new Date().toISOString(), ...previous, ...record, posts };
 }
 
 export function isSlotSettled(state, key) {
@@ -366,6 +370,8 @@ export function recordPublished(
     sourceName = '',
     sourceType = '',
     url = '',
+    sourceTitle = '',
+    sourceText = '',
   }
 ) {
   const entry = {
@@ -381,6 +387,8 @@ export function recordPublished(
     sourceName,
     sourceType,
     url,
+    sourceTitle,
+    sourceText: String(sourceText ?? '').slice(0, 1600),
     at: new Date().toISOString(),
   };
   state.published.push(entry);

@@ -4,22 +4,22 @@
   "categories": {
     "tools": {
       "label": "ابزارها و محصولات",
-      "weekly_quota": 17,
+      "weekly_quota": 31,
       "main_channel": true
     },
     "models": {
       "label": "مدل‌ها و پژوهش",
-      "weekly_quota": 13,
+      "weekly_quota": 24,
       "main_channel": true
     },
     "security": {
       "label": "امنیت و حریم خصوصی",
-      "weekly_quota": 6,
+      "weekly_quota": 11,
       "main_channel": true
     },
     "business": {
       "label": "کسب‌وکار و بازار",
-      "weekly_quota": 6,
+      "weekly_quota": 11,
       "main_channel": true
     },
     "education": {
@@ -32,8 +32,10 @@
   "schedule": {
     "slots": ["08:30", "11:30", "14:00", "17:00", "20:30", "23:00"],
     "quiet_hours": ["00:00", "08:30"],
-    "max_posts_per_day": 6,
-    "quota_note": "سهمیه‌ها سقف هفتگی‌اند؛ پر نشدنشان اشکال ندارد و شش پست در روز تعهد نیست."
+    "max_posts_per_day": 11,
+    "max_posts_per_slot": 2,
+    "min_gap_minutes": 12,
+    "quota_note": "سهمیه‌ها سقف هفتگی‌اند؛ یازده پست سقف روزانه است و پر نشدن آن با پست بی‌کیفیت جبران نمی‌شود."
   },
   "diversity": {
     "enabled": true,
@@ -46,18 +48,27 @@
       "thu": ["tools", "models", "security", "tools", "business", "tools"],
       "fri": ["models", "security", "tools", "models", "business", "tools"]
     },
-    "max_per_category_per_day": 3,
+    "max_per_category_per_day": {
+      "tools": 4,
+      "models": 4,
+      "security": 2,
+      "business": 2
+    },
     "max_per_source_per_day": 1,
     "max_per_source_per_week": 4,
-    "max_candidates": 6,
-    "no_consecutive_category": true
+    "max_candidates": 8,
+    "no_consecutive_category": true,
+    "deferred_priority": true
   },
   "education_review": {
     "enabled": true,
-    "max_per_day": 5,
-    "max_per_source_per_day": 1,
-    "require_ai_central": true,
-    "max_text_chars": 1200
+    "max_per_day": 0,
+    "max_per_source_per_day": 0,
+    "require_ai_central": false,
+    "verbatim": true,
+    "include_image": true,
+    "max_text_chars": 0,
+    "web_enabled": true
   },
   "freshness_hours": {
     "pre_gate": 72,
@@ -98,7 +109,7 @@
     "review": {
       "enabled": true,
       "chat_env": "TELEGRAM_REVIEW_CHAT_ID",
-      "max_per_day": 5,
+      "max_per_day": 11,
       "max_per_source_per_day": 1,
       "pending_ttl_hours": 168,
       "max_pending": 200,
@@ -129,10 +140,21 @@
         "gate_bad_date",
         "offer_expired",
         "offer_stale",
+        "offer_watch",
+        "denied_link",
+        "no_link",
         "quiet_hours",
         "daily_cap",
         "send_failed"
       ]
+    },
+    "watch": {
+      "enabled": true,
+      "vendors_file": "pipeline/vendors.json",
+      "priorities": ["very_high", "high"],
+      "timeout_ms": 15000,
+      "state_path": "data/offer-watch.json",
+      "first_slot_only": false
     }
   },
   "telegram_discovery": {

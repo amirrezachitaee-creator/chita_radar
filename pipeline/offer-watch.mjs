@@ -1,6 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { contentHash } from './normalize.mjs';
 import { decodeEntities, fetchText } from './engine.mjs';
@@ -88,7 +88,7 @@ export function offerCandidate({ vendor, lines, now }) {
     reason = 'expiry_soon';
   }
 
-  return { status, reason, title, content, detection, expiry };
+  return { status, reason, title, content, detection, expiry, url: watchUrl(vendor) };
 }
 
 function pruneSeen(seen, nowMs) {
@@ -117,17 +117,23 @@ export async function watchOnce({
   fetchImpl = fetchText,
   timeout = 25000,
   log = () => {},
+  statePath = '',
+  snapshots = true,
+  writeReport = true,
+  includeBaselineOffers = false,
 }) {
   const nowMs = Date.parse(String(now));
   if (!Number.isFinite(nowMs)) throw new Error('invalid now');
 
   const snapshotsDir = join(outDir, 'snapshots');
   const reportsDir = join(outDir, 'reports');
-  await mkdir(snapshotsDir, { recursive: true });
-  await mkdir(reportsDir, { recursive: true });
+  await mkdir(outDir, { recursive: true });
+  if (snapshots) await mkdir(snapshotsDir, { recursive: true });
+  if (writeReport) await mkdir(reportsDir, { recursive: true });
 
-  const statePath = join(outDir, 'state.json');
-  const state = await readState(statePath);
+  const resolvedStatePath = statePath || join(outDir, 'state.json');
+  await mkdir(dirname(resolvedStatePath), { recursive: true });
+  const state = await readState(resolvedStatePath);
   state.targets ??= {};
   state.seen ??= {};
 
@@ -148,7 +154,39 @@ export async function watchOnce({
   };
 
   const persist = async () => {
-    await writeFile(statePath, JSON.stringify(state, null, 2));
+    await writeFile(resolvedStatePath, JSON.stringify(state, null, 2));
+  };
+
+  const applyOffer = (target, lines, result, { source = 'change' } = {}) => {
+    const candidate = offerCandidate({ vendor: target, lines, now: nowMs });
+    if (!candidate) return null;
+    const key = contentHash(`${target.id}\n${candidate.content}`);
+    if (state.seen[key]) {
+      result.offer = { status: 'seen', reason: 'already_reported', title: candidate.title };
+      log(`OFFER ${target.id} status=seen reason=already_reported`);
+      return null;
+    }
+    state.seen[key] = {
+      vendor: target.id,
+      first_seen: report.generated_at,
+      status: candidate.status,
+      reason: candidate.reason,
+      source,
+    };
+    if (candidate.status === 'publish') report.offers += 1;
+    else if (candidate.status === 'review') report.reviews += 1;
+    else report.skipped += 1;
+    result.offer = {
+      status: candidate.status,
+      reason: candidate.reason,
+      title: candidate.title,
+      url: candidate.url,
+      content: candidate.content,
+      expiry: candidate.expiry ?? null,
+    };
+    const expiryText = candidate.expiry?.date ? ` expiry=${candidate.expiry.date}` : '';
+    log(`OFFER ${target.id} status=${candidate.status} reason=${candidate.reason}${expiryText}`);
+    return candidate;
   };
 
   for (const target of targets) {
@@ -176,17 +214,23 @@ export async function watchOnce({
 
     if (!previous) {
       state.targets[target.id] = { hash, chars, url, fetched_at: report.generated_at };
-      await writeFile(join(snapshotsDir, `${target.id}.txt`), text);
+      if (snapshots) await writeFile(join(snapshotsDir, `${target.id}.txt`), text);
       await persist();
       report.baseline += 1;
-      report.results.push({ id: target.id, name: target.name, url, status: 'baseline', hash, chars });
+      const result = { id: target.id, name: target.name, url, status: 'baseline', hash, chars };
+      if (includeBaselineOffers) {
+        applyOffer(target, text.split('\n').filter(Boolean).slice(0, 400), result, {
+          source: 'baseline',
+        });
+      }
+      report.results.push(result);
       log(`WATCH ${target.id} baseline chars=${chars} hash=${hash}`);
       continue;
     }
 
     if (previous.url && previous.url !== url) {
       state.targets[target.id] = { hash, chars, url, fetched_at: report.generated_at };
-      await writeFile(join(snapshotsDir, `${target.id}.txt`), text);
+      if (snapshots) await writeFile(join(snapshotsDir, `${target.id}.txt`), text);
       await persist();
       report.baseline += 1;
       report.results.push({
@@ -211,17 +255,27 @@ export async function watchOnce({
       continue;
     }
 
-    let before = '';
+    let lines = [];
     let missingSnapshot = false;
-    try {
-      before = await readFile(join(snapshotsDir, `${target.id}.txt`), 'utf8');
-    } catch (error) {
-      if (error?.code !== 'ENOENT') throw error;
-      missingSnapshot = true;
+    if (snapshots) {
+      let before = '';
+      try {
+        before = await readFile(join(snapshotsDir, `${target.id}.txt`), 'utf8');
+      } catch (error) {
+        if (error?.code !== 'ENOENT') throw error;
+        missingSnapshot = true;
+      }
+      if (!missingSnapshot) lines = changedLines(before, text);
+    } else {
+      lines = text
+        .split('\n')
+        .map((line) => line.trim())
+        .filter((line) => line.length >= 12 && line.length <= 800)
+        .slice(0, 400);
     }
 
     state.targets[target.id] = { hash, chars, url, fetched_at: report.generated_at };
-    await writeFile(join(snapshotsDir, `${target.id}.txt`), text);
+    if (snapshots) await writeFile(join(snapshotsDir, `${target.id}.txt`), text);
 
     if (missingSnapshot) {
       await persist();
@@ -239,8 +293,6 @@ export async function watchOnce({
       continue;
     }
 
-    const lines = changedLines(before, text);
-    const candidate = offerCandidate({ vendor: target, lines, now: nowMs });
     report.changed += 1;
 
     const result = {
@@ -256,34 +308,7 @@ export async function watchOnce({
     };
     log(`CHANGE ${target.id} new_lines=${lines.length}`);
 
-    if (candidate) {
-      const key = contentHash(`${target.id}\n${candidate.content}`);
-      if (state.seen[key]) {
-        result.offer = { status: 'seen', reason: 'already_reported', title: candidate.title };
-        log(`OFFER ${target.id} status=seen reason=already_reported`);
-      } else {
-        state.seen[key] = {
-          vendor: target.id,
-          first_seen: report.generated_at,
-          status: candidate.status,
-          reason: candidate.reason,
-        };
-        if (candidate.status === 'publish') report.offers += 1;
-        else if (candidate.status === 'review') report.reviews += 1;
-        else report.skipped += 1;
-        result.offer = {
-          status: candidate.status,
-          reason: candidate.reason,
-          title: candidate.title,
-          expiry: {
-            date: candidate.expiry?.date ?? '',
-            remainingHours: candidate.expiry?.remainingHours ?? null,
-          },
-        };
-        const expiryText = candidate.expiry?.date ? ` expiry=${candidate.expiry.date}` : '';
-        log(`OFFER ${target.id} status=${candidate.status} reason=${candidate.reason}${expiryText}`);
-      }
-    }
+    applyOffer(target, lines, result);
 
     await persist();
     report.results.push(result);

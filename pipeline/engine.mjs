@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { canonicalUrl, freshness, windowFor } from './normalize.mjs';
+import { canonicalUrl, contentHash, freshness, windowFor } from './normalize.mjs';
 import { dateMentioned, hasReferral } from './offers.mjs';
 import { hasAiMention } from './relevance.mjs';
 import { newsDateLine } from './newstime.mjs';
@@ -628,10 +628,19 @@ export function trimQuote(value, max = QUOTE_MAX_CHARS) {
   return shortenText(quote, max);
 }
 
+export function ensureDedupeKey(parsed, { sourceUrl = '', title = '' } = {}) {
+  if (!parsed || parsed.decision !== 'publish') return parsed;
+  const current = String(parsed.dedupe_key ?? '').trim();
+  if (/^[a-z0-9]+(-[a-z0-9]+)*$/.test(current)) return parsed;
+  const seed = `${sourceUrl}\n${title || parsed.title || ''}`;
+  return { ...parsed, dedupe_key: `post-${contentHash(seed)}` };
+}
+
 export function applyMechanicalFixes(parsed, { newsDate = '', sourceName = '', sourceUrl = '', captionLimit = CAPTION_SAFE_LIMIT } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   let next = normalizePostFields(parsed);
   next = ensureSourceLine(next, { sourceName, sourceUrl });
+  next = ensureDedupeKey(next, { sourceUrl, title: next.title });
   const bounds = lengthBounds(next.post_type) ?? lengthBounds('standard');
   return fitCaption(
     {

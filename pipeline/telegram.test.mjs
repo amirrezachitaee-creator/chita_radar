@@ -4,7 +4,15 @@ import { createServer } from 'node:http';
 import { mkdtemp, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { captionLength, deleteMessage, editMessageCaption, sendTelegram, postText, postHtml } from './telegram.mjs';
+import {
+  captionLength,
+  deleteMessage,
+  editMessageCaption,
+  sendPhotoUrl,
+  sendTelegram,
+  postText,
+  postHtml,
+} from './telegram.mjs';
 
 function startMock() {
   const requests = [];
@@ -209,4 +217,37 @@ test('a caption above the Telegram limit is rejected before sending', async () =
 test('missing credentials fail before any network call', async () => {
   await assert.rejects(sendTelegram({ title: 'a', body: 'b' }, { token: '', chatId: '1' }), /TOKEN_MISSING/);
   await assert.rejects(sendTelegram({ title: 'a', body: 'b' }, { token: 'x', chatId: '' }), /CHAT_ID_MISSING/);
+});
+
+test('photo by URL sends the caption as JSON without a download', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  try {
+    const result = await sendPhotoUrl('متن آموزش', 'https://example.com/a.jpg', {
+      token: 'TEST',
+      chatId: '1',
+      baseUrl,
+    });
+    assert.equal(result.method, 'sendPhoto');
+    assert.equal(requests.length, 1);
+    assert.equal(requests[0].url, '/botTEST/sendPhoto');
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
+    assert.equal(payload.chat_id, '1');
+    assert.equal(payload.photo, 'https://example.com/a.jpg');
+    assert.equal(payload.caption, 'متن آموزش');
+    assert.equal(payload.disable_web_page_preview, true);
+    assert.equal('parse_mode' in payload, false);
+  } finally {
+    server.close();
+  }
+});
+
+test('photo by URL rejects an empty address or an oversized caption', async () => {
+  await assert.rejects(
+    sendPhotoUrl('متن', '', { token: 'TEST', chatId: '1' }),
+    /EMPTY_PHOTO/
+  );
+  await assert.rejects(
+    sendPhotoUrl('x'.repeat(1025), 'https://example.com/a.jpg', { token: 'TEST', chatId: '1' }),
+    /CAPTION_TOO_LONG/
+  );
 });

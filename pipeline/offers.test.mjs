@@ -275,7 +275,7 @@ test('review usage counts every state once and tracks the source channel', () =>
   assert.equal(usage.perSource.get('tg-b'), 1);
 });
 
-test('review caps allow five items a day and one item per source', () => {
+test('review caps allow eleven items a day and one item per source', () => {
   const usage = { today: 0, perSource: new Map() };
   assert.equal(reviewCapacity({ config, usage, sourceKey: 'tg-a' }).ok, true);
 
@@ -286,7 +286,7 @@ test('review caps allow five items a day and one item per source', () => {
   });
   assert.equal(reviewCapacity({ config, usage: sourceFull, sourceKey: 'tg-b' }).ok, true);
 
-  const dayFull = { today: 5, perSource: new Map() };
+  const dayFull = { today: 11, perSource: new Map() };
   assert.deepEqual(reviewCapacity({ config, usage: dayFull, sourceKey: 'tg-b' }), {
     ok: false,
     reason: 'review_daily_cap',
@@ -311,7 +311,7 @@ test('a full review queue defers the offer instead of skipping it', () => {
     quota,
     usage: { today: 0, week: 0 },
   };
-  const daily = assessOffer({ ...base, reviewUsage: { today: 5, perSource: new Map() } });
+  const daily = assessOffer({ ...base, reviewUsage: { today: 11, perSource: new Map() } });
   assert.equal(daily.status, 'defer');
   assert.equal(daily.reason, 'expiry_missing');
   assert.equal(daily.cap, 'review_daily_cap');

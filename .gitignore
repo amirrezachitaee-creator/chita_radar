@@ -2,4 +2,6 @@
 node_modules/
 results/
 data/state.dry.json
+data/state.review.dry.json
+data/offer-watch.dry.json
 data/state.test*.json

@@ -6,6 +6,7 @@ import { mkdtemp, readFile, readdir, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { watchOnce } from './offer-watch.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 
@@ -132,4 +133,80 @@ test('watcher baselines pages, then reports changed offers as publish or review'
   } finally {
     server.close();
   }
+});
+
+test('baseline can surface an existing offer with no snapshot files', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'qoder-offer-baseline-'));
+  const target = {
+    id: 'official',
+    name: 'Official',
+    url: 'https://example.com/official',
+    offer_watch: true,
+    priority: 'high',
+  };
+  const page = {
+    text: '<html><body><h1>Official</h1><p>Get 100 free credits when you sign up. Offer expires December 31, 2026.</p></body></html>',
+  };
+  const fetchImpl = async () => page;
+
+  const first = await watchOnce({
+    targets: [target],
+    now: '2026-11-02T18:00:00Z',
+    outDir: dir,
+    fetchImpl,
+    snapshots: false,
+    statePath: join(dir, 'state.json'),
+    includeBaselineOffers: true,
+  });
+  assert.equal(first.baseline, 1);
+  assert.equal(first.offers, 1);
+  assert.equal(first.reviews, 0);
+  const result = first.results[0];
+  assert.equal(result.status, 'baseline');
+  assert.equal(result.offer.status, 'publish');
+  assert.equal(result.offer.expiry.date, '2026-12-31');
+  assert.ok(result.offer.content.includes('100 free credits'));
+  assert.equal(result.offer.url, 'https://example.com/official');
+
+  const state = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
+  const seen = Object.values(state.seen);
+  assert.equal(seen.length, 1);
+  assert.equal(seen[0].source, 'baseline');
+
+  const second = await watchOnce({
+    targets: [target],
+    now: '2026-11-02T19:00:00Z',
+    outDir: dir,
+    fetchImpl,
+    snapshots: false,
+    statePath: join(dir, 'state.json'),
+    includeBaselineOffers: true,
+  });
+  assert.equal(second.unchanged, 1);
+  assert.equal(second.offers, 0);
+});
+
+test('a baseline without the flag reports no offer', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'qoder-offer-baseline-off-'));
+  const report = await watchOnce({
+    targets: [
+      {
+        id: 'official',
+        name: 'Official',
+        url: 'https://example.com/official',
+        offer_watch: true,
+        priority: 'high',
+      },
+    ],
+    now: '2026-11-02T18:00:00Z',
+    outDir: dir,
+    fetchImpl: async () => ({
+      text: '<html><body><p>Get 100 free credits when you sign up. Offer expires December 31, 2026.</p></body></html>',
+    }),
+    snapshots: false,
+    statePath: join(dir, 'state.json'),
+  });
+  assert.equal(report.baseline, 1);
+  assert.equal(report.offers, 0);
+  assert.equal(report.results[0].offer, undefined);
 });

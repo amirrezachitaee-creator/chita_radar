@@ -158,3 +158,80 @@ test('a day without artifacts says cost is not recorded instead of showing zero'
   assert.match(text, /امروز اجرایی ثبت نشده است/);
   assert.match(text, /اسلاتی ثبت نشده است/);
 });
+
+test('a slot with several posts expands into one row per post', () => {
+  const multi = {
+    slots: {
+      '2026-11-05T08:30+03:30': {
+        status: 'sent',
+        posts: [
+          {
+            status: 'sent',
+            category: 'tools',
+            title: 'یک',
+            cost: 0.001,
+            tokens: 100,
+            qa: '11/11',
+            model: 'A',
+          },
+          {
+            status: 'sent',
+            category: 'models',
+            title: 'دو',
+            cost: 0.002,
+            tokens: 200,
+            qa: '10/11',
+            model: 'A',
+            offer: true,
+          },
+          {
+            status: 'review',
+            category: 'security',
+            title: 'سه',
+            reason: 'model_skip',
+            cost: 0.0005,
+            tokens: 50,
+          },
+        ],
+      },
+    },
+    published: [],
+    offerReviews: [
+      { id: 'o', date: DATE, kind: 'offer', reason: 'offer_watch', mainEligible: false },
+    ],
+    educationReviews: [
+      { id: 'edu1', at: '2026-11-05T06:00:00Z' },
+      { id: 'edu2', at: '2026-11-05T07:00:00Z' },
+      { id: 'old', at: '2026-11-04T07:00:00Z' },
+    ],
+    seen: {
+      a: { decision: 'story_duplicate', at: '2026-11-05T06:10:00Z' },
+      b: { decision: 'education_duplicate', at: '2026-11-05T07:10:00Z' },
+      c: { decision: 'fresh', at: '2026-11-05T08:00:00Z' },
+      d: { decision: 'story_duplicate', at: '2026-11-04T08:00:00Z' },
+    },
+    deferred: {},
+  };
+  const summary = summarizeDay({ date: DATE, state: multi, reports: [], config });
+  assert.equal(summary.rows.length, 3);
+  assert.equal(summary.rows[0].slot, '08:30');
+  assert.equal(summary.rows[1].slot, '08:30 #2');
+  assert.equal(summary.rows[1].offer, true);
+  assert.equal(summary.rows[2].status, 'review');
+  assert.equal(summary.totals.cost.toFixed(6), '0.003500');
+  assert.equal(summary.totals.tokens, 350);
+  assert.equal(summary.daily.sent, 2);
+  assert.equal(summary.daily.capacity, 6);
+  assert.deepEqual(summary.daily.categories, { tools: 1, models: 1 });
+  assert.equal(summary.daily.offersSent, 1);
+  assert.equal(summary.daily.offersReview, 1);
+  assert.equal(summary.daily.education, 2);
+  assert.equal(summary.daily.duplicates, 2);
+  assert.equal(summary.daily.emptySlots, 0);
+  const text = renderReport(summary);
+  assert.match(text, /پست ارسال‌شده: 2 از 6/);
+  assert.match(text, /آفر: ارسال‌شده 1 \| بازبینی 1/);
+  assert.match(text, /آموزش‌های بازبینی: 2/);
+  assert.match(text, /موارد تکراری ردشده: 2/);
+  assert.match(text, /\| 08:30 #2 \|/);
+});

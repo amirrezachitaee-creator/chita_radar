@@ -22,7 +22,8 @@ import {
 import { collectCandidates } from './collect.mjs';
 import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } from './diversity.mjs';
 import { dailyBudget, sendWindow } from './guards.mjs';
-import { buildEducationDigest, buildEducationMessages, educationDigestLeads, matchesPublishedStory } from './telegram-source.mjs';
+import { buildEducationForward, matchesPublishedStory } from './telegram-source.mjs';
+import { watchOnce, selectTargets } from './offer-watch.mjs';
 import { assessOffer, detectOffer, offerUsage, offerReviewUsage, recordOfferReview, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
   loadState,
@@ -40,7 +41,6 @@ import {
   quotaSnapshot,
   recordPublished,
   recordEducationReview,
-  educationReviewUsage,
   pruneState,
   deferCandidate,
   deferredId,
@@ -50,7 +50,7 @@ import {
   MAX_DEFER_ATTEMPTS,
   DEFER_TTL_HOURS,
 } from './store.mjs';
-import { sendTelegram, sendText, captionLength, postText } from './telegram.mjs';
+import { sendTelegram, sendText, sendPhotoUrl, captionLength, postText } from './telegram.mjs';
 import { newsDateLine } from './newstime.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
@@ -105,7 +105,7 @@ if (!env.AMD_API_KEY) {
 const config = JSON.parse(await readFile(resolve(ROOT, 'pipeline/config.json'), 'utf8'));
 const MAX_CANDIDATES = Math.max(
   1,
-  Number(MAX_CANDIDATES_ARG || config.diversity?.max_candidates || 6)
+  Number(MAX_CANDIDATES_ARG || config.diversity?.max_candidates || 8)
 );
 const registry = JSON.parse(await readFile(resolve(ROOT, SOURCES_FILE), 'utf8'));
 const system = await readFile(resolve(ROOT, 'bench/system-prompt.md'), 'utf8');
@@ -200,10 +200,21 @@ function activeSlot() {
   return resolved;
 }
 
-function outboxDir(slot) {
+function outboxDir(slot, index = 1) {
   const [date, time] = String(slot).split('T');
-  return resolve(OUT_ROOT, date, time.slice(0, 5).replace(':', '-'));
+  const base = resolve(OUT_ROOT, date, time.slice(0, 5).replace(':', '-'));
+  return index > 1 ? `${base}-${index}` : base;
 }
+
+function categoryCapOf(category) {
+  const value = config.diversity?.max_per_category_per_day;
+  if (value && typeof value === 'object' && !Array.isArray(value)) {
+    return Math.max(0, Number(value[category] ?? 3));
+  }
+  return Math.max(0, Number(value ?? 3));
+}
+
+const sleep = (ms) => new Promise((resolveDelay) => setTimeout(resolveDelay, ms));
 
 const MAIN_STATE_FILE = option('--main-state', 'data/state.json');
 const REVIEW_STATE_FILE = option('--review-state', 'data/state.review.json');
@@ -249,10 +260,12 @@ async function main() {
   let reviewUsage = offerReviewUsage(reviewStates, NOW);
   const attempts = [];
   let reviews = 0;
-  const previousWhy = [...(state.published ?? [])].reverse().find((entry) => entry.why)?.why ?? '';
+  let previousWhy = [...(state.published ?? [])].reverse().find((entry) => entry.why)?.why ?? '';
   const week = weekKey(slot.date);
-  const quota = quotaSnapshot(config, state, week);
-  const budget = dailyBudget({ config, state, date: slot.date });
+  let quota = quotaSnapshot(config, state, week);
+  let budget = dailyBudget({ config, state, date: slot.date });
+  const postsPerSlot = Math.max(1, Number(config.schedule?.max_posts_per_slot ?? 1) || 1);
+  const minGapMs = Math.max(0, Number(config.schedule?.min_gap_minutes ?? 0) || 0) * 60000;
   const allDeferred = Object.values(state.deferred ?? {});
   const deferredEntries = listDeferred(state, NOW, { ttlHours: DEFER_TTL_HOURS })
     .filter((entry) => !findSeen(state, entry.keys ?? []));
@@ -469,7 +482,108 @@ async function main() {
     }
   }
 
+  async function runOfferWatch() {
+    const watch = config.offers?.watch ?? {};
+    if (watch.enabled === false || !reviewEnabled) return;
+    if (watch.first_slot_only === true && slot.slot !== config.schedule?.slots?.[0]) return;
+    if (state.offerWatch?.lastDate === slot.date) return;
+
+    let vendors;
+    try {
+      vendors = JSON.parse(
+        await readFile(resolve(ROOT, watch.vendors_file || 'pipeline/vendors.json'), 'utf8')
+      );
+    } catch (error) {
+      console.log(`OFFER_WATCH_VENDORS_FAILED ${redact(String(error?.message ?? error))}`);
+      return;
+    }
+    const targets = selectTargets(vendors, {
+      priorities: watch.priorities ?? ['very_high', 'high'],
+    });
+    if (!targets.length) {
+      console.log('OFFER_WATCH_NO_TARGETS');
+      return;
+    }
+
+    const watchStatePath = resolve(
+      ROOT,
+      SEND ? watch.state_path || 'data/offer-watch.json' : 'data/offer-watch.dry.json'
+    );
+    let report;
+    try {
+      report = await watchOnce({
+        targets,
+        now: NOW,
+        outDir: resolve(ROOT, 'results/offer-watch'),
+        timeout: Number(watch.timeout_ms ?? 15000),
+        statePath: watchStatePath,
+        snapshots: false,
+        includeBaselineOffers: true,
+        log: (line) => console.log(`  ${line}`),
+      });
+    } catch (error) {
+      console.log(`OFFER_WATCH_FAILED ${redact(String(error?.message ?? error))}`);
+      return;
+    }
+    console.log(
+      `OFFER_WATCH targets=${report.targets} fetched=${report.fetched} failed=${report.failed} changed=${report.changed} baseline=${report.baseline} offers=${report.offers} reviews=${report.reviews}`
+    );
+
+    const found = [];
+    for (const result of report.results ?? []) {
+      const offer = result?.offer;
+      if (!offer || !['publish', 'review'].includes(offer.status)) continue;
+      found.push({ result, offer });
+    }
+    found.sort((left, right) => {
+      if (left.offer.status !== right.offer.status) return left.offer.status === 'publish' ? -1 : 1;
+      const leftHours = Number(left.offer.expiry?.remainingHours ?? 9999);
+      const rightHours = Number(right.offer.expiry?.remainingHours ?? 9999);
+      return leftHours - rightHours;
+    });
+    const selected = found;
+
+    for (const { result, offer } of selected) {
+      const key = `offerwatch:${contentHash(`${result.id}\n${offer.content}`)}`;
+      await deliverReview({
+        candidate: {
+          sourceId: `offer-watch:${result.id}`,
+          sourceName: result.name,
+          leadSource: 'offer-watch',
+          title: offer.title,
+          link: result.url,
+          canonical: result.url,
+          published: NOW,
+          messageText: offer.content,
+          images: [],
+          keys: [key],
+          offerHint: true,
+          leadKind: 'offer',
+        },
+        article: null,
+        assessment: { reason: 'offer_watch', expiry: offer.expiry },
+        reason: 'offer_watch',
+        kind: 'offer',
+        mainEligible: offer.status === 'publish',
+        text: offer.content,
+        note:
+          offer.status === 'publish'
+            ? 'آفر تازه از صفحه رسمی سازنده پیدا شد و در سهمیه آفر واجد شرایط است؛ نسخه نهایی فقط پس از تأیید شما به کانال اصلی می‌رود.'
+            : 'آفر رصدشده شرایط انتشار خودکار را ندارد و فقط برای بررسی ثبت شده است.',
+      });
+    }
+
+    state.offerWatch = {
+      lastDate: slot.date,
+      at: NOW,
+      found: found.length,
+      delivered: selected.length,
+    };
+    await saveState(STATE_PATH, state);
+  }
+
   if (reviewEnabled) await flushPendingReviews();
+  await runOfferWatch();
 
   if (isSlotSettled(state, slot.key) && !FORCE) {
     console.log(`SLOT_ALREADY_DONE ${slot.key} status=${state.slots[slot.key].status}`);
@@ -669,101 +783,105 @@ async function main() {
   }
 
   if (educationLeads.length) {
-    const educationCap = Number(config.education_review?.max_per_day ?? 5);
-    const educationSourceCap = Number(config.education_review?.max_per_source_per_day ?? 1);
-    const usage = educationReviewUsage(state, NOW);
-    const rankedLeads = educationDigestLeads(educationLeads, {
-      max: Math.max(educationCap * 4, 20),
-    });
-    const remaining = Math.max(0, educationCap - usage.total);
-    const sourceCounts = new Map(Object.entries(usage.bySource ?? {}));
-    const selectedLeads = [];
-    for (const candidate of rankedLeads) {
-      if (selectedLeads.length >= remaining) break;
-      const source = candidate.sourceId || candidate.leadSource || '';
-      if (source && (sourceCounts.get(source) ?? 0) >= educationSourceCap) continue;
-      selectedLeads.push(candidate);
-      if (source) sourceCounts.set(source, (sourceCounts.get(source) ?? 0) + 1);
-    }
+    const verbatim = config.education_review?.verbatim !== false;
+    const maxTextChars = Math.max(0, Number(config.education_review?.max_text_chars ?? 0) || 0);
+    const includeImage = config.education_review?.include_image !== false;
     console.log(
-      `TELEGRAM_EDU_LEADS ${educationLeads.length} selected=${selectedLeads.length} cap=${educationCap} used=${usage.total} private_only=yes`
+      `TELEGRAM_EDU_LEADS ${educationLeads.length} selected=${educationLeads.length} cap=none source_cap=none private_only=yes verbatim=${verbatim ? 'yes' : 'no'}`
     );
-    for (const candidate of selectedLeads) {
-      console.log(`  EDU_LEAD ${candidate.leadSource} | ${candidate.leadKind} | ${candidate.title}`);
+    for (const candidate of educationLeads) {
+      const label = candidate.leadSource || candidate.sourceName || candidate.sourceId || 'unknown';
+      console.log(`  EDU_LEAD ${label} | ${candidate.leadKind} | ${candidate.title}`);
     }
-    if (selectedLeads.length === 0) {
-      console.log('  EDU_REVIEW_SKIPPED cap_or_no_ai');
-    } else {
-      const digest = buildEducationDigest({
-        leads: selectedLeads,
-        date: slot.date,
-        slot: slot.slot,
-      });
-      const digestDir = resolve(REVIEW_ROOT, slot.date, `${slot.slot.replace(':', '-')}-education`);
-      await mkdir(digestDir, { recursive: true });
-      const digestPath = resolve(digestDir, 'education.txt');
-      await writeFile(digestPath, `${digest}\n`);
 
-      const sentIds = [];
-      let digestError = '';
-      let sentCount = 0;
-      if (SEND && config.telegram_discovery?.education_review !== false && REVIEW_CHAT_ID) {
-        let sentAnything = false;
-        for (const candidate of selectedLeads) {
-          const messages = buildEducationMessages(candidate, {
-            maxTextChars: config.education_review?.max_text_chars,
-          });
-          let leadSent = 0;
-          for (const message of messages) {
-            if (sentAnything) {
-              await new Promise((resolveDelay) => setTimeout(resolveDelay, 1200));
-            }
+    const prepared = educationLeads.map((candidate) => ({
+      candidate,
+      messages: buildEducationForward(candidate, { maxTextChars }),
+      photo: includeImage ? String(candidate.images?.[0] ?? '') : '',
+    }));
+
+    const eduDir = resolve(REVIEW_ROOT, slot.date, `${slot.slot.replace(':', '-')}-education`);
+    await mkdir(eduDir, { recursive: true });
+    const transcript = [];
+    for (const { candidate, messages } of prepared) {
+      const slug = contentHash(candidate.canonical || candidate.title).slice(0, 8);
+      await writeFile(resolve(eduDir, `${slug}.txt`), `${messages.join('\n\n')}\n`);
+      const label = candidate.leadSource || candidate.sourceName || candidate.sourceId || 'unknown';
+      transcript.push(`### ${label} | ${candidate.title}\n\n${messages.join('\n\n')}`);
+    }
+    const digestPath = resolve(eduDir, 'education.txt');
+    await writeFile(digestPath, `${transcript.join('\n\n---\n\n')}\n`);
+
+    const sentIds = [];
+    let sentCount = 0;
+    let digestError = '';
+    let sentAnything = false;
+    if (SEND && config.telegram_discovery?.education_review !== false && REVIEW_CHAT_ID) {
+      for (const { candidate, messages, photo } of prepared) {
+        let leadSent = 0;
+        for (const [index, message] of messages.entries()) {
+          if (sentAnything) await sleep(1200);
+          try {
+            const usePhoto = photo && index === 0 && message.length <= 1024;
+            let sent;
             try {
-              const sent = await sendText(message, {
+              sent = usePhoto
+                ? await sendPhotoUrl(message, photo, {
+                    token: env.TELEGRAM_BOT_TOKEN,
+                    chatId: REVIEW_CHAT_ID,
+                  })
+                : await sendText(message, {
+                    token: env.TELEGRAM_BOT_TOKEN,
+                    chatId: REVIEW_CHAT_ID,
+                  });
+            } catch (error) {
+              if (!usePhoto) throw error;
+              console.log(`  EDU_PHOTO_FALLBACK ${redact(String(error?.message ?? error))}`);
+              sent = await sendText(message, {
                 token: env.TELEGRAM_BOT_TOKEN,
                 chatId: REVIEW_CHAT_ID,
               });
-              if (sent.messageId) sentIds.push(sent.messageId);
-              sentCount += 1;
-              sentAnything = true;
-              leadSent += 1;
-            } catch (error) {
-              digestError = String(error?.message ?? error);
-              break;
             }
+            if (sent.messageId) sentIds.push(sent.messageId);
+            sentCount += 1;
+            sentAnything = true;
+            leadSent += 1;
+          } catch (error) {
+            digestError = redact(String(error?.message ?? error));
+            break;
           }
-          if (leadSent === messages.length) {
-            if (candidate.keys?.length) {
-              markSeen(state, candidate.keys, {
-                decision: 'education_review',
-                reason: 'education_private',
-                category: '',
-                slot: slot.key,
-                title: candidate.title,
-                url: candidate.canonical,
-              });
-            }
-            recordEducationReview(state, {
-              source: candidate.sourceId || candidate.leadSource || '',
+        }
+        if (leadSent === messages.length) {
+          if (candidate.keys?.length) {
+            markSeen(state, candidate.keys, {
+              decision: 'education_review',
+              reason: 'education_private',
+              category: '',
+              slot: slot.key,
               title: candidate.title,
               url: candidate.canonical,
-              slot: slot.key,
-              at: NOW,
             });
           }
-          if (/TELEGRAM_(401|403)/.test(digestError)) break;
+          recordEducationReview(state, {
+            source: candidate.sourceId || candidate.leadSource || '',
+            title: candidate.title,
+            url: candidate.canonical,
+            slot: slot.key,
+            at: NOW,
+          });
         }
-        if (sentCount) await saveState(STATE_PATH, state);
-      } else if (SEND && config.telegram_discovery?.education_review === false) {
-        console.log('  EDU_REVIEW_DISABLED');
-      } else if (SEND) {
-        console.log('  EDU_REVIEW_CREDENTIALS_MISSING');
+        if (/TELEGRAM_(401|403)/.test(digestError)) break;
       }
-      console.log(
-        `  EDU_REVIEW sent=${sentCount}${sentIds.length ? ` ids=${sentIds.join(',')}` : ''}${sentCount ? '' : ` mode=${RUN_MODE}`} file=${digestPath}`
-      );
-      if (digestError) console.log(`  EDU_REVIEW_SEND_FAILED ${redact(digestError)}`);
+      if (sentCount) await saveState(STATE_PATH, state);
+    } else if (SEND && config.telegram_discovery?.education_review === false) {
+      console.log('  EDU_REVIEW_DISABLED');
+    } else if (SEND) {
+      console.log('  EDU_REVIEW_CREDENTIALS_MISSING');
     }
+    console.log(
+      `  EDU_REVIEW leads=${prepared.length} sent=${sentCount}${sentIds.length ? ` ids=${sentIds.join(',')}` : ''}${sentCount ? '' : ` mode=${RUN_MODE}`} file=${digestPath}`
+    );
+    if (digestError) console.log(`  EDU_REVIEW_SEND_FAILED ${redact(digestError)}`);
   }
   const courseLeads = mainCandidates.filter((candidate) => candidate.officialCourse);
   if (courseLeads.length) {
@@ -847,6 +965,8 @@ async function main() {
   }
 
   let published = null;
+  const slotPosts = [];
+  let lastSendAt = 0;
   let totalCost = 0;
   let totalTokens = 0;
   let fallbackSpent = false;
@@ -866,6 +986,11 @@ async function main() {
   }
 
   for (const [index, candidate] of queue.entries()) {
+    if (slotPosts.length >= postsPerSlot) break;
+    if (!budget.ok) {
+      console.log(`DAILY_CAP_REACHED ${budget.used}/${budget.cap}`);
+      break;
+    }
     const label = `${candidate.sourceName} | ${candidate.title} | ${candidate.ageHours}h`;
     const deferredLabel = candidate.deferred ? ` | deferred ${candidate.deferred.attempts}/${MAX_DEFER_ATTEMPTS}` : '';
     console.log(`ATTEMPT ${index + 1}/${queue.length}${deferredLabel} ${label}`);
@@ -908,8 +1033,25 @@ async function main() {
       article = extractArticle(page.text, candidate.title);
       article.url = page.url || candidate.link;
     } catch (error) {
-      console.log(`  FETCH_FAILED ${redact(error?.message)}`);
-      if (protectedLead) {
+      const fetchError = redact(String(error?.message ?? error));
+      console.log(`  FETCH_FAILED ${fetchError}`);
+      const fallbackText = [candidate.messageText, candidate.summary]
+        .filter(Boolean)
+        .join('\n\n')
+        .trim();
+      if (fallbackText.length >= MIN_CONTENT) {
+        article = {
+          title: candidate.title || '',
+          description: candidate.summary || '',
+          published: candidate.published || '',
+          modified: '',
+          imageUrl: candidate.images?.[0] || '',
+          imageAlt: '',
+          content: fallbackText,
+          url: candidate.link,
+        };
+        console.log(`  FETCH_TEXT_FALLBACK ${fallbackText.length} chars`);
+      } else if (protectedLead) {
         const kind = candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
         await deliverReview({
           candidate,
@@ -918,12 +1060,13 @@ async function main() {
           reason: 'fetch_failed',
           kind,
           text: candidate.messageText,
-          note: `خطای دریافت صفحه اصلی: ${redact(String(error?.message ?? error))}`,
+          note: `خطای دریافت صفحه اصلی: ${fetchError}`,
         });
+        continue;
       } else {
-        await deferOrClose(candidate, 'fetch_failed', redact(error?.message));
+        await deferOrClose(candidate, 'fetch_failed', fetchError);
+        continue;
       }
-      continue;
     }
 
     const publishedAt =
@@ -1293,7 +1436,7 @@ async function main() {
     }
 
     const offerPriority = Boolean(offerContext || candidate.offerHint);
-    const categoryCap = Number(config.diversity?.max_per_category_per_day ?? 3);
+    const categoryCap = categoryCapOf(category);
     const todayCategoryCount = categoryCountForDate(state, slot.date)[category] ?? 0;
     if (todayCategoryCount >= categoryCap) {
       console.log(`  DIVERSITY_CATEGORY_DAILY ${category} ${todayCategoryCount}/${categoryCap}`);
@@ -1311,7 +1454,7 @@ async function main() {
       continue;
     }
 
-    const dir = outboxDir(slot.key);
+    const dir = outboxDir(slot.key, slotPosts.length + 1);
     await mkdir(dir, { recursive: true });
     let downloaded = null;
     let downloadError = '';
@@ -1411,7 +1554,7 @@ async function main() {
         .filter(Boolean)
         .join('\n\n')
     );
-    const window = SEND
+    let window = SEND
       ? sendWindow({ config, state, date: slot.date, now: new Date().toISOString(), reviewSend: REVIEW_SEND })
       : null;
 
@@ -1446,6 +1589,20 @@ async function main() {
         post,
         note,
       });
+      slotPosts.push({
+        title: post.title,
+        category,
+        status: 'review',
+        messageId: null,
+        dir,
+        model: writer.model,
+        cost,
+        tokens,
+        qa: `${qa.score}/${qa.possible}`,
+        image: Boolean(downloaded),
+        offer: Boolean(offerContext),
+        at: new Date().toISOString(),
+      });
       markSlot(state, slot.key, {
         status: 'review',
         category,
@@ -1455,9 +1612,10 @@ async function main() {
         reason,
         model: writer.model,
         fallback,
-        cost,
-        tokens,
+        cost: totalCost,
+        tokens: totalTokens,
         qa: `${qa.score}/${qa.possible}`,
+        posts: slotPosts,
       });
       await saveState(STATE_PATH, state);
       published = {
@@ -1497,6 +1655,28 @@ async function main() {
         console.log(`  SEND_GUARD ${window?.reason ?? 'blocked'} review_copy=yes main_eligible=yes`);
         break;
       }
+      if (lastSendAt && minGapMs) {
+        const waitMs = lastSendAt + minGapMs - Date.now();
+        if (waitMs > 0) {
+          console.log(`  SLOT_GAP_WAIT ${Math.ceil(waitMs / 1000)}s`);
+          await sleep(waitMs);
+        }
+        window = sendWindow({
+          config,
+          state,
+          date: slot.date,
+          now: new Date().toISOString(),
+          reviewSend: REVIEW_SEND,
+        });
+        if (!window.ok) {
+          await routeReviewCopy({
+            reason: window.reason,
+            note: 'گارد زمان اجرا پس از فاصله بین دو پست اسلات، ارسال را متوقف کرد و نسخه واجد شرایط به بازبینی رفت.',
+          });
+          console.log(`  SEND_GUARD ${window.reason} review_copy=yes main_eligible=yes`);
+          break;
+        }
+      }
       try {
         const sent = await sendTelegram(post, {
           token: env.TELEGRAM_BOT_TOKEN,
@@ -1506,7 +1686,7 @@ async function main() {
         status = 'sent';
         messageId = sent.messageId;
       } catch (error) {
-        status = 'ready';
+        status = slotPosts.some((entry) => entry.status === 'sent') ? 'sent' : 'ready';
         const sendError = String(error?.message ?? error);
         markSlot(state, slot.key, {
           status,
@@ -1515,9 +1695,10 @@ async function main() {
           postDir: dir,
           error: sendError,
           model: writer.model,
-          cost,
-          tokens,
+          cost: totalCost,
+          tokens: totalTokens,
           qa: `${qa.score}/${qa.possible}`,
+          posts: slotPosts,
         });
         if (offerContext || candidate.toolHint || candidate.officialCourse) {
           try {
@@ -1538,11 +1719,30 @@ async function main() {
         await deferOrClose(candidate, 'send_failed', sendError);
         console.log(`SEND_FAILED ${sendError}`);
         console.log(`OUTBOX ${dir}`);
-        console.log('NOTHING_WAS_SENT');
+        if (slotPosts.length) {
+          console.log(`PARTIAL_SENT ${slotPosts.length}/${postsPerSlot}`);
+        } else {
+          console.log('NOTHING_WAS_SENT');
+        }
         process.exit(1);
       }
     }
 
+    slotPosts.push({
+      title: post.title,
+      category,
+      status,
+      messageId,
+      dir,
+      model: writer.model,
+      fallback: Boolean(fallback),
+      cost,
+      tokens,
+      qa: `${qa.score}/${qa.possible}`,
+      image: Boolean(downloaded),
+      offer: Boolean(offerContext),
+      at: new Date().toISOString(),
+    });
     markSlot(state, slot.key, {
       status,
       category,
@@ -1552,9 +1752,10 @@ async function main() {
       mode: RUN_MODE,
       model: writer.model,
       fallback,
-      cost,
-      tokens,
+      cost: totalCost,
+      tokens: totalTokens,
       qa: `${qa.score}/${qa.possible}`,
+      posts: slotPosts,
     });
     markSeen(state, candidate.keys, {
       decision: 'publish',
@@ -1568,19 +1769,33 @@ async function main() {
       category,
       title: post.title,
       dedupeKey: parsed.dedupe_key,
-      postKey: `${slot.date}/${slot.slot.replace(':', '-')}`,
+      postKey: `${slot.date}/${slot.slot.replace(':', '-')}/${slotPosts.length}`,
       kind: offerContext ? 'offer' : 'news',
       why: importanceOf(parsed.body),
       sourceId: candidate.sourceId || candidate.leadSource || '',
       sourceName: candidate.sourceName || candidate.leadSource || '',
       sourceType: candidate.sourceType || 'telegram_channel',
+      sourceTitle: article.title || candidate.title || '',
+      sourceText: candidate.messageText || article.content || '',
       url: article.url,
     });
     pruneState(state, NOW, reviewPrune);
     await saveState(STATE_PATH, state);
 
+    previousWhy = importanceOf(parsed.body);
+    if (status === 'sent') lastSendAt = Date.now();
     published = { post, category, dir, status, messageId, cost, tokens, qa, image: Boolean(downloaded), offer: Boolean(offerContext) };
-    break;
+    console.log(
+      `POST ${slotPosts.length}/${postsPerSlot} status=${status} category=${category} | QA ${qa.score}/${qa.possible} | $${cost.toFixed(6)} | ${dir}`
+    );
+    if (slotPosts.length >= postsPerSlot) break;
+
+    quota = quotaSnapshot(config, state, week);
+    budget = dailyBudget({ config, state, date: slot.date });
+    if (!budget.ok) {
+      console.log(`DAILY_CAP_REACHED ${budget.used}/${budget.cap}`);
+      break;
+    }
   }
 
   if (!published) {
@@ -1592,16 +1807,26 @@ async function main() {
     return;
   }
 
+  const sentCount = slotPosts.filter((entry) => entry.status === 'sent').length;
+  const reviewCount = slotPosts.filter((entry) => entry.status === 'review').length;
   const resultLabel = published.status === 'sent' ? 'SENT' : published.status === 'review' ? 'REVIEW' : 'READY';
   console.log(`RESULT ${resultLabel} category=${published.category} | offer=${published.offer ? 'yes' : 'no'} | image=${published.image ? 'yes' : 'no'} | QA ${published.qa.score}/${published.qa.possible} | cost $${totalCost.toFixed(6)} | post $${published.cost.toFixed(6)} | tokens ${totalTokens}`);
   console.log(`TITLE ${published.post.title}`);
   console.log(`OUTBOX ${published.dir}`);
+  console.log(`SLOT_POSTS ${slotPosts.length}/${postsPerSlot} sent=${sentCount} review=${reviewCount}`);
+  for (const entry of slotPosts) {
+    console.log(`  POST ${entry.category} | ${entry.status} | $${Number(entry.cost).toFixed(6)} | ${entry.title}`);
+  }
   console.log(
-    published.status === 'review'
-      ? 'REVIEW_COPY — NOTHING_SENT_TO_MAIN'
-      : SEND
-        ? (REVIEW_SEND ? 'SENT_TO_REVIEW' : 'SENT_TO_TELEGRAM')
-        : 'DRY_RUN — NOTHING_WAS_SENT'
+    sentCount > 0
+      ? REVIEW_SEND
+        ? 'SENT_TO_REVIEW'
+        : 'SENT_TO_TELEGRAM'
+      : reviewCount > 0
+        ? 'REVIEW_COPY — NOTHING_SENT_TO_MAIN'
+        : SEND
+          ? 'NOTHING_WAS_SENT'
+          : 'DRY_RUN — NOTHING_WAS_SENT'
   );
 }
 

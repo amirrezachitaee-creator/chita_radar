@@ -301,6 +301,45 @@
       "use": "feed"
     },
     {
+      "id": "machinelearningmastery",
+      "name": "Machine Learning Mastery",
+      "url": "https://machinelearningmastery.com/",
+      "feed_url": "https://machinelearningmastery.com/feed/",
+      "verified_at": "2026-11-07",
+      "categories": [
+        "education"
+      ],
+      "type": "education_blog",
+      "use": "feed",
+      "lane": "private_research"
+    },
+    {
+      "id": "pyimagesearch",
+      "name": "PyImageSearch",
+      "url": "https://pyimagesearch.com/",
+      "feed_url": "https://pyimagesearch.com/feed/",
+      "verified_at": "2026-11-07",
+      "categories": [
+        "education"
+      ],
+      "type": "education_blog",
+      "use": "feed",
+      "lane": "private_research"
+    },
+    {
+      "id": "kdnuggets",
+      "name": "KDnuggets",
+      "url": "https://www.kdnuggets.com/",
+      "feed_url": "https://www.kdnuggets.com/feed",
+      "verified_at": "2026-11-07",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "blog",
+      "use": "feed"
+    },
+    {
       "id": "the-decoder",
       "name": "The Decoder",
       "url": "https://the-decoder.com/",
@@ -838,6 +877,38 @@
       "active_from": "2026-11-03T00:00:00+03:30",
       "max_posts_per_check": 15,
       "focus": "news",
+      "status": "verified"
+    },
+    {
+      "id": "tg-matin-senpai",
+      "name": "MatinSenPaii",
+      "url": "https://t.me/MatinSenPaii",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "MatinSenPaii",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "education",
+      "status": "verified"
+    },
+    {
+      "id": "tg-thenima",
+      "name": "Thenima.one",
+      "url": "https://t.me/thenimaonAI",
+      "categories": [
+        "tools",
+        "models"
+      ],
+      "type": "telegram_channel",
+      "use": "lead_only",
+      "username": "thenimaonAI",
+      "active_from": "2026-11-03T00:00:00+03:30",
+      "max_posts_per_check": 15,
+      "focus": "education",
       "status": "verified"
     }
   ],

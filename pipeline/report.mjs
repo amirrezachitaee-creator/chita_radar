@@ -61,13 +61,36 @@ export function summarizeDay({ date, state, extraStates = [], reports = [], conf
     if (key) artifactBySlot.set(key, report);
   }
 
-  const rows = slotRowsForDate(state, date).map(({ key, entry }) => {
+  const rows = slotRowsForDate(state, date).flatMap(({ key, entry }) => {
     const artifact = artifactBySlot.get(key) ?? null;
+    const posts = Array.isArray(entry.posts) ? entry.posts : [];
+    if (posts.length) {
+      return posts.map((post, index) => {
+        const cost = numberOrNull(post.cost) ?? numberOrNull(entry.cost) ?? numberOrNull(artifact?.model?.cost);
+        const tokens = numberOrNull(post.tokens) ?? numberOrNull(entry.tokens) ?? numberOrNull(artifact?.model?.tokens);
+        return {
+          slot: `${key.slice(11, 16)}${index ? ` #${index + 1}` : ''}`,
+          key,
+          slotKey: key,
+          category: post.category ?? entry.category ?? '',
+          status: post.status ?? entry.status ?? '',
+          reason: post.reason ?? entry.reason ?? '',
+          qa: post.qa ?? entry.qa ?? '',
+          cost,
+          tokens,
+          model: post.model ?? entry.model ?? '',
+          title: post.title ?? entry.title ?? '',
+          offer: Boolean(post.offer),
+          costKnown: cost !== null,
+        };
+      });
+    }
     const cost = numberOrNull(entry.cost) ?? numberOrNull(artifact?.model?.cost);
     const tokens = numberOrNull(entry.tokens) ?? numberOrNull(artifact?.model?.tokens);
-    return {
+    return [{
       slot: key.slice(11, 16),
       key,
+      slotKey: key,
       category: entry.category ?? artifact?.category ?? '',
       status: entry.status ?? '',
       reason: entry.reason ?? '',
@@ -76,8 +99,9 @@ export function summarizeDay({ date, state, extraStates = [], reports = [], conf
       tokens,
       model: entry.model ?? artifact?.model?.name ?? '',
       title: entry.title ?? artifact?.post?.title ?? '',
+      offer: false,
       costKnown: cost !== null,
-    };
+    }];
   });
 
   const budget = dailyBudget({ config, state, date });
@@ -123,6 +147,33 @@ export function summarizeDay({ date, state, extraStates = [], reports = [], conf
     costMissing: rows.length - costKnownRows.length,
   };
 
+  const sentRows = rows.filter((row) => row.status === 'sent');
+  const educationReviews = [];
+  for (const lane of reviewStates) {
+    for (const entry of lane?.educationReviews ?? []) {
+      if (safeDate(entry?.at ?? '') === date) educationReviews.push(entry);
+    }
+  }
+  const duplicateDecisions = new Set(['story_duplicate', 'education_duplicate']);
+  let duplicates = 0;
+  for (const lane of reviewStates) {
+    for (const record of Object.values(lane?.seen ?? {})) {
+      if (!duplicateDecisions.has(record?.decision)) continue;
+      if (safeDate(record?.at ?? '') !== date) continue;
+      duplicates += 1;
+    }
+  }
+  const daily = {
+    sent: sentRows.length,
+    capacity: budget.cap,
+    categories: countBy(sentRows, (row) => row.category),
+    offersSent: sentRows.filter((row) => row.offer).length,
+    offersReview: reviews.filter((entry) => entry.kind === 'offer').length,
+    education: educationReviews.length,
+    duplicates,
+    emptySlots: rows.filter((row) => row.status === 'empty').length,
+  };
+
   return {
     date,
     weekday: weekdayFa(date),
@@ -132,14 +183,16 @@ export function summarizeDay({ date, state, extraStates = [], reports = [], conf
     quota,
     reviews,
     reviewReasons,
+    educationReviews: educationReviews.length,
     pending: pendingMap.size,
     deferred: Object.keys(state?.deferred ?? {}).length,
     totals,
+    daily,
   };
 }
 
 export function renderReport(summary) {
-  const { date, weekday, week, budget, rows, quota, reviews, reviewReasons, pending, deferred, totals } =
+  const { date, weekday, week, budget, rows, quota, reviews, reviewReasons, pending, deferred, totals, daily } =
     summary;
   const lines = [];
   lines.push(`# گزارش روزانه ${date} (${weekday})`);
@@ -152,6 +205,22 @@ export function renderReport(summary) {
       .map(([status, count]) => `${STATUS_FA[status] ?? status} ${count}`)
       .join('، ');
     lines.push(`- وضعیت اسلات‌ها: ${statusText}`);
+  }
+  if (daily) {
+    lines.push('');
+    lines.push('## آمار روز');
+    lines.push(`- پست ارسال‌شده: ${daily.sent} از ${daily.capacity}`);
+    const categoryText = Object.entries(daily.categories)
+      .map(([category, count]) => {
+        const label = quota.find((item) => item.category === category)?.label ?? category;
+        return `${label} ${count}`;
+      })
+      .join('، ');
+    if (categoryText) lines.push(`- ترکیب دسته‌ها: ${categoryText}`);
+    lines.push(`- آفر: ارسال‌شده ${daily.offersSent} | بازبینی ${daily.offersReview}`);
+    lines.push(`- آموزش‌های بازبینی: ${daily.education} (بدون سقف، کانال بازبینی)`);
+    lines.push(`- موارد تکراری ردشده: ${daily.duplicates}`);
+    lines.push(`- اسلات‌های خالی: ${daily.emptySlots}`);
   }
   const sentRows = rows.filter((row) => row.status === 'sent');
   if (sentRows.length) {
@@ -212,7 +281,7 @@ export function renderReport(summary) {
   }
   lines.push('');
   lines.push('## بازبینی');
-  if (!reviews.length && !pending) {
+  if (!reviews.length && !pending && !summary.educationReviews) {
     lines.push('- موردی ثبت نشده است.');
   } else {
     if (reviews.length) {
@@ -223,6 +292,9 @@ export function renderReport(summary) {
       if (reasons) lines.push(`- دلایل: ${reasons}`);
       const eligible = reviews.filter((entry) => entry.mainEligible).length;
       if (eligible) lines.push(`- واجد شرایط کانال اصلی: ${eligible}`);
+    }
+    if (summary.educationReviews) {
+      lines.push(`- آموزش‌های بازبینی امروز: ${summary.educationReviews} (بدون سقف)`);
     }
     if (pending) lines.push(`- در انتظار ارسال به بازبینی: ${pending}`);
   }

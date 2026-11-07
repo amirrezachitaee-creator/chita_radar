@@ -254,6 +254,22 @@ function parsePreview(block) {
   };
 }
 
+function parseMessageImages(block) {
+  const urls = [];
+  for (const tag of String(block ?? '').matchAll(/<a\b[^>]*>/gi)) {
+    if (!/\btgme_widget_message_photo_wrap\b/i.test(tag[0])) continue;
+    const style = attr(tag[0], 'style');
+    const match = style.match(/background-image\s*:\s*url\((['"]?)(.*?)\1\)/i);
+    if (match?.[2]) urls.push(decodeHtml(match[2]));
+  }
+  for (const tag of String(block ?? '').matchAll(/<img\b[^>]*>/gi)) {
+    if (!/\btgme_widget_message_photo\b/i.test(tag[0])) continue;
+    const src = attr(tag[0], 'src');
+    if (src) urls.push(decodeHtml(src));
+  }
+  return [...new Set(urls)].filter((url) => /^https?:\/\//i.test(url));
+}
+
 export function parseTelegramChannel(html, username = '') {
   const blocks = String(html ?? '').split('tgme_widget_message_wrap').slice(1);
   const messages = [];
@@ -272,6 +288,7 @@ export function parseTelegramChannel(html, username = '') {
 
     const textHtml = sliceMessageText(block);
     const text = stripHtml(textHtml);
+    if (/\bpinned\s+an?\s+(?:GIF|message|photo|video|file|poll)\b/i.test(text)) continue;
     const links = [];
     for (const match of textHtml.matchAll(/<a\b[^>]*>/gi)) {
       const href = attr(match[0], 'href');
@@ -289,6 +306,7 @@ export function parseTelegramChannel(html, username = '') {
       published,
       text,
       links: [...new Set(links)],
+      images: parseMessageImages(block),
       preview,
       forwarded: block.includes('tgme_widget_message_forwarded_from'),
     });
@@ -601,6 +619,7 @@ function normalizeConceptText(value) {
     .replace(/آموزش[\s\u200c]*و[\s\u200c]*پرورش/giu, ' ')
     .replace(/آموزش[\s\u200c]*عالی/giu, ' ')
     .replace(/(?:معاون|مدیر|رئیس|سخنگوی|سرپرست|وزیر)\s*(?:بخش\s*)?آموزش(?![\p{L}\p{N}])/giu, ' ')
+    .replace(/برای\s*(?:مشاهده|تماشای|دیدن)\s*(?:آموزش|وید[ئيی]و(?:[^\s]*)?|یوتیوب)/giu, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -625,13 +644,13 @@ const EDUCATION_CONCEPTS = [
     name: 'course',
     weight: 2,
     pattern:
-      /دوره(?![\s\u200c]*(?:ای|زمانی|متوسطه|ابتدایی|راهنمایی|دبیرستان))|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|کورس|\bcourse\b|\bbootcamp\b|\bwebinar\b|\bworkshop\b|\bacademy\b/iu,
+      /(?<![\p{L}\p{N}])دوره(?![\s\u200c]*(?:ای|زمانی|متوسطه|ابتدایی|راهنمایی|دبیرستان|اعتبار|زیر[\s\u200c]*و[\s\u200c]*رو))|(?<![\p{L}\p{N}])کلاس(?![\p{L}\p{N}])|وبینار|کارگاه|بوت[\s\u200c]*کمپ|کورس|\bcourse\b|\bbootcamp\b|\bwebinar\b|\bworkshop\b|\bacademy\b/iu,
   },
   {
     name: 'tutorial',
     weight: 3,
     pattern:
-      /(?:(?:آموزش|یادگیری)[\s\u200c]+[^\n]{0,30}?(?:وید[ئيی]و|یوتیوب|تصویری|قدم|نصب|راه[\s\u200c]*اندازی|استفاده|کار[\s\u200c]*با|ساخت|اجرا|برنامه|پروژه|تلگرام|هوش[\s\u200c]*مصنوعی)|^آموزش(?=[\s:：،]|$)|در[\s\u200c]*این[\s\u200c]*وید[ئيی]و|یاد[\s\u200c]*می[\s\u200c]*د[هم]م?|آموزش[\s\u200c]+قدم[\s\u200c]*به[\s\u200c]*قدم|tutorial|how[\s\u200c]*to|راهنمای[\s\u200c]+(?:نصب|استفاده|کار)|(?:وید[ئيی]و|یوتیوب|tutorial)[^\n]{0,30}?(?:آموزش|یادگیری))/iu,
+      /(?:(?:آموزش|یادگیری)[\s\u200c]+[^\n]{0,30}?(?:وید[ئيی]و|یوتیوب|تصویری|قدم|نصب|راه[\s\u200c]*اندازی|استفاده|کار[\s\u200c]*با|ساخت|اجرا|برنامه|پروژه|تلگرام|هوش[\s\u200c]*مصنوعی)|^آموزش(?=[\s:：،]|$)|در[\s\u200c]*این[\s\u200c]*وید[ئيی]و|یاد[\s\u200c]*می[\s\u200c]*د[هم]م|آموزش[\s\u200c]+قدم[\s\u200c]*به[\s\u200c]*قدم|tutorial|how[\s\u200c]*to[\s\u200c]+(?:build|use|make|install|set[\s-]*up|create|run|deploy|train|fine[\s-]*tune|write|prompt|code|integrate|automate|configure|connect|generate|start|get[\s-]*started)\b|راهنمای[\s\u200c]+(?:نصب|استفاده|کار)|(?:وید[ئيی]و|یوتیوب|tutorial)[^\n]{0,30}?(?:آموزش|یادگیری))/iu,
   },
   {
     name: 'guide',
@@ -643,7 +662,7 @@ const EDUCATION_CONCEPTS = [
     name: 'credential',
     weight: 3,
     pattern:
-      /(?:مدرک|گواهی)[^\n]{0,30}(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|bootcamp|webinar)|(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|bootcamp|webinar)[^\n]{0,30}(?:مدرک|گواهی|certificate)|certificate/iu,
+      /(?:مدرک|گواهی)[^\n]{0,30}(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|bootcamp|webinar)|(?:دوره|کلاس|وبینار|کارگاه|بوت[\s\u200c]*کمپ|course|bootcamp|webinar)[^\n]{0,30}(?:مدرک|گواهی|certificate)/iu,
   },
   {
     name: 'qualifier',
@@ -700,13 +719,40 @@ export function educationSignals(text) {
   };
 }
 
+const PERSONAL_NARRATIVE_PATTERN =
+  /(?:دارم\s*فکر\s*می\s*کنم|پیام\s*پارسال|یادم\s*می\s*(?:آید|اد|آد)|یادش\s*بخیر|خاطره(?:[\s\u200c]*ای)?\s*(?:از|بود))/iu;
+
+const ENROLL_CTA_PATTERN =
+  /(?:ثبت[\s\u200c]*نام|پیش[\s\u200c]*ثبت)[^\n]{0,25}(?:کنید|کن|بشه|فرمایید|از\s*طریق|از\s*لینک|در\s*سایت)|(?:برای|جهت)\s*(?:ثبت[\s\u200c]*نام|شرکت\s*در)/iu;
+
+const EARLY_CUE_CHARS = 400;
+const PREFIX_OPTIONAL_CONCEPTS = new Set(['tutorial', 'guide']);
+const STRONG_EDUCATION_CONCEPTS = new Set([
+  'enrollment',
+  'course',
+  'tutorial',
+  'guide',
+  'credential',
+]);
+
 export function isEducationLead(text) {
   const value = normalizeConceptText(text);
   if (!value) return false;
   if (ML_TRAINING_PATTERN.test(value)) return false;
+  if (PERSONAL_NARRATIVE_PATTERN.test(value) && !ENROLL_CTA_PATTERN.test(value)) return false;
 
   const signals = educationSignals(value);
   if (!signals.education.length) return false;
+  const earlySignals = educationSignals(value.slice(0, EARLY_CUE_CHARS));
+  const earlyStrong = earlySignals.education.some((name) =>
+    STRONG_EDUCATION_CONCEPTS.has(name)
+  );
+  const anchoredStrong = signals.education.some(
+    (name) => STRONG_EDUCATION_CONCEPTS.has(name) && !PREFIX_OPTIONAL_CONCEPTS.has(name)
+  );
+  // A tutorial or guide mentioned deep inside a long post is usually a side
+  // reference; only a course or enrollment makes the whole post a lead.
+  if (!earlyStrong && !anchoredStrong) return false;
   if (signals.education.length === 1 && signals.educationScore < 3) return false;
   if (
     signals.news.length >= 2 &&
@@ -739,6 +785,7 @@ const STORY_SYNONYMS = new Map([
   ['دانش‌آموزان', 'دانش‌آموز'],
   ['سرچ', 'جست‌وجو'],
   ['جستجو', 'جست‌وجو'],
+  ['جستجوی', 'جست‌وجو'],
   ['جست‌وجوی', 'جست‌وجو'],
   ['حساب‌های', 'حساب'],
   ['حساب‌ها', 'حساب'],
@@ -760,13 +807,23 @@ function storyTokens(value) {
 
 export function matchesPublishedStory(text, entry = {}) {
   const leadTokens = storyTokens(text);
-  const publishedTokens = storyTokens(entry.title ?? '');
-  if (!leadTokens.size || !publishedTokens.size) return false;
-  let shared = 0;
-  for (const token of publishedTokens) {
-    if (leadTokens.has(token)) shared += 1;
+  if (!leadTokens.size) return false;
+  const sourceText = String(entry.sourceText ?? '');
+  const stories = [
+    entry.title,
+    entry.sourceTitle,
+    sourceText.length <= 600 ? sourceText : '',
+  ].filter(Boolean);
+  for (const story of stories) {
+    const publishedTokens = storyTokens(story);
+    if (!publishedTokens.size) continue;
+    let shared = 0;
+    for (const token of publishedTokens) {
+      if (leadTokens.has(token)) shared += 1;
+    }
+    if (shared >= 3 && shared / publishedTokens.size >= 0.6) return true;
   }
-  return shared >= 3 && shared / publishedTokens.size >= 0.6;
+  return false;
 }
 
 export function selectAnyLink(message) {
@@ -944,6 +1001,51 @@ export function buildEducationMessages(lead = {}, { maxTextChars = 1200 } = {}) 
 
 export function buildEducationMessage(lead = {}) {
   return buildEducationMessages(lead).join('\n\n');
+}
+
+function clipVerbatim(value, maxChars = 0) {
+  const limit = Number(maxChars) || 0;
+  if (limit <= 0 || value.length <= limit) return value;
+  const cut = value.slice(0, limit);
+  const boundary = cut.search(/\s+\S*$/);
+  return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
+}
+
+export function buildEducationForward(lead = {}, { maxTextChars = 0 } = {}) {
+  const title = String(lead.title ?? '').replace(/\s+/g, ' ').trim();
+  const raw = clipVerbatim(
+    String(lead.messageText ?? '').trim() || String(lead.summary ?? '').trim(),
+    maxTextChars
+  );
+  const source = educationSourceLine(lead);
+  const published = newsDate(lead.published) || String(lead.published ?? '').trim();
+  const postUrl = String(lead.leadPostUrl ?? '').trim();
+  const external = String(lead.link ?? lead.url ?? '').trim();
+  const content = lead.webEducation
+    ? [title, raw].filter(Boolean).join('\n\n')
+    : raw || title;
+  const footerLines = [];
+  if (source) footerLines.push(`منبع: ${source}`);
+  if (published) footerLines.push(`انتشار: ${published}`);
+  if (postUrl) footerLines.push(`پست اصلی: ${postUrl}`);
+  if (external && external !== postUrl) footerLines.push(`لینک: ${external}`);
+  if (!postUrl && !external && lead.canonical) footerLines.push(`لینک: ${lead.canonical}`);
+  const footer = footerLines.join('\n');
+  const single = [content, footer ? `—\n${footer}` : ''].filter(Boolean).join('\n\n');
+  if (single.length <= EDUCATION_MESSAGE_MAX) return [single];
+
+  const messages = splitChunks(content, EDUCATION_MESSAGE_MAX - 500).map((chunk, index) =>
+    [index === 0 ? '' : '🎓 ادامه آموزش', chunk].filter(Boolean).join('\n\n')
+  );
+  if (footer) {
+    const lastIndex = messages.length - 1;
+    if ((`${messages[lastIndex]}\n\n—\n${footer}`).length <= EDUCATION_MESSAGE_MAX) {
+      messages[lastIndex] = `${messages[lastIndex]}\n\n—\n${footer}`;
+    } else {
+      messages.push(`—\n${footer}`);
+    }
+  }
+  return messages;
 }
 
 export function telegramSourceEnabled(source, settings = {}) {

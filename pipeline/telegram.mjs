@@ -201,6 +201,45 @@ export async function deleteMessage(messageId, {
   }
 }
 
+export async function sendPhotoUrl(caption, photoUrl, {
+  token,
+  chatId,
+  baseUrl = 'https://api.telegram.org',
+  timeoutMs = 30000,
+  fetchImpl = fetch,
+}) {
+  if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
+  if (!chatId) throw new Error('TELEGRAM_CHAT_ID_MISSING');
+  if (!String(photoUrl ?? '').trim()) throw new Error('EMPTY_PHOTO');
+  if (!String(caption ?? '').trim()) throw new Error('EMPTY_POST');
+  if (String(caption).length > TELEGRAM_CAPTION_LIMIT) throw new Error('CAPTION_TOO_LONG');
+
+  const url = `${baseUrl.replace(/\/$/, '')}/bot${token}/sendPhoto`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(url, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: chatId,
+        photo: String(photoUrl),
+        caption: String(caption),
+        disable_web_page_preview: true,
+      }),
+      signal: controller.signal,
+    });
+    return await readResult(response, 'sendPhoto');
+  } catch (error) {
+    if (error?.message?.startsWith('TELEGRAM_') || error?.message === 'EMPTY_POST' || error?.message === 'EMPTY_PHOTO') {
+      throw error;
+    }
+    throw new Error(error?.name === 'AbortError' ? 'TELEGRAM_TIMEOUT' : 'TELEGRAM_REQUEST_FAILED');
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 export async function sendTelegram(post, {
   token,
   chatId,
