@@ -251,3 +251,65 @@ test('photo by URL rejects an empty address or an oversized caption', async () =
     /CAPTION_TOO_LONG/
   );
 });
+
+test('a connection-phase network error is marked retryable', async () => {
+  const failure = Object.assign(new TypeError('fetch failed'), { cause: { code: 'ENOTFOUND' } });
+  const fetchImpl = async () => {
+    throw failure;
+  };
+  await assert.rejects(
+    sendTelegram({ title: 'عنوان', body: 'متن' }, { token: 'TEST', chatId: '1', fetchImpl }),
+    (error) => error.message === 'TELEGRAM_REQUEST_FAILED' && error.retryable === true
+  );
+
+  const nested = Object.assign(new TypeError('fetch failed'), {
+    cause: new AggregateError([{ code: 'ECONNREFUSED' }], 'connect'),
+  });
+  await assert.rejects(
+    sendTelegram(
+      { title: 'عنوان', body: 'متن' },
+      { token: 'TEST', chatId: '1', fetchImpl: async () => { throw nested; } }
+    ),
+    (error) => error.message === 'TELEGRAM_REQUEST_FAILED' && error.retryable === true
+  );
+});
+
+test('an ambiguous network error or a timeout is not retried', async () => {
+  const reset = Object.assign(new TypeError('fetch failed'), { cause: { code: 'ECONNRESET' } });
+  await assert.rejects(
+    sendTelegram(
+      { title: 'عنوان', body: 'متن' },
+      { token: 'TEST', chatId: '1', fetchImpl: async () => { throw reset; } }
+    ),
+    (error) => error.message === 'TELEGRAM_REQUEST_FAILED' && error.retryable === false
+  );
+
+  const aborted = Object.assign(new Error('This operation was aborted'), { name: 'AbortError' });
+  await assert.rejects(
+    sendTelegram(
+      { title: 'عنوان', body: 'متن' },
+      { token: 'TEST', chatId: '1', fetchImpl: async () => { throw aborted; } }
+    ),
+    (error) => error.message === 'TELEGRAM_TIMEOUT' && error.retryable !== true
+  );
+});
+
+test('a rate limit carries the server wait time and is retryable', async () => {
+  const fetchImpl = async () =>
+    new Response(
+      JSON.stringify({
+        ok: false,
+        error_code: 429,
+        description: 'Too Many Requests: retry after 7',
+        parameters: { retry_after: 7 },
+      }),
+      { status: 429, headers: { 'content-type': 'application/json' } }
+    );
+  await assert.rejects(
+    sendTelegram({ title: 'عنوان', body: 'متن' }, { token: 'TEST', chatId: '1', fetchImpl }),
+    (error) =>
+      error.message.startsWith('TELEGRAM_429') &&
+      error.retryable === true &&
+      error.retryAfter === 7
+  );
+});

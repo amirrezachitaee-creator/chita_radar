@@ -215,12 +215,32 @@ const BOILERPLATE = [
 
 const isBodyParagraph = (text) => text.length >= 60 && !BOILERPLATE.some((pattern) => pattern.test(text));
 
+const DATE_ONLY = /^\d{4}-\d{2}-\d{2}$/;
+const DAY_MS = 864e5;
+
+function pickPublishedDate(values) {
+  const valid = values
+    .map((value) => String(value ?? '').trim())
+    .filter((value) => value && Number.isFinite(Date.parse(value)));
+  const first = valid[0] || '';
+  if (!first || !DATE_ONLY.test(first)) return first;
+  const firstDay = Math.floor(Date.parse(first) / DAY_MS);
+  const clocked = valid.find(
+    (value) => !DATE_ONLY.test(value) && Math.floor(Date.parse(value) / DAY_MS) === firstDay
+  );
+  return clocked || first;
+}
+
 export function extractArticle(html, fallbackTitle = '') {
   const meta = extractMeta(html);
   const jsonLd = extractJsonLd(html);
   const title = meta['og:title'] || findDeep(jsonLd, 'headline') || fallbackTitle;
   const description = meta['og:description'] || findDeep(jsonLd, 'description') || '';
-  const published = meta['article:published_time'] || meta['date'] || findDeep(jsonLd, 'datePublished') || '';
+  const published = pickPublishedDate([
+    meta['article:published_time'],
+    meta['date'],
+    findDeep(jsonLd, 'datePublished'),
+  ]);
   const modified =
     meta['article:modified_time'] ||
     meta['og:updated_time'] ||

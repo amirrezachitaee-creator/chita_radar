@@ -48,6 +48,21 @@ test('the earliest valid date wins so an updated page cannot look fresh', () => 
   assert.equal(earliestDate('', null, undefined), '');
 });
 
+test('a date-only value cannot make a clocked timestamp look older', () => {
+  assert.equal(
+    earliestDate('2026-11-05', '2026-11-05T17:00:00Z'),
+    '2026-11-05T17:00:00.000Z'
+  );
+  assert.equal(
+    earliestDate('2026-11-04', '2026-11-05T17:00:00Z'),
+    '2026-11-04T00:00:00.000Z'
+  );
+  assert.equal(
+    earliestDate('2026-11-04', '2026-11-03'),
+    '2026-11-03T00:00:00.000Z'
+  );
+});
+
 test('missing date is rejected', () => {
   assert.equal(freshness('', NOW).reason, 'no_date');
   assert.equal(freshness(undefined, NOW).reason, 'no_date');

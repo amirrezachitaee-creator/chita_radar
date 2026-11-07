@@ -5,6 +5,35 @@ export const TELEGRAM_CAPTION_LIMIT = 1024;
 export const TELEGRAM_MESSAGE_LIMIT = 4096;
 const RLM = '\u200F';
 
+const RETRYABLE_NETWORK_CODES = new Set([
+  'ENOTFOUND',
+  'EAI_AGAIN',
+  'ECONNREFUSED',
+  'UND_ERR_CONNECT_TIMEOUT',
+  'ETIMEDOUT',
+]);
+
+function networkCode(error) {
+  const seen = new Set();
+  const queue = [error, error?.cause];
+  while (queue.length) {
+    const current = queue.shift();
+    if (!current || seen.has(current)) continue;
+    seen.add(current);
+    if (typeof current.code === 'string' && current.code) return current.code;
+    if (Array.isArray(current.errors)) queue.push(...current.errors);
+    if (current.cause) queue.push(current.cause);
+  }
+  return '';
+}
+
+function telegramRequestError(error) {
+  if (error?.name === 'AbortError') return new Error('TELEGRAM_TIMEOUT');
+  const wrapped = new Error('TELEGRAM_REQUEST_FAILED');
+  wrapped.retryable = RETRYABLE_NETWORK_CODES.has(networkCode(error));
+  return wrapped;
+}
+
 function splitSource(body) {
   const text = String(body ?? '').trimEnd();
   if (!text) return { body: '', source: '', separator: '\n\n' };
@@ -85,7 +114,12 @@ function mimeFor(path) {
 async function readResult(response, method) {
   const json = await response.json().catch(() => null);
   if (!response.ok || !json?.ok) {
-    throw new Error(`TELEGRAM_${response.status}_${String(json?.description ?? '').slice(0, 120)}`.trim());
+    const error = new Error(`TELEGRAM_${response.status}_${String(json?.description ?? '').slice(0, 120)}`.trim());
+    if (response.status === 429) {
+      error.retryable = true;
+      error.retryAfter = Number(json?.parameters?.retry_after) || 0;
+    }
+    throw error;
   }
   return {
     method,
@@ -124,7 +158,7 @@ export async function sendText(text, {
     return await readResult(response, 'sendMessage');
   } catch (error) {
     if (error?.message?.startsWith('TELEGRAM_') || error?.message === 'EMPTY_POST') throw error;
-    throw new Error(error?.name === 'AbortError' ? 'TELEGRAM_TIMEOUT' : 'TELEGRAM_REQUEST_FAILED');
+    throw telegramRequestError(error);
   } finally {
     clearTimeout(timer);
   }
@@ -161,7 +195,7 @@ export async function editMessageCaption(caption, {
     return await readResult(response, 'editMessageCaption');
   } catch (error) {
     if (error?.message?.startsWith('TELEGRAM_') || error?.message === 'EMPTY_POST') throw error;
-    throw new Error(error?.name === 'AbortError' ? 'TELEGRAM_TIMEOUT' : 'TELEGRAM_REQUEST_FAILED');
+    throw telegramRequestError(error);
   } finally {
     clearTimeout(timer);
   }
@@ -195,7 +229,7 @@ export async function deleteMessage(messageId, {
     return { method: 'deleteMessage', messageId: Number(messageId) };
   } catch (error) {
     if (error?.message?.startsWith('TELEGRAM_')) throw error;
-    throw new Error(error?.name === 'AbortError' ? 'TELEGRAM_TIMEOUT' : 'TELEGRAM_REQUEST_FAILED');
+    throw telegramRequestError(error);
   } finally {
     clearTimeout(timer);
   }
@@ -234,7 +268,7 @@ export async function sendPhotoUrl(caption, photoUrl, {
     if (error?.message?.startsWith('TELEGRAM_') || error?.message === 'EMPTY_POST' || error?.message === 'EMPTY_PHOTO') {
       throw error;
     }
-    throw new Error(error?.name === 'AbortError' ? 'TELEGRAM_TIMEOUT' : 'TELEGRAM_REQUEST_FAILED');
+    throw telegramRequestError(error);
   } finally {
     clearTimeout(timer);
   }
@@ -273,7 +307,7 @@ export async function sendTelegram(post, {
     return await readResult(response, 'sendPhoto');
   } catch (error) {
     if (error?.message?.startsWith('TELEGRAM_')) throw error;
-    throw new Error(error?.name === 'AbortError' ? 'TELEGRAM_TIMEOUT' : 'TELEGRAM_REQUEST_FAILED');
+    throw telegramRequestError(error);
   } finally {
     clearTimeout(timer);
   }

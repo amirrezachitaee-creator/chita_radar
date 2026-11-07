@@ -489,6 +489,23 @@ test('article extraction keeps the original date next to the modified date', () 
   assert.equal(structured.modified, '2026-11-04T08:00:00Z');
 });
 
+test('a clocked date wins over a date-only meta tag', () => {
+  const article = extractArticle(`<html><head>
+    <meta property="og:title" content="Google style">
+    <meta property="date" content="2026-11-05">
+    <script type="application/ld+json">
+      {"@type":"NewsArticle","headline":"Google style","datePublished":"2026-11-05T17:00:00+00:00"}
+    </script>
+  </head></html>`);
+  assert.equal(article.published, '2026-11-05T17:00:00+00:00');
+
+  const dateOnly = extractArticle(`<html><head>
+    <meta property="og:title" content="No clock">
+    <meta property="date" content="2026-11-05">
+  </head></html>`);
+  assert.equal(dateOnly.published, '2026-11-05');
+});
+
 test('feed parsing keeps published and updated dates apart', () => {
   const [atom] = parseFeed(`<feed><entry>
     <title>Atom story</title>

@@ -1678,11 +1678,24 @@ async function main() {
         }
       }
       try {
-        const sent = await sendTelegram(post, {
-          token: env.TELEGRAM_BOT_TOKEN,
-          chatId: CHAT_ID,
-          imagePath: downloaded?.file ?? '',
-        });
+        let sent;
+        for (let attempt = 1; ; attempt += 1) {
+          try {
+            sent = await sendTelegram(post, {
+              token: env.TELEGRAM_BOT_TOKEN,
+              chatId: CHAT_ID,
+              imagePath: downloaded?.file ?? '',
+            });
+            break;
+          } catch (error) {
+            if (attempt >= 2 || error?.retryable !== true) throw error;
+            const waitMs = Math.max(3000, Math.min(Number(error.retryAfter) || 0, 60) * 1000);
+            console.log(
+              `SEND_RETRY attempt=${attempt} reason=${redact(String(error?.message ?? error))} wait=${Math.ceil(waitMs / 1000)}s`
+            );
+            await sleep(waitMs);
+          }
+        }
         status = 'sent';
         messageId = sent.messageId;
       } catch (error) {

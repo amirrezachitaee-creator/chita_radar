@@ -38,14 +38,25 @@ export function windowFor(category) {
   return CATEGORY_WINDOW_HOURS[category] ?? PRE_GATE_HOURS;
 }
 
+const DATE_ONLY = /^\d{4}-\d{2}-\d{2}$/;
+const DAY_MS = 864e5;
+
 export function earliestDate(...values) {
-  let best = null;
+  const parsed = [];
   for (const value of values) {
-    const ms = Date.parse(String(value ?? ''));
+    const text = String(value ?? '').trim();
+    const ms = Date.parse(text);
     if (!Number.isFinite(ms)) continue;
-    if (best === null || ms < best) best = ms;
+    parsed.push({ ms, precise: !DATE_ONLY.test(text) });
   }
-  return best === null ? '' : new Date(best).toISOString();
+  const preciseDays = new Set(
+    parsed.filter((entry) => entry.precise).map((entry) => Math.floor(entry.ms / DAY_MS))
+  );
+  const pool = parsed.filter(
+    (entry) => entry.precise || !preciseDays.has(Math.floor(entry.ms / DAY_MS))
+  );
+  if (!pool.length) return '';
+  return new Date(Math.min(...pool.map((entry) => entry.ms))).toISOString();
 }
 
 export function freshness(publishedAt, now, { maxAgeHours = PRE_GATE_HOURS } = {}) {
