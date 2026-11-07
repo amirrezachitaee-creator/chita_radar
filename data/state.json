@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T19:31:25.699Z",
+  "updatedAt": "2026-11-07T05:04:03.561Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -845,6 +845,58 @@
       "slot": "2026-11-06T23:00+03:30",
       "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web"
+    },
+    "url:52694b8b1d142449": {
+      "at": "2026-11-07T05:00:59.614Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-07T08:30+03:30",
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "url": "https://huggingface.co/papers/2611.08376"
+    },
+    "title:97b5d0faaaee18b4": {
+      "at": "2026-11-07T05:00:59.614Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-07T08:30+03:30",
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "url": "https://huggingface.co/papers/2611.08376"
+    },
+    "url:2ba86ede56413468": {
+      "at": "2026-11-07T05:03:20.189Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-07T08:30+03:30",
+      "title": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا",
+      "url": "http://anthropic.com/research/how-researchers-use-claude"
+    },
+    "title:53162100f1cebe9b": {
+      "at": "2026-11-07T05:03:20.189Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-07T08:30+03:30",
+      "title": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا",
+      "url": "http://anthropic.com/research/how-researchers-use-claude"
+    },
+    "url:6065749cda2c4899": {
+      "at": "2026-11-07T05:04:03.561Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-07T08:30+03:30",
+      "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+      "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model"
+    },
+    "title:04fa908fbac2008b": {
+      "at": "2026-11-07T05:04:03.561Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-07T08:30+03:30",
+      "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+      "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model"
     }
   },
   "deferred": {
@@ -989,103 +1041,6 @@
         ]
       },
       "detail": "HTTP 403 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm"
-    },
-    "defer:url:295354ff422b0d4d": {
-      "id": "defer:url:295354ff422b0d4d",
-      "at": "2026-11-05T17:53:17.822Z",
-      "firstAt": "2026-11-05T17:53:17.822Z",
-      "attempts": 1,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:295354ff422b0d4d",
-        "title:7a086a99a7333bd0"
-      ],
-      "canonical": "https://openai.com/index/introducing-images-2-6",
-      "title": "Introducing Images 2.6",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Introducing Images 2.6",
-        "link": "https://openai.com/index/introducing-images-2-6",
-        "canonical": "https://openai.com/index/introducing-images-2-6",
-        "published": "Wed, 04 Nov 2026 00:00:00 GMT",
-        "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-        "images": [],
-        "ageHours": 41.9,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:295354ff422b0d4d",
-          "title:7a086a99a7333bd0"
-        ]
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:2ba86ede56413468": {
-      "id": "defer:url:2ba86ede56413468",
-      "at": "2026-11-06T13:31:27.745Z",
-      "firstAt": "2026-11-06T13:31:27.745Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:2ba86ede56413468",
-        "title:53162100f1cebe9b"
-      ],
-      "canonical": "http://anthropic.com/research/how-researchers-use-claude",
-      "title": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا",
-        "link": "http://anthropic.com/research/how-researchers-use-claude",
-        "canonical": "http://anthropic.com/research/how-researchers-use-claude",
-        "messageText": "شرکت Anthropic روی ۲۰۷ هزار مکالمه تحقیقاتی Claude و Claude Code بررسی کرده تا ببینه دانشمندا چطور ازش استفاده می‌کنن\n\nبیشترین استفاده توی علوم رسمی مثل کامپیوتر و ریاضی و آماره و کمترین توی سلامت و علوم آزمایشگاهی. یک‌سوم مکالمه‌های Claude و تقریبا نصف Claude Code فقط تحلیل داده‌ست، بعدش نوشتن. جالب اینکه تولید ایده کم استفاده می‌شه، هرچند خود پژوهشگرا توی نظرسنجی گفتن مهم‌ترین بخش کشف علمیه.\n\nتوی سناریوی خوش‌بینانه، اگه AI همه کارهای غیرفیزیکی رو انجام بده، خروجی پژوهش توی کامپیوتر و آمار تا ۱۵ برابر و توی شیمی و زیست سه-چهار برابر می‌شه. حدود ۴۰ درصد پژوهشگرای کاربر AI هم فکر می‌کنن تا ۲۰۳۰ مدل‌ها خودشون پروژه کامل تحقیقاتی انجام می‌دن.\n\nanthropic.com/research/how-researchers-use-claude\n\n@dunijet_ai\n\n❤3",
-        "leadPostUrl": "https://t.me/dunijet_ai/2511",
-        "published": "2026-11-06T11:55:43+00:00",
-        "summary": "",
-        "images": [],
-        "ageHours": 1.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "toolHint": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "models",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:2ba86ede56413468",
-          "title:53162100f1cebe9b"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2511,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "news",
-        "educationHint": false,
-        "officialCourse": false
-      },
-      "detail": "tools"
     },
     "defer:url:c268f72e5fa452d2": {
       "id": "defer:url:c268f72e5fa452d2",
@@ -1419,6 +1374,20 @@
       "cost": 0.00138264,
       "tokens": 8910,
       "qa": "37/37"
+    },
+    "2026-11-07T08:30+03:30": {
+      "at": "2026-11-07T05:04:03.560Z",
+      "status": "sent",
+      "category": "models",
+      "title": "مدل اوپن‌سورس Ripple-65B با بنچمارک کدنویسی قوی معرفی شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-07/08-30",
+      "messageId": 25,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0006832672000000001,
+      "tokens": 17091,
+      "qa": "36/37"
     }
   },
   "published": [
@@ -1646,83 +1615,98 @@
       "sourceType": "news",
       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "at": "2026-11-06T19:31:25.699Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-07T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل اوپن‌سورس Ripple-65B با بنچمارک کدنویسی قوی معرفی شد",
+      "why": "با هزینه کم و معماری ساده‌تر، اجرای مدل روی سخت‌افزار شخصی راحت‌تره و تیم‌های کوچک هم می‌تونن ازش استفاده کنن.",
+      "dedupe_key": "ricursive-ripple65b-launch",
+      "post_key": "2026-11-07/08-30",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
+      "at": "2026-11-07T05:04:03.561Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8312,
-      "last_at": "2026-11-06T14:38:54+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "last_id": 8313,
+      "last_at": "2026-11-06T20:42:01+00:00",
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "pedramgholizadeh": {
-      "last_id": 786,
-      "last_at": "2026-11-05T16:05:24+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "last_id": 787,
+      "last_at": "2026-11-06T19:53:38+00:00",
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "ai_farshad": {
       "last_id": 6377,
       "last_at": "2026-11-06T18:35:40+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "Mohammad_zammani": {
       "last_id": 7164,
       "last_at": "2026-11-06T08:52:25+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "techiin_ir": {
       "last_id": 20702,
       "last_at": "2026-11-06T16:49:08+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "mgh_mobin": {
       "last_id": 456,
       "last_at": "2026-11-06T08:50:33+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "asrnovin_ir": {
       "last_id": 11414,
       "last_at": "2026-11-06T16:57:02+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "shayanode": {
       "last_id": 78,
       "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "aibysadeghi": {
       "last_id": 68,
       "last_at": "2026-11-03T11:57:57+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "codecloude": {
-      "last_id": 2554,
-      "last_at": "2026-11-06T05:59:18+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "last_id": 2555,
+      "last_at": "2026-11-06T20:47:32+00:00",
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "dunijet_ai": {
-      "last_id": 2513,
-      "last_at": "2026-11-06T19:27:09+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "last_id": 2517,
+      "last_at": "2026-11-07T04:16:37+00:00",
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "marketing_aida": {
       "last_id": 101,
       "last_at": "2026-11-06T12:21:46+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     },
     "Sajadverse": {
       "last_id": 1245,
       "last_at": "2026-11-06T15:10:29+00:00",
-      "checked_at": "2026-11-06T19:30:42.750Z"
+      "checked_at": "2026-11-07T05:00:51.513Z"
     }
   },
   "offerReviews": [
@@ -1760,6 +1744,18 @@
       "reason": "model_skip",
       "slot": "2026-11-06T14:00+03:30",
       "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-07|hf-papers|https://huggingface.co/papers/2611.08376",
+      "date": "2026-11-07",
+      "at": "2026-11-07T05:00:51.513Z",
+      "source": "hf-papers",
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "url": "https://huggingface.co/papers/2611.08376",
+      "reason": "research_paper",
+      "slot": "2026-11-07T08:30+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],
