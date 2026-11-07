@@ -11,7 +11,7 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url));
 
 const paragraphs = [
   'The developer platform now includes 100 free credits for every new account, the company announced on Monday.',
-  'The credits can be used with the text, voice and image endpoints, and they expire after a limited promotional period.',
+  'The credits can be used with the text, voice and image endpoints, and the offer is valid until 05/06/2026, the company said.',
   'Teams can request additional capacity after the free credits are consumed, and usage is measured per project.',
   'The company said the program is aimed at small teams that want to test the API before committing to a paid plan.',
 ];
@@ -104,7 +104,7 @@ function run(args) {
   });
 }
 
-test('an official offer without a stated expiry is written to review, not published', async () => {
+test('an official offer with an ambiguous expiry is written to review, not published', async () => {
   const { server, port } = await startFixture();
   const dir = await mkdtemp(join(tmpdir(), 'qoder-offer-e2e-'));
   const sourcesPath = join(dir, 'sources.json');
@@ -136,7 +136,7 @@ test('an official offer without a stated expiry is written to review, not publis
 
     assert.equal(result.code, 0, result.stderr || result.stdout);
     assert.match(result.stdout, /COLLECT sources=1 items=1 .*kept=1/);
-    assert.match(result.stdout, /REVIEW_REQUIRED reason=expiry_missing/);
+    assert.match(result.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
     assert.match(result.stdout, /RESULT EMPTY attempts=1 reviews=1/);
     assert.match(result.stdout, /NOTHING_WAS_SENT/);
     assert.doesNotMatch(result.stdout, /MODEL /);
@@ -153,7 +153,7 @@ test('an official offer without a stated expiry is written to review, not publis
 
     const state = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
     const records = Object.values(state.seen);
-    assert.ok(records.some((record) => record.decision === 'review' && record.reason === 'expiry_missing'));
+    assert.ok(records.some((record) => record.decision === 'review' && record.reason === 'expiry_ambiguous'));
   } finally {
     server.close();
   }
@@ -192,7 +192,7 @@ test('review caps queue the overflow and the next day flushes it instead of losi
   try {
     const first = await run(args('2026-11-02T17:00:00Z', '2026-11-02'));
     assert.equal(first.code, 0, first.stderr || first.stdout);
-    assert.match(first.stdout, /REVIEW_REQUIRED reason=expiry_missing/);
+    assert.match(first.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
 
     const second = await run([
       '--slot', '23:00',
@@ -207,7 +207,7 @@ test('review caps queue the overflow and the next day flushes it instead of losi
       '--max-candidates', '1',
     ]);
     assert.equal(second.code, 0, second.stderr || second.stdout);
-    assert.match(second.stdout, /REVIEW_QUEUED reason=expiry_missing cap=review_source_cap/);
+    assert.match(second.stdout, /REVIEW_QUEUED reason=expiry_ambiguous cap=review_source_cap/);
 
     const queued = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
     assert.equal(queued.offerReviews.length, 1);
@@ -216,7 +216,7 @@ test('review caps queue the overflow and the next day flushes it instead of losi
     const third = await run(args('2026-11-03T17:00:00Z', '2026-11-03'));
     assert.equal(third.code, 0, third.stderr || third.stdout);
     assert.match(third.stdout, /REVIEW_PENDING pool=1/);
-    assert.match(third.stdout, /REVIEW_FLUSHED reason=expiry_missing/);
+    assert.match(third.stdout, /REVIEW_FLUSHED reason=expiry_ambiguous/);
     assert.match(third.stdout, /RESULT EMPTY/);
 
     const flushed = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
@@ -224,7 +224,7 @@ test('review caps queue the overflow and the next day flushes it instead of losi
     assert.equal(Object.keys(flushed.reviewPending).length, 0);
     assert.ok(
       Object.values(flushed.seen).some(
-        (record) => record.decision === 'review' && record.reason === 'expiry_missing'
+        (record) => record.decision === 'review' && record.reason === 'expiry_ambiguous'
       )
     );
   } finally {

@@ -540,12 +540,19 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     ? `تصویر شاخص (image_url): ${imageUrl}\nتوضیح تصویر (image_alt): ${article.imageAlt || ''}`
     : 'تصویر شاخص (image_url): ندارد';
   const offerBlock = offer
-    ? [
-        'این خبر یک آفر است:',
-        `تاریخ انقضا: ${offer.date}`,
-        `اعتبار باقی‌مانده: ${offer.remainingHours} ساعت`,
-        'دسته باید tools باشد و تاریخ انقضا با روز، ماه و سال در متن پست نوشته شود.',
-      ].join('\n')
+    ? offer.openEnded
+      ? [
+          'این خبر یک آفر است:',
+          'این آفر در صفحه رسمی فروشنده تاریخ انقضای اعلام‌شده ندارد.',
+          `هیچ تاریخ انقضا یا مهلتی از خودت نساز و این خط را دقیقاً در پایان پاراگراف آخر، پیش از خط منبع بیاور: «${offer.note}»`,
+          'دسته باید tools باشد.',
+        ].join('\n')
+      : [
+          'این خبر یک آفر است:',
+          `تاریخ انقضا: ${offer.date}`,
+          `اعتبار باقی‌مانده: ${offer.remainingHours} ساعت`,
+          'دسته باید tools باشد و تاریخ انقضا با روز، ماه و سال در متن پست نوشته شود.',
+        ].join('\n')
     : '';
   const courseBlock = officialCourse
     ? [
@@ -765,6 +772,32 @@ export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '', usag
   return { ...parsed, body: `${withoutTail}\n\n${line}` };
 }
 
+export function ensureOpenEndedNote(parsed, note = '') {
+  if (!parsed || parsed.decision !== 'publish') return parsed;
+  const line = String(note ?? '').trim();
+  if (!line) return parsed;
+  const { content, source } = splitSourceLine(parsed.body);
+  if (!content) return parsed;
+  const VALIDITY = /(?:تاریخ\s*انقضا|انقضا|مهلت|معتبر|اعتبار\s*تا|تا\s*تاریخ)/u;
+  const DATE_TOKEN =
+    /(?:[0-9\u06F0-\u06F9]{1,4}|فروردین|اردیبهشت|خرداد|تیر|مرداد|شهریور|مهر|آبان|آذر|دی|بهمن|اسفند|ژانویه|فوریه|مارس|آوریل|مه|ژوئن|ژوئیه|اوت|سپتامبر|اکتبر|نوامبر|دسامبر|january|february|march|april|may|june|july|august|september|october|november|december)/iu;
+  const kept = content
+    .split('\n')
+    .filter((item) => {
+      const text = item.trim();
+      if (!text) return true;
+      if (text.includes(line)) return true;
+      return !(VALIDITY.test(text) && DATE_TOKEN.test(text));
+    })
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+  const hasNote = content.includes(line);
+  if (hasNote && kept === content.replace(/\n{3,}/g, '\n\n').trim()) return parsed;
+  const merged = hasNote ? kept : kept ? `${kept}\n${line}` : line;
+  return { ...parsed, body: [merged, source].filter(Boolean).join('\n\n') };
+}
+
 export function countTitleWords(value) {
   const title = String(value ?? '').trim();
   if (!title) return 0;
@@ -935,7 +968,7 @@ export function ensureDedupeKey(parsed, { sourceUrl = '', title = '' } = {}) {
   return { ...parsed, dedupe_key: `post-${contentHash(seed)}` };
 }
 
-export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '', imageUrl = '', newsDate = '', sourceType = '' } = {}) {
+export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '', imageUrl = '', newsDate = '', sourceType = '', openEnded = false, noExpiryNote = '' } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   let next = normalizePostFields(parsed);
   if (sourceType === 'official_blog' && (!next.verification || next.verification === 'reported')) {
@@ -944,6 +977,7 @@ export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', 
   if (imageUrl && next.post_type === 'deep') next = { ...next, post_type: 'standard' };
   next = ensureSourceLine(next, { sourceName, sourceUrl, usageUrl, usageName });
   next = enforceDetailQuote(next);
+  if (openEnded) next = ensureOpenEndedNote(next, noExpiryNote);
   next = ensureDedupeKey(next, { sourceUrl, title: next.title });
   const bounds = lengthBounds(next.post_type) ?? lengthBounds('standard');
   const trimmed = {
@@ -1264,9 +1298,22 @@ export function qaPost(parsed, context) {
 
   if (context.offer?.detected) {
     add('offer_category', parsed.category === 'tools');
-    add('offer_source', context.sourceType === 'official_blog');
-    add('offer_expiry', Boolean(context.offer.expiry?.date) && dateMentioned(body, context.offer.expiry));
-    add('offer_remaining', Number(context.offer.remainingHours) >= Number(context.offer.minRemainingHours ?? 24));
+    add('offer_source', context.sourceType === 'official_blog' || context.officialResolved === true);
+    if (context.offer.openEnded) {
+      add(
+        'offer_expiry',
+        body.includes(String(context.offer.note ?? '')),
+        context.offer.note ? '' : 'no_expiry_note_missing',
+        false
+      );
+    } else {
+      add('offer_expiry', Boolean(context.offer.expiry?.date) && dateMentioned(body, context.offer.expiry));
+    }
+    add(
+      'offer_remaining',
+      context.offer.openEnded === true ||
+        Number(context.offer.remainingHours) >= Number(context.offer.minRemainingHours ?? 24)
+    );
     add('offer_referral', !hasReferral(`${body}\n${parsed.source_url ?? ''}`));
   }
 

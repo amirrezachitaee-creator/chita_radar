@@ -228,6 +228,56 @@ export function extractExpiry(text, now) {
   };
 }
 
+export function openEndedKey({ vendor = '', host = '' } = {}) {
+  return String(vendor || host || '')
+    .toLowerCase()
+    .trim()
+    .replace(/^www\./, '');
+}
+
+export function openEndedUsage(state, { key = '', now, days = 14 } = {}) {
+  const entry = key ? state?.openOffers?.[key] : null;
+  if (!entry) return { status: 'none', within: false, entry: null };
+  const nowMs = now instanceof Date ? now.getTime() : Date.parse(String(now));
+  const at = Date.parse(String(entry.publishedAt || entry.firstSeen || ''));
+  const windowMs = Math.max(1, Number(days) || 14) * 86400000;
+  return {
+    status: String(entry.status || 'active'),
+    within: Number.isFinite(at) && Number.isFinite(nowMs) && nowMs - at < windowMs,
+    entry,
+  };
+}
+
+export function recordOpenEnded(state, { key = '', vendor = '', url = '', title = '', at = '' } = {}) {
+  const id = openEndedKey({ vendor: key || vendor });
+  if (!id || !url) return null;
+  const parsed = Date.parse(String(at));
+  const iso = new Date(Number.isFinite(parsed) ? parsed : Date.now()).toISOString();
+  if (!state.openOffers || typeof state.openOffers !== 'object') state.openOffers = {};
+  const previous = state.openOffers[id] ?? null;
+  state.openOffers[id] = {
+    key: id,
+    vendor: String(vendor || ''),
+    url: String(url),
+    title: String(title || '').slice(0, 300),
+    firstSeen: previous?.firstSeen || iso,
+    publishedAt: iso,
+    lastCheck: iso,
+    status: 'active',
+    misses: 0,
+  };
+  return state.openOffers[id];
+}
+
+export function markOpenEndedEnded(state, key, at = '') {
+  const entry = state?.openOffers?.[openEndedKey({ vendor: key })];
+  if (!entry) return null;
+  const parsed = Date.parse(String(at));
+  entry.status = 'ended';
+  entry.endedAt = new Date(Number.isFinite(parsed) ? parsed : Date.now()).toISOString();
+  return entry;
+}
+
 export function offerUsage(state, now) {
   const today = dateKey(now);
   const week = weekKey(now);
@@ -360,6 +410,9 @@ export function assessOffer({
   quota,
   usage,
   reviewUsage = null,
+  officialResolved = false,
+  vendorKey = '',
+  openEnded = null,
 }) {
   if (!offer?.isOffer) return { status: 'not_offer', reason: 'not_offer' };
   if (config.offers?.status !== 'active') return { status: 'skip', reason: 'offers_inactive' };
@@ -389,15 +442,26 @@ export function assessOffer({
     return { status: 'review', reason, ageHours, expiry, ...extra };
   };
 
-  if (config.offers.official_source_only && sourceType !== 'official_blog') {
+  const officialPage = sourceType === 'official_blog' || officialResolved === true;
+  if (config.offers.official_source_only && !officialPage) {
     return reviewFor('source_not_official');
   }
 
+  let openEndedPublish = false;
   if (config.offers.requires_expiry && !expiry.ok) {
-    return reviewFor(expiry.reason);
+    const canOpenEnded =
+      config.offers.allow_no_expiry !== false &&
+      expiry.reason === 'expiry_missing' &&
+      officialPage &&
+      Boolean(vendorKey);
+    if (!canOpenEnded) return reviewFor(expiry.reason);
+    if (openEnded?.within) {
+      return { status: 'skip', reason: 'offer_vendor_repeat', ageHours, expiry, vendorKey };
+    }
+    openEndedPublish = true;
   }
 
-  if (expiry.ok && expiry.remainingHours < Number(config.offers.min_remaining_hours ?? 24)) {
+  if (!openEndedPublish && expiry.ok && expiry.remainingHours < Number(config.offers.min_remaining_hours ?? 24)) {
     return reviewFor('expiry_soon');
   }
 
@@ -421,7 +485,13 @@ export function assessOffer({
     return reviewFor('offer_weekly_cap', { usage });
   }
 
-  return { status: 'publish', reason: 'ok', ageHours, expiry };
+  return {
+    status: 'publish',
+    reason: openEndedPublish ? 'ok_no_expiry' : 'ok',
+    openEnded: openEndedPublish,
+    ageHours,
+    expiry,
+  };
 }
 
 export function dateMentioned(body, expiry) {

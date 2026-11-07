@@ -26,7 +26,7 @@ import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } 
 import { dailyBudget, sendWindow } from './guards.mjs';
 import { buildEducationForward, matchesPublishedStory } from './telegram-source.mjs';
 import { watchOnce, selectTargets } from './offer-watch.mjs';
-import { assessOffer, detectOffer, offerUsage, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
+import { assessOffer, detectOffer, offerUsage, openEndedKey, openEndedUsage, recordOpenEnded, markOpenEndedEnded, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
   loadState,
   saveState,
@@ -258,9 +258,64 @@ const importanceOf = (body) => {
   return before.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean).at(-1) ?? '';
 };
 
+function siteKey(value) {
+  try {
+    return new URL(String(value)).hostname.toLowerCase().replace(/^www\./, '');
+  } catch {
+    return '';
+  }
+}
+
+async function recheckOpenOffers({ state, now, config }) {
+  const entries = Object.values(state.openOffers ?? {}).filter((entry) => entry && entry.url);
+  if (!entries.length) return;
+  const nowMs = Date.parse(String(now));
+  const windowDays = Math.max(1, Number(config.offers?.no_expiry_window_days ?? 14) || 14);
+  const recheckHours = Math.max(1, Number(config.offers?.no_expiry_recheck_hours ?? 6) || 6);
+  const windowMs = windowDays * 86400000;
+  let checked = 0;
+  for (const entry of entries) {
+    if (entry.status !== 'active') continue;
+    const firstMs = Date.parse(String(entry.firstSeen || ''));
+    if (Number.isFinite(firstMs) && nowMs - firstMs > windowMs) {
+      entry.status = 'expired_window';
+      entry.closedAt = new Date(nowMs).toISOString();
+      console.log(`OPEN_OFFER window_closed ${entry.key}`);
+      continue;
+    }
+    const lastMs = Date.parse(String(entry.lastCheck || ''));
+    if (Number.isFinite(lastMs) && nowMs - lastMs < recheckHours * 3600000) continue;
+    if (checked >= 6) break;
+    checked += 1;
+    try {
+      const page = await fetchText(entry.url, { redact });
+      const article = extractArticle(page.text, entry.title || '', page.url || entry.url);
+      const found = detectOffer({ title: article.title || entry.title || '', content: article.content });
+      entry.lastCheck = new Date(nowMs).toISOString();
+      if (found.isOffer) {
+        entry.misses = 0;
+        console.log(`OPEN_OFFER active ${entry.key}`);
+      } else {
+        entry.misses = Number(entry.misses ?? 0) + 1;
+        if (entry.misses >= 2) {
+          markOpenEndedEnded(state, entry.key, entry.lastCheck);
+          console.log(`OPEN_OFFER ended ${entry.key} misses=${entry.misses}`);
+        } else {
+          console.log(`OPEN_OFFER miss ${entry.key} (${entry.misses}/2)`);
+        }
+      }
+    } catch (error) {
+      entry.lastCheck = new Date(nowMs).toISOString();
+      console.log(`OPEN_OFFER check_failed ${entry.key} ${redact(String(error?.message ?? error))}`);
+    }
+  }
+  await saveState(STATE_PATH, state);
+}
+
 async function main() {
   const slot = activeSlot();
   const state = await loadState(STATE_PATH);
+  if (!NO_OFFERS) await recheckOpenOffers({ state, now: NOW, config });
   const memoryLanes = await loadMemoryLanes();
   const quiet = !REVIEW_SEND && inQuietHours(NOW, config.schedule.quiet_hours);
   const reviewEnabled = config.offers?.review?.enabled !== false;
@@ -687,6 +742,8 @@ async function main() {
       continue;
     }
     candidate.resolvedLink = true;
+    candidate.vendor = resolved.vendor;
+    candidate.vendorUrl = resolved.url;
     candidate.needsReview = false;
     candidate.reviewReason = '';
     console.log(`LINK_RESOLVED vendor=${resolved.vendor} url=${resolved.url}`);
@@ -1144,6 +1201,8 @@ async function main() {
         imageUrl,
         newsDate,
         sourceType: candidate.sourceType,
+        openEnded: Boolean(offerContext?.openEnded),
+        noExpiryNote: offerContext?.note ?? '',
       });
       if (fixed.title !== policy.title) console.log('  TITLE_TRIM');
       if (fixed.body !== policy.body) console.log('  BODY_TRIM');
@@ -1216,7 +1275,19 @@ async function main() {
     }
     let offerAssessment = null;
     let offerContext = null;
+    let officialResolved = false;
     if (offer.isOffer) {
+      officialResolved = Boolean(
+        candidate.resolvedLink &&
+          candidate.vendorUrl &&
+          siteKey(article.url) === siteKey(candidate.vendorUrl)
+      );
+      const vendorKey = openEndedKey({ vendor: candidate.vendor, host: siteKey(article.url) });
+      const openEndedRecord = openEndedUsage(state, {
+        key: vendorKey,
+        now: NOW,
+        days: Number(config.offers.no_expiry_per_vendor_days ?? 14),
+      });
       offerAssessment = assessOffer({
         offer: { isOffer: true, title: article.title || candidate.title, content: offerContent },
         sourceType: candidate.sourceType,
@@ -1228,6 +1299,9 @@ async function main() {
         quota,
         usage: offerUsage(state, NOW),
         reviewUsage,
+        officialResolved,
+        vendorKey,
+        openEnded: openEndedRecord,
       });
       if (offerAssessment.status === 'review' || offerAssessment.status === 'defer') {
         await deliverReview({
@@ -1261,12 +1335,20 @@ async function main() {
       }
       offerContext = {
         detected: true,
-        date: offerAssessment.expiry.date,
-        remainingHours: offerAssessment.expiry.remainingHours,
+        openEnded: offerAssessment.openEnded === true,
+        key: vendorKey,
+        vendor: candidate.vendor || siteKey(article.url),
+        note: config.offers.no_expiry_note,
+        date: offerAssessment.expiry?.date || '',
+        remainingHours: offerAssessment.expiry?.remainingHours ?? null,
         expiry: offerAssessment.expiry,
         minRemainingHours: config.offers.min_remaining_hours,
       };
-      console.log(`  OFFER eligible | expires ${offerAssessment.expiry.date} | ${offerAssessment.expiry.remainingHours}h left`);
+      console.log(
+        offerContext.openEnded
+          ? `  OFFER eligible | open-ended (no expiry) | vendor ${offerContext.vendor}`
+          : `  OFFER eligible | expires ${offerContext.date} | ${offerContext.remainingHours}h left`
+      );
     }
 
     toolUsage = pickToolUsageLink({
@@ -1391,6 +1473,7 @@ async function main() {
       publishedAt,
       now: NOW,
       offer: offerContext,
+      officialResolved,
       previousWhy,
     };
     let qa = qaPost(parsed, qaContext);
@@ -1595,6 +1678,8 @@ async function main() {
       },
       offer: offerContext ? {
         detected: true,
+        open_ended: offerContext.openEnded === true,
+        vendor: offerContext.vendor || '',
         expiry: offerContext.expiry,
         remaining_hours: offerContext.remainingHours,
         usage: offerUsage(state, NOW),
@@ -1650,7 +1735,13 @@ async function main() {
       post_type: parsed.post_type,
       importance: parsed.importance,
       verification: parsed.verification,
-      offer: offerContext ? { expiry: offerContext.expiry.date, remaining_hours: offerContext.remainingHours } : null,
+      offer: offerContext
+        ? {
+            open_ended: offerContext.openEnded === true,
+            expiry: offerContext.date || '',
+            remaining_hours: offerContext.remainingHours,
+          }
+        : null,
       qa: { pass: qa.pass, score: qa.score, possible: qa.possible, warnings: qa.warnings },
       createdAt: NOW,
     }, null, 2));
@@ -1900,6 +1991,18 @@ async function main() {
       sourceText: candidate.messageText || article.content || '',
       url: article.url,
     });
+    if (offerContext?.openEnded && status === 'sent') {
+      recordOpenEnded(state, {
+        key: offerContext.key,
+        vendor: offerContext.vendor,
+        url: article.url,
+        title: post.title,
+        at: NOW,
+      });
+      console.log(
+        `OPEN_OFFER recorded ${offerContext.key} | window ${config.offers.no_expiry_window_days}d | no announcement on end`
+      );
+    }
     pruneState(state, NOW, reviewPrune);
     await saveState(STATE_PATH, state);
 

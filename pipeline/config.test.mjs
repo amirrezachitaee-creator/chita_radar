@@ -116,6 +116,11 @@ test('offer policy is active and routes unclear cases to review', () => {
   assert.ok(config.offers.min_remaining_hours > 0);
   assert.ok(config.offers.max_age_hours <= config.freshness_hours.tools);
   assert.equal(config.offers.referral_allowed, false);
+  assert.equal(config.offers.allow_no_expiry, true);
+  assert.ok(config.offers.no_expiry_window_days >= 7);
+  assert.ok(config.offers.no_expiry_per_vendor_days >= 7);
+  assert.ok(config.offers.no_expiry_recheck_hours > 0);
+  assert.match(config.offers.no_expiry_note, /بدون تاریخ انقضا/u);
   assert.equal(config.offers.review.enabled, true);
   assert.equal(config.offers.review.chat_env, 'TELEGRAM_REVIEW_CHAT_ID');
   for (const reason of ['source_not_official', 'expiry_missing', 'expiry_soon', 'offer_qa_failed']) {

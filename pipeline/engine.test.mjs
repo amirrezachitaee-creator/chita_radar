@@ -5,6 +5,7 @@ import {
   applyMechanicalFixes,
   countTitleWords,
   ensureSourceLine,
+  ensureOpenEndedNote,
   fitImageCaption,
   imageVerdict,
   isFalseStaleSkip,
@@ -81,6 +82,100 @@ test('a long middle paragraph moves into the telegram quote and the image surviv
   assert.equal(fixed.image_url, 'https://example.com/a.jpg');
   assert.equal(fixed.post_type, 'standard');
   assert.ok(fixed.body.endsWith('منبع: [منبع](https://example.com/a)'));
+});
+
+test('an open-ended offer post carries the no-expiry note and drops invented dates', () => {
+  const note = 'بدون تاریخ انقضای اعلام‌شده؛ پیش از اقدام، صفحهٔ رسمی را ببینید';
+  const parsed = {
+    decision: 'publish',
+    category: 'tools',
+    post_type: 'standard',
+    importance: 4,
+    title: 'دسترسی رایگان به سه مدل',
+    body: [
+      'انویدیا دسترسی رایگان به سه مدل تازه را برای توسعه‌دهنده‌ها باز کرده.',
+      'این آفر تا ۳۰ آذر ۱۴۰۵ معتبر است.',
+      'اهمیتش اینه که تست مدل‌ها بدون هزینه شروع می‌شه.',
+      '',
+      'منبع: [NVIDIA](https://build.nvidia.com/)',
+    ].join('\n\n'),
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: ['NVIDIA'], models: [] },
+    verification: 'official',
+    source_url: 'https://build.nvidia.com/',
+    image_url: '',
+    dedupe_key: 'test-open-ended',
+  };
+  const fixed = applyMechanicalFixes(parsed, {
+    sourceName: 'NVIDIA',
+    sourceUrl: 'https://build.nvidia.com/',
+    openEnded: true,
+    noExpiryNote: note,
+  });
+  assert.ok(fixed.body.includes(note));
+  assert.equal(fixed.body.includes('۳۰ آذر'), false);
+  assert.ok(fixed.body.endsWith('منبع: [NVIDIA](https://build.nvidia.com/)'));
+
+  const direct = ensureOpenEndedNote({
+    decision: 'publish',
+    body: `متن آفر.\n\n${note}\n\nمنبع: [NVIDIA](https://build.nvidia.com/)`,
+  }, note);
+  assert.equal(direct.body, `متن آفر.\n\n${note}\n\nمنبع: [NVIDIA](https://build.nvidia.com/)`);
+});
+
+test('open-ended offer QA accepts the note together with a resolved official page', () => {
+  const note = 'بدون تاریخ انقضای اعلام‌شده؛ پیش از اقدام، صفحهٔ رسمی را ببینید';
+  const body = [
+    'انویدیا دسترسی رایگان به سه مدل تازه را برای توسعه‌دهنده‌ها باز کرده و کار با آن‌ها بدون کارت بانکی شروع می‌شه.',
+    note,
+    'اهمیتش اینه که تیم‌های کوچک بدون هزینه اولیه می‌تونن مدل‌ها را تست کنند و انتخاب سریع‌تری داشته باشند.',
+    '',
+    'منبع: [NVIDIA Build](https://build.nvidia.com/)',
+  ].join('\n\n');
+  const qa = qaPost({
+    decision: 'publish',
+    category: 'tools',
+    post_type: 'standard',
+    importance: 4,
+    title: 'دسترسی رایگان به سه مدل',
+    body,
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: ['NVIDIA'], models: [] },
+    verification: 'official',
+    source_url: 'https://build.nvidia.com/',
+    image_url: '',
+    dedupe_key: 'open-ended-qa',
+  }, {
+    url: 'https://build.nvidia.com/',
+    host: 'build.nvidia.com',
+    sourceType: 'telegram_channel',
+    category: 'tools',
+    imageUrl: '',
+    title: 'NVIDIA Build free access',
+    description: '',
+    content: 'free access to three models without a bank card',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+    offer: {
+      detected: true,
+      openEnded: true,
+      note,
+      date: '',
+      remainingHours: null,
+      expiry: { ok: false, reason: 'expiry_missing' },
+      minRemainingHours: 24,
+    },
+    officialResolved: true,
+    previousWhy: '',
+  });
+  const check = (name) => qa.checks.find((item) => item.name === name);
+  assert.equal(check('offer_expiry').ok, true);
+  assert.equal(check('offer_remaining').ok, true);
+  assert.equal(check('offer_source').ok, true);
 });
 
 test('an allowed image is mandatory and deep becomes standard', () => {

@@ -7,6 +7,10 @@ import {
   detectOffer,
   extractExpiry,
   offerUsage,
+  openEndedKey,
+  openEndedUsage,
+  recordOpenEnded,
+  markOpenEndedEnded,
   offerReviewUsage,
   recordOfferReview,
   reviewCapacity,
@@ -175,6 +179,80 @@ test('expiry inside the minimum window asks for review', () => {
   });
   assert.equal(result.status, 'review');
   assert.equal(result.reason, 'expiry_soon');
+});
+
+test('an official offer without an expiry publishes in the open-ended tier', () => {
+  const content = 'Get 100 free credits for the new API. No bank card needed.';
+  const offer = detectOffer({ title: 'Free credits for the API', content });
+  const result = assessOffer({
+    offer: { ...offer, title: 'Free credits for the API', content },
+    sourceType: 'telegram_channel',
+    officialResolved: true,
+    vendorKey: 'nvidia-build',
+    publishedAt: '2026-11-02T15:00:00Z',
+    now: NOW,
+    config,
+    quota,
+    usage: { today: 0, week: 0 },
+  });
+  assert.equal(result.status, 'publish');
+  assert.equal(result.reason, 'ok_no_expiry');
+  assert.equal(result.openEnded, true);
+});
+
+test('an open-ended offer from the same vendor waits out the repeat window', () => {
+  const content = 'Get 100 free credits for the new API. No bank card needed.';
+  const offer = detectOffer({ title: 'Free credits for the API', content });
+  const result = assessOffer({
+    offer: { ...offer, title: 'Free credits for the API', content },
+    sourceType: 'official_blog',
+    vendorKey: 'nvidia-build',
+    openEnded: { status: 'active', within: true, entry: { publishedAt: '2026-11-01T00:00:00Z' } },
+    publishedAt: '2026-11-02T15:00:00Z',
+    now: NOW,
+    config,
+    quota,
+    usage: { today: 0, week: 0 },
+  });
+  assert.equal(result.status, 'skip');
+  assert.equal(result.reason, 'offer_vendor_repeat');
+});
+
+test('an unidentified official page still sends a no-expiry offer to review', () => {
+  const content = 'Get 100 free credits for the new API. No bank card needed.';
+  const offer = detectOffer({ title: 'Free credits for the API', content });
+  const result = assessOffer({
+    offer: { ...offer, title: 'Free credits for the API', content },
+    sourceType: 'official_blog',
+    vendorKey: '',
+    publishedAt: '2026-11-02T15:00:00Z',
+    now: NOW,
+    config,
+    quota,
+    usage: { today: 0, week: 0 },
+  });
+  assert.equal(result.status, 'review');
+  assert.equal(result.reason, 'expiry_missing');
+});
+
+test('open-ended tracking remembers the vendor and stops after the window', () => {
+  const state = { openOffers: {} };
+  const entry = recordOpenEnded(state, {
+    key: 'nvidia-build',
+    vendor: 'NVIDIA Build',
+    url: 'https://build.nvidia.com/',
+    title: 'دسترسی رایگان به سه مدل',
+    at: '2026-11-07T12:00:00Z',
+  });
+  assert.equal(entry.status, 'active');
+  assert.equal(entry.firstSeen, '2026-11-07T12:00:00.000Z');
+  assert.equal(openEndedUsage(state, { key: 'nvidia-build', now: '2026-11-10T12:00:00Z', days: 14 }).within, true);
+  assert.equal(openEndedUsage(state, { key: 'nvidia-build', now: '2026-11-30T12:00:00Z', days: 14 }).within, false);
+  markOpenEndedEnded(state, 'nvidia-build', '2026-11-08T12:00:00Z');
+  assert.equal(state.openOffers['nvidia-build'].status, 'ended');
+  assert.equal(state.openOffers['nvidia-build'].endedAt, '2026-11-08T12:00:00.000Z');
+  assert.equal(openEndedKey({ vendor: 'NVIDIA-Build' }), 'nvidia-build');
+  assert.equal(openEndedKey({ host: 'www.build.nvidia.com' }), 'build.nvidia.com');
 });
 
 test('daily and weekly offer caps stop publication', () => {
