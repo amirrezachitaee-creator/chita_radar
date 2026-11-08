@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-08T17:30:31.021Z",
+  "updatedAt": "2026-11-08T19:31:43.357Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -2519,38 +2519,38 @@
       "url": "https://t.me/thenimaonAI/468"
     },
     "url:9fa26c44fd1073dc": {
-      "at": "2026-11-08T17:01:22.419Z",
-      "decision": "review_pending",
-      "reason": "denied_link:review_send_failed",
+      "at": "2026-11-08T19:30:38.588Z",
+      "decision": "review",
+      "reason": "denied_link",
       "category": "",
-      "slot": "2026-11-08T20:30+03:30",
+      "slot": "2026-11-08T23:00+03:30",
       "title": "💻 پژوهشگاه ارتباطات مرجع آزمون سامانه‌های کوانتومی شد",
       "url": "https://t.me/techiin_ir/20724"
     },
     "title:1dcb0ffdb74ee111": {
-      "at": "2026-11-08T17:01:22.419Z",
-      "decision": "review_pending",
-      "reason": "denied_link:review_send_failed",
+      "at": "2026-11-08T19:30:38.588Z",
+      "decision": "review",
+      "reason": "denied_link",
       "category": "",
-      "slot": "2026-11-08T20:30+03:30",
+      "slot": "2026-11-08T23:00+03:30",
       "title": "💻 پژوهشگاه ارتباطات مرجع آزمون سامانه‌های کوانتومی شد",
       "url": "https://t.me/techiin_ir/20724"
     },
     "url:09b4057a5a6c3aee": {
-      "at": "2026-11-08T17:01:22.573Z",
-      "decision": "review_pending",
-      "reason": "no_link:review_send_failed",
+      "at": "2026-11-08T19:30:38.814Z",
+      "decision": "review",
+      "reason": "no_link",
       "category": "",
-      "slot": "2026-11-08T20:30+03:30",
+      "slot": "2026-11-08T23:00+03:30",
       "title": "یک نکته: خروجی گرفتن از داده‌ها لزوماً به معنی انتقال کامل حافظه، تنظیمات، پروژه‌ها و قابلیت‌های",
       "url": "https://t.me/thenimaonAI/469"
     },
     "title:c26ab5439ddec7a8": {
-      "at": "2026-11-08T17:01:22.573Z",
-      "decision": "review_pending",
-      "reason": "no_link:review_send_failed",
+      "at": "2026-11-08T19:30:38.814Z",
+      "decision": "review",
+      "reason": "no_link",
       "category": "",
-      "slot": "2026-11-08T20:30+03:30",
+      "slot": "2026-11-08T23:00+03:30",
       "title": "یک نکته: خروجی گرفتن از داده‌ها لزوماً به معنی انتقال کامل حافظه، تنظیمات، پروژه‌ها و قابلیت‌های",
       "url": "https://t.me/thenimaonAI/469"
     },
@@ -2569,6 +2569,202 @@
       "slot": "2026-11-08T20:30+03:30",
       "title": "Gpt-6.1-Sol and Gpt-6.1-Terra added to The Gamefeel Benchmark reverse-evaluation scores",
       "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/c1e14546951ce9bfc91c59bf7a1bfcf170cbe3f6"
+    },
+    "url:4e66a7e453a3193b": {
+      "at": "2026-11-08T19:30:50.986Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "سیاست استفادهٔ آنتروپیک از ۲۱ آبان اجرا می‌شود",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+    },
+    "title:27363e74b627fe59": {
+      "at": "2026-11-08T19:30:50.986Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "سیاست استفادهٔ آنتروپیک از ۲۱ آبان اجرا می‌شود",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+    },
+    "url:d0113c0cdfc861ac": {
+      "at": "2026-11-08T19:30:50.986Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "2026 Usage Policy update",
+      "url": "https://anthropic.com/news/2026-usage-policy-update"
+    },
+    "title:b462be4aebc5fd31": {
+      "at": "2026-11-08T19:30:50.986Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "2026 Usage Policy update",
+      "url": "https://anthropic.com/news/2026-usage-policy-update"
+    },
+    "url:efe5433ecac42014": {
+      "at": "2026-11-08T19:30:50.986Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "Qwen-4-Flash-Early tops The Gamefeel Benchmark with 49.9 overall",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/daa3d114b45410dc0197773edc546e7b94f1adf9"
+    },
+    "title:ce748e1fb3dbc6ad": {
+      "at": "2026-11-08T19:30:50.986Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "Qwen-4-Flash-Early tops The Gamefeel Benchmark with 49.9 overall",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/daa3d114b45410dc0197773edc546e7b94f1adf9"
+    },
+    "url:06b53c8a66dce90f": {
+      "at": "2026-11-08T19:30:51.453Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "دوستان یه لیست از هوش مصنوعی های رایگان که شاید به کارتون بیاد👇🏼",
+      "url": "https://t.me/shayanode/79"
+    },
+    "title:3b003a53de69c087": {
+      "at": "2026-11-08T19:30:51.453Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "دوستان یه لیست از هوش مصنوعی های رایگان که شاید به کارتون بیاد👇🏼",
+      "url": "https://t.me/shayanode/79"
+    },
+    "url:8385afef9fa0757c": {
+      "at": "2026-11-08T19:30:51.680Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "✅ ریسک بزرگ آنتروپیک روی ساخت هوش‌مصنوعی خود بهبود دهنده",
+      "url": "https://t.me/techiin_ir/20726"
+    },
+    "title:f5cf2a8cd8b64643": {
+      "at": "2026-11-08T19:30:51.680Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "✅ ریسک بزرگ آنتروپیک روی ساخت هوش‌مصنوعی خود بهبود دهنده",
+      "url": "https://t.me/techiin_ir/20726"
+    },
+    "url:8585f066201b518b": {
+      "at": "2026-11-08T19:30:51.912Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "✅ خطر تضعیف مهارت‌های ذهنی با واگذاری کارها به هوش مصنوعی",
+      "url": "https://t.me/techiin_ir/20725"
+    },
+    "title:1c8cf0d4aec9a6e7": {
+      "at": "2026-11-08T19:30:51.912Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "✅ خطر تضعیف مهارت‌های ذهنی با واگذاری کارها به هوش مصنوعی",
+      "url": "https://t.me/techiin_ir/20725"
+    },
+    "url:74091a24f22dfb5a": {
+      "at": "2026-11-08T19:30:52.226Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "Shayanode pinned «چنل YouTube هم داشته باشید اونجا آموزش های طولانی تر رو میزارم👇🏼👇🏼 اگه به",
+      "url": "https://t.me/shayanode/82"
+    },
+    "title:d889de6bb7bb01ca": {
+      "at": "2026-11-08T19:30:52.226Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "Shayanode pinned «چنل YouTube هم داشته باشید اونجا آموزش های طولانی تر رو میزارم👇🏼👇🏼 اگه به",
+      "url": "https://t.me/shayanode/82"
+    },
+    "url:5bc858e61b1f5d4c": {
+      "at": "2026-11-08T19:30:52.426Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "چنل YouTube هم داشته باشید اونجا آموزش های طولانی تر رو میزارم👇🏼👇🏼 اگه به اتومیشن ،",
+      "url": "https://t.me/shayanode/81"
+    },
+    "title:f4c614b305e0afb4": {
+      "at": "2026-11-08T19:30:52.426Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "چنل YouTube هم داشته باشید اونجا آموزش های طولانی تر رو میزارم👇🏼👇🏼 اگه به اتومیشن ،",
+      "url": "https://t.me/shayanode/81"
+    },
+    "url:0676c12db8f0f583": {
+      "at": "2026-11-08T19:31:24.056Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks"
+    },
+    "title:ae155eabee9cc12b": {
+      "at": "2026-11-08T19:31:24.056Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks"
+    },
+    "url:02eab667df448997": {
+      "at": "2026-11-08T19:31:38.910Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "GitHub - anthropics/claude-plugins-official: Official, Anthropic-managed directory of high quality Claude Code",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "title:529bd69aae02cd98": {
+      "at": "2026-11-08T19:31:38.910Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "GitHub - anthropics/claude-plugins-official: Official, Anthropic-managed directory of high quality Claude Code",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "url:04829a55a37ffa6d": {
+      "at": "2026-11-08T19:31:43.355Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "Google Flow - AI Creative Studio for Video, Images & Custom Tools",
+      "url": "https://labs.google/fx/tools/flow"
+    },
+    "title:2064b4eca357e986": {
+      "at": "2026-11-08T19:31:43.355Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-08T23:00+03:30",
+      "title": "Google Flow - AI Creative Studio for Video, Images & Custom Tools",
+      "url": "https://labs.google/fx/tools/flow"
     }
   },
   "deferred": {
@@ -2666,56 +2862,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:0676c12db8f0f583": {
-      "id": "defer:url:0676c12db8f0f583",
-      "at": "2026-11-08T13:34:24.535Z",
-      "firstAt": "2026-11-08T13:34:24.535Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:0676c12db8f0f583",
-        "title:ae155eabee9cc12b"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-        "link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-        "canonical": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
-        "published": "Fri, 06 Nov 2026 16:00:35 +0000",
-        "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-8.30.25-PM-scaled.png",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-8.30.25-PM-842x450.png"
-        ],
-        "ageHours": 45.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:0676c12db8f0f583",
-          "title:ae155eabee9cc12b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      },
-      "detail": "tools"
     },
     "defer:url:5f721228af3682c2": {
       "id": "defer:url:5f721228af3682c2",
@@ -3244,6 +3390,37 @@
           "at": "2026-11-08T17:02:03.685Z"
         }
       ]
+    },
+    "2026-11-08T23:00+03:30": {
+      "at": "2026-11-08T19:31:38.910Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "آنتروپیک دایرکتوری رسمی پلاگین‌های Claude Code را منتشر کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-08/23-00",
+      "messageId": 36,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0023086056,
+      "tokens": 31137,
+      "qa": "41/42",
+      "posts": [
+        {
+          "title": "آنتروپیک دایرکتوری رسمی پلاگین‌های Claude Code را منتشر کرد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 36,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-08/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003237808,
+          "tokens": 9414,
+          "qa": "41/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-08T19:31:38.910Z"
+        }
+      ]
     }
   },
   "published": [
@@ -3652,93 +3829,110 @@
       "sourceTitle": "Gpt-6.1-Sol and Gpt-6.1-Terra added to the RE scores (semi-private su… · kodasdream/gamefeel-benchmark@c1e1454",
       "sourceText": "The Gamefeel Benchmark: a creativity benchmark for AI models on game development. Each model adds content and balance changes to 12 unpublished games, and is scored on coding, gamefeel, creativity and reverse-evaluation.\nUpdate commit (2026-11-08T13:18:58Z): Gpt-6.1-Sol and Gpt-6.1-Terra added to the RE scores (semi-private su.\nGpt-6.1-Sol (OpenAI, effort High): reverse-evaluation 7.61; open weights not listed.\nThe reverse-evaluation score comes from Semi-private subset of the RE test, 748 tasks.\nGpt-6.1-Terra (OpenAI, effort High): reverse-evaluation 7.38; open weights not listed.\nThe reverse-evaluation score comes from Semi-private subset of the RE test, 748 tasks.\nLeaderboard context: Qwen-4-Flash-Early 49.9, Opus-5.5 47.2, Sonnet-5.5 45.",
       "at": "2026-11-08T17:02:03.686Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-08T23:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "آنتروپیک دایرکتوری رسمی پلاگین‌های Claude Code را منتشر کرد",
+      "why": "آنتروپیک تأکید کرده که قبل از نصب هر پلاگینی، بهش اعتماد کنی؛ چون اون‌ها نمی‌تونن تضمین کنن که پلاگین‌ها دقیقاً همون‌طور که انتظار می‌ره کار کنن یا تغییر نکنن. این دایرکتوری برای تیم‌هایی که با Claude Code کار می‌کنن، پیدا کردن پلاگین مطمئن رو خیلی ساده‌تر می‌کنه.",
+      "dedupe_key": "anthropic-claude-plugins-directory",
+      "post_key": "2026-11-08/23-00/1",
+      "sourceId": "tg-codecloude",
+      "sourceName": "Code.Cloud | کـــد کلاد",
+      "sourceType": "telegram_channel",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "sourceTitle": "GitHub - anthropics/claude-plugins-official: Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "sourceText": "🖥ساخت اپلیکیشن آیفون با هوش مصنوعی یه لِوِل حرفه‌ای‌تر شد!\n\nاپل پلاگین رسمی Xcode رو به Claude Code اضافه کرده؛ حالا AI می‌تونه اپت رو بسازه، اجرا و تست کنه، پیش‌نمایش SwiftUI بگیره و حتی شبیه‌ساز آیفون رو کنترل کنه!\n\nبررسی خطاهای کدنویسی، لاگ‌ها و جست‌وجو در مستندات اپل هم مستقیماً از Claude Code انجام می‌شه.\n\n💻 برای استفاده به مک و نسخه سازگار Xcode نیاز داری. امتحانش کن!\n\n🔧 دستور نصب:\n\n/plugin install xcode@claude-plugins-official\n🔗 \n\n💬💬📷 Codecloude.ir | تلگــرام\n#Apple #Xcode #ClaudeCode #AI #CodeCloude\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
+      "at": "2026-11-08T19:31:38.910Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8328,
-      "last_at": "2026-11-08T16:31:54+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "last_id": 8329,
+      "last_at": "2026-11-08T19:27:01+00:00",
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "pedramgholizadeh": {
       "last_id": 796,
       "last_at": "2026-11-08T13:03:16+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "ai_farshad": {
-      "last_id": 6385,
-      "last_at": "2026-11-08T14:05:01+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "last_id": 6386,
+      "last_at": "2026-11-08T19:13:17+00:00",
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "Mohammad_zammani": {
       "last_id": 7175,
       "last_at": "2026-11-08T16:11:43+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "techiin_ir": {
-      "last_id": 20724,
-      "last_at": "2026-11-08T14:01:04+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "last_id": 20726,
+      "last_at": "2026-11-08T18:08:26+00:00",
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "mgh_mobin": {
       "last_id": 462,
       "last_at": "2026-11-08T11:22:26+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "asrnovin_ir": {
-      "last_id": 11422,
-      "last_at": "2026-11-08T14:17:18+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "last_id": 11424,
+      "last_at": "2026-11-08T18:28:22+00:00",
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "shayanode": {
-      "last_id": 78,
-      "last_at": "2026-11-05T09:09:14+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "last_id": 85,
+      "last_at": "2026-11-08T19:19:51+00:00",
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "codecloude": {
-      "last_id": 2563,
-      "last_at": "2026-11-08T15:22:44+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "last_id": 2564,
+      "last_at": "2026-11-08T19:23:11+00:00",
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "dunijet_ai": {
       "last_id": 2520,
       "last_at": "2026-11-08T13:07:02+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "marketing_aida": {
       "last_id": 104,
       "last_at": "2026-11-08T10:04:25+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "Sajadverse": {
       "last_id": 1246,
       "last_at": "2026-11-07T16:35:53+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "MatinSenPaii": {
       "last_id": 5815,
       "last_at": "2026-11-08T09:50:34+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     },
     "thenimaonAI": {
       "last_id": 470,
       "last_at": "2026-11-08T15:41:28+00:00",
-      "checked_at": "2026-11-08T17:00:47.465Z"
+      "checked_at": "2026-11-08T19:30:37.826Z"
     }
   },
   "offerReviews": [
@@ -4521,6 +4715,102 @@
       "slot": "2026-11-08T20:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20724",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-techiin",
+      "title": "💻 پژوهشگاه ارتباطات مرجع آزمون سامانه‌های کوانتومی شد",
+      "url": "https://t.me/techiin_ir/20724",
+      "reason": "denied_link",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/469",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-thenima",
+      "title": "یک نکته: خروجی گرفتن از داده‌ها لزوماً به معنی انتقال کامل حافظه، تنظیمات، پروژه‌ها و قابلیت‌های",
+      "url": "https://t.me/thenimaonAI/469",
+      "reason": "no_link",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-shayanode|https://t.me/shayanode/79",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-shayanode",
+      "title": "دوستان یه لیست از هوش مصنوعی های رایگان که شاید به کارتون بیاد👇🏼",
+      "url": "https://t.me/shayanode/79",
+      "reason": "link_missing",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20726",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-techiin",
+      "title": "✅ ریسک بزرگ آنتروپیک روی ساخت هوش‌مصنوعی خود بهبود دهنده",
+      "url": "https://t.me/techiin_ir/20726",
+      "reason": "denied_link",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20725",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-techiin",
+      "title": "✅ خطر تضعیف مهارت‌های ذهنی با واگذاری کارها به هوش مصنوعی",
+      "url": "https://t.me/techiin_ir/20725",
+      "reason": "denied_link",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-shayanode|https://t.me/shayanode/82",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-shayanode",
+      "title": "Shayanode pinned «چنل YouTube هم داشته باشید اونجا آموزش های طولانی تر رو میزارم👇🏼👇🏼 اگه به",
+      "url": "https://t.me/shayanode/82",
+      "reason": "denied_link",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-shayanode|https://t.me/shayanode/81",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-shayanode",
+      "title": "چنل YouTube هم داشته باشید اونجا آموزش های طولانی تر رو میزارم👇🏼👇🏼 اگه به اتومیشن ،",
+      "url": "https://t.me/shayanode/81",
+      "reason": "denied_link",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-08|tg-shayanode|https://flow.google.com/",
+      "date": "2026-11-08",
+      "at": "2026-11-08T19:30:37.826Z",
+      "source": "tg-shayanode",
+      "title": "Google Flow - AI Creative Studio for Video, Images & Custom Tools",
+      "url": "https://flow.google.com/",
+      "reason": "model_skip",
+      "slot": "2026-11-08T23:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -4567,56 +4857,7 @@
       "at": "2026-11-08T08:00:45.399Z"
     }
   ],
-  "reviewPending": {
-    "2026-11-08|tg-techiin|https://t.me/techiin_ir/20724": {
-      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20724",
-      "source": "tg-techiin",
-      "sourceName": "تِک‌این | آموزش و فناوری",
-      "title": "💻 پژوهشگاه ارتباطات مرجع آزمون سامانه‌های کوانتومی شد",
-      "url": "https://t.me/techiin_ir/20724",
-      "reason": "denied_link",
-      "kind": "post",
-      "mainEligible": false,
-      "needsLinkApproval": false,
-      "slot": "2026-11-08T20:30+03:30",
-      "at": "2026-11-08T17:00:47.465Z",
-      "publishedAt": "2026-11-08T14:01:04+00:00",
-      "keys": [
-        "url:9fa26c44fd1073dc",
-        "title:1dcb0ffdb74ee111"
-      ],
-      "leadPostUrl": "https://t.me/techiin_ir/20724",
-      "messageText": "💻 پژوهشگاه ارتباطات مرجع آزمون سامانه‌های کوانتومی شد\n\n🔹شورای راهبری فناوری‌های کوانتومی، پژوهشگاه ارتباطات رو به‌عنوان مرجع ارزیابی عملکرد سامانه‌های کوانتومی و ایجاد سکوی تخصصی این تجهیزات انتخاب کرد. این تصمیم با هدف ارزیابی عملکرد فنی و ایجاد زیرساخت‌های لازم برای سنجش تجهیزات انجام شده.\n\n📍رضا بحری، رئیس پژوهشکده فناوری ارتباطات، تأکید کرد که نتایج این بررسی‌ها مبنای حمایت هدفمند از تولیدکنندگان داخلی قرار می‌گیره. این فرایند به شناسایی وابستگی‌های فناورانه و تعیین اولویت‌های توسعه تجهیزات راهبردی کمک خواهد کرد.\n.............................................................\n📌دسترسی آسان به تمام ابزارهای هوش‌مصنوعی دنیا در پلتفرم هلیکس\n💎 Helixworld.ai\n.............................................................\n🆔 @techiin_ir\nاینستاگرام | یوتیوب | ایکس |\n\n❤1",
-      "expiry": null,
-      "text": "🚨 نیازمند بررسی و انتشار در کانال اصلی\n\nاین مورد به کانال اصلی نرفته است؛ پیش از انتشار، منبع و لینک آن باید بررسی و تأیید شود.\n\nبازبینی پست — لینک خارجی این پست پذیرفته نشد\n\nعنوان: 💻 پژوهشگاه ارتباطات مرجع آزمون سامانه‌های کوانتومی شد\nمنبع: تِک‌این | آموزش و فناوری\nتاریخ انتشار: 2026-11-08T14:01:04+00:00\nدلیل بازبینی: لینک خارجی این پست پذیرفته نشد\nوضعیت کانال اصلی: نیازمند بررسی پیش از انتشار\nلینک: https://t.me/techiin_ir/20724\nپست تلگرام: https://t.me/techiin_ir/20724\n\nمتن اصلی:\n💻 پژوهشگاه ارتباطات مرجع آزمون سامانه‌های کوانتومی شد\n\n🔹شورای راهبری فناوری‌های کوانتومی، پژوهشگاه ارتباطات رو به‌عنوان مرجع ارزیابی عملکرد سامانه‌های کوانتومی و ایجاد سکوی تخصصی این تجهیزات انتخاب کرد. این تصمیم با هدف ارزیابی عملکرد فنی و ایجاد زیرساخت‌های لازم برای سنجش تجهیزات انجام شده.\n\n📍رضا بحری، رئیس پژوهشکده فناوری ارتباطات، تأکید کرد که نتایج این بررسی‌ها مبنای حمایت هدفمند از تولیدکنندگان داخلی قرار می‌گیره. این فرایند به شناسایی وابستگی‌های فناورانه و تعیین اولویت‌های توسعه تجهیزات راهبردی کمک خواهد کرد.\n.............................................................\n📌دسترسی آسان به تمام ابزارهای هوش‌مصنوعی دنیا در پلتفرم هلیکس\n💎 Helixworld.ai\n.............................................................\n🆔 @techiin_ir\nاینستاگرام | یوتیوب | ایکس |\n\n❤1\n\nنکته: پست آمادهٔ فارسی ساخته نشده؛ متن بالا فقط از منبع آمده و باید ترجمه و تکمیل شود.\n\nلینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.\n\nاین پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.",
-      "attempts": 1,
-      "queuedAt": "2026-11-08T17:00:47.465Z"
-    },
-    "2026-11-08|tg-thenima|https://t.me/thenimaonAI/469": {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/469",
-      "source": "tg-thenima",
-      "sourceName": "Thenima.one",
-      "title": "یک نکته: خروجی گرفتن از داده‌ها لزوماً به معنی انتقال کامل حافظه، تنظیمات، پروژه‌ها و قابلیت‌های",
-      "url": "https://t.me/thenimaonAI/469",
-      "reason": "no_link",
-      "kind": "post",
-      "mainEligible": false,
-      "needsLinkApproval": false,
-      "slot": "2026-11-08T20:30+03:30",
-      "at": "2026-11-08T17:00:47.465Z",
-      "publishedAt": "2026-11-08T13:38:37+00:00",
-      "keys": [
-        "url:09b4057a5a6c3aee",
-        "title:c26ab5439ddec7a8"
-      ],
-      "leadPostUrl": "https://t.me/thenimaonAI/469",
-      "messageText": "یک نکته: خروجی گرفتن از داده‌ها لزوماً به معنی انتقال کامل حافظه، تنظیمات، پروژه‌ها و قابلیت‌های Claude به ابزار دیگه نیست؛ فایل خروجی رو هم حتماً بررسی کنید.\n\n❤1",
-      "expiry": null,
-      "text": "🚨 نیازمند بررسی و انتشار در کانال اصلی\n\nاین مورد به کانال اصلی نرفته است؛ پیش از انتشار، منبع و لینک آن باید بررسی و تأیید شود.\n\nبازبینی پست — لینک قابل استفاده ندارد\n\nعنوان: یک نکته: خروجی گرفتن از داده‌ها لزوماً به معنی انتقال کامل حافظه، تنظیمات، پروژه‌ها و قابلیت‌های\nمنبع: Thenima.one\nتاریخ انتشار: 2026-11-08T13:38:37+00:00\nدلیل بازبینی: لینک قابل استفاده ندارد\nوضعیت کانال اصلی: نیازمند بررسی پیش از انتشار\nلینک: https://t.me/thenimaonAI/469\nپست تلگرام: https://t.me/thenimaonAI/469\n\nمتن اصلی:\nیک نکته: خروجی گرفتن از داده‌ها لزوماً به معنی انتقال کامل حافظه، تنظیمات، پروژه‌ها و قابلیت‌های Claude به ابزار دیگه نیست؛ فایل خروجی رو هم حتماً بررسی کنید.\n\n❤1\n\nنکته: پست آمادهٔ فارسی ساخته نشده؛ متن بالا فقط از منبع آمده و باید ترجمه و تکمیل شود.\n\nلینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.\n\nاین پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.",
-      "attempts": 1,
-      "queuedAt": "2026-11-08T17:00:47.465Z"
-    }
-  },
+  "reviewPending": {},
   "offerWatch": {
     "lastDate": "2026-11-08",
     "at": "2026-11-08T05:00:45.672Z",
