@@ -336,7 +336,7 @@ export function recordOfferReview(
   return entry;
 }
 
-export const REVIEW_PENDING_TTL_HOURS = 168;
+export const REVIEW_PENDING_TTL_HOURS = 240;
 
 export function enqueueReviewPending(state, payload = {}) {
   if (!state.reviewPending || typeof state.reviewPending !== 'object') state.reviewPending = {};
@@ -390,8 +390,8 @@ export function reviewCapacity({ config, usage, sourceKey = '' }) {
   const review = config?.offers?.review ?? {};
   if (review.enabled === false) return { ok: false, reason: 'review_disabled' };
   if (!usage) return { ok: true, reason: 'ok' };
-  const maxDay = Number(review.max_per_day ?? 5);
-  const maxSource = Number(review.max_per_source_per_day ?? 1);
+  const maxDay = Number(review.max_per_day ?? 24);
+  const maxSource = Number(review.max_per_source_per_day ?? 3);
   if (usage.today >= maxDay) return { ok: false, reason: 'review_daily_cap' };
   if (sourceKey && (usage.perSource?.get(sourceKey) ?? 0) >= maxSource) {
     return { ok: false, reason: 'review_source_cap' };
@@ -545,6 +545,9 @@ export const REASON_FA = {
   gate_future: 'تاریخ انتشار در آینده است',
   gate_no_date: 'تاریخ انتشار روشن نیست',
   gate_bad_date: 'تاریخ انتشار نامعتبر است',
+  denied_link: 'لینک خارجی این پست پذیرفته نشد',
+  no_link: 'لینک قابل استفاده ندارد',
+  offer_watch: 'از رصد آفر پیدا شد',
 };
 
 const KIND_FA = { offer: 'آفر', tool: 'ابزار', post: 'پست' };
@@ -580,6 +583,24 @@ export function resolveVendorLink(text, vendors = []) {
   return { vendor: best.vendor.id, name: best.vendor.name, url };
 }
 
+export const REVIEW_BANNER = '🚨 نیازمند بررسی و انتشار در کانال اصلی';
+
+export function ensureReviewBanner(text) {
+  const body = String(text ?? '').trim();
+  if (!body) return body;
+  return body.startsWith(REVIEW_BANNER) ? body : `${REVIEW_BANNER}\n\n${body}`;
+}
+
+export function refreshQueuedReviewText(text, reason = '') {
+  const body = ensureReviewBanner(text);
+  const reasonFa = REASON_FA[reason];
+  if (!reasonFa) return body;
+  const escaped = String(reason).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return body
+    .replace(new RegExp(`^(بازبینی[^\\n]*?—\\s*)${escaped}\\s*$`, 'mu'), `$1${reasonFa}`)
+    .replace(new RegExp(`^(دلیل بازبینی:\\s*)${escaped}\\s*$`, 'mu'), `$1${reasonFa}`);
+}
+
 export function reviewText({
   article,
   candidate,
@@ -601,8 +622,19 @@ export function reviewText({
     : 'روشن نیست';
   const link = article?.url || candidate?.link || candidate?.canonical || '';
   const needsLinkApproval = reason === 'link_missing';
+  const original = String(text || candidate?.messageText || article?.content || '').trim();
+  const latinLetters = (original.match(/[A-Za-z]/g) ?? []).length;
+  const persianLetters = (original.match(/[\u0600-\u06FF]/g) ?? []).length;
+  const englishOriginal = latinLetters >= 40 && latinLetters > persianLetters * 2;
   const lines = [
-    ...(needsLinkApproval ? ['⚠️ نیازمند تأیید لینک و ارسال به کانال اصلی', ''] : []),
+    REVIEW_BANNER,
+    mainEligible
+      ? 'نسخهٔ کانال اصلی آماده است و فقط برای تأیید نهایی به این کانال کپی شد.'
+      : 'این مورد به کانال اصلی نرفته است؛ پیش از انتشار، منبع و لینک آن باید بررسی و تأیید شود.',
+    ...(needsLinkApproval
+      ? ['لینک معتبر پیدا نشد؛ اگر لینک را تأیید یا پیدا کردید، پست را دستی در کانال اصلی منتشر کنید.']
+      : []),
+    '',
     `بازبینی ${KIND_FA[resolvedKind] ?? KIND_FA.post} — ${reasonFa}`,
     '',
     `عنوان: ${article?.title || candidate?.title || ''}`,
@@ -618,15 +650,26 @@ export function reviewText({
   );
   if (link) lines.push(`لینک: ${link}`);
   if (candidate?.leadPostUrl) lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
-  const original = String(text || candidate?.messageText || article?.content || '').trim();
-  if (original) {
-    lines.push('', 'متن اصلی:', original.slice(0, post ? 900 : 2400));
-  }
   if (post) {
     lines.push('', 'پست آماده انتشار:', `عنوان: ${post.title ?? ''}`);
     if (post.news_date) lines.push(String(post.news_date));
     lines.push(String(post.body ?? '').slice(0, 1200));
     if (post.quote) lines.push(`نقل‌قول: ${String(post.quote).slice(0, 400)}`);
+  }
+  if (original) {
+    lines.push('', 'متن اصلی:', original.slice(0, post ? 900 : 2400));
+  }
+  if (!post) {
+    lines.push(
+      '',
+      englishOriginal
+        ? 'نکته: پست آمادهٔ فارسی ساخته نشده و متن اصلی انگلیسی است؛ پیش از انتشار ترجمه و تکمیل شود.'
+        : 'نکته: پست آمادهٔ فارسی ساخته نشده؛ متن بالا فقط از منبع آمده و باید ترجمه و تکمیل شود.'
+    );
+  } else if (englishOriginal) {
+    lines.push('', 'متن اصلی انگلیسی است؛ نسخهٔ فارسی در «پست آماده انتشار» بالا آمده است.');
+  } else if (original && original.length < 220) {
+    lines.push('', 'نکته: متن منبع کوتاه است؛ پیش از انتشار جزئیات پست را کامل کنید.');
   }
   if (note) lines.push('', String(note).slice(0, 400));
   lines.push('', 'این پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.');

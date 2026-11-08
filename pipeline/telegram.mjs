@@ -9,7 +9,15 @@ const RETRYABLE_NETWORK_CODES = new Set([
   'ENOTFOUND',
   'EAI_AGAIN',
   'ECONNREFUSED',
+  'ECONNRESET',
+  'EPIPE',
+  'EHOSTUNREACH',
+  'ENETUNREACH',
   'UND_ERR_CONNECT_TIMEOUT',
+  'UND_ERR_HEADERS_TIMEOUT',
+  'UND_ERR_BODY_TIMEOUT',
+  'UND_ERR_SOCKET',
+  'UND_ERR_CLOSED',
   'ETIMEDOUT',
 ]);
 
@@ -135,7 +143,7 @@ async function readResult(response, method) {
   const json = await response.json().catch(() => null);
   if (!response.ok || !json?.ok) {
     const error = new Error(`TELEGRAM_${response.status}_${String(json?.description ?? '').slice(0, 120)}`.trim());
-    if (response.status === 429) {
+    if (response.status === 429 || response.status >= 500) {
       error.retryable = true;
       error.retryAfter = Number(json?.parameters?.retry_after) || 0;
     }

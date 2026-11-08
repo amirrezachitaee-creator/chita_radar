@@ -65,18 +65,20 @@ function startTwoOfferFixture() {
       </item>`;
       res.writeHead(200, { 'content-type': 'application/rss+xml' });
       res.end(`<?xml version="1.0"?><rss version="2.0"><channel><title>Fixture</title>
-        ${item('offer-a', 'Get 100 free credits for the API', 'Mon, 02 Nov 2026 16:00:00 GMT')}
-        ${item('offer-b', 'Get 200 free credits for the API', 'Mon, 02 Nov 2026 16:05:00 GMT')}
+        ${item('offer-a', 'Get 100 free credits for the API', 'Mon, 02 Nov 2026 10:00:00 GMT')}
+        ${item('offer-b', 'Get 200 free credits for the API', 'Mon, 02 Nov 2026 10:05:00 GMT')}
+        ${item('offer-c', 'Get 300 free credits for the API', 'Mon, 02 Nov 2026 10:10:00 GMT')}
+        ${item('offer-d', 'Get 400 free credits for the API', 'Mon, 02 Nov 2026 10:15:00 GMT')}
       </channel></rss>`);
       return;
     }
-    if (req.url === '/offer-a' || req.url === '/offer-b') {
+    if (/^\/offer-[abcd]$/.test(req.url)) {
       res.writeHead(200, { 'content-type': 'text/html' });
       res.end(`<!doctype html><html><head>
         <title>Free credits for developers</title>
         <meta property="og:title" content="Free credits for developers">
         <meta property="og:description" content="Free credits for developers.">
-        <meta property="article:published_time" content="2026-11-02T16:00:00Z">
+        <meta property="article:published_time" content="2026-11-02T10:00:00Z">
         </head><body><article>
         ${paragraphs.map((text) => `<p>${text}</p>`).join('\n')}
         </article></body></html>`);
@@ -176,8 +178,8 @@ test('review caps queue the overflow and the next day flushes it instead of losi
     }],
   }));
 
-  const args = (now, date) => [
-    '--slot', '20:30',
+  const args = (slot, now, date, max) => [
+    '--slot', slot,
     '--now', now,
     '--date', date,
     '--sources-file', sourcesPath,
@@ -186,41 +188,38 @@ test('review caps queue the overflow and the next day flushes it instead of losi
     '--review-state', join(dir, 'review-state.json'),
     '--out', join(dir, 'outbox'),
     '--review-out', join(dir, 'review'),
-    '--max-candidates', '2',
+    '--max-candidates', String(max),
   ];
 
   try {
-    const first = await run(args('2026-11-02T17:00:00Z', '2026-11-02'));
+    const first = await run(args('14:00', '2026-11-02T10:30:00Z', '2026-11-02', 2));
     assert.equal(first.code, 0, first.stderr || first.stdout);
     assert.match(first.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
 
-    const second = await run([
-      '--slot', '23:00',
-      '--now', '2026-11-02T19:30:00Z',
-      '--date', '2026-11-02',
-      '--sources-file', sourcesPath,
-      '--state', join(dir, 'state.json'),
-      '--main-state', join(dir, 'main.json'),
-      '--review-state', join(dir, 'review-state.json'),
-      '--out', join(dir, 'outbox'),
-      '--review-out', join(dir, 'review'),
-      '--max-candidates', '1',
-    ]);
+    const second = await run(args('17:00', '2026-11-02T13:30:00Z', '2026-11-02', 1));
     assert.equal(second.code, 0, second.stderr || second.stdout);
-    assert.match(second.stdout, /REVIEW_QUEUED reason=expiry_ambiguous cap=review_source_cap/);
+    assert.match(second.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
+
+    const third = await run(args('20:30', '2026-11-02T17:00:00Z', '2026-11-02', 1));
+    assert.equal(third.code, 0, third.stderr || third.stdout);
+    assert.match(third.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
+
+    const fourth = await run(args('23:00', '2026-11-02T19:30:00Z', '2026-11-02', 1));
+    assert.equal(fourth.code, 0, fourth.stderr || fourth.stdout);
+    assert.match(fourth.stdout, /REVIEW_QUEUED reason=expiry_ambiguous cap=review_source_cap/);
 
     const queued = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
-    assert.equal(queued.offerReviews.length, 1);
+    assert.equal(queued.offerReviews.length, 3);
     assert.equal(Object.keys(queued.reviewPending).length, 1);
 
-    const third = await run(args('2026-11-03T17:00:00Z', '2026-11-03'));
-    assert.equal(third.code, 0, third.stderr || third.stdout);
-    assert.match(third.stdout, /REVIEW_PENDING pool=1/);
-    assert.match(third.stdout, /REVIEW_FLUSHED reason=expiry_ambiguous/);
-    assert.match(third.stdout, /RESULT EMPTY/);
+    const fifth = await run(args('17:00', '2026-11-03T13:30:00Z', '2026-11-03', 1));
+    assert.equal(fifth.code, 0, fifth.stderr || fifth.stdout);
+    assert.match(fifth.stdout, /REVIEW_PENDING pool=1/);
+    assert.match(fifth.stdout, /REVIEW_FLUSHED reason=expiry_ambiguous/);
+    assert.match(fifth.stdout, /RESULT EMPTY/);
 
     const flushed = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
-    assert.equal(flushed.offerReviews.length, 2);
+    assert.equal(flushed.offerReviews.length, 4);
     assert.equal(Object.keys(flushed.reviewPending).length, 0);
     assert.ok(
       Object.values(flushed.seen).some(

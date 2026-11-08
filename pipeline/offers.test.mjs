@@ -14,6 +14,10 @@ import {
   offerReviewUsage,
   recordOfferReview,
   reviewCapacity,
+  ensureReviewBanner,
+  refreshQueuedReviewText,
+  REVIEW_BANNER,
+  REASON_FA,
   enqueueReviewPending,
   listReviewPending,
   removeReviewPending,
@@ -376,7 +380,7 @@ test('a linkless offer resolves the registered official page from its vendor nam
   );
 });
 
-test('a missing link review starts with the approval banner', () => {
+test('a missing link review starts with the review banner', () => {
   const text = reviewText({
     candidate: { title: 'Free credits', sourceName: 'Telegram', link: 'https://t.me/example/1' },
     assessment: { reason: 'link_missing' },
@@ -384,7 +388,8 @@ test('a missing link review starts with the approval banner', () => {
     mainEligible: false,
   });
   const lines = text.split('\n');
-  assert.equal(lines[0], '⚠️ نیازمند تأیید لینک و ارسال به کانال اصلی');
+  assert.equal(lines[0], REVIEW_BANNER);
+  assert.match(text, /لینک معتبر پیدا نشد/);
   assert.match(text, /لینک معتبر برای این آفر پیدا نشد/);
   assert.match(text, /نیازمند بررسی پیش از انتشار/);
 });
@@ -403,18 +408,18 @@ test('review usage counts every state once and tracks the source channel', () =>
   assert.equal(usage.perSource.get('tg-b'), 1);
 });
 
-test('review caps allow eleven items a day and one item per source', () => {
+test('review caps allow twenty-four items a day and three per source', () => {
   const usage = { today: 0, perSource: new Map() };
   assert.equal(reviewCapacity({ config, usage, sourceKey: 'tg-a' }).ok, true);
 
-  const sourceFull = { today: 1, perSource: new Map([['tg-a', 1]]) };
+  const sourceFull = { today: 3, perSource: new Map([['tg-a', 3]]) };
   assert.deepEqual(reviewCapacity({ config, usage: sourceFull, sourceKey: 'tg-a' }), {
     ok: false,
     reason: 'review_source_cap',
   });
   assert.equal(reviewCapacity({ config, usage: sourceFull, sourceKey: 'tg-b' }).ok, true);
 
-  const dayFull = { today: 11, perSource: new Map() };
+  const dayFull = { today: 24, perSource: new Map() };
   assert.deepEqual(reviewCapacity({ config, usage: dayFull, sourceKey: 'tg-b' }), {
     ok: false,
     reason: 'review_daily_cap',
@@ -439,14 +444,14 @@ test('a full review queue defers the offer instead of skipping it', () => {
     quota,
     usage: { today: 0, week: 0 },
   };
-  const daily = assessOffer({ ...base, reviewUsage: { today: 11, perSource: new Map() } });
+  const daily = assessOffer({ ...base, reviewUsage: { today: 24, perSource: new Map() } });
   assert.equal(daily.status, 'defer');
   assert.equal(daily.reason, 'expiry_missing');
   assert.equal(daily.cap, 'review_daily_cap');
 
   const source = assessOffer({
     ...base,
-    reviewUsage: { today: 1, perSource: new Map([['openai-news', 1]]) },
+    reviewUsage: { today: 3, perSource: new Map([['openai-news', 3]]) },
   });
   assert.equal(source.status, 'defer');
   assert.equal(source.reason, 'expiry_missing');
@@ -467,7 +472,8 @@ test('the pending review queue keeps overflow and drops it only after the ttl', 
   });
   assert.ok(entry);
   assert.equal(listReviewPending(state, '2026-11-03T17:00:00Z').length, 1);
-  assert.equal(listReviewPending(state, '2026-11-12T17:00:00Z').length, 0);
+  assert.equal(listReviewPending(state, '2026-11-12T17:00:00Z').length, 1);
+  assert.equal(listReviewPending(state, '2026-11-13T17:00:00Z').length, 0);
 
   const expiring = enqueueReviewPending(state, {
     source: 'tg-b',
@@ -505,6 +511,53 @@ test('a tool review text marks main eligibility and carries the prepared post', 
   assert.match(text, /متن اصلی کانال/);
   assert.match(text, /https:\/\/t\.me\/testchannel\/10/);
   assert.match(text, /این پیام فقط برای بازبینی است/);
+});
+
+test('every review message starts with the siren banner and puts the prepared post first', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'Free credits',
+      sourceName: 'Example',
+      link: 'https://example.com/a',
+      toolHint: true,
+    },
+    assessment: { reason: 'tool_incomplete' },
+    kind: 'tool',
+    mainEligible: true,
+    text: 'The company announced free credits for every developer account today, and the program will continue while supplies last, according to the official page.',
+    post: { title: 'تیتر آماده', body: 'بدنه آماده', quote: 'نقل‌قول' },
+  });
+  assert.ok(text.startsWith(REVIEW_BANNER));
+  assert.ok(text.indexOf('پست آماده انتشار') < text.indexOf('متن اصلی:'));
+  assert.match(text, /متن اصلی انگلیسی است/);
+});
+
+test('a review without a prepared post explains that it must be translated and completed', () => {
+  const text = reviewText({
+    candidate: { title: 'Free credits', sourceName: 'Feed', link: 'https://example.com/a' },
+    assessment: { reason: 'no_link' },
+    mainEligible: true,
+    text: 'The company announced free credits for every developer account today, and the program will continue while supplies last.',
+  });
+  assert.ok(text.startsWith(REVIEW_BANNER));
+  assert.match(text, /پست آمادهٔ فارسی ساخته نشده/);
+  assert.match(text, /انگلیسی/);
+});
+
+test('every configured review reason has a Persian label', () => {
+  for (const reason of config.offers.review.reasons) {
+    assert.ok(REASON_FA[reason], `missing reason label: ${reason}`);
+  }
+});
+
+test('a queued review from the old format gets the banner and a Persian reason before sending', () => {
+  const old = 'بازبینی پست — denied_link\n\nعنوان: تست\nدلیل بازبینی: denied_link';
+  const refreshed = refreshQueuedReviewText(old, 'denied_link');
+  assert.ok(refreshed.startsWith(REVIEW_BANNER));
+  assert.match(refreshed, /بازبینی پست — لینک خارجی این پست پذیرفته نشد/);
+  assert.match(refreshed, /دلیل بازبینی: لینک خارجی این پست پذیرفته نشد/);
+  assert.doesNotMatch(refreshed, /denied_link/);
+  assert.equal(ensureReviewBanner(`${REVIEW_BANNER}\n\nمتن`), `${REVIEW_BANNER}\n\nمتن`);
 });
 
 test('a failed main send keeps the prepared offer in review', () => {

@@ -341,7 +341,7 @@ test('photo by URL rejects an empty address or an oversized caption', async () =
   );
 });
 
-test('a connection-phase network error is marked retryable', async () => {
+test('a reset or connection-phase network error is marked retryable', async () => {
   const failure = Object.assign(new TypeError('fetch failed'), { cause: { code: 'ENOTFOUND' } });
   const fetchImpl = async () => {
     throw failure;
@@ -361,14 +361,23 @@ test('a connection-phase network error is marked retryable', async () => {
     ),
     (error) => error.message === 'TELEGRAM_REQUEST_FAILED' && error.retryable === true
   );
-});
 
-test('an ambiguous network error or a timeout is not retried', async () => {
   const reset = Object.assign(new TypeError('fetch failed'), { cause: { code: 'ECONNRESET' } });
   await assert.rejects(
     sendTelegram(
       { title: 'عنوان', body: 'متن' },
       { token: 'TEST', chatId: '1', fetchImpl: async () => { throw reset; } }
+    ),
+    (error) => error.message === 'TELEGRAM_REQUEST_FAILED' && error.retryable === true
+  );
+});
+
+test('an ambiguous network error or a timeout is not retried', async () => {
+  const denied = Object.assign(new TypeError('fetch failed'), { cause: { code: 'EACCES' } });
+  await assert.rejects(
+    sendTelegram(
+      { title: 'عنوان', body: 'متن' },
+      { token: 'TEST', chatId: '1', fetchImpl: async () => { throw denied; } }
     ),
     (error) => error.message === 'TELEGRAM_REQUEST_FAILED' && error.retryable === false
   );
@@ -380,6 +389,18 @@ test('an ambiguous network error or a timeout is not retried', async () => {
       { token: 'TEST', chatId: '1', fetchImpl: async () => { throw aborted; } }
     ),
     (error) => error.message === 'TELEGRAM_TIMEOUT' && error.retryable !== true
+  );
+});
+
+test('a server error from Telegram is retryable', async () => {
+  const fetchImpl = async () =>
+    new Response(JSON.stringify({ ok: false, error_code: 502, description: 'Bad Gateway' }), {
+      status: 502,
+      headers: { 'content-type': 'application/json' },
+    });
+  await assert.rejects(
+    sendTelegram({ title: 'عنوان', body: 'متن' }, { token: 'TEST', chatId: '1', fetchImpl }),
+    (error) => error.message.startsWith('TELEGRAM_502') && error.retryable === true
   );
 });
 

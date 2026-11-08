@@ -114,9 +114,9 @@
     "review": {
       "enabled": true,
       "chat_env": "TELEGRAM_REVIEW_CHAT_ID",
-      "max_per_day": 11,
-      "max_per_source_per_day": 1,
-      "pending_ttl_hours": 168,
+      "max_per_day": 24,
+      "max_per_source_per_day": 3,
+      "pending_ttl_hours": 240,
       "max_pending": 200,
       "quiet_hours_main_eligible": true,
       "reasons": [

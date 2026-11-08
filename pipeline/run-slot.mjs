@@ -26,7 +26,7 @@ import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } 
 import { dailyBudget, sendWindow } from './guards.mjs';
 import { buildEducationForward, matchesPublishedStory } from './telegram-source.mjs';
 import { watchOnce, selectTargets } from './offer-watch.mjs';
-import { assessOffer, detectOffer, offerUsage, openEndedKey, openEndedUsage, recordOpenEnded, markOpenEndedEnded, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
+import { assessOffer, detectOffer, offerUsage, openEndedKey, openEndedUsage, recordOpenEnded, markOpenEndedEnded, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, refreshQueuedReviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
   loadState,
   saveState,
@@ -513,7 +513,7 @@ async function main() {
         console.log(`  REVIEW_PENDING_WAIT ${entry.sourceName || entry.source} | ${capacity.reason}`);
         continue;
       }
-      const payload = { ...entry };
+      const payload = { ...entry, text: refreshQueuedReviewText(entry.text, entry.reason) };
       const dir = await writeReviewFiles(payload);
       const { messageId, sendError } = await sendReviewText(payload.text);
       if (SEND && !messageId) {
@@ -1912,21 +1912,19 @@ async function main() {
           qa: `${qa.score}/${qa.possible}`,
           posts: slotPosts,
         });
-        if (offerContext || candidate.toolHint || candidate.officialCourse) {
-          try {
-            await deliverReview({
-              candidate,
-              article,
-              assessment: { reason: 'send_failed', expiry: offerAssessment?.expiry },
-              reason: 'send_failed',
-              kind: offerContext ? 'offer' : 'tool',
-              mainEligible: true,
-              post,
-              note: `ارسال به کانال اصلی ناموفق بود (${sendError.slice(0, 160)})؛ پست آماده برای بازبینی نگه داشته شد.`,
-            });
-          } catch (reviewError) {
-            console.log(`REVIEW_PRESERVE_FAILED ${redact(reviewError?.message ?? reviewError)}`);
-          }
+        try {
+          await deliverReview({
+            candidate,
+            article,
+            assessment: { reason: 'send_failed', expiry: offerAssessment?.expiry },
+            reason: 'send_failed',
+            kind: offerContext ? 'offer' : candidate.toolHint ? 'tool' : 'post',
+            mainEligible: true,
+            post,
+            note: `ارسال به کانال اصلی ناموفق بود (${sendError.slice(0, 160)})؛ پست آماده برای بازبینی نگه داشته شد.`,
+          });
+        } catch (reviewError) {
+          console.log(`REVIEW_PRESERVE_FAILED ${redact(reviewError?.message ?? reviewError)}`);
         }
         await deferOrClose(candidate, 'send_failed', sendError);
         console.log(`SEND_FAILED ${sendError}`);

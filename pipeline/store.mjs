@@ -440,7 +440,7 @@ export function pruneState(
     deferredDays = 14,
     deferredCap = MAX_DEFERRED,
     reviewDays = 14,
-    reviewPendingHours = 168,
+    reviewPendingHours = 240,
     reviewPendingCap = 200,
   } = {}
 ) {

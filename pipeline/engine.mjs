@@ -575,7 +575,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     imageBlock,
     offerBlock,
     courseBlock,
-    'یادآوری نگارش: تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
+    'یادآوری نگارش: تیتر یک جملهٔ کامل و خبری است، نه سؤال و نه نیمه‌کاره؛ واژهٔ انگلیسی ترجمه‌نشده در آن نگذار؛ تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
     '',
     'متن خبر:',
     clampText(article.content, maxContentChars),
@@ -805,6 +805,31 @@ export function countTitleWords(value) {
 }
 
 const TITLE_STOPWORDS = new Set(['و', 'یا', 'با', 'از', 'به', 'در', 'برای', 'که', 'تا', 'بر', 'این', 'آن', 'اما', 'ولی', 'هم']);
+const TITLE_QUESTION_OPEN = /^(?:آیا|چرا|چطور|چگونه)(?:\s|$)/u;
+const TITLE_DANGLING_END = new Set([...TITLE_STOPWORDS, 'را', 'رو', 'جلو']);
+const TITLE_LATIN_BANNED = new Set([
+  'indefinitely', 'reportedly', 'officially', 'allegedly', 'breaking', 'exclusive',
+  'update', 'updates', 'release', 'released', 'launch', 'launched', 'announce',
+  'announced', 'unveils', 'unveiled', 'introduces', 'introduced', 'preview',
+  'available', 'limited', 'free', 'today', 'tomorrow', 'soon', 'coming', 'finally',
+  'suddenly', 'major', 'minor', 'massive', 'huge', 'big', 'best', 'better', 'faster',
+  'cheaper', 'stronger', 'smarter', 'more', 'most', 'just', 'still', 'again', 'next',
+  'now', 'first', 'is', 'are', 'was', 'were', 'the', 'and', 'for', 'with', 'from',
+  'this', 'that', 'will', 'has', 'have', 'can', 'not', 'you', 'your',
+]);
+
+function titleLatinUntranslated(value) {
+  const words = String(value ?? '').match(/[A-Za-z][A-Za-z'’-]*/g) ?? [];
+  return words.filter((word) => /^[a-z]+$/.test(word) && TITLE_LATIN_BANNED.has(word));
+}
+
+function titleEndsDangling(value) {
+  const text = String(value ?? '').trim();
+  if (!text) return true;
+  if (/[،:]$/.test(text)) return true;
+  const last = text.split(/\s+/).filter(Boolean).at(-1)?.replace(/[.,،؛:!؟?"'»«]/gu, '') ?? '';
+  return TITLE_DANGLING_END.has(last);
+}
 
 export function trimTitle(value, max = TITLE_MAX_WORDS) {
   const title = String(value ?? '').replace(/\*\*/g, ' ').replace(/\s+/g, ' ').trim();
@@ -1011,6 +1036,8 @@ const QA_FIX_HINTS = {
   title_words: 'تیتر را به حداکثر ۱۲ کلمه کوتاه کن و فعل و بخش اصلی خبر را نگه دار.',
   body_paragraphs: 'body را به ۲ تا ۳ پاراگراف با یک خط خالی بین آن‌ها تقسیم کن؛ جمله اهمیت باید پاراگراف آخر و مستقل باشد.',
   title_clean: 'تیتر بدون نقطه یا علامت سؤال انتهایی، بدون Markdown و بدون عبارت کلیشه‌ای باشد.',
+  title_complete: 'تیتر باید یک جملهٔ کامل و خبری باشد، نه سؤال و نه نیمه‌کاره؛ آن را با فعل و پایان کامل بازنویسی کن.',
+  title_latin: 'واژهٔ انگلیسی ترجمه‌نشده را در تیتر فارسی کن؛ فقط نام شرکت، مدل و اصطلاح فنی رایج لاتین بماند.',
   bullets: 'بولت یا صفر باشد یا بین ۲ تا ۵.',
   why: 'جمله اهمیت باید آخرین پاراگراف body و قبل از خط پایانی (منبع یا لینک استفاده) باشد؛ برای ابزار، همان جمله کاربرد یا مزیت کافی است.',
   why_label: 'برچسب «چرا مهمه:» نگذار؛ اهمیت را داخل جمله طبیعی بیاور.',
@@ -1053,6 +1080,13 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
       const currentTitle = String(parsed?.title ?? '').trim();
       const count = countTitleWords(currentTitle);
       return `- title_words: تیتر فعلی «${currentTitle}» ${count} کلمه است؛ آن را به حداکثر ${TITLE_MAX_WORDS} کلمه کوتاه کن و فعل و بخش اصلی خبر را نگه دار.`;
+    }
+    if (name === 'title_complete') {
+      return `- title_complete: تیتر فعلی «${String(parsed?.title ?? '').trim()}» یک جملهٔ کامل خبری نیست (سؤالی یا نیمه‌کاره است)؛ آن را با فعل و پایان کامل بازنویسی کن.`;
+    }
+    if (name === 'title_latin') {
+      const words = titleLatinUntranslated(parsed?.title).join('، ');
+      return `- title_latin: واژه‌های «${words}» در تیتر ترجمه نشده‌اند؛ معادل فارسی بگذار و فقط نام شرکت، مدل یا اصطلاح فنی رایج را لاتین نگه دار.`;
     }
     return `- ${name}: ${QA_FIX_HINTS[name] || 'این مورد را اصلاح کن.'}`;
   });
@@ -1202,6 +1236,8 @@ export function qaPost(parsed, context) {
 
   add('title_words', words > 0 && words <= TITLE_MAX_WORDS);
   add('title_clean', title.length > 0 && !/[.?!؟]\s*$/.test(title) && !/\*\*/.test(title) && !BANNED.some((phrase) => title.includes(phrase)));
+  add('title_complete', title.length > 0 && !TITLE_QUESTION_OPEN.test(title) && !titleEndsDangling(title));
+  add('title_latin', titleLatinUntranslated(title).length === 0, titleLatinUntranslated(title).join(','));
   add('bullets', type === 'breaking' ? true : bullets === 0 || (bullets >= 2 && bullets <= 5));
   const whyCue = /(مهمه|مهمه که|مهم اینه|اهمیت|اهمیتش|از اونجایی که|از اونجا که|نکته مهم|نکته اینجاست|از این جهت|به همین دلیل|به همین خاطر|به این ترتیب|از این رو|با این کار|این یعنی|در نتیجه|اثرش|اثر واقعی|اثر این|تأثیر|تاثیر|پیامد|نتیجه‌اش|نتیجه اینه|برای مخاطب|در عمل|در واقع|یعنی)/u;
   const whyUseCase = /(کاربرد|کاربردی|استفاده|برای\s+(?:اجرا|ساخت|راه\s*اندازی|کار|تیم|کسانی|همه)|می‌تونید|می‌تونن|می‌تونی|کمک\s*می‌کنه|اجازه\s*می‌ده|مناسب|به\s*دست|نیاز\s*دارید|کافیه|امکان\s*می\s*ده|می‌سازه|قابل\s*استفاده|جایگزین|به\s*جای)/u;

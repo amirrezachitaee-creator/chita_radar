@@ -332,6 +332,62 @@ test('repeating the previous importance opener is only a soft warning', () => {
   assert.equal(implicit.problems.includes('why'), false);
 });
 
+const titleBase = {
+  decision: 'publish',
+  category: 'business',
+  post_type: 'standard',
+  importance: 4,
+  quote: '',
+  key_facts: ['یک', 'دو'],
+  numbers: [],
+  entities: { companies: [], models: [], people: [] },
+  verification: 'reported',
+  source_url: 'https://example.com',
+  image_url: '',
+  dedupe_key: 'title-qa-test',
+  body: 'لید خبر.\n\nاهمیتش اینه که کاربرها سریع‌تر به نتیجه می‌رسن.\n\nمنبع: [منبع](https://example.com)',
+};
+
+const titleContext = {
+  url: 'https://example.com',
+  host: 'example.com',
+  sourceType: 'news',
+  category: 'business',
+  imageUrl: '',
+  title: 'خبر کوتاه',
+  description: '',
+  content: '',
+  publishedAt: new Date().toISOString(),
+  now: new Date().toISOString(),
+  previousWhy: '',
+};
+
+test('a question-shaped or dangling title is rejected', () => {
+  const bad = qaPost(
+    { ...titleBase, title: 'آیا شبیه‌سازهای هوش مصنوعی، پورت رسمی GTA VI را جلو' },
+    titleContext
+  );
+  assert.ok(bad.problems.includes('title_complete'));
+  const good = qaPost(
+    { ...titleBase, title: 'شبیه‌سازهای هوش مصنوعی پورت رسمی GTA VI را جلو می‌اندازند' },
+    titleContext
+  );
+  assert.equal(good.problems.includes('title_complete'), false);
+});
+
+test('an untranslated English word in a Persian title is rejected', () => {
+  const bad = qaPost(
+    { ...titleBase, title: 'متا برنامه تغییر قوانین تجاری را indefinitely معلق کرد' },
+    titleContext
+  );
+  assert.ok(bad.problems.includes('title_latin'));
+  const good = qaPost(
+    { ...titleBase, title: 'مدل Qwen 4 Flash در صدر بنچمارک تازه ایستاد' },
+    titleContext
+  );
+  assert.equal(good.problems.includes('title_latin'), false);
+});
+
 test('a missing source line is appended and source QA checks the last line', () => {
   const body = 'لید خبر.\n\nهوش منبعی کمیاب است.\n\nاهمیتش اینه که دسترسی برای همه مهمه.';
   const fixed = ensureSourceLine(
@@ -739,6 +795,24 @@ test('the repair message targets the usage link on a tools post', () => {
   assert.match(message, /خط لینک استفاده/);
   assert.match(message, /https:\/\/github\.com\/acme\/tool/);
   assert.doesNotMatch(message, /خط منبع/);
+});
+
+test('the repair message names the incomplete or untranslated title', () => {
+  const incomplete = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, title: 'آیا شبیه‌سازهای هوش مصنوعی پورت رسمی GTA VI را جلو' },
+    qa: { problems: ['title_complete'], warnings: [] },
+  });
+  assert.match(incomplete, /title_complete/);
+  assert.match(incomplete, /جملهٔ کامل خبری/);
+
+  const latin = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, title: 'متا برنامه تغییر قوانین تجاری را indefinitely معلق کرد' },
+    qa: { problems: ['title_latin'], warnings: [] },
+  });
+  assert.match(latin, /indefinitely/);
+  assert.match(latin, /معادل فارسی/);
 });
 
 test('the repair message keeps an existing quote inside the post', () => {
