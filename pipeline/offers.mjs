@@ -390,10 +390,10 @@ export function reviewCapacity({ config, usage, sourceKey = '' }) {
   const review = config?.offers?.review ?? {};
   if (review.enabled === false) return { ok: false, reason: 'review_disabled' };
   if (!usage) return { ok: true, reason: 'ok' };
-  const maxDay = Number(review.max_per_day ?? 24);
-  const maxSource = Number(review.max_per_source_per_day ?? 3);
-  if (usage.today >= maxDay) return { ok: false, reason: 'review_daily_cap' };
-  if (sourceKey && (usage.perSource?.get(sourceKey) ?? 0) >= maxSource) {
+  const maxDay = Number(review.max_per_day ?? 0);
+  const maxSource = Number(review.max_per_source_per_day ?? 0);
+  if (maxDay > 0 && usage.today >= maxDay) return { ok: false, reason: 'review_daily_cap' };
+  if (maxSource > 0 && sourceKey && (usage.perSource?.get(sourceKey) ?? 0) >= maxSource) {
     return { ok: false, reason: 'review_source_cap' };
   }
   return { ok: true, reason: 'ok' };
@@ -548,6 +548,7 @@ export const REASON_FA = {
   denied_link: 'لینک خارجی این پست پذیرفته نشد',
   no_link: 'لینک قابل استفاده ندارد',
   offer_watch: 'از رصد آفر پیدا شد',
+  qa_failed: 'بررسی کیفیت پاس نشد',
 };
 
 const KIND_FA = { offer: 'آفر', tool: 'ابزار', post: 'پست' };
@@ -628,6 +629,7 @@ export function reviewText({
   const englishOriginal = latinLetters >= 40 && latinLetters > persianLetters * 2;
   const lines = [
     REVIEW_BANNER,
+    '',
     mainEligible
       ? 'نسخهٔ کانال اصلی آماده است و فقط برای تأیید نهایی به این کانال کپی شد.'
       : 'این مورد به کانال اصلی نرفته است؛ پیش از انتشار، منبع و لینک آن باید بررسی و تأیید شود.',
@@ -651,7 +653,8 @@ export function reviewText({
   if (link) lines.push(`لینک: ${link}`);
   if (candidate?.leadPostUrl) lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
   if (post) {
-    lines.push('', 'پست آماده انتشار:', `عنوان: ${post.title ?? ''}`);
+    const draft = reason === 'qa_failed' || (reason === 'tool_incomplete' && !mainEligible);
+    lines.push('', draft ? 'پیش‌نویس پست (نیازمند اصلاح):' : 'پست آماده انتشار:', `عنوان: ${post.title ?? ''}`);
     if (post.news_date) lines.push(String(post.news_date));
     lines.push(String(post.body ?? '').slice(0, 1200));
     if (post.quote) lines.push(`نقل‌قول: ${String(post.quote).slice(0, 400)}`);

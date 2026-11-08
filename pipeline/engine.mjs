@@ -1174,6 +1174,40 @@ ${JSON.stringify(parsed)}
 ${tooShort ? 'همان خبر را با همان فکت‌های منبع گسترده‌تر بازنویسی کن و فقط یک آبجکت JSON معتبر بده.' : 'همان خبر را دوباره و کوتاه‌تر بنویس و فقط یک آبجکت JSON معتبر بده.'}`;
 }
 
+export const TITLE_QA_PROBLEMS = new Set(['title_complete', 'title_latin', 'title_words', 'title_clean']);
+
+export function buildTitleRepairMessage({ user, parsed, qa }) {
+  const title = String(parsed?.title ?? '').trim();
+  const problems = (qa?.problems ?? []).filter((name) => TITLE_QA_PROBLEMS.has(name));
+  const notes = problems.map((name) => {
+    if (name === 'title_complete') {
+      return `- تیتر «${title}» سؤالی یا نیمه‌کاره است؛ با فعل و پایان کامل بازنویسی کن.`;
+    }
+    if (name === 'title_latin') {
+      return `- واژه‌های «${titleLatinUntranslated(title).join('، ')}» ترجمه نشده‌اند؛ معادل فارسی بگذار و فقط نام شرکت، مدل یا اصطلاح فنی رایج را لاتین نگه دار.`;
+    }
+    if (name === 'title_words') {
+      return `- تیتر ${countTitleWords(title)} کلمه است؛ حداکثر ${TITLE_MAX_WORDS} کلمه شود.`;
+    }
+    return `- ${QA_FIX_HINTS[name] || 'تیتر را اصلاح کن.'}`;
+  });
+  return `${user}
+
+## فقط تیتر را بازنویسی کن
+تیتر فعلی: «${title}»
+
+مشکلات تیتر:
+${notes.join('\n')}
+
+قواعد:
+- یک جملهٔ کامل و خبری، حداکثر ${TITLE_MAX_WORDS} کلمه، بدون علامت سؤال و بدون Markdown.
+- واژهٔ انگلیسی ترجمه‌نشده نگذار؛ فقط نام شرکت، مدل و اصطلاح فنی رایج لاتین بماند.
+- فقط از اطلاعات همان منبع استفاده کن و هیچ فیلد دیگری را تغییر نده.
+
+فقط یک آبجکت JSON با یک فیلد بده:
+{"title":"..."}`;
+}
+
 export function qaPost(parsed, context) {
   const checks = [];
   const add = (name, ok, detail = '', hard = true) => {

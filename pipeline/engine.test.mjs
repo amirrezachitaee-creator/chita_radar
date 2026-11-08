@@ -17,6 +17,8 @@ import {
   clampText,
   buildUserMessage,
   buildQaRepairMessage,
+  buildTitleRepairMessage,
+  TITLE_QA_PROBLEMS,
   callModel,
   callWithRetry,
   extractArticle,
@@ -813,6 +815,28 @@ test('the repair message names the incomplete or untranslated title', () => {
   });
   assert.match(latin, /indefinitely/);
   assert.match(latin, /معادل فارسی/);
+});
+
+test('the focused title repair asks only for a corrected title', () => {
+  const message = buildTitleRepairMessage({
+    user: 'متن خبر',
+    parsed: { ...repairPost, title: 'آیا شبیه‌سازهای هوش مصنوعی پورت رسمی GTA VI را جلو' },
+    qa: { problems: ['title_complete', 'length'], warnings: [] },
+  });
+  assert.match(message, /فقط تیتر را بازنویسی کن/);
+  assert.match(message, /آیا شبیه‌سازهای هوش مصنوعی/);
+  assert.match(message, /نیمه‌کاره/);
+  assert.match(message, /"title"/);
+  assert.doesNotMatch(message, /حداقل 360 کاراکتر/);
+
+  const latin = buildTitleRepairMessage({
+    user: '',
+    parsed: { ...repairPost, title: 'متا برنامه تغییر قوانین تجاری را indefinitely معلق کرد' },
+    qa: { problems: ['title_latin'], warnings: [] },
+  });
+  assert.match(latin, /indefinitely/);
+  assert.match(latin, /معادل فارسی/);
+  assert.equal(TITLE_QA_PROBLEMS.has('length'), false);
 });
 
 test('the repair message keeps an existing quote inside the post', () => {

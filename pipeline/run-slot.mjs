@@ -11,9 +11,11 @@ import {
   downloadImage,
   buildUserMessage,
   buildQaRepairMessage,
+  buildTitleRepairMessage,
   callWithRetry,
   extractJson,
   qaPost,
+  TITLE_QA_PROBLEMS,
   applyLeadPolicy,
   applyMechanicalFixes,
   isFalseStaleSkip,
@@ -1478,6 +1480,7 @@ async function main() {
     };
     let qa = qaPost(parsed, qaContext);
     let repair = null;
+    let titleRepair = null;
 
     const offerQaFailed = Boolean(offerContext) && qa.problems.some((problem) => problem.startsWith('offer_'));
     const relevanceFailed = qa.problems.includes('ai_relevance');
@@ -1516,6 +1519,41 @@ async function main() {
         console.log(`  REPAIR_QA ${qa.pass ? 'PASS' : 'FAIL'} | score ${qa.score}/${qa.possible} | problems ${qa.problems.join(',') || 'none'} | warnings ${qa.warnings.join(',') || 'none'}${better ? '' : ' | kept original'}`);
       } else {
         console.log('  REPAIR_INVALID_JSON');
+      }
+    }
+
+    const titleProblems = qa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem));
+    const contentRejected = qa.problems.includes('ai_relevance') || qa.problems.includes('category_fresh');
+    if (parsed.decision === 'publish' && !qa.pass && titleProblems.length > 0 && !contentRejected && !offerQaFailed) {
+      console.log(`  TITLE_REPAIR ${titleProblems.join(',')} | focused retry`);
+      titleRepair = await callWithRetry(
+        writerOptions(writer, buildTitleRepairMessage({ user: activeUser, parsed, qa })),
+        2,
+        console.log
+      );
+      const titleRepairUsage = titleRepair.usage ?? {};
+      const titleRepairCost = Number(titleRepairUsage.cost) || 0;
+      const titleRepairTokens = Number(titleRepairUsage.total_tokens) || 0;
+      cost += titleRepairCost;
+      tokens += titleRepairTokens;
+      totalCost += titleRepairCost;
+      totalTokens += titleRepairTokens;
+      const titleJson = extractJson(titleRepair.content);
+      const nextTitle = String(titleJson?.title ?? '').trim();
+      if (nextTitle) {
+        const mergedPost = finalizePost({ ...parsed, title: nextTitle });
+        const mergedQa = qaPost(mergedPost, { ...qaContext, category: mergedPost.category });
+        const remaining = mergedQa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem)).length;
+        const better = mergedQa.pass || remaining < titleProblems.length;
+        if (better) {
+          parsed = mergedPost;
+          qa = mergedQa;
+        }
+        console.log(
+          `  TITLE_REPAIR_QA ${qa.pass ? 'PASS' : 'FAIL'} | title_problems ${remaining} | ${better ? 'applied' : 'kept original'}`
+        );
+      } else {
+        console.log('  TITLE_REPAIR_INVALID_JSON');
       }
     }
 
@@ -1570,6 +1608,7 @@ async function main() {
         continue;
       }
       const contentReject = qa.problems.includes('ai_relevance') || qa.problems.includes('category_fresh');
+      const titleProblemsLeft = qa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem));
       if (contentReject) {
         attempts.push({ title: candidate.title, result: 'qa_failed', problems: qa.problems, cost, tokens });
         markSeen(state, candidate.keys, {
@@ -1580,6 +1619,17 @@ async function main() {
           title: candidate.title,
           url: candidate.canonical,
         });
+      } else if (titleProblemsLeft.length > 0) {
+        await deliverReview({
+          candidate,
+          article,
+          assessment: { ...(offerAssessment ?? {}), reason: 'qa_failed' },
+          reason: 'qa_failed',
+          kind: offerContext ? 'offer' : 'post',
+          note: `تیتر پس از بازنویسی هم از QA گذشت نکرد (${titleProblemsLeft.join(', ')}).`,
+          post: parsed,
+        });
+        console.log(`  QA_TITLE_REVIEW ${qa.problems.join(',')} | draft preserved in review`);
       } else {
         await deferOrClose(candidate, 'qa_failed', qa.problems.join(','));
       }
@@ -1701,6 +1751,7 @@ async function main() {
         finish: raw.finish,
         json_retry: Boolean(retry),
         qa_repair: Boolean(repair),
+        title_repair: Boolean(titleRepair),
         usage,
         cost,
         tokens,
@@ -1749,7 +1800,12 @@ async function main() {
     await writeFile(resolve(dir, 'report.json'), JSON.stringify(report, null, 2));
     await writeFile(
       resolve(dir, 'response.txt'),
-      [call.content, retry ? `--- JSON RETRY ---\n\n${retry.content}` : '', repair ? `--- QA REPAIR ---\n\n${repair.content}` : '']
+      [
+        call.content,
+        retry ? `--- JSON RETRY ---\n\n${retry.content}` : '',
+        repair ? `--- QA REPAIR ---\n\n${repair.content}` : '',
+        titleRepair ? `--- TITLE REPAIR ---\n\n${titleRepair.content}` : '',
+      ]
         .filter(Boolean)
         .join('\n\n')
     );

@@ -408,23 +408,32 @@ test('review usage counts every state once and tracks the source channel', () =>
   assert.equal(usage.perSource.get('tg-b'), 1);
 });
 
-test('review caps allow twenty-four items a day and three per source', () => {
+test('the review channel is uncapped by default but still honours an explicit cap', () => {
   const usage = { today: 0, perSource: new Map() };
   assert.equal(reviewCapacity({ config, usage, sourceKey: 'tg-a' }).ok, true);
 
+  const heavy = { today: 500, perSource: new Map([['tg-a', 500]]) };
+  assert.deepEqual(reviewCapacity({ config, usage: heavy, sourceKey: 'tg-a' }), { ok: true, reason: 'ok' });
+
+  const capped = {
+    ...config,
+    offers: {
+      ...config.offers,
+      review: { ...config.offers.review, max_per_day: 24, max_per_source_per_day: 3 },
+    },
+  };
   const sourceFull = { today: 3, perSource: new Map([['tg-a', 3]]) };
-  assert.deepEqual(reviewCapacity({ config, usage: sourceFull, sourceKey: 'tg-a' }), {
+  assert.deepEqual(reviewCapacity({ config: capped, usage: sourceFull, sourceKey: 'tg-a' }), {
     ok: false,
     reason: 'review_source_cap',
   });
-  assert.equal(reviewCapacity({ config, usage: sourceFull, sourceKey: 'tg-b' }).ok, true);
-
+  assert.equal(reviewCapacity({ config: capped, usage: sourceFull, sourceKey: 'tg-b' }).ok, true);
   const dayFull = { today: 24, perSource: new Map() };
-  assert.deepEqual(reviewCapacity({ config, usage: dayFull, sourceKey: 'tg-b' }), {
+  assert.deepEqual(reviewCapacity({ config: capped, usage: dayFull, sourceKey: 'tg-b' }), {
     ok: false,
     reason: 'review_daily_cap',
   });
-  assert.deepEqual(reviewCapacity({ config, usage: dayFull }), { ok: false, reason: 'review_daily_cap' });
+  assert.deepEqual(reviewCapacity({ config: capped, usage: dayFull }), { ok: false, reason: 'review_daily_cap' });
 });
 
 test('a full review queue defers the offer instead of skipping it', () => {
@@ -433,6 +442,13 @@ test('a full review queue defers the offer instead of skipping it', () => {
     content: 'Free credits for developers. Available while supplies last.',
   };
   const offer = detectOffer(noExpiry);
+  const capped = {
+    ...config,
+    offers: {
+      ...config.offers,
+      review: { ...config.offers.review, max_per_day: 24, max_per_source_per_day: 3 },
+    },
+  };
   const base = {
     offer: { ...offer, ...noExpiry },
     sourceType: 'official_blog',
@@ -440,7 +456,7 @@ test('a full review queue defers the offer instead of skipping it', () => {
     sourceKey: 'openai-news',
     publishedAt: '2026-11-02T15:00:00Z',
     now: NOW,
-    config,
+    config: capped,
     quota,
     usage: { today: 0, week: 0 },
   };
@@ -511,6 +527,19 @@ test('a tool review text marks main eligibility and carries the prepared post', 
   assert.match(text, /متن اصلی کانال/);
   assert.match(text, /https:\/\/t\.me\/testchannel\/10/);
   assert.match(text, /این پیام فقط برای بازبینی است/);
+});
+
+test('a qa-failed review copy is labelled as a draft that still needs fixing', () => {
+  const text = reviewText({
+    candidate: { title: 'خبر', sourceName: 'کانال تست', link: 'https://example.com/post' },
+    assessment: { reason: 'qa_failed' },
+    reason: 'qa_failed',
+    mainEligible: false,
+    post: { title: 'تیتر نیمه‌کاره', body: 'بدنهٔ پست' },
+  });
+  assert.match(text, /بررسی کیفیت پاس نشد/);
+  assert.match(text, /پیش‌نویس پست \(نیازمند اصلاح\):/);
+  assert.doesNotMatch(text, /پست آماده انتشار/);
 });
 
 test('every review message starts with the siren banner and puts the prepared post first', () => {

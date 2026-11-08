@@ -73,6 +73,14 @@ test('education review is uncapped, model-free and verbatim', () => {
   assert.equal(config.education_review.max_text_chars, 0);
 });
 
+test('the main review channel is uncapped and keeps only a retry buffer', () => {
+  assert.equal(config.offers.review.enabled, true);
+  assert.equal(config.offers.review.max_per_day, 0);
+  assert.equal(config.offers.review.max_per_source_per_day, 0);
+  assert.ok(config.offers.review.pending_ttl_hours >= 240);
+  assert.ok(config.offers.review.reasons.includes('qa_failed'));
+});
+
 test('six Tehran slots, sorted, none inside sleeping hours and two posts each', () => {
   const slots = config.schedule.slots;
   assert.equal(slots.length, 6);

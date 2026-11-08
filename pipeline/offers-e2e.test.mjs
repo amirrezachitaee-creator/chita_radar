@@ -161,7 +161,7 @@ test('an official offer with an ambiguous expiry is written to review, not publi
   }
 });
 
-test('review caps queue the overflow and the next day flushes it instead of losing it', async () => {
+test('the uncapped review channel sends every offer in its own run without a pending queue', async () => {
   const { server, port } = await startTwoOfferFixture();
   const dir = await mkdtemp(join(tmpdir(), 'qoder-offer-cap-'));
   const sourcesPath = join(dir, 'sources.json');
@@ -192,37 +192,24 @@ test('review caps queue the overflow and the next day flushes it instead of losi
   ];
 
   try {
-    const first = await run(args('14:00', '2026-11-02T10:30:00Z', '2026-11-02', 2));
-    assert.equal(first.code, 0, first.stderr || first.stdout);
-    assert.match(first.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
+    const runs = [
+      ['14:00', '2026-11-02T10:30:00Z', '2026-11-02'],
+      ['17:00', '2026-11-02T13:30:00Z', '2026-11-02'],
+      ['20:30', '2026-11-02T17:00:00Z', '2026-11-02'],
+      ['23:00', '2026-11-02T19:30:00Z', '2026-11-02'],
+    ];
+    for (const [slot, now, date] of runs) {
+      const result = await run(args(slot, now, date, 1));
+      assert.equal(result.code, 0, result.stderr || result.stdout);
+      assert.match(result.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
+      assert.doesNotMatch(result.stdout, /REVIEW_QUEUED/);
+    }
 
-    const second = await run(args('17:00', '2026-11-02T13:30:00Z', '2026-11-02', 1));
-    assert.equal(second.code, 0, second.stderr || second.stdout);
-    assert.match(second.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
-
-    const third = await run(args('20:30', '2026-11-02T17:00:00Z', '2026-11-02', 1));
-    assert.equal(third.code, 0, third.stderr || third.stdout);
-    assert.match(third.stdout, /REVIEW_REQUIRED reason=expiry_ambiguous/);
-
-    const fourth = await run(args('23:00', '2026-11-02T19:30:00Z', '2026-11-02', 1));
-    assert.equal(fourth.code, 0, fourth.stderr || fourth.stdout);
-    assert.match(fourth.stdout, /REVIEW_QUEUED reason=expiry_ambiguous cap=review_source_cap/);
-
-    const queued = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
-    assert.equal(queued.offerReviews.length, 3);
-    assert.equal(Object.keys(queued.reviewPending).length, 1);
-
-    const fifth = await run(args('17:00', '2026-11-03T13:30:00Z', '2026-11-03', 1));
-    assert.equal(fifth.code, 0, fifth.stderr || fifth.stdout);
-    assert.match(fifth.stdout, /REVIEW_PENDING pool=1/);
-    assert.match(fifth.stdout, /REVIEW_FLUSHED reason=expiry_ambiguous/);
-    assert.match(fifth.stdout, /RESULT EMPTY/);
-
-    const flushed = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
-    assert.equal(flushed.offerReviews.length, 4);
-    assert.equal(Object.keys(flushed.reviewPending).length, 0);
+    const final = JSON.parse(await readFile(join(dir, 'state.json'), 'utf8'));
+    assert.equal(final.offerReviews.length, 4);
+    assert.equal(Object.keys(final.reviewPending).length, 0);
     assert.ok(
-      Object.values(flushed.seen).some(
+      Object.values(final.seen).some(
         (record) => record.decision === 'review' && record.reason === 'expiry_ambiguous'
       )
     );
