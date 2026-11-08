@@ -528,7 +528,7 @@ export function clampText(value, maxChars = 0) {
   return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
 }
 
-export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, toolUrl = '' }) {
+export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, benchmark = false, toolUrl = '' }) {
   const host = (() => {
     try {
       return new URL(url).hostname;
@@ -561,6 +561,21 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
         'اگر صفحه اطلاعات کافی دارد، پست خبری کوتاه بنویس و لینک ثبت‌نام رسمی را به عنوان منبع بیاور.',
       ].join('\n')
     : '';
+  const benchmarkBlock = benchmark
+    ? [
+        'این ورودی یک به‌روزرسانی از یک بنچمارک عمومی و منتشرشدهٔ مقایسهٔ مدل‌های هوش مصنوعی است:',
+        'موضوع آن هوش مصنوعی است و دسته models است؛ آن را با reason_code off_topic یا promo رد نکن.',
+        'تغییر جدول امتیازها خبر محسوب می‌شود و اطلاعاتش از خود بنچمارک آمده است.',
+        'امتیاز کل، جایگاه مدل در جدول و قیمت هر تسک را در پاراگراف اول بیاور؛ امتیازهای بخش‌ها برای quote می‌مانند.',
+        'نام بنچمارک را ترجمه نکن و همان Gamefeel بنویس.',
+        'جایگاه هر مدل را فقط از همان خط rank بردار و برای مدلی که rank ندارد جایگاه نساز.',
+        'برتری بر مدل‌های دیگر را فقط به مدلی نسبت بده که در همان جدول بالاتر از آن‌هاست.',
+        'وزن باز را فقط برای مدلی بنویس که در متن open weights دارد.',
+        'اگر برای مدلی open weights not listed آمده، آن را باز یا بسته معرفی نکن و در جمله اهمیت هم دربارهٔ وزنش نتیجه‌گیری نکن.',
+        'نام بخش‌ها را فارسی بنویس: create کدنویسی، bugfix رفع باگ، gamefeel حس بازی، ideas ایده‌پردازی، visuals تصویری، audio صوتی و re ارزیابی معکوس.',
+        'امتیازها، قیمت و مشخصات را دقیقاً با همان قالب متن خبر بنویس (برای نمونه قیمت را 0.40 بنویس نه 0.4) و مدل‌ها را با نام رسمی خودشان بیاور.',
+      ].join('\n')
+    : '';
   const toolBlock = toolUrl
     ? `لینک استفاده (tool_url): ${toolUrl}`
     : 'لینک استفاده (tool_url): ندارد';
@@ -575,6 +590,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     imageBlock,
     offerBlock,
     courseBlock,
+    benchmarkBlock,
     'یادآوری نگارش: تیتر یک جملهٔ کامل و خبری است، نه سؤال و نه نیمه‌کاره؛ واژهٔ انگلیسی ترجمه‌نشده در آن نگذار؛ تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
     '',
     'متن خبر:',
@@ -860,14 +876,20 @@ function shortenText(value, max) {
   const text = String(value ?? '');
   if (text.length <= max) return text;
   const slice = text.slice(0, Math.max(0, max));
-  const sentence = Math.max(
-    slice.lastIndexOf('.'),
-    slice.lastIndexOf('!'),
-    slice.lastIndexOf('?'),
-    slice.lastIndexOf('؟'),
-    slice.lastIndexOf('…'),
-    slice.lastIndexOf('\n')
-  );
+  let sentence = -1;
+  for (const mark of ['.', '!', '?', '؟', '…', '\n']) {
+    let at = slice.lastIndexOf(mark);
+    // A dot between digits is a decimal separator, not a sentence end.
+    while (
+      mark === '.' &&
+      at > 0 &&
+      /[0-9۰-۹٠-٩]/.test(slice[at - 1]) &&
+      /[0-9۰-۹٠-٩]/.test(text[at + 1] ?? '')
+    ) {
+      at = slice.lastIndexOf(mark, at - 1);
+    }
+    if (at > sentence) sentence = at;
+  }
   if (sentence >= Math.min(80, Math.floor(max * 0.5))) return slice.slice(0, sentence + 1).trim();
   const space = slice.lastIndexOf(' ');
   return (space > 0 ? slice.slice(0, space) : slice).trim();

@@ -11,7 +11,7 @@ const workflow = readFileSync(
 );
 
 const MAIN = ['tools', 'models', 'security', 'business'];
-const USES = new Set(['feed', 'reference', 'lead_only', 'api', 'page']);
+const USES = new Set(['feed', 'reference', 'lead_only', 'api', 'page', 'benchmark']);
 const VENDOR_TYPES = new Set([
   'offer_directory',
   'offer_dataset',
@@ -329,6 +329,7 @@ test('sources without a public feed are reclassified instead of skipped silently
     'artificial-analysis',
     'artificial-analysis-articles',
     'bleepingcomputer',
+    'gamefeel-benchmark',
     'google-news-rss',
     'hf-papers',
     'livebench',
@@ -366,6 +367,19 @@ test('api sources have a verified endpoint and a strict paper filter', () => {
   assert.ok(config.hf_papers.max_candidates >= 1 && config.hf_papers.max_candidates <= 2);
   for (const name of ['openai', 'anthropic', 'google', 'nvidia', 'tencent', 'qwen', 'deepseek']) {
     assert.ok(config.hf_papers.notable_organizations.includes(name), `${name} is missing`);
+  }
+});
+
+test('the gamefeel benchmark is a verified models source with feed and data endpoints', () => {
+  const benchmarks = sources.sources.filter((source) => source.use === 'benchmark');
+  assert.deepEqual(benchmarks.map((source) => source.id), ['gamefeel-benchmark']);
+  for (const source of benchmarks) {
+    assert.equal(source.status, 'verified', `${source.id} is not verified`);
+    assert.match(source.verified_at ?? '', /^\d{4}-\d{2}-\d{2}$/, `${source.id} has no verification date`);
+    assert.match(source.commits_url ?? '', /^https:\/\//, `${source.id} has no commit feed`);
+    assert.match(source.data_url ?? '', /^https:\/\//, `${source.id} has no score data`);
+    assert.ok(source.categories.includes('models'), `${source.id} is not a models source`);
+    assert.equal(source.feed_url, undefined);
   }
 });
 

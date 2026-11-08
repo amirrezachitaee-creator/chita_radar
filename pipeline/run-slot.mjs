@@ -687,7 +687,8 @@ async function main() {
     return (
       Boolean(source.feed_url) ||
       (source.use === 'page' && Boolean(source.index_url)) ||
-      (source.use === 'api' && Boolean(source.api_url))
+      (source.use === 'api' && Boolean(source.api_url)) ||
+      (source.use === 'benchmark' && Boolean(source.commits_url) && Boolean(source.data_url))
     );
   });
   if (SOURCE_FILTER.length) {
@@ -709,7 +710,7 @@ async function main() {
     telegram: config.telegram_discovery,
     hfPapers: config.hf_papers,
   });
-  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} api=${stats.apiItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
+  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} benchmark=${stats.benchmarkItems} api=${stats.apiItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
   for (const error of stats.errors) {
     const label =
       error.kind === 'telegram'
@@ -1386,6 +1387,7 @@ async function main() {
       maxAgeHours: offerContext ? config.offers.max_age_hours : config.freshness_hours.pre_gate,
       offer: offerContext,
       officialCourse: Boolean(candidate.officialCourse),
+      benchmark: candidate.sourceType === 'benchmark',
       toolUrl: toolUsage?.url ?? '',
     };
     const user = buildUserMessage(story);

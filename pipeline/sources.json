@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verified_on": "2026-11-04",
+  "verified_on": "2026-11-08",
   "notes": "هر منبع فید یک نشانی تست‌شده و تاریخ تأیید دارد؛ منابع بدون فید عمومی به لید یا رابط منتقل شده‌اند.",
   "sources": [
     {
@@ -141,6 +141,21 @@
       "use": "page",
       "status": "verified",
       "no_feed_reason": "No RSS; the server-rendered article index is the only dated listing."
+    },
+    {
+      "id": "gamefeel-benchmark",
+      "name": "The Gamefeel Benchmark",
+      "url": "https://kodasdream.github.io/gamefeel-benchmark/",
+      "commits_url": "https://github.com/kodasdream/gamefeel-benchmark/commits/main.atom",
+      "data_url": "https://raw.githubusercontent.com/kodasdream/gamefeel-benchmark/main/data/gamefeelbench.csv",
+      "verified_at": "2026-11-08",
+      "categories": [
+        "models"
+      ],
+      "type": "benchmark",
+      "use": "benchmark",
+      "status": "verified",
+      "no_feed_reason": "No RSS; the public Atom commit feed is the dated listing and the published CSV holds every score."
     },
     {
       "id": "hf-papers",

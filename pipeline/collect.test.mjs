@@ -134,3 +134,50 @@ test('a feed error does not stop the other sources', async () => {
   assert.equal(result.candidates.length, 1);
   assert.equal(result.stats.errors.length, 1);
 });
+
+test('the benchmark source turns a model commit into a models candidate', async () => {
+  const atomFeed = `<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <title type="text">Qwen-4-Flash-Early added to the benchmark data</title>
+    <link rel="alternate" type="text/html" href="https://github.com/kodasdream/gamefeel-benchmark/commit/daa3d11"/>
+    <updated>2026-11-02T12:00:00Z</updated>
+  </entry>
+  <entry>
+    <title type="text">Update README.md</title>
+    <link rel="alternate" type="text/html" href="https://github.com/kodasdream/gamefeel-benchmark/commit/fdeb933"/>
+    <updated>2026-11-02T13:00:00Z</updated>
+  </entry>
+</feed>`;
+  const csv = [
+    'model,effort,lab,price_per_task_usd,context,create,bugfix,gamefeel,ideas,visuals,audio,re,avg,open_weights,size_gb,re_test',
+    'Qwen-4-Flash-Early,Max,Alibaba Qwen,0.4,1M,65,63,52,54,64,31,19.95,49.9,,,,',
+    'Opus-5.5,XHigh,Anthropic,2.6,1M,60,58,50,51,55,33,17,47.2,,,,',
+  ].join('\n');
+
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'gamefeel-benchmark',
+        name: 'The Gamefeel Benchmark',
+        type: 'benchmark',
+        use: 'benchmark',
+        categories: ['models'],
+        commits_url: 'https://feed.example/atom',
+        data_url: 'https://data.example/csv',
+      },
+    ],
+    state: emptyState(),
+    now: NOW,
+    fetchImpl: async (url) => ({ text: url.includes('atom') ? atomFeed : csv, url }),
+  });
+
+  assert.equal(result.candidates.length, 1);
+  const candidate = result.candidates[0];
+  assert.equal(candidate.categoryHint, 'models');
+  assert.equal(candidate.aiCentral, true);
+  assert.equal(candidate.sourceType, 'benchmark');
+  assert.match(candidate.title, /tops The Gamefeel Benchmark with 49\.9/);
+  assert.match(candidate.messageText, /overall 49\.9\/100/);
+  assert.match(candidate.messageText, /Opus-5\.5 47\.2/);
+  assert.equal(result.stats.benchmarkItems, 1);
+});

@@ -5,6 +5,7 @@ import { hasReferral, offerHint } from './offers.mjs';
 import { aiHint, isAiCentral } from './relevance.mjs';
 import { categoryHint } from './diversity.mjs';
 import { fetchArticleIndex } from './benchmark.mjs';
+import { fetchGamefeel } from './gamefeel.mjs';
 import { fetchDailyPapers, selectDailyPapers } from './hf-papers.mjs';
 import {
   classifyLead,
@@ -140,6 +141,78 @@ async function collectIndexSource({
         summary,
         sourceCategories: source.categories ?? [],
       }),
+      keys,
+    });
+  }
+}
+
+async function collectBenchmarkSource({
+  source,
+  state,
+  memoryStates,
+  now,
+  maxAgeHours,
+  perSource,
+  fetchImpl,
+  redact,
+  stats,
+  candidates,
+  seenThisRun,
+}) {
+  stats.sources += 1;
+  let items;
+  try {
+    items = await fetchGamefeel(source, fetchImpl, redact);
+  } catch (error) {
+    stats.errors.push({ source: source.id, kind: 'benchmark', error: String(error?.message ?? error) });
+    return;
+  }
+  stats.benchmarkItems += items.length;
+
+  for (const item of items.slice(0, perSource)) {
+    const gate = freshness(item.published, now, { maxAgeHours });
+    if (!gate.ok) {
+      if (gate.reason === 'no_date' || gate.reason === 'bad_date') stats.noDate += 1;
+      else stats.stale += 1;
+      continue;
+    }
+    let canonical;
+    try {
+      canonical = canonicalUrl(item.link);
+    } catch {
+      stats.noDate += 1;
+      continue;
+    }
+    if (seenThisRun.has(canonical)) {
+      stats.duplicate += 1;
+      continue;
+    }
+    const keys = dedupeKeys({ url: canonical, title: item.title });
+    const seen = seenAcrossLanes(state, memoryStates, keys, now);
+    if (seen) {
+      stats.duplicate += 1;
+      if (seen.crossLane) stats.crossLane += 1;
+      continue;
+    }
+
+    seenThisRun.add(canonical);
+    candidates.push({
+      sourceId: source.id,
+      sourceName: source.name,
+      sourceType: source.type,
+      title: item.title,
+      link: item.link,
+      canonical,
+      published: item.published,
+      summary: item.summary,
+      messageText: item.messageText,
+      images: [],
+      ageHours: gate.ageHours,
+      aiHint: true,
+      aiCentral: true,
+      offerHint: false,
+      sourceCategories: Array.isArray(source.categories) ? source.categories : [],
+      categoryHint: 'models',
       keys,
     });
   }
@@ -506,6 +579,7 @@ export async function collectCandidates({
     sources: 0,
     feedItems: 0,
     indexItems: 0,
+    benchmarkItems: 0,
     apiItems: 0,
     stale: 0,
     noDate: 0,
@@ -536,6 +610,22 @@ export async function collectCandidates({
       continue;
     }
     if (source.status === 'proposed') continue;
+    if (source.use === 'benchmark' && source.commits_url && source.data_url) {
+      await collectBenchmarkSource({
+        source,
+        state,
+        memoryStates,
+        now,
+        maxAgeHours,
+        perSource,
+        fetchImpl,
+        redact,
+        stats,
+        candidates,
+        seenThisRun,
+      });
+      continue;
+    }
     if (source.use === 'page' && source.index_url) {
       await collectIndexSource({
         source,

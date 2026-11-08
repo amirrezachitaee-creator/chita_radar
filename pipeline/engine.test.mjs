@@ -12,6 +12,7 @@ import {
   normalizePostFields,
   qaPost,
   trimBody,
+  trimQuote,
   trimTitle,
   TITLE_MAX_WORDS,
   clampText,
@@ -668,6 +669,12 @@ test('QA expects the usage tail on a tools post and rejects invented links', () 
   assert.equal(invented.checks.find((check) => check.name === 'links_grounded').ok, false);
 });
 
+test('trimQuote never cuts a number at its decimal point', () => {
+  const value = `امتیاز مدل ۴۹.۹ از ۱۰۰ است ${'و '.repeat(50)}`;
+  assert.equal(trimQuote(value, 14), 'امتیاز مدل');
+  assert.equal(trimQuote('یک جمله کوتاه. ادامه ادامه', 20), 'یک جمله کوتاه.');
+});
+
 test('clampText cuts long input at a word boundary for small-context writers', () => {
   const text = 'یک دو سه چهار پنج شش هفت هشت';
   const out = clampText(text, 15);
@@ -691,6 +698,22 @@ test('an official course input carries the news policy to the writer', () => {
   assert.ok(withCourse.includes('دوره رسمی از خود شرکت'));
   assert.ok(withCourse.includes('reason_code promo'));
   assert.equal(withoutCourse.includes('دوره رسمی از خود شرکت'), false);
+});
+
+test('a benchmark update input carries the models policy to the writer', () => {
+  const article = { title: 'Qwen-4-Flash-Early tops The Gamefeel Benchmark', published: '2026-11-07T23:56:28Z', content: 'امتیاز کل 49.9', imageAlt: '' };
+  const story = {
+    item: { title: 'Qwen-4-Flash-Early tops The Gamefeel Benchmark', published: '2026-11-07T23:56:28Z' },
+    article,
+    url: 'https://github.com/kodasdream/gamefeel-benchmark/commit/daa3d11',
+    now: '2026-11-08',
+  };
+  const withBench = buildUserMessage({ ...story, benchmark: true });
+  const withoutBench = buildUserMessage(story);
+  assert.ok(withBench.includes('بنچمارک عمومی و منتشرشدهٔ'));
+  assert.ok(withBench.includes('دسته models است'));
+  assert.ok(withBench.includes('off_topic'));
+  assert.equal(withoutBench.includes('بنچمارک عمومی و منتشرشدهٔ'), false);
 });
 
 test('buildUserMessage can clamp the article for the emergency writer', () => {
