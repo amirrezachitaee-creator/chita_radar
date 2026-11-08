@@ -55,7 +55,7 @@ import {
   DEFER_TTL_HOURS,
 } from './store.mjs';
 import { sendTelegram, sendText, sendPhotoUrl, captionLength, postText } from './telegram.mjs';
-import { newsDateLine } from './newstime.mjs';
+import { newsDateLine, effectiveDateLine } from './newstime.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const args = process.argv.slice(2);
@@ -118,6 +118,21 @@ const STRICT_FRESH_HOURS = Math.min(
   )
 );
 const registry = JSON.parse(await readFile(resolve(ROOT, SOURCES_FILE), 'utf8'));
+const policySettings = config.policy_watch || {};
+const POLICY_ENABLED = policySettings.enabled !== false;
+const defaultPolicyState = SEND
+  ? REVIEW_SEND
+    ? 'data/policy-state.review.json'
+    : policySettings.state_path || 'data/policy-state.json'
+  : 'data/policy-state.dry.json';
+const POLICY_STATE_PATH = resolve(ROOT, option('--policy-state', defaultPolicyState));
+let policyState = { targets: {} };
+try {
+  const savedPolicy = JSON.parse(await readFile(POLICY_STATE_PATH, 'utf8'));
+  if (savedPolicy && typeof savedPolicy === 'object') policyState = savedPolicy;
+} catch {
+  policyState = { targets: {} };
+}
 const vendorDocument = JSON.parse(
   await readFile(resolve(ROOT, config.offers?.watch?.vendors_file || 'pipeline/vendors.json'), 'utf8')
 );
@@ -688,6 +703,7 @@ async function main() {
       Boolean(source.feed_url) ||
       (source.use === 'page' && Boolean(source.index_url)) ||
       (source.use === 'api' && Boolean(source.api_url)) ||
+      (source.use === 'policy' && POLICY_ENABLED && Array.isArray(source.watch_urls)) ||
       (source.use === 'benchmark' && Boolean(source.commits_url) && Boolean(source.data_url))
     );
   });
@@ -709,8 +725,18 @@ async function main() {
     redact,
     telegram: config.telegram_discovery,
     hfPapers: config.hf_papers,
+    policyState,
+    policy: {
+      reminder_days: Number(policySettings.reminder_days ?? 7),
+      slot_date: slot.date,
+    },
   });
-  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} benchmark=${stats.benchmarkItems} api=${stats.apiItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
+  if (sources.some((source) => source.use === 'policy')) {
+    await mkdir(resolve(ROOT, 'data'), { recursive: true });
+    await writeFile(POLICY_STATE_PATH, `${JSON.stringify(policyState, null, 2)}\n`);
+    console.log(`POLICY_STATE saved`);
+  }
+  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} benchmark=${stats.benchmarkItems} policy=${stats.policyItems} policy_changes=${stats.policyChanges} policy_reminder=${stats.policyReminder} api=${stats.apiItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
   for (const error of stats.errors) {
     const label =
       error.kind === 'telegram'
@@ -719,7 +745,9 @@ async function main() {
           ? 'INDEX_ERROR'
           : error.kind === 'api'
             ? 'API_ERROR'
-            : 'FEED_ERROR';
+            : error.kind === 'policy'
+              ? 'POLICY_ERROR'
+              : 'FEED_ERROR';
     console.log(`  ${label} ${error.source}: ${error.error}`);
   }
   const tg = stats.telegram;
@@ -1098,6 +1126,14 @@ async function main() {
     }
     const label = `${candidate.sourceName} | ${candidate.title} | ${candidate.ageHours}h`;
     const deferredLabel = candidate.deferred ? ` | deferred ${candidate.deferred.attempts}/${MAX_DEFER_ATTEMPTS}` : '';
+    if (candidate.policyReminder && policyState?.targets?.[candidate.sourceId]) {
+      const target = policyState.targets[candidate.sourceId];
+      if (target.last_reminder_date !== slot.date) {
+        target.last_reminder_date = slot.date;
+        await writeFile(POLICY_STATE_PATH, `${JSON.stringify(policyState, null, 2)}\n`);
+        console.log(`POLICY_REMINDER_DAY ${slot.date}`);
+      }
+    }
     console.log(`ATTEMPT ${index + 1}/${queue.length}${deferredLabel} ${label}`);
     const applyPolicy = (value) => {
       const next = applyLeadPolicy(value, candidate);
@@ -1187,12 +1223,22 @@ async function main() {
       }
     }
 
-    const publishedAt =
-      earliestDate(article.published, article.modified, candidate.published) ||
-      article.published ||
-      candidate.published;
+    if (candidate.policy && candidate.messageText) {
+      const note = String(candidate.messageText).trim();
+      if (note && !article.content.includes(note)) {
+        article.content = `${note}\n\n${article.content}`;
+        console.log(`  POLICY_CONTEXT +${note.length} chars`);
+      }
+    }
+
+    const publishedAt = candidate.policy
+      ? candidate.published || article.published || NOW
+      : earliestDate(article.published, article.modified, candidate.published) ||
+        article.published ||
+        candidate.published;
     article.published = publishedAt;
-    const newsDate = newsDateLine(publishedAt);
+    const effectiveLine = candidate.effectiveDate ? effectiveDateLine(candidate.effectiveDate) : '';
+    const newsDate = [newsDateLine(publishedAt), effectiveLine].filter(Boolean).join('\n');
     let toolUsage = null;
     const finalizePost = (value) => {
       const policy = applyPolicy(value);
@@ -1206,6 +1252,8 @@ async function main() {
         sourceType: candidate.sourceType,
         openEnded: Boolean(offerContext?.openEnded),
         noExpiryNote: offerContext?.note ?? '',
+        policyIran:
+          Boolean(candidate.policyCountries?.verified) && candidate.policyCountries?.hasIran === false,
       });
       if (fixed.title !== policy.title) console.log('  TITLE_TRIM');
       if (fixed.body !== policy.body) console.log('  BODY_TRIM');
@@ -1215,7 +1263,9 @@ async function main() {
       return fixed;
     };
 
-    const gate = freshness(publishedAt, NOW, { maxAgeHours: config.freshness_hours.pre_gate });
+    const gate = candidate.policy
+      ? { ok: true, reason: 'ok', ageHours: 0, maxAgeHours: config.freshness_hours.pre_gate }
+      : freshness(publishedAt, NOW, { maxAgeHours: config.freshness_hours.pre_gate });
     if (!gate.ok) {
       if (gate.reason === 'stale') {
         attempts.push({ title: candidate.title, result: `gate_${gate.reason}` });
@@ -1388,6 +1438,10 @@ async function main() {
       offer: offerContext,
       officialCourse: Boolean(candidate.officialCourse),
       benchmark: candidate.sourceType === 'benchmark',
+      policy: Boolean(candidate.policy),
+      effectiveDate: candidate.effectiveDate || '',
+      policyIran:
+        Boolean(candidate.policyCountries?.verified) && candidate.policyCountries?.hasIran === false,
       toolUrl: toolUsage?.url ?? '',
     };
     const user = buildUserMessage(story);
@@ -1476,6 +1530,11 @@ async function main() {
       usageUrl: toolUsage?.url ?? '',
       publishedAt,
       now: NOW,
+      newsDate,
+      effectiveDate: candidate.effectiveDate || '',
+      policy: Boolean(candidate.policy),
+      policyIran:
+        Boolean(candidate.policyCountries?.verified) && candidate.policyCountries?.hasIran === false,
       offer: offerContext,
       officialResolved,
       previousWhy,
@@ -1560,6 +1619,11 @@ async function main() {
     }
 
     if (parsed.decision === 'skip') {
+      if (candidate.policy) {
+        attempts.push({ title: candidate.title, result: 'policy_skip', reason: parsed.reason, cost, tokens });
+        console.log(`  POLICY_SKIP ${parsed.reason_code || '-'} | ${String(parsed.reason || '').slice(0, 120)}`);
+        continue;
+      }
       if (protectedLead || offerContext) {
         const kind = offerContext || candidate.offerHint || preOffer.isOffer ? 'offer' : 'tool';
         await deliverReview({
@@ -1586,6 +1650,11 @@ async function main() {
     }
 
     if (!qa.pass) {
+      if (candidate.policy) {
+        attempts.push({ title: candidate.title, result: 'policy_qa_failed', problems: qa.problems, cost, tokens });
+        console.log(`  POLICY_QA_FAILED ${qa.problems.join(',')} | score ${qa.score}/${qa.possible}`);
+        continue;
+      }
       if (offerContext && qa.problems.some((problem) => problem.startsWith('offer_'))) {
         await deliverReview({
           candidate,
@@ -1644,6 +1713,11 @@ async function main() {
       console.log(`  TOOL_LINK ${toolUsage ? `applied ${toolUsage.url}` : 'none | source line kept'}`);
     }
     if (!MAIN_CATEGORIES.includes(category)) {
+      if (candidate.policy) {
+        attempts.push({ title: candidate.title, result: 'policy_bad_category', category: String(category ?? ''), cost, tokens });
+        console.log(`  POLICY_CATEGORY ${category}`);
+        continue;
+      }
       if (candidate.toolHint || candidate.officialCourse || offerContext) {
         await deliverReview({
           candidate,
@@ -1660,6 +1734,11 @@ async function main() {
       continue;
     }
     if (quota[category].remaining <= 0) {
+      if (candidate.policy) {
+        attempts.push({ title: candidate.title, result: 'policy_quota_full', category, cost, tokens });
+        console.log(`  POLICY_QUOTA_FULL ${category}`);
+        continue;
+      }
       if (candidate.toolHint || candidate.officialCourse || offerContext) {
         await deliverReview({
           candidate,
@@ -1681,6 +1760,10 @@ async function main() {
     const todayCategoryCount = categoryCountForDate(state, slot.date)[category] ?? 0;
     if (todayCategoryCount >= categoryCap) {
       console.log(`  DIVERSITY_CATEGORY_DAILY ${category} ${todayCategoryCount}/${categoryCap}`);
+      if (candidate.policy) {
+        attempts.push({ title: candidate.title, result: 'policy_category_daily_cap', category, cost, tokens });
+        continue;
+      }
       await deferOrClose(candidate, 'category_daily_cap', category);
       continue;
     }
@@ -1691,6 +1774,10 @@ async function main() {
       previous?.category === category
     ) {
       console.log(`  DIVERSITY_CATEGORY_CONSECUTIVE ${category}`);
+      if (candidate.policy) {
+        attempts.push({ title: candidate.title, result: 'policy_category_consecutive', category, cost, tokens });
+        continue;
+      }
       await deferOrClose(candidate, 'category_consecutive', category);
       continue;
     }

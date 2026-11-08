@@ -180,7 +180,7 @@ jobs:
           set -euo pipefail
           if [ ! -d .git ]; then echo "NO_GIT_CHECKOUT"; exit 0; fi
           files=()
-          for f in data/state.json data/state.review.json data/offer-watch.json; do
+          for f in data/state.json data/state.review.json data/offer-watch.json data/policy-state.json; do
             if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
           done
           if [ ${#files[@]} -eq 0 ]; then

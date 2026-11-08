@@ -6,6 +6,7 @@ import {
   countTitleWords,
   ensureSourceLine,
   ensureOpenEndedNote,
+  ensurePolicyIranNote,
   fitImageCaption,
   imageVerdict,
   isFalseStaleSkip,
@@ -1126,4 +1127,91 @@ test('an official company blog gets the official verification label mechanically
   assert.equal(news.verification, 'reported');
   const rumor = applyMechanicalFixes({ ...base, verification: 'rumor' }, { sourceType: 'official_blog' });
   assert.equal(rumor.verification, 'rumor');
+
+  const policy = applyMechanicalFixes(base, {
+    sourceName: 'Anthropic',
+    sourceUrl: 'https://www.anthropic.com/legal/aup',
+    sourceType: 'policy',
+  });
+  assert.equal(policy.verification, 'official');
+});
+
+test('a policy input carries the effective date and the Iran rule to the writer', () => {
+  const article = {
+    title: 'Updating our Usage Policy',
+    published: '2026-10-08T00:00:00Z',
+    content: 'The updated policy takes effect on November 12. Our policy prohibits the use of Claude in unsupported regions.',
+    imageAlt: '',
+  };
+  const story = {
+    item: { title: 'Updating our Usage Policy', published: '2026-10-08T00:00:00Z' },
+    article,
+    url: 'https://www.anthropic.com/news/2026-usage-policy-update',
+    now: '2026-11-08',
+  };
+  const withPolicy = buildUserMessage({
+    ...story,
+    policy: true,
+    effectiveDate: '2026-11-12',
+    policyIran: true,
+  });
+  assert.ok(withPolicy.includes('دسته باید business باشد'));
+  assert.ok(withPolicy.includes('۲۱ آبان ۱۴۰۵'));
+  assert.ok(withPolicy.includes('2026-11-12'));
+  assert.ok(withPolicy.includes('ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست'));
+  assert.ok(withPolicy.includes('حذف نکن'));
+  assert.ok(withPolicy.includes('برنامهٔ مسدودسازی حساب اعلام نکرده است'));
+  assert.ok(withPolicy.includes('نقل‌قول انگلیسی'));
+
+  const withoutPolicy = buildUserMessage(story);
+  assert.equal(withoutPolicy.includes('دسته باید business باشد'), false);
+  assert.equal(withoutPolicy.includes('ایران در فهرست رسمی'), false);
+});
+
+test('the missing Iran fact is added mechanically to the last paragraph', () => {
+  const note = 'ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست و کشورهای فهرست‌نشده پشتیبانی نمی‌شوند.';
+  const parsed = {
+    decision: 'publish',
+    body: 'لید خبر.\n\nاهمیتش اینه که دسترسی شفاف‌تر می‌شه.',
+  };
+  const fixed = ensurePolicyIranNote(parsed, true);
+  assert.ok(fixed.body.startsWith('لید خبر.'));
+  assert.ok(fixed.body.includes(`${note} اهمیتش اینه که دسترسی شفاف‌تر می‌شه.`));
+  assert.equal(fixed.body.split(/\n{2,}/).length, 2);
+
+  const already = ensurePolicyIranNote(
+    { decision: 'publish', body: 'لید.\n\nایران در فهرست کشورهای پشتیبانی‌شده نیست.' },
+    true
+  );
+  assert.equal(already.body, 'لید.\n\nایران در فهرست کشورهای پشتیبانی‌شده نیست.');
+
+  const off = ensurePolicyIranNote(parsed, false);
+  assert.equal(off.body, parsed.body);
+});
+
+test('mechanical policy fixes keep the Iran fact and the source tail', () => {
+  const base = {
+    decision: 'publish',
+    category: 'business',
+    post_type: 'standard',
+    importance: 4,
+    title: 'سیاست تازهٔ استفاده از سرویس',
+    body: [
+      'لید خبر دربارهٔ سیاست استفاده از سرویس.',
+      'اهمیتش اینه که کاربرها تکلیف دسترسی رو بهتر می‌دونن.',
+    ].join('\n\n'),
+    quote: '',
+    verification: 'reported',
+    dedupe_key: 'policy-iran-mechanical',
+  };
+  const fixed = applyMechanicalFixes(base, {
+    sourceName: 'Anthropic',
+    sourceUrl: 'https://www.anthropic.com/news/2026-usage-policy-update',
+    sourceType: 'policy',
+    policyIran: true,
+  });
+  assert.ok(fixed.body.includes('ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست'));
+  assert.ok(fixed.body.endsWith('منبع: [Anthropic](https://www.anthropic.com/news/2026-usage-policy-update)'));
+  assert.ok(fixed.body.length <= 990);
+  assert.equal(fixed.verification, 'official');
 });

@@ -1,6 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { newsDate, newsDateLine } from './newstime.mjs';
+import {
+  effectiveDate,
+  effectiveDateLine,
+  effectiveDateParts,
+  mentionsEffectiveDate,
+  newsDate,
+  newsDateLine,
+} from './newstime.mjs';
 import { captionLength, postHtml, postText } from './telegram.mjs';
 import { qaPost } from './engine.mjs';
 
@@ -91,4 +98,77 @@ test('QA has no date line when the timestamp is invalid', () => {
   const dateCheck = qa.checks.find((check) => check.name === 'news_date');
   assert.equal(dateCheck.ok, false);
   assert.equal(dateCheck.hard, false);
+});
+
+test('the effective date is rendered in Jalali with its own line', () => {
+  assert.equal(effectiveDate('2026-11-12T12:00:00Z'), '۲۱ آبان ۱۴۰۵');
+  assert.deepEqual(effectiveDateParts('2026-11-12T12:00:00Z'), {
+    day: '۲۱',
+    month: 'آبان',
+    year: '۱۴۰۵',
+    text: '۲۱ آبان ۱۴۰۵',
+  });
+  assert.equal(effectiveDateLine('2026-11-12T12:00:00Z'), '📅 تاریخ اجرا: ۲۱ آبان ۱۴۰۵');
+  assert.equal(effectiveDateLine(''), '');
+  assert.equal(effectiveDateLine('not a date'), '');
+});
+
+test('the effective date can be matched inside the body regardless of year or digits', () => {
+  const iso = '2026-11-12';
+  assert.equal(mentionsEffectiveDate('این سیاست از ۲۱ آبان ۱۴۰۵ اجرا می‌شه.', iso), true);
+  assert.equal(mentionsEffectiveDate('این سیاست از ۲۱ آبان اجرا می‌شه.', iso), true);
+  assert.equal(mentionsEffectiveDate('تاریخ اجرا 2026-11-12 است.', iso), true);
+  assert.equal(mentionsEffectiveDate('این سیاست از ۲۲ آبان ۱۴۰۵ اجرا می‌شه.', iso), false);
+  assert.equal(mentionsEffectiveDate('متن بدون تاریخ', ''), false);
+});
+
+test('QA rejects a policy body that drops the effective date', () => {
+  const policyContext = { ...context, effectiveDate: '2026-11-12', policy: true };
+  const missing = qaPost(
+    { ...basePost, title: 'سیاست تازهٔ استفاده از سرویس', body: 'لید خبر.\n\nاهمیتش اینه که دسترسی روشن‌تر می‌شه.' },
+    policyContext
+  );
+  assert.ok(missing.problems.includes('effective_date'));
+  const present = qaPost(
+    {
+      ...basePost,
+      title: 'سیاست تازهٔ استفاده از سرویس',
+      body: 'این سیاست از ۲۱ آبان ۱۴۰۵ اجرا می‌شه.\n\nاهمیتش اینه که دسترسی روشن‌تر می‌شه.',
+    },
+    policyContext
+  );
+  assert.equal(present.problems.includes('effective_date'), false);
+});
+
+test('QA rejects a policy body that only implies Iran instead of stating the list fact', () => {
+  const policyContext = { ...context, effectiveDate: '2026-11-12', policy: true, policyIran: true };
+  const vague = qaPost(
+    {
+      ...basePost,
+      title: 'سیاست تازهٔ استفاده از سرویس',
+      body: 'این سیاست از ۲۱ آبان ۱۴۰۵ اجرا می‌شه.\n\nاین تغییر برای کاربران ایرانی مهمه.',
+    },
+    policyContext
+  );
+  assert.ok(vague.problems.includes('policy_iran'));
+
+  const explicit = qaPost(
+    {
+      ...basePost,
+      title: 'سیاست تازهٔ استفاده از سرویس',
+      body: 'این سیاست از ۲۱ آبان ۱۴۰۵ اجرا می‌شه. ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست.',
+    },
+    policyContext
+  );
+  assert.equal(explicit.problems.includes('policy_iran'), false);
+
+  const noIranRule = qaPost(
+    {
+      ...basePost,
+      title: 'سیاست تازهٔ استفاده از سرویس',
+      body: 'این سیاست از ۲۱ آبان ۱۴۰۵ اجرا می‌شه.\n\nاین تغییر برای کاربران ایرانی مهمه.',
+    },
+    { ...policyContext, policyIran: false }
+  );
+  assert.equal(noIranRule.problems.includes('policy_iran'), false);
 });

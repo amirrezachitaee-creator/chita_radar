@@ -6,6 +6,7 @@ import { aiHint, isAiCentral } from './relevance.mjs';
 import { categoryHint } from './diversity.mjs';
 import { fetchArticleIndex } from './benchmark.mjs';
 import { fetchGamefeel } from './gamefeel.mjs';
+import { watchPolicySource } from './policy-watch.mjs';
 import { fetchDailyPapers, selectDailyPapers } from './hf-papers.mjs';
 import {
   classifyLead,
@@ -30,6 +31,7 @@ export { categoryHint };
 export function rankCandidates(candidates) {
   return [...candidates].sort(
     (left, right) =>
+      Number(right.policy) - Number(left.policy) ||
       Number(right.offerHint) - Number(left.offerHint) ||
       Number(right.aiCentral) - Number(left.aiCentral) ||
       Number(right.aiHint) - Number(left.aiHint) ||
@@ -214,6 +216,101 @@ async function collectBenchmarkSource({
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],
       categoryHint: 'models',
       keys,
+    });
+  }
+}
+
+async function collectPolicySource({
+  source,
+  state,
+  memoryStates,
+  now,
+  maxAgeHours,
+  fetchImpl,
+  redact,
+  stats,
+  candidates,
+  seenThisRun,
+  policyState,
+  policy,
+}) {
+  stats.sources += 1;
+  if (!policyState || typeof policyState !== 'object') {
+    stats.errors.push({ source: source.id, kind: 'policy', error: 'policy_state_missing' });
+    return;
+  }
+
+  let result;
+  try {
+    result = await watchPolicySource({
+      source,
+      policyState,
+      now,
+      fetchImpl,
+      redact,
+      reminderDays: Number(policy?.reminder_days ?? 7),
+      slotDate: policy?.slot_date || '',
+    });
+  } catch (error) {
+    stats.errors.push({ source: source.id, kind: 'policy', error: String(error?.message ?? error) });
+    return;
+  }
+  for (const error of result.errors) {
+    stats.errors.push({ source: source.id, kind: 'policy', error: `${error.url}: ${error.error}` });
+  }
+
+  stats.policyItems += result.items.length;
+  stats.policyChanges += result.changes.length;
+  stats.policyReminder += result.reminder ? 1 : 0;
+
+  for (const item of result.items) {
+    const canonical = item.canonical;
+    if (seenThisRun.has(canonical)) {
+      stats.duplicate += 1;
+      continue;
+    }
+    const seen = seenAcrossLanes(state, memoryStates, item.keys, now);
+    if (seen) {
+      stats.duplicate += 1;
+      if (seen.crossLane) stats.crossLane += 1;
+      continue;
+    }
+    const gate = freshness(item.published, now, { maxAgeHours });
+    if (!gate.ok) {
+      if (gate.reason === 'no_date' || gate.reason === 'bad_date') stats.noDate += 1;
+      else stats.stale += 1;
+      continue;
+    }
+
+    seenThisRun.add(canonical);
+    candidates.push({
+      sourceId: source.id,
+      sourceName: source.name,
+      sourceType: source.type,
+      policy: true,
+      policyKind: item.policyKind,
+      policyReminder: item.policyKind === 'effective_reminder',
+      effectiveDate: item.effectiveDate || '',
+      policyPageUrl: item.pageUrl || '',
+      policyPageLabel: item.pageLabel || '',
+      policyCountries: result.countries || null,
+      title: item.title,
+      link: item.link,
+      canonical,
+      published: item.published,
+      summary: item.summary,
+      messageText: item.messageText,
+      images: [],
+      ageHours: gate.ageHours,
+      aiHint: true,
+      aiCentral: true,
+      offerHint: false,
+      sourceCategories: Array.isArray(source.categories) ? source.categories : [],
+      categoryHint: 'business',
+      keys: item.keys,
+      educationHint: false,
+      webEducation: false,
+      leadKind: 'policy',
     });
   }
 }
@@ -574,12 +671,17 @@ export async function collectCandidates({
   redact,
   telegram = {},
   hfPapers = {},
+  policyState = null,
+  policy = {},
 }) {
   const stats = {
     sources: 0,
     feedItems: 0,
     indexItems: 0,
     benchmarkItems: 0,
+    policyItems: 0,
+    policyChanges: 0,
+    policyReminder: 0,
     apiItems: 0,
     stale: 0,
     noDate: 0,
@@ -610,6 +712,23 @@ export async function collectCandidates({
       continue;
     }
     if (source.status === 'proposed') continue;
+    if (source.use === 'policy' && Array.isArray(source.watch_urls)) {
+      await collectPolicySource({
+        source,
+        state,
+        memoryStates,
+        now,
+        maxAgeHours,
+        fetchImpl,
+        redact,
+        stats,
+        candidates,
+        seenThisRun,
+        policyState,
+        policy,
+      });
+      continue;
+    }
     if (source.use === 'benchmark' && source.commits_url && source.data_url) {
       await collectBenchmarkSource({
         source,

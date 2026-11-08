@@ -11,7 +11,7 @@ const workflow = readFileSync(
 );
 
 const MAIN = ['tools', 'models', 'security', 'business'];
-const USES = new Set(['feed', 'reference', 'lead_only', 'api', 'page', 'benchmark']);
+const USES = new Set(['feed', 'reference', 'lead_only', 'api', 'page', 'benchmark', 'policy']);
 const VENDOR_TYPES = new Set([
   'offer_directory',
   'offer_dataset',
@@ -325,6 +325,7 @@ test('sources without a public feed are reclassified instead of skipped silently
     .sort();
   assert.deepEqual(reclassified, [
     'anthropic-news',
+    'anthropic-usage-policy',
     'arena',
     'artificial-analysis',
     'artificial-analysis-articles',
@@ -389,4 +390,30 @@ test('the remaining proposed sources are recorded as proposed, not verified', ()
     .map((source) => source.id)
     .sort();
   assert.deepEqual(proposed, ['bleepingcomputer', 'gdelt', 'wsj']);
+});
+
+test('the policy source watches the official news, legal text and country list', () => {
+  const policies = sources.sources.filter((source) => source.use === 'policy');
+  assert.deepEqual(policies.map((source) => source.id), ['anthropic-usage-policy']);
+  const [policy] = policies;
+  assert.equal(policy.status, 'verified');
+  assert.match(policy.verified_at ?? '', /^\d{4}-\d{2}-\d{2}$/, 'the policy source has no verification date');
+  assert.ok(policy.categories.includes('business'), 'the policy source is not a business source');
+  assert.equal(policy.feed_url, undefined);
+  assert.deepEqual(
+    policy.watch_urls.map((entry) => entry.parser),
+    ['policy', 'article', 'countries']
+  );
+  for (const entry of policy.watch_urls) {
+    assert.match(entry.url ?? '', /^https:\/\//, 'a watched policy page has no https url');
+    assert.ok(entry.label_fa, 'a watched policy page has no Persian label');
+  }
+  assert.equal(config.policy_watch.enabled, true);
+  assert.ok(config.policy_watch.reminder_days >= 1);
+  assert.match(
+    config.policy_watch.state_path ?? '',
+    /^data\/policy-state\.json$/,
+    'the policy state lives outside the daily state lanes'
+  );
+  assert.match(workflow, /data\/policy-state\.json/, 'the workflow does not commit the policy state');
 });

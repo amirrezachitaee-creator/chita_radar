@@ -29,6 +29,36 @@
       "no_feed_reason": "no public RSS/Atom feed found on 2026-11-04"
     },
     {
+      "id": "anthropic-usage-policy",
+      "name": "Anthropic Usage Policy",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "verified_at": "2026-11-08",
+      "categories": [
+        "business"
+      ],
+      "type": "policy",
+      "use": "policy",
+      "status": "verified",
+      "watch_urls": [
+        {
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "parser": "policy",
+          "label_fa": "خبر سیاست استفاده"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/aup",
+          "parser": "article",
+          "label_fa": "متن سیاست استفاده"
+        },
+        {
+          "url": "https://www.anthropic.com/supported-countries",
+          "parser": "countries",
+          "label_fa": "فهرست کشورهای پشتیبانی‌شده"
+        }
+      ],
+      "no_feed_reason": "The policy pages have no dated feed; the official pages are hashed for changes and the effective date is read from the policy post."
+    },
+    {
       "id": "google-ai-blog",
       "name": "Google AI Blog",
       "url": "https://blog.google/technology/ai/",

@@ -3,7 +3,7 @@ import { resolve } from 'node:path';
 import { canonicalUrl, contentHash, freshness, windowFor } from './normalize.mjs';
 import { dateMentioned, hasReferral } from './offers.mjs';
 import { hasAiMention } from './relevance.mjs';
-import { newsDateLine } from './newstime.mjs';
+import { newsDateLine, mentionsEffectiveDate, effectiveDate as formatEffectiveDate } from './newstime.mjs';
 import { formatTitle } from './telegram.mjs';
 
 export const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36';
@@ -528,7 +528,7 @@ export function clampText(value, maxChars = 0) {
   return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
 }
 
-export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, benchmark = false, toolUrl = '' }) {
+export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, benchmark = false, toolUrl = '', policy = false, effectiveDate = '', policyIran = false }) {
   const host = (() => {
     try {
       return new URL(url).hostname;
@@ -579,6 +579,23 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
   const toolBlock = toolUrl
     ? `لینک استفاده (tool_url): ${toolUrl}`
     : 'لینک استفاده (tool_url): ندارد';
+  const policyBlock = policy
+    ? [
+        'این ورودی یک تغییر یا یادآوری رسمی سیاست استفاده از سرویس است:',
+        'دسته باید business باشد؛ آن را با reason_code off_topic یا promo رد نکن.',
+        effectiveDate
+          ? `تاریخ اجرا: ${formatEffectiveDate(effectiveDate)} (${effectiveDate})؛ همین تاریخ را با روز، ماه و سال در متن پست بیاور.`
+          : '',
+        'فقط محدودیت‌های متن رسمی را بنویس: حضور فیزیکی در منطقهٔ پشتیبانی‌نشده، ثبت یا مرکزیت شرکت در آن منطقه، و عمده مالکیت یا کنترل شرکت توسط افراد یا نهادهای همان منطقه.',
+        policyIran
+          ? 'ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست و صفحهٔ رسمی می‌گوید کشورهای فهرست‌نشده پشتیبانی نمی‌شوند؛ یک جملهٔ صریح و کوتاه در body بیاور که ایران در این فهرست نیست و آن را حتی هنگام کوتاه‌کردن متن حذف نکن.'
+          : '',
+        'صفحهٔ رسمی زمان‌بندی یا برنامهٔ مسدودسازی حساب اعلام نکرده است؛ تاریخ یا احتمال مسدودسازی نساز.',
+        'نقل‌قول انگلیسی را از متن رسمی بیاور و تیتر را فارسی و بدون واژهٔ لاتین بنویس.',
+      ]
+        .filter(Boolean)
+        .join('\n')
+    : '';
   return [
     `عنوان: ${article.title || item.title}`,
     `تاریخ انتشار: ${article.published || item.published}`,
@@ -590,6 +607,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     imageBlock,
     offerBlock,
     courseBlock,
+    policyBlock,
     benchmarkBlock,
     'یادآوری نگارش: تیتر یک جملهٔ کامل و خبری است، نه سؤال و نه نیمه‌کاره؛ واژهٔ انگلیسی ترجمه‌نشده در آن نگذار؛ تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
     '',
@@ -1015,15 +1033,16 @@ export function ensureDedupeKey(parsed, { sourceUrl = '', title = '' } = {}) {
   return { ...parsed, dedupe_key: `post-${contentHash(seed)}` };
 }
 
-export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '', imageUrl = '', newsDate = '', sourceType = '', openEnded = false, noExpiryNote = '' } = {}) {
+export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '', imageUrl = '', newsDate = '', sourceType = '', openEnded = false, noExpiryNote = '', policyIran = false } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   let next = normalizePostFields(parsed);
-  if (sourceType === 'official_blog' && (!next.verification || next.verification === 'reported')) {
+  if (['official_blog', 'policy'].includes(sourceType) && (!next.verification || next.verification === 'reported')) {
     next = { ...next, verification: 'official' };
   }
   if (imageUrl && next.post_type === 'deep') next = { ...next, post_type: 'standard' };
   next = ensureSourceLine(next, { sourceName, sourceUrl, usageUrl, usageName });
   next = enforceDetailQuote(next);
+  next = ensurePolicyIranNote(next, policyIran);
   if (openEnded) next = ensureOpenEndedNote(next, noExpiryNote);
   next = ensureDedupeKey(next, { sourceUrl, title: next.title });
   const bounds = lengthBounds(next.post_type) ?? lengthBounds('standard');
@@ -1090,6 +1109,8 @@ const QA_FIX_HINTS = {
   verification_source: 'برای رسانه خبری reported (یا rumor/unverified) و برای وبلاگ رسمی خود شرکت official بگذار.',
   grounding_superlatives: 'بزرگ‌نمایی یا صفت قطعی که در منبع نیست را حذف کن؛ اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
   numbers_grounded: 'فقط اعدادی را بنویس که در منبع آمده‌اند.',
+  effective_date: 'تاریخ اجرا را با روز، ماه و سال (مثلاً ۲۱ آبان ۱۴۰۵) داخل body بیاور؛ تاریخ ساختگی نساز.',
+  policy_iran: 'یک جملهٔ صریح در body بیاور که ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست؛ فقط گفتن «کاربران ایرانی» کافی نیست.',
 };
 
 export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previousWhy = '', newsDate = '', usageUrl = '', usageName = '' }) {
@@ -1230,6 +1251,32 @@ ${notes.join('\n')}
 {"title":"..."}`;
 }
 
+const policyIranMentioned = (body) => {
+  const text = String(body ?? '').replace(/\u200c/g, ' ').replace(/\s+/g, ' ');
+  return (
+    /ایران(?![\u0600-\u06FF])[^.!؟\n]{0,120}(پشتیبانی|فهرست|لیست)/.test(text) ||
+    /(پشتیبانی|فهرست|لیست)[^.!؟\n]{0,120}ایران(?![\u0600-\u06FF])/.test(text)
+  );
+};
+
+const POLICY_IRAN_NOTE =
+  'ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست و کشورهای فهرست‌نشده پشتیبانی نمی‌شوند.';
+
+export function ensurePolicyIranNote(parsed, policyIran = false) {
+  if (!policyIran || !parsed || parsed.decision !== 'publish') return parsed;
+  const body = String(parsed.body ?? '');
+  if (policyIranMentioned(body)) return parsed;
+  const { content, source } = splitSourceLine(body);
+  const paragraphs = content.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean);
+  if (!paragraphs.length) return parsed;
+  const last = paragraphs.length - 1;
+  paragraphs[last] =
+    paragraphs.length > 1
+      ? `${POLICY_IRAN_NOTE} ${paragraphs[last]}`
+      : `${paragraphs[last]} ${POLICY_IRAN_NOTE}`;
+  return { ...parsed, body: `${paragraphs.join('\n\n')}${source ? `\n\n${source}` : ''}` };
+}
+
 export function qaPost(parsed, context) {
   const checks = [];
   const add = (name, ok, detail = '', hard = true) => {
@@ -1264,7 +1311,7 @@ export function qaPost(parsed, context) {
   const bullets = (body.match(/^\s*[-•–]\s+/gm) || []).length;
   const tags = ((`${body}\n${quote}`).match(/#[\p{L}\p{N}_]+/gu) || []).length;
   const type = parsed.post_type;
-  const newsDate = newsDateLine(context.publishedAt);
+  const newsDate = context.newsDate || newsDateLine(context.publishedAt);
   const caption = [title, newsDate, body, quote].filter(Boolean).join('\n\n');
 
   add('schema', POST_TYPES.includes(type) &&
@@ -1285,7 +1332,7 @@ export function qaPost(parsed, context) {
   const verificationSourceOk =
     context.sourceType === 'news'
       ? ['reported', 'rumor', 'unverified'].includes(parsed.verification)
-      : context.sourceType === 'official_blog'
+      : ['official_blog', 'policy'].includes(context.sourceType)
         ? parsed.verification === 'official'
         : VERIFICATIONS.includes(parsed.verification);
   add('verification_source', verificationSourceOk, `${context.sourceType}:${parsed.verification}`);
@@ -1382,6 +1429,12 @@ export function qaPost(parsed, context) {
   add('image_exact', parsed.image_url === '' || parsed.image_url === context.imageUrl);
   add('caption', !parsed.image_url || visibleLength(caption) <= CAPTION_SAFE_LIMIT, visibleLength(caption) ? `${visibleLength(caption)}` : '');
   add('news_date', Boolean(newsDate), newsDate, false);
+  add('effective_date', !context.effectiveDate || mentionsEffectiveDate(body, context.effectiveDate), context.effectiveDate || '');
+  add(
+    'policy_iran',
+    !context.policyIran || policyIranMentioned(body),
+    context.policyIran ? 'ایران باید صریح در کنار فهرست یا پشتیبانی بیاید' : ''
+  );
   add('deep_with_image', !(parsed.image_url && type === 'deep'));
   add('image_https', !parsed.image_url || /^https:\/\//.test(parsed.image_url));
 

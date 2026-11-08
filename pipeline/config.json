@@ -78,6 +78,11 @@
     "business": 72,
     "education": 72
   },
+  "policy_watch": {
+    "enabled": true,
+    "state_path": "data/policy-state.json",
+    "reminder_days": 7
+  },
   "max_future_hours": 24,
   "media": {
     "max_caption_chars": 900,
