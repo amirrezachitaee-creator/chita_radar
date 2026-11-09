@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-09T05:17:33.945Z",
+  "updatedAt": "2026-11-09T08:05:22.753Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -2977,60 +2977,97 @@
       "slot": "2026-11-09T08:30+03:30",
       "title": "Hide your slop PR descriptions behind <details><summary>",
       "url": "https://simonwillison.net/2026/Nov/9/details-summary"
+    },
+    "url:4fa4b2917a43bad3": {
+      "at": "2026-11-09T08:01:17.624Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "📌 گوگل ماهی ۳ تا ویدیوی هوش مصنوعی رایگان می‌ده!",
+      "url": "https://t.me/Sajadverse/1247"
+    },
+    "title:18635fd8bcb02bec": {
+      "at": "2026-11-09T08:01:17.624Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "📌 گوگل ماهی ۳ تا ویدیوی هوش مصنوعی رایگان می‌ده!",
+      "url": "https://t.me/Sajadverse/1247"
+    },
+    "url:e984cc86d8ce581a": {
+      "at": "2026-11-09T08:01:17.911Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "توی منوی تنظیمات جنریت ویدیو گوگل فلو، یه تغییر اساسی کلید خورده و تاریخ بازنشستگی چندتا",
+      "url": "https://t.me/Mohammad_zammani/7178"
+    },
+    "title:e7540fc2838786d1": {
+      "at": "2026-11-09T08:01:17.911Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "توی منوی تنظیمات جنریت ویدیو گوگل فلو، یه تغییر اساسی کلید خورده و تاریخ بازنشستگی چندتا",
+      "url": "https://t.me/Mohammad_zammani/7178"
+    },
+    "url:e7e0021d28144ebf": {
+      "at": "2026-11-09T08:01:18.219Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "ایلان ماسک تو صحبت‌های اخیرش درباره روند آموزش مدل‌های جدید گروک (Grok) گفته که وقتی لاگ‌های",
+      "url": "https://t.me/Mohammad_zammani/7176"
+    },
+    "title:0a6e2b5b187fe9de": {
+      "at": "2026-11-09T08:01:18.219Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "ایلان ماسک تو صحبت‌های اخیرش درباره روند آموزش مدل‌های جدید گروک (Grok) گفته که وقتی لاگ‌های",
+      "url": "https://t.me/Mohammad_zammani/7176"
+    },
+    "url:c141bbc3c819c575": {
+      "at": "2026-11-09T08:01:18.553Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "🚀 آپدیت جدید Google Flow؛ معرفی Omni 1.2",
+      "url": "https://t.me/Mohammad_zammani/7177"
+    },
+    "title:8f36c21cb5ef8c3d": {
+      "at": "2026-11-09T08:01:18.553Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "🚀 آپدیت جدید Google Flow؛ معرفی Omni 1.2",
+      "url": "https://t.me/Mohammad_zammani/7177"
+    },
+    "url:698f0868e7dfb446": {
+      "at": "2026-11-09T08:05:22.751Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration"
+    },
+    "title:c55119929db4fe86": {
+      "at": "2026-11-09T08:05:22.751Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-09T11:30+03:30",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration"
     }
   },
-  "deferred": {
-    "defer:url:a0a44ed09dc9a108": {
-      "id": "defer:url:a0a44ed09dc9a108",
-      "at": "2026-11-08T10:30:49.723Z",
-      "firstAt": "2026-11-07T19:31:24.532Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:a0a44ed09dc9a108",
-        "title:2050f3641e1b3b50"
-      ],
-      "canonical": "https://openai.com/index/partnering-with-hacktron",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-        "link": "https://openai.com/index/partnering-with-hacktron",
-        "canonical": "https://openai.com/index/partnering-with-hacktron",
-        "published": "Fri, 06 Nov 2026 08:00:00 GMT",
-        "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/partnering-with-hacktron",
-        "images": [],
-        "ageHours": 35.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:a0a44ed09dc9a108",
-          "title:2050f3641e1b3b50"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:a0a44ed09dc9a108",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    }
-  },
+  "deferred": {},
   "slots": {
     "2026-11-02T20:30+03:30": {
       "at": "2026-11-02T16:58:19.725Z",
@@ -3584,6 +3621,37 @@
           "at": "2026-11-09T05:17:33.944Z"
         }
       ]
+    },
+    "2026-11-09T11:30+03:30": {
+      "at": "2026-11-09T08:05:22.751Z",
+      "status": "sent",
+      "category": "business",
+      "title": "همکاری NVIDIA و کره جنوبی برای توسعه هوش مصنوعی مستقل گسترش یافت",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-09/11-30",
+      "messageId": 39,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.00137326,
+      "tokens": 9107,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "همکاری NVIDIA و کره جنوبی برای توسعه هوش مصنوعی مستقل گسترش یافت",
+          "category": "business",
+          "status": "sent",
+          "messageId": 39,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-09/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00137326,
+          "tokens": 9107,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-09T08:05:22.751Z"
+        }
+      ]
     }
   },
   "published": [
@@ -4043,93 +4111,110 @@
       "sourceTitle": "Hide your slop PR descriptions behind",
       "sourceText": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today’s coding agents are great at writing PR descriptions.\nThe problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That’s a lot of information to absorb.\nIt’s very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as “I’m not reading all of that”. It doesn’t matter how accurate or useful the information is, I’m instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me!\nI want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention.\nI think I’ve found a low-effort way to do this that feels right.\nThe HTML <details><summary> elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text. The code looks like this:\nCrucially, <details><summary> is supported in GitHub Markdown . You can drop those tags directly into an issue comment or PR description and GitHub will hide the details and display just the summ",
       "at": "2026-11-09T05:17:33.944Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-09T11:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "همکاری NVIDIA و کره جنوبی برای توسعه هوش مصنوعی مستقل گسترش یافت",
+      "why": "اهمیتش اینه که این همکاری، اکوسیستم هوش مصنوعی کره جنوبی رو از سخت‌افزار تا مهارت تقویت می‌کنه و وابستگی به فناوری خارجی رو کم می‌کنه.",
+      "dedupe_key": "nvidia-korea-sovereign-ai-collaboration",
+      "post_key": "2026-11-09/11-30/1",
+      "sourceId": "nvidia-ai-blog",
+      "sourceName": "NVIDIA AI Blog",
+      "sourceType": "official_blog",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "sourceTitle": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "sourceText": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security.\nThe collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes NVIDIA training and certification programs, hackathons and technical seminars to strengthen GPU utilization.\nThrough Korea’s AI for All initiative, NVIDIA will collaborate with three selected consortia and four leading Korean foundation model builders, using NVIDIA Dynamo software to optimize and scale AI inference.\nIn addition, NVIDIA today announced a collaboration with SK Telecom and Rebellions, supported by MSIT, to advance sovereign AI infrastructure for Korean models and workloads with NVIDIA NVLink Fusion. Read more in the press release .",
+      "at": "2026-11-09T08:05:22.752Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8329,
-      "last_at": "2026-11-08T19:27:01+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "last_id": 8331,
+      "last_at": "2026-11-09T07:56:38+00:00",
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "pedramgholizadeh": {
       "last_id": 797,
       "last_at": "2026-11-08T20:19:47+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "ai_farshad": {
-      "last_id": 6386,
-      "last_at": "2026-11-08T19:13:17+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "last_id": 6387,
+      "last_at": "2026-11-09T07:32:55+00:00",
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7175,
-      "last_at": "2026-11-08T16:11:43+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "last_id": 7178,
+      "last_at": "2026-11-09T07:27:11+00:00",
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "techiin_ir": {
       "last_id": 20727,
       "last_at": "2026-11-08T19:31:01+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "mgh_mobin": {
       "last_id": 462,
       "last_at": "2026-11-08T11:22:26+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "asrnovin_ir": {
       "last_id": 11424,
       "last_at": "2026-11-08T18:28:22+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "shayanode": {
-      "last_id": 92,
-      "last_at": "2026-11-09T03:25:36+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "last_id": 98,
+      "last_at": "2026-11-09T07:35:14+00:00",
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "codecloude": {
       "last_id": 2565,
       "last_at": "2026-11-08T20:36:53+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "dunijet_ai": {
       "last_id": 2526,
       "last_at": "2026-11-08T20:27:22+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "marketing_aida": {
       "last_id": 104,
       "last_at": "2026-11-08T10:04:25+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "Sajadverse": {
-      "last_id": 1246,
-      "last_at": "2026-11-07T16:35:53+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "last_id": 1248,
+      "last_at": "2026-11-09T06:53:13+00:00",
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "MatinSenPaii": {
       "last_id": 5818,
       "last_at": "2026-11-08T21:19:58+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     },
     "thenimaonAI": {
       "last_id": 470,
       "last_at": "2026-11-08T15:41:28+00:00",
-      "checked_at": "2026-11-09T05:00:47.567Z"
+      "checked_at": "2026-11-09T08:00:50.683Z"
     }
   },
   "offerReviews": [
@@ -5090,6 +5175,54 @@
       "url": "https://t.me/techiin_ir/20727",
       "reason": "denied_link",
       "slot": "2026-11-09T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-sajadverse|https://t.me/Sajadverse/1247",
+      "date": "2026-11-09",
+      "at": "2026-11-09T08:00:50.683Z",
+      "source": "tg-sajadverse",
+      "title": "📌 گوگل ماهی ۳ تا ویدیوی هوش مصنوعی رایگان می‌ده!",
+      "url": "https://t.me/Sajadverse/1247",
+      "reason": "denied_link",
+      "slot": "2026-11-09T11:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7178",
+      "date": "2026-11-09",
+      "at": "2026-11-09T08:00:50.683Z",
+      "source": "tg-mohammad-zammani",
+      "title": "توی منوی تنظیمات جنریت ویدیو گوگل فلو، یه تغییر اساسی کلید خورده و تاریخ بازنشستگی چندتا",
+      "url": "https://t.me/Mohammad_zammani/7178",
+      "reason": "denied_link",
+      "slot": "2026-11-09T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7176",
+      "date": "2026-11-09",
+      "at": "2026-11-09T08:00:50.683Z",
+      "source": "tg-mohammad-zammani",
+      "title": "ایلان ماسک تو صحبت‌های اخیرش درباره روند آموزش مدل‌های جدید گروک (Grok) گفته که وقتی لاگ‌های",
+      "url": "https://t.me/Mohammad_zammani/7176",
+      "reason": "denied_link",
+      "slot": "2026-11-09T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7177",
+      "date": "2026-11-09",
+      "at": "2026-11-09T08:00:50.683Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🚀 آپدیت جدید Google Flow؛ معرفی Omni 1.2",
+      "url": "https://t.me/Mohammad_zammani/7177",
+      "reason": "no_link",
+      "slot": "2026-11-09T11:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
