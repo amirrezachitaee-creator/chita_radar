@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-08T19:31:43.357Z",
+  "updatedAt": "2026-11-09T05:17:33.945Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -2765,54 +2765,221 @@
       "slot": "2026-11-08T23:00+03:30",
       "title": "Google Flow - AI Creative Studio for Video, Images & Custom Tools",
       "url": "https://labs.google/fx/tools/flow"
+    },
+    "offerwatch:084744b86e79ead6": {
+      "at": "2026-11-09T05:00:54.189Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:4f73f307360b08da": {
+      "at": "2026-11-09T05:00:54.380Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/"
+    },
+    "url:f90a81bc16775efb": {
+      "at": "2026-11-09T05:01:08.655Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "On Agentic Manipulation Policies",
+      "url": "https://arxiv.org/abs/2611.09892v1"
+    },
+    "title:f1d10df006127d53": {
+      "at": "2026-11-09T05:01:08.655Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "On Agentic Manipulation Policies",
+      "url": "https://arxiv.org/abs/2611.09892v1"
+    },
+    "url:e87d7c5e7d593841": {
+      "at": "2026-11-09T05:01:08.655Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2611.09864v1"
+    },
+    "title:bf50f2532c1adfe6": {
+      "at": "2026-11-09T05:01:08.655Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2611.09864v1"
+    },
+    "url:6bf646da9d2ff492": {
+      "at": "2026-11-09T05:01:08.655Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
+      "url": "https://arxiv.org/abs/2611.09846v1"
+    },
+    "title:49a7a01112ef21a1": {
+      "at": "2026-11-09T05:01:08.655Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
+      "url": "https://arxiv.org/abs/2611.09846v1"
+    },
+    "url:8d109f2d7311ac08": {
+      "at": "2026-11-09T05:01:09.140Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره توی r/LocalLLaMA",
+      "url": "https://t.me/MatinSenPaii/5817"
+    },
+    "title:56f11976b8d3bf1d": {
+      "at": "2026-11-09T05:01:09.140Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره توی r/LocalLLaMA",
+      "url": "https://t.me/MatinSenPaii/5817"
+    },
+    "url:5bddd3ff0caeba24": {
+      "at": "2026-11-09T05:01:09.350Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "مخصوصا روی Deepseek harness",
+      "url": "https://t.me/MatinSenPaii/5818"
+    },
+    "title:2cabf0f17d022581": {
+      "at": "2026-11-09T05:01:09.350Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "مخصوصا روی Deepseek harness",
+      "url": "https://t.me/MatinSenPaii/5818"
+    },
+    "url:11d46bbae9bafdcb": {
+      "at": "2026-11-09T05:01:09.597Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره",
+      "url": "https://t.me/MatinSenPaii/5816"
+    },
+    "title:f6e918111396419c": {
+      "at": "2026-11-09T05:01:09.597Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره",
+      "url": "https://t.me/MatinSenPaii/5816"
+    },
+    "url:32f8288b20b5567f": {
+      "at": "2026-11-09T05:01:09.885Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "کلاس هوشمندسازی بچه های دارو و پزشکی دانشگاه اصفهان هم به پایان رسید.",
+      "url": "https://t.me/dunijet_ai/2523"
+    },
+    "title:4ab985b265a8c671": {
+      "at": "2026-11-09T05:01:09.885Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "کلاس هوشمندسازی بچه های دارو و پزشکی دانشگاه اصفهان هم به پایان رسید.",
+      "url": "https://t.me/dunijet_ai/2523"
+    },
+    "url:30c06b681b642fa8": {
+      "at": "2026-11-09T05:01:10.129Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "‌✅ بازی محبوب Hill Climb Racing 3 برای موبایل رونمایی شد",
+      "url": "https://t.me/techiin_ir/20727"
+    },
+    "title:dd7a613af99b2e3e": {
+      "at": "2026-11-09T05:01:10.129Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "‌✅ بازی محبوب Hill Climb Racing 3 برای موبایل رونمایی شد",
+      "url": "https://t.me/techiin_ir/20727"
+    },
+    "url:8a86cf9d70b8065c": {
+      "at": "2026-11-09T05:01:39.575Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy"
+    },
+    "title:894fec52f815a2c6": {
+      "at": "2026-11-09T05:01:39.575Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy"
+    },
+    "url:9b2b98b397f0c161": {
+      "at": "2026-11-09T05:05:33.003Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation"
+    },
+    "title:bf80a06e5d2a5f8f": {
+      "at": "2026-11-09T05:05:33.003Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation"
+    },
+    "url:7a56e2062f93f8c0": {
+      "at": "2026-11-09T05:17:33.944Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary"
+    },
+    "title:94a9c0320dad314a": {
+      "at": "2026-11-09T05:17:33.944Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-09T08:30+03:30",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary"
     }
   },
   "deferred": {
-    "defer:url:bbd492caba72ca54": {
-      "id": "defer:url:bbd492caba72ca54",
-      "at": "2026-11-08T05:01:15.057Z",
-      "firstAt": "2026-11-06T17:01:09.912Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:bbd492caba72ca54",
-        "title:eba11b40682526b9"
-      ],
-      "canonical": "https://openai.com/index/cultfit-builds-with-codex",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Cult.fit builds operational muscle with Codex",
-        "link": "https://openai.com/index/cultfit-builds-with-codex",
-        "canonical": "https://openai.com/index/cultfit-builds-with-codex",
-        "published": "Thu, 05 Nov 2026 20:00:00 GMT",
-        "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-        "images": [],
-        "ageHours": 21,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:bbd492caba72ca54",
-          "title:eba11b40682526b9"
-        ],
-        "deferred": {
-          "id": "defer:url:bbd492caba72ca54",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
     "defer:url:a0a44ed09dc9a108": {
       "id": "defer:url:a0a44ed09dc9a108",
       "at": "2026-11-08T10:30:49.723Z",
@@ -2859,56 +3026,6 @@
         "deferred": {
           "id": "defer:url:a0a44ed09dc9a108",
           "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:5f721228af3682c2": {
-      "id": "defer:url:5f721228af3682c2",
-      "at": "2026-11-08T17:01:23.331Z",
-      "firstAt": "2026-11-08T13:34:31.386Z",
-      "attempts": 2,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:5f721228af3682c2",
-        "title:56b68135300eb09a"
-      ],
-      "canonical": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Measuring how AI agents handle everyday wet-lab science",
-        "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-        "canonical": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-        "published": "Fri, 06 Nov 2026 00:00:00 GMT",
-        "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-        "images": [],
-        "ageHours": 61.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:5f721228af3682c2",
-          "title:56b68135300eb09a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:5f721228af3682c2",
-          "attempts": 1
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -3421,6 +3538,52 @@
           "at": "2026-11-08T19:31:38.910Z"
         }
       ]
+    },
+    "2026-11-09T08:30+03:30": {
+      "at": "2026-11-09T05:05:33.003Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "ترفند ساده برای خلاصه‌کردن توضیحات طولانی PR",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-09/08-30-2",
+      "messageId": 38,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0037793728,
+      "tokens": 48208,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "آنتروپیک با ارزش‌گذاری پایین‌تر به استقبال عرضه اولیه می‌رود",
+          "category": "business",
+          "status": "sent",
+          "messageId": 37,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-09/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0020114808,
+          "tokens": 20290,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-09T05:05:33.002Z"
+        },
+        {
+          "title": "ترفند ساده برای خلاصه‌کردن توضیحات طولانی PR",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 38,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-09/08-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003733408,
+          "tokens": 9768,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-09T05:17:33.944Z"
+        }
+      ]
     }
   },
   "published": [
@@ -3846,93 +4009,127 @@
       "sourceTitle": "GitHub - anthropics/claude-plugins-official: Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "sourceText": "🖥ساخت اپلیکیشن آیفون با هوش مصنوعی یه لِوِل حرفه‌ای‌تر شد!\n\nاپل پلاگین رسمی Xcode رو به Claude Code اضافه کرده؛ حالا AI می‌تونه اپت رو بسازه، اجرا و تست کنه، پیش‌نمایش SwiftUI بگیره و حتی شبیه‌ساز آیفون رو کنترل کنه!\n\nبررسی خطاهای کدنویسی، لاگ‌ها و جست‌وجو در مستندات اپل هم مستقیماً از Claude Code انجام می‌شه.\n\n💻 برای استفاده به مک و نسخه سازگار Xcode نیاز داری. امتحانش کن!\n\n🔧 دستور نصب:\n\n/plugin install xcode@claude-plugins-official\n🔗 \n\n💬💬📷 Codecloude.ir | تلگــرام\n#Apple #Xcode #ClaudeCode #AI #CodeCloude\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
       "at": "2026-11-08T19:31:38.910Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-09T08:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "آنتروپیک با ارزش‌گذاری پایین‌تر به استقبال عرضه اولیه می‌رود",
+      "why": "اهمیتش اینه که پذیرش ارزش‌گذاری پایین‌تر، نشانه‌ای از واقع‌بین شدن بازار هوش مصنوعی بعد از ماه‌ها خوش‌بینی افراطی است.",
+      "dedupe_key": "anthropic-ipo-valuation-lower",
+      "post_key": "2026-11-09/08-30/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "sourceTitle": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "sourceText": "Anthropic is pressing ahead with its IPO despite the tech selloff, accepting a lower valuation. The Claude developer wants to go public before Thanksgiving and raise $80–100 billion at a $1.25–1.75 trillion valuation, according to investors cited by the Financial Times . That tops the current $965 billion but falls short of the $2 trillion the most optimistic investors had hoped for. Annualized reported revenue now sits at about $81 billion, up from roughly $65 billion at the end of July .\nRising borrowing costs and heavy AI spending plans triggered a tech selloff this week. Democrats winning the US midterms accelerated it because they had promised to slow data center construction, including other measures. The Nasdaq 100 dropped 6.4 percent on Thursday but recovered somewhat on Friday.\nOpenAI also cut its funding-round target from $1.4 trillion to $1.25 trillion and recently raised only about a third of the $30 billion it originally sought . Ad Ad",
+      "at": "2026-11-09T05:05:33.003Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-09T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ترفند ساده برای خلاصه‌کردن توضیحات طولانی PR",
+      "why": "اهمیتش اینه که با این ترفند ساده، PRهای ایجنت‌نویسی‌شده دیگه شلوغ و خسته‌کننده نیستن و خواننده می‌تونه سریع تصمیم بگیره که آیا ارزش خوندن داره یا نه.",
+      "dedupe_key": "simonwillison-details-summary-pr",
+      "post_key": "2026-11-09/08-30/2",
+      "sourceId": "simon-willison-prompt-injection",
+      "sourceName": "Simon Willison - Prompt Injection",
+      "sourceType": "blog_tag",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "sourceTitle": "Hide your slop PR descriptions behind",
+      "sourceText": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today’s coding agents are great at writing PR descriptions.\nThe problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That’s a lot of information to absorb.\nIt’s very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as “I’m not reading all of that”. It doesn’t matter how accurate or useful the information is, I’m instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me!\nI want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention.\nI think I’ve found a low-effort way to do this that feels right.\nThe HTML <details><summary> elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text. The code looks like this:\nCrucially, <details><summary> is supported in GitHub Markdown . You can drop those tags directly into an issue comment or PR description and GitHub will hide the details and display just the summ",
+      "at": "2026-11-09T05:17:33.944Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8329,
       "last_at": "2026-11-08T19:27:01+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "pedramgholizadeh": {
-      "last_id": 796,
-      "last_at": "2026-11-08T13:03:16+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "last_id": 797,
+      "last_at": "2026-11-08T20:19:47+00:00",
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "ai_farshad": {
       "last_id": 6386,
       "last_at": "2026-11-08T19:13:17+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "Mohammad_zammani": {
       "last_id": 7175,
       "last_at": "2026-11-08T16:11:43+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "techiin_ir": {
-      "last_id": 20726,
-      "last_at": "2026-11-08T18:08:26+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "last_id": 20727,
+      "last_at": "2026-11-08T19:31:01+00:00",
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "mgh_mobin": {
       "last_id": 462,
       "last_at": "2026-11-08T11:22:26+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "asrnovin_ir": {
       "last_id": 11424,
       "last_at": "2026-11-08T18:28:22+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "shayanode": {
-      "last_id": 85,
-      "last_at": "2026-11-08T19:19:51+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "last_id": 92,
+      "last_at": "2026-11-09T03:25:36+00:00",
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "codecloude": {
-      "last_id": 2564,
-      "last_at": "2026-11-08T19:23:11+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "last_id": 2565,
+      "last_at": "2026-11-08T20:36:53+00:00",
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "dunijet_ai": {
-      "last_id": 2520,
-      "last_at": "2026-11-08T13:07:02+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "last_id": 2526,
+      "last_at": "2026-11-08T20:27:22+00:00",
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "marketing_aida": {
       "last_id": 104,
       "last_at": "2026-11-08T10:04:25+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "miladxtalks": {
       "last_id": 240,
       "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "Sajadverse": {
       "last_id": 1246,
       "last_at": "2026-11-07T16:35:53+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "MatinSenPaii": {
-      "last_id": 5815,
-      "last_at": "2026-11-08T09:50:34+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "last_id": 5818,
+      "last_at": "2026-11-08T21:19:58+00:00",
+      "checked_at": "2026-11-09T05:00:47.567Z"
     },
     "thenimaonAI": {
       "last_id": 470,
       "last_at": "2026-11-08T15:41:28+00:00",
-      "checked_at": "2026-11-08T19:30:37.826Z"
+      "checked_at": "2026-11-09T05:00:47.567Z"
     }
   },
   "offerReviews": [
@@ -4811,6 +5008,90 @@
       "slot": "2026-11-08T23:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-09",
+      "at": "2026-11-09T05:00:47.567Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-09T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|offer-watch:free-inference|https://www.freeinference.dev/",
+      "date": "2026-11-09",
+      "at": "2026-11-09T05:00:47.567Z",
+      "source": "offer-watch:free-inference",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/",
+      "reason": "offer_watch",
+      "slot": "2026-11-09T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5817",
+      "date": "2026-11-09",
+      "at": "2026-11-09T05:00:47.567Z",
+      "source": "tg-matin-senpai",
+      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره توی r/LocalLLaMA",
+      "url": "https://t.me/MatinSenPaii/5817",
+      "reason": "no_link",
+      "slot": "2026-11-09T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5818",
+      "date": "2026-11-09",
+      "at": "2026-11-09T05:00:47.567Z",
+      "source": "tg-matin-senpai",
+      "title": "مخصوصا روی Deepseek harness",
+      "url": "https://t.me/MatinSenPaii/5818",
+      "reason": "no_link",
+      "slot": "2026-11-09T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5816",
+      "date": "2026-11-09",
+      "at": "2026-11-09T05:00:47.567Z",
+      "source": "tg-matin-senpai",
+      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره",
+      "url": "https://t.me/MatinSenPaii/5816",
+      "reason": "denied_link",
+      "slot": "2026-11-09T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-dunijet-ai|https://t.me/dunijet_ai/2523",
+      "date": "2026-11-09",
+      "at": "2026-11-09T05:00:47.567Z",
+      "source": "tg-dunijet-ai",
+      "title": "کلاس هوشمندسازی بچه های دارو و پزشکی دانشگاه اصفهان هم به پایان رسید.",
+      "url": "https://t.me/dunijet_ai/2523",
+      "reason": "no_link",
+      "slot": "2026-11-09T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20727",
+      "date": "2026-11-09",
+      "at": "2026-11-09T05:00:47.567Z",
+      "source": "tg-techiin",
+      "title": "‌✅ بازی محبوب Hill Climb Racing 3 برای موبایل رونمایی شد",
+      "url": "https://t.me/techiin_ir/20727",
+      "reason": "denied_link",
+      "slot": "2026-11-09T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -4859,9 +5140,9 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-08",
-    "at": "2026-11-08T05:00:45.672Z",
-    "found": 1,
-    "delivered": 1
+    "lastDate": "2026-11-09",
+    "at": "2026-11-09T05:00:47.567Z",
+    "found": 2,
+    "delivered": 2
   }
 }
