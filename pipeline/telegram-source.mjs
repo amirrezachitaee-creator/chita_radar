@@ -391,6 +391,73 @@ export function hasPromoText(text) {
   return PROMO_TEXT_PATTERN.test(String(text ?? ''));
 }
 
+const AD_SALE_PATTERN = new RegExp(
+  [
+    '(?:اشتراک|خرید|فروش|پکیج|دوره|ثبت[\\s\\u200c]*سفارش)[^\\n]{0,60}(?:\\d[\\d,،.]*\\s*(?:هزار|میلیون|میلیارد)?\\s*(?:تومان|ریال))',
+    '(?:تومان|ریال)[^\\n]{0,25}(?:اشتراک|فروش|خرید|سفارش)',
+    'همراه\\s*ما\\s*باشید',
+    'ذخیره\\s*کن',
+    'ثبت\\s*سفارش',
+    'فروشگاه\\s*(?:اکانت|اشتراک|سرویس)',
+    'تحویل\\s*فوری',
+    'پشتیبانی\\s*۲۴',
+    'به\\s*آیدی\\s*زیر\\s*پیام',
+    'لینک\\s*(?:در\\s*)?بیو',
+    'دایرکت',
+    'کد\\s*(?:تخفیف|دعوت|رفرال)',
+    '(?:کانال|گروه)[\\s\\u200c]*(?:و|یا)[\\s\\u200c]*(?:کانال|گروه)',
+    'عضو\\s*(?:کانال|گروه)\\s*(?:ما|جدید)?\\s*(?:بشید|بشن|شوید)',
+  ].join('|'),
+  'iu'
+);
+
+export function hasAdOfferText(text) {
+  const value = String(text ?? '');
+  return hasPromoText(value) || AD_SALE_PATTERN.test(value);
+}
+
+const RUMOR_PATTERN =
+  /(?:شایعه|شایعات|شنیده(?:[\s\u200c]+ها)?|رودمپ|گمانه|تأیید(?:[\s\u200c]*نشده)|تایید(?:[\s\u200c]*نشده)|منتشر(?:[\s\u200c]*نشده)|\brumou?rs?\b|\bleaks?\b|\bleaked\b|\bunconfirmed\b)/iu;
+
+export function isRumorText(text) {
+  return RUMOR_PATTERN.test(String(text ?? ''));
+}
+
+const DIGEST_PATTERN =
+  /(?:مهم[\s\u200c]*(?:ترین|ترین[\s\u200c]*های)\s*(?:های|ها)?\s*(?:۲۴|24)\s*ساعت|خلاصه[\s\u200c]*اخبار\s*(?:امروز|هفته|روز)|گزارش[\s\u200c]*هفتگی[\s\u200c]*اخبار)/iu;
+
+export function isDigestText(text) {
+  return DIGEST_PATTERN.test(String(text ?? ''));
+}
+
+export function externalLinksOf(message, { promoDomains = [] } = {}) {
+  const raw = [message?.preview?.url, ...(message?.links ?? [])].filter(Boolean);
+  const links = [];
+  const seen = new Set();
+  for (const value of raw) {
+    let url;
+    try {
+      url = new URL(String(value));
+    } catch {
+      continue;
+    }
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') continue;
+    const host = normalizeDomain(url.hostname);
+    if (host === 't.me' || host === 'telegram.me') continue;
+    if (isPromoHost(value, { promoDomains })) continue;
+    let canonical = String(value);
+    try {
+      canonical = canonicalUrl(value);
+    } catch {
+      // keep the raw URL when it cannot be canonicalized
+    }
+    if (seen.has(canonical)) continue;
+    seen.add(canonical);
+    links.push(canonical);
+  }
+  return links;
+}
+
 const TOOL_TEXT_PATTERN =
   /(?:ابزار|اپلیکیشن|(?<![\p{L}])اپ(?![\p{L}])|سرویس|پلتفرم|افزونه|بات(?:‌ها)?|نرم‌افزار|داشبورد|کلاینت|\btools?\b|\bapps?\b|\bplatforms?\b|\bplugins?\b|\bextensions?\b|\bapi\b|\bsdk\b|نسخه(?:‌|\s)?(?:جدید|تازه))/iu;
 
@@ -469,6 +536,7 @@ export function stripLeadNoise(text, { maxChars = 0 } = {}) {
       continue;
     }
     if (AD_START_PATTERN.test(trimmed) || AD_CONTACT_PATTERN.test(trimmed)) break;
+    if (/^[.\-—_=]{8,}$/u.test(trimmed) || /^🆔/u.test(trimmed)) break;
     if (AD_OFFER_PATTERN.test(trimmed)) {
       const remainder = trimmed
         .replace(AD_OFFER_PATTERN, ' ')
@@ -824,6 +892,18 @@ export function matchesPublishedStory(text, entry = {}) {
     if (shared >= 3 && shared / publishedTokens.size >= 0.6) return true;
   }
   return false;
+}
+
+export function findStoryDuplicate(candidate, delivered = []) {
+  // A look-alike queued for review is not a published story. Policy items are
+  // official announcements, so only real posts in the main lane may block them.
+  const pool = candidate?.policy
+    ? delivered.filter((entry) => entry.lane === 'main' && entry.decision === 'publish')
+    : delivered;
+  const text = [candidate?.title, candidate?.messageText, candidate?.summary]
+    .filter(Boolean)
+    .join(' ');
+  return pool.find((entry) => matchesPublishedStory(text, entry));
 }
 
 export function selectAnyLink(message) {

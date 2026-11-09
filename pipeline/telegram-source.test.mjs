@@ -8,11 +8,15 @@ import {
   educationDigestLeads,
   educationLeadLabel,
   educationSignals,
+  externalLinksOf,
+  findStoryDuplicate,
+  hasAdOfferText,
   hasPromoText,
   isAllowedLink,
   isEducationLead,
   isOfficialCourse,
   isPromotionalUrl,
+  isRumorText,
   leadTitle,
   matchesPublishedStory,
   parseTelegramChannel,
@@ -476,6 +480,33 @@ test('a review lead that repeats a published story is detected', () => {
     false
   );
   assert.equal(matchesPublishedStory(classroomStory, {}), false);
+});
+
+test('a policy story ignores review lookalikes but respects real main posts', () => {
+  const candidate = {
+    policy: true,
+    title: 'گوگل سیاست جدیدی برای دسترسی به هوش مصنوعی در مدارس اعلام کرد',
+  };
+  const reviewLookalike = {
+    lane: 'main',
+    decision: 'review',
+    title: 'گوگل سیاست جدیدی برای دسترسی به هوش مصنوعی در مدارس اعلام کرد',
+  };
+  const reviewPublished = {
+    lane: 'review',
+    decision: 'publish',
+    title: 'گوگل سیاست جدیدی برای دسترسی به هوش مصنوعی در مدارس',
+  };
+  const published = {
+    lane: 'main',
+    decision: 'publish',
+    title: 'گوگل سیاست جدیدی برای دسترسی به هوش مصنوعی در مدارس',
+  };
+
+  assert.equal(findStoryDuplicate(candidate, [reviewLookalike]), undefined);
+  assert.equal(findStoryDuplicate(candidate, [reviewLookalike, reviewPublished]), undefined);
+  assert.equal(findStoryDuplicate(candidate, [reviewLookalike, published]), published);
+  assert.equal(findStoryDuplicate({ ...candidate, policy: false }, [reviewLookalike]), reviewLookalike);
 });
 
 test('education digest keeps one link per lead and stays private', () => {
@@ -1246,4 +1277,126 @@ test('disabled telegram discovery leaves the channel unread', async () => {
   });
   assert.equal(result.stats.telegram.channels, 0);
   assert.equal(result.candidates.length, 0);
+});
+
+test('an off-topic denied link is dropped instead of flooding review', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 501,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: '✅ سقف انتقال وجه در ساتنا، پایا و پل افزایش پیدا کرد <a href="https://instagram.com/p/abc">منبع</a>\nکانال هوش مصنوعی',
+    preview: { url: 'https://instagram.com/p/abc', title: 'بانکداری' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-general',
+        name: 'General tech',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 0);
+  assert.equal(result.stats.telegram.reviewSkipped, 1);
+});
+
+test('a subscription ad with an AI name is dropped before review', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 502,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: '🤖 اشتراک ChatGPT و Gemini فقط 890 هزار تومان! همراه ما باشید <a href="https://instagram.com/p/ad">سفارش</a>',
+    preview: { url: 'https://instagram.com/p/ad', title: 'فروشگاه اشتراک' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-ads',
+        name: 'Ads channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 0);
+  assert.equal(result.stats.telegram.reviewAds, 1);
+});
+
+test('a seedream-style tool story reaches review with its links and no rumor flag', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 503,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'بایت‌دنس بی‌سر و صدا یه بمب جدید رو کرد و مدل تصویرساز Seedream 5.5 رو فرستاد\nمتن کامل خبر دربارهٔ ادیت تصویر و ابزارهای جدید بایت‌دنس.\n<a href="https://instagram.com/p/seed">منبع</a>',
+    preview: { url: 'https://instagram.com/p/seed', title: 'Seedream 5.5' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-seedream',
+        name: 'AI channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.aiCentral, true);
+  assert.equal(lead.needsReview, true);
+  assert.equal(lead.rumorHint, false);
+  assert.ok(lead.relatedLinks.includes('https://instagram.com/p/seed'));
+});
+
+test('a rumor lead is flagged and keeps its source links', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 504,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره\n<a href="https://instagram.com/p/kimi">پست</a>',
+    preview: { url: 'https://instagram.com/p/kimi', title: 'Kimi roadmap rumor' },
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-rumor',
+        name: 'AI channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true },
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].needsReview, true);
+  assert.equal(result.candidates[0].rumorHint, true);
+  assert.ok(result.candidates[0].relatedLinks.includes('https://instagram.com/p/kimi'));
 });
