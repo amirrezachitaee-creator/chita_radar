@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-09T17:54:11.562Z",
+  "updatedAt": "2026-11-09T19:32:04.403Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -3772,65 +3772,156 @@
       "slot": "2026-11-09T20:30+03:30",
       "title": "Flow-Guided Target-Space Alignment via Path Consistency",
       "url": "https://arxiv.org/abs/2611.09863v1"
+    },
+    "url:c51a0f6f141f8c3e": {
+      "at": "2026-11-09T19:30:53.670Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "⚡️ شرکت Anthropic نسخه‌های Fable 5.2 و Mythos 5.2 را منتشر کرد: این مدل‌ها اکنون قادرند",
+      "url": "https://t.me/ArchiveTell/8341"
+    },
+    "title:e59091048b68f185": {
+      "at": "2026-11-09T19:30:54.056Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "⚡️ شرکت Anthropic نسخه‌های Fable 5.2 و Mythos 5.2 را منتشر کرد: این مدل‌ها اکنون قادرند",
+      "url": "https://t.me/ArchiveTell/8338"
+    },
+    "url:89a83ade6fe9e67c": {
+      "at": "2026-11-09T19:30:54.051Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "🔥برای معرفی GPT-6.2 Astra و GPT-6.2 bel آماده شید.",
+      "url": "https://t.me/ArchiveTell/8340"
+    },
+    "title:8bcdefa28b814fb5": {
+      "at": "2026-11-09T19:30:54.051Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "🔥برای معرفی GPT-6.2 Astra و GPT-6.2 bel آماده شید.",
+      "url": "https://t.me/ArchiveTell/8340"
+    },
+    "url:cb7d6116f8fc0802": {
+      "at": "2026-11-09T19:30:54.054Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "⚡️ شرکت Anthropic نسخه‌های Fable 5.2 و Mythos 5.2 را منتشر کرد: این مدل‌ها اکنون قادرند",
+      "url": "https://t.me/ArchiveTell/8339"
+    },
+    "url:badcc96bfad65378": {
+      "at": "2026-11-09T19:30:54.056Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "⚡️ شرکت Anthropic نسخه‌های Fable 5.2 و Mythos 5.2 را منتشر کرد: این مدل‌ها اکنون قادرند",
+      "url": "https://t.me/ArchiveTell/8338"
+    },
+    "url:d60ec0a042f1c17d": {
+      "at": "2026-11-09T19:30:54.258Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "外面卖的「Google AI Pro 12 / 24 个月」实质就是换了一串 offer token，不是真订阅。点订阅后浏览器会向 Play 发送 eacquire/multiline 请求，ear 参数里的 item",
+      "url": "https://t.me/MatinSenPaii/5828"
+    },
+    "title:75af8c14d7182b5c": {
+      "at": "2026-11-09T19:30:54.258Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "外面卖的「Google AI Pro 12 / 24 个月」实质就是换了一串 offer token，不是真订阅。点订阅后浏览器会向 Play 发送 eacquire/multiline 请求，ear 参数里的 item",
+      "url": "https://t.me/MatinSenPaii/5828"
+    },
+    "url:04b616fbb51d09cb": {
+      "at": "2026-11-09T19:30:59.176Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "✅ مصطفی سلیمان: نباید سیستم‌های هوش مصنوعی خودآگاه خلق کنیم",
+      "url": "https://t.me/techiin_ir/20737"
+    },
+    "title:da69351948d70a16": {
+      "at": "2026-11-09T19:30:59.176Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "✅ مصطفی سلیمان: نباید سیستم‌های هوش مصنوعی خودآگاه خلق کنیم",
+      "url": "https://t.me/techiin_ir/20737"
+    },
+    "url:4b2d99c90a3ada66": {
+      "at": "2026-11-09T19:31:04.663Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "میگن تا ۱۲ نوامبر احتمالش هست آنتروپیک اکانت کلاد ایرانی ها رو ببنده",
+      "url": "https://t.me/MatinSenPaii/5827"
+    },
+    "title:8c2f37d34e8cc4d7": {
+      "at": "2026-11-09T19:31:04.663Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "میگن تا ۱۲ نوامبر احتمالش هست آنتروپیک اکانت کلاد ایرانی ها رو ببنده",
+      "url": "https://t.me/MatinSenPaii/5827"
+    },
+    "url:619626ec7e03cf39": {
+      "at": "2026-11-09T19:31:18.424Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "✅ چطور با جمینای بدون باز کردن برنامه ساعت، آلارم تنظیم کنیم؟",
+      "url": "https://t.me/techiin_ir/20736"
+    },
+    "title:52dda9612f4e7125": {
+      "at": "2026-11-09T19:31:18.424Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "✅ چطور با جمینای بدون باز کردن برنامه ساعت، آلارم تنظیم کنیم؟",
+      "url": "https://t.me/techiin_ir/20736"
+    },
+    "url:ac8f18750241a65f": {
+      "at": "2026-11-09T19:31:39.542Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+    },
+    "title:bd41ba1269c37dee": {
+      "at": "2026-11-09T19:31:39.542Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-09T23:00+03:30",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
     }
   },
   "deferred": {
-    "defer:url:ac8f18750241a65f": {
-      "id": "defer:url:ac8f18750241a65f",
-      "at": "2026-11-09T17:53:54.644Z",
-      "firstAt": "2026-11-09T17:02:04.275Z",
-      "attempts": 2,
-      "reason": "qa_failed",
-      "reasons": [
-        "category_consecutive",
-        "qa_failed"
-      ],
-      "keys": [
-        "url:ac8f18750241a65f",
-        "title:bd41ba1269c37dee"
-      ],
-      "canonical": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-        "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-        "canonical": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-        "published": "Mon, 09 Nov 2026 15:05:57 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-        "images": [],
-        "ageHours": 1.9,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:ac8f18750241a65f",
-          "title:bd41ba1269c37dee"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:ac8f18750241a65f",
-          "attempts": 1
-        }
-      },
-      "detail": "source_url"
-    },
     "defer:url:f63e4eb7ebe205a6": {
       "id": "defer:url:f63e4eb7ebe205a6",
-      "at": "2026-11-09T17:53:54.674Z",
+      "at": "2026-11-09T19:31:39.593Z",
       "firstAt": "2026-11-09T17:02:43.440Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -3874,7 +3965,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:f63e4eb7ebe205a6",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
@@ -3926,6 +4017,53 @@
         "leadKind": ""
       },
       "detail": "source_url"
+    },
+    "defer:url:a3bc8ca770f44f2d": {
+      "id": "defer:url:a3bc8ca770f44f2d",
+      "at": "2026-11-09T19:32:04.402Z",
+      "firstAt": "2026-11-09T19:32:04.402Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a3bc8ca770f44f2d",
+        "title:d8e747aabd405c02"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+        "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "canonical": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+        "published": "Mon, 09 Nov 2026 19:24:51 +0000",
+        "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "images": [],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a3bc8ca770f44f2d",
+          "title:d8e747aabd405c02"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "models"
     }
   },
   "slots": {
@@ -4582,6 +4720,37 @@
       "cost": 0.0023295272,
       "tokens": 47158,
       "posts": []
+    },
+    "2026-11-09T23:00+03:30": {
+      "at": "2026-11-09T19:31:39.542Z",
+      "status": "sent",
+      "category": "models",
+      "title": "دیتاست ۹ میلیونی انویدیا برای شبیه‌سازی مشتریان ژاپنی",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-09/23-00",
+      "messageId": 42,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0020898024,
+      "tokens": 36638,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "دیتاست ۹ میلیونی انویدیا برای شبیه‌سازی مشتریان ژاپنی",
+          "category": "models",
+          "status": "sent",
+          "messageId": 42,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-09/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0004467008,
+          "tokens": 10096,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-09T19:31:39.542Z"
+        }
+      ]
     }
   },
   "published": [
@@ -5092,93 +5261,110 @@
       "sourceTitle": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
       "sourceText": "شاید براتون مهم نباشه\nولی ایجنت کدکس codex رو openai اوپن‌سورس کرده و گذاشته رو گیت‌هاب 🫪\n\nعشق کنید.\n\n✍🏼 @pedramgholizadeh",
       "at": "2026-11-09T13:35:30.687Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-09T23:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "دیتاست ۹ میلیونی انویدیا برای شبیه‌سازی مشتریان ژاپنی",
+      "why": "اهمیتش اینه که داده واقعی مالی ژاپن به خاطر قوانین سخت حریم خصوصی به‌سختی در دسترسه و این دیتاست مصنوعی راهی امن و مقیاس‌پذیر برای توسعه هوش مصنوعی محلی فراهم می‌کنه.",
+      "dedupe_key": "nvidia-nemotron-personas-finance-japan-release",
+      "post_key": "2026-11-09/23-00/1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "sourceTitle": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "sourceText": "A compound AI approach to Japanese personas grounded in real-world distributions\nIn the financial sector, the utilization of real-world data faces significant constraints due to strict privacy regulations, compliance requirements, and the need for advanced domain expertise. In this context, the development of agentic AI in the financial domain requires synthetic data capable of avoiding the risks of using real data while reflecting demographics, household structures, and asset statuses to reproduce diverse, realistic financial scenarios.\nTo address these challenges, Elith and NVIDIA have released Nemotron-Personas-Finance-Japan , a financial domain extension of the open-source persona dataset \" Nemotron-Personas-Japan .\" To our knowledge, it is the first open persona dataset at million-record scale that pairs Japan’s official statistics with household finance and financial literacy data. Built upon official government statistics, this dataset was developed using NeMo SDG-PGMs , a probabilistic graphical model framework for synthetic data generation (SDG), and NeMo Data Designer , an enterprise synthetic data generation system. Furthermore, to enhance the practical utility of the dataset in financial use cases, it was designed by incorporating insights and feedback provided by leading domestic financial institutions and industry associations, including Sompo Japan, Tokio Marine Holdings, Bank of Fukuoka, Mizuho Financial Group, Meiji Yasuda Life Insurance, and the Financial Data Utilization Association (FDUA).\nThis dataset expands the environment where Japanese developers an",
+      "at": "2026-11-09T19:31:39.543Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8335,
-      "last_at": "2026-11-09T17:16:27+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "last_id": 8341,
+      "last_at": "2026-11-09T19:30:35+00:00",
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "pedramgholizadeh": {
       "last_id": 799,
       "last_at": "2026-11-09T14:55:21+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "ai_farshad": {
       "last_id": 6392,
       "last_at": "2026-11-09T17:15:04+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "Mohammad_zammani": {
       "last_id": 7182,
       "last_at": "2026-11-09T17:33:40+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "techiin_ir": {
-      "last_id": 20735,
-      "last_at": "2026-11-09T17:35:22+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "last_id": 20737,
+      "last_at": "2026-11-09T18:55:42+00:00",
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "mgh_mobin": {
       "last_id": 465,
       "last_at": "2026-11-09T09:11:32+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "asrnovin_ir": {
       "last_id": 11427,
       "last_at": "2026-11-09T16:54:17+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "shayanode": {
       "last_id": 111,
       "last_at": "2026-11-09T17:19:41+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "codecloude": {
       "last_id": 2571,
       "last_at": "2026-11-09T17:13:25+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "dunijet_ai": {
-      "last_id": 2527,
-      "last_at": "2026-11-09T14:03:10+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "last_id": 2528,
+      "last_at": "2026-11-09T18:36:45+00:00",
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "marketing_aida": {
       "last_id": 104,
       "last_at": "2026-11-08T10:04:25+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "Sajadverse": {
       "last_id": 1248,
       "last_at": "2026-11-09T06:53:13+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "MatinSenPaii": {
-      "last_id": 5825,
-      "last_at": "2026-11-09T13:11:02+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "last_id": 5829,
+      "last_at": "2026-11-09T19:08:18+00:00",
+      "checked_at": "2026-11-09T19:30:42.674Z"
     },
     "thenimaonAI": {
       "last_id": 481,
       "last_at": "2026-11-09T17:33:41+00:00",
-      "checked_at": "2026-11-09T17:53:11.854Z"
+      "checked_at": "2026-11-09T19:30:42.674Z"
     }
   },
   "offerReviews": [
@@ -6499,6 +6685,78 @@
       "url": "https://t.me/codecloude/2571",
       "reason": "denied_link",
       "slot": "2026-11-09T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-archive-tell|https://t.me/ArchiveTell/8341",
+      "date": "2026-11-09",
+      "at": "2026-11-09T19:30:42.674Z",
+      "source": "tg-archive-tell",
+      "title": "⚡️ شرکت Anthropic نسخه‌های Fable 5.2 و Mythos 5.2 را منتشر کرد: این مدل‌ها اکنون قادرند",
+      "url": "https://t.me/ArchiveTell/8341",
+      "reason": "denied_link",
+      "slot": "2026-11-09T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-archive-tell|https://t.me/ArchiveTell/8340",
+      "date": "2026-11-09",
+      "at": "2026-11-09T19:30:42.674Z",
+      "source": "tg-archive-tell",
+      "title": "🔥برای معرفی GPT-6.2 Astra و GPT-6.2 bel آماده شید.",
+      "url": "https://t.me/ArchiveTell/8340",
+      "reason": "denied_link",
+      "slot": "2026-11-09T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5828",
+      "date": "2026-11-09",
+      "at": "2026-11-09T19:30:42.674Z",
+      "source": "tg-matin-senpai",
+      "title": "外面卖的「Google AI Pro 12 / 24 个月」实质就是换了一串 offer token，不是真订阅。点订阅后浏览器会向 Play 发送 eacquire/multiline 请求，ear 参数里的 item",
+      "url": "https://t.me/MatinSenPaii/5828",
+      "reason": "no_link",
+      "slot": "2026-11-09T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20737",
+      "date": "2026-11-09",
+      "at": "2026-11-09T19:30:42.674Z",
+      "source": "tg-techiin",
+      "title": "✅ مصطفی سلیمان: نباید سیستم‌های هوش مصنوعی خودآگاه خلق کنیم",
+      "url": "https://t.me/techiin_ir/20737",
+      "reason": "denied_link",
+      "slot": "2026-11-09T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5827",
+      "date": "2026-11-09",
+      "at": "2026-11-09T19:30:42.674Z",
+      "source": "tg-matin-senpai",
+      "title": "میگن تا ۱۲ نوامبر احتمالش هست آنتروپیک اکانت کلاد ایرانی ها رو ببنده",
+      "url": "https://t.me/MatinSenPaii/5827",
+      "reason": "no_link",
+      "slot": "2026-11-09T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20736",
+      "date": "2026-11-09",
+      "at": "2026-11-09T19:30:42.674Z",
+      "source": "tg-techiin",
+      "title": "✅ چطور با جمینای بدون باز کردن برنامه ساعت، آلارم تنظیم کنیم؟",
+      "url": "https://t.me/techiin_ir/20736",
+      "reason": "denied_link",
+      "slot": "2026-11-09T23:00+03:30",
       "kind": "post",
       "mainEligible": false
     }
