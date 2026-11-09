@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-09T13:35:30.688Z",
+  "updatedAt": "2026-11-09T17:03:21.427Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -3574,9 +3574,296 @@
       "slot": "2026-11-09T17:00+03:30",
       "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
       "url": "https://github.com/openai/codex"
+    },
+    "url:728fbb7d2afa2db6": {
+      "at": "2026-11-09T17:01:06.857Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "📉 8 میلیون تومان تخفیف دوره AI Plus",
+      "url": "https://pelymedia.com/product/ai-plus-online-course"
+    },
+    "title:9ad337936883ed91": {
+      "at": "2026-11-09T17:01:06.857Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "📉 8 میلیون تومان تخفیف دوره AI Plus",
+      "url": "https://pelymedia.com/product/ai-plus-online-course"
+    },
+    "url:82a901da1b9bedec": {
+      "at": "2026-11-09T17:01:07.194Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "GitHub - anthropics/skills: Public repository for Agent Skills",
+      "url": "https://github.com/anthropics/skills"
+    },
+    "title:6aa863d9cff9c3dd": {
+      "at": "2026-11-09T17:01:07.194Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "GitHub - anthropics/skills: Public repository for Agent Skills",
+      "url": "https://github.com/anthropics/skills"
+    },
+    "url:d65cca0b782863e2": {
+      "at": "2026-11-09T17:01:07.717Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "این فایل مربوط به ساخت کنترل سنتر با هوش مصنوعی کلاد",
+      "url": "https://t.me/miladxtalks/241"
+    },
+    "title:0875b75d938f7ce3": {
+      "at": "2026-11-09T17:01:07.717Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "این فایل مربوط به ساخت کنترل سنتر با هوش مصنوعی کلاد",
+      "url": "https://t.me/miladxtalks/241"
+    },
+    "url:e9acb4bcaa2cab3c": {
+      "at": "2026-11-09T17:01:21.470Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "🚀نسخه 10.4 از Bot API با ویجت‌های HTML منتشر شد.",
+      "url": "https://t.me/ArchiveTell/8334"
+    },
+    "title:1eed3ba51a69c84f": {
+      "at": "2026-11-09T17:01:21.470Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "🚀نسخه 10.4 از Bot API با ویجت‌های HTML منتشر شد.",
+      "url": "https://t.me/ArchiveTell/8334"
+    },
+    "url:e6158a355639de1b": {
+      "at": "2026-11-09T17:01:34.144Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "🔍اگه بازار داغ هوش مصنوعی رو دنبال کرده باشین، حتماً دیدین که همه کمپانی‌ها افتادن توی",
+      "url": "https://t.me/Mohammad_zammani/7181"
+    },
+    "title:468b802037f54b79": {
+      "at": "2026-11-09T17:01:34.144Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "🔍اگه بازار داغ هوش مصنوعی رو دنبال کرده باشین، حتماً دیدین که همه کمپانی‌ها افتادن توی",
+      "url": "https://t.me/Mohammad_zammani/7181"
+    },
+    "url:08ce958204e1e1cc": {
+      "at": "2026-11-09T17:01:35.305Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps",
+      "url": "https://pyimagesearch.com/2026/11/09/what-is-mlops-architecture-mlops-vs-devops-and-llmops"
+    },
+    "title:4ada1c9e2aeb9dbb": {
+      "at": "2026-11-09T17:01:35.305Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps",
+      "url": "https://pyimagesearch.com/2026/11/09/what-is-mlops-architecture-mlops-vs-devops-and-llmops"
+    },
+    "url:33a0483307191e73": {
+      "at": "2026-11-09T17:02:47.479Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage"
+    },
+    "title:f8b4bd162f70792a": {
+      "at": "2026-11-09T17:02:47.479Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage"
+    },
+    "url:2b95767c13ca5c97": {
+      "at": "2026-11-09T17:03:21.425Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "url": "https://arxiv.org/abs/2611.09891v1"
+    },
+    "title:ef6baea6f6733cd9": {
+      "at": "2026-11-09T17:03:21.425Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-09T20:30+03:30",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "url": "https://arxiv.org/abs/2611.09891v1"
     }
   },
-  "deferred": {},
+  "deferred": {
+    "defer:url:ac8f18750241a65f": {
+      "id": "defer:url:ac8f18750241a65f",
+      "at": "2026-11-09T17:02:04.275Z",
+      "firstAt": "2026-11-09T17:02:04.275Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:ac8f18750241a65f",
+        "title:bd41ba1269c37dee"
+      ],
+      "canonical": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+        "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+        "canonical": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+        "published": "Mon, 09 Nov 2026 15:05:57 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+        "images": [],
+        "ageHours": 1.9,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:ac8f18750241a65f",
+          "title:bd41ba1269c37dee"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "tools"
+    },
+    "defer:url:f63e4eb7ebe205a6": {
+      "id": "defer:url:f63e4eb7ebe205a6",
+      "at": "2026-11-09T17:02:43.440Z",
+      "firstAt": "2026-11-09T17:02:43.440Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f63e4eb7ebe205a6",
+        "title:b2b550296074211d"
+      ],
+      "canonical": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+      "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
+        "link": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+        "canonical": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+        "published": "Mon, 09 Nov 2026 15:00:00 +0000",
+        "summary": "4 classic leaks, planted in real data, tested cold on 4 models.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Can-AI-Spot-Data-Leakage-1.png"
+        ],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f63e4eb7ebe205a6",
+          "title:b2b550296074211d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "tools"
+    },
+    "defer:url:fee675b27caf7a6b": {
+      "id": "defer:url:fee675b27caf7a6b",
+      "at": "2026-11-09T17:03:16.635Z",
+      "firstAt": "2026-11-09T17:03:16.635Z",
+      "attempts": 1,
+      "reason": "qa_failed",
+      "reasons": [
+        "qa_failed"
+      ],
+      "keys": [
+        "url:fee675b27caf7a6b",
+        "title:59b7ab1d25889938"
+      ],
+      "canonical": "https://therecord.media/cyberattack-germany-ai-mittwald",
+      "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+        "link": "https://therecord.media/cyberattack-germany-ai-mittwald",
+        "canonical": "https://therecord.media/cyberattack-germany-ai-mittwald",
+        "published": "Mon, 09 Nov 2026 14:15:00 GMT",
+        "summary": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/cyberattack-germany-ai-mittwald",
+        "images": [
+          "http://cms.therecord.media/uploads/Mittwald_CM_Service_c430f4d1f0.jpg"
+        ],
+        "ageHours": 2.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:fee675b27caf7a6b",
+          "title:59b7ab1d25889938"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "source_url"
+    }
+  },
   "slots": {
     "2026-11-02T20:30+03:30": {
       "at": "2026-11-02T16:58:19.725Z",
@@ -4223,6 +4510,14 @@
           "at": "2026-11-09T13:35:30.686Z"
         }
       ]
+    },
+    "2026-11-09T20:30+03:30": {
+      "at": "2026-11-09T17:03:21.426Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.003937276,
+      "tokens": 78796,
+      "posts": []
     }
   },
   "published": [
@@ -4737,89 +5032,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8332,
-      "last_at": "2026-11-09T13:00:04+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 8334,
+      "last_at": "2026-11-09T15:01:14+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "pedramgholizadeh": {
-      "last_id": 798,
-      "last_at": "2026-11-09T10:57:48+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 799,
+      "last_at": "2026-11-09T14:55:21+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "ai_farshad": {
-      "last_id": 6390,
-      "last_at": "2026-11-09T13:30:02+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 6391,
+      "last_at": "2026-11-09T16:41:53+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7180,
-      "last_at": "2026-11-09T12:46:09+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 7181,
+      "last_at": "2026-11-09T14:34:18+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "techiin_ir": {
       "last_id": 20734,
       "last_at": "2026-11-09T11:45:12+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "mgh_mobin": {
       "last_id": 465,
       "last_at": "2026-11-09T09:11:32+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "asrnovin_ir": {
-      "last_id": 11426,
-      "last_at": "2026-11-09T12:25:38+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 11427,
+      "last_at": "2026-11-09T16:54:17+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "shayanode": {
-      "last_id": 108,
-      "last_at": "2026-11-09T12:26:37+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 110,
+      "last_at": "2026-11-09T16:08:46+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "codecloude": {
-      "last_id": 2567,
-      "last_at": "2026-11-09T11:05:06+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 2570,
+      "last_at": "2026-11-09T15:46:02+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "dunijet_ai": {
-      "last_id": 2526,
-      "last_at": "2026-11-08T20:27:22+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 2527,
+      "last_at": "2026-11-09T14:03:10+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "marketing_aida": {
       "last_id": 104,
       "last_at": "2026-11-08T10:04:25+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "miladxtalks": {
-      "last_id": 240,
-      "last_at": "2026-11-02T20:28:18+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 241,
+      "last_at": "2026-11-09T15:34:26+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "Sajadverse": {
       "last_id": 1248,
       "last_at": "2026-11-09T06:53:13+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "MatinSenPaii": {
       "last_id": 5825,
       "last_at": "2026-11-09T13:11:02+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "checked_at": "2026-11-09T17:00:53.574Z"
     },
     "thenimaonAI": {
-      "last_id": 478,
-      "last_at": "2026-11-09T09:53:57+00:00",
-      "checked_at": "2026-11-09T13:30:40.341Z"
+      "last_id": 479,
+      "last_at": "2026-11-09T14:06:45+00:00",
+      "checked_at": "2026-11-09T17:00:53.574Z"
     }
   },
   "offerReviews": [
@@ -6082,6 +6377,42 @@
       "slot": "2026-11-09T17:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-miladxtalks|https://t.me/miladxtalks/241",
+      "date": "2026-11-09",
+      "at": "2026-11-09T17:00:53.574Z",
+      "source": "tg-miladxtalks",
+      "title": "این فایل مربوط به ساخت کنترل سنتر با هوش مصنوعی کلاد",
+      "url": "https://t.me/miladxtalks/241",
+      "reason": "no_link",
+      "slot": "2026-11-09T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-09|tg-archive-tell|https://t.me/ArchiveTell/8334",
+      "date": "2026-11-09",
+      "at": "2026-11-09T17:00:53.574Z",
+      "source": "tg-archive-tell",
+      "title": "🚀نسخه 10.4 از Bot API با ویجت‌های HTML منتشر شد.",
+      "url": "https://t.me/ArchiveTell/8334",
+      "reason": "denied_link",
+      "slot": "2026-11-09T20:30+03:30",
+      "kind": "post",
+      "mainEligible": true
+    },
+    {
+      "id": "2026-11-09|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7181",
+      "date": "2026-11-09",
+      "at": "2026-11-09T17:00:53.574Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🔍اگه بازار داغ هوش مصنوعی رو دنبال کرده باشین، حتماً دیدین که همه کمپانی‌ها افتادن توی",
+      "url": "https://t.me/Mohammad_zammani/7181",
+      "reason": "denied_link",
+      "slot": "2026-11-09T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -6140,6 +6471,13 @@
       "url": "https://machinelearningmastery.com/benchmarking-scikit-ollama-vs-groq-backed-scikit-llm-speed-cost-and-accuracy",
       "slot": "2026-11-09T17:00+03:30",
       "at": "2026-11-09T13:30:40.341Z"
+    },
+    {
+      "source": "pyimagesearch",
+      "title": "What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps",
+      "url": "https://pyimagesearch.com/2026/11/09/what-is-mlops-architecture-mlops-vs-devops-and-llmops",
+      "slot": "2026-11-09T20:30+03:30",
+      "at": "2026-11-09T17:00:53.574Z"
     }
   ],
   "reviewPending": {},
