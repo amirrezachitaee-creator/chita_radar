@@ -1,4 +1,6 @@
 import { dateKey, slotDateKey, tehranParts, weekKey } from './store.mjs';
+import { newsDate } from './newstime.mjs';
+import { postHtml, escapeHtml } from './telegram.mjs';
 
 const STRONG_OFFER = [
   /\bfree\s+(?:api\s+)?(?:credits?|tier|plan|trial|access|usage|quota|tokens?|month|year)\b/i,
@@ -551,7 +553,6 @@ export const REASON_FA = {
   qa_failed: 'بررسی کیفیت پاس نشد',
 };
 
-const KIND_FA = { offer: 'آفر', tool: 'ابزار', post: 'پست' };
 
 function aliasIndex(haystack, alias) {
   if (/^[a-z0-9._-]+$/.test(alias)) {
@@ -602,6 +603,115 @@ export function refreshQueuedReviewText(text, reason = '') {
     .replace(new RegExp(`^(دلیل بازبینی:\\s*)${escaped}\\s*$`, 'mu'), `$1${reasonFa}`);
 }
 
+export function reviewSummary(text, { maxChars = 420, maxSentences = 5 } = {}) {
+  const value = String(text ?? '')
+    .replace(/https?:\/\/\S+/gi, ' ')
+    .replace(/(?:^|\s)@[\p{L}\p{N}_]+/gu, ' ')
+    .replace(/[ \t]{2,}/g, ' ')
+    .trim();
+  if (!value) return '';
+  const parts = value
+    .split(/(?<=[.!?؟…])\s+|\n+/u)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const picked = [];
+  let length = 0;
+  for (const part of parts) {
+    if (picked.length >= maxSentences) break;
+    if (picked.length && length + part.length > maxChars) break;
+    picked.push(part);
+    length += part.length + 1;
+  }
+  let summary = picked.join(' ');
+  if (summary.length > maxChars) {
+    summary = `${summary.slice(0, maxChars).replace(/\s+\S*$/, '')}…`;
+  }
+  return summary;
+}
+
+const REVIEW_CHECKLIST_BASE = [
+  'لینک منبع را باز کن و مطمئن شو به همین خبر مربوط است.',
+  'عددها، نام‌ها و تاریخ را با منبع مقایسه کن.',
+  'هیچ تبلیغ، لینک ارجاعی یا امضای کانال داخل پست نمانده باشد.',
+];
+
+export function reviewChecklist({
+  reason = '',
+  kind = 'post',
+  mainEligible = false,
+  rumor = false,
+  relatedLinks = [],
+  needsLinkApproval = false,
+} = {}) {
+  const items = [...REVIEW_CHECKLIST_BASE];
+  if (needsLinkApproval || ['denied_link', 'no_link', 'link_missing', 'referral_link'].includes(reason)) {
+    items.unshift('منبع رسمی شرکت یا صفحهٔ اصلی محصول را پیدا کن و لینکش را در پست بگذار.');
+  }
+  if (kind === 'offer') {
+    items.unshift('تاریخ انقضا و شرایط آفر را روی صفحهٔ رسمی چک کن.');
+  }
+  if (kind === 'tool' && !mainEligible) {
+    items.push('نام دقیق ابزار و لینک استفاده را با صفحهٔ رسمی مقایسه کن.');
+  }
+  if (rumor) {
+    items.push('این خبر تأییدنشده است؛ تا انتشار رسمی صبر کن یا به‌عنوان خبر قطعی نفرست.');
+  }
+  if (relatedLinks.length) {
+    items.push('لینک‌های داخل پست منبع را باز کن؛ اگر خبر را تأیید نمی‌کنند، پست را نفرست.');
+  }
+  return items.slice(0, 5);
+}
+
+export function reviewHtml({
+  article,
+  candidate,
+  assessment,
+  kind = '',
+  mainEligible = false,
+  note = '',
+  post = null,
+} = {}) {
+  if (!post) return '';
+  const resolvedKind =
+    kind || (assessment?.expiry ? 'offer' : candidate?.toolHint ? 'tool' : 'post');
+  const reason = assessment?.reason ?? '';
+  const reasonFa = REASON_FA[reason] ?? reason ?? 'دلیل نامشخص';
+  const link = article?.url || candidate?.link || candidate?.canonical || '';
+  const relatedLinks = Array.isArray(candidate?.relatedLinks) ? candidate.relatedLinks : [];
+  const needsLinkApproval = reason === 'link_missing' || Boolean(candidate?.needsLinkApproval);
+  const rumor = Boolean(candidate?.rumorHint);
+  const lines = [
+    REVIEW_BANNER,
+    '',
+    mainEligible
+      ? 'این پست آمادهٔ انتشاره. فقط لینک منبع رو چک کن؛ اگر درست بود، این هشدار بالای پیام رو پاک کن و بقیه رو به کانال اصلی بفرست.'
+      : 'این نسخه پیش‌نویس است و هنوز کامل نیست؛ قبل از انتشار موارد پایین را اصلاح کن.',
+    '',
+  ];
+  if (!mainEligible) lines.push(`دلیل: ${escapeHtml(reasonFa)}`, '');
+  lines.push('———', postHtml(post), '———', '');
+  if (candidate?.sourceName) lines.push(`منبع: ${escapeHtml(candidate.sourceName)}`);
+  if (link) lines.push(`لینک منبع: ${escapeHtml(link)}`);
+  if (candidate?.leadPostUrl && candidate.leadPostUrl !== link) {
+    lines.push(`پست تلگرام: ${escapeHtml(candidate.leadPostUrl)}`);
+  }
+  lines.push('', 'چک‌لیست قبل از ارسال:');
+  for (const item of reviewChecklist({
+    reason,
+    kind: resolvedKind,
+    mainEligible,
+    rumor,
+    relatedLinks,
+    needsLinkApproval,
+  })) {
+    lines.push(`• ${escapeHtml(item)}`);
+  }
+  if (rumor) lines.push('', '⚠️ این خبر تأییدنشده است؛ با احتیاط منتشر کن.');
+  if (note) lines.push('', escapeHtml(String(note).slice(0, 400)));
+  lines.push('', 'این پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.');
+  return lines.join('\n');
+}
+
 export function reviewText({
   article,
   candidate,
@@ -622,57 +732,85 @@ export function reviewText({
     ? `${expiry.date}${Number.isFinite(expiry.remainingHours) ? ` (${expiry.remainingHours} ساعت اعتبار باقی‌مانده)` : ''}`
     : 'روشن نیست';
   const link = article?.url || candidate?.link || candidate?.canonical || '';
-  const needsLinkApproval = reason === 'link_missing';
-  const original = String(text || candidate?.messageText || article?.content || '').trim();
-  const latinLetters = (original.match(/[A-Za-z]/g) ?? []).length;
-  const persianLetters = (original.match(/[\u0600-\u06FF]/g) ?? []).length;
-  const englishOriginal = latinLetters >= 40 && latinLetters > persianLetters * 2;
+  const relatedLinks = Array.isArray(candidate?.relatedLinks) ? candidate.relatedLinks : [];
+  const needsLinkApproval = reason === 'link_missing' || Boolean(candidate?.needsLinkApproval);
+  const rumor = Boolean(candidate?.rumorHint);
+  const summary = reviewSummary(text || candidate?.messageText || candidate?.summary || article?.description || '');
+
+  if (post) {
+    const title = String(post.title ?? '').trim();
+    const body = String(post.body ?? '').trim();
+    const quote = String(post.quote ?? '').trim();
+    const lines = [
+      REVIEW_BANNER,
+      '',
+      mainEligible
+        ? 'این پست آمادهٔ انتشاره. فقط لینک منبع رو چک کن؛ اگر درست بود، این هشدار بالای پیام رو پاک کن و بقیه رو به کانال اصلی بفرست.'
+        : 'این نسخه پیش‌نویس است و هنوز کامل نیست؛ قبل از انتشار موارد پایین را اصلاح کن.',
+      '',
+    ];
+    if (!mainEligible) lines.push(`دلیل: ${reasonFa}`, '');
+    lines.push('———', `عنوان: ${title}`);
+    if (post.news_date) lines.push(String(post.news_date));
+    lines.push(body);
+    if (quote) lines.push(`نقل‌قول: ${quote}`);
+    lines.push('———', '');
+    if (candidate?.sourceName) lines.push(`منبع: ${candidate.sourceName}`);
+    if (link) lines.push(`لینک منبع: ${link}`);
+    if (candidate?.leadPostUrl && candidate.leadPostUrl !== link) {
+      lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
+    }
+    lines.push('', 'چک‌لیست قبل از ارسال:');
+    for (const item of reviewChecklist({
+      reason,
+      kind: resolvedKind,
+      mainEligible,
+      rumor,
+      relatedLinks,
+      needsLinkApproval,
+    })) {
+      lines.push(`• ${item}`);
+    }
+    if (rumor) lines.push('', '⚠️ این خبر تأییدنشده است؛ با احتیاط منتشر کن.');
+    if (note) lines.push('', String(note).slice(0, 400));
+    lines.push('', 'این پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.');
+    return lines.join('\n');
+  }
+
   const lines = [
     REVIEW_BANNER,
     '',
-    mainEligible
-      ? 'نسخهٔ کانال اصلی آماده است و فقط برای تأیید نهایی به این کانال کپی شد.'
-      : 'این مورد به کانال اصلی نرفته است؛ پیش از انتشار، منبع و لینک آن باید بررسی و تأیید شود.',
-    ...(needsLinkApproval
-      ? ['لینک معتبر پیدا نشد؛ اگر لینک را تأیید یا پیدا کردید، پست را دستی در کانال اصلی منتشر کنید.']
-      : []),
+    'این مورد خودکار آماده نشد. خلاصه، منبع و چک‌لیست پایین را ببین.',
     '',
-    `بازبینی ${KIND_FA[resolvedKind] ?? KIND_FA.post} — ${reasonFa}`,
+    'این چیه؟',
+    summary || 'خلاصه‌ای برای این سرنخ ساخته نشد.',
     '',
-    `عنوان: ${article?.title || candidate?.title || ''}`,
-    `منبع: ${candidate?.sourceName || ''}`,
-    `تاریخ انتشار: ${article?.published || candidate?.published || ''}`,
   ];
-  if (resolvedKind === 'offer') lines.push(`تاریخ انقضا: ${expiryLine}`);
+  if (candidate?.sourceName) lines.push(`منبع: ${candidate.sourceName}`);
+  if (link) lines.push(`لینک منبع: ${link}`);
+  if (candidate?.leadPostUrl && candidate.leadPostUrl !== link) {
+    lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
+  }
+  for (const extra of relatedLinks.slice(0, 3)) {
+    if (extra !== link) lines.push(`لینک داخل پست: ${extra}`);
+  }
   lines.push(`دلیل بازبینی: ${reasonFa}`);
-  lines.push(
-    `وضعیت کانال اصلی: ${
-      mainEligible ? 'واجد شرایط — نسخه کانال اصلی آماده است و فقط به بازبینی کپی شد' : 'نیازمند بررسی پیش از انتشار'
-    }`
-  );
-  if (link) lines.push(`لینک: ${link}`);
-  if (candidate?.leadPostUrl) lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
-  if (post) {
-    const draft = reason === 'qa_failed' || (reason === 'tool_incomplete' && !mainEligible);
-    lines.push('', draft ? 'پیش‌نویس پست (نیازمند اصلاح):' : 'پست آماده انتشار:', `عنوان: ${post.title ?? ''}`);
-    if (post.news_date) lines.push(String(post.news_date));
-    lines.push(String(post.body ?? '').slice(0, 1200));
-    if (post.quote) lines.push(`نقل‌قول: ${String(post.quote).slice(0, 400)}`);
+  if (resolvedKind === 'offer') lines.push(`تاریخ انقضا: ${expiryLine}`);
+  const publishedFa = newsDate(article?.published || candidate?.published || '');
+  if (publishedFa) {
+    lines.push(`تاریخ انتشار: ${publishedFa}`);
   }
-  if (original) {
-    lines.push('', 'متن اصلی:', original.slice(0, post ? 900 : 2400));
-  }
-  if (!post) {
-    lines.push(
-      '',
-      englishOriginal
-        ? 'نکته: پست آمادهٔ فارسی ساخته نشده و متن اصلی انگلیسی است؛ پیش از انتشار ترجمه و تکمیل شود.'
-        : 'نکته: پست آمادهٔ فارسی ساخته نشده؛ متن بالا فقط از منبع آمده و باید ترجمه و تکمیل شود.'
-    );
-  } else if (englishOriginal) {
-    lines.push('', 'متن اصلی انگلیسی است؛ نسخهٔ فارسی در «پست آماده انتشار» بالا آمده است.');
-  } else if (original && original.length < 220) {
-    lines.push('', 'نکته: متن منبع کوتاه است؛ پیش از انتشار جزئیات پست را کامل کنید.');
+  if (rumor) lines.push('', '⚠️ این خبر تأییدنشده است.');
+  lines.push('', 'چی را چک کنی؟');
+  for (const item of reviewChecklist({
+    reason,
+    kind: resolvedKind,
+    mainEligible,
+    rumor,
+    relatedLinks,
+    needsLinkApproval,
+  })) {
+    lines.push(`• ${item}`);
   }
   if (note) lines.push('', String(note).slice(0, 400));
   lines.push('', 'این پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.');

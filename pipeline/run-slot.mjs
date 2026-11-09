@@ -26,9 +26,9 @@ import {
 import { collectCandidates } from './collect.mjs';
 import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } from './diversity.mjs';
 import { dailyBudget, sendWindow } from './guards.mjs';
-import { buildEducationForward, matchesPublishedStory } from './telegram-source.mjs';
+import { buildEducationForward, findStoryDuplicate } from './telegram-source.mjs';
 import { watchOnce, selectTargets } from './offer-watch.mjs';
-import { assessOffer, detectOffer, offerUsage, openEndedKey, openEndedUsage, recordOpenEnded, markOpenEndedEnded, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, refreshQueuedReviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
+import { assessOffer, detectOffer, offerUsage, openEndedKey, openEndedUsage, recordOpenEnded, markOpenEndedEnded, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, reviewHtml, refreshQueuedReviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
   loadState,
   saveState,
@@ -262,14 +262,6 @@ async function loadMemoryLanes() {
   ];
 }
 
-function storyText(candidate) {
-  return [candidate.title, candidate.messageText, candidate.summary].filter(Boolean).join(' ');
-}
-
-function findStoryDuplicate(candidate, delivered) {
-  return delivered.find((entry) => matchesPublishedStory(storyText(candidate), entry));
-}
-
 const importanceOf = (body) => {
   const before = String(body ?? '').split(/^[ \t]*(?:منبع|لینک استفاده)\s*[:：]/m)[0];
   return before.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean).at(-1) ?? '';
@@ -409,6 +401,7 @@ async function main() {
       messageText: candidate?.messageText ?? '',
       expiry: assessment?.expiry ?? null,
       text: '',
+      html: '',
     };
     payload.text = reviewText({
       article,
@@ -421,6 +414,17 @@ async function main() {
       post,
       text,
     });
+    if (post) {
+      payload.html = reviewHtml({
+        article,
+        candidate,
+        assessment: { ...(assessment ?? {}), reason: effectiveReason },
+        kind: resolvedKind,
+        mainEligible,
+        note,
+        post,
+      });
+    }
     return payload;
   }
 
@@ -443,15 +447,20 @@ async function main() {
       createdAt: NOW,
     }, null, 2));
     await writeFile(resolve(dir, 'review.txt'), `${payload.text}\n`);
+    if (payload.html) await writeFile(resolve(dir, 'review.html'), `${payload.html}\n`);
     return dir;
   }
 
-  async function sendReviewText(text) {
+  async function sendReviewText(text, html = '') {
     if (!SEND) return { messageId: null, sendError: '' };
     if (!reviewEnabled) return { messageId: null, sendError: 'REVIEW_DISABLED' };
     if (!REVIEW_CHAT_ID) return { messageId: null, sendError: 'REVIEW_CREDENTIALS_MISSING' };
     try {
-      const sent = await sendText(text, { token: env.TELEGRAM_BOT_TOKEN, chatId: REVIEW_CHAT_ID });
+      const sent = await sendText(html || text, {
+        token: env.TELEGRAM_BOT_TOKEN,
+        chatId: REVIEW_CHAT_ID,
+        parseMode: html ? 'HTML' : '',
+      });
       return { messageId: sent.messageId ?? null, sendError: '' };
     } catch (error) {
       return { messageId: null, sendError: redact(String(error?.message ?? error)) };
@@ -485,7 +494,7 @@ async function main() {
     }
 
     const dir = await writeReviewFiles(payload);
-    const { messageId, sendError } = await sendReviewText(payload.text);
+    const { messageId, sendError } = await sendReviewText(payload.text, payload.html);
     if (SEND && !messageId) {
       enqueueReviewPending(state, {
         ...payload,
@@ -532,7 +541,7 @@ async function main() {
       }
       const payload = { ...entry, text: refreshQueuedReviewText(entry.text, entry.reason) };
       const dir = await writeReviewFiles(payload);
-      const { messageId, sendError } = await sendReviewText(payload.text);
+      const { messageId, sendError } = await sendReviewText(payload.text, entry.html || '');
       if (SEND && !messageId) {
         entry.attempts = Number(entry.attempts ?? 0) + 1;
         state.reviewPending[entry.id] = entry;
@@ -898,19 +907,122 @@ async function main() {
 
   const reviewLeads = mainCandidates.filter((candidate) => candidate.needsReview);
   mainCandidates = mainCandidates.filter((candidate) => !candidate.needsReview);
+  const REVIEW_DRAFT_MIN_CHARS = 320;
+  const reviewSpend = { cost: 0, tokens: 0 };
+
+  async function prepareReviewDraft(candidate) {
+    const content = String(candidate.messageText ?? '').trim();
+    if (content.length < REVIEW_DRAFT_MIN_CHARS) return { post: null, qa: null, reason: 'short' };
+    if (candidate.offerHint || candidate.officialCourse || candidate.educationHint) {
+      return { post: null, qa: null, reason: 'not_news' };
+    }
+    const rawImage = String(candidate.images?.[0] ?? '');
+    const verdict = imageVerdict(rawImage, '');
+    const imageUrl = verdict.ok ? rawImage : '';
+    const article = {
+      title: candidate.title || '',
+      description: '',
+      published: candidate.published || '',
+      modified: '',
+      imageUrl,
+      imageAlt: '',
+      content,
+      url: candidate.link || candidate.leadPostUrl || '',
+    };
+    const newsDate = newsDateLine(candidate.published);
+    const story = {
+      item: { title: candidate.title, published: candidate.published },
+      article,
+      url: article.url,
+      now: NOW,
+      imageUrl,
+      maxAgeHours: config.freshness_hours.pre_gate,
+      toolUrl: candidate.relatedLinks?.[0] ?? '',
+    };
+    console.log(`REVIEW_DRAFT ${candidate.sourceName} | ${candidate.title} | ${content.length} chars`);
+    let call;
+    try {
+      call = await callWithRetry(writerOptions(PRIMARY, buildUserMessage(story)), 3, console.log);
+    } catch (error) {
+      console.log(`  REVIEW_DRAFT_FAILED ${redact(String(error?.message ?? error))}`);
+      return { post: null, qa: null, reason: 'model_failed' };
+    }
+    const cost = usageOf(call).cost;
+    const tokens = usageOf(call).tokens;
+    reviewSpend.cost += cost;
+    reviewSpend.tokens += tokens;
+    const parsed = extractJson(call.content);
+    if (!parsed) return { post: null, qa: null, reason: 'model_failed', cost, tokens };
+    if (parsed.decision === 'skip') {
+      return { post: null, qa: null, reason: 'model_skip', detail: parsed.reason, cost, tokens };
+    }
+    const fixed = applyMechanicalFixes(applyLeadPolicy(parsed, candidate), {
+      sourceName: candidate.sourceName,
+      sourceUrl: article.url,
+      imageUrl,
+      newsDate,
+      sourceType: candidate.sourceType,
+    });
+    const host = (() => {
+      try {
+        return new URL(article.url).hostname;
+      } catch {
+        return '';
+      }
+    })();
+    const qa = qaPost(fixed, {
+      url: article.url,
+      host,
+      sourceType: candidate.sourceType,
+      category: fixed.category,
+      imageUrl,
+      title: article.title,
+      description: '',
+      content,
+      links: candidate.relatedLinks ?? [],
+      usageUrl: '',
+      publishedAt: candidate.published,
+      now: NOW,
+      newsDate,
+    });
+    console.log(
+      `  REVIEW_DRAFT_QA ${qa.pass ? 'PASS' : 'FAIL'} ${qa.problems.join(',') || 'none'} | $${cost.toFixed(6)}`
+    );
+    return { post: fixed, qa, reason: qa.pass ? 'ok' : 'qa_failed', cost, tokens };
+  }
+
   if (reviewLeads.length) {
-    console.log(`REVIEW_LEADS ${reviewLeads.length} separate_from_main=yes`);
+    console.log(`REVIEW_LEADS ${reviewLeads.length} separate_from_main=yes cap=none`);
+    const reviewSeen = [];
     for (const candidate of reviewLeads) {
+      const duplicate = findStoryDuplicate(candidate, reviewSeen);
+      if (duplicate) {
+        console.log(`  REVIEW_DUPLICATE ${candidate.sourceName} | ${candidate.title} | ${duplicate.title}`);
+        markReviewSeen(candidate, 'review_duplicate', 'duplicate_in_review');
+        await saveState(STATE_PATH, state);
+        continue;
+      }
+      reviewSeen.push({ title: candidate.title, url: candidate.canonical, lane: 'review' });
       const reason = reviewReasonOf(candidate);
       const kind = candidate.offerHint ? 'offer' : candidate.toolHint ? 'tool' : 'post';
+      const draft = await prepareReviewDraft(candidate);
+      const note = draft.post
+        ? draft.qa?.pass
+          ? reviewNoteOf(reason)
+          : `QA کامل پاس نشد: ${draft.qa?.problems?.join(', ') || draft.reason}. قبل از انتشار اصلاح کن.`
+        : draft.reason === 'model_skip'
+          ? `مدل این مورد را رد کرد: ${String(draft.detail ?? '').slice(0, 300)}`
+          : reviewNoteOf(reason);
       await deliverReview({
         candidate,
         article: null,
         assessment: { reason },
         reason,
         kind,
+        mainEligible: Boolean(draft.post && draft.qa?.pass),
+        post: draft.post,
         text: candidate.messageText,
-        note: reviewNoteOf(reason),
+        note,
       });
     }
   }
@@ -1100,8 +1212,8 @@ async function main() {
   let published = null;
   const slotPosts = [];
   let lastSendAt = 0;
-  let totalCost = 0;
-  let totalTokens = 0;
+  let totalCost = reviewSpend.cost;
+  let totalTokens = reviewSpend.tokens;
   let fallbackSpent = false;
 
   async function deferOrClose(candidate, reason, detail = '') {

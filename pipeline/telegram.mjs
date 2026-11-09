@@ -93,7 +93,7 @@ export function formatTitle(value) {
     .replace(/([A-Za-z][A-Za-z0-9.+#&'’-]*)(\s*)(?=[\u06F0-\u06F9\u0660-\u0669])/gu, '$1\u200F$2');
 }
 
-function escapeHtml(value) {
+export function escapeHtml(value) {
   return String(value)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')

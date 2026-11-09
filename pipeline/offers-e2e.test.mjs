@@ -149,7 +149,7 @@ test('an official offer with an ambiguous expiry is written to review, not publi
     const entries = await readdir(dayDir);
     assert.equal(entries.length, 1);
     const reviewText = await readFile(join(dayDir, entries[0], 'review.txt'), 'utf8');
-    assert.match(reviewText, /بازبینی آفر/);
+    assert.match(reviewText, /دلیل بازبینی: تاریخ انقضا روشن نیست/);
     assert.match(reviewText, /تاریخ انقضا: روشن نیست/);
     assert.match(reviewText, /127\.0\.0\.1/);
 

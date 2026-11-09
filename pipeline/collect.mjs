@@ -10,12 +10,16 @@ import { watchPolicySource } from './policy-watch.mjs';
 import { fetchDailyPapers, selectDailyPapers } from './hf-papers.mjs';
 import {
   classifyLead,
+  externalLinksOf,
+  hasAdOfferText,
   hasExternalLink,
   hasPromoText,
+  isDigestText,
   isEducationLead,
   isOfficialCourse,
   isPromoHost,
   isPromotionalUrl,
+  isRumorText,
   leadTitle,
   parseTelegramChannel,
   selectAnyLink,
@@ -56,6 +60,8 @@ const emptyTelegramStats = () => ({
   denied: 0,
   promoted: 0,
   nonAiEducation: 0,
+  reviewSkipped: 0,
+  reviewAds: 0,
   stale: 0,
   beforeStart: 0,
   duplicate: 0,
@@ -513,6 +519,12 @@ async function collectTelegramSource({
     const educationCue = isEducationLead(hint) && !officialCourseLink;
     const aiCentral = isAiCentral(title, stripLeadNoise(message.text, { maxChars: 600 }));
     const aiMention = aiHint(hint);
+    const titleAi = aiHint(title);
+    const adText = hasAdOfferText(rawText);
+    const rumorHint = isRumorText(hint);
+    const relatedLinks = externalLinksOf(message, {
+      promoDomains: settings.promo_domains ?? [],
+    });
     const offerCue = offerHint(hint);
     const promoHost =
       (message.preview?.url
@@ -603,11 +615,29 @@ async function collectTelegramSource({
     const referral =
       hasReferral(link) ||
       isPromotionalUrl(link, { promoDomains: settings.promo_domains ?? [] });
-    const needsReview =
-      Boolean(linkFallback) ||
-      (aiMention &&
-        (fallbackLink || referral) &&
-        (leadKind === 'tool_lead' || leadKind === 'free_offer' || leadKind === 'news'));
+    const reviewCandidate =
+      aiMention &&
+      (fallbackLink || referral) &&
+      (leadKind === 'tool_lead' || leadKind === 'free_offer' || leadKind === 'news');
+    const reviewWorthy =
+      aiCentral ||
+      titleAi ||
+      leadKind === 'tool_lead' ||
+      leadKind === 'free_offer' ||
+      leadKind === 'official_course';
+    if (!reviewWorthy && (linkFallback || fallbackLink)) {
+      stats.telegram.reviewSkipped += 1;
+      continue;
+    }
+    if (isDigestText(hint) && (linkFallback || fallbackLink || reviewCandidate)) {
+      stats.telegram.reviewSkipped += 1;
+      continue;
+    }
+    if (adText && leadKind !== 'free_offer' && (linkFallback || fallbackLink || reviewCandidate)) {
+      stats.telegram.reviewAds += 1;
+      continue;
+    }
+    const needsReview = reviewWorthy && (Boolean(linkFallback) || reviewCandidate);
     candidates.push({
       sourceId: source.id,
       sourceName: source.name,
@@ -623,6 +653,9 @@ async function collectTelegramSource({
       ageHours: gate.ageHours,
       aiHint: aiMention,
       aiCentral,
+      titleAi,
+      rumorHint,
+      relatedLinks,
       offerHint: aiMention && (leadKind === 'free_offer' || offerCue),
       toolHint: leadKind === 'tool_lead',
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],

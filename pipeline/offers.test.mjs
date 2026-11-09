@@ -22,7 +22,9 @@ import {
   listReviewPending,
   removeReviewPending,
   resolveVendorLink,
+  reviewSummary,
   reviewText,
+  reviewHtml,
 } from './offers.mjs';
 import { qaPost } from './engine.mjs';
 
@@ -354,9 +356,9 @@ test('research paper reviews carry their own Persian reason and abstract', () =>
     },
     assessment: { reason: 'research_paper' },
   });
-  assert.match(text, /بازبینی پست — مقاله پژوهشی منتخب/);
+  assert.match(text, /دلیل بازبینی: مقاله پژوهشی منتخب/);
   assert.match(text, /short abstract about reasoning compression/);
-  assert.match(text, /نیازمند بررسی پیش از انتشار/);
+  assert.match(text, /این چیه؟/);
 });
 
 test('a linkless offer resolves the registered official page from its vendor name', () => {
@@ -389,9 +391,9 @@ test('a missing link review starts with the review banner', () => {
   });
   const lines = text.split('\n');
   assert.equal(lines[0], REVIEW_BANNER);
-  assert.match(text, /لینک معتبر پیدا نشد/);
   assert.match(text, /لینک معتبر برای این آفر پیدا نشد/);
-  assert.match(text, /نیازمند بررسی پیش از انتشار/);
+  assert.match(text, /منبع رسمی شرکت یا صفحهٔ اصلی محصول را پیدا کن/);
+  assert.match(text, /چی را چک کنی/);
 });
 
 test('review usage counts every state once and tracks the source channel', () => {
@@ -520,12 +522,11 @@ test('a tool review text marks main eligibility and carries the prepared post', 
     text: 'متن اصلی کانال',
     post: { title: 'تیتر آماده', news_date: '۲ نوامبر ۲۰۲۶', body: 'بدنه آماده', quote: 'نقل‌قول' },
   });
-  assert.match(text, /بازبینی ابزار/);
-  assert.match(text, /واجد شرایط/);
-  assert.match(text, /پست آماده انتشار/);
+  assert.match(text, /این پست آمادهٔ انتشاره/);
   assert.match(text, /تیتر آماده/);
-  assert.match(text, /متن اصلی کانال/);
+  assert.doesNotMatch(text, /متن اصلی کانال/);
   assert.match(text, /https:\/\/t\.me\/testchannel\/10/);
+  assert.match(text, /چک‌لیست قبل از ارسال/);
   assert.match(text, /این پیام فقط برای بازبینی است/);
 });
 
@@ -538,8 +539,9 @@ test('a qa-failed review copy is labelled as a draft that still needs fixing', (
     post: { title: 'تیتر نیمه‌کاره', body: 'بدنهٔ پست' },
   });
   assert.match(text, /بررسی کیفیت پاس نشد/);
-  assert.match(text, /پیش‌نویس پست \(نیازمند اصلاح\):/);
-  assert.doesNotMatch(text, /پست آماده انتشار/);
+  assert.match(text, /این نسخه پیش‌نویس است/);
+  assert.match(text, /عنوان: تیتر نیمه‌کاره/);
+  assert.doesNotMatch(text, /این پست آمادهٔ انتشاره/);
 });
 
 test('every review message starts with the siren banner and puts the prepared post first', () => {
@@ -557,8 +559,9 @@ test('every review message starts with the siren banner and puts the prepared po
     post: { title: 'تیتر آماده', body: 'بدنه آماده', quote: 'نقل‌قول' },
   });
   assert.ok(text.startsWith(REVIEW_BANNER));
-  assert.ok(text.indexOf('پست آماده انتشار') < text.indexOf('متن اصلی:'));
-  assert.match(text, /متن اصلی انگلیسی است/);
+  assert.match(text, /این پست آمادهٔ انتشاره/);
+  assert.ok(text.indexOf('تیتر آماده') < text.indexOf('لینک منبع:'));
+  assert.doesNotMatch(text, /The company announced/);
 });
 
 test('a review without a prepared post explains that it must be translated and completed', () => {
@@ -569,8 +572,49 @@ test('a review without a prepared post explains that it must be translated and c
     text: 'The company announced free credits for every developer account today, and the program will continue while supplies last.',
   });
   assert.ok(text.startsWith(REVIEW_BANNER));
-  assert.match(text, /پست آمادهٔ فارسی ساخته نشده/);
-  assert.match(text, /انگلیسی/);
+  assert.match(text, /این چیه؟/);
+  assert.match(text, /The company announced/);
+  assert.match(text, /چی را چک کنی/);
+});
+
+test('a ready-to-publish review keeps only the post, source and a short checklist', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'بایت‌دنس مدل تصویرساز تازه‌اش را معرفی کرد',
+      sourceName: 'کانال تست',
+      link: 'https://t.me/testchannel/20',
+      rumorHint: false,
+      relatedLinks: ['https://instagram.com/example'],
+    },
+    assessment: { reason: 'denied_link' },
+    kind: 'post',
+    mainEligible: true,
+    post: {
+      title: 'بایت‌دنس مدل تصویرساز Seedream 5.5 را معرفی کرد',
+      news_date: '۱۹ آبان ۱۴۰۵',
+      body: 'متن پست آماده.\n\nمنبع: کانال تست (https://t.me/testchannel/20)',
+      quote: 'نقل‌قول کوتاه',
+    },
+    text: 'متن خام کانال با تبلیغ و امضا که نباید در پیام بازبینی بیاید.',
+  });
+  assert.match(text, /این پست آمادهٔ انتشاره/);
+  assert.match(text, /عنوان: بایت‌دنس مدل تصویرساز/);
+  assert.match(text, /لینک منبع: https:\/\/t\.me\/testchannel\/20/);
+  assert.doesNotMatch(text, /متن خام کانال/);
+  assert.match(text, /چک‌لیست قبل از ارسال/);
+  assert.match(text, /لینک‌های داخل پست منبع/);
+  assert.ok((text.match(/^• /gm) ?? []).length <= 5);
+});
+
+test('reviewSummary removes links and handles and stays short', () => {
+  const summary = reviewSummary(
+    'خط اول دربارهٔ مدل تازه. https://example.com/x @channel\nخط دوم دربارهٔ تاریخ انتشار!\nخط سوم. خط چهارم. خط پنجم. خط ششم.',
+    { maxChars: 110, maxSentences: 3 }
+  );
+  assert.doesNotMatch(summary, /https?:|@channel/);
+  assert.ok(summary.length <= 111);
+  assert.match(summary, /خط اول/);
+  assert.doesNotMatch(summary, /خط ششم/);
 });
 
 test('every configured review reason has a Persian label', () => {
@@ -603,9 +647,40 @@ test('a failed main send keeps the prepared offer in review', () => {
     post: { title: 'تیتر آفر', body: 'بدنه آفر' },
     note: 'ارسال به کانال اصلی ناموفق بود؛ پست آماده برای بازبینی نگه داشته شد.',
   });
-  assert.match(text, /بازبینی آفر/);
+  assert.match(text, /این پست آمادهٔ انتشاره/);
   assert.match(text, /ارسال به کانال اصلی ناموفق بود/);
-  assert.match(text, /واجد شرایط/);
-  assert.match(text, /پست آماده انتشار/);
+  assert.match(text, /تاریخ انقضا و شرایط آفر/);
+  assert.match(text, /عنوان: تیتر آفر/);
   assert.match(text, /تیتر آفر/);
+});
+
+test('the ready review html keeps the post formatted and escapes the source', () => {
+  const html = reviewHtml({
+    candidate: {
+      title: 'تیتر اصلی',
+      sourceName: 'منبع & تست',
+      link: 'https://example.com/x?a=1&b=2',
+      relatedLinks: [],
+    },
+    assessment: { reason: 'denied_link' },
+    kind: 'post',
+    mainEligible: true,
+    post: {
+      title: 'تیتر اصلی',
+      body: 'متن خبر.\n\nمنبع: [example](https://example.com/x?a=1&b=2)',
+      quote: 'یک نقل‌قول.',
+      news_date: '📅 تاریخ خبر: دوشنبه ۱۸ آبان ۱۴۰۵',
+    },
+    note: 'فقط لینک را چک کن.',
+  });
+  assert.ok(html.startsWith(REVIEW_BANNER));
+  assert.match(html, /این پست آمادهٔ انتشاره/);
+  assert.match(html, /<b>\u200F?تیتر اصلی<\/b>/);
+  assert.match(html, /<a href="https:\/\/example\.com\/x\?a=1&amp;b=2">example<\/a>/);
+  assert.match(html, /<blockquote expandable>\u200F?یک نقل‌قول\.<\/blockquote>/);
+  assert.match(html, /منبع: منبع &amp; تست/);
+  assert.match(html, /لینک منبع: https:\/\/example\.com\/x\?a=1&amp;b=2/);
+  assert.match(html, /چک‌لیست قبل از ارسال:/);
+  assert.doesNotMatch(html, /\]\(https/);
+  assert.equal(reviewHtml({ candidate: {}, post: null }), '');
 });
