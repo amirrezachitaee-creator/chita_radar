@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-09T19:32:04.403Z",
+  "updatedAt": "2026-11-10T05:15:44.110Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -3914,6 +3914,245 @@
       "slot": "2026-11-09T23:00+03:30",
       "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
       "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+    },
+    "offerwatch:4a0a15ed96e8e93a": {
+      "at": "2026-11-10T05:00:54.919Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "url:1cd01b15863e291a": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps"
+    },
+    "title:0937842489027c11": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps"
+    },
+    "url:3c7bdaf8c4be307f": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Gemini-4-Carbon tops The Gamefeel Benchmark with 57.5 overall",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/c4572412dc888bffd0d19110fa94dca36c908ae8"
+    },
+    "title:9d94d0c4135638dd": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Gemini-4-Carbon tops The Gamefeel Benchmark with 57.5 overall",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/c4572412dc888bffd0d19110fa94dca36c908ae8"
+    },
+    "url:d0d38845d26af52e": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+      "url": "https://arxiv.org/abs/2611.11450v1"
+    },
+    "title:6c57860b093ea0c1": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+      "url": "https://arxiv.org/abs/2611.11450v1"
+    },
+    "url:2e4124aa2ccde3b2": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Does Predictive Performance Translate to Causal Performance? Evaluating tabular foundation models as nuisance learners for causal effect estimation",
+      "url": "https://arxiv.org/abs/2611.11381v1"
+    },
+    "title:55058938d4aac46a": {
+      "at": "2026-11-10T05:01:06.428Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Does Predictive Performance Translate to Causal Performance? Evaluating tabular foundation models as nuisance learners for causal effect estimation",
+      "url": "https://arxiv.org/abs/2611.11381v1"
+    },
+    "url:f91efa757c325ce7": {
+      "at": "2026-11-10T05:01:06.786Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "مدل fable 5.2 اومده، چندتا هم ریست لیمیت اضافه شده که میتونید رایگان ریست کنید (بستگی",
+      "url": "https://t.me/pedramgholizadeh/801"
+    },
+    "title:f8594bbb0ac60737": {
+      "at": "2026-11-10T05:01:06.786Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "مدل fable 5.2 اومده، چندتا هم ریست لیمیت اضافه شده که میتونید رایگان ریست کنید (بستگی",
+      "url": "https://t.me/pedramgholizadeh/801"
+    },
+    "url:8b8ea057e5c9fc38": {
+      "at": "2026-11-10T05:02:18.918Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "🤖 آنتروپیک دو تا مدل جدید به اسم‌های Claude Fable 5.2 و Claude Mythos 5.2 رو",
+      "url": "https://t.me/Mohammad_zammani/7183"
+    },
+    "title:30d3c087e7fed0cc": {
+      "at": "2026-11-10T05:02:18.918Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "🤖 آنتروپیک دو تا مدل جدید به اسم‌های Claude Fable 5.2 و Claude Mythos 5.2 رو",
+      "url": "https://t.me/Mohammad_zammani/7183"
+    },
+    "url:74860f2bf9a26bca": {
+      "at": "2026-11-10T05:02:18.922Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "شرکت Anthropic دو مدل تازه معرفی کرد: Claude Fable 5.2 و Claude Mythos 5.2",
+      "url": "https://t.me/dunijet_ai/2529"
+    },
+    "title:28e0d8e91de4f3ed": {
+      "at": "2026-11-10T05:02:18.922Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "شرکت Anthropic دو مدل تازه معرفی کرد: Claude Fable 5.2 و Claude Mythos 5.2",
+      "url": "https://t.me/dunijet_ai/2529"
+    },
+    "url:ff7ccbcbca55c24f": {
+      "at": "2026-11-10T05:02:19.104Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "این تصویر رو بدید به چت ChatGPT و این پرامپت رو براش بنویسید",
+      "url": "https://t.me/Sajadverse/1249"
+    },
+    "title:86985f19e52453aa": {
+      "at": "2026-11-10T05:02:19.104Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "این تصویر رو بدید به چت ChatGPT و این پرامپت رو براش بنویسید",
+      "url": "https://t.me/Sajadverse/1249"
+    },
+    "url:18abc133697af642": {
+      "at": "2026-11-10T05:02:19.290Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "✍راستی، لازم نیست هزینه دوره رو یک‌جا پرداخت کنی 🔹AI Plus رو حتی با همین تخفیف،",
+      "url": "https://t.me/ai_farshad/6394"
+    },
+    "title:688b3febf2641b8a": {
+      "at": "2026-11-10T05:02:19.290Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "✍راستی، لازم نیست هزینه دوره رو یک‌جا پرداخت کنی 🔹AI Plus رو حتی با همین تخفیف،",
+      "url": "https://t.me/ai_farshad/6394"
+    },
+    "url:db91c35168ee6035": {
+      "at": "2026-11-10T05:02:20.646Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "🔵سایتی که با هوش مصنوعی ساختی، هنوز ظاهر حرفه‌ای نداره؟",
+      "url": "https://t.me/ai_farshad/6393"
+    },
+    "title:4b5027599b12c3cf": {
+      "at": "2026-11-10T05:02:20.646Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "🔵سایتی که با هوش مصنوعی ساختی، هنوز ظاهر حرفه‌ای نداره؟",
+      "url": "https://t.me/ai_farshad/6393"
+    },
+    "url:d74543cd540fe49c": {
+      "at": "2026-11-10T05:02:25.370Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Attention Variants and Memory Efficiency",
+      "url": "https://machinelearningmastery.com/attention-variants-for-efficient-inference"
+    },
+    "title:437119de9be25fe0": {
+      "at": "2026-11-10T05:02:25.370Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Attention Variants and Memory Efficiency",
+      "url": "https://machinelearningmastery.com/attention-variants-for-efficient-inference"
+    },
+    "url:a3bc8ca770f44f2d": {
+      "at": "2026-11-10T05:03:43.299Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns"
+    },
+    "title:d8e747aabd405c02": {
+      "at": "2026-11-10T05:03:43.299Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns"
+    },
+    "url:fee675b27caf7a6b": {
+      "at": "2026-11-10T05:15:44.109Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "url": "https://therecord.media/cyberattack-germany-ai-mittwald"
+    },
+    "title:59b7ab1d25889938": {
+      "at": "2026-11-10T05:15:44.109Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-10T08:30+03:30",
+      "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "url": "https://therecord.media/cyberattack-germany-ai-mittwald"
     }
   },
   "deferred": {
@@ -3969,101 +4208,6 @@
         }
       },
       "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
-    },
-    "defer:url:fee675b27caf7a6b": {
-      "id": "defer:url:fee675b27caf7a6b",
-      "at": "2026-11-09T17:03:16.635Z",
-      "firstAt": "2026-11-09T17:03:16.635Z",
-      "attempts": 1,
-      "reason": "qa_failed",
-      "reasons": [
-        "qa_failed"
-      ],
-      "keys": [
-        "url:fee675b27caf7a6b",
-        "title:59b7ab1d25889938"
-      ],
-      "canonical": "https://therecord.media/cyberattack-germany-ai-mittwald",
-      "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
-        "link": "https://therecord.media/cyberattack-germany-ai-mittwald",
-        "canonical": "https://therecord.media/cyberattack-germany-ai-mittwald",
-        "published": "Mon, 09 Nov 2026 14:15:00 GMT",
-        "summary": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/cyberattack-germany-ai-mittwald",
-        "images": [
-          "http://cms.therecord.media/uploads/Mittwald_CM_Service_c430f4d1f0.jpg"
-        ],
-        "ageHours": 2.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:fee675b27caf7a6b",
-          "title:59b7ab1d25889938"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      },
-      "detail": "source_url"
-    },
-    "defer:url:a3bc8ca770f44f2d": {
-      "id": "defer:url:a3bc8ca770f44f2d",
-      "at": "2026-11-09T19:32:04.402Z",
-      "firstAt": "2026-11-09T19:32:04.402Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a3bc8ca770f44f2d",
-        "title:d8e747aabd405c02"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
-      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-        "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-        "canonical": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
-        "published": "Mon, 09 Nov 2026 19:24:51 +0000",
-        "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-        "images": [],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a3bc8ca770f44f2d",
-          "title:d8e747aabd405c02"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      },
-      "detail": "models"
     }
   },
   "slots": {
@@ -4751,6 +4895,52 @@
           "at": "2026-11-09T19:31:39.542Z"
         }
       ]
+    },
+    "2026-11-10T08:30+03:30": {
+      "at": "2026-11-10T05:03:43.299Z",
+      "status": "sent",
+      "category": "security",
+      "title": "هکرها با کمک هوش مصنوعی به میزبان آلمانی نفوذ کردند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/08-30-2",
+      "messageId": 44,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.005137132,
+      "tokens": 50147,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "Anthropic مدل‌های Mythos 5.2 و Fable 5.2 را منتشر کرد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 43,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00318514,
+          "tokens": 21052,
+          "qa": "42/42",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-10T05:03:43.299Z"
+        },
+        {
+          "title": "هکرها با کمک هوش مصنوعی به میزبان آلمانی نفوذ کردند",
+          "category": "security",
+          "status": "sent",
+          "messageId": 44,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/08-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0006221320000000001,
+          "tokens": 19749,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-10T05:15:44.109Z"
+        }
+      ]
     }
   },
   "published": [
@@ -5278,93 +5468,127 @@
       "sourceTitle": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
       "sourceText": "A compound AI approach to Japanese personas grounded in real-world distributions\nIn the financial sector, the utilization of real-world data faces significant constraints due to strict privacy regulations, compliance requirements, and the need for advanced domain expertise. In this context, the development of agentic AI in the financial domain requires synthetic data capable of avoiding the risks of using real data while reflecting demographics, household structures, and asset statuses to reproduce diverse, realistic financial scenarios.\nTo address these challenges, Elith and NVIDIA have released Nemotron-Personas-Finance-Japan , a financial domain extension of the open-source persona dataset \" Nemotron-Personas-Japan .\" To our knowledge, it is the first open persona dataset at million-record scale that pairs Japan’s official statistics with household finance and financial literacy data. Built upon official government statistics, this dataset was developed using NeMo SDG-PGMs , a probabilistic graphical model framework for synthetic data generation (SDG), and NeMo Data Designer , an enterprise synthetic data generation system. Furthermore, to enhance the practical utility of the dataset in financial use cases, it was designed by incorporating insights and feedback provided by leading domestic financial institutions and industry associations, including Sompo Japan, Tokio Marine Holdings, Bank of Fukuoka, Mizuho Financial Group, Meiji Yasuda Life Insurance, and the Financial Data Utilization Association (FDUA).\nThis dataset expands the environment where Japanese developers an",
       "at": "2026-11-09T19:31:39.543Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-10T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "Anthropic مدل‌های Mythos 5.2 و Fable 5.2 را منتشر کرد",
+      "why": "اهمیتش اینه که کاهش قیمت و افزایش سرعت، Fable 5.2 رو به گزینه‌ای جدی برای شرکت‌هایی تبدیل می‌کنه که به دنبال مدلی قدرتمند و مقرون‌به‌صرفه هستن.",
+      "dedupe_key": "post-40aad0c9c24f327e",
+      "post_key": "2026-11-10/08-30/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "sourceTitle": "Anthropic releases new Mythos and Fable models amid RSI concerns | TechCrunch",
+      "sourceText": "Anthropic released new versions of its most advanced models on Monday, with the launch of Mythos 5.2 and Fable 5.2. The company says the new models “show improvements in areas like coding, reasoning, and vision” and communicate more clearly with users.\nNotably, Anthropic is lowering the cost of Fable from $10 to $8 per million input tokens. As a result, Fable 5.2 is now cheaper than its primary competitor GPT-6 Astra. Anthropic says that the new version of Fable will return responses 30% faster across effort levels. Faster inference serving is available for double the price.\nFable 5.2 is also compatible with zero data retention (ZDR) policies through the Enterprise Frontier Safeguards system , long a sticking point for many enterprise clients.\nIt’s Anthropic’s first model release since the arrival of a third-party report from the assessment group METR , which suggested the lab might be approaching recursive self-improvement (RSI) — or the ability for AI models to carry on model training independently. The METR report found internal models were speeding up Anthropic’s AI progress by roughly 2x, although many uncertainties remain.\nStill, Anthropic’s release notes significant ongoing challenges in accurately testing model capabilities. “Claude Mythos 5.2 and Fable 5.2 each voice suspicion that they are being evaluated more often than any of our recent models, which challenges our ability to assess how they will act in real-world settings. As these settings expand and capabilities increase with future models, we expect this challenge to grow.”\nAnthropic maintains that the new v",
+      "at": "2026-11-10T05:03:43.299Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-10T08:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "هکرها با کمک هوش مصنوعی به میزبان آلمانی نفوذ کردند",
+      "why": "اهمیتش اینه که اذعان یک شرکت به این موضوع، نگرانی‌ها درباره حملات آینده رو جدی‌تر می‌کنه.",
+      "dedupe_key": "mittwald-cyberattack-ai",
+      "post_key": "2026-11-10/08-30/2",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
+      "sourceTitle": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host",
+      "sourceText": "Hackers allegedly assisted by AI breached a German web hosting company through a tool designed to allow customers to connect AI assistants to their accounts, the company disclosed over the weekend.\nMittwald CM Service, a hosting provider for web agencies based in North Rhine-Westphalia, disclosed in a blog post Saturday that hackers had compromised 56 customer projects after going undetected on its systems for eight days.\nThe company’s managing director Robert Meyer said the attackers exploited a flaw in Mittwald’s Model Context Protocol (MCP) server used to allow customers to connect their AI assistants to mStudio, a platform for managing websites and hosting services. It is unclear whether the flaw was in the company’s own code or in the open-source MCP software libraries.\nMeyer said the attacker appeared to have used AI tools in the breach, explaining the company’s logs “show that he worked his way through our system extremely quickly” and that “in some cases, only seconds passed between steps that would take significantly longer for a human attacker.”\nMittwald provided no other evidence of AI involvement. The company did not immediately respond when asked to distinguish between the detection of AI tools and conventional scripts that also allow hackers to move faster than an unaided human operator.\nAccording to Mittwald’s own timeline, the attacker first tested the MCP flaw amid a global scramble in October to apply patches for PHP2Shell. Meyer said “the attacker disguised his access attempts and carried out various diversionary tactics.”\n“External IT forensic experts ar",
+      "at": "2026-11-10T05:15:44.109Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8341,
-      "last_at": "2026-11-09T19:30:35+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 8346,
+      "last_at": "2026-11-09T19:55:36+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "pedramgholizadeh": {
-      "last_id": 799,
-      "last_at": "2026-11-09T14:55:21+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 801,
+      "last_at": "2026-11-09T20:56:53+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "ai_farshad": {
-      "last_id": 6392,
-      "last_at": "2026-11-09T17:15:04+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 6394,
+      "last_at": "2026-11-09T22:12:07+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7182,
-      "last_at": "2026-11-09T17:33:40+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 7183,
+      "last_at": "2026-11-10T04:47:06+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "techiin_ir": {
-      "last_id": 20737,
-      "last_at": "2026-11-09T18:55:42+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 20738,
+      "last_at": "2026-11-09T20:05:08+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "mgh_mobin": {
       "last_id": 465,
       "last_at": "2026-11-09T09:11:32+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "web3nabu": {
       "last_id": 2150,
       "last_at": "2026-11-03T14:30:50+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "asrnovin_ir": {
-      "last_id": 11427,
-      "last_at": "2026-11-09T16:54:17+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 11428,
+      "last_at": "2026-11-09T22:15:28+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "shayanode": {
       "last_id": 111,
       "last_at": "2026-11-09T17:19:41+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "codecloude": {
-      "last_id": 2571,
-      "last_at": "2026-11-09T17:13:25+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 2572,
+      "last_at": "2026-11-09T20:59:04+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "dunijet_ai": {
-      "last_id": 2528,
-      "last_at": "2026-11-09T18:36:45+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 2529,
+      "last_at": "2026-11-10T03:38:07+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "marketing_aida": {
       "last_id": 104,
       "last_at": "2026-11-08T10:04:25+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "Sajadverse": {
-      "last_id": 1248,
-      "last_at": "2026-11-09T06:53:13+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 1249,
+      "last_at": "2026-11-09T19:54:32+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "MatinSenPaii": {
-      "last_id": 5829,
-      "last_at": "2026-11-09T19:08:18+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "last_id": 5830,
+      "last_at": "2026-11-10T04:24:02+00:00",
+      "checked_at": "2026-11-10T05:00:50.713Z"
     },
     "thenimaonAI": {
       "last_id": 481,
       "last_at": "2026-11-09T17:33:41+00:00",
-      "checked_at": "2026-11-09T19:30:42.674Z"
+      "checked_at": "2026-11-10T05:00:50.713Z"
     }
   },
   "offerReviews": [
@@ -6759,6 +6983,54 @@
       "slot": "2026-11-09T23:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-10",
+      "at": "2026-11-10T05:00:50.713Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-10T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-pedram-gholizadeh|https://t.me/pedramgholizadeh/801",
+      "date": "2026-11-10",
+      "at": "2026-11-10T05:00:50.713Z",
+      "source": "tg-pedram-gholizadeh",
+      "title": "مدل fable 5.2 اومده، چندتا هم ریست لیمیت اضافه شده که میتونید رایگان ریست کنید (بستگی",
+      "url": "https://t.me/pedramgholizadeh/801",
+      "reason": "link_missing",
+      "slot": "2026-11-10T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7183",
+      "date": "2026-11-10",
+      "at": "2026-11-10T05:00:50.713Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖 آنتروپیک دو تا مدل جدید به اسم‌های Claude Fable 5.2 و Claude Mythos 5.2 رو",
+      "url": "https://t.me/Mohammad_zammani/7183",
+      "reason": "denied_link",
+      "slot": "2026-11-10T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-sajadverse|https://t.me/Sajadverse/1249",
+      "date": "2026-11-10",
+      "at": "2026-11-10T05:00:50.713Z",
+      "source": "tg-sajadverse",
+      "title": "این تصویر رو بدید به چت ChatGPT و این پرامپت رو براش بنویسید",
+      "url": "https://t.me/Sajadverse/1249",
+      "reason": "no_link",
+      "slot": "2026-11-10T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -6824,13 +7096,34 @@
       "url": "https://pyimagesearch.com/2026/11/09/what-is-mlops-architecture-mlops-vs-devops-and-llmops",
       "slot": "2026-11-09T20:30+03:30",
       "at": "2026-11-09T17:00:53.574Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "✍راستی، لازم نیست هزینه دوره رو یک‌جا پرداخت کنی 🔹AI Plus رو حتی با همین تخفیف،",
+      "url": "https://t.me/ai_farshad/6394",
+      "slot": "2026-11-10T08:30+03:30",
+      "at": "2026-11-10T05:00:50.713Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "🔵سایتی که با هوش مصنوعی ساختی، هنوز ظاهر حرفه‌ای نداره؟",
+      "url": "https://t.me/ai_farshad/6393",
+      "slot": "2026-11-10T08:30+03:30",
+      "at": "2026-11-10T05:00:50.713Z"
+    },
+    {
+      "source": "machinelearningmastery",
+      "title": "Attention Variants and Memory Efficiency",
+      "url": "https://machinelearningmastery.com/attention-variants-for-efficient-inference",
+      "slot": "2026-11-10T08:30+03:30",
+      "at": "2026-11-10T05:00:50.713Z"
     }
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-09",
-    "at": "2026-11-09T05:00:47.567Z",
-    "found": 2,
-    "delivered": 2
+    "lastDate": "2026-11-10",
+    "at": "2026-11-10T05:00:50.713Z",
+    "found": 1,
+    "delivered": 1
   }
 }
