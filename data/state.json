@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-10T13:42:28.203Z",
+  "updatedAt": "2026-11-10T17:01:58.173Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -4894,6 +4894,112 @@
       "slot": "2026-11-10T17:00+03:30",
       "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
       "url": "https://arxiv.org/abs/2611.12872v1"
+    },
+    "url:e086b6a569cdaf26": {
+      "at": "2026-11-10T17:01:12.578Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era"
+    },
+    "title:f87a15c9ab32fa94": {
+      "at": "2026-11-10T17:01:12.578Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era"
+    },
+    "url:a91078f7ffa1fcbf": {
+      "at": "2026-11-10T17:01:17.745Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "🚀 بالاخره مدل Gemini 4 Carbon رسید ⠀ گوگل مدل جدیدش را برای همه منتشر کرد؛",
+      "url": "https://t.me/ArchiveTell/8357"
+    },
+    "title:69f763a6b907bccd": {
+      "at": "2026-11-10T17:01:17.745Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "🚀 بالاخره مدل Gemini 4 Carbon رسید ⠀ گوگل مدل جدیدش را برای همه منتشر کرد؛",
+      "url": "https://t.me/ArchiveTell/8357"
+    },
+    "url:955b11199c39f87c": {
+      "at": "2026-11-10T17:01:21.248Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "🔴پاول یه قابلیت معرفی کرده که می‌تونه دنیای ربات‌ها رو زیرورو کنه!",
+      "url": "https://t.me/codecloude/2573"
+    },
+    "title:d766c2752f4039c8": {
+      "at": "2026-11-10T17:01:21.248Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "🔴پاول یه قابلیت معرفی کرده که می‌تونه دنیای ربات‌ها رو زیرورو کنه!",
+      "url": "https://t.me/codecloude/2573"
+    },
+    "url:5289a8737fcfa0d4": {
+      "at": "2026-11-10T17:01:21.614Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
+      "url": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm"
+    },
+    "title:f6654aba3829a839": {
+      "at": "2026-11-10T17:01:21.614Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
+      "url": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm"
+    },
+    "url:6e07690c27eb09da": {
+      "at": "2026-11-10T17:01:21.683Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl"
+    },
+    "title:570a42599a592bec": {
+      "at": "2026-11-10T17:01:21.683Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl"
+    },
+    "url:5f3963726dbe36e6": {
+      "at": "2026-11-10T17:01:58.171Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision"
+    },
+    "title:5c9051bf5148f843": {
+      "at": "2026-11-10T17:01:58.171Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-10T20:30+03:30",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision"
     }
   },
   "deferred": {
@@ -4949,62 +5055,6 @@
         }
       },
       "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
-    },
-    "defer:url:6e07690c27eb09da": {
-      "id": "defer:url:6e07690c27eb09da",
-      "at": "2026-11-10T10:32:16.785Z",
-      "firstAt": "2026-11-10T08:03:50.789Z",
-      "attempts": 2,
-      "reason": "qa_failed",
-      "reasons": [
-        "qa_failed"
-      ],
-      "keys": [
-        "url:6e07690c27eb09da",
-        "title:570a42599a592bec"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
-      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-        "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-        "canonical": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
-        "published": "Mon, 09 Nov 2026 14:00:01 +0000",
-        "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/corl-corp-blog-promo-pack-1920x1080-1.png",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/corl-corp-blog-promo-pack-1920x1080-1-842x450.png",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/groot-2-shipping-label.mp4",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ambi-robotics-1680x1120.jpg"
-        ],
-        "ageHours": 18,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6e07690c27eb09da",
-          "title:570a42599a592bec"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:6e07690c27eb09da",
-          "attempts": 1
-        }
-      },
-      "detail": "body_paragraphs,length"
     },
     "defer:url:2e34e84f0999c607": {
       "id": "defer:url:2e34e84f0999c607",
@@ -5173,9 +5223,9 @@
     },
     "defer:url:0e9fb0eb84f13acf": {
       "id": "defer:url:0e9fb0eb84f13acf",
-      "at": "2026-11-10T13:42:28.203Z",
+      "at": "2026-11-10T17:01:41.394Z",
       "firstAt": "2026-11-10T13:42:28.203Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_daily_cap",
       "reasons": [
         "category_daily_cap"
@@ -5215,9 +5265,59 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:0e9fb0eb84f13acf",
+          "attempts": 1
+        }
       },
       "detail": "security"
+    },
+    "defer:url:69d4d9d74efa0162": {
+      "id": "defer:url:69d4d9d74efa0162",
+      "at": "2026-11-10T17:01:41.428Z",
+      "firstAt": "2026-11-10T17:01:41.428Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:69d4d9d74efa0162",
+        "title:0b9feed9c5738720"
+      ],
+      "canonical": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "title": "Closing the AI guidance gap in education",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Closing the AI guidance gap in education",
+        "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "canonical": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "published": "Tue, 10 Nov 2026 09:00:00 GMT",
+        "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "images": [],
+        "ageHours": 8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:69d4d9d74efa0162",
+          "title:0b9feed9c5738720"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -6044,6 +6144,37 @@
           "at": "2026-11-10T13:35:38.336Z"
         }
       ]
+    },
+    "2026-11-10T20:30+03:30": {
+      "at": "2026-11-10T17:01:58.171Z",
+      "status": "sent",
+      "category": "models",
+      "title": "هاگینگ‌فیس رابط استاندارد مدل‌های تصمیم‌گیری را معرفی کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/20-30",
+      "messageId": 49,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0024832024,
+      "tokens": 39034,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "هاگینگ‌فیس رابط استاندارد مدل‌های تصمیم‌گیری را معرفی کرد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 49,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0006217008,
+          "tokens": 11406,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-10T17:01:58.171Z"
+        }
+      ]
     }
   },
   "published": [
@@ -6656,93 +6787,110 @@
       "sourceTitle": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
       "sourceText": "Andrej Karpathy, OpenAI co-founder and current Anthropic AI researcher, built HackerTube over a weekend using Claude's Opus 5.5 model. Claude filtered 43 million comments from 20 years of Hacker News and distilled them into 6,454 videos that keep getting recommended there . The result is a \"significantly better viewing experience\" than YouTube's own recommendations, Karpathy writes on X . The site needs no login, shows a single mid-video frame instead of optimized thumbnails, and stores state locally in the browser. Right after, Karpathy built TristanTube , \"one-shotted with Claude Code in 3 minutes,\" with 47,000 videos drawn from a YouTube channel list by Tristan Hume.\nKarpathy says he let Claude Code handle nearly all the work, from data analysis to server setup. His only manual steps were a Google Cloud API key, a rented server, and buying the domain. Projects that used to take weeks can now be done in a few hours, Karpathy says.",
       "at": "2026-11-10T13:35:38.337Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-10T20:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "هاگینگ‌فیس رابط استاندارد مدل‌های تصمیم‌گیری را معرفی کرد",
+      "why": "این تغییر از این جهت مهمه که با یک رابط استاندارد، ابزارهای مختلف می‌تونن بدون سازگاری‌های خاص با هر مدل، از این مدل‌ها استفاده کنن.",
+      "dedupe_key": "huggingface-decision-models-interface",
+      "post_key": "2026-11-10/20-30/1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "url": "https://huggingface.co/blog/decision",
+      "sourceTitle": "Decision Models in Hugging Face",
+      "sourceText": "Large Language Models (LLMs) are exceptionally good at generating text. We use them to answer questions, write code, reason about problems, and so much more. But not every problem requires generating text.\nConsider a customer support system receiving the following message:\n\"I was charged twice for my subscription. I need a refund today.\"\nThe system needs to determine which team should handle the request, how urgent it is, and whether the customer is requesting a refund.\nWe could ask an LLM to return a JSON object containing these answers.\nBut what if the model could directly evaluate the available options and return a probability distribution over them, without generating any text ?\nA decision model takes some input context (state), evaluates a question with a set of predefined possible answers (primitives), and returns a structured decision along with probabilities. Instead of asking a model to generate an answer token by token, we ask it to assign probabilities to the answers that our application already understands.\nTypeSafe AI introduced Jev , describing it as a System One model . The name draws inspiration from the distinction between fast, intuitive thinking (System 1) and slower, deliberative thinking (System 2).\nThe community has converged to the term decision model , because it describes the model's computational role rather than invoking a particular theory of cognition. In the rest of the post we will refer to the models as \"decision models\" instead of \"system one models\". ( A poll on twitter deciding what we should be calling such models )\nWe could simply prompt",
+      "at": "2026-11-10T17:01:58.172Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8351,
-      "last_at": "2026-11-10T12:23:23+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "last_id": 8357,
+      "last_at": "2026-11-10T16:27:29+00:00",
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "ai_farshad": {
       "last_id": 6401,
       "last_at": "2026-11-10T13:09:57+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7188,
-      "last_at": "2026-11-10T09:40:00+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "last_id": 7192,
+      "last_at": "2026-11-10T15:43:15+00:00",
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "techiin_ir": {
-      "last_id": 20744,
-      "last_at": "2026-11-10T12:34:19+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "last_id": 20745,
+      "last_at": "2026-11-10T15:52:40+00:00",
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "mgh_mobin": {
       "last_id": 470,
       "last_at": "2026-11-10T10:47:20+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "web3nabu": {
-      "last_id": 2151,
-      "last_at": "2026-11-10T07:57:48+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "last_id": 2153,
+      "last_at": "2026-11-10T15:28:17+00:00",
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "asrnovin_ir": {
-      "last_id": 11430,
-      "last_at": "2026-11-10T12:55:22+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "last_id": 11434,
+      "last_at": "2026-11-10T16:31:12+00:00",
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "shayanode": {
-      "last_id": 116,
-      "last_at": "2026-11-10T12:41:46+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "last_id": 117,
+      "last_at": "2026-11-10T16:55:37+00:00",
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "codecloude": {
-      "last_id": 2572,
-      "last_at": "2026-11-09T20:59:04+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "last_id": 2573,
+      "last_at": "2026-11-10T15:22:43+00:00",
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "dunijet_ai": {
       "last_id": 2530,
       "last_at": "2026-11-10T09:30:48+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "MatinSenPaii": {
       "last_id": 5838,
       "last_at": "2026-11-10T12:18:14+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     },
     "thenimaonAI": {
       "last_id": 491,
       "last_at": "2026-11-10T10:19:13+00:00",
-      "checked_at": "2026-11-10T13:30:48.692Z"
+      "checked_at": "2026-11-10T17:00:54.601Z"
     }
   },
   "offerReviews": [
@@ -8305,6 +8453,30 @@
       "slot": "2026-11-10T17:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-archive-tell|https://t.me/ArchiveTell/8357",
+      "date": "2026-11-10",
+      "at": "2026-11-10T17:00:54.601Z",
+      "source": "tg-archive-tell",
+      "title": "🚀 بالاخره مدل Gemini 4 Carbon رسید ⠀ گوگل مدل جدیدش را برای همه منتشر کرد؛",
+      "url": "https://t.me/ArchiveTell/8357",
+      "reason": "denied_link",
+      "slot": "2026-11-10T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-codecloude|https://t.me/codecloude/2573",
+      "date": "2026-11-10",
+      "at": "2026-11-10T17:00:54.601Z",
+      "source": "tg-codecloude",
+      "title": "🔴پاول یه قابلیت معرفی کرده که می‌تونه دنیای ربات‌ها رو زیرورو کنه!",
+      "url": "https://t.me/codecloude/2573",
+      "reason": "denied_link",
+      "slot": "2026-11-10T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -8419,6 +8591,13 @@
       "url": "https://machinelearningmastery.com/what-are-diffusion-language-models-and-why-are-they-different-from-gpt",
       "slot": "2026-11-10T17:00+03:30",
       "at": "2026-11-10T13:30:48.692Z"
+    },
+    {
+      "source": "kdnuggets",
+      "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
+      "url": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm",
+      "slot": "2026-11-10T20:30+03:30",
+      "at": "2026-11-10T17:00:54.601Z"
     }
   ],
   "reviewPending": {},
