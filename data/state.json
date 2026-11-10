@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-10T10:33:25.971Z",
+  "updatedAt": "2026-11-10T13:42:28.203Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -4716,6 +4716,184 @@
       "slot": "2026-11-10T14:00+03:30",
       "title": "parse_number() as a SQLite extension: C vs Rust",
       "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust"
+    },
+    "url:953eee3a15e0c4a4": {
+      "at": "2026-11-10T13:31:02.040Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "Pely Media",
+      "url": "http://t.me/pelymedia"
+    },
+    "title:5c29feaca943e69b": {
+      "at": "2026-11-10T13:31:02.040Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "Pely Media",
+      "url": "http://t.me/pelymedia"
+    },
+    "url:1b55de7bc5805a3f": {
+      "at": "2026-11-10T13:31:02.742Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "🔥دو روش استفاده از Fable 5.2 رایگان",
+      "url": "https://coarena.ai/docs"
+    },
+    "title:42afdc41d431ecb6": {
+      "at": "2026-11-10T13:31:02.742Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "🔥دو روش استفاده از Fable 5.2 رایگان",
+      "url": "https://coarena.ai/docs"
+    },
+    "url:fb738fdac0a7a7d1": {
+      "at": "2026-11-10T13:31:20.310Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "مدل Fable 5.2 برای محصولی که خودش اختراع کرده یه فیلم تبلیغاتی کامل ساخته",
+      "url": "https://t.me/MatinSenPaii/5838"
+    },
+    "title:bcf0d3db11d60333": {
+      "at": "2026-11-10T13:31:20.310Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "مدل Fable 5.2 برای محصولی که خودش اختراع کرده یه فیلم تبلیغاتی کامل ساخته",
+      "url": "https://t.me/MatinSenPaii/5838"
+    },
+    "url:d69544fa2ffdf878": {
+      "at": "2026-11-10T13:31:35.102Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "کمیته نوبلیست‌ها داره اثبات هوش مصنوعی یانگ‌میلز رو عمومی می‌کنه",
+      "url": "https://t.me/MatinSenPaii/5837"
+    },
+    "title:ede4181b4785b17e": {
+      "at": "2026-11-10T13:31:35.102Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "کمیته نوبلیست‌ها داره اثبات هوش مصنوعی یانگ‌میلز رو عمومی می‌کنه",
+      "url": "https://t.me/MatinSenPaii/5837"
+    },
+    "url:16b05448c347d957": {
+      "at": "2026-11-10T13:31:35.972Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "با مکتب‌خونه، بورسیه‌ی دانشگاه هاروارد شو!",
+      "url": "https://land.maktabkhooneh.org/tavalod1405?amp%3Butm_campaign=tavalod1405-telegram-hashtag-techiinir&amp%3Butm_medium=social"
+    },
+    "title:df15cdd8fe863d55": {
+      "at": "2026-11-10T13:31:35.972Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "با مکتب‌خونه، بورسیه‌ی دانشگاه هاروارد شو!",
+      "url": "https://land.maktabkhooneh.org/tavalod1405?amp%3Butm_campaign=tavalod1405-telegram-hashtag-techiinir&amp%3Butm_medium=social"
+    },
+    "url:0f0020abcf733229": {
+      "at": "2026-11-10T13:31:37.588Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+    },
+    "title:cb70af3970037bb2": {
+      "at": "2026-11-10T13:31:37.588Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+    },
+    "url:62e736814c53cc84": {
+      "at": "2026-11-10T13:31:42.202Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "What Are Diffusion Language Models, and Why Are They Different From GPT?",
+      "url": "https://machinelearningmastery.com/what-are-diffusion-language-models-and-why-are-they-different-from-gpt"
+    },
+    "title:aff9f1e415edc3d6": {
+      "at": "2026-11-10T13:31:42.202Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "What Are Diffusion Language Models, and Why Are They Different From GPT?",
+      "url": "https://machinelearningmastery.com/what-are-diffusion-language-models-and-why-are-they-different-from-gpt"
+    },
+    "url:4f97b9d47a9b669e": {
+      "at": "2026-11-10T13:35:38.336Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news"
+    },
+    "title:2043d59f11f4645d": {
+      "at": "2026-11-10T13:35:38.336Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news"
+    },
+    "url:52ec0c5ae9f64558": {
+      "at": "2026-11-10T13:41:20.552Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "5 Techniques for Fine-Tuning LLMs Without Breaking the Bank",
+      "url": "https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank"
+    },
+    "title:8fdd7d7e7f84e666": {
+      "at": "2026-11-10T13:41:20.552Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "5 Techniques for Fine-Tuning LLMs Without Breaking the Bank",
+      "url": "https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank"
+    },
+    "url:433e72e1b4576541": {
+      "at": "2026-11-10T13:41:24.675Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2611.12872v1"
+    },
+    "title:f1c6e16f67156882": {
+      "at": "2026-11-10T13:41:24.675Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-10T17:00+03:30",
+      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2611.12872v1"
     }
   },
   "deferred": {
@@ -4830,9 +5008,9 @@
     },
     "defer:url:2e34e84f0999c607": {
       "id": "defer:url:2e34e84f0999c607",
-      "at": "2026-11-10T10:32:55.869Z",
+      "at": "2026-11-10T13:31:42.249Z",
       "firstAt": "2026-11-10T10:32:55.869Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -4870,58 +5048,176 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:2e34e84f0999c607",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
-    "defer:url:4f97b9d47a9b669e": {
-      "id": "defer:url:4f97b9d47a9b669e",
-      "at": "2026-11-10T10:33:25.971Z",
-      "firstAt": "2026-11-10T10:33:25.971Z",
+    "defer:url:c979be8e72cc92b8": {
+      "id": "defer:url:c979be8e72cc92b8",
+      "at": "2026-11-10T13:39:04.305Z",
+      "firstAt": "2026-11-10T13:39:04.305Z",
       "attempts": 1,
-      "reason": "qa_failed",
+      "reason": "category_consecutive",
       "reasons": [
-        "qa_failed"
+        "category_consecutive"
       ],
       "keys": [
-        "url:4f97b9d47a9b669e",
-        "title:2043d59f11f4645d"
+        "url:c979be8e72cc92b8",
+        "title:592512114f052bcd"
       ],
-      "canonical": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
-      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "canonical": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+      "title": "Google Cloud launches Gemini for healthcare.",
       "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
-        "link": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
-        "canonical": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
-        "published": "Sun, 08 Nov 2026 14:23:00 +0000",
-        "summary": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appeared first on The Decoder .",
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Google Cloud launches Gemini for healthcare.",
+        "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+        "canonical": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+        "published": "Tue, 10 Nov 2026 13:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp\">Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
         "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
         "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/comments_to_youtube.png"
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp"
         ],
-        "ageHours": 44.1,
+        "ageHours": 0.5,
         "aiHint": true,
         "aiCentral": true,
         "offerHint": false,
         "sourceCategories": [
           "models",
-          "business",
           "tools"
         ],
         "categoryHint": "tools",
         "keys": [
-          "url:4f97b9d47a9b669e",
-          "title:2043d59f11f4645d"
+          "url:c979be8e72cc92b8",
+          "title:592512114f052bcd"
         ],
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
       },
-      "detail": "source_url"
+      "detail": "tools"
+    },
+    "defer:url:050897d62ff36e72": {
+      "id": "defer:url:050897d62ff36e72",
+      "at": "2026-11-10T13:41:14.133Z",
+      "firstAt": "2026-11-10T13:41:14.133Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:050897d62ff36e72",
+        "title:8f4b85e82d9a766d"
+      ],
+      "canonical": "https://github.com/jeffallan/claude-skills",
+      "title": "GitHub - Jeffallan/claude-skills: 67 Specialized Skills for Full-Stack Developers. Transform Claude Code into ",
+      "candidate": {
+        "sourceId": "tg-mgh-mobin",
+        "sourceName": "M G H M O B I N",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - Jeffallan/claude-skills: 67 Specialized Skills for Full-Stack Developers. Transform Claude Code into ",
+        "link": "https://github.com/jeffallan/claude-skills",
+        "canonical": "https://github.com/jeffallan/claude-skills",
+        "messageText": "🛠 ۵ ابزار که کلاد رو توی پروژه‌ت مثل یه senior developer می‌کنه\n\n1️⃣ اسکیل Fullstack Dev Skills\nیه پک کامل از skillها، از frontend و backend تا test و deploy. لازم نیست انتخاب کنی؛ کلاد بسته به کاری که بهش می‌دی، skill مناسبش رو خودش برمی‌داره.\n🔗 github.com/jeffallan/claude-skills\nنصب توی Claude Code:\n/plugin marketplace add jeffallan/claude-skills\n/plugin install fullstack-dev-skills@fullstack-dev-skills\n\n2️⃣ اسکیل Context7\nآخرین documentation کتابخونه‌ای که باهاش کار می‌کنی رو میاره جلوی کلاد، تا با اطلاعات نسخه‌های قدیمی برات کد نزنه.\n🔗 github.com/upstash/context7\n\n3️⃣ اسکیل Graphify\nاز کد پروژه‌ت یه نقشه (knowledge graph) می‌سازه که کلاد بفهمه هر فایل و هر تابع به کجا وصله. این‌جوری قبل از هر تغییر می‌دونه روی کجاهای دیگه اثر می‌ذاره.\n🔗 github.com/safishamsi/graphify\n\n4️⃣ اسکیل Magic MCP از 21st.dev\nبه کلاد دسترسی می‌ده به کلی component آماده، که با یه دستور بذارتشون توی پروژه‌ت.\n🔗 github.com/21st-dev/magic-mcp\n\n5️⃣ اسکیل vibe-check\nوقتی با vibe coding یه چیزی ساختی، قبل از انتشار کد رو بررسی می‌کنه، ایرادای امنیتی و چیزایی که جا موندن رو پیدا می‌کنه و کمک می‌کنه درستشون کنی.\n🔗 github.com/vibe-safety/vibe-check\nنصب توی Claude Code:\n/plugin marketplace add \n/plugin install vibe-check@vibe-safety\n\n@mgh_mobin",
+        "leadPostUrl": "https://t.me/mgh_mobin/470",
+        "published": "2026-11-10T10:47:20+00:00",
+        "summary": "",
+        "images": [],
+        "ageHours": 2.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/jeffallan/claude-skills",
+          "http://github.com/jeffallan/claude-skills",
+          "http://github.com/upstash/context7",
+          "http://github.com/safishamsi/graphify",
+          "http://21st.dev/",
+          "http://github.com/21st-dev/magic-mcp",
+          "http://github.com/vibe-safety/vibe-check",
+          "https://github.com/vibe-safety/vibe-check.git"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:050897d62ff36e72",
+          "title:8f4b85e82d9a766d"
+        ],
+        "leadSource": "mgh_mobin",
+        "leadMessageId": 470,
+        "leadChannelUrl": "https://t.me/mgh_mobin",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      },
+      "detail": "tools"
+    },
+    "defer:url:0e9fb0eb84f13acf": {
+      "id": "defer:url:0e9fb0eb84f13acf",
+      "at": "2026-11-10T13:42:28.203Z",
+      "firstAt": "2026-11-10T13:42:28.203Z",
+      "attempts": 1,
+      "reason": "category_daily_cap",
+      "reasons": [
+        "category_daily_cap"
+      ],
+      "keys": [
+        "url:0e9fb0eb84f13acf",
+        "title:124778f847282ddb"
+      ],
+      "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "candidate": {
+        "sourceId": "deepmind-blog",
+        "sourceName": "Google DeepMind Blog",
+        "sourceType": "official_blog",
+        "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+        "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
+        "published": "Tue, 10 Nov 2026 12:02:28 +0000",
+        "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+        "messageText": "",
+        "leadPostUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "images": [
+          "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "sourceCategories": [
+          "models",
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0e9fb0eb84f13acf",
+          "title:124778f847282ddb"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "security"
     }
   },
   "slots": {
@@ -5717,6 +6013,37 @@
           "at": "2026-11-10T10:32:35.851Z"
         }
       ]
+    },
+    "2026-11-10T17:00+03:30": {
+      "at": "2026-11-10T13:35:38.336Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "کارپتی با کمک کلود، HackerTube را در یک آخر هفته ساخت",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/17-00",
+      "messageId": 47,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0020853728,
+      "tokens": 37210,
+      "qa": "41/42",
+      "posts": [
+        {
+          "title": "کارپتی با کمک کلود، HackerTube را در یک آخر هفته ساخت",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 47,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.000666512,
+          "tokens": 19630,
+          "qa": "41/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-10T13:35:38.336Z"
+        }
+      ]
     }
   },
   "published": [
@@ -6312,93 +6639,110 @@
       "sourceTitle": "Claude Code is accidentally exposing secrets all over GitHub",
       "sourceText": "“Do not ask again” prompt leads to passwords, API keys, and more being shared.\nClaude Code is leaking sensitive information on public GitHub instances thanks to a partial oversight in the way its settings files are handled. That’s the finding of AI security researchers at Apiiro, who discovered thousands of secrets , including database passwords, API tokens, and root logins, amid Claude Code settings files embedded in GitHub repositories.\nThe leak stems from the way Claude Code handles user approval for automated shell commands. When a user chooses the “Yes, and don’t ask again” option to approve running a command, that choice gets stored as part of a rule in the local “.claude/settings.local.json” file on the user’s computer. That rule is sometimes coded as a pattern, but the command itself is often written to that settings file as is, including any sensitive information that may be embedded within it.\nThis isn’t really a significant security issue if the settings file stays on the user’s local machine (assuming that machine doesn’t become compromised itself, of course). And Anthropic notes in its Claude Code documentation that this particular settings file gets added to the developer’s global .gitignore list , which usually prevents it from being shared publicly.\nBut that .gitignore setting isn’t reflected at the repo level, meaning the sensitive file can be uploaded accidentally if a repo is cloned to another machine or a folder becomes a repo later, for instance. In many cases, Claude Code itself will commit changes to the settings file without the user’s input, Apiiro ",
       "at": "2026-11-10T10:32:35.851Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-10T17:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "کارپتی با کمک کلود، HackerTube را در یک آخر هفته ساخت",
+      "why": "پروژه‌هایی که قبلاً هفته‌ها طول می‌کشیدند، حالا در چند ساعت انجام می‌شوند.",
+      "dedupe_key": "karpathy-hackertube-launch",
+      "post_key": "2026-11-10/17-00/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "sourceTitle": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "sourceText": "Andrej Karpathy, OpenAI co-founder and current Anthropic AI researcher, built HackerTube over a weekend using Claude's Opus 5.5 model. Claude filtered 43 million comments from 20 years of Hacker News and distilled them into 6,454 videos that keep getting recommended there . The result is a \"significantly better viewing experience\" than YouTube's own recommendations, Karpathy writes on X . The site needs no login, shows a single mid-video frame instead of optimized thumbnails, and stores state locally in the browser. Right after, Karpathy built TristanTube , \"one-shotted with Claude Code in 3 minutes,\" with 47,000 videos drawn from a YouTube channel list by Tristan Hume.\nKarpathy says he let Claude Code handle nearly all the work, from data analysis to server setup. His only manual steps were a Google Cloud API key, a rented server, and buying the domain. Projects that used to take weeks can now be done in a few hours, Karpathy says.",
+      "at": "2026-11-10T13:35:38.337Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8349,
-      "last_at": "2026-11-10T10:11:25+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "last_id": 8351,
+      "last_at": "2026-11-10T12:23:23+00:00",
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "ai_farshad": {
-      "last_id": 6397,
-      "last_at": "2026-11-10T09:11:58+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "last_id": 6401,
+      "last_at": "2026-11-10T13:09:57+00:00",
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "Mohammad_zammani": {
       "last_id": 7188,
       "last_at": "2026-11-10T09:40:00+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "techiin_ir": {
-      "last_id": 20741,
-      "last_at": "2026-11-10T09:33:13+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "last_id": 20744,
+      "last_at": "2026-11-10T12:34:19+00:00",
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "mgh_mobin": {
-      "last_id": 469,
-      "last_at": "2026-11-10T09:50:26+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "last_id": 470,
+      "last_at": "2026-11-10T10:47:20+00:00",
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "web3nabu": {
       "last_id": 2151,
       "last_at": "2026-11-10T07:57:48+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "asrnovin_ir": {
-      "last_id": 11429,
-      "last_at": "2026-11-10T08:25:17+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "last_id": 11430,
+      "last_at": "2026-11-10T12:55:22+00:00",
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "shayanode": {
-      "last_id": 111,
-      "last_at": "2026-11-09T17:19:41+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "last_id": 116,
+      "last_at": "2026-11-10T12:41:46+00:00",
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "codecloude": {
       "last_id": 2572,
       "last_at": "2026-11-09T20:59:04+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "dunijet_ai": {
       "last_id": 2530,
       "last_at": "2026-11-10T09:30:48+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "MatinSenPaii": {
-      "last_id": 5835,
-      "last_at": "2026-11-10T07:53:54+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "last_id": 5838,
+      "last_at": "2026-11-10T12:18:14+00:00",
+      "checked_at": "2026-11-10T13:30:48.692Z"
     },
     "thenimaonAI": {
       "last_id": 491,
       "last_at": "2026-11-10T10:19:13+00:00",
-      "checked_at": "2026-11-10T10:30:44.462Z"
+      "checked_at": "2026-11-10T13:30:48.692Z"
     }
   },
   "offerReviews": [
@@ -7937,6 +8281,30 @@
       "slot": "2026-11-10T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-matin-senpai|https://t.me/MatinSenPaii/5838",
+      "date": "2026-11-10",
+      "at": "2026-11-10T13:30:48.692Z",
+      "source": "tg-matin-senpai",
+      "title": "مدل Fable 5.2 برای محصولی که خودش اختراع کرده یه فیلم تبلیغاتی کامل ساخته",
+      "url": "https://t.me/MatinSenPaii/5838",
+      "reason": "denied_link",
+      "slot": "2026-11-10T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-matin-senpai|https://t.me/MatinSenPaii/5837",
+      "date": "2026-11-10",
+      "at": "2026-11-10T13:30:48.692Z",
+      "source": "tg-matin-senpai",
+      "title": "کمیته نوبلیست‌ها داره اثبات هوش مصنوعی یانگ‌میلز رو عمومی می‌کنه",
+      "url": "https://t.me/MatinSenPaii/5837",
+      "reason": "denied_link",
+      "slot": "2026-11-10T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -8030,6 +8398,27 @@
       "url": "https://t.me/ExploreWithMehdi/397",
       "slot": "2026-11-10T11:30+03:30",
       "at": "2026-11-10T08:00:49.263Z"
+    },
+    {
+      "source": "tg-techiin",
+      "title": "با مکتب‌خونه، بورسیه‌ی دانشگاه هاروارد شو!",
+      "url": "https://land.maktabkhooneh.org/tavalod1405?amp%3Butm_campaign=tavalod1405-telegram-hashtag-techiinir&amp%3Butm_medium=social",
+      "slot": "2026-11-10T17:00+03:30",
+      "at": "2026-11-10T13:30:48.692Z"
+    },
+    {
+      "source": "openai-news",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "slot": "2026-11-10T17:00+03:30",
+      "at": "2026-11-10T13:30:48.692Z"
+    },
+    {
+      "source": "machinelearningmastery",
+      "title": "What Are Diffusion Language Models, and Why Are They Different From GPT?",
+      "url": "https://machinelearningmastery.com/what-are-diffusion-language-models-and-why-are-they-different-from-gpt",
+      "slot": "2026-11-10T17:00+03:30",
+      "at": "2026-11-10T13:30:48.692Z"
     }
   ],
   "reviewPending": {},
