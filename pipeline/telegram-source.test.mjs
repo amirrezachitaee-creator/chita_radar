@@ -15,6 +15,7 @@ import {
   isAllowedLink,
   isEducationLead,
   isOfficialCourse,
+  isOfficialModelRelease,
   isPromotionalUrl,
   isRumorText,
   leadTitle,
@@ -180,6 +181,37 @@ test('channel products, app-store links and referrals are promotions', () => {
     'off_topic_education'
   );
   assert.equal(classifyLead('https://example.com/news', 'خبر تازه مدل زبانی'), 'news');
+});
+
+test('an official model release stays news even when the text mentions API', () => {
+  const url =
+    'https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/';
+  const text =
+    'گوگل مدل Gemini 4 Carbon را منتشر کرد؛ این مدل از امروز در API و اپ Gemini در دسترس است.';
+  assert.equal(isOfficialCourse(url, text), false);
+  assert.equal(isOfficialModelRelease(url, text), true);
+  assert.equal(
+    classifyLead(url, text, { aiRelevant: true, aiCentral: true }),
+    'news'
+  );
+  assert.equal(
+    isOfficialModelRelease('https://example.com/gemini-4-carbon-now-available', text),
+    false
+  );
+  assert.equal(
+    classifyLead('https://example.com/gemini-4-carbon-now-available', text, {
+      aiRelevant: true,
+      aiCentral: true,
+    }),
+    'tool_lead'
+  );
+  assert.equal(
+    classifyLead('https://ai.google.dev/gemini-api/docs/voice-remixing', text, {
+      aiRelevant: true,
+      aiCentral: true,
+    }),
+    'tool_lead'
+  );
 });
 
 test('only official academy courses are news-eligible', () => {

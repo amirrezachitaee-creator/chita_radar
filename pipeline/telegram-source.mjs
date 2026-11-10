@@ -519,6 +519,33 @@ export function isOfficialCourse(raw, text, { officialCourseDomains = [] } = {})
   );
 }
 
+const MODEL_WORD_PATTERN = /(?:\bmodels?\b|مدل)/iu;
+const MODEL_RELEASE_CUE_PATTERN =
+  /(?:\bnow available\b|\bavailable (?:in|to|for|today|now)\b|\bintroduc(?:e|es|ing)\b|\breleas(?:e|es|ed|ing)\b|\blaunch(?:es|ed|ing)?\b|\brolling out\b|\bpreview\b|منتشر|عرضه|رونمایی|در[\s\u200c]*دسترس|اکنون[\s\u200c]*در[\s\u200c]*دسترس|در[\s\u200c]*اختیار)/iu;
+const MODEL_PATH_PATTERN = /(?:^|[-_/])models?(?:[-_/]|$)/i;
+const MODEL_RELEASE_PATH_PATTERN =
+  /(?:now-available|introducing|releases?|launch(?:es|ed)?|preview|available)/i;
+
+export function isOfficialModelRelease(raw, text, { officialCourseDomains = [] } = {}) {
+  let url;
+  try {
+    url = new URL(String(raw));
+  } catch {
+    return false;
+  }
+  if (url.protocol !== 'http:' && url.protocol !== 'https:') return false;
+
+  const host = normalizeDomain(url.hostname);
+  const domains = [...DEFAULT_OFFICIAL_COURSE_DOMAINS, ...officialCourseDomains].map(
+    normalizeDomain
+  );
+  if (!hostIn(host, domains)) return false;
+
+  const value = String(text ?? '');
+  if (MODEL_WORD_PATTERN.test(value) && MODEL_RELEASE_CUE_PATTERN.test(value)) return true;
+  return MODEL_PATH_PATTERN.test(url.pathname) && MODEL_RELEASE_PATH_PATTERN.test(url.pathname);
+}
+
 const AD_START_PATTERN =
   /^[\s>*•\-–—]*(?:تبلیغات?|اسپانسر|رپورتاژ|پیشنهاد\s*ویژه|sponsored|advertisement|\bad\b)/iu;
 const AD_CONTACT_PATTERN =
@@ -578,6 +605,9 @@ export function classifyLead(
 ) {
   if (isOfficialCourse(url, text, { officialCourseDomains }) && (aiRelevant || aiCentral)) {
     return 'official_course';
+  }
+  if ((aiRelevant || aiCentral) && isOfficialModelRelease(url, text, { officialCourseDomains })) {
+    return 'news';
   }
   if (isPromoHost(url, { promoDomains })) return 'promotion';
   if (isEducationLead(text)) return aiCentral ? 'education' : 'off_topic_education';

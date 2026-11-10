@@ -161,6 +161,16 @@ test('every main category has at least one feed source', () => {
   }
 });
 
+test('the Google models feed is registered as an AI-only official feed', () => {
+  const feed = sources.sources.find((source) => source.id === 'google-models-research');
+  assert.ok(feed, 'the Google models feed is missing');
+  assert.equal(feed.use, 'feed');
+  assert.equal(feed.type, 'official_blog');
+  assert.equal(feed.require_ai, true);
+  assert.equal(feed.feed_url, 'https://blog.google/innovation-and-ai/models-and-research/rss/');
+  assert.deepEqual(feed.categories, ['models']);
+});
+
 test('source ids are unique and no directory is left in the news registry', () => {
   assert.equal(new Set(sources.sources.map((source) => source.id)).size, sources.sources.length);
   for (const id of ['perq', 'ai-free', 'free-inference', 'free-llm-api-hub']) {

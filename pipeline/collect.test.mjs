@@ -76,6 +76,46 @@ test('collector drops stale, duplicate and already seen items', async () => {
   assert.equal(result.candidates[0].keys.length, 2);
 });
 
+test('an AI-only official feed keeps model releases and drops non-AI items', async () => {
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'google-models-research',
+        name: 'Google Models & Research',
+        type: 'official_blog',
+        categories: ['models'],
+        use: 'feed',
+        require_ai: true,
+        feed_url: 'https://feed.example/models',
+      },
+    ],
+    state: emptyState(),
+    now: NOW,
+    fetchImpl: async (url) => ({
+      text: feed([
+        item({
+          title: 'Gemini 4 Carbon is now available',
+          link: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/',
+          date: 'Mon, 02 Nov 2026 13:00:00 +0000',
+        }),
+        item({
+          title:
+            "We're bringing Adobe's creative and productivity tools closer to your everyday Google apps.",
+          link: 'https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/',
+          date: 'Mon, 02 Nov 2026 13:00:00 +0000',
+        }),
+      ]),
+      url,
+    }),
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.title, 'Gemini 4 Carbon is now available');
+  assert.equal(lead.modelRelease, true);
+  assert.equal(lead.categoryHint, 'models');
+  assert.equal(result.stats.nonAi, 1);
+});
+
 test('collector skips an item already seen in the other lane', async () => {
   const active = emptyState();
   const review = emptyState();

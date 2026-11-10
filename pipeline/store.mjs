@@ -281,12 +281,13 @@ export function deferCandidate(state, candidate, record = {}) {
   const previous = state.deferred[id];
   const at = new Date().toISOString();
   const reason = String(record.reason ?? '');
+  const attempts = Number(previous?.attempts ?? 0);
   const entry = {
     ...previous,
     id,
     at,
     firstAt: previous?.firstAt ?? at,
-    attempts: Number(previous?.attempts ?? 0) + 1,
+    attempts: record.hold === true ? attempts : attempts + 1,
     reason,
     reasons: [...new Set([...(previous?.reasons ?? []), reason].filter(Boolean))].slice(-6),
     keys: [...new Set([...(candidate.keys ?? []), ...(previous?.keys ?? [])])],

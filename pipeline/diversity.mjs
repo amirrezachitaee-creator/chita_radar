@@ -196,7 +196,12 @@ export function planSlotQueue({
         reject(candidate, 'category_daily');
         continue;
       }
-      if (!policyReminder && noConsecutiveCategory && last?.category === hint) {
+      if (
+        !policyReminder &&
+        candidate.modelRelease !== true &&
+        noConsecutiveCategory &&
+        last?.category === hint
+      ) {
         reject(candidate, 'category_consecutive');
         continue;
       }
@@ -216,6 +221,9 @@ export function planSlotQueue({
       const rightDeferred = Boolean(right.deferred);
       if (leftDeferred !== rightDeferred) return leftDeferred ? -1 : 1;
     }
+    const leftRelease = left.modelRelease === true;
+    const rightRelease = right.modelRelease === true;
+    if (leftRelease !== rightRelease) return leftRelease ? -1 : 1;
     const leftTarget = leftHint === target && pressureOf(leftHint) > 0;
     const rightTarget = rightHint === target && pressureOf(rightHint) > 0;
     if (leftTarget !== rightTarget) return leftTarget ? -1 : 1;
@@ -245,12 +253,14 @@ export function planSlotQueue({
     });
   const skipped = [
     ...Array.from(blockedBy, ([candidate, reason]) => ({
+      candidate,
       title: candidate.title ?? '',
       sourceId: sourceKeyOf(candidate),
       sourceName: candidate.sourceName ?? '',
       reason,
     })),
     ...built.dropped.map(({ candidate, reason }) => ({
+      candidate,
       title: candidate.title ?? '',
       sourceId: sourceKeyOf(candidate),
       sourceName: candidate.sourceName ?? '',

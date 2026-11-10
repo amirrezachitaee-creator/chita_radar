@@ -746,7 +746,7 @@ async function main() {
     await writeFile(POLICY_STATE_PATH, `${JSON.stringify(policyState, null, 2)}\n`);
     console.log(`POLICY_STATE saved`);
   }
-  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} benchmark=${stats.benchmarkItems} policy=${stats.policyItems} policy_changes=${stats.policyChanges} policy_reminder=${stats.policyReminder} api=${stats.apiItems} stale=${stats.stale} nodate=${stats.noDate} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
+  console.log(`COLLECT sources=${stats.sources} items=${stats.feedItems} index=${stats.indexItems} benchmark=${stats.benchmarkItems} policy=${stats.policyItems} policy_changes=${stats.policyChanges} policy_reminder=${stats.policyReminder} api=${stats.apiItems} stale=${stats.stale} nodate=${stats.noDate} nonai=${stats.nonAi} dup=${stats.duplicate} dup_other=${stats.crossLane} kept=${stats.kept} errors=${stats.errors.length}`);
   for (const error of stats.errors) {
     const label =
       error.kind === 'telegram'
@@ -1219,6 +1219,34 @@ async function main() {
       console.log(`  QUEUE_SKIP ... +${skipped.length - 10} more`);
     }
   }
+  const softSkipReasons = new Set([
+    'category_consecutive',
+    'category_daily',
+    'source_consecutive',
+    'source_daily',
+    'source_weekly',
+    'quota_full',
+  ]);
+  const heldSkips = [];
+  for (const entry of skipped) {
+    const candidate = entry.candidate;
+    if (!candidate || candidate.policyReminder) continue;
+    if (!softSkipReasons.has(entry.reason)) continue;
+    if (matchesDeferred(candidate)) continue;
+    if (findSeen(state, candidate.keys ?? [])) continue;
+    const held = deferCandidate(state, candidate, { reason: entry.reason, hold: true });
+    if (held) heldSkips.push({ ...entry, attempts: held.attempts });
+  }
+  if (heldSkips.length) {
+    await saveState(STATE_PATH, state);
+    console.log(`QUEUE_HELD ${heldSkips.length}`);
+    for (const entry of heldSkips.slice(0, 10)) {
+      console.log(`  QUEUE_HOLD ${entry.reason} | ${entry.sourceName || entry.sourceId || 'unknown'} | ${entry.title}`);
+    }
+    if (heldSkips.length > 10) {
+      console.log(`  QUEUE_HOLD ... +${heldSkips.length - 10} more`);
+    }
+  }
   if (queue.length === 0) {
     markSlot(state, slot.key, { status: 'empty', reason: 'diversity_unavailable' });
     await saveState(STATE_PATH, state);
@@ -1268,7 +1296,8 @@ async function main() {
     const applyPolicy = (value) => {
       const next = applyLeadPolicy(value, candidate);
       if (next !== value) {
-        console.log(`  CATEGORY_FIX ${value.category || 'none'}->${next.category} official_course`);
+        const reason = candidate.officialCourse ? 'official_course' : 'model_release';
+        console.log(`  CATEGORY_FIX ${value.category || 'none'}->${next.category} ${reason}`);
       }
       return next;
     };
@@ -1905,6 +1934,7 @@ async function main() {
     if (
       config.diversity?.no_consecutive_category !== false &&
       !offerPriority &&
+      candidate.modelRelease !== true &&
       previous?.category === category
     ) {
       console.log(`  DIVERSITY_CATEGORY_CONSECUTIVE ${category}`);

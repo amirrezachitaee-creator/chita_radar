@@ -17,6 +17,7 @@ import {
   isDigestText,
   isEducationLead,
   isOfficialCourse,
+  isOfficialModelRelease,
   isPromoHost,
   isPromotionalUrl,
   isRumorText,
@@ -658,6 +659,11 @@ async function collectTelegramSource({
       relatedLinks,
       offerHint: aiMention && (leadKind === 'free_offer' || offerCue),
       toolHint: leadKind === 'tool_lead',
+      modelRelease:
+        aiMention &&
+        isOfficialModelRelease(link, hint, {
+          officialCourseDomains: settings.official_course_domains ?? [],
+        }),
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],
       categoryHint: categoryHint({
         title,
@@ -718,6 +724,7 @@ export async function collectCandidates({
     apiItems: 0,
     stale: 0,
     noDate: 0,
+    nonAi: 0,
     duplicate: 0,
     crossLane: 0,
     kept: 0,
@@ -857,6 +864,10 @@ export async function collectCandidates({
       seenThisRun.add(canonical);
       const feedText = `${item.title} ${item.summary}`;
       const aiRelevant = aiHint(feedText);
+      if (source.require_ai && !aiRelevant) {
+        stats.nonAi += 1;
+        continue;
+      }
       const educationCategory =
         Array.isArray(source.categories) && source.categories.includes('education');
       const educationCue = aiRelevant && (educationCategory || isEducationLead(feedText));
@@ -876,6 +887,11 @@ export async function collectCandidates({
         aiHint: aiRelevant,
         aiCentral: isAiCentral(item.title, item.summary),
         offerHint: offerHint(feedText),
+        modelRelease:
+          aiRelevant &&
+          isOfficialModelRelease(item.link, feedText, {
+            officialCourseDomains: telegram.official_course_domains ?? [],
+          }),
         sourceCategories: Array.isArray(source.categories) ? source.categories : [],
         categoryHint: categoryHint({
           title: item.title,

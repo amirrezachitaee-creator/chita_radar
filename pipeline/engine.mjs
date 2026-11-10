@@ -757,9 +757,14 @@ export function isFalseStaleSkip(parsed, gate, maxAgeHours = Infinity) {
 }
 
 export function applyLeadPolicy(parsed, lead = {}) {
-  if (!parsed || parsed.decision !== 'publish' || !lead.officialCourse) return parsed;
-  if (parsed.category === 'tools') return parsed;
-  return { ...parsed, category: 'tools' };
+  if (!parsed || parsed.decision !== 'publish') return parsed;
+  if (lead.officialCourse && parsed.category !== 'tools') {
+    return { ...parsed, category: 'tools' };
+  }
+  if (lead.modelRelease && lead.categoryHint === 'models' && parsed.category === 'tools') {
+    return { ...parsed, category: 'models' };
+  }
+  return parsed;
 }
 
 export function normalizePostFields(parsed) {

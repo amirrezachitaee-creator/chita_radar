@@ -72,6 +72,20 @@
       "use": "feed"
     },
     {
+      "id": "google-models-research",
+      "name": "Google Models & Research",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/",
+      "feed_url": "https://blog.google/innovation-and-ai/models-and-research/rss/",
+      "verified_at": "2026-11-10",
+      "categories": [
+        "models"
+      ],
+      "type": "official_blog",
+      "use": "feed",
+      "require_ai": true,
+      "note": "Official Gemini model releases live here; the AI blog feed does not carry them."
+    },
+    {
       "id": "meta-ai-blog",
       "name": "Meta AI Blog",
       "url": "https://ai.meta.com/blog/",

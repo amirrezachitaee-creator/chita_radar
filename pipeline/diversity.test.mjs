@@ -137,6 +137,49 @@ test('a repeated source is skipped before the queue', () => {
   assert.deepEqual(plan.queue.map((entry) => entry.sourceId), ['s2']);
 });
 
+test('planning skips carry their candidate so it can be deferred', () => {
+  const state = emptyState();
+  state.published = [
+    { slot: '2026-11-07T08:30+03:30', category: 'models', sourceId: 's0', week: weekKey('2026-11-07') },
+  ];
+  const blocked = live('همان دسته', 'models', 's1');
+  const plan = run([blocked], { state });
+  assert.equal(plan.queue.length, 0);
+  const skip = plan.skipped.find((entry) => entry.reason === 'category_consecutive');
+  assert.equal(skip.candidate, blocked);
+});
+
+test('only an official model release may repeat the previous category', () => {
+  const state = emptyState();
+  state.published = [
+    { slot: '2026-11-07T08:30+03:30', category: 'models', sourceId: 's0', week: weekKey('2026-11-07') },
+  ];
+  const release = {
+    ...live('Gemini 4 Carbon is now available', 'models', 's1'),
+    modelRelease: true,
+  };
+  const plan = run([release], { state });
+  assert.deepEqual(plan.queue.map((entry) => entry.title), ['Gemini 4 Carbon is now available']);
+  const plain = run([live('یک مدل دیگر', 'models', 's2')], { state });
+  assert.equal(plain.rejected.category_consecutive, 1);
+});
+
+test('a model release still obeys the daily category cap', () => {
+  const state = emptyState();
+  state.published = [1, 2, 3, 4].map((index) => ({
+    slot: `2026-11-07T0${index}:00+03:30`,
+    category: 'models',
+    sourceId: `s${index}`,
+    week: weekKey('2026-11-07'),
+  }));
+  const plan = run(
+    [{ ...live('یک انتشار مدل', 'models', 's9'), modelRelease: true }],
+    { state }
+  );
+  assert.equal(plan.rejected.category_daily, 1);
+  assert.equal(plan.queue.length, 0);
+});
+
 test('source daily and weekly caps are enforced', () => {
   const state = emptyState();
   const week = weekKey('2026-11-13');
