@@ -108,6 +108,14 @@ function ensureTarget(policyState, sourceId) {
   return target;
 }
 
+export function clearReminderDay(policyState, sourceId, date = '') {
+  const target = policyState?.targets?.[sourceId];
+  if (!target?.last_reminder_date) return false;
+  if (date && target.last_reminder_date !== date) return false;
+  target.last_reminder_date = '';
+  return true;
+}
+
 function officialSentence(text, pattern) {
   const source = normalize(text);
   const index = source.search(pattern);

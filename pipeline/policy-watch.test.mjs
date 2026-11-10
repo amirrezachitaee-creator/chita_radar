@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  clearReminderDay,
   diffLines,
   extractCountryList,
   parseEffectiveDate,
@@ -176,6 +177,21 @@ test('the same-day reminder is suppressed and the next day allows it again', asy
   });
   assert.ok(nextDay.reminder);
   assert.deepEqual(nextDay.reminder.keys, first.reminder.keys);
+});
+
+test('a failed attempt can retry on the same day once its day marker is cleared', async () => {
+  const state = { targets: {} };
+  const first = await run(pagesFor(), { state });
+  state.targets['example-policy'].last_reminder_date = '2026-11-08';
+  assert.equal((await run(pagesFor(), { state })).reminder, null);
+
+  assert.equal(clearReminderDay(state, 'example-policy', '2026-11-07'), false);
+  assert.equal(clearReminderDay(state, 'example-policy', '2026-11-08'), true);
+  assert.equal(state.targets['example-policy'].last_reminder_date, '');
+
+  const retry = await run(pagesFor(), { state, now: '2026-11-08T09:30:00Z' });
+  assert.ok(retry.reminder);
+  assert.deepEqual(retry.reminder.keys, first.reminder.keys);
 });
 
 test('a changed official page becomes a policy change item and silences the reminder', async () => {

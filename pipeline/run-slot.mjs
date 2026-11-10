@@ -24,6 +24,7 @@ import {
   MAIN_CATEGORIES,
 } from './engine.mjs';
 import { collectCandidates } from './collect.mjs';
+import { clearReminderDay } from './policy-watch.mjs';
 import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } from './diversity.mjs';
 import { dailyBudget, sendWindow } from './guards.mjs';
 import { buildEducationForward, findStoryDuplicate } from './telegram-source.mjs';
@@ -1782,6 +1783,10 @@ async function main() {
       if (candidate.policy) {
         attempts.push({ title: candidate.title, result: 'policy_qa_failed', problems: qa.problems, cost, tokens });
         console.log(`  POLICY_QA_FAILED ${qa.problems.join(',')} | score ${qa.score}/${qa.possible}`);
+        if (candidate.policyReminder && clearReminderDay(policyState, candidate.sourceId, slot.date)) {
+          await writeFile(POLICY_STATE_PATH, `${JSON.stringify(policyState, null, 2)}\n`);
+          console.log(`POLICY_REMINDER_RETRY ${slot.date} | day marker cleared for the next slot`);
+        }
         continue;
       }
       if (offerContext && qa.problems.some((problem) => problem.startsWith('offer_'))) {
