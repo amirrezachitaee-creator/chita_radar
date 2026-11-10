@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-10T08:05:59.502Z",
+  "updatedAt": "2026-11-10T10:33:25.971Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -4556,6 +4556,166 @@
       "slot": "2026-11-10T11:30+03:30",
       "title": "سیاست استفادهٔ آنتروپیک از ۲۱ آبان اجرا می‌شود",
       "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+    },
+    "url:9fbaf812b26d34ed": {
+      "at": "2026-11-10T10:31:02.131Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "url": "https://anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    "title:2e4c77aa4e13f33f": {
+      "at": "2026-11-10T10:31:02.131Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "url": "https://anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    "url:46accc571e7499ab": {
+      "at": "2026-11-10T10:31:02.131Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2611.12799v1"
+    },
+    "title:ae6678ab9efa0a1a": {
+      "at": "2026-11-10T10:31:02.131Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2611.12799v1"
+    },
+    "url:b3f1dff95f31f2d2": {
+      "at": "2026-11-10T10:31:02.131Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
+      "url": "https://arxiv.org/abs/2611.12775v1"
+    },
+    "title:dbcdb9d10913db17": {
+      "at": "2026-11-10T10:31:02.131Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
+      "url": "https://arxiv.org/abs/2611.12775v1"
+    },
+    "url:6ee2e4b4573cad88": {
+      "at": "2026-11-10T10:31:08.113Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "عضویت کانال AI Lab محدوده دلیلشم اینه وقتی تعداد از یه حدی بگذره مدیریت٬ پشتیبانی و",
+      "url": "https://t.me/thenimaonAI/491"
+    },
+    "title:c02af61c7b3b9759": {
+      "at": "2026-11-10T10:31:08.113Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "عضویت کانال AI Lab محدوده دلیلشم اینه وقتی تعداد از یه حدی بگذره مدیریت٬ پشتیبانی و",
+      "url": "https://t.me/thenimaonAI/491"
+    },
+    "url:a6b972372364740c": {
+      "at": "2026-11-10T10:32:00.109Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "👆 این ویدیو نمونه‌ای از کارهاییه که یکی از بچه‌های AI Lab با زحمت خودش طراحی",
+      "url": "https://t.me/thenimaonAI/489"
+    },
+    "title:3b10610bb81b736b": {
+      "at": "2026-11-10T10:32:00.109Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "👆 این ویدیو نمونه‌ای از کارهاییه که یکی از بچه‌های AI Lab با زحمت خودش طراحی",
+      "url": "https://t.me/thenimaonAI/489"
+    },
+    "url:d28082cef182a3e1": {
+      "at": "2026-11-10T10:32:00.113Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "عضویت کانال AI Lab محدوده",
+      "url": "https://t.me/thenimaonAI/490"
+    },
+    "title:160b98583befb5f4": {
+      "at": "2026-11-10T10:32:00.113Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "عضویت کانال AI Lab محدوده",
+      "url": "https://t.me/thenimaonAI/490"
+    },
+    "url:7cea50907b9af2dd": {
+      "at": "2026-11-10T10:32:35.851Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github"
+    },
+    "title:26a0ca4ef355038c": {
+      "at": "2026-11-10T10:32:35.851Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github"
+    },
+    "url:29281bab309c6322": {
+      "at": "2026-11-10T10:32:55.830Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "ZUS",
+      "url": "https://www.producthunt.com/products/zus-2"
+    },
+    "title:8d513f6668754e79": {
+      "at": "2026-11-10T10:32:55.830Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "ZUS",
+      "url": "https://www.producthunt.com/products/zus-2"
+    },
+    "url:71c843041955ebc1": {
+      "at": "2026-11-10T10:32:59.449Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust"
+    },
+    "title:3e5e91bc95a900af": {
+      "at": "2026-11-10T10:32:59.449Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-10T14:00+03:30",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust"
     }
   },
   "deferred": {
@@ -4614,9 +4774,9 @@
     },
     "defer:url:6e07690c27eb09da": {
       "id": "defer:url:6e07690c27eb09da",
-      "at": "2026-11-10T08:03:50.789Z",
+      "at": "2026-11-10T10:32:16.785Z",
       "firstAt": "2026-11-10T08:03:50.789Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "qa_failed",
       "reasons": [
         "qa_failed"
@@ -4660,9 +4820,108 @@
         ],
         "educationHint": false,
         "webEducation": false,
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:6e07690c27eb09da",
+          "attempts": 1
+        }
+      },
+      "detail": "body_paragraphs,length"
+    },
+    "defer:url:2e34e84f0999c607": {
+      "id": "defer:url:2e34e84f0999c607",
+      "at": "2026-11-10T10:32:55.869Z",
+      "firstAt": "2026-11-10T10:32:55.869Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:2e34e84f0999c607",
+        "title:1caf5372a8638c1c"
+      ],
+      "canonical": "https://openai.com/index/kuken",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Kuken Industries searches 70 years of drawings in minutes",
+        "link": "https://openai.com/index/kuken",
+        "canonical": "https://openai.com/index/kuken",
+        "published": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/kuken",
+        "images": [],
+        "ageHours": 26.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:2e34e84f0999c607",
+          "title:1caf5372a8638c1c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
         "leadKind": ""
       },
-      "detail": "length"
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:4f97b9d47a9b669e": {
+      "id": "defer:url:4f97b9d47a9b669e",
+      "at": "2026-11-10T10:33:25.971Z",
+      "firstAt": "2026-11-10T10:33:25.971Z",
+      "attempts": 1,
+      "reason": "qa_failed",
+      "reasons": [
+        "qa_failed"
+      ],
+      "keys": [
+        "url:4f97b9d47a9b669e",
+        "title:2043d59f11f4645d"
+      ],
+      "canonical": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+        "link": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+        "canonical": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+        "published": "Sun, 08 Nov 2026 14:23:00 +0000",
+        "summary": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/comments_to_youtube.png"
+        ],
+        "ageHours": 44.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4f97b9d47a9b669e",
+          "title:2043d59f11f4645d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "source_url"
     }
   },
   "slots": {
@@ -5427,6 +5686,37 @@
           "at": "2026-11-10T08:05:59.500Z"
         }
       ]
+    },
+    "2026-11-10T14:00+03:30": {
+      "at": "2026-11-10T10:32:35.851Z",
+      "status": "sent",
+      "category": "security",
+      "title": "Claude Code هزاران راز را در GitHub عمومی لو داد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/14-00",
+      "messageId": 46,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0023317223999999998,
+      "tokens": 38059,
+      "qa": "41/42",
+      "posts": [
+        {
+          "title": "Claude Code هزاران راز را در GitHub عمومی لو داد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 46,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-10/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0004213608,
+          "tokens": 9958,
+          "qa": "41/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-10T10:32:35.851Z"
+        }
+      ]
     }
   },
   "published": [
@@ -6005,93 +6295,110 @@
       "sourceTitle": "2026 Usage Policy update",
       "sourceText": "به‌روزرسانی رسمی سیاست استفادهٔ آنتروپیک؛ تاریخ اجرا: ۲۱ آبان ۱۴۰۵ (2026-11-12).\nنقل رسمی: «The updated policy takes effect on November 12.»\nاین به‌روزرسانی روشن می‌کند استفاده از کلاد برای سه گروه ممنوع است: افرادی که در منطقه‌های پشتیبانی‌نشده حضور فیزیکی دارند؛ شرکت‌هایی که در آن منطقه‌ها ثبت یا مستقر شده‌اند؛ و شرکت‌هایی که عمده مالکیت یا کنترلشان در اختیار افراد یا نهادهای همان منطقه‌هاست.\nنقل رسمی: «Our policy prohibits the use of Claude by people who are physically located in an unsupported region, by entities who are incorporated or headquartered in one, and by entities who are majority-owned or controlled by persons or entities in those regions.»\nفهرست رسمی کشورهای پشتیبانی‌شده ایران را شامل نمی‌شود و صفحهٔ رسمی می‌گوید هر کشور یا منطقهٔ فهرست‌نشده پشتیبانی نمی‌شود.\nصفحهٔ رسمی هیچ زمان‌بندی یا برنامهٔ مسدودسازی حساب اعلام نکرده است.\nصفحهٔ رسمی: https://www.anthropic.com/news/2026-usage-policy-update",
       "at": "2026-11-10T08:05:59.501Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-10T14:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "Claude Code هزاران راز را در GitHub عمومی لو داد",
+      "why": "اهمیتش اینه که حتی بعد از حذف فایل از مخزن، رازها توی فورک‌ها باقی می‌مونن و این فقط یک نمونه از نشت اطلاعات توسط ایجنت‌های هوش مصنوعیه.",
+      "dedupe_key": "anthropic-claude-code-secrets-leak",
+      "post_key": "2026-11-10/14-00/1",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "sourceTitle": "Claude Code is accidentally exposing secrets all over GitHub",
+      "sourceText": "“Do not ask again” prompt leads to passwords, API keys, and more being shared.\nClaude Code is leaking sensitive information on public GitHub instances thanks to a partial oversight in the way its settings files are handled. That’s the finding of AI security researchers at Apiiro, who discovered thousands of secrets , including database passwords, API tokens, and root logins, amid Claude Code settings files embedded in GitHub repositories.\nThe leak stems from the way Claude Code handles user approval for automated shell commands. When a user chooses the “Yes, and don’t ask again” option to approve running a command, that choice gets stored as part of a rule in the local “.claude/settings.local.json” file on the user’s computer. That rule is sometimes coded as a pattern, but the command itself is often written to that settings file as is, including any sensitive information that may be embedded within it.\nThis isn’t really a significant security issue if the settings file stays on the user’s local machine (assuming that machine doesn’t become compromised itself, of course). And Anthropic notes in its Claude Code documentation that this particular settings file gets added to the developer’s global .gitignore list , which usually prevents it from being shared publicly.\nBut that .gitignore setting isn’t reflected at the repo level, meaning the sensitive file can be uploaded accidentally if a repo is cloned to another machine or a folder becomes a repo later, for instance. In many cases, Claude Code itself will commit changes to the settings file without the user’s input, Apiiro ",
+      "at": "2026-11-10T10:32:35.851Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8348,
-      "last_at": "2026-11-10T07:29:11+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 8349,
+      "last_at": "2026-11-10T10:11:25+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "ai_farshad": {
-      "last_id": 6396,
-      "last_at": "2026-11-10T07:48:06+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 6397,
+      "last_at": "2026-11-10T09:11:58+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7187,
-      "last_at": "2026-11-10T07:49:42+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 7188,
+      "last_at": "2026-11-10T09:40:00+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "techiin_ir": {
-      "last_id": 20738,
-      "last_at": "2026-11-09T20:05:08+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 20741,
+      "last_at": "2026-11-10T09:33:13+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "mgh_mobin": {
-      "last_id": 468,
-      "last_at": "2026-11-10T06:32:49+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 469,
+      "last_at": "2026-11-10T09:50:26+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "web3nabu": {
       "last_id": 2151,
       "last_at": "2026-11-10T07:57:48+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "asrnovin_ir": {
-      "last_id": 11428,
-      "last_at": "2026-11-09T22:15:28+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 11429,
+      "last_at": "2026-11-10T08:25:17+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "shayanode": {
       "last_id": 111,
       "last_at": "2026-11-09T17:19:41+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "codecloude": {
       "last_id": 2572,
       "last_at": "2026-11-09T20:59:04+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "dunijet_ai": {
-      "last_id": 2529,
-      "last_at": "2026-11-10T03:38:07+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 2530,
+      "last_at": "2026-11-10T09:30:48+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "marketing_aida": {
-      "last_id": 105,
-      "last_at": "2026-11-10T07:38:21+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 106,
+      "last_at": "2026-11-10T09:07:32+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "MatinSenPaii": {
       "last_id": 5835,
       "last_at": "2026-11-10T07:53:54+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "checked_at": "2026-11-10T10:30:44.462Z"
     },
     "thenimaonAI": {
-      "last_id": 488,
-      "last_at": "2026-11-10T07:54:00+00:00",
-      "checked_at": "2026-11-10T08:00:49.263Z"
+      "last_id": 491,
+      "last_at": "2026-11-10T10:19:13+00:00",
+      "checked_at": "2026-11-10T10:30:44.462Z"
     }
   },
   "offerReviews": [
@@ -7605,6 +7912,30 @@
       "reason": "thin_content",
       "slot": "2026-11-10T11:30+03:30",
       "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-thenima|https://t.me/thenimaonAI/491",
+      "date": "2026-11-10",
+      "at": "2026-11-10T10:30:44.462Z",
+      "source": "tg-thenima",
+      "title": "عضویت کانال AI Lab محدوده دلیلشم اینه وقتی تعداد از یه حدی بگذره مدیریت٬ پشتیبانی و",
+      "url": "https://t.me/thenimaonAI/491",
+      "reason": "no_link",
+      "slot": "2026-11-10T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-10|tg-thenima|https://t.me/thenimaonAI/489",
+      "date": "2026-11-10",
+      "at": "2026-11-10T10:30:44.462Z",
+      "source": "tg-thenima",
+      "title": "👆 این ویدیو نمونه‌ای از کارهاییه که یکی از بچه‌های AI Lab با زحمت خودش طراحی",
+      "url": "https://t.me/thenimaonAI/489",
+      "reason": "no_link",
+      "slot": "2026-11-10T14:00+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],
