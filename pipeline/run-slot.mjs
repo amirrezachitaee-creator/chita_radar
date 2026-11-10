@@ -1201,6 +1201,23 @@ async function main() {
   if (queue.length) {
     console.log(`  DIVERSITY_QUEUE ${queue.map((candidate) => `${candidate.categoryHint || '?'}:${candidate.sourceName}`).join(' | ')}`);
   }
+  for (const entry of planned.policyStatus ?? []) {
+    if (entry.queued) {
+      console.log(`POLICY_REMINDER_QUEUED pos=${entry.position}/${queue.length} target=${planned.target || 'any'} | ${entry.title}`);
+    } else {
+      console.log(`POLICY_REMINDER_BLOCKED reason=${entry.reason} | ${entry.title}`);
+    }
+  }
+  const skipped = planned.skipped ?? [];
+  if (skipped.length) {
+    console.log(`QUEUE_SKIPPED ${skipped.length}`);
+    for (const entry of skipped.slice(0, 10)) {
+      console.log(`  QUEUE_SKIP ${entry.reason} | ${entry.sourceName || entry.sourceId || 'unknown'} | ${entry.title}`);
+    }
+    if (skipped.length > 10) {
+      console.log(`  QUEUE_SKIP ... +${skipped.length - 10} more`);
+    }
+  }
   if (queue.length === 0) {
     markSlot(state, slot.key, { status: 'empty', reason: 'diversity_unavailable' });
     await saveState(STATE_PATH, state);
@@ -2282,6 +2299,12 @@ async function main() {
     pruneState(state, NOW, reviewPrune);
     await saveState(STATE_PATH, state);
     console.log(`RESULT EMPTY attempts=${attempts.length} reviews=${reviews} deferred=${Object.keys(state.deferred ?? {}).length} | cost $${totalCost.toFixed(6)} | tokens ${totalTokens}`);
+    for (const attempt of attempts.slice(0, 12)) {
+      console.log(`  EMPTY_ATTEMPT ${attempt.result}${attempt.reason ? ` reason=${attempt.reason}` : ''} | ${attempt.title}`);
+    }
+    if (attempts.length > 12) {
+      console.log(`  EMPTY_ATTEMPT ... +${attempts.length - 12} more`);
+    }
     console.log('NOTHING_WAS_SENT');
     return;
   }

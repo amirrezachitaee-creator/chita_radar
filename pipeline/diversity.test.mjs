@@ -20,6 +20,11 @@ const live = (title, categoryHint, sourceId, ageHours = 1) => ({
   ageHours,
   keys: [],
 });
+const policy = (title, categoryHint, sourceId) => ({
+  ...live(title, categoryHint, sourceId),
+  policy: true,
+  policyReminder: true,
+});
 const run = (candidates, { state = emptyState(), date = '2026-11-07', slot = '08:30', overrides = {} } = {}) => {
   const planConfig = {
     ...config,
@@ -173,6 +178,64 @@ test('category daily and consecutive caps are enforced', () => {
   assert.equal(plan.rejected.category_daily, 1);
   assert.equal(plan.rejected.category_consecutive, 1);
   assert.deepEqual(plan.queue.map((entry) => entry.sourceId), ['s3']);
+});
+
+test('a policy reminder bypasses the daily category cap and runs first', () => {
+  const state = emptyState();
+  const week = weekKey('2026-11-09');
+  state.published = [
+    { slot: '2026-11-09T08:30+03:30', category: 'business', sourceId: 'a', week },
+    { slot: '2026-11-09T11:30+03:30', category: 'business', sourceId: 'b', week },
+  ];
+  const reminder = policy('یادآوری سیاست', 'business', 'policy-source');
+  const plan = run([reminder, live('کسب‌وکار سوم', 'business', 'c')], {
+    state,
+    date: '2026-11-09',
+    slot: '20:30',
+  });
+  assert.equal(plan.rejected.category_daily, 1);
+  assert.equal(plan.queue[0], reminder);
+  assert.equal(plan.policyStatus.length, 1);
+  assert.equal(plan.policyStatus[0].queued, true);
+  assert.equal(plan.policyStatus[0].position, 1);
+  assert.equal(plan.skipped.find((entry) => entry.sourceId === 'c').reason, 'category_daily');
+});
+
+test('a policy reminder bypasses the consecutive category rule', () => {
+  const state = emptyState();
+  const week = weekKey('2026-11-09');
+  state.published = [
+    { slot: '2026-11-09T17:00+03:30', category: 'business', sourceId: 'a', week },
+  ];
+  const reminder = policy('یادآوری سیاست', 'business', 'policy-source');
+  const plan = run([reminder], { state, date: '2026-11-09', slot: '20:30' });
+  assert.equal(plan.rejected.category_consecutive, 0);
+  assert.equal(plan.queue[0], reminder);
+});
+
+test('a policy reminder runs before deferred retries', () => {
+  const reminder = policy('یادآوری سیاست', 'business', 'policy-source');
+  const retry = {
+    ...live('تلاش دوباره', 'models', 'd'),
+    deferred: { id: 'retry-1', attempts: 1 },
+  };
+  const plan = run([retry, reminder], { date: '2026-11-09', slot: '20:30' });
+  assert.deepEqual(plan.queue.map((entry) => entry.sourceId), ['policy-source', 'd']);
+});
+
+test('a blocked policy reminder reports its reason', () => {
+  const state = emptyState();
+  const week = weekKey('2026-11-09');
+  state.published = [
+    { slot: '2026-11-09T08:30+03:30', category: 'models', sourceId: 'policy-source', week },
+    { slot: '2026-11-09T11:30+03:30', category: 'tools', sourceId: 'other', week },
+  ];
+  const reminder = policy('یادآوری سیاست', 'business', 'policy-source');
+  const plan = run([reminder], { state, date: '2026-11-09', slot: '20:30' });
+  assert.equal(plan.queue.length, 0);
+  assert.equal(plan.policyStatus[0].queued, false);
+  assert.equal(plan.policyStatus[0].reason, 'source_daily');
+  assert.equal(plan.skipped[0].reason, 'source_daily');
 });
 
 test('a full weekly quota removes the category from fallback', () => {

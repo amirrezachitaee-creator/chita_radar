@@ -168,33 +168,40 @@ export function planSlotQueue({
       ? categoryRemaining(config, state, week, category)
       : 0;
 
+  const blockedBy = new Map();
+  const reject = (candidate, reason) => {
+    blockedBy.set(candidate, reason);
+    rejected[reason] += 1;
+  };
+
   const eligible = [];
   for (const candidate of candidates) {
     const source = sourceKeyOf(candidate);
     const hint = candidate.categoryHint ?? '';
+    const policyReminder = Boolean(candidate.policyReminder);
     if (last && source && source === sourceKeyOf(last)) {
-      rejected.source_consecutive += 1;
+      reject(candidate, 'source_consecutive');
       continue;
     }
     if (source && (usage.daily.get(source) ?? 0) >= sourceDayCap) {
-      rejected.source_daily += 1;
+      reject(candidate, 'source_daily');
       continue;
     }
     if (source && (usage.weekly.get(source) ?? 0) >= sourceWeekCap) {
-      rejected.source_weekly += 1;
+      reject(candidate, 'source_weekly');
       continue;
     }
     if (hint && MAIN_CATEGORIES.includes(hint)) {
-      if ((counts[hint] ?? 0) >= categoryCap(hint)) {
-        rejected.category_daily += 1;
+      if (!policyReminder && (counts[hint] ?? 0) >= categoryCap(hint)) {
+        reject(candidate, 'category_daily');
         continue;
       }
-      if (noConsecutiveCategory && last?.category === hint) {
-        rejected.category_consecutive += 1;
+      if (!policyReminder && noConsecutiveCategory && last?.category === hint) {
+        reject(candidate, 'category_consecutive');
         continue;
       }
       if (pressureOf(hint) <= 0) {
-        rejected.quota_full += 1;
+        reject(candidate, 'quota_full');
         continue;
       }
     }
@@ -221,34 +228,82 @@ export function planSlotQueue({
     return String(left.title ?? '').localeCompare(String(right.title ?? ''));
   });
 
+  const built = buildQueue(eligible, target, maxCandidates, deferredPriority);
+  const policyStatus = candidates
+    .filter((candidate) => candidate.policyReminder)
+    .map((candidate) => {
+      const position = built.queue.indexOf(candidate);
+      const drop = built.dropped.find((entry) => entry.candidate === candidate);
+      return {
+        title: candidate.title ?? '',
+        sourceId: sourceKeyOf(candidate),
+        sourceName: candidate.sourceName ?? '',
+        queued: position >= 0,
+        position: position >= 0 ? position + 1 : 0,
+        reason: position >= 0 ? '' : drop?.reason || blockedBy.get(candidate) || 'not_eligible',
+      };
+    });
+  const skipped = [
+    ...Array.from(blockedBy, ([candidate, reason]) => ({
+      title: candidate.title ?? '',
+      sourceId: sourceKeyOf(candidate),
+      sourceName: candidate.sourceName ?? '',
+      reason,
+    })),
+    ...built.dropped.map(({ candidate, reason }) => ({
+      title: candidate.title ?? '',
+      sourceId: sourceKeyOf(candidate),
+      sourceName: candidate.sourceName ?? '',
+      reason,
+    })),
+  ];
+
   return {
     target,
-    queue: buildQueue(eligible, target, maxCandidates, deferredPriority),
+    queue: built.queue,
     rejected,
     counts,
     sourceUsage: {
       daily: Object.fromEntries(usage.daily),
       weekly: Object.fromEntries(usage.weekly),
     },
+    policyStatus,
+    skipped,
   };
 }
 
 function buildQueue(eligible, target, maxCandidates, deferredPriority = true) {
   const limit = Math.max(0, maxCandidates);
+  const dropped = [];
   const seenSources = new Set();
   const unique = eligible.filter((candidate) => {
     const source = sourceKeyOf(candidate);
     if (!source) return true;
-    if (seenSources.has(source)) return false;
+    if (seenSources.has(source)) {
+      dropped.push({ candidate, reason: 'source_duplicate' });
+      return false;
+    }
     seenSources.add(source);
     return true;
   });
-  const deferred = deferredPriority ? unique.filter((candidate) => candidate.deferred) : [];
+  const policy = unique.filter((candidate) => candidate.policyReminder);
+  const policySet = new Set(policy);
+  for (const candidate of policy.slice(2)) {
+    dropped.push({ candidate, reason: 'policy_limit' });
+  }
+  const deferred = deferredPriority
+    ? unique.filter((candidate) => candidate.deferred && !policySet.has(candidate))
+    : [];
   const deferredSet = new Set(deferred);
-  const rest = unique.filter((candidate) => !deferredSet.has(candidate));
+  const rest = unique.filter((candidate) => !policySet.has(candidate) && !deferredSet.has(candidate));
   const targetPool = rest.filter((candidate) => candidate.categoryHint === target);
   const others = rest.filter((candidate) => candidate.categoryHint !== target);
   const lead = targetPool.slice(0, 2);
   const tail = targetPool.slice(2);
-  return [...deferred.slice(0, 2), ...lead, ...others, ...tail].slice(0, limit);
+  const ordered = [...policy.slice(0, 2), ...deferred.slice(0, 2), ...lead, ...others, ...tail];
+  const queue = ordered.slice(0, limit);
+  for (const candidate of ordered.slice(limit)) {
+    dropped.push({ candidate, reason: 'queue_limit' });
+  }
+  return { queue, dropped };
 }
