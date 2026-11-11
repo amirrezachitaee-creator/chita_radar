@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T05:14:28.750Z",
+  "updatedAt": "2026-11-11T08:14:27.175Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -5363,6 +5363,200 @@
       "slot": "2026-11-11T08:30+03:30",
       "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
       "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent"
+    },
+    "url:ac94b61a25ade5ed": {
+      "at": "2026-11-11T08:01:04.551Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans"
+    },
+    "title:d8665e51fd5820b8": {
+      "at": "2026-11-11T08:01:04.551Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans"
+    },
+    "url:e004056e129b68a4": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "🔥 پیش‌نمایش مدل Qwen4-Max به صورت رایگان در دسترس قرار گرفت",
+      "url": "https://t.me/mgh_mobin/471"
+    },
+    "title:17e3a836cbba4b69": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "🔥 پیش‌نمایش مدل Qwen4-Max به صورت رایگان در دسترس قرار گرفت",
+      "url": "https://t.me/mgh_mobin/471"
+    },
+    "url:f58384aa0a349a26": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "🤖گوگل رسماً اعلام کرد که مدل جدید Gemini 4 Carbon رو برای مشترک‌های پلن Gemini Ultra",
+      "url": "https://t.me/Mohammad_zammani/7193"
+    },
+    "title:f81c44a1fca78037": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "🤖گوگل رسماً اعلام کرد که مدل جدید Gemini 4 Carbon رو برای مشترک‌های پلن Gemini Ultra",
+      "url": "https://t.me/Mohammad_zammani/7193"
+    },
+    "url:6c02bf98d5e3f309": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+      "url": "https://arxiv.org/abs/2611.14514v1"
+    },
+    "title:f252b71f0a5e8d12": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+      "url": "https://arxiv.org/abs/2611.14514v1"
+    },
+    "url:fe811014c2f031b1": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+      "url": "https://arxiv.org/abs/2611.14519v1"
+    },
+    "title:f44b2fa2b95d3fa9": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+      "url": "https://arxiv.org/abs/2611.14519v1"
+    },
+    "url:f4edfe11b6533a57": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "url": "https://arxiv.org/abs/2611.14518v1"
+    },
+    "title:f7565484cc998724": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "url": "https://arxiv.org/abs/2611.14518v1"
+    },
+    "url:0d90e09e9b12b262": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+      "url": "https://arxiv.org/abs/2611.14413v1"
+    },
+    "title:6d0212def0aac5d6": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+      "url": "https://arxiv.org/abs/2611.14413v1"
+    },
+    "url:58b3281fc951140c": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling",
+      "url": "https://arxiv.org/abs/2611.14426v1"
+    },
+    "title:41a26f09f237a25c": {
+      "at": "2026-11-11T08:01:04.552Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling",
+      "url": "https://arxiv.org/abs/2611.14426v1"
+    },
+    "url:30f04a4be410cfa4": {
+      "at": "2026-11-11T08:01:05.709Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "💎 امروز یه مدل جدید دیگه از گوگل منتشر میشه.",
+      "url": "https://t.me/ArchiveTell/8362"
+    },
+    "title:0e2191edd1da7065": {
+      "at": "2026-11-11T08:01:05.709Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "💎 امروز یه مدل جدید دیگه از گوگل منتشر میشه.",
+      "url": "https://t.me/ArchiveTell/8362"
+    },
+    "url:68219fdebd4ad78c": {
+      "at": "2026-11-11T08:02:25.942Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery"
+    },
+    "title:f230e407cbaa5177": {
+      "at": "2026-11-11T08:02:25.942Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery"
+    },
+    "url:55cb0588b3e8436e": {
+      "at": "2026-11-11T08:14:27.173Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available"
+    },
+    "title:fbf4110d920112fb": {
+      "at": "2026-11-11T08:14:27.173Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-11T11:30+03:30",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available"
     }
   },
   "deferred": {
@@ -5679,53 +5873,6 @@
         "keys": [
           "url:1b0c05cd97a311af",
           "title:ac80a47c25bc4430"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:68219fdebd4ad78c": {
-      "id": "defer:url:68219fdebd4ad78c",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:68219fdebd4ad78c",
-        "title:f230e407cbaa5177"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
-      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-        "link": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-        "canonical": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
-        "published": "Tue, 10 Nov 2026 19:03:52 +0000",
-        "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-        "images": [],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:68219fdebd4ad78c",
-          "title:f230e407cbaa5177"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -6063,52 +6210,6 @@
         "keys": [
           "url:9a2896e94f59b607",
           "title:33dfa798336ba8c9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:55cb0588b3e8436e": {
-      "id": "defer:url:55cb0588b3e8436e",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:55cb0588b3e8436e",
-        "title:fbf4110d920112fb"
-      ],
-      "canonical": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
-      "title": "Gemini 4 Carbon is now available",
-      "candidate": {
-        "sourceId": "deepmind-blog",
-        "sourceName": "Google DeepMind Blog",
-        "sourceType": "official_blog",
-        "title": "Gemini 4 Carbon is now available",
-        "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-        "canonical": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
-        "published": "Tue, 10 Nov 2026 16:03:47 +0000",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-        "images": [],
-        "ageHours": 3.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:55cb0588b3e8436e",
-          "title:fbf4110d920112fb"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7581,6 +7682,154 @@
         ]
       },
       "detail": "TELEGRAM_400_Bad Request: IMAGE_PROCESS_FAILED"
+    },
+    "defer:url:fc73217409f2e0eb": {
+      "id": "defer:url:fc73217409f2e0eb",
+      "at": "2026-11-11T08:01:05.718Z",
+      "firstAt": "2026-11-11T08:01:05.718Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:fc73217409f2e0eb",
+        "title:058783019850cf79"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+        "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+        "canonical": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot",
+        "published": "Tue, 10 Nov 2026 22:35:01 +0000",
+        "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-500x500.jpeg"
+        ],
+        "ageHours": 9.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:fc73217409f2e0eb",
+          "title:058783019850cf79"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d0a06ec7e03766fa": {
+      "id": "defer:url:d0a06ec7e03766fa",
+      "at": "2026-11-11T08:01:05.718Z",
+      "firstAt": "2026-11-11T08:01:05.718Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:d0a06ec7e03766fa",
+        "title:9522549d99dac6c5"
+      ],
+      "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+      "title": "What happens to mathematics when AI becomes an oracle?",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "What happens to mathematics when AI becomes an oracle?",
+        "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+        "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+        "published": "Tue, 10 Nov 2026 20:30:01 +0000",
+        "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-500x500.jpg"
+        ],
+        "ageHours": 11.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:d0a06ec7e03766fa",
+          "title:9522549d99dac6c5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:37e4452e64c861cf": {
+      "id": "defer:url:37e4452e64c861cf",
+      "at": "2026-11-11T08:01:05.718Z",
+      "firstAt": "2026-11-11T08:01:05.718Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:37e4452e64c861cf",
+        "title:41dd802431503c2e"
+      ],
+      "canonical": "https://openai.com/index/cogent-security",
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+        "link": "https://openai.com/index/cogent-security",
+        "canonical": "https://openai.com/index/cogent-security",
+        "published": "Tue, 10 Nov 2026 00:00:00 GMT",
+        "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/cogent-security",
+        "images": [],
+        "ageHours": 32,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:37e4452e64c861cf",
+          "title:41dd802431503c2e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -8516,6 +8765,52 @@
         }
       ],
       "error": "TELEGRAM_400_Bad Request: IMAGE_PROCESS_FAILED"
+    },
+    "2026-11-11T11:30+03:30": {
+      "at": "2026-11-11T08:02:25.942Z",
+      "status": "sent",
+      "category": "models",
+      "title": "Gemini 4 Carbon رسماً در دسترس قرار گرفت",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/11-30-2",
+      "messageId": 54,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0021533007999999998,
+      "tokens": 21390,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "استارتاپ PSI با هوش مصنوعی، مسئله ۱۸ ساله کوانتوم را حل کرد",
+          "category": "business",
+          "status": "sent",
+          "messageId": 53,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0015463,
+          "tokens": 10284,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-11T08:02:25.942Z"
+        },
+        {
+          "title": "Gemini 4 Carbon رسماً در دسترس قرار گرفت",
+          "category": "models",
+          "status": "sent",
+          "messageId": 54,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/11-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0006070008,
+          "tokens": 11106,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-11T08:14:27.173Z"
+        }
+      ]
     }
   },
   "published": [
@@ -9196,93 +9491,127 @@
       "sourceTitle": "AI company Fireworks says hackers stole data, billing info during October breaches",
       "sourceText": "AI infrastructure company Fireworks said cybercriminals stole billing information and AI-specific data during two breaches last month.\nFireworks published an updated notice on Monday saying it hired Palo Alto Networks Unit 42 to investigate a data breach it initially discovered on October 6 . The San Mateo-based company was founded in 2022 and has more than 10,000 customers, offering an array of AI systems and tools to companies.\nInvestigators found that a well-known, financially motivated cybercriminal group launched the attack and stole account and billing information as well as secrets — confidential digital pieces of information that grant access to human users or apps and allow them to communicate or perform actions. Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.\nMonday’s alert from Fireworks also notes that the company experienced another incident on October 23 where a third-party cloud provider that hosted their R&D machines was attacked by cybercriminals.\n“On October 24, the unauthorized third party used [the provider] to reach Fireworks development machines and then run an unauthorized workload that led to additional customer data impact,” the company said.\nThe hackers gained access to internal Fireworks data, billing information, invoices and payment history as well as datasets and other AI-related data.\nThe customers that were impacted have been notified. Fireworks is working with Palo Alto Networks on hardening its security posture and revoking compromised credentials.\nDigital workspace com",
       "at": "2026-11-11T05:02:27.884Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-11T11:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "استارتاپ PSI با هوش مصنوعی، مسئله ۱۸ ساله کوانتوم را حل کرد",
+      "why": "اهمیتش اینه که حل این مسئله، مسیر یکی از راه‌های سرعت‌بخشی به کامپیوترهای کوانتومی رو می‌بنده و نشان می‌ده هوش مصنوعی می‌تونه در علم پیشرفت جدی ایجاد کنه.",
+      "dedupe_key": "psi-ai-scientific-discovery-quantum",
+      "post_key": "2026-11-11/11-30/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "sourceTitle": "PSI is trying to make a business out of AI-driven scientific discovery | TechCrunch",
+      "sourceText": "David Turturean, a recent MIT graduate and a member of the technical staff at the startup lab Physical Superintelligence (PSI) , used early access to Anthropic’s Fable 5.2 model to solve an 18-year-old problem about quantum computing.\n“I’m totally accepting the idea that this might be the last paper I ever put out,” Turturean, who deferred plans to pursue a master’s at MIT’s prestigious computer science and AI lab to join PSI, told TechCrunch. “In a few months, like, why would you even put out a paper?”\nThe problem in question, the Aaronson-Ambainis conjecture, concerns the ability of quantum computers to solve problems faster than classical ones. Scott Aaronson, one of the two researchers who posed the problem, writes that he doesn’t quite understand the proof but that he believes it’s correct because it was autoformalized in Lean, a coding language for math, and explained by a team of top researchers with whom PSI shared the solution.\nThe solution appears to close the door on one avenue quantum computers could follow to solve certain difficult problems at high speed, but not all of them. “It’s a negative result that allows people to know, okay, we’re no longer looking there,” Turturean said.\nMore broadly, it reflects the upheaval in the scientific world caused by AI problem-solving.\n“A proof of full [Aaronson-Ambainis conjecture] was one of the last remaining open problems in quantum query complexity that everyone seemed to agree was centrally important,” Aaronson, who described himself feeling satisfied, awestruck, disappointed, and fatigued by the news, wrote. “I was su",
+      "at": "2026-11-11T08:02:25.942Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-11T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "Gemini 4 Carbon رسماً در دسترس قرار گرفت",
+      "why": "اهمیتش اینه که با این قیمت و عملکرد، مدل‌های سطح بالا برای تیم‌های کوچک‌تر هم مقرون‌به‌صرفه می‌شن.",
+      "dedupe_key": "google-gemini4carbon-launch",
+      "post_key": "2026-11-11/11-30/2",
+      "sourceId": "deepmind-blog",
+      "sourceName": "Google DeepMind Blog",
+      "sourceType": "official_blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+      "sourceTitle": "Gemini 4 Carbon is now available",
+      "sourceText": "Developers, enterprises, scientists, and consumers can now try our latest frontier model.\nToday, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Carbon is our strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows across complex knowledge work, software engineering, and scientific reasoning.\nTwo weeks ago , we released Carbon to a set of cybersecurity defenders via our Fairwind Program . Following our recent launch of Gemini 4 Argon , Carbon pushes the frontier even further. Argon remains the ideal choice for the majority of software engineering and knowledge work, while Carbon is built for tasks that test the limits of a model’s intelligence like complex, multi-step coding and debugging and open-ended scientific research and discovery — using more tokens than Argon to explore thoroughly, reason deeply, and run extended verification loops.\nAcross independent benchmarks designed to test model performance in real workflows, Carbon pairs frontier accuracy with practical production economics. It ranks #1 on CursorBench 4.0 , Perplexity’s WANDR , and Zapier’s AutomationBench at more than 2X lower cost per task compared to the next best external model.\nTo put Carbon’s capabilities to work on larger and complex projects, we’re previewing /swarm in Google Antigravity, turning a single prompt into a coordinated team of agents you can track in real time. Developers can assign Carbon to roles that demand the deepest reasoning, like architectural design, coordination, and auditing, while p",
+      "at": "2026-11-11T08:14:27.174Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8360,
-      "last_at": "2026-11-10T19:35:22+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "last_id": 8362,
+      "last_at": "2026-11-11T07:28:11+00:00",
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "ai_farshad": {
-      "last_id": 6404,
-      "last_at": "2026-11-10T18:57:46+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "last_id": 6405,
+      "last_at": "2026-11-11T07:30:47+00:00",
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7192,
-      "last_at": "2026-11-10T15:43:15+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "last_id": 7193,
+      "last_at": "2026-11-11T06:56:12+00:00",
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "techiin_ir": {
       "last_id": 20749,
       "last_at": "2026-11-10T19:58:18+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "mgh_mobin": {
-      "last_id": 470,
-      "last_at": "2026-11-10T10:47:20+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "last_id": 471,
+      "last_at": "2026-11-11T05:49:22+00:00",
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "web3nabu": {
       "last_id": 2154,
       "last_at": "2026-11-10T17:26:53+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "asrnovin_ir": {
       "last_id": 11437,
       "last_at": "2026-11-10T20:49:18+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "shayanode": {
       "last_id": 125,
       "last_at": "2026-11-10T21:21:01+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "codecloude": {
       "last_id": 2578,
       "last_at": "2026-11-10T20:33:57+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "dunijet_ai": {
-      "last_id": 2531,
-      "last_at": "2026-11-11T04:23:42+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "last_id": 2532,
+      "last_at": "2026-11-11T07:55:20+00:00",
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "MatinSenPaii": {
-      "last_id": 5840,
-      "last_at": "2026-11-10T18:01:06+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "last_id": 5841,
+      "last_at": "2026-11-11T06:17:29+00:00",
+      "checked_at": "2026-11-11T08:00:51.000Z"
     },
     "thenimaonAI": {
-      "last_id": 491,
-      "last_at": "2026-11-10T10:19:13+00:00",
-      "checked_at": "2026-11-11T05:00:50.017Z"
+      "last_id": 494,
+      "last_at": "2026-11-11T06:58:03+00:00",
+      "checked_at": "2026-11-11T08:00:51.000Z"
     }
   },
   "offerReviews": [
@@ -10953,6 +11282,18 @@
       "slot": "2026-11-11T08:30+03:30",
       "kind": "post",
       "mainEligible": true
+    },
+    {
+      "id": "2026-11-11|tg-archive-tell|https://t.me/ArchiveTell/8362",
+      "date": "2026-11-11",
+      "at": "2026-11-11T08:00:51.000Z",
+      "source": "tg-archive-tell",
+      "title": "💎 امروز یه مدل جدید دیگه از گوگل منتشر میشه.",
+      "url": "https://t.me/ArchiveTell/8362",
+      "reason": "denied_link",
+      "slot": "2026-11-11T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
