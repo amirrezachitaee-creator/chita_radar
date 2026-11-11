@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { canonicalUrl, contentHash, earliestDate, freshness, windowFor } from './normalize.mjs';
@@ -324,6 +324,8 @@ async function recheckOpenOffers({ state, now, config }) {
 
 async function main() {
   const slot = activeSlot();
+  const slotErrorFile = resolve(ROOT, 'results/slot-error.txt');
+  await rm(slotErrorFile, { force: true }).catch(() => {});
   const state = await loadState(STATE_PATH);
   if (!NO_OFFERS) await recheckOpenOffers({ state, now: NOW, config });
   const memoryLanes = await loadMemoryLanes();
@@ -2238,6 +2240,17 @@ async function main() {
         await deferOrClose(candidate, 'send_failed', sendError);
         console.log(`SEND_FAILED ${sendError}`);
         console.log(`OUTBOX ${dir}`);
+        const sentCount = slotPosts.filter((entry) => entry.status === 'sent').length;
+        const channelLabel = REVIEW_SEND ? 'کانال بازبینی' : 'کانال اصلی';
+        const slotErrorNote = [
+          `اسلات ${slot.key} در ارسال به ${channelLabel} شکست خورد.`,
+          `ارسال‌شده در این اسلات: ${sentCount} از ${postsPerSlot}`,
+          `پست ناموفق: ${post.title}`,
+          `خطا: ${sendError}`,
+          'پست آماده برای بازبینی نگه داشته شد.',
+        ].join('\n');
+        await mkdir(resolve(ROOT, 'results'), { recursive: true });
+        await writeFile(slotErrorFile, `${slotErrorNote}\n`, 'utf8').catch(() => {});
         if (slotPosts.length) {
           console.log(`PARTIAL_SENT ${slotPosts.length}/${postsPerSlot}`);
         } else {

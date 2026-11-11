@@ -206,7 +206,13 @@ jobs:
           CHAT: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
         run: |
           if [ -z "${TOKEN:-}" ] || [ -z "${CHAT:-}" ]; then exit 0; fi
-          text="اجرای اسلات در گیت‌هاب شکست خورد: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          if [ -f results/slot-error.txt ]; then
+            text="$(cat results/slot-error.txt)"
+            text="${text}"$'\n'"جزئیات اجرا: ${run_url}"
+          else
+            text="اجرای اسلات در گیت‌هاب شکست خورد: ${run_url}"
+          fi
           curl -sS --max-time 20 -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" --data-urlencode "chat_id=${CHAT}" --data-urlencode "text=${text}" > /dev/null || true
 
       - name: Remove .env

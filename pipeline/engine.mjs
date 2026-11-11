@@ -505,14 +505,21 @@ export function imageVerdict(url, alt = '') {
   return { ok: true, reason: 'ok' };
 }
 
+// Telegram sendPhoto only accepts JPEG and PNG; asking CDNs for webp/avif produced IMAGE_PROCESS_FAILED.
+const PHOTO_TYPES = new Map([
+  ['image/jpeg', 'jpg'],
+  ['image/png', 'png'],
+]);
+
 export async function downloadImage(url, outDir, { timeout = 30000 } = {}) {
   const response = await fetch(url, {
-    headers: { 'user-agent': UA, accept: 'image/avif,image/webp,image/jpeg,image/png,image/*' },
+    headers: { 'user-agent': UA, accept: 'image/jpeg,image/png' },
     signal: AbortSignal.timeout(timeout),
   });
   if (!response.ok) throw new Error(`image HTTP ${response.status}`);
-  const type = response.headers.get('content-type') || '';
-  const ext = type.includes('png') ? 'png' : type.includes('webp') ? 'webp' : type.includes('avif') ? 'avif' : 'jpg';
+  const type = String(response.headers.get('content-type') || '').split(';')[0].trim().toLowerCase();
+  const ext = PHOTO_TYPES.get(type);
+  if (!ext) throw new Error(`image format not supported by telegram photo: ${type || 'unknown'}`);
   const buffer = Buffer.from(await response.arrayBuffer());
   const file = resolve(outDir, `image.${ext}`);
   await writeFile(file, buffer);

@@ -1,5 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import {
   applyLeadPolicy,
   applyMechanicalFixes,
@@ -8,6 +11,7 @@ import {
   ensureOpenEndedNote,
   ensurePolicyIranNote,
   fitImageCaption,
+  downloadImage,
   imageVerdict,
   isFalseStaleSkip,
   normalizePostFields,
@@ -232,6 +236,33 @@ test('image policy rejects logos and stock files even with underscore names', ()
   assert.equal(imageVerdict('https://example.com/stock-photo.jpg').ok, false);
   assert.equal(imageVerdict('https://example.com/assets/banner_2026.webp').ok, false);
   assert.equal(imageVerdict('https://example.com/2026/11/goldman-sachs-office.jpg').ok, true);
+});
+
+test('image download asks only for telegram photo formats and rejects webp', async (t) => {
+  const dir = await mkdtemp(join(tmpdir(), 'radar-image-'));
+  const original = globalThis.fetch;
+  t.after(async () => {
+    globalThis.fetch = original;
+    await rm(dir, { recursive: true, force: true });
+  });
+
+  let accept = '';
+  globalThis.fetch = async (_url, init) => {
+    accept = init.headers.accept;
+    return new Response('RIFF0000WEBP', { status: 200, headers: { 'content-type': 'image/webp' } });
+  };
+  await assert.rejects(() => downloadImage('https://cdn.example.com/a.jpg', dir), /not supported by telegram photo/);
+  assert.equal(accept, 'image/jpeg,image/png');
+
+  globalThis.fetch = async () =>
+    new Response(Buffer.from([0x89, 0x50, 0x4e, 0x47]), {
+      status: 200,
+      headers: { 'content-type': 'image/png; charset=binary' },
+    });
+  const saved = await downloadImage('https://cdn.example.com/a.jpg', dir);
+  assert.equal(saved.ext, 'png');
+  assert.equal(saved.type, 'image/png');
+  assert.deepEqual([...(await readFile(saved.file))], [0x89, 0x50, 0x4e, 0x47]);
 });
 
 test('the old why label is rewritten into a natural sentence', () => {
