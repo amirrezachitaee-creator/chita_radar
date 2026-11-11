@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T10:45:39.148Z",
+  "updatedAt": "2026-11-11T13:45:33.960Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -5787,250 +5787,77 @@
       "slot": "2026-11-11T14:00+03:30",
       "title": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
       "url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx"
+    },
+    "url:a8c0898f06d49d1e": {
+      "at": "2026-11-11T13:30:58.945Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "😒کلاد دیگه فقط یه چت‌بات نیست،کلاد تبدیل به یه محیط کار هوشمند شد!!",
+      "url": "https://t.me/asrnovin_ir/11440"
+    },
+    "title:099dc2ab8d1ec7e8": {
+      "at": "2026-11-11T13:30:58.945Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "😒کلاد دیگه فقط یه چت‌بات نیست،کلاد تبدیل به یه محیط کار هوشمند شد!!",
+      "url": "https://t.me/asrnovin_ir/11440"
+    },
+    "url:0262d3b540fca0f5": {
+      "at": "2026-11-11T13:30:59.441Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "Sandboxing AI Agent Code Execution in Python: Containers, MicroVMs and Beyond",
+      "url": "https://machinelearningmastery.com/sandboxing-ai-agent-code-execution-in-python-containers-microvms-and-beyond"
+    },
+    "title:c50d4a7bbf594e63": {
+      "at": "2026-11-11T13:30:59.441Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "Sandboxing AI Agent Code Execution in Python: Containers, MicroVMs and Beyond",
+      "url": "https://machinelearningmastery.com/sandboxing-ai-agent-code-execution-in-python-containers-microvms-and-beyond"
+    },
+    "url:fafff4292c09fd93": {
+      "at": "2026-11-11T13:33:32.869Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices"
+    },
+    "title:9ca2e1e279d54b03": {
+      "at": "2026-11-11T13:33:32.869Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices"
+    },
+    "url:35d8611690407dcc": {
+      "at": "2026-11-11T13:45:33.958Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "🤖 مدل Gemini Robotics 2.5 شرکت DeepMind توی خط تولید واقعی مرسدس بنز ۹۶ درصد موفق",
+      "url": "http://huggingface.co/datasets/google/asimov_agentic"
+    },
+    "title:8d6c46c76691d456": {
+      "at": "2026-11-11T13:45:33.958Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-11T17:00+03:30",
+      "title": "🤖 مدل Gemini Robotics 2.5 شرکت DeepMind توی خط تولید واقعی مرسدس بنز ۹۶ درصد موفق",
+      "url": "http://huggingface.co/datasets/google/asimov_agentic"
     }
   },
   "deferred": {
-    "defer:url:1b0c05cd97a311af": {
-      "id": "defer:url:1b0c05cd97a311af",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:1b0c05cd97a311af",
-        "title:ac80a47c25bc4430"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
-      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-        "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-        "canonical": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
-        "published": "Tue, 10 Nov 2026 19:23:34 +0000",
-        "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-        "images": [],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:1b0c05cd97a311af",
-          "title:ac80a47c25bc4430"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7e74320883f414fb": {
-      "id": "defer:url:7e74320883f414fb",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7e74320883f414fb",
-        "title:18bb816f3ed35b63"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
-      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-        "link": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-        "canonical": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
-        "published": "Tue, 10 Nov 2026 18:49:52 +0000",
-        "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-        "images": [],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:7e74320883f414fb",
-          "title:18bb816f3ed35b63"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:62a9550b465ffc1c": {
-      "id": "defer:url:62a9550b465ffc1c",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:62a9550b465ffc1c",
-        "title:c9aa79406f8659c4"
-      ],
-      "canonical": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
-      "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
-        "link": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
-        "canonical": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
-        "published": "Tue, 10 Nov 2026 18:41:52 +0000",
-        "summary": "Nvidia's new AI model GR00T 2 is designed to teach robots new tasks without laborious teleoperation. Instead, the system transfers human hand movements from videos to robotic arms, trained on about 400,000 hours of video footage. Success rates still vary widely, though, ranging from 10 to 80 percent depending on the task. The article Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
-        "images": [
-          "http://the-decoder.com/wp-content/uploads/2026/11/Gr00t2-dexumi_strike_human.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/11/GR00T-2-Nvidia.png"
-        ],
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:62a9550b465ffc1c",
-          "title:c9aa79406f8659c4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e12be6c2ba7dcfd8": {
-      "id": "defer:url:e12be6c2ba7dcfd8",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e12be6c2ba7dcfd8",
-        "title:4c32ec946d73f4c0"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-        "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-        "canonical": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
-        "published": "Tue, 10 Nov 2026 17:30:00 +0000",
-        "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-        "images": [],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:e12be6c2ba7dcfd8",
-          "title:4c32ec946d73f4c0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1452077b5912f8ba": {
-      "id": "defer:url:1452077b5912f8ba",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:1452077b5912f8ba",
-        "title:c61d1ff0a4656f6d"
-      ],
-      "canonical": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot",
-      "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
-        "link": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
-        "canonical": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot",
-        "published": "Tue, 10 Nov 2026 17:11:10 +0000",
-        "summary": "Google Deepmind introduced Gemini Robotics 2.5, a new control model for robots, and tested it with Apptronik on active Mercedes-Benz production lines in Hungary and Germany. The humanoid robot Apollo 2 sorted metal parts there with a reported success rate of 96 percent. The article Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
-        "images": [
-          "http://the-decoder.com/wp-content/uploads/2026/11/GR_Apptronik_x_Mercedes_v1_1000k.webm",
-          "https://the-decoder.com/wp-content/uploads/2026/11/Google-Deepmind-Gemini-Robotics-2-5.webp"
-        ],
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:1452077b5912f8ba",
-          "title:c61d1ff0a4656f6d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:c86d08502069b5ef": {
       "id": "defer:url:c86d08502069b5ef",
       "at": "2026-11-10T19:31:05.526Z",
@@ -7023,101 +6850,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:77625322d4684167": {
-      "id": "defer:url:77625322d4684167",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:77625322d4684167",
-        "title:dab260a7a833711e"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
-      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-        "link": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-        "canonical": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
-        "published": "Mon, 09 Nov 2026 05:00:39 +0000",
-        "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-agentic-ai-1920x1080-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-agentic-ai-1920x1080-1-842x450.jpg"
-        ],
-        "ageHours": 38.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:77625322d4684167",
-          "title:dab260a7a833711e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:45e8de741ea9e45e": {
-      "id": "defer:url:45e8de741ea9e45e",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:45e8de741ea9e45e",
-        "title:7588916debdefe04"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/9/hn-50421091",
-      "title": "The Web Is More Than Enough, by Paul Ford",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "The Web Is More Than Enough, by Paul Ford",
-        "link": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
-        "canonical": "https://simonwillison.net/2026/Nov/9/hn-50421091",
-        "published": "2026-11-09T04:32:33+00:00",
-        "summary": "<p><a href=\"https://news.ycombinator.com/item?id=50416456#50421091\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50416456\">The Web Is More Than Enough, by Paul Ford</a> &mdash; Hacker News.</p><p>OK, this comment convinced me to give that a shot.</p> <p>Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: <a href=\"https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-threejs.html\">https://static.simonwillison.net/static/2026/Hidden-Reef-Egg...</a> (77KB)</p> <p>I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: <a href=\"https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-Vanilla-WebGL.html\">https://static.simonwillison.net/static/2026/Hidden-Reef-Egg...</a> (98KB)</p> <p>They aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): <a href=\"https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414\">https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414</a></p> <p>But yeah, it turns out Claude Opus 5.5 is perfectly capable of 3D modeling in Vanilla JS + WebGL without Three.js.</p> <p>In eyeballing the code I find the Three.js slightly easier to understand myself, but I rarely look at the code for these 3D projects so that isn't a particularly big deal.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/three-js\">three-js</a>, <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
-        "images": [],
-        "ageHours": 39,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:45e8de741ea9e45e",
-          "title:7588916debdefe04"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:4bf86764d0679af1": {
       "id": "defer:url:4bf86764d0679af1",
       "at": "2026-11-11T05:01:57.460Z",
@@ -7216,60 +6948,6 @@
         "webEducation": false,
         "leadKind": ""
       }
-    },
-    "defer:url:fafff4292c09fd93": {
-      "id": "defer:url:fafff4292c09fd93",
-      "at": "2026-11-11T10:33:51.020Z",
-      "firstAt": "2026-11-11T05:03:32.462Z",
-      "attempts": 2,
-      "reason": "category_consecutive",
-      "reasons": [
-        "qa_failed",
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:fafff4292c09fd93",
-        "title:9ca2e1e279d54b03"
-      ],
-      "canonical": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
-      "title": "Gemini Intelligence: New features, on more devices",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Gemini Intelligence: New features, on more devices",
-        "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-        "canonical": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
-        "published": "Tue, 10 Nov 2026 19:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp\">Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 10,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:fafff4292c09fd93",
-          "title:9ca2e1e279d54b03"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:fafff4292c09fd93",
-          "attempts": 1
-        }
-      },
-      "detail": "tools"
     },
     "defer:url:6d0c7fa0910a2cb4": {
       "id": "defer:url:6d0c7fa0910a2cb4",
@@ -7461,12 +7139,13 @@
     },
     "defer:url:65b96c238445cded": {
       "id": "defer:url:65b96c238445cded",
-      "at": "2026-11-11T10:31:11.253Z",
+      "at": "2026-11-11T13:33:32.902Z",
       "firstAt": "2026-11-11T10:31:11.253Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "fetch_failed"
       ],
       "keys": [
         "url:65b96c238445cded",
@@ -7502,8 +7181,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:65b96c238445cded",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:f4e4ebe108d8e8cb": {
       "id": "defer:url:f4e4ebe108d8e8cb",
@@ -8149,6 +7833,394 @@
         "keys": [
           "url:e09fad6dcc25f1ba",
           "title:ab2622bb492b3497"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:53c53ed6d09c6324": {
+      "id": "defer:url:53c53ed6d09c6324",
+      "at": "2026-11-11T13:30:59.450Z",
+      "firstAt": "2026-11-11T13:30:59.450Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:53c53ed6d09c6324",
+        "title:3082caacdae657d4"
+      ],
+      "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
+      "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+        "link": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+        "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
+        "published": "Wed, 11 Nov 2026 12:53:07 +0000",
+        "summary": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible. The article Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/05/grok_xai_logo.png"
+        ],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:53c53ed6d09c6324",
+          "title:3082caacdae657d4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d4775ff20e725a99": {
+      "id": "defer:url:d4775ff20e725a99",
+      "at": "2026-11-11T13:30:59.450Z",
+      "firstAt": "2026-11-11T13:30:59.450Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:d4775ff20e725a99",
+        "title:fe7c0054b8168042"
+      ],
+      "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
+      "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+        "link": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+        "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
+        "published": "Wed, 11 Nov 2026 12:12:47 +0000",
+        "summary": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now fueling a price war for enterprise customers. The article Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-1.png"
+        ],
+        "ageHours": 1.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:d4775ff20e725a99",
+          "title:fe7c0054b8168042"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b93fdda160f7eb7d": {
+      "id": "defer:url:b93fdda160f7eb7d",
+      "at": "2026-11-11T13:30:59.450Z",
+      "firstAt": "2026-11-11T13:30:59.450Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:b93fdda160f7eb7d",
+        "title:eae7d845f0ed02ef"
+      ],
+      "canonical": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats",
+      "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+        "link": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+        "canonical": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats",
+        "published": "Wed, 11 Nov 2026 11:54:46 +0000",
+        "summary": "England's higher education regulator, the Office for Students, says AI has made it \"nearly impossible\" to fairly assess student coursework. An investigation found that students are having ChatGPT write entire papers undetected, without being able to recall basic content afterward. To save the credibility of degrees, universities now have to return to traditional exams or face sanctions. The article UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/07/ai-generated-homework-nano-banana-pro.jpg"
+        ],
+        "ageHours": 1.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:b93fdda160f7eb7d",
+          "title:eae7d845f0ed02ef"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b6fcdc4692ac3301": {
+      "id": "defer:url:b6fcdc4692ac3301",
+      "at": "2026-11-11T13:30:59.451Z",
+      "firstAt": "2026-11-11T13:30:59.451Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:b6fcdc4692ac3301",
+        "title:e356703bbe0bf9da"
+      ],
+      "canonical": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall",
+      "title": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.",
+        "link": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
+        "canonical": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall",
+        "published": "Tue, 10 Nov 2026 12:00:16 +0000",
+        "summary": "AI can help startups reduce patent preparation costs, but DIY applications may overlook critical issues. In this guest commentary, attorneys Michael Drapkin and Nathan Mutter of AI-Native law firm Landfall IP, argue that combining AI with legal expertise can produce more efficient, commercially valuable patent protection that withstands investor scrutiny and is harder for competitors to circumvent.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/digitalgavel-conny-schneider-unsplash-1024x576.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/MLD-Headshot-e1794247664940-236x300.jpeg"
+        ],
+        "ageHours": 25.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:b6fcdc4692ac3301",
+          "title:e356703bbe0bf9da"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:caa9073cefb43725": {
+      "id": "defer:url:caa9073cefb43725",
+      "at": "2026-11-11T13:30:59.451Z",
+      "firstAt": "2026-11-11T13:30:59.451Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:caa9073cefb43725",
+        "title:2e601c574d84ada4"
+      ],
+      "canonical": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "canonical": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "published": "Mon, 09 Nov 2026 19:00:00 GMT",
+        "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "images": [],
+        "ageHours": 42.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:caa9073cefb43725",
+          "title:2e601c574d84ada4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4c690fe5a4a5e2eb": {
+      "id": "defer:url:4c690fe5a4a5e2eb",
+      "at": "2026-11-11T13:30:59.451Z",
+      "firstAt": "2026-11-11T13:30:59.451Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:4c690fe5a4a5e2eb",
+        "title:422713f82c95c6e7"
+      ],
+      "canonical": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract",
+      "title": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
+        "link": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+        "canonical": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract",
+        "published": "Mon, 09 Nov 2026 12:00:32 +0000",
+        "summary": "AI startups should be judged by durable revenue, full-price renewals and healthy margins after delivery costs, with embedded customer workflows providing stronger defensibility as model access gets cheaper, rather than their paper valuation, writes guest author Ilman Shazhaev, founder and CEO of Dizzaract, who suggests that founders should build global investor bases that support customer acquisition and market entry while weighing venture growth expectations against sovereign-backed investors’ localization, governance and other obligations.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/2021/03/Chris_Column-3.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/ABR_7229-scaled-e1793894867202-210x300.jpg"
+        ],
+        "ageHours": 49.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:4c690fe5a4a5e2eb",
+          "title:422713f82c95c6e7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:86c270bf47b54ff7": {
+      "id": "defer:url:86c270bf47b54ff7",
+      "at": "2026-11-11T13:30:59.451Z",
+      "firstAt": "2026-11-11T13:30:59.451Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:86c270bf47b54ff7",
+        "title:5cf8f270d344de81"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+        "link": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+        "canonical": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
+        "published": "Mon, 09 Nov 2026 08:00:53 +0000",
+        "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with additional investments […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-startups-msit-1920x1080-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-startups-msit-1920x1080-1-842x450.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/3A5B0B4C-2FCB-4F7B-96D6-2A56312BBB2C_1_201_a-scaled.jpeg"
+        ],
+        "ageHours": 53.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:86c270bf47b54ff7",
+          "title:5cf8f270d344de81"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0e9fb0eb84f13acf": {
+      "id": "defer:url:0e9fb0eb84f13acf",
+      "at": "2026-11-11T13:30:59.451Z",
+      "firstAt": "2026-11-11T13:30:59.451Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0e9fb0eb84f13acf",
+        "title:124778f847282ddb"
+      ],
+      "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "candidate": {
+        "sourceId": "deepmind-blog",
+        "sourceName": "Google DeepMind Blog",
+        "sourceType": "official_blog",
+        "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+        "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
+        "published": "Tue, 10 Nov 2026 12:02:28 +0000",
+        "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+        "messageText": "",
+        "leadPostUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "images": [
+          "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo"
+        ],
+        "ageHours": 25.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0e9fb0eb84f13acf",
+          "title:124778f847282ddb"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9181,6 +9253,52 @@
           "at": "2026-11-11T10:45:39.146Z"
         }
       ]
+    },
+    "2026-11-11T17:00+03:30": {
+      "at": "2026-11-11T13:33:32.869Z",
+      "status": "sent",
+      "category": "models",
+      "title": "گوگل ابزار ارزیابی ایمنی ربات‌ها را منتشر کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/17-00-2",
+      "messageId": 58,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0035970816,
+      "tokens": 39050,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "Gemini Intelligence به موتورولا و پیکسل ۱۰ رسید",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 57,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0020176408,
+          "tokens": 20894,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-11T13:33:32.869Z"
+        },
+        {
+          "title": "گوگل ابزار ارزیابی ایمنی ربات‌ها را منتشر کرد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 58,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/17-00-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003459008,
+          "tokens": 9521,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-11T13:45:33.958Z"
+        }
+      ]
     }
   },
   "published": [
@@ -9929,93 +10047,127 @@
       "sourceTitle": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
       "sourceText": "Anthropic is seeking to secure up to $88.5 billion in its planned IPO and a concurrent private placement, potentially making it the largest-ever fundraise tied to a public market debut.\nOn Tuesday, the AI giant submitted an updated S-1 filing for its upcoming public offering, unveiling new details including a proposed share price range offering size. The offering could set a fully diluted valuation of up to $1.4 trillion for the San Francisco company.\nAnthropic’s expected valuation comes in below earlier projections, with many investors reportedly forecasting something closer to $2 trillion. That said, even at $1.4 trillion, Anthropic would still be going public at the second-highest valuation in history, topped only by SpaceX ’s June debut.\nThe offering should also provide Anthropic with plentiful capital to pursue its expensive expansion and infrastructure investment plans.\nFor the IPO portion of its fundraise, Anthropic plans to sell just over 800 million shares 1 at $70 to $78 each. At the high end, that would bring in around $62.5 billion — the largest ever IPO fundraise after SpaceX’s $75 billion offering.\nAnthropic also expects to pull in another $26 billion from a private placement slated to close immediately following the IPO. Investors in this include AMD , Broadcom , Google , Micron Technology , Microsoft , Nvidia and TSMC .\nPut together, it’s a record-setting capital haul for a company making its market debut, which Anthropic is expected to do later this month on Nasdaq under the ticker symbol ANT.\nAnthropic also recently updated its financial disclosures, showi",
       "at": "2026-11-11T10:45:39.147Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-11T17:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "Gemini Intelligence به موتورولا و پیکسل ۱۰ رسید",
+      "why": "اهمیتش اینه که این قابلیت‌ها کارهای تکراری رو حذف می‌کنن و گوشی رو به یک دستیار هوشمندتر تبدیل می‌کنن.",
+      "dedupe_key": "google-gemini-intelligence-motorola-pixel10",
+      "post_key": "2026-11-11/17-00/1",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official_blog",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "sourceTitle": "Gemini Intelligence: New features, on more devices",
+      "sourceText": "Gemini Intelligence is now available on more devices, including motorola signature 27 and Pixel 10. See how expanded capabilities across these devices help you do more.\nGemini Intelligence 1 brings the best of Gemini to Android devices, helping your devices work harder for you. Earlier this year, we announced Gemini Intelligence , and this summer devices started rolling out — from the Pixel 11 to the Samsung Galaxy Z Fold8 Ultra, Z Fold8, Z Flip8 and S26 series. 2 Today, we’re introducing new features built for Gemini Intelligence, and expanding capabilities to more of Android’s most advanced devices . 3 Here’s a look at what’s new.\nGemini Intelligence is coming to even more devices. Motorola is introducing its first Gemini Intelligence device, motorola signature 27 , which is available for pre-order in the U.S. on November 19. And with today’s Pixel Drop , Pixel 10, Pixel 10 Pro XL, and Pixel 10 Pro Fold get the latest features for Gemini Intelligence.\nAlongside this expansion, we’re bringing some of our favorite capabilities to more devices and regions, helping handle the busywork so you can focus on what matters. Rambler 4 — which turns spoken thoughts into clean, organized text in real-time — is now available on Pixel 10, Pixel 10 Pro, Pixel 10, Pro XL and Pixel 10 Pro Fold, as well as the new motorola signature 27. And task automation 5 — which lets you ask Gemini to handle logistics like ordering food, hailing rides, or booking reservations across your favorite apps — is expanding to the UK, India, and Japan.\nCreate My Widget 6 , which is rolling out over the next few",
+      "at": "2026-11-11T13:33:32.869Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-11T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "گوگل ابزار ارزیابی ایمنی ربات‌ها را منتشر کرد",
+      "why": "اهمیتش اینه که با این ابزار، توسعه‌دهنده‌ها می‌تونن قبل از استقرار ربات‌ها در دنیای واقعی، ایمنی تصمیم‌گیری‌هاشون رو بسنجن.",
+      "dedupe_key": "google-asimov-agentic-robotics-safety",
+      "post_key": "2026-11-11/17-00/2",
+      "sourceId": "tg-dunijet-ai",
+      "sourceName": "دانیجت | Dunijet",
+      "sourceType": "telegram_channel",
+      "url": "https://huggingface.co/datasets/google/asimov_agentic",
+      "sourceTitle": "google/asimov_agentic · Datasets at Hugging Face",
+      "sourceText": "🤖 مدل Gemini Robotics 2.5 شرکت DeepMind توی خط تولید واقعی مرسدس بنز ۹۶ درصد موفق عمل کرده\n\nربات انسان‌نمای Apollo 2 شرکت Apptronik توی کارخونه‌های مجارستان و آلمان قطعات فلزی رو از جعبه‌ها جدا و به ترتیبِ هر خودرو توی سینی می‌چیده. دو مدل همزمان کار می‌کردن؛ یکی کار رو رصد می‌کرد و اون یکی دست‌ها و بازوها رو کنترل می‌کرد.\n\nشرکت DeepMind می‌گه این مدل روی بیش از ۲۰۰ تسک تست شده و نسبت به نسخه قبلی ۳۰ تا ۱۰۰ درصد موفق‌تر و ۲۰ تا ۳۰ درصد سریع‌تره. بنچمارک امنیتی ASIMOV-Jailbreak هم متن‌باز منتشر شده:\n\nhuggingface.co/datasets/google/asimov_agentic\n\n@dunijet_ai\n\n❤1",
+      "at": "2026-11-11T13:45:33.958Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8364,
-      "last_at": "2026-11-11T10:17:35+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "last_id": 8368,
+      "last_at": "2026-11-11T13:22:17+00:00",
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "ai_farshad": {
-      "last_id": 6405,
-      "last_at": "2026-11-11T07:30:47+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "last_id": 6408,
+      "last_at": "2026-11-11T13:30:02+00:00",
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "Mohammad_zammani": {
       "last_id": 7195,
       "last_at": "2026-11-11T09:03:24+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "techiin_ir": {
-      "last_id": 20753,
-      "last_at": "2026-11-11T10:02:10+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "last_id": 20754,
+      "last_at": "2026-11-11T11:02:25+00:00",
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "mgh_mobin": {
-      "last_id": 472,
-      "last_at": "2026-11-11T08:24:18+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "last_id": 473,
+      "last_at": "2026-11-11T12:08:19+00:00",
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "web3nabu": {
       "last_id": 2154,
       "last_at": "2026-11-10T17:26:53+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "asrnovin_ir": {
-      "last_id": 11439,
-      "last_at": "2026-11-11T09:46:07+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "last_id": 11440,
+      "last_at": "2026-11-11T12:27:37+00:00",
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "shayanode": {
       "last_id": 125,
       "last_at": "2026-11-10T21:21:01+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "codecloude": {
       "last_id": 2578,
       "last_at": "2026-11-10T20:33:57+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "dunijet_ai": {
-      "last_id": 2533,
-      "last_at": "2026-11-11T08:07:10+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "last_id": 2535,
+      "last_at": "2026-11-11T12:24:02+00:00",
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "MatinSenPaii": {
       "last_id": 5848,
       "last_at": "2026-11-11T10:17:57+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     },
     "thenimaonAI": {
       "last_id": 494,
       "last_at": "2026-11-11T06:58:03+00:00",
-      "checked_at": "2026-11-11T10:30:42.388Z"
+      "checked_at": "2026-11-11T13:30:41.888Z"
     }
   },
   "offerReviews": [
@@ -11746,6 +11898,18 @@
       "slot": "2026-11-11T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-asr-novin|https://t.me/asrnovin_ir/11440",
+      "date": "2026-11-11",
+      "at": "2026-11-11T13:30:41.888Z",
+      "source": "tg-asr-novin",
+      "title": "😒کلاد دیگه فقط یه چت‌بات نیست،کلاد تبدیل به یه محیط کار هوشمند شد!!",
+      "url": "https://t.me/asrnovin_ir/11440",
+      "reason": "denied_link",
+      "slot": "2026-11-11T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -11874,6 +12038,13 @@
       "url": "https://www.kdnuggets.com/2026/11/lansa/how-to-use-ai-for-enterprise-bi",
       "slot": "2026-11-10T23:00+03:30",
       "at": "2026-11-10T19:30:43.236Z"
+    },
+    {
+      "source": "machinelearningmastery",
+      "title": "Sandboxing AI Agent Code Execution in Python: Containers, MicroVMs and Beyond",
+      "url": "https://machinelearningmastery.com/sandboxing-ai-agent-code-execution-in-python-containers-microvms-and-beyond",
+      "slot": "2026-11-11T17:00+03:30",
+      "at": "2026-11-11T13:30:41.888Z"
     }
   ],
   "reviewPending": {},
