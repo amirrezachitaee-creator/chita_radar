@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T13:45:33.960Z",
+  "updatedAt": "2026-11-11T17:03:47.426Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -5855,6 +5855,166 @@
       "slot": "2026-11-11T17:00+03:30",
       "title": "🤖 مدل Gemini Robotics 2.5 شرکت DeepMind توی خط تولید واقعی مرسدس بنز ۹۶ درصد موفق",
       "url": "http://huggingface.co/datasets/google/asimov_agentic"
+    },
+    "url:d5390bea7b3bf837": {
+      "at": "2026-11-11T17:01:07.179Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "دانشگاه استنفورد دوره جذاب و کاملش درباره نحوه کارکرد مدل‌های هوش مصنوعی سبکِ ChatGPT رو به",
+      "url": "https://cme295.stanford.edu/syllabus/2025"
+    },
+    "title:eac0b988f9165088": {
+      "at": "2026-11-11T17:01:07.179Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "دانشگاه استنفورد دوره جذاب و کاملش درباره نحوه کارکرد مدل‌های هوش مصنوعی سبکِ ChatGPT رو به",
+      "url": "https://cme295.stanford.edu/syllabus/2025"
+    },
+    "url:d7414ba9c6092537": {
+      "at": "2026-11-11T17:01:07.180Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow"
+    },
+    "title:2fd7f833a96d03d1": {
+      "at": "2026-11-11T17:01:07.180Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow"
+    },
+    "url:630e40d99771c329": {
+      "at": "2026-11-11T17:01:08.143Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "🔓 نسخه رایگان",
+      "url": "https://t.me/shayanode/133"
+    },
+    "title:a75988332c1f19c2": {
+      "at": "2026-11-11T17:01:08.143Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "🔓 نسخه رایگان",
+      "url": "https://t.me/shayanode/133"
+    },
+    "url:49ef6eea1f4a4c31": {
+      "at": "2026-11-11T17:01:08.408Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "پروژه ای زدید با Qwen 4 زدید ؟",
+      "url": "https://t.me/ArchiveTell/8369"
+    },
+    "title:ed5c314ccba733b0": {
+      "at": "2026-11-11T17:01:08.408Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "پروژه ای زدید با Qwen 4 زدید ؟",
+      "url": "https://t.me/ArchiveTell/8369"
+    },
+    "url:b0ae9e5bfb94a513": {
+      "at": "2026-11-11T17:01:13.312Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "طبق گزارش تازه بلومبرگ، شرکت ByteDance (مالک تیک‌تاک) حسابی دست‌به‌کار شده و قصد داره ظرف چند",
+      "url": "https://t.me/Mohammad_zammani/7197"
+    },
+    "title:8f4ee46842fca3a8": {
+      "at": "2026-11-11T17:01:13.312Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "طبق گزارش تازه بلومبرگ، شرکت ByteDance (مالک تیک‌تاک) حسابی دست‌به‌کار شده و قصد داره ظرف چند",
+      "url": "https://t.me/Mohammad_zammani/7197"
+    },
+    "url:90650871204af9bc": {
+      "at": "2026-11-11T17:01:34.460Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "با RyzerDNS، تحریم‌ها دیگر مانع شما نیستند.",
+      "url": "https://t.me/asrnovin_ir/11441"
+    },
+    "title:c5dfb93a43a76b84": {
+      "at": "2026-11-11T17:01:34.460Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "با RyzerDNS، تحریم‌ها دیگر مانع شما نیستند.",
+      "url": "https://t.me/asrnovin_ir/11441"
+    },
+    "url:5e3a8fa80aa0503f": {
+      "at": "2026-11-11T17:01:41.884Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "url": "https://huggingface.co/papers/2611.14320"
+    },
+    "title:bac0d7e118e3fedf": {
+      "at": "2026-11-11T17:01:41.884Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "url": "https://huggingface.co/papers/2611.14320"
+    },
+    "url:9f9f7c7790975362": {
+      "at": "2026-11-11T17:01:42.208Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "یه قالب آماده برای طراحی سایت، با بنر عریض و فرم‌های شیشه‌ای که خیلی آروم تغییر",
+      "url": "https://t.me/shayanode/126"
+    },
+    "title:5c436f3940a23769": {
+      "at": "2026-11-11T17:01:42.208Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "یه قالب آماده برای طراحی سایت، با بنر عریض و فرم‌های شیشه‌ای که خیلی آروم تغییر",
+      "url": "https://t.me/shayanode/126"
+    },
+    "url:fc73217409f2e0eb": {
+      "at": "2026-11-11T17:03:47.424Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot"
+    },
+    "title:058783019850cf79": {
+      "at": "2026-11-11T17:03:47.424Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-11T20:30+03:30",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot"
     }
   },
   "deferred": {
@@ -6005,851 +6165,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:dafc4aa89af8cf6b": {
-      "id": "defer:url:dafc4aa89af8cf6b",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:dafc4aa89af8cf6b",
-        "title:0a42f9527486f10c"
-      ],
-      "canonical": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration",
-      "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
-        "link": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
-        "canonical": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration",
-        "published": "Tue, 10 Nov 2026 13:37:16 +0000",
-        "summary": "Eight countries along with representatives from OpenAI, Anthropic, Microsoft, and Mistral AI have signed the \"Paris Call for AI Safety and Security\" at Emmanuel Macron's initiative. The companies commit to shutdown mechanisms, independent audits, and disclosing known risks, but the agreement lacks binding sanctions or deadlines. The article Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2025/07/Digital-Europe-Map.jpg"
-        ],
-        "ageHours": 5.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:dafc4aa89af8cf6b",
-          "title:0a42f9527486f10c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a3d08ff8dcc4a34a": {
-      "id": "defer:url:a3d08ff8dcc4a34a",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a3d08ff8dcc4a34a",
-        "title:3619c3609a3fc910"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation",
-      "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
-        "link": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
-        "canonical": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation",
-        "published": "Tue, 10 Nov 2026 12:13:03 +0000",
-        "summary": "Anthropic is kicking off its IPO roadshow, targeting a valuation of up to $1.02 trillion. Beyond the public offering of up to $64.4 billion, the company is securing $26 billion through a private placement with Google, Nvidia, Microsoft, and other major tech firms as anchor investors. The IPO comes at a time when investors are growing increasingly skeptical of AI investments. The article Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png"
-        ],
-        "ageHours": 7.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:a3d08ff8dcc4a34a",
-          "title:3619c3609a3fc910"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:991ad48e8559b2fe": {
-      "id": "defer:url:991ad48e8559b2fe",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:991ad48e8559b2fe",
-        "title:3e3b52b86100505e"
-      ],
-      "canonical": "https://openai.com/index/introducing-businesses-chatgpt",
-      "title": "Introducing Businesses in ChatGPT",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Introducing Businesses in ChatGPT",
-        "link": "https://openai.com/index/introducing-businesses-chatgpt",
-        "canonical": "https://openai.com/index/introducing-businesses-chatgpt",
-        "published": "Tue, 10 Nov 2026 10:00:00 GMT",
-        "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/introducing-businesses-chatgpt",
-        "images": [],
-        "ageHours": 9.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:991ad48e8559b2fe",
-          "title:3e3b52b86100505e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f3fc54cd1d78c100": {
-      "id": "defer:url:f3fc54cd1d78c100",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f3fc54cd1d78c100",
-        "title:91dd78e5975de797"
-      ],
-      "canonical": "https://openai.com/index/ai-effect-on-freelance-work",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Work at the Frontier: AI’s effect on freelance work",
-        "link": "https://openai.com/index/ai-effect-on-freelance-work",
-        "canonical": "https://openai.com/index/ai-effect-on-freelance-work",
-        "published": "Tue, 10 Nov 2026 07:00:00 GMT",
-        "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/ai-effect-on-freelance-work",
-        "images": [],
-        "ageHours": 12.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f3fc54cd1d78c100",
-          "title:91dd78e5975de797"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7a8b85431c54289a": {
-      "id": "defer:url:7a8b85431c54289a",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:7a8b85431c54289a",
-        "title:82349b08eead7a74"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
-      "title": "Yonkers Rises",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "Yonkers Rises",
-        "link": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
-        "canonical": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
-        "published": "2026-11-10T03:53:04+00:00",
-        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/yonkers-rises\">Yonkers Rises</a></p> <p>I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I <a href=\"https://claude.ai/share/97443910-2e0a-4e17-9b9e-11d14d8ff65c\">prompted Fable 5.2 Medium</a> to:</p> <blockquote> <p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p> </blockquote> <p>It correctly deduced that \"átomos\" was a mobile keyboard typo for \"stomps\":</p> <video controls playsinline preload=\"none\" width=\"572\" height=\"360\" poster=\"https://static.simonwillison.net/static/2026/yonkers.webp\"> <source src=\"https://static.simonwillison.net/static/2026/yonkers-large.mp4\" type=\"video/mp4\"> </video> <p>Tags: <a href=\"https://simonwillison.net/tags/three-js\">three-js</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
-        "images": [],
-        "ageHours": 15.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7a8b85431c54289a",
-          "title:82349b08eead7a74"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cb93d68b445c05b0": {
-      "id": "defer:url:cb93d68b445c05b0",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:cb93d68b445c05b0",
-        "title:5aba55565f00e5fa"
-      ],
-      "canonical": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-        "link": "https://huggingface.co/blog/hub-gcp-marketplace",
-        "canonical": "https://huggingface.co/blog/hub-gcp-marketplace",
-        "published": "Tue, 10 Nov 2026 00:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/hub-gcp-marketplace",
-        "images": [],
-        "ageHours": 19.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:cb93d68b445c05b0",
-          "title:5aba55565f00e5fa"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6b6709b612e5913e": {
-      "id": "defer:url:6b6709b612e5913e",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:6b6709b612e5913e",
-        "title:dd49d1c60f862bbf"
-      ],
-      "canonical": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "candidate": {
-        "sourceId": "deepmind-blog",
-        "sourceName": "Google DeepMind Blog",
-        "sourceType": "official_blog",
-        "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-        "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-        "canonical": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
-        "published": "Mon, 09 Nov 2026 19:51:47 +0000",
-        "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
-        "messageText": "",
-        "leadPostUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-        "images": [
-          "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo"
-        ],
-        "ageHours": 23.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6b6709b612e5913e",
-          "title:dd49d1c60f862bbf"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bcfee7afda18be7f": {
-      "id": "defer:url:bcfee7afda18be7f",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:bcfee7afda18be7f",
-        "title:92dcbe5d54cd885c"
-      ],
-      "canonical": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do",
-      "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
-        "link": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
-        "canonical": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do",
-        "published": "Mon, 09 Nov 2026 19:41:51 +0000",
-        "summary": "Meta is introducing Muse Ember, its smallest and most efficient AI model, optimized for repetitive agent tasks such as tool calls, routing, and data extraction. According to Meta, it delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna. But it falls short when it comes to actual programming tasks. The article Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/meta_logo-2.png"
-        ],
-        "ageHours": 23.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:bcfee7afda18be7f",
-          "title:92dcbe5d54cd885c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fece0721dfed346f": {
-      "id": "defer:url:fece0721dfed346f",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:fece0721dfed346f",
-        "title:6fd47e9cc38593b7"
-      ],
-      "canonical": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
-      "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
-        "link": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
-        "canonical": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
-        "published": "Mon, 09 Nov 2026 18:50:01 +0000",
-        "summary": "Bytedance Seed has introduced Seedream 5.5, an image model built for professional production workflows. It supports stable multi-pass editing over up to 100 iterations, generates native RGBA images with transparent backgrounds, and, according to Bytedance, outperforms GPT-Image-2.5 Sunburst in realism. A Pro version is planned. The article Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
-        "images": [
-          "http://the-decoder.de/wp-content/uploads/2026/11/seedream55.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/11/seedance_examples-scaled.png"
-        ],
-        "ageHours": 24.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:fece0721dfed346f",
-          "title:6fd47e9cc38593b7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:28bbbb52ac4a38e9": {
-      "id": "defer:url:28bbbb52ac4a38e9",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:28bbbb52ac4a38e9",
-        "title:9f1903dc2a7d931e"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.12834v1",
-      "title": "Programming Prescience: Issues in Human Construction of Forecasting Bots",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Programming Prescience: Issues in Human Construction of Forecasting Bots",
-        "link": "https://arxiv.org/abs/2611.12834v1",
-        "canonical": "https://arxiv.org/abs/2611.12834v1",
-        "published": "2026-11-09T18:33:13Z",
-        "summary": "AI models' growing capacity for complex reasoning has made them attractive tools for forecasting, or the systematic prediction of the future based on past and present data. However, should AI forecasting systems be adopted, human builders will shoulder the work of building and evaluating them. In this paper, we explore what this work looks like with a qualitative interview study with 15 builders of forecasting bots, sampled from among successful participants in a recent AI forecasting competition. Our analysis surfaces the challenges around (1) tuning a bot to acquire factual research, (2) implementing coherent reasoning, and (3) understanding how well one's bot actually does. During their work, builders frequently introduced complexity that did not pay off, and tested in ways that were opportunistic and piecemeal. Our detailed account of their challenges helps clarify what problems should be targeted in upcoming innovations in process, tools, and human-AI teaming for forecasting.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.12834v1",
-        "images": [],
-        "ageHours": 25,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:28bbbb52ac4a38e9",
-          "title:9f1903dc2a7d931e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fe6003c42d22f54e": {
-      "id": "defer:url:fe6003c42d22f54e",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:fe6003c42d22f54e",
-        "title:eff9a1544a8c9275"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.12816v1",
-      "title": "Automated Knowledge Acquisition Pipeline for Disassembly Instructions: A Comparison of NLP and Generative AI Frameworks",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Automated Knowledge Acquisition Pipeline for Disassembly Instructions: A Comparison of NLP and Generative AI Frameworks",
-        "link": "https://arxiv.org/abs/2611.12816v1",
-        "canonical": "https://arxiv.org/abs/2611.12816v1",
-        "published": "2026-11-09T18:19:57Z",
-        "summary": "The push towards circularity and Re-X principles presents a challenge to SMEs, particularly due to increasing product complexity that impedes the adoption of disassembly automation. This paper introduces and compares two frameworks for extracting disassembly instructions from unstructured information sources, such as disassembly manuals. Our goal is to transform natural language text into a structured, curated and machine-readable format. We implemented and tested a rule-based Natural Language Processing (NLP) framework against a generative AI framework leveraging LLMs. The performance of both approaches was compared using real-world disassembly manuals. This work provides the necessary data foundation for developing and automating future disassembly processes.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.12816v1",
-        "images": [],
-        "ageHours": 25.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:fe6003c42d22f54e",
-          "title:eff9a1544a8c9275"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bcfc636e5a3be6d4": {
-      "id": "defer:url:bcfc636e5a3be6d4",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:bcfc636e5a3be6d4",
-        "title:2c6513a80ef85b07"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.12817v1",
-      "title": "LUCQUE: A lung cancer screening dataset from Québec for reliable AI evaluation",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "LUCQUE: A lung cancer screening dataset from Québec for reliable AI evaluation",
-        "link": "https://arxiv.org/abs/2611.12817v1",
-        "canonical": "https://arxiv.org/abs/2611.12817v1",
-        "published": "2026-11-09T18:21:18Z",
-        "summary": "BACKGROUND: AI-based tools are expected to play a key role in lung cancer screening (LCS). The evaluation of these tools often relied on private datasets or fragmented public datasets with inconsistent availability of clinical data and expert nodule annotations. This has hindered reproducibility, comparability, and independent assessment of AI tools. To address these gaps, we present LUCQUE, a novel, large, comprehensively annotated dataset derived from LDCT lung cancer screening in Québec, which is accessible for reliable AI evaluation. METHODS: LUCQUE was curated and is hosted on PARADIM, a digital infrastructure supporting DICOM data de-identification, annotation, long-term storage and analysis. LDCT scans and clinical information were combined to a curated collection and complemented by voxel-level, expert-derived pulmonary nodule and cyst segmentations, and Lung-RADS-based lesion characteristics. Key dataset characteristics and statistics were reported, including participant demographics, imaging parameters, radiological findings, and segmented lesion characteristics. Dataset analyses were conducted according to PARADIM's model-to-data approach, in which user code is executed on the platform such that data remains on premise. RESULTS: LUCQUE currently comprises 1,678 LDCT baseline studies from 1,678 participants. Most studies were classified as Lung-RADS 2. A total of 1,776 pulmonary nodules and 60 cysts were annotated, with a median (interquartile range) volume of $89\\,(56,\\,159)\\,\\mathrm{mm}^3$ and $1,384\\,(589,\\,3793)\\,\\mathrm{mm}^3$ respectively. CONCLUSIONS: Compared to publicly available LCS datasets, LUCQUE currently represents the largest accessible annotated real-world LCS dataset. Access to LUCQUE is provided via a model-to-data approach, enabling privacy-preserving, reproducible, and independent real-world evaluation of AI tools in LCS.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.12817v1",
-        "images": [],
-        "ageHours": 25.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:bcfc636e5a3be6d4",
-          "title:2c6513a80ef85b07"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:68acc65f32714946": {
-      "id": "defer:url:68acc65f32714946",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:68acc65f32714946",
-        "title:f84e8e1750dbbce4"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.12805v1",
-      "title": "2D Gum-Net: Unsupervised Dense Elastic Image Registration via Symmetric Correlation and Spectral Pooling",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "2D Gum-Net: Unsupervised Dense Elastic Image Registration via Symmetric Correlation and Spectral Pooling",
-        "link": "https://arxiv.org/abs/2611.12805v1",
-        "canonical": "https://arxiv.org/abs/2611.12805v1",
-        "published": "2026-11-09T18:11:45Z",
-        "summary": "Dense non-rigid registration, the recovery of a pixel-wise deformation field that warps one image into geometric agreement with another, is fundamental across medical imaging, structural biology, and correspondence estimation, yet learning-based approaches face a severe bottleneck: ground-truth deformation fields are notoriously difficult to obtain for real data. We present 2D Gum-Net, an end-to-end architecture that predicts dense elastic deformation fields fully unsupervised. We transfer the Geometric Unsupervised Matching Network (Gum-Net), originally developed for 3D subtomogram alignment in cryo-electron tomography, to 2D elastic registration: all three modules are redesigned in 2D, and the rigid transformation head is replaced by a Dense Spatial Transformer that regresses a sparse control-point grid, lifted to a full-resolution field $Φ$ by bicubic interpolation. Downsampling uses DCT spectral pooling, implemented as frozen-basis matrix multiplications ($\\approx 50\\times$ GPU speedup), preserving the fine, quasi-periodic structure that max and average pooling destroy. We evaluate on contact-based fingerprints, a challenging testbed for this task: locally self-similar ridge patterns make correspondence maximally ambiguous, skin pressed against a sensor generates authentic large-displacement elastic distortion, and minutiae act as precise landmarks through which an independent matcher externally verifies the topological correctness of predicted fields. Trained purely on synthetic impressions and evaluated zero-shot on real benchmarks, our method improves structural correlation by up to 15.7% on FVC2004 and raises genuine match scores under an independent matcher while leaving imposter scores essentially unchanged. This suggests that the predicted deformations restore true structure without fabricating correspondences.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.12805v1",
-        "images": [],
-        "ageHours": 25.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:68acc65f32714946",
-          "title:f84e8e1750dbbce4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:8ecefb7b2ba8e882": {
-      "id": "defer:url:8ecefb7b2ba8e882",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8ecefb7b2ba8e882",
-        "title:231318a41ccdc04e"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.12760v1",
-      "title": "DeepChronos: Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "DeepChronos: Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection",
-        "link": "https://arxiv.org/abs/2611.12760v1",
-        "canonical": "https://arxiv.org/abs/2611.12760v1",
-        "published": "2026-11-09T17:37:36Z",
-        "summary": "Modern cyber threats commonly unfold as multi-step attacks comprising temporally and causally related phases. Current defenses commonly follow a detect first and correlate later paradigm. Intrusion detection systems classify events independently, while downstream systems reconstruct attack progression from the resulting alerts or audit records. In this context, learning-based detectors learn attack-step dependencies implicitly as statistical regularities in the data and cannot guarantee that their predictions follow the real attack progression. Conversely, correlation systems represent attack relationships explicitly, but apply this knowledge only after the underlying attack observations have been detected. We present DEEPCHRONOS, a neuro-symbolic network intrusion detection system that shifts the paradigm from detect first and correlate later to detection through logical progression. DEEPCHRONOS combines learned flow-level evidence with explicit attack-phase rules, temporal prerequisites, and previously inferred phases, allowing the evolving attack history to inform and constrain each detection decision. Evaluations on DARPA 2000 and AIT-LDS V2 show that DEEPCHRONOS improves macro F1 over purely neural baselines by up to 11.3%, eliminates causal violations under strict temporal constraints, and maintains millisecond-scale inference latency. These results demonstrate that integrating explicit attack progression knowledge into detection produces more accurate and temporally coherent multi-step attack predictions.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.12760v1",
-        "images": [],
-        "ageHours": 25.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:8ecefb7b2ba8e882",
-          "title:231318a41ccdc04e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e804e32defe03406": {
-      "id": "defer:url:e804e32defe03406",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e804e32defe03406",
-        "title:73aadb187eabf974"
-      ],
-      "canonical": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire",
-      "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
-        "link": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
-        "canonical": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire",
-        "published": "Mon, 09 Nov 2026 16:54:16 +0000",
-        "summary": "Disney and Adobe are building custom AI tools together for the entertainment giant's productions. The article Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/TWDC-MAX_Marquee_2000_1000.jpg"
-        ],
-        "ageHours": 26.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e804e32defe03406",
-          "title:73aadb187eabf974"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:952d2516af2e9054": {
-      "id": "defer:url:952d2516af2e9054",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:952d2516af2e9054",
-        "title:f40a91761a021c6e"
-      ],
-      "canonical": "https://openai.com/index/control-room",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-        "link": "https://openai.com/index/control-room",
-        "canonical": "https://openai.com/index/control-room",
-        "published": "Mon, 09 Nov 2026 13:00:00 GMT",
-        "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/control-room",
-        "images": [],
-        "ageHours": 30.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:952d2516af2e9054",
-          "title:f40a91761a021c6e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:02e9abf47eaf3fa0": {
-      "id": "defer:url:02e9abf47eaf3fa0",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:02e9abf47eaf3fa0",
-        "title:0f3ef6d34216d5f7"
-      ],
-      "canonical": "https://openai.com/index/coderabbit-codex-daybreak",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "CodeRabbit scales agentic software development and ships 20x more",
-        "link": "https://openai.com/index/coderabbit-codex-daybreak",
-        "canonical": "https://openai.com/index/coderabbit-codex-daybreak",
-        "published": "Mon, 09 Nov 2026 08:00:00 GMT",
-        "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/coderabbit-codex-daybreak",
-        "images": [],
-        "ageHours": 35.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:02e9abf47eaf3fa0",
-          "title:0f3ef6d34216d5f7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d08694737b722c2b": {
-      "id": "defer:url:d08694737b722c2b",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d08694737b722c2b",
-        "title:58a7575ad916a0b5"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem",
-      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Korea Advances Physical AI Across Industries With NVIDIA",
-        "link": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-        "canonical": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem",
-        "published": "Mon, 09 Nov 2026 05:00:40 +0000",
-        "summary": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advances Semiconductor Engineering With […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/omniverse-overall-ai-day-seoul-1920x1080-1.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/omniverse-overall-ai-day-seoul-1920x1080-1-842x450.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/1B2C1DF5-FF0A-435B-AB82-34128DD13CA5_1_201_a-scaled.jpeg"
-        ],
-        "ageHours": 38.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d08694737b722c2b",
-          "title:58a7575ad916a0b5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:4bf86764d0679af1": {
       "id": "defer:url:4bf86764d0679af1",
       "at": "2026-11-11T05:01:57.460Z",
@@ -6988,57 +6303,6 @@
         ]
       },
       "detail": "TELEGRAM_400_Bad Request: IMAGE_PROCESS_FAILED"
-    },
-    "defer:url:fc73217409f2e0eb": {
-      "id": "defer:url:fc73217409f2e0eb",
-      "at": "2026-11-11T08:01:05.718Z",
-      "firstAt": "2026-11-11T08:01:05.718Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:fc73217409f2e0eb",
-        "title:058783019850cf79"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot",
-      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
-        "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-        "canonical": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot",
-        "published": "Tue, 10 Nov 2026 22:35:01 +0000",
-        "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-500x500.jpeg"
-        ],
-        "ageHours": 9.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:fc73217409f2e0eb",
-          "title:058783019850cf79"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:d0a06ec7e03766fa": {
       "id": "defer:url:d0a06ec7e03766fa",
@@ -8226,6 +7490,937 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:a89b9273b2249edf": {
+      "id": "defer:url:a89b9273b2249edf",
+      "at": "2026-11-11T17:01:42.215Z",
+      "firstAt": "2026-11-11T17:01:42.215Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:a89b9273b2249edf",
+        "title:0659f45de6b9c6c4"
+      ],
+      "canonical": "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+      "title": "شرکت Anthropic می‌گه وابستگی به Nvidia رو شکسته و مدل Claude رو توی فقط ۳ روز",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "شرکت Anthropic می‌گه وابستگی به Nvidia رو شکسته و مدل Claude رو توی فقط ۳ روز",
+        "link": "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+        "canonical": "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+        "messageText": "شرکت Anthropic می‌گه وابستگی به Nvidia رو شکسته و مدل Claude رو توی فقط ۳ روز روی GPUهای AMD بالا آورده\n\nتام براون، هم‌بنیان‌گذار Anthropic، می‌گه حالا Claude روی هر چهار خانواده اصلی چیپ آموزش داده و اجرا می‌شه و همه رو مثل یه استخر محاسباتی یکسان می‌بینه. موقع پورت به AMD، مدل خودشون به اسم Mythos تقریبا ۱۰۰ درصد کرنل‌ها رو خودش نوشته یا پورت کرده؛ کاری که قبلا ۶ تا ۱۲ ماه و ده‌ها مهندس می‌برد.\n\nهمین موضوع می‌تونه مزیت اصلی CUDA انویدیا رو کم‌رنگ کنه؛ حاشیه سود بالای ۷۰ درصدی Nvidia هم فعلا به خاطر همینه.\n\nthe-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/\n\n@dunijet_ai\n\n❤1",
+        "leadPostUrl": "https://t.me/dunijet_ai/2536",
+        "published": "2026-11-11T16:37:14+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/HJRJbV2JxmkC2XzAJzUyReXYAYTS6XxRPf14wp9V8i28Ikq5fHyql5VdMHTawHjjUgIb9FplK8e7KkzIPGkHjk2HLokwX92Nzv3xO14MMzeSGeW6GlzJFMbBw2Od-IXvPI6imO9f1c9qOYZtZq4ndQyoa8_qn-5nYTORikm3f53f0937X4JpaGVJ_0Yx1GZeHYQWHS4JQEkuI4e_WU0XngLlukrYaGZ2jsUKQmn7phoWP9rtUMxltr30Z30e3QwoH2rE3UoGLtnpOzjhdiXQBaYAqz3DHc7UXpoBDs6KMjDWsnYCHJQ2L0Y0LhG2MHKj4Ghw-IPswzvNjqpInVaecw.jpg"
+        ],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:a89b9273b2249edf",
+          "title:0659f45de6b9c6c4"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2536,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:bed7979fe4378809": {
+      "id": "defer:url:bed7979fe4378809",
+      "at": "2026-11-11T17:01:42.215Z",
+      "firstAt": "2026-11-11T17:01:42.215Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:bed7979fe4378809",
+        "title:36808dabf8f80120"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+        "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+        "canonical": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
+        "published": "Wed, 11 Nov 2026 16:14:44 +0000",
+        "summary": "Sales of $10B represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+        "images": [],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:bed7979fe4378809",
+          "title:36808dabf8f80120"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:04b62b0823f31776": {
+      "id": "defer:url:04b62b0823f31776",
+      "at": "2026-11-11T17:01:42.215Z",
+      "firstAt": "2026-11-11T17:01:42.215Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:04b62b0823f31776",
+        "title:bdce0405aedf0282"
+      ],
+      "canonical": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
+      "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+        "link": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+        "canonical": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
+        "published": "Wed, 11 Nov 2026 15:12:53 +0000",
+        "summary": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of automation and data fusion create risks that are hard to contain. The article Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/Helsing-Clarity.webp"
+        ],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:04b62b0823f31776",
+          "title:bdce0405aedf0282"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:34b5b4703a4ee290": {
+      "id": "defer:url:34b5b4703a4ee290",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:34b5b4703a4ee290",
+        "title:2d313040fbe87baf"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+        "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+        "canonical": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+        "published": "Wed, 11 Nov 2026 15:00:00 +0000",
+        "summary": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+        "images": [],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:34b5b4703a4ee290",
+          "title:2d313040fbe87baf"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bc5d964e3327ab5e": {
+      "id": "defer:url:bc5d964e3327ab5e",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bc5d964e3327ab5e",
+        "title:8008d81cee72099c"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+      "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+        "link": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+        "canonical": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+        "published": "Wed, 11 Nov 2026 14:25:20 +0000",
+        "summary": "Anthropic claims it used AI itself to breach Nvidia's CUDA moat. The company's in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce vendor dependencies. The article Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_moat.png"
+        ],
+        "ageHours": 2.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:bc5d964e3327ab5e",
+          "title:8008d81cee72099c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:87209848417b63cf": {
+      "id": "defer:url:87209848417b63cf",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:87209848417b63cf",
+        "title:c919e911fc04f42c"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+        "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+        "canonical": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
+        "published": "Wed, 11 Nov 2026 14:00:00 +0000",
+        "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+        "images": [],
+        "ageHours": 3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:87209848417b63cf",
+          "title:c919e911fc04f42c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:563b2ab463f50be1": {
+      "id": "defer:url:563b2ab463f50be1",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:563b2ab463f50be1",
+        "title:bdbbd732aa82990a"
+      ],
+      "canonical": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs",
+      "title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+        "link": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+        "canonical": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs",
+        "published": "Wed, 11 Nov 2026 13:51:11 +0000",
+        "summary": "US data brokers like Mercor, Surge AI, and AfterQuery are selling roughly half a billion dollars' worth of AI training data to Chinese labs, according to a ChinaTalk investigation. That includes the same RL environments previously built for OpenAI or Anthropic. At least nine firms are involved, and export controls barely apply. The article US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png"
+        ],
+        "ageHours": 3.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:563b2ab463f50be1",
+          "title:bdbbd732aa82990a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8303ab561e9a4e2c": {
+      "id": "defer:url:8303ab561e9a4e2c",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8303ab561e9a4e2c",
+        "title:a8d1fa42ffd519be"
+      ],
+      "canonical": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
+      "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
+        "link": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
+        "canonical": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
+        "published": "Wed, 11 Nov 2026 13:00:00 +0000",
+        "summary": "Learn how to measure LLM inference performance using key metrics and formulas for latency, token generation speed, and system load.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-Key-LLM-Inference-Metrics-Explained.png"
+        ],
+        "ageHours": 4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:8303ab561e9a4e2c",
+          "title:a8d1fa42ffd519be"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:62a9550b465ffc1c": {
+      "id": "defer:url:62a9550b465ffc1c",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:62a9550b465ffc1c",
+        "title:c9aa79406f8659c4"
+      ],
+      "canonical": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
+      "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+        "link": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+        "canonical": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
+        "published": "Tue, 10 Nov 2026 18:41:52 +0000",
+        "summary": "Nvidia's new AI model GR00T 2 is designed to teach robots new tasks without laborious teleoperation. Instead, the system transfers human hand movements from videos to robotic arms, trained on about 400,000 hours of video footage. Success rates still vary widely, though, ranging from 10 to 80 percent depending on the task. The article Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+        "images": [
+          "http://the-decoder.com/wp-content/uploads/2026/11/Gr00t2-dexumi_strike_human.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/11/GR00T-2-Nvidia.png"
+        ],
+        "ageHours": 22.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:62a9550b465ffc1c",
+          "title:c9aa79406f8659c4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2ffd7e8cb1f550c6": {
+      "id": "defer:url:2ffd7e8cb1f550c6",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:2ffd7e8cb1f550c6",
+        "title:9e3d2431e16fd7e5"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark",
+      "title": "Introducing the Multimodal Knowledge Agent benchmark",
+      "candidate": {
+        "sourceId": "google-models-research",
+        "sourceName": "Google Models & Research",
+        "sourceType": "official_blog",
+        "title": "Introducing the Multimodal Knowledge Agent benchmark",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark",
+        "published": "Tue, 10 Nov 2026 16:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/01_Hero_MKA_Benchmark_2784x1566.png\">We’re launching Multimodal Knowledge Agent, a new benchmark to evaluate how agents reason across visually-complex multimodal tasks.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/01_Hero_MKA_Benchmark_2784x1566.png"
+        ],
+        "ageHours": 25,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:2ffd7e8cb1f550c6",
+          "title:9e3d2431e16fd7e5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8eec2e0e61665676": {
+      "id": "defer:url:8eec2e0e61665676",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8eec2e0e61665676",
+        "title:e9e3b6a2da7afe26"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+        "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+        "canonical": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+        "published": "Tue, 10 Nov 2026 16:00:03 +0000",
+        "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/end-to-end-key-visual-kubecon-blog-1920x1080-5915250-v2.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/end-to-end-key-visual-kubecon-blog-1920x1080-5915250-v2-842x450.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/dsx-stack-kubecon-blog-16-9-1680x945.png"
+        ],
+        "ageHours": 25,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:8eec2e0e61665676",
+          "title:e9e3b6a2da7afe26"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e192e4f92a704298": {
+      "id": "defer:url:e192e4f92a704298",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e192e4f92a704298",
+        "title:d8dbcfefb44e50ed"
+      ],
+      "canonical": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+        "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+        "canonical": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+        "published": "Tue, 10 Nov 2026 14:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 27,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:e192e4f92a704298",
+          "title:d8dbcfefb44e50ed"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:69d4d9d74efa0162": {
+      "id": "defer:url:69d4d9d74efa0162",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:69d4d9d74efa0162",
+        "title:0b9feed9c5738720"
+      ],
+      "canonical": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "title": "Closing the AI guidance gap in education",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Closing the AI guidance gap in education",
+        "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "canonical": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "published": "Tue, 10 Nov 2026 09:00:00 GMT",
+        "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "images": [],
+        "ageHours": 32,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:69d4d9d74efa0162",
+          "title:0b9feed9c5738720"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f63e4eb7ebe205a6": {
+      "id": "defer:url:f63e4eb7ebe205a6",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f63e4eb7ebe205a6",
+        "title:b2b550296074211d"
+      ],
+      "canonical": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+      "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
+        "link": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+        "canonical": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+        "published": "Mon, 09 Nov 2026 15:00:00 +0000",
+        "summary": "4 classic leaks, planted in real data, tested cold on 4 models.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Can-AI-Spot-Data-Leakage-1.png"
+        ],
+        "ageHours": 50,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f63e4eb7ebe205a6",
+          "title:b2b550296074211d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:77625322d4684167": {
+      "id": "defer:url:77625322d4684167",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:77625322d4684167",
+        "title:dab260a7a833711e"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+        "link": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+        "canonical": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
+        "published": "Mon, 09 Nov 2026 05:00:39 +0000",
+        "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-agentic-ai-1920x1080-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-agentic-ai-1920x1080-1-842x450.jpg"
+        ],
+        "ageHours": 60,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:77625322d4684167",
+          "title:dab260a7a833711e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f083050eb798df23": {
+      "id": "defer:url:f083050eb798df23",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:f083050eb798df23",
+        "title:0bf36f99c0828f15"
+      ],
+      "canonical": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well",
+      "title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+        "link": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+        "canonical": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well",
+        "published": "Wed, 11 Nov 2026 13:50:30 +0000",
+        "summary": "DeepL Voice's real-time translations are about to sound a lot more natural. The company's new Aure model carries over tone, emotion, emphasis, and speaking pace from the original speaker's voice into the target language. The article DeepL wants real-time translation to finally capture sarcasm and mood shifts appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/DeepL-Logo-ChatGPT-5.6.jpg"
+        ],
+        "ageHours": 3.2,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f083050eb798df23",
+          "title:0bf36f99c0828f15"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:11568aa8dfcf9a3c": {
+      "id": "defer:url:11568aa8dfcf9a3c",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:11568aa8dfcf9a3c",
+        "title:e5a81a64c4cf5729"
+      ],
+      "canonical": "https://huggingface.co/blog/token-pooling",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+        "link": "https://huggingface.co/blog/token-pooling",
+        "canonical": "https://huggingface.co/blog/token-pooling",
+        "published": "Wed, 11 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/token-pooling",
+        "images": [],
+        "ageHours": 17,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:11568aa8dfcf9a3c",
+          "title:e5a81a64c4cf5729"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3d65ccc2f5cdce69": {
+      "id": "defer:url:3d65ccc2f5cdce69",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:3d65ccc2f5cdce69",
+        "title:f4a39b30004607e0"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+        "published": "Wed, 11 Nov 2026 16:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 1,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3d65ccc2f5cdce69",
+          "title:f4a39b30004607e0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ba0fcf4e325b4115": {
+      "id": "defer:url:ba0fcf4e325b4115",
+      "at": "2026-11-11T17:01:42.216Z",
+      "firstAt": "2026-11-11T17:01:42.216Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:ba0fcf4e325b4115",
+        "title:87a299259c1a62c1"
+      ],
+      "canonical": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "candidate": {
+        "sourceId": "deepmind-blog",
+        "sourceName": "Google DeepMind Blog",
+        "sourceType": "official_blog",
+        "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+        "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "canonical": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+        "published": "Wed, 11 Nov 2026 15:00:15 +0000",
+        "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+        "messageText": "",
+        "leadPostUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "images": [
+          "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo"
+        ],
+        "ageHours": 2,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:ba0fcf4e325b4115",
+          "title:87a299259c1a62c1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -9299,6 +9494,37 @@
           "at": "2026-11-11T13:45:33.958Z"
         }
       ]
+    },
+    "2026-11-11T20:30+03:30": {
+      "at": "2026-11-11T17:03:47.424Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "آمازون از پهپاد و ربات امنیتی Ring رونمایی کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/20-30",
+      "messageId": 59,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0026269208,
+      "tokens": 49451,
+      "qa": "40/42",
+      "posts": [
+        {
+          "title": "آمازون از پهپاد و ربات امنیتی Ring رونمایی کرد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 59,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0010001991999999999,
+          "tokens": 22740,
+          "qa": "40/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-11T17:03:47.423Z"
+        }
+      ]
     }
   },
   "published": [
@@ -10081,93 +10307,110 @@
       "sourceTitle": "google/asimov_agentic · Datasets at Hugging Face",
       "sourceText": "🤖 مدل Gemini Robotics 2.5 شرکت DeepMind توی خط تولید واقعی مرسدس بنز ۹۶ درصد موفق عمل کرده\n\nربات انسان‌نمای Apollo 2 شرکت Apptronik توی کارخونه‌های مجارستان و آلمان قطعات فلزی رو از جعبه‌ها جدا و به ترتیبِ هر خودرو توی سینی می‌چیده. دو مدل همزمان کار می‌کردن؛ یکی کار رو رصد می‌کرد و اون یکی دست‌ها و بازوها رو کنترل می‌کرد.\n\nشرکت DeepMind می‌گه این مدل روی بیش از ۲۰۰ تسک تست شده و نسبت به نسخه قبلی ۳۰ تا ۱۰۰ درصد موفق‌تر و ۲۰ تا ۳۰ درصد سریع‌تره. بنچمارک امنیتی ASIMOV-Jailbreak هم متن‌باز منتشر شده:\n\nhuggingface.co/datasets/google/asimov_agentic\n\n@dunijet_ai\n\n❤1",
       "at": "2026-11-11T13:45:33.958Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-11T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "آمازون از پهپاد و ربات امنیتی Ring رونمایی کرد",
+      "why": "این محصولات نگرانی‌های حریم خصوصی رو دوباره پررنگ می‌کنن؛ چون آمازون سابقه دسترسی کارمندان به ویدیوها و هک شدن ۵۵ هزار حساب رو داره. ویدیوها با رمزنگاری جدید Ring محافظت می‌شن که هنوز کامل نیست.",
+      "dedupe_key": "amazon-ring-drone-rover-launch",
+      "post_key": "2026-11-11/20-30/1",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "sourceTitle": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "sourceText": "Amazon’s roaming Ring Robotics devices will debut in late 2026 and early 2027.\nAmazon is betting that many Ring customers will also want an AI-powered security drone and robot patrolling their homes or offices. But the company’s upcoming Ring Robotic products are also certain to intensify privacy concerns previously raised around a prior Amazon attempt to popularize a flying security camera.\nThe Ring Rover Cam and Ring Drone Cam are expected to reach customers starting at the end of 2026 and in early 2027, respectively, according to an Amazon announcement posted on November 10. Amazon describes the devices as relying on an AI Pilot system that uses each device’s cameras along with “specialized vision models, on-device sensors and cloud processing” to plan patrol routes while autonomously navigating around obstacles such as furniture.\nBoth devices also use that AI Pilot system to digitally map the floor plan of the customer’s home or business. This setup process occurs after the customer carries the Ring drone through their indoor spaces or allows the Ring Rover to do some autonomous exploration.\nThe AI Pilot can supposedly use that guided- or self-tour information to identify specific rooms and suggest patrol points near side doors, windows, or even sensitive locations such as a cash register in the case of a business.\nHowever, flying and roving cameras with AI-enabled features could introduce new privacy risks for homes and businesses, on top of existing concerns involving fixed Ring cameras installed in room corners or as doorbell cameras.\nAmazon’s Ring Drone appears to b",
+      "at": "2026-11-11T17:03:47.424Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8368,
-      "last_at": "2026-11-11T13:22:17+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "last_id": 8369,
+      "last_at": "2026-11-11T16:48:58+00:00",
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "ai_farshad": {
-      "last_id": 6408,
-      "last_at": "2026-11-11T13:30:02+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "last_id": 6409,
+      "last_at": "2026-11-11T16:33:00+00:00",
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7195,
-      "last_at": "2026-11-11T09:03:24+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "last_id": 7197,
+      "last_at": "2026-11-11T16:49:48+00:00",
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "techiin_ir": {
       "last_id": 20754,
       "last_at": "2026-11-11T11:02:25+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "mgh_mobin": {
       "last_id": 473,
       "last_at": "2026-11-11T12:08:19+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "web3nabu": {
       "last_id": 2154,
       "last_at": "2026-11-10T17:26:53+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "asrnovin_ir": {
-      "last_id": 11440,
-      "last_at": "2026-11-11T12:27:37+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "last_id": 11441,
+      "last_at": "2026-11-11T16:35:14+00:00",
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "shayanode": {
-      "last_id": 125,
-      "last_at": "2026-11-10T21:21:01+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "last_id": 137,
+      "last_at": "2026-11-11T16:39:47+00:00",
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "codecloude": {
       "last_id": 2578,
       "last_at": "2026-11-10T20:33:57+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "dunijet_ai": {
-      "last_id": 2535,
-      "last_at": "2026-11-11T12:24:02+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "last_id": 2536,
+      "last_at": "2026-11-11T16:37:14+00:00",
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "MatinSenPaii": {
-      "last_id": 5848,
-      "last_at": "2026-11-11T10:17:57+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "last_id": 5849,
+      "last_at": "2026-11-11T13:36:37+00:00",
+      "checked_at": "2026-11-11T17:00:52.247Z"
     },
     "thenimaonAI": {
       "last_id": 494,
       "last_at": "2026-11-11T06:58:03+00:00",
-      "checked_at": "2026-11-11T13:30:41.888Z"
+      "checked_at": "2026-11-11T17:00:52.247Z"
     }
   },
   "offerReviews": [
@@ -11910,6 +12153,66 @@
       "slot": "2026-11-11T17:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-shayanode|https://t.me/shayanode/133",
+      "date": "2026-11-11",
+      "at": "2026-11-11T17:00:52.247Z",
+      "source": "tg-shayanode",
+      "title": "🔓 نسخه رایگان",
+      "url": "https://t.me/shayanode/133",
+      "reason": "link_missing",
+      "slot": "2026-11-11T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-archive-tell|https://t.me/ArchiveTell/8369",
+      "date": "2026-11-11",
+      "at": "2026-11-11T17:00:52.247Z",
+      "source": "tg-archive-tell",
+      "title": "پروژه ای زدید با Qwen 4 زدید ؟",
+      "url": "https://t.me/ArchiveTell/8369",
+      "reason": "no_link",
+      "slot": "2026-11-11T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7197",
+      "date": "2026-11-11",
+      "at": "2026-11-11T17:00:52.247Z",
+      "source": "tg-mohammad-zammani",
+      "title": "طبق گزارش تازه بلومبرگ، شرکت ByteDance (مالک تیک‌تاک) حسابی دست‌به‌کار شده و قصد داره ظرف چند",
+      "url": "https://t.me/Mohammad_zammani/7197",
+      "reason": "denied_link",
+      "slot": "2026-11-11T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-asr-novin|https://t.me/asrnovin_ir/11441",
+      "date": "2026-11-11",
+      "at": "2026-11-11T17:00:52.247Z",
+      "source": "tg-asr-novin",
+      "title": "با RyzerDNS، تحریم‌ها دیگر مانع شما نیستند.",
+      "url": "https://t.me/asrnovin_ir/11441",
+      "reason": "denied_link",
+      "slot": "2026-11-11T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|hf-papers|https://huggingface.co/papers/2611.14320",
+      "date": "2026-11-11",
+      "at": "2026-11-11T17:00:52.247Z",
+      "source": "hf-papers",
+      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "url": "https://huggingface.co/papers/2611.14320",
+      "reason": "research_paper",
+      "slot": "2026-11-11T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -12045,6 +12348,13 @@
       "url": "https://machinelearningmastery.com/sandboxing-ai-agent-code-execution-in-python-containers-microvms-and-beyond",
       "slot": "2026-11-11T17:00+03:30",
       "at": "2026-11-11T13:30:41.888Z"
+    },
+    {
+      "source": "tg-shayanode",
+      "title": "یه قالب آماده برای طراحی سایت، با بنر عریض و فرم‌های شیشه‌ای که خیلی آروم تغییر",
+      "url": "https://t.me/shayanode/126",
+      "slot": "2026-11-11T20:30+03:30",
+      "at": "2026-11-11T17:00:52.247Z"
     }
   ],
   "reviewPending": {},
