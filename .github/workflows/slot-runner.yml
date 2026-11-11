@@ -149,13 +149,18 @@ jobs:
           if [ "${FORCE}" = "true" ]; then args+=(--force); fi
           if [ -n "${SOURCES}" ]; then args+=(--sources "${SOURCES}"); fi
           args+=(--max-candidates "${MAX_CANDIDATES}")
-          printf 'RUN_ARGS %s\n' "${args[*]}"
-          node pipeline/run-slot.mjs "${args[@]}"
+          log="logs/$(date -u +%F)/run-${GITHUB_RUN_ID}-${MODE}-${TARGET}.log"
+          mkdir -p "$(dirname "${log}")"
+          {
+            echo "RUN ${GITHUB_RUN_ID} | ${MODE}/${TARGET} | slot ${SLOT:-auto} | $(date -u +%FT%TZ)"
+            echo "RUN_ARGS ${args[*]}"
+          } | tee -a "${log}"
+          node pipeline/run-slot.mjs "${args[@]}" 2>&1 | node pipeline/mask-log.mjs | tee -a "${log}"
 
       - name: Daily report
         if: always()
         run: |
-          set -u
+          set -uo pipefail
           state="data/state.json"
           if [ "${MODE}" = "dry" ]; then state="data/state.dry.json"; fi
           if [ "${MODE}" = "send" ] && [ "${TARGET}" = "review" ]; then state="data/state.review.json"; fi
@@ -163,7 +168,12 @@ jobs:
           for extra in data/state.json data/state.review.json; do
             if [ "${extra}" != "${state}" ] && [ -f "${extra}" ]; then args+=(--state "${extra}"); fi
           done
-          node pipeline/report.mjs "${args[@]}" || echo "REPORT_FAILED"
+          log="logs/$(date -u +%F)/run-${GITHUB_RUN_ID}-${MODE}-${TARGET}.log"
+          mkdir -p "$(dirname "${log}")"
+          {
+            echo "DAILY_REPORT $(date -u +%FT%TZ)"
+            node pipeline/report.mjs "${args[@]}"
+          } 2>&1 | node pipeline/mask-log.mjs | tee -a "${log}" || echo "REPORT_FAILED"
 
       - name: Upload results
         if: always()
@@ -179,10 +189,19 @@ jobs:
         run: |
           set -euo pipefail
           if [ ! -d .git ]; then echo "NO_GIT_CHECKOUT"; exit 0; fi
+          cutoff="$(date -u -d '14 days ago' +%F)"
+          if [ -d logs ]; then
+            for dir in logs/20??-??-??; do
+              [ -d "${dir}" ] || continue
+              if [[ "$(basename "${dir}")" < "${cutoff}" ]]; then rm -rf "${dir}"; fi
+            done
+            find logs -mindepth 1 -type d -empty -delete
+          fi
           files=()
           for f in data/state.json data/state.review.json data/offer-watch.json data/policy-state.json; do
             if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
           done
+          if [ -d logs ] && [ -n "$(git status --porcelain -- logs)" ]; then files+=("logs"); fi
           if [ ${#files[@]} -eq 0 ]; then
             echo "STATE_UNCHANGED"
             exit 0
