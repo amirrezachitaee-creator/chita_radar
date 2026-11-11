@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T17:03:47.426Z",
+  "updatedAt": "2026-11-11T19:31:31.594Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6015,397 +6015,68 @@
       "slot": "2026-11-11T20:30+03:30",
       "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
       "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot"
+    },
+    "url:a482fb1cdd062455": {
+      "at": "2026-11-11T19:31:00.461Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T23:00+03:30",
+      "title": "🔥تصور کن نقشه دوبعدی یه خونه رو به هوش مصنوعی بدی و چند دقیقه بعد، داخل",
+      "url": "https://t.me/codecloude/2579"
+    },
+    "title:47fd7f6176384c85": {
+      "at": "2026-11-11T19:31:00.461Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T23:00+03:30",
+      "title": "🔥تصور کن نقشه دوبعدی یه خونه رو به هوش مصنوعی بدی و چند دقیقه بعد، داخل",
+      "url": "https://t.me/codecloude/2579"
+    },
+    "url:447a55563fd3408d": {
+      "at": "2026-11-11T19:31:00.650Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-11T23:00+03:30",
+      "title": "GitHub - google-deepmind/mujoco: Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "url": "https://github.com/google-deepmind/mujoco"
+    },
+    "title:c78fd1ab03468275": {
+      "at": "2026-11-11T19:31:00.650Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-11T23:00+03:30",
+      "title": "GitHub - google-deepmind/mujoco: Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "url": "https://github.com/google-deepmind/mujoco"
+    },
+    "url:8303ab561e9a4e2c": {
+      "at": "2026-11-11T19:31:12.520Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-11T23:00+03:30",
+      "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
+      "url": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes"
+    },
+    "title:a8d1fa42ffd519be": {
+      "at": "2026-11-11T19:31:12.520Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-11T23:00+03:30",
+      "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
+      "url": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes"
     }
   },
   "deferred": {
-    "defer:url:c86d08502069b5ef": {
-      "id": "defer:url:c86d08502069b5ef",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:c86d08502069b5ef",
-        "title:878c594308249fa9"
-      ],
-      "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
-      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-        "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-        "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
-        "published": "Tue, 10 Nov 2026 15:00:39 +0000",
-        "summary": "The new model is up to twice as successful at some tasks.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-500x500-1794257853.jpg"
-        ],
-        "ageHours": 4.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c86d08502069b5ef",
-          "title:878c594308249fa9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fb4690d5ff442981": {
-      "id": "defer:url:fb4690d5ff442981",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:fb4690d5ff442981",
-        "title:235629e7e57028b4"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews",
-      "title": "Reddit is turning user conversations into AI-powered product reviews",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Reddit is turning user conversations into AI-powered product reviews",
-        "link": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews/",
-        "canonical": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews",
-        "published": "Tue, 10 Nov 2026 15:00:00 +0000",
-        "summary": "Reddit's new AI-powered reviews summarize what users like and dislike about 10,000 products, helping shoppers research purchases ahead of the holidays.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews/",
-        "images": [],
-        "ageHours": 4.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:fb4690d5ff442981",
-          "title:235629e7e57028b4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:24a4823644e19a82": {
-      "id": "defer:url:24a4823644e19a82",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:24a4823644e19a82",
-        "title:0372efb72116b8e6"
-      ],
-      "canonical": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago",
-      "title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
-        "link": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
-        "canonical": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago",
-        "published": "Tue, 10 Nov 2026 14:07:47 +0000",
-        "summary": "Anthropic's Fable 5.2 completes 41.3 percent of real freelance jobs at professional quality on the Remote Labor Index, more than double the next-best systems Opus 5.5 and GPT 6 Astra. A year ago the top score was 2.5 percent. Areas like product design and animation remain a weak spot. The article Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/Remote-labor-index-bench-title.png"
-        ],
-        "ageHours": 5.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:24a4823644e19a82",
-          "title:0372efb72116b8e6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4bf86764d0679af1": {
-      "id": "defer:url:4bf86764d0679af1",
-      "at": "2026-11-11T05:01:57.460Z",
-      "firstAt": "2026-11-11T05:01:57.460Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:4bf86764d0679af1",
-        "title:5a6d554674705440"
-      ],
-      "canonical": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions",
-      "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
-        "link": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
-        "canonical": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions",
-        "published": "Tue, 10 Nov 2026 20:17:00 +0000",
-        "summary": "OpenAI is opening up ChatGPT as a business platform: through a new Business Hub, companies can claim their profile, add product data, and track how users interact with them. \"Business Agents\" let eligible US e-commerce providers talk to customers directly inside ChatGPT. The article OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/openai_cart_logo.png"
-        ],
-        "ageHours": 8.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4bf86764d0679af1",
-          "title:5a6d554674705440"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3a2db55efcc004bd": {
-      "id": "defer:url:3a2db55efcc004bd",
-      "at": "2026-11-11T05:01:57.460Z",
-      "firstAt": "2026-11-11T05:01:57.460Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:3a2db55efcc004bd",
-        "title:e288b6ed6554b26f"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
-      "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
-        "link": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
-        "canonical": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
-        "published": "Tue, 10 Nov 2026 19:48:40 +0000",
-        "summary": "Anthropic is expanding Claude with Sheets, Whiteboards, and Interactive Connectors, letting partners like Adobe and Atlassian embed their apps directly inside Claude. Anthropic says Claude Meetings, which can join calls and take notes, is coming soon. Step by step, Anthropic is turning Claude into a central work platform for teams that brings many other apps together in one place. The article Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
-        "images": [
-          "http://the-decoder.de/wp-content/uploads/2026/11/claude_app_download.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/09/claude_code_logo.png"
-        ],
-        "ageHours": 9.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:3a2db55efcc004bd",
-          "title:e288b6ed6554b26f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6d0c7fa0910a2cb4": {
-      "id": "defer:url:6d0c7fa0910a2cb4",
-      "at": "2026-11-11T05:14:28.750Z",
-      "firstAt": "2026-11-11T05:14:28.750Z",
-      "attempts": 1,
-      "reason": "send_failed",
-      "reasons": [
-        "send_failed"
-      ],
-      "keys": [
-        "url:6d0c7fa0910a2cb4",
-        "title:1a187471ed398e6b"
-      ],
-      "canonical": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
-      "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
-      "candidate": {
-        "sourceId": "artificial-analysis-articles",
-        "sourceName": "Artificial Analysis Articles",
-        "sourceType": "benchmark",
-        "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
-        "link": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
-        "canonical": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
-        "published": "2026-11-10",
-        "summary": "",
-        "images": [],
-        "ageHours": 29,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6d0c7fa0910a2cb4",
-          "title:1a187471ed398e6b"
-        ]
-      },
-      "detail": "TELEGRAM_400_Bad Request: IMAGE_PROCESS_FAILED"
-    },
-    "defer:url:d0a06ec7e03766fa": {
-      "id": "defer:url:d0a06ec7e03766fa",
-      "at": "2026-11-11T08:01:05.718Z",
-      "firstAt": "2026-11-11T08:01:05.718Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d0a06ec7e03766fa",
-        "title:9522549d99dac6c5"
-      ],
-      "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
-      "title": "What happens to mathematics when AI becomes an oracle?",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "What happens to mathematics when AI becomes an oracle?",
-        "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-        "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
-        "published": "Tue, 10 Nov 2026 20:30:01 +0000",
-        "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-500x500.jpg"
-        ],
-        "ageHours": 11.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:d0a06ec7e03766fa",
-          "title:9522549d99dac6c5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:37e4452e64c861cf": {
-      "id": "defer:url:37e4452e64c861cf",
-      "at": "2026-11-11T08:01:05.718Z",
-      "firstAt": "2026-11-11T08:01:05.718Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:37e4452e64c861cf",
-        "title:41dd802431503c2e"
-      ],
-      "canonical": "https://openai.com/index/cogent-security",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-        "link": "https://openai.com/index/cogent-security",
-        "canonical": "https://openai.com/index/cogent-security",
-        "published": "Tue, 10 Nov 2026 00:00:00 GMT",
-        "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/cogent-security",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:37e4452e64c861cf",
-          "title:41dd802431503c2e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:65b96c238445cded": {
       "id": "defer:url:65b96c238445cded",
-      "at": "2026-11-11T13:33:32.902Z",
+      "at": "2026-11-11T19:31:00.711Z",
       "firstAt": "2026-11-11T10:31:11.253Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -6448,103 +6119,10 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:65b96c238445cded",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:f4e4ebe108d8e8cb": {
-      "id": "defer:url:f4e4ebe108d8e8cb",
-      "at": "2026-11-11T10:31:11.253Z",
-      "firstAt": "2026-11-11T10:31:11.253Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:f4e4ebe108d8e8cb",
-        "title:2ce41fa51abee214"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn",
-      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
-        "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
-        "canonical": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn",
-        "published": "Wed, 11 Nov 2026 07:30:51 +0000",
-        "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
-        "images": [],
-        "ageHours": 3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:f4e4ebe108d8e8cb",
-          "title:2ce41fa51abee214"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:19b4fcb1faac9c9b": {
-      "id": "defer:url:19b4fcb1faac9c9b",
-      "at": "2026-11-11T10:31:11.253Z",
-      "firstAt": "2026-11-11T10:31:11.253Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:19b4fcb1faac9c9b",
-        "title:75830c06b846929a"
-      ],
-      "canonical": "https://huggingface.co/blog/qvac/botpsy",
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-        "link": "https://huggingface.co/blog/qvac/botpsy",
-        "canonical": "https://huggingface.co/blog/qvac/botpsy",
-        "published": "Wed, 11 Nov 2026 05:01:16 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/qvac/botpsy",
-        "images": [],
-        "ageHours": 5.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:19b4fcb1faac9c9b",
-          "title:75830c06b846929a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:1153869638ee727c": {
       "id": "defer:url:1153869638ee727c",
@@ -6958,145 +6536,6 @@
         "keys": [
           "url:f622f9d2ba58b773",
           "title:7895864e38e593b2"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:aeaf0aa6d1baf971": {
-      "id": "defer:url:aeaf0aa6d1baf971",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:aeaf0aa6d1baf971",
-        "title:f218b48f933437e3"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14425v1",
-      "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
-        "link": "https://arxiv.org/abs/2611.14425v1",
-        "canonical": "https://arxiv.org/abs/2611.14425v1",
-        "published": "2026-11-10T18:01:23Z",
-        "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF changes, provided the SF retains task-critical bandwidth. In this paper, we stress-test 4 prominent TSFMs: MOMENT, Chronos-2, Moirai-MoE, and TimesFM, to quantify their SF-invariance and investigate whether their behavior tracks the resulting loss of information bandwidth rather than the SF value itself. Our stress-test probes 3 dimensions: (i) the shift in embeddings, (ii) the degradation in forecasting performance, and (iii) the degradation in downstream performance, quantified by three novel metrics: FSI, FDI, and CDI, respectively. To our knowledge, this is the first study to place SF-invariance at the core of TSFM evaluations. Our results characterize: (i) how SF-invariance depends on the margin between signal's native-SF and the bandwidth its task requires, (ii) how much of that invariance the choice of TSFM explains, and (iii) how much of TSFM's performance degradation under a lower SF reflects information loss rather than a limitation of their abilities. These findings reframe SF-invariance as a measurable, signal-aware property of the (signal X TSFM) pair, and guide practitioners on when TSFMs display SF-invariance.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14425v1",
-        "images": [],
-        "ageHours": 16.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:aeaf0aa6d1baf971",
-          "title:f218b48f933437e3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9092d5eb66f29547": {
-      "id": "defer:url:9092d5eb66f29547",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9092d5eb66f29547",
-        "title:9793fa4742be1b16"
-      ],
-      "canonical": "https://openai.com/index/singapore-airlines-travel-work",
-      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-        "link": "https://openai.com/index/singapore-airlines-travel-work",
-        "canonical": "https://openai.com/index/singapore-airlines-travel-work",
-        "published": "Tue, 10 Nov 2026 08:00:00 GMT",
-        "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/singapore-airlines-travel-work",
-        "images": [],
-        "ageHours": 26.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9092d5eb66f29547",
-          "title:9793fa4742be1b16"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e09fad6dcc25f1ba": {
-      "id": "defer:url:e09fad6dcc25f1ba",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e09fad6dcc25f1ba",
-        "title:ab2622bb492b3497"
-      ],
-      "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-        "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
-        "published": "Wed, 11 Nov 2026 09:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp\">A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 1.5,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e09fad6dcc25f1ba",
-          "title:ab2622bb492b3497"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7843,54 +7282,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:8303ab561e9a4e2c": {
-      "id": "defer:url:8303ab561e9a4e2c",
-      "at": "2026-11-11T17:01:42.216Z",
-      "firstAt": "2026-11-11T17:01:42.216Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8303ab561e9a4e2c",
-        "title:a8d1fa42ffd519be"
-      ],
-      "canonical": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
-      "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
-        "link": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
-        "canonical": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
-        "published": "Wed, 11 Nov 2026 13:00:00 +0000",
-        "summary": "Learn how to measure LLM inference performance using key metrics and formulas for latency, token generation speed, and system load.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-Key-LLM-Inference-Metrics-Explained.png"
-        ],
-        "ageHours": 4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:8303ab561e9a4e2c",
-          "title:a8d1fa42ffd519be"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:62a9550b465ffc1c": {
       "id": "defer:url:62a9550b465ffc1c",
       "at": "2026-11-11T17:01:42.216Z",
@@ -8421,6 +7812,709 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:d8a45f9dfe07b079": {
+      "id": "defer:url:d8a45f9dfe07b079",
+      "at": "2026-11-11T19:31:00.659Z",
+      "firstAt": "2026-11-11T19:31:00.659Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:d8a45f9dfe07b079",
+        "title:72ff52caa41c147f"
+      ],
+      "canonical": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
+      "title": "با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو",
+      "candidate": {
+        "sourceId": "tg-asr-novin",
+        "sourceName": "عصر نوین | AminiYT",
+        "sourceType": "telegram_channel",
+        "title": "با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو",
+        "link": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
+        "canonical": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
+        "messageText": "😍😍😍😍😍\nبا استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو پیدا کنید بعد تغییرات خودتون رو روی ویدیو اعمال کنید ( مثلا کارکتر خودتون رو جایگزین کنید یا صدا رو تغییر بدید و...) و در نهایت خروجی نهایی رو توی شبکه های اجتماعی به اشتراک بزارید.\n———\nمشاهده آموزش کامل از یوتیوب 😎\n\n————\nلینک مستقیم ثبت نام در هیگزفیلد ⛓\n————\n🔔 توجه :\nاین ویدیو با حمایت مالی سایت higgsfield ساخته شده و ابزاری که توی ویدیو آموزش دادیم رایگان نیستند اما حرفه ای ترین ابزار برای ساخت ویدیو هستند.\nپس اگر دنبال ابزار رایگان برای ساخت ویدیو هستید تماشای این ویدیو توصیه نمیشه.\n\n@asrnovin_ir\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n😁127🔥4💔2😢1",
+        "leadPostUrl": "https://t.me/asrnovin_ir/11442",
+        "published": "2026-11-11T18:45:56+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/bZ-oM3pQNeKCYRoz1igrTo3I4nEjKzC3ARZ7LKsPfZWcMdXy6NqOv6Yl8TOBK6to_60EHexmL-iUfgAnvUZcOcyKH0ZCWjpq08zXjEF4Yfh11UtXTxSAKofVDPCodtJWWIN093MQDgg4LEJgPg1-Y1opQqgcO8IilsUFxv5tQwrmnVUlXkMUs1xTLvQnNmgXpBzPG0J2BxwW3ifbzWEBq9TR529y_s2XqRelIohCWYIsywfruyaGR5boASPfKCgRwL1bNHDPpdxkRT47mW-LQxELmzM7SAVSA7a-Y5lj958R0mZ8dz6UgdZCIx51ii-PFAYow89CSh1GQ_M3flFRgQ.jpg"
+        ],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://youtu.be/yrBMXBhf4Do",
+          "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:d8a45f9dfe07b079",
+          "title:72ff52caa41c147f"
+        ],
+        "leadSource": "asrnovin_ir",
+        "leadMessageId": 11442,
+        "leadChannelUrl": "https://t.me/asrnovin_ir",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:73a487a9dee9c904": {
+      "id": "defer:url:73a487a9dee9c904",
+      "at": "2026-11-11T19:31:00.659Z",
+      "firstAt": "2026-11-11T19:31:00.659Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:73a487a9dee9c904",
+        "title:d48bfdf61ae0ee70"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/11/tools-tags",
+      "title": "Browse tools.simonwillison.net by tag",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "Browse tools.simonwillison.net by tag",
+        "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+        "canonical": "https://simonwillison.net/2026/Nov/11/tools-tags",
+        "published": "2026-11-11T18:42:50+00:00",
+        "summary": "<p><strong><a href=\"https://tools.simonwillison.net/#tags\">Browse tools.simonwillison.net by tag</a></strong></p> I've been wanting a better way to browse my <a href=\"\">collection of vibe-coded tools</a> (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using <a href=\"https://github.com/tree-sitter/py-tree-sitter\">tree-sitter</a> to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool.</p> <p>The homepage now features tag clouds for browsing by each of those categories of tag:</p> <p><a href=\"https://tools.simonwillison.net/#tags\"><img alt=\"Screenshot of two tag cloud sections where tags are sized by count. Browse by JavaScript libraries - Libraries loaded from a CDN by two or more tools. Select a tag to list its tools. @google/generative-ai 3, @jsquash/avif 3, @jsquash/webp 4, Babel 2, Chart.js 2, Cropper.js 2, D3 2, DOMPurify 7, js-yaml 3, JSZip 3, Leaflet 4, markdown-it 4, Marked 12, pako 2, PDF.js 3, Pyodide 11, React 3, Tesseract.js 2, three.js 3. Browse by browser APIs - Web platform features used by each tool's own code. Select a tag to list its tools. &lt;dialog&gt; 5, AbortController 6, Blob URLs 38, BroadcastChannel 1, Built-in AI 1, Camera / microphone 9, Canvas 2D 44, Clipboard API 69, Compression Streams 3, createImageBitmap 2, crypto random values 4, DOMParser 8, Drag and drop 30, Dynamic import() 12, ES modules 92\" src=\"https://static.simonwillison.net/static/2026/tools-tag-cloud.webp\" /></a> <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+        "images": [],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:73a487a9dee9c904",
+          "title:d48bfdf61ae0ee70"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ea01cfcdcca0ed61": {
+      "id": "defer:url:ea01cfcdcca0ed61",
+      "at": "2026-11-11T19:31:00.659Z",
+      "firstAt": "2026-11-11T19:31:00.659Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:ea01cfcdcca0ed61",
+        "title:f47c3bb1e688aedf"
+      ],
+      "canonical": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+      "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+        "link": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+        "canonical": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+        "published": "Wed, 11 Nov 2026 18:18:25 +0000",
+        "summary": "Google Deepmind's AlphaProof Code mathematically verified Signal's cryptographic core code in four weeks, a process that typically takes years. AI agents powered by Gemini Carbon wrote more than six million lines of proof code and flagged only about one percent for human review. Deepmind plans to extend the method to critical infrastructure like power grids and medical devices. The article Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphaproof.png"
+        ],
+        "ageHours": 1.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:ea01cfcdcca0ed61",
+          "title:f47c3bb1e688aedf"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bb27561db5d10d50": {
+      "id": "defer:url:bb27561db5d10d50",
+      "at": "2026-11-11T19:31:00.659Z",
+      "firstAt": "2026-11-11T19:31:00.659Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:bb27561db5d10d50",
+        "title:7d0f993147bfb9d7"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+        "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+        "published": "Wed, 11 Nov 2026 18:16:40 +0000",
+        "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg"
+        ],
+        "ageHours": 1.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:bb27561db5d10d50",
+          "title:7d0f993147bfb9d7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:02bfed5e7aa817ea": {
+      "id": "defer:url:02bfed5e7aa817ea",
+      "at": "2026-11-11T19:31:00.659Z",
+      "firstAt": "2026-11-11T19:31:00.659Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:02bfed5e7aa817ea",
+        "title:5b02555b89c1c8f7"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "canonical": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+        "published": "Wed, 11 Nov 2026 18:00:00 +0000",
+        "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "images": [],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:02bfed5e7aa817ea",
+          "title:5b02555b89c1c8f7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1e2d7b9998cc9ff1": {
+      "id": "defer:url:1e2d7b9998cc9ff1",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:1e2d7b9998cc9ff1",
+        "title:c032059f41d7360c"
+      ],
+      "canonical": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+        "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+        "canonical": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+        "published": "Wed, 11 Nov 2026 17:37:32 +0000",
+        "summary": "Any amount of AI coding is too much for many Indie Game Festival judges.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-500x500.png"
+        ],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:1e2d7b9998cc9ff1",
+          "title:c032059f41d7360c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:409c21bb4ea7115f": {
+      "id": "defer:url:409c21bb4ea7115f",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:409c21bb4ea7115f",
+        "title:11a136fc2129280a"
+      ],
+      "canonical": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "title": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی",
+        "link": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "canonical": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+        "messageText": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی سلول‌های مختلف بدن اثر می‌ذارن.\n\nمدل قبلی روی بافت‌های کلی کار می‌کرد، این یکی تک‌تک سلول‌ها رو جدا بررسی می‌کنه. روی بیش از ۱۰۰ میلیون پروفایل سلولی از ۶۸ بافت آموزش دیده و تقریبا دو برابر مدل قبلی، واریانت‌هایی که بیان ژن رو تغییر می‌دن رو پیدا می‌کنه.\n\nبرای پژوهش غیرتجاری از طریق AlphaGenome API در دسترسه:\ndeepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n\n@dunijet_ai\n\n❤1",
+        "leadPostUrl": "https://t.me/dunijet_ai/2537",
+        "published": "2026-11-11T17:28:56+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/l4D13QIvDyGfxXSHINR7ItcNPSTXNCfb4xnjxZ-Rg-DkuCzGmezdMRw3D25I-qGAEnuI3dROo_KXz23LxCnrkCFjqf9hXPpNyrjLKlA6zRTtrEPg0JH7EQY2-w42apvNQI5lVUOCwAMWaUzpIdGYpd5NMr-uiActrPf1GxGUgFZvGBgYbhknLGsRJ1VIZW7_uo8zCinEV9iZHVm679NqbX3Q9xbQcDzDDUxTwv6Jr6ntYK0fwlX2-zeA_KR-FD8qs5W3TZez_WKIYog4qoQ8SLtNbVKXuAeIsAh92sDsISH7X2KkeANAzKuDgKsB-fbVyx8_fyE5drhvx7qpo1T8Zg.jpg"
+        ],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "modelRelease": true,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "models",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:409c21bb4ea7115f",
+          "title:11a136fc2129280a"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2537,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:0ab5aefdf6fa53e0": {
+      "id": "defer:url:0ab5aefdf6fa53e0",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0ab5aefdf6fa53e0",
+        "title:ec4b5204c14d1e32"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech",
+      "title": "Siri co-founder backs Helix for its voice ID tech",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Siri co-founder backs Helix for its voice ID tech",
+        "link": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
+        "canonical": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech",
+        "published": "Wed, 11 Nov 2026 15:02:47 +0000",
+        "summary": "With the rise of AI agents like Instinct and Muse, the industry needs to rethink human identity on the internet and rely on biometric signals like voice, which is where Helix comes in.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
+        "images": [],
+        "ageHours": 4.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0ab5aefdf6fa53e0",
+          "title:ec4b5204c14d1e32"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7db3dbf05615c3ed": {
+      "id": "defer:url:7db3dbf05615c3ed",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:7db3dbf05615c3ed",
+        "title:c8cf8ca1b6b76891"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Google DeepMind just mathematically verified key parts of Signal",
+        "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+        "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+        "published": "Wed, 11 Nov 2026 14:08:57 +0000",
+        "summary": "The four-week project hints that AI could make formal verification far more practical.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-500x500.jpg"
+        ],
+        "ageHours": 5.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:7db3dbf05615c3ed",
+          "title:c8cf8ca1b6b76891"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:80500b1292cc170c": {
+      "id": "defer:url:80500b1292cc170c",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:80500b1292cc170c",
+        "title:af4c97d9488545dd"
+      ],
+      "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+        "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+        "published": "Tue, 10 Nov 2026 21:12:59 +0000",
+        "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp"
+        ],
+        "ageHours": 22.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:80500b1292cc170c",
+          "title:af4c97d9488545dd"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c8e0ffff3a63e885": {
+      "id": "defer:url:c8e0ffff3a63e885",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c8e0ffff3a63e885",
+        "title:09c6ae8c8f2870ac"
+      ],
+      "canonical": "https://www.producthunt.com/products/meta-ai",
+      "title": "Muse Ember by Meta",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Muse Ember by Meta",
+        "link": "https://www.producthunt.com/products/meta-ai",
+        "canonical": "https://www.producthunt.com/products/meta-ai",
+        "published": "2026-11-09T14:14:58-08:00",
+        "summary": "<p> Meta's low-cost AI model for high-volume agent tasks </p> <p> <a href=\"https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1310655?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/meta-ai",
+        "images": [],
+        "ageHours": 45.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:c8e0ffff3a63e885",
+          "title:09c6ae8c8f2870ac"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6b6709b612e5913e": {
+      "id": "defer:url:6b6709b612e5913e",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:6b6709b612e5913e",
+        "title:dd49d1c60f862bbf"
+      ],
+      "canonical": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "candidate": {
+        "sourceId": "deepmind-blog",
+        "sourceName": "Google DeepMind Blog",
+        "sourceType": "official_blog",
+        "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+        "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+        "canonical": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+        "published": "Mon, 09 Nov 2026 19:51:47 +0000",
+        "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+        "messageText": "",
+        "leadPostUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+        "images": [
+          "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo"
+        ],
+        "ageHours": 47.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6b6709b612e5913e",
+          "title:dd49d1c60f862bbf"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2e38eebea7b3f139": {
+      "id": "defer:url:2e38eebea7b3f139",
+      "at": "2026-11-11T19:31:00.660Z",
+      "firstAt": "2026-11-11T19:31:00.660Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:2e38eebea7b3f139",
+        "title:e8f0a1a81824eec1"
+      ],
+      "canonical": "https://www.producthunt.com/products/seedream-4-0",
+      "title": "Seedream 5.5 by ByteDance",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Seedream 5.5 by ByteDance",
+        "link": "https://www.producthunt.com/products/seedream-4-0",
+        "canonical": "https://www.producthunt.com/products/seedream-4-0",
+        "published": "2026-11-09T05:57:21-08:00",
+        "summary": "<p> ByteDance's AI image model built for 100-round editing </p> <p> <a href=\"https://www.producthunt.com/products/seedream-4-0?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1310088?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/seedream-4-0",
+        "images": [],
+        "ageHours": 53.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:2e38eebea7b3f139",
+          "title:e8f0a1a81824eec1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:88d1ecd11797604c": {
+      "id": "defer:url:88d1ecd11797604c",
+      "at": "2026-11-11T19:31:31.586Z",
+      "firstAt": "2026-11-11T19:31:31.586Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:88d1ecd11797604c",
+        "title:65b559b0448a1369"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/11/llm",
+      "title": "llm 0.37.2",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "llm 0.37.2",
+        "link": "https://simonwillison.net/2026/Nov/11/llm/",
+        "canonical": "https://simonwillison.net/2026/Nov/11/llm",
+        "published": "2026-11-11T17:19:52+00:00",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.2\">llm 0.37.2</a></p> <p>Fixes a security issue reported by <a href=\"https://github.com/BluePlexus\">Daniel de Araujo</a> in <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862\">GHSA-v9h7-jj4g-f862</a> and <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w\">GHSA-r639-rr7r-x72w</a>.</p> <p>LLM has a mechanism called <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">extra-openai-models.yaml</a> - now managed by the new-in-0.37 <a href=\"https://llm.datasette.io/en/stable/other-models.html#openai-endpoint-add\">llm openai endpoint add</a> command - for using LLM with OpenAI-compatible API endpoints from other providers.</p> <p>Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by <code>api_key_name</code> had never been stored, or if a <code>responses: true</code> model was run with <code>-o chat_completions 1</code>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/releases\">releases</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/11/llm/",
+        "images": [],
+        "ageHours": 2.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:88d1ecd11797604c",
+          "title:65b559b0448a1369"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "tools"
     }
   },
   "slots": {
@@ -9525,6 +9619,14 @@
           "at": "2026-11-11T17:03:47.423Z"
         }
       ]
+    },
+    "2026-11-11T23:00+03:30": {
+      "at": "2026-11-11T19:31:31.592Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0032106984,
+      "tokens": 37581,
+      "posts": []
     }
   },
   "published": [
@@ -10328,89 +10430,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8369,
-      "last_at": "2026-11-11T16:48:58+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "last_id": 8372,
+      "last_at": "2026-11-11T19:08:52+00:00",
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "ai_farshad": {
-      "last_id": 6409,
-      "last_at": "2026-11-11T16:33:00+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "last_id": 6410,
+      "last_at": "2026-11-11T19:30:24+00:00",
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "Mohammad_zammani": {
       "last_id": 7197,
       "last_at": "2026-11-11T16:49:48+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "techiin_ir": {
       "last_id": 20754,
       "last_at": "2026-11-11T11:02:25+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "mgh_mobin": {
       "last_id": 473,
       "last_at": "2026-11-11T12:08:19+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "web3nabu": {
       "last_id": 2154,
       "last_at": "2026-11-10T17:26:53+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "asrnovin_ir": {
-      "last_id": 11441,
-      "last_at": "2026-11-11T16:35:14+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "last_id": 11442,
+      "last_at": "2026-11-11T18:45:56+00:00",
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "shayanode": {
-      "last_id": 137,
-      "last_at": "2026-11-11T16:39:47+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "last_id": 146,
+      "last_at": "2026-11-11T19:18:37+00:00",
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "codecloude": {
-      "last_id": 2578,
-      "last_at": "2026-11-10T20:33:57+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "last_id": 2581,
+      "last_at": "2026-11-11T19:20:40+00:00",
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "dunijet_ai": {
-      "last_id": 2536,
-      "last_at": "2026-11-11T16:37:14+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "last_id": 2537,
+      "last_at": "2026-11-11T17:28:56+00:00",
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "MatinSenPaii": {
       "last_id": 5849,
       "last_at": "2026-11-11T13:36:37+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     },
     "thenimaonAI": {
       "last_id": 494,
       "last_at": "2026-11-11T06:58:03+00:00",
-      "checked_at": "2026-11-11T17:00:52.247Z"
+      "checked_at": "2026-11-11T19:30:43.275Z"
     }
   },
   "offerReviews": [
@@ -12213,6 +12315,18 @@
       "slot": "2026-11-11T20:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-codecloude|https://t.me/codecloude/2579",
+      "date": "2026-11-11",
+      "at": "2026-11-11T19:30:43.275Z",
+      "source": "tg-codecloude",
+      "title": "🔥تصور کن نقشه دوبعدی یه خونه رو به هوش مصنوعی بدی و چند دقیقه بعد، داخل",
+      "url": "https://t.me/codecloude/2579",
+      "reason": "denied_link",
+      "slot": "2026-11-11T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -12355,6 +12469,13 @@
       "url": "https://t.me/shayanode/126",
       "slot": "2026-11-11T20:30+03:30",
       "at": "2026-11-11T17:00:52.247Z"
+    },
+    {
+      "source": "tg-codecloude",
+      "title": "GitHub - google-deepmind/mujoco: Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "slot": "2026-11-11T23:00+03:30",
+      "at": "2026-11-11T19:30:43.275Z"
     }
   ],
   "reviewPending": {},
