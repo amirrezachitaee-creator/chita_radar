@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-10T19:43:18.578Z",
+  "updatedAt": "2026-11-11T05:14:28.750Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -5158,6 +5158,211 @@
       "slot": "2026-11-10T23:00+03:30",
       "title": "یه رقیب جدی جدید وارد دنیای تصویرسازی با AI شد! 🔥",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+    },
+    "offerwatch:63890bf62c2232b2": {
+      "at": "2026-11-11T05:00:55.583Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "url:5bf610d1dd7d8e14": {
+      "at": "2026-11-11T05:01:07.318Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini"
+    },
+    "title:f53c490cea43808d": {
+      "at": "2026-11-11T05:01:07.318Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini"
+    },
+    "url:30c59932bd8f3734": {
+      "at": "2026-11-11T05:01:07.318Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Interleaving anatomical inspection and diagnostic reasoning for explainable radiology report generation",
+      "url": "https://arxiv.org/abs/2611.14018v1"
+    },
+    "title:e67e5b043f810b9c": {
+      "at": "2026-11-11T05:01:07.318Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Interleaving anatomical inspection and diagnostic reasoning for explainable radiology report generation",
+      "url": "https://arxiv.org/abs/2611.14018v1"
+    },
+    "url:4439d77a26a6330a": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2611.14009v1"
+    },
+    "title:0721634d1db7e46d": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2611.14009v1"
+    },
+    "url:f9eddd89b5bda89a": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.13997v1"
+    },
+    "title:091ccd308846ab18": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.13997v1"
+    },
+    "url:b0b213f6764e1c4a": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
+      "url": "https://huggingface.co/papers/2611.11558"
+    },
+    "title:61e44f75ba0a675a": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
+      "url": "https://huggingface.co/papers/2611.11558"
+    },
+    "url:06cf1abdde311b9c": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "5 Useful Python Automation Scripts for Beginners",
+      "url": "https://www.kdnuggets.com/5-useful-python-automation-scripts-for-beginners"
+    },
+    "title:c52ee41d7c8a729d": {
+      "at": "2026-11-11T05:01:07.319Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "5 Useful Python Automation Scripts for Beginners",
+      "url": "https://www.kdnuggets.com/5-useful-python-automation-scripts-for-beginners"
+    },
+    "url:02a83b0361ebe97b": {
+      "at": "2026-11-11T05:01:12.934Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "شرکت Anthropic هم یه سوییت اداری هوش مصنوعی برای کارمندان غیرفنی رونمایی کرد",
+      "url": "https://t.me/dunijet_ai/2531"
+    },
+    "title:0fc66c280ed12ebd": {
+      "at": "2026-11-11T05:01:12.934Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "شرکت Anthropic هم یه سوییت اداری هوش مصنوعی برای کارمندان غیرفنی رونمایی کرد",
+      "url": "https://t.me/dunijet_ai/2531"
+    },
+    "url:3e1fce5fd09a0953": {
+      "at": "2026-11-11T05:01:57.451Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "✅ مدل جمینای 4 کربن از طریق اپلیکیشن جمینای در دسترس کاربران قرار گرفت",
+      "url": "https://t.me/techiin_ir/20749"
+    },
+    "title:7459ed8ec2080e68": {
+      "at": "2026-11-11T05:01:57.451Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "✅ مدل جمینای 4 کربن از طریق اپلیکیشن جمینای در دسترس کاربران قرار گرفت",
+      "url": "https://t.me/techiin_ir/20749"
+    },
+    "url:266c1950223fcd4e": {
+      "at": "2026-11-11T05:02:27.884Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+      "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks"
+    },
+    "title:56859c707990a36d": {
+      "at": "2026-11-11T05:02:27.884Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+      "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks"
+    },
+    "url:7e1488fa308ce7da": {
+      "at": "2026-11-11T05:02:31.832Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand"
+    },
+    "title:0bf134ce337c84f1": {
+      "at": "2026-11-11T05:02:31.832Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand"
+    },
+    "url:6d0c7fa0910a2cb4": {
+      "at": "2026-11-11T05:14:28.745Z",
+      "decision": "review",
+      "reason": "send_failed",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
+      "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent"
+    },
+    "title:1a187471ed398e6b": {
+      "at": "2026-11-11T05:14:28.745Z",
+      "decision": "review",
+      "reason": "send_failed",
+      "category": "",
+      "slot": "2026-11-11T08:30+03:30",
+      "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
+      "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent"
     }
   },
   "deferred": {
@@ -5864,54 +6069,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:266c1950223fcd4e": {
-      "id": "defer:url:266c1950223fcd4e",
-      "at": "2026-11-10T19:31:05.525Z",
-      "firstAt": "2026-11-10T19:31:05.525Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:266c1950223fcd4e",
-        "title:56859c707990a36d"
-      ],
-      "canonical": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
-      "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
-        "link": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
-        "canonical": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
-        "published": "Tue, 10 Nov 2026 16:08:00 GMT",
-        "summary": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
-        "images": [
-          "http://cms.therecord.media/uploads/fireworks_1_9c80b2da5e.jpg"
-        ],
-        "ageHours": 3.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:266c1950223fcd4e",
-          "title:56859c707990a36d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:55cb0588b3e8436e": {
       "id": "defer:url:55cb0588b3e8436e",
       "at": "2026-11-10T19:31:05.525Z",
@@ -6389,57 +6546,6 @@
         "keys": [
           "url:a3d08ff8dcc4a34a",
           "title:3619c3609a3fc910"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7e1488fa308ce7da": {
-      "id": "defer:url:7e1488fa308ce7da",
-      "at": "2026-11-10T19:31:05.526Z",
-      "firstAt": "2026-11-10T19:31:05.526Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7e1488fa308ce7da",
-        "title:0bf134ce337c84f1"
-      ],
-      "canonical": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand",
-      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
-        "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
-        "canonical": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand",
-        "published": "Tue, 10 Nov 2026 12:15:32 +0000",
-        "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Fiber-optic-drone-cable-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Fiber-optic-drone-cable-500x500.jpg"
-        ],
-        "ageHours": 7.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7e1488fa308ce7da",
-          "title:0bf134ce337c84f1"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7287,6 +7393,194 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:4bf86764d0679af1": {
+      "id": "defer:url:4bf86764d0679af1",
+      "at": "2026-11-11T05:01:57.460Z",
+      "firstAt": "2026-11-11T05:01:57.460Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:4bf86764d0679af1",
+        "title:5a6d554674705440"
+      ],
+      "canonical": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions",
+      "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+        "link": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+        "canonical": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions",
+        "published": "Tue, 10 Nov 2026 20:17:00 +0000",
+        "summary": "OpenAI is opening up ChatGPT as a business platform: through a new Business Hub, companies can claim their profile, add product data, and track how users interact with them. \"Business Agents\" let eligible US e-commerce providers talk to customers directly inside ChatGPT. The article OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/openai_cart_logo.png"
+        ],
+        "ageHours": 8.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4bf86764d0679af1",
+          "title:5a6d554674705440"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3a2db55efcc004bd": {
+      "id": "defer:url:3a2db55efcc004bd",
+      "at": "2026-11-11T05:01:57.460Z",
+      "firstAt": "2026-11-11T05:01:57.460Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3a2db55efcc004bd",
+        "title:e288b6ed6554b26f"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
+      "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+        "link": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
+        "canonical": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
+        "published": "Tue, 10 Nov 2026 19:48:40 +0000",
+        "summary": "Anthropic is expanding Claude with Sheets, Whiteboards, and Interactive Connectors, letting partners like Adobe and Atlassian embed their apps directly inside Claude. Anthropic says Claude Meetings, which can join calls and take notes, is coming soon. Step by step, Anthropic is turning Claude into a central work platform for teams that brings many other apps together in one place. The article Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
+        "images": [
+          "http://the-decoder.de/wp-content/uploads/2026/11/claude_app_download.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/09/claude_code_logo.png"
+        ],
+        "ageHours": 9.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:3a2db55efcc004bd",
+          "title:e288b6ed6554b26f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fafff4292c09fd93": {
+      "id": "defer:url:fafff4292c09fd93",
+      "at": "2026-11-11T05:03:32.462Z",
+      "firstAt": "2026-11-11T05:03:32.462Z",
+      "attempts": 1,
+      "reason": "qa_failed",
+      "reasons": [
+        "qa_failed"
+      ],
+      "keys": [
+        "url:fafff4292c09fd93",
+        "title:9ca2e1e279d54b03"
+      ],
+      "canonical": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Gemini Intelligence: New features, on more devices",
+        "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+        "canonical": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+        "published": "Tue, 10 Nov 2026 19:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp\">Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 10,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:fafff4292c09fd93",
+          "title:9ca2e1e279d54b03"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "source_url"
+    },
+    "defer:url:6d0c7fa0910a2cb4": {
+      "id": "defer:url:6d0c7fa0910a2cb4",
+      "at": "2026-11-11T05:14:28.750Z",
+      "firstAt": "2026-11-11T05:14:28.750Z",
+      "attempts": 1,
+      "reason": "send_failed",
+      "reasons": [
+        "send_failed"
+      ],
+      "keys": [
+        "url:6d0c7fa0910a2cb4",
+        "title:1a187471ed398e6b"
+      ],
+      "canonical": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+      "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
+      "candidate": {
+        "sourceId": "artificial-analysis-articles",
+        "sourceName": "Artificial Analysis Articles",
+        "sourceType": "benchmark",
+        "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
+        "link": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+        "canonical": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+        "published": "2026-11-10",
+        "summary": "",
+        "images": [],
+        "ageHours": 29,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6d0c7fa0910a2cb4",
+          "title:1a187471ed398e6b"
+        ]
+      },
+      "detail": "TELEGRAM_400_Bad Request: IMAGE_PROCESS_FAILED"
     }
   },
   "slots": {
@@ -8190,6 +8484,38 @@
           "at": "2026-11-10T19:43:18.576Z"
         }
       ]
+    },
+    "2026-11-11T08:30+03:30": {
+      "at": "2026-11-11T05:02:27.884Z",
+      "status": "sent",
+      "category": "models",
+      "title": "بنچمارک MKA گوگل دیپ‌مایند منتشر شد؛ کلود فبل ۵.۲ در صدر",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/08-30-2",
+      "messageId": 52,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.004926891199999999,
+      "tokens": 70895,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "Fireworks هک شد و اطلاعات مشتریان به سرقت رفت",
+          "category": "security",
+          "status": "sent",
+          "messageId": 52,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-11/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00155848,
+          "tokens": 10125,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-11T05:02:27.884Z"
+        }
+      ],
+      "error": "TELEGRAM_400_Bad Request: IMAGE_PROCESS_FAILED"
     }
   },
   "published": [
@@ -8853,93 +9179,110 @@
       "sourceTitle": "MiniMaxAI/MiniMax-H3-Image · Hugging Face",
       "sourceText": "یه رقیب جدی جدید وارد دنیای تصویرسازی با AI شد! 🔥\n\nMiniMax از مدل H3-Image رونمایی کرده که طبق اعلام شرکت، تصاویر ۱۶ مگاپیکسلی رو فقط توی ۱۰ تا ۲۰ ثانیه می‌سازه! 🤯 تولید و ویرایش تصویر، کیفیت 4K، پشتیبانی از ۱۶ عکس مرجع و انتشار وزن‌های مدل!\n\n🚀 جذاب‌تر اینکه توسعه‌دهنده‌ها هم می‌تونن از این مدل استفاده کنن. اگه با AI تصویر می‌سازی، حتماً امتحانش کن!\n\n🔗 مدل در Hugging Face:\n\n💬💬📷Codecloude.ir | تلگــرام\n#Telegram #MiniApps #Development #CodeCloude\n\n#AI #MiniMax #ImageGeneration #CodeCloude\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤1",
       "at": "2026-11-10T19:43:18.576Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-11T08:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "Fireworks هک شد و اطلاعات مشتریان به سرقت رفت",
+      "why": "اهمیتش اینه که این حمله بخشی از یک موج بزرگ‌تر به نام «LLMJacking» است که در آن هکرها به دسترسی شرکت‌ها به مدل‌های زبانی بزرگ حمله می‌کنن؛ گوگل هشدار داده که هزینه‌های کلاهبرداری در برخی موارد به یک میلیون دلار رسیده.",
+      "dedupe_key": "fireworks-data-breach-october",
+      "post_key": "2026-11-11/08-30/1",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+      "sourceTitle": "AI company Fireworks says hackers stole data, billing info during October breaches",
+      "sourceText": "AI infrastructure company Fireworks said cybercriminals stole billing information and AI-specific data during two breaches last month.\nFireworks published an updated notice on Monday saying it hired Palo Alto Networks Unit 42 to investigate a data breach it initially discovered on October 6 . The San Mateo-based company was founded in 2022 and has more than 10,000 customers, offering an array of AI systems and tools to companies.\nInvestigators found that a well-known, financially motivated cybercriminal group launched the attack and stole account and billing information as well as secrets — confidential digital pieces of information that grant access to human users or apps and allow them to communicate or perform actions. Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.\nMonday’s alert from Fireworks also notes that the company experienced another incident on October 23 where a third-party cloud provider that hosted their R&D machines was attacked by cybercriminals.\n“On October 24, the unauthorized third party used [the provider] to reach Fireworks development machines and then run an unauthorized workload that led to additional customer data impact,” the company said.\nThe hackers gained access to internal Fireworks data, billing information, invoices and payment history as well as datasets and other AI-related data.\nThe customers that were impacted have been notified. Fireworks is working with Palo Alto Networks on hardening its security posture and revoking compromised credentials.\nDigital workspace com",
+      "at": "2026-11-11T05:02:27.884Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8359,
-      "last_at": "2026-11-10T19:02:29+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "last_id": 8360,
+      "last_at": "2026-11-10T19:35:22+00:00",
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "ai_farshad": {
       "last_id": 6404,
       "last_at": "2026-11-10T18:57:46+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "Mohammad_zammani": {
       "last_id": 7192,
       "last_at": "2026-11-10T15:43:15+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "techiin_ir": {
-      "last_id": 20748,
-      "last_at": "2026-11-10T18:58:35+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "last_id": 20749,
+      "last_at": "2026-11-10T19:58:18+00:00",
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "mgh_mobin": {
       "last_id": 470,
       "last_at": "2026-11-10T10:47:20+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "web3nabu": {
       "last_id": 2154,
       "last_at": "2026-11-10T17:26:53+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "asrnovin_ir": {
-      "last_id": 11435,
-      "last_at": "2026-11-10T17:33:35+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "last_id": 11437,
+      "last_at": "2026-11-10T20:49:18+00:00",
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "shayanode": {
-      "last_id": 122,
-      "last_at": "2026-11-10T18:46:14+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "last_id": 125,
+      "last_at": "2026-11-10T21:21:01+00:00",
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "codecloude": {
-      "last_id": 2576,
-      "last_at": "2026-11-10T18:50:05+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "last_id": 2578,
+      "last_at": "2026-11-10T20:33:57+00:00",
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "dunijet_ai": {
-      "last_id": 2530,
-      "last_at": "2026-11-10T09:30:48+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "last_id": 2531,
+      "last_at": "2026-11-11T04:23:42+00:00",
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "MatinSenPaii": {
       "last_id": 5840,
       "last_at": "2026-11-10T18:01:06+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     },
     "thenimaonAI": {
       "last_id": 491,
       "last_at": "2026-11-10T10:19:13+00:00",
-      "checked_at": "2026-11-10T19:30:43.236Z"
+      "checked_at": "2026-11-11T05:00:50.017Z"
     }
   },
   "offerReviews": [
@@ -10562,6 +10905,54 @@
       "slot": "2026-11-10T23:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-11",
+      "at": "2026-11-11T05:00:50.017Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-11T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-dunijet-ai|https://t.me/dunijet_ai/2531",
+      "date": "2026-11-11",
+      "at": "2026-11-11T05:00:50.017Z",
+      "source": "tg-dunijet-ai",
+      "title": "شرکت Anthropic هم یه سوییت اداری هوش مصنوعی برای کارمندان غیرفنی رونمایی کرد",
+      "url": "https://t.me/dunijet_ai/2531",
+      "reason": "denied_link",
+      "slot": "2026-11-11T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-11|tg-techiin|https://t.me/techiin_ir/20749",
+      "date": "2026-11-11",
+      "at": "2026-11-11T05:00:50.017Z",
+      "source": "tg-techiin",
+      "title": "✅ مدل جمینای 4 کربن از طریق اپلیکیشن جمینای در دسترس کاربران قرار گرفت",
+      "url": "https://t.me/techiin_ir/20749",
+      "reason": "denied_link",
+      "slot": "2026-11-11T08:30+03:30",
+      "kind": "post",
+      "mainEligible": true
+    },
+    {
+      "id": "2026-11-11|artificial-analysis-articles|https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+      "date": "2026-11-11",
+      "at": "2026-11-11T05:00:50.017Z",
+      "source": "artificial-analysis-articles",
+      "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
+      "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
+      "reason": "send_failed",
+      "slot": "2026-11-11T08:30+03:30",
+      "kind": "post",
+      "mainEligible": true
     }
   ],
   "educationReviews": [
@@ -10694,8 +11085,8 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-10",
-    "at": "2026-11-10T05:00:50.713Z",
+    "lastDate": "2026-11-11",
+    "at": "2026-11-11T05:00:50.017Z",
     "found": 1,
     "delivered": 1
   }
