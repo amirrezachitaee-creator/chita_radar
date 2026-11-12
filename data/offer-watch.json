@@ -2,100 +2,100 @@
   "version": 1,
   "targets": {
     "perq": {
-      "hash": "c77b5916407d08b0",
-      "chars": 83165,
+      "hash": "1c7cc86248ee496e",
+      "chars": 84863,
       "url": "https://perq.sh/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "ai-free": {
-      "hash": "a46b36ee04982e37",
+      "hash": "45a8b03a28db5291",
       "chars": 29076,
       "url": "https://aifree.dev/free-api-credits",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "free-llm-api-hub": {
       "hash": "8d7b47fc942fdb0f",
       "chars": 37718,
       "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "free-inference": {
-      "hash": "acada40770d4edf9",
+      "hash": "44f7f2460579ffb8",
       "chars": 5446,
       "url": "https://www.freeinference.dev/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "google-ai-studio": {
       "hash": "bc76b790be6997a3",
       "chars": 60,
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "openrouter": {
-      "hash": "eb46004875cd92dc",
-      "chars": 3523,
+      "hash": "ee3134f57264b1e8",
+      "chars": 3521,
       "url": "https://openrouter.ai/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "cloudflare-workers-ai": {
       "hash": "374884f1c11846d0",
       "chars": 5491,
       "url": "https://developers.cloudflare.com/workers-ai/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "zai": {
-      "hash": "ca10b24ec69182f7",
+      "hash": "1cb777a59e57310c",
       "chars": 98850,
       "url": "https://docs.z.ai/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "deepgram": {
-      "hash": "a46ab135174315d0",
-      "chars": 6443,
+      "hash": "87cd881261bfcd1e",
+      "chars": 6497,
       "url": "https://deepgram.com/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "jina-ai": {
       "hash": "20763805bd554f3e",
       "chars": 11022,
       "url": "https://jina.ai/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "huggingface": {
-      "hash": "fe61cdb3cda387f7",
-      "chars": 4513,
+      "hash": "e46d709c7b91fc13",
+      "chars": 4469,
       "url": "https://huggingface.co/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "nvidia-build": {
       "hash": "43d14dd9ae35ef09",
       "chars": 1381,
       "url": "https://build.nvidia.com/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "qoder": {
-      "hash": "553410aa2487aedb",
-      "chars": 7998,
+      "hash": "02bf397d10d9d93f",
+      "chars": 8076,
       "url": "https://docs.qoder.com/events/100credits",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "cline": {
       "hash": "6697ec019cc31baf",
       "chars": 3169,
       "url": "https://cline.bot/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "elevenlabs": {
-      "hash": "5ae5e9eea65f0297",
-      "chars": 11892,
+      "hash": "59640f367cd025b9",
+      "chars": 11877,
       "url": "https://elevenlabs.io/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     },
     "ollama": {
-      "hash": "bdc0abf563886344",
+      "hash": "7c5529b8f08fa995",
       "chars": 529,
       "url": "https://ollama.com/",
-      "fetched_at": "2026-11-11T05:00:50.017Z"
+      "fetched_at": "2026-11-12T05:00:48.373Z"
     }
   },
   "seen": {
@@ -189,7 +189,14 @@
       "status": "review",
       "reason": "source_not_official",
       "source": "change"
+    },
+    "596d067fac62afd6": {
+      "vendor": "perq",
+      "first_seen": "2026-11-12T05:00:48.373Z",
+      "status": "review",
+      "reason": "source_not_official",
+      "source": "change"
     }
   },
-  "updated_at": "2026-11-11T05:00:50.017Z"
+  "updated_at": "2026-11-12T05:00:48.373Z"
 }

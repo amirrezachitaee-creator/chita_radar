@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T19:31:31.594Z",
+  "updatedAt": "2026-11-12T05:01:51.057Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6069,6 +6069,175 @@
       "slot": "2026-11-11T23:00+03:30",
       "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
       "url": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes"
+    },
+    "offerwatch:596d067fac62afd6": {
+      "at": "2026-11-12T05:00:54.752Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "url:6abc850c195dc558": {
+      "at": "2026-11-12T05:01:09.460Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "🤖 مدل Gemini 4 Carbon در بخش AI Mode توی سرچ گوگل برای مشترک‌های Pro در",
+      "url": "https://t.me/Mohammad_zammani/7198"
+    },
+    "title:8ed377bc32ca454b": {
+      "at": "2026-11-12T05:01:09.460Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "🤖 مدل Gemini 4 Carbon در بخش AI Mode توی سرچ گوگل برای مشترک‌های Pro در",
+      "url": "https://t.me/Mohammad_zammani/7198"
+    },
+    "url:8cfe95d5a7efcad0": {
+      "at": "2026-11-12T05:01:09.460Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api"
+    },
+    "title:f0ed7b80e1629ef9": {
+      "at": "2026-11-12T05:01:09.460Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api"
+    },
+    "url:947606fc56ce646b": {
+      "at": "2026-11-12T05:01:09.460Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "Are Dense Rewards Worth Their Tokens in GRPO?",
+      "url": "https://huggingface.co/papers/2611.13560"
+    },
+    "title:7e138c77dfd05d01": {
+      "at": "2026-11-12T05:01:09.460Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "Are Dense Rewards Worth Their Tokens in GRPO?",
+      "url": "https://huggingface.co/papers/2611.13560"
+    },
+    "url:324b8b4cf6446d18": {
+      "at": "2026-11-12T05:01:10.315Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "دوستم با یه انیمیشن کارتونی باحال که با GPT و Ai ساخته، نزدیک 1000 تا فالوور",
+      "url": "https://t.me/MatinSenPaii/5850"
+    },
+    "title:0098f51bd9b5787e": {
+      "at": "2026-11-12T05:01:10.315Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "دوستم با یه انیمیشن کارتونی باحال که با GPT و Ai ساخته، نزدیک 1000 تا فالوور",
+      "url": "https://t.me/MatinSenPaii/5850"
+    },
+    "url:7dd00095077f1975": {
+      "at": "2026-11-12T05:01:10.693Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "Fable 5.2 و Gemini CARBON 🚀",
+      "url": "https://t.me/ArchiveTell/8374"
+    },
+    "title:2b906f68f8114594": {
+      "at": "2026-11-12T05:01:10.693Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "Fable 5.2 و Gemini CARBON 🚀",
+      "url": "https://t.me/ArchiveTell/8374"
+    },
+    "url:3a30b2d49d21f40b": {
+      "at": "2026-11-12T05:01:10.898Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "🤖 اگه دنبال تبلیغات و خرید ممبر صدرصد واقعی هستید میتونید تبلیغات خودتون رو توی ربات",
+      "url": "https://t.me/asrnovin_ir/11444"
+    },
+    "title:2d34ee75a3685e67": {
+      "at": "2026-11-12T05:01:10.898Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "🤖 اگه دنبال تبلیغات و خرید ممبر صدرصد واقعی هستید میتونید تبلیغات خودتون رو توی ربات",
+      "url": "https://t.me/asrnovin_ir/11444"
+    },
+    "url:409c21bb4ea7115f": {
+      "at": "2026-11-12T05:01:41.609Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی",
+      "url": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
+    },
+    "title:11a136fc2129280a": {
+      "at": "2026-11-12T05:01:41.609Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی",
+      "url": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
+    },
+    "url:d8a45f9dfe07b079": {
+      "at": "2026-11-12T05:01:46.541Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو",
+      "url": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx"
+    },
+    "title:72ff52caa41c147f": {
+      "at": "2026-11-12T05:01:46.541Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو",
+      "url": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx"
+    },
+    "url:4051676715ad52db": {
+      "at": "2026-11-12T05:01:51.057Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "🎵 رقیب رایگان Suno از راه رسید",
+      "url": "https://acemusic.ai/create"
+    },
+    "title:8b5e99a8ea7939d5": {
+      "at": "2026-11-12T05:01:51.057Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-12T08:30+03:30",
+      "title": "🎵 رقیب رایگان Suno از راه رسید",
+      "url": "https://acemusic.ai/create"
     }
   },
   "deferred": {
@@ -6446,96 +6615,6 @@
         "keys": [
           "url:95e4696846f25ae8",
           "title:55b97470d02981ce"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f71eb42d53626886": {
-      "id": "defer:url:f71eb42d53626886",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f71eb42d53626886",
-        "title:986f025b6141d458"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14432v1",
-      "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
-        "link": "https://arxiv.org/abs/2611.14432v1",
-        "canonical": "https://arxiv.org/abs/2611.14432v1",
-        "published": "2026-11-10T18:06:16Z",
-        "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our 1st-place 2025 solution, which is based on $π_{0.5}$. On the 50 tasks shared with 2025, its Q rises from 0.260 to 0.371; across all 100 tasks it scores 0.392. Our main conclusion from 2025 was that the model was undertrained, so most of the 2026 work went into training the model for longer, optimizing some training parameters, making each training step slightly faster and reducing the gradient noise: a migration from 50 to 100 tasks (semantic stages built from the demonstrations' skill annotations, task and stage embeddings of new tasks warm-started from similar old ones, and a 21-dimensional action space matching the teleoperation controls); variance-reduced multi-sample flow matching with a simple noise-vs-compute model that picks the number of action-expert samples per observation without ablations; and a 200k-step training run, about one pass over the 211M frames of the demonstrations. A cloud evaluation infrastructure keeps a shared record with provenance, episode diagnostics and restorable simulator states, and runs six simulators on one GPU together faster than real time. On top of the learned policy, 14 tasks are routed to a GPT-6 Astra coding agent that controls the robot through observation and motion tools, starting every episode from a frozen copy of its own practice session on training instances. Across these 14 tasks, Astra's mean Q is 0.639, against 0.108 for the learned policy. The public submission included only part of the Astra results and scored 0.446 Q with 27.3% full-task success.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14432v1",
-        "images": [],
-        "ageHours": 16.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f71eb42d53626886",
-          "title:986f025b6141d458"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f622f9d2ba58b773": {
-      "id": "defer:url:f622f9d2ba58b773",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f622f9d2ba58b773",
-        "title:7895864e38e593b2"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14419v1",
-      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
-        "link": "https://arxiv.org/abs/2611.14419v1",
-        "canonical": "https://arxiv.org/abs/2611.14419v1",
-        "published": "2026-11-10T17:58:12Z",
-        "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14419v1",
-        "images": [],
-        "ageHours": 16.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f622f9d2ba58b773",
-          "title:7895864e38e593b2"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7572,56 +7651,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:77625322d4684167": {
-      "id": "defer:url:77625322d4684167",
-      "at": "2026-11-11T17:01:42.216Z",
-      "firstAt": "2026-11-11T17:01:42.216Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:77625322d4684167",
-        "title:dab260a7a833711e"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
-      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-        "link": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-        "canonical": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
-        "published": "Mon, 09 Nov 2026 05:00:39 +0000",
-        "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-agentic-ai-1920x1080-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-agentic-ai-1920x1080-1-842x450.jpg"
-        ],
-        "ageHours": 60,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:77625322d4684167",
-          "title:dab260a7a833711e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:f083050eb798df23": {
       "id": "defer:url:f083050eb798df23",
       "at": "2026-11-11T17:01:42.216Z",
@@ -7811,70 +7840,6 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
-    },
-    "defer:url:d8a45f9dfe07b079": {
-      "id": "defer:url:d8a45f9dfe07b079",
-      "at": "2026-11-11T19:31:00.659Z",
-      "firstAt": "2026-11-11T19:31:00.659Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d8a45f9dfe07b079",
-        "title:72ff52caa41c147f"
-      ],
-      "canonical": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
-      "title": "با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو",
-      "candidate": {
-        "sourceId": "tg-asr-novin",
-        "sourceName": "عصر نوین | AminiYT",
-        "sourceType": "telegram_channel",
-        "title": "با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو",
-        "link": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
-        "canonical": "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
-        "messageText": "😍😍😍😍😍\nبا استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو پیدا کنید بعد تغییرات خودتون رو روی ویدیو اعمال کنید ( مثلا کارکتر خودتون رو جایگزین کنید یا صدا رو تغییر بدید و...) و در نهایت خروجی نهایی رو توی شبکه های اجتماعی به اشتراک بزارید.\n———\nمشاهده آموزش کامل از یوتیوب 😎\n\n————\nلینک مستقیم ثبت نام در هیگزفیلد ⛓\n————\n🔔 توجه :\nاین ویدیو با حمایت مالی سایت higgsfield ساخته شده و ابزاری که توی ویدیو آموزش دادیم رایگان نیستند اما حرفه ای ترین ابزار برای ساخت ویدیو هستند.\nپس اگر دنبال ابزار رایگان برای ساخت ویدیو هستید تماشای این ویدیو توصیه نمیشه.\n\n@asrnovin_ir\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n😁127🔥4💔2😢1",
-        "leadPostUrl": "https://t.me/asrnovin_ir/11442",
-        "published": "2026-11-11T18:45:56+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/bZ-oM3pQNeKCYRoz1igrTo3I4nEjKzC3ARZ7LKsPfZWcMdXy6NqOv6Yl8TOBK6to_60EHexmL-iUfgAnvUZcOcyKH0ZCWjpq08zXjEF4Yfh11UtXTxSAKofVDPCodtJWWIN093MQDgg4LEJgPg1-Y1opQqgcO8IilsUFxv5tQwrmnVUlXkMUs1xTLvQnNmgXpBzPG0J2BxwW3ifbzWEBq9TR529y_s2XqRelIohCWYIsywfruyaGR5boASPfKCgRwL1bNHDPpdxkRT47mW-LQxELmzM7SAVSA7a-Y5lj958R0mZ8dz6UgdZCIx51ii-PFAYow89CSh1GQ_M3flFRgQ.jpg"
-        ],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://youtu.be/yrBMXBhf4Do",
-          "https://higgsfield.ai/s/higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:d8a45f9dfe07b079",
-          "title:72ff52caa41c147f"
-        ],
-        "leadSource": "asrnovin_ir",
-        "leadMessageId": 11442,
-        "leadChannelUrl": "https://t.me/asrnovin_ir",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
       }
     },
     "defer:url:73a487a9dee9c904": {
@@ -8117,70 +8082,6 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
-    },
-    "defer:url:409c21bb4ea7115f": {
-      "id": "defer:url:409c21bb4ea7115f",
-      "at": "2026-11-11T19:31:00.660Z",
-      "firstAt": "2026-11-11T19:31:00.660Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:409c21bb4ea7115f",
-        "title:11a136fc2129280a"
-      ],
-      "canonical": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
-      "title": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی",
-        "link": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-        "canonical": "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
-        "messageText": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی سلول‌های مختلف بدن اثر می‌ذارن.\n\nمدل قبلی روی بافت‌های کلی کار می‌کرد، این یکی تک‌تک سلول‌ها رو جدا بررسی می‌کنه. روی بیش از ۱۰۰ میلیون پروفایل سلولی از ۶۸ بافت آموزش دیده و تقریبا دو برابر مدل قبلی، واریانت‌هایی که بیان ژن رو تغییر می‌دن رو پیدا می‌کنه.\n\nبرای پژوهش غیرتجاری از طریق AlphaGenome API در دسترسه:\ndeepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n\n@dunijet_ai\n\n❤1",
-        "leadPostUrl": "https://t.me/dunijet_ai/2537",
-        "published": "2026-11-11T17:28:56+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/l4D13QIvDyGfxXSHINR7ItcNPSTXNCfb4xnjxZ-Rg-DkuCzGmezdMRw3D25I-qGAEnuI3dROo_KXz23LxCnrkCFjqf9hXPpNyrjLKlA6zRTtrEPg0JH7EQY2-w42apvNQI5lVUOCwAMWaUzpIdGYpd5NMr-uiActrPf1GxGUgFZvGBgYbhknLGsRJ1VIZW7_uo8zCinEV9iZHVm679NqbX3Q9xbQcDzDDUxTwv6Jr6ntYK0fwlX2-zeA_KR-FD8qs5W3TZez_WKIYog4qoQ8SLtNbVKXuAeIsAh92sDsISH7X2KkeANAzKuDgKsB-fbVyx8_fyE5drhvx7qpo1T8Zg.jpg"
-        ],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "modelRelease": true,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "models",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:409c21bb4ea7115f",
-          "title:11a136fc2129280a"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2537,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "news",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
       }
     },
     "defer:url:0ab5aefdf6fa53e0": {
@@ -8515,6 +8416,206 @@
         "leadKind": ""
       },
       "detail": "tools"
+    },
+    "defer:url:e2c2882f272c7eb7": {
+      "id": "defer:url:e2c2882f272c7eb7",
+      "at": "2026-11-12T05:01:10.909Z",
+      "firstAt": "2026-11-12T05:01:10.909Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:e2c2882f272c7eb7",
+        "title:fcc85c1c8e29972a"
+      ],
+      "canonical": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+        "link": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+        "canonical": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+        "published": "Wed, 11 Nov 2026 20:12:46 +0000",
+        "summary": "Google Deepmind's new Gemini Decisions API evaluates up to 1,000 closed-ended questions in a single pass across text, images, audio, and video. Gemini Decision 1 returns results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google. The article Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_logo_wall.png"
+        ],
+        "ageHours": 8.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e2c2882f272c7eb7",
+          "title:fcc85c1c8e29972a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:08f6941bcdbe742c": {
+      "id": "defer:url:08f6941bcdbe742c",
+      "at": "2026-11-12T05:01:10.909Z",
+      "firstAt": "2026-11-12T05:01:10.909Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:08f6941bcdbe742c",
+        "title:b1250228d6973fce"
+      ],
+      "canonical": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
+      "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+        "link": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+        "canonical": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
+        "published": "Wed, 11 Nov 2026 19:35:11 +0000",
+        "summary": "According to the Ramp AI Index, US corporate AI spending rose just 1.65 percent in October 2026. One percent of companies still drive 80 percent of revenue for OpenAI and Anthropic. Customer support is emerging as a new growth driver, but it may bring lower margins than the coding business that has fueled spending so far. The article US corporate AI spending hits a new high in October, but growth slows to 1.65 percent appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/02/openai_anthropic_logos-1.jpeg"
+        ],
+        "ageHours": 9.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:08f6941bcdbe742c",
+          "title:b1250228d6973fce"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d0a06ec7e03766fa": {
+      "id": "defer:url:d0a06ec7e03766fa",
+      "at": "2026-11-12T05:01:10.909Z",
+      "firstAt": "2026-11-12T05:01:10.909Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:d0a06ec7e03766fa",
+        "title:9522549d99dac6c5"
+      ],
+      "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+      "title": "What happens to mathematics when AI becomes an oracle?",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "What happens to mathematics when AI becomes an oracle?",
+        "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+        "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+        "published": "Tue, 10 Nov 2026 20:30:01 +0000",
+        "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-500x500.jpg"
+        ],
+        "ageHours": 32.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:d0a06ec7e03766fa",
+          "title:9522549d99dac6c5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c86d08502069b5ef": {
+      "id": "defer:url:c86d08502069b5ef",
+      "at": "2026-11-12T05:01:10.909Z",
+      "firstAt": "2026-11-12T05:01:10.909Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:c86d08502069b5ef",
+        "title:878c594308249fa9"
+      ],
+      "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+        "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+        "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+        "published": "Tue, 10 Nov 2026 15:00:39 +0000",
+        "summary": "The new model is up to twice as successful at some tasks.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-500x500-1794257853.jpg"
+        ],
+        "ageHours": 38,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:c86d08502069b5ef",
+          "title:878c594308249fa9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -9627,6 +9728,37 @@
       "cost": 0.0032106984,
       "tokens": 37581,
       "posts": []
+    },
+    "2026-11-12T08:30+03:30": {
+      "at": "2026-11-12T05:01:41.609Z",
+      "status": "sent",
+      "category": "models",
+      "title": "مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/08-30",
+      "messageId": 60,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.00179508,
+      "tokens": 11657,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 60,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00179508,
+          "tokens": 11657,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-12T05:01:41.609Z"
+        }
+      ]
     }
   },
   "published": [
@@ -10426,93 +10558,110 @@
       "sourceTitle": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
       "sourceText": "Amazon’s roaming Ring Robotics devices will debut in late 2026 and early 2027.\nAmazon is betting that many Ring customers will also want an AI-powered security drone and robot patrolling their homes or offices. But the company’s upcoming Ring Robotic products are also certain to intensify privacy concerns previously raised around a prior Amazon attempt to popularize a flying security camera.\nThe Ring Rover Cam and Ring Drone Cam are expected to reach customers starting at the end of 2026 and in early 2027, respectively, according to an Amazon announcement posted on November 10. Amazon describes the devices as relying on an AI Pilot system that uses each device’s cameras along with “specialized vision models, on-device sensors and cloud processing” to plan patrol routes while autonomously navigating around obstacles such as furniture.\nBoth devices also use that AI Pilot system to digitally map the floor plan of the customer’s home or business. This setup process occurs after the customer carries the Ring drone through their indoor spaces or allows the Ring Rover to do some autonomous exploration.\nThe AI Pilot can supposedly use that guided- or self-tour information to identify specific rooms and suggest patrol points near side doors, windows, or even sensitive locations such as a cash register in the case of a business.\nHowever, flying and roving cameras with AI-enabled features could introduce new privacy risks for homes and businesses, on top of existing concerns involving fixed Ring cameras installed in room corners or as doorbell cameras.\nAmazon’s Ring Drone appears to b",
       "at": "2026-11-11T17:03:47.424Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-12T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد",
+      "why": "اهمیتش اینه که محققا می‌تونن اثر تغییرات ژنتیکی رو در سلول‌های مرتبط با بیماری ببینن، چیزی که مدل‌های قبلی از دست می‌دادن.",
+      "dedupe_key": "google-deepmind-alphagenome2-launch",
+      "post_key": "2026-11-12/08-30/1",
+      "sourceId": "tg-dunijet-ai",
+      "sourceName": "دانیجت | Dunijet",
+      "sourceType": "telegram_channel",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "sourceTitle": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease — Google DeepMind",
+      "sourceText": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی سلول‌های مختلف بدن اثر می‌ذارن.\n\nمدل قبلی روی بافت‌های کلی کار می‌کرد، این یکی تک‌تک سلول‌ها رو جدا بررسی می‌کنه. روی بیش از ۱۰۰ میلیون پروفایل سلولی از ۶۸ بافت آموزش دیده و تقریبا دو برابر مدل قبلی، واریانت‌هایی که بیان ژن رو تغییر می‌دن رو پیدا می‌کنه.\n\nبرای پژوهش غیرتجاری از طریق AlphaGenome API در دسترسه:\ndeepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n\n@dunijet_ai\n\n❤1",
+      "at": "2026-11-12T05:01:41.610Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8372,
-      "last_at": "2026-11-11T19:08:52+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "last_id": 8380,
+      "last_at": "2026-11-11T20:44:44+00:00",
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "ai_farshad": {
       "last_id": 6410,
       "last_at": "2026-11-11T19:30:24+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7197,
-      "last_at": "2026-11-11T16:49:48+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "last_id": 7198,
+      "last_at": "2026-11-12T04:46:31+00:00",
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "techiin_ir": {
       "last_id": 20754,
       "last_at": "2026-11-11T11:02:25+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "mgh_mobin": {
       "last_id": 473,
       "last_at": "2026-11-11T12:08:19+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "web3nabu": {
       "last_id": 2154,
       "last_at": "2026-11-10T17:26:53+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "asrnovin_ir": {
-      "last_id": 11442,
-      "last_at": "2026-11-11T18:45:56+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "last_id": 11444,
+      "last_at": "2026-11-11T19:41:25+00:00",
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "shayanode": {
-      "last_id": 146,
-      "last_at": "2026-11-11T19:18:37+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "last_id": 150,
+      "last_at": "2026-11-11T20:41:28+00:00",
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "codecloude": {
       "last_id": 2581,
       "last_at": "2026-11-11T19:20:40+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "dunijet_ai": {
-      "last_id": 2537,
-      "last_at": "2026-11-11T17:28:56+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "last_id": 2538,
+      "last_at": "2026-11-11T19:41:42+00:00",
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "MatinSenPaii": {
-      "last_id": 5849,
-      "last_at": "2026-11-11T13:36:37+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "last_id": 5851,
+      "last_at": "2026-11-12T04:24:01+00:00",
+      "checked_at": "2026-11-12T05:00:48.373Z"
     },
     "thenimaonAI": {
       "last_id": 494,
       "last_at": "2026-11-11T06:58:03+00:00",
-      "checked_at": "2026-11-11T19:30:43.275Z"
+      "checked_at": "2026-11-12T05:00:48.373Z"
     }
   },
   "offerReviews": [
@@ -12327,6 +12476,78 @@
       "slot": "2026-11-11T23:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-12",
+      "at": "2026-11-12T05:00:48.373Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-12T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-matin-senpai|https://t.me/MatinSenPaii/5850",
+      "date": "2026-11-12",
+      "at": "2026-11-12T05:00:48.373Z",
+      "source": "tg-matin-senpai",
+      "title": "دوستم با یه انیمیشن کارتونی باحال که با GPT و Ai ساخته، نزدیک 1000 تا فالوور",
+      "url": "https://t.me/MatinSenPaii/5850",
+      "reason": "no_link",
+      "slot": "2026-11-12T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8374",
+      "date": "2026-11-12",
+      "at": "2026-11-12T05:00:48.373Z",
+      "source": "tg-archive-tell",
+      "title": "Fable 5.2 و Gemini CARBON 🚀",
+      "url": "https://t.me/ArchiveTell/8374",
+      "reason": "denied_link",
+      "slot": "2026-11-12T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-asr-novin|https://t.me/asrnovin_ir/11444",
+      "date": "2026-11-12",
+      "at": "2026-11-12T05:00:48.373Z",
+      "source": "tg-asr-novin",
+      "title": "🤖 اگه دنبال تبلیغات و خرید ممبر صدرصد واقعی هستید میتونید تبلیغات خودتون رو توی ربات",
+      "url": "https://t.me/asrnovin_ir/11444",
+      "reason": "denied_link",
+      "slot": "2026-11-12T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-asr-novin|https://higgsfield.ai/@youtubeteam/blogs/how-to-grow-on-social-media-with-ai-in-2026?utm_source=yt&utm_medium=social&utm_category=gr&utm_campaign=Higgsfield_Shorts_Studio_YT&utm_creator=asrnovin_ir&utm_platform_id=UC-1NxszUxJYagJg72S3oRmw&utm_content_type=de&utm_post=vMczFx&invite_code=higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
+      "date": "2026-11-12",
+      "at": "2026-11-12T05:00:48.373Z",
+      "source": "tg-asr-novin",
+      "title": "How to Grow on Social Media With AI in 2026",
+      "url": "https://higgsfield.ai/@youtubeteam/blogs/how-to-grow-on-social-media-with-ai-in-2026?utm_source=yt&utm_medium=social&utm_category=gr&utm_campaign=Higgsfield_Shorts_Studio_YT&utm_creator=asrnovin_ir&utm_platform_id=UC-1NxszUxJYagJg72S3oRmw&utm_content_type=de&utm_post=vMczFx&invite_code=higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
+      "reason": "model_skip",
+      "slot": "2026-11-12T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-archive-tell|https://acemusic.ai/signup/?next=%2Fcreate%2F",
+      "date": "2026-11-12",
+      "at": "2026-11-12T05:00:48.373Z",
+      "source": "tg-archive-tell",
+      "title": "Create Music | ACE Music",
+      "url": "https://acemusic.ai/signup/?next=%2Fcreate%2F",
+      "reason": "model_skip",
+      "slot": "2026-11-12T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -12480,8 +12701,8 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-11",
-    "at": "2026-11-11T05:00:50.017Z",
+    "lastDate": "2026-11-12",
+    "at": "2026-11-12T05:00:48.373Z",
     "found": 1,
     "delivered": 1
   }

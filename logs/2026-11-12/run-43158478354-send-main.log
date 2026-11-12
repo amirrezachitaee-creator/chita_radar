@@ -1,0 +1,152 @@
+RUN 43158478354 | send/main | slot auto | 2026-11-12T05:00:48Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-12T08:30+03:30 | WEEK 2026-11-07 | MODE SEND
+QUOTA tools 12/31 | models 10/24 | security 4/11 | business 8/11
+DAILY 0/11
+DIVERSITY_TARGET tools | slot 08:30
+DEFERRED_POOL 49
+  DEFERRED fetch_failed | try 2/3 | Gilbert + Tobin rethinks the business of law with AI
+  DEFERRED category_consecutive | try 0/3 | با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو
+  DEFERRED category_consecutive | try 0/3 | Browse tools.simonwillison.net by tag
+  DEFERRED source_weekly | try 0/3 | Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years
+  DEFERRED source_consecutive | try 0/3 | Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI
+  CHANGE perq new_lines=400
+  OFFER perq status=review reason=source_not_official
+  CHANGE ai-free new_lines=300
+  OFFER ai-free status=seen reason=already_reported
+  WATCH free-llm-api-hub unchanged
+  CHANGE free-inference new_lines=114
+  OFFER free-inference status=seen reason=already_reported
+  WATCH google-ai-studio unchanged
+  CHANGE openrouter new_lines=90
+  WATCH cloudflare-workers-ai unchanged
+  CHANGE zai new_lines=187
+  CHANGE deepgram new_lines=147
+  OFFER deepgram status=seen reason=already_reported
+  WATCH jina-ai unchanged
+  CHANGE huggingface new_lines=104
+  WATCH nvidia-build unchanged
+  CHANGE qoder new_lines=119
+  OFFER qoder status=seen reason=already_reported
+  WATCH cline unchanged
+  CHANGE elevenlabs new_lines=200
+  OFFER elevenlabs status=seen reason=already_reported
+  CHANGE ollama new_lines=10
+OFFER_WATCH targets=16 fetched=16 failed=0 changed=10 baseline=0 offers=0 reviews=1
+  REVIEW_REQUIRED reason=offer_watch sent=211
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/08-30-e63417ff
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=2 policy=1 policy_changes=0 policy_reminder=1 api=50 stale=128 nodate=0 nonai=0 dup=45 dup_other=0 kept=97 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=311 pending=11 leads=5 nolink=2 nonai=0 denied=3 promo=0 stale=0 before=0 dup=1 dup_other=0
+MEMORY lanes=main:282,review:13 delivered=295 window=30d
+STORY_DUPLICATES 3 skipped=worked_story
+  STORY_DUPLICATE هوش مصنوعی | محمد زمانی | 🤖 مدل Gemini 4 Carbon در بخش AI Mode توی سرچ گوگل برای مشترک‌های Pro در | already main: Gemini 4 Carbon رسماً در دسترس قرار گرفت
+  STORY_DUPLICATE Simon Willison - Prompt Injection | Gemini Decisions API | already main: Free AI Video & Audio Tools, No Watermark
+  STORY_DUPLICATE Hugging Face Daily Papers | Are Dense Rewards Worth Their Tokens in GRPO? | already main: What Are Diffusion Language Models, and Why Are They Different From GPT?
+REVIEW_LEADS 3 separate_from_main=yes cap=none
+  REVIEW_REQUIRED reason=no_link sent=212
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/08-30-324b8b4c
+  REVIEW_REQUIRED reason=denied_link sent=213
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/08-30-7dd00095
+  REVIEW_REQUIRED reason=denied_link sent=214
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/08-30-3a30b2d4
+RELEVANCE candidates=91 kept=64 dropped=27
+  SKIP_NOT_AI TechCrunch | Who could replace Jensen Huang? A highly unscientific list of possible successors
+  SKIP_NOT_AI TechCrunch | The unfolding Jensen Huang scandal: a timeline
+  SKIP_NOT_AI TechCrunch | Congress to call Jensen Huang in to answer for alleged Chinese spy affair
+  SKIP_NOT_AI Product Hunt | bonds chat
+  SKIP_NOT_AI Product Hunt | Mister Blocks
+  SKIP_NOT_AI arXiv | Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model
+  SKIP_NOT_AI TechCrunch | Meta is losing its longtime head of infrastructure
+  SKIP_NOT_AI TechCrunch | Olaf Sakkers is betting he can beat the emerging-manager squeeze
+  SKIP_NOT_AI ... +19 more
+DIVERSITY target=tools queue=3 fresh=25 deferred=49 rejected=source_weekly:17
+  DIVERSITY_QUEUE models:دانیجت | Dunijet | tools:عصر نوین | AminiYT | tools:ArchiveTell
+QUEUE_SKIPPED 59
+  QUEUE_SKIP source_weekly | The Decoder | Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years
+  QUEUE_SKIP source_weekly | Ars Technica AI | Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI
+  QUEUE_SKIP source_weekly | Ars Technica AI | Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.
+  QUEUE_SKIP source_weekly | The Decoder | Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name
+  QUEUE_SKIP source_weekly | The Decoder | Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days
+  QUEUE_SKIP source_weekly | Ars Technica AI | Google DeepMind just mathematically verified key parts of Signal
+  QUEUE_SKIP source_weekly | The Decoder | US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs
+  QUEUE_SKIP source_weekly | The Decoder | DeepL wants real-time translation to finally capture sarcasm and mood shifts
+  QUEUE_SKIP source_weekly | The Decoder | Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline
+  QUEUE_SKIP source_weekly | The Decoder | Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic
+  QUEUE_SKIP ... +49 more
+QUEUE_HELD 4
+  QUEUE_HOLD source_weekly | The Decoder | Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass
+  QUEUE_HOLD source_weekly | The Decoder | US corporate AI spending hits a new high in October, but growth slows to 1.65 percent
+  QUEUE_HOLD source_weekly | Ars Technica AI | What happens to mathematics when AI becomes an oracle?
+  QUEUE_HOLD source_weekly | Ars Technica AI | DeepMind reveals Gemini Robotics 2.5 and open safety benchmark "ASIMOV-jailbreak"
+ATTEMPT 1/3 | deferred 0/3 دانیجت | Dunijet | گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی | 2h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+POST 1/2 status=sent category=models | QA 42/42 | $0.001795 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/08-30
+ATTEMPT 2/3 | deferred 0/3 عصر نوین | AminiYT | با استفاده از higgsfield و Claude میتونید به راحتی ویدیو هایی که بازدید میلیونی داشتن رو | 0.7h
+  CONTENT_SUPPLEMENT +681 chars telegram
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  REVIEW_REQUIRED reason=model_skip sent=215
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/08-30-20d0a44b
+  MODEL_SKIP promo | این ورودی یک ویدیوی تبلیغاتی با حمایت مالی سایت higgsfield است و ابزار معرفی‌شده رایگان نیست؛ بنابراین رپورتاژ محسوب می‌
+ATTEMPT 3/3 ArchiveTell | 🎵 رقیب رایگان Suno از راه رسید | 8.3h
+  CONTENT_SUPPLEMENT +689 chars telegram
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  REVIEW_REQUIRED reason=model_skip sent=216
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/08-30-8b73d4ea
+  MODEL_SKIP promo | ورودی یک پست تبلیغاتی با لینک رفرال و دعوت به کانال است و خبر مستقلی از منبع رسمی ندارد.
+RESULT SENT category=models | offer=no | image=yes | QA 42/42 | cost $0.002110 | post $0.001795 | tokens 29130
+TITLE مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/08-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST models | sent | $0.001795 | مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-12T05:01:51Z
+# گزارش روزانه 2026-11-12 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 1 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 1
+
+## آمار روز
+- پست ارسال‌شده: 1 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 6
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.001795
+- توکن: 11657
+- میانگین هر پست ارسال‌شده: $0.001795
+
+## سهمیه هفتگی (هفته 2026-11-07)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 12 | 31 | 19 |
+| مدل‌ها و پژوهش | 11 | 24 | 13 |
+| امنیت و حریم خصوصی | 4 | 11 | 7 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 35 | 77 | 42 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/42 | $0.001795 | 11657 | مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 6
+- دلایل: از رصد آفر پیدا شد 1، لینک قابل استفاده ندارد 1، لینک خارجی این پست پذیرفته نشد 2، مدل این مورد را رد کرد 2
+
+## صف تعویق
+- در انتظار: 49
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-12.md
