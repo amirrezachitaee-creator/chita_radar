@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T08:55:49.379Z",
+  "updatedAt": "2026-11-12T10:35:29.909Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6344,14 +6344,113 @@
       "slot": "2026-11-12T11:30+03:30",
       "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"
+    },
+    "url:cfe74e45c4ef1b2a": {
+      "at": "2026-11-12T10:31:18.490Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "پنج مدل AI شش روز توی یه اپ دیتینگ واقعی با آدم‌ها چت کردن؛ ۳۵۵ نفر",
+      "url": "https://t.me/dunijet_ai/2539"
+    },
+    "title:9871b2b59176c677": {
+      "at": "2026-11-12T10:31:18.490Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "پنج مدل AI شش روز توی یه اپ دیتینگ واقعی با آدم‌ها چت کردن؛ ۳۵۵ نفر",
+      "url": "https://t.me/dunijet_ai/2539"
+    },
+    "url:1950267e872ec312": {
+      "at": "2026-11-12T10:31:57.967Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "🔴 نقص امنیتی بزرگ در Grok Build باعث لو رفتن اطلاعات محرمانه 35 هزار اپلیکیشن شد",
+      "url": "https://t.me/techiin_ir/20757"
+    },
+    "title:9b66e7fa1f7b6b7d": {
+      "at": "2026-11-12T10:31:57.967Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "🔴 نقص امنیتی بزرگ در Grok Build باعث لو رفتن اطلاعات محرمانه 35 هزار اپلیکیشن شد",
+      "url": "https://t.me/techiin_ir/20757"
+    },
+    "url:c0acc8dcda71010d": {
+      "at": "2026-11-12T10:32:31.923Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "✅ تبدیل نقاشی‌ها و طرح‌های دستی به اپلیکیشن با جمینای",
+      "url": "https://t.me/techiin_ir/20756"
+    },
+    "title:2a9d64f41d64d43b": {
+      "at": "2026-11-12T10:32:31.923Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "✅ تبدیل نقاشی‌ها و طرح‌های دستی به اپلیکیشن با جمینای",
+      "url": "https://t.me/techiin_ir/20756"
+    },
+    "url:80dff7c32ee2049d": {
+      "at": "2026-11-12T10:32:42.127Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "⚠️استارگیت امارات در فهرست اهداف احتمالی ایران",
+      "url": "https://t.me/techiin_ir/20755"
+    },
+    "title:913a1492beeb6c4d": {
+      "at": "2026-11-12T10:32:42.127Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "⚠️استارگیت امارات در فهرست اهداف احتمالی ایران",
+      "url": "https://t.me/techiin_ir/20755"
+    },
+    "url:fc51411964ad8578": {
+      "at": "2026-11-12T10:33:01.710Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "یه روشی دوستان برام فرستادن که از طریق یه ربات تلگرامی 5 تا رفرال میاری (",
+      "url": "https://t.me/asrnovin_ir/11446"
+    },
+    "title:3930eba0f6b791d2": {
+      "at": "2026-11-12T10:33:01.716Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "یه روشی دوستان برام فرستادن که از طریق یه ربات تلگرامی 5 تا رفرال میاری (",
+      "url": "https://t.me/asrnovin_ir/11445"
+    },
+    "url:c65aee352a9a215c": {
+      "at": "2026-11-12T10:33:01.716Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "یه روشی دوستان برام فرستادن که از طریق یه ربات تلگرامی 5 تا رفرال میاری (",
+      "url": "https://t.me/asrnovin_ir/11445"
     }
   },
   "deferred": {
     "defer:url:65b96c238445cded": {
       "id": "defer:url:65b96c238445cded",
-      "at": "2026-11-11T19:31:00.711Z",
+      "at": "2026-11-12T10:33:01.764Z",
       "firstAt": "2026-11-11T10:31:11.253Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -6394,108 +6493,10 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:65b96c238445cded",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:53c53ed6d09c6324": {
-      "id": "defer:url:53c53ed6d09c6324",
-      "at": "2026-11-11T13:30:59.450Z",
-      "firstAt": "2026-11-11T13:30:59.450Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:53c53ed6d09c6324",
-        "title:3082caacdae657d4"
-      ],
-      "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
-      "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
-        "link": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-        "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
-        "published": "Wed, 11 Nov 2026 12:53:07 +0000",
-        "summary": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible. The article Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/05/grok_xai_logo.png"
-        ],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:53c53ed6d09c6324",
-          "title:3082caacdae657d4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d4775ff20e725a99": {
-      "id": "defer:url:d4775ff20e725a99",
-      "at": "2026-11-11T13:30:59.450Z",
-      "firstAt": "2026-11-11T13:30:59.450Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:d4775ff20e725a99",
-        "title:fe7c0054b8168042"
-      ],
-      "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
-      "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
-        "link": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-        "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
-        "published": "Wed, 11 Nov 2026 12:12:47 +0000",
-        "summary": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now fueling a price war for enterprise customers. The article Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-1.png"
-        ],
-        "ageHours": 1.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:d4775ff20e725a99",
-          "title:fe7c0054b8168042"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:b6fcdc4692ac3301": {
       "id": "defer:url:b6fcdc4692ac3301",
@@ -6633,57 +6634,6 @@
         "keys": [
           "url:4c690fe5a4a5e2eb",
           "title:422713f82c95c6e7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:86c270bf47b54ff7": {
-      "id": "defer:url:86c270bf47b54ff7",
-      "at": "2026-11-11T13:30:59.451Z",
-      "firstAt": "2026-11-11T13:30:59.451Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:86c270bf47b54ff7",
-        "title:5cf8f270d344de81"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
-      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
-        "link": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-        "canonical": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
-        "published": "Mon, 09 Nov 2026 08:00:53 +0000",
-        "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with additional investments […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-startups-msit-1920x1080-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-startups-msit-1920x1080-1-842x450.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/3A5B0B4C-2FCB-4F7B-96D6-2A56312BBB2C_1_201_a-scaled.jpeg"
-        ],
-        "ageHours": 53.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:86c270bf47b54ff7",
-          "title:5cf8f270d344de81"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7963,9 +7913,9 @@
     },
     "defer:url:88d1ecd11797604c": {
       "id": "defer:url:88d1ecd11797604c",
-      "at": "2026-11-11T19:31:31.586Z",
+      "at": "2026-11-12T10:35:29.901Z",
       "firstAt": "2026-11-11T19:31:31.586Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -8003,7 +7953,11 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:88d1ecd11797604c",
+          "attempts": 1
+        }
       },
       "detail": "tools"
     },
@@ -8754,6 +8708,146 @@
         "keys": [
           "url:e09fad6dcc25f1ba",
           "title:ab2622bb492b3497"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:58950b1145824a10": {
+      "id": "defer:url:58950b1145824a10",
+      "at": "2026-11-12T10:33:01.725Z",
+      "firstAt": "2026-11-12T10:33:01.725Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:58950b1145824a10",
+        "title:e2f294d987b31067"
+      ],
+      "canonical": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
+      "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+        "link": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+        "canonical": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
+        "published": "Thu, 12 Nov 2026 10:09:56 +0000",
+        "summary": "Australia's government, led by Prime Minister Anthony Albanese, wants to enshrine mandatory safety rules for frontier AI companies in law for the first time. A new regulator would enforce independent model audits and impose steep penalties for violations. With this move, Canberra is deliberately prioritizing domestic regulation before entering international talks. The article Australia's proposed AI safety bill would force frontier model makers to open up to independent testing appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/australia_ai_safety.png"
+        ],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:58950b1145824a10",
+          "title:e2f294d987b31067"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:73693a9bcef30a0a": {
+      "id": "defer:url:73693a9bcef30a0a",
+      "at": "2026-11-12T10:33:01.725Z",
+      "firstAt": "2026-11-12T10:33:01.725Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:73693a9bcef30a0a",
+        "title:edcb6b83dd88f81b"
+      ],
+      "canonical": "https://www.producthunt.com/products/foxpit",
+      "title": "Foxpit",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Foxpit",
+        "link": "https://www.producthunt.com/products/foxpit",
+        "canonical": "https://www.producthunt.com/products/foxpit",
+        "published": "2026-11-11T12:10:39-08:00",
+        "summary": "<p> Run Claude Code, Codex & OpenCode as one AI team </p> <p> <a href=\"https://www.producthunt.com/products/foxpit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1313278?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/foxpit",
+        "images": [],
+        "ageHours": 14.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:73693a9bcef30a0a",
+          "title:edcb6b83dd88f81b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4922ca6fb0dd9299": {
+      "id": "defer:url:4922ca6fb0dd9299",
+      "at": "2026-11-12T10:33:01.725Z",
+      "firstAt": "2026-11-12T10:33:01.725Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4922ca6fb0dd9299",
+        "title:09915538fdf04dc4"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Holiday Extras is rethinking what it can build with Codex",
+        "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+        "canonical": "https://openai.com/business/customer-stories/holidays-extras-codex",
+        "published": "Thu, 12 Nov 2026 09:30:00 GMT",
+        "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4922ca6fb0dd9299",
+          "title:09915538fdf04dc4"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9933,6 +10027,14 @@
           "at": "2026-11-12T08:06:29.031Z"
         }
       ]
+    },
+    "2026-11-12T14:00+03:30": {
+      "at": "2026-11-12T10:35:29.907Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0026770016000000002,
+      "tokens": 63411,
+      "posts": []
     }
   },
   "published": [
@@ -10770,89 +10872,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8383,
-      "last_at": "2026-11-12T07:32:21+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "last_id": 8384,
+      "last_at": "2026-11-12T09:17:45+00:00",
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "ai_farshad": {
-      "last_id": 6410,
-      "last_at": "2026-11-11T19:30:24+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "last_id": 6411,
+      "last_at": "2026-11-12T08:03:05+00:00",
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7199,
-      "last_at": "2026-11-12T06:44:34+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "last_id": 7200,
+      "last_at": "2026-11-12T08:17:28+00:00",
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "techiin_ir": {
-      "last_id": 20754,
-      "last_at": "2026-11-11T11:02:25+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "last_id": 20757,
+      "last_at": "2026-11-12T10:05:10+00:00",
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "mgh_mobin": {
       "last_id": 475,
       "last_at": "2026-11-12T06:12:45+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "web3nabu": {
       "last_id": 2156,
       "last_at": "2026-11-12T05:50:42+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "asrnovin_ir": {
-      "last_id": 11444,
-      "last_at": "2026-11-11T19:41:25+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "last_id": 11448,
+      "last_at": "2026-11-12T10:28:07+00:00",
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "shayanode": {
-      "last_id": 157,
-      "last_at": "2026-11-12T07:28:05+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "last_id": 160,
+      "last_at": "2026-11-12T09:53:11+00:00",
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "dunijet_ai": {
-      "last_id": 2538,
-      "last_at": "2026-11-11T19:41:42+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "last_id": 2540,
+      "last_at": "2026-11-12T10:29:08+00:00",
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "MatinSenPaii": {
       "last_id": 5852,
       "last_at": "2026-11-12T06:14:37+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     },
     "thenimaonAI": {
       "last_id": 494,
       "last_at": "2026-11-11T06:58:03+00:00",
-      "checked_at": "2026-11-12T08:00:46.543Z"
+      "checked_at": "2026-11-12T10:30:44.082Z"
     }
   },
   "offerReviews": [
@@ -12761,6 +12863,66 @@
       "url": "https://t.me/Mohammad_zammani/7199",
       "reason": "denied_link",
       "slot": "2026-11-12T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-dunijet-ai|https://t.me/dunijet_ai/2539",
+      "date": "2026-11-12",
+      "at": "2026-11-12T10:30:44.082Z",
+      "source": "tg-dunijet-ai",
+      "title": "پنج مدل AI شش روز توی یه اپ دیتینگ واقعی با آدم‌ها چت کردن؛ ۳۵۵ نفر",
+      "url": "https://t.me/dunijet_ai/2539",
+      "reason": "denied_link",
+      "slot": "2026-11-12T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-techiin|https://t.me/techiin_ir/20757",
+      "date": "2026-11-12",
+      "at": "2026-11-12T10:30:44.082Z",
+      "source": "tg-techiin",
+      "title": "🔴 نقص امنیتی بزرگ در Grok Build باعث لو رفتن اطلاعات محرمانه 35 هزار اپلیکیشن شد",
+      "url": "https://t.me/techiin_ir/20757",
+      "reason": "denied_link",
+      "slot": "2026-11-12T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-techiin|https://t.me/techiin_ir/20756",
+      "date": "2026-11-12",
+      "at": "2026-11-12T10:30:44.082Z",
+      "source": "tg-techiin",
+      "title": "✅ تبدیل نقاشی‌ها و طرح‌های دستی به اپلیکیشن با جمینای",
+      "url": "https://t.me/techiin_ir/20756",
+      "reason": "denied_link",
+      "slot": "2026-11-12T14:00+03:30",
+      "kind": "post",
+      "mainEligible": true
+    },
+    {
+      "id": "2026-11-12|tg-techiin|https://t.me/techiin_ir/20755",
+      "date": "2026-11-12",
+      "at": "2026-11-12T10:30:44.082Z",
+      "source": "tg-techiin",
+      "title": "⚠️استارگیت امارات در فهرست اهداف احتمالی ایران",
+      "url": "https://t.me/techiin_ir/20755",
+      "reason": "denied_link",
+      "slot": "2026-11-12T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-asr-novin|https://t.me/asrnovin_ir/11446",
+      "date": "2026-11-12",
+      "at": "2026-11-12T10:30:44.082Z",
+      "source": "tg-asr-novin",
+      "title": "یه روشی دوستان برام فرستادن که از طریق یه ربات تلگرامی 5 تا رفرال میاری (",
+      "url": "https://t.me/asrnovin_ir/11446",
+      "reason": "no_link",
+      "slot": "2026-11-12T14:00+03:30",
       "kind": "post",
       "mainEligible": false
     }
