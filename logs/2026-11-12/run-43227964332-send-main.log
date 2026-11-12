@@ -1,0 +1,135 @@
+RUN 43227964332 | send/main | slot auto | 2026-11-12T13:30:46Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-12T17:00+03:30 | WEEK 2026-11-07 | MODE SEND
+QUOTA tools 13/31 | models 11/24 | security 4/11 | business 9/11
+DAILY 3/11
+DIVERSITY_TARGET tools | slot 17:00
+DEFERRED_POOL 47
+  DEFERRED source_weekly | try 0/3 | Australia's proposed AI safety bill would force frontier model makers to open up to independent testing
+  DEFERRED category_consecutive | try 0/3 | Holiday Extras is rethinking what it can build with Codex
+  DEFERRED source_weekly | try 0/3 | Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass
+  DEFERRED category_consecutive | try 0/3 | Foxpit
+  DEFERRED source_weekly | try 0/3 | US corporate AI spending hits a new high in October, but growth slows to 1.65 percent
+DEFERRED_EXHAUSTED 2
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=2 policy=1 policy_changes=0 policy_reminder=1 api=50 stale=134 nodate=0 nonai=0 dup=44 dup_other=0 kept=84 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=310 pending=9 leads=2 nolink=2 nonai=1 denied=2 promo=0 stale=0 before=0 dup=0 dup_other=0
+MEMORY lanes=main:301,review:13 delivered=314 window=30d
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+  REVIEW_REQUIRED reason=denied_link sent=225
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/17-00-3fdba457
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD shayanode | education | خب دوستان عزززززیز بنا به درخواست شما چنتا کانال یوتوب میخوام براتون بزارم که میتونین ازش
+  EDU_REVIEW leads=1 sent=1 ids=226 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-12/17-00-education/education.txt
+RELEVANCE candidates=82 kept=58 dropped=24
+  SKIP_NOT_AI TechCrunch | Who could replace Jensen Huang? A highly unscientific list of possible successors
+  SKIP_NOT_AI TechCrunch | The unfolding Jensen Huang scandal: a timeline
+  SKIP_NOT_AI TechCrunch | Congress to call Jensen Huang in to answer for alleged Chinese spy affair
+  SKIP_NOT_AI Product Hunt | Sluice
+  SKIP_NOT_AI arXiv | Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model
+  SKIP_NOT_AI Product Hunt | Klang
+  SKIP_NOT_AI Crunchbase News | How Founders Can Reduce Platform Risk Before It Threatens Growth
+  SKIP_NOT_AI Crunchbase News | VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor
+  SKIP_NOT_AI ... +16 more
+DIVERSITY target=tools queue=4 fresh=19 deferred=47 rejected=source_daily:4,source_weekly:18,source_consecutive:9,category_consecutive:3
+  DIVERSITY_QUEUE tools:OpenAI News | tools:Product Hunt | security:The Record | security:Simon Willison - Prompt Injection
+QUEUE_SKIPPED 56
+  QUEUE_SKIP source_weekly | The Decoder | Australia's proposed AI safety bill would force frontier model makers to open up to independent testing
+  QUEUE_SKIP source_weekly | The Decoder | Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass
+  QUEUE_SKIP source_weekly | The Decoder | US corporate AI spending hits a new high in October, but growth slows to 1.65 percent
+  QUEUE_SKIP source_weekly | The Decoder | Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years
+  QUEUE_SKIP source_weekly | Ars Technica AI | Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI
+  QUEUE_SKIP source_weekly | Ars Technica AI | Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.
+  QUEUE_SKIP source_daily | دانیجت | Dunijet | شرکت Anthropic می‌گه وابستگی به Nvidia رو شکسته و مدل Claude رو توی فقط ۳ روز
+  QUEUE_SKIP source_consecutive | TechCrunch | OpenAI’s quarterly revenue reportedly crosses $10B for the first time
+  QUEUE_SKIP source_daily | Google AI Blog | Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.
+  QUEUE_SKIP source_weekly | The Decoder | Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name
+  QUEUE_SKIP ... +46 more
+QUEUE_HELD 8
+  QUEUE_HOLD source_consecutive | TechCrunch | Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition
+  QUEUE_HOLD source_weekly | The Decoder | Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2
+  QUEUE_HOLD source_consecutive | TechCrunch | Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang
+  QUEUE_HOLD source_consecutive | TechCrunch | Jensen Huang accused of having another affair — with an Nvidia exec
+  QUEUE_HOLD source_consecutive | TechCrunch | Why the data center you dread might never even be built
+  QUEUE_HOLD source_consecutive | TechCrunch | CoreWeave turns to customer prepayments, shorter contracts to fund AI growth
+  QUEUE_HOLD source_consecutive | TechCrunch | With $720M round, Britain’s Fractile gets a leg up in the race for AI chips
+  QUEUE_HOLD category_consecutive | Google DeepMind Blog | Introducing AlphaProof Code: a breakthrough in verifying complex software at depth
+ATTEMPT 1/4 | deferred 0/3 OpenAI News | Holiday Extras is rethinking what it can build with Codex | 1h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 1/3
+ATTEMPT 2/4 | deferred 0/3 Product Hunt | Foxpit | 14.3h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  FETCH_TEXT_FALLBACK 315 chars
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | ورودی فقط یک جمله تبلیغاتی کوتاه است و هیچ جزئیات، عدد یا اطلاعات قابل راستی‌آزمایی‌ای ندارد.
+ATTEMPT 3/4 The Record | Kazakhstan-linked hackers used AI agent to spy on Central Asian governments | 0.5h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at its concurrency l)
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+POST 1/2 status=sent category=security | QA 40/42 | $0.000406 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/17-00
+ATTEMPT 4/4 Simon Willison - Prompt Injection | aws-emulator | 16.2h
+  TOOL_LINK candidate https://github.com/aws/aws-emulator | score 32
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED ai_relevance | score 41/42
+RESULT SENT category=security | offer=no | image=yes | QA 40/42 | cost $0.001855 | post $0.000406 | tokens 27208
+TITLE هکرهای قزاقستانی با ایجنت هوش مصنوعی جاسوسی می‌کردند
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/17-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST security | sent | $0.000406 | هکرهای قزاقستانی با ایجنت هوش مصنوعی جاسوسی می‌کردند
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-12T13:35:20Z
+# گزارش روزانه 2026-11-12 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 4 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 1 | بازبینی 4
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 12
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.005958
+- توکن: 53381
+- میانگین هر پست ارسال‌شده: $0.001490
+
+## سهمیه هفتگی (هفته 2026-11-07)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 13 | 31 | 18 |
+| مدل‌ها و پژوهش | 11 | 24 | 13 |
+| امنیت و حریم خصوصی | 5 | 11 | 6 |
+| کسب‌وکار و بازار | 9 | 11 | 2 |
+| مجموع | 38 | 77 | 39 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/42 | $0.001795 | 11657 | مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد |
+| 11:30 | ابزارها و محصولات | ارسال‌شده | 47/47 | $0.001578 | 10244 | گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 41/42 | $0.002179 | 21673 | استارتاپ Plurai با ۱۳ میلیون دلار، ایجنت‌های هوش مصنوعی را آموزش |
+| 17:00 | امنیت و حریم خصوصی | ارسال‌شده | 40/42 | $0.000406 | 9807 | هکرهای قزاقستانی با ایجنت هوش مصنوعی جاسوسی می‌کردند |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 14
+- دلایل: از رصد آفر پیدا شد 1، لینک قابل استفاده ندارد 3، لینک خارجی این پست پذیرفته نشد 8، مدل این مورد را رد کرد 2
+- واجد شرایط کانال اصلی: 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-12.md

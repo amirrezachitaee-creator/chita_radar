@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T11:30:42.398Z",
+  "updatedAt": "2026-11-12T13:34:15.146Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6495,6 +6495,76 @@
       "slot": "2026-11-12T14:00+03:30",
       "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
       "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads"
+    },
+    "url:3fdba457aaae9405": {
+      "at": "2026-11-12T13:30:59.921Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "علی‌بابا از Qwen4 رونمایی کرده؛ مدلی که قراره عمق دانش، درک از دنیای واقعی، مهارت‌های کدنویسی",
+      "url": "https://t.me/Mohammad_zammani/7202"
+    },
+    "title:d809c0ce49ed4da4": {
+      "at": "2026-11-12T13:30:59.921Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "علی‌بابا از Qwen4 رونمایی کرده؛ مدلی که قراره عمق دانش، درک از دنیای واقعی، مهارت‌های کدنویسی",
+      "url": "https://t.me/Mohammad_zammani/7202"
+    },
+    "url:f639143dbff7ceb8": {
+      "at": "2026-11-12T13:31:00.117Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "خب دوستان عزززززیز بنا به درخواست شما چنتا کانال یوتوب میخوام براتون بزارم که میتونین ازش",
+      "url": "https://t.me/shayanode/162"
+    },
+    "title:5212cefd47751fbe": {
+      "at": "2026-11-12T13:31:00.117Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "خب دوستان عزززززیز بنا به درخواست شما چنتا کانال یوتوب میخوام براتون بزارم که میتونین ازش",
+      "url": "https://t.me/shayanode/162"
+    },
+    "url:73693a9bcef30a0a": {
+      "at": "2026-11-12T13:32:10.090Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "Foxpit",
+      "url": "https://www.producthunt.com/products/foxpit"
+    },
+    "title:edcb6b83dd88f81b": {
+      "at": "2026-11-12T13:32:10.090Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "Foxpit",
+      "url": "https://www.producthunt.com/products/foxpit"
+    },
+    "url:d60106982525013d": {
+      "at": "2026-11-12T13:34:15.143Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
+      "url": "https://therecord.media/kazakhstan-hackers-central-asia"
+    },
+    "title:0c3f333a7ce0f7d7": {
+      "at": "2026-11-12T13:34:15.143Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-12T17:00+03:30",
+      "title": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
+      "url": "https://therecord.media/kazakhstan-hackers-central-asia"
     }
   },
   "deferred": {
@@ -6549,260 +6619,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:b6fcdc4692ac3301": {
-      "id": "defer:url:b6fcdc4692ac3301",
-      "at": "2026-11-11T13:30:59.451Z",
-      "firstAt": "2026-11-11T13:30:59.451Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:b6fcdc4692ac3301",
-        "title:e356703bbe0bf9da"
-      ],
-      "canonical": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall",
-      "title": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.",
-        "link": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
-        "canonical": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall",
-        "published": "Tue, 10 Nov 2026 12:00:16 +0000",
-        "summary": "AI can help startups reduce patent preparation costs, but DIY applications may overlook critical issues. In this guest commentary, attorneys Michael Drapkin and Nathan Mutter of AI-Native law firm Landfall IP, argue that combining AI with legal expertise can produce more efficient, commercially valuable patent protection that withstands investor scrutiny and is harder for competitors to circumvent.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/digitalgavel-conny-schneider-unsplash-1024x576.jpg",
-          "https://news.crunchbase.com/wp-content/uploads/MLD-Headshot-e1794247664940-236x300.jpeg"
-        ],
-        "ageHours": 25.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b6fcdc4692ac3301",
-          "title:e356703bbe0bf9da"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:caa9073cefb43725": {
-      "id": "defer:url:caa9073cefb43725",
-      "at": "2026-11-11T13:30:59.451Z",
-      "firstAt": "2026-11-11T13:30:59.451Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:caa9073cefb43725",
-        "title:2e601c574d84ada4"
-      ],
-      "canonical": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "ChatGPT Enterprise now available in AWS Marketplace",
-        "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-        "canonical": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-        "published": "Mon, 09 Nov 2026 19:00:00 GMT",
-        "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-        "images": [],
-        "ageHours": 42.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:caa9073cefb43725",
-          "title:2e601c574d84ada4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a89b9273b2249edf": {
-      "id": "defer:url:a89b9273b2249edf",
-      "at": "2026-11-11T17:01:42.215Z",
-      "firstAt": "2026-11-11T17:01:42.215Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:a89b9273b2249edf",
-        "title:0659f45de6b9c6c4"
-      ],
-      "canonical": "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
-      "title": "شرکت Anthropic می‌گه وابستگی به Nvidia رو شکسته و مدل Claude رو توی فقط ۳ روز",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "شرکت Anthropic می‌گه وابستگی به Nvidia رو شکسته و مدل Claude رو توی فقط ۳ روز",
-        "link": "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-        "canonical": "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
-        "messageText": "شرکت Anthropic می‌گه وابستگی به Nvidia رو شکسته و مدل Claude رو توی فقط ۳ روز روی GPUهای AMD بالا آورده\n\nتام براون، هم‌بنیان‌گذار Anthropic، می‌گه حالا Claude روی هر چهار خانواده اصلی چیپ آموزش داده و اجرا می‌شه و همه رو مثل یه استخر محاسباتی یکسان می‌بینه. موقع پورت به AMD، مدل خودشون به اسم Mythos تقریبا ۱۰۰ درصد کرنل‌ها رو خودش نوشته یا پورت کرده؛ کاری که قبلا ۶ تا ۱۲ ماه و ده‌ها مهندس می‌برد.\n\nهمین موضوع می‌تونه مزیت اصلی CUDA انویدیا رو کم‌رنگ کنه؛ حاشیه سود بالای ۷۰ درصدی Nvidia هم فعلا به خاطر همینه.\n\nthe-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/\n\n@dunijet_ai\n\n❤1",
-        "leadPostUrl": "https://t.me/dunijet_ai/2536",
-        "published": "2026-11-11T16:37:14+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/HJRJbV2JxmkC2XzAJzUyReXYAYTS6XxRPf14wp9V8i28Ikq5fHyql5VdMHTawHjjUgIb9FplK8e7KkzIPGkHjk2HLokwX92Nzv3xO14MMzeSGeW6GlzJFMbBw2Od-IXvPI6imO9f1c9qOYZtZq4ndQyoa8_qn-5nYTORikm3f53f0937X4JpaGVJ_0Yx1GZeHYQWHS4JQEkuI4e_WU0XngLlukrYaGZ2jsUKQmn7phoWP9rtUMxltr30Z30e3QwoH2rE3UoGLtnpOzjhdiXQBaYAqz3DHc7UXpoBDs6KMjDWsnYCHJQ2L0Y0LhG2MHKj4Ghw-IPswzvNjqpInVaecw.jpg"
-        ],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:a89b9273b2249edf",
-          "title:0659f45de6b9c6c4"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2536,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:bed7979fe4378809": {
-      "id": "defer:url:bed7979fe4378809",
-      "at": "2026-11-11T17:01:42.215Z",
-      "firstAt": "2026-11-11T17:01:42.215Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:bed7979fe4378809",
-        "title:36808dabf8f80120"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
-      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-        "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-        "canonical": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
-        "published": "Wed, 11 Nov 2026 16:14:44 +0000",
-        "summary": "Sales of $10B represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-        "images": [],
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:bed7979fe4378809",
-          "title:36808dabf8f80120"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:04b62b0823f31776": {
-      "id": "defer:url:04b62b0823f31776",
-      "at": "2026-11-11T17:01:42.215Z",
-      "firstAt": "2026-11-11T17:01:42.215Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:04b62b0823f31776",
-        "title:bdce0405aedf0282"
-      ],
-      "canonical": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
-      "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
-        "link": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
-        "canonical": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
-        "published": "Wed, 11 Nov 2026 15:12:53 +0000",
-        "summary": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of automation and data fusion create risks that are hard to contain. The article Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/Helsing-Clarity.webp"
-        ],
-        "ageHours": 1.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:04b62b0823f31776",
-          "title:bdce0405aedf0282"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:34b5b4703a4ee290": {
       "id": "defer:url:34b5b4703a4ee290",
@@ -7328,54 +7144,6 @@
         "keys": [
           "url:11568aa8dfcf9a3c",
           "title:e5a81a64c4cf5729"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3d65ccc2f5cdce69": {
-      "id": "defer:url:3d65ccc2f5cdce69",
-      "at": "2026-11-11T17:01:42.216Z",
-      "firstAt": "2026-11-11T17:01:42.216Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3d65ccc2f5cdce69",
-        "title:f4a39b30004607e0"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-        "published": "Wed, 11 Nov 2026 16:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 1,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3d65ccc2f5cdce69",
-          "title:f4a39b30004607e0"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -8529,52 +8297,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:952d2516af2e9054": {
-      "id": "defer:url:952d2516af2e9054",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:952d2516af2e9054",
-        "title:f40a91761a021c6e"
-      ],
-      "canonical": "https://openai.com/index/control-room",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-        "link": "https://openai.com/index/control-room",
-        "canonical": "https://openai.com/index/control-room",
-        "published": "Mon, 09 Nov 2026 13:00:00 GMT",
-        "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/control-room",
-        "images": [],
-        "ageHours": 67,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:952d2516af2e9054",
-          "title:f40a91761a021c6e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:e09fad6dcc25f1ba": {
       "id": "defer:url:e09fad6dcc25f1ba",
       "at": "2026-11-12T08:02:13.146Z",
@@ -8672,59 +8394,15 @@
         "leadKind": ""
       }
     },
-    "defer:url:73693a9bcef30a0a": {
-      "id": "defer:url:73693a9bcef30a0a",
-      "at": "2026-11-12T10:33:01.725Z",
-      "firstAt": "2026-11-12T10:33:01.725Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:73693a9bcef30a0a",
-        "title:edcb6b83dd88f81b"
-      ],
-      "canonical": "https://www.producthunt.com/products/foxpit",
-      "title": "Foxpit",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Foxpit",
-        "link": "https://www.producthunt.com/products/foxpit",
-        "canonical": "https://www.producthunt.com/products/foxpit",
-        "published": "2026-11-11T12:10:39-08:00",
-        "summary": "<p> Run Claude Code, Codex & OpenCode as one AI team </p> <p> <a href=\"https://www.producthunt.com/products/foxpit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1313278?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/foxpit",
-        "images": [],
-        "ageHours": 14.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:73693a9bcef30a0a",
-          "title:edcb6b83dd88f81b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:4922ca6fb0dd9299": {
       "id": "defer:url:4922ca6fb0dd9299",
-      "at": "2026-11-12T10:33:01.725Z",
+      "at": "2026-11-12T13:31:00.173Z",
       "firstAt": "2026-11-12T10:33:01.725Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "fetch_failed"
       ],
       "keys": [
         "url:4922ca6fb0dd9299",
@@ -8760,8 +8438,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:4922ca6fb0dd9299",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:53c53ed6d09c6324": {
       "id": "defer:url:53c53ed6d09c6324",
@@ -8900,6 +8583,385 @@
         "keys": [
           "url:4b2816a1ecc32e3e",
           "title:f9f3d1c07f87ac0d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8922d709796f6fff": {
+      "id": "defer:url:8922d709796f6fff",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:8922d709796f6fff",
+        "title:8456e69417d6f7da"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition",
+      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+        "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+        "canonical": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition",
+        "published": "Thu, 12 Nov 2026 13:26:25 +0000",
+        "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+        "images": [],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:8922d709796f6fff",
+          "title:8456e69417d6f7da"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9ca1e30b2dd5ebcc": {
+      "id": "defer:url:9ca1e30b2dd5ebcc",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:9ca1e30b2dd5ebcc",
+        "title:2cb459c9605f7b4d"
+      ],
+      "canonical": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+      "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+        "link": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+        "canonical": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+        "published": "Thu, 12 Nov 2026 12:09:43 +0000",
+        "summary": "Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor. The model is available for noncommercial research through an API and is set to be integrated into Google's agentic platform Antigravity. The article Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2 appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphagenome2.png"
+        ],
+        "ageHours": 1.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9ca1e30b2dd5ebcc",
+          "title:2cb459c9605f7b4d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:eb294a56c70bf2d1": {
+      "id": "defer:url:eb294a56c70bf2d1",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:eb294a56c70bf2d1",
+        "title:298ddbde0d774a53"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+        "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+        "canonical": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+        "published": "Wed, 11 Nov 2026 23:28:45 +0000",
+        "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+        "images": [],
+        "ageHours": 14,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:eb294a56c70bf2d1",
+          "title:298ddbde0d774a53"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d1f3df81d4d143b4": {
+      "id": "defer:url:d1f3df81d4d143b4",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:d1f3df81d4d143b4",
+        "title:01587c3f858481cc"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec",
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+        "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+        "canonical": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec",
+        "published": "Wed, 11 Nov 2026 23:17:05 +0000",
+        "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+        "images": [],
+        "ageHours": 14.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:d1f3df81d4d143b4",
+          "title:01587c3f858481cc"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:321d8b43ce72dae6": {
+      "id": "defer:url:321d8b43ce72dae6",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:321d8b43ce72dae6",
+        "title:77c0fddbebb65d38"
+      ],
+      "canonical": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
+      "title": "Why the data center you dread might never even be built",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Why the data center you dread might never even be built",
+        "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+        "canonical": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
+        "published": "Wed, 11 Nov 2026 20:15:15 +0000",
+        "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+        "images": [],
+        "ageHours": 17.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:321d8b43ce72dae6",
+          "title:77c0fddbebb65d38"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5413a692ab5366d7": {
+      "id": "defer:url:5413a692ab5366d7",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:5413a692ab5366d7",
+        "title:bdb73ebf6b9bc183"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+        "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+        "canonical": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+        "published": "Wed, 11 Nov 2026 19:54:00 +0000",
+        "summary": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+        "images": [],
+        "ageHours": 17.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:5413a692ab5366d7",
+          "title:bdb73ebf6b9bc183"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:038f46a4355e8569": {
+      "id": "defer:url:038f46a4355e8569",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:038f46a4355e8569",
+        "title:180aa3c8d057ece6"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+        "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+        "canonical": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
+        "published": "Wed, 11 Nov 2026 19:34:55 +0000",
+        "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+        "images": [],
+        "ageHours": 17.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:038f46a4355e8569",
+          "title:180aa3c8d057ece6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0e9fb0eb84f13acf": {
+      "id": "defer:url:0e9fb0eb84f13acf",
+      "at": "2026-11-12T13:31:00.124Z",
+      "firstAt": "2026-11-12T13:31:00.124Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0e9fb0eb84f13acf",
+        "title:124778f847282ddb"
+      ],
+      "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "candidate": {
+        "sourceId": "deepmind-blog",
+        "sourceName": "Google DeepMind Blog",
+        "sourceType": "official_blog",
+        "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+        "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
+        "published": "Tue, 10 Nov 2026 12:02:28 +0000",
+        "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+        "messageText": "",
+        "leadPostUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "images": [
+          "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo"
+        ],
+        "ageHours": 49.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0e9fb0eb84f13acf",
+          "title:124778f847282ddb"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10111,6 +10173,37 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "41/42"
+    },
+    "2026-11-12T17:00+03:30": {
+      "at": "2026-11-12T13:34:15.143Z",
+      "status": "sent",
+      "category": "security",
+      "title": "هکرهای قزاقستانی با ایجنت هوش مصنوعی جاسوسی می‌کردند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/17-00",
+      "messageId": 63,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0016140208,
+      "tokens": 18267,
+      "qa": "40/42",
+      "posts": [
+        {
+          "title": "هکرهای قزاقستانی با ایجنت هوش مصنوعی جاسوسی می‌کردند",
+          "category": "security",
+          "status": "sent",
+          "messageId": 63,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0004059608,
+          "tokens": 9807,
+          "qa": "40/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-12T13:34:15.143Z"
+        }
+      ]
     }
   },
   "published": [
@@ -10961,93 +11054,110 @@
       "sourceTitle": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads | TechCrunch",
       "sourceText": "AI agents are all the rage, but they’re not quite as capable as their purveyors would have you believe.\nEfforts to benchmark agents doing complex tasks show that they aren’t typically reliable enough to function without close supervision. LiveBench 2.0 shows Claude Fable 5.2 and ChatGPT-6 Astra succeeding on 82.9 and 75.6 out of 100 tasks, respectively, and an effort by the AI infrastructure company EON to test agents in a simulated corporate environment found the most successful model tested, Claude Opus 4.8, performed tasks at 76.8% accuracy.\nNow, a startup known as Plurai wants to boost those numbers with the same techniques that put self-driving cars on the street: Simulations using synthetic data based on a company’s own digital systems, meant to prepare models to tackle difficult edge cases.\nCo-founders Ilan Kadar and Elad Levi previously worked for Nexar, which develops autonomous driving technology. Kadar worked with Waymo to simulate and evaluate its end-to-end deep learning driving software.\n“The moment that we saw the wave of AI agents, we saw the same pattern: That it is very easy to build a demo, but [hard] to get something that will be reliable and cost effective,” Kadar told TechCrunch. “Since we saw the same pattern, the same pitch was that we want to build this simulation layer.”\nOn Wednesday, the startup said it had raised $13 million in seed funding to make that happen. The round was led by Team8, with participation from U&I, Velocity, and Mercer.\nLike the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredicta",
       "at": "2026-11-12T11:30:42.395Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-12T17:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "هکرهای قزاقستانی با ایجنت هوش مصنوعی جاسوسی می‌کردند",
+      "why": "اهمیتش اینه که این اولین باره یک گروه هکری از ایجنت هوش مصنوعی برای خودکارسازی عملیات جاسوسی استفاده می‌کنه و می‌تونه الگوی جدیدی برای حملات سایبری باشه.",
+      "dedupe_key": "silent-lynx-ai-agent-espionage",
+      "post_key": "2026-11-12/17-00/1",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "url": "https://therecord.media/kazakhstan-hackers-central-asia",
+      "sourceTitle": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
+      "sourceText": "Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.\nSingapore-based cybersecurity firm CloudSEK uncovered the operation after discovering an exposed server belonging to Silent Lynx , a hacking group previously linked to espionage campaigns targeting Kyrgyzstan, Turkmenistan, Tajikistan, Armenia, Belarus and Russia.\nThe server contained more than a dozen gigabytes of data, including stolen government documents, hacking tools and records showing how an attacker used an AI agent to automate parts of the operation.\nAccording to the report published Wednesday, the operator relied on Hermes, an open-source AI agent configured to act as an offensive cybersecurity expert. The system primarily used AI models developed by Chinese company DeepSeek. Unlike conventional chatbots, AI agents can execute commands, run software and carry out tasks on behalf of their users.\nThe agent helped with reconnaissance, data collection and erasing traces of activity from compromised systems, researchers said. It was also configured to execute certain potentially destructive commands without requiring additional approval.\nThe operator communicated with the agent in Russian and connected it to a Telegram bot, allowing the hacker to issue instructions remotely from a phone.\nOne of the group's most significant intrusions targeted Tajikistan, where the hackers maintained extensive access to the national railway network from at least mid-Augus",
+      "at": "2026-11-12T13:34:15.144Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8384,
-      "last_at": "2026-11-12T09:17:45+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "last_id": 8387,
+      "last_at": "2026-11-12T12:44:49+00:00",
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "ai_farshad": {
       "last_id": 6412,
       "last_at": "2026-11-12T10:43:04+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7200,
-      "last_at": "2026-11-12T08:17:28+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "last_id": 7202,
+      "last_at": "2026-11-12T12:04:20+00:00",
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "techiin_ir": {
-      "last_id": 20758,
-      "last_at": "2026-11-12T10:45:16+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "last_id": 20761,
+      "last_at": "2026-11-12T12:32:23+00:00",
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "mgh_mobin": {
       "last_id": 475,
       "last_at": "2026-11-12T06:12:45+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "web3nabu": {
       "last_id": 2156,
       "last_at": "2026-11-12T05:50:42+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "asrnovin_ir": {
       "last_id": 11448,
       "last_at": "2026-11-12T10:28:07+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "shayanode": {
-      "last_id": 160,
-      "last_at": "2026-11-12T09:53:11+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "last_id": 163,
+      "last_at": "2026-11-12T12:55:28+00:00",
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "dunijet_ai": {
       "last_id": 2540,
       "last_at": "2026-11-12T10:29:08+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "MatinSenPaii": {
       "last_id": 5852,
       "last_at": "2026-11-12T06:14:37+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     },
     "thenimaonAI": {
       "last_id": 497,
       "last_at": "2026-11-12T10:40:04+00:00",
-      "checked_at": "2026-11-12T11:24:46.409Z"
+      "checked_at": "2026-11-12T13:30:46.351Z"
     }
   },
   "offerReviews": [
@@ -13018,6 +13128,18 @@
       "slot": "2026-11-12T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7202",
+      "date": "2026-11-12",
+      "at": "2026-11-12T13:30:46.351Z",
+      "source": "tg-mohammad-zammani",
+      "title": "علی‌بابا از Qwen4 رونمایی کرده؛ مدلی که قراره عمق دانش، درک از دنیای واقعی، مهارت‌های کدنویسی",
+      "url": "https://t.me/Mohammad_zammani/7202",
+      "reason": "denied_link",
+      "slot": "2026-11-12T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -13174,6 +13296,13 @@
       "url": "https://machinelearningmastery.com/getting-reliable-structured-outputs-from-llms-validation-retries-and-constrained-decoding",
       "slot": "2026-11-12T14:00+03:30",
       "at": "2026-11-12T11:24:46.409Z"
+    },
+    {
+      "source": "tg-shayanode",
+      "title": "خب دوستان عزززززیز بنا به درخواست شما چنتا کانال یوتوب میخوام براتون بزارم که میتونین ازش",
+      "url": "https://t.me/shayanode/162",
+      "slot": "2026-11-12T17:00+03:30",
+      "at": "2026-11-12T13:30:46.351Z"
     }
   ],
   "reviewPending": {},
