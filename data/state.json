@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T05:01:51.057Z",
+  "updatedAt": "2026-11-12T08:06:29.033Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6238,6 +6238,112 @@
       "slot": "2026-11-12T08:30+03:30",
       "title": "🎵 رقیب رایگان Suno از راه رسید",
       "url": "https://acemusic.ai/create"
+    },
+    "url:f7f49b801bd20750": {
+      "at": "2026-11-12T08:01:09.116Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "مدل جدید گوگل - AlphaGenome 2",
+      "url": "https://deepmind.google/science/alphagenome"
+    },
+    "title:eff380d1643c89f0": {
+      "at": "2026-11-12T08:01:09.116Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "مدل جدید گوگل - AlphaGenome 2",
+      "url": "https://deepmind.google/science/alphagenome"
+    },
+    "url:ba0fcf4e325b4115": {
+      "at": "2026-11-12T08:01:09.400Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
+    },
+    "title:87a299259c1a62c1": {
+      "at": "2026-11-12T08:01:09.400Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
+    },
+    "url:df7f68e5f2c8b1f3": {
+      "at": "2026-11-12T08:01:09.788Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "داشتم فکر میکردم یه سیستم اتومیشن بسازم که خودش اخبار روز هوش مصنوعی رو آپلود کنه",
+      "url": "https://t.me/shayanode/152"
+    },
+    "title:611dbad98144a252": {
+      "at": "2026-11-12T08:01:09.788Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "داشتم فکر میکردم یه سیستم اتومیشن بسازم که خودش اخبار روز هوش مصنوعی رو آپلود کنه",
+      "url": "https://t.me/shayanode/152"
+    },
+    "url:93543299f7cdb5eb": {
+      "at": "2026-11-12T08:02:13.138Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "خیلی وقت‌ها توی دنیای هوش مصنوعی، ما داریم از یک فیل برای جابه‌جا کردن یک فنجون",
+      "url": "https://t.me/Mohammad_zammani/7199"
+    },
+    "title:1d581dd4d8655a7b": {
+      "at": "2026-11-12T08:02:13.138Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "خیلی وقت‌ها توی دنیای هوش مصنوعی، ما داریم از یک فیل برای جابه‌جا کردن یک فنجون",
+      "url": "https://t.me/Mohammad_zammani/7199"
+    },
+    "url:73a487a9dee9c904": {
+      "at": "2026-11-12T08:02:34.536Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags"
+    },
+    "title:d48bfdf61ae0ee70": {
+      "at": "2026-11-12T08:02:34.536Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags"
+    },
+    "url:02bfed5e7aa817ea": {
+      "at": "2026-11-12T08:06:29.031Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"
+    },
+    "title:5b02555b89c1c8f7": {
+      "at": "2026-11-12T08:06:29.031Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-12T11:30+03:30",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"
     }
   },
   "deferred": {
@@ -6292,334 +6398,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:1153869638ee727c": {
-      "id": "defer:url:1153869638ee727c",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1153869638ee727c",
-        "title:1afe11cc3ce0e55b"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/ai-recycling-startups",
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-        "link": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-        "canonical": "https://blogs.nvidia.com/blog/ai-recycling-startups",
-        "published": "Wed, 11 Nov 2026 03:00:20 +0000",
-        "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/recycling-company-grid-1920x1080-1.png",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/recycling-company-grid-1920x1080-1-842x450.png"
-        ],
-        "ageHours": 7.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:1153869638ee727c",
-          "title:1afe11cc3ce0e55b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3b53bf6090ab9868": {
-      "id": "defer:url:3b53bf6090ab9868",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3b53bf6090ab9868",
-        "title:350a0d499bea318e"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder",
-      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-        "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-        "canonical": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder",
-        "published": "Tue, 10 Nov 2026 21:08:52 +0000",
-        "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-        "images": [],
-        "ageHours": 13.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:3b53bf6090ab9868",
-          "title:350a0d499bea318e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ae543fdc68f7cb26": {
-      "id": "defer:url:ae543fdc68f7cb26",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ae543fdc68f7cb26",
-        "title:eed28f5e1af32717"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
-      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-        "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-        "canonical": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
-        "published": "Tue, 10 Nov 2026 20:52:13 +0000",
-        "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-        "images": [],
-        "ageHours": 13.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ae543fdc68f7cb26",
-          "title:eed28f5e1af32717"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:eb97d369e3e63b4f": {
-      "id": "defer:url:eb97d369e3e63b4f",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:eb97d369e3e63b4f",
-        "title:a70d8386de084350"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development",
-      "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
-        "link": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
-        "canonical": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development",
-        "published": "Tue, 10 Nov 2026 20:47:05 +0000",
-        "summary": "Former SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
-        "images": [],
-        "ageHours": 13.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:eb97d369e3e63b4f",
-          "title:a70d8386de084350"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6c91404759576779": {
-      "id": "defer:url:6c91404759576779",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:6c91404759576779",
-        "title:bbab7123d5a4f6ca"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-        "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-        "canonical": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
-        "published": "Tue, 10 Nov 2026 19:57:52 +0000",
-        "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-        "images": [],
-        "ageHours": 14.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:6c91404759576779",
-          "title:bbab7123d5a4f6ca"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a89f0826746b4cb4": {
-      "id": "defer:url:a89f0826746b4cb4",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a89f0826746b4cb4",
-        "title:da78d5f4f2b6b73b"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14493v1",
-      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
-        "link": "https://arxiv.org/abs/2611.14493v1",
-        "canonical": "https://arxiv.org/abs/2611.14493v1",
-        "published": "2026-11-10T18:50:06Z",
-        "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics), applied to two analytics agents in a controlled research setting using frozen execution traces. Phase 1 quantifies evaluation harness stability through repeated measurements, finding that 97% of configurations meet the stability threshold and that stability patterns are agent-independent. Phase 2 measures known risk detection on 72 ground-truth test cases, where the trace-based framework achieves the best precision-recall balance (F1=0.90) while text-only evaluation matches on recall but generates 5x more false alarms. Phase 3 evaluates unknown risk discovery, uncovering 24 novel failures with zero overlap between functional testing and security red-teaming. Our results demonstrate that (1) the information available to the evaluation harness determines evaluation quality, (2) functional and security evaluation are complementary, and (3) LLM-based evaluation harnesses surface subtle errors that human reviewers miss. We recommend a two-framework strategy: trace-based evaluation for functional assessment and adversarial red-teaming for security validation.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14493v1",
-        "images": [],
-        "ageHours": 15.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a89f0826746b4cb4",
-          "title:da78d5f4f2b6b73b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:95e4696846f25ae8": {
-      "id": "defer:url:95e4696846f25ae8",
-      "at": "2026-11-11T10:31:11.254Z",
-      "firstAt": "2026-11-11T10:31:11.254Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:95e4696846f25ae8",
-        "title:55b97470d02981ce"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14487v1",
-      "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
-        "link": "https://arxiv.org/abs/2611.14487v1",
-        "canonical": "https://arxiv.org/abs/2611.14487v1",
-        "published": "2026-11-10T18:47:22Z",
-        "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published paper, a model must rediscover the paper's core idea by asking yes-or-no questions. Built from 200 ICML 2026 papers, Re-Search tracks how a model's idea evolves as it asks questions and receives binary oracle feedback, isolating ideation from execution. Across six recent LLMs, nearly all progress happens within the first 30 of 100 questions, which largely decide how the game ends; after that, most models plateau. Through controlled interventions on the candidate questions and the hypothesis space, we find that the bottleneck is generation, not judgment: models recognize a good idea or a good question when one is offered, but often cannot produce it on their own. We further analyze the ideation traces and find that models fail by either over-exploiting one direction or over-exploring too many. These findings point to concrete design principles for autoresearch systems: since models can judge candidates they cannot produce, enriching the search with externally sourced ideas and questions may be more effective than improving any single model's generation ability.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14487v1",
-        "images": [],
-        "ageHours": 15.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:95e4696846f25ae8",
-          "title:55b97470d02981ce"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:53c53ed6d09c6324": {
       "id": "defer:url:53c53ed6d09c6324",
@@ -6713,55 +6491,6 @@
         "keys": [
           "url:d4775ff20e725a99",
           "title:fe7c0054b8168042"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b93fdda160f7eb7d": {
-      "id": "defer:url:b93fdda160f7eb7d",
-      "at": "2026-11-11T13:30:59.450Z",
-      "firstAt": "2026-11-11T13:30:59.450Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:b93fdda160f7eb7d",
-        "title:eae7d845f0ed02ef"
-      ],
-      "canonical": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats",
-      "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
-        "link": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
-        "canonical": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats",
-        "published": "Wed, 11 Nov 2026 11:54:46 +0000",
-        "summary": "England's higher education regulator, the Office for Students, says AI has made it \"nearly impossible\" to fairly assess student coursework. An investigation found that students are having ChatGPT write entire papers undetected, without being able to recall basic content afterward. To save the credibility of degrees, universities now have to return to traditional exams or face sanctions. The article UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/ai-generated-homework-nano-banana-pro.jpg"
-        ],
-        "ageHours": 1.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b93fdda160f7eb7d",
-          "title:eae7d845f0ed02ef"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7794,99 +7523,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:ba0fcf4e325b4115": {
-      "id": "defer:url:ba0fcf4e325b4115",
-      "at": "2026-11-11T17:01:42.216Z",
-      "firstAt": "2026-11-11T17:01:42.216Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ba0fcf4e325b4115",
-        "title:87a299259c1a62c1"
-      ],
-      "canonical": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "candidate": {
-        "sourceId": "deepmind-blog",
-        "sourceName": "Google DeepMind Blog",
-        "sourceType": "official_blog",
-        "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-        "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-        "canonical": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
-        "published": "Wed, 11 Nov 2026 15:00:15 +0000",
-        "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-        "messageText": "",
-        "leadPostUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-        "images": [
-          "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo"
-        ],
-        "ageHours": 2,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:ba0fcf4e325b4115",
-          "title:87a299259c1a62c1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:73a487a9dee9c904": {
-      "id": "defer:url:73a487a9dee9c904",
-      "at": "2026-11-11T19:31:00.659Z",
-      "firstAt": "2026-11-11T19:31:00.659Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:73a487a9dee9c904",
-        "title:d48bfdf61ae0ee70"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/11/tools-tags",
-      "title": "Browse tools.simonwillison.net by tag",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "Browse tools.simonwillison.net by tag",
-        "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
-        "canonical": "https://simonwillison.net/2026/Nov/11/tools-tags",
-        "published": "2026-11-11T18:42:50+00:00",
-        "summary": "<p><strong><a href=\"https://tools.simonwillison.net/#tags\">Browse tools.simonwillison.net by tag</a></strong></p> I've been wanting a better way to browse my <a href=\"\">collection of vibe-coded tools</a> (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using <a href=\"https://github.com/tree-sitter/py-tree-sitter\">tree-sitter</a> to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool.</p> <p>The homepage now features tag clouds for browsing by each of those categories of tag:</p> <p><a href=\"https://tools.simonwillison.net/#tags\"><img alt=\"Screenshot of two tag cloud sections where tags are sized by count. Browse by JavaScript libraries - Libraries loaded from a CDN by two or more tools. Select a tag to list its tools. @google/generative-ai 3, @jsquash/avif 3, @jsquash/webp 4, Babel 2, Chart.js 2, Cropper.js 2, D3 2, DOMPurify 7, js-yaml 3, JSZip 3, Leaflet 4, markdown-it 4, Marked 12, pako 2, PDF.js 3, Pyodide 11, React 3, Tesseract.js 2, three.js 3. Browse by browser APIs - Web platform features used by each tool's own code. Select a tag to list its tools. &lt;dialog&gt; 5, AbortController 6, Blob URLs 38, BroadcastChannel 1, Built-in AI 1, Camera / microphone 9, Canvas 2D 44, Clipboard API 69, Compression Streams 3, createImageBitmap 2, crypto random values 4, DOMParser 8, Drag and drop 30, Dynamic import() 12, ES modules 92\" src=\"https://static.simonwillison.net/static/2026/tools-tag-cloud.webp\" /></a> <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/11/tools-tags/",
-        "images": [],
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:73a487a9dee9c904",
-          "title:d48bfdf61ae0ee70"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:ea01cfcdcca0ed61": {
       "id": "defer:url:ea01cfcdcca0ed61",
       "at": "2026-11-11T19:31:00.659Z",
@@ -7981,52 +7617,6 @@
         "keys": [
           "url:bb27561db5d10d50",
           "title:7d0f993147bfb9d7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:02bfed5e7aa817ea": {
-      "id": "defer:url:02bfed5e7aa817ea",
-      "at": "2026-11-11T19:31:00.659Z",
-      "firstAt": "2026-11-11T19:31:00.659Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:02bfed5e7aa817ea",
-        "title:5b02555b89c1c8f7"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-        "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-        "canonical": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-        "published": "Wed, 11 Nov 2026 18:00:00 +0000",
-        "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-        "images": [],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:02bfed5e7aa817ea",
-          "title:5b02555b89c1c8f7"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -8611,6 +8201,559 @@
         "keys": [
           "url:c86d08502069b5ef",
           "title:878c594308249fa9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3f9a3e781bc89569": {
+      "id": "defer:url:3f9a3e781bc89569",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:3f9a3e781bc89569",
+        "title:5613f500b0541b9f"
+      ],
+      "canonical": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
+      "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
+        "link": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
+        "canonical": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
+        "published": "Wed, 11 Nov 2026 18:00:46 +0000",
+        "summary": "Abacus.AI applied the same fine-tuning recipe to three very different open-weight models. The gains landed in completely different places & that tells you more than any single benchmark score.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/download-82.png"
+        ],
+        "ageHours": 14,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3f9a3e781bc89569",
+          "title:5613f500b0541b9f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:19b4fcb1faac9c9b": {
+      "id": "defer:url:19b4fcb1faac9c9b",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:19b4fcb1faac9c9b",
+        "title:75830c06b846929a"
+      ],
+      "canonical": "https://huggingface.co/blog/qvac/botpsy",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "link": "https://huggingface.co/blog/qvac/botpsy",
+        "canonical": "https://huggingface.co/blog/qvac/botpsy",
+        "published": "Wed, 11 Nov 2026 05:01:16 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/qvac/botpsy",
+        "images": [],
+        "ageHours": 27,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:19b4fcb1faac9c9b",
+          "title:75830c06b846929a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:55ff14dc4213127d": {
+      "id": "defer:url:55ff14dc4213127d",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:55ff14dc4213127d",
+        "title:032ef03cae63b865"
+      ],
+      "canonical": "https://openai.com/index/jiostar-vijay-seshadri",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+        "link": "https://openai.com/index/jiostar-vijay-seshadri",
+        "canonical": "https://openai.com/index/jiostar-vijay-seshadri",
+        "published": "Wed, 11 Nov 2026 00:00:00 GMT",
+        "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/jiostar-vijay-seshadri",
+        "images": [],
+        "ageHours": 32,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:55ff14dc4213127d",
+          "title:032ef03cae63b865"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f71eb42d53626886": {
+      "id": "defer:url:f71eb42d53626886",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f71eb42d53626886",
+        "title:986f025b6141d458"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.14432v1",
+      "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+        "link": "https://arxiv.org/abs/2611.14432v1",
+        "canonical": "https://arxiv.org/abs/2611.14432v1",
+        "published": "2026-11-10T18:06:16Z",
+        "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our 1st-place 2025 solution, which is based on $π_{0.5}$. On the 50 tasks shared with 2025, its Q rises from 0.260 to 0.371; across all 100 tasks it scores 0.392. Our main conclusion from 2025 was that the model was undertrained, so most of the 2026 work went into training the model for longer, optimizing some training parameters, making each training step slightly faster and reducing the gradient noise: a migration from 50 to 100 tasks (semantic stages built from the demonstrations' skill annotations, task and stage embeddings of new tasks warm-started from similar old ones, and a 21-dimensional action space matching the teleoperation controls); variance-reduced multi-sample flow matching with a simple noise-vs-compute model that picks the number of action-expert samples per observation without ablations; and a 200k-step training run, about one pass over the 211M frames of the demonstrations. A cloud evaluation infrastructure keeps a shared record with provenance, episode diagnostics and restorable simulator states, and runs six simulators on one GPU together faster than real time. On top of the learned policy, 14 tasks are routed to a GPT-6 Astra coding agent that controls the robot through observation and motion tools, starting every episode from a frozen copy of its own practice session on training instances. Across these 14 tasks, Astra's mean Q is 0.639, against 0.108 for the learned policy. The public submission included only part of the Astra results and scored 0.446 Q with 27.3% full-task success.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.14432v1",
+        "images": [],
+        "ageHours": 37.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f71eb42d53626886",
+          "title:986f025b6141d458"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f622f9d2ba58b773": {
+      "id": "defer:url:f622f9d2ba58b773",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f622f9d2ba58b773",
+        "title:7895864e38e593b2"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.14419v1",
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+        "link": "https://arxiv.org/abs/2611.14419v1",
+        "canonical": "https://arxiv.org/abs/2611.14419v1",
+        "published": "2026-11-10T17:58:12Z",
+        "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.14419v1",
+        "images": [],
+        "ageHours": 38,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f622f9d2ba58b773",
+          "title:7895864e38e593b2"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:aeaf0aa6d1baf971": {
+      "id": "defer:url:aeaf0aa6d1baf971",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:aeaf0aa6d1baf971",
+        "title:f218b48f933437e3"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.14425v1",
+      "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+        "link": "https://arxiv.org/abs/2611.14425v1",
+        "canonical": "https://arxiv.org/abs/2611.14425v1",
+        "published": "2026-11-10T18:01:23Z",
+        "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF changes, provided the SF retains task-critical bandwidth. In this paper, we stress-test 4 prominent TSFMs: MOMENT, Chronos-2, Moirai-MoE, and TimesFM, to quantify their SF-invariance and investigate whether their behavior tracks the resulting loss of information bandwidth rather than the SF value itself. Our stress-test probes 3 dimensions: (i) the shift in embeddings, (ii) the degradation in forecasting performance, and (iii) the degradation in downstream performance, quantified by three novel metrics: FSI, FDI, and CDI, respectively. To our knowledge, this is the first study to place SF-invariance at the core of TSFM evaluations. Our results characterize: (i) how SF-invariance depends on the margin between signal's native-SF and the bandwidth its task requires, (ii) how much of that invariance the choice of TSFM explains, and (iii) how much of TSFM's performance degradation under a lower SF reflects information loss rather than a limitation of their abilities. These findings reframe SF-invariance as a measurable, signal-aware property of the (signal X TSFM) pair, and guide practitioners on when TSFMs display SF-invariance.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.14425v1",
+        "images": [],
+        "ageHours": 38,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:aeaf0aa6d1baf971",
+          "title:f218b48f933437e3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:991ad48e8559b2fe": {
+      "id": "defer:url:991ad48e8559b2fe",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:991ad48e8559b2fe",
+        "title:3e3b52b86100505e"
+      ],
+      "canonical": "https://openai.com/index/introducing-businesses-chatgpt",
+      "title": "Introducing Businesses in ChatGPT",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Introducing Businesses in ChatGPT",
+        "link": "https://openai.com/index/introducing-businesses-chatgpt",
+        "canonical": "https://openai.com/index/introducing-businesses-chatgpt",
+        "published": "Tue, 10 Nov 2026 10:00:00 GMT",
+        "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/introducing-businesses-chatgpt",
+        "images": [],
+        "ageHours": 46,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:991ad48e8559b2fe",
+          "title:3e3b52b86100505e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9092d5eb66f29547": {
+      "id": "defer:url:9092d5eb66f29547",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:9092d5eb66f29547",
+        "title:9793fa4742be1b16"
+      ],
+      "canonical": "https://openai.com/index/singapore-airlines-travel-work",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+        "link": "https://openai.com/index/singapore-airlines-travel-work",
+        "canonical": "https://openai.com/index/singapore-airlines-travel-work",
+        "published": "Tue, 10 Nov 2026 08:00:00 GMT",
+        "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/singapore-airlines-travel-work",
+        "images": [],
+        "ageHours": 48,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9092d5eb66f29547",
+          "title:9793fa4742be1b16"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f3fc54cd1d78c100": {
+      "id": "defer:url:f3fc54cd1d78c100",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f3fc54cd1d78c100",
+        "title:91dd78e5975de797"
+      ],
+      "canonical": "https://openai.com/index/ai-effect-on-freelance-work",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Work at the Frontier: AI’s effect on freelance work",
+        "link": "https://openai.com/index/ai-effect-on-freelance-work",
+        "canonical": "https://openai.com/index/ai-effect-on-freelance-work",
+        "published": "Tue, 10 Nov 2026 07:00:00 GMT",
+        "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/ai-effect-on-freelance-work",
+        "images": [],
+        "ageHours": 49,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f3fc54cd1d78c100",
+          "title:91dd78e5975de797"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:cb93d68b445c05b0": {
+      "id": "defer:url:cb93d68b445c05b0",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:cb93d68b445c05b0",
+        "title:5aba55565f00e5fa"
+      ],
+      "canonical": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+        "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+        "canonical": "https://huggingface.co/blog/hub-gcp-marketplace",
+        "published": "Tue, 10 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/hub-gcp-marketplace",
+        "images": [],
+        "ageHours": 56,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:cb93d68b445c05b0",
+          "title:5aba55565f00e5fa"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:952d2516af2e9054": {
+      "id": "defer:url:952d2516af2e9054",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:952d2516af2e9054",
+        "title:f40a91761a021c6e"
+      ],
+      "canonical": "https://openai.com/index/control-room",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "link": "https://openai.com/index/control-room",
+        "canonical": "https://openai.com/index/control-room",
+        "published": "Mon, 09 Nov 2026 13:00:00 GMT",
+        "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/control-room",
+        "images": [],
+        "ageHours": 67,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:952d2516af2e9054",
+          "title:f40a91761a021c6e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e09fad6dcc25f1ba": {
+      "id": "defer:url:e09fad6dcc25f1ba",
+      "at": "2026-11-12T08:02:13.146Z",
+      "firstAt": "2026-11-12T08:02:13.146Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:e09fad6dcc25f1ba",
+        "title:ab2622bb492b3497"
+      ],
+      "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+        "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+        "published": "Wed, 11 Nov 2026 09:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp\">A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 23,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e09fad6dcc25f1ba",
+          "title:ab2622bb492b3497"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9759,6 +9902,37 @@
           "at": "2026-11-12T05:01:41.609Z"
         }
       ]
+    },
+    "2026-11-12T11:30+03:30": {
+      "at": "2026-11-12T08:06:29.031Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/11-30",
+      "messageId": 61,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0030199008,
+      "tokens": 27946,
+      "qa": "47/47",
+      "posts": [
+        {
+          "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 61,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0015778,
+          "tokens": 10244,
+          "qa": "47/47",
+          "image": true,
+          "offer": true,
+          "at": "2026-11-12T08:06:29.031Z"
+        }
+      ]
     }
   },
   "published": [
@@ -10575,93 +10749,110 @@
       "sourceTitle": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease — Google DeepMind",
       "sourceText": "گوگل دیپ‌مایند مدل جدید AlphaGenome 2 رو معرفی کرد که پیش‌بینی می‌کنه تغییرات DNA چطور روی سلول‌های مختلف بدن اثر می‌ذارن.\n\nمدل قبلی روی بافت‌های کلی کار می‌کرد، این یکی تک‌تک سلول‌ها رو جدا بررسی می‌کنه. روی بیش از ۱۰۰ میلیون پروفایل سلولی از ۶۸ بافت آموزش دیده و تقریبا دو برابر مدل قبلی، واریانت‌هایی که بیان ژن رو تغییر می‌دن رو پیدا می‌کنه.\n\nبرای پژوهش غیرتجاری از طریق AlphaGenome API در دسترسه:\ndeepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n\n@dunijet_ai\n\n❤1",
       "at": "2026-11-12T05:01:41.610Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-12T11:30+03:30",
+      "category": "tools",
+      "kind": "offer",
+      "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
+      "why": "اهمیتش اینه که توسعه‌دهنده‌ها می‌تونن به‌جای آموزش طبقه‌بند اختصاصی، فقط گزینه‌ها رو تعریف کنن و جواب سریع و ارزون بگیرن.\nبدون تاریخ انقضای اعلام‌شده؛ پیش از اقدام، صفحهٔ رسمی را ببینید",
+      "dedupe_key": "google-gemini-decisions-api-launch",
+      "post_key": "2026-11-12/11-30/1",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official_blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "sourceTitle": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "sourceText": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.\nWe are introducing the Gemini Decisions API to help you make fast, probabilistic choices across text, images, audio, video, and PDFs. This tool computes confidence scores for multiple questions in a single pass, providing a cost-effective way to route queries, grade content, or check policy rules. You can start building today by accessing your API key in Google AI Studio and reviewing our documentation for Python, JavaScript, and REST guides.\nToday, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio .\nThe Decisions API gives you purpose-built primitives for bounded choices like tool selection, policy checks, model routing, and context grading. You can pass one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) along with up to 1,000 independent questions. Rather than generating answer text token by token, Gemini Decision 1 scores your candidate options in a single forward pass, returning probabilities and confidence scores in 150-250 ms end-to-end latency at $0.10 per 1M input tokens with zero output tokens billed.\nOn benchmarks spanning agent routing, reasoning, ranking, and multimodal understanding, Gemini Decision 1 leads across the suite, with the lowest calibration error.\nGe",
+      "at": "2026-11-12T08:06:29.031Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8380,
-      "last_at": "2026-11-11T20:44:44+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "last_id": 8383,
+      "last_at": "2026-11-12T07:32:21+00:00",
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "ai_farshad": {
       "last_id": 6410,
       "last_at": "2026-11-11T19:30:24+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7198,
-      "last_at": "2026-11-12T04:46:31+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "last_id": 7199,
+      "last_at": "2026-11-12T06:44:34+00:00",
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "techiin_ir": {
       "last_id": 20754,
       "last_at": "2026-11-11T11:02:25+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "mgh_mobin": {
-      "last_id": 473,
-      "last_at": "2026-11-11T12:08:19+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "last_id": 475,
+      "last_at": "2026-11-12T06:12:45+00:00",
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "web3nabu": {
-      "last_id": 2154,
-      "last_at": "2026-11-10T17:26:53+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "last_id": 2156,
+      "last_at": "2026-11-12T05:50:42+00:00",
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "asrnovin_ir": {
       "last_id": 11444,
       "last_at": "2026-11-11T19:41:25+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "shayanode": {
-      "last_id": 150,
-      "last_at": "2026-11-11T20:41:28+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "last_id": 157,
+      "last_at": "2026-11-12T07:28:05+00:00",
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "codecloude": {
-      "last_id": 2581,
-      "last_at": "2026-11-11T19:20:40+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "last_id": 2582,
+      "last_at": "2026-11-12T06:02:41+00:00",
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "dunijet_ai": {
       "last_id": 2538,
       "last_at": "2026-11-11T19:41:42+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "MatinSenPaii": {
-      "last_id": 5851,
-      "last_at": "2026-11-12T04:24:01+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "last_id": 5852,
+      "last_at": "2026-11-12T06:14:37+00:00",
+      "checked_at": "2026-11-12T08:00:46.543Z"
     },
     "thenimaonAI": {
       "last_id": 494,
       "last_at": "2026-11-11T06:58:03+00:00",
-      "checked_at": "2026-11-12T05:00:48.373Z"
+      "checked_at": "2026-11-12T08:00:46.543Z"
     }
   },
   "offerReviews": [
@@ -12548,6 +12739,30 @@
       "slot": "2026-11-12T08:30+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-shayanode|https://t.me/shayanode/152",
+      "date": "2026-11-12",
+      "at": "2026-11-12T08:00:46.543Z",
+      "source": "tg-shayanode",
+      "title": "داشتم فکر میکردم یه سیستم اتومیشن بسازم که خودش اخبار روز هوش مصنوعی رو آپلود کنه",
+      "url": "https://t.me/shayanode/152",
+      "reason": "no_link",
+      "slot": "2026-11-12T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7199",
+      "date": "2026-11-12",
+      "at": "2026-11-12T08:00:46.543Z",
+      "source": "tg-mohammad-zammani",
+      "title": "خیلی وقت‌ها توی دنیای هوش مصنوعی، ما داریم از یک فیل برای جابه‌جا کردن یک فنجون",
+      "url": "https://t.me/Mohammad_zammani/7199",
+      "reason": "denied_link",
+      "slot": "2026-11-12T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -12705,5 +12920,18 @@
     "at": "2026-11-12T05:00:48.373Z",
     "found": 1,
     "delivered": 1
+  },
+  "openOffers": {
+    "blog.google": {
+      "key": "blog.google",
+      "vendor": "blog.google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
+      "firstSeen": "2026-11-12T08:00:46.543Z",
+      "publishedAt": "2026-11-12T08:00:46.543Z",
+      "lastCheck": "2026-11-12T08:00:46.543Z",
+      "status": "active",
+      "misses": 0
+    }
   }
 }
