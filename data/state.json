@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T17:52:12.744Z",
+  "updatedAt": "2026-11-12T19:45:11.981Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6707,716 +6707,140 @@
       "slot": "2026-11-12T20:30+03:30",
       "title": "Scientists are using Google AI to help restore giant kelp forests.",
       "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia"
+    },
+    "url:4a496b32dce8dcb7": {
+      "at": "2026-11-12T19:30:58.500Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question"
+    },
+    "title:d21c0b90dbda171b": {
+      "at": "2026-11-12T19:30:58.500Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question"
+    },
+    "url:b16769d670e4686a": {
+      "at": "2026-11-12T19:30:58.500Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "🚀 مدل جدید Gemini 4 Hydrogen منتشر شد! این مدل هم‌اکنون در پلتفرم Antigravity و Gemini",
+      "url": "https://t.me/ArchiveTell/8393"
+    },
+    "title:96f6f5030e0feb6f": {
+      "at": "2026-11-12T19:30:58.500Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "🚀 مدل جدید Gemini 4 Hydrogen منتشر شد! این مدل هم‌اکنون در پلتفرم Antigravity و Gemini",
+      "url": "https://t.me/ArchiveTell/8392"
+    },
+    "url:70fda23a3baffd68": {
+      "at": "2026-11-12T19:30:58.500Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "🚀 مدل جدید Gemini 4 Hydrogen منتشر شد! این مدل هم‌اکنون در پلتفرم Antigravity و Gemini",
+      "url": "https://t.me/ArchiveTell/8392"
+    },
+    "url:04b85e19d73b9555": {
+      "at": "2026-11-12T19:30:59.370Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "✅ گوگل از یک مدل تصمیم‌گیری Gemini Decision 1 رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20762"
+    },
+    "title:7cf271a0bfc2c532": {
+      "at": "2026-11-12T19:30:59.370Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "✅ گوگل از یک مدل تصمیم‌گیری Gemini Decision 1 رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20762"
+    },
+    "url:3592abfbb5d166bc": {
+      "at": "2026-11-12T19:30:59.631Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "یه مقایسه ریز از Gemini 4 Hydrogen و Fable 5.2 ببینیم 🚀",
+      "url": "https://t.me/ArchiveTell/8398"
+    },
+    "title:0e9039338a4e3cfd": {
+      "at": "2026-11-12T19:30:59.631Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "یه مقایسه ریز از Gemini 4 Hydrogen و Fable 5.2 ببینیم 🚀",
+      "url": "https://t.me/ArchiveTell/8398"
+    },
+    "url:a3bd5733a2586b98": {
+      "at": "2026-11-12T19:30:59.821Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "آموزش ساخت ویدیو با هوش مصنوعی کلاد | کسب درآمد با هوش مصنوعی",
+      "url": "https://youtu.be/njNBZv_IoRw"
+    },
+    "title:aa5bf9055fc802e1": {
+      "at": "2026-11-12T19:30:59.821Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "آموزش ساخت ویدیو با هوش مصنوعی کلاد | کسب درآمد با هوش مصنوعی",
+      "url": "https://youtu.be/njNBZv_IoRw"
+    },
+    "url:3f9a3e781bc89569": {
+      "at": "2026-11-12T19:33:10.773Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
+      "url": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most"
+    },
+    "title:5613f500b0541b9f": {
+      "at": "2026-11-12T19:33:10.773Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
+      "url": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most"
+    },
+    "url:19b4fcb1faac9c9b": {
+      "at": "2026-11-12T19:45:11.979Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy"
+    },
+    "title:75830c06b846929a": {
+      "at": "2026-11-12T19:45:11.979Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-12T23:00+03:30",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy"
     }
   },
   "deferred": {
-    "defer:url:65b96c238445cded": {
-      "id": "defer:url:65b96c238445cded",
-      "at": "2026-11-12T10:33:01.764Z",
-      "firstAt": "2026-11-11T10:31:11.253Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_consecutive",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:65b96c238445cded",
-        "title:01e1e211c653e911"
-      ],
-      "canonical": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Gilbert + Tobin rethinks the business of law with AI",
-        "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
-        "canonical": "https://openai.com/index/gilbert-tobin-sam-nickless",
-        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-        "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
-        "images": [],
-        "ageHours": -13.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:65b96c238445cded",
-          "title:01e1e211c653e911"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:65b96c238445cded",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:88d1ecd11797604c": {
-      "id": "defer:url:88d1ecd11797604c",
-      "at": "2026-11-12T11:26:08.972Z",
-      "firstAt": "2026-11-11T19:31:31.586Z",
-      "attempts": 3,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:88d1ecd11797604c",
-        "title:65b559b0448a1369"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/11/llm",
-      "title": "llm 0.37.2",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "llm 0.37.2",
-        "link": "https://simonwillison.net/2026/Nov/11/llm/",
-        "canonical": "https://simonwillison.net/2026/Nov/11/llm",
-        "published": "2026-11-11T17:19:52+00:00",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.2\">llm 0.37.2</a></p> <p>Fixes a security issue reported by <a href=\"https://github.com/BluePlexus\">Daniel de Araujo</a> in <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862\">GHSA-v9h7-jj4g-f862</a> and <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w\">GHSA-r639-rr7r-x72w</a>.</p> <p>LLM has a mechanism called <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">extra-openai-models.yaml</a> - now managed by the new-in-0.37 <a href=\"https://llm.datasette.io/en/stable/other-models.html#openai-endpoint-add\">llm openai endpoint add</a> command - for using LLM with OpenAI-compatible API endpoints from other providers.</p> <p>Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by <code>api_key_name</code> had never been stored, or if a <code>responses: true</code> model was run with <code>-o chat_completions 1</code>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/releases\">releases</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/11/llm/",
-        "images": [],
-        "ageHours": 2.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:88d1ecd11797604c",
-          "title:65b559b0448a1369"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:88d1ecd11797604c",
-          "attempts": 2
-        }
-      },
-      "detail": "tools"
-    },
-    "defer:url:e2c2882f272c7eb7": {
-      "id": "defer:url:e2c2882f272c7eb7",
-      "at": "2026-11-12T05:01:10.909Z",
-      "firstAt": "2026-11-12T05:01:10.909Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:e2c2882f272c7eb7",
-        "title:fcc85c1c8e29972a"
-      ],
-      "canonical": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
-      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-        "link": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-        "canonical": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
-        "published": "Wed, 11 Nov 2026 20:12:46 +0000",
-        "summary": "Google Deepmind's new Gemini Decisions API evaluates up to 1,000 closed-ended questions in a single pass across text, images, audio, and video. Gemini Decision 1 returns results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google. The article Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_logo_wall.png"
-        ],
-        "ageHours": 8.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e2c2882f272c7eb7",
-          "title:fcc85c1c8e29972a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3f9a3e781bc89569": {
-      "id": "defer:url:3f9a3e781bc89569",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3f9a3e781bc89569",
-        "title:5613f500b0541b9f"
-      ],
-      "canonical": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
-      "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
-        "link": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
-        "canonical": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
-        "published": "Wed, 11 Nov 2026 18:00:46 +0000",
-        "summary": "Abacus.AI applied the same fine-tuning recipe to three very different open-weight models. The gains landed in completely different places & that tells you more than any single benchmark score.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/download-82.png"
-        ],
-        "ageHours": 14,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3f9a3e781bc89569",
-          "title:5613f500b0541b9f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:19b4fcb1faac9c9b": {
-      "id": "defer:url:19b4fcb1faac9c9b",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:19b4fcb1faac9c9b",
-        "title:75830c06b846929a"
-      ],
-      "canonical": "https://huggingface.co/blog/qvac/botpsy",
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-        "link": "https://huggingface.co/blog/qvac/botpsy",
-        "canonical": "https://huggingface.co/blog/qvac/botpsy",
-        "published": "Wed, 11 Nov 2026 05:01:16 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/qvac/botpsy",
-        "images": [],
-        "ageHours": 27,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:19b4fcb1faac9c9b",
-          "title:75830c06b846929a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:55ff14dc4213127d": {
-      "id": "defer:url:55ff14dc4213127d",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:55ff14dc4213127d",
-        "title:032ef03cae63b865"
-      ],
-      "canonical": "https://openai.com/index/jiostar-vijay-seshadri",
-      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-        "link": "https://openai.com/index/jiostar-vijay-seshadri",
-        "canonical": "https://openai.com/index/jiostar-vijay-seshadri",
-        "published": "Wed, 11 Nov 2026 00:00:00 GMT",
-        "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/jiostar-vijay-seshadri",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:55ff14dc4213127d",
-          "title:032ef03cae63b865"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f71eb42d53626886": {
-      "id": "defer:url:f71eb42d53626886",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f71eb42d53626886",
-        "title:986f025b6141d458"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14432v1",
-      "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
-        "link": "https://arxiv.org/abs/2611.14432v1",
-        "canonical": "https://arxiv.org/abs/2611.14432v1",
-        "published": "2026-11-10T18:06:16Z",
-        "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our 1st-place 2025 solution, which is based on $π_{0.5}$. On the 50 tasks shared with 2025, its Q rises from 0.260 to 0.371; across all 100 tasks it scores 0.392. Our main conclusion from 2025 was that the model was undertrained, so most of the 2026 work went into training the model for longer, optimizing some training parameters, making each training step slightly faster and reducing the gradient noise: a migration from 50 to 100 tasks (semantic stages built from the demonstrations' skill annotations, task and stage embeddings of new tasks warm-started from similar old ones, and a 21-dimensional action space matching the teleoperation controls); variance-reduced multi-sample flow matching with a simple noise-vs-compute model that picks the number of action-expert samples per observation without ablations; and a 200k-step training run, about one pass over the 211M frames of the demonstrations. A cloud evaluation infrastructure keeps a shared record with provenance, episode diagnostics and restorable simulator states, and runs six simulators on one GPU together faster than real time. On top of the learned policy, 14 tasks are routed to a GPT-6 Astra coding agent that controls the robot through observation and motion tools, starting every episode from a frozen copy of its own practice session on training instances. Across these 14 tasks, Astra's mean Q is 0.639, against 0.108 for the learned policy. The public submission included only part of the Astra results and scored 0.446 Q with 27.3% full-task success.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14432v1",
-        "images": [],
-        "ageHours": 37.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f71eb42d53626886",
-          "title:986f025b6141d458"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f622f9d2ba58b773": {
-      "id": "defer:url:f622f9d2ba58b773",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f622f9d2ba58b773",
-        "title:7895864e38e593b2"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14419v1",
-      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
-        "link": "https://arxiv.org/abs/2611.14419v1",
-        "canonical": "https://arxiv.org/abs/2611.14419v1",
-        "published": "2026-11-10T17:58:12Z",
-        "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14419v1",
-        "images": [],
-        "ageHours": 38,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f622f9d2ba58b773",
-          "title:7895864e38e593b2"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:aeaf0aa6d1baf971": {
-      "id": "defer:url:aeaf0aa6d1baf971",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:aeaf0aa6d1baf971",
-        "title:f218b48f933437e3"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.14425v1",
-      "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
-        "link": "https://arxiv.org/abs/2611.14425v1",
-        "canonical": "https://arxiv.org/abs/2611.14425v1",
-        "published": "2026-11-10T18:01:23Z",
-        "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF changes, provided the SF retains task-critical bandwidth. In this paper, we stress-test 4 prominent TSFMs: MOMENT, Chronos-2, Moirai-MoE, and TimesFM, to quantify their SF-invariance and investigate whether their behavior tracks the resulting loss of information bandwidth rather than the SF value itself. Our stress-test probes 3 dimensions: (i) the shift in embeddings, (ii) the degradation in forecasting performance, and (iii) the degradation in downstream performance, quantified by three novel metrics: FSI, FDI, and CDI, respectively. To our knowledge, this is the first study to place SF-invariance at the core of TSFM evaluations. Our results characterize: (i) how SF-invariance depends on the margin between signal's native-SF and the bandwidth its task requires, (ii) how much of that invariance the choice of TSFM explains, and (iii) how much of TSFM's performance degradation under a lower SF reflects information loss rather than a limitation of their abilities. These findings reframe SF-invariance as a measurable, signal-aware property of the (signal X TSFM) pair, and guide practitioners on when TSFMs display SF-invariance.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.14425v1",
-        "images": [],
-        "ageHours": 38,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:aeaf0aa6d1baf971",
-          "title:f218b48f933437e3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:991ad48e8559b2fe": {
-      "id": "defer:url:991ad48e8559b2fe",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:991ad48e8559b2fe",
-        "title:3e3b52b86100505e"
-      ],
-      "canonical": "https://openai.com/index/introducing-businesses-chatgpt",
-      "title": "Introducing Businesses in ChatGPT",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Introducing Businesses in ChatGPT",
-        "link": "https://openai.com/index/introducing-businesses-chatgpt",
-        "canonical": "https://openai.com/index/introducing-businesses-chatgpt",
-        "published": "Tue, 10 Nov 2026 10:00:00 GMT",
-        "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/introducing-businesses-chatgpt",
-        "images": [],
-        "ageHours": 46,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:991ad48e8559b2fe",
-          "title:3e3b52b86100505e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9092d5eb66f29547": {
-      "id": "defer:url:9092d5eb66f29547",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9092d5eb66f29547",
-        "title:9793fa4742be1b16"
-      ],
-      "canonical": "https://openai.com/index/singapore-airlines-travel-work",
-      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-        "link": "https://openai.com/index/singapore-airlines-travel-work",
-        "canonical": "https://openai.com/index/singapore-airlines-travel-work",
-        "published": "Tue, 10 Nov 2026 08:00:00 GMT",
-        "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/singapore-airlines-travel-work",
-        "images": [],
-        "ageHours": 48,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9092d5eb66f29547",
-          "title:9793fa4742be1b16"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f3fc54cd1d78c100": {
-      "id": "defer:url:f3fc54cd1d78c100",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f3fc54cd1d78c100",
-        "title:91dd78e5975de797"
-      ],
-      "canonical": "https://openai.com/index/ai-effect-on-freelance-work",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Work at the Frontier: AI’s effect on freelance work",
-        "link": "https://openai.com/index/ai-effect-on-freelance-work",
-        "canonical": "https://openai.com/index/ai-effect-on-freelance-work",
-        "published": "Tue, 10 Nov 2026 07:00:00 GMT",
-        "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/ai-effect-on-freelance-work",
-        "images": [],
-        "ageHours": 49,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f3fc54cd1d78c100",
-          "title:91dd78e5975de797"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cb93d68b445c05b0": {
-      "id": "defer:url:cb93d68b445c05b0",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:cb93d68b445c05b0",
-        "title:5aba55565f00e5fa"
-      ],
-      "canonical": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-        "link": "https://huggingface.co/blog/hub-gcp-marketplace",
-        "canonical": "https://huggingface.co/blog/hub-gcp-marketplace",
-        "published": "Tue, 10 Nov 2026 00:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/hub-gcp-marketplace",
-        "images": [],
-        "ageHours": 56,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:cb93d68b445c05b0",
-          "title:5aba55565f00e5fa"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e09fad6dcc25f1ba": {
-      "id": "defer:url:e09fad6dcc25f1ba",
-      "at": "2026-11-12T08:02:13.146Z",
-      "firstAt": "2026-11-12T08:02:13.146Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e09fad6dcc25f1ba",
-        "title:ab2622bb492b3497"
-      ],
-      "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-        "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
-        "published": "Wed, 11 Nov 2026 09:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp\">A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 23,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e09fad6dcc25f1ba",
-          "title:ab2622bb492b3497"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:58950b1145824a10": {
-      "id": "defer:url:58950b1145824a10",
-      "at": "2026-11-12T10:33:01.725Z",
-      "firstAt": "2026-11-12T10:33:01.725Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:58950b1145824a10",
-        "title:e2f294d987b31067"
-      ],
-      "canonical": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
-      "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
-        "link": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-        "canonical": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
-        "published": "Thu, 12 Nov 2026 10:09:56 +0000",
-        "summary": "Australia's government, led by Prime Minister Anthony Albanese, wants to enshrine mandatory safety rules for frontier AI companies in law for the first time. A new regulator would enforce independent model audits and impose steep penalties for violations. With this move, Canberra is deliberately prioritizing domestic regulation before entering international talks. The article Australia's proposed AI safety bill would force frontier model makers to open up to independent testing appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/australia_ai_safety.png"
-        ],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:58950b1145824a10",
-          "title:e2f294d987b31067"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:4922ca6fb0dd9299": {
       "id": "defer:url:4922ca6fb0dd9299",
       "at": "2026-11-12T17:51:46.201Z",
@@ -7468,149 +6892,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:53c53ed6d09c6324": {
-      "id": "defer:url:53c53ed6d09c6324",
-      "at": "2026-11-12T11:25:00.296Z",
-      "firstAt": "2026-11-12T11:25:00.296Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:53c53ed6d09c6324",
-        "title:3082caacdae657d4"
-      ],
-      "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
-      "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
-        "link": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-        "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
-        "published": "Wed, 11 Nov 2026 12:53:07 +0000",
-        "summary": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible. The article Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/05/grok_xai_logo.png"
-        ],
-        "ageHours": 22.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:53c53ed6d09c6324",
-          "title:3082caacdae657d4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d4775ff20e725a99": {
-      "id": "defer:url:d4775ff20e725a99",
-      "at": "2026-11-12T11:25:00.296Z",
-      "firstAt": "2026-11-12T11:25:00.296Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:d4775ff20e725a99",
-        "title:fe7c0054b8168042"
-      ],
-      "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
-      "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
-        "link": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-        "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
-        "published": "Wed, 11 Nov 2026 12:12:47 +0000",
-        "summary": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now fueling a price war for enterprise customers. The article Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-1.png"
-        ],
-        "ageHours": 23.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:d4775ff20e725a99",
-          "title:fe7c0054b8168042"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4b2816a1ecc32e3e": {
-      "id": "defer:url:4b2816a1ecc32e3e",
-      "at": "2026-11-12T11:25:00.296Z",
-      "firstAt": "2026-11-12T11:25:00.296Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4b2816a1ecc32e3e",
-        "title:f9f3d1c07f87ac0d"
-      ],
-      "canonical": "https://www.producthunt.com/products/adobe-ai-assistant",
-      "title": "Adobe AI Assistant",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Adobe AI Assistant",
-        "link": "https://www.producthunt.com/products/adobe-ai-assistant",
-        "canonical": "https://www.producthunt.com/products/adobe-ai-assistant",
-        "published": "2026-11-10T10:55:39-08:00",
-        "summary": "<p> Create and edit faster with AI across Adobe apps </p> <p> <a href=\"https://www.producthunt.com/products/adobe-ai-assistant?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1311866?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/adobe-ai-assistant",
-        "images": [],
-        "ageHours": 40.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4b2816a1ecc32e3e",
-          "title:f9f3d1c07f87ac0d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:8922d709796f6fff": {
       "id": "defer:url:8922d709796f6fff",
@@ -9093,6 +8374,906 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:341363dd4020e2e5": {
+      "id": "defer:url:341363dd4020e2e5",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:341363dd4020e2e5",
+        "title:133a590a669f1e3d"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+        "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+        "canonical": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+        "published": "Thu, 12 Nov 2026 19:27:45 +0000",
+        "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+        "images": [],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:341363dd4020e2e5",
+          "title:133a590a669f1e3d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d458704933992cfa": {
+      "id": "defer:url:d458704933992cfa",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:d458704933992cfa",
+        "title:39c994869d9e03fa"
+      ],
+      "canonical": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+        "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+        "canonical": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+        "published": "Thu, 12 Nov 2026 19:23:03 +0000",
+        "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-500x500.jpg"
+        ],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:d458704933992cfa",
+          "title:39c994869d9e03fa"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7378b831add56415": {
+      "id": "defer:url:7378b831add56415",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7378b831add56415",
+        "title:f5616701a2309529"
+      ],
+      "canonical": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+      "title": "United to block customers from using AI agents, citing cyber threats",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "United to block customers from using AI agents, citing cyber threats",
+        "link": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+        "canonical": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+        "published": "Thu, 12 Nov 2026 19:20:00 GMT",
+        "summary": "“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases\" and more, United Airlines said.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+        "images": [
+          "http://cms.therecord.media/uploads/united_airlineslukas_souza_unsplash_b9dd803335.jpg"
+        ],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:7378b831add56415",
+          "title:f5616701a2309529"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d77c24751633c870": {
+      "id": "defer:url:d77c24751633c870",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:d77c24751633c870",
+        "title:076a611f67b0fcfb"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+        "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+        "canonical": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+        "published": "Thu, 12 Nov 2026 19:11:00 +0000",
+        "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+        "images": [],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:d77c24751633c870",
+          "title:076a611f67b0fcfb"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:acfb8ed23481a99f": {
+      "id": "defer:url:acfb8ed23481a99f",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:acfb8ed23481a99f",
+        "title:f0795e12ebdd5f8c"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+        "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+        "published": "Thu, 12 Nov 2026 18:57:45 +0000",
+        "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-500x500-1794505063.jpeg"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:acfb8ed23481a99f",
+          "title:f0795e12ebdd5f8c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7ed04b33e97e89aa": {
+      "id": "defer:url:7ed04b33e97e89aa",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:7ed04b33e97e89aa",
+        "title:f921b57445423b21"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "candidate": {
+        "sourceId": "google-models-research",
+        "sourceName": "Google Models & Research",
+        "sourceType": "official_blog",
+        "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+        "link": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+        "canonical": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen",
+        "published": "Thu, 12 Nov 2026 18:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hydrogen_socialshare.max-600x600.format-webp.webp\">Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hydrogen_socialshare.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7ed04b33e97e89aa",
+          "title:f921b57445423b21"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c5324f23ea2e54f8": {
+      "id": "defer:url:c5324f23ea2e54f8",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c5324f23ea2e54f8",
+        "title:1863d921f1616fb9"
+      ],
+      "canonical": "https://github.com/lemomo-ai/lemo-opuscar",
+      "title": "GitHub - lemomo-ai/lemo-opuscar: A toolbox of film styles made in code for Claude Code: 99 ready",
+      "candidate": {
+        "sourceId": "tg-miladxtalks",
+        "sourceName": "MiladXtalks | آموزش هوش مصنوعی",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - lemomo-ai/lemo-opuscar: A toolbox of film styles made in code for Claude Code: 99 ready",
+        "link": "https://github.com/lemomo-ai/lemo-opuscar",
+        "canonical": "https://github.com/lemomo-ai/lemo-opuscar",
+        "messageText": "یوتیوب الان یکی از بهترین فرصت‌هاست 🎬\n\nتا همین پارسال برای یه موشن‌گرافیک خوب یا باید افترافکت بلد می‌بودی، یا به یه تیم پول می‌دادی.\n\nالان با Claude و چند تا پرامپتِ درست می‌شه یه ویدیوی کامل رو از صفر ساخت؛ بدون دوربین، بدون ادیت.\n\nهنوز خیلی‌ها نمی‌دونن این کار شدنیه، و همین یعنی فرصت.\n\nروراست بگم: قول درآمد به کسی نمی‌دم. ولی ساختن ویدیوی باکیفیت دیگه هیچ‌وقت این‌قدر در دسترس نبوده.\n\nیوتیوب هم با خودِ هوش مصنوعی مشکلی نداره؛ با محتوای انبوه و تکراری مشکل داره. پس کم بساز، خوب بساز.\n\nاین ۱۰ تا ریپوی گیت‌هاب کیفیت کارت رو چند برابر می‌کنه 👇\n\n۱. نزدیک صد تا استایل سینمایی آماده\nلینک: \n\n۲. صحنه‌های سه‌بعدی با حرکت دوربین\nلینک: \n\n۳. بیش از دویست تا افکت پیکسل‌آرت\nلینک: \n\n۴. کنترل Blender به دست خودِ Claude\nلینک: \n\n۵. دو تا بسته‌ی پرامپت آماده با نمونه ویدیو\nلینک اول: \nلینک دوم: \n\n۶. استایل کارتونیِ نقاشی‌شده با دست\nلینک: \n\n۷. فیزیک واقعی، مثل دومینو و ریزش برج\nلینک: \n\n۸. نور سینمایی، درخشش و گرِین فیلم\nلینک: \n\n۹. هماهنگ‌کردن حرکت‌ها با بیت موزیک\nلینک: \n\n۱۰. بیش از صد تا دستور آماده برای پرومو\nلینک: \n\nپیشنهاد من: برای اولین ویدیوت فقط یکی رو انتخاب کن و با شماره‌ی ۱ شروع کن.\n\nآموزش کامل و قدم‌به‌قدم رو توی این ویدیو گذاشتم، خودِ ویدیو رو هم Claude ساخته 👇",
+        "leadPostUrl": "https://t.me/miladxtalks/242",
+        "published": "2026-11-12T18:02:35+00:00",
+        "summary": "",
+        "images": [],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/lemomo-ai/lemo-opuscar",
+          "https://github.com/mrdoob/three.js",
+          "https://github.com/patch-gg/pixelfx",
+          "https://github.com/ahujasid/mcp-for-blender",
+          "https://github.com/yihui-dev/awesome-opus5-5-videos",
+          "https://github.com/joeseesun/opus-video-prompts",
+          "https://github.com/JohnHeibel/ClaudeAnimationBase",
+          "https://github.com/pmndrs/react-three-rapier",
+          "https://github.com/pmndrs/react-postprocessing",
+          "https://github.com/librosa/librosa",
+          "https://github.com/Vincentwei1021/video-shotcraft",
+          "https://youtu.be/njNBZv_IoRw"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:c5324f23ea2e54f8",
+          "title:1863d921f1616fb9"
+        ],
+        "leadSource": "miladxtalks",
+        "leadMessageId": 242,
+        "leadChannelUrl": "https://t.me/miladxtalks",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:d6d23163b98ddfa1": {
+      "id": "defer:url:d6d23163b98ddfa1",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:d6d23163b98ddfa1",
+        "title:2028646c0f396d17"
+      ],
+      "canonical": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+        "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+        "canonical": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+        "published": "Thu, 12 Nov 2026 18:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp\">We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d6d23163b98ddfa1",
+          "title:2028646c0f396d17"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d7c21c501eb23f12": {
+      "id": "defer:url:d7c21c501eb23f12",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:d7c21c501eb23f12",
+        "title:a8a719d9938ca04e"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "candidate": {
+        "sourceId": "google-models-research",
+        "sourceName": "Google Models & Research",
+        "sourceType": "official_blog",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+        "published": "Thu, 12 Nov 2026 18:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-element-hydrogen-light.max-600x600.format-webp.webp\">Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-element-hydrogen-light.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": true,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d7c21c501eb23f12",
+          "title:a8a719d9938ca04e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:44377c8c51e1294d": {
+      "id": "defer:url:44377c8c51e1294d",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:44377c8c51e1294d",
+        "title:3fa29a81c7c348f9"
+      ],
+      "canonical": "https://www.kdnuggets.com/7-free-books-to-learn-about-building-ai-systems",
+      "title": "7 FREE Books to Learn About Building AI Systems",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "7 FREE Books to Learn About Building AI Systems",
+        "link": "https://www.kdnuggets.com/7-free-books-to-learn-about-building-ai-systems",
+        "canonical": "https://www.kdnuggets.com/7-free-books-to-learn-about-building-ai-systems",
+        "published": "Thu, 12 Nov 2026 13:00:00 +0000",
+        "summary": "Building an AI agent is easy. Building one that actually works in production is not. These 7 free books cover the engineering knowledge you need to make that jump.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/7-free-books-to-learn-about-building-ai-systems",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-7-free-books-to-learn-about-building-ai-systems-feature.jpg"
+        ],
+        "ageHours": 6.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:44377c8c51e1294d",
+          "title:3fa29a81c7c348f9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:08f6941bcdbe742c": {
+      "id": "defer:url:08f6941bcdbe742c",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:08f6941bcdbe742c",
+        "title:b1250228d6973fce"
+      ],
+      "canonical": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
+      "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+        "link": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+        "canonical": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
+        "published": "Wed, 11 Nov 2026 19:35:11 +0000",
+        "summary": "According to the Ramp AI Index, US corporate AI spending rose just 1.65 percent in October 2026. One percent of companies still drive 80 percent of revenue for OpenAI and Anthropic. Customer support is emerging as a new growth driver, but it may bring lower margins than the coding business that has fueled spending so far. The article US corporate AI spending hits a new high in October, but growth slows to 1.65 percent appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/02/openai_anthropic_logos-1.jpeg"
+        ],
+        "ageHours": 23.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:08f6941bcdbe742c",
+          "title:b1250228d6973fce"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1e2d7b9998cc9ff1": {
+      "id": "defer:url:1e2d7b9998cc9ff1",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:1e2d7b9998cc9ff1",
+        "title:c032059f41d7360c"
+      ],
+      "canonical": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+        "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+        "canonical": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+        "published": "Wed, 11 Nov 2026 17:37:32 +0000",
+        "summary": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-500x500.png"
+        ],
+        "ageHours": 25.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:1e2d7b9998cc9ff1",
+          "title:c032059f41d7360c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7db3dbf05615c3ed": {
+      "id": "defer:url:7db3dbf05615c3ed",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:7db3dbf05615c3ed",
+        "title:c8cf8ca1b6b76891"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Google DeepMind just mathematically verified key parts of Signal",
+        "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+        "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+        "published": "Wed, 11 Nov 2026 14:08:57 +0000",
+        "summary": "The four-week project hints that AI could make formal verification far more practical.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-500x500.jpg"
+        ],
+        "ageHours": 29.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:7db3dbf05615c3ed",
+          "title:c8cf8ca1b6b76891"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:80500b1292cc170c": {
+      "id": "defer:url:80500b1292cc170c",
+      "at": "2026-11-12T19:30:59.829Z",
+      "firstAt": "2026-11-12T19:30:59.829Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:80500b1292cc170c",
+        "title:af4c97d9488545dd"
+      ],
+      "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+        "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+        "published": "Tue, 10 Nov 2026 21:12:59 +0000",
+        "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp"
+        ],
+        "ageHours": 46.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:80500b1292cc170c",
+          "title:af4c97d9488545dd"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d0a06ec7e03766fa": {
+      "id": "defer:url:d0a06ec7e03766fa",
+      "at": "2026-11-12T19:30:59.830Z",
+      "firstAt": "2026-11-12T19:30:59.830Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:d0a06ec7e03766fa",
+        "title:9522549d99dac6c5"
+      ],
+      "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+      "title": "What happens to mathematics when AI becomes an oracle?",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "What happens to mathematics when AI becomes an oracle?",
+        "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+        "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+        "published": "Tue, 10 Nov 2026 20:30:01 +0000",
+        "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-500x500.jpg"
+        ],
+        "ageHours": 47,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:d0a06ec7e03766fa",
+          "title:9522549d99dac6c5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2ffd7e8cb1f550c6": {
+      "id": "defer:url:2ffd7e8cb1f550c6",
+      "at": "2026-11-12T19:30:59.830Z",
+      "firstAt": "2026-11-12T19:30:59.830Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:2ffd7e8cb1f550c6",
+        "title:9e3d2431e16fd7e5"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark",
+      "title": "Introducing the Multimodal Knowledge Agent benchmark",
+      "candidate": {
+        "sourceId": "google-models-research",
+        "sourceName": "Google Models & Research",
+        "sourceType": "official_blog",
+        "title": "Introducing the Multimodal Knowledge Agent benchmark",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark",
+        "published": "Tue, 10 Nov 2026 16:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/01_Hero_MKA_Benchmark_2784x1566.png\">We’re launching Multimodal Knowledge Agent, a new benchmark to evaluate how agents reason across visually-complex multimodal tasks.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/01_Hero_MKA_Benchmark_2784x1566.png"
+        ],
+        "ageHours": 51.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:2ffd7e8cb1f550c6",
+          "title:9e3d2431e16fd7e5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c86d08502069b5ef": {
+      "id": "defer:url:c86d08502069b5ef",
+      "at": "2026-11-12T19:30:59.830Z",
+      "firstAt": "2026-11-12T19:30:59.830Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:c86d08502069b5ef",
+        "title:878c594308249fa9"
+      ],
+      "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+        "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+        "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+        "published": "Tue, 10 Nov 2026 15:00:39 +0000",
+        "summary": "The new model is up to twice as successful at some tasks.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-500x500-1794257853.jpg"
+        ],
+        "ageHours": 52.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:c86d08502069b5ef",
+          "title:878c594308249fa9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b4cd854bf93930be": {
+      "id": "defer:url:b4cd854bf93930be",
+      "at": "2026-11-12T19:30:59.830Z",
+      "firstAt": "2026-11-12T19:30:59.830Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:b4cd854bf93930be",
+        "title:7335ee7f1f1939f9"
+      ],
+      "canonical": "https://www.producthunt.com/products/spacefast-by-automattic",
+      "title": "Spacefast by Automattic",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Spacefast by Automattic",
+        "link": "https://www.producthunt.com/products/spacefast-by-automattic",
+        "canonical": "https://www.producthunt.com/products/spacefast-by-automattic",
+        "published": "2026-11-09T14:40:16-08:00",
+        "summary": "<p> Give your AI agents a place to build, run, and ship </p> <p> <a href=\"https://www.producthunt.com/products/spacefast-by-automattic?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1310674?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/spacefast-by-automattic",
+        "images": [],
+        "ageHours": 68.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:b4cd854bf93930be",
+          "title:7335ee7f1f1939f9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -10362,6 +10543,52 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "42/42"
+    },
+    "2026-11-12T23:00+03:30": {
+      "at": "2026-11-12T19:33:10.773Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "مدل BotPsy برای دستیار شخصی روی گوشی معرفی شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/23-00-2",
+      "messageId": 66,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0046133808,
+      "tokens": 38141,
+      "qa": "41/42",
+      "posts": [
+        {
+          "title": "خانواده مدل‌های Smaug با فاین‌تیونگ هدفمند معرفی شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 65,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0038449599999999997,
+          "tokens": 25623,
+          "qa": "41/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-12T19:33:10.773Z"
+        },
+        {
+          "title": "مدل BotPsy برای دستیار شخصی روی گوشی معرفی شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 66,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/23-00-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0007684208,
+          "tokens": 12518,
+          "qa": "41/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-12T19:45:11.979Z"
+        }
+      ]
     }
   },
   "published": [
@@ -11246,93 +11473,127 @@
       "sourceTitle": "Scientists are using Google AI to help restore giant kelp forests.",
       "sourceText": "Underwater forests of giant kelp protect coastlines, provide habitat, and support marine ecosystems — but they’re disappearing worldwide due to ocean warming. As COP31 kicks off this week, we’re sharing results from our partnership with Australia's national science agency, CSIRO , which is using AI and genomics to help restore giant kelp .\nThe team recently published two high-quality reference genomes for Australian giant kelp, providing a foundation for conservation genetics work. Next researchers trained a version of Google's open-source AI tool DeepVariant to analyze giant kelp DNA. It sequenced 600 wild specimens collected from 40 sites along the Tasmanian coast, where populations have dwindled to 5% of historic numbers.\nThis video explains how the genetic analysis and partners’ lab-based cross-breeding studies are laying the groundwork for a real-world outcome: giant kelp forests replanted with diverse, heat-tolerant specimens. This effort is part of Google Australia's Digital Futures Initiative .",
       "at": "2026-11-12T17:52:12.742Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-12T23:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "خانواده مدل‌های Smaug با فاین‌تیونگ هدفمند معرفی شد",
+      "why": "این نتایج به توسعه‌دهنده‌ها کمک می‌کنه بفهمن کدوم مدل برای چه کاری بهتره؛ مثلاً Smaug Agentic در ۱۱۳ وظیفه بدون خطا عمل کرده.",
+      "dedupe_key": "abacus-ai-smaug-models-launch",
+      "post_key": "2026-11-12/23-00/1",
+      "sourceId": "kdnuggets",
+      "sourceName": "KDnuggets",
+      "sourceType": "blog",
+      "url": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
+      "sourceTitle": "Smaug by Abacus.AI: Where Performance Gains Are Biggest",
+      "sourceText": "Abacus.AI applied the same fine-tuning recipe to three very different open-weight models. The gains landed in completely different places & that tells you more than any single benchmark score.\nIn all three cases, the gains concentrate where the base model's gaps were widest. Same recipe, different floors.\nAn AI agent could provide an output without completing the task. In real-world scenarios, there is a need for the agent to comprehend the user query, identify an appropriate tool, analyze output, and take subsequent actions. After some number of cycles, the model would veer away from the initial goal, thus compromising on the credibility of the result.\nIt presents a problem for teams developing reliable agents. While a chatbot provides a response to a single request, an agent has to retain its context and make decisions based on related actions. With the extension of workflow, there would be additional cost implications as well as chances of mistakes.\nAbacus.AI experienced similar shortcomings in its own operations, with agentic tasks taking several hours to complete, maintaining a large amount of context from stage to stage, and frequently invoking tools from other documents, APIs, and databases. These operations could run out of steam or not be completed successfully at all. Abacus.AI describes its findings on its research page in the following way: “Making a state-of-the-art model work like a good agent is a training challenge, not a prompting challenge.” General language models, despite their abilities, were not always ready for extended usage. Prompt caching eventuall",
+      "at": "2026-11-12T19:33:10.773Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-12T23:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "مدل BotPsy برای دستیار شخصی روی گوشی معرفی شد",
+      "why": "اهمیتش اینه که خیلی از کارهای روزمره نیازی به مدل‌های سنگین ابری ندارن و این مدل کوچیک می‌تونه همون کارها رو روی دستگاه خودت انجام بده، بدون اینکه داده‌هات به سرور بره.",
+      "dedupe_key": "tether-botpsy-launch",
+      "post_key": "2026-11-12/23-00/2",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "sourceTitle": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "sourceText": "Frontier cloud LLMs carry high operational costs that can fluctuate unexpectedly, and relying on such third-party models introduces vulnerabilities, as providers can modify, deny, or deprecate access at any time. Furthermore, proprietary models offer limited customization for specific workflows, while posing risks to privacy, data control, and transparency. Besides, not every task demands frontier-level intelligence: small, specialized agents can be equally capable on specific tasks and significantly cheaper to run, since many routine or smaller workloads can be processed efficiently on-device. As intelligence per parameter continues to improve rapidly, we aim to stand at the forefront of this shift toward performant, privacy-focused, self-hosted models.\nTether AI Research introduces BotPsy , a 0.8B-parameter model introduce BotPsy , a 0.8B-parameter model designed for function calling and agentic workflows, built on top of Qwen3.5-0.8B and suitable for on-device deployment. BotPsy is a \"personal assistant\" that uses tools to perform a variety of simple tasks for the user, in domains such as web search & research, travel & lifestyle, commerce & finance, business & customer operations, device & vehicle control, files & documents, calendar, and email & messaging. Due to its small parameter count, it is best suited to tasks of low to medium difficulty. BotPsy achieves state-of-the-art (SOTA) tool-use and agentic performance for its size, outperforming every model of up to 1.2B parameters that we tested (Figures 1 and 2). Designed for secure on-device workflows, it provides exc",
+      "at": "2026-11-12T19:45:11.980Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8391,
-      "last_at": "2026-11-12T17:40:35+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "last_id": 8398,
+      "last_at": "2026-11-12T19:11:07+00:00",
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "ai_farshad": {
-      "last_id": 6414,
-      "last_at": "2026-11-12T16:32:06+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "last_id": 6416,
+      "last_at": "2026-11-12T19:02:18+00:00",
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "Mohammad_zammani": {
       "last_id": 7203,
       "last_at": "2026-11-12T14:38:43+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "techiin_ir": {
-      "last_id": 20761,
-      "last_at": "2026-11-12T12:32:23+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "last_id": 20763,
+      "last_at": "2026-11-12T19:10:02+00:00",
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "mgh_mobin": {
       "last_id": 475,
       "last_at": "2026-11-12T06:12:45+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "web3nabu": {
       "last_id": 2158,
       "last_at": "2026-11-12T14:46:25+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "asrnovin_ir": {
       "last_id": 11450,
       "last_at": "2026-11-12T16:41:47+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "shayanode": {
       "last_id": 163,
       "last_at": "2026-11-12T12:55:28+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "dunijet_ai": {
       "last_id": 2543,
       "last_at": "2026-11-12T13:33:17+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "miladxtalks": {
-      "last_id": 241,
-      "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "last_id": 244,
+      "last_at": "2026-11-12T18:03:21+00:00",
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "MatinSenPaii": {
       "last_id": 5852,
       "last_at": "2026-11-12T06:14:37+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     },
     "thenimaonAI": {
       "last_id": 497,
       "last_at": "2026-11-12T10:40:04+00:00",
-      "checked_at": "2026-11-12T17:49:31.843Z"
+      "checked_at": "2026-11-12T19:30:44.705Z"
     }
   },
   "offerReviews": [
@@ -13375,6 +13636,30 @@
       "slot": "2026-11-12T20:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-techiin|https://t.me/techiin_ir/20762",
+      "date": "2026-11-12",
+      "at": "2026-11-12T19:30:44.705Z",
+      "source": "tg-techiin",
+      "title": "✅ گوگل از یک مدل تصمیم‌گیری Gemini Decision 1 رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20762",
+      "reason": "denied_link",
+      "slot": "2026-11-12T23:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8398",
+      "date": "2026-11-12",
+      "at": "2026-11-12T19:30:44.705Z",
+      "source": "tg-archive-tell",
+      "title": "یه مقایسه ریز از Gemini 4 Hydrogen و Fable 5.2 ببینیم 🚀",
+      "url": "https://t.me/ArchiveTell/8398",
+      "reason": "denied_link",
+      "slot": "2026-11-12T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -13538,6 +13823,13 @@
       "url": "https://t.me/shayanode/162",
       "slot": "2026-11-12T17:00+03:30",
       "at": "2026-11-12T13:30:46.351Z"
+    },
+    {
+      "source": "tg-miladxtalks",
+      "title": "آموزش ساخت ویدیو با هوش مصنوعی کلاد | کسب درآمد با هوش مصنوعی",
+      "url": "https://youtu.be/njNBZv_IoRw",
+      "slot": "2026-11-12T23:00+03:30",
+      "at": "2026-11-12T19:30:44.705Z"
     }
   ],
   "reviewPending": {},
