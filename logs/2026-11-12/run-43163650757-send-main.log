@@ -1,0 +1,56 @@
+RUN 43163650757 | send/main | slot auto | 2026-11-12T05:47:04Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-12T08:30+03:30 | WEEK 2026-11-07 | MODE SEND
+QUOTA tools 12/31 | models 11/24 | security 4/11 | business 8/11
+DAILY 1/11
+DIVERSITY_TARGET tools | slot 08:30
+DEFERRED_POOL 49
+  DEFERRED fetch_failed | try 2/3 | Gilbert + Tobin rethinks the business of law with AI
+  DEFERRED source_weekly | try 0/3 | Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass
+  DEFERRED source_weekly | try 0/3 | US corporate AI spending hits a new high in October, but growth slows to 1.65 percent
+  DEFERRED category_consecutive | try 0/3 | Browse tools.simonwillison.net by tag
+  DEFERRED source_weekly | try 0/3 | Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years
+SLOT_ALREADY_DONE 2026-11-12T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-12T05:47:04Z
+# گزارش روزانه 2026-11-12 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 1 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 1
+
+## آمار روز
+- پست ارسال‌شده: 1 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 6
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.001795
+- توکن: 11657
+- میانگین هر پست ارسال‌شده: $0.001795
+
+## سهمیه هفتگی (هفته 2026-11-07)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 12 | 31 | 19 |
+| مدل‌ها و پژوهش | 11 | 24 | 13 |
+| امنیت و حریم خصوصی | 4 | 11 | 7 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 35 | 77 | 42 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/42 | $0.001795 | 11657 | مدل AlphaGenome 2 گوگل دیپ‌مایند معرفی شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 6
+- دلایل: از رصد آفر پیدا شد 1، لینک قابل استفاده ندارد 1، لینک خارجی این پست پذیرفته نشد 2، مدل این مورد را رد کرد 2
+
+## صف تعویق
+- در انتظار: 49
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-12.md
