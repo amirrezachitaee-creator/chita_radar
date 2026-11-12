@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T10:35:29.909Z",
+  "updatedAt": "2026-11-12T11:30:42.398Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6443,6 +6443,58 @@
       "slot": "2026-11-12T14:00+03:30",
       "title": "یه روشی دوستان برام فرستادن که از طریق یه ربات تلگرامی 5 تا رفرال میاری (",
       "url": "https://t.me/asrnovin_ir/11445"
+    },
+    "url:5616dc9d55042151": {
+      "at": "2026-11-12T11:24:59.011Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "💹 سقوط 4 درصدی سهام انویدیا Nvidia پس از انتشار گزارش‌ رابطه‌ی عاطفی دوم جنسن هوانگ!",
+      "url": "https://t.me/techiin_ir/20758"
+    },
+    "title:0fbdb85703be2542": {
+      "at": "2026-11-12T11:24:59.011Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "💹 سقوط 4 درصدی سهام انویدیا Nvidia پس از انتشار گزارش‌ رابطه‌ی عاطفی دوم جنسن هوانگ!",
+      "url": "https://t.me/techiin_ir/20758"
+    },
+    "url:6c7060e1547b1ac2": {
+      "at": "2026-11-12T11:25:00.286Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "Getting Reliable Structured Outputs from LLMs: Validation, Retries and Constrained Decoding",
+      "url": "https://machinelearningmastery.com/getting-reliable-structured-outputs-from-llms-validation-retries-and-constrained-decoding"
+    },
+    "title:514db6c3de86c32a": {
+      "at": "2026-11-12T11:25:00.286Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "Getting Reliable Structured Outputs from LLMs: Validation, Retries and Constrained Decoding",
+      "url": "https://machinelearningmastery.com/getting-reliable-structured-outputs-from-llms-validation-retries-and-constrained-decoding"
+    },
+    "url:87209848417b63cf": {
+      "at": "2026-11-12T11:30:42.395Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads"
+    },
+    "title:c919e911fc04f42c": {
+      "at": "2026-11-12T11:30:42.395Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-12T14:00+03:30",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads"
     }
   },
   "deferred": {
@@ -6586,102 +6638,6 @@
         "keys": [
           "url:caa9073cefb43725",
           "title:2e601c574d84ada4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4c690fe5a4a5e2eb": {
-      "id": "defer:url:4c690fe5a4a5e2eb",
-      "at": "2026-11-11T13:30:59.451Z",
-      "firstAt": "2026-11-11T13:30:59.451Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:4c690fe5a4a5e2eb",
-        "title:422713f82c95c6e7"
-      ],
-      "canonical": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract",
-      "title": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
-        "link": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
-        "canonical": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract",
-        "published": "Mon, 09 Nov 2026 12:00:32 +0000",
-        "summary": "AI startups should be judged by durable revenue, full-price renewals and healthy margins after delivery costs, with embedded customer workflows providing stronger defensibility as model access gets cheaper, rather than their paper valuation, writes guest author Ilman Shazhaev, founder and CEO of Dizzaract, who suggests that founders should build global investor bases that support customer acquisition and market entry while weighing venture growth expectations against sovereign-backed investors’ localization, governance and other obligations.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/2021/03/Chris_Column-3.jpg",
-          "https://news.crunchbase.com/wp-content/uploads/ABR_7229-scaled-e1793894867202-210x300.jpg"
-        ],
-        "ageHours": 49.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:4c690fe5a4a5e2eb",
-          "title:422713f82c95c6e7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0e9fb0eb84f13acf": {
-      "id": "defer:url:0e9fb0eb84f13acf",
-      "at": "2026-11-11T13:30:59.451Z",
-      "firstAt": "2026-11-11T13:30:59.451Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0e9fb0eb84f13acf",
-        "title:124778f847282ddb"
-      ],
-      "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "candidate": {
-        "sourceId": "deepmind-blog",
-        "sourceName": "Google DeepMind Blog",
-        "sourceType": "official_blog",
-        "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-        "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-        "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
-        "published": "Tue, 10 Nov 2026 12:02:28 +0000",
-        "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-        "messageText": "",
-        "leadPostUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
-        "images": [
-          "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo"
-        ],
-        "ageHours": 25.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:0e9fb0eb84f13acf",
-          "title:124778f847282ddb"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -6938,53 +6894,6 @@
         "keys": [
           "url:bc5d964e3327ab5e",
           "title:8008d81cee72099c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:87209848417b63cf": {
-      "id": "defer:url:87209848417b63cf",
-      "at": "2026-11-11T17:01:42.216Z",
-      "firstAt": "2026-11-11T17:01:42.216Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:87209848417b63cf",
-        "title:c919e911fc04f42c"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
-      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
-        "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
-        "canonical": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
-        "published": "Wed, 11 Nov 2026 14:00:00 +0000",
-        "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
-        "images": [],
-        "ageHours": 3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:87209848417b63cf",
-          "title:c919e911fc04f42c"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7913,9 +7822,9 @@
     },
     "defer:url:88d1ecd11797604c": {
       "id": "defer:url:88d1ecd11797604c",
-      "at": "2026-11-12T10:35:29.901Z",
+      "at": "2026-11-12T11:26:08.972Z",
       "firstAt": "2026-11-11T19:31:31.586Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -7956,7 +7865,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:88d1ecd11797604c",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "tools"
@@ -8848,6 +8757,149 @@
         "keys": [
           "url:4922ca6fb0dd9299",
           "title:09915538fdf04dc4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:53c53ed6d09c6324": {
+      "id": "defer:url:53c53ed6d09c6324",
+      "at": "2026-11-12T11:25:00.296Z",
+      "firstAt": "2026-11-12T11:25:00.296Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:53c53ed6d09c6324",
+        "title:3082caacdae657d4"
+      ],
+      "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
+      "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+        "link": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+        "canonical": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline",
+        "published": "Wed, 11 Nov 2026 12:53:07 +0000",
+        "summary": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible. The article Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/05/grok_xai_logo.png"
+        ],
+        "ageHours": 22.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:53c53ed6d09c6324",
+          "title:3082caacdae657d4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d4775ff20e725a99": {
+      "id": "defer:url:d4775ff20e725a99",
+      "at": "2026-11-12T11:25:00.296Z",
+      "firstAt": "2026-11-12T11:25:00.296Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:d4775ff20e725a99",
+        "title:fe7c0054b8168042"
+      ],
+      "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
+      "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+        "link": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+        "canonical": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic",
+        "published": "Wed, 11 Nov 2026 12:12:47 +0000",
+        "summary": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now fueling a price war for enterprise customers. The article Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-1.png"
+        ],
+        "ageHours": 23.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:d4775ff20e725a99",
+          "title:fe7c0054b8168042"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4b2816a1ecc32e3e": {
+      "id": "defer:url:4b2816a1ecc32e3e",
+      "at": "2026-11-12T11:25:00.296Z",
+      "firstAt": "2026-11-12T11:25:00.296Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4b2816a1ecc32e3e",
+        "title:f9f3d1c07f87ac0d"
+      ],
+      "canonical": "https://www.producthunt.com/products/adobe-ai-assistant",
+      "title": "Adobe AI Assistant",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Adobe AI Assistant",
+        "link": "https://www.producthunt.com/products/adobe-ai-assistant",
+        "canonical": "https://www.producthunt.com/products/adobe-ai-assistant",
+        "published": "2026-11-10T10:55:39-08:00",
+        "summary": "<p> Create and edit faster with AI across Adobe apps </p> <p> <a href=\"https://www.producthunt.com/products/adobe-ai-assistant?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1311866?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/adobe-ai-assistant",
+        "images": [],
+        "ageHours": 40.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4b2816a1ecc32e3e",
+          "title:f9f3d1c07f87ac0d"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10030,11 +10082,35 @@
     },
     "2026-11-12T14:00+03:30": {
       "at": "2026-11-12T10:35:29.907Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0026770016000000002,
-      "tokens": 63411,
-      "posts": []
+      "cost": 0.0034834408000000002,
+      "tokens": 30520,
+      "posts": [
+        {
+          "title": "استارتاپ Plurai با ۱۳ میلیون دلار، ایجنت‌های هوش مصنوعی را آموزش",
+          "category": "business",
+          "status": "sent",
+          "messageId": 62,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0021794808,
+          "tokens": 21673,
+          "qa": "41/42",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-12T11:30:42.394Z"
+        }
+      ],
+      "category": "business",
+      "title": "استارتاپ Plurai با ۱۳ میلیون دلار، ایجنت‌های هوش مصنوعی را آموزش",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/14-00",
+      "messageId": 62,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "41/42"
     }
   },
   "published": [
@@ -10868,93 +10944,110 @@
       "sourceTitle": "Gemini Decisions API: Fast, calibrated multimodal decisions",
       "sourceText": "Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.\nWe are introducing the Gemini Decisions API to help you make fast, probabilistic choices across text, images, audio, video, and PDFs. This tool computes confidence scores for multiple questions in a single pass, providing a cost-effective way to route queries, grade content, or check policy rules. You can start building today by accessing your API key in Google AI Studio and reviewing our documentation for Python, JavaScript, and REST guides.\nToday, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio .\nThe Decisions API gives you purpose-built primitives for bounded choices like tool selection, policy checks, model routing, and context grading. You can pass one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) along with up to 1,000 independent questions. Rather than generating answer text token by token, Gemini Decision 1 scores your candidate options in a single forward pass, returning probabilities and confidence scores in 150-250 ms end-to-end latency at $0.10 per 1M input tokens with zero output tokens billed.\nOn benchmarks spanning agent routing, reasoning, ranking, and multimodal understanding, Gemini Decision 1 leads across the suite, with the lowest calibration error.\nGe",
       "at": "2026-11-12T08:06:29.031Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-12T14:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "استارتاپ Plurai با ۱۳ میلیون دلار، ایجنت‌های هوش مصنوعی را آموزش",
+      "why": "Plurai از داده‌های جمع‌آوری‌شده برای آموزش مدل‌های کوچک و اوپن سورس متناسب با نیاز هر مشتری استفاده می‌کنه و ادعا می‌کنه این مدل‌ها با هزینه کمتر، عملکرد بهتری از مدل‌های میانی دارند.",
+      "dedupe_key": "plurai-seed-funding-ai-agent-training",
+      "post_key": "2026-11-12/14-00/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "sourceTitle": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads | TechCrunch",
+      "sourceText": "AI agents are all the rage, but they’re not quite as capable as their purveyors would have you believe.\nEfforts to benchmark agents doing complex tasks show that they aren’t typically reliable enough to function without close supervision. LiveBench 2.0 shows Claude Fable 5.2 and ChatGPT-6 Astra succeeding on 82.9 and 75.6 out of 100 tasks, respectively, and an effort by the AI infrastructure company EON to test agents in a simulated corporate environment found the most successful model tested, Claude Opus 4.8, performed tasks at 76.8% accuracy.\nNow, a startup known as Plurai wants to boost those numbers with the same techniques that put self-driving cars on the street: Simulations using synthetic data based on a company’s own digital systems, meant to prepare models to tackle difficult edge cases.\nCo-founders Ilan Kadar and Elad Levi previously worked for Nexar, which develops autonomous driving technology. Kadar worked with Waymo to simulate and evaluate its end-to-end deep learning driving software.\n“The moment that we saw the wave of AI agents, we saw the same pattern: That it is very easy to build a demo, but [hard] to get something that will be reliable and cost effective,” Kadar told TechCrunch. “Since we saw the same pattern, the same pitch was that we want to build this simulation layer.”\nOn Wednesday, the startup said it had raised $13 million in seed funding to make that happen. The round was led by Team8, with participation from U&I, Velocity, and Mercer.\nLike the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredicta",
+      "at": "2026-11-12T11:30:42.395Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8384,
       "last_at": "2026-11-12T09:17:45+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "ai_farshad": {
-      "last_id": 6411,
-      "last_at": "2026-11-12T08:03:05+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "last_id": 6412,
+      "last_at": "2026-11-12T10:43:04+00:00",
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "Mohammad_zammani": {
       "last_id": 7200,
       "last_at": "2026-11-12T08:17:28+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "techiin_ir": {
-      "last_id": 20757,
-      "last_at": "2026-11-12T10:05:10+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "last_id": 20758,
+      "last_at": "2026-11-12T10:45:16+00:00",
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "mgh_mobin": {
       "last_id": 475,
       "last_at": "2026-11-12T06:12:45+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "web3nabu": {
       "last_id": 2156,
       "last_at": "2026-11-12T05:50:42+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "asrnovin_ir": {
       "last_id": 11448,
       "last_at": "2026-11-12T10:28:07+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "shayanode": {
       "last_id": 160,
       "last_at": "2026-11-12T09:53:11+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "dunijet_ai": {
       "last_id": 2540,
       "last_at": "2026-11-12T10:29:08+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "MatinSenPaii": {
       "last_id": 5852,
       "last_at": "2026-11-12T06:14:37+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "checked_at": "2026-11-12T11:24:46.409Z"
     },
     "thenimaonAI": {
-      "last_id": 494,
-      "last_at": "2026-11-11T06:58:03+00:00",
-      "checked_at": "2026-11-12T10:30:44.082Z"
+      "last_id": 497,
+      "last_at": "2026-11-12T10:40:04+00:00",
+      "checked_at": "2026-11-12T11:24:46.409Z"
     }
   },
   "offerReviews": [
@@ -13074,6 +13167,13 @@
       "url": "https://github.com/google-deepmind/mujoco",
       "slot": "2026-11-11T23:00+03:30",
       "at": "2026-11-11T19:30:43.275Z"
+    },
+    {
+      "source": "machinelearningmastery",
+      "title": "Getting Reliable Structured Outputs from LLMs: Validation, Retries and Constrained Decoding",
+      "url": "https://machinelearningmastery.com/getting-reliable-structured-outputs-from-llms-validation-retries-and-constrained-decoding",
+      "slot": "2026-11-12T14:00+03:30",
+      "at": "2026-11-12T11:24:46.409Z"
     }
   ],
   "reviewPending": {},
