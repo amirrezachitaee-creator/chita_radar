@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-12T17:05:19.368Z",
+  "updatedAt": "2026-11-12T17:52:12.744Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -6673,6 +6673,40 @@
       "slot": "2026-11-12T20:30+03:30",
       "title": "Startup Founders Are Using AI To File Patents. Here’s Where DIY Becomes A Liability.",
       "url": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall"
+    },
+    "url:75ea0dd626c9305f": {
+      "at": "2026-11-12T17:50:33.030Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T20:30+03:30",
+      "title": "🚀 مدل جدید Gemini 4 Hydrogen منتشر شد!",
+      "url": "https://t.me/ArchiveTell/8391"
+    },
+    "title:e8e4f7c283420916": {
+      "at": "2026-11-12T17:50:33.030Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-12T20:30+03:30",
+      "title": "🚀 مدل جدید Gemini 4 Hydrogen منتشر شد!",
+      "url": "https://t.me/ArchiveTell/8391"
+    },
+    "url:de0b78c54f8e7111": {
+      "at": "2026-11-12T17:52:12.742Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-12T20:30+03:30",
+      "title": "Scientists are using Google AI to help restore giant kelp forests.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia"
+    },
+    "title:13fbcd131e66413c": {
+      "at": "2026-11-12T17:52:12.742Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-12T20:30+03:30",
+      "title": "Scientists are using Google AI to help restore giant kelp forests.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia"
     }
   },
   "deferred": {
@@ -6727,206 +6761,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:1e2d7b9998cc9ff1": {
-      "id": "defer:url:1e2d7b9998cc9ff1",
-      "at": "2026-11-11T19:31:00.660Z",
-      "firstAt": "2026-11-11T19:31:00.660Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:1e2d7b9998cc9ff1",
-        "title:c032059f41d7360c"
-      ],
-      "canonical": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
-      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-        "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-        "canonical": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
-        "published": "Wed, 11 Nov 2026 17:37:32 +0000",
-        "summary": "Any amount of AI coding is too much for many Indie Game Festival judges.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-500x500.png"
-        ],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:1e2d7b9998cc9ff1",
-          "title:c032059f41d7360c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0ab5aefdf6fa53e0": {
-      "id": "defer:url:0ab5aefdf6fa53e0",
-      "at": "2026-11-11T19:31:00.660Z",
-      "firstAt": "2026-11-11T19:31:00.660Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0ab5aefdf6fa53e0",
-        "title:ec4b5204c14d1e32"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech",
-      "title": "Siri co-founder backs Helix for its voice ID tech",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Siri co-founder backs Helix for its voice ID tech",
-        "link": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
-        "canonical": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech",
-        "published": "Wed, 11 Nov 2026 15:02:47 +0000",
-        "summary": "With the rise of AI agents like Instinct and Muse, the industry needs to rethink human identity on the internet and rely on biometric signals like voice, which is where Helix comes in.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
-        "images": [],
-        "ageHours": 4.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:0ab5aefdf6fa53e0",
-          "title:ec4b5204c14d1e32"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7db3dbf05615c3ed": {
-      "id": "defer:url:7db3dbf05615c3ed",
-      "at": "2026-11-11T19:31:00.660Z",
-      "firstAt": "2026-11-11T19:31:00.660Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:7db3dbf05615c3ed",
-        "title:c8cf8ca1b6b76891"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
-      "title": "Google DeepMind just mathematically verified key parts of Signal",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google DeepMind just mathematically verified key parts of Signal",
-        "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-        "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
-        "published": "Wed, 11 Nov 2026 14:08:57 +0000",
-        "summary": "The four-week project hints that AI could make formal verification far more practical.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-500x500.jpg"
-        ],
-        "ageHours": 5.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7db3dbf05615c3ed",
-          "title:c8cf8ca1b6b76891"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:80500b1292cc170c": {
-      "id": "defer:url:80500b1292cc170c",
-      "at": "2026-11-11T19:31:00.660Z",
-      "firstAt": "2026-11-11T19:31:00.660Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:80500b1292cc170c",
-        "title:af4c97d9488545dd"
-      ],
-      "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-        "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
-        "published": "Tue, 10 Nov 2026 21:12:59 +0000",
-        "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp"
-        ],
-        "ageHours": 22.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:80500b1292cc170c",
-          "title:af4c97d9488545dd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:88d1ecd11797604c": {
       "id": "defer:url:88d1ecd11797604c",
@@ -7021,157 +6855,6 @@
         "keys": [
           "url:e2c2882f272c7eb7",
           "title:fcc85c1c8e29972a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:08f6941bcdbe742c": {
-      "id": "defer:url:08f6941bcdbe742c",
-      "at": "2026-11-12T05:01:10.909Z",
-      "firstAt": "2026-11-12T05:01:10.909Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:08f6941bcdbe742c",
-        "title:b1250228d6973fce"
-      ],
-      "canonical": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
-      "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
-        "link": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
-        "canonical": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent",
-        "published": "Wed, 11 Nov 2026 19:35:11 +0000",
-        "summary": "According to the Ramp AI Index, US corporate AI spending rose just 1.65 percent in October 2026. One percent of companies still drive 80 percent of revenue for OpenAI and Anthropic. Customer support is emerging as a new growth driver, but it may bring lower margins than the coding business that has fueled spending so far. The article US corporate AI spending hits a new high in October, but growth slows to 1.65 percent appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/02/openai_anthropic_logos-1.jpeg"
-        ],
-        "ageHours": 9.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:08f6941bcdbe742c",
-          "title:b1250228d6973fce"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d0a06ec7e03766fa": {
-      "id": "defer:url:d0a06ec7e03766fa",
-      "at": "2026-11-12T05:01:10.909Z",
-      "firstAt": "2026-11-12T05:01:10.909Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:d0a06ec7e03766fa",
-        "title:9522549d99dac6c5"
-      ],
-      "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
-      "title": "What happens to mathematics when AI becomes an oracle?",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "What happens to mathematics when AI becomes an oracle?",
-        "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-        "canonical": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
-        "published": "Tue, 10 Nov 2026 20:30:01 +0000",
-        "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-500x500.jpg"
-        ],
-        "ageHours": 32.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:d0a06ec7e03766fa",
-          "title:9522549d99dac6c5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c86d08502069b5ef": {
-      "id": "defer:url:c86d08502069b5ef",
-      "at": "2026-11-12T05:01:10.909Z",
-      "firstAt": "2026-11-12T05:01:10.909Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:c86d08502069b5ef",
-        "title:878c594308249fa9"
-      ],
-      "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
-      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-        "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-        "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
-        "published": "Tue, 10 Nov 2026 15:00:39 +0000",
-        "summary": "The new model is up to twice as successful at some tasks.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-500x500-1794257853.jpg"
-        ],
-        "ageHours": 38,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c86d08502069b5ef",
-          "title:878c594308249fa9"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -7736,9 +7419,9 @@
     },
     "defer:url:4922ca6fb0dd9299": {
       "id": "defer:url:4922ca6fb0dd9299",
-      "at": "2026-11-12T17:04:58.739Z",
+      "at": "2026-11-12T17:51:46.201Z",
       "firstAt": "2026-11-12T10:33:01.725Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -7781,7 +7464,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:4922ca6fb0dd9299",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -8262,9 +7945,9 @@
     },
     "defer:url:0e9fb0eb84f13acf": {
       "id": "defer:url:0e9fb0eb84f13acf",
-      "at": "2026-11-12T17:04:58.690Z",
+      "at": "2026-11-12T17:51:46.126Z",
       "firstAt": "2026-11-12T13:31:00.124Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -8308,7 +7991,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:0e9fb0eb84f13acf",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "security"
@@ -9067,6 +8750,344 @@
         "keys": [
           "url:3d65ccc2f5cdce69",
           "title:f4a39b30004607e0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9ccf02f3129f7388": {
+      "id": "defer:url:9ccf02f3129f7388",
+      "at": "2026-11-12T17:50:33.037Z",
+      "firstAt": "2026-11-12T17:50:33.037Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:9ccf02f3129f7388",
+        "title:c3d5e411c9fd22bf"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "title": "Hugging Face CEO vows to keep fighting for open-source AI after Jensen Huang’s exit",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Hugging Face CEO vows to keep fighting for open-source AI after Jensen Huang’s exit",
+        "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+        "canonical": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+        "published": "Thu, 12 Nov 2026 17:36:40 +0000",
+        "summary": "Hugging Face's CEO pledged to keep fighting for open-source AI after Huang's exit, raising questions about Nvidia's $12.9B acquisition.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+        "images": [],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:9ccf02f3129f7388",
+          "title:c3d5e411c9fd22bf"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:039c74dda2a3b52c": {
+      "id": "defer:url:039c74dda2a3b52c",
+      "at": "2026-11-12T17:50:33.037Z",
+      "firstAt": "2026-11-12T17:50:33.037Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:039c74dda2a3b52c",
+        "title:12269a076cebb056"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+        "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+        "canonical": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+        "published": "Thu, 12 Nov 2026 17:17:58 +0000",
+        "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+        "images": [],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:039c74dda2a3b52c",
+          "title:12269a076cebb056"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:743bb9f48555c86c": {
+      "id": "defer:url:743bb9f48555c86c",
+      "at": "2026-11-12T17:50:33.037Z",
+      "firstAt": "2026-11-12T17:50:33.037Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:743bb9f48555c86c",
+        "title:060ca4fda3278381"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+        "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+        "canonical": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+        "published": "Thu, 12 Nov 2026 17:00:52 +0000",
+        "summary": "SoftBank lost over $3 billion pre-ordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+        "images": [],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:743bb9f48555c86c",
+          "title:060ca4fda3278381"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ea01cfcdcca0ed61": {
+      "id": "defer:url:ea01cfcdcca0ed61",
+      "at": "2026-11-12T17:50:33.037Z",
+      "firstAt": "2026-11-12T17:50:33.037Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:ea01cfcdcca0ed61",
+        "title:f47c3bb1e688aedf"
+      ],
+      "canonical": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+      "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+        "link": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+        "canonical": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+        "published": "Wed, 11 Nov 2026 18:18:25 +0000",
+        "summary": "Google Deepmind's AlphaProof Code mathematically verified Signal's cryptographic core code in four weeks, a process that typically takes years. AI agents powered by Gemini Carbon wrote more than six million lines of proof code and flagged only about one percent for human review. Deepmind plans to extend the method to critical infrastructure like power grids and medical devices. The article Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphaproof.png"
+        ],
+        "ageHours": 23.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:ea01cfcdcca0ed61",
+          "title:f47c3bb1e688aedf"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bb27561db5d10d50": {
+      "id": "defer:url:bb27561db5d10d50",
+      "at": "2026-11-12T17:50:33.037Z",
+      "firstAt": "2026-11-12T17:50:33.037Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bb27561db5d10d50",
+        "title:7d0f993147bfb9d7"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+        "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+        "published": "Wed, 11 Nov 2026 18:16:40 +0000",
+        "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg"
+        ],
+        "ageHours": 23.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:bb27561db5d10d50",
+          "title:7d0f993147bfb9d7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bc5d964e3327ab5e": {
+      "id": "defer:url:bc5d964e3327ab5e",
+      "at": "2026-11-12T17:50:33.037Z",
+      "firstAt": "2026-11-12T17:50:33.037Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bc5d964e3327ab5e",
+        "title:8008d81cee72099c"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+      "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+        "link": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+        "canonical": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
+        "published": "Wed, 11 Nov 2026 14:25:20 +0000",
+        "summary": "Anthropic claims it used AI itself to breach Nvidia's CUDA moat. The company's in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce vendor dependencies. The article Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_moat.png"
+        ],
+        "ageHours": 27.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:bc5d964e3327ab5e",
+          "title:8008d81cee72099c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e192e4f92a704298": {
+      "id": "defer:url:e192e4f92a704298",
+      "at": "2026-11-12T17:50:33.038Z",
+      "firstAt": "2026-11-12T17:50:33.038Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e192e4f92a704298",
+        "title:d8dbcfefb44e50ed"
+      ],
+      "canonical": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+        "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+        "canonical": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+        "published": "Tue, 10 Nov 2026 14:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 51.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:e192e4f92a704298",
+          "title:d8dbcfefb44e50ed"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10312,11 +10333,35 @@
     },
     "2026-11-12T20:30+03:30": {
       "at": "2026-11-12T17:05:19.366Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0035803824,
-      "tokens": 46486,
-      "posts": []
+      "cost": 0.0025566464,
+      "tokens": 40103,
+      "posts": [
+        {
+          "title": "گوگل با هوش مصنوعی به احیای جنگل‌های کلپ غول‌پیکر کمک",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 64,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003032008,
+          "tokens": 9197,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-12T17:52:12.742Z"
+        }
+      ],
+      "category": "tools",
+      "title": "گوگل با هوش مصنوعی به احیای جنگل‌های کلپ غول‌پیکر کمک",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-12/20-30",
+      "messageId": 64,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "42/42"
     }
   },
   "published": [
@@ -11184,93 +11229,110 @@
       "sourceTitle": "Kazakhstan-linked hackers used AI agent to spy on Central Asian governments",
       "sourceText": "Suspected Kazakhstan-linked hackers used an artificial intelligence agent to help spy on Central Asian governments, steal sensitive documents and infiltrate critical infrastructure networks, according to new research.\nSingapore-based cybersecurity firm CloudSEK uncovered the operation after discovering an exposed server belonging to Silent Lynx , a hacking group previously linked to espionage campaigns targeting Kyrgyzstan, Turkmenistan, Tajikistan, Armenia, Belarus and Russia.\nThe server contained more than a dozen gigabytes of data, including stolen government documents, hacking tools and records showing how an attacker used an AI agent to automate parts of the operation.\nAccording to the report published Wednesday, the operator relied on Hermes, an open-source AI agent configured to act as an offensive cybersecurity expert. The system primarily used AI models developed by Chinese company DeepSeek. Unlike conventional chatbots, AI agents can execute commands, run software and carry out tasks on behalf of their users.\nThe agent helped with reconnaissance, data collection and erasing traces of activity from compromised systems, researchers said. It was also configured to execute certain potentially destructive commands without requiring additional approval.\nThe operator communicated with the agent in Russian and connected it to a Telegram bot, allowing the hacker to issue instructions remotely from a phone.\nOne of the group's most significant intrusions targeted Tajikistan, where the hackers maintained extensive access to the national railway network from at least mid-Augus",
       "at": "2026-11-12T13:34:15.144Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-12T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "گوگل با هوش مصنوعی به احیای جنگل‌های کلپ غول‌پیکر کمک",
+      "why": "اهمیتش اینه که این تحلیل ژنتیکی، پایه‌ای برای کاشت دوباره جنگل‌های کلپ با نمونه‌های مقاوم به گرما فراهم می‌کنه.",
+      "dedupe_key": "google-csiro-kelp-restoration",
+      "post_key": "2026-11-12/20-30/1",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia/",
+      "sourceTitle": "Scientists are using Google AI to help restore giant kelp forests.",
+      "sourceText": "Underwater forests of giant kelp protect coastlines, provide habitat, and support marine ecosystems — but they’re disappearing worldwide due to ocean warming. As COP31 kicks off this week, we’re sharing results from our partnership with Australia's national science agency, CSIRO , which is using AI and genomics to help restore giant kelp .\nThe team recently published two high-quality reference genomes for Australian giant kelp, providing a foundation for conservation genetics work. Next researchers trained a version of Google's open-source AI tool DeepVariant to analyze giant kelp DNA. It sequenced 600 wild specimens collected from 40 sites along the Tasmanian coast, where populations have dwindled to 5% of historic numbers.\nThis video explains how the genetic analysis and partners’ lab-based cross-breeding studies are laying the groundwork for a real-world outcome: giant kelp forests replanted with diverse, heat-tolerant specimens. This effort is part of Google Australia's Digital Futures Initiative .",
+      "at": "2026-11-12T17:52:12.742Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8390,
-      "last_at": "2026-11-12T14:17:28+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "last_id": 8391,
+      "last_at": "2026-11-12T17:40:35+00:00",
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "ai_farshad": {
       "last_id": 6414,
       "last_at": "2026-11-12T16:32:06+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "Mohammad_zammani": {
       "last_id": 7203,
       "last_at": "2026-11-12T14:38:43+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "techiin_ir": {
       "last_id": 20761,
       "last_at": "2026-11-12T12:32:23+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "mgh_mobin": {
       "last_id": 475,
       "last_at": "2026-11-12T06:12:45+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "web3nabu": {
       "last_id": 2158,
       "last_at": "2026-11-12T14:46:25+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "asrnovin_ir": {
       "last_id": 11450,
       "last_at": "2026-11-12T16:41:47+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "shayanode": {
       "last_id": 163,
       "last_at": "2026-11-12T12:55:28+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "dunijet_ai": {
       "last_id": 2543,
       "last_at": "2026-11-12T13:33:17+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "miladxtalks": {
       "last_id": 241,
       "last_at": "2026-11-09T15:34:26+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "MatinSenPaii": {
       "last_id": 5852,
       "last_at": "2026-11-12T06:14:37+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     },
     "thenimaonAI": {
       "last_id": 497,
       "last_at": "2026-11-12T10:40:04+00:00",
-      "checked_at": "2026-11-12T17:00:51.639Z"
+      "checked_at": "2026-11-12T17:49:31.843Z"
     }
   },
   "offerReviews": [
@@ -13298,6 +13360,18 @@
       "title": "LEASH: Stay Safe in Agentic Robotics",
       "url": "https://huggingface.co/papers/2611.14115",
       "reason": "research_paper",
+      "slot": "2026-11-12T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8391",
+      "date": "2026-11-12",
+      "at": "2026-11-12T17:49:31.843Z",
+      "source": "tg-archive-tell",
+      "title": "🚀 مدل جدید Gemini 4 Hydrogen منتشر شد!",
+      "url": "https://t.me/ArchiveTell/8391",
+      "reason": "denied_link",
       "slot": "2026-11-12T20:30+03:30",
       "kind": "post",
       "mainEligible": false
