@@ -1,0 +1,59 @@
+RUN 43374207501 | send/main | slot auto | 2026-11-13T05:46:39Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-13T08:30+03:30 | WEEK 2026-11-07 | MODE SEND
+QUOTA tools 16/31 | models 13/24 | security 5/11 | business 9/11
+DAILY 2/11
+DIVERSITY_TARGET models | slot 08:30
+DEFERRED_POOL 48
+  DEFERRED source_weekly | try 0/3 | Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump
+  DEFERRED source_weekly | try 0/3 | FAA expands AI advice to manage air traffic congestion across entire US airspace
+  DEFERRED source_weekly | try 0/3 | Nebius tests the neocloud playbook with $40 billion in planned spending
+  DEFERRED source_weekly | try 0/3 | Claude Meetings lets Anthropic's AI join your video calls
+  DEFERRED source_weekly | try 0/3 | Ars Live: What drone attacks on data centers mean for modern life in the cloud
+DEFERRED_EXHAUSTED 1
+SLOT_ALREADY_DONE 2026-11-13T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-13T05:46:39Z
+# گزارش روزانه 2026-11-13 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 2
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 8
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.001850
+- توکن: 19569
+- میانگین هر پست ارسال‌شده: $0.000925
+
+## سهمیه هفتگی (هفته 2026-11-07)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 16 | 31 | 15 |
+| مدل‌ها و پژوهش | 13 | 24 | 11 |
+| امنیت و حریم خصوصی | 5 | 11 | 6 |
+| کسب‌وکار و بازار | 9 | 11 | 2 |
+| مجموع | 43 | 77 | 34 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/42 | $0.001559 | 10374 | گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.000291 | 9195 | جستجوی گوگل با Gemini 4 Hydrogen ارتقا یافت |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 3
+- دلایل: از رصد آفر پیدا شد 2، لینک خارجی این پست پذیرفته نشد 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 49
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-13.md
