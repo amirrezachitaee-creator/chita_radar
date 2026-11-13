@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T17:01:19.679Z",
+  "updatedAt": "2026-11-13T17:46:31.964Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -7708,6 +7708,96 @@
       "slot": "2026-11-13T20:30+03:30",
       "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
       "url": "https://arxiv.org/abs/2611.17316v1"
+    },
+    "url:f55a9c7308ede1fd": {
+      "at": "2026-11-13T17:45:54.407Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "یه سایت هست که اگه اشتراک پولی هوش مصنوعی ها رو ندارین میتونین بدون لیمیت از",
+      "url": "https://t.me/shayanode/179"
+    },
+    "title:0e524fc6b41ae934": {
+      "at": "2026-11-13T17:45:54.407Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "یه سایت هست که اگه اشتراک پولی هوش مصنوعی ها رو ندارین میتونین بدون لیمیت از",
+      "url": "https://t.me/shayanode/179"
+    },
+    "url:e4dd85212e7d161b": {
+      "at": "2026-11-13T17:46:24.357Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "DeepStress: Stress-Testing Deep Search Agents",
+      "url": "https://huggingface.co/papers/2607.13920"
+    },
+    "title:8427468ceb787096": {
+      "at": "2026-11-13T17:46:24.357Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "DeepStress: Stress-Testing Deep Search Agents",
+      "url": "https://huggingface.co/papers/2607.13920"
+    },
+    "url:22938b4076b347ee": {
+      "at": "2026-11-13T17:46:25.195Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "📊استخراج خودکار جدول‌ها و اطلاعات از PDF با کمک Docsumo!",
+      "url": "https://www.docsumo.com/"
+    },
+    "title:43a90b83c6d3a476": {
+      "at": "2026-11-13T17:46:25.195Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "📊استخراج خودکار جدول‌ها و اطلاعات از PDF با کمک Docsumo!",
+      "url": "https://www.docsumo.com/"
+    },
+    "url:84f2b33949b14cae": {
+      "at": "2026-11-13T17:46:26.816Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "این پیجو تو وقتای آزادم با کلاود از صفر کامل زدم.",
+      "url": "https://t.me/ai_farshad/6425"
+    },
+    "title:687892287ebea655": {
+      "at": "2026-11-13T17:46:26.816Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "این پیجو تو وقتای آزادم با کلاود از صفر کامل زدم.",
+      "url": "https://t.me/ai_farshad/6425"
+    },
+    "url:de2cf42ea2313322": {
+      "at": "2026-11-13T17:46:31.962Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "url": "https://arxiv.org/abs/2611.17280v1"
+    },
+    "title:63db5366f112d930": {
+      "at": "2026-11-13T17:46:31.962Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "url": "https://arxiv.org/abs/2611.17280v1"
     }
   },
   "deferred": {
@@ -7762,293 +7852,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:c2e9279cb8a68e3b": {
-      "id": "defer:url:c2e9279cb8a68e3b",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:c2e9279cb8a68e3b",
-        "title:afcf49bff2d1ea83"
-      ],
-      "canonical": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute",
-      "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
-        "link": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
-        "canonical": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute",
-        "published": "Thu, 12 Nov 2026 16:58:11 +0000",
-        "summary": "OpenAI's safety team systematically investigated why the chains of thought in frontier models like GPT-6 Astra are increasingly evading oversight. Four training steps drive the erosion, including architecture choices and reinforcement learning. The analysis shows that the loss of transparency is not a law of nature but also reflects tradeoffs around capability and cost. The article OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/03/CoT-Controllability.png"
-        ],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c2e9279cb8a68e3b",
-          "title:afcf49bff2d1ea83"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6cb43935e4fe29e1": {
-      "id": "defer:url:6cb43935e4fe29e1",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:6cb43935e4fe29e1",
-        "title:48d903f24efedc52"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-        "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-        "canonical": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
-        "published": "Thu, 12 Nov 2026 17:00:00 +0000",
-        "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:6cb43935e4fe29e1",
-          "title:48d903f24efedc52"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bbffb3caeffafb11": {
-      "id": "defer:url:bbffb3caeffafb11",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:bbffb3caeffafb11",
-        "title:4d60d33bcf820427"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-        "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-        "canonical": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
-        "published": "Thu, 12 Nov 2026 16:32:33 +0000",
-        "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-        "images": [],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:bbffb3caeffafb11",
-          "title:4d60d33bcf820427"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cfa2c9ae8aed46f7": {
-      "id": "defer:url:cfa2c9ae8aed46f7",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:cfa2c9ae8aed46f7",
-        "title:22f9c20d7bf30cbe"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement",
-      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-        "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-        "canonical": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement",
-        "published": "Thu, 12 Nov 2026 15:37:29 +0000",
-        "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-        "images": [],
-        "ageHours": 1.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:cfa2c9ae8aed46f7",
-          "title:22f9c20d7bf30cbe"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:04b62b0823f31776": {
-      "id": "defer:url:04b62b0823f31776",
-      "at": "2026-11-12T17:04:21.239Z",
-      "firstAt": "2026-11-12T17:04:21.239Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:04b62b0823f31776",
-        "title:bdce0405aedf0282"
-      ],
-      "canonical": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
-      "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
-        "link": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
-        "canonical": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
-        "published": "Wed, 11 Nov 2026 15:12:53 +0000",
-        "summary": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of automation and data fusion create risks that are hard to contain. The article Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/Helsing-Clarity.webp"
-        ],
-        "ageHours": 25.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:04b62b0823f31776",
-          "title:bdce0405aedf0282"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3d65ccc2f5cdce69": {
-      "id": "defer:url:3d65ccc2f5cdce69",
-      "at": "2026-11-12T17:04:21.239Z",
-      "firstAt": "2026-11-12T17:04:21.239Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3d65ccc2f5cdce69",
-        "title:f4a39b30004607e0"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-        "published": "Wed, 11 Nov 2026 16:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 25,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3d65ccc2f5cdce69",
-          "title:f4a39b30004607e0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:9ccf02f3129f7388": {
       "id": "defer:url:9ccf02f3129f7388",
@@ -8185,155 +7988,6 @@
         "keys": [
           "url:743bb9f48555c86c",
           "title:060ca4fda3278381"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ea01cfcdcca0ed61": {
-      "id": "defer:url:ea01cfcdcca0ed61",
-      "at": "2026-11-12T17:50:33.037Z",
-      "firstAt": "2026-11-12T17:50:33.037Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:ea01cfcdcca0ed61",
-        "title:f47c3bb1e688aedf"
-      ],
-      "canonical": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
-      "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
-        "link": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
-        "canonical": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
-        "published": "Wed, 11 Nov 2026 18:18:25 +0000",
-        "summary": "Google Deepmind's AlphaProof Code mathematically verified Signal's cryptographic core code in four weeks, a process that typically takes years. AI agents powered by Gemini Carbon wrote more than six million lines of proof code and flagged only about one percent for human review. Deepmind plans to extend the method to critical infrastructure like power grids and medical devices. The article Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphaproof.png"
-        ],
-        "ageHours": 23.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ea01cfcdcca0ed61",
-          "title:f47c3bb1e688aedf"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bb27561db5d10d50": {
-      "id": "defer:url:bb27561db5d10d50",
-      "at": "2026-11-12T17:50:33.037Z",
-      "firstAt": "2026-11-12T17:50:33.037Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:bb27561db5d10d50",
-        "title:7d0f993147bfb9d7"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-        "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-        "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
-        "published": "Wed, 11 Nov 2026 18:16:40 +0000",
-        "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg"
-        ],
-        "ageHours": 23.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:bb27561db5d10d50",
-          "title:7d0f993147bfb9d7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bc5d964e3327ab5e": {
-      "id": "defer:url:bc5d964e3327ab5e",
-      "at": "2026-11-12T17:50:33.037Z",
-      "firstAt": "2026-11-12T17:50:33.037Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:bc5d964e3327ab5e",
-        "title:8008d81cee72099c"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
-      "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
-        "link": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-        "canonical": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days",
-        "published": "Wed, 11 Nov 2026 14:25:20 +0000",
-        "summary": "Anthropic claims it used AI itself to breach Nvidia's CUDA moat. The company's in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce vendor dependencies. The article Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_moat.png"
-        ],
-        "ageHours": 27.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:bc5d964e3327ab5e",
-          "title:8008d81cee72099c"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10136,6 +9790,449 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:4513c6ea6021e8f2": {
+      "id": "defer:url:4513c6ea6021e8f2",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:4513c6ea6021e8f2",
+        "title:e814eed4fbe2b979"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+        "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+        "canonical": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+        "published": "Fri, 13 Nov 2026 17:25:45 +0000",
+        "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-500x500.jpg"
+        ],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:4513c6ea6021e8f2",
+          "title:e814eed4fbe2b979"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4703cdb9d69f91dd": {
+      "id": "defer:url:4703cdb9d69f91dd",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4703cdb9d69f91dd",
+        "title:c2193bbfd2eb0ec1"
+      ],
+      "canonical": "https://github.com/storytold/AniCraft",
+      "title": "🖥️ جایگزین متن‌باز ادوبی انیمیت",
+      "candidate": {
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
+        "sourceType": "telegram_channel",
+        "title": "🖥️ جایگزین متن‌باز ادوبی انیمیت",
+        "link": "https://github.com/storytold/AniCraft",
+        "canonical": "https://github.com/storytold/AniCraft",
+        "messageText": "🖥️ جایگزین متن‌باز ادوبی انیمیت\n⠀\nیه استودیوی انیمیشن دوبعدی که از صفر با راست نوشته شده و فایل‌های انیمیت رو هم باز می‌کنه.\n⠀\n• تایم‌لاین، لایه، کی‌فریم و آنیون اسکینینگ\n• خروجی گیف، اسپریت‌شیت، لاتی و ویدیو\n• سرور MCP برای کلود کد و ایجنت‌ها\n⠀\nانی‌کرفت بازسازی تمیز ادوبی انیمیته؛ ابزار برداری، تویین کلاسیک و مورف شکل رو داره و فرمتش JSONـه. فایل‌های .fla و .xfl رو باز می‌کنه و خروجی PNG، گیف و WebM/MP4 با ffmpeg می‌ده.\n⠀\nهنوز آلفای اولیه‌ست؛ برای کار حرفه‌ای زوده و لایهٔ صوتی و رندر GPU رو نداره. روی مک، ویندوز، لینوکس و وب اجرا می‌شه.\n⠀⠀\n📌 ریپوی انی‌کرفت در گیت‌هاب\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤6⚡1🔥1",
+        "leadPostUrl": "https://t.me/ArchiveTell/8408",
+        "published": "2026-11-13T17:10:33+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn1.telesco.pe/file/qmPtC5IH1ZNYrW5BGCQg2KKt3NsD6iSdPD_iXHZHTpxyz7FZoc6VLFlETgVeMMknlPfj55NFm9qWnAYlujDlGa83CYXenR1IDxewMXkqA28HTxIaQYBQwsHMspxp4X3D8PMp1YRXkaRnfWVG2rkluV5fALSAaeLMcbXosNRQbMqSyM93QHHHtw-9vXzaj0He0BgC4elwBncELRJfiu_v1F0xCSJ-x4HWs0aMDVv0fPkqUmt7Apkk_J2LcEUTFWdf1ln6Qe8jEcrT3BkCVz5-G8xKmcHwVbbFv0qvJEDjfUeXCjNLqe23_66-S18NqFcTLMT1ptlPwEysnSrLUZbYFg.jpg"
+        ],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/storytold/AniCraft"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:4703cdb9d69f91dd",
+          "title:c2193bbfd2eb0ec1"
+        ],
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8408,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:1dcca899a4f1e514": {
+      "id": "defer:url:1dcca899a4f1e514",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:1dcca899a4f1e514",
+        "title:97a93fcf6645c9e4"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "The unfolding Jensen Huang scandal: a timeline",
+        "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "canonical": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+        "published": "Fri, 13 Nov 2026 15:58:00 +0000",
+        "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "images": [],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:1dcca899a4f1e514",
+          "title:97a93fcf6645c9e4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bd2f75c9c0c3d17f": {
+      "id": "defer:url:bd2f75c9c0c3d17f",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:bd2f75c9c0c3d17f",
+        "title:dbfef6b90828647b"
+      ],
+      "canonical": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "title": "Policy and Disclosure: 2026 Edition",
+      "candidate": {
+        "sourceId": "project-zero",
+        "sourceName": "Google Project Zero",
+        "sourceType": "security_blog",
+        "title": "Policy and Disclosure: 2026 Edition",
+        "link": "https://projectzero.google/2026/11/disclosure-policy.html",
+        "canonical": "https://projectzero.google/2026/11/disclosure-policy.html",
+        "published": "2026-11-13T00:00:00-08:00",
+        "summary": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient. LLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.",
+        "messageText": "",
+        "leadPostUrl": "https://projectzero.google/2026/11/disclosure-policy.html",
+        "images": [],
+        "ageHours": 9.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:bd2f75c9c0c3d17f",
+          "title:dbfef6b90828647b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4bf61703e3df7593": {
+      "id": "defer:url:4bf61703e3df7593",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4bf61703e3df7593",
+        "title:574998c1c9dfad91"
+      ],
+      "canonical": "https://www.producthunt.com/products/gemini-6",
+      "title": "Gemini 4 Hydrogen",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Gemini 4 Hydrogen",
+        "link": "https://www.producthunt.com/products/gemini-6",
+        "canonical": "https://www.producthunt.com/products/gemini-6",
+        "published": "2026-11-12T10:37:12-08:00",
+        "summary": "<p> Fast agentic development for coders </p> <p> <a href=\"https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314458?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/gemini-6",
+        "images": [],
+        "ageHours": 23.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4bf61703e3df7593",
+          "title:574998c1c9dfad91"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e730f1fd52f7736c": {
+      "id": "defer:url:e730f1fd52f7736c",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:e730f1fd52f7736c",
+        "title:c29286c10bdff8a0"
+      ],
+      "canonical": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+        "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+        "canonical": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+        "published": "Thu, 12 Nov 2026 14:50:17 +0000",
+        "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-500x500.jpg"
+        ],
+        "ageHours": 26.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:e730f1fd52f7736c",
+          "title:c29286c10bdff8a0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3d2ebadaaa528f54": {
+      "id": "defer:url:3d2ebadaaa528f54",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3d2ebadaaa528f54",
+        "title:972a999d7eba5719"
+      ],
+      "canonical": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value",
+      "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+        "link": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+        "canonical": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value",
+        "published": "Thu, 12 Nov 2026 14:11:40 +0000",
+        "summary": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026. The article Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/05/huang_sccp_ai_screenshot-scaled.png"
+        ],
+        "ageHours": 27.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:3d2ebadaaa528f54",
+          "title:972a999d7eba5719"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:96c7f67bef86f831": {
+      "id": "defer:url:96c7f67bef86f831",
+      "at": "2026-11-13T17:46:26.822Z",
+      "firstAt": "2026-11-13T17:46:26.822Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:96c7f67bef86f831",
+        "title:2659946fee1e8446"
+      ],
+      "canonical": "https://huggingface.co/blog/allenai/xybench",
+      "title": "XYBench: Helping with the problem behind the question",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "XYBench: Helping with the problem behind the question",
+        "link": "https://huggingface.co/blog/allenai/xybench",
+        "canonical": "https://huggingface.co/blog/allenai/xybench",
+        "published": "Fri, 13 Nov 2026 17:02:35 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/allenai/xybench",
+        "images": [],
+        "ageHours": 0.7,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:96c7f67bef86f831",
+          "title:2659946fee1e8446"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b9840fd67063a36a": {
+      "id": "defer:url:b9840fd67063a36a",
+      "at": "2026-11-13T17:46:26.885Z",
+      "firstAt": "2026-11-13T17:46:26.885Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:b9840fd67063a36a",
+        "title:3d44bd20f57c4d26"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/gondola",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Gondola doubles revenue as its team builds more with Codex",
+        "link": "https://openai.com/business/customer-stories/gondola",
+        "canonical": "https://openai.com/business/customer-stories/gondola",
+        "published": "Thu, 12 Nov 2026 12:00:00 GMT",
+        "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/gondola",
+        "images": [],
+        "ageHours": 29.8,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:b9840fd67063a36a",
+          "title:3d44bd20f57c4d26"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -11610,8 +11707,8 @@
       "at": "2026-11-13T17:01:19.677Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.00120498,
-      "tokens": 8446,
+      "cost": 0.0015179808,
+      "tokens": 17645,
       "posts": []
     }
   },
@@ -12637,89 +12734,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8406,
-      "last_at": "2026-11-13T14:41:13+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "last_id": 8409,
+      "last_at": "2026-11-13T17:19:52+00:00",
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "ai_farshad": {
-      "last_id": 6420,
-      "last_at": "2026-11-13T13:31:01+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "last_id": 6425,
+      "last_at": "2026-11-13T17:40:40+00:00",
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "Mohammad_zammani": {
       "last_id": 7209,
       "last_at": "2026-11-13T12:03:54+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "techiin_ir": {
       "last_id": 20769,
       "last_at": "2026-11-13T12:04:45+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "mgh_mobin": {
       "last_id": 477,
       "last_at": "2026-11-13T07:40:52+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "web3nabu": {
-      "last_id": 2161,
-      "last_at": "2026-11-13T13:10:20+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "last_id": 2163,
+      "last_at": "2026-11-13T17:24:15+00:00",
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "asrnovin_ir": {
       "last_id": 11460,
       "last_at": "2026-11-13T16:35:12+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "shayanode": {
-      "last_id": 176,
-      "last_at": "2026-11-13T13:27:39+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "last_id": 179,
+      "last_at": "2026-11-13T17:34:05+00:00",
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "dunijet_ai": {
       "last_id": 2545,
       "last_at": "2026-11-13T14:51:12+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "MatinSenPaii": {
       "last_id": 5859,
       "last_at": "2026-11-13T16:44:02+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     },
     "thenimaonAI": {
       "last_id": 506,
       "last_at": "2026-11-13T12:50:05+00:00",
-      "checked_at": "2026-11-13T17:00:52.715Z"
+      "checked_at": "2026-11-13T17:45:39.278Z"
     }
   },
   "offerReviews": [
@@ -14954,6 +15051,30 @@
       "slot": "2026-11-13T20:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/179",
+      "date": "2026-11-13",
+      "at": "2026-11-13T17:45:39.278Z",
+      "source": "tg-shayanode",
+      "title": "یه سایت هست که اگه اشتراک پولی هوش مصنوعی ها رو ندارین میتونین بدون لیمیت از",
+      "url": "https://t.me/shayanode/179",
+      "reason": "link_missing",
+      "slot": "2026-11-13T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-13|hf-papers|https://huggingface.co/papers/2607.13920",
+      "date": "2026-11-13",
+      "at": "2026-11-13T17:45:39.278Z",
+      "source": "hf-papers",
+      "title": "DeepStress: Stress-Testing Deep Search Agents",
+      "url": "https://huggingface.co/papers/2607.13920",
+      "reason": "research_paper",
+      "slot": "2026-11-13T20:30+03:30",
+      "kind": "post",
+      "mainEligible": true
     }
   ],
   "educationReviews": [
@@ -15159,6 +15280,20 @@
       "url": "https://t.me/bunnytoolss_bot?start=sref_212219286",
       "slot": "2026-11-13T20:30+03:30",
       "at": "2026-11-13T17:00:52.715Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "📊استخراج خودکار جدول‌ها و اطلاعات از PDF با کمک Docsumo!",
+      "url": "https://www.docsumo.com/",
+      "slot": "2026-11-13T20:30+03:30",
+      "at": "2026-11-13T17:45:39.278Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "این پیجو تو وقتای آزادم با کلاود از صفر کامل زدم.",
+      "url": "https://t.me/ai_farshad/6425",
+      "slot": "2026-11-13T20:30+03:30",
+      "at": "2026-11-13T17:45:39.278Z"
     }
   ],
   "reviewPending": {},
@@ -15176,7 +15311,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-13T11:22:17.019Z",
+      "lastCheck": "2026-11-13T17:45:39.278Z",
       "status": "active",
       "misses": 0
     }

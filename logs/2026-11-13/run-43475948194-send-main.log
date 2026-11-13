@@ -1,0 +1,130 @@
+RUN 43475948194 | send/main | slot auto | 2026-11-13T17:45:39Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-13T20:30+03:30 | WEEK 2026-11-07 | MODE SEND
+QUOTA tools 18/31 | models 13/24 | security 7/11 | business 9/11
+DAILY 6/11
+DIVERSITY_TARGET business | slot 20:30
+DEFERRED_POOL 48
+  DEFERRED source_weekly | try 0/3 | Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows
+  DEFERRED source_weekly | try 0/3 | ChatGPT’s new Wallet lets AI agents shop and check out for you
+  DEFERRED source_weekly | try 0/3 | Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails
+  DEFERRED source_weekly | try 0/3 | Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models
+  DEFERRED source_weekly | try 0/3 | Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history
+DEFERRED_EXHAUSTED 2
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=146 nodate=0 nonai=1 dup=37 dup_other=0 kept=84 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+LINK_MISSING shayanode | یه سایت هست که اگه اشتراک پولی هوش مصنوعی ها رو ندارین میتونین بدون لیمیت از
+TELEGRAM channels=17 posts=312 pending=8 leads=4 nolink=2 nonai=2 denied=0 promo=1 stale=0 before=0 dup=0 dup_other=0
+MEMORY lanes=main:348,review:13 delivered=361 window=30d
+REVIEW_LEADS 2 separate_from_main=yes cap=none
+  REVIEW_REQUIRED reason=link_missing sent=254
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-13/20-30-f55a9c73
+REVIEW_DRAFT Hugging Face Daily Papers | DeepStress: Stress-Testing Deep Search Agents | 1118 chars
+  REVIEW_DRAFT_QA PASS none | $0.001396
+  REVIEW_REQUIRED reason=research_paper sent=255
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-13/20-30-e4dd8521
+TELEGRAM_EDU_LEADS 2 selected=2 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD ai_farshad | education | 📊استخراج خودکار جدول‌ها و اطلاعات از PDF با کمک Docsumo!
+  EDU_LEAD ai_farshad | education | این پیجو تو وقتای آزادم با کلاود از صفر کامل زدم.
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_REVIEW leads=2 sent=2 ids=256,257 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-13/20-30-education/education.txt
+RELEVANCE candidates=80 kept=50 dropped=30
+  SKIP_NOT_AI TechCrunch | Uber confirms hackers stole thousands of drivers’ license information in data breach
+  SKIP_NOT_AI Product Hunt | Replicate
+  SKIP_NOT_AI TechCrunch | Muse can now place calls to US businesses — if you pay
+  SKIP_NOT_AI TechCrunch | Jensen Huang was having a third affair, Reuters reports
+  SKIP_NOT_AI arXiv | Consistent Video-to-Video Translation via Explicit Correspondences
+  SKIP_NOT_AI arXiv | Sketching Language Models for Context Attribution
+  SKIP_NOT_AI Product Hunt | Trainn MCP
+  SKIP_NOT_AI The Record | German parliament passes law giving spy agencies hacking, sabotage powers
+  SKIP_NOT_AI ... +22 more
+DIVERSITY target=business queue=2 fresh=16 deferred=48 rejected=source_daily:4,source_weekly:46,source_consecutive:1,category_daily:1,category_consecutive:4
+  DIVERSITY_QUEUE business:OpenAI News | models:arXiv
+QUEUE_SKIPPED 62
+  QUEUE_SKIP source_weekly | The Decoder | Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows
+  QUEUE_SKIP source_weekly | TechCrunch | ChatGPT’s new Wallet lets AI agents shop and check out for you
+  QUEUE_SKIP source_weekly | The Decoder | Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails
+  QUEUE_SKIP source_weekly | The Decoder | Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models
+  QUEUE_SKIP source_weekly | The Decoder | Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history
+  QUEUE_SKIP source_weekly | The Decoder | Meta's Muse now calls businesses for you, but many companies might just hang up on the AI
+  QUEUE_SKIP source_weekly | The Decoder | OpenAI enters the cybersecurity market with two Daybreak products
+  QUEUE_SKIP source_weekly | Hugging Face Blog | llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
+  QUEUE_SKIP source_daily | KDnuggets | 5 FREE Open-Source Alternatives to Jev
+  QUEUE_SKIP source_weekly | TechCrunch | Israel’s VCs see opportunity for challengers in Nvidia’s turmoil
+  QUEUE_SKIP ... +52 more
+QUEUE_HELD 8
+  QUEUE_HOLD source_weekly | Ars Technica AI | OpenAI board member worries an AI "takeover" of society could be months away
+  QUEUE_HOLD category_consecutive | ArchiveTell | 🖥️ جایگزین متن‌باز ادوبی انیمیت
+  QUEUE_HOLD source_weekly | TechCrunch | The unfolding Jensen Huang scandal: a timeline
+  QUEUE_HOLD category_daily | Google Project Zero | Policy and Disclosure: 2026 Edition
+  QUEUE_HOLD category_consecutive | Product Hunt | Gemini 4 Hydrogen
+  QUEUE_HOLD source_weekly | Ars Technica AI | Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395
+  QUEUE_HOLD source_weekly | The Decoder | Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value
+  QUEUE_HOLD source_weekly | Hugging Face Blog | XYBench: Helping with the problem behind the question
+ATTEMPT 1/2 OpenAI News | Gondola doubles revenue as its team builds more with Codex | 29.8h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 1/3
+ATTEMPT 2/2 arXiv | Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs | 22.9h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | متن ورودی درباره arXivLabs است، نه هوش مصنوعی؛ موضوع پست با دسته‌های کانال همخوانی ندارد.
+RESULT EMPTY attempts=4 reviews=2 deferred=50 | cost $0.001518 | tokens 17645
+  EMPTY_ATTEMPT review reason=link_missing | یه سایت هست که اگه اشتراک پولی هوش مصنوعی ها رو ندارین میتونین بدون لیمیت از
+  EMPTY_ATTEMPT review reason=research_paper | DeepStress: Stress-Testing Deep Search Agents
+  EMPTY_ATTEMPT deferred reason=fetch_failed | Gondola doubles revenue as its team builds more with Codex
+  EMPTY_ATTEMPT model_skip reason=متن ورودی درباره arXivLabs است، نه هوش مصنوعی؛ موضوع پست با دسته‌های کانال همخوانی ندارد. | Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-13T17:46:32Z
+# گزارش روزانه 2026-11-13 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 6 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 6، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 6 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 3، امنیت و حریم خصوصی 2
+- آفر: ارسال‌شده 0 | بازبینی 5
+- آموزش‌های بازبینی: 7 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 36
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 3، امنیت و حریم خصوصی 2
+
+## هزینه
+- هزینه مدل: $0.006716
+- توکن: 96892
+- میانگین هر پست ارسال‌شده: $0.001119
+
+## سهمیه هفتگی (هفته 2026-11-07)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 18 | 31 | 13 |
+| مدل‌ها و پژوهش | 13 | 24 | 11 |
+| امنیت و حریم خصوصی | 7 | 11 | 4 |
+| کسب‌وکار و بازار | 9 | 11 | 2 |
+| مجموع | 47 | 77 | 30 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/42 | $0.001559 | 10374 | گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.000291 | 9195 | جستجوی گوگل با Gemini 4 Hydrogen ارتقا یافت |
+| 11:30 | امنیت و حریم خصوصی | ارسال‌شده | 42/42 | $0.002024 | 21119 | گوگل دیپ‌مایند امنیت پروتکل سیگنال را با هوش مصنوعی اثبات کرد |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.000483 | 10439 | ۷ کتاب رایگان برای یادگیری ساخت سیستم‌های هوش مصنوعی |
+| 14:00 #2 | امنیت و حریم خصوصی | ارسال‌شده | 41/42 | $0.000506 | 18606 | آپدیت LLM جلوی لو رفتن کلید API را می‌گیرد |
+| 17:00 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.000335 | 9514 | Synapsis AI پرونده‌های بیماران را در بیمارستان تحلیل می‌کند |
+| 20:30 |  | خالی | — | $0.001518 | 17645 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 16
+- دلایل: از رصد آفر پیدا شد 2، لینک خارجی این پست پذیرفته نشد 6، مقاله پژوهشی منتخب 2، متن کافی برای ساخت پست نبود 1، جزئیات ابزار کامل نشد 1، لینک قابل استفاده ندارد 3، لینک معتبر برای این آفر پیدا نشد 1
+- واجد شرایط کانال اصلی: 2
+- آموزش‌های بازبینی امروز: 7 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-13.md
