@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T13:38:36.371Z",
+  "updatedAt": "2026-11-13T14:28:28.627Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -7442,18 +7442,18 @@
       "url": "https://t.me/Mohammad_zammani/7208"
     },
     "url:8582be971c5bcf9b": {
-      "at": "2026-11-13T13:31:13.800Z",
-      "decision": "review_pending",
-      "reason": "no_link:review_send_failed",
+      "at": "2026-11-13T14:28:28.627Z",
+      "decision": "review",
+      "reason": "no_link",
       "category": "",
       "slot": "2026-11-13T17:00+03:30",
       "title": "اگه از هوش مصنوعی استفاده میکنید خیلی باید حواستون به VPN باشه که اکانتتون بن نشه‼️",
       "url": "https://t.me/shayanode/169"
     },
     "title:30f1cbb515edc496": {
-      "at": "2026-11-13T13:31:13.800Z",
-      "decision": "review_pending",
-      "reason": "no_link:review_send_failed",
+      "at": "2026-11-13T14:28:28.627Z",
+      "decision": "review",
+      "reason": "no_link",
       "category": "",
       "slot": "2026-11-13T17:00+03:30",
       "title": "اگه از هوش مصنوعی استفاده میکنید خیلی باید حواستون به VPN باشه که اکانتتون بن نشه‼️",
@@ -14757,6 +14757,18 @@
       "slot": "2026-11-13T17:00+03:30",
       "kind": "tool",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/169",
+      "date": "2026-11-13",
+      "at": "2026-11-13T14:28:28.084Z",
+      "source": "tg-shayanode",
+      "title": "اگه از هوش مصنوعی استفاده میکنید خیلی باید حواستون به VPN باشه که اکانتتون بن نشه‼️",
+      "url": "https://t.me/shayanode/169",
+      "reason": "no_link",
+      "slot": "2026-11-13T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -14950,33 +14962,7 @@
       "at": "2026-11-13T13:30:58.414Z"
     }
   ],
-  "reviewPending": {
-    "2026-11-13|tg-shayanode|https://t.me/shayanode/169": {
-      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/169",
-      "source": "tg-shayanode",
-      "sourceName": "Shayanode",
-      "title": "اگه از هوش مصنوعی استفاده میکنید خیلی باید حواستون به VPN باشه که اکانتتون بن نشه‼️",
-      "url": "https://t.me/shayanode/169",
-      "reason": "no_link",
-      "kind": "post",
-      "mainEligible": false,
-      "needsLinkApproval": false,
-      "slot": "2026-11-13T17:00+03:30",
-      "at": "2026-11-13T13:30:58.414Z",
-      "publishedAt": "2026-11-13T12:40:51+00:00",
-      "keys": [
-        "url:8582be971c5bcf9b",
-        "title:30f1cbb515edc496"
-      ],
-      "leadPostUrl": "https://t.me/shayanode/169",
-      "messageText": "اگه از هوش مصنوعی استفاده میکنید خیلی باید حواستون به VPN باشه که اکانتتون بن نشه‼️",
-      "expiry": null,
-      "text": "🚨 نیازمند بررسی و انتشار در کانال اصلی\n\nاین مورد خودکار آماده نشد. خلاصه، منبع و چک‌لیست پایین را ببین.\n\nاین چیه؟\nاگه از هوش مصنوعی استفاده میکنید خیلی باید حواستون به VPN باشه که اکانتتون بن نشه‼️\n\nمنبع: Shayanode\nلینک منبع: https://t.me/shayanode/169\nدلیل بازبینی: لینک قابل استفاده ندارد\nتاریخ انتشار: جمعه ۲۲ آبان ۱۴۰۵\n\nچی را چک کنی؟\n• منبع رسمی شرکت یا صفحهٔ اصلی محصول را پیدا کن و لینکش را در پست بگذار.\n• لینک منبع را باز کن و مطمئن شو به همین خبر مربوط است.\n• عددها، نام‌ها و تاریخ را با منبع مقایسه کن.\n• هیچ تبلیغ، لینک ارجاعی یا امضای کانال داخل پست نمانده باشد.\n\nلینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.\n\nاین پیام فقط برای بازبینی است و به کانال اصلی منتشر نشده است.",
-      "html": "",
-      "attempts": 1,
-      "queuedAt": "2026-11-13T13:30:58.414Z"
-    }
-  },
+  "reviewPending": {},
   "offerWatch": {
     "lastDate": "2026-11-13",
     "at": "2026-11-13T05:00:48.959Z",
