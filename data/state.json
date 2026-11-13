@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T05:46:39.526Z",
+  "updatedAt": "2026-11-13T08:11:17.615Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -7014,6 +7014,148 @@
       "slot": "2026-11-13T08:30+03:30",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade"
+    },
+    "url:e5a4611a25d3f9ef": {
+      "at": "2026-11-13T08:01:02.028Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+      "url": "https://arxiv.org/abs/2611.17241v1"
+    },
+    "title:914b53eb706cdbc1": {
+      "at": "2026-11-13T08:01:02.028Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+      "url": "https://arxiv.org/abs/2611.17241v1"
+    },
+    "url:341363dd4020e2e5": {
+      "at": "2026-11-13T08:01:02.841Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions"
+    },
+    "title:133a590a669f1e3d": {
+      "at": "2026-11-13T08:01:02.841Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions"
+    },
+    "url:5c9f9b82031a7193": {
+      "at": "2026-11-13T08:01:02.652Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "url": "https://arxiv.org/abs/2611.17309v1"
+    },
+    "title:e3f67e5c8d266d60": {
+      "at": "2026-11-13T08:01:02.652Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "url": "https://arxiv.org/abs/2611.17309v1"
+    },
+    "url:51220045230d60ec": {
+      "at": "2026-11-13T08:01:02.652Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "url": "https://arxiv.org/abs/2611.17294v1"
+    },
+    "title:1f3b523ebc570a1e": {
+      "at": "2026-11-13T08:01:02.652Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "url": "https://arxiv.org/abs/2611.17294v1"
+    },
+    "url:a7fa7da4542700ad": {
+      "at": "2026-11-13T08:01:02.652Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+      "url": "https://arxiv.org/abs/2611.17239v1"
+    },
+    "title:18ce2f3c5206014d": {
+      "at": "2026-11-13T08:01:02.652Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+      "url": "https://arxiv.org/abs/2611.17239v1"
+    },
+    "url:db6f0f806d3316e1": {
+      "at": "2026-11-13T08:05:45.481Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "GTAGym: AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2611.13028"
+    },
+    "title:3efa0f1dfaeb3c40": {
+      "at": "2026-11-13T08:05:45.481Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "GTAGym: AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2611.13028"
+    },
+    "url:fd0e38b70a90d204": {
+      "at": "2026-11-13T08:06:38.118Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,body_paragraphs,length",
+      "category": "tools",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator"
+    },
+    "title:0d9850e456b0802d": {
+      "at": "2026-11-13T08:06:38.118Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,body_paragraphs,length",
+      "category": "tools",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator"
+    },
+    "url:0e9fb0eb84f13acf": {
+      "at": "2026-11-13T08:11:17.553Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code"
+    },
+    "title:124778f847282ddb": {
+      "at": "2026-11-13T08:11:17.553Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-13T11:30+03:30",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code"
     }
   },
   "deferred": {
@@ -7115,59 +7257,6 @@
         "webEducation": false,
         "leadKind": ""
       }
-    },
-    "defer:url:0e9fb0eb84f13acf": {
-      "id": "defer:url:0e9fb0eb84f13acf",
-      "at": "2026-11-12T17:51:46.126Z",
-      "firstAt": "2026-11-12T13:31:00.124Z",
-      "attempts": 2,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:0e9fb0eb84f13acf",
-        "title:124778f847282ddb"
-      ],
-      "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "candidate": {
-        "sourceId": "deepmind-blog",
-        "sourceName": "Google DeepMind Blog",
-        "sourceType": "official_blog",
-        "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-        "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-        "canonical": "https://deepmind.google/blog/introducing-alphaproof-code",
-        "published": "Tue, 10 Nov 2026 12:02:28 +0000",
-        "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-        "messageText": "",
-        "leadPostUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
-        "images": [
-          "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo"
-        ],
-        "ageHours": 49.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:0e9fb0eb84f13acf",
-          "title:124778f847282ddb"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:0e9fb0eb84f13acf",
-          "attempts": 1
-        }
-      },
-      "detail": "security"
     },
     "defer:url:c2e9279cb8a68e3b": {
       "id": "defer:url:c2e9279cb8a68e3b",
@@ -7696,51 +7785,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:fd0e38b70a90d204": {
-      "id": "defer:url:fd0e38b70a90d204",
-      "at": "2026-11-12T17:04:21.239Z",
-      "firstAt": "2026-11-12T17:04:21.239Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:fd0e38b70a90d204",
-        "title:0d9850e456b0802d"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/11/aws-emulator",
-      "title": "aws-emulator",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "aws-emulator",
-        "link": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-        "canonical": "https://simonwillison.net/2026/Nov/11/aws-emulator",
-        "published": "2026-11-11T21:18:30+00:00",
-        "summary": "<p><strong><a href=\"https://github.com/aws/aws-emulator\">aws-emulator</a></strong></p> Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.</p> <p>It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about <a href=\"https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\">how it came to be</a> in a guest post on Werner Vogels' blog.</p> <p>It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms. <p>Tags: <a href=\"https://simonwillison.net/tags/amazon\">amazon</a>, <a href=\"https://simonwillison.net/tags/amazon-web-services\">amazon-web-services</a>, <a href=\"https://simonwillison.net/tags/testing\">testing</a>, <a href=\"https://simonwillison.net/tags/werner-vogels\">werner-vogels</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/docker\">docker</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-        "images": [],
-        "ageHours": 19.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:fd0e38b70a90d204",
-          "title:0d9850e456b0802d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:04b62b0823f31776": {
       "id": "defer:url:04b62b0823f31776",
       "at": "2026-11-12T17:04:21.239Z",
@@ -8170,53 +8214,6 @@
         "keys": [
           "url:e192e4f92a704298",
           "title:d8dbcfefb44e50ed"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:341363dd4020e2e5": {
-      "id": "defer:url:341363dd4020e2e5",
-      "at": "2026-11-12T19:30:59.829Z",
-      "firstAt": "2026-11-12T19:30:59.829Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:341363dd4020e2e5",
-        "title:133a590a669f1e3d"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-        "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-        "canonical": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
-        "published": "Thu, 12 Nov 2026 19:27:45 +0000",
-        "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:341363dd4020e2e5",
-          "title:133a590a669f1e3d"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9395,6 +9392,240 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:76a940fe4a3b3c0b": {
+      "id": "defer:url:76a940fe4a3b3c0b",
+      "at": "2026-11-13T08:05:45.488Z",
+      "firstAt": "2026-11-13T08:05:45.488Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:76a940fe4a3b3c0b",
+        "title:22060cc808cf1b34"
+      ],
+      "canonical": "https://www.producthunt.com/products/claude",
+      "title": "Claude Meetings",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Claude Meetings",
+        "link": "https://www.producthunt.com/products/claude",
+        "canonical": "https://www.producthunt.com/products/claude",
+        "published": "2026-11-12T18:24:55-08:00",
+        "summary": "<p> Add Claude to your call and get work started as you talk </p> <p> <a href=\"https://www.producthunt.com/products/claude?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314781?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/claude",
+        "images": [],
+        "ageHours": 5.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:76a940fe4a3b3c0b",
+          "title:22060cc808cf1b34"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9ca1e30b2dd5ebcc": {
+      "id": "defer:url:9ca1e30b2dd5ebcc",
+      "at": "2026-11-13T08:05:45.488Z",
+      "firstAt": "2026-11-13T08:05:45.488Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:9ca1e30b2dd5ebcc",
+        "title:2cb459c9605f7b4d"
+      ],
+      "canonical": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+      "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+        "link": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+        "canonical": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+        "published": "Thu, 12 Nov 2026 12:09:43 +0000",
+        "summary": "Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor. The model is available for noncommercial research through an API and is set to be integrated into Google's agentic platform Antigravity. The article Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2 appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphagenome2.png"
+        ],
+        "ageHours": 19.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9ca1e30b2dd5ebcc",
+          "title:2cb459c9605f7b4d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4b2816a1ecc32e3e": {
+      "id": "defer:url:4b2816a1ecc32e3e",
+      "at": "2026-11-13T08:05:45.488Z",
+      "firstAt": "2026-11-13T08:05:45.488Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4b2816a1ecc32e3e",
+        "title:f9f3d1c07f87ac0d"
+      ],
+      "canonical": "https://www.producthunt.com/products/adobe-ai-assistant",
+      "title": "Adobe AI Assistant",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Adobe AI Assistant",
+        "link": "https://www.producthunt.com/products/adobe-ai-assistant",
+        "canonical": "https://www.producthunt.com/products/adobe-ai-assistant",
+        "published": "2026-11-10T10:55:39-08:00",
+        "summary": "<p> Create and edit faster with AI across Adobe apps </p> <p> <a href=\"https://www.producthunt.com/products/adobe-ai-assistant?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1311866?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/adobe-ai-assistant",
+        "images": [],
+        "ageHours": 61.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4b2816a1ecc32e3e",
+          "title:f9f3d1c07f87ac0d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e09fad6dcc25f1ba": {
+      "id": "defer:url:e09fad6dcc25f1ba",
+      "at": "2026-11-13T08:05:45.488Z",
+      "firstAt": "2026-11-13T08:05:45.488Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:e09fad6dcc25f1ba",
+        "title:ab2622bb492b3497"
+      ],
+      "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+        "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+        "published": "Wed, 11 Nov 2026 09:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp\">A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 47,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e09fad6dcc25f1ba",
+          "title:ab2622bb492b3497"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:67672a694e389b29": {
+      "id": "defer:url:67672a694e389b29",
+      "at": "2026-11-13T08:11:17.615Z",
+      "firstAt": "2026-11-13T08:11:17.615Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:67672a694e389b29",
+        "title:0c70a89ee235a382"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/amplitude",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+        "link": "https://openai.com/business/customer-stories/amplitude",
+        "canonical": "https://openai.com/business/customer-stories/amplitude",
+        "published": "Thu, 12 Nov 2026 20:00:00 GMT",
+        "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/amplitude",
+        "images": [],
+        "ageHours": 12,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:67672a694e389b29",
+          "title:0c70a89ee235a382"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -10756,6 +10987,37 @@
           "at": "2026-11-13T05:14:06.153Z"
         }
       ]
+    },
+    "2026-11-13T11:30+03:30": {
+      "at": "2026-11-13T08:11:17.553Z",
+      "status": "sent",
+      "category": "security",
+      "title": "گوگل دیپ‌مایند امنیت پروتکل سیگنال را با هوش مصنوعی اثبات کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-13/11-30",
+      "messageId": 69,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0035496216,
+      "tokens": 38906,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "گوگل دیپ‌مایند امنیت پروتکل سیگنال را با هوش مصنوعی اثبات کرد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 69,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-13/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0020235208,
+          "tokens": 21119,
+          "qa": "42/42",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-13T08:11:17.552Z"
+        }
+      ]
     }
   },
   "published": [
@@ -11708,93 +11970,110 @@
       "sourceTitle": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "sourceText": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more intuitive, visual, and precise answers. This update helps you navigate complex questions by understanding your intent, conducting simultaneous queries, and displaying structured information like tables and images. You can try these improved capabilities by visiting Google Search today to ask your most nuanced questions.\nWe are bringing Gemini 4 Hydrogen to Google Search to help you find exactly what you need. This update understands complex, multi-part questions and provides clear answers with helpful images, tables, and links. You can now ask about specific requirements for travel, shopping, or hobbies in your own natural language. It connects you to more relevant websites and tools to save you time during your daily searches.\nToday, Google Search is bringing cutting-edge intelligence to everyone with Gemini 4 Hydrogen . This is the biggest model upgrade to Search yet.\nHydrogen is now available globally in Google Search for all users, delivering more helpful, visual, and intuitive responses with improved model capabilities:\nYour information will be used in accordance with Google's privacy policy. You may opt out at any time.\nRobby Stein is Vice President of Product, Google Search, working on the development of generative AI products and experiences that help people search and access information effortlessly.\nMeet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
       "at": "2026-11-13T05:14:06.153Z"
+    },
+    {
+      "week": "2026-11-07",
+      "slot": "2026-11-13T11:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "گوگل دیپ‌مایند امنیت پروتکل سیگنال را با هوش مصنوعی اثبات کرد",
+      "why": "اهمیتش این است که این روش می‌تواند برای تأیید امنیت سیستم‌های حیاتی دیگر مثل فریمور تجهیزات پزشکی و نرم‌افزار شبکه برق هم استفاده شود.",
+      "dedupe_key": "google-deepmind-alphaproof-code-signal-verification",
+      "post_key": "2026-11-13/11-30/1",
+      "sourceId": "deepmind-blog",
+      "sourceName": "Google DeepMind Blog",
+      "sourceType": "official_blog",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "sourceTitle": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth — Google DeepMind",
+      "sourceText": "How Google DeepMind researchers built a new agentic framework that formally verified the code of Signal’s cryptographic protocol — long considered to be a grand security challenge\nToday, we’re sharing a milestone in software security long considered to be a grand challenge: Google DeepMind researchers guided AI agents to mathematically prove key security properties of the actual code underlying the Signal protocol, the technology that protects billions of private conversations in apps like Signal and Google Messages.\nThis breakthrough discovery was made using AlphaProof Code , a novel agentic framework for formal verification at unprecedented depth that combines human expertise with AI agents. Formal verification—mathematically proving code runs correctly without flaws—is the highest standard of security assurance; however, it is difficult and often labor-intensive.\nOur work marks the first time AI has been used to formally verify a widely deployed cryptographic protocol at this depth. It's also the first time the implementation of a widely deployed protocol like this has been formally verified by any method, with or without AI.\nAlphaProof Code is a multi-LLM agentic framework that splits the work of formal verification the way a research team would: human experts work with AI to decide what to prove, and a group of AI agents does it.\nFirst, our researchers collaborated with a mix of models to translate Signal’s security goals into formal mathematical specifications, with human experts reviewing every one. From there, agents powered by Gemini Carbon did the proofs, generati",
+      "at": "2026-11-13T08:11:17.553Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8400,
-      "last_at": "2026-11-12T19:43:07+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "last_id": 8401,
+      "last_at": "2026-11-13T07:11:07+00:00",
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "ai_farshad": {
-      "last_id": 6417,
-      "last_at": "2026-11-12T20:36:02+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "last_id": 6418,
+      "last_at": "2026-11-13T07:31:31+00:00",
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "Mohammad_zammani": {
       "last_id": 7205,
       "last_at": "2026-11-12T19:37:15+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "techiin_ir": {
       "last_id": 20764,
       "last_at": "2026-11-12T19:37:09+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "mgh_mobin": {
-      "last_id": 475,
-      "last_at": "2026-11-12T06:12:45+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "last_id": 477,
+      "last_at": "2026-11-13T07:40:52+00:00",
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "web3nabu": {
       "last_id": 2158,
       "last_at": "2026-11-12T14:46:25+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "asrnovin_ir": {
       "last_id": 11453,
       "last_at": "2026-11-12T20:04:13+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "shayanode": {
       "last_id": 164,
       "last_at": "2026-11-12T20:08:12+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "dunijet_ai": {
       "last_id": 2543,
       "last_at": "2026-11-12T13:33:17+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "MatinSenPaii": {
       "last_id": 5853,
       "last_at": "2026-11-12T21:03:50+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     },
     "thenimaonAI": {
       "last_id": 497,
       "last_at": "2026-11-12T10:40:04+00:00",
-      "checked_at": "2026-11-13T05:00:48.959Z"
+      "checked_at": "2026-11-13T08:00:47.979Z"
     }
   },
   "offerReviews": [
@@ -13895,6 +14174,18 @@
       "url": "https://t.me/techiin_ir/20764",
       "reason": "denied_link",
       "slot": "2026-11-13T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-13|hf-papers|https://huggingface.co/papers/2611.13028",
+      "date": "2026-11-13",
+      "at": "2026-11-13T08:00:47.979Z",
+      "source": "hf-papers",
+      "title": "GTAGym: AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2611.13028",
+      "reason": "research_paper",
+      "slot": "2026-11-13T11:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
