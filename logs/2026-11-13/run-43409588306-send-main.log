@@ -1,0 +1,159 @@
+RUN 43409588306 | send/main | slot auto | 2026-11-13T10:30:43Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-13T14:00+03:30 | WEEK 2026-11-07 | MODE SEND
+QUOTA tools 16/31 | models 13/24 | security 6/11 | business 9/11
+DAILY 3/11
+DIVERSITY_TARGET tools | slot 14:00
+DEFERRED_POOL 50
+  DEFERRED category_consecutive | try 0/3 | Claude Meetings
+  DEFERRED source_weekly | try 0/3 | Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump
+  DEFERRED source_weekly | try 0/3 | FAA expands AI advice to manage air traffic congestion across entire US airspace
+  DEFERRED source_weekly | try 0/3 | Nebius tests the neocloud playbook with $40 billion in planned spending
+  DEFERRED source_weekly | try 0/3 | Claude Meetings lets Anthropic's AI join your video calls
+DEFERRED_EXHAUSTED 1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=147 nodate=0 nonai=1 dup=40 dup_other=0 kept=92 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=311 pending=15 leads=10 nolink=0 nonai=0 denied=4 promo=0 stale=0 before=0 dup=0 dup_other=0
+MEMORY lanes=main:329,review:13 delivered=342 window=30d
+STORY_DUPLICATES 4 skipped=worked_story
+  STORY_DUPLICATE Thenima.one | مدل Claude fable 5.2 دوباره شاهکار کرد 🔥 | already main: 🔥مدل Claude Fable 5.2 به مدت 2 روز رایگان
+  STORY_DUPLICATE هوش مصنوعی | محمد زمانی | 🤖گوگل مدل جدید Gemini 4 Hydrogen رو به‌عنوان بزرگ‌ترین آپدیت موتور جست‌وجوی خودش معرفی کرده. | already main: جستجوی گوگل با Gemini 4 Hydrogen ارتقا یافت
+  STORY_DUPLICATE Thenima.one | یه چیزی که از مدل‌های AI همیشه اذیتم می‌کرد: دستور می‌دی، یه چیز نصفه‌نیمه تحویل می‌گیری، | already main: گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد
+  STORY_DUPLICATE تِک‌این | آموزش و فناوری | ✅ پایان رسمی مسیر ۳۳ ساله جنسن هوانگ در شرکت انویدیا | already main: طبق بیانیه رسمی انویدیا، جنسن هوانگ از مدیرعاملی این شرکت استعفا داده.
+REVIEW_LEADS 3 separate_from_main=yes cap=none
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | ✅ تعریف و تحسین ایلان ماسک از مدل هوش مصنوعی Claude Opus 5.5 | 516 chars
+  REVIEW_REQUIRED reason=denied_link sent=241
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-13/14-00-525579cf
+REVIEW_DRAFT دانیجت | Dunijet | کلاد حالا عضو جلسات ویدیویی تیمت میشه | 508 chars
+  REVIEW_DRAFT_QA PASS none | $0.000343
+  REVIEW_REQUIRED reason=denied_link sent=242
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-13/14-00-eee52653
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | ✅ بخش جدید پروفایل‌های کسب‌وکار و هاب تجاری به چت‌جی‌پی‌تی اضافه شد | 387 chars
+  REVIEW_REQUIRED reason=denied_link sent=243
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-13/14-00-9765b663
+RELEVANCE candidates=85 kept=57 dropped=28
+  SKIP_NOT_AI Product Hunt | Replicate
+  SKIP_NOT_AI TechCrunch | Muse can now place calls to US businesses — if you pay
+  SKIP_NOT_AI TechCrunch | Jensen Huang was having a third affair, Reuters reports
+  SKIP_NOT_AI arXiv | Sketching Language Models for Context Attribution
+  SKIP_NOT_AI arXiv | Consistent Video-to-Video Translation via Explicit Correspondences
+  SKIP_NOT_AI Product Hunt | Trainn MCP
+  SKIP_NOT_AI ArchiveTell | ❄️ برف با Snowhush روی دسکتاپ
+  SKIP_NOT_AI ArchiveTell | 🧹 فایلت قبل از ارسال چی لو میده
+  SKIP_NOT_AI ... +20 more
+DIVERSITY target=tools queue=6 fresh=17 deferred=50 rejected=source_daily:5,source_weekly:41
+  DIVERSITY_QUEUE tools:Product Hunt | tools:KDnuggets | tools:Thenima.one | models:arXiv | models:NVIDIA AI Blog | models:Simon Willison - Prompt Injection
+QUEUE_SKIPPED 60
+  QUEUE_SKIP source_weekly | TechCrunch | Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump
+  QUEUE_SKIP source_weekly | Ars Technica AI | FAA expands AI advice to manage air traffic congestion across entire US airspace
+  QUEUE_SKIP source_weekly | TechCrunch | Nebius tests the neocloud playbook with $40 billion in planned spending
+  QUEUE_SKIP source_weekly | The Decoder | Claude Meetings lets Anthropic's AI join your video calls
+  QUEUE_SKIP source_weekly | Ars Technica AI | Ars Live: What drone attacks on data centers mean for modern life in the cloud
+  QUEUE_SKIP source_weekly | The Decoder | Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch
+  QUEUE_SKIP source_weekly | Ars Technica AI | Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash
+  QUEUE_SKIP source_weekly | The Record | United to block customers from using AI agents, citing cyber threats
+  QUEUE_SKIP source_weekly | TechCrunch | Nectar launches an AI agent to automate creator discovery and outreach for brands
+  QUEUE_SKIP source_weekly | Hugging Face Blog | LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B
+  QUEUE_SKIP ... +50 more
+ATTEMPT 1/6 | deferred 0/3 Product Hunt | Claude Meetings | 5.6h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  FETCH_TEXT_FALLBACK 323 chars
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image no_image
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at its concurrency l)
+  retry in 20s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at its concurrency l)
+  retry in 45s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at its concurrency l)
+  invalid JSON, one corrective retry
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | ورودی فقط یک جمله تیزرگونه است و هیچ جزئیات، عدد یا قابلیت مشخصی ندارد.
+ATTEMPT 2/6 | deferred 0/3 KDnuggets | 7 FREE Books to Learn About Building AI Systems | 6.5h
+  TOOL_LINK candidate https://github.com/chiphuyen/machine-learning-systems-design | score 38
+  MODEL DeepSeek-V4-Flash | image allowed
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at its concurrency l)
+  retry in 20s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at its concurrency l)
+  retry in 45s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at its concurrency l)
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK applied https://github.com/chiphuyen/machine-learning-systems-design
+POST 1/2 status=sent category=tools | QA 42/42 | $0.000483 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-13/14-00
+ATTEMPT 3/6 Thenima.one | Google AI Studio | 0.8h
+  CONTENT_SUPPLEMENT +290 chars telegram
+  REVIEW_REQUIRED reason=thin_content sent=244
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-13/14-00-9eef4504
+  THIN_CONTENT 292 chars
+ATTEMPT 4/6 arXiv | AgentSSL: Can MLE Agents Leverage Unlabeled Data? | 15.5h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | متن ورودی فقط توضیح چارچوب arXivLabs است و هیچ خبری درباره مدل یا ابزار هوش مصنوعی ندارد.
+ATTEMPT 5/6 NVIDIA AI Blog | A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW | 20.5h
+  TOOL_LINK candidate https://store.steampowered.com/app/2272360/ | score 24
+  MODEL DeepSeek-V4-Flash | image forbidden_url
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | خبر درباره بازی‌های ویدیویی و سرویس GeForce NOW است و موضوع اصلی آن هوش مصنوعی نیست.
+ATTEMPT 6/6 Simon Willison - Prompt Injection | llm 0.37.2 | 41.2h
+  TOOL_LINK candidate https://github.com/sponsors/simonw/ | score 22
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  IMAGE_SET_BY_POLICY
+  QA_FAILED schema,verification_enum,verification_source,source_url | one repair retry
+  REPAIR_QA PASS | score 41/42 | problems none | warnings why
+  SLOT_GAP_WAIT 611s
+POST 2/2 status=sent category=security | QA 41/42 | $0.000506 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-13/14-00-2
+RESULT SENT category=security | offer=no | image=no | QA 41/42 | cost $0.004323 | post $0.000506 | tokens 82386
+TITLE آپدیت LLM جلوی لو رفتن کلید API را می‌گیرد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-13/14-00-2
+SLOT_POSTS 2/2 sent=2 review=0
+  POST tools | sent | $0.000483 | ۷ کتاب رایگان برای یادگیری ساخت سیستم‌های هوش مصنوعی
+  POST security | sent | $0.000506 | آپدیت LLM جلوی لو رفتن کلید API را می‌گیرد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-13T10:48:35Z
+# گزارش روزانه 2026-11-13 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 2، امنیت و حریم خصوصی 2
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 26
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 2، امنیت و حریم خصوصی 2
+
+## هزینه
+- هزینه مدل: $0.004863
+- توکن: 69733
+- میانگین هر پست ارسال‌شده: $0.000973
+
+## سهمیه هفتگی (هفته 2026-11-07)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 17 | 31 | 14 |
+| مدل‌ها و پژوهش | 13 | 24 | 11 |
+| امنیت و حریم خصوصی | 7 | 11 | 4 |
+| کسب‌وکار و بازار | 9 | 11 | 2 |
+| مجموع | 46 | 77 | 31 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/42 | $0.001559 | 10374 | گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.000291 | 9195 | جستجوی گوگل با Gemini 4 Hydrogen ارتقا یافت |
+| 11:30 | امنیت و حریم خصوصی | ارسال‌شده | 42/42 | $0.002024 | 21119 | گوگل دیپ‌مایند امنیت پروتکل سیگنال را با هوش مصنوعی اثبات کرد |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.000483 | 10439 | ۷ کتاب رایگان برای یادگیری ساخت سیستم‌های هوش مصنوعی |
+| 14:00 #2 | امنیت و حریم خصوصی | ارسال‌شده | 41/42 | $0.000506 | 18606 | آپدیت LLM جلوی لو رفتن کلید API را می‌گیرد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 8
+- دلایل: از رصد آفر پیدا شد 2، لینک خارجی این پست پذیرفته نشد 4، مقاله پژوهشی منتخب 1، متن کافی برای ساخت پست نبود 1
+- واجد شرایط کانال اصلی: 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 49
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-13.md
