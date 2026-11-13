@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T17:46:31.964Z",
+  "updatedAt": "2026-11-13T19:31:44.830Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -7798,202 +7798,90 @@
       "slot": "2026-11-13T20:30+03:30",
       "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
       "url": "https://arxiv.org/abs/2611.17280v1"
+    },
+    "url:23677a18977533ec": {
+      "at": "2026-11-13T19:30:54.542Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "🤖 مدل Claude حالا می‌تونه به تماس تصویری‌تون بیاد و همون‌جا که حرف می‌زنین داکیومنت بسازه",
+      "url": "http://support.claude.com/en/articles/18325154-use-claude-meetings"
+    },
+    "title:ce5fd490eab4ea90": {
+      "at": "2026-11-13T19:30:54.542Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "🤖 مدل Claude حالا می‌تونه به تماس تصویری‌تون بیاد و همون‌جا که حرف می‌زنین داکیومنت بسازه",
+      "url": "http://support.claude.com/en/articles/18325154-use-claude-meetings"
+    },
+    "url:afc6765cb5572b17": {
+      "at": "2026-11-13T19:31:39.017Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "این قضیه انویدیا داره به طرز کسل کننده ای مطابق الگویی که حدس زدم پیش میره",
+      "url": "https://t.me/MatinSenPaii/5860"
+    },
+    "title:1a68d6b0aaf59efa": {
+      "at": "2026-11-13T19:31:39.017Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "این قضیه انویدیا داره به طرز کسل کننده ای مطابق الگویی که حدس زدم پیش میره",
+      "url": "https://t.me/MatinSenPaii/5860"
+    },
+    "url:ab04318a191322d6": {
+      "at": "2026-11-13T19:31:39.225Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "🟪ساخت موشن با کلاد، از صفر تا خروجی MP4 🔵توی این مینی‌دوره، امیرعلی کلانپایی قدم‌به‌قدم نشونت",
+      "url": "http://t.me/pelyedit"
+    },
+    "title:6ce826a6a099a30b": {
+      "at": "2026-11-13T19:31:41.156Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "🟪ساخت موشن با کلاد، از صفر تا خروجی MP4 🔵توی این مینی‌دوره، امیرعلی کلانپایی قدم‌به‌قدم نشونت",
+      "url": "https://t.me/ai_farshad/6429"
+    },
+    "url:e5c949a0f04cf36b": {
+      "at": "2026-11-13T19:31:41.156Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "🟪ساخت موشن با کلاد، از صفر تا خروجی MP4 🔵توی این مینی‌دوره، امیرعلی کلانپایی قدم‌به‌قدم نشونت",
+      "url": "https://t.me/ai_farshad/6429"
+    },
+    "url:5172e915daa565ad": {
+      "at": "2026-11-13T19:31:44.827Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "url": "https://arxiv.org/abs/2611.17267v1"
+    },
+    "title:45ec772867c94ae2": {
+      "at": "2026-11-13T19:31:44.827Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-13T23:00+03:30",
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "url": "https://arxiv.org/abs/2611.17267v1"
     }
   },
   "deferred": {
-    "defer:url:4922ca6fb0dd9299": {
-      "id": "defer:url:4922ca6fb0dd9299",
-      "at": "2026-11-12T17:51:46.201Z",
-      "firstAt": "2026-11-12T10:33:01.725Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_consecutive",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:4922ca6fb0dd9299",
-        "title:09915538fdf04dc4"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Holiday Extras is rethinking what it can build with Codex",
-        "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
-        "canonical": "https://openai.com/business/customer-stories/holidays-extras-codex",
-        "published": "Thu, 12 Nov 2026 09:30:00 GMT",
-        "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
-        "images": [],
-        "ageHours": 1,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4922ca6fb0dd9299",
-          "title:09915538fdf04dc4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:4922ca6fb0dd9299",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:9ccf02f3129f7388": {
-      "id": "defer:url:9ccf02f3129f7388",
-      "at": "2026-11-12T17:50:33.037Z",
-      "firstAt": "2026-11-12T17:50:33.037Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:9ccf02f3129f7388",
-        "title:c3d5e411c9fd22bf"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
-      "title": "Hugging Face CEO vows to keep fighting for open-source AI after Jensen Huang’s exit",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Hugging Face CEO vows to keep fighting for open-source AI after Jensen Huang’s exit",
-        "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-        "canonical": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
-        "published": "Thu, 12 Nov 2026 17:36:40 +0000",
-        "summary": "Hugging Face's CEO pledged to keep fighting for open-source AI after Huang's exit, raising questions about Nvidia's $12.9B acquisition.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-        "images": [],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:9ccf02f3129f7388",
-          "title:c3d5e411c9fd22bf"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:039c74dda2a3b52c": {
-      "id": "defer:url:039c74dda2a3b52c",
-      "at": "2026-11-12T17:50:33.037Z",
-      "firstAt": "2026-11-12T17:50:33.037Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:039c74dda2a3b52c",
-        "title:12269a076cebb056"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-        "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-        "canonical": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
-        "published": "Thu, 12 Nov 2026 17:17:58 +0000",
-        "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-        "images": [],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:039c74dda2a3b52c",
-          "title:12269a076cebb056"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:743bb9f48555c86c": {
-      "id": "defer:url:743bb9f48555c86c",
-      "at": "2026-11-12T17:50:33.037Z",
-      "firstAt": "2026-11-12T17:50:33.037Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:743bb9f48555c86c",
-        "title:060ca4fda3278381"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-        "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-        "canonical": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
-        "published": "Thu, 12 Nov 2026 17:00:52 +0000",
-        "summary": "SoftBank lost over $3 billion pre-ordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-        "images": [],
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:743bb9f48555c86c",
-          "title:060ca4fda3278381"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:d458704933992cfa": {
       "id": "defer:url:d458704933992cfa",
       "at": "2026-11-12T19:30:59.829Z",
@@ -8332,108 +8220,6 @@
         "keys": [
           "url:1e2d7b9998cc9ff1",
           "title:c032059f41d7360c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7db3dbf05615c3ed": {
-      "id": "defer:url:7db3dbf05615c3ed",
-      "at": "2026-11-12T19:30:59.829Z",
-      "firstAt": "2026-11-12T19:30:59.829Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:7db3dbf05615c3ed",
-        "title:c8cf8ca1b6b76891"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
-      "title": "Google DeepMind just mathematically verified key parts of Signal",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google DeepMind just mathematically verified key parts of Signal",
-        "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-        "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
-        "published": "Wed, 11 Nov 2026 14:08:57 +0000",
-        "summary": "The four-week project hints that AI could make formal verification far more practical.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-500x500.jpg"
-        ],
-        "ageHours": 29.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7db3dbf05615c3ed",
-          "title:c8cf8ca1b6b76891"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:80500b1292cc170c": {
-      "id": "defer:url:80500b1292cc170c",
-      "at": "2026-11-12T19:30:59.829Z",
-      "firstAt": "2026-11-12T19:30:59.829Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:80500b1292cc170c",
-        "title:af4c97d9488545dd"
-      ],
-      "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-        "canonical": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
-        "published": "Tue, 10 Nov 2026 21:12:59 +0000",
-        "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp"
-        ],
-        "ageHours": 46.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:80500b1292cc170c",
-          "title:af4c97d9488545dd"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10189,9 +9975,9 @@
     },
     "defer:url:b9840fd67063a36a": {
       "id": "defer:url:b9840fd67063a36a",
-      "at": "2026-11-13T17:46:26.885Z",
+      "at": "2026-11-13T19:31:41.213Z",
       "firstAt": "2026-11-13T17:46:26.885Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -10230,9 +10016,303 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:b9840fd67063a36a",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:3b4bb26baf783f5c": {
+      "id": "defer:url:3b4bb26baf783f5c",
+      "at": "2026-11-13T19:31:41.167Z",
+      "firstAt": "2026-11-13T19:31:41.167Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3b4bb26baf783f5c",
+        "title:486013409585d403"
+      ],
+      "canonical": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet",
+      "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+        "link": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+        "canonical": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet",
+        "published": "Fri, 13 Nov 2026 18:55:21 +0000",
+        "summary": "OpenAI is taking a second shot at AI-powered shopping with ChatGPT Wallet after scrapping its first approach, Instant Checkout. Users register a card once and confirm each purchase through Face ID or a fingerprint, while actual card details stay hidden behind payment tokens. Rivals such as Anthropic, Meta, and xAI already have their agents making purchases. The article OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/ChatGPT-Wallet-title-scaled.png"
+        ],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3b4bb26baf783f5c",
+          "title:486013409585d403"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a5cbeaaf0b4df56f": {
+      "id": "defer:url:a5cbeaaf0b4df56f",
+      "at": "2026-11-13T19:31:41.167Z",
+      "firstAt": "2026-11-13T19:31:41.167Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:a5cbeaaf0b4df56f",
+        "title:998e91cb450f3416"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+        "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+        "canonical": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+        "published": "Fri, 13 Nov 2026 18:40:30 +0000",
+        "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+        "images": [],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a5cbeaaf0b4df56f",
+          "title:998e91cb450f3416"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:76eaf2c5f6d24706": {
+      "id": "defer:url:76eaf2c5f6d24706",
+      "at": "2026-11-13T19:31:41.167Z",
+      "firstAt": "2026-11-13T19:31:41.167Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:76eaf2c5f6d24706",
+        "title:e356effa4e556f8f"
+      ],
+      "canonical": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
+      "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+        "link": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+        "canonical": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
+        "published": "Fri, 13 Nov 2026 18:01:53 +0000",
+        "summary": "Chinese investors are shut out of Anthropic's IPO, Bloomberg reports. Banks are rejecting buy orders from mainland China and Hong Kong, citing U.S. export control rules known as ITAR. Similar restrictions applied during SpaceX's IPO, and Anthropic's products aren't available in either region anyway. The article Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:76eaf2c5f6d24706",
+          "title:e356effa4e556f8f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bb27561db5d10d50": {
+      "id": "defer:url:bb27561db5d10d50",
+      "at": "2026-11-13T19:31:41.167Z",
+      "firstAt": "2026-11-13T19:31:41.167Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bb27561db5d10d50",
+        "title:7d0f993147bfb9d7"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+        "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+        "published": "Wed, 11 Nov 2026 18:16:40 +0000",
+        "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg"
+        ],
+        "ageHours": 49.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:bb27561db5d10d50",
+          "title:7d0f993147bfb9d7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:cdc8eef67bc55a0d": {
+      "id": "defer:url:cdc8eef67bc55a0d",
+      "at": "2026-11-13T19:31:41.167Z",
+      "firstAt": "2026-11-13T19:31:41.167Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:cdc8eef67bc55a0d",
+        "title:16aac141d4f79813"
+      ],
+      "canonical": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+        "canonical": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+        "published": "Fri, 13 Nov 2026 18:00:39 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+        "images": [],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:cdc8eef67bc55a0d",
+          "title:16aac141d4f79813"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3d65ccc2f5cdce69": {
+      "id": "defer:url:3d65ccc2f5cdce69",
+      "at": "2026-11-13T19:31:41.167Z",
+      "firstAt": "2026-11-13T19:31:41.167Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:3d65ccc2f5cdce69",
+        "title:f4a39b30004607e0"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+        "published": "Wed, 11 Nov 2026 16:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 51.5,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3d65ccc2f5cdce69",
+          "title:f4a39b30004607e0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -11710,6 +11790,14 @@
       "cost": 0.0015179808,
       "tokens": 17645,
       "posts": []
+    },
+    "2026-11-13T23:00+03:30": {
+      "at": "2026-11-13T19:31:44.827Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0014383208,
+      "tokens": 17719,
+      "posts": []
     }
   },
   "published": [
@@ -12736,87 +12824,87 @@
     "ArchiveTell": {
       "last_id": 8409,
       "last_at": "2026-11-13T17:19:52+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "ai_farshad": {
-      "last_id": 6425,
-      "last_at": "2026-11-13T17:40:40+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "last_id": 6429,
+      "last_at": "2026-11-13T19:14:02+00:00",
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "Mohammad_zammani": {
       "last_id": 7209,
       "last_at": "2026-11-13T12:03:54+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "techiin_ir": {
       "last_id": 20769,
       "last_at": "2026-11-13T12:04:45+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "mgh_mobin": {
       "last_id": 477,
       "last_at": "2026-11-13T07:40:52+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "web3nabu": {
-      "last_id": 2163,
-      "last_at": "2026-11-13T17:24:15+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "last_id": 2167,
+      "last_at": "2026-11-13T19:21:55+00:00",
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "asrnovin_ir": {
       "last_id": 11460,
       "last_at": "2026-11-13T16:35:12+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "shayanode": {
       "last_id": 179,
       "last_at": "2026-11-13T17:34:05+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "codecloude": {
-      "last_id": 2582,
-      "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "last_id": 2583,
+      "last_at": "2026-11-13T19:25:43+00:00",
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "dunijet_ai": {
-      "last_id": 2545,
-      "last_at": "2026-11-13T14:51:12+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "last_id": 2546,
+      "last_at": "2026-11-13T18:56:07+00:00",
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "MatinSenPaii": {
-      "last_id": 5859,
-      "last_at": "2026-11-13T16:44:02+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "last_id": 5860,
+      "last_at": "2026-11-13T17:59:54+00:00",
+      "checked_at": "2026-11-13T19:30:41.080Z"
     },
     "thenimaonAI": {
       "last_id": 506,
       "last_at": "2026-11-13T12:50:05+00:00",
-      "checked_at": "2026-11-13T17:45:39.278Z"
+      "checked_at": "2026-11-13T19:30:41.080Z"
     }
   },
   "offerReviews": [
@@ -15075,6 +15163,18 @@
       "slot": "2026-11-13T20:30+03:30",
       "kind": "post",
       "mainEligible": true
+    },
+    {
+      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5860",
+      "date": "2026-11-13",
+      "at": "2026-11-13T19:30:41.080Z",
+      "source": "tg-matin-senpai",
+      "title": "این قضیه انویدیا داره به طرز کسل کننده ای مطابق الگویی که حدس زدم پیش میره",
+      "url": "https://t.me/MatinSenPaii/5860",
+      "reason": "denied_link",
+      "slot": "2026-11-13T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -15294,6 +15394,20 @@
       "url": "https://t.me/ai_farshad/6425",
       "slot": "2026-11-13T20:30+03:30",
       "at": "2026-11-13T17:45:39.278Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "🟪ساخت موشن با کلاد، از صفر تا خروجی MP4 🔵توی این مینی‌دوره، امیرعلی کلانپایی قدم‌به‌قدم نشونت",
+      "url": "http://t.me/pelyedit",
+      "slot": "2026-11-13T23:00+03:30",
+      "at": "2026-11-13T19:30:41.080Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "🟪ساخت موشن با کلاد، از صفر تا خروجی MP4 🔵توی این مینی‌دوره، امیرعلی کلانپایی قدم‌به‌قدم نشونت",
+      "url": "https://t.me/ai_farshad/6429",
+      "slot": "2026-11-13T23:00+03:30",
+      "at": "2026-11-13T19:30:41.080Z"
     }
   ],
   "reviewPending": {},
