@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T14:28:28.627Z",
+  "updatedAt": "2026-11-13T17:01:19.679Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -7564,6 +7564,150 @@
       "slot": "2026-11-13T17:00+03:30",
       "title": "🤖 کلاد به جلسات Google Meet می‌آید؛ از مدیریت جلسه تا ساخت اسلاید به‌صورت زنده!",
       "url": "https://claude.com/resources/articles/claude-meetings"
+    },
+    "url:10266bdfb6648734": {
+      "at": "2026-11-13T17:01:07.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "جمنای Hydrogen 4 اومد روی اپ جمنای جایگزین 3.8 Flash",
+      "url": "https://aistudio.google.com/prompts/new_chat"
+    },
+    "title:8798b5863bc22521": {
+      "at": "2026-11-13T17:01:07.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "جمنای Hydrogen 4 اومد روی اپ جمنای جایگزین 3.8 Flash",
+      "url": "https://aistudio.google.com/prompts/new_chat"
+    },
+    "url:13c962dc930cc697": {
+      "at": "2026-11-13T17:01:07.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "گوگل مدل Gemini 4 Hydrogen رو معرفی کرده؛ یه مدل برای کدنویسی سریع، ترکیب چندرسانه‌ای و",
+      "url": "https://t.me/dunijet_ai/2545"
+    },
+    "title:a2c59b2f695c694a": {
+      "at": "2026-11-13T17:01:07.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "گوگل مدل Gemini 4 Hydrogen رو معرفی کرده؛ یه مدل برای کدنویسی سریع، ترکیب چندرسانه‌ای و",
+      "url": "https://t.me/dunijet_ai/2545"
+    },
+    "url:ec10235644325844": {
+      "at": "2026-11-13T17:01:08.686Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "این پرامپت قدیمی که توی ویدئو کلاد رایگان یاد داده بودم با Kimi K3 رو دادم",
+      "url": "https://t.me/MatinSenPaii/5857"
+    },
+    "title:8c0714707f6a6459": {
+      "at": "2026-11-13T17:01:08.686Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "این پرامپت قدیمی که توی ویدئو کلاد رایگان یاد داده بودم با Kimi K3 رو دادم",
+      "url": "https://t.me/MatinSenPaii/5857"
+    },
+    "url:7fa5d7ce608d4936": {
+      "at": "2026-11-13T17:01:08.885Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "Toggle on/off لامپ هم گذاشته خودش مثل qwen 3.8 max",
+      "url": "https://t.me/MatinSenPaii/5858"
+    },
+    "title:9ebbb58cca8f6d40": {
+      "at": "2026-11-13T17:01:08.885Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "Toggle on/off لامپ هم گذاشته خودش مثل qwen 3.8 max",
+      "url": "https://t.me/MatinSenPaii/5858"
+    },
+    "url:427fb23b8da78081": {
+      "at": "2026-11-13T17:01:09.110Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "توی صفحه‌ی چت Ai studio درست کرد",
+      "url": "https://t.me/MatinSenPaii/5859"
+    },
+    "title:53143418e5c08c88": {
+      "at": "2026-11-13T17:01:09.110Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "توی صفحه‌ی چت Ai studio درست کرد",
+      "url": "https://t.me/MatinSenPaii/5859"
+    },
+    "url:59709f14e423fdff": {
+      "at": "2026-11-13T17:01:10.094Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "آموزش گرفتن اشتراک یکساله Google Ai Pro دانشجویی کاملا رایگان فقط با یک ربات تلگرامی",
+      "url": "https://one.google.com/ai-student"
+    },
+    "title:98cee972eda7109d": {
+      "at": "2026-11-13T17:01:10.094Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "آموزش گرفتن اشتراک یکساله Google Ai Pro دانشجویی کاملا رایگان فقط با یک ربات تلگرامی",
+      "url": "https://one.google.com/ai-student"
+    },
+    "url:61cc6e4ffbc39221": {
+      "at": "2026-11-13T17:01:14.500Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "آموزش کار با ربات تلگرامی و گرفتن اشتراک یک ساله",
+      "url": "https://t.me/bunnytoolss_bot?start=sref_212219286"
+    },
+    "title:d88729a03f23cdee": {
+      "at": "2026-11-13T17:01:14.500Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "آموزش کار با ربات تلگرامی و گرفتن اشتراک یک ساله",
+      "url": "https://t.me/bunnytoolss_bot?start=sref_212219286"
+    },
+    "url:97c09d186311ecff": {
+      "at": "2026-11-13T17:01:19.677Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "url": "https://arxiv.org/abs/2611.17316v1"
+    },
+    "title:e8287114a8ebb456": {
+      "at": "2026-11-13T17:01:19.677Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-13T20:30+03:30",
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "url": "https://arxiv.org/abs/2611.17316v1"
     }
   },
   "deferred": {
@@ -7618,53 +7762,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:8922d709796f6fff": {
-      "id": "defer:url:8922d709796f6fff",
-      "at": "2026-11-12T13:31:00.124Z",
-      "firstAt": "2026-11-12T13:31:00.124Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:8922d709796f6fff",
-        "title:8456e69417d6f7da"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition",
-      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
-        "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-        "canonical": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition",
-        "published": "Thu, 12 Nov 2026 13:26:25 +0000",
-        "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-        "images": [],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:8922d709796f6fff",
-          "title:8456e69417d6f7da"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:c2e9279cb8a68e3b": {
       "id": "defer:url:c2e9279cb8a68e3b",
@@ -7850,343 +7947,6 @@
         "keys": [
           "url:cfa2c9ae8aed46f7",
           "title:22f9c20d7bf30cbe"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d57ecdb55e1ef8ef": {
-      "id": "defer:url:d57ecdb55e1ef8ef",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:d57ecdb55e1ef8ef",
-        "title:941e023db21008cb"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
-      "title": "Norwest pushes deeper into AI with new $4B fund",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Norwest pushes deeper into AI with new $4B fund",
-        "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-        "canonical": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
-        "published": "Thu, 12 Nov 2026 15:18:14 +0000",
-        "summary": "This is the investment firm's largest fund to date.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-        "images": [],
-        "ageHours": 1.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:d57ecdb55e1ef8ef",
-          "title:941e023db21008cb"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a3523f73e3129004": {
-      "id": "defer:url:a3523f73e3129004",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a3523f73e3129004",
-        "title:c63be41bd197a702"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-        "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-        "canonical": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
-        "published": "Thu, 12 Nov 2026 15:02:28 +0000",
-        "summary": "This is Fireworks' second data breach in as many months.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-        "images": [],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:a3523f73e3129004",
-          "title:c63be41bd197a702"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e730f1fd52f7736c": {
-      "id": "defer:url:e730f1fd52f7736c",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:e730f1fd52f7736c",
-        "title:c29286c10bdff8a0"
-      ],
-      "canonical": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
-      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
-        "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-        "canonical": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
-        "published": "Thu, 12 Nov 2026 14:50:17 +0000",
-        "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-500x500.jpg"
-        ],
-        "ageHours": 2.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:e730f1fd52f7736c",
-          "title:c29286c10bdff8a0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:104f40efd6071a51": {
-      "id": "defer:url:104f40efd6071a51",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:104f40efd6071a51",
-        "title:97a93fcf6645c9e4"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "The unfolding Jensen Huang scandal: a timeline",
-        "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-        "canonical": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
-        "published": "Thu, 12 Nov 2026 14:30:01 +0000",
-        "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-        "images": [],
-        "ageHours": 2.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:104f40efd6071a51",
-          "title:97a93fcf6645c9e4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3d2ebadaaa528f54": {
-      "id": "defer:url:3d2ebadaaa528f54",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:3d2ebadaaa528f54",
-        "title:972a999d7eba5719"
-      ],
-      "canonical": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value",
-      "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
-        "link": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
-        "canonical": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value",
-        "published": "Thu, 12 Nov 2026 14:11:40 +0000",
-        "summary": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026. The article Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/05/huang_sccp_ai_screenshot-scaled.png"
-        ],
-        "ageHours": 2.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:3d2ebadaaa528f54",
-          "title:972a999d7eba5719"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ab16f143c75c9660": {
-      "id": "defer:url:ab16f143c75c9660",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ab16f143c75c9660",
-        "title:dd640d589bbcb923"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo",
-      "title": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
-        "link": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
-        "canonical": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo",
-        "published": "Thu, 12 Nov 2026 14:10:34 +0000",
-        "summary": "Nvidia gets a new chief executive, days after former CEO Jensen Huang admitted to a romantic affair with an alleged Chinese spy.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
-        "images": [],
-        "ageHours": 2.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ab16f143c75c9660",
-          "title:dd640d589bbcb923"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:8aa3ecda61b523bb": {
-      "id": "defer:url:8aa3ecda61b523bb",
-      "at": "2026-11-12T17:04:21.238Z",
-      "firstAt": "2026-11-12T17:04:21.238Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:8aa3ecda61b523bb",
-        "title:ec5351f72f6d6ab0"
-      ],
-      "canonical": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
-      "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
-        "link": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
-        "canonical": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
-        "published": "Thu, 12 Nov 2026 13:48:19 +0000",
-        "summary": "ElevenLabs has released Scribe v3 and Scribe v3 Live, two new speech recognition models designed to transcribe accurately through background noise and crosstalk. Benchmarks from Artificial Analysis confirm that Scribe v3 narrowly beats competitors like OpenAI, Google, and Microsoft on accuracy. That precision comes at a cost, though. Rivals like Microsoft and xAI run many times faster and charge roughly half the price. The article ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/elevenlabs.png"
-        ],
-        "ageHours": 3.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:8aa3ecda61b523bb",
-          "title:ec5351f72f6d6ab0"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -8574,54 +8334,6 @@
         "keys": [
           "url:bc5d964e3327ab5e",
           "title:8008d81cee72099c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e192e4f92a704298": {
-      "id": "defer:url:e192e4f92a704298",
-      "at": "2026-11-12T17:50:33.038Z",
-      "firstAt": "2026-11-12T17:50:33.038Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e192e4f92a704298",
-        "title:d8dbcfefb44e50ed"
-      ],
-      "canonical": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-        "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-        "canonical": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
-        "published": "Tue, 10 Nov 2026 14:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 51.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:e192e4f92a704298",
-          "title:d8dbcfefb44e50ed"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9119,104 +8831,6 @@
         "keys": [
           "url:d0a06ec7e03766fa",
           "title:9522549d99dac6c5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:2ffd7e8cb1f550c6": {
-      "id": "defer:url:2ffd7e8cb1f550c6",
-      "at": "2026-11-12T19:30:59.830Z",
-      "firstAt": "2026-11-12T19:30:59.830Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:2ffd7e8cb1f550c6",
-        "title:9e3d2431e16fd7e5"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark",
-      "title": "Introducing the Multimodal Knowledge Agent benchmark",
-      "candidate": {
-        "sourceId": "google-models-research",
-        "sourceName": "Google Models & Research",
-        "sourceType": "official_blog",
-        "title": "Introducing the Multimodal Knowledge Agent benchmark",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
-        "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark",
-        "published": "Tue, 10 Nov 2026 16:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/01_Hero_MKA_Benchmark_2784x1566.png\">We’re launching Multimodal Knowledge Agent, a new benchmark to evaluate how agents reason across visually-complex multimodal tasks.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/01_Hero_MKA_Benchmark_2784x1566.png"
-        ],
-        "ageHours": 51.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:2ffd7e8cb1f550c6",
-          "title:9e3d2431e16fd7e5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c86d08502069b5ef": {
-      "id": "defer:url:c86d08502069b5ef",
-      "at": "2026-11-12T19:30:59.830Z",
-      "firstAt": "2026-11-12T19:30:59.830Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:c86d08502069b5ef",
-        "title:878c594308249fa9"
-      ],
-      "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
-      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-        "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-        "canonical": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
-        "published": "Tue, 10 Nov 2026 15:00:39 +0000",
-        "summary": "The new model is up to twice as successful at some tasks.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-500x500-1794257853.jpg"
-        ],
-        "ageHours": 52.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c86d08502069b5ef",
-          "title:878c594308249fa9"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9852,9 +9466,9 @@
     },
     "defer:url:67672a694e389b29": {
       "id": "defer:url:67672a694e389b29",
-      "at": "2026-11-13T13:31:24.586Z",
+      "at": "2026-11-13T17:01:14.567Z",
       "firstAt": "2026-11-13T08:11:17.615Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -9896,7 +9510,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:67672a694e389b29",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -9990,6 +9604,533 @@
         "keys": [
           "url:ad83f8c3766bbc41",
           "title:2e338914be03a6a9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5a7538ac02344da7": {
+      "id": "defer:url:5a7538ac02344da7",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:5a7538ac02344da7",
+        "title:ef94a9689ade4a55"
+      ],
+      "canonical": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+        "link": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+        "canonical": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+        "published": "Fri, 13 Nov 2026 16:37:01 +0000",
+        "summary": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control physical machines yet, but Anthropic is separately developing the Model Hardware Standard for that. The article Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/claude_for_manufactoring.png"
+        ],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:5a7538ac02344da7",
+          "title:ef94a9689ade4a55"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bbcb79fadd39dd32": {
+      "id": "defer:url:bbcb79fadd39dd32",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bbcb79fadd39dd32",
+        "title:bd24234b289faa59"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+        "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+        "canonical": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+        "published": "Fri, 13 Nov 2026 16:00:12 +0000",
+        "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:bbcb79fadd39dd32",
+          "title:bd24234b289faa59"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4998f35bb5f64754": {
+      "id": "defer:url:4998f35bb5f64754",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:4998f35bb5f64754",
+        "title:cffa2e9c66c88738"
+      ],
+      "canonical": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
+      "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+        "link": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+        "canonical": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
+        "published": "Fri, 13 Nov 2026 15:53:49 +0000",
+        "summary": "US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned so-called bossware. All of this is happening while nearly 70 percent of US government agencies already use generative AI. The article Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/workers_fighting_ai.png"
+        ],
+        "ageHours": 1.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:4998f35bb5f64754",
+          "title:cffa2e9c66c88738"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fc65152e593cae50": {
+      "id": "defer:url:fc65152e593cae50",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:fc65152e593cae50",
+        "title:70a05e2136525440"
+      ],
+      "canonical": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
+      "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+        "link": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+        "canonical": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
+        "published": "Fri, 13 Nov 2026 15:21:04 +0000",
+        "summary": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights. He estimates the hardware behind the five training runs cost more than half a billion dollars. The article Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png"
+        ],
+        "ageHours": 1.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:fc65152e593cae50",
+          "title:70a05e2136525440"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b5effea229a29bd6": {
+      "id": "defer:url:b5effea229a29bd6",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:b5effea229a29bd6",
+        "title:8a56b9aa9b0958c3"
+      ],
+      "canonical": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
+      "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+        "link": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+        "canonical": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
+        "published": "Fri, 13 Nov 2026 15:15:08 +0000",
+        "summary": "Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six. The article Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/Claude-Duet.png"
+        ],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:b5effea229a29bd6",
+          "title:8a56b9aa9b0958c3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7887ca6fae3f41f0": {
+      "id": "defer:url:7887ca6fae3f41f0",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:7887ca6fae3f41f0",
+        "title:a401051fd127f610"
+      ],
+      "canonical": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
+      "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
+        "link": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+        "canonical": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
+        "published": "Fri, 13 Nov 2026 15:12:44 +0000",
+        "summary": "Meta's AI agent Muse can now call businesses on behalf of paying US subscribers, handling everything from cable providers to restaurants. The agent already has over 10 million users, according to Meta's AI chief Alexandr Wang. Google Gemini, Instinct, and xAI's Grok Bot offer the same feature, but many businesses hang up as soon as they detect an AI on the line. The article Meta's Muse now calls businesses for you, but many companies might just hang up on the AI appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/met_muse_gadget_logo.jpg"
+        ],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:7887ca6fae3f41f0",
+          "title:a401051fd127f610"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:501039ee2ff6ed24": {
+      "id": "defer:url:501039ee2ff6ed24",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:501039ee2ff6ed24",
+        "title:6a541d7fc73e129c"
+      ],
+      "canonical": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products",
+      "title": "OpenAI enters the cybersecurity market with two Daybreak products",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI enters the cybersecurity market with two Daybreak products",
+        "link": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
+        "canonical": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products",
+        "published": "Fri, 13 Nov 2026 15:08:57 +0000",
+        "summary": "OpenAI has launched two security products under its Daybreak brand. The article OpenAI enters the cybersecurity market with two Daybreak products appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_background_dark.png"
+        ],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:501039ee2ff6ed24",
+          "title:6a541d7fc73e129c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6841e619fcd7e8d9": {
+      "id": "defer:url:6841e619fcd7e8d9",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:6841e619fcd7e8d9",
+        "title:1ff02f690012b050"
+      ],
+      "canonical": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+        "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "canonical": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "published": "Fri, 13 Nov 2026 14:05:22 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "images": [],
+        "ageHours": 2.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6841e619fcd7e8d9",
+          "title:1ff02f690012b050"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2547bd37d6ce9b91": {
+      "id": "defer:url:2547bd37d6ce9b91",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:2547bd37d6ce9b91",
+        "title:28d56e144b302b71"
+      ],
+      "canonical": "https://www.producthunt.com/products/gatrends",
+      "title": "GAtrends",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "GAtrends",
+        "link": "https://www.producthunt.com/products/gatrends",
+        "canonical": "https://www.producthunt.com/products/gatrends",
+        "published": "2026-11-12T10:54:12-08:00",
+        "summary": "<p> Spike alerts for your keywords in Telegram, Claude, ChatGPT </p> <p> <a href=\"https://www.producthunt.com/products/gatrends?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314471?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/gatrends",
+        "images": [],
+        "ageHours": 22.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:2547bd37d6ce9b91",
+          "title:28d56e144b302b71"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4887a96d2b759199": {
+      "id": "defer:url:4887a96d2b759199",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4887a96d2b759199",
+        "title:a0692cd05a760a63"
+      ],
+      "canonical": "https://www.producthunt.com/products/aven-app-agent",
+      "title": "Aven App Agent",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Aven App Agent",
+        "link": "https://www.producthunt.com/products/aven-app-agent",
+        "canonical": "https://www.producthunt.com/products/aven-app-agent",
+        "published": "2026-11-11T14:12:11-08:00",
+        "summary": "<p> AI that guides users through your app </p> <p> <a href=\"https://www.producthunt.com/products/aven-app-agent?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1313374?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/aven-app-agent",
+        "images": [],
+        "ageHours": 42.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4887a96d2b759199",
+          "title:a0692cd05a760a63"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1153869638ee727c": {
+      "id": "defer:url:1153869638ee727c",
+      "at": "2026-11-13T17:01:14.509Z",
+      "firstAt": "2026-11-13T17:01:14.509Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:1153869638ee727c",
+        "title:1afe11cc3ce0e55b"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/ai-recycling-startups",
+      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+        "link": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+        "canonical": "https://blogs.nvidia.com/blog/ai-recycling-startups",
+        "published": "Wed, 11 Nov 2026 03:00:20 +0000",
+        "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/recycling-company-grid-1920x1080-1.png",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/recycling-company-grid-1920x1080-1-842x450.png"
+        ],
+        "ageHours": 62,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:1153869638ee727c",
+          "title:1afe11cc3ce0e55b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -11464,6 +11605,14 @@
           "at": "2026-11-13T13:32:57.616Z"
         }
       ]
+    },
+    "2026-11-13T20:30+03:30": {
+      "at": "2026-11-13T17:01:19.677Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.00120498,
+      "tokens": 8446,
+      "posts": []
     }
   },
   "published": [
@@ -12488,89 +12637,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8403,
-      "last_at": "2026-11-13T10:19:02+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "last_id": 8406,
+      "last_at": "2026-11-13T14:41:13+00:00",
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "ai_farshad": {
-      "last_id": 6419,
-      "last_at": "2026-11-13T10:44:07+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "last_id": 6420,
+      "last_at": "2026-11-13T13:31:01+00:00",
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "Mohammad_zammani": {
       "last_id": 7209,
       "last_at": "2026-11-13T12:03:54+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "techiin_ir": {
       "last_id": 20769,
       "last_at": "2026-11-13T12:04:45+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "mgh_mobin": {
       "last_id": 477,
       "last_at": "2026-11-13T07:40:52+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "web3nabu": {
       "last_id": 2161,
       "last_at": "2026-11-13T13:10:20+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "asrnovin_ir": {
-      "last_id": 11457,
-      "last_at": "2026-11-13T12:23:49+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "last_id": 11460,
+      "last_at": "2026-11-13T16:35:12+00:00",
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "shayanode": {
       "last_id": 176,
       "last_at": "2026-11-13T13:27:39+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "codecloude": {
       "last_id": 2582,
       "last_at": "2026-11-12T06:02:41+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "dunijet_ai": {
-      "last_id": 2544,
-      "last_at": "2026-11-13T09:48:50+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "last_id": 2545,
+      "last_at": "2026-11-13T14:51:12+00:00",
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "MatinSenPaii": {
-      "last_id": 5853,
-      "last_at": "2026-11-12T21:03:50+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "last_id": 5859,
+      "last_at": "2026-11-13T16:44:02+00:00",
+      "checked_at": "2026-11-13T17:00:52.715Z"
     },
     "thenimaonAI": {
       "last_id": 506,
       "last_at": "2026-11-13T12:50:05+00:00",
-      "checked_at": "2026-11-13T13:30:58.414Z"
+      "checked_at": "2026-11-13T17:00:52.715Z"
     }
   },
   "offerReviews": [
@@ -14769,6 +14918,42 @@
       "slot": "2026-11-13T17:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5857",
+      "date": "2026-11-13",
+      "at": "2026-11-13T17:00:52.715Z",
+      "source": "tg-matin-senpai",
+      "title": "این پرامپت قدیمی که توی ویدئو کلاد رایگان یاد داده بودم با Kimi K3 رو دادم",
+      "url": "https://t.me/MatinSenPaii/5857",
+      "reason": "denied_link",
+      "slot": "2026-11-13T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5858",
+      "date": "2026-11-13",
+      "at": "2026-11-13T17:00:52.715Z",
+      "source": "tg-matin-senpai",
+      "title": "Toggle on/off لامپ هم گذاشته خودش مثل qwen 3.8 max",
+      "url": "https://t.me/MatinSenPaii/5858",
+      "reason": "no_link",
+      "slot": "2026-11-13T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5859",
+      "date": "2026-11-13",
+      "at": "2026-11-13T17:00:52.715Z",
+      "source": "tg-matin-senpai",
+      "title": "توی صفحه‌ی چت Ai studio درست کرد",
+      "url": "https://t.me/MatinSenPaii/5859",
+      "reason": "no_link",
+      "slot": "2026-11-13T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -14960,6 +15145,20 @@
       "url": "https://machinelearningmastery.com/the-complete-guide-to-llm-evaluation",
       "slot": "2026-11-13T17:00+03:30",
       "at": "2026-11-13T13:30:58.414Z"
+    },
+    {
+      "source": "tg-asr-novin",
+      "title": "آموزش گرفتن اشتراک یکساله Google Ai Pro دانشجویی کاملا رایگان فقط با یک ربات تلگرامی",
+      "url": "https://one.google.com/ai-student",
+      "slot": "2026-11-13T20:30+03:30",
+      "at": "2026-11-13T17:00:52.715Z"
+    },
+    {
+      "source": "tg-asr-novin",
+      "title": "آموزش کار با ربات تلگرامی و گرفتن اشتراک یک ساله",
+      "url": "https://t.me/bunnytoolss_bot?start=sref_212219286",
+      "slot": "2026-11-13T20:30+03:30",
+      "at": "2026-11-13T17:00:52.715Z"
     }
   ],
   "reviewPending": {},
