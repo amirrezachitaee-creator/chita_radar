@@ -514,6 +514,38 @@ test('a review lead that repeats a published story is detected', () => {
   assert.equal(matchesPublishedStory(classroomStory, {}), false);
 });
 
+test('a fresh benchmark entry is not blocked by the feed boilerplate of an older post', () => {
+  const boilerplate =
+    'The Gamefeel Benchmark: a creativity benchmark for AI models on game development. Each model adds content and balance changes to 12 unpublished games, and is scored on coding, gamefeel, creativity and reverse-evaluation.';
+  const published = {
+    lane: 'main',
+    decision: 'publish',
+    title: 'دو مدل جدید GPT-6.1 به بنچمارک Gamefeel اضافه شدند',
+    sourceTitle: 'Gpt-6.1-Sol and Gpt-6.1-Terra added to The Gamefeel Benchmark reverse-evaluation scores',
+    sourceText: `${boilerplate}\nUpdate commit (2026-11-08): Gpt-6.1-Sol and Gpt-6.1-Terra added to the RE scores. Gpt-6.1-Sol (OpenAI): overall 52.1/100, rank 1 of 47; price per task $0.12; context 1M; closed weights.`,
+  };
+  const candidate = {
+    title: 'Gemini-4-Carbon tops The Gamefeel Benchmark with 57.5 overall',
+    messageText: `${boilerplate}\nUpdate commit (2026-11-10): Gemini-4-Carbon tops the benchmark. Gemini-4-Carbon (Google): overall 57.5/100, rank 1 of 47; price per task $0.09; context 2M; closed weights.`,
+  };
+  assert.equal(findStoryDuplicate(candidate, [published]), undefined);
+  assert.equal(findStoryDuplicate({ ...candidate, title: published.title }, [published]), published);
+});
+
+test('a repeated story with a different title is still caught by its body', () => {
+  const published = {
+    lane: 'main',
+    decision: 'publish',
+    title: 'مدارس از ۲۰۲۷ یا هوش مصنوعی گوگل یا جست‌وجو',
+  };
+  const candidate = {
+    title: 'تغییر دسترسی دانش‌آموزان به هوش مصنوعی',
+    messageText:
+      'گوگل قراره از اوایل سال آینده میلادی، دسترسی به ابزارهای هوش مصنوعی خودش رو برای حساب‌های دانش‌آموزی مدارس ابتدایی تا دبیرستان به‌صورت پیش‌فرض غیرفعال کنه. این شرکت در ماه اوت قابلیت‌های هوش مصنوعی رو در گوگل کلاس‌روم فعال کرده بود. کریس فیلیپس، معاون بخش آموزش گوگل، در گفت‌وگو با نیویورک تایمز گفته جست‌وجو و هوش مصنوعی به‌شدت به هم وابسته‌اند.',
+  };
+  assert.equal(findStoryDuplicate(candidate, [published]), published);
+});
+
 test('a policy story ignores review lookalikes but respects real main posts', () => {
   const candidate = {
     policy: true,

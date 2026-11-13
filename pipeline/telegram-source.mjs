@@ -930,10 +930,15 @@ export function findStoryDuplicate(candidate, delivered = []) {
   const pool = candidate?.policy
     ? delivered.filter((entry) => entry.lane === 'main' && entry.decision === 'publish')
     : delivered;
-  const text = [candidate?.title, candidate?.messageText, candidate?.summary]
-    .filter(Boolean)
-    .join(' ');
-  return pool.find((entry) => matchesPublishedStory(text, entry));
+  const title = String(candidate?.title ?? '').trim();
+  const body = [candidate?.messageText, candidate?.summary].filter(Boolean).join(' ');
+  return pool.find((entry) => {
+    if (title && matchesPublishedStory(title, entry)) return true;
+    if (!body) return false;
+    // Feed bodies repeat boilerplate, so they only match real titles, never the
+    // long sourceText of an older post.
+    return matchesPublishedStory(body, { title: entry.title, sourceTitle: entry.sourceTitle });
+  });
 }
 
 export function selectAnyLink(message) {
