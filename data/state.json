@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T17:32:21.958Z",
+  "updatedAt": "2026-11-14T19:35:19.681Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8537,6 +8537,24 @@
       "slot": "2026-11-14T20:30+03:30",
       "title": "🔥برای ساخت موشن گرافیک حتما لزومی نداره برید سراغ مدل‌های گرون قیمتی مثل کلود.",
       "url": "https://t.me/Mohammad_zammani/7212"
+    },
+    "url:4513c6ea6021e8f2": {
+      "at": "2026-11-14T19:34:34.049Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-14T23:00+03:30",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+      "benchmark": false
+    },
+    "title:e814eed4fbe2b979": {
+      "at": "2026-11-14T19:34:34.049Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-14T23:00+03:30",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -9457,57 +9475,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:4513c6ea6021e8f2": {
-      "id": "defer:url:4513c6ea6021e8f2",
-      "at": "2026-11-13T17:46:26.822Z",
-      "firstAt": "2026-11-13T17:46:26.822Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:4513c6ea6021e8f2",
-        "title:e814eed4fbe2b979"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
-      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-        "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-        "canonical": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
-        "published": "Fri, 13 Nov 2026 17:25:45 +0000",
-        "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-500x500.jpg"
-        ],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:4513c6ea6021e8f2",
-          "title:e814eed4fbe2b979"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:4703cdb9d69f91dd": {
       "id": "defer:url:4703cdb9d69f91dd",
       "at": "2026-11-13T17:46:26.822Z",
@@ -9619,12 +9586,13 @@
     },
     "defer:url:bd2f75c9c0c3d17f": {
       "id": "defer:url:bd2f75c9c0c3d17f",
-      "at": "2026-11-13T17:46:26.822Z",
+      "at": "2026-11-14T19:35:19.680Z",
       "firstAt": "2026-11-13T17:46:26.822Z",
-      "attempts": 0,
-      "reason": "category_daily",
+      "attempts": 1,
+      "reason": "category_consecutive",
       "reasons": [
-        "category_daily"
+        "category_daily",
+        "category_consecutive"
       ],
       "keys": [
         "url:bd2f75c9c0c3d17f",
@@ -9659,8 +9627,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:bd2f75c9c0c3d17f",
+          "attempts": 0
+        }
+      },
+      "detail": "security"
     },
     "defer:url:4bf61703e3df7593": {
       "id": "defer:url:4bf61703e3df7593",
@@ -10004,57 +9977,6 @@
         "keys": [
           "url:76eaf2c5f6d24706",
           "title:e356effa4e556f8f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bb27561db5d10d50": {
-      "id": "defer:url:bb27561db5d10d50",
-      "at": "2026-11-13T19:31:41.167Z",
-      "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:bb27561db5d10d50",
-        "title:7d0f993147bfb9d7"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-        "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-        "canonical": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
-        "published": "Wed, 11 Nov 2026 18:16:40 +0000",
-        "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg"
-        ],
-        "ageHours": 49.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:bb27561db5d10d50",
-          "title:7d0f993147bfb9d7"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -11038,6 +10960,120 @@
         "keys": [
           "url:05648108c87680dd",
           "title:187f5e84ba8e9b8f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:61587a28dee20152": {
+      "id": "defer:url:61587a28dee20152",
+      "at": "2026-11-14T19:30:59.402Z",
+      "firstAt": "2026-11-14T19:30:59.402Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:61587a28dee20152",
+        "title:8121ea25efb9523b"
+      ],
+      "canonical": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+      "title": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن",
+        "link": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+        "canonical": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+        "messageText": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن\n\nشرکت OpenAI قابلیت Wallet رو راه انداخته که به ایجنت‌های داخل ChatGPT (به اسم dots) اجازه میده محصول رو انتخاب کنن و خرید رو تا آخر انجام بدن. فعلا فقط برای تعداد محدودی از مشترکین Pro آمریکا بالای ۱۸ سال با کارت ویزا، مسترکارت یا امریکن اکسپرس صادرشده در آمریکا فعاله.\n\nقبل از پرداخت، اقلام و مبلغ کل و کارت رو خودت تایید می‌کنی و با Face ID یا اثر انگشت نهایی میشه. کارت با یه توکن پرداخت شارژ میشه، نه شماره واقعی. آدرس و اطلاعات تماس هم خودکار به فروشنده می‌رسه و امتیاز و حمایت‌های کارت بانکی سر جاشه.\n\ntechcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/\n\n@dunijet_ai",
+        "leadPostUrl": "https://t.me/dunijet_ai/2549",
+        "published": "2026-11-14T19:27:02+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/JIS3zyCJuUuOF9Gx9P40rHXsM3NkCMFd2951l7VM6x4c-LLbKkfzEG9bPNfkpf-11tFfNdsXz1tV2y8oriLya3gWo5rzvpI1DZiSNPXBZEng8HEYTDx3qnYEzvkZs-pqeP60rEUhGQkcnt5C_LtikMHaQ5mVbbHGLU-4TKw6MtVikflGemt9LAa4FExjtAjOVqxcrHHWPJcsTTW42DBPPVaB1gjrLVDq0Z46C3Icgmt7NWD8ZPIkW3YJ7gXvTeaQv0rRe-7YKLJD5n4xfQoeFPCp7fEu3aijl9ps3NZkyr--eeeat8FU6Xnz3Hozk7K6uiKwfe4kLYGFUjdG6xRIDw.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "business",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:61587a28dee20152",
+          "title:8121ea25efb9523b"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2549,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:cbda9238a3684b28": {
+      "id": "defer:url:cbda9238a3684b28",
+      "at": "2026-11-14T19:30:59.402Z",
+      "firstAt": "2026-11-14T19:30:59.402Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:cbda9238a3684b28",
+        "title:5ed56b1a916d91a6"
+      ],
+      "canonical": "https://huggingface.co/blog/3d-lora-finetuning",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+        "link": "https://huggingface.co/blog/3d-lora-finetuning",
+        "canonical": "https://huggingface.co/blog/3d-lora-finetuning",
+        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/3d-lora-finetuning",
+        "images": [],
+        "ageHours": 67.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:cbda9238a3684b28",
+          "title:5ed56b1a916d91a6"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -12661,6 +12697,37 @@
       "cost": 0.0020052648,
       "tokens": 21754,
       "posts": []
+    },
+    "2026-11-14T23:00+03:30": {
+      "at": "2026-11-14T19:34:34.049Z",
+      "status": "sent",
+      "category": "security",
+      "title": "عضو هیئت مدیره OpenAI: هوش مصنوعی ممکنه تا چند ماه دیگه کنترل",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/23-00",
+      "messageId": 77,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0022269184,
+      "tokens": 23411,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "عضو هیئت مدیره OpenAI: هوش مصنوعی ممکنه تا چند ماه دیگه کنترل",
+          "category": "security",
+          "status": "sent",
+          "messageId": 77,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0022269184,
+          "tokens": 23411,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-14T19:34:34.049Z"
+        }
+      ]
     }
   },
   "published": [
@@ -13749,93 +13816,111 @@
       "sourceTitle": "Kitesurf is now open source",
       "sourceText": "شرکت Cloudflare مرورگر مخصوص ایجنت‌های AI رو متن‌باز کرد\n\nبلاگ Cloudflare می‌گه موتور مرورگر سبک Kitesurf که برای ایجنت‌های هوش مصنوعی ساخته شده، حالا با لایسنس Apache 2.0 روی GitHub هست و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.\n\nblog.cloudflare.com/kitesurf-open-source\n\n@dunijet_ai\n\n❤1",
       "at": "2026-11-14T13:45:21.348Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-14T23:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "عضو هیئت مدیره OpenAI: هوش مصنوعی ممکنه تا چند ماه دیگه کنترل",
+      "why": "این هشدار از سوی کسی که مستقیماً با ایمنی هوش مصنوعی درگیره، نشون می‌ده که حتی نزدیک‌ترین افراد به این فناوری هم نگران‌ان که کنترلش از دست آدم‌ها خارج بشه.",
+      "dedupe_key": "openai-board-ai-takeover-warning",
+      "post_key": "2026-11-14/23-00/1",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "sourceTitle": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "sourceText": "Researcher traces a path from AI reward hacking to potential human extinction.\nIf you go by the current statistics for deaths in the US , it’s reasonable to expect that cancer or heart disease will eventually get you. But OpenAI Foundation board member and Alignment Research Center Executive Director Paul Cristiano thinks we should all be worried about another major mortality risk. Speaking at a lecture series this week , Cristiano bluntly told the audience in a Toronto Convention Center, “I think for most people in this room, the most likely reason they will die is because of an AI accident.”\nIn the opening lecture of a three-part series , Cristiano outlined his worries about the risk of an impending “AI takeover.” He defined that as a situation where goal-pursuing AI systems “call the shots in the same sense that humans today call the shots and what happens on Earth” and where any human trying to stop them “would be as ineffective as if you or me was trying to stop the US military.” Such a situation would likely lead to mass death and perhaps uninhabitable environments for humans, Cristiano said.\nDespite his grim assessment of our collective mortality risk, Cristiano admitted in his talk that there’s no “quantitative model” that can “put a number” on the likelihood of this kind of AI takeover. In almost the same breath, though, he said that if AI continues to develop at “the most rapid trajectory,” humanity is “looking at something like a coin flip of an AI takeover,” including a “meaningful risk” of one happening in the next six to 12 months. And even with realistic poli",
+      "at": "2026-11-14T19:34:34.050Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8412,
       "last_at": "2026-11-14T16:07:20+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "pedramgholizadeh": {
-      "last_id": 802,
-      "last_at": "2026-11-14T15:39:00+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "last_id": 803,
+      "last_at": "2026-11-14T19:20:44+00:00",
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "ai_farshad": {
       "last_id": 6438,
       "last_at": "2026-11-14T16:47:14+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "Mohammad_zammani": {
       "last_id": 7212,
       "last_at": "2026-11-14T17:10:15+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "techiin_ir": {
       "last_id": 20775,
       "last_at": "2026-11-14T16:41:44+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "mgh_mobin": {
       "last_id": 480,
       "last_at": "2026-11-14T09:59:58+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "asrnovin_ir": {
-      "last_id": 11466,
-      "last_at": "2026-11-14T14:40:32+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "last_id": 11467,
+      "last_at": "2026-11-14T18:36:02+00:00",
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "codecloude": {
       "last_id": 2585,
       "last_at": "2026-11-14T14:47:11+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "dunijet_ai": {
-      "last_id": 2548,
-      "last_at": "2026-11-14T16:27:12+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "last_id": 2549,
+      "last_at": "2026-11-14T19:27:02+00:00",
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "MatinSenPaii": {
       "last_id": 5876,
       "last_at": "2026-11-14T17:27:50+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     },
     "thenimaonAI": {
       "last_id": 510,
       "last_at": "2026-11-14T09:53:59+00:00",
-      "checked_at": "2026-11-14T17:31:24.380Z"
+      "checked_at": "2026-11-14T19:30:48.315Z"
     }
   },
   "offerReviews": [
