@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T17:05:33.777Z",
+  "updatedAt": "2026-11-14T17:32:21.958Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8519,56 +8519,27 @@
       "slot": "2026-11-14T20:30+03:30",
       "title": "Weight-Only Quantization",
       "url": "https://machinelearningmastery.com/weight-only-quantization"
+    },
+    "url:d0588095dae97dd4": {
+      "at": "2026-11-14T17:31:37.623Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "🔥برای ساخت موشن گرافیک حتما لزومی نداره برید سراغ مدل‌های گرون قیمتی مثل کلود.",
+      "url": "https://t.me/Mohammad_zammani/7212"
+    },
+    "title:ede63a164deac515": {
+      "at": "2026-11-14T17:31:37.623Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "🔥برای ساخت موشن گرافیک حتما لزومی نداره برید سراغ مدل‌های گرون قیمتی مثل کلود.",
+      "url": "https://t.me/Mohammad_zammani/7212"
     }
   },
   "deferred": {
-    "defer:url:cbdc8f6b1c4c9f01": {
-      "id": "defer:url:cbdc8f6b1c4c9f01",
-      "at": "2026-11-13T05:01:12.903Z",
-      "firstAt": "2026-11-13T05:01:12.903Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:cbdc8f6b1c4c9f01",
-        "title:5ffc45a5e1905c0c"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump",
-      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
-        "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-        "canonical": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump",
-        "published": "Thu, 12 Nov 2026 22:42:51 +0000",
-        "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-        "images": [],
-        "ageHours": 6.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:cbdc8f6b1c4c9f01",
-          "title:5ffc45a5e1905c0c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:fb1ddd2a5ff741f6": {
       "id": "defer:url:fb1ddd2a5ff741f6",
       "at": "2026-11-13T05:01:12.904Z",
@@ -8903,52 +8874,6 @@
         "keys": [
           "url:0838bef2edd27f9f",
           "title:53ef40cccf6e8533"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cbda9238a3684b28": {
-      "id": "defer:url:cbda9238a3684b28",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:cbda9238a3684b28",
-        "title:5ed56b1a916d91a6"
-      ],
-      "canonical": "https://huggingface.co/blog/3d-lora-finetuning",
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-        "link": "https://huggingface.co/blog/3d-lora-finetuning",
-        "canonical": "https://huggingface.co/blog/3d-lora-finetuning",
-        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/3d-lora-finetuning",
-        "images": [],
-        "ageHours": 29,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:cbda9238a3684b28",
-          "title:5ed56b1a916d91a6"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10569,9 +10494,9 @@
     },
     "defer:url:456ace67e0015fb3": {
       "id": "defer:url:456ace67e0015fb3",
-      "at": "2026-11-14T17:05:33.706Z",
+      "at": "2026-11-14T17:32:21.907Z",
       "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -10616,19 +10541,20 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:456ace67e0015fb3",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "tools"
     },
     "defer:url:a99dfdd20d85acbb": {
       "id": "defer:url:a99dfdd20d85acbb",
-      "at": "2026-11-14T10:31:34.879Z",
+      "at": "2026-11-14T17:32:21.950Z",
       "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "fetch_failed"
       ],
       "keys": [
         "url:a99dfdd20d85acbb",
@@ -10664,8 +10590,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:a99dfdd20d85acbb",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:65b96c238445cded": {
       "id": "defer:url:65b96c238445cded",
@@ -11007,6 +10938,106 @@
         "keys": [
           "url:1cafc4ef12c58422",
           "title:f3e1caceb0fa70c1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:238432e278b3a037": {
+      "id": "defer:url:238432e278b3a037",
+      "at": "2026-11-14T17:31:37.633Z",
+      "firstAt": "2026-11-14T17:31:37.633Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:238432e278b3a037",
+        "title:769c9e292a3c2406"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "canonical": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+        "published": "Sat, 14 Nov 2026 17:30:00 +0000",
+        "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "images": [],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:238432e278b3a037",
+          "title:769c9e292a3c2406"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:05648108c87680dd": {
+      "id": "defer:url:05648108c87680dd",
+      "at": "2026-11-14T17:31:37.633Z",
+      "firstAt": "2026-11-14T17:31:37.633Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:05648108c87680dd",
+        "title:187f5e84ba8e9b8f"
+      ],
+      "canonical": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+        "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+        "canonical": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+        "published": "Fri, 13 Nov 2026 21:20:47 +0000",
+        "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-500x500.jpg"
+        ],
+        "ageHours": 20.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:05648108c87680dd",
+          "title:187f5e84ba8e9b8f"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -12627,8 +12658,8 @@
       "at": "2026-11-14T17:05:33.775Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.0007096096,
-      "tokens": 21648,
+      "cost": 0.0020052648,
+      "tokens": 21754,
       "posts": []
     }
   },
@@ -13724,87 +13755,87 @@
     "ArchiveTell": {
       "last_id": 8412,
       "last_at": "2026-11-14T16:07:20+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "pedramgholizadeh": {
       "last_id": 802,
       "last_at": "2026-11-14T15:39:00+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "ai_farshad": {
       "last_id": 6438,
       "last_at": "2026-11-14T16:47:14+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7211,
-      "last_at": "2026-11-14T13:01:43+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "last_id": 7212,
+      "last_at": "2026-11-14T17:10:15+00:00",
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "techiin_ir": {
       "last_id": 20775,
       "last_at": "2026-11-14T16:41:44+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "mgh_mobin": {
       "last_id": 480,
       "last_at": "2026-11-14T09:59:58+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "asrnovin_ir": {
       "last_id": 11466,
       "last_at": "2026-11-14T14:40:32+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "codecloude": {
       "last_id": 2585,
       "last_at": "2026-11-14T14:47:11+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "dunijet_ai": {
       "last_id": 2548,
       "last_at": "2026-11-14T16:27:12+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "MatinSenPaii": {
-      "last_id": 5875,
-      "last_at": "2026-11-14T16:26:31+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "last_id": 5876,
+      "last_at": "2026-11-14T17:27:50+00:00",
+      "checked_at": "2026-11-14T17:31:24.380Z"
     },
     "thenimaonAI": {
       "last_id": 510,
       "last_at": "2026-11-14T09:53:59+00:00",
-      "checked_at": "2026-11-14T17:00:55.502Z"
+      "checked_at": "2026-11-14T17:31:24.380Z"
     }
   },
   "offerReviews": [
@@ -16279,6 +16310,18 @@
       "slot": "2026-11-14T17:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7212",
+      "date": "2026-11-14",
+      "at": "2026-11-14T17:31:24.380Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🔥برای ساخت موشن گرافیک حتما لزومی نداره برید سراغ مدل‌های گرون قیمتی مثل کلود.",
+      "url": "https://t.me/Mohammad_zammani/7212",
+      "reason": "denied_link",
+      "slot": "2026-11-14T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -16550,7 +16593,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-14T11:09:23.981Z",
+      "lastCheck": "2026-11-14T17:31:24.380Z",
       "status": "active",
       "misses": 0
     }
