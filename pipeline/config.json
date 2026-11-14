@@ -277,7 +277,19 @@
       ".rar",
       ".apk",
       ".exe"
-    ]
+    ],
+    "ocr": {
+      "enabled": true,
+      "langs": "eng+fas",
+      "psm": "3",
+      "thin_text_chars": 40,
+      "quality_min_chars": 40,
+      "quality_min_letters": 20,
+      "max_chars": 1200,
+      "max_images_per_channel": 2,
+      "max_images_per_run": 6,
+      "timeout_ms": 45000
+    }
   },
   "hf_papers": {
     "enabled": true,

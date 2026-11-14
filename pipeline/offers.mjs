@@ -551,6 +551,7 @@ export const REASON_FA = {
   no_link: 'لینک قابل استفاده ندارد',
   offer_watch: 'از رصد آفر پیدا شد',
   qa_failed: 'بررسی کیفیت پاس نشد',
+  ocr_discovery: 'متن داخل تصویر، سرنخ کشف‌شده',
 };
 
 
@@ -646,6 +647,9 @@ export function reviewChecklist({
   const items = [...REVIEW_CHECKLIST_BASE];
   if (needsLinkApproval || ['denied_link', 'no_link', 'link_missing', 'referral_link'].includes(reason)) {
     items.unshift('منبع رسمی شرکت یا صفحهٔ اصلی محصول را پیدا کن و لینکش را در پست بگذار.');
+  }
+  if (reason === 'ocr_discovery') {
+    items.unshift('این متن از تصویر خوانده شده؛ خبر را در منبع اصلی یا پست کانال تأیید کن.');
   }
   if (kind === 'offer') {
     items.unshift('تاریخ انقضا و شرایط آفر را روی صفحهٔ رسمی چک کن.');

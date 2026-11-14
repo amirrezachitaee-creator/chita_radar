@@ -30,10 +30,11 @@ import { emptyState } from './store.mjs';
 const NOW = '2026-11-03T15:00:00Z';
 const ACTIVE_FROM = '2026-11-03T00:00:00+03:30';
 
-const block = ({ id, datetime, text = '', preview = null, forwarded = false }) => `
+const block = ({ id, datetime, text = '', preview = null, forwarded = false, images = [] }) => `
 <div class="tgme_widget_message_wrap js-widget_message_wrap">
   <div class="tgme_widget_message" data-post="testchannel/${id}">
     ${forwarded ? '<div class="tgme_widget_message_forwarded_from"><a href="https://t.me/other">Other</a></div>' : ''}
+    ${images.map((url) => `<a class="tgme_widget_message_photo_wrap" style="background-image:url('${url}')"></a>`).join('')}
     <div class="tgme_widget_message_text js-message_text" dir="auto">${text}</div>
     ${
       preview
@@ -1509,4 +1510,203 @@ test('a rumor lead is flagged and keeps its source links', async () => {
   assert.equal(result.candidates[0].needsReview, true);
   assert.equal(result.candidates[0].rumorHint, true);
   assert.ok(result.candidates[0].relatedLinks.includes('https://instagram.com/p/kimi'));
+});
+
+const OCR_SETTINGS = {
+  enabled: true,
+  thin_text_chars: 40,
+  quality_min_chars: 20,
+  quality_min_letters: 10,
+  max_images_per_channel: 2,
+  max_images_per_run: 6,
+};
+
+test('an image-only AI post becomes a review-only OCR discovery', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 601,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: '📊',
+    images: ['https://cdn.example.com/chart.jpg'],
+  });
+  const calls = [];
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-ocr',
+        name: 'OCR channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true, ocr: OCR_SETTINGS },
+    ocrRun: async (url) => {
+      calls.push(url);
+      return 'DeepSeek V4.1 Flash در SWE-bench امتیاز تازه‌ای گرفت و صدر جدول را تغییر داد';
+    },
+  });
+  assert.deepEqual(calls, ['https://cdn.example.com/chart.jpg']);
+  assert.equal(result.candidates.length, 1);
+  const [lead] = result.candidates;
+  assert.equal(lead.ocr, true);
+  assert.equal(lead.ocrDiscovery, true);
+  assert.equal(lead.needsReview, true);
+  assert.equal(lead.reviewReason, 'ocr_discovery');
+  assert.equal(lead.categoryHint, 'models');
+  assert.equal(lead.benchmark, true);
+  assert.equal(lead.images.length, 1);
+  assert.match(lead.title, /DeepSeek/);
+  assert.match(lead.messageText, /SWE-bench/);
+  assert.equal(result.stats.telegram.ocrAttempts, 1);
+  assert.equal(result.stats.telegram.ocrTexts, 1);
+  assert.equal(result.stats.telegram.ocrLeads, 1);
+});
+
+test('an image that reads as unrelated text never becomes a lead', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 602,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: '📷',
+    images: ['https://cdn.example.com/price.jpg'],
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-ocr-noise',
+        name: 'OCR channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true, ocr: OCR_SETTINGS },
+    ocrRun: async () => 'قیمت دلار امروز در بازار تهران کاهش یافت',
+  });
+  assert.equal(result.candidates.length, 0);
+  assert.equal(result.stats.telegram.ocrAttempts, 1);
+  assert.equal(result.stats.telegram.ocrTexts, 1);
+  assert.equal(result.stats.telegram.ocrLeads, 0);
+  assert.equal(result.stats.telegram.noLink, 1);
+});
+
+test('a missing OCR engine is counted once and does not break the run', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 603,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: '🖼',
+    images: ['https://cdn.example.com/chart.jpg'],
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-ocr-missing',
+        name: 'OCR channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true, ocr: OCR_SETTINGS },
+    ocrRun: async () => {
+      const error = new Error('spawn tesseract ENOENT');
+      error.code = 'ENOENT';
+      throw error;
+    },
+  });
+  assert.equal(result.candidates.length, 0);
+  assert.equal(result.stats.telegram.ocrAttempts, 1);
+  assert.equal(result.stats.telegram.ocrUnavailable, 1);
+  assert.equal(result.stats.telegram.ocrErrors, 0);
+  assert.equal(result.stats.telegram.leads, 0);
+});
+
+test('a post with enough text skips OCR even when it carries an image', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 604,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text:
+      'مدل تازه هوش مصنوعی دیپ‌سیک با امتیاز بالا در جدول بنچمارک منتشر شد<br/><a href="https://example.com/deepseek">جزئیات</a>',
+    preview: { url: 'https://example.com/deepseek', title: 'DeepSeek benchmark result' },
+    images: ['https://cdn.example.com/chart.jpg'],
+  });
+  let calls = 0;
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-ocr-rich',
+        name: 'OCR channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true, ocr: OCR_SETTINGS },
+    ocrRun: async () => {
+      calls += 1;
+      return 'متن تکراری';
+    },
+  });
+  assert.equal(calls, 0);
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.candidates[0].ocr, false);
+  assert.equal(result.stats.telegram.ocrAttempts, 0);
+});
+
+test('an unrelated image does not turn a thin AI post into an OCR discovery', async () => {
+  const state = emptyState();
+  const page = block({
+    id: 605,
+    datetime: '2026-11-03T10:00:00+00:00',
+    text: 'OpenAI <a href="https://example.com/update">جزئیات</a>',
+    preview: { url: 'https://example.com/update', title: 'OpenAI update' },
+    images: ['https://cdn.example.com/timetable.jpg'],
+  });
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'tg-ocr-thin-ai',
+        name: 'OCR channel',
+        type: 'telegram_channel',
+        use: 'lead_only',
+        username: 'testchannel',
+        active_from: ACTIVE_FROM,
+        max_posts_per_check: 10,
+      },
+    ],
+    state,
+    now: NOW,
+    fetchImpl: fetchPage(page),
+    telegram: { enabled: true, ocr: OCR_SETTINGS },
+    ocrRun: async () => 'جدول زمان‌بندی قطارهای تهران به مشهد برای هفته آینده',
+  });
+  assert.equal(result.candidates.length, 1);
+  const [lead] = result.candidates;
+  assert.equal(lead.ocr, true);
+  assert.equal(lead.ocrDiscovery, false);
+  assert.notEqual(lead.reviewReason, 'ocr_discovery');
+  assert.equal(result.stats.telegram.ocrLeads, 0);
 });

@@ -74,6 +74,14 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Install OCR
+        run: |
+          if sudo apt-get update && sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-fas; then
+            tesseract --version | head -n 1
+          else
+            echo "OCR_INSTALL_FAILED — continuing without OCR"
+          fi
+
       - name: Test env
         run: printf 'AMD_API_KEY=test\n' > .env
 

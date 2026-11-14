@@ -810,7 +810,7 @@ async function main() {
   }
   if (tg.channels > 0) {
     console.log(
-      `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} nonai=${tg.nonAiEducation} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate} dup_other=${tg.crossLane}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
+      `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} nonai=${tg.nonAiEducation} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate} dup_other=${tg.crossLane} ocr=${tg.ocrAttempts} ocr_text=${tg.ocrTexts} ocr_empty=${tg.ocrEmpty} ocr_err=${tg.ocrErrors} ocr_na=${tg.ocrUnavailable} ocr_leads=${tg.ocrLeads}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
     );
   }
   await saveState(STATE_PATH, state);
@@ -922,6 +922,9 @@ async function main() {
     if (reason === 'link_missing') {
       return 'لینک معتبر پیدا نشد؛ این مورد فقط برای تأیید لینک و ارسال به کانال اصلی ثبت شده است.';
     }
+    if (reason === 'ocr_discovery') {
+      return 'این سرنخ از متن داخل تصویر خوانده شده و فقط برای بازبینی است؛ متن تصویر به‌تنهایی منبع انتشار نیست.';
+    }
     return 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.';
   };
 
@@ -1025,21 +1028,25 @@ async function main() {
       reviewSeen.push({ title: candidate.title, url: candidate.canonical, lane: 'review' });
       const reason = reviewReasonOf(candidate);
       const kind = candidate.offerHint ? 'offer' : candidate.toolHint ? 'tool' : 'post';
-      const draft = await prepareReviewDraft(candidate);
-      const note = draft.post
-        ? draft.qa?.pass
-          ? reviewNoteOf(reason)
-          : `QA کامل پاس نشد: ${draft.qa?.problems?.join(', ') || draft.reason}. قبل از انتشار اصلاح کن.`
-        : draft.reason === 'model_skip'
-          ? `مدل این مورد را رد کرد: ${String(draft.detail ?? '').slice(0, 300)}`
-          : reviewNoteOf(reason);
+      const draft = candidate.ocrDiscovery
+        ? { post: null, qa: null, reason: 'ocr_discovery' }
+        : await prepareReviewDraft(candidate);
+      const note = candidate.ocrDiscovery
+        ? reviewNoteOf(reason)
+        : draft.post
+          ? draft.qa?.pass
+            ? reviewNoteOf(reason)
+            : `QA کامل پاس نشد: ${draft.qa?.problems?.join(', ') || draft.reason}. قبل از انتشار اصلاح کن.`
+          : draft.reason === 'model_skip'
+            ? `مدل این مورد را رد کرد: ${String(draft.detail ?? '').slice(0, 300)}`
+            : reviewNoteOf(reason);
       await deliverReview({
         candidate,
         article: null,
         assessment: { reason },
         reason,
         kind,
-        mainEligible: Boolean(draft.post && draft.qa?.pass),
+        mainEligible: candidate.ocrDiscovery ? false : Boolean(draft.post && draft.qa?.pass),
         post: draft.post,
         text: candidate.messageText,
         note,

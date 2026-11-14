@@ -9,6 +9,7 @@ import { isBenchmarkCandidate } from './benchmark-lane.mjs';
 import { fetchGamefeel } from './gamefeel.mjs';
 import { watchPolicySource } from './policy-watch.mjs';
 import { fetchDailyPapers, selectDailyPapers } from './hf-papers.mjs';
+import { ocrImageUrl, ocrTextQuality } from './ocr.mjs';
 import {
   classifyLead,
   externalLinksOf,
@@ -69,6 +70,12 @@ const emptyTelegramStats = () => ({
   duplicate: 0,
   crossLane: 0,
   truncated: 0,
+  ocrAttempts: 0,
+  ocrTexts: 0,
+  ocrEmpty: 0,
+  ocrErrors: 0,
+  ocrUnavailable: 0,
+  ocrLeads: 0,
   errors: 0,
 });
 
@@ -438,6 +445,7 @@ async function collectTelegramSource({
   stats,
   candidates,
   seenThisRun,
+  ocrRun = ocrImageUrl,
 }) {
   if (!telegramSourceEnabled(source, settings)) return;
   stats.telegram.channels += 1;
@@ -490,6 +498,7 @@ async function collectTelegramSource({
   const batch = pending.slice(0, perChannel);
   if (pending.length > batch.length) stats.telegram.truncated += 1;
   let lastProcessed = null;
+  let imageOcrCount = 0;
 
   for (const message of batch) {
     lastProcessed = message;
@@ -505,15 +514,60 @@ async function collectTelegramSource({
       continue;
     }
 
-    const promo = hasPromoText(message.text) ||
+    const ocrSettings = settings.ocr ?? {};
+    const thinText =
+      stripLeadNoise(message.text).length < (Number(ocrSettings.thin_text_chars) || 40);
+    let ocrText = '';
+    if (
+      ocrSettings.enabled !== false &&
+      stats.telegram.ocrUnavailable === 0 &&
+      thinText &&
+      (message.images?.length ?? 0) > 0 &&
+      imageOcrCount < (Number(ocrSettings.max_images_per_channel) || 2) &&
+      stats.telegram.ocrAttempts < (Number(ocrSettings.max_images_per_run) || 6)
+    ) {
+      imageOcrCount += 1;
+      stats.telegram.ocrAttempts += 1;
+      try {
+        const text = await ocrRun(message.images[0], {
+          langs: ocrSettings.langs || 'eng+fas',
+          psm: ocrSettings.psm || '3',
+          timeoutMs: Number(ocrSettings.timeout_ms) || 45000,
+          maxChars: Number(ocrSettings.max_chars) || 1200,
+        });
+        if (
+          ocrTextQuality(text, {
+            minChars: Number(ocrSettings.quality_min_chars) || 40,
+            minLetters: Number(ocrSettings.quality_min_letters) || 20,
+          })
+        ) {
+          ocrText = text;
+          stats.telegram.ocrTexts += 1;
+        } else {
+          stats.telegram.ocrEmpty += 1;
+        }
+      } catch (error) {
+        const unavailable =
+          String(error?.code ?? '') === 'ENOENT' ||
+          /ENOENT|not found/i.test(String(error?.message ?? ''));
+        if (unavailable) stats.telegram.ocrUnavailable += 1;
+        else stats.telegram.ocrErrors += 1;
+      }
+    }
+    const messageText = [message.text, ocrText].filter(Boolean).join('\n\n');
+
+    const promo = hasPromoText(messageText) ||
       (message.links ?? []).some((link) =>
         isPromotionalUrl(link, { promoDomains: settings.promo_domains ?? [] })
       );
 
-    const title = leadTitle(message, message.preview?.title ?? '');
-    const rawText = String(message.text ?? '').replace(/\r\n?/g, '\n').trim();
-    const detectionText = stripLeadNoise(message.text);
-    const cleanText = stripLeadNoise(message.text, { maxChars: 1600 });
+    const title = leadTitle(
+      { ...message, text: messageText },
+      message.preview?.title ?? ''
+    );
+    const rawText = String(messageText).replace(/\r\n?/g, '\n').trim();
+    const detectionText = stripLeadNoise(messageText);
+    const cleanText = stripLeadNoise(messageText, { maxChars: 1600 });
     const hint = `${title} ${detectionText}`;
     const officialCourseLink = [...(message.links ?? []), message.preview?.url]
       .filter(Boolean)
@@ -523,8 +577,13 @@ async function collectTelegramSource({
         })
       );
     const educationCue = isEducationLead(hint) && !officialCourseLink;
-    const aiCentral = isAiCentral(title, stripLeadNoise(message.text, { maxChars: 600 }));
-    const aiMention = aiHint(hint);
+    const aiCentral = isAiCentral(title, stripLeadNoise(messageText, { maxChars: 600 }));
+    const ocrAiHint = Boolean(ocrText) && aiHint(ocrText);
+    const ocrBenchmark =
+      Boolean(ocrText) &&
+      isBenchmarkCandidate({ sourceType: source.type, title, messageText: ocrText });
+    const aiMention = aiHint(hint) || ocrBenchmark;
+    const ocrDiscovery = Boolean(ocrText) && thinText && (ocrAiHint || ocrBenchmark);
     const titleAi = aiHint(title);
     const adText = hasAdOfferText(rawText);
     const rumorHint = isRumorText(hint);
@@ -628,6 +687,7 @@ async function collectTelegramSource({
     const reviewWorthy =
       aiCentral ||
       titleAi ||
+      ocrDiscovery ||
       leadKind === 'tool_lead' ||
       leadKind === 'free_offer' ||
       leadKind === 'official_course';
@@ -635,15 +695,22 @@ async function collectTelegramSource({
       stats.telegram.reviewSkipped += 1;
       continue;
     }
-    if (isDigestText(hint) && (linkFallback || fallbackLink || reviewCandidate)) {
+    if (
+      isDigestText(hint) &&
+      (linkFallback || fallbackLink || reviewCandidate || ocrDiscovery)
+    ) {
       stats.telegram.reviewSkipped += 1;
       continue;
     }
-    if (adText && leadKind !== 'free_offer' && (linkFallback || fallbackLink || reviewCandidate)) {
+    if (
+      adText &&
+      leadKind !== 'free_offer' &&
+      (linkFallback || fallbackLink || reviewCandidate || ocrDiscovery)
+    ) {
       stats.telegram.reviewAds += 1;
       continue;
     }
-    const needsReview = reviewWorthy && (Boolean(linkFallback) || reviewCandidate);
+    const needsReview = ocrDiscovery || (reviewWorthy && (Boolean(linkFallback) || reviewCandidate));
     const leadText = leadKind === 'education' ? rawText : cleanText;
     const offer = aiMention && (leadKind === 'free_offer' || offerCue);
     const category = categoryHint({
@@ -669,6 +736,8 @@ async function collectTelegramSource({
       published: message.published,
       summary: '',
       images: message.images ?? [],
+      ocr: Boolean(ocrText),
+      ocrDiscovery,
       ageHours: gate.ageHours,
       aiHint: aiMention,
       aiCentral,
@@ -690,7 +759,9 @@ async function collectTelegramSource({
           : category,
       referral,
       needsReview,
-      reviewReason: linkFallback || (needsReview ? 'referral_link' : ''),
+      reviewReason: ocrDiscovery
+        ? 'ocr_discovery'
+        : linkFallback || (needsReview ? 'referral_link' : ''),
       keys,
       leadSource: source.username,
       leadMessageId: message.id,
@@ -702,6 +773,7 @@ async function collectTelegramSource({
       officialCourse: leadKind === 'official_course',
     });
     stats.telegram.leads += 1;
+    if (ocrDiscovery) stats.telegram.ocrLeads += 1;
   }
 
   if (lastProcessed) {
@@ -727,6 +799,7 @@ export async function collectCandidates({
   hfPapers = {},
   policyState = null,
   policy = {},
+  ocrRun = ocrImageUrl,
 }) {
   const stats = {
     sources: 0,
@@ -763,6 +836,7 @@ export async function collectCandidates({
         stats,
         candidates,
         seenThisRun,
+        ocrRun,
       });
       continue;
     }

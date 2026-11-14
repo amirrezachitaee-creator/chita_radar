@@ -311,6 +311,24 @@ test('telegram discovery is lead-only, starts today and keeps the filter', () =>
   );
 });
 
+test('image-only Telegram posts can be read by OCR but only reach review', () => {
+  const ocr = config.telegram_discovery.ocr;
+  assert.equal(ocr.enabled, true);
+  assert.equal(ocr.langs, 'eng+fas');
+  assert.ok(ocr.thin_text_chars > 0 && ocr.thin_text_chars <= 80);
+  assert.ok(ocr.quality_min_chars >= 20);
+  assert.ok(ocr.quality_min_chars <= ocr.thin_text_chars);
+  assert.ok(ocr.quality_min_letters > 0);
+  assert.ok(ocr.max_images_per_channel >= 1 && ocr.max_images_per_channel <= 3);
+  assert.ok(ocr.max_images_per_run >= ocr.max_images_per_channel);
+  assert.ok(ocr.max_chars >= 600);
+  assert.ok(ocr.timeout_ms >= 10000);
+  assert.ok(
+    workflow.includes('tesseract-ocr-fas'),
+    'the workflow does not install the Persian OCR data'
+  );
+});
+
 test('every feed source has a unique verified https feed url', () => {
   const feeds = sources.sources.filter((source) => source.use === 'feed');
   assert.ok(feeds.length >= 17, 'the verified feed roster lost sources');
