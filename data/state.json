@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T11:13:49.750Z",
+  "updatedAt": "2026-11-14T13:45:21.351Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8413,60 +8413,61 @@
       "slot": "2026-11-14T14:00+03:30",
       "title": "AI agent startup LangChain hits $3B valuation",
       "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"
+    },
+    "url:39098380552f5c0c": {
+      "at": "2026-11-14T13:31:24.626Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T17:00+03:30",
+      "title": "🤖از حدود ۱۷ و ۱۸ آبان ۱۴۰۵، گزارش‌هایی درباره یه چک‌پوینت داخلی جدید تو خانواده مدل‌های",
+      "url": "https://t.me/Mohammad_zammani/7211"
+    },
+    "title:569d3a306a853975": {
+      "at": "2026-11-14T13:31:24.626Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T17:00+03:30",
+      "title": "🤖از حدود ۱۷ و ۱۸ آبان ۱۴۰۵، گزارش‌هایی درباره یه چک‌پوینت داخلی جدید تو خانواده مدل‌های",
+      "url": "https://t.me/Mohammad_zammani/7211"
+    },
+    "url:2680848f94c17bb4": {
+      "at": "2026-11-14T13:31:24.878Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-14T17:00+03:30",
+      "title": "🤖 اگه هوش مصنوعی رو برای برنامه‌نویسی استفاده می‌کنی، باید بدونی هر کاری رو به کدوم",
+      "url": "https://t.me/ai_farshad/6437"
+    },
+    "title:2d22d93e397209d3": {
+      "at": "2026-11-14T13:31:24.878Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-14T17:00+03:30",
+      "title": "🤖 اگه هوش مصنوعی رو برای برنامه‌نویسی استفاده می‌کنی، باید بدونی هر کاری رو به کدوم",
+      "url": "https://t.me/ai_farshad/6437"
+    },
+    "url:347f017526ce65f6": {
+      "at": "2026-11-14T13:45:21.348Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-14T17:00+03:30",
+      "title": "شرکت Cloudflare مرورگر مخصوص ایجنت‌های AI رو متن‌باز کرد",
+      "url": "http://blog.cloudflare.com/kitesurf-open-source"
+    },
+    "title:f34863c723d940b5": {
+      "at": "2026-11-14T13:45:21.348Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-14T17:00+03:30",
+      "title": "شرکت Cloudflare مرورگر مخصوص ایجنت‌های AI رو متن‌باز کرد",
+      "url": "http://blog.cloudflare.com/kitesurf-open-source"
     }
   },
   "deferred": {
-    "defer:url:d458704933992cfa": {
-      "id": "defer:url:d458704933992cfa",
-      "at": "2026-11-12T19:30:59.829Z",
-      "firstAt": "2026-11-12T19:30:59.829Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:d458704933992cfa",
-        "title:39c994869d9e03fa"
-      ],
-      "canonical": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
-      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-        "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-        "canonical": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
-        "published": "Thu, 12 Nov 2026 19:23:03 +0000",
-        "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-500x500.jpg"
-        ],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:d458704933992cfa",
-          "title:39c994869d9e03fa"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:cbdc8f6b1c4c9f01": {
       "id": "defer:url:cbdc8f6b1c4c9f01",
       "at": "2026-11-13T05:01:12.903Z",
@@ -9931,10 +9932,10 @@
     },
     "defer:url:3b4bb26baf783f5c": {
       "id": "defer:url:3b4bb26baf783f5c",
-      "at": "2026-11-14T08:06:22.281Z",
+      "at": "2026-11-14T13:36:11.555Z",
       "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 2,
-      "reason": "category_consecutive",
+      "attempts": 3,
+      "reason": "qa_failed",
       "reasons": [
         "source_weekly",
         "qa_failed",
@@ -9980,10 +9981,10 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:3b4bb26baf783f5c",
-          "attempts": 1
+          "attempts": 2
         }
       },
-      "detail": "tools"
+      "detail": "no_banned"
     },
     "defer:url:a5cbeaaf0b4df56f": {
       "id": "defer:url:a5cbeaaf0b4df56f",
@@ -10613,9 +10614,9 @@
     },
     "defer:url:7d4d71d056da0286": {
       "id": "defer:url:7d4d71d056da0286",
-      "at": "2026-11-14T08:06:44.299Z",
+      "at": "2026-11-14T13:36:11.625Z",
       "firstAt": "2026-11-14T08:06:44.299Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -10654,7 +10655,11 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:7d4d71d056da0286",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
@@ -10839,6 +10844,100 @@
         "keys": [
           "url:d7c1da8cb7dc41da",
           "title:380c1efe0813da2e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9d694fa95af0cfae": {
+      "id": "defer:url:9d694fa95af0cfae",
+      "at": "2026-11-14T13:31:24.888Z",
+      "firstAt": "2026-11-14T13:31:24.888Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:9d694fa95af0cfae",
+        "title:e0a2332797205e94"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+        "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "canonical": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+        "published": "Fri, 13 Nov 2026 22:43:00 +0000",
+        "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "images": [],
+        "ageHours": 14.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:9d694fa95af0cfae",
+          "title:e0a2332797205e94"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1428861313d88dcf": {
+      "id": "defer:url:1428861313d88dcf",
+      "at": "2026-11-14T13:31:24.889Z",
+      "firstAt": "2026-11-14T13:31:24.889Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1428861313d88dcf",
+        "title:037e88b6f08ba196"
+      ],
+      "canonical": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026",
+      "title": "Crunchbase Data: Nvidia’s Startup Funding Deals Hit A Record. What’s Next After Huang?",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "Crunchbase Data: Nvidia’s Startup Funding Deals Hit A Record. What’s Next After Huang?",
+        "link": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
+        "canonical": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026",
+        "published": "Fri, 13 Nov 2026 20:32:55 +0000",
+        "summary": "Before it was thrust into crisis this week, Nvidia was steadily continuing its pace as one of the busiest startup investors around, including backing many of the biggest venture deals of 2026. We take a fresh look at where Nvidia and its venture arm NVentures have been investing and what the future could hold.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/Computer_chip_02.jpg"
+        ],
+        "ageHours": 17,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:1428861313d88dcf",
+          "title:037e88b6f08ba196"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -12423,6 +12522,37 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "41/42"
+    },
+    "2026-11-14T17:00+03:30": {
+      "at": "2026-11-14T13:45:21.348Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "مرورگر Kitesurf کلودفلر اوپن سورس شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/17-00",
+      "messageId": 76,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0035101024000000003,
+      "tokens": 39631,
+      "qa": "42/42",
+      "posts": [
+        {
+          "title": "مرورگر Kitesurf کلودفلر اوپن سورس شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 76,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0002765112,
+          "tokens": 9779,
+          "qa": "42/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-14T13:45:21.348Z"
+        }
+      ]
     }
   },
   "published": [
@@ -13494,93 +13624,110 @@
       "sourceTitle": "AI agent startup LangChain hits $3B valuation | TechCrunch",
       "sourceText": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.\nThat’s more than double its $1.25 billion valuation when it raised $125 million about a year ago , led by IVP.\nLangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases. As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents. It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.\nWith its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs. It also promises that LangSmith will contain agent behavior and is easy to use.\nTrue, there are plenty of other startups pitching similar advantages these days and also doing well ( case in point is newcomer Mintive ). However, LangChain has had a head start and now claims 7,000 LangSmith customers, including big-name startups like Harvey, Rippling, and Clay, and enterprises like Nvidia, Toyota, and Salesforce.\nEvery weekday and Sunday, you can get the best of TechCrunch’s coverage.\nTechCrunch Mobility is your destination for transportation new",
       "at": "2026-11-14T11:12:01.742Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-14T17:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "مرورگر Kitesurf کلودفلر اوپن سورس شد",
+      "why": "اهمیتش اینه که ایجنت‌های هوش مصنوعی به جای مرورگر سنگینی مثل Chromium، از یک مرورگر سبک استفاده می‌کنن که CPU و حافظه کمتری مصرف می‌کنه و به صورت خودکار مقیاس‌پذیره.",
+      "dedupe_key": "cloudflare-kitesurf-open-source",
+      "post_key": "2026-11-14/17-00/1",
+      "sourceId": "tg-dunijet-ai",
+      "sourceName": "دانیجت | Dunijet",
+      "sourceType": "telegram_channel",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source",
+      "sourceTitle": "Kitesurf is now open source",
+      "sourceText": "شرکت Cloudflare مرورگر مخصوص ایجنت‌های AI رو متن‌باز کرد\n\nبلاگ Cloudflare می‌گه موتور مرورگر سبک Kitesurf که برای ایجنت‌های هوش مصنوعی ساخته شده، حالا با لایسنس Apache 2.0 روی GitHub هست و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.\n\nblog.cloudflare.com/kitesurf-open-source\n\n@dunijet_ai\n\n❤1",
+      "at": "2026-11-14T13:45:21.348Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8411,
       "last_at": "2026-11-14T05:45:28+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "ai_farshad": {
-      "last_id": 6435,
-      "last_at": "2026-11-14T10:33:13+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "last_id": 6437,
+      "last_at": "2026-11-14T13:30:02+00:00",
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7210,
-      "last_at": "2026-11-14T06:55:25+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "last_id": 7211,
+      "last_at": "2026-11-14T13:01:43+00:00",
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "techiin_ir": {
       "last_id": 20771,
       "last_at": "2026-11-14T10:23:56+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "mgh_mobin": {
       "last_id": 480,
       "last_at": "2026-11-14T09:59:58+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "asrnovin_ir": {
       "last_id": 11465,
       "last_at": "2026-11-14T09:11:04+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "codecloude": {
       "last_id": 2584,
       "last_at": "2026-11-13T19:33:24+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "dunijet_ai": {
-      "last_id": 2546,
-      "last_at": "2026-11-13T18:56:07+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "last_id": 2547,
+      "last_at": "2026-11-14T13:25:49+00:00",
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "MatinSenPaii": {
-      "last_id": 5871,
-      "last_at": "2026-11-14T09:28:41+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "last_id": 5874,
+      "last_at": "2026-11-14T11:34:02+00:00",
+      "checked_at": "2026-11-14T13:30:40.353Z"
     },
     "thenimaonAI": {
       "last_id": 510,
       "last_at": "2026-11-14T09:53:59+00:00",
-      "checked_at": "2026-11-14T11:09:23.981Z"
+      "checked_at": "2026-11-14T13:30:40.353Z"
     }
   },
   "offerReviews": [
@@ -16043,6 +16190,18 @@
       "slot": "2026-11-14T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7211",
+      "date": "2026-11-14",
+      "at": "2026-11-14T13:30:40.353Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖از حدود ۱۷ و ۱۸ آبان ۱۴۰۵، گزارش‌هایی درباره یه چک‌پوینت داخلی جدید تو خانواده مدل‌های",
+      "url": "https://t.me/Mohammad_zammani/7211",
+      "reason": "denied_link",
+      "slot": "2026-11-14T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -16276,6 +16435,13 @@
       "url": "https://t.me/ai_farshad/6429",
       "slot": "2026-11-13T23:00+03:30",
       "at": "2026-11-13T19:30:41.080Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "🤖 اگه هوش مصنوعی رو برای برنامه‌نویسی استفاده می‌کنی، باید بدونی هر کاری رو به کدوم",
+      "url": "https://t.me/ai_farshad/6437",
+      "slot": "2026-11-14T17:00+03:30",
+      "at": "2026-11-14T13:30:40.353Z"
     }
   ],
   "reviewPending": {},
