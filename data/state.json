@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T08:45:28.161Z",
+  "updatedAt": "2026-11-14T10:31:45.670Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8217,6 +8217,186 @@
       "slot": "2026-11-14T11:30+03:30",
       "title": "XYBench: Helping with the problem behind the question",
       "url": "https://huggingface.co/blog/allenai/xybench"
+    },
+    "url:2caee2d18077b4cb": {
+      "at": "2026-11-14T10:30:51.189Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "🎬 ساخت روزانه ۲ ویدیوی رایگان با Seedance 2.5! 🔥 اگه می‌خواید با مدل قدرتمند Seedance",
+      "url": "https://t.me/shayanode/191"
+    },
+    "title:0c06ae91b1d17e91": {
+      "at": "2026-11-14T10:30:51.189Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "🎬 ساخت روزانه ۲ ویدیوی رایگان با Seedance 2.5! 🔥 اگه می‌خواید با مدل قدرتمند Seedance",
+      "url": "https://t.me/shayanode/191"
+    },
+    "url:7d7e93b89b12ae18": {
+      "at": "2026-11-14T10:30:51.189Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "🎬 ساخت روزانه ۲ ویدیوی رایگان با Seedance 2.5! 🔥",
+      "url": "https://www.dola.com/chat"
+    },
+    "title:d140425ef8cdd61c": {
+      "at": "2026-11-14T10:30:51.189Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "🎬 ساخت روزانه ۲ ویدیوی رایگان با Seedance 2.5! 🔥",
+      "url": "https://www.dola.com/chat"
+    },
+    "url:00302e04210d9eda": {
+      "at": "2026-11-14T10:30:51.189Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "مدل DeepSeek V4.1 Flash اولین اوپن‌ویتی شد که توی بنچمارک SWE-sweep از ۱٪ رد شد",
+      "url": "https://t.me/MatinSenPaii/5871"
+    },
+    "title:2269f702bcec9427": {
+      "at": "2026-11-14T10:30:51.189Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "مدل DeepSeek V4.1 Flash اولین اوپن‌ویتی شد که توی بنچمارک SWE-sweep از ۱٪ رد شد",
+      "url": "https://t.me/MatinSenPaii/5871"
+    },
+    "url:953b7836db574089": {
+      "at": "2026-11-14T10:30:52.045Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "هوش مصنوعی فارسی و آنلاین | چت، عکس و ویدیو | نقطه | رایگان",
+      "url": "https://t.me/shayanode/193"
+    },
+    "title:ca6d75ce3ac78b6e": {
+      "at": "2026-11-14T10:30:52.045Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "هوش مصنوعی فارسی و آنلاین | چت، عکس و ویدیو | نقطه | رایگان",
+      "url": "https://t.me/shayanode/193"
+    },
+    "url:2dc6dd69c8037f63": {
+      "at": "2026-11-14T10:31:29.577Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "✅ خروج جنسن هوانگ از انویدیا تاثیری روی آینده هوش مصنوعی متن‌باز خواهد داشت؟",
+      "url": "https://t.me/techiin_ir/20771"
+    },
+    "title:13dd3317eb9bcb4d": {
+      "at": "2026-11-14T10:31:29.577Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "✅ خروج جنسن هوانگ از انویدیا تاثیری روی آینده هوش مصنوعی متن‌باز خواهد داشت؟",
+      "url": "https://t.me/techiin_ir/20771"
+    },
+    "url:ff4e06b2297df671": {
+      "at": "2026-11-14T10:31:34.361Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "📸 به ChatGPT می‌گی فقط بک‌گراند عکس رو عوض کنه، بعد می‌بینی قیافه‌ات هم عوض شده؟",
+      "url": "https://t.me/shayanode/196"
+    },
+    "title:0f21cba186e40630": {
+      "at": "2026-11-14T10:31:34.361Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "📸 به ChatGPT می‌گی فقط بک‌گراند عکس رو عوض کنه، بعد می‌بینی قیافه‌ات هم عوض شده؟",
+      "url": "https://t.me/shayanode/196"
+    },
+    "url:cb1093710439056c": {
+      "at": "2026-11-14T10:31:34.545Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "برای شما هم پیش اومده که با chat GPT بخاین یه موردی رو تو عکستون عوض",
+      "url": "https://t.me/shayanode/195"
+    },
+    "title:975b5218fd169afd": {
+      "at": "2026-11-14T10:31:34.545Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "برای شما هم پیش اومده که با chat GPT بخاین یه موردی رو تو عکستون عوض",
+      "url": "https://t.me/shayanode/195"
+    },
+    "url:81e9d18bd24e4cc7": {
+      "at": "2026-11-14T10:31:34.868Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "در یک کلام Gemini Hydrogen 4 حرف نداره .",
+      "url": "https://t.me/mgh_mobin/479"
+    },
+    "title:a54ecbf2ad87ef7f": {
+      "at": "2026-11-14T10:31:34.868Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "در یک کلام Gemini Hydrogen 4 حرف نداره .",
+      "url": "https://t.me/mgh_mobin/479"
+    },
+    "url:01de088c129d835f": {
+      "at": "2026-11-14T10:31:40.990Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
+      "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life"
+    },
+    "title:d0fd35a10cd5056d": {
+      "at": "2026-11-14T10:31:40.990Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
+      "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life"
+    },
+    "url:ad83f8c3766bbc41": {
+      "at": "2026-11-14T10:31:45.668Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil"
+    },
+    "title:2e338914be03a6a9": {
+      "at": "2026-11-14T10:31:45.668Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil"
     }
   },
   "deferred": {
@@ -8804,54 +8984,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:e09fad6dcc25f1ba": {
-      "id": "defer:url:e09fad6dcc25f1ba",
-      "at": "2026-11-13T08:05:45.488Z",
-      "firstAt": "2026-11-13T08:05:45.488Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:e09fad6dcc25f1ba",
-        "title:ab2622bb492b3497"
-      ],
-      "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-        "canonical": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
-        "published": "Wed, 11 Nov 2026 09:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp\">A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 47,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e09fad6dcc25f1ba",
-          "title:ab2622bb492b3497"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:67672a694e389b29": {
       "id": "defer:url:67672a694e389b29",
       "at": "2026-11-13T17:01:14.567Z",
@@ -8902,53 +9034,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:ad83f8c3766bbc41": {
-      "id": "defer:url:ad83f8c3766bbc41",
-      "at": "2026-11-13T13:31:24.524Z",
-      "firstAt": "2026-11-13T13:31:24.524Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:ad83f8c3766bbc41",
-        "title:2e338914be03a6a9"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil",
-      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-        "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-        "canonical": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil",
-        "published": "Fri, 13 Nov 2026 12:52:19 +0000",
-        "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-        "images": [],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ad83f8c3766bbc41",
-          "title:2e338914be03a6a9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:5a7538ac02344da7": {
       "id": "defer:url:5a7538ac02344da7",
@@ -10125,55 +10210,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:01de088c129d835f": {
-      "id": "defer:url:01de088c129d835f",
-      "at": "2026-11-13T20:21:52.336Z",
-      "firstAt": "2026-11-13T20:21:52.336Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:01de088c129d835f",
-        "title:d0fd35a10cd5056d"
-      ],
-      "canonical": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life",
-      "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
-        "link": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-        "canonical": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life",
-        "published": "Fri, 13 Nov 2026 20:07:34 +0000",
-        "summary": "Jensen Huang likely left Nvidia more because of risky business practices than anything else, a Wall Street Journal report suggests. At the very least, those practices made him enemies internally. The company offered cloud providers billions in financial guarantees for chip purchases, including a planned $250 billion deal with OpenAI. Interim CEO and then-CFO Colette Kress tried to contain the risk, and Huang reportedly didn't like that. The article Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
-        ],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:01de088c129d835f",
-          "title:d0fd35a10cd5056d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:49f0b0840b1ef26a": {
       "id": "defer:url:49f0b0840b1ef26a",
       "at": "2026-11-13T20:21:52.336Z",
@@ -10647,6 +10683,193 @@
         "leadKind": ""
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:456ace67e0015fb3": {
+      "id": "defer:url:456ace67e0015fb3",
+      "at": "2026-11-14T10:31:34.879Z",
+      "firstAt": "2026-11-14T10:31:34.879Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:456ace67e0015fb3",
+        "title:2c178536b605e9b0"
+      ],
+      "canonical": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
+      "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+        "link": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+        "canonical": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
+        "published": "Sat, 14 Nov 2026 09:45:45 +0000",
+        "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The article Runway's open-source Praxis-1 turns video AI into a robot controller appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/Runway-Praxis-1.jpg"
+        ],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:456ace67e0015fb3",
+          "title:2c178536b605e9b0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a99dfdd20d85acbb": {
+      "id": "defer:url:a99dfdd20d85acbb",
+      "at": "2026-11-14T10:31:34.879Z",
+      "firstAt": "2026-11-14T10:31:34.879Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a99dfdd20d85acbb",
+        "title:b26896d82a5727f6"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/shield",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+        "link": "https://openai.com/business/customer-stories/shield",
+        "canonical": "https://openai.com/business/customer-stories/shield",
+        "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+        "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/shield",
+        "images": [],
+        "ageHours": 26.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a99dfdd20d85acbb",
+          "title:b26896d82a5727f6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:65b96c238445cded": {
+      "id": "defer:url:65b96c238445cded",
+      "at": "2026-11-14T10:31:34.879Z",
+      "firstAt": "2026-11-14T10:31:34.879Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:65b96c238445cded",
+        "title:01e1e211c653e911"
+      ],
+      "canonical": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Gilbert + Tobin rethinks the business of law with AI",
+        "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "canonical": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
+        "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "images": [],
+        "ageHours": 58.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:65b96c238445cded",
+          "title:01e1e211c653e911"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d7c1da8cb7dc41da": {
+      "id": "defer:url:d7c1da8cb7dc41da",
+      "at": "2026-11-14T10:31:34.879Z",
+      "firstAt": "2026-11-14T10:31:34.879Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:d7c1da8cb7dc41da",
+        "title:380c1efe0813da2e"
+      ],
+      "canonical": "https://openai.com/index/children-first-declaration",
+      "title": "Supporting research on AI and children’s safety",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Supporting research on AI and children’s safety",
+        "link": "https://openai.com/index/children-first-declaration",
+        "canonical": "https://openai.com/index/children-first-declaration",
+        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
+        "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/children-first-declaration",
+        "images": [],
+        "ageHours": 58.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d7c1da8cb7dc41da",
+          "title:380c1efe0813da2e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -12194,6 +12417,14 @@
           "at": "2026-11-14T08:06:44.271Z"
         }
       ]
+    },
+    "2026-11-14T14:00+03:30": {
+      "at": "2026-11-14T10:31:45.668Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0019304823999999998,
+      "tokens": 36335,
+      "posts": []
     }
   },
   "published": [
@@ -13254,87 +13485,87 @@
     "ArchiveTell": {
       "last_id": 8411,
       "last_at": "2026-11-14T05:45:28+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "ai_farshad": {
-      "last_id": 6433,
-      "last_at": "2026-11-14T07:32:20+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "last_id": 6434,
+      "last_at": "2026-11-14T08:40:41+00:00",
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "Mohammad_zammani": {
       "last_id": 7210,
       "last_at": "2026-11-14T06:55:25+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "techiin_ir": {
-      "last_id": 20769,
-      "last_at": "2026-11-13T12:04:45+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "last_id": 20771,
+      "last_at": "2026-11-14T10:23:56+00:00",
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "mgh_mobin": {
-      "last_id": 478,
-      "last_at": "2026-11-14T06:39:10+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "last_id": 480,
+      "last_at": "2026-11-14T09:59:58+00:00",
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "asrnovin_ir": {
-      "last_id": 11463,
-      "last_at": "2026-11-14T06:16:26+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "last_id": 11465,
+      "last_at": "2026-11-14T09:11:04+00:00",
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "shayanode": {
-      "last_id": 187,
-      "last_at": "2026-11-13T21:33:24+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "last_id": 197,
+      "last_at": "2026-11-14T10:19:07+00:00",
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "codecloude": {
       "last_id": 2584,
       "last_at": "2026-11-13T19:33:24+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "dunijet_ai": {
       "last_id": 2546,
       "last_at": "2026-11-13T18:56:07+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "MatinSenPaii": {
-      "last_id": 5870,
-      "last_at": "2026-11-14T07:20:40+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "last_id": 5871,
+      "last_at": "2026-11-14T09:28:41+00:00",
+      "checked_at": "2026-11-14T10:30:40.182Z"
     },
     "thenimaonAI": {
-      "last_id": 509,
-      "last_at": "2026-11-14T07:02:43+00:00",
-      "checked_at": "2026-11-14T08:00:53.135Z"
+      "last_id": 510,
+      "last_at": "2026-11-14T09:53:59+00:00",
+      "checked_at": "2026-11-14T10:30:40.182Z"
     }
   },
   "offerReviews": [
@@ -15735,6 +15966,66 @@
       "url": "https://t.me/thenimaonAI/507",
       "reason": "denied_link",
       "slot": "2026-11-14T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-shayanode|https://t.me/shayanode/193",
+      "date": "2026-11-14",
+      "at": "2026-11-14T10:30:40.182Z",
+      "source": "tg-shayanode",
+      "title": "هوش مصنوعی فارسی و آنلاین | چت، عکس و ویدیو | نقطه | رایگان",
+      "url": "https://t.me/shayanode/193",
+      "reason": "denied_link",
+      "slot": "2026-11-14T14:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-techiin|https://t.me/techiin_ir/20771",
+      "date": "2026-11-14",
+      "at": "2026-11-14T10:30:40.182Z",
+      "source": "tg-techiin",
+      "title": "✅ خروج جنسن هوانگ از انویدیا تاثیری روی آینده هوش مصنوعی متن‌باز خواهد داشت؟",
+      "url": "https://t.me/techiin_ir/20771",
+      "reason": "denied_link",
+      "slot": "2026-11-14T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-shayanode|https://t.me/shayanode/196",
+      "date": "2026-11-14",
+      "at": "2026-11-14T10:30:40.182Z",
+      "source": "tg-shayanode",
+      "title": "📸 به ChatGPT می‌گی فقط بک‌گراند عکس رو عوض کنه، بعد می‌بینی قیافه‌ات هم عوض شده؟",
+      "url": "https://t.me/shayanode/196",
+      "reason": "denied_link",
+      "slot": "2026-11-14T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-shayanode|https://t.me/shayanode/195",
+      "date": "2026-11-14",
+      "at": "2026-11-14T10:30:40.182Z",
+      "source": "tg-shayanode",
+      "title": "برای شما هم پیش اومده که با chat GPT بخاین یه موردی رو تو عکستون عوض",
+      "url": "https://t.me/shayanode/195",
+      "reason": "no_link",
+      "slot": "2026-11-14T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-mgh-mobin|https://t.me/mgh_mobin/479",
+      "date": "2026-11-14",
+      "at": "2026-11-14T10:30:40.182Z",
+      "source": "tg-mgh-mobin",
+      "title": "در یک کلام Gemini Hydrogen 4 حرف نداره .",
+      "url": "https://t.me/mgh_mobin/479",
+      "reason": "denied_link",
+      "slot": "2026-11-14T14:00+03:30",
       "kind": "post",
       "mainEligible": false
     }
