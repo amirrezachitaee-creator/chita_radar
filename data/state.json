@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T10:31:45.670Z",
+  "updatedAt": "2026-11-14T11:13:49.750Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8397,6 +8397,22 @@
       "slot": "2026-11-14T14:00+03:30",
       "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
       "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil"
+    },
+    "url:49f0b0840b1ef26a": {
+      "at": "2026-11-14T11:12:01.742Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"
+    },
+    "title:2561930a89977e6e": {
+      "at": "2026-11-14T11:12:01.742Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-14T14:00+03:30",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"
     }
   },
   "deferred": {
@@ -10210,53 +10226,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:49f0b0840b1ef26a": {
-      "id": "defer:url:49f0b0840b1ef26a",
-      "at": "2026-11-13T20:21:52.336Z",
-      "firstAt": "2026-11-13T20:21:52.336Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:49f0b0840b1ef26a",
-        "title:2561930a89977e6e"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "AI agent startup LangChain hits $3B valuation",
-        "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-        "canonical": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
-        "published": "Fri, 13 Nov 2026 19:37:57 +0000",
-        "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-        "images": [],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:49f0b0840b1ef26a",
-          "title:2561930a89977e6e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:7db3dbf05615c3ed": {
       "id": "defer:url:7db3dbf05615c3ed",
       "at": "2026-11-13T20:21:52.336Z",
@@ -10356,12 +10325,13 @@
     },
     "defer:url:aed6a44b6f21a432": {
       "id": "defer:url:aed6a44b6f21a432",
-      "at": "2026-11-13T20:22:43.957Z",
+      "at": "2026-11-14T11:13:49.750Z",
       "firstAt": "2026-11-13T20:22:43.957Z",
-      "attempts": 1,
-      "reason": "qa_failed",
+      "attempts": 2,
+      "reason": "category_consecutive",
       "reasons": [
-        "qa_failed"
+        "qa_failed",
+        "category_consecutive"
       ],
       "keys": [
         "url:aed6a44b6f21a432",
@@ -10398,9 +10368,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:aed6a44b6f21a432",
+          "attempts": 1
+        }
       },
-      "detail": "source_url"
+      "detail": "business"
     },
     "defer:url:7ed04b33e97e89aa": {
       "id": "defer:url:7ed04b33e97e89aa",
@@ -12420,11 +12394,35 @@
     },
     "2026-11-14T14:00+03:30": {
       "at": "2026-11-14T10:31:45.668Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0019304823999999998,
-      "tokens": 36335,
-      "posts": []
+      "cost": 0.0018699744,
+      "tokens": 20140,
+      "posts": [
+        {
+          "title": "لنگ‌چین با ۳۰۰ میلیون دلار سرمایه به ارزش ۳ میلیارد دلار",
+          "category": "business",
+          "status": "sent",
+          "messageId": 75,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0018699744,
+          "tokens": 20140,
+          "qa": "41/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-14T11:12:01.741Z"
+        }
+      ],
+      "category": "business",
+      "title": "لنگ‌چین با ۳۰۰ میلیون دلار سرمایه به ارزش ۳ میلیارد دلار",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/14-00",
+      "messageId": 75,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "41/42"
     }
   },
   "published": [
@@ -13479,93 +13477,110 @@
       "sourceTitle": "XYBench: Helping with the problem behind the question",
       "sourceText": "Truly useful AI assistants need to be able to help users who ask misguided questions—not just users who ask the right question with the right amount of detail. We’re releasing XYBench , a benchmark of 8K+ questions that tests how AI assistants respond to requests based on misconceptions, such as asking how to thicken frosting that keeps sliding off cupcakes when the real problem is that the cupcakes are still too warm to frost. XYBench won the Best Resource Paper Award at EMNLP 2026.\nA mismatch between the approach someone asks about and the goal they want to achieve is known as the XY problem : a person wants to accomplish X, assumes a particular approach Y will work, and asks for help with Y. In the cupcake example, the person is so committed to making the frosting stick that they fail to consider the warmth of the cupcake as the true problem to be addressed.\nDeveloped with researchers at Carnegie Mellon, NVIDIA, and Johns Hopkins, XYBench exposes a critical gap in LLMs' ability to troubleshoot problems: recognizing when a user's request is based on an implicit misconception and appropriately redirecting them toward a solution that addresses their actual goal. Drawing on 8,115 real-world questions spanning programming and everyday activities such as cooking and home repair, we introduce a benchmark that measures whether models identify these misconceptions and are able to prioritize effective solutions in their responses.\nThe models we evaluated on XYBench – Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B, and DeepSeek-V4 Pro – often suggested a solution to the user’",
       "at": "2026-11-14T08:06:44.272Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-14T14:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "لنگ‌چین با ۳۰۰ میلیون دلار سرمایه به ارزش ۳ میلیارد دلار",
+      "why": "این رشد نشون می‌ده بازار مدیریت ایجنت‌ها چقدر داغه و لنگ‌چین با ریشه اوپن سورسش تونسته جای پایی محکم برای خودش باز کنه.",
+      "dedupe_key": "langchain-seriesc-3b-valuation",
+      "post_key": "2026-11-14/14-00/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "sourceTitle": "AI agent startup LangChain hits $3B valuation | TechCrunch",
+      "sourceText": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.\nThat’s more than double its $1.25 billion valuation when it raised $125 million about a year ago , led by IVP.\nLangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases. As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents. It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.\nWith its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs. It also promises that LangSmith will contain agent behavior and is easy to use.\nTrue, there are plenty of other startups pitching similar advantages these days and also doing well ( case in point is newcomer Mintive ). However, LangChain has had a head start and now claims 7,000 LangSmith customers, including big-name startups like Harvey, Rippling, and Clay, and enterprises like Nvidia, Toyota, and Salesforce.\nEvery weekday and Sunday, you can get the best of TechCrunch’s coverage.\nTechCrunch Mobility is your destination for transportation new",
+      "at": "2026-11-14T11:12:01.742Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8411,
       "last_at": "2026-11-14T05:45:28+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "ai_farshad": {
-      "last_id": 6434,
-      "last_at": "2026-11-14T08:40:41+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "last_id": 6435,
+      "last_at": "2026-11-14T10:33:13+00:00",
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "Mohammad_zammani": {
       "last_id": 7210,
       "last_at": "2026-11-14T06:55:25+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "techiin_ir": {
       "last_id": 20771,
       "last_at": "2026-11-14T10:23:56+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "mgh_mobin": {
       "last_id": 480,
       "last_at": "2026-11-14T09:59:58+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "asrnovin_ir": {
       "last_id": 11465,
       "last_at": "2026-11-14T09:11:04+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "codecloude": {
       "last_id": 2584,
       "last_at": "2026-11-13T19:33:24+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "dunijet_ai": {
       "last_id": 2546,
       "last_at": "2026-11-13T18:56:07+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "MatinSenPaii": {
       "last_id": 5871,
       "last_at": "2026-11-14T09:28:41+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     },
     "thenimaonAI": {
       "last_id": 510,
       "last_at": "2026-11-14T09:53:59+00:00",
-      "checked_at": "2026-11-14T10:30:40.182Z"
+      "checked_at": "2026-11-14T11:09:23.981Z"
     }
   },
   "offerReviews": [
@@ -16278,7 +16293,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-14T05:00:46.107Z",
+      "lastCheck": "2026-11-14T11:09:23.981Z",
       "status": "active",
       "misses": 0
     }
