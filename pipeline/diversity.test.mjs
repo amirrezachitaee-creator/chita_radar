@@ -200,6 +200,34 @@ test('source daily and weekly caps are enforced', () => {
   assert.deepEqual(plan.queue.map((entry) => entry.sourceId), ['s4']);
 });
 
+test('a benchmark candidate bypasses only the source weekly cap', () => {
+  const week = weekKey('2026-11-13');
+  const state = emptyState();
+  state.published = [
+    { slot: '2026-11-07T08:30+03:30', category: 'models', sourceId: 's1', week },
+    { slot: '2026-11-08T08:30+03:30', category: 'models', sourceId: 's1', week },
+    { slot: '2026-11-09T08:30+03:30', category: 'models', sourceId: 's1', week },
+    { slot: '2026-11-10T08:30+03:30', category: 'models', sourceId: 's1', week },
+    { slot: '2026-11-13T11:30+03:30', category: 'models', sourceId: 's2', week },
+  ];
+  const benchmark = {
+    ...live('SWE-sweep leaderboard: a new model scores 1.7%', 'tools', 's1'),
+    benchmark: true,
+  };
+  const plan = run([benchmark], { state, date: '2026-11-13' });
+  assert.equal(plan.rejected.source_weekly, 0);
+  assert.deepEqual(plan.queue.map((entry) => entry.sourceId), ['s1']);
+
+  const dailyState = emptyState();
+  dailyState.published = [
+    { slot: '2026-11-13T08:30+03:30', category: 'business', sourceId: 's1', week },
+    { slot: '2026-11-13T11:30+03:30', category: 'models', sourceId: 's2', week },
+  ];
+  const dailyPlan = run([benchmark], { state: dailyState, date: '2026-11-13' });
+  assert.equal(dailyPlan.rejected.source_daily, 1);
+  assert.equal(dailyPlan.queue.length, 0);
+});
+
 test('category daily and consecutive caps are enforced', () => {
   const state = emptyState();
   const week = weekKey('2026-11-07');
@@ -343,6 +371,33 @@ test('a crowded target category still leaves room for fallback categories', () =
   assert.equal(plan.target, 'business');
   assert.ok(plan.queue.some((entry) => entry.categoryHint === 'tools'));
   assert.equal(plan.queue.length, 6);
+});
+
+test('a benchmark candidate wins the one-per-source slot over plain news', () => {
+  const week = weekKey('2026-11-13');
+  const state = emptyState();
+  state.published = [
+    { slot: '2026-11-13T11:30+03:30', category: 'tools', sourceId: 's2', week },
+  ];
+  const plain = live('خبر عادی از یک منبع', 'models', 's1', 1);
+  const benchmark = {
+    ...live('SWE-sweep leaderboard: scores updated', 'models', 's1', 5),
+    benchmark: true,
+  };
+  const plan = run([plain, benchmark], { state, date: '2026-11-13' });
+  assert.deepEqual(plan.queue.map((entry) => entry.title), [benchmark.title]);
+  assert.equal(plan.skipped.filter((entry) => entry.reason === 'source_duplicate').length, 1);
+
+  const release = {
+    ...live('Official model release', 'models', 's1', 1),
+    modelRelease: true,
+  };
+  const releasePlan = run([release, benchmark], { state, date: '2026-11-13' });
+  assert.deepEqual(releasePlan.queue.map((entry) => entry.title), [release.title]);
+  assert.equal(
+    releasePlan.skipped.filter((entry) => entry.reason === 'source_duplicate').length,
+    1
+  );
 });
 
 test('the queue keeps at most one candidate per source', () => {

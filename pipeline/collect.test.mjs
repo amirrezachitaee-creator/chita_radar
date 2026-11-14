@@ -216,6 +216,7 @@ test('the benchmark source turns a model commit into a models candidate', async 
   assert.equal(candidate.categoryHint, 'models');
   assert.equal(candidate.aiCentral, true);
   assert.equal(candidate.sourceType, 'benchmark');
+  assert.equal(candidate.benchmark, true);
   assert.match(candidate.title, /tops The Gamefeel Benchmark with 49\.9/);
   assert.match(candidate.messageText, /overall 49\.9\/100/);
   assert.match(candidate.messageText, /Opus-5\.5 47\.2/);

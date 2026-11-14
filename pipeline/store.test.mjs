@@ -155,7 +155,13 @@ test('delivered memory keeps published and review entries only for 30 days', () 
   const main = emptyState();
   const review = emptyState();
   main.published = [
-    { title: 'Main story', at: '2026-10-29T15:00:00.000Z', slot: '2026-10-29T20:30+03:30', category: 'tools' },
+    {
+      title: 'Main story',
+      at: '2026-10-29T15:00:00.000Z',
+      slot: '2026-10-29T20:30+03:30',
+      category: 'tools',
+      sourceType: 'benchmark',
+    },
     { title: 'Old main story', at: '2026-09-01T15:00:00.000Z', slot: '2026-09-01T20:30+03:30', category: 'tools' },
   ];
   markSeen(main, dedupeKeys({ url: 'https://example.com/reviewed', title: 'Reviewed story' }), {
@@ -163,6 +169,7 @@ test('delivered memory keeps published and review entries only for 30 days', () 
     decision: 'review',
     title: 'Reviewed story',
     slot: '2026-11-01T08:30+03:30',
+    benchmark: true,
   });
   markSeen(main, dedupeKeys({ url: 'https://example.com/edu', title: 'Education story' }), {
     at: '2026-10-20T00:00:00.000Z',
@@ -207,6 +214,9 @@ test('delivered memory keeps published and review entries only for 30 days', () 
   assert.equal(entries[0].decision, 'publish');
   assert.equal(entries[1].decision, 'review');
   assert.equal(entries[3].decision, 'education_review');
+  assert.equal(entries.find((entry) => entry.title === 'Main story').benchmark, true);
+  assert.equal(entries.find((entry) => entry.title === 'Reviewed story').benchmark, true);
+  assert.equal(entries.find((entry) => entry.title === 'Education story').benchmark, false);
 });
 
 test('slot status is settled for ready, sent, skipped, or reviewed', () => {
@@ -261,11 +271,13 @@ test('recording a publish stores the source for diversity caps', () => {
     sourceId: 'source-one',
     sourceName: 'Source One',
     sourceType: 'news',
+    benchmark: true,
     url: 'https://example.com/model',
   });
   assert.equal(entry.sourceId, 'source-one');
   assert.equal(entry.sourceName, 'Source One');
   assert.equal(entry.sourceType, 'news');
+  assert.equal(entry.benchmark, true);
   assert.equal(entry.url, 'https://example.com/model');
   assert.equal(entry.week, '2026-11-07');
   assert.equal(state.published[0].sourceId, 'source-one');

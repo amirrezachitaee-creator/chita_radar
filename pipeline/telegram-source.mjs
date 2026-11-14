@@ -1,5 +1,6 @@
 import { canonicalUrl } from './normalize.mjs';
 import { isAiCentral } from './relevance.mjs';
+import { isBenchmarkCandidate } from './benchmark-lane.mjs';
 import { newsDate } from './newstime.mjs';
 
 export const TELEGRAM_SOURCE_TYPE = 'telegram_channel';
@@ -925,11 +926,17 @@ export function matchesPublishedStory(text, entry = {}) {
 }
 
 export function findStoryDuplicate(candidate, delivered = []) {
+  const benchmark = isBenchmarkCandidate(candidate);
   // A look-alike queued for review is not a published story. Policy items are
   // official announcements, so only real posts in the main lane may block them.
-  const pool = candidate?.policy
-    ? delivered.filter((entry) => entry.lane === 'main' && entry.decision === 'publish')
-    : delivered;
+  // Benchmark updates are follow-ups, so only published benchmark posts count.
+  const pool = benchmark
+    ? delivered.filter(
+        (entry) => entry.lane === 'main' && entry.benchmark === true && entry.decision === 'publish'
+      )
+    : candidate?.policy
+      ? delivered.filter((entry) => entry.lane === 'main' && entry.decision === 'publish')
+      : delivered;
   const title = String(candidate?.title ?? '').trim();
   const body = [candidate?.messageText, candidate?.summary].filter(Boolean).join(' ');
   // Later paragraphs often mention another model as context or as a joke. Once
@@ -938,6 +945,9 @@ export function findStoryDuplicate(candidate, delivered = []) {
   const lead = (body.split(/\n+/).find((part) => part.trim()) ?? '').trim().slice(0, 600);
   return pool.find((entry) => {
     if (title && matchesPublishedStory(title, entry)) return true;
+    // A benchmark update names its own model and score. A mention in the body
+    // of an older post must not turn it into that older story.
+    if (benchmark) return false;
     if (!lead) return false;
     // Feed bodies repeat boilerplate, so they only match real titles, never the
     // long sourceText of an older post.

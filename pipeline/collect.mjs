@@ -5,6 +5,7 @@ import { hasReferral, offerHint } from './offers.mjs';
 import { aiHint, isAiCentral } from './relevance.mjs';
 import { categoryHint } from './diversity.mjs';
 import { fetchArticleIndex } from './benchmark.mjs';
+import { isBenchmarkCandidate } from './benchmark-lane.mjs';
 import { fetchGamefeel } from './gamefeel.mjs';
 import { watchPolicySource } from './policy-watch.mjs';
 import { fetchDailyPapers, selectDailyPapers } from './hf-papers.mjs';
@@ -130,6 +131,12 @@ async function collectIndexSource({
 
     seenThisRun.add(canonical);
     const summary = item.summary ?? '';
+    const benchmark = isBenchmarkCandidate({ sourceType: source.type, title: item.title, summary });
+    const hint = categoryHint({
+      title: item.title,
+      summary,
+      sourceCategories: source.categories ?? [],
+    });
     candidates.push({
       sourceId: source.id,
       sourceName: source.name,
@@ -144,12 +151,9 @@ async function collectIndexSource({
       aiHint: aiHint(`${item.title} ${summary}`),
       aiCentral: isAiCentral(item.title, summary),
       offerHint: false,
+      benchmark,
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],
-      categoryHint: categoryHint({
-        title: item.title,
-        summary,
-        sourceCategories: source.categories ?? [],
-      }),
+      categoryHint: benchmark ? 'models' : hint,
       keys,
     });
   }
@@ -220,6 +224,7 @@ async function collectBenchmarkSource({
       aiHint: true,
       aiCentral: true,
       offerHint: false,
+      benchmark: true,
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],
       categoryHint: 'models',
       keys,
@@ -639,6 +644,19 @@ async function collectTelegramSource({
       continue;
     }
     const needsReview = reviewWorthy && (Boolean(linkFallback) || reviewCandidate);
+    const leadText = leadKind === 'education' ? rawText : cleanText;
+    const offer = aiMention && (leadKind === 'free_offer' || offerCue);
+    const category = categoryHint({
+      title,
+      summary: cleanText,
+      sourceCategories: source.categories ?? [],
+      toolHint: leadKind === 'tool_lead',
+      offerHint: offer,
+      officialCourse: leadKind === 'official_course',
+    });
+    const benchmark =
+      leadKind !== 'education' &&
+      isBenchmarkCandidate({ sourceType: source.type, title, messageText: leadText });
     candidates.push({
       sourceId: source.id,
       sourceName: source.name,
@@ -646,7 +664,7 @@ async function collectTelegramSource({
       title,
       link,
       canonical,
-      messageText: leadKind === 'education' ? rawText : cleanText,
+      messageText: leadText,
       leadPostUrl: message.url,
       published: message.published,
       summary: '',
@@ -657,22 +675,19 @@ async function collectTelegramSource({
       titleAi,
       rumorHint,
       relatedLinks,
-      offerHint: aiMention && (leadKind === 'free_offer' || offerCue),
+      offerHint: offer,
       toolHint: leadKind === 'tool_lead',
+      benchmark,
       modelRelease:
         aiMention &&
         isOfficialModelRelease(link, hint, {
           officialCourseDomains: settings.official_course_domains ?? [],
         }),
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],
-      categoryHint: categoryHint({
-        title,
-        summary: cleanText,
-        sourceCategories: source.categories ?? [],
-        toolHint: leadKind === 'tool_lead',
-        offerHint: aiMention && (leadKind === 'free_offer' || offerCue),
-        officialCourse: leadKind === 'official_course',
-      }),
+      categoryHint:
+        benchmark && !offer && leadKind !== 'tool_lead' && leadKind !== 'official_course'
+          ? 'models'
+          : category,
       referral,
       needsReview,
       reviewReason: linkFallback || (needsReview ? 'referral_link' : ''),
@@ -871,6 +886,16 @@ export async function collectCandidates({
       const educationCategory =
         Array.isArray(source.categories) && source.categories.includes('education');
       const educationCue = aiRelevant && (educationCategory || isEducationLead(feedText));
+      const benchmark =
+        !educationCue &&
+        isBenchmarkCandidate({ sourceType: source.type, title: item.title, summary: item.summary });
+      const offer = offerHint(feedText);
+      const hint = categoryHint({
+        title: item.title,
+        summary: item.summary,
+        sourceCategories: source.categories ?? [],
+        offerHint: offer,
+      });
       candidates.push({
         sourceId: source.id,
         sourceName: source.name,
@@ -886,19 +911,15 @@ export async function collectCandidates({
         ageHours: gate.ageHours,
         aiHint: aiRelevant,
         aiCentral: isAiCentral(item.title, item.summary),
-        offerHint: offerHint(feedText),
+        offerHint: offer,
+        benchmark,
         modelRelease:
           aiRelevant &&
           isOfficialModelRelease(item.link, feedText, {
             officialCourseDomains: telegram.official_course_domains ?? [],
           }),
         sourceCategories: Array.isArray(source.categories) ? source.categories : [],
-        categoryHint: categoryHint({
-          title: item.title,
-          summary: item.summary,
-          sourceCategories: source.categories ?? [],
-          offerHint: offerHint(feedText),
-        }),
+        categoryHint: benchmark && !offer ? 'models' : hint,
         keys,
         educationHint: educationCue,
         webEducation: educationCue,

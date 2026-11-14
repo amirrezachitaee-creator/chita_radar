@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { canonicalUrl, contentHash } from './normalize.mjs';
+import { isBenchmarkCandidate } from './benchmark-lane.mjs';
 
 export const TEHRAN_OFFSET_MINUTES = 210;
 export const MAIN_CATEGORIES = ['tools', 'models', 'security', 'business'];
@@ -235,6 +236,10 @@ export function deliveredEntries(states, now, { days = SEEN_RETENTION_DAYS } = {
       sourceText: String(record?.sourceText ?? '').slice(0, 1600),
       category: String(record?.category ?? ''),
       decision: String(record?.decision ?? 'publish'),
+      benchmark:
+        record?.benchmark === true ||
+        record?.sourceType === 'benchmark' ||
+        isBenchmarkCandidate({ title }),
     };
     const previous = entries.get(key);
     if (!previous || next.at > previous.at) entries.set(key, next);
@@ -370,6 +375,7 @@ export function recordPublished(
     sourceId = '',
     sourceName = '',
     sourceType = '',
+    benchmark = false,
     url = '',
     sourceTitle = '',
     sourceText = '',
@@ -387,6 +393,7 @@ export function recordPublished(
     sourceId,
     sourceName,
     sourceType,
+    benchmark: benchmark === true,
     url,
     sourceTitle,
     sourceText: String(sourceText ?? '').slice(0, 1600),

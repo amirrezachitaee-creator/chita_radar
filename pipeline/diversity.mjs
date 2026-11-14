@@ -1,4 +1,5 @@
 import { MAIN_CATEGORIES } from './store.mjs';
+import { isBenchmarkCandidate } from './benchmark-lane.mjs';
 
 const DAY_KEYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
@@ -179,6 +180,7 @@ export function planSlotQueue({
     const source = sourceKeyOf(candidate);
     const hint = candidate.categoryHint ?? '';
     const policyReminder = Boolean(candidate.policyReminder);
+    const benchmark = isBenchmarkCandidate(candidate);
     if (last && source && source === sourceKeyOf(last)) {
       reject(candidate, 'source_consecutive');
       continue;
@@ -187,7 +189,9 @@ export function planSlotQueue({
       reject(candidate, 'source_daily');
       continue;
     }
-    if (source && (usage.weekly.get(source) ?? 0) >= sourceWeekCap) {
+    // A benchmark update must not expire behind a news source's weekly quota.
+    // Daily, category and slot caps still apply.
+    if (!benchmark && source && (usage.weekly.get(source) ?? 0) >= sourceWeekCap) {
       reject(candidate, 'source_weekly');
       continue;
     }
@@ -285,17 +289,37 @@ export function planSlotQueue({
 function buildQueue(eligible, target, maxCandidates, deferredPriority = true) {
   const limit = Math.max(0, maxCandidates);
   const dropped = [];
-  const seenSources = new Set();
-  const unique = eligible.filter((candidate) => {
+  const bySource = new Map();
+  const unique = [];
+  for (const candidate of eligible) {
     const source = sourceKeyOf(candidate);
-    if (!source) return true;
-    if (seenSources.has(source)) {
-      dropped.push({ candidate, reason: 'source_duplicate' });
-      return false;
+    if (!source) {
+      unique.push(candidate);
+      continue;
     }
-    seenSources.add(source);
-    return true;
-  });
+    const index = bySource.get(source);
+    if (index === undefined) {
+      bySource.set(source, unique.length);
+      unique.push(candidate);
+      continue;
+    }
+    const existing = unique[index];
+    // Only one item per source fits a run. A benchmark update is the reason this
+    // lane exists, so it wins that slot over plain news; policy, offers, courses
+    // and official releases keep their priority.
+    const replaceable =
+      !existing.policyReminder &&
+      !existing.modelRelease &&
+      !existing.offerHint &&
+      !existing.officialCourse;
+    const candidateSafe = !candidate.policyReminder && !candidate.offerHint && !candidate.officialCourse;
+    if (isBenchmarkCandidate(candidate) && !isBenchmarkCandidate(existing) && replaceable && candidateSafe) {
+      dropped.push({ candidate: existing, reason: 'source_duplicate' });
+      unique[index] = candidate;
+    } else {
+      dropped.push({ candidate, reason: 'source_duplicate' });
+    }
+  }
   const policy = unique.filter((candidate) => candidate.policyReminder);
   const policySet = new Set(policy);
   for (const candidate of policy.slice(2)) {

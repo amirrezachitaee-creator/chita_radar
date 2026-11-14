@@ -520,6 +520,7 @@ test('a fresh benchmark entry is not blocked by the feed boilerplate of an older
   const published = {
     lane: 'main',
     decision: 'publish',
+    benchmark: true,
     title: 'دو مدل جدید GPT-6.1 به بنچمارک Gamefeel اضافه شدند',
     sourceTitle: 'Gpt-6.1-Sol and Gpt-6.1-Terra added to The Gamefeel Benchmark reverse-evaluation scores',
     sourceText: `${boilerplate}\nUpdate commit (2026-11-08): Gpt-6.1-Sol and Gpt-6.1-Terra added to the RE scores. Gpt-6.1-Sol (OpenAI): overall 52.1/100, rank 1 of 47; price per task $0.12; context 1M; closed weights.`,
@@ -561,6 +562,34 @@ test('a passing mention of another model in the body does not make a different s
     ].join('\n\n'),
   };
   assert.equal(findStoryDuplicate(candidate, [published]), undefined);
+});
+
+test('a benchmark update follows a launch instead of duplicating it', () => {
+  const launch = {
+    lane: 'main',
+    decision: 'publish',
+    benchmark: false,
+    title: 'گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد',
+    sourceText: 'گوگل مدل Gemini 4 Hydrogen را معرفی کرد و از بنچمارک‌های داخلی گفت.',
+  };
+  const candidate = {
+    title: 'Gemini-4-Hydrogen added to The Gamefeel Benchmark reverse-evaluation scores',
+    messageText:
+      'گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد و این مدل به بنچمارک Gamefeel اضافه شد.',
+  };
+  assert.equal(findStoryDuplicate(candidate, [launch]), undefined);
+  assert.equal(
+    findStoryDuplicate(candidate, [{ ...launch, benchmark: true }]),
+    undefined
+  );
+
+  const benchmarkPost = {
+    ...launch,
+    benchmark: true,
+    title: 'Gemini-4-Hydrogen added to The Gamefeel Benchmark',
+  };
+  assert.equal(findStoryDuplicate(candidate, [{ ...benchmarkPost, lane: 'review' }]), undefined);
+  assert.equal(findStoryDuplicate(candidate, [benchmarkPost]), benchmarkPost);
 });
 
 test('a policy story ignores review lookalikes but respects real main posts', () => {

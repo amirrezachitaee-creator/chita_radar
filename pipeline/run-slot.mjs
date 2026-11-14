@@ -24,6 +24,7 @@ import {
   MAIN_CATEGORIES,
 } from './engine.mjs';
 import { collectCandidates } from './collect.mjs';
+import { isBenchmarkCandidate } from './benchmark-lane.mjs';
 import { clearReminderDay } from './policy-watch.mjs';
 import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } from './diversity.mjs';
 import { dailyBudget, sendWindow } from './guards.mjs';
@@ -365,6 +366,22 @@ async function main() {
     console.log(`DEFERRED_POOL ${deferredEntries.length}`);
     for (const entry of deferredEntries.slice(0, 5)) {
       console.log(`  DEFERRED ${entry.reason || 'unknown'} | try ${entry.attempts}/${MAX_DEFER_ATTEMPTS} | ${entry.title}`);
+    }
+  }
+  const benchmarkDeferred = deferredEntries.filter((entry) => isBenchmarkCandidate(entry.candidate));
+  if (benchmarkDeferred.length) {
+    const nowMs = Date.parse(NOW);
+    console.log(`DEFERRED_BENCHMARK ${benchmarkDeferred.length} lane=benchmark`);
+    for (const entry of benchmarkDeferred) {
+      const publishedMs = Date.parse(entry.candidate?.published ?? '');
+      const anchorMs = Number.isFinite(publishedMs) ? publishedMs : Date.parse(entry.at ?? '');
+      const remainingHours =
+        Number.isFinite(anchorMs) && Number.isFinite(nowMs)
+          ? Math.max(0, Math.round((anchorMs + DEFER_TTL_HOURS * 3600000 - nowMs) / 3600000))
+          : null;
+      const expiry = remainingHours === null ? 'unknown' : `${remainingHours}h`;
+      const warning = remainingHours !== null && remainingHours <= 24 ? ' EXPIRING' : '';
+      console.log(`  DEFERRED_BENCHMARK ${entry.reason || 'unknown'} | expires ${expiry}${warning} | ${entry.title}`);
     }
   }
   const exhaustedDeferred = allDeferred.filter((entry) => Number(entry.attempts ?? 0) >= MAX_DEFER_ATTEMPTS).length;
@@ -1598,7 +1615,7 @@ async function main() {
       maxAgeHours: offerContext ? config.offers.max_age_hours : config.freshness_hours.pre_gate,
       offer: offerContext,
       officialCourse: Boolean(candidate.officialCourse),
-      benchmark: candidate.sourceType === 'benchmark',
+      benchmark: isBenchmarkCandidate(candidate),
       policy: Boolean(candidate.policy),
       effectiveDate: candidate.effectiveDate || '',
       policyIran:
@@ -2295,6 +2312,7 @@ async function main() {
       slot: slot.key,
       title: candidate.title,
       url: candidate.canonical,
+      benchmark: isBenchmarkCandidate(candidate),
     });
     recordPublished(state, {
       slot: slot.key,
@@ -2307,6 +2325,7 @@ async function main() {
       sourceId: candidate.sourceId || candidate.leadSource || '',
       sourceName: candidate.sourceName || candidate.leadSource || '',
       sourceType: candidate.sourceType || 'telegram_channel',
+      benchmark: isBenchmarkCandidate(candidate),
       sourceTitle: article.title || candidate.title || '',
       sourceText: candidate.messageText || article.content || '',
       url: article.url,
