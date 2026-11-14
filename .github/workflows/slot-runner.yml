@@ -206,7 +206,7 @@ jobs:
             find logs -mindepth 1 -type d -empty -delete
           fi
           files=()
-          for f in data/state.json data/state.review.json data/offer-watch.json data/policy-state.json; do
+          for f in data/state.json data/state.review.json data/offer-watch.json data/policy-state.json data/review-feedback.json; do
             if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
           done
           if [ -d logs ] && [ -n "$(git status --porcelain -- logs)" ]; then files+=("logs"); fi

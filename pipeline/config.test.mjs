@@ -9,6 +9,10 @@ const workflow = readFileSync(
   new URL('../.github/workflows/slot-runner.yml', import.meta.url),
   'utf8'
 );
+const actionsWorkflow = readFileSync(
+  new URL('../.github/workflows/review-actions.yml', import.meta.url),
+  'utf8'
+);
 
 const MAIN = ['tools', 'models', 'security', 'business'];
 const USES = new Set(['feed', 'reference', 'lead_only', 'api', 'page', 'benchmark', 'policy']);
@@ -444,4 +448,30 @@ test('the policy source watches the official news, legal text and country list',
     'the policy state lives outside the daily state lanes'
   );
   assert.match(workflow, /data\/policy-state\.json/, 'the workflow does not commit the policy state');
+});
+
+test('review actions keep the agreed caps and one poller queue', () => {
+  const actions = config.review_actions;
+  assert.equal(actions.enabled, true);
+  assert.equal(actions.max_rewrites_per_item, 2);
+  assert.ok(actions.max_rewrites_per_day >= 1 && actions.max_rewrites_per_day <= 30);
+  assert.ok(actions.poll_max_actions >= 1 && actions.poll_max_actions <= 20);
+  assert.ok(actions.pending_ttl_days >= 7);
+  assert.ok(actions.action_retention_days >= actions.pending_ttl_days);
+  assert.ok(actions.max_items >= 100);
+  assert.ok(actions.min_source_chars > 0);
+});
+
+test('the action poller keeps its own queue and defers to a busy slot', () => {
+  assert.match(actionsWorkflow, /cron: "3,13,23,33,43,53 \* \* \* \*"/);
+  assert.match(actionsWorkflow, /group: review-actions/);
+  assert.equal(actionsWorkflow.includes('cancel-in-progress: true'), false, 'a poll can cancel a run');
+  assert.match(actionsWorkflow, /Slot busy check/);
+  assert.match(actionsWorkflow, /actions\/workflows\/slot-runner\.yml\/runs/);
+  assert.equal(actionsWorkflow.includes('--force'), false, 'the poller must never force a run');
+  assert.match(actionsWorkflow, /MODE: \$\{\{ github\.event\.inputs\.mode \|\| 'send' \}\}/);
+  assert.match(actionsWorkflow, /if \[ "\$\{MODE\}" = "send" \]; then args\+=\(--send\); fi/);
+  assert.match(actionsWorkflow, /data\/review-feedback\.json/);
+  assert.match(actionsWorkflow, /node pipeline\/review-actions\.mjs/);
+  assert.match(actionsWorkflow, /rm -f \.env/);
 });

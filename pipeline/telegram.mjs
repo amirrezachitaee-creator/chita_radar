@@ -139,7 +139,7 @@ function mimeFor(path) {
   return 'image/jpeg';
 }
 
-async function readResult(response, method) {
+async function readRawResult(response) {
   const json = await response.json().catch(() => null);
   if (!response.ok || !json?.ok) {
     const error = new Error(`TELEGRAM_${response.status}_${String(json?.description ?? '').slice(0, 120)}`.trim());
@@ -149,10 +149,15 @@ async function readResult(response, method) {
     }
     throw error;
   }
+  return json.result;
+}
+
+async function readResult(response, method) {
+  const result = await readRawResult(response);
   return {
     method,
-    messageId: json.result?.message_id ?? null,
-    chatId: json.result?.chat?.id ?? null,
+    messageId: result?.message_id ?? null,
+    chatId: result?.chat?.id ?? null,
   };
 }
 
@@ -164,6 +169,7 @@ export async function sendText(text, {
   fetchImpl = fetch,
   parseMode = '',
   replyTo = 0,
+  replyMarkup = null,
 }) {
   if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
   if (!chatId) throw new Error('TELEGRAM_CHAT_ID_MISSING');
@@ -172,6 +178,7 @@ export async function sendText(text, {
   const payload = { chat_id: chatId, text, disable_web_page_preview: false };
   if (parseMode) payload.parse_mode = parseMode;
   if (replyTo) payload.reply_parameters = { message_id: replyTo, allow_sending_without_reply: true };
+  if (replyMarkup) payload.reply_markup = replyMarkup;
 
   const url = `${baseUrl.replace(/\/$/, '')}/bot${token}/sendMessage`;
   const controller = new AbortController();
@@ -255,6 +262,112 @@ export async function deleteMessage(messageId, {
       throw new Error(`TELEGRAM_${response.status}_${String(json?.description ?? '').slice(0, 120)}`.trim());
     }
     return { method: 'deleteMessage', messageId: Number(messageId) };
+  } catch (error) {
+    if (error?.message?.startsWith('TELEGRAM_')) throw error;
+    throw telegramRequestError(error);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+export async function getUpdates({
+  token,
+  offset = 0,
+  limit = 50,
+  timeout = 0,
+  allowedUpdates = ['callback_query'],
+  baseUrl = 'https://api.telegram.org',
+  timeoutMs = 30000,
+  fetchImpl = fetch,
+}) {
+  if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
+  const url = new URL(`${baseUrl.replace(/\/$/, '')}/bot${token}/getUpdates`);
+  url.searchParams.set('offset', String(Math.max(0, Number(offset) || 0)));
+  url.searchParams.set('limit', String(Math.max(1, Math.min(100, Number(limit) || 50))));
+  url.searchParams.set('timeout', String(Math.max(0, Number(timeout) || 0)));
+  if (Array.isArray(allowedUpdates) && allowedUpdates.length) {
+    url.searchParams.set('allowed_updates', JSON.stringify(allowedUpdates));
+  }
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(url, { method: 'GET', signal: controller.signal });
+    return await readRawResult(response);
+  } catch (error) {
+    if (error?.message?.startsWith('TELEGRAM_')) throw error;
+    throw telegramRequestError(error);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+export async function answerCallbackQuery(callbackQueryId, {
+  token,
+  text = '',
+  showAlert = false,
+  url = '',
+  cacheTime = 0,
+  baseUrl = 'https://api.telegram.org',
+  timeoutMs = 30000,
+  fetchImpl = fetch,
+} = {}) {
+  if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
+  if (!callbackQueryId) throw new Error('TELEGRAM_CALLBACK_ID_MISSING');
+  const payload = {
+    callback_query_id: callbackQueryId,
+    text: String(text ?? '').slice(0, 200),
+    show_alert: showAlert === true,
+    cache_time: Math.max(0, Number(cacheTime) || 0),
+  };
+  if (url) payload.url = String(url);
+  const endpoint = `${baseUrl.replace(/\/$/, '')}/bot${token}/answerCallbackQuery`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(endpoint, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: controller.signal,
+    });
+    await readRawResult(response);
+    return { method: 'answerCallbackQuery', ok: true };
+  } catch (error) {
+    if (error?.message?.startsWith('TELEGRAM_')) throw error;
+    throw telegramRequestError(error);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+export async function editMessageReplyMarkup({
+  token,
+  chatId,
+  messageId,
+  replyMarkup = null,
+  baseUrl = 'https://api.telegram.org',
+  timeoutMs = 30000,
+  fetchImpl = fetch,
+} = {}) {
+  if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
+  if (!chatId) throw new Error('TELEGRAM_CHAT_ID_MISSING');
+  if (!messageId) throw new Error('TELEGRAM_MESSAGE_ID_MISSING');
+  const endpoint = `${baseUrl.replace(/\/$/, '')}/bot${token}/editMessageReplyMarkup`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(endpoint, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: chatId,
+        message_id: Number(messageId),
+        reply_markup: replyMarkup ?? { inline_keyboard: [] },
+      }),
+      signal: controller.signal,
+    });
+    await readRawResult(response);
+    return { method: 'editMessageReplyMarkup', messageId: Number(messageId) };
   } catch (error) {
     if (error?.message?.startsWith('TELEGRAM_')) throw error;
     throw telegramRequestError(error);

@@ -530,6 +530,35 @@ test('a tool review text marks main eligibility and carries the prepared post', 
   assert.match(text, /این پیام فقط برای بازبینی است/);
 });
 
+test('with action buttons the review copy points at the buttons instead of manual forwarding', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'ابزار تازه',
+      sourceName: 'کانال تست',
+      link: 'https://example.com/tool',
+      toolHint: true,
+    },
+    assessment: { reason: 'tool_incomplete' },
+    kind: 'tool',
+    mainEligible: true,
+    actions: true,
+    post: { title: 'تیتر آماده', body: 'بدنه آماده' },
+  });
+  assert.match(text, /دکمهٔ «ارسال به کانال اصلی»/);
+  assert.match(text, /از دکمه‌های زیر پیام/);
+  assert.doesNotMatch(text, /پاک کن و بقیه رو به کانال اصلی بفرست/);
+  const html = reviewHtml({
+    candidate: { title: 'ابزار تازه', sourceName: 'کانال تست', link: 'https://example.com/tool' },
+    assessment: { reason: 'tool_incomplete' },
+    kind: 'tool',
+    mainEligible: true,
+    actions: true,
+    post: { title: 'تیتر آماده', body: 'بدنه آماده' },
+  });
+  assert.match(html, /از دکمه‌های زیر پیام/);
+  assert.doesNotMatch(html, /این پیام فقط برای بازبینی است/);
+});
+
 test('a qa-failed review copy is labelled as a draft that still needs fixing', () => {
   const text = reviewText({
     candidate: { title: 'خبر', sourceName: 'کانال تست', link: 'https://example.com/post' },

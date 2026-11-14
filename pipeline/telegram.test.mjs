@@ -5,12 +5,16 @@ import { mkdtemp, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
+  answerCallbackQuery,
   captionLength,
   deleteMessage,
   editMessageCaption,
+  editMessageReplyMarkup,
   formatTitle,
+  getUpdates,
   sendPhotoUrl,
   sendTelegram,
+  sendText,
   postText,
   postHtml,
 } from './telegram.mjs';
@@ -422,4 +426,129 @@ test('a rate limit carries the server wait time and is retryable', async () => {
       error.retryable === true &&
       error.retryAfter === 7
   );
+});
+
+test('review text can carry an inline keyboard', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  const keyboard = {
+    inline_keyboard: [
+      [
+        { text: 'رد', callback_data: 'rv1|r|a1b2c3d4e5' },
+        { text: 'بازنویسی', callback_data: 'rv1|w|a1b2c3d4e5' },
+      ],
+    ],
+  };
+  try {
+    await sendText('متن بازبینی', {
+      token: 'TEST',
+      chatId: '1',
+      baseUrl,
+      parseMode: 'HTML',
+      replyMarkup: keyboard,
+    });
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
+    assert.deepEqual(payload.reply_markup, keyboard);
+    assert.equal(payload.parse_mode, 'HTML');
+  } finally {
+    server.close();
+  }
+});
+
+test('getUpdates reads only callback queries with the stored offset', async () => {
+  let requested = '';
+  const fetchImpl = async (url) => {
+    requested = String(url);
+    return new Response(JSON.stringify({
+      ok: true,
+      result: [{ update_id: 13, callback_query: { id: 'cb' } }],
+    }), { status: 200, headers: { 'content-type': 'application/json' } });
+  };
+  const updates = await getUpdates({
+    token: 'TEST',
+    offset: 12,
+    limit: 10,
+    timeout: 0,
+    fetchImpl,
+  });
+  const parsed = new URL(requested);
+  assert.equal(parsed.pathname, '/botTEST/getUpdates');
+  assert.equal(parsed.searchParams.get('offset'), '12');
+  assert.equal(parsed.searchParams.get('limit'), '10');
+  assert.equal(parsed.searchParams.get('timeout'), '0');
+  assert.equal(parsed.searchParams.get('allowed_updates'), '["callback_query"]');
+  assert.deepEqual(updates, [{ update_id: 13, callback_query: { id: 'cb' } }]);
+});
+
+test('a getUpdates conflict is not retried', async () => {
+  const fetchImpl = async () =>
+    new Response(JSON.stringify({
+      ok: false,
+      error_code: 409,
+      description: 'Conflict: terminated by other getUpdates request',
+    }), { status: 409, headers: { 'content-type': 'application/json' } });
+  await assert.rejects(
+    getUpdates({ token: 'TEST', fetchImpl }),
+    (error) => error.message.startsWith('TELEGRAM_409') && error.retryable !== true
+  );
+});
+
+test('answering a callback query truncates the toast and flags alerts', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  try {
+    const result = await answerCallbackQuery('cb-1', {
+      token: 'TEST',
+      text: 'x'.repeat(250),
+      showAlert: true,
+      baseUrl,
+    });
+    assert.equal(result.ok, true);
+    assert.equal(requests[0].url, '/botTEST/answerCallbackQuery');
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
+    assert.equal(payload.callback_query_id, 'cb-1');
+    assert.equal(payload.text.length, 200);
+    assert.equal(payload.show_alert, true);
+  } finally {
+    server.close();
+  }
+  await assert.rejects(answerCallbackQuery('', { token: 'TEST' }), /CALLBACK_ID_MISSING/);
+});
+
+test('removing the review keyboard sends an empty inline keyboard', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  try {
+    const result = await editMessageReplyMarkup({
+      token: 'TEST',
+      chatId: '-1001',
+      messageId: 9,
+      baseUrl,
+    });
+    assert.equal(result.method, 'editMessageReplyMarkup');
+    assert.equal(requests[0].url, '/botTEST/editMessageReplyMarkup');
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
+    assert.equal(payload.chat_id, '-1001');
+    assert.equal(payload.message_id, 9);
+    assert.deepEqual(payload.reply_markup, { inline_keyboard: [] });
+  } finally {
+    server.close();
+  }
+});
+
+test('a replacement review keyboard keeps the item callback ids', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  const keyboard = {
+    inline_keyboard: [[{ text: 'ارسال به کانال اصلی', callback_data: 'rv1|p|a1b2c3d4e5' }]],
+  };
+  try {
+    await editMessageReplyMarkup({
+      token: 'TEST',
+      chatId: '-1001',
+      messageId: 9,
+      baseUrl,
+      replyMarkup: keyboard,
+    });
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
+    assert.deepEqual(payload.reply_markup, keyboard);
+  } finally {
+    server.close();
+  }
 });

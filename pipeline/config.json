@@ -70,6 +70,16 @@
     "max_text_chars": 0,
     "web_enabled": true
   },
+  "review_actions": {
+    "enabled": true,
+    "max_rewrites_per_item": 2,
+    "max_rewrites_per_day": 20,
+    "poll_max_actions": 10,
+    "pending_ttl_days": 14,
+    "action_retention_days": 90,
+    "max_items": 200,
+    "min_source_chars": 320
+  },
   "freshness_hours": {
     "pre_gate": 72,
     "tools": 48,

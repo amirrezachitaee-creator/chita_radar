@@ -53,10 +53,18 @@ import {
   listDeferred,
   clearDeferred,
   deliveredEntries,
+  dedupeKeys,
   MAX_DEFER_ATTEMPTS,
   DEFER_TTL_HOURS,
 } from './store.mjs';
-import { sendTelegram, sendText, sendPhotoUrl, captionLength, postText } from './telegram.mjs';
+import {
+  emptyReviewStore,
+  createReviewItem,
+  keyboardFor,
+  loadReviewStore,
+  saveReviewStore,
+} from './review-items.mjs';
+import { sendTelegram, sendText, sendPhotoUrl, captionLength, postText, editMessageReplyMarkup } from './telegram.mjs';
 import { newsDateLine, effectiveDateLine } from './newstime.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
@@ -110,6 +118,17 @@ if (!env.AMD_API_KEY) {
 }
 
 const config = JSON.parse(await readFile(resolve(ROOT, 'pipeline/config.json'), 'utf8'));
+const REVIEW_ACTIONS_ENABLED = config.review_actions?.enabled !== false;
+const REVIEW_REWRITE_CAP = Math.max(0, Number(config.review_actions?.max_rewrites_per_item ?? 2) || 0);
+const REVIEW_FEEDBACK_PATH = resolve(ROOT, option('--review-feedback', 'data/review-feedback.json'));
+let reviewStore = emptyReviewStore();
+if (SEND && REVIEW_ACTIONS_ENABLED) {
+  try {
+    reviewStore = await loadReviewStore(REVIEW_FEEDBACK_PATH);
+  } catch (error) {
+    console.log(`REVIEW_STORE_LOAD_FAILED ${redact(String(error?.message ?? error))}`);
+  }
+}
 const MAX_CANDIDATES = Math.max(
   1,
   Number(MAX_CANDIDATES_ARG || config.diversity?.max_candidates || 8)
@@ -403,10 +422,14 @@ async function main() {
       kind || (assessment?.expiry ? 'offer' : candidate?.toolHint ? 'tool' : 'post');
     const url = article?.url || candidate?.canonical || candidate?.link || '';
     const title = article?.title || candidate?.title || '';
+    const rawImage = String(candidate?.images?.[0] ?? article?.imageUrl ?? '');
+    const imageUrl = imageVerdict(rawImage, '').ok ? rawImage : '';
+    const actions = SEND && reviewEnabled && REVIEW_ACTIONS_ENABLED;
     const payload = {
       id: `${dateKey(NOW)}|${candidate?.sourceId || candidate?.leadSource || 'unknown'}|${url || title}`,
       source: candidate?.sourceId || candidate?.leadSource || '',
       sourceName: candidate?.sourceName || '',
+      sourceType: candidate?.sourceType || '',
       title,
       url,
       reason: effectiveReason,
@@ -416,9 +439,18 @@ async function main() {
       slot: slot.key,
       at: NOW,
       publishedAt: article?.published || candidate?.published || '',
-      keys: candidate?.keys ?? [],
+      keys: candidate?.keys?.length ? candidate.keys : dedupeKeys({ url, title }),
       leadPostUrl: candidate?.leadPostUrl ?? '',
       messageText: candidate?.messageText ?? '',
+      relatedLinks: candidate?.relatedLinks ?? [],
+      images: candidate?.images ?? [],
+      imageUrl,
+      benchmark: candidate ? isBenchmarkCandidate(candidate) : false,
+      toolHint: Boolean(candidate?.toolHint),
+      offerHint: Boolean(candidate?.offerHint || resolvedKind === 'offer'),
+      rumorHint: Boolean(candidate?.rumorHint),
+      policy: Boolean(candidate?.policy),
+      post,
       expiry: assessment?.expiry ?? null,
       text: '',
       html: '',
@@ -433,6 +465,7 @@ async function main() {
       note,
       post,
       text,
+      actions,
     });
     if (post) {
       payload.html = reviewHtml({
@@ -443,6 +476,7 @@ async function main() {
         mainEligible,
         note,
         post,
+        actions,
       });
     }
     return payload;
@@ -471,20 +505,74 @@ async function main() {
     return dir;
   }
 
-  async function sendReviewText(text, html = '') {
+  async function sendReviewText(text, html = '', replyMarkup = null) {
     if (!SEND) return { messageId: null, sendError: '' };
     if (!reviewEnabled) return { messageId: null, sendError: 'REVIEW_DISABLED' };
     if (!REVIEW_CHAT_ID) return { messageId: null, sendError: 'REVIEW_CREDENTIALS_MISSING' };
+    const hint = 'از دکمه‌های زیر پیام برای رد، بازنویسی یا ارسال به کانال اصلی استفاده کن.';
+    const withHint = (value) => (value && replyMarkup && !value.includes('دکمه‌های زیر') ? `${value}\n\n${hint}` : value);
     try {
-      const sent = await sendText(html || text, {
+      const sent = await sendText(withHint(html || text), {
         token: env.TELEGRAM_BOT_TOKEN,
         chatId: REVIEW_CHAT_ID,
         parseMode: html ? 'HTML' : '',
+        replyMarkup,
       });
       return { messageId: sent.messageId ?? null, sendError: '' };
     } catch (error) {
       return { messageId: null, sendError: redact(String(error?.message ?? error)) };
     }
+  }
+
+  function createItemForPayload(payload) {
+    return createReviewItem(reviewStore, {
+      now: NOW,
+      messageId: null,
+      chatId: REVIEW_CHAT_ID,
+      slot: payload.slot,
+      reason: payload.reason,
+      kind: payload.kind,
+      source: payload.source,
+      sourceName: payload.sourceName,
+      sourceType: payload.sourceType,
+      title: payload.title,
+      url: payload.url,
+      leadPostUrl: payload.leadPostUrl,
+      messageText: payload.messageText,
+      relatedLinks: payload.relatedLinks,
+      images: payload.images,
+      imageUrl: payload.imageUrl,
+      publishedAt: payload.publishedAt,
+      keys: payload.keys?.length ? payload.keys : dedupeKeys({ url: payload.url, title: payload.title }),
+      benchmark: payload.benchmark,
+      toolHint: payload.toolHint,
+      offerHint: payload.offerHint,
+      rumorHint: payload.rumorHint,
+      policy: payload.policy,
+      mainEligible: payload.mainEligible,
+      qaPass: payload.mainEligible,
+      post: payload.post,
+      expiry: payload.expiry,
+    });
+  }
+
+  async function persistSentReviewItem(item, messageId, sendError = '') {
+    if (!item || !messageId) return;
+    item.messageId = Number(messageId);
+    item.chatId = String(REVIEW_CHAT_ID);
+    item.updatedAt = NOW;
+    try {
+      await saveReviewStore(REVIEW_FEEDBACK_PATH, reviewStore);
+    } catch (error) {
+      console.log(`REVIEW_STORE_SAVE_FAILED ${redact(String(error?.message ?? error))}`);
+      await editMessageReplyMarkup({
+        token: env.TELEGRAM_BOT_TOKEN,
+        chatId: REVIEW_CHAT_ID,
+        messageId,
+      }).catch(() => {});
+      return;
+    }
+    console.log(`  REVIEW_ITEM id=${item.id} message=${item.messageId}${sendError ? ` ${sendError}` : ''}`);
   }
 
   function markReviewSeen(candidate, decision, reason) {
@@ -514,8 +602,11 @@ async function main() {
     }
 
     const dir = await writeReviewFiles(payload);
-    const { messageId, sendError } = await sendReviewText(payload.text, payload.html);
+    const item = REVIEW_ACTIONS_ENABLED && SEND && reviewEnabled ? createItemForPayload(payload) : null;
+    const keyboard = item ? keyboardFor(item, { rewriteCap: REVIEW_REWRITE_CAP }) : null;
+    const { messageId, sendError } = await sendReviewText(payload.text, payload.html, keyboard);
     if (SEND && !messageId) {
+      if (item) delete reviewStore.items[item.id];
       enqueueReviewPending(state, {
         ...payload,
         attempts: Number(state.reviewPending?.[payload.id]?.attempts ?? 0) + 1,
@@ -526,6 +617,7 @@ async function main() {
       await saveState(STATE_PATH, state);
       return { queued: true, payload, dir };
     }
+    await persistSentReviewItem(item, messageId);
 
     recordOfferReview(state, {
       source: payload.source,
@@ -559,15 +651,23 @@ async function main() {
         console.log(`  REVIEW_PENDING_WAIT ${entry.sourceName || entry.source} | ${capacity.reason}`);
         continue;
       }
-      const payload = { ...entry, text: refreshQueuedReviewText(entry.text, entry.reason) };
+      const payload = {
+        ...entry,
+        keys: entry.keys?.length ? entry.keys : dedupeKeys({ url: entry.url, title: entry.title }),
+        text: refreshQueuedReviewText(entry.text, entry.reason),
+      };
       const dir = await writeReviewFiles(payload);
-      const { messageId, sendError } = await sendReviewText(payload.text, entry.html || '');
+      const item = REVIEW_ACTIONS_ENABLED && SEND && reviewEnabled ? createItemForPayload(payload) : null;
+      const keyboard = item ? keyboardFor(item, { rewriteCap: REVIEW_REWRITE_CAP }) : null;
+      const { messageId, sendError } = await sendReviewText(payload.text, entry.html || '', keyboard);
       if (SEND && !messageId) {
+        if (item) delete reviewStore.items[item.id];
         entry.attempts = Number(entry.attempts ?? 0) + 1;
         state.reviewPending[entry.id] = entry;
         console.log(`  REVIEW_SEND_FAILED ${sendError} | pending kept`);
         continue;
       }
+      await persistSentReviewItem(item, messageId);
       recordOfferReview(state, {
         source: entry.source,
         title: entry.title,

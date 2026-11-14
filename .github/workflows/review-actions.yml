@@ -1,0 +1,159 @@
+name: review-actions
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry = پیش‌نمایش بدون تغییر | send = اعمال واقعی"
+        type: choice
+        options:
+          - dry
+          - send
+        default: dry
+  schedule:
+    - cron: "3,13,23,33,43,53 * * * *"
+
+# A separate queue: a 10-minute poll must never cancel a pending slot run.
+concurrency:
+  group: review-actions
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  actions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MODE: ${{ github.event.inputs.mode || 'send' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Test env
+        run: printf 'AMD_API_KEY=test\n' > .env
+
+      - name: Test
+        run: >-
+          node --test
+          pipeline/review-actions.test.mjs
+          pipeline/review-items.test.mjs
+          pipeline/review-draft.test.mjs
+          pipeline/review-publish.test.mjs
+          pipeline/telegram.test.mjs
+
+      - name: Preflight
+        env:
+          AMD_API_KEY: ${{ secrets.AMD_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_REVIEW_CHAT_ID: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          case "${MODE}" in dry|send) ;; *) echo "BAD_MODE ${MODE}"; exit 2 ;; esac
+          if [ -z "${AMD_API_KEY:-}" ]; then echo "MISSING_SECRET AMD_API_KEY"; exit 2; fi
+          if [ "${MODE}" = "send" ] && [ -z "${TELEGRAM_BOT_TOKEN:-}" ]; then echo "MISSING_SECRET TELEGRAM_BOT_TOKEN"; exit 2; fi
+          if [ "${MODE}" = "send" ] && [ -z "${TELEGRAM_CHAT_ID:-}" ]; then echo "MISSING_SECRET TELEGRAM_CHAT_ID"; exit 2; fi
+          if [ "${MODE}" = "send" ] && [ -z "${TELEGRAM_REVIEW_CHAT_ID:-}" ]; then echo "MISSING_SECRET TELEGRAM_REVIEW_CHAT_ID"; exit 2; fi
+          echo "PREFLIGHT_OK mode=${MODE}"
+
+      - name: Write .env
+        env:
+          AMD_API_KEY: ${{ secrets.AMD_API_KEY }}
+          AMD_BASE_URL: ${{ vars.AMD_BASE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_REVIEW_CHAT_ID: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          {
+            printf 'AMD_API_KEY=%s\n' "${AMD_API_KEY:-}"
+            printf 'AMD_BASE_URL=%s\n' "${AMD_BASE_URL:-}"
+            printf 'TELEGRAM_BOT_TOKEN=%s\n' "${TELEGRAM_BOT_TOKEN:-}"
+            printf 'TELEGRAM_CHAT_ID=%s\n' "${TELEGRAM_CHAT_ID:-}"
+            printf 'TELEGRAM_REVIEW_CHAT_ID=%s\n' "${TELEGRAM_REVIEW_CHAT_ID:-}"
+          } > .env
+          chmod 600 .env
+
+      - name: Slot busy check
+        id: gate
+        if: env.MODE == 'send'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          api="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/workflows/slot-runner.yml/runs"
+          count() {
+            body="$(curl -sS --max-time 20 -H "Authorization: Bearer ${GH_TOKEN}" "${api}?status=$1&per_page=1" || true)"
+            printf '%s' "${body}" | jq -r '.total_count // 0' 2>/dev/null || echo 0
+          }
+          running="$(count in_progress)"
+          waiting="$(count queued)"
+          if [ "${running:-0}" != "0" ] || [ "${waiting:-0}" != "0" ]; then
+            echo "busy=true" >> "$GITHUB_OUTPUT"
+            echo "SLOT_BUSY running=${running} queued=${waiting}"
+          else
+            echo "busy=false" >> "$GITHUB_OUTPUT"
+            echo "SLOT_IDLE"
+          fi
+
+      - name: Run review actions
+        if: steps.gate.outputs.busy != 'true'
+        run: |
+          set -euo pipefail
+          args=()
+          if [ "${MODE}" = "send" ]; then args+=(--send); fi
+          {
+            echo "RUN ${GITHUB_RUN_ID} | ${MODE} | $(date -u +%FT%TZ)"
+            echo "RUN_ARGS ${args[*]:-dry}"
+          }
+          node pipeline/review-actions.mjs "${args[@]}" 2>&1 | node pipeline/mask-log.mjs
+
+      - name: Commit state
+        if: always() && steps.gate.outputs.busy != 'true'
+        run: |
+          set -euo pipefail
+          if [ ! -d .git ]; then echo "NO_GIT_CHECKOUT"; exit 0; fi
+          files=()
+          for f in data/review-feedback.json data/state.json data/state.review.json; do
+            if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
+          done
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "STATE_UNCHANGED"
+            exit 0
+          fi
+          git add "${files[@]}"
+          git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): review-actions ${GITHUB_RUN_ID}"
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "STATE_PUSHED attempt=${attempt}"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "STATE_PUSH_FAILED"
+          exit 1
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+        run: |
+          if [ -z "${TOKEN:-}" ] || [ -z "${CHAT:-}" ]; then exit 0; fi
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          text="پردازش دکمه‌های بازبینی شکست خورد: ${run_url}"
+          curl -sS --max-time 20 -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" --data-urlencode "chat_id=${CHAT}" --data-urlencode "text=${text}" > /dev/null || true
+
+      - name: Remove .env
+        if: always()
+        run: rm -f .env
