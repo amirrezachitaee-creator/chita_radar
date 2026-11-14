@@ -1,0 +1,58 @@
+RUN 43562417357 | send/main | slot auto | 2026-11-14T05:37:23Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-14T08:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 1/31 | models 0/24 | security 0/11 | business 0/11
+DAILY 1/11
+DIVERSITY_TARGET models | slot 08:30
+DEFERRED_POOL 44
+  DEFERRED source_weekly | try 0/3 | Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life
+  DEFERRED source_weekly | try 0/3 | AI agent startup LangChain hits $3B valuation
+  DEFERRED qa_failed | try 1/3 | The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll
+  DEFERRED qa_failed | try 1/3 | OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet
+  DEFERRED source_weekly | try 0/3 | Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!
+DEFERRED_EXHAUSTED 2
+SLOT_ALREADY_DONE 2026-11-14T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-14T05:37:23Z
+# گزارش روزانه 2026-11-14 (شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 1 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 1
+
+## آمار روز
+- پست ارسال‌شده: 1 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 6
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.001615
+- توکن: 10454
+- میانگین هر پست ارسال‌شده: $0.001615
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 1 | 31 | 30 |
+| مدل‌ها و پژوهش | 0 | 24 | 24 |
+| امنیت و حریم خصوصی | 0 | 11 | 11 |
+| کسب‌وکار و بازار | 0 | 11 | 11 |
+| مجموع | 1 | 77 | 76 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.001615 | 10454 | ۵ جایگزین رایگان و اوپن سورس برای مدل تصمیم‌گیر Jev |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 3
+- دلایل: از رصد آفر پیدا شد 3
+- واجد شرایط کانال اصلی: 1
+
+## صف تعویق
+- در انتظار: 46
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-14.md
