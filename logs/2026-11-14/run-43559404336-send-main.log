@@ -1,0 +1,158 @@
+RUN 43559404336 | send/main | slot auto | 2026-11-14T05:00:46Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-14T08:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 0/31 | models 0/24 | security 0/11 | business 0/11
+DAILY 0/11
+DIVERSITY_TARGET models | slot 08:30
+DEFERRED_POOL 44
+  DEFERRED source_weekly | try 0/3 | Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life
+  DEFERRED source_weekly | try 0/3 | AI agent startup LangChain hits $3B valuation
+  DEFERRED qa_failed | try 1/3 | The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll
+  DEFERRED source_weekly | try 0/3 | OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet
+  DEFERRED source_weekly | try 0/3 | Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!
+DEFERRED_EXHAUSTED 2
+  CHANGE perq new_lines=400
+  OFFER perq status=review reason=source_not_official expiry=2026-11-30
+  CHANGE ai-free new_lines=309
+  OFFER ai-free status=seen reason=already_reported
+  CHANGE free-llm-api-hub new_lines=56
+  OFFER free-llm-api-hub status=review reason=source_not_official
+  CHANGE free-inference new_lines=114
+  OFFER free-inference status=seen reason=already_reported
+  WATCH google-ai-studio unchanged
+  CHANGE openrouter new_lines=90
+  WATCH cloudflare-workers-ai unchanged
+  CHANGE zai new_lines=187
+  CHANGE deepgram new_lines=147
+  OFFER deepgram status=seen reason=already_reported
+  WATCH jina-ai unchanged
+  CHANGE huggingface new_lines=105
+  WATCH nvidia-build unchanged
+  WATCH qoder unchanged
+  WATCH cline unchanged
+  CHANGE elevenlabs new_lines=200
+  OFFER elevenlabs status=publish reason=ok expiry=2027-09-30
+  CHANGE ollama new_lines=10
+OFFER_WATCH targets=16 fetched=16 failed=0 changed=10 baseline=0 offers=1 reviews=2
+  REVIEW_REQUIRED reason=offer_watch sent=265
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-14/08-30-5a71dcde
+  REVIEW_REQUIRED reason=offer_watch sent=266
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-14/08-30-e63417ff
+  REVIEW_REQUIRED reason=offer_watch sent=267
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-14/08-30-4513434d
+POLICY_STATE saved
+COLLECT sources=25 items=206 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=156 nodate=0 nonai=1 dup=25 dup_other=0 kept=77 errors=2
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  FEED_ERROR arxiv: HTTP 429 Rate exceeded.
+TELEGRAM channels=17 posts=312 pending=4 leads=3 nolink=0 nonai=0 denied=1 promo=0 stale=0 before=0 dup=0 dup_other=0
+MEMORY lanes=main:359,review:13 delivered=372 window=30d
+STORY_DUPLICATES 3 skipped=worked_story
+  STORY_DUPLICATE The Gamefeel Benchmark | Ernie-5.5 Flash Preview scores 43.6 on The Gamefeel Benchmark | already main: Fable 5.2 و Gemini CARBON 🚀
+  STORY_DUPLICATE Shayanode | Shayanode pinned «‼️‼️‼️دوستان تمومه محصولات و اکانت های هوش مصنوعی توی کانال زیر قرار میگیره @shayanodeshop | already main: دوستان تمومه محصولات و اکانت های هوش مصنوعی توی کانال زیر قرار میگیره
+  STORY_DUPLICATE Shayanode | ‼️‼️‼️دوستان تمومه محصولات و اکانت های هوش مصنوعی توی کانال زیر قرار میگیره @shayanodeshop ‼️‼️ | already main: دوستان تمومه محصولات و اکانت های هوش مصنوعی توی کانال زیر قرار میگیره
+RELEVANCE candidates=74 kept=46 dropped=28
+  SKIP_NOT_AI TechCrunch | Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price
+  SKIP_NOT_AI TechCrunch | This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board
+  SKIP_NOT_AI TechCrunch | Uber confirms hackers stole thousands of drivers’ license information in data breach
+  SKIP_NOT_AI Product Hunt | Replicate
+  SKIP_NOT_AI Product Hunt | Trainn MCP
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-cluster-map 0.19
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-leaflet 0.3
+  SKIP_NOT_AI TechCrunch | US government grounds all flights across the United States ‘due to extraordinary circumstances’
+  SKIP_NOT_AI ... +20 more
+DIVERSITY target=models queue=3 fresh=9 deferred=44 rejected=none
+  DIVERSITY_QUEUE models:KDnuggets | models:The Decoder | models:Google Models & Research
+QUEUE_SKIPPED 41
+  QUEUE_SKIP source_duplicate | The Decoder | Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails
+  QUEUE_SKIP source_duplicate | Hugging Face Blog | Build a Robot Pick-and-Place Simulation with SimReady Assets
+  QUEUE_SKIP source_duplicate | The Decoder | Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models
+  QUEUE_SKIP source_duplicate | Hugging Face Blog | llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
+  QUEUE_SKIP source_duplicate | Hugging Face Blog | LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B
+  QUEUE_SKIP source_duplicate | The Decoder | Australia's proposed AI safety bill would force frontier model makers to open up to independent testing
+  QUEUE_SKIP source_duplicate | The Decoder | Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2
+  QUEUE_SKIP source_duplicate | Hugging Face Blog | The Definitive Fine-Tuning Guide for 3D Generation Models
+  QUEUE_SKIP source_duplicate | The Decoder | Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass
+  QUEUE_SKIP source_duplicate | Google AI Blog | Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.
+  QUEUE_SKIP ... +31 more
+ATTEMPT 1/3 | deferred 0/3 KDnuggets | 5 FREE Open-Source Alternatives to Jev | 0.5h
+  TOOL_LINK candidate https://github.com/jaredpalmer/kev | score 26
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  TITLE_TRIM
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK applied https://github.com/jaredpalmer/kev
+POST 1/2 status=sent category=tools | QA 42/42 | $0.001615 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/08-30
+ATTEMPT 2/3 | deferred 0/3 The Decoder | OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet | 0.6h
+  TOOL_LINK candidate https://openai.com/index/introducing-chatgpt-wallet/ | score 16
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  TITLE_TRIM
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED verification_source,source_url | one repair retry
+  TITLE_TRIM
+  REPAIR_QA FAIL | score 38/42 | problems verification_source,source_url | warnings why,numbers_grounded
+  DEFERRED qa_failed | try 1/3
+  QA_FAILED verification_source,source_url | score 38/42
+ATTEMPT 3/3 Google Models & Research | Gemini 4 Hydrogen: everyday coding and agentic workflows for developers | 35h
+  TOOL_LINK candidate https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen | score 55
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED source_url | one repair retry
+  BODY_TRIM
+  REPAIR_QA FAIL | score 41/42 | problems source_url | warnings none | kept original
+  DEFERRED qa_failed | try 1/3
+  QA_FAILED source_url | score 41/42
+RESULT SENT category=tools | offer=no | image=yes | QA 42/42 | cost $0.003084 | post $0.001615 | tokens 50290
+TITLE ۵ جایگزین رایگان و اوپن سورس برای مدل تصمیم‌گیر Jev
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/08-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST tools | sent | $0.001615 | ۵ جایگزین رایگان و اوپن سورس برای مدل تصمیم‌گیر Jev
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-14T05:05:00Z
+# گزارش روزانه 2026-11-14 (شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 1 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 1
+
+## آمار روز
+- پست ارسال‌شده: 1 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 6
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.001615
+- توکن: 10454
+- میانگین هر پست ارسال‌شده: $0.001615
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 1 | 31 | 30 |
+| مدل‌ها و پژوهش | 0 | 24 | 24 |
+| امنیت و حریم خصوصی | 0 | 11 | 11 |
+| کسب‌وکار و بازار | 0 | 11 | 11 |
+| مجموع | 1 | 77 | 76 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 42/42 | $0.001615 | 10454 | ۵ جایگزین رایگان و اوپن سورس برای مدل تصمیم‌گیر Jev |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 3
+- دلایل: از رصد آفر پیدا شد 3
+- واجد شرایط کانال اصلی: 1
+
+## صف تعویق
+- در انتظار: 46
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-14.md
