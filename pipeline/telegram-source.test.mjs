@@ -546,6 +546,23 @@ test('a repeated story with a different title is still caught by its body', () =
   assert.equal(findStoryDuplicate(candidate, [published]), published);
 });
 
+test('a passing mention of another model in the body does not make a different story a duplicate', () => {
+  const published = {
+    lane: 'main',
+    decision: 'publish',
+    title: 'گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد',
+  };
+  const candidate = {
+    title: 'مدل DeepSeek V4.1 Flash اولین اوپن‌ویتی شد که توی بنچمارک SWE-sweep از ۱٪ رد شد',
+    messageText: [
+      'مدل DeepSeek V4.1 Flash اولین اوپن‌ویتی شد که توی بنچمارک SWE-sweep از ۱٪ رد شد.',
+      'سازنده‌های بنچمارک لیدربوردشان را با مدل‌های اوپن‌ویت تازه کردن و این مدل با ۱٫۷٪ اولین مدلیه که از ۱٪ رد شده.',
+      'نکتهٔ خنده‌دار اینه که گوگل ادعا کرده Gemini 4 Hydrogen نمرهٔ ۱۳٫۵ گرفته.',
+    ].join('\n\n'),
+  };
+  assert.equal(findStoryDuplicate(candidate, [published]), undefined);
+});
+
 test('a policy story ignores review lookalikes but respects real main posts', () => {
   const candidate = {
     policy: true,

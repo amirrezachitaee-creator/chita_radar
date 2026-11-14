@@ -932,12 +932,16 @@ export function findStoryDuplicate(candidate, delivered = []) {
     : delivered;
   const title = String(candidate?.title ?? '').trim();
   const body = [candidate?.messageText, candidate?.summary].filter(Boolean).join(' ');
+  // Later paragraphs often mention another model as context or as a joke. Once
+  // that mention matched a published title, a genuinely different story was
+  // dropped as a duplicate, so the body fallback only reads the lead.
+  const lead = (body.split(/\n+/).find((part) => part.trim()) ?? '').trim().slice(0, 600);
   return pool.find((entry) => {
     if (title && matchesPublishedStory(title, entry)) return true;
-    if (!body) return false;
+    if (!lead) return false;
     // Feed bodies repeat boilerplate, so they only match real titles, never the
     // long sourceText of an older post.
-    return matchesPublishedStory(body, { title: entry.title, sourceTitle: entry.sourceTitle });
+    return matchesPublishedStory(lead, { title: entry.title, sourceTitle: entry.sourceTitle });
   });
 }
 
