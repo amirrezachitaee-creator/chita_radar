@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T05:37:23.787Z",
+  "updatedAt": "2026-11-14T08:06:44.299Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8111,6 +8111,112 @@
       "slot": "2026-11-14T08:30+03:30",
       "title": "5 FREE Open-Source Alternatives to Jev",
       "url": "https://www.kdnuggets.com/5-free-open-source-alternatives-to-jev"
+    },
+    "url:e5ffbf8f8653a6f9": {
+      "at": "2026-11-14T08:01:36.115Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "ادوبی توی رویداد MAX 2026 یه دموی آزمایشی نشون داده که با AI لباس آدم‌ها رو",
+      "url": "https://t.me/thenimaonAI/509"
+    },
+    "title:9fd1fad4bdeae309": {
+      "at": "2026-11-14T08:01:36.115Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "ادوبی توی رویداد MAX 2026 یه دموی آزمایشی نشون داده که با AI لباس آدم‌ها رو",
+      "url": "https://t.me/thenimaonAI/509"
+    },
+    "url:9666754701ded90c": {
+      "at": "2026-11-14T08:01:36.120Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "ادوبی توی رویداد مکس یه دموی آزمایشی نشون داده که با هوش مصنوعی لباس آدم‌ها رو",
+      "url": "https://t.me/mgh_mobin/478"
+    },
+    "title:b4022f73a675c7f0": {
+      "at": "2026-11-14T08:01:36.120Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "ادوبی توی رویداد مکس یه دموی آزمایشی نشون داده که با هوش مصنوعی لباس آدم‌ها رو",
+      "url": "https://t.me/mgh_mobin/478"
+    },
+    "url:71aa2db8a00330d9": {
+      "at": "2026-11-14T08:02:30.411Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "🟢اوپن‌ای‌آی از ChatGPT Wallet رونمایی کرد؛ انجام خرید به جای کاربران با ایجنت‌ها",
+      "url": "https://t.me/asrnovin_ir/11463"
+    },
+    "title:87188c41ba648ec4": {
+      "at": "2026-11-14T08:02:30.411Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "🟢اوپن‌ای‌آی از ChatGPT Wallet رونمایی کرد؛ انجام خرید به جای کاربران با ایجنت‌ها",
+      "url": "https://t.me/asrnovin_ir/11463"
+    },
+    "url:a8e33bdde748cc54": {
+      "at": "2026-11-14T08:05:38.398Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "🚨 قانون اشتراک فمیلی Google AI؛ چی جداست، چی مشترک؟",
+      "url": "https://t.me/ArchiveTell/8411"
+    },
+    "title:e494ded4fa588c3c": {
+      "at": "2026-11-14T08:05:38.398Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "🚨 قانون اشتراک فمیلی Google AI؛ چی جداست، چی مشترک؟",
+      "url": "https://t.me/ArchiveTell/8411"
+    },
+    "url:5aee78bfdd1292fd": {
+      "at": "2026-11-14T08:05:38.628Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "Claude (@claudeai) on X",
+      "url": "https://t.me/thenimaonAI/507"
+    },
+    "title:ed5bba82731cbd7d": {
+      "at": "2026-11-14T08:05:38.628Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "Claude (@claudeai) on X",
+      "url": "https://t.me/thenimaonAI/507"
+    },
+    "url:96c7f67bef86f831": {
+      "at": "2026-11-14T08:06:44.271Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench"
+    },
+    "title:2659946fee1e8446": {
+      "at": "2026-11-14T08:06:44.271Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-14T11:30+03:30",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench"
     }
   },
   "deferred": {
@@ -9671,52 +9777,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:96c7f67bef86f831": {
-      "id": "defer:url:96c7f67bef86f831",
-      "at": "2026-11-13T17:46:26.822Z",
-      "firstAt": "2026-11-13T17:46:26.822Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:96c7f67bef86f831",
-        "title:2659946fee1e8446"
-      ],
-      "canonical": "https://huggingface.co/blog/allenai/xybench",
-      "title": "XYBench: Helping with the problem behind the question",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "XYBench: Helping with the problem behind the question",
-        "link": "https://huggingface.co/blog/allenai/xybench",
-        "canonical": "https://huggingface.co/blog/allenai/xybench",
-        "published": "Fri, 13 Nov 2026 17:02:35 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/allenai/xybench",
-        "images": [],
-        "ageHours": 0.7,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:96c7f67bef86f831",
-          "title:2659946fee1e8446"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:b9840fd67063a36a": {
       "id": "defer:url:b9840fd67063a36a",
       "at": "2026-11-13T20:21:52.402Z",
@@ -9770,13 +9830,14 @@
     },
     "defer:url:3b4bb26baf783f5c": {
       "id": "defer:url:3b4bb26baf783f5c",
-      "at": "2026-11-14T05:03:38.262Z",
+      "at": "2026-11-14T08:06:22.281Z",
       "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 1,
-      "reason": "qa_failed",
+      "attempts": 2,
+      "reason": "category_consecutive",
       "reasons": [
         "source_weekly",
-        "qa_failed"
+        "qa_failed",
+        "category_consecutive"
       ],
       "keys": [
         "url:3b4bb26baf783f5c",
@@ -9818,10 +9879,10 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:3b4bb26baf783f5c",
-          "attempts": 0
+          "attempts": 1
         }
       },
-      "detail": "verification_source,source_url"
+      "detail": "tools"
     },
     "defer:url:a5cbeaaf0b4df56f": {
       "id": "defer:url:a5cbeaaf0b4df56f",
@@ -10352,6 +10413,240 @@
         "leadKind": ""
       },
       "detail": "source_url"
+    },
+    "defer:url:a443b3b055385161": {
+      "id": "defer:url:a443b3b055385161",
+      "at": "2026-11-14T08:05:38.636Z",
+      "firstAt": "2026-11-14T08:05:38.636Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a443b3b055385161",
+        "title:8f34101bea118fb3"
+      ],
+      "canonical": "https://blog.cloudflare.com/kitesurf-open-source",
+      "title": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد",
+      "candidate": {
+        "sourceId": "tg-matin-senpai",
+        "sourceName": "MatinSenPaii",
+        "sourceType": "telegram_channel",
+        "title": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد",
+        "link": "https://blog.cloudflare.com/kitesurf-open-source/",
+        "canonical": "https://blog.cloudflare.com/kitesurf-open-source",
+        "messageText": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد\n\nبلاگ کلودفلر می‌گه Kitesurf، موتور مرورگر سبکی که برای ایجنت‌های AI ساخته، حالا با لایسنس Apache 2.0 روی گیت‌هابه و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍35❤17",
+        "leadPostUrl": "https://t.me/MatinSenPaii/5870",
+        "published": "2026-11-14T07:20:40+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn1.telesco.pe/file/YqUywH4uQnrXtp00bMB4DffT7pJkfMW4htmkICRcbhIwYLzLoEwiDc_d_VGqhjNZDdUZ9QjYraSwhjgAkG3_EeFJIf0APj1deQK8B07b9U-BRXMLzKkl4jbmQayCp90jkRg6vTZUtD2soxOHrBOVZsxWs62w3dJuNnDdmvmOGOP53f8pCEst-4XMdJqbcEcBh2cauKykV-bH0el5TJWxe69TQJYgGgjC6wCRXCqtpLJ7isV1vfh4nhJGTcxwZnIRTZPWpFDbykirGeaouU3uM-Iv69E4W8doMjUPC-HKQ2NmIWE9zHDJ5NksT381VjsHuPVzakvnjj1PTto9UxDWyQ.jpg"
+        ],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://blog.cloudflare.com/kitesurf-open-source"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:a443b3b055385161",
+          "title:8f34101bea118fb3"
+        ],
+        "leadSource": "MatinSenPaii",
+        "leadMessageId": 5870,
+        "leadChannelUrl": "https://t.me/MatinSenPaii",
+        "sourceFocus": "education",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:5e381957119e4d94": {
+      "id": "defer:url:5e381957119e4d94",
+      "at": "2026-11-14T08:05:38.636Z",
+      "firstAt": "2026-11-14T08:05:38.636Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:5e381957119e4d94",
+        "title:448b82b92091bcb9"
+      ],
+      "canonical": "https://gbhackers.com/arcticrat-malware-attack",
+      "title": "🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!",
+      "candidate": {
+        "sourceId": "tg-asr-novin",
+        "sourceName": "عصر نوین | AminiYT",
+        "sourceType": "telegram_channel",
+        "title": "🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!",
+        "link": "https://gbhackers.com/arcticrat-malware-attack/",
+        "canonical": "https://gbhackers.com/arcticrat-malware-attack",
+        "messageText": "🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!\n\nیه بدافزار اندرویدی به اسم ArcticRAT شناسایی شده که می‌تونه گوشی قربانی رو تقریباً به‌طور کامل در اختیار مهاجم قرار بده!\n\nاما روش انتشارش یه نکته جالب داره:\n\n📱 VPN جعلی برای فریب گوگل!\n\nاین بدافزار خودش رو پشت اپلیکیشن‌هایی مثل آمازون، تیک‌تاک، فایل‌منیجر و برنامه‌های ارز دیجیتال پنهان می‌کنه.\n\nهنگام نصب، از کاربر مجوز VPN می‌گیره و با ایجاد یه اتصال VPN تقلبی، ترافیک اینترنت گوشی رو مسدود می‌کنه تا بخشی از نظارت Google Play Protect مختل بشه. بعد از اون، بدافزار اصلی رو نصب می‌کنه!\n\n🤖 اما قسمت عجیب‌تر ماجرا هوش مصنوعیه!\n\nArcticRAT اطلاعات سرقت‌شده رو به مدل هوش مصنوعی Grok می‌فرسته تا:\n\n- پیامک‌های حاوی رمز یک‌بارمصرف بانکی رو پیدا کنه.\n- برنامه‌های بانکی و ارز دیجیتال رو شناسایی کنه.\n- پیامک‌های مربوط به موجودی و تراکنش‌ها رو جدا کنه.\n- وضعیت مالی قربانی رو تحلیل کنه!\n\n👀 این بدافزار چه کارهای دیگه‌ای می‌تونه انجام بده؟\n\n🔹 مشاهده صفحه گوشی و کنترل از راه دور\n🔹 دسترسی به میکروفون\n🔹 سرقت رمز و الگوی قفل گوشی\n🔹 سوءاستفاده از مجوز Accessibility\n🔹 استفاده غیرمجاز از Wireless Debugging اندروید ۱۱ به بالا\n\nحتی می‌تونه یه صفحه جعلی با ظاهر باج‌افزار نمایش بده تا قربانی فکر کنه فایل‌هاش قفل شدن؛ درحالی‌که واقعاً هیچ فایلی رمزگذاری نشده!\n\n⚠️ چند نکته امنیتی:\n\n▪️ برنامه‌ها رو از سایت‌ها و منابع ناشناس نصب نکنید.\n▪️ به درخواست غیرمنتظره مجوز VPN هنگام نصب برنامه‌ها مشکوک باشید.\n▪️ به اپلیکیشن‌های ناشناس مجوز Accessibility ندید.\n▪️ Wireless Debugging رو بدون نیاز فعال نذارید\n\n💡 یه نکته مهم: هر برنامه‌ای که درخواست مجوز VPN می‌کنه، لزوماً یک VPN واقعی و امن نیست!\n\n🔗 گزارش کامل:\n\n👍6🤯3",
+        "leadPostUrl": "https://t.me/asrnovin_ir/11462",
+        "published": "2026-11-14T06:01:57+00:00",
+        "summary": "",
+        "images": [],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://gbhackers.com/arcticrat-malware-attack"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:5e381957119e4d94",
+          "title:448b82b92091bcb9"
+        ],
+        "leadSource": "asrnovin_ir",
+        "leadMessageId": 11462,
+        "leadChannelUrl": "https://t.me/asrnovin_ir",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:65f850563a9b4aaa": {
+      "id": "defer:url:65f850563a9b4aaa",
+      "at": "2026-11-14T08:05:38.636Z",
+      "firstAt": "2026-11-14T08:05:38.636Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:65f850563a9b4aaa",
+        "title:92f11934d009466c"
+      ],
+      "canonical": "https://gail.wharton.upenn.edu/primer",
+      "title": "یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛",
+      "candidate": {
+        "sourceId": "tg-mohammad-zammani",
+        "sourceName": "هوش مصنوعی | محمد زمانی",
+        "sourceType": "telegram_channel",
+        "title": "یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛",
+        "link": "https://gail.wharton.upenn.edu/primer/",
+        "canonical": "https://gail.wharton.upenn.edu/primer",
+        "messageText": "یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛ همون تخته‌سیاه و گچِ قدیم که حالا شده وایت‌برد و اسلاید، و همون معلمی که وسط کلاس ایستاده و سعی می‌کنه یه مفهومِ خشک رو توی ذهنِ بچه‌ها جا بندازه. اما این بار، توی آزمایشگاه هوش مصنوعیِ مدرسه کسب‌وکار وارتون، تیمِ اتان مالیک اومدن یه چیزی ساختن به اسم «پرایمر» (Primer) که انگار قراره ورق رو برگردونه.\n\nتصور کن قصه از خودِ معلم شروع می‌شه. پرایمر اولِ کار می‌شینه پای حرفِ معلم؛ دقیقاً مثل یه همکارِ کنجکاو و دقیق، ازش مصاحبه می‌گیره: درس چیه؟ بچه‌ها تو چه سطحی هستن؟ تا الان چی بلدن و معمولاً کجای کار پاشون می‌لنگه و اشتباه می‌کنن؟\n\nقشنگی‌ش اینجاست که معلم مجبور نیست درگیرِ فرم‌های خشک و اداری بشه؛ می‌تونه خیلی راحت حرف بزنه، بنویسه، یا اصلاً طرح درس و معیارهای نمره‌دهی‌ش رو بذاره جلوی سیستم.\n\nبعد، پرایمر تمام این حرف‌ها و فایل‌ها رو می‌ریزه تو هم و یه سندِ طراحی درمیاره. نکته‌ی مهمش اینه که تا معلم پای این سند رو امضا نکنه و تاییدش نده، آجر روی آجر گذاشته نمی‌شه و هیچ‌چیز ساخته نمی‌شه.\n\nتوی دمویی هم که نشون دادن، همین مسیر رو برای درسِ «چرخه آب» و بچه‌های پایه هفتم و هشتم رفتن.\nحالا بیا بریم سراغ دانش‌آموز.\n\nوقتی همه‌چیز آماده شد و پرده رفت کنار، دانش‌آموز وارد یه بازیِ واقعی می‌شه؛ نه یه آزمونِ خشک و بی‌روح. اینجا با سه تا کاراکترِ هوش مصنوعی طرفه که هر کدوم نقشِ خودشون رو دارن: اولی یه منتوره که باهاش گپ می‌زنه تا ببینه اصلاً چقدر از ماجرا رو بلده؛ دومی یه هم‌پای تمرینه و سومی یه مربی که دستش رو می‌گیره و بهش بازخورد می‌ده.\n\nوسطِ تمرین هم دو تا راه جلوی پای دانش‌آموز می‌ذارن: یا باید روبه‌روی یه کاراکتر که برای خودش هدف و انگیزه داره نقش بازی کنه و از پسش بربیاد، یا باید بره و کلِ ماجرا رو برای یکی …",
+        "leadPostUrl": "https://t.me/Mohammad_zammani/7210",
+        "published": "2026-11-14T06:55:25+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/IC0CIIM-koaWgwlBkAcApscLYhWcyzP3rpTjJ_Ol-ysWQe9E04RWX_wyz4zWWAzbKbp4s3giq-EUyDvj0_m9BfbvXGzlkWSeSZetrAX0wfuBXRPz1EI5_O7725QL0ETseUhqjcdKgnKl2FZXRV40PCctKycE0ml45k2Wf_cUTUbZzwRvoFyTqd_lDniock5oxlyXJf0iu_3lb1rJeYVNSt714ZFaM_WDTKJKewXBNALnn2UFXk2FLex-wD1evMc05odvjDrVRdqaRzU2h9SXuVQxCwwiz0SttyFBBT6Wef1WoWR-y8TMt-3CJMG9mcv3jNjE05ABtumk9JWlhSJ5Fg.jpg"
+        ],
+        "ageHours": 1.1,
+        "aiHint": true,
+        "aiCentral": false,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://gail.wharton.upenn.edu/primer",
+          "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:65f850563a9b4aaa",
+          "title:92f11934d009466c"
+        ],
+        "leadSource": "Mohammad_zammani",
+        "leadMessageId": 7210,
+        "leadChannelUrl": "https://t.me/Mohammad_zammani",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:7d4d71d056da0286": {
+      "id": "defer:url:7d4d71d056da0286",
+      "at": "2026-11-14T08:06:44.299Z",
+      "firstAt": "2026-11-14T08:06:44.299Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:7d4d71d056da0286",
+        "title:6aa56c267225b62b"
+      ],
+      "canonical": "https://openai.com/index/introducing-chatgpt-wallet",
+      "title": "Introducing ChatGPT Wallet",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Introducing ChatGPT Wallet",
+        "link": "https://openai.com/index/introducing-chatgpt-wallet",
+        "canonical": "https://openai.com/index/introducing-chatgpt-wallet",
+        "published": "Fri, 13 Nov 2026 15:00:00 GMT",
+        "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+        "images": [],
+        "ageHours": 17,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7d4d71d056da0286",
+          "title:6aa56c267225b62b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -11868,6 +12163,37 @@
           "at": "2026-11-14T05:02:49.786Z"
         }
       ]
+    },
+    "2026-11-14T11:30+03:30": {
+      "at": "2026-11-14T08:06:44.271Z",
+      "status": "sent",
+      "category": "models",
+      "title": "بنچمارک XYBench ضعف مدل‌ها در تشخیص اشتباه کاربر را اندازه",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/11-30",
+      "messageId": 74,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0024663800000000002,
+      "tokens": 46391,
+      "qa": "41/42",
+      "posts": [
+        {
+          "title": "بنچمارک XYBench ضعف مدل‌ها در تشخیص اشتباه کاربر را اندازه",
+          "category": "models",
+          "status": "sent",
+          "messageId": 74,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-14/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0005003208,
+          "tokens": 10546,
+          "qa": "41/42",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-14T08:06:44.271Z"
+        }
+      ]
     }
   },
   "published": [
@@ -12905,93 +13231,110 @@
       "sourceTitle": "5 FREE Open-Source Alternatives to Jev - KDnuggets",
       "sourceText": "Looking for a free alternative to Jev? Here are 5 open-source decision models you can run locally, from high-accuracy options to lightweight models for AI agents.\nSometimes, you just need a model to pick an option, assign a score, or decide whether something is true. People are using the term \"decision models\" for these. Jev is one of the models in this category, offering structured decisions with confidence scores through its Choice, Score, and Noul functions.\nHowever, Jev is proprietary, so if you want to run models locally or fine-tune them on your own data, here are 5 FREE open-source alternatives worth trying. I know Jev is also pretty cheap, but these options give you more control over your setup. So, let's get started!\nMammoth-1 is a 27B-parameter decision model developed by Base Labs at Baseten, built on Qwen3.5-27B. In Baseten's published Jev Decision Index 0.4 evaluation, Mammoth-1 scored 71.24, outperforming Perplexity Decider v1.2 (69.42) and Jev 1.14 (62.2). This makes it a good option for tasks like classifying documents, ranking candidate answers, and routing requests to the right agent. It supports text and images and can be self-hosted under the MIT license. But keep in mind that a 27B model needs substantial hardware.\nvLLM Semantic Router D3 comes in several sizes, from 0.6B to 27B parameters. It supports text, images, and video, returning probability distributions that applications can use directly. D3 is useful if you're building AI agents and need to decide which model, tool, or workflow should handle a request. Smaller variants, such as D3-Mini and D3-",
       "at": "2026-11-14T05:02:49.786Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-14T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "بنچمارک XYBench ضعف مدل‌ها در تشخیص اشتباه کاربر را اندازه",
+      "why": "اهمیتش اینه که این بنچمارک به محققان کمک می‌کنه بفهمن مدل‌ها چقدر می‌تونن فرض اشتباه کاربر را تشخیص بدن و به‌جای پاسخ به درخواست ظاهری، به نیاز واقعی او جواب بدن.",
+      "dedupe_key": "allenai-xybench-benchmark",
+      "post_key": "2026-11-14/11-30/1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "sourceTitle": "XYBench: Helping with the problem behind the question",
+      "sourceText": "Truly useful AI assistants need to be able to help users who ask misguided questions—not just users who ask the right question with the right amount of detail. We’re releasing XYBench , a benchmark of 8K+ questions that tests how AI assistants respond to requests based on misconceptions, such as asking how to thicken frosting that keeps sliding off cupcakes when the real problem is that the cupcakes are still too warm to frost. XYBench won the Best Resource Paper Award at EMNLP 2026.\nA mismatch between the approach someone asks about and the goal they want to achieve is known as the XY problem : a person wants to accomplish X, assumes a particular approach Y will work, and asks for help with Y. In the cupcake example, the person is so committed to making the frosting stick that they fail to consider the warmth of the cupcake as the true problem to be addressed.\nDeveloped with researchers at Carnegie Mellon, NVIDIA, and Johns Hopkins, XYBench exposes a critical gap in LLMs' ability to troubleshoot problems: recognizing when a user's request is based on an implicit misconception and appropriately redirecting them toward a solution that addresses their actual goal. Drawing on 8,115 real-world questions spanning programming and everyday activities such as cooking and home repair, we introduce a benchmark that measures whether models identify these misconceptions and are able to prioritize effective solutions in their responses.\nThe models we evaluated on XYBench – Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B, and DeepSeek-V4 Pro – often suggested a solution to the user’",
+      "at": "2026-11-14T08:06:44.272Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8410,
-      "last_at": "2026-11-13T21:13:46+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "last_id": 8411,
+      "last_at": "2026-11-14T05:45:28+00:00",
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "pedramgholizadeh": {
       "last_id": 801,
       "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "ai_farshad": {
-      "last_id": 6432,
-      "last_at": "2026-11-13T20:02:24+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "last_id": 6433,
+      "last_at": "2026-11-14T07:32:20+00:00",
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7209,
-      "last_at": "2026-11-13T12:03:54+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "last_id": 7210,
+      "last_at": "2026-11-14T06:55:25+00:00",
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "techiin_ir": {
       "last_id": 20769,
       "last_at": "2026-11-13T12:04:45+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "mgh_mobin": {
-      "last_id": 477,
-      "last_at": "2026-11-13T07:40:52+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "last_id": 478,
+      "last_at": "2026-11-14T06:39:10+00:00",
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "asrnovin_ir": {
-      "last_id": 11460,
-      "last_at": "2026-11-13T16:35:12+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "last_id": 11463,
+      "last_at": "2026-11-14T06:16:26+00:00",
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "shayanode": {
       "last_id": 187,
       "last_at": "2026-11-13T21:33:24+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "codecloude": {
       "last_id": 2584,
       "last_at": "2026-11-13T19:33:24+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "dunijet_ai": {
       "last_id": 2546,
       "last_at": "2026-11-13T18:56:07+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "MatinSenPaii": {
-      "last_id": 5862,
-      "last_at": "2026-11-13T19:46:03+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "last_id": 5870,
+      "last_at": "2026-11-14T07:20:40+00:00",
+      "checked_at": "2026-11-14T08:00:53.135Z"
     },
     "thenimaonAI": {
-      "last_id": 506,
-      "last_at": "2026-11-13T12:50:05+00:00",
-      "checked_at": "2026-11-14T05:00:46.107Z"
+      "last_id": 509,
+      "last_at": "2026-11-14T07:02:43+00:00",
+      "checked_at": "2026-11-14T08:00:53.135Z"
     }
   },
   "offerReviews": [
@@ -15345,6 +15688,54 @@
       "reason": "offer_watch",
       "slot": "2026-11-14T08:30+03:30",
       "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-thenima|https://t.me/thenimaonAI/509",
+      "date": "2026-11-14",
+      "at": "2026-11-14T08:00:53.135Z",
+      "source": "tg-thenima",
+      "title": "ادوبی توی رویداد MAX 2026 یه دموی آزمایشی نشون داده که با AI لباس آدم‌ها رو",
+      "url": "https://t.me/thenimaonAI/509",
+      "reason": "denied_link",
+      "slot": "2026-11-14T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-asr-novin|https://t.me/asrnovin_ir/11463",
+      "date": "2026-11-14",
+      "at": "2026-11-14T08:00:53.135Z",
+      "source": "tg-asr-novin",
+      "title": "🟢اوپن‌ای‌آی از ChatGPT Wallet رونمایی کرد؛ انجام خرید به جای کاربران با ایجنت‌ها",
+      "url": "https://t.me/asrnovin_ir/11463",
+      "reason": "denied_link",
+      "slot": "2026-11-14T11:30+03:30",
+      "kind": "post",
+      "mainEligible": true
+    },
+    {
+      "id": "2026-11-14|tg-archive-tell|https://t.me/ArchiveTell/8411",
+      "date": "2026-11-14",
+      "at": "2026-11-14T08:00:53.135Z",
+      "source": "tg-archive-tell",
+      "title": "🚨 قانون اشتراک فمیلی Google AI؛ چی جداست، چی مشترک؟",
+      "url": "https://t.me/ArchiveTell/8411",
+      "reason": "denied_link",
+      "slot": "2026-11-14T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-14|tg-thenima|https://t.me/thenimaonAI/507",
+      "date": "2026-11-14",
+      "at": "2026-11-14T08:00:53.135Z",
+      "source": "tg-thenima",
+      "title": "Claude (@claudeai) on X",
+      "url": "https://t.me/thenimaonAI/507",
+      "reason": "denied_link",
+      "slot": "2026-11-14T11:30+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],
