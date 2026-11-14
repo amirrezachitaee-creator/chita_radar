@@ -616,7 +616,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     courseBlock,
     policyBlock,
     benchmarkBlock,
-    'یادآوری نگارش: تیتر یک جملهٔ کامل و خبری است، نه سؤال و نه نیمه‌کاره؛ واژهٔ انگلیسی ترجمه‌نشده در آن نگذار؛ تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب «چرا مهمه:» داخل یک جمله طبیعی بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
+    'یادآوری نگارش: تیتر یک جملهٔ کامل و خبری است، نه سؤال و نه نیمه‌کاره؛ واژهٔ انگلیسی ترجمه‌نشده در آن نگذار؛ تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب و بدون مقدمهٔ آماده مثل «اهمیتش اینه که» و مستقیم با نتیجهٔ مشخص خبر بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
     '',
     'متن خبر:',
     clampText(article.content, maxContentChars),
@@ -780,7 +780,7 @@ export function normalizePostFields(parsed) {
     .replace(/\r\n?/g, '\n')
     .replace(
       /^[ \t]*(?:\*\*)?[ \t]*چرا[\s\u200c]+مهم(?:[\s\u200c]+است|[\s\u200c]*ه)?[ \t]*[:：][ \t]*(?:\*\*)?[ \t]*/gmu,
-      'اهمیتش اینه که '
+      ''
     )
     .replace(/\n{3,}/g, '\n\n')
     .trim();
@@ -1127,6 +1127,7 @@ const QA_FIX_HINTS = {
   why: 'جمله اهمیت باید آخرین پاراگراف body و قبل از خط پایانی (منبع یا لینک استفاده) باشد؛ برای ابزار، همان جمله کاربرد یا مزیت کافی است.',
   why_label: 'برچسب «چرا مهمه:» نگذار؛ اهمیت را داخل جمله طبیعی بیاور.',
   why_repeat: 'جمله اهمیت را با شروع تازه بازنویسی کن؛ همان شروع پست قبلی را تکرار نکن.',
+  why_opener: 'جمله اهمیت را بدون مقدمهٔ آماده بنویس؛ مستقیم بگو چه چیزی برای خواننده عوض می‌شود و همان نتیجه یا عدد خبر را نگه دار.',
   quote_length: 'quote حداکثر ۱۲۰۰ کاراکتر باشد.',
   quote_clean: 'quote عبارت ممنوع یا placeholder نداشته باشد.',
   source: 'خط پایانی body باید «منبع: ...» باشد؛ برای دسته tools اگر لینک استفادهٔ مجاز در ورودی هست، خط پایانی «لینک استفاده: ...» و با همان آدرس است.',
@@ -1178,7 +1179,7 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
     return `- ${name}: ${QA_FIX_HINTS[name] || 'این مورد را اصلاح کن.'}`;
   });
   const warningNotes = (qa?.warnings ?? [])
-    .filter((name) => ['grounding_cues', 'formal_verbs', 'why_repeat', 'why'].includes(name))
+    .filter((name) => ['grounding_cues', 'formal_verbs', 'why_repeat', 'why_opener', 'why'].includes(name))
     .map((name) => {
       if (name === 'formal_verbs') {
         return '- formal_verbs: فعل رسمی را محاوره‌ای کن؛ «گزارش کرده است» → «گزارش کرده»، «رسیده است» → «رسیده»، «می‌شود» → «می‌شه».';
@@ -1186,8 +1187,11 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
       if (name === 'why_repeat') {
         return `- why_repeat: جمله اهمیت را با شروع تازه بنویس؛ پست قبلی با این عبارت شروع شده بود: «${String(previousWhy).trim().slice(0, 80)}».`;
       }
+      if (name === 'why_opener') {
+        return '- why_opener: جمله اهمیت با یک مقدمهٔ تکراری شروع شده؛ فقط همان پاراگراف آخر را مستقیم با نتیجهٔ مشخص بازنویسی کن، بدون «اهمیتش اینه که» یا عبارت‌های مشابه؛ عدد، فکت و خط پایانی را نگه دار.';
+      }
       if (name === 'why') {
-        return '- why: آخرین پاراگراف body باید اهمیت یا کاربرد روشن را بگوید؛ برای ابزار، همان کاربرد مشخص کافی است و لازم نیست با «اهمیتش اینه که» شروع شود.';
+        return '- why: آخرین پاراگراف body باید اهمیت یا کاربرد روشن را بگوید؛ برای ابزار، همان کاربرد مشخص کافی است و با مقدمهٔ آماده شروع نشود.';
       }
       return '- grounding_cues: عبارت‌های بزرگ‌نمایی یا قطعیتی که در منبع نیست را حذف کن.';
     });
@@ -1405,6 +1409,10 @@ export function qaPost(parsed, context) {
   const whyRepeat =
     Boolean(previousWhy) && Boolean(lastParagraph) && whyOpener(lastParagraph) === whyOpener(previousWhy);
   add('why_repeat', !whyRepeat, whyRepeat ? 'true' : '', false);
+  const whyStockOpener =
+    /^(?:اهمیت(?:ش| این خبر| این موضوع| این ماجرا| این تغییر)?\s+(?:اینه|این است|در این است|در اینه)|نکته[\u0654\u200cی]*\s*مهم\s+(?:اینه|این است))\s+که/u;
+  const whyTemplate = Boolean(lastParagraph) && whyStockOpener.test(lastParagraph);
+  add('why_opener', !whyTemplate, whyTemplate ? lastParagraph.slice(0, 40) : '', false);
   add('quote_length', !quote || quote.length <= QUOTE_MAX_CHARS, quote ? `${quote.length}` : '');
   add('quote_clean', !quote || (
     !BANNED.some((phrase) => quote.includes(phrase)) &&

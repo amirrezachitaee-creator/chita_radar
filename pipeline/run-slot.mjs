@@ -1726,6 +1726,7 @@ async function main() {
     const styleWarning =
       qa.warnings.includes('formal_verbs') ||
       qa.warnings.includes('why_repeat') ||
+      qa.warnings.includes('why_opener') ||
       qa.warnings.includes('why');
     if (parsed.decision === 'publish' && (!qa.pass || styleWarning) && !offerQaFailed && !relevanceFailed && !offerContext) {
       console.log(`  ${qa.pass ? 'STYLE_WARNING' : 'QA_FAILED'} ${qa.problems.join(',') || qa.warnings.join(',')} | one repair retry`);

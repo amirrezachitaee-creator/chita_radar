@@ -265,13 +265,14 @@ test('image download asks only for telegram photo formats and rejects webp', asy
   assert.deepEqual([...(await readFile(saved.file))], [0x89, 0x50, 0x4e, 0x47]);
 });
 
-test('the old why label is rewritten into a natural sentence', () => {
+test('the old why label is removed without adding a stock opener', () => {
   const normalized = normalizePostFields({
     title: 'خبر',
     body: 'لید خبر.\n\nچرا مهمه: این تصمیم هزینه تیم‌ها را کم می‌کند.\n\nمنبع: [منبع](https://example.com)',
   });
-  assert.ok(normalized.body.includes('اهمیتش اینه که این تصمیم هزینه تیم‌ها را کم می‌کند.'));
+  assert.ok(normalized.body.includes('این تصمیم هزینه تیم‌ها را کم می‌کند.'));
   assert.equal(normalized.body.includes('چرا مهمه:'), false);
+  assert.equal(normalized.body.includes('اهمیتش اینه که'), false);
 });
 
 test('an official course lead is always routed to tools', () => {
@@ -365,6 +366,48 @@ test('repeating the previous importance opener is only a soft warning', () => {
     body: 'لید خبر.\n\nبا این کار، تیم‌های کوچک هم می‌تونن مدل سنگین رو اجرا کنن.\n\nمنبع: [منبع](https://example.com)',
   }, { ...context, previousWhy: '' });
   assert.equal(implicit.problems.includes('why'), false);
+});
+
+test('a stock importance opener asks for a repair without blocking the post', () => {
+  const base = {
+    decision: 'publish',
+    category: 'business',
+    post_type: 'standard',
+    importance: 4,
+    title: 'خبر کوتاه',
+    quote: '',
+    key_facts: ['یک', 'دو'],
+    numbers: [],
+    entities: { companies: [], models: [], people: [] },
+    verification: 'reported',
+    source_url: 'https://example.com',
+    image_url: '',
+    dedupe_key: 'test-why-opener',
+  };
+  const context = {
+    url: 'https://example.com',
+    host: 'example.com',
+    sourceType: 'news',
+    category: 'business',
+    imageUrl: '',
+    title: 'خبر کوتاه',
+    description: '',
+    content: '',
+    publishedAt: new Date().toISOString(),
+    now: new Date().toISOString(),
+    previousWhy: '',
+  };
+  const stockBody = 'لید خبر.\n\nاهمیتش اینه که کاربرها سریع‌تر به نتیجه می‌رسن.\n\nمنبع: [منبع](https://example.com)';
+  const qa = qaPost({ ...base, body: stockBody }, context);
+  assert.equal(qa.warnings.includes('why_opener'), true);
+  assert.equal(qa.problems.includes('why_opener'), false);
+  const repair = buildQaRepairMessage({ user: 'متن', parsed: { ...base, body: stockBody }, qa });
+  assert.ok(repair.includes('why_opener'));
+  const natural = qaPost({
+    ...base,
+    body: 'لید خبر.\n\nبا این کار، کاربرها سریع‌تر به نتیجه می‌رسن.\n\nمنبع: [منبع](https://example.com)',
+  }, context);
+  assert.equal(natural.warnings.includes('why_opener'), false);
 });
 
 const titleBase = {
