@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T14:13:39.970Z",
+  "updatedAt": "2026-11-14T17:05:33.777Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8465,6 +8465,60 @@
       "slot": "2026-11-14T17:00+03:30",
       "title": "شرکت Cloudflare مرورگر مخصوص ایجنت‌های AI رو متن‌باز کرد",
       "url": "http://blog.cloudflare.com/kitesurf-open-source"
+    },
+    "url:da064ff05244322e": {
+      "at": "2026-11-14T17:01:10.345Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"
+    },
+    "title:e378d0f9b52d3213": {
+      "at": "2026-11-14T17:01:10.345Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol"
+    },
+    "url:cb73f94b008c8a01": {
+      "at": "2026-11-14T17:01:11.134Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "📸 عکست رو به یک تصویرسازی مینیمال به سبک Notion تبدیل کن!",
+      "url": "https://t.me/ai_farshad/6438"
+    },
+    "title:883b591f641764c0": {
+      "at": "2026-11-14T17:01:11.134Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "📸 عکست رو به یک تصویرسازی مینیمال به سبک Notion تبدیل کن!",
+      "url": "https://t.me/ai_farshad/6438"
+    },
+    "url:8914c395efeade82": {
+      "at": "2026-11-14T17:01:12.873Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "Weight-Only Quantization",
+      "url": "https://machinelearningmastery.com/weight-only-quantization"
+    },
+    "title:9a64226d1f32aadf": {
+      "at": "2026-11-14T17:01:12.873Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-14T20:30+03:30",
+      "title": "Weight-Only Quantization",
+      "url": "https://machinelearningmastery.com/weight-only-quantization"
     }
   },
   "deferred": {
@@ -8509,57 +8563,6 @@
         "keys": [
           "url:cbdc8f6b1c4c9f01",
           "title:5ffc45a5e1905c0c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6a0b530a1c16bbaf": {
-      "id": "defer:url:6a0b530a1c16bbaf",
-      "at": "2026-11-13T05:01:12.903Z",
-      "firstAt": "2026-11-13T05:01:12.903Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:6a0b530a1c16bbaf",
-        "title:187f5e84ba8e9b8f"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-        "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-        "canonical": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
-        "published": "Thu, 12 Nov 2026 22:28:47 +0000",
-        "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-500x500.jpg"
-        ],
-        "ageHours": 6.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:6a0b530a1c16bbaf",
-          "title:187f5e84ba8e9b8f"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10179,105 +10182,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:3d65ccc2f5cdce69": {
-      "id": "defer:url:3d65ccc2f5cdce69",
-      "at": "2026-11-13T19:31:41.167Z",
-      "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3d65ccc2f5cdce69",
-        "title:f4a39b30004607e0"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-        "published": "Wed, 11 Nov 2026 16:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 51.5,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3d65ccc2f5cdce69",
-          "title:f4a39b30004607e0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7db3dbf05615c3ed": {
-      "id": "defer:url:7db3dbf05615c3ed",
-      "at": "2026-11-13T20:21:52.336Z",
-      "firstAt": "2026-11-13T20:21:52.336Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:7db3dbf05615c3ed",
-        "title:c8cf8ca1b6b76891"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
-      "title": "Google DeepMind just mathematically verified key parts of Signal",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google DeepMind just mathematically verified key parts of Signal",
-        "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-        "canonical": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
-        "published": "Wed, 11 Nov 2026 14:08:57 +0000",
-        "summary": "The four-week project hints that AI could make formal verification far more practical.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-500x500.jpg"
-        ],
-        "ageHours": 54.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7db3dbf05615c3ed",
-          "title:c8cf8ca1b6b76891"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:4922ca6fb0dd9299": {
       "id": "defer:url:4922ca6fb0dd9299",
       "at": "2026-11-13T20:21:52.336Z",
@@ -10614,9 +10518,9 @@
     },
     "defer:url:7d4d71d056da0286": {
       "id": "defer:url:7d4d71d056da0286",
-      "at": "2026-11-14T13:36:11.625Z",
+      "at": "2026-11-14T17:05:33.769Z",
       "firstAt": "2026-11-14T08:06:44.299Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -10658,16 +10562,16 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:7d4d71d056da0286",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:456ace67e0015fb3": {
       "id": "defer:url:456ace67e0015fb3",
-      "at": "2026-11-14T10:31:34.879Z",
+      "at": "2026-11-14T17:05:33.706Z",
       "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 0,
+      "attempts": 1,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -10709,8 +10613,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:456ace67e0015fb3",
+          "attempts": 0
+        }
+      },
+      "detail": "tools"
     },
     "defer:url:a99dfdd20d85acbb": {
       "id": "defer:url:a99dfdd20d85acbb",
@@ -10938,6 +10847,166 @@
         "keys": [
           "url:1428861313d88dcf",
           "title:037e88b6f08ba196"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:515be026b81ca908": {
+      "id": "defer:url:515be026b81ca908",
+      "at": "2026-11-14T17:01:12.883Z",
+      "firstAt": "2026-11-14T17:01:12.883Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:515be026b81ca908",
+        "title:6ce4c0fbbcc9ffcb"
+      ],
+      "canonical": "https://jryn.me/lRey8o",
+      "title": "🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!",
+      "candidate": {
+        "sourceId": "tg-asr-novin",
+        "sourceName": "عصر نوین | AminiYT",
+        "sourceType": "telegram_channel",
+        "title": "🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!",
+        "link": "https://jryn.me/lRey8o",
+        "canonical": "https://jryn.me/lRey8o",
+        "messageText": "🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!\n\n✅با همکاری در فروش راست‌چین کلود، 20٪ پورسانت از تمام خریدهات بگیر و با کد اختصاصی خودت به مشتری‌هات 10٪ تخفیف بده.\n\n☁️ هاست پیشرفته وردپرس، انتقال رایگان سایت، پشتیبانی اختصاصی وردپرس و ضمانت بازگشت وجه طبق شرایط سرویس.\n\n🔗 عضویت و دریافت کد:",
+        "leadPostUrl": "https://t.me/asrnovin_ir/11466",
+        "published": "2026-11-14T14:40:32+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/G67x7IsIpn7WGE9_X_e7S_oMON3RChXeELpg1uCFtbJUPT9nllEzkzaXOQnkI9AlmROcq4oHDtiSTSiCZSgf7QBs1RZ7ZqvkZljJeX2J7TnZEzHOLNtRxg0iDdBIsFughb2l79hzkSb6W-lQQcyW1qk0MDXUB_YbHsuEUDGAN9gfCN3apdfhRTfOryqOkXhYgch7Flc5oMAQBcSVVHg6BWXR7jNq2Ch9LZoLlc-_T-FG-IEIDpSL4xFudl3aoQMFUcuZP_aARQ5XwrucBucZ_25HksHWged88XsDuwME2GABas-ImjUabv1NWBO1GzKkJ-pDnkxtgmYl2Vq4Mi7rdg.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": false,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://jryn.me/lRey8o"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:515be026b81ca908",
+          "title:6ce4c0fbbcc9ffcb"
+        ],
+        "leadSource": "asrnovin_ir",
+        "leadMessageId": 11466,
+        "leadChannelUrl": "https://t.me/asrnovin_ir",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:299cfd655b5df2e6": {
+      "id": "defer:url:299cfd655b5df2e6",
+      "at": "2026-11-14T17:01:12.883Z",
+      "firstAt": "2026-11-14T17:01:12.883Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:299cfd655b5df2e6",
+        "title:3be79b9fd9685fec"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+        "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+        "canonical": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+        "published": "Sat, 14 Nov 2026 16:34:15 +0000",
+        "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+        "images": [],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:299cfd655b5df2e6",
+          "title:3be79b9fd9685fec"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1cafc4ef12c58422": {
+      "id": "defer:url:1cafc4ef12c58422",
+      "at": "2026-11-14T17:01:12.883Z",
+      "firstAt": "2026-11-14T17:01:12.883Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1cafc4ef12c58422",
+        "title:f3e1caceb0fa70c1"
+      ],
+      "canonical": "https://www.producthunt.com/products/gemini-robotics-2-5",
+      "title": "Gemini Robotics 2.5",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Gemini Robotics 2.5",
+        "link": "https://www.producthunt.com/products/gemini-robotics-2-5",
+        "canonical": "https://www.producthunt.com/products/gemini-robotics-2-5",
+        "published": "2026-11-12T12:18:13-08:00",
+        "summary": "<p> Gemini Robotics 2.5: Google’s most capable robot model </p> <p> <a href=\"https://www.producthunt.com/products/gemini-robotics-2-5?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314543?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/gemini-robotics-2-5",
+        "images": [],
+        "ageHours": 44.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:1cafc4ef12c58422",
+          "title:f3e1caceb0fa70c1"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -12553,6 +12622,14 @@
           "at": "2026-11-14T13:45:21.348Z"
         }
       ]
+    },
+    "2026-11-14T20:30+03:30": {
+      "at": "2026-11-14T17:05:33.775Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0007096096,
+      "tokens": 21648,
+      "posts": []
     }
   },
   "published": [
@@ -13645,89 +13722,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8411,
-      "last_at": "2026-11-14T05:45:28+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 8412,
+      "last_at": "2026-11-14T16:07:20+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "pedramgholizadeh": {
-      "last_id": 801,
-      "last_at": "2026-11-09T20:56:53+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 802,
+      "last_at": "2026-11-14T15:39:00+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "ai_farshad": {
-      "last_id": 6437,
-      "last_at": "2026-11-14T13:30:02+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 6438,
+      "last_at": "2026-11-14T16:47:14+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "Mohammad_zammani": {
       "last_id": 7211,
       "last_at": "2026-11-14T13:01:43+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "techiin_ir": {
-      "last_id": 20771,
-      "last_at": "2026-11-14T10:23:56+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 20775,
+      "last_at": "2026-11-14T16:41:44+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "mgh_mobin": {
       "last_id": 480,
       "last_at": "2026-11-14T09:59:58+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "asrnovin_ir": {
-      "last_id": 11465,
-      "last_at": "2026-11-14T09:11:04+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 11466,
+      "last_at": "2026-11-14T14:40:32+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "codecloude": {
-      "last_id": 2584,
-      "last_at": "2026-11-13T19:33:24+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 2585,
+      "last_at": "2026-11-14T14:47:11+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "dunijet_ai": {
-      "last_id": 2547,
-      "last_at": "2026-11-14T13:25:49+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 2548,
+      "last_at": "2026-11-14T16:27:12+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "MatinSenPaii": {
-      "last_id": 5874,
-      "last_at": "2026-11-14T11:34:02+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "last_id": 5875,
+      "last_at": "2026-11-14T16:26:31+00:00",
+      "checked_at": "2026-11-14T17:00:55.502Z"
     },
     "thenimaonAI": {
       "last_id": 510,
       "last_at": "2026-11-14T09:53:59+00:00",
-      "checked_at": "2026-11-14T13:30:40.353Z"
+      "checked_at": "2026-11-14T17:00:55.502Z"
     }
   },
   "offerReviews": [
@@ -16442,6 +16519,20 @@
       "url": "https://t.me/ai_farshad/6437",
       "slot": "2026-11-14T17:00+03:30",
       "at": "2026-11-14T13:30:40.353Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "📸 عکست رو به یک تصویرسازی مینیمال به سبک Notion تبدیل کن!",
+      "url": "https://t.me/ai_farshad/6438",
+      "slot": "2026-11-14T20:30+03:30",
+      "at": "2026-11-14T17:00:55.502Z"
+    },
+    {
+      "source": "machinelearningmastery",
+      "title": "Weight-Only Quantization",
+      "url": "https://machinelearningmastery.com/weight-only-quantization",
+      "slot": "2026-11-14T20:30+03:30",
+      "at": "2026-11-14T17:00:55.502Z"
     }
   ],
   "reviewPending": {},
