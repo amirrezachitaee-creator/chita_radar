@@ -479,7 +479,7 @@ test('a tools post ends with the usage link and falls back to the source line', 
     { ...source, usageUrl: 'https://gemini.google.com/', usageName: 'gemini.google.com' }
   );
   assert.ok(fixed.body.endsWith('لینک استفاده: [gemini.google.com](https://gemini.google.com/)'));
-  assert.ok(!fixed.body.includes('منبع:'));
+  assert.ok(fixed.body.includes('منبع: [Google Blog](https://blog.google/a)'));
 
   const again = ensureSourceLine(
     fixed,
@@ -1028,6 +1028,15 @@ test('a long title is trimmed to the shared word limit and cleaned', () => {
   assert.ok(countTitleWords(compound) <= TITLE_MAX_WORDS);
 });
 
+test('trimming a long title keeps the final verb instead of a bare help noun', () => {
+  const title = 'گوگل با هوش مصنوعی به احیای جنگل‌های کلپ غول‌پیکر کمک می‌کند';
+  const trimmed = trimTitle(title);
+  assert.ok(countTitleWords(trimmed) <= TITLE_MAX_WORDS, trimmed);
+  assert.ok(trimmed.startsWith('گوگل'), trimmed);
+  assert.ok(trimmed.endsWith('می‌کند'), trimmed);
+  assert.ok(!trimmed.endsWith('کمک'), trimmed);
+});
+
 test('an over-long body is trimmed without losing the source or the importance paragraph', () => {
   const importance = 'اهمیتش اینه که این ابزار زمان تیم را کم می‌کند.';
   const body = [
@@ -1041,6 +1050,17 @@ test('an over-long body is trimmed without losing the source or the importance p
   assert.ok(trimmed.includes(importance));
   assert.ok(trimmed.includes('منبع: [منبع](https://example.com/a)'));
   assert.ok(trimmed.split(/\n{2,}/).filter(Boolean).length >= 2);
+});
+
+test('trimBody keeps the source and usage tails together', () => {
+  const body = `${[
+    `لید خبر. ${'الف '.repeat(120).trim()}`,
+    `زمینه. ${'ب '.repeat(120).trim()}`,
+    'اهمیتش اینه که این ابزار زمان تیم را کم می‌کند.',
+  ].join('\n\n')}\n\nمنبع: [منبع](https://example.com/a)\nلینک استفاده: [ابزار](https://example.com/tool)`;
+  const trimmed = trimBody(body, 700);
+  assert.ok(trimmed.endsWith('منبع: [منبع](https://example.com/a)\nلینک استفاده: [ابزار](https://example.com/tool)'));
+  assert.ok(trimmed.includes('اهمیتش'));
 });
 
 test('mechanical fixes repair title, body and quote before QA', () => {

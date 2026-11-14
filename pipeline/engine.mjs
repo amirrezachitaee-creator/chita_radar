@@ -794,28 +794,29 @@ export function normalizePostFields(parsed) {
 export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '' } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   const body = String(parsed.body ?? '').trimEnd();
-  if (!body || !sourceUrl) return parsed;
+  if (!body) return parsed;
   const useUsage = parsed.category === 'tools' && Boolean(usageUrl);
-  const targetUrl = useUsage ? usageUrl : sourceUrl;
-  const targetPrefix = useUsage ? 'لینک استفاده' : 'منبع';
   const safeSourceName = String(sourceName || 'منبع')
     .replace(/[\[\]\n]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim() || 'منبع';
+  // The article URL is the receipt; a usage link never replaces it.
+  const tail = [
+    sourceUrl ? `منبع: [${safeSourceName}](${sourceUrl})` : '',
+    useUsage ? usageTailLine(usageUrl, usageName) : '',
+  ].filter(Boolean);
+  if (!tail.length) return parsed;
   const lines = body.split('\n');
-  const lastIndex = lines.findLastIndex((line) => line.trim());
-  const last = (lastIndex >= 0 ? lines[lastIndex] : '').trim();
-  if (new RegExp(`^${targetPrefix}\\s*[:：]`, 'u').test(last)) {
-    const lastUrl = last.match(/https?:\/\/[^\s)]+/)?.[0] ?? '';
-    if (canonicalOrEmpty(lastUrl) === canonicalOrEmpty(targetUrl)) return parsed;
+  while (lines.length) {
+    const line = lines[lines.length - 1].trim();
+    if (!line || USAGE_TAIL_LINE.test(line)) {
+      lines.pop();
+      continue;
+    }
+    break;
   }
-  const withoutTail = lastIndex >= 0 && USAGE_TAIL_LINE.test(last)
-    ? lines.slice(0, lastIndex).join('\n').trimEnd()
-    : body;
-  const line = useUsage
-    ? usageTailLine(targetUrl, usageName)
-    : `منبع: [${safeSourceName}](${targetUrl})`;
-  return { ...parsed, body: `${withoutTail}\n\n${line}` };
+  const nextBody = `${lines.join('\n').trimEnd()}\n\n${tail.join('\n')}`;
+  return nextBody === body ? parsed : { ...parsed, body: nextBody };
 }
 
 export function ensureOpenEndedNote(parsed, note = '') {
@@ -877,17 +878,46 @@ function titleEndsDangling(value) {
   return TITLE_DANGLING_END.has(last);
 }
 
+const TITLE_VERB_END =
+  /^(?:ن?می[\u200c]?)?(?:کند|کنند|شود|شوند|کرد|کردند|شد|شدند|است|هست|بود|بودند|دارد|دارند|داد|دادند|گرفت|گرفتند|یافت|یافتند|کرده|شده|خواهد|خواهند|تواند|توانند)$/u;
+
+function titleEndsWithVerb(value) {
+  return TITLE_VERB_END.test(String(value ?? '').trim().replace(/[.,،؛:!؟?"'»«]+$/u, ''));
+}
+
+function titleWordWeight(word) {
+  return word.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
+}
+
 export function trimTitle(value, max = TITLE_MAX_WORDS) {
   const title = String(value ?? '').replace(/\*\*/g, ' ').replace(/\s+/g, ' ').trim();
   if (!title) return title;
   const words = title.split(/\s+/).filter(Boolean);
-  const kept = [];
+  let kept = [];
   let count = 0;
   for (const word of words) {
-    const weight = word.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
+    const weight = titleWordWeight(word);
     if (count + weight > max) break;
     kept.push(word);
     count += weight;
+  }
+  // Cutting a verb off the end leaves a headline that stops mid-sentence
+  // ("... کمک" without "می‌کند"), so keep the closing predicate and trim
+  // trailing modifiers from before it instead.
+  if (words.slice(kept.length).some(titleEndsWithVerb)) {
+    const tailWords = words.slice(-Math.min(2, words.length));
+    const tailWeight = tailWords.reduce((sum, word) => sum + titleWordWeight(word), 0);
+    const prefixMax = Math.max(1, max - tailWeight);
+    kept = [];
+    count = 0;
+    for (const word of words.slice(0, -tailWords.length)) {
+      const weight = titleWordWeight(word);
+      if (count + weight > prefixMax) break;
+      kept.push(word);
+      count += weight;
+    }
+    while (kept.length > 1 && TITLE_STOPWORDS.has(kept[kept.length - 1].replace(/[.,،؛:!؟?]+$/u, ''))) kept.pop();
+    kept.push(...tailWords);
   }
   if (!kept.length) kept.push(words[0]);
   while (kept.length > 1 && TITLE_STOPWORDS.has(kept[kept.length - 1].replace(/[.,،؛:!؟?]+$/u, ''))) kept.pop();
@@ -927,15 +957,17 @@ function shortenText(value, max) {
 
 function splitSourceLine(value) {
   const lines = String(value ?? '').split('\n');
-  for (let index = lines.length - 1; index >= 0; index -= 1) {
-    if (USAGE_TAIL_LINE.test(lines[index].trim())) {
-      return {
-        content: lines.slice(0, index).join('\n').trim(),
-        source: lines.slice(index).join('\n').trim(),
-      };
-    }
+  let end = lines.length;
+  while (end > 0) {
+    const line = lines[end - 1].trim();
+    if (line && !USAGE_TAIL_LINE.test(line)) break;
+    end -= 1;
   }
-  return { content: String(value ?? '').trim(), source: '' };
+  if (end === lines.length) return { content: String(value ?? '').trim(), source: '' };
+  return {
+    content: lines.slice(0, end).join('\n').trim(),
+    source: lines.slice(end).join('\n').trim(),
+  };
 }
 
 function enforceDetailQuote(parsed) {
@@ -1544,11 +1576,10 @@ function splitPreviewSource(body) {
   const text = String(body ?? '').trimEnd();
   if (!text) return { body: '', source: '' };
   const lines = text.split('\n');
-  const lastIndex = lines.findLastIndex((line) => line.trim());
-  if (lastIndex < 0 || !USAGE_TAIL_LINE.test(lines[lastIndex].trim())) {
-    return { body: text, source: '' };
-  }
-  return { body: lines.slice(0, lastIndex).join('\n').trimEnd(), source: lines[lastIndex].trim() };
+  let end = lines.length;
+  while (end > 0 && USAGE_TAIL_LINE.test(lines[end - 1].trim())) end -= 1;
+  if (end === lines.length) return { body: text, source: '' };
+  return { body: lines.slice(0, end).join('\n').trimEnd(), source: lines.slice(end).join('\n').trim() };
 }
 
 export function renderPreview({ post, qa, imageUsed, imagePath, imageVerdict, sourceUrl, inspectOnly, banner }) {
