@@ -565,22 +565,23 @@
     "fa76dc28f8": {
       "id": "fa76dc28f8",
       "status": "pending",
-      "rewrites": 0,
+      "rewrites": 1,
       "createdAt": "2026-11-15T10:30:50.433Z",
-      "updatedAt": "2026-11-15T10:30:50.433Z",
-      "messageId": 295,
+      "updatedAt": "2026-11-15T14:45:04.734Z",
+      "messageId": 299,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T14:00+03:30",
-      "reason": "denied_link",
+      "reason": "manual_rewrite",
       "kind": "post",
       "source": "tg-matin-senpai",
       "sourceName": "MatinSenPaii",
       "sourceType": "telegram_channel",
       "title": "یه ابزار متن‌باز که با کلاد کد و بدون هیچ مدل ویدئویی‌ای، موزیک‌ویدئو می‌سازه",
-      "url": "https://t.me/MatinSenPaii/5884",
+      "url": "https://github.com/joaopauloschuler/schu-video-generator",
       "leadPostUrl": "https://t.me/MatinSenPaii/5884",
       "messageText": "یه ابزار متن‌باز که با کلاد کد و بدون هیچ مدل ویدئویی‌ای، موزیک‌ویدئو می‌سازه\n\nابزار schu-video-generator یه ابزار متن‌بازه که به ایجنت اجازه می‌ده از روی یه توضیح متنی، یه ویدئوی کامل بسازه. طرز کارش این شکلیه که ایجنت یه فایل video.yaml می‌نویسه، خودش چکش می‌کنه و بعد MP4 رو رندر می‌گیره. ۲۸ نوع صحنه‌ی آماده داره؛ تیتر، نمودار، معادله، کد، نقشه و صحنه‌های کارتونی با کاراکتر، به‌علاوه صحنه‌های سه‌بعدی و HTML/CSS. موزیک و افکت صوتی و زیرنویس و تامنیل رو هم خودش تولید می‌کنه. نصبش با pip انجام می‌شه؛ فقط پایتون ۳٫۱۰ تا ۳٫۱۳ و ffmpeg لازم داره.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤5",
       "relatedLinks": [
+        "https://github.com/joaopauloschuler/schu-video-generator",
         "https://www.reddit.com/r/ClaudeAI/comments/1xwk0md/escapement_a_music_video_coded_by_fable_52_with"
       ],
       "images": [
@@ -597,8 +598,8 @@
       "offerHint": false,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
+      "mainEligible": true,
+      "qaPass": true,
       "post": {
         "decision": "publish",
         "reason_code": "ok",
@@ -606,18 +607,18 @@
         "category": "tools",
         "post_type": "standard",
         "importance": 3,
-        "title": "ابزار اوپن سورسی که با کلاد موزیک‌ویدئو می‌سازد",
-        "body": "یه ابزار اوپن سورس به اسم schu-video-generator منتشر شده که به ایجنت‌ها اجازه می‌ده از روی یه توضیح متنی، یه ویدئوی کامل بسازن. طرز کارش اینه که ایجنت یه فایل video.yaml می‌نویسه، خودش چکش می‌کنه و بعد MP4 رو رندر می‌گیره.\n\nبا این ابزار، تولید ویدئو بدون نیاز به هیچ مدل ویدئویی جداگانه‌ای انجام می‌شه و کار ساخت موزیک‌ویدئو رو برای تیم‌های کوچیک خیلی ساده می‌کنه.\n\nمنبع: [MatinSenPaii](https://t.me/MatinSenPaii/5884)",
-        "quote": "این ابزار ۲۸ نوع صحنه آماده داره؛ از تیتر و نمودار و معادله و کد و نقشه گرفته تا صحنه‌های کارتونی با کاراکتر و صحنه‌های سه‌بعدی و HTML/CSS. موزیک، افکت صوتی، زیرنویس و تامنیل رو هم خودش تولید می‌کنه. نصبش با pip انجام می‌شه و فقط پایتون ۳٫۱۰ تا ۳٫۱۳ و ffmpeg لازم داره.",
+        "title": "ابزار اوپن سورسی که با کلاد کد، موزیک‌ویدئو می‌سازد",
+        "body": "ابزار اوپن سورس schu-video-generator با کلاد کد و بدون هیچ مدل ویدئویی، موزیک‌ویدئو می‌سازه. این ابزار ۲۸ نوع صحنه آماده داره؛ از تیتر و نمودار و معادله و کد و نقشه گرفته تا صحنه‌های کارتونی با کاراکتر، سه‌بعدی و HTML/CSS. موزیک، افکت صوتی، زیرنویس و تامنیل رو هم خودش تولید می‌کنه.\n\nنصبش با pip انجام می‌شه و فقط پایتون ۳.۱۰ تا ۳.۱۳ و ffmpeg لازم داره.\n\nبا این ابزار، تولید ویدیو برای کانال‌ها و تولیدکننده‌های محتوا به یه کار ساده و بدون نیاز به ابزارهای گرون‌قیمت تبدیل می‌شه.\n\nلینک استفاده: [joaopauloschuler/schu-video-generator](https://github.com/joaopauloschuler/schu-video-generator)",
+        "quote": "",
         "key_facts": [
-          "ابزار schu-video-generator متن‌باز است",
-          "۲۸ نوع صحنه آماده دارد",
-          "با pip نصب می‌شود",
-          "پایتون ۳.۱۰ تا ۳.۱۳ و ffmpeg نیاز دارد"
+          "ابزار متن‌باز برای ساخت موزیک‌ویدئو با کلاد کد",
+          "۲۸ نوع صحنه آماده شامل تیتر، نمودار، معادله، کد، نقشه، کارتونی، سه‌بعدی و HTML/CSS",
+          "تولید خودکار موزیک، افکت صوتی، زیرنویس و تامنیل",
+          "نصب با pip؛ نیاز به پایتون ۳.۱۰ تا ۳.۱۳ و ffmpeg"
         ],
         "numbers": [
           {
-            "label": "انواع صحنه",
+            "label": "تعداد صحنه‌های آماده",
             "value": "28",
             "unit": "نوع"
           }
@@ -627,14 +628,16 @@
           "models": [],
           "people": []
         },
-        "verification": "reported",
-        "source_url": "https://t.me/MatinSenPaii/5884",
+        "verification": "official",
+        "source_url": "https://github.com/joaopauloschuler/schu-video-generator",
         "image_url": "https://cdn1.telesco.pe/file/YmKuZFMjXDBLwPAWr5NL1pKQRgRC0DO05wt5R5ukW3AxoL0O80onAjvHz55UY1VWhRZMVKbT5msr6r4sgmDGb-LrO8Nm5nZ-selcc9zVru-sWtsyRmjfYjgaWBMcOD_q3nZukzH9RU_41CWBMR6i6wlsB7hil6pJeJkneWaz77YhwWLFkfFBsbQBw4-WLdGyEriBwB4ncrQcZfVswpM8oNZ5UAMvnOSv_Yq9gx5ft_CGE6Y0fvRtx0uz0xQC73HNKb0_EvUBa7yKlNkupgBi_TUkp8r-8I1lKn56qAYWsPzZBTB9rr2YnIBmPtjwRp_QpGWQ6BHbBtxV4PkwbgCLVQ.jpg",
-        "dedupe_key": "schu-video-generator-launch"
+        "dedupe_key": "schu-video-generator-music-video-launch"
       },
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-15T14:42:17.514Z",
+      "sentAt": "",
+      "lastAction": "rewrite",
+      "manual": true
     },
     "19548d3e34": {
       "id": "19548d3e34",
@@ -678,6 +681,23 @@
       "sentAt": ""
     }
   },
-  "actions": [],
-  "sources": {}
+  "actions": [
+    {
+      "at": "2026-11-15T14:42:17.514Z",
+      "action": "rewrite",
+      "itemId": "fa76dc28f8",
+      "source": "tg-matin-senpai",
+      "reason": "",
+      "detail": "qa_failed cost=$0.000297",
+      "actor": "manual-replay"
+    }
+  ],
+  "sources": {
+    "tg-matin-senpai": {
+      "rejects": 0,
+      "rewrites": 1,
+      "publishes": 0,
+      "lastAt": "2026-11-15T14:42:17.514Z"
+    }
+  }
 }
