@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T19:32:42.455Z",
+  "updatedAt": "2026-11-15T20:04:55.409Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9212,6 +9212,42 @@
       "slot": "2026-11-15T23:00+03:30",
       "title": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن",
       "url": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
+    },
+    "url:299cfd655b5df2e6": {
+      "at": "2026-11-15T20:04:51.505Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit"
+    },
+    "title:3be79b9fd9685fec": {
+      "at": "2026-11-15T20:04:51.505Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit"
+    },
+    "url:aed6a44b6f21a432": {
+      "at": "2026-11-15T20:04:55.407Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor"
+    },
+    "title:113405ce314948e9": {
+      "at": "2026-11-15T20:04:55.407Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor"
     }
   },
   "deferred": {
@@ -9310,57 +9346,6 @@
         "webEducation": false,
         "leadKind": ""
       }
-    },
-    "defer:url:67672a694e389b29": {
-      "id": "defer:url:67672a694e389b29",
-      "at": "2026-11-13T17:01:14.567Z",
-      "firstAt": "2026-11-13T08:11:17.615Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:67672a694e389b29",
-        "title:0c70a89ee235a382"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/amplitude",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-        "link": "https://openai.com/business/customer-stories/amplitude",
-        "canonical": "https://openai.com/business/customer-stories/amplitude",
-        "published": "Thu, 12 Nov 2026 20:00:00 GMT",
-        "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/amplitude",
-        "images": [],
-        "ageHours": 12,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:67672a694e389b29",
-          "title:0c70a89ee235a382"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:67672a694e389b29",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:5a7538ac02344da7": {
       "id": "defer:url:5a7538ac02344da7",
@@ -9852,59 +9837,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:aed6a44b6f21a432": {
-      "id": "defer:url:aed6a44b6f21a432",
-      "at": "2026-11-14T11:13:49.750Z",
-      "firstAt": "2026-11-13T20:22:43.957Z",
-      "attempts": 2,
-      "reason": "category_consecutive",
-      "reasons": [
-        "qa_failed",
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:aed6a44b6f21a432",
-        "title:113405ce314948e9"
-      ],
-      "canonical": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor",
-      "title": "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll",
-        "link": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
-        "canonical": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor",
-        "published": "Fri, 13 Nov 2026 19:20:04 +0000",
-        "summary": "It was another big week for AI-related startup financings. Mirendil, a developer of agentic AI for R&D, led the pack with a $1 billion series A, followed by Mercor, which secured $750 million to connect AI developers with human experts.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/Top_10_.jpeg"
-        ],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:aed6a44b6f21a432",
-          "title:113405ce314948e9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:aed6a44b6f21a432",
-          "attempts": 1
-        }
-      },
-      "detail": "business"
-    },
     "defer:url:5e381957119e4d94": {
       "id": "defer:url:5e381957119e4d94",
       "at": "2026-11-14T08:05:38.636Z",
@@ -10345,54 +10277,6 @@
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
-      }
-    },
-    "defer:url:299cfd655b5df2e6": {
-      "id": "defer:url:299cfd655b5df2e6",
-      "at": "2026-11-14T17:01:12.883Z",
-      "firstAt": "2026-11-14T17:01:12.883Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:299cfd655b5df2e6",
-        "title:3be79b9fd9685fec"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
-      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-        "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-        "canonical": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
-        "published": "Sat, 14 Nov 2026 16:34:15 +0000",
-        "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-        "images": [],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:299cfd655b5df2e6",
-          "title:3be79b9fd9685fec"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
       }
     },
     "defer:url:1cafc4ef12c58422": {
@@ -13173,8 +13057,8 @@
       "at": "2026-11-15T19:32:42.452Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.0027081264,
-      "tokens": 54447,
+      "cost": 0.0017067512,
+      "tokens": 20393,
       "posts": []
     }
   },
@@ -14378,87 +14262,87 @@
     "ArchiveTell": {
       "last_id": 8420,
       "last_at": "2026-11-15T19:08:48+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "ai_farshad": {
       "last_id": 6443,
       "last_at": "2026-11-15T17:50:07+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "Mohammad_zammani": {
       "last_id": 7215,
       "last_at": "2026-11-15T17:22:06+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "techiin_ir": {
       "last_id": 20781,
       "last_at": "2026-11-15T17:44:31+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "web3nabu": {
       "last_id": 2170,
       "last_at": "2026-11-15T19:03:00+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "asrnovin_ir": {
       "last_id": 11471,
       "last_at": "2026-11-15T16:33:29+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "shayanode": {
       "last_id": 208,
       "last_at": "2026-11-15T19:12:25+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "codecloude": {
       "last_id": 2590,
       "last_at": "2026-11-15T18:51:37+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "dunijet_ai": {
       "last_id": 2574,
       "last_at": "2026-11-15T17:47:54+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "MatinSenPaii": {
       "last_id": 5885,
       "last_at": "2026-11-15T14:40:08+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     },
     "thenimaonAI": {
       "last_id": 520,
       "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-15T19:31:03.958Z"
+      "checked_at": "2026-11-15T20:04:25.699Z"
     }
   },
   "offerReviews": [
