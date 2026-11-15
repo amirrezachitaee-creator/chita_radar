@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-14T20:04:01.118Z",
+  "updatedAt": "2026-11-15T05:07:42.749Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8555,6 +8555,141 @@
       "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
       "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
       "benchmark": false
+    },
+    "offerwatch:320f06739555d517": {
+      "at": "2026-11-15T05:01:07.359Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:5d06e1fa3e585a8b": {
+      "at": "2026-11-15T05:01:07.584Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md"
+    },
+    "offerwatch:07082c0f04f9a960": {
+      "at": "2026-11-15T05:01:07.836Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/"
+    },
+    "url:ccaaa02c82ac6a07": {
+      "at": "2026-11-15T05:02:13.701Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "اوپن‌ای‌آی کیف پول ChatGPT رو داد بیرون؛ ایجنتش حالا خودش براتون خرید می‌کنه",
+      "url": "https://t.me/MatinSenPaii/5879"
+    },
+    "title:8d978771b372ad39": {
+      "at": "2026-11-15T05:02:13.701Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "اوپن‌ای‌آی کیف پول ChatGPT رو داد بیرون؛ ایجنتش حالا خودش براتون خرید می‌کنه",
+      "url": "https://t.me/MatinSenPaii/5879"
+    },
+    "url:5554a7c497d28edf": {
+      "at": "2026-11-15T05:02:13.993Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "یه استودیوی موشن‌گرافیک برای ایجنت‌های هوش مصنوعی اومده به اسم CoAnimator",
+      "url": "https://t.me/dunijet_ai/2550"
+    },
+    "title:d487fe55c6191169": {
+      "at": "2026-11-15T05:02:13.993Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "یه استودیوی موشن‌گرافیک برای ایجنت‌های هوش مصنوعی اومده به اسم CoAnimator",
+      "url": "https://t.me/dunijet_ai/2550"
+    },
+    "url:c239378271226159": {
+      "at": "2026-11-15T05:02:14.262Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "OpenBot: Run a team of AI agents on your computer",
+      "url": "https://t.me/MatinSenPaii/5878"
+    },
+    "title:c0a256906875092c": {
+      "at": "2026-11-15T05:02:14.262Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "OpenBot: Run a team of AI agents on your computer",
+      "url": "https://t.me/MatinSenPaii/5878"
+    },
+    "url:f716ada1f84b3df1": {
+      "at": "2026-11-15T05:05:17.256Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "models",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch"
+    },
+    "title:66e2352845c64440": {
+      "at": "2026-11-15T05:05:17.256Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "models",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch"
+    },
+    "url:4703cdb9d69f91dd": {
+      "at": "2026-11-15T05:05:54.183Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "🖥️ جایگزین متن‌باز ادوبی انیمیت",
+      "url": "https://github.com/storytold/AniCraft"
+    },
+    "title:c2193bbfd2eb0ec1": {
+      "at": "2026-11-15T05:05:54.183Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "🖥️ جایگزین متن‌باز ادوبی انیمیت",
+      "url": "https://github.com/storytold/AniCraft"
+    },
+    "url:1a6fc40b5313375e": {
+      "at": "2026-11-15T05:07:00.272Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "GitHub - LottieFiles/motion-design-skill: Universal motion design principles for AI agents — timing, easing, c",
+      "url": "https://github.com/LottieFiles/motion-design-skill",
+      "benchmark": false
+    },
+    "title:44e131b0df4959a7": {
+      "at": "2026-11-15T05:07:00.272Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-15T08:30+03:30",
+      "title": "GitHub - LottieFiles/motion-design-skill: Universal motion design principles for AI agents — timing, easing, c",
+      "url": "https://github.com/LottieFiles/motion-design-skill",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -8654,55 +8789,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:f716ada1f84b3df1": {
-      "id": "defer:url:f716ada1f84b3df1",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:f716ada1f84b3df1",
-        "title:66e2352845c64440"
-      ],
-      "canonical": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
-      "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
-        "link": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
-        "canonical": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
-        "published": "Thu, 12 Nov 2026 19:58:43 +0000",
-        "summary": "Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and still falls short on agentic coding. The article Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/gemini_logo-2.png"
-        ],
-        "ageHours": 9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:f716ada1f84b3df1",
-          "title:66e2352845c64440"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:84ec87286cb35a64": {
       "id": "defer:url:84ec87286cb35a64",
       "at": "2026-11-13T05:01:12.904Z",
@@ -8792,55 +8878,6 @@
         "keys": [
           "url:58950b1145824a10",
           "title:e2f294d987b31067"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e2c2882f272c7eb7": {
-      "id": "defer:url:e2c2882f272c7eb7",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:e2c2882f272c7eb7",
-        "title:fcc85c1c8e29972a"
-      ],
-      "canonical": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
-      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-        "link": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-        "canonical": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
-        "published": "Wed, 11 Nov 2026 20:12:46 +0000",
-        "summary": "Google Deepmind's new Gemini Decisions API evaluates up to 1,000 closed-ended questions in a single pass across text, images, audio, and video. Gemini Decision 1 returns results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google. The article Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_logo_wall.png"
-        ],
-        "ageHours": 32.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e2c2882f272c7eb7",
-          "title:fcc85c1c8e29972a"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9428,113 +9465,6 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
-    },
-    "defer:url:4887a96d2b759199": {
-      "id": "defer:url:4887a96d2b759199",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4887a96d2b759199",
-        "title:a0692cd05a760a63"
-      ],
-      "canonical": "https://www.producthunt.com/products/aven-app-agent",
-      "title": "Aven App Agent",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Aven App Agent",
-        "link": "https://www.producthunt.com/products/aven-app-agent",
-        "canonical": "https://www.producthunt.com/products/aven-app-agent",
-        "published": "2026-11-11T14:12:11-08:00",
-        "summary": "<p> AI that guides users through your app </p> <p> <a href=\"https://www.producthunt.com/products/aven-app-agent?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1313374?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/aven-app-agent",
-        "images": [],
-        "ageHours": 42.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4887a96d2b759199",
-          "title:a0692cd05a760a63"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4703cdb9d69f91dd": {
-      "id": "defer:url:4703cdb9d69f91dd",
-      "at": "2026-11-13T17:46:26.822Z",
-      "firstAt": "2026-11-13T17:46:26.822Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4703cdb9d69f91dd",
-        "title:c2193bbfd2eb0ec1"
-      ],
-      "canonical": "https://github.com/storytold/AniCraft",
-      "title": "🖥️ جایگزین متن‌باز ادوبی انیمیت",
-      "candidate": {
-        "sourceId": "tg-archive-tell",
-        "sourceName": "ArchiveTell",
-        "sourceType": "telegram_channel",
-        "title": "🖥️ جایگزین متن‌باز ادوبی انیمیت",
-        "link": "https://github.com/storytold/AniCraft",
-        "canonical": "https://github.com/storytold/AniCraft",
-        "messageText": "🖥️ جایگزین متن‌باز ادوبی انیمیت\n⠀\nیه استودیوی انیمیشن دوبعدی که از صفر با راست نوشته شده و فایل‌های انیمیت رو هم باز می‌کنه.\n⠀\n• تایم‌لاین، لایه، کی‌فریم و آنیون اسکینینگ\n• خروجی گیف، اسپریت‌شیت، لاتی و ویدیو\n• سرور MCP برای کلود کد و ایجنت‌ها\n⠀\nانی‌کرفت بازسازی تمیز ادوبی انیمیته؛ ابزار برداری، تویین کلاسیک و مورف شکل رو داره و فرمتش JSONـه. فایل‌های .fla و .xfl رو باز می‌کنه و خروجی PNG، گیف و WebM/MP4 با ffmpeg می‌ده.\n⠀\nهنوز آلفای اولیه‌ست؛ برای کار حرفه‌ای زوده و لایهٔ صوتی و رندر GPU رو نداره. روی مک، ویندوز، لینوکس و وب اجرا می‌شه.\n⠀⠀\n📌 ریپوی انی‌کرفت در گیت‌هاب\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤6⚡1🔥1",
-        "leadPostUrl": "https://t.me/ArchiveTell/8408",
-        "published": "2026-11-13T17:10:33+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn1.telesco.pe/file/qmPtC5IH1ZNYrW5BGCQg2KKt3NsD6iSdPD_iXHZHTpxyz7FZoc6VLFlETgVeMMknlPfj55NFm9qWnAYlujDlGa83CYXenR1IDxewMXkqA28HTxIaQYBQwsHMspxp4X3D8PMp1YRXkaRnfWVG2rkluV5fALSAaeLMcbXosNRQbMqSyM93QHHHtw-9vXzaj0He0BgC4elwBncELRJfiu_v1F0xCSJ-x4HWs0aMDVv0fPkqUmt7Apkk_J2LcEUTFWdf1ln6Qe8jEcrT3BkCVz5-G8xKmcHwVbbFv0qvJEDjfUeXCjNLqe23_66-S18NqFcTLMT1ptlPwEysnSrLUZbYFg.jpg"
-        ],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/storytold/AniCraft"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:4703cdb9d69f91dd",
-          "title:c2193bbfd2eb0ec1"
-        ],
-        "leadSource": "ArchiveTell",
-        "leadMessageId": 8408,
-        "leadChannelUrl": "https://t.me/ArchiveTell",
-        "sourceFocus": "tools",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
       }
     },
     "defer:url:1dcca899a4f1e514": {
@@ -10520,98 +10450,6 @@
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
-    "defer:url:65b96c238445cded": {
-      "id": "defer:url:65b96c238445cded",
-      "at": "2026-11-14T10:31:34.879Z",
-      "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:65b96c238445cded",
-        "title:01e1e211c653e911"
-      ],
-      "canonical": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Gilbert + Tobin rethinks the business of law with AI",
-        "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
-        "canonical": "https://openai.com/index/gilbert-tobin-sam-nickless",
-        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-        "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
-        "images": [],
-        "ageHours": 58.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:65b96c238445cded",
-          "title:01e1e211c653e911"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d7c1da8cb7dc41da": {
-      "id": "defer:url:d7c1da8cb7dc41da",
-      "at": "2026-11-14T10:31:34.879Z",
-      "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d7c1da8cb7dc41da",
-        "title:380c1efe0813da2e"
-      ],
-      "canonical": "https://openai.com/index/children-first-declaration",
-      "title": "Supporting research on AI and children’s safety",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Supporting research on AI and children’s safety",
-        "link": "https://openai.com/index/children-first-declaration",
-        "canonical": "https://openai.com/index/children-first-declaration",
-        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-        "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/children-first-declaration",
-        "images": [],
-        "ageHours": 58.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d7c1da8cb7dc41da",
-          "title:380c1efe0813da2e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:9d694fa95af0cfae": {
       "id": "defer:url:9d694fa95af0cfae",
       "at": "2026-11-14T13:31:24.888Z",
@@ -11033,52 +10871,52 @@
         "officialCourse": false
       }
     },
-    "defer:url:cbda9238a3684b28": {
-      "id": "defer:url:cbda9238a3684b28",
-      "at": "2026-11-14T19:30:59.402Z",
-      "firstAt": "2026-11-14T19:30:59.402Z",
-      "attempts": 0,
-      "reason": "source_daily",
+    "defer:url:9c481a0931060f36": {
+      "id": "defer:url:9c481a0931060f36",
+      "at": "2026-11-15T05:07:42.748Z",
+      "firstAt": "2026-11-15T05:07:42.748Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
       "reasons": [
-        "source_daily"
+        "category_consecutive"
       ],
       "keys": [
-        "url:cbda9238a3684b28",
-        "title:5ed56b1a916d91a6"
+        "url:9c481a0931060f36",
+        "title:c32dd593305ad105"
       ],
-      "canonical": "https://huggingface.co/blog/3d-lora-finetuning",
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "title": "datasette-llm 0.1a11",
       "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-        "link": "https://huggingface.co/blog/3d-lora-finetuning",
-        "canonical": "https://huggingface.co/blog/3d-lora-finetuning",
-        "published": "Thu, 12 Nov 2026 00:00:00 GMT",
-        "summary": "",
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "datasette-llm 0.1a11",
+        "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+        "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+        "published": "2026-11-14T23:59:28+00:00",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local models with <a href=\"https://lmstudio.ai\">LM Studio</a> or <a href=\"https://ollama.com\">Ollama</a> or <a href=\"https://github.com/ggml-org/llama.cpp\">llama.cpp</a> (which just hit <a href=\"https://huggingface.co/blog/ggml-org/llama-cpp-v1\">v1.0.0</a>) you can run Datasette via <code>uvx</code> like this:</p> <div class=\"highlight highlight-source-shell\"><pre>wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model <span class=\"pl-s\"><span class=\"pl-pds\">'</span>{</span> <span class=\"pl-s\"> \"model\": \"lmstudio-qwen\",</span> <span class=\"pl-s\"> \"model_name\": \"qwen/qwen3.8-27b\",</span> <span class=\"pl-s\"> \"api_base\": \"http://localhost:1234/v1\"</span> <span class=\"pl-s\"> }<span class=\"pl-pds\">'</span></span> content.db</pre></div> <p>And you'll get a local server running a Datasette Agent instance powered by your local model!</p> <p><img alt=\"Screenshot of a chat interface. Header bar reads &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &quot;Chat&quot;, a model label &quot;lmstudio-qwen&quot; and an &quot;EXPORT&quot; button. A blue user message bubble says &quot;how many repos and how many releases are there?&quot; Below it is a collapsed tool call &quot;list_databases_and_tables&quot; and an expanded tool call &quot;sql_query&quot;. Its REQUEST section shows database &quot;content&quot;, display &quot;both&quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &quot;View SQL query&quot; button. The assistant reply reads &quot;There are 200 repos and 1,889 releases in the content database.&quot; At the bottom is a text input with placeholder &quot;Type a message... (# to tag a table or query)&quot; and a blue &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
         "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/3d-lora-finetuning",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
         "images": [],
-        "ageHours": 67.5,
+        "ageHours": 5,
         "aiHint": true,
-        "aiCentral": false,
+        "aiCentral": true,
         "offerHint": false,
         "benchmark": false,
         "modelRelease": false,
         "sourceCategories": [
-          "models",
-          "tools"
+          "security"
         ],
         "categoryHint": "models",
         "keys": [
-          "url:cbda9238a3684b28",
-          "title:5ed56b1a916d91a6"
+          "url:9c481a0931060f36",
+          "title:c32dd593305ad105"
         ],
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
+      },
+      "detail": "tools"
     }
   },
   "slots": {
@@ -12728,6 +12566,37 @@
           "at": "2026-11-14T19:34:34.049Z"
         }
       ]
+    },
+    "2026-11-15T08:30+03:30": {
+      "at": "2026-11-15T05:07:00.272Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "اصول موشن‌دیزاین برای ایجنت‌های هوش مصنوعی منتشر شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/08-30",
+      "messageId": 78,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.00442554,
+      "tokens": 52690,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "اصول موشن‌دیزاین برای ایجنت‌های هوش مصنوعی منتشر شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 78,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003055808,
+          "tokens": 9325,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-15T05:07:00.272Z"
+        }
+      ]
     }
   },
   "published": [
@@ -13834,93 +13703,111 @@
       "sourceTitle": "OpenAI board member worries an AI \"takeover\" of society could be months away",
       "sourceText": "Researcher traces a path from AI reward hacking to potential human extinction.\nIf you go by the current statistics for deaths in the US , it’s reasonable to expect that cancer or heart disease will eventually get you. But OpenAI Foundation board member and Alignment Research Center Executive Director Paul Cristiano thinks we should all be worried about another major mortality risk. Speaking at a lecture series this week , Cristiano bluntly told the audience in a Toronto Convention Center, “I think for most people in this room, the most likely reason they will die is because of an AI accident.”\nIn the opening lecture of a three-part series , Cristiano outlined his worries about the risk of an impending “AI takeover.” He defined that as a situation where goal-pursuing AI systems “call the shots in the same sense that humans today call the shots and what happens on Earth” and where any human trying to stop them “would be as ineffective as if you or me was trying to stop the US military.” Such a situation would likely lead to mass death and perhaps uninhabitable environments for humans, Cristiano said.\nDespite his grim assessment of our collective mortality risk, Cristiano admitted in his talk that there’s no “quantitative model” that can “put a number” on the likelihood of this kind of AI takeover. In almost the same breath, though, he said that if AI continues to develop at “the most rapid trajectory,” humanity is “looking at something like a coin flip of an AI takeover,” including a “meaningful risk” of one happening in the next six to 12 months. And even with realistic poli",
       "at": "2026-11-14T19:34:34.050Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-15T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "اصول موشن‌دیزاین برای ایجنت‌های هوش مصنوعی منتشر شد",
+      "why": "با این کار، تیم‌های کوچک هم می‌تونن انیمیشن‌های حرفه‌ای رو بدون استخدام متخصص موشن‌دیزاین بسازن.",
+      "dedupe_key": "lottiefiles-motion-design-skill-release",
+      "post_key": "2026-11-15/08-30/1",
+      "sourceId": "tg-codecloude",
+      "sourceName": "Code.Cloud | کـــد کلاد",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://github.com/LottieFiles/motion-design-skill",
+      "sourceTitle": "GitHub - LottieFiles/motion-design-skill: Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
+      "sourceText": "🎬 می‌خوای با هوش مصنوعی یه استودیوی کامل موشن‌گرافیک و انیمیشن بسازی؟ 🔥\n\nاین ۲۰ ابزار و پروژه می‌تونن توی ساخت انیمیشن، مدل‌سازی سه‌بعدی، جلوه‌های ویژه، صداگذاری و تولید ویدیو حسابی به کارت بیان!\n\nاز Claude Code و Codex هم می‌تونی برای ترکیب این ابزارها و خودکارسازی کارها کمک بگیری.\n\n🎨 طراحی و انیمیشن\n• Motion Design Skill — اصول حرکت و انیمیشن\n• Motion AI Kit — انیمیشن‌های روان و حرفه‌ای\n• Remotion Skills — مهارت‌های ساخت ویدیو برای ایجنت‌ها\n• Hairline — تصاویر خطی تعاملی و متحرک\n• Anatomy — نمایش ایزومتریک ماشین‌ها و سیستم‌ها\n• Anatomy Reveal — نمایش انفجاری قطعات محصولات\n\n🧊 سه‌بعدی و جلوه‌های ویژه\n• Blender Agents — ایجنت‌های هوش مصنوعی برای Blender\n• Three.js — ساخت محیط‌های سه‌بعدی\n• React Three Rapier — شبیه‌سازی فیزیک و برخورد\n• React Postprocessing — نورپردازی و افکت‌های سینمایی\n• Three Quarks — افکت ذرات و جلوه‌های ویژه\n• Tweakpane — کنترل زنده تنظیمات صحنه\n\n🎥 ساخت ویدیو و موشن\n• GSAP — انیمیشن‌های پیشرفته و تایم‌لاین\n• Remotion — تولید ویدیو با React\n• Manim — انیمیشن‌های علمی و آموزشی\n• Lottie — اجرای انیمیشن‌های برداری سبک\n🎵 صدا و خروجی نهایی\n• Openverse API — جست‌وجوی محتوای صوتی با مجوزهای مختلف\n• Librosa — تحلیل موسیقی و تشخیص ریتم\n• WhisperX — ساخت زیرنویس با زمان‌بندی دقیق\n• FFmpeg — پردازش و خروجی نهایی ویدیو\n\n💡 لازم نیست همه این ابزارها رو یاد بگیری؛ چندتاشون رو متناسب با پروژه‌ات انتخاب کن و یه ورک‌فلو اختصاصی بساز!\n\n🔥 این مجموعه رو ذخیره کن تا موقع پروژه بعدیت دم دستت باشه.",
+      "at": "2026-11-15T05:07:00.273Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8412,
       "last_at": "2026-11-14T16:07:20+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "ai_farshad": {
-      "last_id": 6438,
-      "last_at": "2026-11-14T16:47:14+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "last_id": 6439,
+      "last_at": "2026-11-14T19:55:54+00:00",
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "Mohammad_zammani": {
       "last_id": 7212,
       "last_at": "2026-11-14T17:10:15+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "techiin_ir": {
       "last_id": 20775,
       "last_at": "2026-11-14T16:41:44+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "mgh_mobin": {
       "last_id": 480,
       "last_at": "2026-11-14T09:59:58+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "asrnovin_ir": {
-      "last_id": 11467,
-      "last_at": "2026-11-14T18:36:02+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "last_id": 11468,
+      "last_at": "2026-11-14T20:50:00+00:00",
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "codecloude": {
-      "last_id": 2585,
-      "last_at": "2026-11-14T14:47:11+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "last_id": 2586,
+      "last_at": "2026-11-15T04:48:41+00:00",
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "dunijet_ai": {
-      "last_id": 2549,
-      "last_at": "2026-11-14T19:27:02+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "last_id": 2550,
+      "last_at": "2026-11-15T03:31:29+00:00",
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "marketing_aida": {
       "last_id": 106,
       "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "MatinSenPaii": {
-      "last_id": 5876,
-      "last_at": "2026-11-14T17:27:50+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "last_id": 5879,
+      "last_at": "2026-11-15T04:39:45+00:00",
+      "checked_at": "2026-11-15T05:01:00.403Z"
     },
     "thenimaonAI": {
       "last_id": 510,
       "last_at": "2026-11-14T09:53:59+00:00",
-      "checked_at": "2026-11-14T19:30:48.315Z"
+      "checked_at": "2026-11-15T05:01:00.403Z"
     }
   },
   "offerReviews": [
@@ -16407,6 +16294,90 @@
       "slot": "2026-11-14T20:30+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-15",
+      "at": "2026-11-15T05:01:00.403Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-15T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|offer-watch:free-llm-api-hub|https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "date": "2026-11-15",
+      "at": "2026-11-15T05:01:00.403Z",
+      "source": "offer-watch:free-llm-api-hub",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "reason": "offer_watch",
+      "slot": "2026-11-15T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|offer-watch:free-inference|https://www.freeinference.dev/",
+      "date": "2026-11-15",
+      "at": "2026-11-15T05:01:00.403Z",
+      "source": "offer-watch:free-inference",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/",
+      "reason": "offer_watch",
+      "slot": "2026-11-15T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-matin-senpai|https://t.me/MatinSenPaii/5879",
+      "date": "2026-11-15",
+      "at": "2026-11-15T05:01:00.403Z",
+      "source": "tg-matin-senpai",
+      "title": "اوپن‌ای‌آی کیف پول ChatGPT رو داد بیرون؛ ایجنتش حالا خودش براتون خرید می‌کنه",
+      "url": "https://t.me/MatinSenPaii/5879",
+      "reason": "denied_link",
+      "slot": "2026-11-15T08:30+03:30",
+      "kind": "post",
+      "mainEligible": true
+    },
+    {
+      "id": "2026-11-15|tg-dunijet-ai|https://t.me/dunijet_ai/2550",
+      "date": "2026-11-15",
+      "at": "2026-11-15T05:01:00.403Z",
+      "source": "tg-dunijet-ai",
+      "title": "یه استودیوی موشن‌گرافیک برای ایجنت‌های هوش مصنوعی اومده به اسم CoAnimator",
+      "url": "https://t.me/dunijet_ai/2550",
+      "reason": "denied_link",
+      "slot": "2026-11-15T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-matin-senpai|https://t.me/MatinSenPaii/5878",
+      "date": "2026-11-15",
+      "at": "2026-11-15T05:01:00.403Z",
+      "source": "tg-matin-senpai",
+      "title": "OpenBot: Run a team of AI agents on your computer",
+      "url": "https://t.me/MatinSenPaii/5878",
+      "reason": "denied_link",
+      "slot": "2026-11-15T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-archive-tell|https://github.com/storytold/AniCraft",
+      "date": "2026-11-15",
+      "at": "2026-11-15T05:01:00.403Z",
+      "source": "tg-archive-tell",
+      "title": "GitHub - storytold/anicraft: AniCraft: An open-source 2D animation editor written from scratch in pure Rust.",
+      "url": "https://github.com/storytold/AniCraft",
+      "reason": "tool_incomplete",
+      "slot": "2026-11-15T08:30+03:30",
+      "kind": "tool",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -16665,8 +16636,8 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-14",
-    "at": "2026-11-14T05:00:46.107Z",
+    "lastDate": "2026-11-15",
+    "at": "2026-11-15T05:01:00.403Z",
     "found": 3,
     "delivered": 3
   },
@@ -16678,7 +16649,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-14T17:31:24.380Z",
+      "lastCheck": "2026-11-15T05:01:00.403Z",
       "status": "active",
       "misses": 0
     }

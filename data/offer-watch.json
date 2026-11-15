@@ -2,100 +2,100 @@
   "version": 1,
   "targets": {
     "perq": {
-      "hash": "31be0daa9393cb6c",
-      "chars": 87677,
+      "hash": "8df59841c85f412f",
+      "chars": 88953,
       "url": "https://perq.sh/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "ai-free": {
-      "hash": "548529e0d7089f01",
-      "chars": 30270,
+      "hash": "aba5fe55bd645c11",
+      "chars": 30285,
       "url": "https://aifree.dev/free-api-credits",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "free-llm-api-hub": {
-      "hash": "50403b6fa5dfd2e3",
-      "chars": 37781,
+      "hash": "7070fe67fc9ac7c7",
+      "chars": 37877,
       "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "free-inference": {
-      "hash": "8fa3b42eb14d6eba",
-      "chars": 5446,
+      "hash": "fe2e679c585d2730",
+      "chars": 6019,
       "url": "https://www.freeinference.dev/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "google-ai-studio": {
       "hash": "bc76b790be6997a3",
       "chars": 60,
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "openrouter": {
-      "hash": "ef66cbf126d4f0e0",
-      "chars": 3521,
+      "hash": "7a2ca4e95d8622a3",
+      "chars": 3522,
       "url": "https://openrouter.ai/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "cloudflare-workers-ai": {
       "hash": "374884f1c11846d0",
       "chars": 5491,
       "url": "https://developers.cloudflare.com/workers-ai/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "zai": {
-      "hash": "3d4e69cd8e9e4085",
+      "hash": "e7498fb825ed2f2b",
       "chars": 98846,
       "url": "https://docs.z.ai/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "deepgram": {
       "hash": "5e924033abb7e0de",
       "chars": 6529,
       "url": "https://deepgram.com/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "jina-ai": {
       "hash": "20763805bd554f3e",
       "chars": 11022,
       "url": "https://jina.ai/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "huggingface": {
-      "hash": "d77c2982732ca171",
-      "chars": 4512,
+      "hash": "0aa90f3e37b34868",
+      "chars": 4581,
       "url": "https://huggingface.co/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "nvidia-build": {
       "hash": "31171e79e387a85f",
       "chars": 1381,
       "url": "https://build.nvidia.com/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "qoder": {
       "hash": "02bf397d10d9d93f",
       "chars": 8076,
       "url": "https://docs.qoder.com/events/100credits",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "cline": {
       "hash": "6697ec019cc31baf",
       "chars": 3169,
       "url": "https://cline.bot/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "elevenlabs": {
       "hash": "703be47a7d8e5d8f",
       "chars": 11782,
       "url": "https://elevenlabs.io/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     },
     "ollama": {
-      "hash": "5265f02f9b54c54e",
-      "chars": 494,
+      "hash": "0a3a7c9c73c0b460",
+      "chars": 527,
       "url": "https://ollama.com/",
-      "fetched_at": "2026-11-14T05:00:46.107Z"
+      "fetched_at": "2026-11-15T05:01:00.403Z"
     }
   },
   "seen": {
@@ -231,7 +231,28 @@
       "status": "publish",
       "reason": "ok",
       "source": "change"
+    },
+    "320f06739555d517": {
+      "vendor": "perq",
+      "first_seen": "2026-11-15T05:01:00.403Z",
+      "status": "review",
+      "reason": "source_not_official",
+      "source": "change"
+    },
+    "5d06e1fa3e585a8b": {
+      "vendor": "free-llm-api-hub",
+      "first_seen": "2026-11-15T05:01:00.403Z",
+      "status": "review",
+      "reason": "source_not_official",
+      "source": "change"
+    },
+    "07082c0f04f9a960": {
+      "vendor": "free-inference",
+      "first_seen": "2026-11-15T05:01:00.403Z",
+      "status": "review",
+      "reason": "source_not_official",
+      "source": "change"
     }
   },
-  "updated_at": "2026-11-14T05:00:46.107Z"
+  "updated_at": "2026-11-15T05:01:00.403Z"
 }
