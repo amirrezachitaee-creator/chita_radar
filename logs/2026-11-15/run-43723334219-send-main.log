@@ -1,0 +1,64 @@
+RUN 43723334219 | send/main | slot auto | 2026-11-15T14:15:30Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-15T17:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 4/31 | models 1/24 | security 2/11 | business 2/11
+DAILY 4/11
+DIVERSITY_TARGET security | slot 17:00
+DEFERRED_POOL 41
+  DEFERRED category_consecutive | try 0/3 | 🔥مدل‌های رایگان، بدون کلید و ثبت‌نام
+  DEFERRED source_daily | try 0/3 | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+  DEFERRED source_daily | try 0/3 | GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents
+  DEFERRED source_daily | try 0/3 | Australia's central bank finds AI hitting young workers first, especially in software and customer service
+  DEFERRED source_daily | try 0/3 | Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 68h | Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU
+DEFERRED_EXHAUSTED 6
+SLOT_ALREADY_DONE 2026-11-15T17:00+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-15T14:15:30Z
+# گزارش روزانه 2026-11-15 (یکشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 4 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 0
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.007312
+- توکن: 71015
+- میانگین هر پست ارسال‌شده: $0.001828
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 4 | 31 | 27 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 2 | 11 | 9 |
+| مجموع | 9 | 77 | 68 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000306 | 9325 | اصول موشن‌دیزاین برای ایجنت‌های هوش مصنوعی منتشر شد |
+| 11:30 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.001889 | 20133 | نزدیک ۷۰ درصد سازمان‌های آمریکایی از هوش مصنوعی استفاده می‌کنند |
+| 11:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001608 | 10706 | ساخت شبیه‌ساز ربات با دارایی‌های SimReady |
+| 14:00 |  | خالی | — | $0.001338 | 9031 |  |
+| 17:00 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.002171 | 21820 | پروژه صفر گوگل مهلت افشا را به ۳۰ روز کاهش می‌دهد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 14
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 8، جزئیات ابزار کامل نشد 1، لینک قابل استفاده ندارد 2
+- واجد شرایط کانال اصلی: 1
+
+## صف تعویق
+- در انتظار: 48
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-15.md
