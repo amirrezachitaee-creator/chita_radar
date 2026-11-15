@@ -1,0 +1,157 @@
+RUN 43738650919 | send/main | slot auto | 2026-11-15T17:00:58Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-15T20:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 4/31 | models 1/24 | security 2/11 | business 2/11
+DAILY 4/11
+DIVERSITY_TARGET models | slot 20:30
+DEFERRED_POOL 39
+  DEFERRED category_consecutive | try 0/3 | 🔥مدل‌های رایگان، بدون کلید و ثبت‌نام
+  DEFERRED source_daily | try 0/3 | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+  DEFERRED source_daily | try 0/3 | GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents
+  DEFERRED source_daily | try 0/3 | Australia's central bank finds AI hitting young workers first, especially in software and customer service
+  DEFERRED source_daily | try 0/3 | Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 65h | Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU
+DEFERRED_EXHAUSTED 6
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=201 nodate=0 nonai=1 dup=28 dup_other=0 kept=63 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=317 pending=26 leads=11 nolink=8 nonai=1 denied=7 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0
+MEMORY lanes=main:402,review:13 delivered=415 window=30d
+STORY_DUPLICATES 1 skipped=worked_story
+  STORY_DUPLICATE هوش مصنوعی | محمد زمانی | 🤖گزارش‌هایی از لو رفتن اطلاعات یه مدل جدید به اسم Gemini 4 Helix منتشر شده که | already main: 🚀 مدل جدید Gemini 4 Hydrogen منتشر شد!
+REVIEW_LEADS 4 separate_from_main=yes cap=none
+  REVIEW_ITEM id=af846ebfb8 message=300
+  REVIEW_REQUIRED reason=denied_link sent=300
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/20-30-79a59693
+  REVIEW_ITEM id=655a80d453 message=301
+  REVIEW_REQUIRED reason=denied_link sent=301
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/20-30-aa86f3e2
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | ✅ اسکن غذاها با Galaxy AI برای تخمین کالری در سامسونگ Health | 339 chars
+  REVIEW_ITEM id=8f6bae958a message=302
+  REVIEW_REQUIRED reason=denied_link sent=302
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/20-30-0ecaf9a8
+REVIEW_DRAFT MatinSenPaii | مدیرعامل سابق انویدیا جلوی ۳۰ تا از مدیرهاش به معاون فروشش گفته امیدوارم بمیری(فکر نمی‌کنم درست | 894 chars
+  REVIEW_ITEM id=e6e01cc87d message=303
+  REVIEW_REQUIRED reason=denied_link sent=303
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/20-30-fb1381e9
+TELEGRAM_EDU_LEADS 3 selected=3 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD dunijet_ai | education | اول اینکه صفحه اصلی سایت شده یه چت بات
+  EDU_LEAD dunijet_ai | education | دوست داشتم بتونم یه جورایی هوش مصنوعی و دوره های ویدیویی رو ترکیب کنم بلاخره شد
+  EDU_LEAD dunijet_ai | education | قسمت چت هم گروه پشتیبانی دوره ای که خریدی رو داره
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_REVIEW leads=3 sent=2 ids=304,305 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/20-30-education/education.txt
+  EDU_REVIEW_SEND_FAILED TELEGRAM_REQUEST_FAILED
+RELEVANCE candidates=55 kept=29 dropped=26
+  SKIP_NOT_AI Product Hunt | Perit Marketplace
+  SKIP_NOT_AI TechCrunch | Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide
+  SKIP_NOT_AI TechCrunch | Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price
+  SKIP_NOT_AI TechCrunch | This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board
+  SKIP_NOT_AI Product Hunt | Rakazo
+  SKIP_NOT_AI arXiv | Consistent Video-to-Video Translation via Explicit Correspondences
+  SKIP_NOT_AI arXiv | Sketching Language Models for Context Attribution
+  SKIP_NOT_AI TechCrunch | The tech products we enthusiastically recommend this holiday season
+  SKIP_NOT_AI ... +18 more
+DIVERSITY target=models queue=3 fresh=7 deferred=39 rejected=source_daily:18,category_consecutive:3
+  DIVERSITY_QUEUE models:Google Models & Research | tools:ArchiveTell | tools:تِک‌این | آموزش و فناوری
+QUEUE_SKIPPED 33
+  QUEUE_SKIP source_daily | The Decoder | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+  QUEUE_SKIP source_daily | Code.Cloud | کـــد کلاد | GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents
+  QUEUE_SKIP source_daily | The Decoder | Australia's central bank finds AI hitting young workers first, especially in software and customer service
+  QUEUE_SKIP source_daily | The Decoder | Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU
+  QUEUE_SKIP source_daily | The Decoder | Anthropic CEO Amodei admits "there's a huge uncertainty in what's going to happen next year" days before a record IPO
+  QUEUE_SKIP source_daily | The Decoder | Anthropic says outdated prompting habits are slowing down Claude Opus 5.5
+  QUEUE_SKIP source_daily | The Decoder | OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary
+  QUEUE_SKIP source_daily | The Decoder | Anthropic can already retrain Mythos with "a fraction of the compute originally needed," says former researcher Coxon
+  QUEUE_SKIP source_daily | The Decoder | Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls
+  QUEUE_SKIP source_daily | The Decoder | Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows
+  QUEUE_SKIP ... +23 more
+QUEUE_HELD 4
+  QUEUE_HOLD source_daily | The Decoder | Anthropic's Claude Fable 5.2 doesn't generate images, it paints them
+  QUEUE_HOLD category_consecutive | TechCrunch | Where was Nvidia’s security team?
+  QUEUE_HOLD category_consecutive | Ars Technica AI | Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash
+  QUEUE_HOLD category_consecutive | Ars Technica AI | Google faces calls for AI moratoriums in schools after Gemini pilot backlash
+ATTEMPT 1/3 | deferred 1/3 Google Models & Research | Gemini 4 Hydrogen: everyday coding and agentic workflows for developers | 35h
+  TOOL_LINK candidate https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen | score 55
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QA_FAILED category_fresh | one repair retry
+  REPAIR_QA FAIL | score 42/43 | problems category_fresh | warnings none | kept original
+  QA_FAILED category_fresh | score 42/43
+ATTEMPT 2/3 | deferred 0/3 ArchiveTell | 🔥مدل‌های رایگان، بدون کلید و ثبت‌نام | 0.5h
+  TOOL_LINK candidate https://github.com/Ebony-Vinyl/dsh-our-free-model | score 100
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  REVIEW_ITEM id=ffb7a9e726 message=306
+  REVIEW_REQUIRED reason=model_skip sent=306
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/20-30-81a7dc55
+  MODEL_SKIP unverified | منبع خبر یک ریپازیتوری گیت‌هاب با محتوای فنی نصب افزونه است و هیچ منبع رسمی یا رسانه‌ای برای تأیید ادعای «دسترسی رایگان 
+ATTEMPT 3/3 تِک‌این | آموزش و فناوری | ✅ دوره ChatGPT و Bard؛ راهنمای کامل تولید محتوا با هوش مصنوعی | 3.4h
+  CONTENT_SUPPLEMENT +699 chars telegram
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  REVIEW_ITEM id=888d2be7ec message=307
+  REVIEW_REQUIRED reason=model_skip sent=307
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/20-30-ac863069
+  MODEL_SKIP promo | محتوای ورودی یک دوره آموزشی غیررسمی است که برای فروش تبلیغ می‌شود و منبع رسمی شرکت سازنده ابزارها نیست؛ در حالت خودکار چ
+RESULT EMPTY attempts=7 reviews=6 deferred=47 | cost $0.005209 | tokens 69303
+  EMPTY_ATTEMPT review reason=denied_link | 💎 100 میلیون توکن deepseek v4.1 flash رایگان، هر روز.
+  EMPTY_ATTEMPT review reason=denied_link | ساخت ویدیو های 4K با Seedance 2.5 تا 30 ثانیه
+  EMPTY_ATTEMPT review reason=denied_link | ✅ اسکن غذاها با Galaxy AI برای تخمین کالری در سامسونگ Health
+  EMPTY_ATTEMPT review reason=denied_link | مدیرعامل سابق انویدیا جلوی ۳۰ تا از مدیرهاش به معاون فروشش گفته امیدوارم بمیری(فکر نمی‌کنم درست
+  EMPTY_ATTEMPT qa_failed | Gemini 4 Hydrogen: everyday coding and agentic workflows for developers
+  EMPTY_ATTEMPT review reason=model_skip | GitHub - Ebony-Vinyl/dsh-our-free-model: 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.
+  EMPTY_ATTEMPT review reason=model_skip | دوره ChatGPT و Bard: راهنمای کامل تولید محتوا با هوش مصنوعی
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-15T17:03:42Z
+# گزارش روزانه 2026-11-15 (یکشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 4 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4، خالی 2
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 5
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 2
+- اسلات‌های خالی: 2
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.012521
+- توکن: 140318
+- میانگین هر پست ارسال‌شده: $0.003130
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 4 | 31 | 27 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 2 | 11 | 9 |
+| مجموع | 9 | 77 | 68 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000306 | 9325 | اصول موشن‌دیزاین برای ایجنت‌های هوش مصنوعی منتشر شد |
+| 11:30 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.001889 | 20133 | نزدیک ۷۰ درصد سازمان‌های آمریکایی از هوش مصنوعی استفاده می‌کنند |
+| 11:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001608 | 10706 | ساخت شبیه‌ساز ربات با دارایی‌های SimReady |
+| 14:00 |  | خالی | — | $0.001338 | 9031 |  |
+| 17:00 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.002171 | 21820 | پروژه صفر گوگل مهلت افشا را به ۳۰ روز کاهش می‌دهد |
+| 20:30 |  | خالی | — | $0.005209 | 69303 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 20
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 12، جزئیات ابزار کامل نشد 1، لینک قابل استفاده ندارد 2، مدل این مورد را رد کرد 2
+- واجد شرایط کانال اصلی: 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 47
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-15.md
