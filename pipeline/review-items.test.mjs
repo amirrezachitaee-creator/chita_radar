@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
   createReviewItem,
+  deleteKeyboard,
   emptyReviewStore,
   keyboardFor,
   loadReviewStore,
@@ -64,6 +65,11 @@ test('callback data round-trips and rejects anything outside the tiny menu', () 
   assert.equal(parseReviewCallback(`rv1|x|${id}|bogus`), null);
   assert.equal(parseReviewCallback(`rv1|p|${id}|injected`), null);
   assert.equal(parseReviewCallback('rv1|p|../../etc'), null);
+  assert.equal(parseReviewCallback('rv1|d|00000000').action, 'd');
+  assert.deepEqual(deleteKeyboard().inline_keyboard[0][0], {
+    text: '🗑 حذف',
+    callback_data: 'rv1|d|00000000',
+  });
   assert.throws(() => reviewCallback('z', id), /BAD_REVIEW_ACTION/);
   assert.throws(() => reviewCallback('p', 'bad'), /BAD_REVIEW_ID/);
 });

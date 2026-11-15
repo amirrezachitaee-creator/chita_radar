@@ -60,6 +60,7 @@ import {
 import {
   emptyReviewStore,
   createReviewItem,
+  deleteKeyboard,
   keyboardFor,
   loadReviewStore,
   saveReviewStore,
@@ -1202,6 +1203,7 @@ async function main() {
     if (SEND && config.telegram_discovery?.education_review !== false && REVIEW_CHAT_ID) {
       for (const { candidate, messages, photo } of prepared) {
         let leadSent = 0;
+        const replyMarkup = REVIEW_ACTIONS_ENABLED ? deleteKeyboard() : null;
         for (const [index, message] of messages.entries()) {
           if (sentAnything) await sleep(1200);
           try {
@@ -1212,10 +1214,12 @@ async function main() {
                 ? await sendPhotoUrl(message, photo, {
                     token: env.TELEGRAM_BOT_TOKEN,
                     chatId: REVIEW_CHAT_ID,
+                    replyMarkup,
                   })
                 : await sendText(message, {
                     token: env.TELEGRAM_BOT_TOKEN,
                     chatId: REVIEW_CHAT_ID,
+                    replyMarkup,
                   });
             } catch (error) {
               if (!usePhoto) throw error;
@@ -1223,6 +1227,7 @@ async function main() {
               sent = await sendText(message, {
                 token: env.TELEGRAM_BOT_TOKEN,
                 chatId: REVIEW_CHAT_ID,
+                replyMarkup,
               });
             }
             if (sent.messageId) sentIds.push(sent.messageId);

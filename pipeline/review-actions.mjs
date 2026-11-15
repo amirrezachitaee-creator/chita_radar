@@ -30,9 +30,7 @@ import {
   parseReviewCallback,
   pruneReviewStore,
   recordReviewAction,
-  rejectKeyboard,
   removeKeyboard,
-  REJECT_REASONS,
   rewriteCountForDay,
   saveReviewStore,
 } from './review-items.mjs';
@@ -65,6 +63,9 @@ const MAX_ACTIONS = Math.max(
   1,
   Number(MAX_ACTIONS_ARG || ACTION_SETTINGS.poll_max_actions || 10) || 10
 );
+const POLL_SECONDS = Math.max(0, Number(option('--poll-seconds', '0')) || 0);
+const POLL_TIMEOUT = POLL_SECONDS > 0 ? 50 : 0;
+const POLL_HTTP_TIMEOUT = POLL_SECONDS > 0 ? 55000 : 30000;
 
 const STATE_PATH = resolve(ROOT, option('--state', 'data/state.json'));
 const REVIEW_STATE_PATH = resolve(ROOT, option('--review-state', 'data/state.review.json'));
@@ -189,13 +190,29 @@ async function setCardTag(messageId, card, tag, detail = '') {
   }
 }
 
-async function deleteCard(messageId) {
-  if (!SEND || !messageId) return;
+async function deleteCard(messageId, card = null) {
+  if (!SEND || !messageId) return false;
   try {
     await deleteMessage(messageId, { token: TOKEN, chatId: REVIEW_CHAT_ID });
+    return true;
   } catch (error) {
     log(`CARD_DELETE_FAILED ${messageId} ${String(error?.message ?? error)}`);
+    const { text } = card ? cleanReviewMessage(card) : { text: '' };
+    if (text) {
+      try {
+        await editMessageText(`❌ رد شد\n\n${text}`, {
+          token: TOKEN,
+          chatId: REVIEW_CHAT_ID,
+          messageId,
+          replyMarkup: removeKeyboard(),
+        });
+        return false;
+      } catch (tagError) {
+        log(`CARD_TAG_FAILED ${messageId} ${String(tagError?.message ?? tagError)}`);
+      }
+    }
     await setKeyboard(messageId, null);
+    return false;
   }
 }
 
@@ -245,13 +262,6 @@ function cleanReviewMessage(item) {
   return { text: postText(item.post), html: postHtml(item.post) };
 }
 
-async function handleRejectMenu(review, query) {
-  const { item, error } = activeItem(review, query);
-  if (error) return notify(error);
-  await answer(query.id, 'دلیل رد را انتخاب کن.');
-  await setKeyboard(item.messageId, rejectKeyboard(item.id));
-}
-
 async function handleBack(review, query) {
   const { item, error } = activeItem(review, query);
   if (error) return notify(error);
@@ -259,11 +269,30 @@ async function handleBack(review, query) {
   await setKeyboard(item.messageId, keyboardFor(item, { rewriteCap: REWRITE_CAP }));
 }
 
+async function handleDeleteMessage(query) {
+  const message = query?.message ?? {};
+  const messageId = Number(message.message_id ?? 0);
+  if (!messageId) {
+    await answer(query.id, 'این پیام قابل حذف نیست.');
+    return;
+  }
+  await answer(query.id, 'حذف شد.');
+  if (!SEND) {
+    log(`DRY_DELETE message=${messageId}`);
+    return;
+  }
+  try {
+    await deleteMessage(messageId, { token: TOKEN, chatId: REVIEW_CHAT_ID });
+    log(`REVIEW_MESSAGE_DELETED message=${messageId}`);
+  } catch (error) {
+    log(`CARD_DELETE_FAILED ${messageId} ${String(error?.message ?? error)}`);
+  }
+}
+
 async function handleReject(review, query) {
   const { item, error } = activeItem(review, query);
   if (error) return notify(error);
-  const reason = REJECT_REASONS[review.extra] ?? review.extra;
-  await answer(query.id, 'رد ثبت شد.');
+  await answer(query.id, 'رد شد؛ پیام پاک می‌شود.');
   const at = new Date().toISOString();
   recordReviewAction(store, {
     item,
@@ -284,9 +313,10 @@ async function handleReject(review, query) {
     url: item.url,
   });
   await persist();
-  await deleteCard(item.messageId);
-  log(`REVIEW_REJECTED id=${item.id} reason=${review.extra} | ${item.title}`);
-  await notify(`رد شد: ${reason}\n${item.title}`);
+  const deleted = await deleteCard(item.messageId, item);
+  log(
+    `REVIEW_REJECTED id=${item.id} reason=${review.extra} deleted=${deleted ? 'yes' : 'no'} | ${item.title}`
+  );
   return null;
 }
 
@@ -599,41 +629,24 @@ async function dispatch(update) {
     await answer(query.id, text);
     return { handled: true };
   }
+  if (review.action === 'd') {
+    await handleDeleteMessage(query);
+    return { handled: true };
+  }
   if (review.action === 'p') await handlePublish(review, query);
   else if (review.action === 'w') await handleRewrite(review, query);
   else if (review.action === 'x') await handleReject(review, query);
-  else if (review.action === 'r') await handleRejectMenu(review, query);
+  else if (review.action === 'r') await handleReject({ ...review, extra: 'other' }, query);
   else await handleBack(review, query);
   return { handled: true };
 }
 
-async function main() {
-  let updates = [];
-  if (UPDATES_FILE) {
-    const raw = JSON.parse(await readFile(resolve(ROOT, UPDATES_FILE), 'utf8'));
-    updates = Array.isArray(raw) ? raw : Array.isArray(raw?.result) ? raw.result : [];
-  } else if (SEND) {
-    try {
-      updates = await getUpdates({
-        token: TOKEN,
-        offset: Number(store.offset) || 0,
-        limit: MAX_ACTIONS,
-        timeout: 0,
-      });
-    } catch (error) {
-      log(`GET_UPDATES_FAILED ${String(error?.message ?? error)}`);
-      process.exit(1);
-    }
-  } else {
-    log('DRY_NO_UPDATES pass --updates <file> to preview actions');
-    return;
-  }
-
+async function runUpdates(updates) {
   const callbacks = updates.filter((update) => update?.callback_query).slice(0, MAX_ACTIONS);
   log(
     `REVIEW_ACTIONS updates=${updates.length} callbacks=${callbacks.length} offset=${
       Number(store.offset) || 0
-    } mode=${SEND ? 'live' : 'dry'}`
+    } mode=${SEND ? 'live' : 'dry'} poll=${POLL_SECONDS}s`
   );
   let handled = 0;
   let failed = 0;
@@ -658,6 +671,49 @@ async function main() {
       await persistStore();
     }
   }
+  return { handled, failed };
+}
+
+async function main() {
+  if (!UPDATES_FILE && !SEND) {
+    log('DRY_NO_UPDATES pass --updates <file> to preview actions');
+    return;
+  }
+
+  let handled = 0;
+  let failed = 0;
+  let cycles = 0;
+
+  if (UPDATES_FILE) {
+    const raw = JSON.parse(await readFile(resolve(ROOT, UPDATES_FILE), 'utf8'));
+    const updates = Array.isArray(raw) ? raw : Array.isArray(raw?.result) ? raw.result : [];
+    const result = await runUpdates(updates);
+    handled += result.handled;
+    failed += result.failed;
+  } else {
+    const deadline = Date.now() + POLL_SECONDS * 1000;
+    while (true) {
+      let updates;
+      try {
+        updates = await getUpdates({
+          token: TOKEN,
+          offset: Number(store.offset) || 0,
+          limit: MAX_ACTIONS,
+          timeout: POLL_TIMEOUT,
+          timeoutMs: POLL_HTTP_TIMEOUT,
+        });
+      } catch (error) {
+        log(`GET_UPDATES_FAILED ${String(error?.message ?? error)}`);
+        if (cycles === 0) process.exit(1);
+        break;
+      }
+      cycles += 1;
+      const result = await runUpdates(updates);
+      handled += result.handled;
+      failed += result.failed;
+      if (!POLL_SECONDS || Date.now() + 5000 >= deadline) break;
+    }
+  }
 
   const pruned = pruneReviewStore(store, NOW, {
     days: Number(ACTION_SETTINGS.pending_ttl_days ?? 14) || 14,
@@ -666,7 +722,7 @@ async function main() {
   });
   if (SEND) await persistStore();
   log(
-    `REVIEW_ACTIONS_DONE handled=${handled} failed=${failed} pruned=${pruned} rewrites_today=${rewriteCountForDay(
+    `REVIEW_ACTIONS_DONE handled=${handled} failed=${failed} cycles=${cycles} pruned=${pruned} rewrites_today=${rewriteCountForDay(
       store,
       NOW
     )}`

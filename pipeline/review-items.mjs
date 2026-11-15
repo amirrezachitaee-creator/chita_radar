@@ -24,7 +24,7 @@ const REJECT_LABELS = Object.freeze({
   other: 'دلیل دیگر',
 });
 
-const CALLBACK_PATTERN = /^rv1\|([mrxwps])\|([a-f0-9]{8,12})(?:\|([a-z]{1,12}))?$/;
+const CALLBACK_PATTERN = /^rv1\|([mrxwpsd])\|([a-f0-9]{8,12})(?:\|([a-z]{1,12}))?$/;
 
 export function emptyReviewStore() {
   return {
@@ -177,6 +177,12 @@ export function rejectKeyboard(id) {
       [reason('duplicate'), reason('quality')],
       [reason('other'), { text: 'بازگشت', callback_data: reviewCallback('m', id) }],
     ],
+  };
+}
+
+export function deleteKeyboard() {
+  return {
+    inline_keyboard: [[{ text: '🗑 حذف', callback_data: 'rv1|d|00000000' }]],
   };
 }
 

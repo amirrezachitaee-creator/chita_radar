@@ -103,7 +103,20 @@ jobs:
           }
           running="$(count in_progress)"
           waiting="$(count queued)"
-          if [ "${running:-0}" != "0" ] || [ "${waiting:-0}" != "0" ]; then
+          busy=true
+          attempt=0
+          while [ "${attempt}" -lt 10 ]; do
+            if [ "${running:-0}" = "0" ] && [ "${waiting:-0}" = "0" ]; then
+              busy=false
+              break
+            fi
+            attempt=$((attempt + 1))
+            echo "SLOT_BUSY_WAIT attempt=${attempt} running=${running} queued=${waiting}"
+            sleep 30
+            running="$(count in_progress)"
+            waiting="$(count queued)"
+          done
+          if [ "${busy}" = "true" ]; then
             echo "busy=true" >> "$GITHUB_OUTPUT"
             echo "SLOT_BUSY running=${running} queued=${waiting}"
           else
@@ -116,15 +129,18 @@ jobs:
         run: |
           set -euo pipefail
           args=()
-          if [ "${MODE}" = "send" ]; then args+=(--send); fi
+          if [ "${MODE}" = "send" ]; then args+=(--send --poll-seconds 570); fi
           {
             echo "RUN ${GITHUB_RUN_ID} | ${MODE} | $(date -u +%FT%TZ)"
             echo "RUN_ARGS ${args[*]:-dry}"
           }
+          echo "RUN_STARTED=$(date -u +%FT%TZ)" >> "$GITHUB_ENV"
           node pipeline/review-actions.mjs "${args[@]}" 2>&1 | node pipeline/mask-log.mjs
 
       - name: Commit state
         if: always() && steps.gate.outputs.busy != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           if [ ! -d .git ]; then echo "NO_GIT_CHECKOUT"; exit 0; fi
@@ -135,6 +151,15 @@ jobs:
           if [ ${#files[@]} -eq 0 ]; then
             echo "STATE_UNCHANGED"
             exit 0
+          fi
+          if [ -n "${RUN_STARTED:-}" ]; then
+            api="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/workflows/slot-runner.yml/runs?per_page=100"
+            body="$(curl -sS --max-time 20 -H "Authorization: Bearer ${GH_TOKEN}" "${api}" || true)"
+            overlap="$(printf '%s' "${body}" | jq -r --arg t "${RUN_STARTED}" '[.workflow_runs[]? | select(.created_at >= $t)] | length' 2>/dev/null || echo 0)"
+            if [ "${overlap:-0}" != "0" ]; then
+              echo "STATE_SKIPPED_SLOT_OVERLAP count=${overlap}"
+              exit 0
+            fi
           fi
           git add "${files[@]}"
           git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): review-actions ${GITHUB_RUN_ID}"

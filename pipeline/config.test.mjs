@@ -475,7 +475,10 @@ test('the action poller keeps its own queue and defers to a busy slot', () => {
   assert.match(actionsWorkflow, /now - 5400/);
   assert.equal(actionsWorkflow.includes('--force'), false, 'the poller must never force a run');
   assert.match(actionsWorkflow, /MODE: \$\{\{ github\.event\.inputs\.mode \|\| 'send' \}\}/);
-  assert.match(actionsWorkflow, /if \[ "\$\{MODE\}" = "send" \]; then args\+=\(--send\); fi/);
+  assert.match(actionsWorkflow, /if \[ "\$\{MODE\}" = "send" \]; then args\+=\(--send --poll-seconds 570\); fi/);
+  assert.match(actionsWorkflow, /SLOT_BUSY_WAIT/);
+  assert.match(actionsWorkflow, /RUN_STARTED/);
+  assert.match(actionsWorkflow, /STATE_SKIPPED_SLOT_OVERLAP/);
   assert.match(actionsWorkflow, /data\/review-feedback\.json/);
   assert.match(actionsWorkflow, /node pipeline\/review-actions\.mjs/);
   assert.match(actionsWorkflow, /rm -f \.env/);

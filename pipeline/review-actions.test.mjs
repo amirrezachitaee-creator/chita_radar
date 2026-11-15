@@ -126,18 +126,25 @@ async function run(updates, entries, now = NOW) {
   return output;
 }
 
-test('a reject callback is logged with its reason and leaves the store untouched', async () => {
+test('a reject callback is logged with its reason and deletes the card', async () => {
   const output = await run([update('x', 'deadbeef01', { extra: 'quality' })], [item()]);
-  assert.match(output, /REVIEW_REJECTED id=deadbeef01 reason=quality/);
-  assert.match(output, /DRY_NOTIFY رد شد: کیفیت پایین/);
+  assert.match(output, /REVIEW_REJECTED id=deadbeef01 reason=quality deleted=no/);
+  assert.match(output, /DRY_ANSWER رد شد؛ پیام پاک می‌شود/);
   assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
 });
 
-test('the reject menu and the back button are both previewed', async () => {
-  const menu = await run([update('r', 'deadbeef01')], [item()]);
-  assert.match(menu, /DRY_ANSWER دلیل رد را انتخاب کن/);
+test('the reject button deletes in one tap while the back button still works', async () => {
+  const tap = await run([update('r', 'deadbeef01')], [item()]);
+  assert.match(tap, /REVIEW_REJECTED id=deadbeef01 reason=other/);
+  assert.doesNotMatch(tap, /دلیل رد را انتخاب کن/);
   const back = await run([update('m', 'deadbeef01')], [item()]);
   assert.match(back, /DRY_ANSWER دکمه‌ها برگشتند/);
+});
+
+test('a delete callback removes a lead card without a stored item', async () => {
+  const output = await run([update('d', '00000000')], []);
+  assert.match(output, /DRY_ANSWER حذف شد/);
+  assert.match(output, /DRY_DELETE message=42/);
 });
 
 test('a rewrite preview shows the next keyboard with repeat rewrite and publish', async () => {

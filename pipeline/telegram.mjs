@@ -425,6 +425,7 @@ export async function sendPhotoUrl(caption, photoUrl, {
   baseUrl = 'https://api.telegram.org',
   timeoutMs = 30000,
   fetchImpl = fetch,
+  replyMarkup = null,
 }) {
   if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
   if (!chatId) throw new Error('TELEGRAM_CHAT_ID_MISSING');
@@ -444,6 +445,7 @@ export async function sendPhotoUrl(caption, photoUrl, {
         photo: String(photoUrl),
         caption: String(caption),
         disable_web_page_preview: true,
+        ...(replyMarkup ? { reply_markup: replyMarkup } : {}),
       }),
       signal: controller.signal,
     });

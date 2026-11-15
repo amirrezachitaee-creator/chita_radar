@@ -378,6 +378,23 @@ test('photo by URL sends the caption as JSON without a download', async () => {
     assert.equal(payload.caption, 'متن آموزش');
     assert.equal(payload.disable_web_page_preview, true);
     assert.equal('parse_mode' in payload, false);
+    assert.equal('reply_markup' in payload, false);
+  } finally {
+    server.close();
+  }
+});
+
+test('photo by URL can carry a delete keyboard', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  try {
+    await sendPhotoUrl('متن آموزش', 'https://example.com/a.jpg', {
+      token: 'TEST',
+      chatId: '1',
+      baseUrl,
+      replyMarkup: { inline_keyboard: [] },
+    });
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
+    assert.deepEqual(payload.reply_markup, { inline_keyboard: [] });
   } finally {
     server.close();
   }
