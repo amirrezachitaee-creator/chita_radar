@@ -10,6 +10,7 @@ import {
   deleteMessage,
   editMessageCaption,
   editMessageReplyMarkup,
+  editMessageText,
   formatTitle,
   getUpdates,
   sendPhotoUrl,
@@ -295,6 +296,31 @@ test('editing a caption uses editMessageCaption with HTML parse mode', async () 
     assert.equal(payload.message_id, 2);
     assert.equal(payload.parse_mode, 'HTML');
     assert.equal(payload.caption, '<b>عنوان</b>\n\nمتن');
+  } finally {
+    server.close();
+  }
+});
+
+test('editing text can replace the card and remove its keyboard', async () => {
+  const { server, baseUrl, requests } = await startMock();
+  try {
+    const result = await editMessageText('<b>✅ منتشر شد</b>\n\nمتن', {
+      token: 'TEST',
+      chatId: '1',
+      messageId: 4,
+      baseUrl,
+      parseMode: 'HTML',
+      replyMarkup: { inline_keyboard: [] },
+    });
+    assert.equal(result.method, 'editMessageText');
+    assert.equal(result.messageId, 43);
+    assert.equal(requests[0].url, '/botTEST/editMessageText');
+    const payload = JSON.parse(requests[0].body.toString('utf8'));
+    assert.equal(payload.chat_id, '1');
+    assert.equal(payload.message_id, 4);
+    assert.equal(payload.parse_mode, 'HTML');
+    assert.deepEqual(payload.reply_markup, { inline_keyboard: [] });
+    assert.equal(payload.text, '<b>✅ منتشر شد</b>\n\nمتن');
   } finally {
     server.close();
   }

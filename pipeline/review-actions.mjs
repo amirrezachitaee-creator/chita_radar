@@ -14,7 +14,9 @@ import {
 import { deliveredEntries, loadState, markSeen, saveState } from './store.mjs';
 import {
   answerCallbackQuery,
+  deleteMessage,
   editMessageReplyMarkup,
+  editMessageText,
   getUpdates,
   postHtml,
   postText,
@@ -33,7 +35,6 @@ import {
   REJECT_REASONS,
   rewriteCountForDay,
   saveReviewStore,
-  statusKeyboard,
 } from './review-items.mjs';
 import {
   draftReviewPost,
@@ -164,8 +165,38 @@ async function setKeyboard(messageId, keyboard) {
   }
 }
 
-async function setStatusKeyboard(messageId, text, id) {
-  await setKeyboard(messageId, statusKeyboard(id, text));
+async function setCardTag(messageId, card, tag, detail = '') {
+  if (!SEND || !messageId) return;
+  if (!card?.html && !card?.text) {
+    await setKeyboard(messageId, null);
+    return;
+  }
+  const tagHtml = detail ? `<b>${tag}</b>\n${detail}` : `<b>${tag}</b>`;
+  const tagText = detail ? `${tag}\n${detail}` : tag;
+  const html = card.html ? `${tagHtml}\n\n${card.html}` : '';
+  const text = `${tagText}\n\n${card.text}`;
+  try {
+    await editMessageText(html || text, {
+      token: TOKEN,
+      chatId: REVIEW_CHAT_ID,
+      messageId,
+      parseMode: html ? 'HTML' : '',
+      replyMarkup: removeKeyboard(),
+    });
+  } catch (error) {
+    log(`CARD_TAG_FAILED ${messageId} ${String(error?.message ?? error)}`);
+    await setKeyboard(messageId, null);
+  }
+}
+
+async function deleteCard(messageId) {
+  if (!SEND || !messageId) return;
+  try {
+    await deleteMessage(messageId, { token: TOKEN, chatId: REVIEW_CHAT_ID });
+  } catch (error) {
+    log(`CARD_DELETE_FAILED ${messageId} ${String(error?.message ?? error)}`);
+    await setKeyboard(messageId, null);
+  }
 }
 
 function itemKeysOf(item) {
@@ -253,7 +284,7 @@ async function handleReject(review, query) {
     url: item.url,
   });
   await persist();
-  await setStatusKeyboard(item.messageId, '✅ رد شد', item.id);
+  await deleteCard(item.messageId);
   log(`REVIEW_REJECTED id=${item.id} reason=${review.extra} | ${item.title}`);
   await notify(`رد شد: ${reason}\n${item.title}`);
   return null;
@@ -403,7 +434,12 @@ async function handleRewrite(review, query) {
     at: item.updatedAt,
   });
   await persistStore();
-  await setStatusKeyboard(oldMessageId, '✅ بازنویسی اعمال شد', item.id);
+  await setCardTag(
+    oldMessageId,
+    cleanReviewMessage({ post: snapshot.post }),
+    '✅ بازنویسی اعمال شد',
+    'نسخهٔ تازه در پیام بعدی است.'
+  );
   log(
     `REVIEW_REWRITTEN id=${item.id} attempt=${item.rewrites}/${REWRITE_CAP} manual=1 clean=1 qa=${
       item.qaPass ? 'PASS' : 'FAIL'
@@ -527,7 +563,12 @@ async function handlePublish(review, query) {
     at: item.sentAt,
   });
   await persist();
-  await setStatusKeyboard(item.messageId, '✅ منتشر شد', item.id);
+  await setCardTag(
+    item.messageId,
+    cleanReviewMessage(item),
+    '✅ منتشر شد',
+    'این نسخه به کانال اصلی رفت.'
+  );
   log(
     `REVIEW_PUBLISHED id=${item.id} slot=${slot} manual=${manual ? '1' : '0'} message=${
       sent.messageId ?? ''

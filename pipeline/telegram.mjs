@@ -236,6 +236,49 @@ export async function editMessageCaption(caption, {
   }
 }
 
+export async function editMessageText(text, {
+  token,
+  chatId,
+  messageId,
+  baseUrl = 'https://api.telegram.org',
+  timeoutMs = 30000,
+  fetchImpl = fetch,
+  parseMode = '',
+  replyMarkup = null,
+}) {
+  if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
+  if (!chatId) throw new Error('TELEGRAM_CHAT_ID_MISSING');
+  if (!messageId) throw new Error('TELEGRAM_MESSAGE_ID_MISSING');
+  if (!String(text ?? '').trim()) throw new Error('EMPTY_POST');
+
+  const payload = {
+    chat_id: chatId,
+    message_id: Number(messageId),
+    text,
+    disable_web_page_preview: false,
+  };
+  if (parseMode) payload.parse_mode = parseMode;
+  if (replyMarkup) payload.reply_markup = replyMarkup;
+
+  const url = `${baseUrl.replace(/\/$/, '')}/bot${token}/editMessageText`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(url, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: controller.signal,
+    });
+    return await readResult(response, 'editMessageText');
+  } catch (error) {
+    if (error?.message?.startsWith('TELEGRAM_') || error?.message === 'EMPTY_POST') throw error;
+    throw telegramRequestError(error);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 export async function deleteMessage(messageId, {
   token,
   chatId,

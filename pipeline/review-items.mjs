@@ -184,12 +184,6 @@ export function removeKeyboard() {
   return { inline_keyboard: [] };
 }
 
-export function statusKeyboard(id, text) {
-  return {
-    inline_keyboard: [[{ text: String(text), callback_data: reviewCallback('s', id) }]],
-  };
-}
-
 export function rewriteCountForDay(store, now) {
   const day = dateKey(now);
   return (store?.actions ?? []).filter(
