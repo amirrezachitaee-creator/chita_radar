@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T17:48:06.657Z",
+  "updatedAt": "2026-11-15T19:32:42.455Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9122,6 +9122,96 @@
       "title": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد",
       "url": "https://blog.cloudflare.com/kitesurf-open-source",
       "benchmark": false
+    },
+    "url:e36aa6e1247f7f4c": {
+      "at": "2026-11-15T19:31:49.848Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "📣 تلگرام یک دستیار مبتنی بر هوش مصنوعی جدید معرفی خواهد کرد.",
+      "url": "https://t.me/ArchiveTell/8420"
+    },
+    "title:39309adc030dc099": {
+      "at": "2026-11-15T19:31:49.848Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "📣 تلگرام یک دستیار مبتنی بر هوش مصنوعی جدید معرفی خواهد کرد.",
+      "url": "https://t.me/ArchiveTell/8420"
+    },
+    "url:5872c8a451f3c92b": {
+      "at": "2026-11-15T19:31:50.150Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "✅ تصویب تشکیل صندوق سرمایه‌گذاری خطرپذیر بورسی هوش‌مصنوعی",
+      "url": "https://t.me/techiin_ir/20781"
+    },
+    "title:b227b1c34377b3df": {
+      "at": "2026-11-15T19:31:50.150Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "✅ تصویب تشکیل صندوق سرمایه‌گذاری خطرپذیر بورسی هوش‌مصنوعی",
+      "url": "https://t.me/techiin_ir/20781"
+    },
+    "url:b7784e7fa6b0a4db": {
+      "at": "2026-11-15T19:31:50.398Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "ربات شخص سازی شده برای شرکت ها و بیزنس ها قابل سفارشه🙏🏼",
+      "url": "https://t.me/shayanode/208"
+    },
+    "title:640f4a87f0170e83": {
+      "at": "2026-11-15T19:31:50.398Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "ربات شخص سازی شده برای شرکت ها و بیزنس ها قابل سفارشه🙏🏼",
+      "url": "https://t.me/shayanode/208"
+    },
+    "url:238432e278b3a037": {
+      "at": "2026-11-15T19:32:15.223Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it"
+    },
+    "title:769c9e292a3c2406": {
+      "at": "2026-11-15T19:32:15.223Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it"
+    },
+    "url:61587a28dee20152": {
+      "at": "2026-11-15T19:32:42.452Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن",
+      "url": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
+    },
+    "title:8121ea25efb9523b": {
+      "at": "2026-11-15T19:32:42.452Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-15T23:00+03:30",
+      "title": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن",
+      "url": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
     }
   },
   "deferred": {
@@ -9215,52 +9305,6 @@
         "keys": [
           "url:b397ff4d002aefbd",
           "title:afa8524aec09855e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:84ec87286cb35a64": {
-      "id": "defer:url:84ec87286cb35a64",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:84ec87286cb35a64",
-        "title:7bce64ba39eb8d46"
-      ],
-      "canonical": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-        "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-        "canonical": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-        "published": "Thu, 12 Nov 2026 19:07:35 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-        "images": [],
-        "ageHours": 9.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:84ec87286cb35a64",
-          "title:7bce64ba39eb8d46"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9656,51 +9700,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:2547bd37d6ce9b91": {
-      "id": "defer:url:2547bd37d6ce9b91",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:2547bd37d6ce9b91",
-        "title:28d56e144b302b71"
-      ],
-      "canonical": "https://www.producthunt.com/products/gatrends",
-      "title": "GAtrends",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "GAtrends",
-        "link": "https://www.producthunt.com/products/gatrends",
-        "canonical": "https://www.producthunt.com/products/gatrends",
-        "published": "2026-11-12T10:54:12-08:00",
-        "summary": "<p> Spike alerts for your keywords in Telegram, Claude, ChatGPT </p> <p> <a href=\"https://www.producthunt.com/products/gatrends?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314471?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/gatrends",
-        "images": [],
-        "ageHours": 22.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:2547bd37d6ce9b91",
-          "title:28d56e144b302b71"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:1dcca899a4f1e514": {
       "id": "defer:url:1dcca899a4f1e514",
       "at": "2026-11-13T17:46:26.822Z",
@@ -9742,51 +9741,6 @@
         "keys": [
           "url:1dcca899a4f1e514",
           "title:97a93fcf6645c9e4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4bf61703e3df7593": {
-      "id": "defer:url:4bf61703e3df7593",
-      "at": "2026-11-13T17:46:26.822Z",
-      "firstAt": "2026-11-13T17:46:26.822Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4bf61703e3df7593",
-        "title:574998c1c9dfad91"
-      ],
-      "canonical": "https://www.producthunt.com/products/gemini-6",
-      "title": "Gemini 4 Hydrogen",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Gemini 4 Hydrogen",
-        "link": "https://www.producthunt.com/products/gemini-6",
-        "canonical": "https://www.producthunt.com/products/gemini-6",
-        "published": "2026-11-12T10:37:12-08:00",
-        "summary": "<p> Fast agentic development for coders </p> <p> <a href=\"https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314458?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/gemini-6",
-        "images": [],
-        "ageHours": 23.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4bf61703e3df7593",
-          "title:574998c1c9dfad91"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10487,54 +10441,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:238432e278b3a037": {
-      "id": "defer:url:238432e278b3a037",
-      "at": "2026-11-14T17:31:37.633Z",
-      "firstAt": "2026-11-14T17:31:37.633Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:238432e278b3a037",
-        "title:769c9e292a3c2406"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-        "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-        "canonical": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
-        "published": "Sat, 14 Nov 2026 17:30:00 +0000",
-        "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:238432e278b3a037",
-          "title:769c9e292a3c2406"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:05648108c87680dd": {
       "id": "defer:url:05648108c87680dd",
       "at": "2026-11-14T17:31:37.633Z",
@@ -10585,73 +10491,6 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
-    },
-    "defer:url:61587a28dee20152": {
-      "id": "defer:url:61587a28dee20152",
-      "at": "2026-11-14T19:30:59.402Z",
-      "firstAt": "2026-11-14T19:30:59.402Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:61587a28dee20152",
-        "title:8121ea25efb9523b"
-      ],
-      "canonical": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
-      "title": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن",
-        "link": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-        "canonical": "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
-        "messageText": "کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن\n\nشرکت OpenAI قابلیت Wallet رو راه انداخته که به ایجنت‌های داخل ChatGPT (به اسم dots) اجازه میده محصول رو انتخاب کنن و خرید رو تا آخر انجام بدن. فعلا فقط برای تعداد محدودی از مشترکین Pro آمریکا بالای ۱۸ سال با کارت ویزا، مسترکارت یا امریکن اکسپرس صادرشده در آمریکا فعاله.\n\nقبل از پرداخت، اقلام و مبلغ کل و کارت رو خودت تایید می‌کنی و با Face ID یا اثر انگشت نهایی میشه. کارت با یه توکن پرداخت شارژ میشه، نه شماره واقعی. آدرس و اطلاعات تماس هم خودکار به فروشنده می‌رسه و امتیاز و حمایت‌های کارت بانکی سر جاشه.\n\ntechcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/\n\n@dunijet_ai",
-        "leadPostUrl": "https://t.me/dunijet_ai/2549",
-        "published": "2026-11-14T19:27:02+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/JIS3zyCJuUuOF9Gx9P40rHXsM3NkCMFd2951l7VM6x4c-LLbKkfzEG9bPNfkpf-11tFfNdsXz1tV2y8oriLya3gWo5rzvpI1DZiSNPXBZEng8HEYTDx3qnYEzvkZs-pqeP60rEUhGQkcnt5C_LtikMHaQ5mVbbHGLU-4TKw6MtVikflGemt9LAa4FExjtAjOVqxcrHHWPJcsTTW42DBPPVaB1gjrLVDq0Z46C3Icgmt7NWD8ZPIkW3YJ7gXvTeaQv0rRe-7YKLJD5n4xfQoeFPCp7fEu3aijl9ps3NZkyr--eeeat8FU6Xnz3Hozk7K6uiKwfe4kLYGFUjdG6xRIDw.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "business",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:61587a28dee20152",
-          "title:8121ea25efb9523b"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2549,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "news",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
       }
     },
     "defer:url:9c481a0931060f36": {
@@ -11400,108 +11239,136 @@
         "leadKind": ""
       }
     },
-    "defer:url:d458704933992cfa": {
-      "id": "defer:url:d458704933992cfa",
-      "at": "2026-11-15T17:02:27.986Z",
-      "firstAt": "2026-11-15T17:02:27.986Z",
+    "defer:url:ea9a0aeacb77421e": {
+      "id": "defer:url:ea9a0aeacb77421e",
+      "at": "2026-11-15T19:31:50.410Z",
+      "firstAt": "2026-11-15T19:31:50.410Z",
       "attempts": 0,
-      "reason": "category_consecutive",
+      "reason": "source_daily",
       "reasons": [
-        "category_consecutive"
+        "source_daily"
       ],
       "keys": [
-        "url:d458704933992cfa",
-        "title:39c994869d9e03fa"
+        "url:ea9a0aeacb77421e",
+        "title:ce35625ab6ab63e9"
       ],
-      "canonical": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
-      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "canonical": "https://github.com/anefzaoui/misterdownloadmanager",
+      "title": "GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download",
       "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-        "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-        "canonical": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
-        "published": "Thu, 12 Nov 2026 19:23:03 +0000",
-        "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-500x500.jpg"
-        ],
-        "ageHours": 69.6,
+        "sourceId": "tg-codecloude",
+        "sourceName": "Code.Cloud | کـــد کلاد",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download",
+        "link": "https://github.com/anefzaoui/misterdownloadmanager",
+        "canonical": "https://github.com/anefzaoui/misterdownloadmanager",
+        "messageText": "یه رقیب رایگان برای IDM پیدا شده که ادعا می‌کنه حتی سریع‌تر هم دانلود می‌کنه! 🔥\n\nابزار Mister Download Manager با زبان Rust ساخته شده و بدون تبلیغات، محدودیت آزمایشی یا نیاز به ثبت‌نام، دانلود‌هات رو مدیریت می‌کنه.\n\nدانلود چندبخشی، ادامه دانلودهای قطع‌شده، پشتیبانی از تورنت و ویدیو، اتصال به مرورگر و حتی کنترل دانلودها با ایجنت‌های AI!\n\n✅جذاب‌تر اینکه از زبان فارسی و رابط راست‌چین هم پشتیبانی می‌کنه!\n\n💻 ویندوز و لینوکس؛ نسخه مک فعلاً آزمایشی\n🔗 رایگان و متن‌باز:\n\n💬💬📷Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
+        "leadPostUrl": "https://t.me/codecloude/2590",
+        "published": "2026-11-15T18:51:37+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.7,
         "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
+        "aiCentral": false,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/anefzaoui/misterdownloadmanager",
+          "http://codecloude.ir/"
+        ],
+        "offerHint": true,
+        "toolHint": false,
         "benchmark": false,
         "modelRelease": false,
         "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
+          "tools",
+          "models"
         ],
-        "categoryHint": "security",
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
         "keys": [
-          "url:d458704933992cfa",
-          "title:39c994869d9e03fa"
+          "url:ea9a0aeacb77421e",
+          "title:ce35625ab6ab63e9"
         ],
+        "leadSource": "codecloude",
+        "leadMessageId": 2590,
+        "leadChannelUrl": "https://t.me/codecloude",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "officialCourse": false
       }
     },
-    "defer:url:acfb8ed23481a99f": {
-      "id": "defer:url:acfb8ed23481a99f",
-      "at": "2026-11-15T17:02:27.986Z",
-      "firstAt": "2026-11-15T17:02:27.986Z",
+    "defer:url:b8e883efcced3c2a": {
+      "id": "defer:url:b8e883efcced3c2a",
+      "at": "2026-11-15T19:31:50.410Z",
+      "firstAt": "2026-11-15T19:31:50.410Z",
       "attempts": 0,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
       ],
       "keys": [
-        "url:acfb8ed23481a99f",
-        "title:f0795e12ebdd5f8c"
+        "url:b8e883efcced3c2a",
+        "title:fe9c1babb2f3577b"
       ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
-      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "canonical": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "title": "💸 با این ۶ پروژهٔ گیت‌هاب می‌تونی پول دربیاری",
       "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
-        "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
-        "published": "Thu, 12 Nov 2026 18:57:45 +0000",
-        "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-500x500-1794505063.jpeg"
-        ],
-        "ageHours": 70.1,
+        "sourceId": "tg-shayanode",
+        "sourceName": "Shayanode",
+        "sourceType": "telegram_channel",
+        "title": "💸 با این ۶ پروژهٔ گیت‌هاب می‌تونی پول دربیاری",
+        "link": "https://github.com/Anil-matcha/Open-Generative-AI",
+        "canonical": "https://github.com/Anil-matcha/Open-Generative-AI",
+        "messageText": "💸 با این ۶ پروژهٔ گیت‌هاب می‌تونی پول دربیاری\n\nمثلاً برای یه کسب‌وکار ویدیوی معرفی محصول بسازی، کمپین‌های تبلیغاتیش رو بررسی کنی یا کارهای تکراری تیمش رو خودکار کنی. ابزارهاش توی گیت‌هاب هستن؛ چیزی که می‌فروشی نتیجه‌ایه که برای مشتری می‌سازی.\n\nلینک مستقیم هرکدوم رو به ترتیب اسلایدها گذاشتم اینجا 👇\n\n۱. Open Generative AI | استودیوی ساخت عکس و ویدیو\nچند مدل ساخت تصویر و ویدیو رو توی یه محیط جمع می‌کنه و می‌تونی روی سرور خودت راهش بندازی.\n\n۲. FinceptTerminal | ترمینال تحلیل بازار\nبرای دیدن داده‌های اقتصادی، بررسی بازار و تحقیق دربارهٔ دارایی‌ها.\n\n۳. Claude Ads | بررسی کمپین‌های تبلیغاتی\nیه اسکیل برای Claude Code که کمک می‌کنه کمپین‌های گوگل، متا، تیک‌تاک و چند پلتفرم دیگه رو بررسی کنی و ازشون گزارش بگیری.\n\n۴. Vibe-Trading | تست استراتژی معاملاتی\nایده‌ات رو با زبان ساده توضیح می‌دی و روی داده‌های تاریخی تستش می‌کنی. نتیجهٔ بک‌تست تضمین سود نیست.\n\n۵. Camofox Browser | اتوماسیون مرورگر\nمرورگری برای ایجنت‌ها که کارهای تکراری وب رو توی صفحاتی که مجوز استفاده ازشون داری، خودکار می‌کنه.\n\n۶. HyperFrames | ساخت ویدیو با کد\nابزار HeyGen برای اینکه با HTML موشن‌گرافیک یا ویدیوی معرفی محصول بسازی و خروجی MP4 بگیری.\n\n📌 خود ریپوها عمومی‌ان، ولی بسته به ابزار، ممکنه برای مدل، API، داده یا سرور هزینه داشته باشی.\n\n━━━━━━━━━━━━━━\n\n🛒 خرید اکانت‌های هوش مصنوعی:\n\n🌐 خرید VPN مخصوص هوش مصنوعی:\n\n🚀 کانال آموزش و ابزارهای هوش مصنوعی:",
+        "leadPostUrl": "https://t.me/shayanode/207",
+        "published": "2026-11-15T19:11:31+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.3,
         "aiHint": true,
         "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/Anil-matcha/Open-Generative-AI",
+          "https://github.com/Fincept-Corporation/FinceptTerminal",
+          "https://github.com/AgriciDaniel/claude-ads",
+          "https://github.com/HKUDS/Vibe-Trading",
+          "https://github.com/jo-inc/camofox-browser",
+          "https://github.com/heygen-com/hyperframes"
+        ],
         "offerHint": false,
+        "toolHint": true,
         "benchmark": false,
         "modelRelease": false,
         "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
+          "tools",
+          "models"
         ],
-        "categoryHint": "security",
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
         "keys": [
-          "url:acfb8ed23481a99f",
-          "title:f0795e12ebdd5f8c"
+          "url:b8e883efcced3c2a",
+          "title:fe9c1babb2f3577b"
         ],
+        "leadSource": "shayanode",
+        "leadMessageId": 207,
+        "leadChannelUrl": "https://t.me/shayanode",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "officialCourse": false
       }
     }
   },
@@ -13301,6 +13168,14 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "43/43"
+    },
+    "2026-11-15T23:00+03:30": {
+      "at": "2026-11-15T19:32:42.452Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0027081264,
+      "tokens": 54447,
+      "posts": []
     }
   },
   "published": [
@@ -14501,89 +14376,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8419,
-      "last_at": "2026-11-15T16:00:24+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "last_id": 8420,
+      "last_at": "2026-11-15T19:08:48+00:00",
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "ai_farshad": {
-      "last_id": 6442,
-      "last_at": "2026-11-15T14:13:42+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "last_id": 6443,
+      "last_at": "2026-11-15T17:50:07+00:00",
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "Mohammad_zammani": {
       "last_id": 7215,
       "last_at": "2026-11-15T17:22:06+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "techiin_ir": {
-      "last_id": 20780,
-      "last_at": "2026-11-15T15:38:14+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "last_id": 20781,
+      "last_at": "2026-11-15T17:44:31+00:00",
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "web3nabu": {
-      "last_id": 2169,
-      "last_at": "2026-11-15T17:03:33+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "last_id": 2170,
+      "last_at": "2026-11-15T19:03:00+00:00",
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "asrnovin_ir": {
       "last_id": 11471,
       "last_at": "2026-11-15T16:33:29+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "shayanode": {
-      "last_id": 206,
-      "last_at": "2026-11-15T17:02:58+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "last_id": 208,
+      "last_at": "2026-11-15T19:12:25+00:00",
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "codecloude": {
-      "last_id": 2589,
-      "last_at": "2026-11-15T13:16:09+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "last_id": 2590,
+      "last_at": "2026-11-15T18:51:37+00:00",
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "dunijet_ai": {
-      "last_id": 2572,
-      "last_at": "2026-11-15T16:02:38+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "last_id": 2574,
+      "last_at": "2026-11-15T17:47:54+00:00",
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "MatinSenPaii": {
       "last_id": 5885,
       "last_at": "2026-11-15T14:40:08+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     },
     "thenimaonAI": {
       "last_id": 520,
       "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-15T17:31:39.673Z"
+      "checked_at": "2026-11-15T19:31:03.958Z"
     }
   },
   "offerReviews": [
@@ -17309,6 +17184,42 @@
       "reason": "model_skip",
       "slot": "2026-11-15T20:30+03:30",
       "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-archive-tell|https://t.me/ArchiveTell/8420",
+      "date": "2026-11-15",
+      "at": "2026-11-15T19:31:03.958Z",
+      "source": "tg-archive-tell",
+      "title": "📣 تلگرام یک دستیار مبتنی بر هوش مصنوعی جدید معرفی خواهد کرد.",
+      "url": "https://t.me/ArchiveTell/8420",
+      "reason": "denied_link",
+      "slot": "2026-11-15T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-techiin|https://t.me/techiin_ir/20781",
+      "date": "2026-11-15",
+      "at": "2026-11-15T19:31:03.958Z",
+      "source": "tg-techiin",
+      "title": "✅ تصویب تشکیل صندوق سرمایه‌گذاری خطرپذیر بورسی هوش‌مصنوعی",
+      "url": "https://t.me/techiin_ir/20781",
+      "reason": "denied_link",
+      "slot": "2026-11-15T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-shayanode|https://t.me/shayanode/208",
+      "date": "2026-11-15",
+      "at": "2026-11-15T19:31:03.958Z",
+      "source": "tg-shayanode",
+      "title": "ربات شخص سازی شده برای شرکت ها و بیزنس ها قابل سفارشه🙏🏼",
+      "url": "https://t.me/shayanode/208",
+      "reason": "denied_link",
+      "slot": "2026-11-15T23:00+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],
