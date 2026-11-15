@@ -469,6 +469,8 @@ test('the action poller keeps its own queue and defers to a busy slot', () => {
   assert.equal(actionsWorkflow.includes('cancel-in-progress: true'), false, 'a poll can cancel a run');
   assert.match(actionsWorkflow, /Slot busy check/);
   assert.match(actionsWorkflow, /actions\/workflows\/slot-runner\.yml\/runs/);
+  assert.match(actionsWorkflow, /fromdateiso8601/);
+  assert.match(actionsWorkflow, /now - 5400/);
   assert.equal(actionsWorkflow.includes('--force'), false, 'the poller must never force a run');
   assert.match(actionsWorkflow, /MODE: \$\{\{ github\.event\.inputs\.mode \|\| 'send' \}\}/);
   assert.match(actionsWorkflow, /if \[ "\$\{MODE\}" = "send" \]; then args\+=\(--send\); fi/);
