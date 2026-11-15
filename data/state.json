@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T17:03:42.585Z",
+  "updatedAt": "2026-11-15T17:32:52.022Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9086,6 +9086,42 @@
       "slot": "2026-11-15T20:30+03:30",
       "title": "✅ دوره ChatGPT و Bard؛ راهنمای کامل تولید محتوا با هوش مصنوعی",
       "url": "https://git.ir/p/MZpZR"
+    },
+    "url:38b9fa2c486c5d6e": {
+      "at": "2026-11-15T17:31:53.726Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-15T20:30+03:30",
+      "title": "🤖مدل جدید Claude Fable 5.2 کلمه «هرگز» (never) رو خیلی جدی و مطلق می‌گیره. یعنی اگه",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2"
+    },
+    "title:014783c1a1bb6b61": {
+      "at": "2026-11-15T17:31:53.726Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-15T20:30+03:30",
+      "title": "🤖مدل جدید Claude Fable 5.2 کلمه «هرگز» (never) رو خیلی جدی و مطلق می‌گیره. یعنی اگه",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2"
+    },
+    "url:a443b3b055385161": {
+      "at": "2026-11-15T17:32:52.020Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-15T20:30+03:30",
+      "title": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source",
+      "benchmark": false
+    },
+    "title:8f34101bea118fb3": {
+      "at": "2026-11-15T17:32:52.020Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-15T20:30+03:30",
+      "title": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -9914,68 +9950,6 @@
         }
       },
       "detail": "business"
-    },
-    "defer:url:a443b3b055385161": {
-      "id": "defer:url:a443b3b055385161",
-      "at": "2026-11-14T08:05:38.636Z",
-      "firstAt": "2026-11-14T08:05:38.636Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a443b3b055385161",
-        "title:8f34101bea118fb3"
-      ],
-      "canonical": "https://blog.cloudflare.com/kitesurf-open-source",
-      "title": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد",
-      "candidate": {
-        "sourceId": "tg-matin-senpai",
-        "sourceName": "MatinSenPaii",
-        "sourceType": "telegram_channel",
-        "title": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد",
-        "link": "https://blog.cloudflare.com/kitesurf-open-source/",
-        "canonical": "https://blog.cloudflare.com/kitesurf-open-source",
-        "messageText": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد\n\nبلاگ کلودفلر می‌گه Kitesurf، موتور مرورگر سبکی که برای ایجنت‌های AI ساخته، حالا با لایسنس Apache 2.0 روی گیت‌هابه و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍35❤17",
-        "leadPostUrl": "https://t.me/MatinSenPaii/5870",
-        "published": "2026-11-14T07:20:40+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn1.telesco.pe/file/YqUywH4uQnrXtp00bMB4DffT7pJkfMW4htmkICRcbhIwYLzLoEwiDc_d_VGqhjNZDdUZ9QjYraSwhjgAkG3_EeFJIf0APj1deQK8B07b9U-BRXMLzKkl4jbmQayCp90jkRg6vTZUtD2soxOHrBOVZsxWs62w3dJuNnDdmvmOGOP53f8pCEst-4XMdJqbcEcBh2cauKykV-bH0el5TJWxe69TQJYgGgjC6wCRXCqtpLJ7isV1vfh4nhJGTcxwZnIRTZPWpFDbykirGeaouU3uM-Iv69E4W8doMjUPC-HKQ2NmIWE9zHDJ5NksT381VjsHuPVzakvnjj1PTto9UxDWyQ.jpg"
-        ],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://blog.cloudflare.com/kitesurf-open-source"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:a443b3b055385161",
-          "title:8f34101bea118fb3"
-        ],
-        "leadSource": "MatinSenPaii",
-        "leadMessageId": 5870,
-        "leadChannelUrl": "https://t.me/MatinSenPaii",
-        "sourceFocus": "education",
-        "leadKind": "news",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
     },
     "defer:url:5e381957119e4d94": {
       "id": "defer:url:5e381957119e4d94",
@@ -13298,11 +13272,35 @@
     },
     "2026-11-15T20:30+03:30": {
       "at": "2026-11-15T17:03:42.583Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0052093048,
-      "tokens": 69303,
-      "posts": []
+      "cost": 0.00161406,
+      "tokens": 10693,
+      "posts": [
+        {
+          "title": "مرورگر بدون حالت Kitesurf از Cloudflare اوپن سورس شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 82,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00161406,
+          "tokens": 10693,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-15T17:32:52.020Z"
+        }
+      ],
+      "category": "tools",
+      "title": "مرورگر بدون حالت Kitesurf از Cloudflare اوپن سورس شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/20-30",
+      "messageId": 82,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "43/43"
     }
   },
   "published": [
@@ -14481,93 +14479,111 @@
       "sourceTitle": "Policy and Disclosure: 2026 Edition",
       "sourceText": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient.\nLLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.\nLLMs have also decreased the time it takes for attackers to reverse engineer and exploit a vulnerability based on a patch, to the extent that zero patch-to-exploitation time is a reasonable, though imperfect, model of attacker behavior. Patch soak time is no longer meaningful in a world where attackers can almost immediately determine bug details from a patch, and can put users at risk by creating a false sense of secrecy. “Patch gap” is the time between a fix being released for a security vulnerability and the user installing the relevant update. It is equally crucial that vendors reduce patch gap, either by reducing patch rollout time or using other strategies to protect users while remediation is in pro",
       "at": "2026-11-15T13:32:47.104Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-15T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "مرورگر بدون حالت Kitesurf از Cloudflare اوپن سورس شد",
+      "why": "اوپن سورس شدن یعنی تیم‌های کوچک هم می‌تونن مرورگر مخصوص ایجنت‌هاشون رو روی زیرساخت خودشون اجرا کنن و به API مدیریت‌شده Cloudflare وابسته نباشن.",
+      "dedupe_key": "cloudflare-kitesurf-open-source",
+      "post_key": "2026-11-15/20-30/1",
+      "sourceId": "tg-matin-senpai",
+      "sourceName": "MatinSenPaii",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "sourceTitle": "Kitesurf is now open source",
+      "sourceText": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد\n\nبلاگ کلودفلر می‌گه Kitesurf، موتور مرورگر سبکی که برای ایجنت‌های AI ساخته، حالا با لایسنس Apache 2.0 روی گیت‌هابه و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍35❤17",
+      "at": "2026-11-15T17:32:52.020Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8419,
       "last_at": "2026-11-15T16:00:24+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "ai_farshad": {
       "last_id": 6442,
       "last_at": "2026-11-15T14:13:42+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7214,
-      "last_at": "2026-11-15T14:45:13+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "last_id": 7215,
+      "last_at": "2026-11-15T17:22:06+00:00",
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "techiin_ir": {
       "last_id": 20780,
       "last_at": "2026-11-15T15:38:14+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "web3nabu": {
-      "last_id": 2168,
-      "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "last_id": 2169,
+      "last_at": "2026-11-15T17:03:33+00:00",
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "asrnovin_ir": {
       "last_id": 11471,
       "last_at": "2026-11-15T16:33:29+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "shayanode": {
-      "last_id": 205,
-      "last_at": "2026-11-15T16:26:19+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "last_id": 206,
+      "last_at": "2026-11-15T17:02:58+00:00",
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "codecloude": {
       "last_id": 2589,
       "last_at": "2026-11-15T13:16:09+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "dunijet_ai": {
       "last_id": 2572,
       "last_at": "2026-11-15T16:02:38+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "MatinSenPaii": {
       "last_id": 5885,
       "last_at": "2026-11-15T14:40:08+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     },
     "thenimaonAI": {
       "last_id": 520,
       "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-15T17:00:58.089Z"
+      "checked_at": "2026-11-15T17:31:39.673Z"
     }
   },
   "offerReviews": [
@@ -17579,7 +17595,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-15T11:09:36.867Z",
+      "lastCheck": "2026-11-15T17:31:39.673Z",
       "status": "active",
       "misses": 0
     }
