@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T10:32:31.539Z",
+  "updatedAt": "2026-11-15T11:11:03.655Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10325,9 +10325,9 @@
     },
     "defer:url:a99dfdd20d85acbb": {
       "id": "defer:url:a99dfdd20d85acbb",
-      "at": "2026-11-15T10:32:31.523Z",
+      "at": "2026-11-15T11:11:03.649Z",
       "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -10370,7 +10370,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:a99dfdd20d85acbb",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -10798,9 +10798,9 @@
     },
     "defer:url:9c481a0931060f36": {
       "id": "defer:url:9c481a0931060f36",
-      "at": "2026-11-15T10:32:31.471Z",
+      "at": "2026-11-15T11:11:03.607Z",
       "firstAt": "2026-11-15T05:07:42.748Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -10842,7 +10842,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:9c481a0931060f36",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "tools"
@@ -11319,6 +11319,120 @@
         "keys": [
           "url:945b3dc7df719915",
           "title:adebadb6315f15c1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:886299adc4b73faf": {
+      "id": "defer:url:886299adc4b73faf",
+      "at": "2026-11-15T11:09:49.531Z",
+      "firstAt": "2026-11-15T11:09:49.531Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:886299adc4b73faf",
+        "title:aebc7c8c2c3476f3"
+      ],
+      "canonical": "https://github.com/microsoft/TokenEconomizer",
+      "title": "GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
+      "candidate": {
+        "sourceId": "tg-codecloude",
+        "sourceName": "Code.Cloud | کـــد کلاد",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
+        "link": "https://github.com/microsoft/TokenEconomizer",
+        "canonical": "https://github.com/microsoft/TokenEconomizer",
+        "messageText": "هوش مصنوعی کدنویس داری؟ احتمالاً داری برای توکن‌های اضافی پول می‌دی!\n\nمایکروسافت با همکاری دانشگاه برکلی ابزاری به اسم TokenEconomizer ساخته که بدون تغییر مدل AI، هزینه استفاده از ایجنت‌های کدنویسی رو کاهش می‌ده!\n\nاین ابزار اطلاعات تکراری پروژه رو به خاطر می‌سپاره، ابزارهای غیرضروری رو کنار می‌ذاره و جلوی گیرکردن ایجنت توی چرخه خطاهای تکراری رو می‌گیره.\n\n🔥 نتیجه آزمایش‌ها؟ بین ۱۸ تا ۳۱ درصد کاهش هزینه در سناریوهای بررسی‌شده! سازگار با Claude Code، Codex و GitHub Copilot CLI.\n\n🔗 پروژه رایگان و متن‌باز:\n\n💬💬📷Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
+        "leadPostUrl": "https://t.me/codecloude/2588",
+        "published": "2026-11-15T10:54:10+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/microsoft/TokenEconomizer",
+          "http://codecloude.ir/"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:886299adc4b73faf",
+          "title:aebc7c8c2c3476f3"
+        ],
+        "leadSource": "codecloude",
+        "leadMessageId": 2588,
+        "leadChannelUrl": "https://t.me/codecloude",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:7e59a840b8400113": {
+      "id": "defer:url:7e59a840b8400113",
+      "at": "2026-11-15T11:09:49.531Z",
+      "firstAt": "2026-11-15T11:09:49.531Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7e59a840b8400113",
+        "title:98a472f5995eb26c"
+      ],
+      "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+        "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+        "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+        "published": "Sun, 15 Nov 2026 10:45:58 +0000",
+        "summary": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike Major cautions against jumping to conclusions, however, noting that business cycle shifts and remote work trends could also explain the numbers. The article Australia's central bank finds AI hitting young workers first, especially in software and customer service appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/ai_impact_australian_jobs.png"
+        ],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:7e59a840b8400113",
+          "title:98a472f5995eb26c"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13056,8 +13170,8 @@
       "at": "2026-11-15T10:32:31.533Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.0017410008000000002,
-      "tokens": 18812,
+      "cost": 0.0013384,
+      "tokens": 9031,
       "posts": []
     }
   },
@@ -14225,87 +14339,87 @@
     "ArchiveTell": {
       "last_id": 8413,
       "last_at": "2026-11-15T05:39:39+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "ai_farshad": {
-      "last_id": 6440,
-      "last_at": "2026-11-15T07:34:19+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "last_id": 6441,
+      "last_at": "2026-11-15T10:31:53+00:00",
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "Mohammad_zammani": {
       "last_id": 7213,
       "last_at": "2026-11-15T06:11:45+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "techiin_ir": {
       "last_id": 20777,
       "last_at": "2026-11-15T07:46:12+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "asrnovin_ir": {
       "last_id": 11469,
       "last_at": "2026-11-15T05:41:32+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "shayanode": {
-      "last_id": 199,
-      "last_at": "2026-11-15T10:01:37+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "last_id": 200,
+      "last_at": "2026-11-15T10:33:24+00:00",
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "codecloude": {
-      "last_id": 2586,
-      "last_at": "2026-11-15T04:48:41+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "last_id": 2588,
+      "last_at": "2026-11-15T10:54:10+00:00",
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "dunijet_ai": {
       "last_id": 2550,
       "last_at": "2026-11-15T03:31:29+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "MatinSenPaii": {
       "last_id": 5884,
       "last_at": "2026-11-15T10:29:02+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     },
     "thenimaonAI": {
       "last_id": 520,
       "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-15T10:30:50.433Z"
+      "checked_at": "2026-11-15T11:09:36.867Z"
     }
   },
   "offerReviews": [
@@ -17219,7 +17333,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-15T05:01:00.403Z",
+      "lastCheck": "2026-11-15T11:09:36.867Z",
       "status": "active",
       "misses": 0
     }
