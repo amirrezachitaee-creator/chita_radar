@@ -564,6 +564,10 @@
     },
     "fa76dc28f8": {
       "id": "fa76dc28f8",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-15T10:30:50.433Z",
+      "updatedAt": "2026-11-15T10:30:50.433Z",
       "messageId": 295,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T14:00+03:30",
@@ -629,10 +633,6 @@
         "dedupe_key": "schu-video-generator-launch"
       },
       "expiry": null,
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-15T10:30:50.433Z",
-      "updatedAt": "2026-11-15T10:30:50.433Z",
       "lastActionAt": "",
       "sentAt": ""
     }
