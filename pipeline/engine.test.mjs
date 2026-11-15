@@ -18,7 +18,6 @@ import {
   qaPost,
   trimBody,
   trimQuote,
-  trimTitle,
   TITLE_MAX_WORDS,
   clampText,
   buildUserMessage,
@@ -514,7 +513,7 @@ test('a missing source line is appended and source QA checks the last line', () 
   assert.equal(present.checks.find((check) => check.name === 'source').ok, true);
 });
 
-test('a tools post ends with the usage link and falls back to the source line', () => {
+test('a tools post keeps only the usage link and falls back to the source line', () => {
   const source = { sourceName: 'Google Blog', sourceUrl: 'https://blog.google/a' };
   const body = 'لید خبر.\n\nابزار چه ویژگی‌هایی دارد.\n\nاهمیتش اینه که کار کاربر ساده‌تر می‌شه.\n\nمنبع: [Google Blog](https://blog.google/a)';
   const fixed = ensureSourceLine(
@@ -522,7 +521,7 @@ test('a tools post ends with the usage link and falls back to the source line', 
     { ...source, usageUrl: 'https://gemini.google.com/', usageName: 'gemini.google.com' }
   );
   assert.ok(fixed.body.endsWith('لینک استفاده: [gemini.google.com](https://gemini.google.com/)'));
-  assert.ok(fixed.body.includes('منبع: [Google Blog](https://blog.google/a)'));
+  assert.equal(fixed.body.includes('منبع:'), false);
 
   const again = ensureSourceLine(
     fixed,
@@ -541,6 +540,36 @@ test('a tools post ends with the usage link and falls back to the source line', 
     { ...source, usageUrl: 'https://gemini.google.com/' }
   );
   assert.ok(otherCategory.body.endsWith('منبع: [Google Blog](https://blog.google/a)'));
+});
+
+test('a Telegram channel is never cited as the source', () => {
+  const body = 'لید خبر.\n\nجزئیات خبر.\n\nاهمیتش اینه که کار کاربر ساده‌تر می‌شه.';
+  const channel = { sourceName: 'Code.Cloud | کد کلاد', sourceType: 'telegram_channel' };
+
+  const article = ensureSourceLine(
+    { decision: 'publish', category: 'models', body },
+    { ...channel, sourceUrl: 'https://blog.example.com/post' }
+  );
+  assert.ok(article.body.endsWith('منبع: [blog.example.com](https://blog.example.com/post)'));
+  assert.equal(article.body.includes('Code.Cloud'), false);
+
+  const post = ensureSourceLine(
+    { decision: 'publish', category: 'models', body },
+    { ...channel, sourceUrl: 'https://t.me/codecloud/123' }
+  );
+  assert.equal(post.body, body);
+  assert.equal(post.body.includes('t.me'), false);
+
+  const repo = 'https://github.com/LottieFiles/motion-design-skill';
+  const tool = ensureSourceLine(
+    { decision: 'publish', category: 'tools', body },
+    { ...channel, sourceUrl: repo, usageUrl: repo, usageName: 'LottieFiles/motion-design-skill' }
+  );
+  assert.ok(
+    tool.body.endsWith('لینک استفاده: [LottieFiles/motion-design-skill](https://github.com/LottieFiles/motion-design-skill)')
+  );
+  assert.equal(tool.body.includes('Code.Cloud'), false);
+  assert.equal(tool.body.includes('منبع:'), false);
 });
 
 test('a tool page yields a grounded usage link and ignores nav and news paths', () => {
@@ -1061,25 +1090,6 @@ test('a post containing Chinese characters fails QA', () => {
   assert.ok(qa.problems.includes('script_clean'));
 });
 
-test('a long title is trimmed to the shared word limit and cleaned', () => {
-  const title = 'یک دو سه چهار پنج شش هفت هشت نه ده یازده دوازده سیزده **';
-  const trimmed = trimTitle(title);
-  assert.equal(countTitleWords(trimmed), TITLE_MAX_WORDS);
-  assert.equal(trimmed.endsWith('.'), false);
-  assert.equal(trimmed.includes('**'), false);
-  const compound = trimTitle('یک دو سه چهار پنج شش هفت هشت نه ده می‌شود دوازده سیزده');
-  assert.ok(countTitleWords(compound) <= TITLE_MAX_WORDS);
-});
-
-test('trimming a long title keeps the final verb instead of a bare help noun', () => {
-  const title = 'گوگل با هوش مصنوعی به احیای جنگل‌های کلپ غول‌پیکر کمک می‌کند';
-  const trimmed = trimTitle(title);
-  assert.ok(countTitleWords(trimmed) <= TITLE_MAX_WORDS, trimmed);
-  assert.ok(trimmed.startsWith('گوگل'), trimmed);
-  assert.ok(trimmed.endsWith('می‌کند'), trimmed);
-  assert.ok(!trimmed.endsWith('کمک'), trimmed);
-});
-
 test('an over-long body is trimmed without losing the source or the importance paragraph', () => {
   const importance = 'اهمیتش اینه که این ابزار زمان تیم را کم می‌کند.';
   const body = [
@@ -1106,7 +1116,7 @@ test('trimBody keeps the source and usage tails together', () => {
   assert.ok(trimmed.includes('اهمیتش'));
 });
 
-test('mechanical fixes repair title, body and quote before QA', () => {
+test('mechanical fixes leave an over-long title for QA and still trim body and quote', () => {
   const importance = 'اهمیتش اینه که کار تیم ساده‌تر می‌شه.';
   const parsed = {
     decision: 'publish',
@@ -1124,7 +1134,8 @@ test('mechanical fixes repair title, body and quote before QA', () => {
     sourceName: 'منبع',
     sourceUrl: 'https://example.com/a',
   });
-  assert.ok(trimTitle(fixed.title).split(/\s+/).filter(Boolean).length <= TITLE_MAX_WORDS);
+  assert.equal(fixed.title, parsed.title);
+  assert.ok(countTitleWords(fixed.title) > TITLE_MAX_WORDS);
   assert.ok(fixed.body.length <= 990);
   assert.ok(fixed.body.includes(importance));
   assert.ok(fixed.body.endsWith('منبع: [منبع](https://example.com/a)'));

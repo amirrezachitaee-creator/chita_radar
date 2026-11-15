@@ -126,6 +126,88 @@ test('a valid rewrite gets mechanical fixes and the same QA gate as the main lan
   assert.equal(result.reason, result.qa.pass ? 'ok' : 'qa_failed');
 });
 
+test('a tool rewrite cites the tool once and never the Telegram channel', async () => {
+  const repo = 'https://github.com/LottieFiles/motion-design-skill';
+  let story;
+  const result = await draftReviewPost({
+    item: baseItem({
+      url: repo,
+      sourceName: 'Code.Cloud | کد کلاد',
+      sourceType: 'telegram_channel',
+      relatedLinks: [repo],
+    }),
+    now: NOW,
+    request: async (input) => {
+      story = input;
+      return {
+        content: JSON.stringify({
+          ...JSON.parse(PUBLISH_JSON),
+          category: 'tools',
+          title: 'مهارت طراحی موشن برای هوش مصنوعی',
+          source_url: repo,
+        }),
+        usage: { cost: 0, total_tokens: 10 },
+      };
+    },
+  });
+  assert.equal(story.toolUrl, repo);
+  assert.ok(result.post);
+  assert.ok(
+    result.post.body.endsWith(`لینک استفاده: [LottieFiles/motion-design-skill](${repo})`),
+    result.post.body
+  );
+  assert.equal(result.post.body.includes('Code.Cloud'), false);
+  assert.equal(result.post.body.includes('منبع:'), false);
+  assert.equal(result.qa.problems.includes('source'), false);
+});
+
+test('a too-long title goes to a focused repair instead of being cut', async () => {
+  const longTitle = 'شرکت مدل تازه‌اش را با قابلیت‌های بیشتر برای همه توسعه‌دهنده‌ها در سراسر جهان معرفی کرد و گفت';
+  const saved = {
+    ...JSON.parse(PUBLISH_JSON),
+    body: 'شرکت مدل هوش مصنوعی تازه‌اش را معرفی کرد.\n\nاهمیتش اینه که دسترسی توسعه‌دهنده‌ها را ساده‌تر می‌کند.',
+  };
+  let repairs = 0;
+  const result = await draftReviewPost({
+    item: baseItem(),
+    now: NOW,
+    request: async () => ({
+      content: JSON.stringify({ ...saved, title: longTitle }),
+      usage: { cost: 0.001, total_tokens: 200 },
+    }),
+    repairTitle: async ({ parsed, qa }) => {
+      repairs += 1;
+      assert.equal(parsed.title, longTitle);
+      assert.ok(qa.problems.includes('title_words'));
+      return {
+        content: JSON.stringify({ title: 'مدل تازه شرکت معرفی شد' }),
+        usage: { cost: 0.0005, total_tokens: 50 },
+      };
+    },
+  });
+  assert.equal(repairs, 1);
+  assert.equal(result.post.title, 'مدل تازه شرکت معرفی شد');
+  assert.equal(result.qa.problems.includes('title_words'), false);
+  assert.equal(result.cost, 0.0015);
+  assert.equal(result.tokens, 250);
+});
+
+test('without a repair the long title is kept so QA can reject it', async () => {
+  const longTitle = 'شرکت مدل تازه‌اش را با قابلیت‌های بیشتر برای همه توسعه‌دهنده‌ها در سراسر جهان معرفی کرد و گفت';
+  const saved = {
+    ...JSON.parse(PUBLISH_JSON),
+    body: 'شرکت مدل هوش مصنوعی تازه‌اش را معرفی کرد.\n\nاهمیتش اینه که دسترسی توسعه‌دهنده‌ها را ساده‌تر می‌کند.',
+  };
+  const result = await draftReviewPost({
+    item: baseItem(),
+    now: NOW,
+    request: async () => ({ content: JSON.stringify({ ...saved, title: longTitle }) }),
+  });
+  assert.equal(result.post.title, longTitle);
+  assert.ok(result.qa.problems.includes('title_words'));
+  assert.equal(result.reason, 'qa_failed');
+});
+
 test('the item context keeps the source, links, flags, and offer expiry', () => {
   const item = baseItem({
     kind: 'offer',

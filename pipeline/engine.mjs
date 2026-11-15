@@ -791,21 +791,36 @@ export function normalizePostFields(parsed) {
   return { ...parsed, title: fixTerminology(String(parsed.title ?? '')).trim(), body, quote };
 }
 
-export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '' } = {}) {
+function isTelegramLink(value) {
+  try {
+    return /^(?:t\.me|telegram\.me|telegram\.dog)$/i.test(new URL(String(value)).hostname);
+  } catch {
+    return false;
+  }
+}
+
+export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '', usageUrl = '', usageName = '', sourceType = '' } = {}) {
   if (!parsed || parsed.decision !== 'publish') return parsed;
   const body = String(parsed.body ?? '').trimEnd();
   if (!body) return parsed;
   const useUsage = parsed.category === 'tools' && Boolean(usageUrl);
-  const safeSourceName = String(sourceName || 'منبع')
+  const telegramSource = String(sourceType) === 'telegram_channel';
+  const telegramLink = isTelegramLink(sourceUrl);
+  // A Telegram channel is a discovery path, never the receipt. Cite the
+  // external source itself; for tools the usage link replaces the source line.
+  const creditedName = telegramLink
+    ? ''
+    : telegramSource
+      ? usageLinkName(sourceUrl)
+      : sourceName || 'منبع';
+  const safeSourceName = String(creditedName)
     .replace(/[\[\]\n]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim() || 'منبع';
-  // The article URL is the receipt; a usage link never replaces it.
   const tail = [
-    sourceUrl ? `منبع: [${safeSourceName}](${sourceUrl})` : '',
+    !useUsage && sourceUrl && creditedName ? `منبع: [${safeSourceName}](${sourceUrl})` : '',
     useUsage ? usageTailLine(usageUrl, usageName) : '',
   ].filter(Boolean);
-  if (!tail.length) return parsed;
   const lines = body.split('\n');
   while (lines.length) {
     const line = lines[lines.length - 1].trim();
@@ -815,7 +830,9 @@ export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '', usag
     }
     break;
   }
-  const nextBody = `${lines.join('\n').trimEnd()}\n\n${tail.join('\n')}`;
+  const stripped = lines.join('\n').trimEnd();
+  if (!tail.length) return stripped === body ? parsed : { ...parsed, body: stripped };
+  const nextBody = stripped ? `${stripped}\n\n${tail.join('\n')}` : tail.join('\n');
   return nextBody === body ? parsed : { ...parsed, body: nextBody };
 }
 
@@ -876,52 +893,6 @@ function titleEndsDangling(value) {
   if (/[،:]$/.test(text)) return true;
   const last = text.split(/\s+/).filter(Boolean).at(-1)?.replace(/[.,،؛:!؟?"'»«]/gu, '') ?? '';
   return TITLE_DANGLING_END.has(last);
-}
-
-const TITLE_VERB_END =
-  /^(?:ن?می[\u200c]?)?(?:کند|کنند|شود|شوند|کرد|کردند|شد|شدند|است|هست|بود|بودند|دارد|دارند|داد|دادند|گرفت|گرفتند|یافت|یافتند|کرده|شده|خواهد|خواهند|تواند|توانند)$/u;
-
-function titleEndsWithVerb(value) {
-  return TITLE_VERB_END.test(String(value ?? '').trim().replace(/[.,،؛:!؟?"'»«]+$/u, ''));
-}
-
-function titleWordWeight(word) {
-  return word.replace(/\u200c/g, ' ').split(/\s+/).filter(Boolean).length;
-}
-
-export function trimTitle(value, max = TITLE_MAX_WORDS) {
-  const title = String(value ?? '').replace(/\*\*/g, ' ').replace(/\s+/g, ' ').trim();
-  if (!title) return title;
-  const words = title.split(/\s+/).filter(Boolean);
-  let kept = [];
-  let count = 0;
-  for (const word of words) {
-    const weight = titleWordWeight(word);
-    if (count + weight > max) break;
-    kept.push(word);
-    count += weight;
-  }
-  // Cutting a verb off the end leaves a headline that stops mid-sentence
-  // ("... کمک" without "می‌کند"), so keep the closing predicate and trim
-  // trailing modifiers from before it instead.
-  if (words.slice(kept.length).some(titleEndsWithVerb)) {
-    const tailWords = words.slice(-Math.min(2, words.length));
-    const tailWeight = tailWords.reduce((sum, word) => sum + titleWordWeight(word), 0);
-    const prefixMax = Math.max(1, max - tailWeight);
-    kept = [];
-    count = 0;
-    for (const word of words.slice(0, -tailWords.length)) {
-      const weight = titleWordWeight(word);
-      if (count + weight > prefixMax) break;
-      kept.push(word);
-      count += weight;
-    }
-    while (kept.length > 1 && TITLE_STOPWORDS.has(kept[kept.length - 1].replace(/[.,،؛:!؟?]+$/u, ''))) kept.pop();
-    kept.push(...tailWords);
-  }
-  if (!kept.length) kept.push(words[0]);
-  while (kept.length > 1 && TITLE_STOPWORDS.has(kept[kept.length - 1].replace(/[.,،؛:!؟?]+$/u, ''))) kept.pop();
-  return kept.join(' ').replace(/[.,،؛:!؟?]+$/u, '').trim();
 }
 
 function normalizeBullets(value) {
@@ -1084,7 +1055,7 @@ export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', 
     next = { ...next, verification: 'official' };
   }
   if (imageUrl && next.post_type === 'deep') next = { ...next, post_type: 'standard' };
-  next = ensureSourceLine(next, { sourceName, sourceUrl, usageUrl, usageName });
+  next = ensureSourceLine(next, { sourceName, sourceUrl, usageUrl, usageName, sourceType });
   next = enforceDetailQuote(next);
   next = ensurePolicyIranNote(next, policyIran);
   if (openEnded) next = ensureOpenEndedNote(next, noExpiryNote);
@@ -1092,7 +1063,6 @@ export function applyMechanicalFixes(parsed, { sourceName = '', sourceUrl = '', 
   const bounds = lengthBounds(next.post_type) ?? lengthBounds('standard');
   const trimmed = {
     ...next,
-    title: trimTitle(next.title),
     body: trimBody(normalizeBullets(next.body), bounds.max),
     quote: trimQuote(next.quote),
     image_url: String(imageUrl || ''),

@@ -3,6 +3,8 @@ import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
+  applyMechanicalFixes,
+  buildTitleRepairMessage,
   buildUserMessage,
   callWithRetry,
   downloadImage,
@@ -30,7 +32,7 @@ import {
   rewriteCountForDay,
   saveReviewStore,
 } from './review-items.mjs';
-import { candidateFromItem, draftReviewPost, resolvedImageUrl } from './review-draft.mjs';
+import { candidateFromItem, draftReviewPost, resolvedImageUrl, toolUsageForItem } from './review-draft.mjs';
 import { publishGuards, publishSlotFor, qaForPublish, slotWindowStatus } from './review-publish.mjs';
 import { reviewHtml, reviewText } from './offers.mjs';
 
@@ -342,6 +344,22 @@ async function handleRewrite(review, query) {
         3,
         log
       ),
+    repairTitle: ({ story, parsed, qa }) =>
+      callWithRetry(
+        {
+          base: writer.base,
+          apiKey: writer.apiKey,
+          model: writer.model,
+          system,
+          user: buildTitleRepairMessage({ user: buildUserMessage(story), parsed, qa }),
+          maxTokens: 800,
+          timeoutMs: writer.timeoutMs,
+          reasoningEffort: writer.reasoningEffort,
+          redact,
+        },
+        2,
+        log
+      ),
     log,
   });
 
@@ -402,6 +420,17 @@ async function handlePublish(review, query) {
   const { item, error } = activeItem(review, query);
   if (error) return notify(error);
   if (!item.post) return notify('این مورد نسخهٔ آمادهٔ انتشار ندارد؛ اول بازنویسی کن.');
+  const usage = toolUsageForItem(item);
+  // Rebuild the tail from the item so an old draft cannot publish its channel name.
+  item.post = applyMechanicalFixes(item.post, {
+    sourceName: item.sourceName,
+    sourceUrl: item.url || item.leadPostUrl || '',
+    usageUrl: usage?.url ?? '',
+    usageName: usage?.name ?? '',
+    imageUrl: resolvedImageUrl(item),
+    newsDate: '',
+    sourceType: item.sourceType,
+  });
   const qa = qaForPublish(item, NOW, config);
   const verdict = publishGuards({ config, state, item, qa, now: NOW, delivered });
   await answer(query.id, verdict.ok ? 'در حال ارسال به کانال اصلی.' : 'ارسال نشد؛ دلیل در پیام بعدی.');

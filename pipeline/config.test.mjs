@@ -463,6 +463,7 @@ test('review actions keep the agreed caps and one poller queue', () => {
 });
 
 test('the action poller keeps its own queue and defers to a busy slot', () => {
+  assert.match(actionsWorkflow, /repository_dispatch:\s*\n\s*types:\s*\[review-tick\]/);
   assert.match(actionsWorkflow, /cron: "3,13,23,33,43,53 \* \* \* \*"/);
   assert.match(actionsWorkflow, /group: review-actions/);
   assert.equal(actionsWorkflow.includes('cancel-in-progress: true'), false, 'a poll can cancel a run');

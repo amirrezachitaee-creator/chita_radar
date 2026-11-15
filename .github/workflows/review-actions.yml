@@ -10,6 +10,10 @@ on:
           - dry
           - send
         default: dry
+  # GitHub throttles scheduled runs to roughly hourly; the external 10-minute
+  # cron posts this event instead and the internal schedule stays as fallback.
+  repository_dispatch:
+    types: [review-tick]
   schedule:
     - cron: "3,13,23,33,43,53 * * * *"
 

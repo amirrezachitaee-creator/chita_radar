@@ -3,7 +3,7 @@ import { dailyBudget } from './guards.mjs';
 import { categoryCountForDate, sourceUsage } from './diversity.mjs';
 import { MAIN_CATEGORIES, quotaSnapshot, tehranParts, dateKey, weekKey, inQuietHours } from './store.mjs';
 import { findStoryDuplicate } from './telegram-source.mjs';
-import { qaContextForItem } from './review-draft.mjs';
+import { qaContextForItem, toolUsageForItem } from './review-draft.mjs';
 
 export function publishSlotFor(now) {
   const date = dateKey(now);
@@ -33,7 +33,8 @@ export function filterOwnReviewEntries(delivered, item) {
 
 export function qaForPublish(item, now, config = {}) {
   if (!item?.post) return null;
-  return qaPost(item.post, qaContextForItem(item, item.post, now, config));
+  const usage = toolUsageForItem(item);
+  return qaPost(item.post, qaContextForItem(item, item.post, now, config, usage?.url ?? ''));
 }
 
 export function publishGuards({

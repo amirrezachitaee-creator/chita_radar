@@ -1051,8 +1051,17 @@ async function main() {
       imageAlt: '',
       content,
       url: candidate.link || candidate.leadPostUrl || '',
+      links: (Array.isArray(candidate.relatedLinks) ? candidate.relatedLinks : []).map((url) => ({
+        url: String(url),
+        text: '',
+      })),
     };
     const newsDate = newsDateLine(candidate.published);
+    const toolUsage = pickToolUsageLink({
+      article,
+      sourceUrl: article.url,
+      sourceType: candidate.sourceType,
+    });
     const story = {
       item: { title: candidate.title, published: candidate.published },
       article,
@@ -1060,7 +1069,7 @@ async function main() {
       now: NOW,
       imageUrl,
       maxAgeHours: config.freshness_hours.pre_gate,
-      toolUrl: candidate.relatedLinks?.[0] ?? '',
+      toolUrl: toolUsage?.url ?? candidate.relatedLinks?.[0] ?? '',
     };
     console.log(`REVIEW_DRAFT ${candidate.sourceName} | ${candidate.title} | ${content.length} chars`);
     let call;
@@ -1082,6 +1091,8 @@ async function main() {
     const fixed = applyMechanicalFixes(applyLeadPolicy(parsed, candidate), {
       sourceName: candidate.sourceName,
       sourceUrl: article.url,
+      usageUrl: toolUsage?.url ?? '',
+      usageName: toolUsage?.name ?? '',
       imageUrl,
       newsDate,
       sourceType: candidate.sourceType,
@@ -1103,7 +1114,7 @@ async function main() {
       description: '',
       content,
       links: candidate.relatedLinks ?? [],
-      usageUrl: '',
+      usageUrl: toolUsage?.url ?? '',
       publishedAt: candidate.published,
       now: NOW,
       newsDate,

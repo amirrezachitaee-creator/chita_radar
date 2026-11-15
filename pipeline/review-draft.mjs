@@ -4,7 +4,9 @@ import {
   buildUserMessage,
   extractJson,
   imageVerdict,
+  pickToolUsageLink,
   qaPost,
+  TITLE_QA_PROBLEMS,
 } from './engine.mjs';
 import { newsDateLine } from './newstime.mjs';
 
@@ -61,7 +63,26 @@ export function resolvedImageUrl(item) {
   return imageVerdict(raw, '').ok ? raw : '';
 }
 
-export function qaContextForItem(item, post, now, config = {}) {
+export function toolUsageForItem(item) {
+  const sourceUrl = String(item?.url || item?.leadPostUrl || '');
+  if (!sourceUrl) return null;
+  return pickToolUsageLink({
+    article: {
+      title: String(item?.title ?? ''),
+      description: '',
+      content: String(item?.messageText ?? ''),
+      links: (Array.isArray(item?.relatedLinks) ? item.relatedLinks : []).map((url) => ({
+        url: String(url),
+        text: '',
+      })),
+    },
+    sourceUrl,
+    sourceType: String(item?.sourceType ?? ''),
+    offer: item?.kind === 'offer',
+  });
+}
+
+export function qaContextForItem(item, post, now, config = {}, usageUrl = '') {
   const url = String(item?.url || item?.leadPostUrl || '');
   const host = (() => {
     try {
@@ -80,7 +101,7 @@ export function qaContextForItem(item, post, now, config = {}) {
     description: '',
     content: String(item?.messageText ?? ''),
     links: Array.isArray(item?.relatedLinks) ? item.relatedLinks : [],
-    usageUrl: '',
+    usageUrl,
     publishedAt: String(item?.publishedAt ?? ''),
     now,
     newsDate: newsDateLine(item?.publishedAt),
@@ -97,6 +118,7 @@ export async function draftReviewPost({
   maxAgeHours = 72,
   config = {},
   request,
+  repairTitle = null,
   log = () => {},
 } = {}) {
   const content = String(item?.messageText ?? '').trim();
@@ -117,9 +139,14 @@ export async function draftReviewPost({
     imageAlt: '',
     content,
     url: item?.url || item?.leadPostUrl || '',
+    links: (Array.isArray(item?.relatedLinks) ? item.relatedLinks : []).map((url) => ({
+      url: String(url),
+      text: '',
+    })),
   };
   const nowLine = newsDateLine(item?.publishedAt);
   const offer = offerContextFromItem(item, config);
+  const toolUsage = toolUsageForItem(item);
   const story = {
     item: { title: item?.title, published: item?.publishedAt },
     article,
@@ -130,13 +157,13 @@ export async function draftReviewPost({
     offer,
     benchmark: item?.benchmark === true,
     policy: item?.policy === true,
-    toolUrl: item?.relatedLinks?.[0] ?? '',
+    toolUrl: toolUsage?.url ?? '',
   };
   if (typeof request !== 'function') throw new Error('REVIEW_DRAFT_REQUEST_MISSING');
   const call = await request(story);
   const usage = call?.usage ?? {};
-  const cost = Number(usage.cost ?? 0) || 0;
-  const tokens = Number(usage.total_tokens ?? 0) || 0;
+  let cost = Number(usage.cost ?? 0) || 0;
+  let tokens = Number(usage.total_tokens ?? 0) || 0;
   if (!call?.content) {
     return {
       post: null,
@@ -162,14 +189,48 @@ export async function draftReviewPost({
       tokens,
     };
   }
-  const fixed = applyMechanicalFixes(applyLeadPolicy(parsed, candidate), {
-    sourceName: item?.sourceName,
-    sourceUrl: article.url,
-    imageUrl,
-    newsDate: nowLine,
-    sourceType: item?.sourceType,
-  });
-  const qa = qaPost(fixed, qaContextForItem(item, fixed, now, config));
+  const finalize = (value) =>
+    applyMechanicalFixes(applyLeadPolicy(value, candidate), {
+      sourceName: item?.sourceName,
+      sourceUrl: article.url,
+      usageUrl: toolUsage?.url ?? '',
+      usageName: toolUsage?.name ?? '',
+      imageUrl,
+      newsDate: nowLine,
+      sourceType: item?.sourceType,
+    });
+  let fixed = finalize(parsed);
+  let qa = qaPost(fixed, qaContextForItem(item, fixed, now, config, toolUsage?.url ?? ''));
+  const titleProblems = qa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem));
+  const contentRejected = qa.problems.includes('ai_relevance') || qa.problems.includes('category_fresh');
+  if (!qa.pass && titleProblems.length && !contentRejected && typeof repairTitle === 'function') {
+    log(`REVIEW_TITLE_REPAIR ${titleProblems.join(',')} | focused retry`);
+    let repair = null;
+    try {
+      repair = await repairTitle({ story, parsed: fixed, qa });
+    } catch (error) {
+      log(`REVIEW_TITLE_REPAIR_FAILED ${String(error?.message ?? error).slice(0, 240)}`);
+    }
+    const repairUsage = repair?.usage ?? {};
+    cost += Number(repairUsage.cost ?? 0) || 0;
+    tokens += Number(repairUsage.total_tokens ?? 0) || 0;
+    const nextTitle = String(extractJson(repair?.content)?.title ?? '').trim();
+    if (nextTitle) {
+      const merged = finalize({ ...fixed, title: nextTitle });
+      const mergedQa = qaPost(merged, qaContextForItem(item, merged, now, config, toolUsage?.url ?? ''));
+      const remaining = mergedQa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem)).length;
+      const better = mergedQa.pass || remaining < titleProblems.length;
+      if (better) {
+        fixed = merged;
+        qa = mergedQa;
+      }
+      log(
+        `REVIEW_TITLE_REPAIR_QA ${qa.pass ? 'PASS' : 'FAIL'} | title_problems ${remaining} | ${better ? 'applied' : 'kept original'}`
+      );
+    } else {
+      log('REVIEW_TITLE_REPAIR_INVALID_JSON');
+    }
+  }
   log(
     `REVIEW_REWRITE_QA ${qa.pass ? 'PASS' : 'FAIL'} ${qa.problems.join(',') || 'none'} | $${cost.toFixed(6)}`
   );
