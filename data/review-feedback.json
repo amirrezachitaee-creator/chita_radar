@@ -635,6 +635,47 @@
       "expiry": null,
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "19548d3e34": {
+      "id": "19548d3e34",
+      "messageId": 296,
+      "chatId": "-1004443166907",
+      "slot": "2026-11-15T17:00+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-codecloude",
+      "sourceName": "Code.Cloud | کـــد کلاد",
+      "sourceType": "telegram_channel",
+      "title": "lumabar - Smart Dock for Windows 11: a Taskbar Replacement with Live Widgets",
+      "url": "https://t.me/codecloude/2589",
+      "leadPostUrl": "https://t.me/codecloude/2589",
+      "messageText": "تسک‌بار ویندوزت رو تبدیل کن به یه داشبورد!\n\nابزار Lumabar یه جایگزین خوشگل برای تسک‌بار ویندوز ۱۰ و ۱۱ هست که با ظاهر گلس‌مورفیسم و ویجت‌های زنده، دسکتاپت رو حسابی متحول می‌کنه!\n\nاز تقویم، موزیک و وضعیت سیستم گرفته تا نمایش میزان مصرف ChatGPT و Claude؛ همه‌چیز جلوی چشمته، بدون بازکردن برنامه‌های مختلف!\n\n🔥 اگه عاشق شخصی‌سازی ویندوزی، این ابزار رو ببین! (پولی، با خرید یک‌باره)\n\n🔗 \n\n💬💬📷Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
+      "relatedLinks": [
+        "https://lumabar.xyz/",
+        "http://codecloude.ir/"
+      ],
+      "images": [],
+      "imageUrl": "",
+      "publishedAt": "2026-11-15T13:16:09+00:00",
+      "keys": [
+        "url:1ef6b45a329f2c69",
+        "title:979ad7697f7c2b67"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-15T13:30:50.391Z",
+      "updatedAt": "2026-11-15T13:30:50.391Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [],

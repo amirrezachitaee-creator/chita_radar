@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T11:11:03.655Z",
+  "updatedAt": "2026-11-15T13:32:47.106Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8852,6 +8852,60 @@
       "slot": "2026-11-15T14:00+03:30",
       "title": "یه ابزار متن‌باز که با کلاد کد و بدون هیچ مدل ویدئویی‌ای، موزیک‌ویدئو می‌سازه",
       "url": "https://t.me/MatinSenPaii/5884"
+    },
+    "url:1ef6b45a329f2c69": {
+      "at": "2026-11-15T13:31:13.265Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T17:00+03:30",
+      "title": "lumabar - Smart Dock for Windows 11: a Taskbar Replacement with Live Widgets",
+      "url": "https://t.me/codecloude/2589"
+    },
+    "title:979ad7697f7c2b67": {
+      "at": "2026-11-15T13:31:13.265Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T17:00+03:30",
+      "title": "lumabar - Smart Dock for Windows 11: a Taskbar Replacement with Live Widgets",
+      "url": "https://t.me/codecloude/2589"
+    },
+    "url:0838bef2edd27f9f": {
+      "at": "2026-11-15T13:31:43.104Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T17:00+03:30",
+      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers"
+    },
+    "title:53ef40cccf6e8533": {
+      "at": "2026-11-15T13:31:43.104Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T17:00+03:30",
+      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers"
+    },
+    "url:bd2f75c9c0c3d17f": {
+      "at": "2026-11-15T13:32:47.104Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-15T17:00+03:30",
+      "title": "Policy and Disclosure: 2026 Edition",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "benchmark": false
+    },
+    "title:dbfef6b90828647b": {
+      "at": "2026-11-15T13:32:47.104Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-15T17:00+03:30",
+      "title": "Policy and Disclosure: 2026 Edition",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -8991,106 +9045,6 @@
         "keys": [
           "url:84ec87286cb35a64",
           "title:7bce64ba39eb8d46"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0838bef2edd27f9f": {
-      "id": "defer:url:0838bef2edd27f9f",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:0838bef2edd27f9f",
-        "title:53ef40cccf6e8533"
-      ],
-      "canonical": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers",
-      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
-        "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-        "canonical": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers",
-        "published": "Thu, 12 Nov 2026 19:59:59 +0000",
-        "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-500x500.jpg"
-        ],
-        "ageHours": 9,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:0838bef2edd27f9f",
-          "title:53ef40cccf6e8533"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9ca1e30b2dd5ebcc": {
-      "id": "defer:url:9ca1e30b2dd5ebcc",
-      "at": "2026-11-13T08:05:45.488Z",
-      "firstAt": "2026-11-13T08:05:45.488Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:9ca1e30b2dd5ebcc",
-        "title:2cb459c9605f7b4d"
-      ],
-      "canonical": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
-      "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
-        "link": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
-        "canonical": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
-        "published": "Thu, 12 Nov 2026 12:09:43 +0000",
-        "summary": "Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor. The model is available for noncommercial research through an API and is set to be integrated into Google's agentic platform Antigravity. The article Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2 appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphagenome2.png"
-        ],
-        "ageHours": 19.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9ca1e30b2dd5ebcc",
-          "title:2cb459c9605f7b4d"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9578,57 +9532,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:bd2f75c9c0c3d17f": {
-      "id": "defer:url:bd2f75c9c0c3d17f",
-      "at": "2026-11-14T19:35:19.680Z",
-      "firstAt": "2026-11-13T17:46:26.822Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_daily",
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:bd2f75c9c0c3d17f",
-        "title:dbfef6b90828647b"
-      ],
-      "canonical": "https://projectzero.google/2026/11/disclosure-policy.html",
-      "title": "Policy and Disclosure: 2026 Edition",
-      "candidate": {
-        "sourceId": "project-zero",
-        "sourceName": "Google Project Zero",
-        "sourceType": "security_blog",
-        "title": "Policy and Disclosure: 2026 Edition",
-        "link": "https://projectzero.google/2026/11/disclosure-policy.html",
-        "canonical": "https://projectzero.google/2026/11/disclosure-policy.html",
-        "published": "2026-11-13T00:00:00-08:00",
-        "summary": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient. LLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.",
-        "messageText": "",
-        "leadPostUrl": "https://projectzero.google/2026/11/disclosure-policy.html",
-        "images": [],
-        "ageHours": 9.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:bd2f75c9c0c3d17f",
-          "title:dbfef6b90828647b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:bd2f75c9c0c3d17f",
-          "attempts": 0
-        }
-      },
-      "detail": "security"
-    },
     "defer:url:4bf61703e3df7593": {
       "id": "defer:url:4bf61703e3df7593",
       "at": "2026-11-13T17:46:26.822Z",
@@ -9773,57 +9676,6 @@
         "webEducation": false,
         "leadKind": ""
       }
-    },
-    "defer:url:b9840fd67063a36a": {
-      "id": "defer:url:b9840fd67063a36a",
-      "at": "2026-11-13T20:21:52.402Z",
-      "firstAt": "2026-11-13T17:46:26.885Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:b9840fd67063a36a",
-        "title:3d44bd20f57c4d26"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/gondola",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Gondola doubles revenue as its team builds more with Codex",
-        "link": "https://openai.com/business/customer-stories/gondola",
-        "canonical": "https://openai.com/business/customer-stories/gondola",
-        "published": "Thu, 12 Nov 2026 12:00:00 GMT",
-        "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/gondola",
-        "images": [],
-        "ageHours": 29.8,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b9840fd67063a36a",
-          "title:3d44bd20f57c4d26"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:b9840fd67063a36a",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:3b4bb26baf783f5c": {
       "id": "defer:url:3b4bb26baf783f5c",
@@ -11433,6 +11285,121 @@
         "keys": [
           "url:7e59a840b8400113",
           "title:98a472f5995eb26c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:81a7dc557ad3e7bb": {
+      "id": "defer:url:81a7dc557ad3e7bb",
+      "at": "2026-11-15T13:31:13.276Z",
+      "firstAt": "2026-11-15T13:31:13.276Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:81a7dc557ad3e7bb",
+        "title:ca73f39ac87ee9f8"
+      ],
+      "canonical": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "title": "🔥مدل‌های رایگان، بدون کلید و ثبت‌نام",
+      "candidate": {
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
+        "sourceType": "telegram_channel",
+        "title": "🔥مدل‌های رایگان، بدون کلید و ثبت‌نام",
+        "link": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+        "canonical": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+        "messageText": "🔥مدل‌های رایگان، بدون کلید و ثبت‌نام\n⠀\nیه پلاگین برای دیپ‌سیک هارنس، مدل‌های قوی را رایگان و بدون کلید در اختیارت میذاره.\n⠀\n🔐 بدون ثبت‌نام، بدون کلید و بدون کارت\n🤖 مدل های DeepSeek V4.1 Flash, Kimi K3 و GLM 5.3 Flash\n🌐 از طریق پورتال‌های OpenCode Zen و Kilo استفاده میکنه.\n⠀\nاین پلاگین که Our Free Model اسمشه، داخل دیپ‌سیک هارنس نصب می‌شه و مدل‌ها را از درگاه‌های رایگان عمومی می‌گیره؛ یه درگاه سازگار با اوپن‌ای‌آی هم روی کامپیوتر خودت باز می‌کنه تا بقیهٔ ابزارها هم بهش وصل بشن. نصب با این دستوره: dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.5 و بعد ری‌استارت.\n⠀\n📌 ریپوی گیت‌هاب\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤13🔥1🗿1😎1",
+        "leadPostUrl": "https://t.me/ArchiveTell/8417",
+        "published": "2026-11-15T12:58:27+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/FL3KMj70Ljcok_rGg0uDNpHiLz5d79sZJiZ8cWuZD55K-TRt64m9UhfZVLNXriLhu_AxZQ00aQIPh3K0g5lVfVhb72riSuVD-2GvoMbHVak6nrcs-oATPqF9Q5rxzVHy4S7yTFfXW_gsLg14BVBiv76zc09It6mNGsPgZsq46FC0hIiaXoICRxf0Fx2GV0ttOhKMitC973blhge00vHSDkSOlJ0JPtth7E2U1JDh1TG7kaU2qyXVjVhIgkVBEaoI3lXILzcB0ifd3ahxvCW-njnQ5jb3GoemHNCh29w-T-KzkB1A4Bl0HyWsn7lmY4VfXDDq648O_RcD4se2dqe9zg.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:81a7dc557ad3e7bb",
+          "title:ca73f39ac87ee9f8"
+        ],
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8417,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:b652366d4a49aac6": {
+      "id": "defer:url:b652366d4a49aac6",
+      "at": "2026-11-15T13:31:13.276Z",
+      "firstAt": "2026-11-15T13:31:13.276Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:b652366d4a49aac6",
+        "title:f1242987f11a1bf4"
+      ],
+      "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+        "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+        "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
+        "published": "Sun, 15 Nov 2026 11:35:12 +0000",
+        "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
+        ],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:b652366d4a49aac6",
+          "title:f1242987f11a1bf4"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13173,6 +13140,37 @@
       "cost": 0.0013384,
       "tokens": 9031,
       "posts": []
+    },
+    "2026-11-15T17:00+03:30": {
+      "at": "2026-11-15T13:32:47.103Z",
+      "status": "sent",
+      "category": "security",
+      "title": "پروژه صفر گوگل مهلت افشا را به ۳۰ روز کاهش می‌دهد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/17-00",
+      "messageId": 81,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0036291416,
+      "tokens": 39669,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "پروژه صفر گوگل مهلت افشا را به ۳۰ روز کاهش می‌دهد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 81,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0021708008,
+          "tokens": 21820,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-15T13:32:47.103Z"
+        }
+      ]
     }
   },
   "published": [
@@ -14333,93 +14331,111 @@
       "sourceTitle": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
       "sourceText": "This walkthrough showcases a beverage can pick-and-place task that uses the UR17G arm , Robotiq 2F-140 gripper , and beverage can to compose a scene in Isaac Sim, check their behavior, and run a pick-and-place example with agent-generated controls.\nFor robotics workflows, SimReady means an OpenUSD asset has been prepared with the properties needed for a defined simulation use case, such as collisions, mass, joints, and joint drives. SimReady Central , an open asset library on Hugging Face, lets you reuse robot and object assets with authored simulation properties and profile-validation evidence. For more about the library and its launch, read the announcement blog .\nSimReady Foundation defines what features the OpenUSD asset needs for a simulation use case. Its specifications connect three levels:\nFor this task, those properties include the arm and gripper’s joints and a beverage can asset collisions and mass. Validation checks these settings against the profile’s requirements. The simulation then tests whether the assembled robot can use them to pick up and move the can.\nThe UR17G , Robotiq 2F-140 , and beverage can packages include the models and their simulation settings. You assemble the scene and add task code to define the arm–gripper assembly, work surface, starting positions, and controls for moving the arm and opening and closing the gripper.\nFigure 2. SimReady Central supplies the asset models and simulation settings and the example scene and controls define the pick-and-place task.\nA robot can look visually correct while stationary in Isaac Sim but move or intera",
       "at": "2026-11-15T09:01:40.871Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-15T17:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "پروژه صفر گوگل مهلت افشا را به ۳۰ روز کاهش می‌دهد",
+      "why": "این تغییر فروشنده‌ها رو مجبور می‌کنه روند رفع آسیب‌پذیری‌هاشون رو سریع‌تر کنن تا کاربران زودتر امن بشن.",
+      "dedupe_key": "google-project-zero-disclosure-policy",
+      "post_key": "2026-11-15/17-00/1",
+      "sourceId": "project-zero",
+      "sourceName": "Google Project Zero",
+      "sourceType": "security_blog",
+      "benchmark": false,
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "sourceTitle": "Policy and Disclosure: 2026 Edition",
+      "sourceText": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient.\nLLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.\nLLMs have also decreased the time it takes for attackers to reverse engineer and exploit a vulnerability based on a patch, to the extent that zero patch-to-exploitation time is a reasonable, though imperfect, model of attacker behavior. Patch soak time is no longer meaningful in a world where attackers can almost immediately determine bug details from a patch, and can put users at risk by creating a false sense of secrecy. “Patch gap” is the time between a fix being released for a security vulnerability and the user installing the relevant update. It is equally crucial that vendors reduce patch gap, either by reducing patch rollout time or using other strategies to protect users while remediation is in pro",
+      "at": "2026-11-15T13:32:47.104Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8413,
-      "last_at": "2026-11-15T05:39:39+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "last_id": 8417,
+      "last_at": "2026-11-15T12:58:27+00:00",
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "ai_farshad": {
       "last_id": 6441,
       "last_at": "2026-11-15T10:31:53+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "Mohammad_zammani": {
       "last_id": 7213,
       "last_at": "2026-11-15T06:11:45+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "techiin_ir": {
       "last_id": 20777,
       "last_at": "2026-11-15T07:46:12+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "asrnovin_ir": {
       "last_id": 11469,
       "last_at": "2026-11-15T05:41:32+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "shayanode": {
-      "last_id": 200,
-      "last_at": "2026-11-15T10:33:24+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "last_id": 201,
+      "last_at": "2026-11-15T12:02:45+00:00",
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "codecloude": {
-      "last_id": 2588,
-      "last_at": "2026-11-15T10:54:10+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "last_id": 2589,
+      "last_at": "2026-11-15T13:16:09+00:00",
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "dunijet_ai": {
       "last_id": 2550,
       "last_at": "2026-11-15T03:31:29+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "MatinSenPaii": {
       "last_id": 5884,
       "last_at": "2026-11-15T10:29:02+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     },
     "thenimaonAI": {
       "last_id": 520,
       "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-15T11:09:36.867Z"
+      "checked_at": "2026-11-15T13:30:50.391Z"
     }
   },
   "offerReviews": [
@@ -17060,6 +17076,18 @@
       "url": "https://t.me/MatinSenPaii/5884",
       "reason": "denied_link",
       "slot": "2026-11-15T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-codecloude|https://t.me/codecloude/2589",
+      "date": "2026-11-15",
+      "at": "2026-11-15T13:30:50.391Z",
+      "source": "tg-codecloude",
+      "title": "lumabar - Smart Dock for Windows 11: a Taskbar Replacement with Live Widgets",
+      "url": "https://t.me/codecloude/2589",
+      "reason": "denied_link",
+      "slot": "2026-11-15T17:00+03:30",
       "kind": "post",
       "mainEligible": false
     }
