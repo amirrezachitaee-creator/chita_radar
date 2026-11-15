@@ -64,6 +64,24 @@ test('a short source is not sent to the writer', async () => {
   assert.equal(called, false);
 });
 
+test('a short source is allowed only when a human asks for the rewrite', async () => {
+  let called = false;
+  const result = await draftReviewPost({
+    item: baseItem({ messageText: 'یک ابزار تازه.' }),
+    now: NOW,
+    manual: true,
+    request: async () => {
+      called = true;
+      return {
+        content: JSON.stringify(MANUAL_JSON),
+        usage: { cost: 0, total_tokens: 10 },
+      };
+    },
+  });
+  assert.equal(called, true);
+  assert.notEqual(result.reason, 'short');
+});
+
 test('an offer without an expiry cannot be rewritten blindly', async () => {
   let called = false;
   const result = await draftReviewPost({
@@ -315,6 +333,47 @@ test('a manual rewrite ignores freshness, source, and AI relevance but keeps str
   assert.equal(result.reason, 'ok');
 });
 
+test('a manual offer without expiry or official source is rewritten with the no-expiry note', async () => {
+  const note = 'بدون تاریخ انقضای اعلام‌شده';
+  const result = await draftReviewPost({
+    item: manualItem({ kind: 'offer', offerHint: true, expiry: null }),
+    now: NOW,
+    manual: true,
+    config: {
+      offers: {
+        no_expiry_note: `${note}؛ پیش از اقدام، صفحهٔ رسمی را ببینید`,
+        manual_no_expiry_note: note,
+        min_remaining_hours: 24,
+      },
+    },
+    request: async () => ({
+      content: JSON.stringify(MANUAL_JSON),
+      usage: { cost: 0, total_tokens: 10 },
+    }),
+  });
+  assert.ok(result.post, result.reason);
+  assert.equal(result.qa.pass, true);
+  assert.ok(result.post.body.includes(note));
+  assert.equal(result.post.body.includes('صفحهٔ رسمی'), false);
+  assert.equal(result.post.body.includes('t.me'), false);
+  assert.equal(result.post.body.includes('منبع:'), false);
+  assert.equal(result.qa.problems.includes('offer_expiry'), false);
+  assert.equal(result.reason, 'ok');
+});
+
+test('the same offer without expiry is still blocked when the rewrite is automatic', async () => {
+  let called = false;
+  const result = await draftReviewPost({
+    item: manualItem({ kind: 'offer', offerHint: true, expiry: null }),
+    now: NOW,
+    request: async () => {
+      called = true;
+    },
+  });
+  assert.equal(result.reason, 'offer_context_missing');
+  assert.equal(called, false);
+});
+
 test('the same post is still blocked when the rewrite is automatic', async () => {
   const result = await draftReviewPost({
     item: manualItem(),
@@ -392,6 +451,27 @@ test('the manual writer prompt overrides skip rules and forbids a Telegram citat
   assert.match(prompt, /تبلیغ\/رپورتاژ/);
 });
 
+test('a manual offer without a link keeps the no-expiry note but drops the source-tail instruction', () => {
+  const prompt = buildUserMessage({
+    item: { title: 'آفر دستی', published: '2026-10-01T00:00:00Z' },
+    article: {
+      title: 'آفر دستی',
+      published: '2026-10-01T00:00:00Z',
+      content: MANUAL_SOURCE,
+      imageAlt: '',
+    },
+    url: 'https://t.me/example/1',
+    now: NOW,
+    imageUrl: '',
+    offer: { openEnded: true, note: 'بدون تاریخ انقضای اعلام‌شده' },
+    manual: true,
+    noSource: true,
+  });
+  assert.ok(prompt.includes('بدون تاریخ انقضای اعلام‌شده'));
+  assert.equal(prompt.includes('پیش از خط منبع'), false);
+  assert.equal(prompt.includes('صفحه رسمی فروشنده'), false);
+});
+
 test('the system prompt scopes automatic skips so manual mode is not contradictory', async () => {
   const prompt = await readFile(resolve(ROOT, 'bench', 'system-prompt.md'), 'utf8');
   for (const line of [
@@ -400,6 +480,8 @@ test('the system prompt scopes automatic skips so manual mode is not contradicto
     'در حالت خودکار خبر قدیمی‌تر را skip کن',
     'unverified در حالت خودکار به‌طور پیش‌فرض skip',
     'در حالت دستی، خط پایانی مطابق بخش ۰.۱ است',
+    'اگر آفر دستی تاریخ انقضای اعلام‌شده ندارد',
+    'تنها استثنا خط «بدون تاریخ انقضای اعلام‌شده»',
     'اگر در حالت خودکار شک داشتی',
     'در حالت دستی فقط تبلیغ/رپورتاژ یا تکرار را skip کرده‌ای',
   ]) {

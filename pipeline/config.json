@@ -120,6 +120,7 @@
     "no_expiry_per_vendor_days": 14,
     "no_expiry_recheck_hours": 6,
     "no_expiry_note": "بدون تاریخ انقضای اعلام‌شده؛ پیش از اقدام، صفحهٔ رسمی را ببینید",
+    "manual_no_expiry_note": "بدون تاریخ انقضای اعلام‌شده",
     "min_remaining_hours": 24,
     "max_age_hours": 24,
     "max_per_day": 1,

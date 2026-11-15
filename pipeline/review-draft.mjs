@@ -105,6 +105,10 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '', op
   })();
   const manual = options.manual === true || item?.manual === true;
   const noSource = manual && !externalUrlForItem(item) && !usageUrl;
+  const baseOffer = offerContextFromItem(item, config);
+  const offer = manual && baseOffer?.openEnded
+    ? { ...baseOffer, note: String(config?.offers?.manual_no_expiry_note ?? baseOffer.note) }
+    : baseOffer;
   return {
     url,
     host,
@@ -120,7 +124,7 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '', op
     now,
     newsDate: newsDateLine(item?.publishedAt),
     policy: item?.policy === true,
-    offer: offerContextFromItem(item, config),
+    offer,
     officialResolved: item?.kind === 'offer',
     manual,
     noSource,
@@ -139,10 +143,11 @@ export async function draftReviewPost({
   log = () => {},
 } = {}) {
   const content = String(item?.messageText ?? '').trim();
-  if (content.length < Math.max(0, Number(minChars) || 0)) {
+  const minimum = manual ? 1 : Math.max(0, Number(minChars) || 0);
+  if (content.length < minimum) {
     return { post: null, qa: null, reason: 'short' };
   }
-  if (item?.kind === 'offer' && !item?.expiry) {
+  if (!manual && item?.kind === 'offer' && !item?.expiry) {
     return { post: null, qa: null, reason: 'offer_context_missing' };
   }
   const candidate = candidateFromItem(item);
@@ -162,9 +167,12 @@ export async function draftReviewPost({
     })),
   };
   const nowLine = newsDateLine(item?.publishedAt);
-  const offer = offerContextFromItem(item, config);
+  const baseOffer = offerContextFromItem(item, config);
   const toolUsage = toolUsageForItem(item);
   const noSource = manual && !externalUrlForItem(item) && !toolUsage?.url;
+  const offer = manual && baseOffer?.openEnded
+    ? { ...baseOffer, note: String(config?.offers?.manual_no_expiry_note ?? baseOffer.note) }
+    : baseOffer;
   const story = {
     item: { title: item?.title, published: item?.publishedAt },
     article,
@@ -221,6 +229,8 @@ export async function draftReviewPost({
       imageUrl,
       newsDate: nowLine,
       sourceType: item?.sourceType,
+      openEnded: manual && offer?.openEnded === true,
+      noExpiryNote: manual && offer?.openEnded ? offer.note : '',
     });
   let fixed = finalize(prepared);
   let qa = qaPost(

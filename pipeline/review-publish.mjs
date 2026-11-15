@@ -11,19 +11,6 @@ export function publishSlotFor(now) {
   return `${date}T${String(parts.hour).padStart(2, '0')}:${String(parts.minute).padStart(2, '0')}`;
 }
 
-export function slotWindowStatus(now, slots = [], { before = 20, after = 35 } = {}) {
-  const parts = tehranParts(now);
-  const minuteOfDay = parts.hour * 60 + parts.minute;
-  for (const slot of slots) {
-    const match = /^(\d{1,2}):(\d{2})$/.exec(String(slot));
-    if (!match) continue;
-    const start = Number(match[1]) * 60 + Number(match[2]);
-    const since = (minuteOfDay - start + 1440) % 1440;
-    if (since <= after || since >= 1440 - before) return { active: true, slot, since };
-  }
-  return { active: false, slot: '', since: -1 };
-}
-
 export function filterOwnReviewEntries(delivered, item) {
   const titles = new Set([item?.title, item?.post?.title].filter(Boolean));
   return (delivered ?? []).filter(
@@ -107,7 +94,7 @@ export function publishGuards({
       return { ok: false, reason: 'source_weekly_cap', detail: 'سقف هفتگی این منبع پر است.' };
     }
   }
-  if (item.kind === 'offer' && !item.url) {
+  if (!manual && item.kind === 'offer' && !item.url) {
     return {
       ok: false,
       reason: 'offer_link_missing',

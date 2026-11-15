@@ -35,8 +35,13 @@ import {
   saveReviewStore,
   statusKeyboard,
 } from './review-items.mjs';
-import { draftReviewPost, resolvedImageUrl, toolUsageForItem } from './review-draft.mjs';
-import { publishGuards, publishSlotFor, qaForPublish, slotWindowStatus } from './review-publish.mjs';
+import {
+  draftReviewPost,
+  offerContextFromItem,
+  resolvedImageUrl,
+  toolUsageForItem,
+} from './review-draft.mjs';
+import { publishGuards, publishSlotFor, qaForPublish } from './review-publish.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const args = process.argv.slice(2);
@@ -48,7 +53,6 @@ const flag = (name) => args.includes(name);
 
 const NOW = option('--now', new Date().toISOString());
 const SEND = flag('--send');
-const ALLOW_SLOT_WINDOW = flag('--allow-slot-window');
 const UPDATES_FILE = option('--updates', '');
 const MAX_ACTIONS_ARG = option('--max-actions', '');
 
@@ -413,6 +417,9 @@ async function handlePublish(review, query) {
   if (error) return notify(error);
   if (!item.post) return notify('این مورد نسخهٔ آمادهٔ انتشار ندارد؛ اول بازنویسی کن.');
   const usage = toolUsageForItem(item);
+  const manual = item.manual === true;
+  const offer = offerContextFromItem(item, config);
+  const openEndedOffer = manual && offer?.openEnded === true;
   // Rebuild the tail from the item so an old draft cannot publish its channel name.
   item.post = applyMechanicalFixes(item.post, {
     sourceName: item.sourceName,
@@ -422,9 +429,12 @@ async function handlePublish(review, query) {
     imageUrl: resolvedImageUrl(item),
     newsDate: '',
     sourceType: item.sourceType,
+    openEnded: openEndedOffer,
+    noExpiryNote: openEndedOffer
+      ? String(config.offers?.manual_no_expiry_note ?? offer.note ?? '')
+      : '',
   });
   const qa = qaForPublish(item, NOW, config);
-  const manual = item.manual === true;
   const verdict = publishGuards({ config, state, item, qa, now: NOW, delivered, manual });
   await answer(query.id, verdict.ok ? 'در حال ارسال به کانال اصلی.' : 'ارسال نشد؛ دلیل در پیام بعدی.');
   if (!verdict.ok) {
@@ -557,13 +567,6 @@ async function dispatch(update) {
 }
 
 async function main() {
-  if (SEND && !ALLOW_SLOT_WINDOW) {
-    const window = slotWindowStatus(NOW, config.schedule?.slots ?? []);
-    if (window.active) {
-      log(`SLOT_WINDOW_SKIP slot=${window.slot} since=${window.since}`);
-      return;
-    }
-  }
   let updates = [];
   if (UPDATES_FILE) {
     const raw = JSON.parse(await readFile(resolve(ROOT, UPDATES_FILE), 'utf8'));

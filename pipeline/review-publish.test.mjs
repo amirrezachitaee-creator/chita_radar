@@ -5,7 +5,6 @@ import {
   publishGuards,
   publishSlotFor,
   qaForPublish,
-  slotWindowStatus,
 } from './review-publish.mjs';
 import { weekKey } from './store.mjs';
 
@@ -79,20 +78,6 @@ test('the publish slot uses the current tehran day and clock', () => {
   assert.equal(publishSlotFor(NOW), '2026-11-14T18:30');
 });
 
-test('the action poller stands down around each scheduled slot', () => {
-  const slots = ['08:30', '11:30', '14:00', '17:00', '20:30', '23:00'];
-  assert.equal(slotWindowStatus('2026-11-14T15:00:00Z', slots).active, false);
-  const running = slotWindowStatus('2026-11-14T13:35:00Z', slots);
-  assert.equal(running.active, true);
-  assert.equal(running.slot, '17:00');
-  const before = slotWindowStatus('2026-11-14T16:50:00Z', slots);
-  assert.equal(before.active, true);
-  assert.equal(before.slot, '20:30');
-  const midnight = slotWindowStatus('2026-11-14T20:30:00Z', ['23:00']);
-  assert.equal(midnight.active, false);
-  assert.equal(slotWindowStatus('2026-11-14T20:05:00Z', ['23:00']).active, true);
-});
-
 test('the item own review record never blocks its publish as a duplicate', () => {
   const item = baseItem();
   const own = { lane: 'review', decision: 'review', title: item.title };
@@ -162,6 +147,18 @@ test('the source daily and weekly caps are enforced', () => {
 test('an offer without a source link stays out of the main channel', () => {
   const result = guard({ item: baseItem({ kind: 'offer', url: '' }) });
   assert.equal(result.reason, 'offer_link_missing');
+});
+
+test('a manual offer without a source link is allowed only by human override', () => {
+  const item = baseItem({
+    kind: 'offer',
+    url: '',
+    manual: true,
+    post: { ...baseItem().post, category: 'tools' },
+  });
+  const result = guard({ item });
+  assert.equal(result.ok, true);
+  assert.equal(result.reason, 'ok');
 });
 
 test('a story that already went out is blocked as a duplicate', () => {
