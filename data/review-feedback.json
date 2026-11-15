@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883470,
+  "offset": 659883474,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -856,13 +856,13 @@
     "ffb7a9e726": {
       "id": "ffb7a9e726",
       "status": "pending",
-      "rewrites": 0,
+      "rewrites": 2,
       "createdAt": "2026-11-15T17:00:58.089Z",
-      "updatedAt": "2026-11-15T17:00:58.089Z",
-      "messageId": 306,
+      "updatedAt": "2026-11-15T17:49:47.996Z",
+      "messageId": 310,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T20:30+03:30",
-      "reason": "model_skip",
+      "reason": "manual_rewrite",
       "kind": "offer",
       "source": "tg-archive-tell",
       "sourceName": "ArchiveTell",
@@ -888,23 +888,60 @@
       "offerHint": true,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
-      "post": null,
+      "mainEligible": true,
+      "qaPass": true,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "tools",
+        "post_type": "standard",
+        "importance": 3,
+        "title": "پلاگین جدید دیپ‌سیک هارنس، مدل‌های قوی را رایگان می‌کند",
+        "body": "یک پلاگین جدید به اسم Our Free Model برای دیپ‌سیک هارنس منتشر شده که مدل‌های DeepSeek V4.1 Flash، Kimi K3 و GLM 5.3 Flash را بدون ثبت‌نام، کلید API یا کارت بانکی در اختیارت می‌ذاره. این پلاگین مدل‌ها را از پورتال‌های رایگان عمومی OpenCode Zen و Kilo می‌گیره و یک درگاه سازگار با اوپن‌ای‌آی روی کامپیوتر خودت باز می‌کنه تا بقیه ابزارها هم بتونن بهش وصل بشن.\n\nبا این پلاگین، هر کسی بدون هیچ هزینه‌ای می‌تونه مدل‌های به‌روز رو توی ابزار خودش امتحان کنه و دیگه نگران سهمیه استفاده نباشه.\nبدون تاریخ انقضای اعلام‌شده\n\nمنبع: [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)",
+        "quote": "نصبش هم ساده‌ست؛ کافیه این دستور رو توی ترمینال بزنی و بعد دیپ‌سیک هارنس رو ری‌استارت کنی: `dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.5`\n\nبدون تاریخ انقضای اعلام‌شده",
+        "key_facts": [
+          "پلاگین Our Free Model برای دیپ‌سیک هارنس منتشر شده",
+          "مدل‌های DeepSeek V4.1 Flash، Kimi K3 و GLM 5.3 Flash بدون کلید و ثبت‌نام در دسترسند",
+          "مدل‌ها از پورتال‌های رایگان OpenCode Zen و Kilo گرفته می‌شوند",
+          "نصب با دستور dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.5 انجام می‌شود"
+        ],
+        "numbers": [],
+        "entities": {
+          "companies": [
+            "DeepSeek",
+            "Kimi",
+            "OpenCode Zen",
+            "Kilo"
+          ],
+          "models": [
+            "DeepSeek V4.1 Flash",
+            "Kimi K3",
+            "GLM 5.3 Flash"
+          ],
+          "people": []
+        },
+        "verification": "unverified",
+        "source_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+        "image_url": "https://cdn4.telesco.pe/file/FL3KMj70Ljcok_rGg0uDNpHiLz5d79sZJiZ8cWuZD55K-TRt64m9UhfZVLNXriLhu_AxZQ00aQIPh3K0g5lVfVhb72riSuVD-2GvoMbHVak6nrcs-oATPqF9Q5rxzVHy4S7yTFfXW_gsLg14BVBiv76zc09It6mNGsPgZsq46FC0hIiaXoICRxf0Fx2GV0ttOhKMitC973blhge00vHSDkSOlJ0JPtth7E2U1JDh1TG7kaU2qyXVjVhIgkVBEaoI3lXILzcB0ifd3ahxvCW-njnQ5jb3GoemHNCh29w-T-KzkB1A4Bl0HyWsn7lmY4VfXDDq648O_RcD4se2dqe9zg.jpg",
+        "dedupe_key": "ebony-vinyl-dsh-our-free-model-release"
+      },
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-15T17:49:47.996Z",
+      "sentAt": "",
+      "manual": true,
+      "lastAction": "rewrite"
     },
     "888d2be7ec": {
       "id": "888d2be7ec",
-      "status": "pending",
-      "rewrites": 0,
+      "status": "rejected",
+      "rewrites": 1,
       "createdAt": "2026-11-15T17:00:58.089Z",
-      "updatedAt": "2026-11-15T17:00:58.089Z",
-      "messageId": 307,
+      "updatedAt": "2026-11-15T17:48:06.656Z",
+      "messageId": 308,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T20:30+03:30",
-      "reason": "model_skip",
+      "reason": "manual_rewrite",
       "kind": "tool",
       "source": "tg-techiin",
       "sourceName": "تِک‌این | آموزش و فناوری",
@@ -936,10 +973,45 @@
       "policy": false,
       "mainEligible": false,
       "qaPass": false,
-      "post": null,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "education",
+        "post_type": "standard",
+        "importance": 2,
+        "title": "دوره جامع تولید محتوا با ChatGPT و Bard",
+        "body": "این دوره به شما یاد می‌ده چطور با ChatGPT و Bard کارهای روزمره رو انجام بدید، متن بنویسید و پرامپت‌های پیشرفته طراحی کنید. ابزارهایی مثل Leonardo AI و ElevenLabs هم آموزش داده می‌شن تا تصویر، ویدئو و صوت باکیفیت بسازید.\n\nبا این دوره، تولید محتوا برای تازه‌کارها هم ساده می‌شه و می‌تونن بدون دانش فنی قبلی، خروجی حرفه‌ای بگیرن.\n\nمنبع: [git.ir](https://git.ir/udemy-chatgpt-and-bard-the-complete-guide-to-ai-content-creation/)",
+        "quote": "محور اصلی دوره، خودکارسازی تولید محتواست تا زمان و انرژی بیشتری برای کارهای مهم‌تر داشته باشید. برای شرکت در دوره نیازی به تجربه قبلی ندارید و برای تولیدکنندگان محتوا، بازاریابان، صاحبان کسب‌وکار، دانشجویان و علاقه‌مندان به هوش مصنوعی مناسبه.",
+        "key_facts": [
+          "آموزش ChatGPT و Bard برای تولید محتوا",
+          "آموزش Leonardo AI و ElevenLabs برای تصویر، ویدئو و صوت",
+          "مناسب برای مبتدیان بدون نیاز به تجربه قبلی"
+        ],
+        "numbers": [],
+        "entities": {
+          "companies": [
+            "OpenAI",
+            "Google",
+            "Leonardo AI",
+            "ElevenLabs"
+          ],
+          "models": [
+            "ChatGPT",
+            "Bard"
+          ],
+          "people": []
+        },
+        "verification": "unverified",
+        "source_url": "https://git.ir/udemy-chatgpt-and-bard-the-complete-guide-to-ai-content-creation/",
+        "image_url": "https://cdn4.telesco.pe/file/BvTFUaHQGncoPtrDcNLyDsbc5YG3afiYSGwlerby1IoLag5jBTdz0Psaq5d6gtsK2Z8W9jfo0VyPGs1lDdK3D3IwysS5_E-kY2zjMXtuUhtWsB_3_q9uPBMNxaKJ9To4ax_tVsfg2pniyo0QHFbdCXwU18_hwx5Z1fY1Rm-AGJYuneOF7xLiveRzCoC_AyMRjFafLUYKzCNrRjCfROMSCmg_hE-oCu2R_ozla_VDf_ngusmNqODDVdsyVXuNuKBLSL1OmDqpufjjnjjzdJivrXgUUmSGODCh3Zp7b5GSMVHIL_KlpU-vNOLw7plyPN4QBwVnHYpU-mom23NelxkhPQ.jpg",
+        "dedupe_key": "gitir-chatgpt-bard-content-creation-course"
+      },
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-15T17:48:06.656Z",
+      "sentAt": "",
+      "manual": true,
+      "lastAction": "reject"
     }
   },
   "actions": [
@@ -951,6 +1023,42 @@
       "reason": "",
       "detail": "qa_failed cost=$0.000297",
       "actor": "manual-replay"
+    },
+    {
+      "at": "2026-11-15T17:47:14.881Z",
+      "action": "rewrite",
+      "itemId": "888d2be7ec",
+      "source": "tg-techiin",
+      "reason": "",
+      "detail": "qa_failed cost=$0.001503",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-15T17:47:56.615Z",
+      "action": "rewrite",
+      "itemId": "ffb7a9e726",
+      "source": "tg-archive-tell",
+      "reason": "",
+      "detail": "qa_pass cost=$0.000444",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-15T17:48:06.656Z",
+      "action": "reject",
+      "itemId": "888d2be7ec",
+      "source": "tg-techiin",
+      "reason": "other",
+      "detail": "دوره ChatGPT و Bard: راهنمای کامل تولید محتوا با هوش مصنوعی",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-15T17:49:47.996Z",
+      "action": "rewrite",
+      "itemId": "ffb7a9e726",
+      "source": "tg-archive-tell",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001667",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -959,6 +1067,18 @@
       "rewrites": 1,
       "publishes": 0,
       "lastAt": "2026-11-15T14:42:17.514Z"
+    },
+    "tg-techiin": {
+      "rejects": 1,
+      "rewrites": 1,
+      "publishes": 0,
+      "lastAt": "2026-11-15T17:48:06.656Z"
+    },
+    "tg-archive-tell": {
+      "rejects": 0,
+      "rewrites": 2,
+      "publishes": 0,
+      "lastAt": "2026-11-15T17:49:47.996Z"
     }
   }
 }
