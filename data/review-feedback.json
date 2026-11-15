@@ -638,6 +638,10 @@
     },
     "19548d3e34": {
       "id": "19548d3e34",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-15T13:30:50.391Z",
+      "updatedAt": "2026-11-15T13:30:50.391Z",
       "messageId": 296,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T17:00+03:30",
@@ -670,10 +674,6 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-15T13:30:50.391Z",
-      "updatedAt": "2026-11-15T13:30:50.391Z",
       "lastActionAt": "",
       "sentAt": ""
     }
