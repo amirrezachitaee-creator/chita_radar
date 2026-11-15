@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T09:01:40.873Z",
+  "updatedAt": "2026-11-15T10:32:31.539Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8834,6 +8834,24 @@
       "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
       "benchmark": false
+    },
+    "url:b16f4676ab80a5d2": {
+      "at": "2026-11-15T10:32:01.949Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T14:00+03:30",
+      "title": "یه ابزار متن‌باز که با کلاد کد و بدون هیچ مدل ویدئویی‌ای، موزیک‌ویدئو می‌سازه",
+      "url": "https://t.me/MatinSenPaii/5884"
+    },
+    "title:090544c87af23a5a": {
+      "at": "2026-11-15T10:32:01.949Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T14:00+03:30",
+      "title": "یه ابزار متن‌باز که با کلاد کد و بدون هیچ مدل ویدئویی‌ای، موزیک‌ویدئو می‌سازه",
+      "url": "https://t.me/MatinSenPaii/5884"
     }
   },
   "deferred": {
@@ -8973,55 +8991,6 @@
         "keys": [
           "url:84ec87286cb35a64",
           "title:7bce64ba39eb8d46"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:58950b1145824a10": {
-      "id": "defer:url:58950b1145824a10",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:58950b1145824a10",
-        "title:e2f294d987b31067"
-      ],
-      "canonical": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
-      "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
-        "link": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-        "canonical": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
-        "published": "Thu, 12 Nov 2026 10:09:56 +0000",
-        "summary": "Australia's government, led by Prime Minister Anthony Albanese, wants to enshrine mandatory safety rules for frontier AI companies in law for the first time. A new regulator would enforce independent model audits and impose steep penalties for violations. With this move, Canberra is deliberately prioritizing domestic regulation before entering international talks. The article Australia's proposed AI safety bill would force frontier model makers to open up to independent testing appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/australia_ai_safety.png"
-        ],
-        "ageHours": 18.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:58950b1145824a10",
-          "title:e2f294d987b31067"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9961,52 +9930,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:4922ca6fb0dd9299": {
-      "id": "defer:url:4922ca6fb0dd9299",
-      "at": "2026-11-13T20:21:52.336Z",
-      "firstAt": "2026-11-13T20:21:52.336Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4922ca6fb0dd9299",
-        "title:09915538fdf04dc4"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Holiday Extras is rethinking what it can build with Codex",
-        "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
-        "canonical": "https://openai.com/business/customer-stories/holidays-extras-codex",
-        "published": "Thu, 12 Nov 2026 09:30:00 GMT",
-        "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
-        "images": [],
-        "ageHours": 34.9,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4922ca6fb0dd9299",
-          "title:09915538fdf04dc4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:aed6a44b6f21a432": {
       "id": "defer:url:aed6a44b6f21a432",
       "at": "2026-11-14T11:13:49.750Z",
@@ -10402,9 +10325,9 @@
     },
     "defer:url:a99dfdd20d85acbb": {
       "id": "defer:url:a99dfdd20d85acbb",
-      "at": "2026-11-14T17:32:21.950Z",
+      "at": "2026-11-15T10:32:31.523Z",
       "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -10447,7 +10370,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:a99dfdd20d85acbb",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -10875,9 +10798,9 @@
     },
     "defer:url:9c481a0931060f36": {
       "id": "defer:url:9c481a0931060f36",
-      "at": "2026-11-15T05:07:42.748Z",
+      "at": "2026-11-15T10:32:31.471Z",
       "firstAt": "2026-11-15T05:07:42.748Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -10916,7 +10839,11 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:9c481a0931060f36",
+          "attempts": 1
+        }
       },
       "detail": "tools"
     },
@@ -11141,6 +11068,257 @@
         "keys": [
           "url:b86c3b944ed17c51",
           "title:5557d06d7beeeaec"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a720dacef8969fc0": {
+      "id": "defer:url:a720dacef8969fc0",
+      "at": "2026-11-15T10:32:01.957Z",
+      "firstAt": "2026-11-15T10:32:01.957Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:a720dacef8969fc0",
+        "title:f81e4095b6d3377d"
+      ],
+      "canonical": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+        "link": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+        "canonical": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
+        "published": "Sun, 15 Nov 2026 10:06:06 +0000",
+        "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs. The article Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/meituan-logo-wall-chatgpt-5.6.jpg"
+        ],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a720dacef8969fc0",
+          "title:f81e4095b6d3377d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:17fc6ede4247840a": {
+      "id": "defer:url:17fc6ede4247840a",
+      "at": "2026-11-15T10:32:01.957Z",
+      "firstAt": "2026-11-15T10:32:01.957Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:17fc6ede4247840a",
+        "title:3b7fbb1e7711dc45"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+        "link": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+        "canonical": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
+        "published": "Sat, 14 Nov 2026 19:05:17 +0000",
+        "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_logos-5.png"
+        ],
+        "ageHours": 15.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:17fc6ede4247840a",
+          "title:3b7fbb1e7711dc45"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1fe7c02fe7977698": {
+      "id": "defer:url:1fe7c02fe7977698",
+      "at": "2026-11-15T10:32:01.958Z",
+      "firstAt": "2026-11-15T10:32:01.958Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:1fe7c02fe7977698",
+        "title:62913d4fe8942d17"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+        "link": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+        "canonical": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+        "published": "Sat, 14 Nov 2026 16:42:56 +0000",
+        "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
+        ],
+        "ageHours": 17.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:1fe7c02fe7977698",
+          "title:62913d4fe8942d17"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0657681e47e39496": {
+      "id": "defer:url:0657681e47e39496",
+      "at": "2026-11-15T10:32:01.958Z",
+      "firstAt": "2026-11-15T10:32:01.958Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0657681e47e39496",
+        "title:64914376814309f3"
+      ],
+      "canonical": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+      "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+        "link": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+        "canonical": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+        "published": "Sat, 14 Nov 2026 11:40:51 +0000",
+        "summary": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to accelerate its robotics efforts. The article OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+        "images": [
+          "http://the-decoder.com/wp-content/uploads/2026/09/astra_robot_kitchen_test.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/09/openai_robot_arms.png"
+        ],
+        "ageHours": 22.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:0657681e47e39496",
+          "title:64914376814309f3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:945b3dc7df719915": {
+      "id": "defer:url:945b3dc7df719915",
+      "at": "2026-11-15T10:32:01.958Z",
+      "firstAt": "2026-11-15T10:32:01.958Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:945b3dc7df719915",
+        "title:adebadb6315f15c1"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
+      "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+        "link": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+        "canonical": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
+        "published": "Sat, 14 Nov 2026 11:21:41 +0000",
+        "summary": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitors can catch up and human-level AI can become a commodity. The article Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/09/claude_laser.png"
+        ],
+        "ageHours": 23.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:945b3dc7df719915",
+          "title:adebadb6315f15c1"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -12873,6 +13051,14 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "43/43"
+    },
+    "2026-11-15T14:00+03:30": {
+      "at": "2026-11-15T10:32:31.533Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0017410008000000002,
+      "tokens": 18812,
+      "posts": []
     }
   },
   "published": [
@@ -14039,87 +14225,87 @@
     "ArchiveTell": {
       "last_id": 8413,
       "last_at": "2026-11-15T05:39:39+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "ai_farshad": {
       "last_id": 6440,
       "last_at": "2026-11-15T07:34:19+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "Mohammad_zammani": {
       "last_id": 7213,
       "last_at": "2026-11-15T06:11:45+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "techiin_ir": {
       "last_id": 20777,
       "last_at": "2026-11-15T07:46:12+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "asrnovin_ir": {
       "last_id": 11469,
       "last_at": "2026-11-15T05:41:32+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "shayanode": {
-      "last_id": 197,
-      "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "last_id": 199,
+      "last_at": "2026-11-15T10:01:37+00:00",
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "codecloude": {
       "last_id": 2586,
       "last_at": "2026-11-15T04:48:41+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "dunijet_ai": {
       "last_id": 2550,
       "last_at": "2026-11-15T03:31:29+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "MatinSenPaii": {
-      "last_id": 5881,
-      "last_at": "2026-11-15T08:34:03+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "last_id": 5884,
+      "last_at": "2026-11-15T10:29:02+00:00",
+      "checked_at": "2026-11-15T10:30:50.433Z"
     },
     "thenimaonAI": {
       "last_id": 520,
       "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-15T08:48:06.152Z"
+      "checked_at": "2026-11-15T10:30:50.433Z"
     }
   },
   "offerReviews": [
@@ -16748,6 +16934,18 @@
       "url": "https://t.me/MatinSenPaii/5881",
       "reason": "no_link",
       "slot": "2026-11-15T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-matin-senpai|https://t.me/MatinSenPaii/5884",
+      "date": "2026-11-15",
+      "at": "2026-11-15T10:30:50.433Z",
+      "source": "tg-matin-senpai",
+      "title": "یه ابزار متن‌باز که با کلاد کد و بدون هیچ مدل ویدئویی‌ای، موزیک‌ویدئو می‌سازه",
+      "url": "https://t.me/MatinSenPaii/5884",
+      "reason": "denied_link",
+      "slot": "2026-11-15T14:00+03:30",
       "kind": "post",
       "mainEligible": false
     }
