@@ -1,0 +1,133 @@
+RUN 43692477467 | send/main | slot auto | 2026-11-15T08:00:54Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-15T11:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 3/31 | models 1/24 | security 1/11 | business 1/11
+DAILY 1/11
+DIVERSITY_TARGET models | slot 11:30
+DEFERRED_POOL 40
+  DEFERRED category_consecutive | try 1/3 | datasette-llm 0.1a11
+  DEFERRED source_consecutive | try 0/3 | کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن
+  DEFERRED source_daily | try 0/3 | The AI graveyard: a running list of projects and startups that didn’t make it
+  DEFERRED source_daily | try 0/3 | Asian governments react to Nvidia CEO Jensen Huang’s exit
+  DEFERRED category_consecutive | try 0/3 | 🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!
+DEFERRED_EXHAUSTED 4
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=191 nodate=0 nonai=1 dup=31 dup_other=0 kept=67 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=315 pending=17 leads=7 nolink=0 nonai=0 denied=6 promo=0 stale=0 before=0 dup=1 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0
+MEMORY lanes=main:389,review:13 delivered=402 window=30d
+REVIEW_LEADS 4 separate_from_main=yes cap=none
+REVIEW_DRAFT Thenima.one | 📌 بچه‌ها عضویت تو AI Lab هنوزم فعاله و میتونید ثبت‌نام کنید. | 844 chars
+  REVIEW_ITEM id=9f303a0c4b message=290
+  REVIEW_REQUIRED reason=no_link sent=290
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/11-30-9c68cda0
+REVIEW_DRAFT Marketing and Ai | بچه ها اگه میخواید با Grok Bot + Claude پول دربیارید، این PDF یه راهنمای کامله | 408 chars
+  REVIEW_ITEM id=898031914d message=291
+  REVIEW_REQUIRED reason=denied_link sent=291
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/11-30-223a70a8
+  REVIEW_ITEM id=2adc865ee2 message=292
+  REVIEW_REQUIRED reason=denied_link sent=292
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/11-30-1a684f0c
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | 🤖گوگل یه آپدیت جزئی روی صفحه تنظیمات آرتیفکت جدید «Comic» تو Gemini Notebook اعمال کرده که | 659 chars
+  REVIEW_ITEM id=a10432144a message=293
+  REVIEW_REQUIRED reason=denied_link sent=293
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/11-30-1b849c39
+RELEVANCE candidates=63 kept=33 dropped=30
+  SKIP_NOT_AI Product Hunt | Perit Marketplace
+  SKIP_NOT_AI TechCrunch | Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide
+  SKIP_NOT_AI Product Hunt | ByteAsk Cloud Agents
+  SKIP_NOT_AI TechCrunch | Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price
+  SKIP_NOT_AI Product Hunt | Thunder
+  SKIP_NOT_AI TechCrunch | This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board
+  SKIP_NOT_AI Product Hunt | CodeMesh
+  SKIP_NOT_AI arXiv | Consistent Video-to-Video Translation via Explicit Correspondences
+  SKIP_NOT_AI ... +22 more
+DIVERSITY target=models queue=2 fresh=10 deferred=40 rejected=category_consecutive:13
+  DIVERSITY_QUEUE models:The Decoder | models:TechCrunch
+QUEUE_SKIPPED 40
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | 🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!
+  QUEUE_SKIP category_consecutive | MatinSenPaii | کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد
+  QUEUE_SKIP category_consecutive | هوش مصنوعی | محمد زمانی | یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | 🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!
+  QUEUE_SKIP category_consecutive | Ars Technica AI | FAA expands AI advice to manage air traffic congestion across entire US airspace
+  QUEUE_SKIP category_consecutive | The Decoder | Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows
+  QUEUE_SKIP category_consecutive | The Decoder | Claude Meetings lets Anthropic's AI join your video calls
+  QUEUE_SKIP category_consecutive | Product Hunt | Gemini Robotics 2.5
+  QUEUE_SKIP category_consecutive | Product Hunt | GAtrends
+  QUEUE_SKIP category_consecutive | Product Hunt | Gemini 4 Hydrogen
+  QUEUE_SKIP ... +30 more
+QUEUE_HELD 2
+  QUEUE_HOLD category_consecutive | Thenima.one | GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.
+  QUEUE_HOLD category_consecutive | M G H M O B I N | GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,
+ATTEMPT 1/2 | deferred 2/3 The Decoder | Runway's open-source Praxis-1 turns video AI into a robot controller | 0.7h
+  TOOL_LINK candidate https://github.com/runwayml/praxis-1-oss | score 43
+  MODEL DeepSeek-V4-Flash | image allowed
+  retry in 5s (status 0 timeout)
+  WRITER primary model=DeepSeek-V4-Flash
+  TITLE_TRIM
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED verification_source | one repair retry
+  BODY_TRIM
+  REPAIR_QA PASS | score 42/43 | problems none | warnings numbers_grounded
+  TOOL_LINK applied https://github.com/runwayml/praxis-1-oss
+  DIVERSITY_CATEGORY_CONSECUTIVE tools
+  DEFERRED category_consecutive | try 3/3
+  DEFER_LIMIT category_consecutive | no more retries
+ATTEMPT 2/2 | deferred 0/3 TechCrunch | Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen! | 0.8h
+  TOOL_LINK candidate https://www.reuters.com/world/china/nvidia-chips-pile-up-hong-kong-china-withholds-import-approval-2026-11-05/ | score 16
+  MODEL DeepSeek-V4-Flash | image forbidden_url
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | خبر درباره رسوایی شخصی مدیرعامل انویدیا و مسائل صادرات چیپ است، نه یک رویداد مشخص در حوزه هوش مصنوعی.
+RESULT EMPTY attempts=6 reviews=4 deferred=45 | cost $0.005091 | tokens 58504
+  EMPTY_ATTEMPT review reason=no_link | 📌 بچه‌ها عضویت تو AI Lab هنوزم فعاله و میتونید ثبت‌نام کنید.
+  EMPTY_ATTEMPT review reason=denied_link | بچه ها اگه میخواید با Grok Bot + Claude پول دربیارید، این PDF یه راهنمای کامله
+  EMPTY_ATTEMPT review reason=denied_link | Anthropic حالا پشتیبانی از تم‌های سفارشی رو به نسخه‌ی دسکتاپ Claude Code اضافه کرده. لازم نیست
+  EMPTY_ATTEMPT review reason=denied_link | 🤖گوگل یه آپدیت جزئی روی صفحه تنظیمات آرتیفکت جدید «Comic» تو Gemini Notebook اعمال کرده که
+  EMPTY_ATTEMPT deferred reason=category_consecutive | Runway's open-source Praxis-1 turns video AI into a robot controller
+  EMPTY_ATTEMPT model_skip reason=خبر درباره رسوایی شخصی مدیرعامل انویدیا و مسائل صادرات چیپ است، نه یک رویداد مشخص در حوزه هوش مصنوعی. | Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-15T08:07:18Z
+# گزارش روزانه 2026-11-15 (یکشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 1 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 1، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 1 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 0
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.005397
+- توکن: 67829
+- میانگین هر پست ارسال‌شده: $0.005397
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 3 | 31 | 28 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 1 | 11 | 10 |
+| کسب‌وکار و بازار | 1 | 11 | 10 |
+| مجموع | 6 | 77 | 71 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000306 | 9325 | اصول موشن‌دیزاین برای ایجنت‌های هوش مصنوعی منتشر شد |
+| 11:30 |  | خالی | — | $0.005091 | 58504 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 11
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 6، جزئیات ابزار کامل نشد 1، لینک قابل استفاده ندارد 1
+- واجد شرایط کانال اصلی: 1
+
+## صف تعویق
+- در انتظار: 45
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-15.md

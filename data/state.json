@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T05:39:39.146Z",
+  "updatedAt": "2026-11-15T08:07:18.090Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8690,6 +8690,96 @@
       "title": "GitHub - LottieFiles/motion-design-skill: Universal motion design principles for AI agents — timing, easing, c",
       "url": "https://github.com/LottieFiles/motion-design-skill",
       "benchmark": false
+    },
+    "url:9c68cda01b326f3d": {
+      "at": "2026-11-15T08:01:13.891Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "📌 بچه‌ها عضویت تو AI Lab هنوزم فعاله و میتونید ثبت‌نام کنید.",
+      "url": "https://t.me/thenimaonAI/516"
+    },
+    "title:f5dc93b1c6178e14": {
+      "at": "2026-11-15T08:01:13.891Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "📌 بچه‌ها عضویت تو AI Lab هنوزم فعاله و میتونید ثبت‌نام کنید.",
+      "url": "https://t.me/thenimaonAI/516"
+    },
+    "url:223a70a857447343": {
+      "at": "2026-11-15T08:01:39.810Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "بچه ها اگه میخواید با Grok Bot + Claude پول دربیارید، این PDF یه راهنمای کامله",
+      "url": "https://t.me/marketing_aida/107"
+    },
+    "title:76e3bb077858da4e": {
+      "at": "2026-11-15T08:01:39.810Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "بچه ها اگه میخواید با Grok Bot + Claude پول دربیارید، این PDF یه راهنمای کامله",
+      "url": "https://t.me/marketing_aida/107"
+    },
+    "url:1a684f0c399208fc": {
+      "at": "2026-11-15T08:01:40.024Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Anthropic حالا پشتیبانی از تم‌های سفارشی رو به نسخه‌ی دسکتاپ Claude Code اضافه کرده. لازم نیست",
+      "url": "https://t.me/thenimaonAI/514"
+    },
+    "title:bb9ff9f1a09b0ed2": {
+      "at": "2026-11-15T08:01:40.024Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Anthropic حالا پشتیبانی از تم‌های سفارشی رو به نسخه‌ی دسکتاپ Claude Code اضافه کرده. لازم نیست",
+      "url": "https://t.me/thenimaonAI/514"
+    },
+    "url:1b849c39ca03735d": {
+      "at": "2026-11-15T08:01:53.701Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "🤖گوگل یه آپدیت جزئی روی صفحه تنظیمات آرتیفکت جدید «Comic» تو Gemini Notebook اعمال کرده که",
+      "url": "https://t.me/Mohammad_zammani/7213"
+    },
+    "title:a6781463b5839c41": {
+      "at": "2026-11-15T08:01:53.701Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "🤖گوگل یه آپدیت جزئی روی صفحه تنظیمات آرتیفکت جدید «Comic» تو Gemini Notebook اعمال کرده که",
+      "url": "https://t.me/Mohammad_zammani/7213"
+    },
+    "url:a5cbeaaf0b4df56f": {
+      "at": "2026-11-15T08:07:18.088Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen"
+    },
+    "title:998e91cb450f3416": {
+      "at": "2026-11-15T08:07:18.088Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen"
     }
   },
   "deferred": {
@@ -9817,53 +9907,6 @@
       },
       "detail": "no_banned"
     },
-    "defer:url:a5cbeaaf0b4df56f": {
-      "id": "defer:url:a5cbeaaf0b4df56f",
-      "at": "2026-11-13T19:31:41.167Z",
-      "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:a5cbeaaf0b4df56f",
-        "title:998e91cb450f3416"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
-        "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-        "canonical": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
-        "published": "Fri, 13 Nov 2026 18:40:30 +0000",
-        "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-        "images": [],
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a5cbeaaf0b4df56f",
-          "title:998e91cb450f3416"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:76eaf2c5f6d24706": {
       "id": "defer:url:76eaf2c5f6d24706",
       "at": "2026-11-13T19:31:41.167Z",
@@ -10346,9 +10389,9 @@
     },
     "defer:url:456ace67e0015fb3": {
       "id": "defer:url:456ace67e0015fb3",
-      "at": "2026-11-14T17:32:21.907Z",
+      "at": "2026-11-15T08:07:12.909Z",
       "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -10393,7 +10436,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:456ace67e0015fb3",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "tools"
@@ -10917,6 +10960,141 @@
         "leadKind": ""
       },
       "detail": "tools"
+    },
+    "defer:url:699ac1b796124e5d": {
+      "id": "defer:url:699ac1b796124e5d",
+      "at": "2026-11-15T08:01:53.711Z",
+      "firstAt": "2026-11-15T08:01:53.711Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:699ac1b796124e5d",
+        "title:b1dc47f4e6f21d68"
+      ],
+      "canonical": "https://github.com/ManimCommunity/manim",
+      "title": "GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.",
+      "candidate": {
+        "sourceId": "tg-thenima",
+        "sourceName": "Thenima.one",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.",
+        "link": "https://github.com/ManimCommunity/manim",
+        "canonical": "https://github.com/ManimCommunity/manim",
+        "messageText": "یه چیزی که انیمیشن‌سازی با AI رو همیشه نصفه می‌ذاشت، هماهنگی بود: زمان‌بندی یه جا، سه‌بعدی یه جا، صدا و زیرنویس یه جای دیگه، و هیچ‌کدوم با هم حرف نمی‌زدن.\nاین ترکیب دقیقاً همین رو هدف گرفته: Fable 5.2 + ۲۰ ابزار کنار هم، تا یه ایجنت بتونه تایمینگ، سه‌بعدی، ذرات، صدا و کپشن رو یکجا مدیریت کنه. بیشتر ابزارها رایگان و متن‌بازن.\nاصول حرکت و ایجنت‌ها\n• motion-design-skill: تایمینگ، easing و ۱۲ اصل دیزنی\n• ai-kit: فنرهای CSS و ممیزی حرکت برای ایجنت‌ها\n• Remotion Skills: اسکیل‌های رسمی ویدیو برای ایجنت‌های کدنویس\nفیگور و دیاگرام\n• hairline: فیگورهای خطی تعاملی از یه ایده یا SVG\n• anatomy: ماشین و سیستم به‌شکل فیگور ایزومتریک\n• anatomy-reveal: نمای انفجاری محصول با خروجی MP4\n• Manim: دیاگرام و معادله‌ی متحرک \nسه‌بعدی و جلوه\n• blender-agents: تیم سه‌بعدی AI داخل Blender از طریق MCP\n• Three.js: صحنه و حرکت دوربین\n• react-three-rapier: فیزیک واقعی برای صحنه‌های React Three Fiber \n• react-postprocessing: بلوم، عمق میدان و افکت فیلم \n• three.quarks: ذرات و VFX \n• Tweakpane: کنترل زنده‌ی پارامترها \nموتور انیمیشن و ویدیو\n• GSAP: حالا کاملاً رایگان\n• Remotion: موتور ویدیو با React \n• Lottie: پخش انیمیشن وکتور سبک \nصدا، ریتم و تحویل\n• Openverse: افکت صوتی، صدای محیط و موسیقی رایگان\n• librosa: تشخیص بیت برای انیمیشن سینک با موزیک \n• WhisperX: زمان‌بندی کلمه‌به‌کلمه برای کپشن \n• FFmpeg: انکود و خروجی \n\n@thenimaonAI",
+        "leadPostUrl": "https://t.me/thenimaonAI/512",
+        "published": "2026-11-15T06:18:18+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.7,
+        "aiHint": true,
+        "aiCentral": false,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/ManimCommunity/manim",
+          "https://github.com/pmndrs/react-three-rapier",
+          "https://github.com/pmndrs/react-postprocessing",
+          "https://github.com/Alchemist0823/three.quarks",
+          "https://github.com/cocopon/tweakpane",
+          "https://github.com/remotion-dev/remotion",
+          "https://github.com/airbnb/lottie-web",
+          "https://github.com/librosa/librosa",
+          "https://github.com/m-bain/whisperX",
+          "https://github.com/FFmpeg/FFmpeg"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:699ac1b796124e5d",
+          "title:b1dc47f4e6f21d68"
+        ],
+        "leadSource": "thenimaonAI",
+        "leadMessageId": 512,
+        "leadChannelUrl": "https://t.me/thenimaonAI",
+        "sourceFocus": "education",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:c9cc4e89e2027c0f": {
+      "id": "defer:url:c9cc4e89e2027c0f",
+      "at": "2026-11-15T08:01:53.711Z",
+      "firstAt": "2026-11-15T08:01:53.711Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c9cc4e89e2027c0f",
+        "title:c9932d8398fae752"
+      ],
+      "canonical": "https://github.com/iart-ai/motion-skills",
+      "title": "GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,",
+      "candidate": {
+        "sourceId": "tg-mgh-mobin",
+        "sourceName": "M G H M O B I N",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,",
+        "link": "https://github.com/iart-ai/motion-skills",
+        "canonical": "https://github.com/iart-ai/motion-skills",
+        "messageText": "بچه ها این‌ پروژه برای موشن خیلی به کار میاد چکش کنید حتما\n\nاین پروژه یک مجموعه متن‌باز شامل ۵۶ Skill در ۱۹ پکیج تخصصی است که به Coding Agentها یاد می‌ده چطور موشن‌گرافیک، انیمیشن و ویدئو تولید کنن.\n\n🎬 چه کارهایی می‌تونی باهاش انجام بدی؟\n\nبعضی از حوزه‌هایی که این مجموعه پوشش می‌ده:\n\n🔹 حوزه Motion Design: ساخت موشن‌گرافیک، انیمیشن لوگو، ترکیب‌بندی و طراحی حرکتی\n\n🔹حوزه Kinetic Typography: متحرک‌سازی حرفه‌ای متن و تایپوگرافی\n\n🔹حوزه TikTok / Reels / Shorts: تولید ویدئوهای عمودی و محتوای کوتاه\n\n🔹حوزه Product & E-commerce Videos: ساخت ویدئوهای تبلیغاتی و معرفی محصولات\n\n🔹 حوزه Explainer Videos: تولید ویدئوهای آموزشی و توضیحی\n\n🔹حوزه Data Animation: تبدیل داده‌ها و نمودارها به انیمیشن‌های جذاب\n\n🔹 حوزه 3D & WebGL: ساخت انیمیشن‌های سه‌بعدی، Shader و صحنه‌های تعاملی با Three.js\n\n🔹حوزه Web Animation: انیمیشن‌های وب با GSAP، SVG و Lottie\n\n🔹 حوزه Manim: ساخت انیمیشن‌های ریاضی و آموزشی\n\n🔹 حوزه Generative Illustration: تولید تصویرسازی‌های خلاقانه با کدنویسی\n\n🔹 حوزه B-Roll و Talking Head: ساخت نماهای مکمل و ویدئوهای مبتنی بر گوینده\n\nحتی برای ساخت Lower Third شفاف، انیمیشن نقشه، ویدئوهای پیامکی و انیمیشن‌های فریم‌به‌فریم با JavaScript هم Skill اختصاصی داره.\n\n⚙️ نکته جالب این پروژه چیه؟\n\nموضوع فقط تولید انیمیشن نیست؛ بلکه روی کنترل کیفیت خروجی هم تمرکز کرده.\n\nبسیاری از Skillهای این مجموعه یک چرخه مشخص برای بررسی خروجی دارن:\n\n۱. اول Agent انیمیشن رو تولید می‌کنه.\n۲. از فریم‌های خروجی تصویر می‌گیره.\n۳. فریم‌ها رو بررسی می‌کنه تا مشکلات بصری مشخص بشن.\n۴. در صورت نیاز خروجی رو اصلاح می‌کنه.\n\nیعنی به‌جای اینکه Agent صرفاً کد بنویسه و امیدوار باشیم خروجی درست باشه، خودش هم نتیجه کارش رو …",
+        "leadPostUrl": "https://t.me/mgh_mobin/481",
+        "published": "2026-11-15T06:27:59+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/iart-ai/motion-skills"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:c9cc4e89e2027c0f",
+          "title:c9932d8398fae752"
+        ],
+        "leadSource": "mgh_mobin",
+        "leadMessageId": 481,
+        "leadChannelUrl": "https://t.me/mgh_mobin",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
     }
   },
   "slots": {
@@ -12597,6 +12775,14 @@
           "at": "2026-11-15T05:07:00.272Z"
         }
       ]
+    },
+    "2026-11-15T11:30+03:30": {
+      "at": "2026-11-15T08:07:18.088Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0050913464,
+      "tokens": 58504,
+      "posts": []
     }
   },
   "published": [
@@ -13725,89 +13911,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8412,
-      "last_at": "2026-11-14T16:07:20+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 8413,
+      "last_at": "2026-11-15T05:39:39+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "ai_farshad": {
-      "last_id": 6439,
-      "last_at": "2026-11-14T19:55:54+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 6440,
+      "last_at": "2026-11-15T07:34:19+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7212,
-      "last_at": "2026-11-14T17:10:15+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 7213,
+      "last_at": "2026-11-15T06:11:45+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "techiin_ir": {
-      "last_id": 20775,
-      "last_at": "2026-11-14T16:41:44+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 20777,
+      "last_at": "2026-11-15T07:46:12+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "mgh_mobin": {
-      "last_id": 480,
-      "last_at": "2026-11-14T09:59:58+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 482,
+      "last_at": "2026-11-15T06:54:48+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "asrnovin_ir": {
-      "last_id": 11468,
-      "last_at": "2026-11-14T20:50:00+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 11469,
+      "last_at": "2026-11-15T05:41:32+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "codecloude": {
       "last_id": 2586,
       "last_at": "2026-11-15T04:48:41+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "dunijet_ai": {
       "last_id": 2550,
       "last_at": "2026-11-15T03:31:29+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "marketing_aida": {
-      "last_id": 106,
-      "last_at": "2026-11-10T09:07:32+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 107,
+      "last_at": "2026-11-15T07:31:30+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "MatinSenPaii": {
-      "last_id": 5879,
-      "last_at": "2026-11-15T04:39:45+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 5880,
+      "last_at": "2026-11-15T06:33:09+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     },
     "thenimaonAI": {
-      "last_id": 510,
-      "last_at": "2026-11-14T09:53:59+00:00",
-      "checked_at": "2026-11-15T05:01:00.403Z"
+      "last_id": 518,
+      "last_at": "2026-11-15T07:59:49+00:00",
+      "checked_at": "2026-11-15T08:00:54.448Z"
     }
   },
   "offerReviews": [
@@ -16377,6 +16563,54 @@
       "reason": "tool_incomplete",
       "slot": "2026-11-15T08:30+03:30",
       "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-thenima|https://t.me/thenimaonAI/516",
+      "date": "2026-11-15",
+      "at": "2026-11-15T08:00:54.448Z",
+      "source": "tg-thenima",
+      "title": "📌 بچه‌ها عضویت تو AI Lab هنوزم فعاله و میتونید ثبت‌نام کنید.",
+      "url": "https://t.me/thenimaonAI/516",
+      "reason": "no_link",
+      "slot": "2026-11-15T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-marketing-aida|https://t.me/marketing_aida/107",
+      "date": "2026-11-15",
+      "at": "2026-11-15T08:00:54.448Z",
+      "source": "tg-marketing-aida",
+      "title": "بچه ها اگه میخواید با Grok Bot + Claude پول دربیارید، این PDF یه راهنمای کامله",
+      "url": "https://t.me/marketing_aida/107",
+      "reason": "denied_link",
+      "slot": "2026-11-15T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-thenima|https://t.me/thenimaonAI/514",
+      "date": "2026-11-15",
+      "at": "2026-11-15T08:00:54.448Z",
+      "source": "tg-thenima",
+      "title": "Anthropic حالا پشتیبانی از تم‌های سفارشی رو به نسخه‌ی دسکتاپ Claude Code اضافه کرده. لازم نیست",
+      "url": "https://t.me/thenimaonAI/514",
+      "reason": "denied_link",
+      "slot": "2026-11-15T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7213",
+      "date": "2026-11-15",
+      "at": "2026-11-15T08:00:54.448Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖گوگل یه آپدیت جزئی روی صفحه تنظیمات آرتیفکت جدید «Comic» تو Gemini Notebook اعمال کرده که",
+      "url": "https://t.me/Mohammad_zammani/7213",
+      "reason": "denied_link",
+      "slot": "2026-11-15T11:30+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],
