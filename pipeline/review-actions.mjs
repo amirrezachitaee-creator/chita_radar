@@ -16,6 +16,8 @@ import {
   answerCallbackQuery,
   editMessageReplyMarkup,
   getUpdates,
+  postHtml,
+  postText,
   sendTelegram,
   sendText,
 } from './telegram.mjs';
@@ -31,10 +33,10 @@ import {
   REJECT_REASONS,
   rewriteCountForDay,
   saveReviewStore,
+  statusKeyboard,
 } from './review-items.mjs';
-import { candidateFromItem, draftReviewPost, resolvedImageUrl, toolUsageForItem } from './review-draft.mjs';
+import { draftReviewPost, resolvedImageUrl, toolUsageForItem } from './review-draft.mjs';
 import { publishGuards, publishSlotFor, qaForPublish, slotWindowStatus } from './review-publish.mjs';
-import { reviewHtml, reviewText } from './offers.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const args = process.argv.slice(2);
@@ -158,6 +160,10 @@ async function setKeyboard(messageId, keyboard) {
   }
 }
 
+async function setStatusKeyboard(messageId, text, id) {
+  await setKeyboard(messageId, statusKeyboard(id, text));
+}
+
 function itemKeysOf(item) {
   return Array.isArray(item?.keys) ? item.keys.filter(Boolean) : [];
 }
@@ -199,32 +205,9 @@ function activeItem(review, query) {
   return { item };
 }
 
-function reviewMessage(item, actions = true) {
-  const candidate = candidateFromItem(item);
-  const article = {
-    url: item.url || item.leadPostUrl,
-    title: item.title,
-    description: '',
-    published: item.publishedAt,
-    imageUrl: resolvedImageUrl(item),
-    content: item.messageText,
-  };
-  const shared = {
-    article,
-    candidate,
-    assessment: { reason: item.reason, expiry: item.expiry },
-    offer: item.kind === 'offer' ? { isOffer: true } : null,
-    kind: item.kind,
-    mainEligible: item.post ? Boolean(item.qaPass || item.mainEligible) : false,
-    note:
-      item.kind === 'offer' && !item.expiry
-        ? String(config.offers?.no_expiry_note ?? '')
-        : '',
-    post: item.post,
-    text: item.messageText,
-    actions,
-  };
-  return { text: reviewText(shared), html: item.post ? reviewHtml(shared) : '' };
+function cleanReviewMessage(item) {
+  if (!item?.post) return { text: '', html: '' };
+  return { text: postText(item.post), html: postHtml(item.post) };
 }
 
 async function handleRejectMenu(review, query) {
@@ -266,7 +249,7 @@ async function handleReject(review, query) {
     url: item.url,
   });
   await persist();
-  await setKeyboard(item.messageId);
+  await setStatusKeyboard(item.messageId, '✅ رد شد', item.id);
   log(`REVIEW_REJECTED id=${item.id} reason=${review.extra} | ${item.title}`);
   await notify(`رد شد: ${reason}\n${item.title}`);
   return null;
@@ -289,12 +272,15 @@ async function handleRewrite(review, query) {
     status: item.status,
     messageId: item.messageId,
     updatedAt: item.updatedAt,
+    manual: item.manual,
+    reason: item.reason,
   };
   const oldMessageId = item.messageId;
+  item.manual = true;
   item.status = 'rewriting';
   await persistStore();
   await answer(query.id, 'بازنویسی شروع شد؛ نتیجه در پیام تازه می‌آید.');
-  log(`REVIEW_REWRITE_START id=${item.id} attempt=${Number(item.rewrites) + 1}/${REWRITE_CAP}`);
+  log(`REVIEW_REWRITE_START id=${item.id} attempt=${Number(item.rewrites) + 1}/${REWRITE_CAP} manual=1`);
 
   if (!SEND) {
     const next = {
@@ -309,7 +295,7 @@ async function handleRewrite(review, query) {
         .map((row) => row.map((button) => button.text).join(' + '))
         .join(' / ')}`
     );
-    item.status = snapshot.status;
+    Object.assign(item, snapshot);
     return null;
   }
 
@@ -328,6 +314,7 @@ async function handleRewrite(review, query) {
     minChars: Number(ACTION_SETTINGS.min_source_chars ?? 320) || 320,
     maxAgeHours: Number(config.freshness_hours?.pre_gate ?? 72) || 72,
     config,
+    manual: true,
     request: (story) =>
       callWithRetry(
         {
@@ -371,7 +358,11 @@ async function handleRewrite(review, query) {
         result.detail ? ` ${result.detail}` : ''
       } cost=$${Number(result.cost ?? 0).toFixed(6)}`
     );
-    await notify(`بازنویسی نشد: ${result.reason}${result.detail ? ` (${result.detail})` : ''}`);
+    await notify(
+      `دکمهٔ بازنویسی دریافت شد، ولی بازنویسی نشد: ${result.reason}${
+        result.detail ? ` (${result.detail})` : ''
+      }`
+    );
     return null;
   }
 
@@ -380,8 +371,9 @@ async function handleRewrite(review, query) {
   item.mainEligible = item.qaPass;
   item.rewrites = Number(item.rewrites) + 1;
   item.status = 'pending';
+  item.reason = 'manual_rewrite';
   item.updatedAt = new Date().toISOString();
-  const { text, html } = reviewMessage(item);
+  const { text, html } = cleanReviewMessage(item);
   const keyboard = keyboardFor(item, { rewriteCap: REWRITE_CAP });
   let sent;
   try {
@@ -407,9 +399,9 @@ async function handleRewrite(review, query) {
     at: item.updatedAt,
   });
   await persistStore();
-  await setKeyboard(oldMessageId);
+  await setStatusKeyboard(oldMessageId, '✅ بازنویسی اعمال شد', item.id);
   log(
-    `REVIEW_REWRITTEN id=${item.id} attempt=${item.rewrites}/${REWRITE_CAP} qa=${
+    `REVIEW_REWRITTEN id=${item.id} attempt=${item.rewrites}/${REWRITE_CAP} manual=1 clean=1 qa=${
       item.qaPass ? 'PASS' : 'FAIL'
     } message=${item.messageId} cost=$${Number(result.cost ?? 0).toFixed(6)} tokens=${result.tokens}`
   );
@@ -432,7 +424,8 @@ async function handlePublish(review, query) {
     sourceType: item.sourceType,
   });
   const qa = qaForPublish(item, NOW, config);
-  const verdict = publishGuards({ config, state, item, qa, now: NOW, delivered });
+  const manual = item.manual === true;
+  const verdict = publishGuards({ config, state, item, qa, now: NOW, delivered, manual });
   await answer(query.id, verdict.ok ? 'در حال ارسال به کانال اصلی.' : 'ارسال نشد؛ دلیل در پیام بعدی.');
   if (!verdict.ok) {
     log(`REVIEW_PUBLISH_BLOCKED id=${item.id} reason=${verdict.reason} | ${item.title}`);
@@ -440,7 +433,11 @@ async function handlePublish(review, query) {
     return null;
   }
   if (!SEND) {
-    log(`DRY_PUBLISH id=${item.id} guard=ok category=${verdict.category} title=${item.title}`);
+    log(
+      `DRY_PUBLISH id=${item.id} guard=ok category=${verdict.category} manual=${
+        manual ? '1' : '0'
+      } title=${item.title}`
+    );
     return null;
   }
 
@@ -520,11 +517,11 @@ async function handlePublish(review, query) {
     at: item.sentAt,
   });
   await persist();
-  await setKeyboard(item.messageId);
+  await setStatusKeyboard(item.messageId, '✅ منتشر شد', item.id);
   log(
-    `REVIEW_PUBLISHED id=${item.id} slot=${slot} message=${sent.messageId ?? ''} image=${
-      imagePath ? 'yes' : 'no'
-    } | ${item.post.title}`
+    `REVIEW_PUBLISHED id=${item.id} slot=${slot} manual=${manual ? '1' : '0'} message=${
+      sent.messageId ?? ''
+    } image=${imagePath ? 'yes' : 'no'} | ${item.post.title}`
   );
   await notify(`منتشر شد: ${item.post.title}\n${slot}`);
   return null;
@@ -537,6 +534,19 @@ async function dispatch(update) {
   if (!review) {
     await answer(query.id, 'این دکمه شناسایی نشد.');
     return { handled: false };
+  }
+  if (review.action === 's') {
+    const item = store.items[review.id];
+    const text =
+      item?.status === 'sent'
+        ? 'این نسخه منتشر شده است.'
+        : item?.status === 'rejected'
+          ? 'این نسخه رد شده است.'
+          : Number(item?.rewrites) > 0
+            ? 'این نسخه بازنویسی شده؛ پیام تازه را ببین.'
+            : 'این نسخه بسته شده؛ پیام تازه را ببین.';
+    await answer(query.id, text);
+    return { handled: true };
   }
   if (review.action === 'p') await handlePublish(review, query);
   else if (review.action === 'w') await handleRewrite(review, query);

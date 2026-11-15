@@ -103,6 +103,29 @@ test('a usage-link tail stays last with the quote and conclusion above it', () =
   assert.ok(usageAt > conclusionAt);
 });
 
+test('the clean rewrite preview keeps no review chrome and ends with the usage tail', () => {
+  const post = {
+    title: 'ابزار تازه',
+    body: 'لید ابزار\n\nنتیجه و اهمیت\n\nلینک استفاده: [ابزار](https://example.com/tool)',
+  };
+  const text = postText(post);
+  const html = postHtml(post);
+  for (const chrome of [
+    'نیازمند بررسی و انتشار در کانال اصلی',
+    'این نسخه پیش‌نویس است',
+    'دلیل:',
+    'چک‌لیست قبل از ارسال',
+    'از دکمه‌های زیر پیام',
+    'لینک منبع',
+    'پست تلگرام',
+  ]) {
+    assert.equal(text.includes(chrome), false, chrome);
+    assert.equal(html.includes(chrome), false, chrome);
+  }
+  assert.ok(text.endsWith('لینک استفاده: [ابزار](https://example.com/tool)'));
+  assert.ok(html.includes('لینک استفاده: <a href="https://example.com/tool">ابزار</a>'));
+});
+
 test('with a quote, the conclusion paragraph sits after the quote and before the source', () => {
   const post = {
     title: 'عنوان',

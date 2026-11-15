@@ -50,6 +50,10 @@ test('the final Ukraine post has no AI mention', () => {
   assert.equal(hasAiMention(post), false);
 });
 
+test('the colloquial کلاد spelling counts as Claude', () => {
+  assert.equal(hasAiMention('ابزار اوپن سورسی که با کلاد کد موزیک‌ویدئو می‌سازد'), true);
+});
+
 test('an Omen AI post and an OpenAI offer post both pass the mention check', () => {
   const omen = [
     'Omen AI با خرید Aquatic Labs به سراغ خنک‌کننده دیتاسنترها رفت',

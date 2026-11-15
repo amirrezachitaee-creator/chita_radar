@@ -45,6 +45,7 @@ export function publishGuards({
   qa,
   now,
   delivered = [],
+  manual = item?.manual === true,
 } = {}) {
   if (!item || item.status === 'sent' || item.status === 'rejected') {
     return { ok: false, reason: 'closed', detail: 'این مورد قبلاً بسته شده است.' };
@@ -59,13 +60,13 @@ export function publishGuards({
       detail: `بررسی کیفیت پاس نشد: ${qa?.problems?.join('، ') || 'نامشخص'}`,
     };
   }
-  if (inQuietHours(now, config?.schedule?.quiet_hours ?? [])) {
-    return { ok: false, reason: 'quiet_hours', detail: 'الان ساعت آرام است؛ بعد از ۸:۳۰ دوباره بزن.' };
-  }
   const date = dateKey(now);
   const week = weekKey(date);
   const budget = dailyBudget({ config, state, date });
-  if (!budget.ok) {
+  if (!manual && inQuietHours(now, config?.schedule?.quiet_hours ?? [])) {
+    return { ok: false, reason: 'quiet_hours', detail: 'الان ساعت آرام است؛ بعد از ۸:۳۰ دوباره بزن.' };
+  }
+  if (!manual && !budget.ok) {
     return {
       ok: false,
       reason: 'daily_cap',
@@ -77,32 +78,34 @@ export function publishGuards({
   if (!MAIN_CATEGORIES.includes(category)) {
     return { ok: false, reason: 'bad_category', detail: 'دستهٔ پست معتبر نیست.' };
   }
-  const categoryCap = Number(config?.diversity?.max_per_category_per_day?.[category] ?? 0);
-  const categoryUsed = categoryCountForDate(state, date)[category] ?? 0;
-  if (categoryCap > 0 && categoryUsed >= categoryCap) {
-    return {
-      ok: false,
-      reason: 'category_daily_cap',
-      detail: `سقف روزانهٔ دستهٔ ${category} پر است (${categoryUsed}/${categoryCap}).`,
-    };
-  }
-  const quota = quotaSnapshot(config, state, week)[category];
-  if (quota && quota.remaining <= 0) {
-    return {
-      ok: false,
-      reason: 'category_weekly_cap',
-      detail: `سهمیهٔ هفتگی دستهٔ ${category} پر است (${quota.used}/${quota.quota}).`,
-    };
-  }
-  const source = String(item.source ?? '');
-  const { daily, weekly } = sourceUsage(state, { date, week });
-  const sourceDayCap = Number(config?.diversity?.max_per_source_per_day ?? 0);
-  const sourceWeekCap = Number(config?.diversity?.max_per_source_per_week ?? 0);
-  if (source && sourceDayCap > 0 && (daily.get(source) ?? 0) >= sourceDayCap) {
-    return { ok: false, reason: 'source_daily_cap', detail: 'سقف روزانهٔ این منبع پر است.' };
-  }
-  if (source && sourceWeekCap > 0 && (weekly.get(source) ?? 0) >= sourceWeekCap) {
-    return { ok: false, reason: 'source_weekly_cap', detail: 'سقف هفتگی این منبع پر است.' };
+  if (!manual) {
+    const categoryCap = Number(config?.diversity?.max_per_category_per_day?.[category] ?? 0);
+    const categoryUsed = categoryCountForDate(state, date)[category] ?? 0;
+    if (categoryCap > 0 && categoryUsed >= categoryCap) {
+      return {
+        ok: false,
+        reason: 'category_daily_cap',
+        detail: `سقف روزانهٔ دستهٔ ${category} پر است (${categoryUsed}/${categoryCap}).`,
+      };
+    }
+    const quota = quotaSnapshot(config, state, week)[category];
+    if (quota && quota.remaining <= 0) {
+      return {
+        ok: false,
+        reason: 'category_weekly_cap',
+        detail: `سهمیهٔ هفتگی دستهٔ ${category} پر است (${quota.used}/${quota.quota}).`,
+      };
+    }
+    const source = String(item.source ?? '');
+    const { daily, weekly } = sourceUsage(state, { date, week });
+    const sourceDayCap = Number(config?.diversity?.max_per_source_per_day ?? 0);
+    const sourceWeekCap = Number(config?.diversity?.max_per_source_per_week ?? 0);
+    if (source && sourceDayCap > 0 && (daily.get(source) ?? 0) >= sourceDayCap) {
+      return { ok: false, reason: 'source_daily_cap', detail: 'سقف روزانهٔ این منبع پر است.' };
+    }
+    if (source && sourceWeekCap > 0 && (weekly.get(source) ?? 0) >= sourceWeekCap) {
+      return { ok: false, reason: 'source_weekly_cap', detail: 'سقف هفتگی این منبع پر است.' };
+    }
   }
   if (item.kind === 'offer' && !item.url) {
     return {

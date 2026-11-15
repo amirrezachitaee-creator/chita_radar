@@ -1,5 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildUserMessage } from './engine.mjs';
 import {
   candidateFromItem,
   draftReviewPost,
@@ -7,6 +11,8 @@ import {
   qaContextForItem,
   resolvedImageUrl,
 } from './review-draft.mjs';
+
+const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 
 const NOW = '2026-11-14T15:00:00Z';
 const LONG = 'این یک متن خبری کوتاه دربارهٔ مدل تازه است. '.repeat(12);
@@ -243,4 +249,160 @@ test('the QA context uses the resolved image and the source URL', () => {
   assert.equal(context.imageUrl, 'https://cdn.example.com/a.jpg');
   assert.equal(context.category, 'models');
   assert.equal(context.policy, false);
+});
+
+const MANUAL_SOURCE = 'این یک متن خبری کوتاه دربارهٔ یک تقویم آنلاین تازه است. '.repeat(12);
+const MANUAL_BODY = [
+  'تقویم آنلاین تازه‌ای منتشر شد که کار تیم‌ها را برای هماهنگی جلسه‌ها ساده‌تر می‌کند.',
+  '',
+  'در این نسخه، هر عضو می‌تواند زمان‌های خالی را ببیند و جلسه را بدون رفت‌وآمد در چند پیام تنظیم کند. سازنده می‌گوید این تغییر برای تیم‌های کوچک و پروژه‌های پرسرعت طراحی شده و نیازی به ابزار جداگانه نیست. همهٔ اعضا یک نمای مشترک از برنامهٔ هفته دارند و می‌توانند تغییرها را همان‌جا ببینند.',
+  '',
+  'این موضوع از اونجایی مهمه که وقت تیم‌ها با هماهنگی دستی هدر می‌ره و یک تقویم ساده می‌تونه کار روزمره را جمع‌وجورتر کند.',
+].join('\n');
+
+const MANUAL_JSON = {
+  decision: 'publish',
+  post_type: 'standard',
+  importance: 3,
+  verification: 'unverified',
+  category: 'tools',
+  title: 'تقویم آنلاین تازه برای تیم‌ها',
+  body: MANUAL_BODY,
+  quote: '',
+  source_url: '',
+  image_url: '',
+  key_facts: ['تقویم تازه منتشر شد', 'هماهنگی جلسه‌ها ساده‌تر شد'],
+  entities: { companies: ['سازنده'], models: [] },
+  dedupe_key: 'calendar-online',
+};
+
+function manualItem(fields = {}) {
+  return baseItem({
+    title: 'تقویم آنلاین تازه',
+    url: 'https://t.me/example/1',
+    leadPostUrl: 'https://t.me/example/1',
+    sourceName: 'کانال نمونه',
+    sourceType: 'telegram_channel',
+    publishedAt: '2026-10-01T00:00:00Z',
+    messageText: MANUAL_SOURCE,
+    ...fields,
+  });
+}
+
+test('a manual rewrite ignores freshness, source, and AI relevance but keeps structure', async () => {
+  let story;
+  const result = await draftReviewPost({
+    item: manualItem(),
+    now: NOW,
+    manual: true,
+    request: async (input) => {
+      story = input;
+      return { content: JSON.stringify(MANUAL_JSON), usage: { cost: 0.0004, total_tokens: 120 } };
+    },
+  });
+  assert.equal(story.manual, true);
+  assert.equal(story.noSource, true);
+  assert.ok(result.post);
+  assert.equal(result.qa.pass, true);
+  assert.equal(result.qa.problems.includes('ai_relevance'), false);
+  assert.equal(result.qa.problems.includes('category_fresh'), false);
+  assert.equal(result.qa.problems.includes('source'), false);
+  assert.ok(result.qa.warnings.includes('ai_relevance'));
+  assert.ok(result.qa.warnings.includes('category_fresh'));
+  assert.equal(result.post.body.includes('منبع:'), false);
+  assert.equal(result.post.body.includes('t.me'), false);
+  assert.equal(result.post.source_url, 'https://t.me/example/1');
+  assert.equal(result.reason, 'ok');
+});
+
+test('the same post is still blocked when the rewrite is automatic', async () => {
+  const result = await draftReviewPost({
+    item: manualItem(),
+    now: NOW,
+    request: async () => ({
+      content: JSON.stringify({ ...MANUAL_JSON, source_url: 'https://t.me/example/1' }),
+      usage: { cost: 0, total_tokens: 10 },
+    }),
+  });
+  assert.equal(result.reason, 'qa_failed');
+  assert.ok(result.qa.problems.includes('ai_relevance'));
+  assert.ok(result.qa.problems.includes('category_fresh'));
+  assert.ok(result.qa.problems.includes('source'));
+});
+
+test('a manual rewrite keeps the stored tool link as the only tail', async () => {
+  const repo = 'https://github.com/LottieFiles/motion-design-skill';
+  let story;
+  const result = await draftReviewPost({
+    item: baseItem({
+      url: repo,
+      sourceName: 'Code.Cloud | کد کلاد',
+      sourceType: 'telegram_channel',
+      relatedLinks: [repo],
+    }),
+    now: NOW,
+    manual: true,
+    request: async (input) => {
+      story = input;
+      return {
+        content: JSON.stringify({
+          ...JSON.parse(PUBLISH_JSON),
+          category: 'tools',
+          title: 'مهارت طراحی موشن برای هوش مصنوعی',
+          source_url: repo,
+        }),
+        usage: { cost: 0, total_tokens: 10 },
+      };
+    },
+  });
+  assert.equal(story.manual, true);
+  assert.equal(story.noSource, false);
+  assert.ok(result.post);
+  assert.ok(
+    result.post.body.endsWith(`لینک استفاده: [LottieFiles/motion-design-skill](${repo})`),
+    result.post.body
+  );
+  assert.equal(result.post.body.includes('Code.Cloud'), false);
+  assert.equal(result.post.body.includes('منبع:'), false);
+  assert.equal(result.qa.problems.includes('source'), false);
+});
+
+test('the manual writer prompt overrides skip rules and forbids a Telegram citation', () => {
+  const prompt = buildUserMessage({
+    item: { title: 'تقویم آنلاین تازه', published: '2026-10-01T00:00:00Z' },
+    article: {
+      title: 'تقویم آنلاین تازه',
+      published: '2026-10-01T00:00:00Z',
+      content: MANUAL_SOURCE,
+      imageAlt: '',
+    },
+    url: 'https://t.me/example/1',
+    now: NOW,
+    imageUrl: '',
+    manual: true,
+    noSource: true,
+  });
+  assert.match(prompt, /بازنویسی دستی/);
+  assert.match(prompt, /رد نکن/);
+  assert.match(prompt, /تلگرام/);
+  assert.match(prompt, /هیچ خط منبع/);
+  assert.match(prompt, /لینک داخلی/);
+  assert.match(prompt, /نبود اشارهٔ صریح/);
+  assert.ok(prompt.includes('نام منبع: داخلی (در متن نیاور)'));
+  assert.match(prompt, /تبلیغ\/رپورتاژ/);
+});
+
+test('the system prompt scopes automatic skips so manual mode is not contradictory', async () => {
+  const prompt = await readFile(resolve(ROOT, 'bench', 'system-prompt.md'), 'utf8');
+  for (const line of [
+    '## ۰.۱) حالت بازنویسی دستی',
+    'در حالت بازنویسی دستی فقط بندهای ۴ (تبلیغ/رپورتاژ) و ۵ (تکرار) اعمال می‌شوند',
+    'در حالت خودکار خبر قدیمی‌تر را skip کن',
+    'unverified در حالت خودکار به‌طور پیش‌فرض skip',
+    'در حالت دستی، خط پایانی مطابق بخش ۰.۱ است',
+    'اگر در حالت خودکار شک داشتی',
+    'در حالت دستی فقط تبلیغ/رپورتاژ یا تکرار را skip کرده‌ای',
+  ]) {
+    assert.ok(prompt.includes(line), line);
+  }
 });

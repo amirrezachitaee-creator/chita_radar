@@ -63,6 +63,18 @@ export function resolvedImageUrl(item) {
   return imageVerdict(raw, '').ok ? raw : '';
 }
 
+export function externalUrlForItem(item) {
+  const raw = String(item?.url || item?.leadPostUrl || '');
+  if (!raw) return '';
+  try {
+    const host = new URL(raw).hostname;
+    if (/^(?:t\.me|telegram\.me|telegram\.dog)$/i.test(host)) return '';
+    return raw;
+  } catch {
+    return '';
+  }
+}
+
 export function toolUsageForItem(item) {
   const sourceUrl = String(item?.url || item?.leadPostUrl || '');
   if (!sourceUrl) return null;
@@ -82,7 +94,7 @@ export function toolUsageForItem(item) {
   });
 }
 
-export function qaContextForItem(item, post, now, config = {}, usageUrl = '') {
+export function qaContextForItem(item, post, now, config = {}, usageUrl = '', options = {}) {
   const url = String(item?.url || item?.leadPostUrl || '');
   const host = (() => {
     try {
@@ -91,6 +103,8 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '') {
       return '';
     }
   })();
+  const manual = options.manual === true || item?.manual === true;
+  const noSource = manual && !externalUrlForItem(item) && !usageUrl;
   return {
     url,
     host,
@@ -108,6 +122,8 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '') {
     policy: item?.policy === true,
     offer: offerContextFromItem(item, config),
     officialResolved: item?.kind === 'offer',
+    manual,
+    noSource,
   };
 }
 
@@ -117,6 +133,7 @@ export async function draftReviewPost({
   minChars = 320,
   maxAgeHours = 72,
   config = {},
+  manual = false,
   request,
   repairTitle = null,
   log = () => {},
@@ -147,6 +164,7 @@ export async function draftReviewPost({
   const nowLine = newsDateLine(item?.publishedAt);
   const offer = offerContextFromItem(item, config);
   const toolUsage = toolUsageForItem(item);
+  const noSource = manual && !externalUrlForItem(item) && !toolUsage?.url;
   const story = {
     item: { title: item?.title, published: item?.publishedAt },
     article,
@@ -158,6 +176,8 @@ export async function draftReviewPost({
     benchmark: item?.benchmark === true,
     policy: item?.policy === true,
     toolUrl: toolUsage?.url ?? '',
+    manual,
+    noSource,
   };
   if (typeof request !== 'function') throw new Error('REVIEW_DRAFT_REQUEST_MISSING');
   const call = await request(story);
@@ -189,6 +209,9 @@ export async function draftReviewPost({
       tokens,
     };
   }
+  const prepared = manual && !String(parsed.source_url ?? '').trim() && article.url
+    ? { ...parsed, source_url: article.url }
+    : parsed;
   const finalize = (value) =>
     applyMechanicalFixes(applyLeadPolicy(value, candidate), {
       sourceName: item?.sourceName,
@@ -199,8 +222,11 @@ export async function draftReviewPost({
       newsDate: nowLine,
       sourceType: item?.sourceType,
     });
-  let fixed = finalize(parsed);
-  let qa = qaPost(fixed, qaContextForItem(item, fixed, now, config, toolUsage?.url ?? ''));
+  let fixed = finalize(prepared);
+  let qa = qaPost(
+    fixed,
+    qaContextForItem(item, fixed, now, config, toolUsage?.url ?? '', { manual })
+  );
   const titleProblems = qa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem));
   const contentRejected = qa.problems.includes('ai_relevance') || qa.problems.includes('category_fresh');
   if (!qa.pass && titleProblems.length && !contentRejected && typeof repairTitle === 'function') {
@@ -217,7 +243,10 @@ export async function draftReviewPost({
     const nextTitle = String(extractJson(repair?.content)?.title ?? '').trim();
     if (nextTitle) {
       const merged = finalize({ ...fixed, title: nextTitle });
-      const mergedQa = qaPost(merged, qaContextForItem(item, merged, now, config, toolUsage?.url ?? ''));
+      const mergedQa = qaPost(
+        merged,
+        qaContextForItem(item, merged, now, config, toolUsage?.url ?? '', { manual })
+      );
       const remaining = mergedQa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem)).length;
       const better = mergedQa.pass || remaining < titleProblems.length;
       if (better) {

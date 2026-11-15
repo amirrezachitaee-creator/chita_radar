@@ -17,6 +17,7 @@ import {
   reviewCallback,
   rewriteCountForDay,
   saveReviewStore,
+  statusKeyboard,
 } from './review-items.mjs';
 
 const NOW = '2026-11-14T15:00:00Z';
@@ -127,6 +128,16 @@ test('the reject menu carries every reason plus a way back', () => {
   const reasons = rows.flat().filter((button) => button.text !== 'بازگشت').map((button) => parseReviewCallback(button.callback_data).extra);
   assert.deepEqual(reasons, ['irrelevant', 'promo', 'duplicate', 'quality', 'other']);
   assert.deepEqual(removeKeyboard(), { inline_keyboard: [] });
+});
+
+test('a closed message carries a status-only button', () => {
+  const button = statusKeyboard('a1b2c3d4e5', '✅ بازنویسی اعمال شد').inline_keyboard[0][0];
+  assert.equal(button.text, '✅ بازنویسی اعمال شد');
+  assert.deepEqual(parseReviewCallback(button.callback_data), {
+    action: 's',
+    id: 'a1b2c3d4e5',
+    extra: '',
+  });
 });
 
 test('feedback records the action, the source tally, and the Tehran-day rewrite count', () => {

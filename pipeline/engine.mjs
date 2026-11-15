@@ -535,7 +535,7 @@ export function clampText(value, maxChars = 0) {
   return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
 }
 
-export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, benchmark = false, toolUrl = '', policy = false, effectiveDate = '', policyIran = false }) {
+export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, benchmark = false, toolUrl = '', policy = false, effectiveDate = '', policyIran = false, manual = false, noSource = false }) {
   const host = (() => {
     try {
       return new URL(url).hostname;
@@ -586,6 +586,19 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
   const toolBlock = toolUrl
     ? `لینک استفاده (tool_url): ${toolUrl}`
     : 'لینک استفاده (tool_url): ندارد';
+  const manualBlock = manual
+    ? [
+        'این بازنویسی دستی است و کاربر آن را تأیید کرده است:',
+        'اگر متن یک خبر یا معرفی ابزار واقعی است، تصمیم publish باشد؛ فقط برای تبلیغ/رپورتاژ محض یا تکرار skip کن. به خاطر تازگی، نبود منبع رسمی، بازنشر تلگرامی، وضعیت unverified، نبود اشارهٔ صریح به هوش مصنوعی یا شک رد نکن.',
+        'متن را با لحن محاوره‌ای خودمان از نو بنویس؛ جمله‌های متن منبع را عیناً کپی نکن و ترتیب جمله‌ها را خودت بساز.',
+        'فقط از اطلاعات همین متن استفاده کن؛ منبع، آدرس، عدد یا نقل‌قول تازه نساز.',
+        'لینک تلگرام، نام کانال تلگرام یا عبارت «منبع: تلگرام» را در متن نیاور.',
+        'اگر tool_url پر است، فقط همان را یک بار در خط آخر به شکل «لینک استفاده» بیاور. اگر tool_url خالی است و لینک خارجی وجود دارد، خط منبع را با همان لینک بنویس. اگر هیچ لینک خارجی نیست، هیچ خط منبع یا لینک استفاده‌ای نساز.',
+        noSource ? 'این مورد لینک خارجی ندارد؛ خط پایانی منبع را حذف کن.' : '',
+      ]
+        .filter(Boolean)
+        .join('\n')
+    : '';
   const policyBlock = policy
     ? [
         'این ورودی یک تغییر یا یادآوری رسمی سیاست استفاده از سرویس است:',
@@ -606,8 +619,8 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
   return [
     `عنوان: ${article.title || item.title}`,
     `تاریخ انتشار: ${article.published || item.published}`,
-    `لینک: ${url}`,
-    `نام منبع: ${host}`,
+    manual && noSource ? `لینک داخلی (در متن نیاور): ${url}` : `لینک: ${url}`,
+    `نام منبع: ${manual && noSource ? 'داخلی (در متن نیاور)' : host}`,
     `تاریخ جاری: ${now}`,
     `حداکثر سن مجاز: ${maxAgeHours} ساعت`,
     toolBlock,
@@ -616,6 +629,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     courseBlock,
     policyBlock,
     benchmarkBlock,
+    manualBlock,
     'یادآوری نگارش: تیتر یک جملهٔ کامل و خبری است، نه سؤال و نه نیمه‌کاره؛ واژهٔ انگلیسی ترجمه‌نشده در آن نگذار؛ تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب و بدون مقدمهٔ آماده مثل «اهمیتش اینه که» و مستقیم با نتیجهٔ مشخص خبر بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
     '',
     'متن خبر:',
@@ -1342,7 +1356,7 @@ export function qaPost(parsed, context) {
     Array.isArray(parsed.key_facts) && parsed.key_facts.filter((fact) => typeof fact === 'string' && fact.trim()).length >= 2 &&
     parsed.entities && Array.isArray(parsed.entities.companies) && Array.isArray(parsed.entities.models));
   add('category_main', MAIN_CATEGORIES.includes(parsed.category));
-  add('ai_relevance', hasAiMention(`${title}\n${body}\n${quote}`));
+  add('ai_relevance', hasAiMention(`${title}\n${body}\n${quote}`), '', !context.manual);
   add('post_type', POST_TYPES.includes(type));
   add('importance', Number.isInteger(parsed.importance) && parsed.importance >= 3 && parsed.importance <= 5);
   add('verification_enum', VERIFICATIONS.includes(parsed.verification));
@@ -1389,22 +1403,26 @@ export function qaPost(parsed, context) {
     !/\[(نام|تاریخ|لینک|عدد|شرکت|منبع)\]/u.test(quote) &&
     !quote.includes('✉️')
   ));
-  const lastBodyLine = body
-    .split('\n')
-    .map((line) => line.trim())
-    .filter(Boolean)
-    .pop() ?? '';
-  const tailMatch = lastBodyLine.match(/^(منبع|لینک استفاده)\s*[:：]/u);
-  const sourceLineUrl = lastBodyLine.match(/https?:\/\/[^\s)]+/)?.[0] ?? '';
-  const expectedTailLabel = parsed.category === 'tools' && context.usageUrl ? 'لینک استفاده' : 'منبع';
-  const expectedTailUrl = expectedTailLabel === 'لینک استفاده' ? context.usageUrl : context.url;
-  add('source', Boolean(tailMatch) && tailMatch[1] === expectedTailLabel && (() => {
-    try {
-      return canonicalEqual(sourceLineUrl, expectedTailUrl);
-    } catch {
-      return false;
-    }
-  })(), tailMatch ? `${tailMatch[1]}:${parsed.category}` : 'missing');
+  if (context.manual && context.noSource) {
+    add('source', true, 'manual_no_source', false);
+  } else {
+    const lastBodyLine = body
+      .split('\n')
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .pop() ?? '';
+    const tailMatch = lastBodyLine.match(/^(منبع|لینک استفاده)\s*[:：]/u);
+    const sourceLineUrl = lastBodyLine.match(/https?:\/\/[^\s)]+/)?.[0] ?? '';
+    const expectedTailLabel = parsed.category === 'tools' && context.usageUrl ? 'لینک استفاده' : 'منبع';
+    const expectedTailUrl = expectedTailLabel === 'لینک استفاده' ? context.usageUrl : context.url;
+    add('source', Boolean(tailMatch) && tailMatch[1] === expectedTailLabel && (() => {
+      try {
+        return canonicalEqual(sourceLineUrl, expectedTailUrl);
+      } catch {
+        return false;
+      }
+    })(), tailMatch ? `${tailMatch[1]}:${parsed.category}` : 'missing');
+  }
   add('no_signature', !body.includes('✉️') && !quote.includes('✉️'));
   add('hashtags', tags === 0);
   add('length', lengthOk(type, body.length), `${body.length}`);
@@ -1461,7 +1479,7 @@ export function qaPost(parsed, context) {
   add('image_https', !parsed.image_url || /^https:\/\//.test(parsed.image_url));
 
   const categoryFresh = freshness(context.publishedAt, context.now, { maxAgeHours: windowFor(parsed.category) });
-  add('category_fresh', categoryFresh.ok, `${categoryFresh.ageHours}h/${categoryFresh.maxAgeHours}h`);
+  add('category_fresh', categoryFresh.ok, `${categoryFresh.ageHours}h/${categoryFresh.maxAgeHours}h`, !context.manual);
 
   if (context.offer?.detected) {
     add('offer_category', parsed.category === 'tools');

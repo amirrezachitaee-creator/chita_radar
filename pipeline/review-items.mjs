@@ -24,7 +24,7 @@ const REJECT_LABELS = Object.freeze({
   other: 'دلیل دیگر',
 });
 
-const CALLBACK_PATTERN = /^rv1\|([mrxwp])\|([a-f0-9]{8,12})(?:\|([a-z]{1,12}))?$/;
+const CALLBACK_PATTERN = /^rv1\|([mrxwps])\|([a-f0-9]{8,12})(?:\|([a-z]{1,12}))?$/;
 
 export function emptyReviewStore() {
   return {
@@ -125,7 +125,7 @@ export function createReviewItem(store, fields = {}) {
 }
 
 export function reviewCallback(action, id, extra = '') {
-  if (!/^[mrxwp]$/.test(String(action))) throw new Error('BAD_REVIEW_ACTION');
+  if (!/^[mrxwps]$/.test(String(action))) throw new Error('BAD_REVIEW_ACTION');
   if (!/^[a-f0-9]{8,12}$/.test(String(id))) throw new Error('BAD_REVIEW_ID');
   const suffix = extra ? `|${extra}` : '';
   const data = `rv1|${action}|${id}${suffix}`;
@@ -182,6 +182,12 @@ export function rejectKeyboard(id) {
 
 export function removeKeyboard() {
   return { inline_keyboard: [] };
+}
+
+export function statusKeyboard(id, text) {
+  return {
+    inline_keyboard: [[{ text: String(text), callback_data: reviewCallback('s', id) }]],
+  };
 }
 
 export function rewriteCountForDay(store, now) {

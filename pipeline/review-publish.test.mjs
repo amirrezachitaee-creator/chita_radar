@@ -183,3 +183,30 @@ test('an eligible item passes with its resolved category and caps', () => {
   assert.equal(result.week, WEEK);
   assert.deepEqual(result.budget, { cap: 11, used: 0, remaining: 11, ok: true });
 });
+
+test('a manual publish bypasses quiet hours, the daily budget, and category caps', () => {
+  const full = Array.from({ length: 11 }, (_, index) =>
+    published({ title: `خبر ${index}`, slot: `${DATE}T08:30` })
+  );
+  const result = guard({
+    item: baseItem({ manual: true }),
+    state: { published: full },
+    now: '2026-11-14T02:00:00Z',
+  });
+  assert.equal(result.ok, true);
+  assert.equal(result.reason, 'ok');
+});
+
+test('a manual publish still blocks a duplicate and a failed minimal QA', () => {
+  const title = 'مدل تازه شرکت معرفی شد';
+  const duplicate = guard({
+    item: baseItem({ manual: true, title }),
+    delivered: [published({ title })],
+  });
+  assert.equal(duplicate.reason, 'duplicate');
+  const failed = guard({
+    item: baseItem({ manual: true }),
+    qa: { pass: false, problems: ['title_complete'] },
+  });
+  assert.equal(failed.reason, 'qa_failed');
+});
