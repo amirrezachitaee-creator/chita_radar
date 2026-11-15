@@ -1,0 +1,120 @@
+RUN 43696143082 | send/main | slot auto | 2026-11-15T08:48:06Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-15T11:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 3/31 | models 1/24 | security 1/11 | business 1/11
+DAILY 1/11
+DIVERSITY_TARGET models | slot 11:30
+DEFERRED_POOL 40
+  DEFERRED category_consecutive | try 0/3 | GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,
+  DEFERRED category_consecutive | try 0/3 | GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.
+  DEFERRED category_consecutive | try 1/3 | datasette-llm 0.1a11
+  DEFERRED source_consecutive | try 0/3 | کیف پول جدید ChatGPT اومد؛ حالا ایجنت‌های OpenAI برات خرید می‌کنن و خودشون تسویه می‌کنن
+  DEFERRED source_daily | try 0/3 | The AI graveyard: a running list of projects and startups that didn’t make it
+DEFERRED_EXHAUSTED 5
+POLICY_STATE saved
+COLLECT sources=25 items=230 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=202 nodate=0 nonai=1 dup=30 dup_other=0 kept=62 errors=0
+TELEGRAM channels=17 posts=315 pending=2 leads=1 nolink=1 nonai=0 denied=0 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0
+MEMORY lanes=main:393,review:13 delivered=406 window=30d
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+  REVIEW_ITEM id=13760f3595 message=294
+  REVIEW_REQUIRED reason=no_link sent=294
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-15/11-30-c0f17212
+RELEVANCE candidates=61 kept=33 dropped=28
+  SKIP_NOT_AI TechCrunch | Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide
+  SKIP_NOT_AI TechCrunch | Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price
+  SKIP_NOT_AI TechCrunch | This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board
+  SKIP_NOT_AI Product Hunt | Rakazo
+  SKIP_NOT_AI arXiv | Sketching Language Models for Context Attribution
+  SKIP_NOT_AI arXiv | Consistent Video-to-Video Translation via Explicit Correspondences
+  SKIP_NOT_AI Product Hunt | Talyn
+  SKIP_NOT_AI TechCrunch | Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee
+  SKIP_NOT_AI ... +20 more
+DIVERSITY target=models queue=2 fresh=10 deferred=40 rejected=category_consecutive:15
+  DIVERSITY_QUEUE models:The Decoder | models:Hugging Face Blog
+QUEUE_SKIPPED 40
+  QUEUE_SKIP category_consecutive | M G H M O B I N | GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,
+  QUEUE_SKIP category_consecutive | Thenima.one | GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | 🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!
+  QUEUE_SKIP category_consecutive | MatinSenPaii | کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد
+  QUEUE_SKIP category_consecutive | هوش مصنوعی | محمد زمانی | یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | 🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!
+  QUEUE_SKIP category_consecutive | Ars Technica AI | FAA expands AI advice to manage air traffic congestion across entire US airspace
+  QUEUE_SKIP category_consecutive | The Decoder | Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows
+  QUEUE_SKIP category_consecutive | The Decoder | Claude Meetings lets Anthropic's AI join your video calls
+  QUEUE_SKIP category_consecutive | Product Hunt | Gemini Robotics 2.5
+  QUEUE_SKIP ... +30 more
+QUEUE_HELD 2
+  QUEUE_HOLD category_consecutive | Product Hunt | Canvas by AgentGrid.io
+  QUEUE_HOLD category_consecutive | Product Hunt | Pixel Office
+ATTEMPT 1/2 | deferred 0/3 The Decoder | Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails | 1.1h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  TITLE_TRIM
+  BODY_TRIM
+  QUOTE_TRIM
+  STYLE_WARNING why | one repair retry
+  BODY_TRIM
+  QUOTE_TRIM
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=business | QA 42/43 | $0.001889 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/11-30
+ATTEMPT 2/2 | deferred 0/3 Hugging Face Blog | Build a Robot Pick-and-Place Simulation with SimReady Assets | 1.5h
+  TOOL_LINK candidate https://huggingface.co/spaces/nvidia/simready-central | score 35
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  TOOL_LINK applied https://huggingface.co/spaces/nvidia/simready-central
+  SLOT_GAP_WAIT 677s
+POST 2/2 status=sent category=tools | QA 43/43 | $0.001608 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/11-30-2
+RESULT SENT category=tools | offer=no | image=no | QA 43/43 | cost $0.003497 | post $0.001608 | tokens 30839
+TITLE ساخت شبیه‌ساز ربات با دارایی‌های SimReady
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/11-30-2
+SLOT_POSTS 2/2 sent=2 review=0
+  POST business | sent | $0.001889 | نزدیک ۷۰ درصد سازمان‌های آمریکایی از هوش مصنوعی استفاده می‌کنند
+  POST tools | sent | $0.001608 | ساخت شبیه‌ساز ربات با دارایی‌های SimReady
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-15T09:01:40Z
+# گزارش روزانه 2026-11-15 (یکشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 3 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 3
+
+## آمار روز
+- پست ارسال‌شده: 3 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 0
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.003803
+- توکن: 40164
+- میانگین هر پست ارسال‌شده: $0.001268
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 4 | 31 | 27 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 1 | 11 | 10 |
+| کسب‌وکار و بازار | 2 | 11 | 9 |
+| مجموع | 8 | 77 | 69 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000306 | 9325 | اصول موشن‌دیزاین برای ایجنت‌های هوش مصنوعی منتشر شد |
+| 11:30 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.001889 | 20133 | نزدیک ۷۰ درصد سازمان‌های آمریکایی از هوش مصنوعی استفاده می‌کنند |
+| 11:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001608 | 10706 | ساخت شبیه‌ساز ربات با دارایی‌های SimReady |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 12
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 6، جزئیات ابزار کامل نشد 1، لینک قابل استفاده ندارد 2
+- واجد شرایط کانال اصلی: 1
+
+## صف تعویق
+- در انتظار: 45
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-15.md

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T08:07:18.090Z",
+  "updatedAt": "2026-11-15T09:01:40.873Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -8780,6 +8780,60 @@
       "slot": "2026-11-15T11:30+03:30",
       "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen"
+    },
+    "url:c0f172129a85ec86": {
+      "at": "2026-11-15T08:48:20.901Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "طبق لیک ها، Gemini 4 Krypton رو به زودی خواهیم داشت. قدرتمندتر از همه‌ی مدلهای گوگل",
+      "url": "https://t.me/MatinSenPaii/5881"
+    },
+    "title:00daa4f8be1d38a8": {
+      "at": "2026-11-15T08:48:20.901Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "طبق لیک ها، Gemini 4 Krypton رو به زودی خواهیم داشت. قدرتمندتر از همه‌ی مدلهای گوگل",
+      "url": "https://t.me/MatinSenPaii/5881"
+    },
+    "url:4998f35bb5f64754": {
+      "at": "2026-11-15T08:49:40.307Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
+      "benchmark": false
+    },
+    "title:cffa2e9c66c88738": {
+      "at": "2026-11-15T08:49:40.307Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
+      "benchmark": false
+    },
+    "url:cdc8eef67bc55a0d": {
+      "at": "2026-11-15T09:01:40.871Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "benchmark": false
+    },
+    "title:16aac141d4f79813": {
+      "at": "2026-11-15T09:01:40.871Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-15T11:30+03:30",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -9215,55 +9269,6 @@
         "keys": [
           "url:bbcb79fadd39dd32",
           "title:bd24234b289faa59"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4998f35bb5f64754": {
-      "id": "defer:url:4998f35bb5f64754",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:4998f35bb5f64754",
-        "title:cffa2e9c66c88738"
-      ],
-      "canonical": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
-      "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
-        "link": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-        "canonical": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
-        "published": "Fri, 13 Nov 2026 15:53:49 +0000",
-        "summary": "US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned so-called bossware. All of this is happening while nearly 70 percent of US government agencies already use generative AI. The article Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/workers_fighting_ai.png"
-        ],
-        "ageHours": 1.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:4998f35bb5f64754",
-          "title:cffa2e9c66c88738"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -9950,52 +9955,6 @@
         "keys": [
           "url:76eaf2c5f6d24706",
           "title:e356effa4e556f8f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cdc8eef67bc55a0d": {
-      "id": "defer:url:cdc8eef67bc55a0d",
-      "at": "2026-11-13T19:31:41.167Z",
-      "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:cdc8eef67bc55a0d",
-        "title:16aac141d4f79813"
-      ],
-      "canonical": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-        "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-        "canonical": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-        "published": "Fri, 13 Nov 2026 18:00:39 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-        "images": [],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:cdc8eef67bc55a0d",
-          "title:16aac141d4f79813"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -11094,6 +11053,98 @@
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
+      }
+    },
+    "defer:url:33aa528b7cafa355": {
+      "id": "defer:url:33aa528b7cafa355",
+      "at": "2026-11-15T08:48:20.909Z",
+      "firstAt": "2026-11-15T08:48:20.909Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:33aa528b7cafa355",
+        "title:1cc7068d0c822fff"
+      ],
+      "canonical": "https://www.producthunt.com/products/agentgrid-io",
+      "title": "Canvas by AgentGrid.io",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Canvas by AgentGrid.io",
+        "link": "https://www.producthunt.com/products/agentgrid-io",
+        "canonical": "https://www.producthunt.com/products/agentgrid-io",
+        "published": "2026-11-14T22:22:09-08:00",
+        "summary": "<p> Agentic Design Canvas - A visual way to collaborate with AI </p> <p> <a href=\"https://www.producthunt.com/products/agentgrid-io?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317198?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/agentgrid-io",
+        "images": [],
+        "ageHours": 2.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:33aa528b7cafa355",
+          "title:1cc7068d0c822fff"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b86c3b944ed17c51": {
+      "id": "defer:url:b86c3b944ed17c51",
+      "at": "2026-11-15T08:48:20.909Z",
+      "firstAt": "2026-11-15T08:48:20.909Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:b86c3b944ed17c51",
+        "title:5557d06d7beeeaec"
+      ],
+      "canonical": "https://www.producthunt.com/products/pixel-office-3",
+      "title": "Pixel Office",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Pixel Office",
+        "link": "https://www.producthunt.com/products/pixel-office-3",
+        "canonical": "https://www.producthunt.com/products/pixel-office-3",
+        "published": "2026-11-12T08:47:12-08:00",
+        "summary": "<p> Run a team of AI agents from a pixel-art office </p> <p> <a href=\"https://www.producthunt.com/products/pixel-office-3?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314362?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/pixel-office-3",
+        "images": [],
+        "ageHours": 64,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:b86c3b944ed17c51",
+          "title:5557d06d7beeeaec"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
       }
     }
   },
@@ -12778,11 +12829,50 @@
     },
     "2026-11-15T11:30+03:30": {
       "at": "2026-11-15T08:07:18.088Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0050913464,
-      "tokens": 58504,
-      "posts": []
+      "cost": 0.0034970544,
+      "tokens": 30839,
+      "posts": [
+        {
+          "title": "نزدیک ۷۰ درصد سازمان‌های آمریکایی از هوش مصنوعی استفاده می‌کنند",
+          "category": "business",
+          "status": "sent",
+          "messageId": 79,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0018892944,
+          "tokens": 20133,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-15T08:49:40.307Z"
+        },
+        {
+          "title": "ساخت شبیه‌ساز ربات با دارایی‌های SimReady",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 80,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/11-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00160776,
+          "tokens": 10706,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-15T09:01:40.871Z"
+        }
+      ],
+      "category": "tools",
+      "title": "ساخت شبیه‌ساز ربات با دارایی‌های SimReady",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-15/11-30-2",
+      "messageId": 80,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "43/43"
     }
   },
   "published": [
@@ -13907,93 +13997,129 @@
       "sourceTitle": "GitHub - LottieFiles/motion-design-skill: Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
       "sourceText": "🎬 می‌خوای با هوش مصنوعی یه استودیوی کامل موشن‌گرافیک و انیمیشن بسازی؟ 🔥\n\nاین ۲۰ ابزار و پروژه می‌تونن توی ساخت انیمیشن، مدل‌سازی سه‌بعدی، جلوه‌های ویژه، صداگذاری و تولید ویدیو حسابی به کارت بیان!\n\nاز Claude Code و Codex هم می‌تونی برای ترکیب این ابزارها و خودکارسازی کارها کمک بگیری.\n\n🎨 طراحی و انیمیشن\n• Motion Design Skill — اصول حرکت و انیمیشن\n• Motion AI Kit — انیمیشن‌های روان و حرفه‌ای\n• Remotion Skills — مهارت‌های ساخت ویدیو برای ایجنت‌ها\n• Hairline — تصاویر خطی تعاملی و متحرک\n• Anatomy — نمایش ایزومتریک ماشین‌ها و سیستم‌ها\n• Anatomy Reveal — نمایش انفجاری قطعات محصولات\n\n🧊 سه‌بعدی و جلوه‌های ویژه\n• Blender Agents — ایجنت‌های هوش مصنوعی برای Blender\n• Three.js — ساخت محیط‌های سه‌بعدی\n• React Three Rapier — شبیه‌سازی فیزیک و برخورد\n• React Postprocessing — نورپردازی و افکت‌های سینمایی\n• Three Quarks — افکت ذرات و جلوه‌های ویژه\n• Tweakpane — کنترل زنده تنظیمات صحنه\n\n🎥 ساخت ویدیو و موشن\n• GSAP — انیمیشن‌های پیشرفته و تایم‌لاین\n• Remotion — تولید ویدیو با React\n• Manim — انیمیشن‌های علمی و آموزشی\n• Lottie — اجرای انیمیشن‌های برداری سبک\n🎵 صدا و خروجی نهایی\n• Openverse API — جست‌وجوی محتوای صوتی با مجوزهای مختلف\n• Librosa — تحلیل موسیقی و تشخیص ریتم\n• WhisperX — ساخت زیرنویس با زمان‌بندی دقیق\n• FFmpeg — پردازش و خروجی نهایی ویدیو\n\n💡 لازم نیست همه این ابزارها رو یاد بگیری؛ چندتاشون رو متناسب با پروژه‌ات انتخاب کن و یه ورک‌فلو اختصاصی بساز!\n\n🔥 این مجموعه رو ذخیره کن تا موقع پروژه بعدیت دم دستت باشه.",
       "at": "2026-11-15T05:07:00.273Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-15T11:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "نزدیک ۷۰ درصد سازمان‌های آمریکایی از هوش مصنوعی استفاده می‌کنند",
+      "why": "این توافق‌ها به کارمندان دولتی این اطمینان رو می‌ده که هوش مصنوعی جایگزینشون نمی‌شه، مگر اینکه خودشون کنترل نهایی رو حفظ کنن.",
+      "dedupe_key": "us-government-unions-generative-ai-guardrails",
+      "post_key": "2026-11-15/11-30/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "sourceTitle": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+      "sourceText": "US public-sector unions are winning more protections against AI surveillance and automation-driven job losses. The issue is growing more urgent as nearly 70 percent of US government agencies already use generative AI, according to an Ernst and Young survey .\nThe wins are piling up nationwide. After a strike vote in October, IFPTE Local 21 in Oakland secured retraining programs instead of AI-related layoffs. In Pennsylvania, Governor Josh Shapiro guaranteed SEIU Local 668 human oversight during a pilot of OpenAI's ChatGPT Enterprise . The Transport Workers Union in Ohio won veto power over autonomous vehicles. On top of that, California Governor Gavin Newsom banned AI surveillance software, often called \"bossware,\" along with automated firings in September. New York has protected state employees from AI displacement by law since late 2025.\nEmployers are pushing automation to cut costs, according to labor researcher Kung Feng at UC Berkeley. Union leaders like Liz Shuler of the AFL-CIO, Lorena Gonzalez, and TWU's John Samuelsen support AI safety systems where they help workers but insist on mandatory human control over every AI application in the workplace, the Guardian reports . Ad Ad",
+      "at": "2026-11-15T08:49:40.307Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-15T11:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ساخت شبیه‌ساز ربات با دارایی‌های SimReady",
+      "why": "با این ابزار، تیم‌های رباتیک می‌تونن بدون ساخت مدل از صفر، شبیه‌سازی‌هاشون رو سریع راه بندازن و روی کنترل ربات تمرکز کنن.",
+      "dedupe_key": "nvidia-simready-central-pick-and-place",
+      "post_key": "2026-11-15/11-30/2",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "sourceTitle": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "sourceText": "This walkthrough showcases a beverage can pick-and-place task that uses the UR17G arm , Robotiq 2F-140 gripper , and beverage can to compose a scene in Isaac Sim, check their behavior, and run a pick-and-place example with agent-generated controls.\nFor robotics workflows, SimReady means an OpenUSD asset has been prepared with the properties needed for a defined simulation use case, such as collisions, mass, joints, and joint drives. SimReady Central , an open asset library on Hugging Face, lets you reuse robot and object assets with authored simulation properties and profile-validation evidence. For more about the library and its launch, read the announcement blog .\nSimReady Foundation defines what features the OpenUSD asset needs for a simulation use case. Its specifications connect three levels:\nFor this task, those properties include the arm and gripper’s joints and a beverage can asset collisions and mass. Validation checks these settings against the profile’s requirements. The simulation then tests whether the assembled robot can use them to pick up and move the can.\nThe UR17G , Robotiq 2F-140 , and beverage can packages include the models and their simulation settings. You assemble the scene and add task code to define the arm–gripper assembly, work surface, starting positions, and controls for moving the arm and opening and closing the gripper.\nFigure 2. SimReady Central supplies the asset models and simulation settings and the example scene and controls define the pick-and-place task.\nA robot can look visually correct while stationary in Isaac Sim but move or intera",
+      "at": "2026-11-15T09:01:40.871Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8413,
       "last_at": "2026-11-15T05:39:39+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "pedramgholizadeh": {
       "last_id": 803,
       "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "ai_farshad": {
       "last_id": 6440,
       "last_at": "2026-11-15T07:34:19+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "Mohammad_zammani": {
       "last_id": 7213,
       "last_at": "2026-11-15T06:11:45+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "techiin_ir": {
       "last_id": 20777,
       "last_at": "2026-11-15T07:46:12+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "web3nabu": {
       "last_id": 2168,
       "last_at": "2026-11-13T20:32:20+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "asrnovin_ir": {
       "last_id": 11469,
       "last_at": "2026-11-15T05:41:32+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "shayanode": {
       "last_id": 197,
       "last_at": "2026-11-14T10:19:07+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "codecloude": {
       "last_id": 2586,
       "last_at": "2026-11-15T04:48:41+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "dunijet_ai": {
       "last_id": 2550,
       "last_at": "2026-11-15T03:31:29+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "MatinSenPaii": {
-      "last_id": 5880,
-      "last_at": "2026-11-15T06:33:09+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "last_id": 5881,
+      "last_at": "2026-11-15T08:34:03+00:00",
+      "checked_at": "2026-11-15T08:48:06.152Z"
     },
     "thenimaonAI": {
-      "last_id": 518,
-      "last_at": "2026-11-15T07:59:49+00:00",
-      "checked_at": "2026-11-15T08:00:54.448Z"
+      "last_id": 520,
+      "last_at": "2026-11-15T08:38:05+00:00",
+      "checked_at": "2026-11-15T08:48:06.152Z"
     }
   },
   "offerReviews": [
@@ -16609,6 +16735,18 @@
       "title": "🤖گوگل یه آپدیت جزئی روی صفحه تنظیمات آرتیفکت جدید «Comic» تو Gemini Notebook اعمال کرده که",
       "url": "https://t.me/Mohammad_zammani/7213",
       "reason": "denied_link",
+      "slot": "2026-11-15T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-15|tg-matin-senpai|https://t.me/MatinSenPaii/5881",
+      "date": "2026-11-15",
+      "at": "2026-11-15T08:48:06.152Z",
+      "source": "tg-matin-senpai",
+      "title": "طبق لیک ها، Gemini 4 Krypton رو به زودی خواهیم داشت. قدرتمندتر از همه‌ی مدلهای گوگل",
+      "url": "https://t.me/MatinSenPaii/5881",
+      "reason": "no_link",
       "slot": "2026-11-15T11:30+03:30",
       "kind": "post",
       "mainEligible": false
