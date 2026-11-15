@@ -80,7 +80,8 @@ export function captionLength(post) {
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/\*\*/g, '')
     .replace(/<[^>]*>/g, '')
-    .replace(/\u200F/g, '')
+    .replace(/`/g, '')
+    .replace(/[\u200E\u200F\u2066-\u2069]/g, '')
     .length;
 }
 
@@ -105,6 +106,8 @@ export function formatBodyHtml(body) {
   const html = escapeHtml(String(body ?? ''))
     .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2">$1</a>')
     .replace(/\*\*([^*\n]+)\*\*/g, '<b>$1</b>')
+    .replace(/```([\s\S]*?)```/g, (_, code) => `<pre>\u2066${code.replace(/^\n+|\n+$/g, '')}\u2069</pre>`)
+    .replace(/`([^`\n]+)`/g, '<code>\u2066$1\u2069</code>')
     .replace(/^[ \t]*[-–•][ \t]+/gm, '• ')
     .trim();
   return html

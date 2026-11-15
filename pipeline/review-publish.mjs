@@ -1,5 +1,6 @@
 import { qaPost } from './engine.mjs';
 import { dailyBudget } from './guards.mjs';
+import { canonicalUrl } from './normalize.mjs';
 import { categoryCountForDate, sourceUsage } from './diversity.mjs';
 import { MAIN_CATEGORIES, quotaSnapshot, tehranParts, dateKey, weekKey, inQuietHours } from './store.mjs';
 import { findStoryDuplicate } from './telegram-source.mjs';
@@ -11,10 +12,23 @@ export function publishSlotFor(now) {
   return `${date}T${String(parts.hour).padStart(2, '0')}:${String(parts.minute).padStart(2, '0')}`;
 }
 
+function sameUrl(left, right) {
+  try {
+    return canonicalUrl(left) === canonicalUrl(right);
+  } catch {
+    return String(left) === String(right);
+  }
+}
+
 export function filterOwnReviewEntries(delivered, item) {
   const titles = new Set([item?.title, item?.post?.title].filter(Boolean));
+  const urls = [item?.url, item?.leadPostUrl].filter(Boolean);
   return (delivered ?? []).filter(
-    (entry) => !(entry?.decision === 'review' && titles.has(entry?.title))
+    (entry) =>
+      !(
+        entry?.decision === 'review' &&
+        (titles.has(entry?.title) || urls.some((url) => entry?.url && sameUrl(entry.url, url)))
+      )
   );
 }
 
@@ -101,9 +115,14 @@ export function publishGuards({
       detail: 'این آفر لینک منبع ندارد؛ بدون تأیید لینک به کانال اصلی نمی‌رود.',
     };
   }
+  const deliveredFiltered = filterOwnReviewEntries(delivered, item);
+  // A manual publish is a human decision: only real published posts can block it.
+  const duplicatePool = manual
+    ? deliveredFiltered.filter((entry) => entry.decision === 'publish')
+    : deliveredFiltered;
   const duplicate = findStoryDuplicate(
     { title: item.title, messageText: item.messageText, policy: item.policy, benchmark: item.benchmark },
-    filterOwnReviewEntries(delivered, item)
+    duplicatePool
   );
   if (duplicate) {
     return {

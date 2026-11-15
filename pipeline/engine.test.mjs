@@ -130,6 +130,14 @@ test('an open-ended offer post carries the no-expiry note and drops invented dat
     body: `متن آفر.\n\n${note}\n\nمنبع: [NVIDIA](https://build.nvidia.com/)`,
   }, note);
   assert.equal(direct.body, `متن آفر.\n\n${note}\n\nمنبع: [NVIDIA](https://build.nvidia.com/)`);
+
+  const quoted = ensureOpenEndedNote({
+    decision: 'publish',
+    body: `متن آفر.\n\n${note}`,
+    quote: `دستور نصب.\n\n${note}`,
+  }, note);
+  assert.equal(quoted.quote, 'دستور نصب.');
+  assert.equal(quoted.body, `متن آفر.\n\n${note}`);
 });
 
 test('open-ended offer QA accepts the note together with a resolved official page', () => {
@@ -570,6 +578,18 @@ test('a Telegram channel is never cited as the source', () => {
   );
   assert.equal(tool.body.includes('Code.Cloud'), false);
   assert.equal(tool.body.includes('منبع:'), false);
+
+  const dirty = ensureSourceLine(
+    {
+      decision: 'publish',
+      category: 'models',
+      body: `${body}\n\nمنبع: [Code.Cloud | کد کلاد](https://t.me/codecloud/123)\n\n${body}`,
+    },
+    { ...channel, sourceUrl: 'https://blog.example.com/post' }
+  );
+  assert.equal(dirty.body.includes('Code.Cloud'), false);
+  assert.equal(dirty.body.includes('t.me'), false);
+  assert.ok(dirty.body.endsWith('منبع: [blog.example.com](https://blog.example.com/post)'));
 });
 
 test('a tool page yields a grounded usage link and ignores nav and news paths', () => {

@@ -11,6 +11,7 @@ import {
 import { newsDateLine } from './newstime.mjs';
 
 export function candidateFromItem(item) {
+  const type = String(item?.sourceType ?? '');
   return {
     title: String(item?.title ?? ''),
     published: String(item?.publishedAt ?? ''),
@@ -20,7 +21,8 @@ export function candidateFromItem(item) {
     canonical: String(item?.url ?? ''),
     leadPostUrl: String(item?.leadPostUrl ?? ''),
     sourceName: String(item?.sourceName ?? ''),
-    sourceType: String(item?.sourceType ?? ''),
+    sourceType:
+      type || (String(item?.source ?? '').startsWith('tg-') ? 'telegram_channel' : ''),
     relatedLinks: Array.isArray(item?.relatedLinks) ? item.relatedLinks : [],
     keys: Array.isArray(item?.keys) ? item.keys : [],
     toolHint: item?.toolHint === true,
@@ -228,7 +230,7 @@ export async function draftReviewPost({
       usageName: toolUsage?.name ?? '',
       imageUrl,
       newsDate: nowLine,
-      sourceType: item?.sourceType,
+      sourceType: candidate.sourceType,
       openEnded: manual && offer?.openEnded === true,
       noExpiryNote: manual && offer?.openEnded ? offer.note : '',
     });

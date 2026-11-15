@@ -201,6 +201,12 @@ test('delivered memory keeps published and review entries only for 30 days', () 
     decision: 'review',
     title: 'Old review story',
   });
+  markSeen(review, dedupeKeys({ url: 'https://example.com/url-review', title: 'URL review story' }), {
+    at: '2026-11-02T09:00:00.000Z',
+    decision: 'review',
+    title: 'URL review story',
+    url: 'https://example.com/url-review',
+  });
 
   const entries = deliveredEntries(
     [{ lane: 'main', state: main }, { lane: 'review', state: review }],
@@ -209,11 +215,12 @@ test('delivered memory keeps published and review entries only for 30 days', () 
   );
   assert.deepEqual(
     entries.map((entry) => `${entry.lane}|${entry.title}`),
-    ['review|Review story', 'main|Reviewed story', 'main|Main story', 'main|Education story']
+    ['review|Review story', 'review|URL review story', 'main|Reviewed story', 'main|Main story', 'main|Education story']
   );
   assert.equal(entries[0].decision, 'publish');
   assert.equal(entries[1].decision, 'review');
-  assert.equal(entries[3].decision, 'education_review');
+  assert.equal(entries[1].url, 'https://example.com/url-review');
+  assert.equal(entries[4].decision, 'education_review');
   assert.equal(entries.find((entry) => entry.title === 'Main story').benchmark, true);
   assert.equal(entries.find((entry) => entry.title === 'Reviewed story').benchmark, true);
   assert.equal(entries.find((entry) => entry.title === 'Education story').benchmark, false);

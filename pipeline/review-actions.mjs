@@ -30,6 +30,7 @@ import {
   parseReviewCallback,
   pruneReviewStore,
   recordReviewAction,
+  rejectKeyboard,
   removeKeyboard,
   rewriteCountForDay,
   saveReviewStore,
@@ -234,6 +235,12 @@ function importanceOf(body) {
   return before.split(/\n{2,}/).map((part) => part.trim()).filter(Boolean).at(-1) ?? '';
 }
 
+function sourceTypeOf(item) {
+  const type = String(item?.sourceType ?? '');
+  if (type) return type;
+  return String(item?.source ?? '').startsWith('tg-') ? 'telegram_channel' : '';
+}
+
 function itemOutOfDate(item, query) {
   const message = query?.message ?? {};
   const chatId = String(message.chat?.id ?? '');
@@ -287,6 +294,15 @@ async function handleDeleteMessage(query) {
   } catch (error) {
     log(`CARD_DELETE_FAILED ${messageId} ${String(error?.message ?? error)}`);
   }
+}
+
+async function handleRejectMenu(review, query) {
+  const { item, error } = activeItem(review, query);
+  if (error) return notify(error);
+  await answer(query.id, 'دلیل رد را انتخاب کن.');
+  await setKeyboard(item.messageId, rejectKeyboard(item.id));
+  log(`REVIEW_REJECT_MENU id=${item.id} | ${item.title}`);
+  return null;
 }
 
 async function handleReject(review, query) {
@@ -494,7 +510,7 @@ async function handlePublish(review, query) {
     usageName: usage?.name ?? '',
     imageUrl: resolvedImageUrl(item),
     newsDate: '',
-    sourceType: item.sourceType,
+    sourceType: sourceTypeOf(item),
     openEnded: openEndedOffer,
     noExpiryNote: openEndedOffer
       ? String(config.offers?.manual_no_expiry_note ?? offer.note ?? '')
@@ -560,7 +576,7 @@ async function handlePublish(review, query) {
     why: importanceOf(item.post.body),
     sourceId: item.source,
     sourceName: item.sourceName || item.source,
-    sourceType: item.sourceType || 'telegram_channel',
+    sourceType: sourceTypeOf(item),
     benchmark: item.benchmark === true,
     url: item.url,
     sourceTitle: item.title,
@@ -636,7 +652,7 @@ async function dispatch(update) {
   if (review.action === 'p') await handlePublish(review, query);
   else if (review.action === 'w') await handleRewrite(review, query);
   else if (review.action === 'x') await handleReject(review, query);
-  else if (review.action === 'r') await handleReject({ ...review, extra: 'other' }, query);
+  else if (review.action === 'r') await handleRejectMenu(review, query);
   else await handleBack(review, query);
   return { handled: true };
 }

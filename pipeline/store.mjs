@@ -236,6 +236,7 @@ export function deliveredEntries(states, now, { days = SEEN_RETENTION_DAYS } = {
       sourceText: String(record?.sourceText ?? '').slice(0, 1600),
       category: String(record?.category ?? ''),
       decision: String(record?.decision ?? 'publish'),
+      url: String(record?.url ?? ''),
       benchmark:
         record?.benchmark === true ||
         record?.sourceType === 'benchmark' ||

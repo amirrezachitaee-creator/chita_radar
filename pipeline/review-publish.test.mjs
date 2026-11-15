@@ -82,9 +82,10 @@ test('the item own review record never blocks its publish as a duplicate', () =>
   const item = baseItem();
   const own = { lane: 'review', decision: 'review', title: item.title };
   const draft = { lane: 'review', decision: 'review', title: item.post.title };
+  const ownByUrl = { lane: 'review', decision: 'review', title: 'تیتر کانال', url: `${item.url}/` };
   const other = { lane: 'review', decision: 'review', title: 'خبر دیگر' };
   const live = published({ title: item.title });
-  const kept = filterOwnReviewEntries([own, draft, other, live], item);
+  const kept = filterOwnReviewEntries([own, draft, ownByUrl, other, live], item);
   assert.deepEqual(kept, [other, live]);
   assert.deepEqual(filterOwnReviewEntries(undefined, item), []);
 });
@@ -201,6 +202,14 @@ test('a manual publish still blocks a duplicate and a failed minimal QA', () => 
     delivered: [published({ title })],
   });
   assert.equal(duplicate.reason, 'duplicate');
+  const pendingLook = {
+    lane: 'review',
+    decision: 'review',
+    title: 'Free inference with leading models',
+    sourceText: LONG,
+  };
+  const manual = guard({ item: baseItem({ manual: true }), delivered: [pendingLook] });
+  assert.equal(manual.reason, 'ok');
   const failed = guard({
     item: baseItem({ manual: true }),
     qa: { pass: false, problems: ['title_complete'] },

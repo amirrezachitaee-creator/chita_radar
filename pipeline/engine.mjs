@@ -848,7 +848,12 @@ export function ensureSourceLine(parsed, { sourceName = '', sourceUrl = '', usag
     }
     break;
   }
-  const stripped = lines.join('\n').trimEnd();
+  // A Telegram lead is a discovery path: any attribution left inside the body
+  // is dropped so a channel name can never survive as the receipt.
+  const kept = telegramSource
+    ? lines.filter((line) => !USAGE_TAIL_LINE.test(line.trim()))
+    : lines;
+  const stripped = kept.join('\n').trimEnd();
   if (!tail.length) return stripped === body ? parsed : { ...parsed, body: stripped };
   const nextBody = stripped ? `${stripped}\n\n${tail.join('\n')}` : tail.join('\n');
   return nextBody === body ? parsed : { ...parsed, body: nextBody };
@@ -875,9 +880,21 @@ export function ensureOpenEndedNote(parsed, note = '') {
     .replace(/\n{3,}/g, '\n\n')
     .trim();
   const hasNote = content.includes(line);
-  if (hasNote && kept === content.replace(/\n{3,}/g, '\n\n').trim()) return parsed;
+  const rawQuote = String(parsed.quote ?? '');
+  const cleanedQuote = rawQuote
+    .split('\n')
+    .filter((item) => item.trim() !== line)
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+  const quoteChanged = cleanedQuote !== rawQuote.trim();
+  if (hasNote && kept === content.replace(/\n{3,}/g, '\n\n').trim() && !quoteChanged) return parsed;
   const merged = hasNote ? kept : kept ? `${kept}\n${line}` : line;
-  return { ...parsed, body: [merged, source].filter(Boolean).join('\n\n') };
+  return {
+    ...parsed,
+    body: [merged, source].filter(Boolean).join('\n\n'),
+    quote: quoteChanged ? cleanedQuote : parsed.quote,
+  };
 }
 
 export function countTitleWords(value) {

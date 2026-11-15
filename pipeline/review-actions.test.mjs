@@ -133,10 +133,13 @@ test('a reject callback is logged with its reason and deletes the card', async (
   assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
 });
 
-test('the reject button deletes in one tap while the back button still works', async () => {
-  const tap = await run([update('r', 'deadbeef01')], [item()]);
-  assert.match(tap, /REVIEW_REJECTED id=deadbeef01 reason=other/);
-  assert.doesNotMatch(tap, /دلیل رد را انتخاب کن/);
+test('the reject button asks for a reason and then deletes the card', async () => {
+  const menu = await run([update('r', 'deadbeef01')], [item()]);
+  assert.match(menu, /REVIEW_REJECT_MENU id=deadbeef01/);
+  assert.match(menu, /DRY_ANSWER دلیل رد را انتخاب کن/);
+  assert.doesNotMatch(menu, /REVIEW_REJECTED/);
+  const rejected = await run([update('x', 'deadbeef01', { extra: 'quality' })], [item()]);
+  assert.match(rejected, /REVIEW_REJECTED id=deadbeef01 reason=quality/);
   const back = await run([update('m', 'deadbeef01')], [item()]);
   assert.match(back, /DRY_ANSWER دکمه‌ها برگشتند/);
 });

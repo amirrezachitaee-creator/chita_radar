@@ -68,6 +68,19 @@ test('the sent html renders the title number on the right side of the latin name
   assert.ok(html.startsWith('<b>\u200FOpenAI\u200F ۱۱ میلیارد دلار سرمایه جذب کرد</b>'));
 });
 
+test('an inline command is isolated in a code tag so the caption keeps it intact', () => {
+  const command = 'dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.5';
+  const html = postHtml({
+    title: 'پلاگین تازه',
+    body: `نصبش ساده است؛ کافیه این دستور رو توی ترمینال بزنی: \`${command}\` و بعد ری‌استارت کنی.`,
+  });
+  assert.ok(html.includes(`<code>\u2066${command}\u2069</code>`));
+  assert.equal(html.includes('`'), false);
+  const fenced = postHtml({ title: 'دستور', body: '```\nnpm install x\n```' });
+  assert.ok(fenced.includes('<pre>\u2066npm install x\u2069</pre>'));
+  assert.equal(captionLength({ title: '', body: 'متن `abc`' }), 'متن abc'.length);
+});
+
 test('a quote sits above the source line', () => {
   const post = {
     title: 'عنوان',
