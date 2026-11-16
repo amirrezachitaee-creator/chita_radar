@@ -2207,6 +2207,10 @@
     },
     "6f956c6269": {
       "id": "6f956c6269",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-16T17:57:09.157Z",
+      "updatedAt": "2026-11-16T17:57:09.157Z",
       "messageId": 349,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T20:30+03:30",
@@ -2242,10 +2246,6 @@
         "remainingHours": null,
         "evidence": ""
       },
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-16T17:57:09.157Z",
-      "updatedAt": "2026-11-16T17:57:09.157Z",
       "lastActionAt": "",
       "sentAt": ""
     }
