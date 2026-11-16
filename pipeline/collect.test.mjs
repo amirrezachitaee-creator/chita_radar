@@ -222,3 +222,24 @@ test('the benchmark source turns a model commit into a models candidate', async 
   assert.match(candidate.messageText, /Opus-5\.5 47\.2/);
   assert.equal(result.stats.benchmarkItems, 1);
 });
+
+test('a watched source is capped to one candidate per run', async () => {
+  const result = await collectCandidates({
+    sources: [
+      { id: 'watched', name: 'Watched', type: 'news', feed_url: 'https://watch.example/feed' },
+    ],
+    state: emptyState(),
+    now: NOW,
+    sourceLimits: { watched: 1 },
+    fetchImpl: async (url) => ({
+      text: feed([
+        item({ title: 'OpenAI model one', link: 'https://watch.example/one', date: 'Mon, 02 Nov 2026 13:00:00 +0000' }),
+        item({ title: 'OpenAI model two', link: 'https://watch.example/two', date: 'Mon, 02 Nov 2026 12:00:00 +0000' }),
+        item({ title: 'OpenAI model three', link: 'https://watch.example/three', date: 'Mon, 02 Nov 2026 11:00:00 +0000' }),
+      ]),
+      url,
+    }),
+  });
+  assert.equal(result.candidates.length, 1);
+  assert.equal(result.stats.feedItems, 1);
+});

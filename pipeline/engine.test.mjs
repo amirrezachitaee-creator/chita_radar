@@ -383,6 +383,45 @@ test('repeating the previous importance opener is only a soft warning', () => {
   assert.equal(implicit.problems.includes('why'), false);
 });
 
+test('manual mode keeps a low importance honest instead of repairing it up', () => {
+  const qa = qaPost(
+    {
+      decision: 'publish',
+      category: 'business',
+      post_type: 'standard',
+      importance: 2,
+      title: 'خبر کوتاه',
+      body: 'لید خبر.\n\nاهمیتش اینه که هزینه‌ها روی عرضه اولیه فشار میاره.\n\nمنبع: [منبع](https://example.com)',
+      quote: '',
+      key_facts: ['یک', 'دو'],
+      numbers: [],
+      entities: { companies: [], models: [], people: [] },
+      verification: 'reported',
+      source_url: 'https://example.com',
+      image_url: '',
+      dedupe_key: 'manual-importance-test',
+    },
+    {
+      url: 'https://example.com',
+      host: 'example.com',
+      sourceType: 'news',
+      category: 'business',
+      imageUrl: '',
+      title: 'خبر کوتاه',
+      description: '',
+      content: '',
+      publishedAt: new Date().toISOString(),
+      now: new Date().toISOString(),
+      previousWhy: '',
+      manual: true,
+    }
+  );
+  const check = qa.checks.find((item) => item.name === 'importance');
+  assert.equal(check.ok, false);
+  assert.equal(check.hard, false);
+  assert.equal(qa.problems.includes('importance'), false);
+});
+
 test('a stock importance opener asks for a repair without blocking the post', () => {
   const base = {
     decision: 'publish',

@@ -7,6 +7,7 @@ import {
   classifyLead,
   educationDigestLeads,
   educationLeadLabel,
+  educationLeadLanguage,
   educationSignals,
   externalLinksOf,
   findStoryDuplicate,
@@ -1709,4 +1710,18 @@ test('an unrelated image does not turn a thin AI post into an OCR discovery', as
   assert.equal(lead.ocrDiscovery, false);
   assert.notEqual(lead.reviewReason, 'ocr_discovery');
   assert.equal(result.stats.telegram.ocrLeads, 0);
+});
+
+test('education lead language rejects a pure English sample', () => {
+  const english = educationLeadLanguage({
+    title: 'Serving Scikit-LLM Pipelines as REST APIs with FastAPI',
+    messageText: 'In this article, you will learn how to serve a Scikit-LLM zero-shot text classification pipeline.',
+  });
+  assert.equal(english.persian, 0);
+  assert.ok(english.latin > 20);
+  const persian = educationLeadLanguage({
+    title: 'آموزش ساخت ایجنت تلگرامی با مدل محلی',
+    messageText: 'در این مقاله یاد می‌گیرید چطور یک ایجنت ساده بسازید و روی سرور اجرا کنید.',
+  });
+  assert.ok(persian.persian >= 10);
 });

@@ -604,6 +604,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
         'این بازنویسی دستی است و کاربر آن را تأیید کرده است:',
         'اگر متن یک خبر یا معرفی ابزار واقعی است، تصمیم publish باشد؛ فقط برای تبلیغ/رپورتاژ محض یا تکرار skip کن. به خاطر تازگی، نبود منبع رسمی، بازنشر تلگرامی، وضعیت unverified، نبود اشارهٔ صریح به هوش مصنوعی یا شک رد نکن.',
         'متن را با لحن محاوره‌ای خودمان از نو بنویس؛ جمله‌های متن منبع را عیناً کپی نکن و ترتیب جمله‌ها را خودت بساز.',
+        'اهمیت (importance) را صادقانه بین ۱ تا ۵ بگذار؛ بازنویسی دستی مجوز انتشار است، نه مجوز بزرگ‌نمایی.',
         'فقط از اطلاعات همین متن استفاده کن؛ منبع، آدرس، عدد یا نقل‌قول تازه نساز.',
         'لینک تلگرام، نام کانال تلگرام یا عبارت «منبع: تلگرام» را در متن نیاور.',
         'اگر tool_url پر است، فقط همان را یک بار در خط آخر به شکل «لینک استفاده» بیاور. اگر tool_url خالی است و لینک خارجی وجود دارد، خط منبع را با همان لینک بنویس. اگر هیچ لینک خارجی نیست، هیچ خط منبع یا لینک استفاده‌ای نساز.',
@@ -1388,7 +1389,7 @@ export function qaPost(parsed, context) {
   add('category_main', MAIN_CATEGORIES.includes(parsed.category));
   add('ai_relevance', hasAiMention(`${title}\n${body}\n${quote}`), '', !context.manual);
   add('post_type', POST_TYPES.includes(type));
-  add('importance', Number.isInteger(parsed.importance) && parsed.importance >= 3 && parsed.importance <= 5);
+  add('importance', Number.isInteger(parsed.importance) && parsed.importance >= 3 && parsed.importance <= 5, '', !context.manual);
   add('verification_enum', VERIFICATIONS.includes(parsed.verification));
 
   const verificationSourceOk =

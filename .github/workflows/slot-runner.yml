@@ -183,6 +183,22 @@ jobs:
             node pipeline/report.mjs "${args[@]}"
           } 2>&1 | node pipeline/mask-log.mjs | tee -a "${log}" || echo "REPORT_FAILED"
 
+      - name: Source status
+        if: always()
+        run: |
+          set -uo pipefail
+          if [ "${MODE}" != "send" ] || [ "${TARGET}" != "main" ]; then
+            echo "STATUS_SKIP reason=not_main_send"
+            exit 0
+          fi
+          log="logs/$(date -u +%F)/run-${GITHUB_RUN_ID}-${MODE}-${TARGET}.log"
+          mkdir -p "$(dirname "${log}")"
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          {
+            echo "SOURCE_STATUS $(date -u +%FT%TZ)"
+            node pipeline/status-report.mjs --send --min-hour 22 --run-url "${run_url}"
+          } 2>&1 | node pipeline/mask-log.mjs | tee -a "${log}" || echo "STATUS_FAILED"
+
       - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4
@@ -208,7 +224,7 @@ jobs:
             find logs -mindepth 1 -type d -empty -delete
           fi
           files=()
-          for f in data/state.json data/state.review.json data/offer-watch.json data/policy-state.json data/review-feedback.json; do
+          for f in data/state.json data/state.review.json data/offer-watch.json data/policy-state.json data/review-feedback.json data/source-health.json data/sources.dynamic.json; do
             if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
           done
           if [ -d logs ] && [ -n "$(git status --porcelain -- logs)" ]; then files+=("logs"); fi
@@ -216,12 +232,18 @@ jobs:
             echo "STATE_UNCHANGED"
             exit 0
           fi
-          git add "${files[@]}"
-          git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): ${GITHUB_RUN_ID} ${MODE} ${TARGET}"
           for attempt in 1 2 3; do
-            git rebase --abort >/dev/null 2>&1 || true
-            git cherry-pick --abort >/dev/null 2>&1 || true
-            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+            git fetch --quiet origin "${GITHUB_REF_NAME}" || true
+            node pipeline/merge-state.mjs --origin "origin/${GITHUB_REF_NAME}" \
+              data/state.json data/state.review.json data/offer-watch.json data/policy-state.json data/review-feedback.json data/source-health.json data/sources.dynamic.json || echo "MERGE_STATE_FAILED"
+            git reset --mixed "origin/${GITHUB_REF_NAME}"
+            git add "${files[@]}"
+            if git diff --cached --quiet; then
+              echo "STATE_UNCHANGED_AFTER_MERGE"
+              exit 0
+            fi
+            git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): ${GITHUB_RUN_ID} ${MODE} ${TARGET}"
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
               echo "STATE_PUSHED attempt=${attempt}"
               exit 0
             fi

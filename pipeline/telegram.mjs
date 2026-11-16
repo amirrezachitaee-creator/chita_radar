@@ -347,6 +347,52 @@ export async function getUpdates({
   }
 }
 
+export async function getMe({
+  token,
+  baseUrl = 'https://api.telegram.org',
+  timeoutMs = 15000,
+  fetchImpl = fetch,
+}) {
+  if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(`${baseUrl.replace(/\/$/, '')}/bot${token}/getMe`, {
+      method: 'GET',
+      signal: controller.signal,
+    });
+    return await readRawResult(response);
+  } catch (error) {
+    if (error?.message?.startsWith('TELEGRAM_')) throw error;
+    throw telegramRequestError(error);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+export async function getWebhookInfo({
+  token,
+  baseUrl = 'https://api.telegram.org',
+  timeoutMs = 15000,
+  fetchImpl = fetch,
+}) {
+  if (!token) throw new Error('TELEGRAM_BOT_TOKEN_MISSING');
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(`${baseUrl.replace(/\/$/, '')}/bot${token}/getWebhookInfo`, {
+      method: 'GET',
+      signal: controller.signal,
+    });
+    return await readRawResult(response);
+  } catch (error) {
+    if (error?.message?.startsWith('TELEGRAM_')) throw error;
+    throw telegramRequestError(error);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 export async function answerCallbackQuery(callbackQueryId, {
   token,
   text = '',

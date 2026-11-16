@@ -79,6 +79,15 @@ const emptyTelegramStats = () => ({
   errors: 0,
 });
 
+function sourceLimit(source, perSource, sourceLimits) {
+  const values = [perSource];
+  const configured = Number(source?.max_items_per_run ?? 0);
+  if (configured > 0) values.push(configured);
+  const healthLimit = Number(sourceLimits?.[source?.id] ?? 0);
+  if (healthLimit > 0) values.push(healthLimit);
+  return Math.max(1, Math.min(...values));
+}
+
 function seenAcrossLanes(state, memoryStates, keys, now) {
   const active = findSeenInStates([state], keys, now);
   if (active) return { hit: active, crossLane: false };
@@ -94,6 +103,7 @@ async function collectIndexSource({
   now,
   maxAgeHours,
   perSource,
+  sourceLimits,
   fetchImpl,
   redact,
   stats,
@@ -110,7 +120,7 @@ async function collectIndexSource({
   }
   stats.indexItems += items.length;
 
-  for (const item of items.slice(0, perSource)) {
+  for (const item of items.slice(0, sourceLimit(source, perSource, sourceLimits))) {
     const gate = freshness(item.published, now, { maxAgeHours });
     if (!gate.ok) {
       if (gate.reason === 'no_date' || gate.reason === 'bad_date') stats.noDate += 1;
@@ -173,6 +183,7 @@ async function collectBenchmarkSource({
   now,
   maxAgeHours,
   perSource,
+  sourceLimits,
   fetchImpl,
   redact,
   stats,
@@ -189,7 +200,7 @@ async function collectBenchmarkSource({
   }
   stats.benchmarkItems += items.length;
 
-  for (const item of items.slice(0, perSource)) {
+  for (const item of items.slice(0, sourceLimit(source, perSource, sourceLimits))) {
     const gate = freshness(item.published, now, { maxAgeHours });
     if (!gate.ok) {
       if (gate.reason === 'no_date' || gate.reason === 'bad_date') stats.noDate += 1;
@@ -340,6 +351,7 @@ async function collectApiSource({
   memoryStates,
   now,
   maxAgeHours,
+  sourceLimits,
   settings,
   fetchImpl,
   redact,
@@ -370,7 +382,7 @@ async function collectApiSource({
     eligible.push({ ...item, gate });
   }
 
-  for (const item of selectDailyPapers(eligible, settings)) {
+  for (const item of selectDailyPapers(eligible, settings).slice(0, sourceLimit(source, 8, sourceLimits))) {
     const { gate } = item;
     let canonical;
     try {
@@ -439,6 +451,7 @@ async function collectTelegramSource({
   memoryStates,
   now,
   maxAgeHours,
+  sourceLimits,
   fetchImpl,
   redact,
   settings,
@@ -450,9 +463,10 @@ async function collectTelegramSource({
   if (!telegramSourceEnabled(source, settings)) return;
   stats.telegram.channels += 1;
 
-  const perChannel = Math.max(
-    1,
-    Number(source.max_posts_per_check ?? settings.per_channel ?? 15) || 15
+  const perChannel = sourceLimit(
+    source,
+    Math.max(1, Number(source.max_posts_per_check ?? settings.per_channel ?? 15) || 15),
+    sourceLimits
   );
   const activeFrom = source.active_from || settings.active_from || '';
   const channelUrl = `https://t.me/s/${source.username}`;
@@ -792,6 +806,7 @@ export async function collectCandidates({
   memoryStates = [],
   now,
   perSource = 12,
+  sourceLimits = {},
   maxAgeHours = 72,
   fetchImpl = fetchText,
   redact,
@@ -830,6 +845,7 @@ export async function collectCandidates({
         memoryStates,
         now,
         maxAgeHours,
+        sourceLimits,
         fetchImpl,
         redact,
         settings: telegram,
@@ -866,6 +882,7 @@ export async function collectCandidates({
         now,
         maxAgeHours,
         perSource,
+        sourceLimits,
         fetchImpl,
         redact,
         stats,
@@ -882,6 +899,7 @@ export async function collectCandidates({
         now,
         maxAgeHours,
         perSource,
+        sourceLimits,
         fetchImpl,
         redact,
         stats,
@@ -897,6 +915,7 @@ export async function collectCandidates({
         memoryStates,
         now,
         maxAgeHours,
+        sourceLimits,
         settings: hfPapers,
         fetchImpl,
         redact,
@@ -919,7 +938,7 @@ export async function collectCandidates({
       continue;
     }
 
-    const items = parseFeed(feed.text).slice(0, perSource);
+    const items = parseFeed(feed.text).slice(0, sourceLimit(source, perSource, sourceLimits));
     stats.feedItems += items.length;
 
     for (const item of items) {

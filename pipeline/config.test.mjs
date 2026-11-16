@@ -464,21 +464,19 @@ test('review actions keep the agreed caps and one poller queue', () => {
   assert.ok(actions.min_source_chars > 0);
 });
 
-test('the action poller keeps its own queue and defers to a busy slot', () => {
+test('the action poller keeps its own queue and never blocks a press', () => {
   assert.match(actionsWorkflow, /repository_dispatch:\s*\n\s*types:\s*\[review-tick\]/);
   assert.match(actionsWorkflow, /cron: "3,13,23,33,43,53 \* \* \* \*"/);
   assert.match(actionsWorkflow, /group: review-actions/);
   assert.equal(actionsWorkflow.includes('cancel-in-progress: true'), false, 'a poll can cancel a run');
-  assert.match(actionsWorkflow, /Slot busy check/);
-  assert.match(actionsWorkflow, /actions\/workflows\/slot-runner\.yml\/runs/);
-  assert.match(actionsWorkflow, /fromdateiso8601/);
-  assert.match(actionsWorkflow, /now - 5400/);
+  assert.equal(actionsWorkflow.includes('Slot busy check'), false, 'a busy slot must not skip the whole review queue');
+  assert.equal(actionsWorkflow.includes('STATE_SKIPPED_SLOT_OVERLAP'), false, 'review state must never be dropped');
+  assert.match(actionsWorkflow, /GH_TOKEN: \$\{\{ github\.token \}\}/, 'the poller needs the API to see a busy slot');
   assert.equal(actionsWorkflow.includes('--force'), false, 'the poller must never force a run');
   assert.match(actionsWorkflow, /MODE: \$\{\{ github\.event\.inputs\.mode \|\| 'send' \}\}/);
   assert.match(actionsWorkflow, /if \[ "\$\{MODE\}" = "send" \]; then args\+=\(--send --poll-seconds 570\); fi/);
-  assert.match(actionsWorkflow, /SLOT_BUSY_WAIT/);
   assert.match(actionsWorkflow, /RUN_STARTED/);
-  assert.match(actionsWorkflow, /STATE_SKIPPED_SLOT_OVERLAP/);
+  assert.match(actionsWorkflow, /node pipeline\/merge-state\.mjs --origin "origin\/\$\{GITHUB_REF_NAME\}"/);
   assert.match(actionsWorkflow, /data\/review-feedback\.json/);
   assert.match(actionsWorkflow, /node pipeline\/review-actions\.mjs/);
   assert.match(actionsWorkflow, /rm -f \.env/);

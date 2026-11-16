@@ -66,6 +66,7 @@
     "max_per_source_per_day": 0,
     "require_ai_central": false,
     "verbatim": true,
+    "min_persian_chars": 10,
     "include_image": true,
     "max_text_chars": 0,
     "web_enabled": true
@@ -79,6 +80,39 @@
     "action_retention_days": 90,
     "max_items": 200,
     "min_source_chars": 320
+  },
+  "source_health": {
+    "enabled": true,
+    "state_path": "data/source-health.json",
+    "dynamic_path": "data/sources.dynamic.json",
+    "window_days": 45,
+    "min_signals": 5,
+    "min_rejects": 4,
+    "watch_min_rejects": 3,
+    "watch_negative_rate": 0.5,
+    "quarantine_negative_rate": 0.8,
+    "quarantine_cooldown_hours": 336,
+    "trial_days": 14,
+    "trial_cooldown_hours": 720,
+    "watch_limit": 1,
+    "protected_types": [
+      "official_blog",
+      "api",
+      "policy",
+      "benchmark"
+    ],
+    "discovery": {
+      "enabled": true,
+      "min_items": 2,
+      "window_days": 30,
+      "max_candidates": 4,
+      "max_attempts": 6,
+      "max_sources": 6,
+      "max_new_per_day": 1,
+      "timeout_ms": 8000,
+      "trial_days": 14,
+      "recent_days": 14
+    }
   },
   "freshness_hours": {
     "pre_gate": 72,

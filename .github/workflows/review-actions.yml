@@ -50,6 +50,7 @@ jobs:
         run: >-
           node --test
           pipeline/review-actions.test.mjs
+          pipeline/merge-state.test.mjs
           pipeline/review-items.test.mjs
           pipeline/review-draft.test.mjs
           pipeline/review-publish.test.mjs
@@ -88,50 +89,9 @@ jobs:
           } > .env
           chmod 600 .env
 
-      - name: Slot busy check
-        id: gate
-        if: env.MODE == 'send'
+      - name: Run review actions
         env:
           GH_TOKEN: ${{ github.token }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_REVIEW_CHAT_ID: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
-        run: |
-          set -uo pipefail
-          api="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/workflows/slot-runner.yml/runs"
-          # Only recent runs count: a stale queued run once blocked the poller for days.
-          count() {
-            body="$(curl -sS --max-time 20 -H "Authorization: Bearer ${GH_TOKEN}" "${api}?status=$1&per_page=50" || true)"
-            printf '%s' "${body}" | jq -r '[.workflow_runs[]? | select((.created_at | fromdateiso8601) > (now - 5400))] | length' 2>/dev/null || echo 0
-          }
-          running="$(count in_progress)"
-          waiting="$(count queued)"
-          if [ "${running:-0}" != "0" ] || [ "${waiting:-0}" != "0" ]; then
-            echo "SLOT_BUSY_NOTICE running=${running} queued=${waiting}"
-            node pipeline/review-actions.mjs --queue-notice --send || echo "QUEUE_NOTICE_FAILED"
-          fi
-          busy=true
-          attempt=0
-          while [ "${attempt}" -lt 10 ]; do
-            if [ "${running:-0}" = "0" ] && [ "${waiting:-0}" = "0" ]; then
-              busy=false
-              break
-            fi
-            attempt=$((attempt + 1))
-            echo "SLOT_BUSY_WAIT attempt=${attempt} running=${running} queued=${waiting}"
-            sleep 30
-            running="$(count in_progress)"
-            waiting="$(count queued)"
-          done
-          if [ "${busy}" = "true" ]; then
-            echo "busy=true" >> "$GITHUB_OUTPUT"
-            echo "SLOT_BUSY running=${running} queued=${waiting}"
-          else
-            echo "busy=false" >> "$GITHUB_OUTPUT"
-            echo "SLOT_IDLE"
-          fi
-
-      - name: Run review actions
-        if: steps.gate.outputs.busy != 'true'
         run: |
           set -euo pipefail
           args=()
@@ -144,7 +104,7 @@ jobs:
           node pipeline/review-actions.mjs "${args[@]}" 2>&1 | node pipeline/mask-log.mjs
 
       - name: Commit state
-        if: always() && steps.gate.outputs.busy != 'true'
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -160,21 +120,18 @@ jobs:
             echo "STATE_UNCHANGED"
             exit 0
           fi
-          if [ -n "${RUN_STARTED:-}" ]; then
-            api="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/workflows/slot-runner.yml/runs?per_page=100"
-            body="$(curl -sS --max-time 20 -H "Authorization: Bearer ${GH_TOKEN}" "${api}" || true)"
-            overlap="$(printf '%s' "${body}" | jq -r --arg t "${RUN_STARTED}" '[.workflow_runs[]? | select(.created_at >= $t)] | length' 2>/dev/null || echo 0)"
-            if [ "${overlap:-0}" != "0" ]; then
-              echo "STATE_SKIPPED_SLOT_OVERLAP count=${overlap}"
+          for attempt in 1 2 3; do
+            git fetch --quiet origin "${GITHUB_REF_NAME}" || true
+            node pipeline/merge-state.mjs --origin "origin/${GITHUB_REF_NAME}" \
+              data/review-feedback.json data/state.json data/state.review.json || echo "MERGE_STATE_FAILED"
+            git reset --mixed "origin/${GITHUB_REF_NAME}"
+            git add "${files[@]}"
+            if git diff --cached --quiet; then
+              echo "STATE_UNCHANGED_AFTER_MERGE"
               exit 0
             fi
-          fi
-          git add "${files[@]}"
-          git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): review-actions ${GITHUB_RUN_ID}"
-          for attempt in 1 2 3; do
-            git rebase --abort >/dev/null 2>&1 || true
-            git cherry-pick --abort >/dev/null 2>&1 || true
-            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+            git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): review-actions ${GITHUB_RUN_ID}"
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
               echo "STATE_PUSHED attempt=${attempt}"
               exit 0
             fi

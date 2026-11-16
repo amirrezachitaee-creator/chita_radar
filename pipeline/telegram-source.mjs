@@ -1140,6 +1140,17 @@ function clipVerbatim(value, maxChars = 0) {
   return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
 }
 
+export function educationLeadLanguage(lead = {}) {
+  const text = [lead.title, lead.messageText ?? lead.summary ?? '']
+    .filter(Boolean)
+    .join(' ')
+    .slice(0, 4000);
+  return {
+    persian: (text.match(/[\u0600-\u06FF]/g) ?? []).length,
+    latin: (text.match(/[A-Za-z]/g) ?? []).length,
+  };
+}
+
 export function buildEducationForward(lead = {}, { maxTextChars = 0 } = {}) {
   const title = String(lead.title ?? '').replace(/\s+/g, ' ').trim();
   const raw = clipVerbatim(

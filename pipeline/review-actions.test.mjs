@@ -98,7 +98,7 @@ function update(action, id, { extra = '', messageId = 42, updateId = 7 } = {}) {
   };
 }
 
-async function run(updates, entries, now = NOW, { queueNotice = false } = {}) {
+async function run(updates, entries, now = NOW, { queueNotice = false, env = {} } = {}) {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-actions-'));
   const feedback = join(dir, 'feedback.json');
   const content = `${JSON.stringify(storeOf(entries), null, 2)}\n`;
@@ -119,7 +119,11 @@ async function run(updates, entries, now = NOW, { queueNotice = false } = {}) {
     now,
   ];
   if (queueNotice) args.push('--queue-notice');
-  const output = execFileSync(process.execPath, args, { cwd: ROOT, encoding: 'utf8' });
+  const output = execFileSync(process.execPath, args, {
+    cwd: ROOT,
+    encoding: 'utf8',
+    env: { ...process.env, ...env },
+  });
   assert.equal(await readFile(feedback, 'utf8'), content, 'dry run must not write the store');
   return output;
 }
@@ -129,6 +133,15 @@ test('a reject callback is logged with its reason and deletes the card', async (
   assert.match(output, /REVIEW_REJECTED id=deadbeef01 reason=quality deleted=no/);
   assert.match(output, /DRY_ANSWER رد شد؛ پیام پاک می‌شود/);
   assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
+});
+
+test('a reject is applied even while an automatic slot is busy', async () => {
+  const output = await run([update('x', 'deadbeef01', { extra: 'quality' })], [item()], NOW, {
+    env: { SLOT_BUSY: '1' },
+  });
+  assert.match(output, /REVIEW_REJECTED id=deadbeef01 reason=quality/);
+  assert.match(output, /DRY_ANSWER رد شد؛ پیام پاک می‌شود/);
+  assert.doesNotMatch(output, /REVIEW_PUBLISH_QUEUED|SLOT_BUSY/);
 });
 
 test('the reject button asks for a reason and then deletes the card', async () => {
@@ -189,8 +202,24 @@ test('a manual publish bypasses quiet hours in the dry preview', async () => {
 
 test('a callback from another message id is ignored', async () => {
   const output = await run([update('x', 'deadbeef01', { extra: 'quality', messageId: 77 })], [item()]);
-  assert.match(output, /DRY_NOTIFY این دکمه دیگر معتبر نیست/);
+  assert.match(output, /DRY_ANSWER این دکمه دیگر معتبر نیست/);
   assert.doesNotMatch(output, /REVIEW_REJECTED/);
+});
+
+test('a press for a card not yet saved is answered and left for the next tick', async () => {
+  const output = await run([update('x', 'deadbeef01', { extra: 'quality' })], []);
+  assert.match(output, /DRY_ANSWER این کارت هنوز در سیستم ثبت نشده/);
+  assert.doesNotMatch(output, /REVIEW_REJECTED|DRY_NOTIFY این مورد پیدا نشد/);
+});
+
+test('a publish during a busy slot is queued and not sent', async () => {
+  const output = await run([update('p', 'deadbeef01')], [item()], NOW, {
+    env: { SLOT_BUSY: '1' },
+  });
+  assert.match(output, /REVIEW_PUBLISH_QUEUED id=deadbeef01 slot_busy=1/);
+  assert.match(output, /DRY_ANSWER درخواست ثبت شد/);
+  assert.match(output, /DRY_NOTIFY ⏳ انتشار این کارت/);
+  assert.doesNotMatch(output, /DRY_PUBLISH/);
 });
 
 test('an unknown callback payload is answered but not dispatched', async () => {

@@ -28,8 +28,25 @@ import { isBenchmarkCandidate } from './benchmark-lane.mjs';
 import { clearReminderDay } from './policy-watch.mjs';
 import { categoryCountForDate, lastPublishedOnDate, planSlotQueue, slotTarget } from './diversity.mjs';
 import { dailyBudget, sendWindow } from './guards.mjs';
-import { buildEducationForward, findStoryDuplicate } from './telegram-source.mjs';
+import { buildEducationForward, educationLeadLanguage, findStoryDuplicate } from './telegram-source.mjs';
 import { watchOnce, selectTargets } from './offer-watch.mjs';
+import {
+  applySourceHealth,
+  computeSourceHealth,
+  emptyHealth,
+  healthCounts,
+  loadHealth,
+  saveHealth,
+} from './source-health.mjs';
+import {
+  addDiscoveredSource,
+  discoverFeeds,
+  emptyDynamicSources,
+  extractCandidateDomains,
+  loadDynamicSources,
+  saveDynamicSources,
+  shouldDiscover as shouldDiscoverSources,
+} from './source-discovery.mjs';
 import { assessOffer, detectOffer, offerUsage, openEndedKey, openEndedUsage, recordOpenEnded, markOpenEndedEnded, offerReviewUsage, recordOfferReview, resolveVendorLink, reviewCapacity, reviewText, reviewHtml, refreshQueuedReviewText, enqueueReviewPending, listReviewPending, removeReviewPending } from './offers.mjs';
 import {
   loadState,
@@ -140,6 +157,18 @@ const STRICT_FRESH_HOURS = Math.min(
   )
 );
 const registry = JSON.parse(await readFile(resolve(ROOT, SOURCES_FILE), 'utf8'));
+const SOURCE_HEALTH_SETTINGS = config.source_health ?? {};
+const SOURCE_HEALTH_ENABLED = SOURCE_HEALTH_SETTINGS.enabled !== false;
+const SOURCE_HEALTH_PATH = resolve(
+  ROOT,
+  SOURCE_HEALTH_SETTINGS.state_path || 'data/source-health.json'
+);
+const DYNAMIC_SOURCES_PATH = resolve(
+  ROOT,
+  SOURCE_HEALTH_SETTINGS.dynamic_path || 'data/sources.dynamic.json'
+);
+const DISCOVERY_SETTINGS = SOURCE_HEALTH_SETTINGS.discovery ?? {};
+const DISCOVERY_ENABLED = SOURCE_HEALTH_ENABLED && DISCOVERY_SETTINGS.enabled !== false;
 const policySettings = config.policy_watch || {};
 const POLICY_ENABLED = policySettings.enabled !== false;
 const defaultPolicyState = SEND
@@ -341,6 +370,116 @@ async function recheckOpenOffers({ state, now, config }) {
     }
   }
   await saveState(STATE_PATH, state);
+}
+
+async function discoverNewSources({ state, reviewStore, registrySources, now }) {
+  let document = emptyDynamicSources();
+  try {
+    document = await loadDynamicSources(DYNAMIC_SOURCES_PATH);
+  } catch (error) {
+    console.log(`SOURCE_DISCOVERY load_failed ${redact(String(error?.message ?? error))}`);
+  }
+  if (!DISCOVERY_ENABLED) {
+    console.log(`SOURCE_DISCOVERY disabled dynamic=${document.sources.length}`);
+    return document;
+  }
+  if (!shouldDiscoverSources({ document, now })) {
+    console.log(
+      `SOURCE_DISCOVERY already_ran date=${document.lastDiscoveryDate} dynamic=${document.sources.length}`
+    );
+    return document;
+  }
+
+  const extraUrls = Object.values(reviewStore?.items ?? {})
+    .map((item) => item?.url)
+    .filter(Boolean);
+  const candidates = extractCandidateDomains({
+    states: [state],
+    registrySources,
+    denyDomains: config.telegram_discovery?.deny_domains ?? [],
+    extraUrls,
+    now,
+    windowDays: DISCOVERY_SETTINGS.window_days,
+    minItems: DISCOVERY_SETTINGS.min_items,
+    maxCandidates: DISCOVERY_SETTINGS.max_candidates,
+  });
+  console.log(
+    `SOURCE_DISCOVERY candidates=${candidates.length}${candidates.length ? ` | ${candidates.map((entry) => entry.host).join(',')}` : ''}`
+  );
+
+  let added = 0;
+  if (candidates.length) {
+    const result = await discoverFeeds({
+      candidates,
+      now,
+      settings: DISCOVERY_SETTINGS,
+      denyDomains: config.telegram_discovery?.deny_domains ?? [],
+      redact,
+    });
+    console.log(
+      `SOURCE_DISCOVERY found=${result.found.length} attempts=${result.attempts} errors=${result.errors.length}`
+    );
+    for (const error of result.errors.slice(0, 3)) {
+      console.log(`  SOURCE_DISCOVERY_ERROR ${error.host} ${redact(error.error)}`);
+    }
+    for (const discovery of result.found) {
+      if (added >= Math.max(1, Number(DISCOVERY_SETTINGS.max_new_per_day ?? 1) || 1)) break;
+      const candidate = candidates.find((entry) => entry.host === discovery.host);
+      const outcome = addDiscoveredSource(document, discovery, {
+        now,
+        settings: DISCOVERY_SETTINGS,
+        discoveredFrom: candidate?.urls ?? [],
+      });
+      document = outcome.document;
+      if (outcome.added) {
+        added += 1;
+        console.log(
+          `SOURCE_DISCOVERY added ${outcome.source.id} feed=${outcome.source.feed_url} trial=${outcome.source.trialUntil}`
+        );
+      } else {
+        console.log(`SOURCE_DISCOVERY skipped ${discovery.host} reason=${outcome.reason}`);
+      }
+    }
+  }
+
+  document.lastDiscoveryDate = dateKey(now);
+  document.lastCheckedAt = new Date(now).toISOString();
+  try {
+    await saveDynamicSources(DYNAMIC_SOURCES_PATH, document);
+  } catch (error) {
+    console.log(`SOURCE_DISCOVERY save_failed ${redact(String(error?.message ?? error))}`);
+  }
+  return document;
+}
+
+async function prepareSourceHealth({ state, dynamicSources, feedback, registrySources, now }) {
+  let previous = emptyHealth();
+  try {
+    previous = await loadHealth(SOURCE_HEALTH_PATH);
+  } catch (error) {
+    console.log(`SOURCE_HEALTH load_failed ${redact(String(error?.message ?? error))}`);
+  }
+  const health = computeSourceHealth({
+    registrySources,
+    dynamicSources,
+    feedback,
+    states: [state],
+    previous,
+    now,
+    settings: SOURCE_HEALTH_SETTINGS,
+  });
+  const applied = applySourceHealth(
+    [...registrySources, ...dynamicSources],
+    health,
+    now,
+    SOURCE_HEALTH_SETTINGS
+  );
+  try {
+    await saveHealth(SOURCE_HEALTH_PATH, health);
+  } catch (error) {
+    console.log(`SOURCE_HEALTH save_failed ${redact(String(error?.message ?? error))}`);
+  }
+  return { health, ...applied };
 }
 
 async function main() {
@@ -821,7 +960,58 @@ async function main() {
     return;
   }
 
-  let sources = registry.sources.filter((source) => {
+  let registrySources = registry.sources;
+  let dynamicSources = [];
+  let sourceLimits = {};
+  let probationSources = new Set();
+  if (SEND && !REVIEW_SEND && SOURCE_HEALTH_ENABLED) {
+    try {
+      const dynamicDocument = await discoverNewSources({
+        state,
+        reviewStore,
+        registrySources: registry.sources,
+        now: NOW,
+      });
+      dynamicSources = dynamicDocument.sources;
+    } catch (error) {
+      console.log(`SOURCE_DISCOVERY failed ${redact(String(error?.message ?? error))}`);
+    }
+    try {
+      const prepared = await prepareSourceHealth({
+        state,
+        dynamicSources,
+        feedback: reviewStore,
+        registrySources: registry.sources,
+        now: NOW,
+      });
+      sourceLimits = prepared.limits;
+      probationSources = new Set(
+        Object.entries(prepared.health?.sources ?? {})
+          .filter(([, entry]) => entry?.status === 'probation')
+          .map(([id]) => id)
+      );
+      const counts = healthCounts(prepared.health);
+      console.log(
+        `SOURCE_HEALTH active=${counts.active} watch=${counts.watch} probation=${counts.probation} quarantined=${counts.quarantined} protected=${counts.protected} dynamic=${dynamicSources.length}`
+      );
+      for (const skipped of prepared.skipped) {
+        console.log(`  SOURCE_SKIP ${skipped.id} reason=${skipped.reason} until=${skipped.until}`);
+      }
+      for (const [id, limit] of Object.entries(prepared.limits)) {
+        console.log(`  SOURCE_LIMIT ${id} per_run=${limit}`);
+      }
+      const keptIds = new Set(prepared.sources.map((source) => source.id));
+      registrySources = registry.sources.filter((source) => keptIds.has(source.id));
+      dynamicSources = dynamicSources.filter((source) => keptIds.has(source.id));
+    } catch (error) {
+      console.log(`SOURCE_HEALTH failed ${redact(String(error?.message ?? error))}`);
+      dynamicSources = [];
+      sourceLimits = {};
+      probationSources = new Set();
+    }
+  }
+
+  let sources = [...registrySources, ...dynamicSources].filter((source) => {
     if (source.type === 'telegram_channel') {
       return (
         !NO_TELEGRAM &&
@@ -844,6 +1034,13 @@ async function main() {
       process.exit(1);
     }
   }
+  if (sources.length === 0) {
+    markSlot(state, slot.key, { status: 'empty', reason: 'no_sources' });
+    await saveState(STATE_PATH, state);
+    console.log('RESULT EMPTY reason=no_sources');
+    console.log('NOTHING_WAS_SENT');
+    return;
+  }
 
   const { candidates, stats } = await collectCandidates({
     sources,
@@ -851,6 +1048,7 @@ async function main() {
     memoryStates: memoryLanes.map(({ state: memoryState }) => memoryState),
     now: NOW,
     perSource: PER_SOURCE,
+    sourceLimits,
     maxAgeHours: config.freshness_hours.pre_gate,
     redact,
     telegram: config.telegram_discovery,
@@ -909,6 +1107,17 @@ async function main() {
     candidate.reviewReason = '';
     console.log(`LINK_RESOLVED vendor=${resolved.vendor} url=${resolved.url}`);
   }
+  if (probationSources.size) {
+    let gated = 0;
+    for (const candidate of candidates) {
+      if (!probationSources.has(candidate.sourceId)) continue;
+      candidate.probationSource = true;
+      candidate.needsReview = true;
+      candidate.reviewReason = 'probation_source';
+      gated += 1;
+    }
+    if (gated) console.log(`SOURCE_HEALTH probation_gated=${gated}`);
+  }
   if (tg.channels > 0) {
     console.log(
       `TELEGRAM channels=${tg.channels} posts=${tg.posts} pending=${tg.pending} leads=${tg.leads} nolink=${tg.noLink} nonai=${tg.nonAiEducation} denied=${tg.denied} promo=${tg.promoted} stale=${tg.stale} before=${tg.beforeStart} dup=${tg.duplicate} dup_other=${tg.crossLane} ocr=${tg.ocrAttempts} ocr_text=${tg.ocrTexts} ocr_empty=${tg.ocrEmpty} ocr_err=${tg.ocrErrors} ocr_na=${tg.ocrUnavailable} ocr_leads=${tg.ocrLeads}${tg.truncated ? ` capped=${tg.truncated}` : ''}`
@@ -956,6 +1165,39 @@ async function main() {
           memoryChanged = true;
         }
       }
+    }
+  }
+
+  if (educationLeads.length) {
+    const minPersianChars = Math.max(0, Number(config.education_review?.min_persian_chars ?? 10) || 0);
+    const persianLeads = [];
+    for (const candidate of educationLeads) {
+      const language = educationLeadLanguage(candidate);
+      if (language.persian >= minPersianChars) {
+        persianLeads.push(candidate);
+        continue;
+      }
+      const label = candidate.leadSource || candidate.sourceName || candidate.sourceId || 'unknown';
+      console.log(
+        `  EDU_LANG_SKIP ${label} | persian=${language.persian} latin=${language.latin} | ${candidate.title}`
+      );
+      if (SEND && candidate.keys?.length) {
+        markSeen(state, candidate.keys, {
+          decision: 'education_lang_skip',
+          reason: 'not_persian',
+          category: '',
+          slot: slot.key,
+          title: candidate.title,
+          url: candidate.canonical,
+        });
+        memoryChanged = true;
+      }
+    }
+    if (persianLeads.length !== educationLeads.length) {
+      console.log(
+        `TELEGRAM_EDU_LANG_SKIPPED ${educationLeads.length - persianLeads.length} skipped=not_persian min_persian=${minPersianChars}`
+      );
+      educationLeads = persianLeads;
     }
   }
 
@@ -1025,6 +1267,9 @@ async function main() {
     }
     if (reason === 'ocr_discovery') {
       return 'این سرنخ از متن داخل تصویر خوانده شده و فقط برای بازبینی است؛ متن تصویر به‌تنهایی منبع انتشار نیست.';
+    }
+    if (reason === 'probation_source') {
+      return 'این منبع تازه کشف شده و در دوره آزمایشی است؛ مورد فقط برای بررسی شما ثبت شده و پس از تأیید به کانال اصلی می‌رود.';
     }
     return 'لینک این سرنخ ارجاعی یا تبلیغی است و پیش از انتشار باید بررسی شود.';
   };

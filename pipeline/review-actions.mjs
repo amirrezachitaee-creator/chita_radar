@@ -21,7 +21,9 @@ import {
   deleteMessage,
   editMessageReplyMarkup,
   editMessageText,
+  getMe,
   getUpdates,
+  getWebhookInfo,
   postHtml,
   postText,
   sendTelegram,
@@ -46,6 +48,7 @@ import {
   toolUsageForItem,
 } from './review-draft.mjs';
 import { publishGuards, publishSlotFor, qaForPublish } from './review-publish.mjs';
+import { mergeState } from './merge-state.mjs';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const args = process.argv.slice(2);
@@ -104,6 +107,48 @@ if (SEND && (!TOKEN || !REVIEW_CHAT_ID || !CHAT_ID)) {
 
 const log = (line) => console.log(redact(line));
 
+const GH_TOKEN = process.env.GH_TOKEN || '';
+const GH_REPO = process.env.GITHUB_REPOSITORY || '';
+const GH_API = (process.env.GITHUB_API_URL || 'https://api.github.com').replace(/\/$/, '');
+let slotCache = { at: 0, busy: false };
+
+async function slotBusy({ fresh = false } = {}) {
+  if (process.env.SLOT_BUSY === '1') return true;
+  if (!SEND) return false;
+  if (!GH_TOKEN || !GH_REPO) return false;
+  if (!fresh && Date.now() - slotCache.at < 20000) return slotCache.busy;
+  let busy = true;
+  try {
+    const recent = Date.now() - 90 * 60000;
+    busy = false;
+    for (const status of ['in_progress', 'queued']) {
+      const response = await fetch(
+        `${GH_API}/repos/${GH_REPO}/actions/workflows/slot-runner.yml/runs?status=${status}&per_page=50`,
+        {
+          headers: {
+            authorization: `Bearer ${GH_TOKEN}`,
+            accept: 'application/vnd.github+json',
+          },
+          signal: AbortSignal.timeout(10000),
+        }
+      );
+      const body = await response.json().catch(() => null);
+      if (!response.ok || !Array.isArray(body?.workflow_runs)) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      if (body.workflow_runs.some((run) => Date.parse(run?.created_at ?? '') > recent)) {
+        busy = true;
+        break;
+      }
+    }
+  } catch (error) {
+    log(`SLOT_CHECK_FAILED ${String(error?.message ?? error)} assume=busy`);
+    busy = true;
+  }
+  slotCache = { at: Date.now(), busy };
+  return busy;
+}
+
 let store = emptyReviewStore();
 try {
   store = await loadReviewStore(FEEDBACK_PATH);
@@ -114,7 +159,7 @@ try {
 
 const state = await loadState(STATE_PATH);
 const reviewState = await loadState(REVIEW_STATE_PATH);
-const delivered = deliveredEntries(
+let delivered = deliveredEntries(
   [
     { lane: 'main', state },
     { lane: 'review', state: reviewState },
@@ -137,6 +182,10 @@ const persistStore = async () => {
 function answer(callbackId, text) {
   if (!SEND) {
     log(`DRY_ANSWER ${text}`);
+    return Promise.resolve();
+  }
+  if (!callbackId) {
+    log(`ANSWER_SKIP ${text}`);
     return Promise.resolve();
   }
   return answerCallbackQuery(callbackId, { token: TOKEN, text }).catch((error) => {
@@ -301,11 +350,13 @@ function itemOutOfDate(item, query) {
   return String(item.chatId) !== chatId || Number(item.messageId) !== messageId;
 }
 
-let originRefreshTried = false;
+let originRefreshAt = 0;
 
-function refreshItemsFromOrigin() {
-  if (originRefreshTried || !SEND) return false;
-  originRefreshTried = true;
+function refreshItemsFromOrigin({ force = false } = {}) {
+  if (!SEND) return false;
+  const now = Date.now();
+  if (!force && now - originRefreshAt < 10000) return false;
+  originRefreshAt = now;
   try {
     const branch = process.env.GITHUB_REF_NAME || 'main';
     execFileSync('git', ['fetch', '--quiet', 'origin', branch], {
@@ -336,10 +387,58 @@ function refreshItemsFromOrigin() {
   }
 }
 
+let statesRefreshAt = 0;
+
+function refreshStatesFromOrigin({ force = false } = {}) {
+  if (!SEND) return false;
+  const now = Date.now();
+  if (!force && now - statesRefreshAt < 10000) return false;
+  statesRefreshAt = now;
+  try {
+    const branch = process.env.GITHUB_REF_NAME || 'main';
+    execFileSync('git', ['fetch', '--quiet', 'origin', branch], {
+      cwd: ROOT,
+      timeout: 20000,
+      stdio: 'ignore',
+    });
+    for (const [file, target] of [
+      ['data/state.json', state],
+      ['data/state.review.json', reviewState],
+    ]) {
+      const raw = execFileSync('git', ['show', `origin/${branch}:${file}`], {
+        cwd: ROOT,
+        timeout: 20000,
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'ignore'],
+      });
+      const merged = mergeState(target, JSON.parse(raw));
+      for (const key of Object.keys(target)) delete target[key];
+      Object.assign(target, merged);
+    }
+    delivered = deliveredEntries(
+      [
+        { lane: 'main', state },
+        { lane: 'review', state: reviewState },
+      ],
+      NOW
+    );
+    log(`STATE_REFRESH delivered=${delivered.length}`);
+    return true;
+  } catch (error) {
+    log(`STATE_REFRESH_FAILED ${String(error?.message ?? error)}`);
+    return false;
+  }
+}
+
 function activeItem(review, query) {
   let item = store.items[review.id];
-  if (!item && refreshItemsFromOrigin()) item = store.items[review.id];
-  if (!item) return { error: 'این مورد پیدا نشد؛ شاید پاک شده باشد.' };
+  if (!item && refreshItemsFromOrigin({ force: true })) item = store.items[review.id];
+  if (!item) {
+    return {
+      error: 'این کارت هنوز در سیستم ثبت نشده؛ چند لحظه بعد خودکار اعمال می‌شود. دوباره نزن.',
+      retry: true,
+    };
+  }
   if (itemOutOfDate(item, query)) return { error: 'این دکمه دیگر معتبر نیست.' };
   if (item.status === 'sent') return { error: 'این مورد قبلاً به کانال اصلی رفته است.' };
   if (item.status === 'rejected') return { error: 'این مورد قبلاً رد شده است.' };
@@ -353,14 +452,19 @@ function activeItem(review, query) {
   return { item };
 }
 
+async function answerItemError(query, error, retry) {
+  await answer(query.id, error);
+  return { retry: retry === true };
+}
+
 function cleanReviewMessage(item) {
   if (!item?.post) return { text: '', html: '' };
   return { text: postText(item.post), html: postHtml(item.post) };
 }
 
 async function handleBack(review, query) {
-  const { item, error } = activeItem(review, query);
-  if (error) return notify(error);
+  const { item, error, retry } = activeItem(review, query);
+  if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'دکمه‌ها برگشتند.');
   await setKeyboard(item.messageId, keyboardFor(item, { rewriteCap: REWRITE_CAP }));
 }
@@ -386,8 +490,8 @@ async function handleDeleteMessage(query) {
 }
 
 async function handleRejectMenu(review, query) {
-  const { item, error } = activeItem(review, query);
-  if (error) return notify(error);
+  const { item, error, retry } = activeItem(review, query);
+  if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'دلیل رد را انتخاب کن.');
   await setKeyboard(item.messageId, rejectKeyboard(item.id));
   log(`REVIEW_REJECT_MENU id=${item.id} | ${item.title}`);
@@ -395,8 +499,8 @@ async function handleRejectMenu(review, query) {
 }
 
 async function handleReject(review, query) {
-  const { item, error } = activeItem(review, query);
-  if (error) return notify(error);
+  const { item, error, retry } = activeItem(review, query);
+  if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'رد شد؛ پیام پاک می‌شود.');
   const at = new Date().toISOString();
   recordReviewAction(store, {
@@ -409,6 +513,7 @@ async function handleReject(review, query) {
   });
   item.status = 'rejected';
   item.updatedAt = at;
+  delete item.queuedPublish;
   markDecision(itemKeysOf(item), {
     decision: 'review_reject',
     reason: review.extra,
@@ -426,8 +531,8 @@ async function handleReject(review, query) {
 }
 
 async function handleRewrite(review, query) {
-  const { item, error } = activeItem(review, query);
-  if (error) return notify(error);
+  const { item, error, retry } = activeItem(review, query);
+  if (error) return answerItemError(query, error, retry);
   if (Number(item.rewrites) >= REWRITE_CAP) {
     return notify(`سقف بازنویسی این مورد پر است (${item.rewrites}/${REWRITE_CAP}).`);
   }
@@ -444,10 +549,12 @@ async function handleRewrite(review, query) {
     updatedAt: item.updatedAt,
     manual: item.manual,
     reason: item.reason,
+    queuedPublish: item.queuedPublish,
   };
   const oldMessageId = item.messageId;
   item.manual = true;
   item.status = 'rewriting';
+  delete item.queuedPublish;
   await persistStore();
   await answer(query.id, 'بازنویسی شروع شد؛ نتیجه در پیام تازه می‌آید.');
   log(`REVIEW_REWRITE_START id=${item.id} attempt=${Number(item.rewrites) + 1}/${REWRITE_CAP} manual=1`);
@@ -620,9 +727,28 @@ async function sourceImageFor(item) {
   }
 }
 
+async function queuePublish(item, actor = '') {
+  const at = new Date().toISOString();
+  item.queuedPublish = { at, actor };
+  item.updatedAt = at;
+  await persistStore();
+  await notify(`⏳ انتشار این کارت بعد از پایان اسلات خودکار انجام می‌شود؛ دوباره نزن.\n${item.title}`);
+  log(`REVIEW_PUBLISH_QUEUED id=${item.id} slot_busy=1 | ${item.title}`);
+}
+
 async function handlePublish(review, query) {
-  const { item, error } = activeItem(review, query);
-  if (error) return notify(error);
+  const { item, error, retry } = activeItem(review, query);
+  if (error) return answerItemError(query, error, retry);
+  // Answer before the GitHub lookup so the Telegram spinner never waits on it.
+  await answer(query.id, 'درخواست ثبت شد؛ نتیجه در پیام بعدی.');
+  if (item.queuedPublish) {
+    await notify('این کارت از قبل در صف انتشار است؛ بعد از پایان اسلات خودکار ارسال می‌شود.');
+    return null;
+  }
+  if (await slotBusy()) {
+    await queuePublish(item, query.from?.username || String(query.from?.id ?? ''));
+    return null;
+  }
   if (!item.post) return notify('این مورد نسخهٔ آمادهٔ انتشار ندارد؛ اول بازنویسی کن.');
   const usage = toolUsageForItem(item);
   const manual = item.manual === true;
@@ -646,8 +772,11 @@ async function handlePublish(review, query) {
   });
   const qa = qaForPublish(item, NOW, config, { imageUrl });
   const verdict = publishGuards({ config, state, item, qa, now: NOW, delivered, manual });
-  await answer(query.id, verdict.ok ? 'در حال ارسال به کانال اصلی.' : 'ارسال نشد؛ دلیل در پیام بعدی.');
   if (!verdict.ok) {
+    if (item.queuedPublish) {
+      delete item.queuedPublish;
+      await persistStore();
+    }
     log(`REVIEW_PUBLISH_BLOCKED id=${item.id} reason=${verdict.reason} | ${item.title}`);
     await notify(`ارسال نشد: ${verdict.detail}\n${item.title}`);
     return null;
@@ -671,6 +800,10 @@ async function handlePublish(review, query) {
       log(`REVIEW_PUBLISH_IMAGE_SKIPPED ${String(imageError?.message ?? imageError)}`);
       imagePath = '';
     }
+  }
+  if (await slotBusy({ fresh: true })) {
+    await queuePublish(item, query.from?.username || String(query.from?.id ?? ''));
+    return null;
   }
   let sent;
   try {
@@ -697,6 +830,7 @@ async function handlePublish(review, query) {
   item.status = 'sent';
   item.sentAt = sentAt;
   item.updatedAt = sentAt;
+  delete item.queuedPublish;
   log(
     `REVIEW_PUBLISH_SENT id=${item.id} slot=${slot} manual=${manual ? '1' : '0'} message=${
       sent.messageId ?? ''
@@ -759,6 +893,36 @@ async function handlePublish(review, query) {
   return null;
 }
 
+async function processQueuedPublishes() {
+  if (!SEND) return;
+  const queued = Object.values(store.items).filter(
+    (item) => item?.queuedPublish && item.status === 'pending'
+  );
+  if (!queued.length) return;
+  refreshStatesFromOrigin();
+  if (await slotBusy()) {
+    log(`PUBLISH_QUEUE_WAITING count=${queued.length}`);
+    return;
+  }
+  log(`PUBLISH_QUEUE_PROCESS count=${queued.length}`);
+  for (const item of queued) {
+    const queuedAt = item.queuedPublish?.at || '';
+    delete item.queuedPublish;
+    item.updatedAt = new Date().toISOString();
+    await persistStore();
+    log(`PUBLISH_QUEUE_ITEM id=${item.id} queued_at=${queuedAt} | ${item.title}`);
+    await handlePublish(
+      { id: item.id, extra: '' },
+      {
+        id: null,
+        from: { username: 'queued' },
+        message: { message_id: item.messageId, chat: { id: REVIEW_CHAT_ID } },
+      }
+    );
+    await new Promise((done) => setTimeout(done, 1200));
+  }
+}
+
 async function dispatch(update) {
   const query = update?.callback_query;
   if (!query?.data) return { handled: false };
@@ -784,16 +948,20 @@ async function dispatch(update) {
     await handleDeleteMessage(query);
     return { handled: true };
   }
-  if (review.action === 'p') await handlePublish(review, query);
-  else if (review.action === 'w') await handleRewrite(review, query);
-  else if (review.action === 'x') await handleReject(review, query);
-  else if (review.action === 'r') await handleRejectMenu(review, query);
-  else await handleBack(review, query);
-  return { handled: true };
+  let outcome = null;
+  if (review.action === 'p') outcome = await handlePublish(review, query);
+  else if (review.action === 'w') outcome = await handleRewrite(review, query);
+  else if (review.action === 'x') outcome = await handleReject(review, query);
+  else if (review.action === 'r') outcome = await handleRejectMenu(review, query);
+  else outcome = await handleBack(review, query);
+  return { handled: true, confirm: outcome?.retry === true ? false : true };
 }
 
 async function runUpdates(updates) {
-  const callbacks = updates.filter((update) => update?.callback_query).slice(0, MAX_ACTIONS);
+  const callbacks = updates
+    .filter((update) => update?.callback_query)
+    .slice(0, MAX_ACTIONS)
+    .sort((a, b) => Number(a.update_id) - Number(b.update_id));
   log(
     `REVIEW_ACTIONS updates=${updates.length} callbacks=${callbacks.length} offset=${
       Number(store.offset) || 0
@@ -801,30 +969,48 @@ async function runUpdates(updates) {
   );
   let handled = 0;
   let failed = 0;
+  let stalled = false;
   for (const update of callbacks) {
+    let confirm = true;
     try {
       const result = await dispatch(update);
       if (result.handled) handled += 1;
+      confirm = result.confirm !== false;
     } catch (error) {
       failed += 1;
       const detail = String(error?.message ?? error).replace(/\s+/g, ' ').slice(0, 160);
       log(`REVIEW_ACTION_FAILED ${detail}`);
       if (SEND) await notify(`یک دکمه خطا خورد: ${detail}\nاگر انتشار بود، کانال اصلی را چک کن.`);
     }
-    if (SEND) {
-      store.offset = Math.max(Number(store.offset) || 0, Number(update.update_id) + 1 || 0);
-      await persistStore();
-    }
-  }
+    if (!SEND) continue;
 
-  if (!UPDATES_FILE) {
-    const maxId = updates.reduce((max, update) => Math.max(max, Number(update.update_id) || 0), 0);
-    if (SEND && maxId) {
-      store.offset = Math.max(Number(store.offset) || 0, maxId + 1);
-      await persistStore();
+    const updateId = Number(update.update_id) || 0;
+    if (!confirm) {
+      const retries =
+        store.callbackRetries && typeof store.callbackRetries === 'object'
+          ? store.callbackRetries
+          : {};
+      const key = String(updateId);
+      const count = Math.max(0, Number(retries[key]?.count) || 0) + 1;
+      if (count < 3) {
+        retries[key] = { count, at: new Date().toISOString() };
+        store.callbackRetries = retries;
+        await persistStore();
+        log(`REVIEW_ACTION_RETRY update=${updateId} count=${count}/3`);
+        stalled = true;
+        break;
+      }
+      delete retries[key];
+      store.callbackRetries = retries;
+      log(`REVIEW_ACTION_RETRY_EXHAUSTED update=${updateId}`);
+      await notify('یک کارت هنوز در سیستم ثبت نشده و دکمه‌اش اعمال نشد؛ از کارت تازه دوباره بزن.');
+    } else if (store.callbackRetries?.[String(updateId)]) {
+      delete store.callbackRetries[String(updateId)];
     }
+    store.offset = Math.max(Number(store.offset) || 0, updateId + 1);
+    await persistStore();
   }
-  return { handled, failed };
+  return { handled, failed, stalled };
 }
 
 async function main() {
@@ -835,6 +1021,29 @@ async function main() {
   if (!UPDATES_FILE && !SEND) {
     log('DRY_NO_UPDATES pass --updates <file> to preview actions');
     return;
+  }
+
+  await processQueuedPublishes();
+
+  let pendingAtStart = 0;
+  if (SEND) {
+    try {
+      const me = await getMe({ token: TOKEN });
+      log(`BOT @${me.username} id=${me.id}`);
+    } catch (error) {
+      log(`BOT_IDENTITY_FAILED ${String(error?.message ?? error)}`);
+    }
+    try {
+      const info = await getWebhookInfo({ token: TOKEN });
+      pendingAtStart = Number(info.pending_update_count) || 0;
+      log(
+        `TELEGRAM_WEBHOOK url=${info.url ? 'set' : 'none'} pending=${pendingAtStart}${
+          info.last_error_message ? ` error=${String(info.last_error_message).slice(0, 120)}` : ''
+        }`
+      );
+    } catch (error) {
+      log(`WEBHOOK_INFO_FAILED ${String(error?.message ?? error)}`);
+    }
   }
 
   let handled = 0;
@@ -872,13 +1081,26 @@ async function main() {
         break;
       }
       cycles += 1;
+      if (cycles === 1 && pendingAtStart > 0 && updates.length === 0) {
+        log(`UPDATES_PENDING_BUT_EMPTY pending=${pendingAtStart} offset=${Number(store.offset) || 0}`);
+      }
       const result = await runUpdates(updates);
       handled += result.handled;
       failed += result.failed;
+      if (result.stalled) {
+        log(`REVIEW_ACTIONS_STALLED update_kept_pending handled=${handled}`);
+        break;
+      }
       if (!POLL_SECONDS || Date.now() + 5000 >= deadline) break;
     }
   }
 
+  await processQueuedPublishes();
+
+  for (const [key, entry] of Object.entries(store.callbackRetries ?? {})) {
+    const at = Date.parse(entry?.at ?? '');
+    if (!Number.isFinite(at) || Date.now() - at > 3600000) delete store.callbackRetries[key];
+  }
   const pruned = pruneReviewStore(store, NOW, {
     days: Number(ACTION_SETTINGS.pending_ttl_days ?? 14) || 14,
     actionDays: Number(ACTION_SETTINGS.action_retention_days ?? 90) || 90,
