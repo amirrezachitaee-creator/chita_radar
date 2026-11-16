@@ -32,10 +32,10 @@ export function filterOwnReviewEntries(delivered, item) {
   );
 }
 
-export function qaForPublish(item, now, config = {}) {
+export function qaForPublish(item, now, config = {}, options = {}) {
   if (!item?.post) return null;
   const usage = toolUsageForItem(item);
-  return qaPost(item.post, qaContextForItem(item, item.post, now, config, usage?.url ?? ''));
+  return qaPost(item.post, qaContextForItem(item, item.post, now, config, usage?.url ?? '', options));
 }
 
 export function publishGuards({

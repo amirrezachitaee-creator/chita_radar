@@ -116,7 +116,7 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '', op
     host,
     sourceType: String(item?.sourceType ?? ''),
     category: String(post?.category ?? ''),
-    imageUrl: resolvedImageUrl(item),
+    imageUrl: options.imageUrl !== undefined ? options.imageUrl : resolvedImageUrl(item),
     title: String(item?.title ?? ''),
     description: '',
     content: String(item?.messageText ?? ''),

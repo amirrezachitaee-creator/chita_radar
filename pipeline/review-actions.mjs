@@ -595,7 +595,7 @@ async function handlePublish(review, query) {
       ? String(config.offers?.manual_no_expiry_note ?? offer.note ?? '')
       : '',
   });
-  const qa = qaForPublish(item, NOW, config);
+  const qa = qaForPublish(item, NOW, config, { imageUrl });
   const verdict = publishGuards({ config, state, item, qa, now: NOW, delivered, manual });
   await answer(query.id, verdict.ok ? 'در حال ارسال به کانال اصلی.' : 'ارسال نشد؛ دلیل در پیام بعدی.');
   if (!verdict.ok) {

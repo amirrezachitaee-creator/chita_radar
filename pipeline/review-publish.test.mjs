@@ -97,6 +97,21 @@ test('a post without a draft skips the publish QA', () => {
   assert.ok(Array.isArray(qa.problems));
 });
 
+test('the publisher can qualify a source page image through the qa context', () => {
+  const imageUrl = 'https://opengraph.githubassets.com/abc123/example/repo';
+  const item = baseItem({
+    post: {
+      ...baseItem().post,
+      source_url: 'https://example.com/news',
+      image_url: imageUrl,
+    },
+  });
+  const blocked = qaForPublish(item, NOW, CONFIG);
+  assert.ok(blocked.problems.includes('image_exact'));
+  const allowed = qaForPublish(item, NOW, CONFIG, { imageUrl });
+  assert.ok(!allowed.problems.includes('image_exact'));
+});
+
 test('a closed item or a missing draft is rejected first', () => {
   assert.equal(guard({ item: baseItem({ status: 'sent' }) }).reason, 'closed');
   assert.equal(guard({ item: baseItem({ status: 'rejected' }) }).reason, 'closed');
