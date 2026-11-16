@@ -110,7 +110,7 @@ test('after the second rewrite only reject and publish remain', () => {
   entry.rewrites = 2;
   entry.post = { title: 'نسخه سوم', body: 'متن', source_url: 'https://example.com/a' };
   const rows = keyboardFor(entry).inline_keyboard;
-  assert.deepEqual(rows[0].map((button) => button.text), ['رد', 'یادداشت']);
+  assert.deepEqual(rows[0].map((button) => button.text), ['رد']);
   assert.deepEqual(rows[1].map((button) => button.text), ['ارسال به کانال اصلی']);
   assert.equal(keyboardFor(entry, { rewriteCap: 3 }).inline_keyboard[0][1].text, 'بازنویسی مجدد');
 });
@@ -254,6 +254,24 @@ test('items keep their note and older card ids through normalization', () => {
   assert.equal(entry.note, 'منبع مکمل: https://example.com/extra');
   assert.equal(entry.noteBy, 'amir');
   assert.deepEqual(entry.previousMessageIds, [41, 42]);
+});
+
+test('note prompt threads survive a reload only for live cards', () => {
+  const normalized = normalizeReviewStore({
+    items: {
+      abcdef12: { status: 'pending', title: 'زنده' },
+      deadbeef01: { status: 'sent', title: 'بسته' },
+    },
+    noteThreads: {
+      900: { itemId: 'abcdef12', at: '2026-11-16T17:00:00Z' },
+      901: { itemId: 'deadbeef01', at: '2026-11-16T17:00:00Z' },
+      902: { itemId: 'abcdef99', at: '2026-11-16T17:00:00Z' },
+      bad: { itemId: 'abcdef12' },
+    },
+  });
+  assert.deepEqual(normalized.noteThreads, {
+    900: { itemId: 'abcdef12', at: '2026-11-16T17:00:00Z' },
+  });
 });
 
 test('pruning drops old items, trims the excess, and keeps recent feedback', () => {

@@ -33,6 +33,7 @@ export function emptyReviewStore() {
     items: {},
     actions: [],
     sources: {},
+    noteThreads: {},
   };
 }
 
@@ -97,6 +98,20 @@ export function normalizeReviewStore(value) {
       if (!/^\d+$/.test(key) || !entry || typeof entry !== 'object') continue;
       store.callbackRetries[key] = {
         count: Math.max(0, Number(entry.count) || 0),
+        at: String(entry.at ?? ''),
+      };
+    }
+  }
+  if (value.noteThreads && typeof value.noteThreads === 'object') {
+    store.noteThreads = {};
+    for (const [key, entry] of Object.entries(value.noteThreads)) {
+      if (!/^\d+$/.test(key) || !entry || typeof entry !== 'object') continue;
+      const itemId = String(entry.itemId ?? '');
+      if (!/^[a-f0-9]{8,12}$/.test(itemId)) continue;
+      const target = store.items[itemId];
+      if (!target || TERMINAL_STATUSES.has(target.status)) continue;
+      store.noteThreads[key] = {
+        itemId,
         at: String(entry.at ?? ''),
       };
     }
@@ -217,7 +232,7 @@ export function keyboardFor(item, { rewriteCap = 2 } = {}) {
       note,
     ]);
   } else {
-    rows.push([reject, note]);
+    rows.push([reject]);
   }
   const canPublish = Boolean(item.post) && (item.mainEligible === true || rewrites > 0);
   if (canPublish) {
@@ -316,6 +331,14 @@ export function pruneReviewStore(store, now, { days = 14, actionDays = 90, maxIt
         delete store.items[id];
         removed += 1;
       }
+    }
+  }
+  if (!store.noteThreads || typeof store.noteThreads !== 'object') store.noteThreads = {};
+  for (const [key, entry] of Object.entries(store.noteThreads)) {
+    const at = Date.parse(entry?.at ?? '');
+    const target = store.items[entry?.itemId ?? ''];
+    if (!target || TERMINAL_STATUSES.has(target.status) || !Number.isFinite(at) || at < itemCutoff) {
+      delete store.noteThreads[key];
     }
   }
   const actionCutoff = nowMs - Math.max(1, Number(actionDays) || 90) * 86400000;

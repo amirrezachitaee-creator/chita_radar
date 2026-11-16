@@ -39,6 +39,7 @@ import {
   recordReviewAction,
   rejectKeyboard,
   removeKeyboard,
+  reviewCallback,
   rewriteCountForDay,
   saveReviewStore,
 } from './review-items.mjs';
@@ -160,6 +161,7 @@ try {
   log(`REVIEW_STORE_LOAD_FAILED ${String(error?.message ?? error)}`);
   if (SEND) process.exit(1);
 }
+if (!store.noteThreads || typeof store.noteThreads !== 'object') store.noteThreads = {};
 
 const state = await loadState(STATE_PATH);
 const reviewState = await loadState(REVIEW_STATE_PATH);
@@ -513,6 +515,111 @@ function attachNote(item, text, actor = '', at = new Date().toISOString()) {
   return { replaced, length: note.length, links: noteLinksForItem(item).length };
 }
 
+const NOTE_REWRITE_LABEL = 'بازنویسی+نکات مهم ادمین';
+
+function latestNoteThread(itemId) {
+  let best = null;
+  for (const [messageId, entry] of Object.entries(store.noteThreads ?? {})) {
+    if (entry?.itemId !== itemId) continue;
+    if (!best || Date.parse(entry.at || '') > Date.parse(best.at || '')) {
+      best = { messageId: Number(messageId), itemId: entry.itemId, at: entry.at };
+    }
+  }
+  return best;
+}
+
+function notePromptText(item) {
+  const note = String(item?.note ?? '').trim();
+  if (note) {
+    return `یادداشت فعلی: «${noteSnippet(note)}»\nاگر می‌خواهی عوضش کنی، یادداشت تازه را همین‌جا بنویس؛ جایگزین قبلی می‌شود.`;
+  }
+  return 'نکات مدنظرت در مورد این پست را بنویس؛ همین‌جا پاسخ بده.';
+}
+
+async function retireNoteThread(messageId, text) {
+  if (!messageId) return;
+  if (!SEND) {
+    log(`DRY_NOTE_THREAD_RETIRE message=${messageId}`);
+    return;
+  }
+  try {
+    await editMessageText(text, {
+      token: TOKEN,
+      chatId: REVIEW_CHAT_ID,
+      messageId,
+      replyMarkup: removeKeyboard(),
+    });
+  } catch (error) {
+    log(`NOTE_THREAD_RETIRE_FAILED message=${messageId} ${String(error?.message ?? error)}`);
+  }
+}
+
+async function retireItemNoteThreads(itemId, text) {
+  const threads = Object.entries(store.noteThreads ?? {}).filter(([, entry]) => entry?.itemId === itemId);
+  for (const [messageId] of threads) {
+    await retireNoteThread(Number(messageId), text);
+  }
+}
+
+async function showNoteConfirmation({
+  item,
+  note,
+  attached,
+  targetMessageId = 0,
+  replyToMessageId = 0,
+}) {
+  const head = attached?.replaced
+    ? 'یادداشت تازه ثبت شد و جایگزین قبلی شد'
+    : 'یادداشت ثبت شد';
+  const text = `${head}\n«${noteSnippet(note)}»\n\nبا دکمه زیر بازنویسی کن تا یادداشت در پست بیاید.`;
+  const keyboard = {
+    inline_keyboard: [[{ text: NOTE_REWRITE_LABEL, callback_data: reviewCallback('w', item.id) }]],
+  };
+  if (!SEND) {
+    log(
+      `DRY_NOTE_CONFIRM id=${item.id} target=${targetMessageId || 0} reply_to=${
+        replyToMessageId || 0
+      } replaced=${attached?.replaced ? 1 : 0} button=${NOTE_REWRITE_LABEL}`
+    );
+    return 0;
+  }
+  let messageId = 0;
+  if (targetMessageId) {
+    try {
+      await editMessageText(text, {
+        token: TOKEN,
+        chatId: REVIEW_CHAT_ID,
+        messageId: targetMessageId,
+        replyMarkup: keyboard,
+      });
+      messageId = targetMessageId;
+    } catch (error) {
+      log(`NOTE_CONFIRM_EDIT_FAILED message=${targetMessageId} ${String(error?.message ?? error)}`);
+    }
+  }
+  if (!messageId) {
+    try {
+      const sent = await sendText(text, {
+        token: TOKEN,
+        chatId: REVIEW_CHAT_ID,
+        replyTo: replyToMessageId || 0,
+        replyMarkup: keyboard,
+      });
+      messageId = sent.messageId ?? 0;
+    } catch (error) {
+      log(`NOTE_CONFIRM_SEND_FAILED id=${item.id} ${String(error?.message ?? error)}`);
+      return 0;
+    }
+  }
+  if (messageId) {
+    store.noteThreads[String(messageId)] = {
+      itemId: item.id,
+      at: new Date().toISOString(),
+    };
+  }
+  return messageId;
+}
+
 async function drainPendingNotes({ refresh = false } = {}) {
   const pending = store.pendingNotes;
   if (!pending || typeof pending !== 'object' || !Object.keys(pending).length) return false;
@@ -533,6 +640,12 @@ async function drainPendingNotes({ refresh = false } = {}) {
       changed = true;
       continue;
     }
+    if (Number(item.rewrites) >= REWRITE_CAP) {
+      delete pending[messageId];
+      changed = true;
+      log(`REVIEW_NOTE_DROPPED id=${item.id} message=${messageId} reason=rewrite_cap`);
+      continue;
+    }
     const attached = attachNote(item, entry?.text, entry?.actor, entry?.at || new Date().toISOString());
     if (!attached) continue;
     delete pending[messageId];
@@ -540,9 +653,13 @@ async function drainPendingNotes({ refresh = false } = {}) {
     log(
       `REVIEW_NOTE_APPLIED id=${item.id} message=${messageId} chars=${attached.length} | ${item.title}`
     );
-    await notify(
-      `یادداشت ذخیره‌شده روی کارت ثبت شد؛ در بازنویسی بعدی لحاظ می‌شود.\n«${noteSnippet(entry?.text)}»`
-    );
+    const target = latestNoteThread(item.id);
+    await showNoteConfirmation({
+      item,
+      note: entry?.text,
+      attached,
+      targetMessageId: target?.messageId || 0,
+    });
   }
   return changed;
 }
@@ -588,12 +705,69 @@ async function handleBack(review, query) {
 
 async function handleNote(review, query) {
   const item = store.items[review.id];
-  if (item && ['sent', 'rejected', 'expired'].includes(item.status)) {
-    await answer(query.id, 'این کارت بسته شده؛ یادداشت ثبت نمی‌شود.');
+  if (!item) {
+    await answer(query.id, 'این کارت هنوز ثبت نشده؛ چند لحظه بعد دوباره بزن.');
+    log(`REVIEW_NOTE_HINT id=${review.id} unregistered=1`);
     return null;
   }
-  await answer(query.id, 'یادداشت یا منبع را به همین کارت ریپلای کن؛ در بازنویسی بعدی لحاظ می‌شود.');
-  log(`REVIEW_NOTE_HINT id=${review.id}${item ? ` | ${item.title}` : ' unregistered=1'}`);
+  if (['sent', 'rejected', 'expired'].includes(item.status)) {
+    await answer(query.id, 'این کارت بسته شده؛ یادداشت ثبت نمی‌شود.');
+    log(`REVIEW_NOTE_HINT id=${item.id} closed=1`);
+    return null;
+  }
+  if (Number(item.rewrites) >= REWRITE_CAP) {
+    await answer(
+      query.id,
+      `سقف بازنویسی این کارت پر است (${item.rewrites}/${REWRITE_CAP})؛ یادداشت جدید اعمال نمی‌شود.`
+    );
+    log(`REVIEW_NOTE_HINT id=${item.id} cap=1 | ${item.title}`);
+    return null;
+  }
+  const previous = latestNoteThread(item.id);
+  if (previous?.messageId) {
+    await retireNoteThread(previous.messageId, 'پیام راهنمای قبلی کنار رفت؛ از پیام تازه استفاده کن.');
+  }
+  if (!SEND) {
+    log(
+      `DRY_NOTE_PROMPT id=${item.id} message=${item.messageId} force_reply=1 replace=${
+        String(item.note ?? '').trim() ? 1 : 0
+      }`
+    );
+    await answer(query.id, 'پیام راهنما برای نوشتن یادداشت فرستاده می‌شود.');
+    return null;
+  }
+  let sent;
+  try {
+    sent = await sendText(notePromptText(item), {
+      token: TOKEN,
+      chatId: REVIEW_CHAT_ID,
+      replyTo: item.messageId,
+      replyMarkup: {
+        force_reply: true,
+        input_field_placeholder: 'نکات مدنظرت...',
+      },
+    });
+  } catch (error) {
+    log(`NOTE_PROMPT_SEND_FAILED id=${item.id} ${String(error?.message ?? error)}`);
+    await answer(query.id, 'پیام راهنما فرستاده نشد؛ دوباره بزن.');
+    return null;
+  }
+  const messageId = Number(sent.messageId) || 0;
+  if (!messageId) {
+    await answer(query.id, 'پیام راهنما فرستاده نشد؛ دوباره بزن.');
+    return null;
+  }
+  store.noteThreads[String(messageId)] = {
+    itemId: item.id,
+    at: new Date().toISOString(),
+  };
+  await persistStore();
+  await answer(query.id, 'پیام راهنما فرستادم؛ همان‌جا بنویس.');
+  log(
+    `REVIEW_NOTE_PROMPT id=${item.id} message=${messageId} reply_to=${item.messageId} replace=${
+      String(item.note ?? '').trim() ? 1 : 0
+    } | ${item.title}`
+  );
   return null;
 }
 
@@ -718,6 +892,12 @@ async function handleRewrite(review, query) {
     `REVIEW_REWRITE_START id=${item.id} attempt=${Number(item.rewrites) + 1}/${REWRITE_CAP} manual=1 note=${
       String(item.note ?? '').trim() ? '1' : '0'
     }`
+  );
+  await retireItemNoteThreads(
+    item.id,
+    String(item.note ?? '').trim()
+      ? 'بازنویسی با یادداشت شروع شد؛ نتیجه در پیام تازه می‌آید.'
+      : 'بازنویسی شروع شد؛ نتیجه در پیام تازه می‌آید.'
   );
 
   if (!SEND) {
@@ -1130,23 +1310,46 @@ async function dispatchNote(update) {
   }
   const at = new Date().toISOString();
   const actor = message.from?.username || String(message.from?.id ?? '');
-  const item = findItemByMessageId(replyTo);
+  const thread = store.noteThreads?.[String(replyTo)] ?? null;
+  const nestedCardId = Number(message.reply_to_message?.reply_to_message?.message_id ?? 0);
+  const item = thread
+    ? store.items[thread.itemId]
+    : findItemByMessageId(replyTo) || (nestedCardId ? findItemByMessageId(nestedCardId) : null);
+  if (thread && !item) {
+    await notify('این پیام راهنما به کارتی وصل نیست؛ دوباره از دکمه یادداشت استفاده کن.');
+    log(`REVIEW_NOTE_THREAD_MISSING message=${replyTo} item=${thread.itemId}`);
+    return { handled: true };
+  }
   if (item) {
     if (['sent', 'rejected', 'expired'].includes(item.status)) {
       await notify('این کارت بسته شده؛ یادداشت ثبت نشد.');
       log(`REVIEW_NOTE_CLOSED message=${replyTo} status=${item.status}`);
       return { handled: true };
     }
+    if (Number(item.rewrites) >= REWRITE_CAP) {
+      await notify(
+        `سقف بازنویسی این کارت پر است (${item.rewrites}/${REWRITE_CAP})؛ یادداشت جدید اعمال نمی‌شود.`
+      );
+      log(`REVIEW_NOTE_CAP id=${item.id} message=${replyTo}`);
+      return { handled: true };
+    }
     const attached = attachNote(item, text, actor, at);
     if (!attached) return { handled: false };
+    const targetMessageId = thread
+      ? replyTo
+      : latestNoteThread(item.id)?.messageId || 0;
+    await showNoteConfirmation({
+      item,
+      note: text,
+      attached,
+      targetMessageId,
+      replyToMessageId: Number(message.message_id) || 0,
+    });
     await persistStore();
     log(
       `REVIEW_NOTE id=${item.id} chars=${attached.length} links=${attached.links} replaced=${
         attached.replaced ? '1' : '0'
-      } message=${replyTo} | ${item.title}`
-    );
-    await notify(
-      `${attached.replaced ? 'یادداشت تازه ثبت شد و جایگزین قبلی شد' : 'یادداشت ثبت شد'}؛ در بازنویسی بعدی لحاظ می‌شود.\n«${noteSnippet(text)}»`
+      } message=${replyTo} target=${targetMessageId} via=${thread ? 'thread' : 'card'} | ${item.title}`
     );
     return { handled: true };
   }

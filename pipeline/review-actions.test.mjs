@@ -75,7 +75,7 @@ function item(fields = {}) {
   };
 }
 
-function storeOf(entries, pendingRejects = null, pendingNotes = null) {
+function storeOf(entries, pendingRejects = null, pendingNotes = null, noteThreads = null) {
   return {
     version: 1,
     offset: 0,
@@ -84,6 +84,7 @@ function storeOf(entries, pendingRejects = null, pendingNotes = null) {
     sources: {},
     ...(pendingRejects ? { pendingRejects } : {}),
     ...(pendingNotes ? { pendingNotes } : {}),
+    ...(noteThreads ? { noteThreads } : {}),
   };
 }
 
@@ -117,11 +118,11 @@ async function run(
   updates,
   entries,
   now = NOW,
-  { queueNotice = false, env = {}, pendingRejects = null, pendingNotes = null } = {}
+  { queueNotice = false, env = {}, pendingRejects = null, pendingNotes = null, noteThreads = null } = {}
 ) {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-actions-'));
   const feedback = join(dir, 'feedback.json');
-  const content = `${JSON.stringify(storeOf(entries, pendingRejects, pendingNotes), null, 2)}\n`;
+  const content = `${JSON.stringify(storeOf(entries, pendingRejects, pendingNotes, noteThreads), null, 2)}\n`;
   await writeFile(feedback, content, 'utf8');
   const updatesPath = join(dir, 'updates.json');
   await writeFile(updatesPath, JSON.stringify({ ok: true, result: updates }), 'utf8');
@@ -311,16 +312,24 @@ test('several queued presses are counted in one notice', async () => {
   assert.doesNotMatch(output, /DRY_PUBLISH|DRY_REWRITE|REVIEW_REJECTED/);
 });
 
-test('the note button explains the reply step and never blocks the queue', async () => {
+test('the note button previews a forced-reply prompt without blocking the queue', async () => {
   const output = await run([update('n', 'deadbeef01')], [item()]);
-  assert.match(output, /DRY_ANSWER یادداشت یا منبع را به همین کارت ریپلای کن/);
-  assert.match(output, /REVIEW_NOTE_HINT id=deadbeef01 \| اعتبار رایگان/);
+  assert.match(output, /DRY_NOTE_PROMPT id=deadbeef01 message=42 force_reply=1 replace=0/);
+  assert.match(output, /DRY_ANSWER پیام راهنما برای نوشتن یادداشت فرستاده می‌شود/);
   assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
+});
+
+test('the note button refuses a card with no rewrite left', async () => {
+  const output = await run([update('n', 'deadbeef01')], [item({ rewrites: 2 })]);
+  assert.match(output, /DRY_ANSWER سقف بازنویسی این کارت پر است \(2\/2\)/);
+  assert.doesNotMatch(output, /DRY_NOTE_PROMPT/);
+  assert.match(output, /handled=1 failed=0/);
 });
 
 test('the note hint still answers when the card is not registered yet', async () => {
   const output = await run([update('n', 'deadbeef01')], []);
   assert.match(output, /REVIEW_NOTE_HINT id=deadbeef01 unregistered=1/);
+  assert.match(output, /DRY_ANSWER این کارت هنوز ثبت نشده/);
   assert.doesNotMatch(output, /REVIEW_ACTION_RETRY/);
   assert.match(output, /handled=1 failed=0/);
 });
@@ -338,8 +347,7 @@ test('a reply note attaches to the card and keeps its link count', async () => {
   );
   assert.match(output, /REVIEW_ACTIONS updates=1 callbacks=0 notes=1/);
   assert.match(output, /REVIEW_NOTE id=deadbeef01 chars=\d+ links=1 replaced=0 message=42/);
-  assert.match(output, /DRY_NOTIFY یادداشت ثبت شد؛ در بازنویسی بعدی لحاظ می‌شود/);
-  assert.match(output, /منبع مکمل/);
+  assert.match(output, /DRY_NOTE_CONFIRM id=deadbeef01 target=0 reply_to=500 replaced=0/);
   assert.match(output, /handled=1 failed=0/);
 });
 
@@ -349,7 +357,7 @@ test('a newer note replaces the old one on the same card', async () => {
     [item({ note: 'یادداشت قدیمی' })]
   );
   assert.match(output, /replaced=1 message=42/);
-  assert.match(output, /DRY_NOTIFY یادداشت تازه ثبت شد و جایگزین قبلی شد/);
+  assert.match(output, /DRY_NOTE_CONFIRM id=deadbeef01 target=0 reply_to=500 replaced=1/);
 });
 
 test('a note on an older card finds the item through its previous ids', async () => {
@@ -359,6 +367,37 @@ test('a note on an older card finds the item through its previous ids', async ()
   );
   assert.match(output, /REVIEW_NOTE id=deadbeef01/);
   assert.match(output, /message=41/);
+});
+
+test('a note replied to the prompt edits that prompt and adds the rewrite button', async () => {
+  const output = await run(
+    [noteUpdate('نکته تازه', { replyTo: 900, updateId: 107 })],
+    [item()],
+    NOW,
+    { noteThreads: { 900: { itemId: 'deadbeef01', at: NOW } } }
+  );
+  assert.match(output, /REVIEW_NOTE id=deadbeef01 .* target=900 via=thread/);
+  assert.match(output, /DRY_NOTE_CONFIRM id=deadbeef01 target=900 reply_to=500 replaced=0/);
+});
+
+test('a note replied to the card updates the open prompt instead of duplicating it', async () => {
+  const output = await run(
+    [noteUpdate('از کارت', { replyTo: 42, updateId: 107 })],
+    [item()],
+    NOW,
+    { noteThreads: { 900: { itemId: 'deadbeef01', at: NOW } } }
+  );
+  assert.match(output, /REVIEW_NOTE id=deadbeef01 .* message=42 target=900 via=card/);
+  assert.match(output, /DRY_NOTE_CONFIRM id=deadbeef01 target=900 reply_to=500/);
+});
+
+test('a direct note cannot attach after the rewrite cap', async () => {
+  const output = await run(
+    [noteUpdate('دیر رسید', { replyTo: 42, updateId: 108 })],
+    [item({ rewrites: 2 })]
+  );
+  assert.match(output, /DRY_NOTIFY سقف بازنویسی این کارت پر است \(2\/2\)/);
+  assert.doesNotMatch(output, /REVIEW_NOTE id=/);
 });
 
 test('a note for a card not yet saved is queued and then applied on the next run', async () => {
@@ -381,7 +420,7 @@ test('a note for a card not yet saved is queued and then applied on the next run
     },
   });
   assert.match(applied, /REVIEW_NOTE_APPLIED id=deadbeef01 message=42 chars=\d+/);
-  assert.match(applied, /DRY_NOTIFY یادداشت ذخیره‌شده روی کارت ثبت شد/);
+  assert.match(applied, /DRY_NOTE_CONFIRM id=deadbeef01 target=0 reply_to=0 replaced=0/);
 });
 
 test('a queued note for a closed card is dropped silently', async () => {
