@@ -1,0 +1,137 @@
+RUN 43948320768 | send/main | slot auto | 2026-11-16T20:18:34Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-16T23:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 9/31 | models 3/24 | security 2/11 | business 3/11
+DAILY 7/11
+DIVERSITY_TARGET tools | slot 23:00
+DEFERRED_POOL 49
+  DEFERRED source_daily | try 0/3 | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  DEFERRED category_consecutive | try 1/3 | Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security
+  DEFERRED source_consecutive | try 0/3 | US moves to cut China’s remote access to AI chips
+  DEFERRED source_daily | try 0/3 | Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten
+  DEFERRED category_consecutive | try 0/3 | Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 69h | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices
+DEFERRED_EXHAUSTED 4
+SOURCE_DISCOVERY already_ran date=2026-11-16 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=220 index=12 benchmark=4 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=213 nodate=0 nonai=0 dup=18 dup_other=0 kept=56 errors=1
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+TELEGRAM channels=17 posts=315 pending=11 leads=0 nolink=2 nonai=0 denied=1 promo=0 stale=0 before=0 dup=1 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:442,review:14 delivered=456 window=30d
+RELEVANCE candidates=56 kept=37 dropped=19
+  SKIP_NOT_AI TechCrunch | Uber says hackers stole information on close to 150,000 driver’s licenses during data breach
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI Product Hunt | Pine Drama Studio
+  SKIP_NOT_AI TechCrunch | Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID
+  SKIP_NOT_AI TechCrunch | Island is a new screen-time app that turns staying off your phone into a game
+  SKIP_NOT_AI TechCrunch | Tesla goes all-in on the Cybercab with upcoming €3B Berlin Gigafactory expansion
+  SKIP_NOT_AI The Record | Italian regulator fines Meta $886 million for violating data privacy law
+  SKIP_NOT_AI ... +11 more
+DIVERSITY target=tools queue=2 fresh=5 deferred=49 rejected=source_daily:16,source_consecutive:2,category_daily:19,category_consecutive:10
+  DIVERSITY_QUEUE models:NVIDIA AI Blog | models:OpenAI News
+QUEUE_SKIPPED 51
+  QUEUE_SKIP source_daily | The Decoder | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  QUEUE_SKIP source_consecutive | Ars Technica AI | US moves to cut China’s remote access to AI chips
+  QUEUE_SKIP source_daily | The Decoder | Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten
+  QUEUE_SKIP category_consecutive | TechCrunch | Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’
+  QUEUE_SKIP category_daily | TechCrunch | FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’
+  QUEUE_SKIP category_consecutive | TechCrunch | Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’
+  QUEUE_SKIP category_consecutive | TechCrunch | OpenAI will embed safety researchers to investigate AI subversion
+  QUEUE_SKIP category_daily | OpenAI News | Broadening access to AI for scientists
+  QUEUE_SKIP category_daily | OpenAI News | Strengthening the fight against online child sexual abuse with new tools and support
+  QUEUE_SKIP source_daily | The Decoder | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices
+  QUEUE_SKIP ... +41 more
+QUEUE_HELD 4
+  QUEUE_HOLD category_consecutive | TechCrunch | California state AG sues OpenAI over rogue agent incidents
+  QUEUE_HOLD category_daily | NVIDIA AI Blog | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  QUEUE_HOLD category_consecutive | Import AI | Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development
+  QUEUE_HOLD source_daily | The Decoder | Google warns that fully automated cyberattacks have arrived and will get worse fast
+ATTEMPT 1/2 | deferred 2/3 NVIDIA AI Blog | Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics | 1h
+  TOOL_LINK candidate https://www.nvidia.com/en-us/networking/products/silicon-photonics/ | score 13
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK applied https://www.nvidia.com/en-us/networking/products/silicon-photonics/
+  DIVERSITY_CATEGORY_DAILY tools 4/4
+  DEFERRED category_daily_cap | try 3/3
+  DEFER_LIMIT category_daily_cap | no more retries
+ATTEMPT 2/2 | deferred 2/3 OpenAI News | A step toward defining the Standard Model on a lattice | 7h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 3/3
+  DEFER_LIMIT fetch_failed | no more retries
+RESULT EMPTY attempts=2 reviews=0 deferred=50 | cost $0.000459 | tokens 10749
+  EMPTY_ATTEMPT deferred reason=category_daily_cap | Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics
+  EMPTY_ATTEMPT deferred reason=fetch_failed | A step toward defining the Standard Model on a lattice
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-16T20:19:13Z
+# گزارش روزانه 2026-11-16 (دوشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 7 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 9
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 20
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.006755
+- توکن: 114462
+- میانگین هر پست ارسال‌شده: $0.001351
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 9 | 31 | 22 |
+| مدل‌ها و پژوهش | 3 | 24 | 21 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 3 | 11 | 8 |
+| مجموع | 17 | 77 | 60 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000294 | 9988 | پلاگین جدید Datasette با نقشه برداری MapLibre |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.000818 | 23448 | مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 41/43 | $0.001046 | 24983 | anidoodle: هنر و انیمیشن با کد، خروجی یکسان در هر اجرا |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.002009 | 22385 | Kimi K3.1-Pro در بنچمارک Gamefeel رتبه ۲۴ گرفت |
+| 20:30 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002129 | 22909 | متحدان هوانگ برای بازگشتش به انویدیا اتاق جنگ می‌سازن |
+| 23:00 |  | خالی | — | $0.000459 | 10749 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 26
+- دلایل: از رصد آفر پیدا شد 3، منبع رسمی شرکت نیست 2، لینک خارجی این پست پذیرفته نشد 13، لینک قابل استفاده ندارد 5، لینک معتبر برای این آفر پیدا نشد 1، مدل این مورد را رد کرد 1، بررسی کیفیت پاس نشد 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-16.md
+SOURCE_STATUS 2026-11-16T20:19:13Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-16.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — دوشنبه ۲۵ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 7
+صف بازبینی: 40 کارت
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/43948320768
+STATUS_CARD_END
+STATUS_SKIP reason=already_sent

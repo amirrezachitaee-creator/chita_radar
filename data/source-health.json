@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T19:33:15.348Z",
+  "updatedAt": "2026-11-16T20:18:34.503Z",
   "lastStatusDate": "2026-11-16",
   "lastStatusAt": "2026-11-16T19:33:15.345Z",
   "sources": {
@@ -1779,17 +1779,17 @@
       "status": "active",
       "reason": "ok",
       "score": 0.8,
-      "negativeRate": 0,
+      "negativeRate": 0.2,
       "counts": {
         "rejects": 0,
-        "rewrites": 0,
+        "rewrites": 2,
         "manualPublishes": 0,
         "autoPublishes": 3,
         "publishes": 3,
-        "decisions": 3
+        "decisions": 5
       },
       "rejectReasons": {},
-      "lastEventAt": "2026-11-15T05:07:00.273Z",
+      "lastEventAt": "2026-11-16T20:09:38.490Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",

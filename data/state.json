@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T19:33:14.545Z",
+  "updatedAt": "2026-11-16T20:19:13.491Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11644,9 +11644,9 @@
     },
     "defer:url:2e8f421d2ee2a3df": {
       "id": "defer:url:2e8f421d2ee2a3df",
-      "at": "2026-11-16T19:32:33.109Z",
+      "at": "2026-11-16T20:19:13.484Z",
       "firstAt": "2026-11-16T05:02:52.140Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -11689,7 +11689,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:2e8f421d2ee2a3df",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -12723,9 +12723,9 @@
     },
     "defer:url:742a0adaef2e2544": {
       "id": "defer:url:742a0adaef2e2544",
-      "at": "2026-11-16T19:32:33.048Z",
+      "at": "2026-11-16T20:19:13.459Z",
       "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "category_daily_cap",
       "reasons": [
         "category_consecutive",
@@ -12773,7 +12773,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:742a0adaef2e2544",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "tools"
@@ -13751,6 +13751,203 @@
         "leadKind": ""
       },
       "detail": "business"
+    },
+    "defer:url:1738f67eaaddba29": {
+      "id": "defer:url:1738f67eaaddba29",
+      "at": "2026-11-16T20:18:45.031Z",
+      "firstAt": "2026-11-16T20:18:45.031Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1738f67eaaddba29",
+        "title:45918e3b504a8f28"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "California state AG sues OpenAI over rogue agent incidents",
+        "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+        "canonical": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+        "published": "Mon, 16 Nov 2026 20:07:13 +0000",
+        "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+        "images": [],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:1738f67eaaddba29",
+          "title:45918e3b504a8f28"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a9995c40a3422c04": {
+      "id": "defer:url:a9995c40a3422c04",
+      "at": "2026-11-16T20:18:45.031Z",
+      "firstAt": "2026-11-16T20:18:45.031Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:a9995c40a3422c04",
+        "title:cece5d11f4250ee9"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+        "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+        "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+        "published": "Mon, 16 Nov 2026 20:00:37 +0000",
+        "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-842x450.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/20261114_033237000_iOS-1.jpeg"
+        ],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:a9995c40a3422c04",
+          "title:cece5d11f4250ee9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0b0c9df79f2d6f2b": {
+      "id": "defer:url:0b0c9df79f2d6f2b",
+      "at": "2026-11-16T20:18:45.031Z",
+      "firstAt": "2026-11-16T20:18:45.031Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0b0c9df79f2d6f2b",
+        "title:848e3d10fdb57bda"
+      ],
+      "canonical": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+      "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+      "candidate": {
+        "sourceId": "import-ai",
+        "sourceName": "Import AI",
+        "sourceType": "newsletter",
+        "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+        "link": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+        "canonical": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+        "published": "Mon, 16 Nov 2026 14:01:15 GMT",
+        "summary": "Plus: CucumberVision!",
+        "messageText": "",
+        "leadPostUrl": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+        "images": [
+          "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+        ],
+        "ageHours": 6.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0b0c9df79f2d6f2b",
+          "title:848e3d10fdb57bda"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7f831d0690caa93b": {
+      "id": "defer:url:7f831d0690caa93b",
+      "at": "2026-11-16T20:18:45.031Z",
+      "firstAt": "2026-11-16T20:18:45.031Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7f831d0690caa93b",
+        "title:c9ae81f469da0f31"
+      ],
+      "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
+      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+        "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+        "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
+        "published": "Mon, 16 Nov 2026 19:42:13 +0000",
+        "summary": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. The article Google warns that fully automated cyberattacks have arrived and will get worse fast appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+        "images": [],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:7f831d0690caa93b",
+          "title:c9ae81f469da0f31"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -17049,87 +17246,87 @@
     "ArchiveTell": {
       "last_id": 8433,
       "last_at": "2026-11-16T14:41:17+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "pedramgholizadeh": {
-      "last_id": 805,
-      "last_at": "2026-11-16T15:52:22+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "last_id": 806,
+      "last_at": "2026-11-16T20:16:14+00:00",
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "ai_farshad": {
-      "last_id": 6451,
-      "last_at": "2026-11-16T17:31:44+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "last_id": 6453,
+      "last_at": "2026-11-16T19:59:11+00:00",
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "Mohammad_zammani": {
       "last_id": 7222,
       "last_at": "2026-11-16T16:56:52+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "techiin_ir": {
       "last_id": 20787,
       "last_at": "2026-11-16T18:51:59+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "mgh_mobin": {
       "last_id": 485,
       "last_at": "2026-11-16T06:56:27+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "web3nabu": {
       "last_id": 2171,
       "last_at": "2026-11-15T22:22:45+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "asrnovin_ir": {
       "last_id": 11474,
       "last_at": "2026-11-16T14:20:43+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "shayanode": {
-      "last_id": 232,
-      "last_at": "2026-11-16T18:32:25+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "last_id": 233,
+      "last_at": "2026-11-16T18:34:40+00:00",
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "codecloude": {
       "last_id": 2593,
       "last_at": "2026-11-16T18:26:37+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "MatinSenPaii": {
-      "last_id": 5893,
-      "last_at": "2026-11-16T17:35:22+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "last_id": 5894,
+      "last_at": "2026-11-16T20:02:01+00:00",
+      "checked_at": "2026-11-16T20:18:34.323Z"
     },
     "thenimaonAI": {
       "last_id": 534,
       "last_at": "2026-11-16T10:33:16+00:00",
-      "checked_at": "2026-11-16T19:30:56.427Z"
+      "checked_at": "2026-11-16T20:18:34.323Z"
     }
   },
   "offerReviews": [
@@ -20503,7 +20700,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-16T13:31:24.410Z",
+      "lastCheck": "2026-11-16T20:18:34.323Z",
       "status": "active",
       "misses": 0
     }
