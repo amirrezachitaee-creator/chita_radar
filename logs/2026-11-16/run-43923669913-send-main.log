@@ -1,0 +1,157 @@
+RUN 43923669913 | send/main | slot auto | 2026-11-16T17:57:09Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-16T20:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 9/31 | models 3/24 | security 2/11 | business 2/11
+DAILY 6/11
+DIVERSITY_TARGET models | slot 20:30
+DEFERRED_POOL 43
+  DEFERRED category_consecutive | try 0/3 | OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM
+  DEFERRED source_daily | try 0/3 | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices
+  DEFERRED source_daily | try 0/3 | Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML
+  DEFERRED category_consecutive | try 0/3 | Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics
+  DEFERRED category_consecutive | try 0/3 | NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 71h | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices
+  DEFERRED_BENCHMARK category_consecutive | expires 1h EXPIRING | WeightBench: Evaluating Language Models as Weight-Space Programmers
+  DEFERRED_BENCHMARK category_consecutive | expires 1h EXPIRING | Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond
+DEFERRED_EXHAUSTED 4
+SOURCE_DISCOVERY already_ran date=2026-11-16 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=208 index=12 benchmark=4 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=190 nodate=0 nonai=0 dup=18 dup_other=0 kept=66 errors=2
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=314 pending=5 leads=0 nolink=4 nonai=0 denied=0 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0
+MEMORY lanes=main:437,review:14 delivered=451 window=30d
+STORY_DUPLICATES 2 skipped=worked_story
+  STORY_DUPLICATE OpenAI News | Science at the Frontier: How scientists use ChatGPT | already main: How to Use AI for Enterprise BI
+  STORY_DUPLICATE Hugging Face Blog | Hugging Face and OpenRouter join forces to make open-weight models easy to run | already main: هاگینگ‌فیس رابط استاندارد مدل‌های تصمیم‌گیری را معرفی کرد
+RELEVANCE candidates=64 kept=43 dropped=21
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI Product Hunt | Pine Drama Studio
+  SKIP_NOT_AI arXiv | Imitation Bootstrapped Multi-Agent Reinforcement Learning
+  SKIP_NOT_AI arXiv | ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models
+  SKIP_NOT_AI The Record | King Charles opens new HQ for National Cyber Force, UK’s offensive hacking unit
+  SKIP_NOT_AI TechCrunch | Instagram now lets creators add Amazon affiliate links in reels and feed posts
+  SKIP_NOT_AI The Record | Russia denies intercepting Romanian government emails
+  SKIP_NOT_AI ... +13 more
+DIVERSITY target=models queue=3 fresh=15 deferred=43 rejected=source_daily:12,source_consecutive:2,category_daily:19
+  DIVERSITY_QUEUE models:TechCrunch | models:NVIDIA AI Blog | security:Ars Technica AI
+QUEUE_SKIPPED 52
+  QUEUE_SKIP source_daily | The Decoder | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices
+  QUEUE_SKIP source_daily | The Decoder | Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML
+  QUEUE_SKIP source_daily | The Decoder | Anthropic says the key to agent memory is knowing what to forget, not how much to store
+  QUEUE_SKIP category_daily | KDnuggets | Agentic System Design: A Self-Study Roadmap
+  QUEUE_SKIP category_daily | هوش مصنوعی | محمد زمانی | اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی
+  QUEUE_SKIP source_consecutive | Thenima.one | GitHub - ranxianglei/billion-context: A context-compression plugin for month-long single sessions (billions of
+  QUEUE_SKIP category_daily | OpenAI News | The King’s Trust and OpenAI launch £1m partnership
+  QUEUE_SKIP category_daily | Code.Cloud | کـــد کلاد | GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download
+  QUEUE_SKIP category_daily | Product Hunt | UI SDK by Vercel
+  QUEUE_SKIP source_daily | The Decoder | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+  QUEUE_SKIP ... +42 more
+QUEUE_HELD 7
+  QUEUE_HOLD category_daily | OpenAI News | Broadening access to AI for scientists
+  QUEUE_HOLD category_daily | TechCrunch | FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’
+  QUEUE_HOLD category_daily | NVIDIA AI Blog | NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery
+  QUEUE_HOLD category_daily | NVIDIA AI Blog | NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics
+  QUEUE_HOLD category_daily | OpenAI News | More ways to move care forward with ChatGPT for Healthcare
+  QUEUE_HOLD category_daily | Product Hunt | StateWeave
+  QUEUE_HOLD category_daily | OpenAI News | Strengthening the fight against online child sexual abuse with new tools and support
+ATTEMPT 1/3 | deferred 0/3 TechCrunch | OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM | 0h
+  REVIEW_ITEM id=6f956c6269 message=349
+  REVIEW_REQUIRED reason=source_not_official sent=349
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-e298f85c
+  OFFER_REVIEW source_not_official
+ATTEMPT 2/3 | deferred 0/3 NVIDIA AI Blog | Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics | 1h
+  TOOL_LINK candidate https://www.nvidia.com/en-us/networking/products/silicon-photonics/ | score 13
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK applied https://www.nvidia.com/en-us/networking/products/silicon-photonics/
+  DIVERSITY_CATEGORY_DAILY tools 4/4
+  DEFERRED category_daily_cap | try 1/3
+ATTEMPT 3/3 Ars Technica AI | Jensen Huang allies build a "war room" to get him back at Nvidia | 3.8h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  STYLE_WARNING why | one repair retry
+  BODY_TRIM
+  QUOTE_TRIM
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=business | QA 42/43 | $0.002129 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/20-30
+RESULT SENT category=business | offer=no | image=yes | QA 42/43 | cost $0.002568 | post $0.002129 | tokens 33583
+TITLE متحدان هوانگ برای بازگشتش به انویدیا اتاق جنگ می‌سازن
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/20-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST business | sent | $0.002129 | متحدان هوانگ برای بازگشتش به انویدیا اتاق جنگ می‌سازن
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-16T17:59:58Z
+# گزارش روزانه 2026-11-16 (دوشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 7 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 9
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 18
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.006296
+- توکن: 103713
+- میانگین هر پست ارسال‌شده: $0.001259
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 9 | 31 | 22 |
+| مدل‌ها و پژوهش | 3 | 24 | 21 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 3 | 11 | 8 |
+| مجموع | 17 | 77 | 60 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000294 | 9988 | پلاگین جدید Datasette با نقشه برداری MapLibre |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.000818 | 23448 | مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 41/43 | $0.001046 | 24983 | anidoodle: هنر و انیمیشن با کد، خروجی یکسان در هر اجرا |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.002009 | 22385 | Kimi K3.1-Pro در بنچمارک Gamefeel رتبه ۲۴ گرفت |
+| 20:30 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002129 | 22909 | متحدان هوانگ برای بازگشتش به انویدیا اتاق جنگ می‌سازن |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 25
+- دلایل: از رصد آفر پیدا شد 3، منبع رسمی شرکت نیست 2، لینک خارجی این پست پذیرفته نشد 12، لینک قابل استفاده ندارد 5، لینک معتبر برای این آفر پیدا نشد 1، مدل این مورد را رد کرد 1، بررسی کیفیت پاس نشد 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-16.md
+SOURCE_STATUS 2026-11-16T17:59:58Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-16.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — دوشنبه ۲۵ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 7
+صف بازبینی: 39 کارت
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/43923669913
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

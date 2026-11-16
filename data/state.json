@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T17:43:37.284Z",
+  "updatedAt": "2026-11-16T17:59:58.160Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10013,6 +10013,78 @@
       "slot": "2026-11-16T20:30+03:30",
       "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
       "url": "https://arxiv.org/abs/2611.18513v1"
+    },
+    "url:d91fd06de7b8771e": {
+      "at": "2026-11-16T17:57:22.576Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier"
+    },
+    "title:ac4f858212c732c9": {
+      "at": "2026-11-16T17:57:22.576Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier"
+    },
+    "url:8ec21efa2c622734": {
+      "at": "2026-11-16T17:57:22.576Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter"
+    },
+    "title:efc06e547f6f80b2": {
+      "at": "2026-11-16T17:57:22.576Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter"
+    },
+    "url:37e7777f21965965": {
+      "at": "2026-11-16T17:57:23.498Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam"
+    },
+    "title:724f96e760d78e7a": {
+      "at": "2026-11-16T17:57:23.498Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam"
+    },
+    "url:39ceb2e8ab2f8ae0": {
+      "at": "2026-11-16T17:59:58.157Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+      "benchmark": false
+    },
+    "title:86b55851d35d5b7d": {
+      "at": "2026-11-16T17:59:58.157Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -12593,12 +12665,13 @@
     },
     "defer:url:742a0adaef2e2544": {
       "id": "defer:url:742a0adaef2e2544",
-      "at": "2026-11-16T17:01:54.731Z",
+      "at": "2026-11-16T17:57:55.346Z",
       "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "category_daily_cap",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "category_daily_cap"
       ],
       "keys": [
         "url:742a0adaef2e2544",
@@ -12639,8 +12712,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:742a0adaef2e2544",
+          "attempts": 0
+        }
+      },
+      "detail": "tools"
     },
     "defer:url:0dc8b1c6d09938c1": {
       "id": "defer:url:0dc8b1c6d09938c1",
@@ -12784,6 +12862,344 @@
         "keys": [
           "url:21b4758ab52123ac",
           "title:9ef84f7bc10afa4e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2d7a5d6b20fff3cd": {
+      "id": "defer:url:2d7a5d6b20fff3cd",
+      "at": "2026-11-16T17:57:22.954Z",
+      "firstAt": "2026-11-16T17:57:22.954Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:2d7a5d6b20fff3cd",
+        "title:5a29c622e2a75b49"
+      ],
+      "canonical": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Broadening access to AI for scientists",
+        "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "canonical": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "published": "Mon, 16 Nov 2026 17:00:00 GMT",
+        "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:2d7a5d6b20fff3cd",
+          "title:5a29c622e2a75b49"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:474a91e84ee7b824": {
+      "id": "defer:url:474a91e84ee7b824",
+      "at": "2026-11-16T17:57:22.955Z",
+      "firstAt": "2026-11-16T17:57:22.955Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:474a91e84ee7b824",
+        "title:c67904ce12eb0c23"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+      "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
+        "link": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+        "canonical": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+        "published": "Mon, 16 Nov 2026 17:36:43 +0000",
+        "summary": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+        "images": [],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:474a91e84ee7b824",
+          "title:c67904ce12eb0c23"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4e397e27d38f36ea": {
+      "id": "defer:url:4e397e27d38f36ea",
+      "at": "2026-11-16T17:57:22.955Z",
+      "firstAt": "2026-11-16T17:57:22.955Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:4e397e27d38f36ea",
+        "title:7152ec698ee09f71"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+        "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+        "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+        "published": "Mon, 16 Nov 2026 16:00:16 +0000",
+        "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376-842x450.jpg"
+        ],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4e397e27d38f36ea",
+          "title:7152ec698ee09f71"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8f02058f4a02dc51": {
+      "id": "defer:url:8f02058f4a02dc51",
+      "at": "2026-11-16T17:57:22.955Z",
+      "firstAt": "2026-11-16T17:57:22.955Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:8f02058f4a02dc51",
+        "title:cf1ea7c31e12e1e3"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+        "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
+        "published": "Mon, 16 Nov 2026 16:00:01 +0000",
+        "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1-842x450.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-press-hpc-nvl4-tray-rack-1600x900-5802807.jpg"
+        ],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:8f02058f4a02dc51",
+          "title:cf1ea7c31e12e1e3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:21e886491b30cfff": {
+      "id": "defer:url:21e886491b30cfff",
+      "at": "2026-11-16T17:57:22.955Z",
+      "firstAt": "2026-11-16T17:57:22.955Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:21e886491b30cfff",
+        "title:2d0f664aa79dd48f"
+      ],
+      "canonical": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "More ways to move care forward with ChatGPT for Healthcare",
+        "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+        "canonical": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+        "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+        "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+        "images": [],
+        "ageHours": 12,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:21e886491b30cfff",
+          "title:2d0f664aa79dd48f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:551b3f8b06d4a249": {
+      "id": "defer:url:551b3f8b06d4a249",
+      "at": "2026-11-16T17:57:22.955Z",
+      "firstAt": "2026-11-16T17:57:22.955Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:551b3f8b06d4a249",
+        "title:a8cf5216a509b4a1"
+      ],
+      "canonical": "https://www.producthunt.com/products/stateweave",
+      "title": "StateWeave",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "StateWeave",
+        "link": "https://www.producthunt.com/products/stateweave",
+        "canonical": "https://www.producthunt.com/products/stateweave",
+        "published": "2026-11-15T12:32:35-08:00",
+        "summary": "<p> Test your AI agent on working clones of the apps it uses </p> <p> <a href=\"https://www.producthunt.com/products/stateweave?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317996?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/stateweave",
+        "images": [],
+        "ageHours": 21.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:551b3f8b06d4a249",
+          "title:a8cf5216a509b4a1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dd659f011024f04f": {
+      "id": "defer:url:dd659f011024f04f",
+      "at": "2026-11-16T17:57:22.955Z",
+      "firstAt": "2026-11-16T17:57:22.955Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:dd659f011024f04f",
+        "title:ad4cc6694f3e2d42"
+      ],
+      "canonical": "https://openai.com/index/strengthening-online-child-safety",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+        "link": "https://openai.com/index/strengthening-online-child-safety",
+        "canonical": "https://openai.com/index/strengthening-online-child-safety",
+        "published": "Mon, 16 Nov 2026 17:00:00 GMT",
+        "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/strengthening-online-child-safety",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:dd659f011024f04f",
+          "title:ad4cc6694f3e2d42"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -14722,11 +15138,35 @@
     },
     "2026-11-16T20:30+03:30": {
       "at": "2026-11-16T17:07:55.976Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
       "cost": 0.0036675128,
       "tokens": 60965,
-      "posts": []
+      "posts": [
+        {
+          "title": "متحدان هوانگ برای بازگشتش به انویدیا اتاق جنگ می‌سازن",
+          "category": "business",
+          "status": "sent",
+          "messageId": 91,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0021293384,
+          "tokens": 22909,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-16T17:59:58.157Z"
+        }
+      ],
+      "category": "business",
+      "title": "متحدان هوانگ برای بازگشتش به انویدیا اتاق جنگ می‌سازن",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/20-30",
+      "messageId": 91,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "42/43"
     }
   },
   "published": [
@@ -16031,93 +16471,111 @@
       "sourceTitle": "سابسکریپشن Gemini قراره مستقیم به هرمس بیاد 🔥",
       "sourceText": "سابسکریپشن Gemini قراره مستقیم به هرمس بیاد 🔥\n\nفعلاً هرمس فقط با API Key مدل Gemini کار می‌کنه، اما Nous در حال مذاکره با گوگل هست تا سابسکریپشن Gemini که قبلاً خریدی رو مستقیم داخل هرمس فعال کنه.\n\nاین روش رسمی و مورد تأیید گوگل خواهد بود.\n\n@thenimaonAI\n\n❤6👏3",
       "at": "2026-11-16T17:43:37.283Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-16T20:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "متحدان هوانگ برای بازگشتش به انویدیا اتاق جنگ می‌سازن",
+      "why": "بازگشت هوانگ می‌تونه انویدیا رو در یکی از پرتنش‌ترین دوره‌هاش دوباره به ثبات برسونه.",
+      "dedupe_key": "nvidia-huang-return-war-room",
+      "post_key": "2026-11-16/20-30/1",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+      "sourceTitle": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+      "sourceText": "Huang is weighing a return just days after resigning amid a deepening scandal.\nJensen Huang is considering a comeback as Nvidia’s chief executive, as allies in Silicon Valley pressure the company’s board to reinstate him days after the tech executive resigned over reports he had affairs with a suspected Chinese spy and a subordinate.\nHuang has discussed with confidants the possibility of returning, according to multiple people familiar with the matter—even as an independent probe by Nvidia’s board investigates the conduct that led to a spectacular leadership crisis at the $4 trillion chip company this week.\nOne Huang ally told the FT they were putting together a “war room” of Silicon Valley executives to lobby for the former Nvidia chief’s return and would try to garner support from the White House.\n“Everyone that matters in tech outside the frontier labs loves Jensen,” they said. The efforts had Huang’s support, they added.\nA public campaign to reinstate Huang has gathered steam over the weekend. Tesla and SpaceX chief Elon Musk and Epic Games chief executive Tim Sweeney were among executives backing a public letter demanding that its board “Bring Jensen Back.”\nHuang continues to command fierce loyalty from some employees, several of whom have gone public in calling for his return in the days since he resigned and have signed the open letter.\nThe effort to reinstate Huang is likely to face pushback from key policymakers in Washington, with Treasury Secretary Scott Bessent on Sunday calling for a “dramatic shake-up” in leadership at the company after Huang’s departure.\nHuan",
+      "at": "2026-11-16T17:59:58.157Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8433,
       "last_at": "2026-11-16T14:41:17+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "pedramgholizadeh": {
       "last_id": 805,
       "last_at": "2026-11-16T15:52:22+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "ai_farshad": {
-      "last_id": 6450,
-      "last_at": "2026-11-16T14:45:53+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "last_id": 6451,
+      "last_at": "2026-11-16T17:31:44+00:00",
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "Mohammad_zammani": {
       "last_id": 7222,
       "last_at": "2026-11-16T16:56:52+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "techiin_ir": {
       "last_id": 20786,
       "last_at": "2026-11-16T15:58:19+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "mgh_mobin": {
       "last_id": 485,
       "last_at": "2026-11-16T06:56:27+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "web3nabu": {
       "last_id": 2171,
       "last_at": "2026-11-15T22:22:45+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "asrnovin_ir": {
       "last_id": 11474,
       "last_at": "2026-11-16T14:20:43+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "shayanode": {
       "last_id": 230,
       "last_at": "2026-11-16T16:50:09+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "codecloude": {
       "last_id": 2592,
       "last_at": "2026-11-16T13:56:24+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "dunijet_ai": {
-      "last_id": 2576,
-      "last_at": "2026-11-16T12:59:53+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "last_id": 2577,
+      "last_at": "2026-11-16T17:43:20+00:00",
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "MatinSenPaii": {
-      "last_id": 5890,
-      "last_at": "2026-11-16T15:40:25+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "last_id": 5893,
+      "last_at": "2026-11-16T17:35:22+00:00",
+      "checked_at": "2026-11-16T17:57:09.157Z"
     },
     "thenimaonAI": {
       "last_id": 534,
       "last_at": "2026-11-16T10:33:16+00:00",
-      "checked_at": "2026-11-16T17:01:04.951Z"
+      "checked_at": "2026-11-16T17:57:09.157Z"
     }
   },
   "offerReviews": [
@@ -19167,6 +19625,18 @@
       "reason": "qa_failed",
       "slot": "2026-11-16T20:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|techcrunch|https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:57:09.157Z",
+      "source": "techcrunch",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM | TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "reason": "source_not_official",
+      "slot": "2026-11-16T20:30+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],

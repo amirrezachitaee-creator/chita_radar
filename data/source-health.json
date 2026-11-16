@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T17:01:04.994Z",
+  "updatedAt": "2026-11-16T17:57:09.187Z",
   "lastStatusDate": "",
   "lastStatusAt": "",
   "sources": {
@@ -1689,19 +1689,21 @@
       "dynamic": false,
       "protected": false,
       "status": "active",
-      "reason": "no_signal",
+      "reason": "ok",
       "score": 0.5,
-      "negativeRate": 0,
+      "negativeRate": 1,
       "counts": {
-        "rejects": 0,
+        "rejects": 1,
         "rewrites": 0,
         "manualPublishes": 0,
         "autoPublishes": 0,
         "publishes": 0,
-        "decisions": 0
+        "decisions": 1
       },
-      "rejectReasons": {},
-      "lastEventAt": "",
+      "rejectReasons": {
+        "promo": 1
+      },
+      "lastEventAt": "2026-11-16T17:29:21.834Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",
@@ -1715,9 +1717,39 @@
       "type": "telegram_channel",
       "dynamic": false,
       "protected": false,
+      "status": "watch",
+      "reason": "reject_pattern",
+      "score": 0.25,
+      "negativeRate": 1,
+      "counts": {
+        "rejects": 4,
+        "rewrites": 0,
+        "manualPublishes": 0,
+        "autoPublishes": 0,
+        "publishes": 0,
+        "decisions": 4
+      },
+      "rejectReasons": {
+        "promo": 2,
+        "irrelevant": 2
+      },
+      "lastEventAt": "2026-11-16T17:31:28.297Z",
+      "since": "2026-11-16T17:57:09.157Z",
+      "trialStart": "",
+      "trialUntil": "",
+      "cooldownUntil": "",
+      "decidedAt": "2026-11-16T17:57:09.157Z"
+    },
+    "tg-ai-by-sadeghi": {
+      "name": "",
+      "discoveredAt": "",
+      "id": "tg-ai-by-sadeghi",
+      "type": "telegram_channel",
+      "dynamic": false,
+      "protected": false,
       "status": "active",
       "reason": "ok",
-      "score": 0.25,
+      "score": 0.5,
       "negativeRate": 1,
       "counts": {
         "rejects": 1,
@@ -1728,36 +1760,9 @@
         "decisions": 1
       },
       "rejectReasons": {
-        "promo": 1
+        "other": 1
       },
-      "lastEventAt": "2026-11-16T11:19:42.120Z",
-      "since": "2026-11-16T17:01:04.951Z",
-      "trialStart": "",
-      "trialUntil": "",
-      "cooldownUntil": "",
-      "decidedAt": "2026-11-16T17:01:04.951Z"
-    },
-    "tg-ai-by-sadeghi": {
-      "name": "",
-      "discoveredAt": "",
-      "id": "tg-ai-by-sadeghi",
-      "type": "telegram_channel",
-      "dynamic": false,
-      "protected": false,
-      "status": "active",
-      "reason": "no_signal",
-      "score": 0.5,
-      "negativeRate": 0,
-      "counts": {
-        "rejects": 0,
-        "rewrites": 0,
-        "manualPublishes": 0,
-        "autoPublishes": 0,
-        "publishes": 0,
-        "decisions": 0
-      },
-      "rejectReasons": {},
-      "lastEventAt": "",
+      "lastEventAt": "2026-11-16T17:28:36.683Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",
@@ -1934,19 +1939,19 @@
       "dynamic": false,
       "protected": false,
       "status": "active",
-      "reason": "no_signal",
-      "score": 0.5,
-      "negativeRate": 0,
+      "reason": "ok",
+      "score": 0.6667,
+      "negativeRate": 0.25,
       "counts": {
         "rejects": 0,
-        "rewrites": 0,
-        "manualPublishes": 0,
-        "autoPublishes": 0,
-        "publishes": 0,
-        "decisions": 0
+        "rewrites": 2,
+        "manualPublishes": 1,
+        "autoPublishes": 1,
+        "publishes": 2,
+        "decisions": 4
       },
       "rejectReasons": {},
-      "lastEventAt": "",
+      "lastEventAt": "2026-11-16T17:43:37.283Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",
@@ -1954,5 +1959,13 @@
       "decidedAt": "2026-11-16T17:01:04.951Z"
     }
   },
-  "history": []
+  "history": [
+    {
+      "at": "2026-11-16T17:57:09.157Z",
+      "source": "tg-shayanode",
+      "from": "active",
+      "to": "watch",
+      "reason": "reject_pattern"
+    }
+  ]
 }

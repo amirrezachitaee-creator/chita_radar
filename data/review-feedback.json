@@ -2204,6 +2204,50 @@
       "expiry": null,
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "6f956c6269": {
+      "id": "6f956c6269",
+      "messageId": 349,
+      "chatId": "-1004443166907",
+      "slot": "2026-11-16T20:30+03:30",
+      "reason": "source_not_official",
+      "kind": "offer",
+      "source": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM | TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "leadPostUrl": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "messageText": "",
+      "relatedLinks": [],
+      "images": [],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/11/OpenAI-chatgpt-CSAM.jpeg?resize=1200,675",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "keys": [
+        "url:37e7777f21965965",
+        "title:724f96e760d78e7a"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": true,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": {
+        "ok": false,
+        "reason": "expiry_missing",
+        "date": "",
+        "remainingHours": null,
+        "evidence": ""
+      },
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-16T17:57:09.157Z",
+      "updatedAt": "2026-11-16T17:57:09.157Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
