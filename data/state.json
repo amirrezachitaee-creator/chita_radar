@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T17:59:58.160Z",
+  "updatedAt": "2026-11-16T19:33:14.545Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10085,6 +10085,60 @@
       "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
       "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
       "benchmark": false
+    },
+    "url:e945fcfc3ce30449": {
+      "at": "2026-11-16T19:31:30.406Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T23:00+03:30",
+      "title": "✅ علی‌بابا از مدل Qwen4-Max با 2.4 تریلیون پارامتر رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20787"
+    },
+    "title:d1f6363f667b31da": {
+      "at": "2026-11-16T19:31:30.406Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T23:00+03:30",
+      "title": "✅ علی‌بابا از مدل Qwen4-Max با 2.4 تریلیون پارامتر رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20787"
+    },
+    "url:aff827fd09d31e74": {
+      "at": "2026-11-16T19:31:35.885Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T23:00+03:30",
+      "title": "🎬 یه سناریو بنویس، یه فیلم کامل تحویل بگیر! 🤯🔥",
+      "url": "https://t.me/codecloude/2593"
+    },
+    "title:29311931b58fad81": {
+      "at": "2026-11-16T19:31:35.885Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T23:00+03:30",
+      "title": "🎬 یه سناریو بنویس، یه فیلم کامل تحویل بگیر! 🤯🔥",
+      "url": "https://t.me/codecloude/2593"
+    },
+    "url:97ccbb732ccbce60": {
+      "at": "2026-11-16T19:31:36.250Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-16T23:00+03:30",
+      "title": "پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖",
+      "url": "https://t.me/shaynmll"
+    },
+    "title:8b6c761e41fe1016": {
+      "at": "2026-11-16T19:31:36.250Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-16T23:00+03:30",
+      "title": "پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖",
+      "url": "https://t.me/shaynmll"
     }
   },
   "deferred": {
@@ -11590,9 +11644,9 @@
     },
     "defer:url:2e8f421d2ee2a3df": {
       "id": "defer:url:2e8f421d2ee2a3df",
-      "at": "2026-11-16T05:02:52.140Z",
+      "at": "2026-11-16T19:32:33.109Z",
       "firstAt": "2026-11-16T05:02:52.140Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -11632,7 +11686,11 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:2e8f421d2ee2a3df",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
@@ -12665,9 +12723,9 @@
     },
     "defer:url:742a0adaef2e2544": {
       "id": "defer:url:742a0adaef2e2544",
-      "at": "2026-11-16T17:57:55.346Z",
+      "at": "2026-11-16T19:32:33.048Z",
       "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_daily_cap",
       "reasons": [
         "category_consecutive",
@@ -12715,7 +12773,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:742a0adaef2e2544",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "tools"
@@ -13205,6 +13263,494 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:e103c7330eb391b4": {
+      "id": "defer:url:e103c7330eb391b4",
+      "at": "2026-11-16T19:31:36.259Z",
+      "firstAt": "2026-11-16T19:31:36.259Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e103c7330eb391b4",
+        "title:bf0767dab9585052"
+      ],
+      "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
+      "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+        "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+        "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
+        "published": "Mon, 16 Nov 2026 19:19:56 +0000",
+        "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before realistic simulations are possible. The article OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/openai_standard_model.png"
+        ],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e103c7330eb391b4",
+          "title:bf0767dab9585052"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7f59634912f807d8": {
+      "id": "defer:url:7f59634912f807d8",
+      "at": "2026-11-16T19:31:36.259Z",
+      "firstAt": "2026-11-16T19:31:36.259Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:7f59634912f807d8",
+        "title:17cf442ecbffe4fb"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+      "title": "US moves to cut China’s remote access to AI chips",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "US moves to cut China’s remote access to AI chips",
+        "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+        "published": "Mon, 16 Nov 2026 19:10:09 +0000",
+        "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-500x500-1794852925.jpg"
+        ],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:7f59634912f807d8",
+          "title:17cf442ecbffe4fb"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:43b552aeb88ac4f0": {
+      "id": "defer:url:43b552aeb88ac4f0",
+      "at": "2026-11-16T19:31:36.259Z",
+      "firstAt": "2026-11-16T19:31:36.259Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:43b552aeb88ac4f0",
+        "title:1e34a6df771ce691"
+      ],
+      "canonical": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten",
+      "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+        "link": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+        "canonical": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten",
+        "published": "Mon, 16 Nov 2026 18:52:55 +0000",
+        "summary": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/moonshot_ai_sciences.png"
+        ],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:43b552aeb88ac4f0",
+          "title:1e34a6df771ce691"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a962a9aff8c6e655": {
+      "id": "defer:url:a962a9aff8c6e655",
+      "at": "2026-11-16T19:31:36.260Z",
+      "firstAt": "2026-11-16T19:31:36.260Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a962a9aff8c6e655",
+        "title:abdf69d67316534d"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
+      "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+        "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+        "canonical": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
+        "published": "Mon, 16 Nov 2026 18:11:10 +0000",
+        "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+        "images": [],
+        "ageHours": 1.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:a962a9aff8c6e655",
+          "title:abdf69d67316534d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b5b8d2f9cb551dda": {
+      "id": "defer:url:b5b8d2f9cb551dda",
+      "at": "2026-11-16T19:31:36.260Z",
+      "firstAt": "2026-11-16T19:31:36.260Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:b5b8d2f9cb551dda",
+        "title:4b031d5c1fcddb9e"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+        "link": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+        "canonical": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+        "published": "Mon, 16 Nov 2026 17:10:00 +0000",
+        "summary": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+        "images": [],
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:b5b8d2f9cb551dda",
+          "title:4b031d5c1fcddb9e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:af037def51a6f595": {
+      "id": "defer:url:af037def51a6f595",
+      "at": "2026-11-16T19:31:36.260Z",
+      "firstAt": "2026-11-16T19:31:36.260Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:af037def51a6f595",
+        "title:04d4b919b5b3adf6"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+      "title": "OpenAI will embed safety researchers to investigate AI subversion",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "OpenAI will embed safety researchers to investigate AI subversion",
+        "link": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+        "canonical": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+        "published": "Mon, 16 Nov 2026 17:02:43 +0000",
+        "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+        "images": [],
+        "ageHours": 2.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:af037def51a6f595",
+          "title:04d4b919b5b3adf6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:aca925b15bf1ae05": {
+      "id": "defer:url:aca925b15bf1ae05",
+      "at": "2026-11-16T19:31:36.260Z",
+      "firstAt": "2026-11-16T19:31:36.260Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:aca925b15bf1ae05",
+        "title:11dc43ec816e5a92"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
+      "title": "Audible turns to AI to help users discover audiobooks",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Audible turns to AI to help users discover audiobooks",
+        "link": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+        "canonical": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
+        "published": "Mon, 16 Nov 2026 15:52:19 +0000",
+        "summary": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+        "images": [],
+        "ageHours": 3.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:aca925b15bf1ae05",
+          "title:11dc43ec816e5a92"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:eff702dcc52a764a": {
+      "id": "defer:url:eff702dcc52a764a",
+      "at": "2026-11-16T19:31:36.260Z",
+      "firstAt": "2026-11-16T19:31:36.260Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:eff702dcc52a764a",
+        "title:dc407eac80ee46a2"
+      ],
+      "canonical": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse",
+      "title": "In The AI Era, Keep Hiring New College Grads — And Make Them Managers From Day One",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "In The AI Era, Keep Hiring New College Grads — And Make Them Managers From Day One",
+        "link": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse/",
+        "canonical": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse",
+        "published": "Mon, 16 Nov 2026 12:00:36 +0000",
+        "summary": "As AI takes over entry-level knowledge work, guest authors Bob Morse of Strattam Capital and Michael Quoia of KSE Leadership argue that these workers should begin their careers managing AI agents, developing skills in delegation, oversight and judgment traditionally learned later.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/HR.jpeg",
+          "https://news.crunchbase.com/wp-content/uploads/Michael-Quoia-e1794341449183-261x300.jpg"
+        ],
+        "ageHours": 7.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:eff702dcc52a764a",
+          "title:dc407eac80ee46a2"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c43b7cd6d2f1c6fd": {
+      "id": "defer:url:c43b7cd6d2f1c6fd",
+      "at": "2026-11-16T19:31:36.260Z",
+      "firstAt": "2026-11-16T19:31:36.260Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:c43b7cd6d2f1c6fd",
+        "title:f3c2984127dd2db5"
+      ],
+      "canonical": "https://www.producthunt.com/products/puffin-2",
+      "title": "Puffin",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Puffin",
+        "link": "https://www.producthunt.com/products/puffin-2",
+        "canonical": "https://www.producthunt.com/products/puffin-2",
+        "published": "2026-11-15T11:51:59-08:00",
+        "summary": "<p> Identity and inboxes for AI agents </p> <p> <a href=\"https://www.producthunt.com/products/puffin-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317965?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/puffin-2",
+        "images": [],
+        "ageHours": 23.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:c43b7cd6d2f1c6fd",
+          "title:f3c2984127dd2db5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:21550db8855da891": {
+      "id": "defer:url:21550db8855da891",
+      "at": "2026-11-16T19:33:14.535Z",
+      "firstAt": "2026-11-16T19:33:14.535Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:21550db8855da891",
+        "title:5870a9c657cfba33"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
+      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+        "link": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+        "canonical": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
+        "published": "Mon, 16 Nov 2026 19:12:02 +0000",
+        "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+        "images": [],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:21550db8855da891",
+          "title:5870a9c657cfba33"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "business"
     }
   },
   "slots": {
@@ -15167,6 +15713,14 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "42/43"
+    },
+    "2026-11-16T23:00+03:30": {
+      "at": "2026-11-16T19:33:14.543Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0029880424,
+      "tokens": 54082,
+      "posts": []
     }
   },
   "published": [
@@ -16495,87 +17049,87 @@
     "ArchiveTell": {
       "last_id": 8433,
       "last_at": "2026-11-16T14:41:17+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "pedramgholizadeh": {
       "last_id": 805,
       "last_at": "2026-11-16T15:52:22+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "ai_farshad": {
       "last_id": 6451,
       "last_at": "2026-11-16T17:31:44+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "Mohammad_zammani": {
       "last_id": 7222,
       "last_at": "2026-11-16T16:56:52+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "techiin_ir": {
-      "last_id": 20786,
-      "last_at": "2026-11-16T15:58:19+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "last_id": 20787,
+      "last_at": "2026-11-16T18:51:59+00:00",
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "mgh_mobin": {
       "last_id": 485,
       "last_at": "2026-11-16T06:56:27+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "web3nabu": {
       "last_id": 2171,
       "last_at": "2026-11-15T22:22:45+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "asrnovin_ir": {
       "last_id": 11474,
       "last_at": "2026-11-16T14:20:43+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "shayanode": {
-      "last_id": 230,
-      "last_at": "2026-11-16T16:50:09+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "last_id": 232,
+      "last_at": "2026-11-16T18:32:25+00:00",
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "codecloude": {
-      "last_id": 2592,
-      "last_at": "2026-11-16T13:56:24+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "last_id": 2593,
+      "last_at": "2026-11-16T18:26:37+00:00",
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "dunijet_ai": {
-      "last_id": 2577,
-      "last_at": "2026-11-16T17:43:20+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "last_id": 2578,
+      "last_at": "2026-11-16T18:36:06+00:00",
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "MatinSenPaii": {
       "last_id": 5893,
       "last_at": "2026-11-16T17:35:22+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     },
     "thenimaonAI": {
       "last_id": 534,
       "last_at": "2026-11-16T10:33:16+00:00",
-      "checked_at": "2026-11-16T17:57:09.157Z"
+      "checked_at": "2026-11-16T19:30:56.427Z"
     }
   },
   "offerReviews": [
@@ -19638,6 +20192,18 @@
       "slot": "2026-11-16T20:30+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-codecloude|https://t.me/codecloude/2593",
+      "date": "2026-11-16",
+      "at": "2026-11-16T19:30:56.427Z",
+      "source": "tg-codecloude",
+      "title": "🎬 یه سناریو بنویس، یه فیلم کامل تحویل بگیر! 🤯🔥",
+      "url": "https://t.me/codecloude/2593",
+      "reason": "denied_link",
+      "slot": "2026-11-16T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -19913,6 +20479,13 @@
       "url": "https://machinelearningmastery.com/serving-scikit-llm-pipelines-as-rest-apis-with-fastapi",
       "slot": "2026-11-16T17:00+03:30",
       "at": "2026-11-16T13:31:24.410Z"
+    },
+    {
+      "source": "tg-shayanode",
+      "title": "پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖",
+      "url": "https://t.me/shaynmll",
+      "slot": "2026-11-16T23:00+03:30",
+      "at": "2026-11-16T19:30:56.427Z"
     }
   ],
   "reviewPending": {},

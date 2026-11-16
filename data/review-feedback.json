@@ -2444,6 +2444,51 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": []
+    },
+    "e9e935b5c6": {
+      "id": "e9e935b5c6",
+      "messageId": 350,
+      "chatId": "-1004443166907",
+      "slot": "2026-11-16T23:00+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-codecloude",
+      "sourceName": "Code.Cloud | کـــد کلاد",
+      "sourceType": "telegram_channel",
+      "title": "🎬 یه سناریو بنویس، یه فیلم کامل تحویل بگیر! 🤯🔥",
+      "url": "https://t.me/codecloude/2593",
+      "leadPostUrl": "https://t.me/codecloude/2593",
+      "messageText": "🎬 یه سناریو بنویس، یه فیلم کامل تحویل بگیر! 🤯🔥\n\nHiggsfield از قابلیت جدید Short Drama Studio رونمایی کرده که می‌تونه با کمک هوش مصنوعی، فیلمنامه‌ات رو به یه مجموعه ویدیویی چندقسمتی تبدیل کنه!\n🎥 از داستان‌های فانتزی تا درام‌های عاشقانه؛ با شخصیت‌های ثابت در قسمت‌های مختلف و خروجی عمودی، افقی یا مربعی!\n\nجذاب‌تر اینکه از طریق Higgsfield MCP می‌تونی داخل ChatGPT و Claude هم ازش استفاده کنی!\n\n🔗 امتحانش کن:\n💬💬📷Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n🔥3👌1",
+      "relatedLinks": [
+        "https://higgsfield.ai/",
+        "http://codecloude.ir/"
+      ],
+      "images": [],
+      "imageUrl": "",
+      "publishedAt": "2026-11-16T18:26:37+00:00",
+      "keys": [
+        "url:aff827fd09d31e74",
+        "title:29311931b58fad81"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-16T19:30:56.427Z",
+      "updatedAt": "2026-11-16T19:30:56.427Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
