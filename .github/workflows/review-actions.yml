@@ -93,6 +93,8 @@ jobs:
         if: env.MODE == 'send'
         env:
           GH_TOKEN: ${{ github.token }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_REVIEW_CHAT_ID: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
         run: |
           set -uo pipefail
           api="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/workflows/slot-runner.yml/runs"
@@ -103,6 +105,10 @@ jobs:
           }
           running="$(count in_progress)"
           waiting="$(count queued)"
+          if [ "${running:-0}" != "0" ] || [ "${waiting:-0}" != "0" ]; then
+            echo "SLOT_BUSY_NOTICE running=${running} queued=${waiting}"
+            node pipeline/review-actions.mjs --queue-notice --send || echo "QUEUE_NOTICE_FAILED"
+          fi
           busy=true
           attempt=0
           while [ "${attempt}" -lt 10 ]; do

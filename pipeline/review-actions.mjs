@@ -57,6 +57,7 @@ const flag = (name) => args.includes(name);
 
 const NOW = option('--now', new Date().toISOString());
 const SEND = flag('--send');
+const QUEUE_NOTICE = flag('--queue-notice');
 const UPDATES_FILE = option('--updates', '');
 const MAX_ACTIONS_ARG = option('--max-actions', '');
 
@@ -155,6 +156,54 @@ async function notify(text) {
     log(`REVIEW_NOTIFY_FAILED ${String(error?.message ?? error)}`);
     return null;
   }
+}
+
+async function queueNotice() {
+  let updates = [];
+  if (UPDATES_FILE) {
+    const raw = JSON.parse(await readFile(resolve(ROOT, UPDATES_FILE), 'utf8'));
+    updates = Array.isArray(raw) ? raw : Array.isArray(raw?.result) ? raw.result : [];
+  } else if (SEND) {
+    try {
+      // offset stays 0 so the presses remain queued for the next real tick.
+      updates = await getUpdates({ token: TOKEN, offset: 0, limit: 20, timeout: 0, timeoutMs: 15000 });
+    } catch (error) {
+      log(`QUEUE_NOTICE_GET_FAILED ${String(error?.message ?? error)}`);
+      return;
+    }
+  }
+  const callbacks = updates
+    .filter((update) => String(update?.callback_query?.data ?? '').startsWith('rv1|'))
+    .slice(0, 20);
+  if (!callbacks.length) {
+    log('QUEUE_NOTICE empty');
+    return;
+  }
+  const body =
+    callbacks.length === 1
+      ? 'دکمه‌ات رفت تو صف، چون اسلات خودکار مشغول است. با کمی تأخیر اعمال می‌شود؛ لازم نیست دوباره بزنی.'
+      : `${callbacks.length} دکمه رفت تو صف، چون اسلات خودکار مشغول است. همه با کمی تأخیر اعمال می‌شوند؛ لازم نیست دوباره بزنی.`;
+  if (!SEND) {
+    log(`DRY_QUEUE_NOTICE callbacks=${callbacks.length}`);
+    log(`DRY_NOTIFY ⏳ ${body}`);
+    return;
+  }
+  let fresh = 0;
+  for (const [index, update] of callbacks.entries()) {
+    try {
+      await answerCallbackQuery(update.callback_query.id, {
+        token: TOKEN,
+        text: index === 0 ? 'رفت تو صف؛ اسلات خودکار مشغول است. با کمی تأخیر اعمال می‌شود؛ دوباره نزن.' : 'رفت تو صف؛ اسلات خودکار مشغول است.',
+        showAlert: index === 0,
+        timeoutMs: 15000,
+      });
+      fresh += 1;
+    } catch (error) {
+      log(`QUEUE_NOTICE_ANSWER_FAILED ${String(error?.message ?? error)}`);
+    }
+  }
+  if (fresh > 0) await notify(`⏳ ${body}`);
+  log(`QUEUE_NOTICE callbacks=${callbacks.length} fresh=${fresh}`);
 }
 
 async function setKeyboard(messageId, keyboard) {
@@ -779,6 +828,10 @@ async function runUpdates(updates) {
 }
 
 async function main() {
+  if (QUEUE_NOTICE) {
+    await queueNotice();
+    return;
+  }
   if (!UPDATES_FILE && !SEND) {
     log('DRY_NO_UPDATES pass --updates <file> to preview actions');
     return;

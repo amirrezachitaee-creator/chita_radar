@@ -98,30 +98,28 @@ function update(action, id, { extra = '', messageId = 42, updateId = 7 } = {}) {
   };
 }
 
-async function run(updates, entries, now = NOW) {
+async function run(updates, entries, now = NOW, { queueNotice = false } = {}) {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-actions-'));
   const feedback = join(dir, 'feedback.json');
   const content = `${JSON.stringify(storeOf(entries), null, 2)}\n`;
   await writeFile(feedback, content, 'utf8');
   const updatesPath = join(dir, 'updates.json');
   await writeFile(updatesPath, JSON.stringify({ ok: true, result: updates }), 'utf8');
-  const output = execFileSync(
-    process.execPath,
-    [
-      SCRIPT,
-      '--updates',
-      updatesPath,
-      '--review-feedback',
-      feedback,
-      '--state',
-      join(dir, 'state.json'),
-      '--review-state',
-      join(dir, 'review-state.json'),
-      '--now',
-      now,
-    ],
-    { cwd: ROOT, encoding: 'utf8' }
-  );
+  const args = [
+    SCRIPT,
+    '--updates',
+    updatesPath,
+    '--review-feedback',
+    feedback,
+    '--state',
+    join(dir, 'state.json'),
+    '--review-state',
+    join(dir, 'review-state.json'),
+    '--now',
+    now,
+  ];
+  if (queueNotice) args.push('--queue-notice');
+  const output = execFileSync(process.execPath, args, { cwd: ROOT, encoding: 'utf8' });
   assert.equal(await readFile(feedback, 'utf8'), content, 'dry run must not write the store');
   return output;
 }
@@ -212,4 +210,27 @@ test('a status-only button answers without touching the item', async () => {
 test('the live publisher imports every store helper it calls', async () => {
   const src = await readFile(new URL('./review-actions.mjs', import.meta.url), 'utf8');
   assert.match(src, /import\s*\{[^}]*\brecordPublished\b[^}]*\}\s*from\s*'\.\/store\.mjs'/s);
+});
+
+test('a queued press is announced with the busy-slot reason and stays unprocessed', async () => {
+  const output = await run([update('p', 'deadbeef01')], [item()], NOW, { queueNotice: true });
+  assert.match(output, /DRY_QUEUE_NOTICE callbacks=1/);
+  assert.match(output, /DRY_NOTIFY ⏳ دکمه‌ات رفت تو صف، چون اسلات خودکار مشغول است/);
+  assert.doesNotMatch(output, /DRY_PUBLISH/);
+  assert.doesNotMatch(output, /REVIEW_PUBLISH/);
+});
+
+test('several queued presses are counted in one notice', async () => {
+  const output = await run(
+    [
+      update('p', 'deadbeef01', { updateId: 8 }),
+      update('x', 'deadbeef01', { extra: 'quality', updateId: 9, messageId: 43 }),
+    ],
+    [item()],
+    NOW,
+    { queueNotice: true }
+  );
+  assert.match(output, /DRY_QUEUE_NOTICE callbacks=2/);
+  assert.match(output, /DRY_NOTIFY ⏳ 2 دکمه رفت تو صف، چون اسلات خودکار مشغول است/);
+  assert.doesNotMatch(output, /DRY_PUBLISH|DRY_REWRITE|REVIEW_REJECTED/);
 });
