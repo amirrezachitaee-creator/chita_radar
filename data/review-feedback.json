@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883476,
+  "offset": 659883483,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -1053,10 +1053,10 @@
     },
     "b4d32a8bb9": {
       "id": "b4d32a8bb9",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-15T19:31:03.958Z",
-      "updatedAt": "2026-11-15T19:31:03.958Z",
+      "updatedAt": "2026-11-16T11:20:10.138Z",
       "messageId": 312,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T23:00+03:30",
@@ -1094,15 +1094,16 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T11:20:10.138Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "97c45461ea": {
       "id": "97c45461ea",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-15T19:31:03.958Z",
-      "updatedAt": "2026-11-15T19:31:03.958Z",
+      "updatedAt": "2026-11-16T11:19:42.120Z",
       "messageId": 313,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T23:00+03:30",
@@ -1132,8 +1133,9 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T11:19:42.120Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "b3a602fe91": {
       "id": "b3a602fe91",
@@ -1731,6 +1733,24 @@
       "reason": "",
       "detail": "qa_pass cost=$0.001667",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T11:19:42.120Z",
+      "action": "reject",
+      "itemId": "97c45461ea",
+      "source": "tg-shayanode",
+      "reason": "promo",
+      "detail": "ربات شخص سازی شده برای شرکت ها و بیزنس ها قابل سفارشه🙏🏼",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T11:20:10.138Z",
+      "action": "reject",
+      "itemId": "b4d32a8bb9",
+      "source": "tg-techiin",
+      "reason": "irrelevant",
+      "detail": "✅ تصویب تشکیل صندوق سرمایه‌گذاری خطرپذیر بورسی هوش‌مصنوعی",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -1741,16 +1761,22 @@
       "lastAt": "2026-11-15T14:42:17.514Z"
     },
     "tg-techiin": {
-      "rejects": 1,
+      "rejects": 2,
       "rewrites": 1,
       "publishes": 0,
-      "lastAt": "2026-11-15T17:48:06.656Z"
+      "lastAt": "2026-11-16T11:20:10.138Z"
     },
     "tg-archive-tell": {
       "rejects": 0,
       "rewrites": 2,
       "publishes": 0,
       "lastAt": "2026-11-15T17:49:47.996Z"
+    },
+    "tg-shayanode": {
+      "rejects": 1,
+      "rewrites": 0,
+      "publishes": 0,
+      "lastAt": "2026-11-16T11:19:42.120Z"
     }
   }
 }
