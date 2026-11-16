@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T11:20:10.144Z",
+  "updatedAt": "2026-11-16T12:43:08.466Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -403,6 +403,24 @@
       "slot": "2026-11-15T23:00+03:30",
       "title": "✅ تصویب تشکیل صندوق سرمایه‌گذاری خطرپذیر بورسی هوش‌مصنوعی",
       "url": "https://t.me/techiin_ir/20781"
+    },
+    "url:81a7dc557ad3e7bb": {
+      "at": "2026-11-16T12:43:08.461Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "tools",
+      "slot": "2026-11-16T16:11",
+      "title": "پلاگین جدید دیپ‌سیک هارنس، مدل‌های قوی را رایگان می‌کند",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+    },
+    "title:ca73f39ac87ee9f8": {
+      "at": "2026-11-16T12:43:08.461Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "tools",
+      "slot": "2026-11-16T16:11",
+      "title": "پلاگین جدید دیپ‌سیک هارنس، مدل‌های قوی را رایگان می‌کند",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
     }
   },
   "deferred": {},

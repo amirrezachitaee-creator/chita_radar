@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883484,
+  "offset": 659883485,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -855,10 +855,10 @@
     },
     "ffb7a9e726": {
       "id": "ffb7a9e726",
-      "status": "pending",
+      "status": "sent",
       "rewrites": 2,
       "createdAt": "2026-11-15T17:00:58.089Z",
-      "updatedAt": "2026-11-15T17:49:47.996Z",
+      "updatedAt": "2026-11-16T12:43:08.458Z",
       "messageId": 310,
       "chatId": "-1004443166907",
       "slot": "2026-11-15T20:30+03:30",
@@ -923,14 +923,14 @@
         },
         "verification": "unverified",
         "source_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-        "image_url": "https://opengraph.githubassets.com/3195a78baf5509671e29836c218ba3be25b7955ca7ac940e6f856d73f8d255ae/Ebony-Vinyl/dsh-our-free-model",
+        "image_url": "https://opengraph.githubassets.com/82598f202471806a9b8aa4a93821771c7bd3199124da3c5ed9fb5a8f1cfed141/Ebony-Vinyl/dsh-our-free-model",
         "dedupe_key": "ebony-vinyl-dsh-our-free-model-release"
       },
       "expiry": null,
-      "lastActionAt": "2026-11-15T17:49:47.996Z",
-      "sentAt": "",
+      "lastActionAt": "2026-11-16T12:43:08.458Z",
+      "sentAt": "2026-11-16T12:43:08.458Z",
       "manual": true,
-      "lastAction": "rewrite"
+      "lastAction": "publish"
     },
     "888d2be7ec": {
       "id": "888d2be7ec",
@@ -1751,6 +1751,15 @@
       "reason": "irrelevant",
       "detail": "✅ تصویب تشکیل صندوق سرمایه‌گذاری خطرپذیر بورسی هوش‌مصنوعی",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T12:43:08.458Z",
+      "action": "publish",
+      "itemId": "ffb7a9e726",
+      "source": "tg-archive-tell",
+      "reason": "",
+      "detail": "message=88 text",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -1769,8 +1778,8 @@
     "tg-archive-tell": {
       "rejects": 0,
       "rewrites": 2,
-      "publishes": 0,
-      "lastAt": "2026-11-15T17:49:47.996Z"
+      "publishes": 1,
+      "lastAt": "2026-11-16T12:43:08.458Z"
     },
     "tg-shayanode": {
       "rejects": 1,

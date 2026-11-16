@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T11:20:10.139Z",
+  "updatedAt": "2026-11-16T12:43:08.461Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9052,21 +9052,21 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen"
     },
     "url:81a7dc557ad3e7bb": {
-      "at": "2026-11-15T17:03:34.330Z",
-      "decision": "review",
-      "reason": "model_skip",
-      "category": "",
-      "slot": "2026-11-15T20:30+03:30",
-      "title": "🔥مدل‌های رایگان، بدون کلید و ثبت‌نام",
+      "at": "2026-11-16T12:43:08.461Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "tools",
+      "slot": "2026-11-16T16:11",
+      "title": "پلاگین جدید دیپ‌سیک هارنس، مدل‌های قوی را رایگان می‌کند",
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
     },
     "title:ca73f39ac87ee9f8": {
-      "at": "2026-11-15T17:03:34.330Z",
-      "decision": "review",
-      "reason": "model_skip",
-      "category": "",
-      "slot": "2026-11-15T20:30+03:30",
-      "title": "🔥مدل‌های رایگان، بدون کلید و ثبت‌نام",
+      "at": "2026-11-16T12:43:08.461Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "tools",
+      "slot": "2026-11-16T16:11",
+      "title": "پلاگین جدید دیپ‌سیک هارنس، مدل‌های قوی را رایگان می‌کند",
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
     },
     "url:371073a0a0518dfc": {
@@ -15157,6 +15157,24 @@
       "sourceTitle": "GitHub - alexgreensh/anidoodle: Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
       "sourceText": "😄 اینم لینک هر ۴ اسکیل انیمیشن که توی ریلز دیدی:\n\n▶️ Anidoodle\nبرای جون دادن به نقاشی‌های ثابت\n\n▶️ Huashu Art Motion\nبرای ساخت انیمیشن‌های پیکسلی\n\n▶️ Claude Animation Base\nبرای متحرک کردن کاراکترهای کارتونی\n\n▶️ Manim Skill\nبرای متحرک کردن فرمول‌ها و نمودارهای ریاضی\n\nهمراه ما باشید. 🙏🏻\n\n@ai_farshad\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n😁2❤1👍1",
       "at": "2026-11-16T10:32:54.771Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-16T16:11",
+      "category": "tools",
+      "kind": "offer",
+      "title": "پلاگین جدید دیپ‌سیک هارنس، مدل‌های قوی را رایگان می‌کند",
+      "why": "با این پلاگین، هر کسی بدون هیچ هزینه‌ای می‌تونه مدل‌های به‌روز رو توی ابزار خودش امتحان کنه و دیگه نگران سهمیه استفاده نباشه.\nبدون تاریخ انقضای اعلام‌شده",
+      "dedupe_key": "url:81a7dc557ad3e7bb",
+      "post_key": "2026-11-16T16:11/review/ffb7a9e726",
+      "sourceId": "tg-archive-tell",
+      "sourceName": "ArchiveTell",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "sourceTitle": "GitHub - Ebony-Vinyl/dsh-our-free-model: 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "sourceText": "🔥مدل‌های رایگان، بدون کلید و ثبت‌نام\n⠀\nیه پلاگین برای دیپ‌سیک هارنس، مدل‌های قوی را رایگان و بدون کلید در اختیارت میذاره.\n⠀\n🔐 بدون ثبت‌نام، بدون کلید و بدون کارت\n🤖 مدل های DeepSeek V4.1 Flash, Kimi K3 و GLM 5.3 Flash\n🌐 از طریق پورتال‌های OpenCode Zen و Kilo استفاده میکنه.\n⠀\nاین پلاگین که Our Free Model اسمشه، داخل دیپ‌سیک هارنس نصب می‌شه و مدل‌ها را از درگاه‌های رایگان عمومی می‌گیره؛ یه درگاه سازگار با اوپن‌ای‌آی هم روی کامپیوتر خودت باز می‌کنه تا بقیهٔ ابزارها هم بهش وصل بشن. نصب با این دستوره: dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.5 و بعد ری‌استارت.\n⠀\n📌 ریپوی گیت‌هاب\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤13🔥1🗿1😎1",
+      "at": "2026-11-16T12:43:08.461Z"
     }
   ],
   "telegram": {
