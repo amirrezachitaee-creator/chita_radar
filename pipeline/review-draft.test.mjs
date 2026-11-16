@@ -7,6 +7,7 @@ import { buildUserMessage } from './engine.mjs';
 import {
   candidateFromItem,
   draftReviewPost,
+  noteLinksForItem,
   offerContextFromItem,
   qaContextForItem,
   resolvedImageUrl,
@@ -230,6 +231,97 @@ test('without a repair the long title is kept so QA can reject it', async () => 
   assert.equal(result.post.title, longTitle);
   assert.ok(result.qa.problems.includes('title_words'));
   assert.equal(result.reason, 'qa_failed');
+});
+
+const REPAIRED_BODY = [
+  'شرکت مدل تازه‌اش را برای توسعه‌دهنده‌ها معرفی کرد و گفت دسترسی به آن از همین امروز باز شده.',
+  '',
+  'به گفتهٔ شرکت، این مدل برای کارهای روزمره تیم‌ها ساخته شده و لازم نیست کسی تنظیمات پیچیده انجام بدهد. هر کسی می‌تواند با همان حساب فعلی‌اش امتحانش کند و نتیجه را مستقیم در کار خودش ببیند.',
+  '',
+  'این موضوع از اونجایی مهمه که ورود به این مدل بدون فرایند تازه انجام می‌شه و تیم‌های کوچک می‌تونن زودتر کارشان را شروع کنند.',
+].join('\n');
+
+test('a length failure gets one repair and the better version is kept', async () => {
+  const shortStandard = {
+    ...JSON.parse(PUBLISH_JSON),
+    post_type: 'standard',
+    category: 'models',
+    title: 'مدل تازه شرکت معرفی شد',
+    body: 'شرکت مدل تازه‌اش را معرفی کرد.\n\nاهمیتش اینه که دسترسی توسعه‌دهنده‌ها ساده‌تر می‌شود.',
+  };
+  let repairs = 0;
+  const result = await draftReviewPost({
+    item: baseItem(),
+    now: NOW,
+    manual: true,
+    request: async () => ({ content: JSON.stringify(shortStandard), usage: { cost: 0.001, total_tokens: 200 } }),
+    repairPost: async ({ parsed, qa }) => {
+      repairs += 1;
+      assert.equal(parsed.post_type, 'standard');
+      assert.ok(qa.problems.includes('length'), qa.problems.join(','));
+      return {
+        content: JSON.stringify({ ...shortStandard, body: REPAIRED_BODY }),
+        usage: { cost: 0.0005, total_tokens: 50 },
+      };
+    },
+  });
+  assert.equal(repairs, 1);
+  assert.equal(result.qa.pass, true, result.qa.problems.join(','));
+  assert.equal(result.qa.problems.includes('length'), false);
+  assert.equal(result.post.body.includes('تیم‌های کوچک می‌تونن زودتر'), true);
+  assert.equal(result.cost, 0.0015);
+  assert.equal(result.tokens, 250);
+  assert.equal(result.reason, 'ok');
+});
+
+test('a repair that does not improve the post leaves the original for QA', async () => {
+  const shortStandard = {
+    ...JSON.parse(PUBLISH_JSON),
+    post_type: 'standard',
+    category: 'models',
+    body: 'شرکت مدل تازه‌اش را معرفی کرد.\n\nاهمیتش اینه که دسترسی توسعه‌دهنده‌ها ساده‌تر می‌شود.',
+  };
+  let repairs = 0;
+  const result = await draftReviewPost({
+    item: baseItem(),
+    now: NOW,
+    manual: true,
+    request: async () => ({ content: JSON.stringify(shortStandard), usage: { cost: 0.001, total_tokens: 200 } }),
+    repairPost: async () => {
+      repairs += 1;
+      return { content: JSON.stringify({ ...shortStandard, body: 'خیلی کوتاه' }), usage: { cost: 0.0002, total_tokens: 20 } };
+    },
+  });
+  assert.equal(repairs, 1);
+  assert.ok(result.qa.problems.includes('length'));
+  assert.equal(result.reason, 'qa_failed');
+  assert.ok(Math.abs(result.cost - 0.0012) < 1e-12);
+  assert.equal(result.tokens, 220);
+});
+
+test('an operator note reaches the writer prompt and the QA grounding', async () => {
+  const note = 'منبع مکمل: https://example.com/extra\nاین را هم در متن لحاظ کن.';
+  const item = baseItem({ note });
+  let story;
+  await draftReviewPost({
+    item,
+    now: NOW,
+    request: async (input) => {
+      story = input;
+      return { content: PUBLISH_JSON, usage: { cost: 0, total_tokens: 10 } };
+    },
+  });
+  assert.equal(story.note, note);
+  const prompt = buildUserMessage(story);
+  assert.match(prompt, /یادداشت اپراتور/);
+  assert.ok(prompt.includes('https://example.com/extra'));
+  const context = qaContextForItem(item, { category: 'models' }, NOW, {});
+  assert.ok(context.content.includes(note));
+  assert.ok(context.links.includes('https://example.com/extra'));
+  assert.deepEqual(
+    noteLinksForItem(baseItem({ note: 'https://t.me/example/1 https://example.com/a' })),
+    ['https://example.com/a']
+  );
 });
 
 test('the item context keeps the source, links, flags, and offer expiry', () => {

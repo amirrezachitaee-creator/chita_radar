@@ -24,7 +24,7 @@ const REJECT_LABELS = Object.freeze({
   other: 'دلیل دیگر',
 });
 
-const CALLBACK_PATTERN = /^rv1\|([mrxwpsd])\|([a-f0-9]{8,12})(?:\|([a-z]{1,12}))?$/;
+const CALLBACK_PATTERN = /^rv1\|([mnrxwpsd])\|([a-f0-9]{8,12})(?:\|([a-z]{1,12}))?$/;
 
 export function emptyReviewStore() {
   return {
@@ -53,6 +53,16 @@ export function normalizeReviewStore(value) {
         updatedAt: '',
         ...item,
       };
+      const entry = store.items[id];
+      entry.note = String(entry.note ?? '').slice(0, 2000);
+      entry.noteAt = String(entry.noteAt ?? '');
+      entry.noteBy = String(entry.noteBy ?? '').slice(0, 40);
+      entry.previousMessageIds = Array.isArray(entry.previousMessageIds)
+        ? entry.previousMessageIds
+            .map((value) => Number(value))
+            .filter((value, index, all) => Number.isInteger(value) && value > 0 && all.indexOf(value) === index)
+            .slice(-5)
+        : [];
     }
   }
   if (value.pendingRejects && typeof value.pendingRejects === 'object') {
@@ -64,6 +74,20 @@ export function normalizeReviewStore(value) {
         actor: String(entry.actor ?? '').slice(0, 40),
         at: String(entry.at ?? ''),
         messageId: Number(entry.messageId) || 0,
+      };
+    }
+  }
+  if (value.pendingNotes && typeof value.pendingNotes === 'object') {
+    store.pendingNotes = {};
+    for (const [key, entry] of Object.entries(value.pendingNotes)) {
+      if (!/^\d+$/.test(key) || !entry || typeof entry !== 'object') continue;
+      const text = String(entry.text ?? '').trim().slice(0, 2000);
+      if (!text) continue;
+      store.pendingNotes[key] = {
+        text,
+        at: String(entry.at ?? ''),
+        actor: String(entry.actor ?? '').slice(0, 40),
+        chatId: String(entry.chatId ?? ''),
       };
     }
   }
@@ -135,6 +159,15 @@ export function createReviewItem(store, fields = {}) {
     qaPass: fields.qaPass === true || mainEligible,
     post: fields.post && typeof fields.post === 'object' ? fields.post : null,
     expiry: fields.expiry ?? null,
+    note: String(fields.note ?? '').slice(0, 2000),
+    noteAt: String(fields.noteAt ?? ''),
+    noteBy: String(fields.noteBy ?? '').slice(0, 40),
+    previousMessageIds: Array.isArray(fields.previousMessageIds)
+      ? fields.previousMessageIds
+          .map((value) => Number(value))
+          .filter((value) => Number.isInteger(value) && value > 0)
+          .slice(-5)
+      : [],
     status: 'pending',
     rewrites: 0,
     createdAt: now,
@@ -147,7 +180,7 @@ export function createReviewItem(store, fields = {}) {
 }
 
 export function reviewCallback(action, id, extra = '') {
-  if (!/^[mrxwps]$/.test(String(action))) throw new Error('BAD_REVIEW_ACTION');
+  if (!/^[mnrxwps]$/.test(String(action))) throw new Error('BAD_REVIEW_ACTION');
   if (!/^[a-f0-9]{8,12}$/.test(String(id))) throw new Error('BAD_REVIEW_ID');
   const suffix = extra ? `|${extra}` : '';
   const data = `rv1|${action}|${id}${suffix}`;
@@ -172,6 +205,7 @@ export function keyboardFor(item, { rewriteCap = 2 } = {}) {
   const cap = Math.max(0, Number(rewriteCap) || 0);
   const rewrites = Math.max(0, Number(item.rewrites) || 0);
   const reject = { text: 'رد', callback_data: reviewCallback('r', item.id) };
+  const note = { text: 'یادداشت', callback_data: reviewCallback('n', item.id) };
   const rows = [];
   if (rewrites < cap) {
     rows.push([
@@ -180,9 +214,10 @@ export function keyboardFor(item, { rewriteCap = 2 } = {}) {
         text: rewrites > 0 ? 'بازنویسی مجدد' : 'بازنویسی',
         callback_data: reviewCallback('w', item.id),
       },
+      note,
     ]);
   } else {
-    rows.push([reject]);
+    rows.push([reject, note]);
   }
   const canPublish = Boolean(item.post) && (item.mainEligible === true || rewrites > 0);
   if (canPublish) {

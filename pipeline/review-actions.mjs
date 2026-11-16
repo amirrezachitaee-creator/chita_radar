@@ -5,6 +5,7 @@ import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   applyMechanicalFixes,
+  buildQaRepairMessage,
   buildTitleRepairMessage,
   buildUserMessage,
   callWithRetry,
@@ -43,6 +44,7 @@ import {
 } from './review-items.mjs';
 import {
   draftReviewPost,
+  noteLinksForItem,
   offerContextFromItem,
   resolvedImageUrl,
   toolUsageForItem,
@@ -92,7 +94,9 @@ try {
 const redact = makeRedactor(env);
 
 const TOKEN = env.TELEGRAM_BOT_TOKEN || '';
-const REVIEW_CHAT_ID = String(env[config.offers?.review?.chat_env || 'TELEGRAM_REVIEW_CHAT_ID'] || '');
+const REVIEW_CHAT_ID = String(
+  option('--review-chat', '') || env[config.offers?.review?.chat_env || 'TELEGRAM_REVIEW_CHAT_ID'] || ''
+);
 const CHAT_ID = String(env.TELEGRAM_CHAT_ID || '');
 const REVIEW_ENABLED = config.offers?.review?.enabled !== false && ACTION_SETTINGS.enabled !== false;
 
@@ -474,6 +478,75 @@ function drainPendingRejects() {
   return changed;
 }
 
+function itemMessageIds(item) {
+  const ids = [
+    Number(item?.messageId) || 0,
+    ...(Array.isArray(item?.previousMessageIds) ? item.previousMessageIds : []).map(Number),
+  ];
+  return [...new Set(ids.filter((value) => Number.isInteger(value) && value > 0))];
+}
+
+function findItemByMessageId(messageId) {
+  const wanted = Number(messageId) || 0;
+  let best = null;
+  for (const item of Object.values(store.items)) {
+    if (!item) continue;
+    if (!itemMessageIds(item).includes(wanted)) continue;
+    if (!best || Date.parse(item.updatedAt || '') > Date.parse(best.updatedAt || '')) best = item;
+  }
+  return best;
+}
+
+function noteSnippet(text) {
+  const clean = String(text ?? '').replace(/\s+/g, ' ').trim();
+  return clean.length > 80 ? `${clean.slice(0, 80)}…` : clean;
+}
+
+function attachNote(item, text, actor = '', at = new Date().toISOString()) {
+  const note = String(text ?? '').trim().slice(0, 2000);
+  if (!item || !note) return null;
+  const replaced = Boolean(String(item.note ?? '').trim());
+  item.note = note;
+  item.noteAt = at;
+  item.noteBy = String(actor ?? '').slice(0, 40);
+  item.updatedAt = at;
+  return { replaced, length: note.length, links: noteLinksForItem(item).length };
+}
+
+async function drainPendingNotes({ refresh = false } = {}) {
+  const pending = store.pendingNotes;
+  if (!pending || typeof pending !== 'object' || !Object.keys(pending).length) return false;
+  if (SEND && refresh) refreshItemsFromOrigin({ force: true });
+  let changed = false;
+  for (const [messageId, entry] of Object.entries(pending)) {
+    const item = findItemByMessageId(messageId);
+    if (!item) {
+      const at = Date.parse(String(entry?.at ?? ''));
+      if (Number.isFinite(at) && Date.now() - at > 24 * 3600000) {
+        delete pending[messageId];
+        changed = true;
+      }
+      continue;
+    }
+    if (['sent', 'rejected', 'expired'].includes(item.status)) {
+      delete pending[messageId];
+      changed = true;
+      continue;
+    }
+    const attached = attachNote(item, entry?.text, entry?.actor, entry?.at || new Date().toISOString());
+    if (!attached) continue;
+    delete pending[messageId];
+    changed = true;
+    log(
+      `REVIEW_NOTE_APPLIED id=${item.id} message=${messageId} chars=${attached.length} | ${item.title}`
+    );
+    await notify(
+      `یادداشت ذخیره‌شده روی کارت ثبت شد؛ در بازنویسی بعدی لحاظ می‌شود.\n«${noteSnippet(entry?.text)}»`
+    );
+  }
+  return changed;
+}
+
 function activeItem(review, query) {
   let item = store.items[review.id];
   if (!item && refreshItemsFromOrigin({ force: true })) item = store.items[review.id];
@@ -511,6 +584,17 @@ async function handleBack(review, query) {
   if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'دکمه‌ها برگشتند.');
   await setKeyboard(item.messageId, keyboardFor(item, { rewriteCap: REWRITE_CAP }));
+}
+
+async function handleNote(review, query) {
+  const item = store.items[review.id];
+  if (item && ['sent', 'rejected', 'expired'].includes(item.status)) {
+    await answer(query.id, 'این کارت بسته شده؛ یادداشت ثبت نمی‌شود.');
+    return null;
+  }
+  await answer(query.id, 'یادداشت یا منبع را به همین کارت ریپلای کن؛ در بازنویسی بعدی لحاظ می‌شود.');
+  log(`REVIEW_NOTE_HINT id=${review.id}${item ? ` | ${item.title}` : ' unregistered=1'}`);
+  return null;
 }
 
 async function handleDeleteMessage(query) {
@@ -630,7 +714,11 @@ async function handleRewrite(review, query) {
   delete item.queuedPublish;
   await persistStore();
   await answer(query.id, 'بازنویسی شروع شد؛ نتیجه در پیام تازه می‌آید.');
-  log(`REVIEW_REWRITE_START id=${item.id} attempt=${Number(item.rewrites) + 1}/${REWRITE_CAP} manual=1`);
+  log(
+    `REVIEW_REWRITE_START id=${item.id} attempt=${Number(item.rewrites) + 1}/${REWRITE_CAP} manual=1 note=${
+      String(item.note ?? '').trim() ? '1' : '0'
+    }`
+  );
 
   if (!SEND) {
     const next = {
@@ -679,6 +767,29 @@ async function handleRewrite(review, query) {
           redact,
         },
         3,
+        log
+      ),
+    repairPost: ({ story, parsed, qa }) =>
+      callWithRetry(
+        {
+          base: writer.base,
+          apiKey: writer.apiKey,
+          model: writer.model,
+          system,
+          user: buildQaRepairMessage({
+            user: buildUserMessage(story),
+            parsed,
+            qa,
+            imageUrl: resolvedImageUrl(item),
+            usageUrl: toolUsageForItem(item)?.url ?? '',
+            operatorNote: Boolean(String(item.note ?? '').trim()),
+          }),
+          maxTokens: writer.maxTokens,
+          timeoutMs: writer.timeoutMs,
+          reasoningEffort: writer.reasoningEffort,
+          redact,
+        },
+        2,
         log
       ),
     repairTitle: ({ story, parsed, qa }) =>
@@ -740,7 +851,14 @@ async function handleRewrite(review, query) {
     await notify('پیش‌نویس تازه فرستاده نشد؛ دکمه‌های قبلی معتبرند.');
     return null;
   }
-  item.messageId = sent.messageId ?? oldMessageId;
+  const nextMessageId = sent.messageId ?? oldMessageId;
+  const previousIds = Array.isArray(item.previousMessageIds) ? item.previousMessageIds : [];
+  if (oldMessageId && Number(oldMessageId) !== Number(nextMessageId)) {
+    item.previousMessageIds = [...previousIds, Number(oldMessageId)]
+      .filter((value, index, all) => Number.isInteger(value) && value > 0 && all.indexOf(value) === index)
+      .slice(-5);
+  }
+  item.messageId = nextMessageId;
   recordReviewAction(store, {
     item,
     action: 'rewrite',
@@ -758,7 +876,9 @@ async function handleRewrite(review, query) {
   log(
     `REVIEW_REWRITTEN id=${item.id} attempt=${item.rewrites}/${REWRITE_CAP} manual=1 clean=1 qa=${
       item.qaPass ? 'PASS' : 'FAIL'
-    } message=${item.messageId} cost=$${Number(result.cost ?? 0).toFixed(6)} tokens=${result.tokens}`
+    } note=${String(item.note ?? '').trim() ? '1' : '0'} message=${item.messageId} cost=$${Number(
+      result.cost ?? 0
+    ).toFixed(6)} tokens=${result.tokens}`
   );
   return null;
 }
@@ -996,6 +1116,53 @@ async function processQueuedPublishes() {
   }
 }
 
+async function dispatchNote(update) {
+  const message = update?.message;
+  if (!message) return { handled: false };
+  if (String(message.chat?.id ?? '') !== REVIEW_CHAT_ID) return { handled: false };
+  if (message.from?.is_bot === true) return { handled: false };
+  const text = String(message.text ?? message.caption ?? '').trim();
+  if (!text) return { handled: false };
+  const replyTo = Number(message.reply_to_message?.message_id ?? 0);
+  if (!replyTo) {
+    log('REVIEW_NOTE_IGNORED no_reply');
+    return { handled: false };
+  }
+  const at = new Date().toISOString();
+  const actor = message.from?.username || String(message.from?.id ?? '');
+  const item = findItemByMessageId(replyTo);
+  if (item) {
+    if (['sent', 'rejected', 'expired'].includes(item.status)) {
+      await notify('این کارت بسته شده؛ یادداشت ثبت نشد.');
+      log(`REVIEW_NOTE_CLOSED message=${replyTo} status=${item.status}`);
+      return { handled: true };
+    }
+    const attached = attachNote(item, text, actor, at);
+    if (!attached) return { handled: false };
+    await persistStore();
+    log(
+      `REVIEW_NOTE id=${item.id} chars=${attached.length} links=${attached.links} replaced=${
+        attached.replaced ? '1' : '0'
+      } message=${replyTo} | ${item.title}`
+    );
+    await notify(
+      `${attached.replaced ? 'یادداشت تازه ثبت شد و جایگزین قبلی شد' : 'یادداشت ثبت شد'}؛ در بازنویسی بعدی لحاظ می‌شود.\n«${noteSnippet(text)}»`
+    );
+    return { handled: true };
+  }
+  if (!store.pendingNotes || typeof store.pendingNotes !== 'object') store.pendingNotes = {};
+  store.pendingNotes[replyTo] = {
+    text: text.slice(0, 2000),
+    at,
+    actor,
+    chatId: String(message.chat.id),
+  };
+  await persistStore();
+  log(`REVIEW_NOTE_PENDING message=${replyTo} chars=${text.length}`);
+  await notify('یادداشت ذخیره شد؛ به‌محض ثبت همین کارت، در بازنویسی بعدی لحاظ می‌شود.');
+  return { handled: true };
+}
+
 async function dispatch(update) {
   const query = update?.callback_query;
   if (!query?.data) return { handled: false };
@@ -1026,39 +1193,54 @@ async function dispatch(update) {
   else if (review.action === 'w') outcome = await handleRewrite(review, query);
   else if (review.action === 'x') outcome = await handleReject(review, query);
   else if (review.action === 'r') outcome = await handleRejectMenu(review, query);
+  else if (review.action === 'n') outcome = await handleNote(review, query);
   else outcome = await handleBack(review, query);
   return { handled: true, confirm: outcome?.retry === true ? false : true };
 }
 
 async function runUpdates(updates) {
-  const callbacks = updates
-    .filter((update) => update?.callback_query)
+  const pending = updates
+    .filter((update) => update?.callback_query || update?.message)
     .slice(0, MAX_ACTIONS)
     .sort((a, b) => Number(a.update_id) - Number(b.update_id));
+  const callbacks = pending.filter((update) => update.callback_query).length;
+  const notes = pending.filter((update) => update.message).length;
   log(
-    `REVIEW_ACTIONS updates=${updates.length} callbacks=${callbacks.length} offset=${
+    `REVIEW_ACTIONS updates=${updates.length} callbacks=${callbacks} notes=${notes} offset=${
       Number(store.offset) || 0
     } mode=${SEND ? 'live' : 'dry'} poll=${POLL_SECONDS}s`
   );
   let handled = 0;
   let failed = 0;
   let stalled = false;
-  for (const update of callbacks) {
+  for (const update of pending) {
+    const isCallback = Boolean(update.callback_query);
     let confirm = true;
     try {
-      const result = await dispatch(update);
-      if (result.handled) handled += 1;
-      confirm = result.confirm !== false;
+      if (isCallback) {
+        const result = await dispatch(update);
+        if (result.handled) handled += 1;
+        confirm = result.confirm !== false;
+      } else {
+        const result = await dispatchNote(update);
+        if (result?.handled) handled += 1;
+      }
     } catch (error) {
       failed += 1;
       const detail = String(error?.message ?? error).replace(/\s+/g, ' ').slice(0, 160);
       log(`REVIEW_ACTION_FAILED ${detail}`);
-      if (SEND) await notify(`یک دکمه خطا خورد: ${detail}\nاگر انتشار بود، کانال اصلی را چک کن.`);
+      if (SEND) {
+        await notify(
+          isCallback
+            ? `یک دکمه خطا خورد: ${detail}\nاگر انتشار بود، کانال اصلی را چک کن.`
+            : `یادداشت ثبت نشد: ${detail}\nدوباره بفرست.`
+        );
+      }
     }
     if (!SEND) continue;
 
     const updateId = Number(update.update_id) || 0;
-    if (!confirm) {
+    if (isCallback && !confirm) {
       const retries =
         store.callbackRetries && typeof store.callbackRetries === 'object'
           ? store.callbackRetries
@@ -1096,7 +1278,9 @@ async function main() {
     return;
   }
 
-  if (drainPendingRejects()) await persist();
+  const drainedRejects = drainPendingRejects();
+  const drainedNotes = await drainPendingNotes({ refresh: true });
+  if (drainedRejects || drainedNotes) await persist();
 
   await processQueuedPublishes();
 
@@ -1143,6 +1327,7 @@ async function main() {
           limit: MAX_ACTIONS,
           timeout: POLL_TIMEOUT,
           timeoutMs: POLL_HTTP_TIMEOUT,
+          allowedUpdates: ['callback_query', 'message'],
         });
       } catch (error) {
         log(`GET_UPDATES_FAILED ${String(error?.message ?? error)}`);
@@ -1171,6 +1356,7 @@ async function main() {
   }
 
   await processQueuedPublishes();
+  if (await drainPendingNotes({ refresh: true })) await persistStore();
 
   for (const [key, entry] of Object.entries(store.callbackRetries ?? {})) {
     const at = Date.parse(entry?.at ?? '');

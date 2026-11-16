@@ -56,12 +56,14 @@ test('a review item gets a short callback id and stays outside the terminal stat
 test('callback data round-trips and rejects anything outside the tiny menu', () => {
   const id = 'a1b2c3d4e5';
   assert.equal(parseReviewCallback(reviewCallback('m', id)).action, 'm');
+  assert.equal(parseReviewCallback(reviewCallback('n', id)).action, 'n');
   assert.deepEqual(parseReviewCallback(reviewCallback('x', id, 'quality')), {
     action: 'x',
     id,
     extra: 'quality',
   });
   assert.equal(parseReviewCallback(reviewCallback('w', id, 'quality')), null);
+  assert.equal(parseReviewCallback(reviewCallback('n', id, 'quality')), null);
   assert.equal(parseReviewCallback(`rv1|x|${id}|bogus`), null);
   assert.equal(parseReviewCallback(`rv1|p|${id}|injected`), null);
   assert.equal(parseReviewCallback('rv1|p|../../etc'), null);
@@ -84,10 +86,10 @@ test('the first keyboard offers reject, rewrite, and publish only for a ready po
   const readyRows = keyboardFor(ready).inline_keyboard;
   const notReadyRows = keyboardFor(notReady).inline_keyboard;
   assert.equal(readyRows.length, 2);
-  assert.deepEqual(readyRows[0].map((button) => button.text), ['رد', 'بازنویسی']);
+  assert.deepEqual(readyRows[0].map((button) => button.text), ['رد', 'بازنویسی', 'یادداشت']);
   assert.equal(readyRows[1][0].text, 'ارسال به کانال اصلی');
   assert.equal(notReadyRows.length, 1);
-  assert.deepEqual(notReadyRows[0].map((button) => button.text), ['رد', 'بازنویسی']);
+  assert.deepEqual(notReadyRows[0].map((button) => button.text), ['رد', 'بازنویسی', 'یادداشت']);
   assert.equal(parseReviewCallback(readyRows[1][0].callback_data).action, 'p');
 });
 
@@ -97,7 +99,7 @@ test('after the first rewrite the same item offers rewrite again and publish', (
   entry.rewrites = 1;
   entry.post = { title: 'نسخه دوم', body: 'متن', source_url: 'https://example.com/a' };
   const rows = keyboardFor(entry).inline_keyboard;
-  assert.deepEqual(rows[0].map((button) => button.text), ['رد', 'بازنویسی مجدد']);
+  assert.deepEqual(rows[0].map((button) => button.text), ['رد', 'بازنویسی مجدد', 'یادداشت']);
   assert.equal(rows[1][0].text, 'ارسال به کانال اصلی');
   assert.equal(parseReviewCallback(rows[0][1].callback_data).action, 'w');
 });
@@ -108,7 +110,7 @@ test('after the second rewrite only reject and publish remain', () => {
   entry.rewrites = 2;
   entry.post = { title: 'نسخه سوم', body: 'متن', source_url: 'https://example.com/a' };
   const rows = keyboardFor(entry).inline_keyboard;
-  assert.deepEqual(rows[0].map((button) => button.text), ['رد']);
+  assert.deepEqual(rows[0].map((button) => button.text), ['رد', 'یادداشت']);
   assert.deepEqual(rows[1].map((button) => button.text), ['ارسال به کانال اصلی']);
   assert.equal(keyboardFor(entry, { rewriteCap: 3 }).inline_keyboard[0][1].text, 'بازنویسی مجدد');
 });
@@ -210,6 +212,48 @@ test('queued rejects and callback retries survive a store reload', () => {
   assert.deepEqual(normalized.callbackRetries, {
     659883486: { count: 2, at: '2026-11-16T17:00:00Z' },
   });
+});
+
+test('a queued note survives a reload and keeps the anchor message', () => {
+  const normalized = normalizeReviewStore({
+    items: {},
+    pendingNotes: {
+      4242: {
+        text: '  این منبع را هم ببین https://example.com/extra  ',
+        at: '2026-11-16T17:00:00Z',
+        actor: 'amir',
+        chatId: '-1001',
+      },
+      abc: { text: 'no anchor' },
+      99: { text: '   ' },
+    },
+  });
+  assert.deepEqual(normalized.pendingNotes, {
+    4242: {
+      text: 'این منبع را هم ببین https://example.com/extra',
+      at: '2026-11-16T17:00:00Z',
+      actor: 'amir',
+      chatId: '-1001',
+    },
+  });
+});
+
+test('items keep their note and older card ids through normalization', () => {
+  const normalized = normalizeReviewStore({
+    items: {
+      abcdef12: {
+        title: 'کارت',
+        note: 'منبع مکمل: https://example.com/extra',
+        noteAt: '2026-11-16T17:00:00Z',
+        noteBy: 'amir',
+        previousMessageIds: [41, '42', -1, 'x', 42],
+      },
+    },
+  });
+  const entry = normalized.items.abcdef12;
+  assert.equal(entry.note, 'منبع مکمل: https://example.com/extra');
+  assert.equal(entry.noteBy, 'amir');
+  assert.deepEqual(entry.previousMessageIds, [41, 42]);
 });
 
 test('pruning drops old items, trims the excess, and keeps recent feedback', () => {

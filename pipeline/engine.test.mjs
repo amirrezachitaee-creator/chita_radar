@@ -898,6 +898,18 @@ test('buildUserMessage can clamp the article for the emergency writer', () => {
   assert.ok(trimmed.includes('…'));
 });
 
+test('an operator note enters the writer prompt as an allowed, grounded input', () => {
+  const article = { title: 'عنوان', published: '2026-11-03', content: 'متن منبع', imageAlt: '' };
+  const story = { item: { title: 'عنوان', published: '2026-11-03' }, article, url: 'https://example.com/a', now: '2026-11-03' };
+  const withNote = buildUserMessage({ ...story, note: 'منبع مکمل: https://example.com/extra\nاین را هم لحاظ کن.' });
+  const withoutNote = buildUserMessage(story);
+  assert.match(withNote, /یادداشت اپراتور/);
+  assert.ok(withNote.includes('https://example.com/extra'));
+  assert.match(withNote, /نه به‌عنوان خط پایانی منبع/);
+  assert.match(withNote, /عدد، نتیجه، علت یا بزرگ‌نمایی تازه از خودت اضافه نکن/);
+  assert.equal(withoutNote.includes('یادداشت اپراتور'), false);
+});
+
 test('callModel sends reasoning_effort only when requested', async () => {
   const bodies = [];
   const original = globalThis.fetch;
@@ -979,6 +991,23 @@ test('the repair message still asks to shorten a body that is too long', () => {
   });
   assert.match(message, /حداکثر 990 کاراکتر/);
   assert.match(message, /کوتاه/);
+});
+
+test('the repair message widens grounding only when an operator note exists', () => {
+  const withNote = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, body: 'ا'.repeat(300) },
+    qa: { problems: ['length'], warnings: [] },
+    operatorNote: true,
+  });
+  const withoutNote = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, body: 'ا'.repeat(300) },
+    qa: { problems: ['length'], warnings: [] },
+  });
+  assert.match(withNote, /همین منبع و یادداشت اپراتور/);
+  assert.match(withoutNote, /فقط از اطلاعات همین منبع بنویس/);
+  assert.equal(withoutNote.includes('یادداشت اپراتور'), false);
 });
 
 test('the repair message targets the usage link on a tools post', () => {

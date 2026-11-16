@@ -77,6 +77,27 @@ export function externalUrlForItem(item) {
   }
 }
 
+function noteLinks(text) {
+  const links = [];
+  for (const match of String(text ?? '').matchAll(/https?:\/\/[^\s)\]>«»"]+/g)) {
+    const value = match[0].replace(/[.,،؛!؟]+$/u, '');
+    try {
+      const parsed = new URL(value);
+      if (!/^https?:$/.test(parsed.protocol)) continue;
+      if (/^(?:t\.me|telegram\.me|telegram\.dog)$/i.test(parsed.hostname)) continue;
+      if (!links.includes(value)) links.push(value);
+    } catch {
+      // not a usable link
+    }
+    if (links.length >= 8) break;
+  }
+  return links;
+}
+
+export function noteLinksForItem(item) {
+  return noteLinks(item?.note);
+}
+
 export function toolUsageForItem(item) {
   const sourceUrl = String(item?.url || item?.leadPostUrl || '');
   if (!sourceUrl) return null;
@@ -107,6 +128,7 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '', op
   })();
   const manual = options.manual === true || item?.manual === true;
   const noSource = manual && !externalUrlForItem(item) && !usageUrl;
+  const note = String(item?.note ?? '').trim().slice(0, 2000);
   const baseOffer = offerContextFromItem(item, config);
   const offer = manual && baseOffer?.openEnded
     ? { ...baseOffer, note: String(config?.offers?.manual_no_expiry_note ?? baseOffer.note) }
@@ -119,8 +141,8 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '', op
     imageUrl: options.imageUrl !== undefined ? options.imageUrl : resolvedImageUrl(item),
     title: String(item?.title ?? ''),
     description: '',
-    content: String(item?.messageText ?? ''),
-    links: Array.isArray(item?.relatedLinks) ? item.relatedLinks : [],
+    content: [String(item?.messageText ?? ''), note].filter(Boolean).join('\n\n'),
+    links: [...(Array.isArray(item?.relatedLinks) ? item.relatedLinks : []), ...noteLinks(note)],
     usageUrl,
     publishedAt: String(item?.publishedAt ?? ''),
     now,
@@ -141,10 +163,12 @@ export async function draftReviewPost({
   config = {},
   manual = false,
   request,
+  repairPost = null,
   repairTitle = null,
   log = () => {},
 } = {}) {
   const content = String(item?.messageText ?? '').trim();
+  const note = String(item?.note ?? '').trim().slice(0, 2000);
   const minimum = manual ? 1 : Math.max(0, Number(minChars) || 0);
   if (content.length < minimum) {
     return { post: null, qa: null, reason: 'short' };
@@ -188,6 +212,7 @@ export async function draftReviewPost({
     toolUrl: toolUsage?.url ?? '',
     manual,
     noSource,
+    note,
   };
   if (typeof request !== 'function') throw new Error('REVIEW_DRAFT_REQUEST_MISSING');
   const call = await request(story);
@@ -239,9 +264,50 @@ export async function draftReviewPost({
     fixed,
     qaContextForItem(item, fixed, now, config, toolUsage?.url ?? '', { manual })
   );
-  const titleProblems = qa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem));
   const contentRejected = qa.problems.includes('ai_relevance') || qa.problems.includes('category_fresh');
-  if (!qa.pass && titleProblems.length && !contentRejected && typeof repairTitle === 'function') {
+  const offerProblem = qa.problems.some((problem) => problem.startsWith('offer_'));
+  const onlyTitle = qa.problems.length > 0 && qa.problems.every((problem) => TITLE_QA_PROBLEMS.has(problem));
+  if (!qa.pass && !contentRejected && !offerProblem && !onlyTitle && typeof repairPost === 'function') {
+    log(`REVIEW_QA_REPAIR ${qa.problems.join(',') || 'none'} | one repair retry`);
+    let repair = null;
+    try {
+      repair = await repairPost({ story, parsed: fixed, qa });
+    } catch (error) {
+      log(`REVIEW_QA_REPAIR_FAILED ${String(error?.message ?? error).slice(0, 240)}`);
+    }
+    const repairUsage = repair?.usage ?? {};
+    cost += Number(repairUsage.cost ?? 0) || 0;
+    tokens += Number(repairUsage.total_tokens ?? 0) || 0;
+    const repaired = extractJson(repair?.content);
+    if (repaired) {
+      const repairedFixed = finalize(repaired);
+      const repairedQa = qaPost(
+        repairedFixed,
+        qaContextForItem(item, repairedFixed, now, config, toolUsage?.url ?? '', { manual })
+      );
+      const better =
+        (repairedQa.pass && !qa.pass) ||
+        (repairedQa.pass === qa.pass &&
+          (repairedQa.problems.length < qa.problems.length ||
+            (repairedQa.problems.length === qa.problems.length &&
+              (repairedQa.warnings.length < qa.warnings.length ||
+                (repairedQa.warnings.length === qa.warnings.length && repairedQa.score >= qa.score)))));
+      if (better) {
+        fixed = repairedFixed;
+        qa = repairedQa;
+      }
+      log(
+        `REVIEW_QA_REPAIR_QA ${qa.pass ? 'PASS' : 'FAIL'} | problems ${
+          qa.problems.join(',') || 'none'
+        } | ${better ? 'applied' : 'kept original'}`
+      );
+    } else {
+      log('REVIEW_QA_REPAIR_INVALID_JSON');
+    }
+  }
+  const titleProblems = qa.problems.filter((problem) => TITLE_QA_PROBLEMS.has(problem));
+  const rejectedNow = qa.problems.includes('ai_relevance') || qa.problems.includes('category_fresh');
+  if (!qa.pass && titleProblems.length && !rejectedNow && typeof repairTitle === 'function') {
     log(`REVIEW_TITLE_REPAIR ${titleProblems.join(',')} | focused retry`);
     let repair = null;
     try {

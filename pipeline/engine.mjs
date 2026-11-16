@@ -544,7 +544,7 @@ export function clampText(value, maxChars = 0) {
   return `${(boundary > limit * 0.6 ? cut.slice(0, boundary) : cut).trimEnd()} …`;
 }
 
-export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, benchmark = false, toolUrl = '', policy = false, effectiveDate = '', policyIran = false, manual = false, noSource = false }) {
+export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHours = 72, offer = null, maxContentChars = 0, officialCourse = false, benchmark = false, toolUrl = '', policy = false, effectiveDate = '', policyIran = false, manual = false, noSource = false, note = '' }) {
   const host = (() => {
     try {
       return new URL(url).hostname;
@@ -613,6 +613,15 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
         .filter(Boolean)
         .join('\n')
     : '';
+  const operatorNote = String(note ?? '').trim().slice(0, 2000);
+  const noteBlock = operatorNote
+    ? [
+        'یادداشت اپراتور (ورودی مجاز و مکمل؛ در بازنویسی لحاظش کن):',
+        operatorNote,
+        'اگر در یادداشت لینک خارجی هست، همان لینک مجاز است و می‌توانی داخل body به آن اشاره کنی، نه به‌عنوان خط پایانی منبع.',
+        'فقط از اطلاعات متن خبر و همین یادداشت بنویس؛ عدد، نتیجه، علت یا بزرگ‌نمایی تازه از خودت اضافه نکن.',
+      ].join('\n')
+    : '';
   const policyBlock = policy
     ? [
         'این ورودی یک تغییر یا یادآوری رسمی سیاست استفاده از سرویس است:',
@@ -644,6 +653,7 @@ export function buildUserMessage({ item, article, url, now, imageUrl, maxAgeHour
     policyBlock,
     benchmarkBlock,
     manualBlock,
+    ...(noteBlock ? [noteBlock] : []),
     'یادآوری نگارش: تیتر یک جملهٔ کامل و خبری است، نه سؤال و نه نیمه‌کاره؛ واژهٔ انگلیسی ترجمه‌نشده در آن نگذار؛ تیتر بدون Markdown و حداکثر ۱۲ کلمه؛ اهمیت را بدون برچسب و بدون مقدمهٔ آماده مثل «اهمیتش اینه که» و مستقیم با نتیجهٔ مشخص خبر بیاور؛ جزئیات تکمیلیِ بلند را در فیلد quote بگذار.',
     '',
     'متن خبر:',
@@ -1173,7 +1183,7 @@ const QA_FIX_HINTS = {
   policy_iran: 'یک جملهٔ صریح در body بیاور که ایران در فهرست رسمی کشورهای پشتیبانی‌شده نیست؛ فقط گفتن «کاربران ایرانی» کافی نیست.',
 };
 
-export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previousWhy = '', newsDate = '', usageUrl = '', usageName = '' }) {
+export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previousWhy = '', newsDate = '', usageUrl = '', usageName = '', operatorNote = false }) {
   const problemNames = qa?.problems ?? [];
   const schemaBroken = problemNames.some((name) =>
     ['schema', 'verification_enum', 'verification_source', 'source_url', 'image_exact', 'dedupe_key'].includes(name)
@@ -1263,7 +1273,9 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
     quote
       ? `بولت را خالی بگذار و quote را بالای خط ${tailLabel} و داخل همان پست نگه دار؛ فقط در صورت کمبود جا آن را کوتاه کن.`
       : 'بولت و quote را خالی بگذار.',
-    'فقط از اطلاعات همین منبع بنویس؛ نتیجه، علت، شدت یا بزرگ‌نمایی اضافه نکن. اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
+    operatorNote
+      ? 'فقط از اطلاعات همین منبع و یادداشت اپراتور بنویس؛ عدد، نتیجه، علت یا بزرگ‌نمایی تازه از خودت اضافه نکن. اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.'
+      : 'فقط از اطلاعات همین منبع بنویس؛ نتیجه، علت، شدت یا بزرگ‌نمایی اضافه نکن. اگر منبع «بزرگ‌ترین» یا «تاریخی» نگفته، تو هم نگو.',
   ];
   return `${user}
 

@@ -75,7 +75,7 @@ function item(fields = {}) {
   };
 }
 
-function storeOf(entries, pendingRejects = null) {
+function storeOf(entries, pendingRejects = null, pendingNotes = null) {
   return {
     version: 1,
     offset: 0,
@@ -83,6 +83,7 @@ function storeOf(entries, pendingRejects = null) {
     actions: [],
     sources: {},
     ...(pendingRejects ? { pendingRejects } : {}),
+    ...(pendingNotes ? { pendingNotes } : {}),
   };
 }
 
@@ -99,10 +100,28 @@ function update(action, id, { extra = '', messageId = 42, updateId = 7 } = {}) {
   };
 }
 
-async function run(updates, entries, now = NOW, { queueNotice = false, env = {}, pendingRejects = null } = {}) {
+function noteUpdate(text, { replyTo = 42, messageId = 500, updateId = 7, chatId = -1001 } = {}) {
+  return {
+    update_id: updateId,
+    message: {
+      message_id: messageId,
+      chat: { id: chatId },
+      from: { id: 99, username: 'amir' },
+      text,
+      ...(replyTo ? { reply_to_message: { message_id: replyTo } } : {}),
+    },
+  };
+}
+
+async function run(
+  updates,
+  entries,
+  now = NOW,
+  { queueNotice = false, env = {}, pendingRejects = null, pendingNotes = null } = {}
+) {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-actions-'));
   const feedback = join(dir, 'feedback.json');
-  const content = `${JSON.stringify(storeOf(entries, pendingRejects), null, 2)}\n`;
+  const content = `${JSON.stringify(storeOf(entries, pendingRejects, pendingNotes), null, 2)}\n`;
   await writeFile(feedback, content, 'utf8');
   const updatesPath = join(dir, 'updates.json');
   await writeFile(updatesPath, JSON.stringify({ ok: true, result: updates }), 'utf8');
@@ -118,6 +137,8 @@ async function run(updates, entries, now = NOW, { queueNotice = false, env = {},
     join(dir, 'review-state.json'),
     '--now',
     now,
+    '--review-chat',
+    '-1001',
   ];
   if (queueNotice) args.push('--queue-notice');
   const output = execFileSync(process.execPath, args, {
@@ -288,4 +309,118 @@ test('several queued presses are counted in one notice', async () => {
   assert.match(output, /DRY_QUEUE_NOTICE callbacks=2/);
   assert.match(output, /DRY_NOTIFY ⏳ 2 دکمه رفت تو صف، چون اسلات خودکار مشغول است/);
   assert.doesNotMatch(output, /DRY_PUBLISH|DRY_REWRITE|REVIEW_REJECTED/);
+});
+
+test('the note button explains the reply step and never blocks the queue', async () => {
+  const output = await run([update('n', 'deadbeef01')], [item()]);
+  assert.match(output, /DRY_ANSWER یادداشت یا منبع را به همین کارت ریپلای کن/);
+  assert.match(output, /REVIEW_NOTE_HINT id=deadbeef01 \| اعتبار رایگان/);
+  assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
+});
+
+test('the note hint still answers when the card is not registered yet', async () => {
+  const output = await run([update('n', 'deadbeef01')], []);
+  assert.match(output, /REVIEW_NOTE_HINT id=deadbeef01 unregistered=1/);
+  assert.doesNotMatch(output, /REVIEW_ACTION_RETRY/);
+  assert.match(output, /handled=1 failed=0/);
+});
+
+test('a closed card refuses a note instead of attaching it', async () => {
+  const output = await run([update('n', 'deadbeef01')], [item({ status: 'rejected' })]);
+  assert.match(output, /DRY_ANSWER این کارت بسته شده؛ یادداشت ثبت نمی‌شود/);
+  assert.match(output, /handled=1 failed=0/);
+});
+
+test('a reply note attaches to the card and keeps its link count', async () => {
+  const output = await run(
+    [noteUpdate('منبع مکمل: https://example.com/extra', { replyTo: 42, updateId: 101 })],
+    [item()]
+  );
+  assert.match(output, /REVIEW_ACTIONS updates=1 callbacks=0 notes=1/);
+  assert.match(output, /REVIEW_NOTE id=deadbeef01 chars=\d+ links=1 replaced=0 message=42/);
+  assert.match(output, /DRY_NOTIFY یادداشت ثبت شد؛ در بازنویسی بعدی لحاظ می‌شود/);
+  assert.match(output, /منبع مکمل/);
+  assert.match(output, /handled=1 failed=0/);
+});
+
+test('a newer note replaces the old one on the same card', async () => {
+  const output = await run(
+    [noteUpdate('این را هم لحاظ کن', { replyTo: 42, updateId: 102 })],
+    [item({ note: 'یادداشت قدیمی' })]
+  );
+  assert.match(output, /replaced=1 message=42/);
+  assert.match(output, /DRY_NOTIFY یادداشت تازه ثبت شد و جایگزین قبلی شد/);
+});
+
+test('a note on an older card finds the item through its previous ids', async () => {
+  const output = await run(
+    [noteUpdate('منبع قدیمی', { replyTo: 41, updateId: 103 })],
+    [item({ messageId: 500, previousMessageIds: [41] })]
+  );
+  assert.match(output, /REVIEW_NOTE id=deadbeef01/);
+  assert.match(output, /message=41/);
+});
+
+test('a note for a card not yet saved is queued and then applied on the next run', async () => {
+  const queued = await run(
+    [noteUpdate('این منبع را ببین https://example.com/late', { replyTo: 77, updateId: 104 })],
+    []
+  );
+  assert.match(queued, /REVIEW_NOTE_PENDING message=77 chars=\d+/);
+  assert.match(queued, /DRY_NOTIFY یادداشت ذخیره شد؛ به‌محض ثبت همین کارت/);
+  assert.match(queued, /handled=1 failed=0/);
+
+  const applied = await run([], [item()], NOW, {
+    pendingNotes: {
+      42: {
+        text: 'این منبع را ببین https://example.com/late',
+        at: '2026-11-14T14:55:00Z',
+        actor: 'amir',
+        chatId: '-1001',
+      },
+    },
+  });
+  assert.match(applied, /REVIEW_NOTE_APPLIED id=deadbeef01 message=42 chars=\d+/);
+  assert.match(applied, /DRY_NOTIFY یادداشت ذخیره‌شده روی کارت ثبت شد/);
+});
+
+test('a queued note for a closed card is dropped silently', async () => {
+  const output = await run([], [item({ status: 'sent' })], NOW, {
+    pendingNotes: {
+      42: { text: 'دیر رسید', at: '2026-11-14T14:55:00Z', actor: 'amir', chatId: '-1001' },
+    },
+  });
+  assert.doesNotMatch(output, /REVIEW_NOTE_APPLIED/);
+  assert.doesNotMatch(output, /REVIEW_NOTE_CLOSED/);
+});
+
+test('a message without a reply is ignored without stalling the queue', async () => {
+  const output = await run([noteUpdate('سلام', { replyTo: 0, updateId: 105 })], [item()]);
+  assert.match(output, /REVIEW_NOTE_IGNORED no_reply/);
+  assert.match(output, /handled=0 failed=0/);
+  assert.doesNotMatch(output, /REVIEW_NOTE /);
+});
+
+test('a message from another chat is never treated as a note', async () => {
+  const output = await run(
+    [noteUpdate('https://example.com/extra', { replyTo: 42, updateId: 106, chatId: -1002 })],
+    [item()]
+  );
+  assert.doesNotMatch(output, /REVIEW_NOTE/);
+  assert.match(output, /handled=0 failed=0/);
+});
+
+test('callbacks and notes in one batch are counted and handled in update order', async () => {
+  const output = await run(
+    [
+      noteUpdate('یادداشت همراه', { replyTo: 42, updateId: 108, messageId: 501 }),
+      update('x', 'deadbeef01', { extra: 'quality', updateId: 109, messageId: 42 }),
+    ],
+    [item()]
+  );
+  assert.match(output, /REVIEW_ACTIONS updates=2 callbacks=1 notes=1/);
+  assert.match(output, /REVIEW_REJECTED id=deadbeef01 reason=quality/);
+  assert.match(output, /REVIEW_NOTE id=deadbeef01/);
+  assert.match(output, /DRY_ANSWER رد شد؛ پیام پاک می‌شود/);
+  assert.match(output, /handled=2 failed=0/);
 });
