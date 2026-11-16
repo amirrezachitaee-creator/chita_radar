@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883501,
+  "offset": 659883503,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -1808,11 +1808,11 @@
     },
     "b294db148d": {
       "id": "b294db148d",
-      "status": "pending",
-      "rewrites": 1,
+      "status": "sent",
+      "rewrites": 2,
       "createdAt": "2026-11-16T13:31:24.410Z",
-      "updatedAt": "2026-11-16T17:29:13.666Z",
-      "messageId": 346,
+      "updatedAt": "2026-11-16T17:43:37.281Z",
+      "messageId": 348,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T17:00+03:30",
       "reason": "manual_rewrite",
@@ -1837,8 +1837,8 @@
       "offerHint": false,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
+      "mainEligible": true,
+      "qaPass": true,
       "post": {
         "decision": "publish",
         "reason_code": "ok",
@@ -1846,13 +1846,13 @@
         "category": "tools",
         "post_type": "standard",
         "importance": 3,
-        "title": "سابسکریپشن Gemini مستقیم به هرمس میاد",
-        "body": "هرمس فعلاً فقط با API Key مدل Gemini کار می‌کنه، اما قراره این روند عوض بشه. Nous داره با گوگل مذاکره می‌کنه تا سابسکریپشنی که قبلاً خریدی رو مستقیم داخل هرمس فعال کنی. این روش رسمی و مورد تأیید گوگل خواهد بود.\n\nبا این کار، دیگه لازم نیست برای استفاده از Gemini توی هرمس API Key جدا بگیری؛ همون اشتراک فعلی‌ت کافیه.",
+        "title": "سابسکریپشن Gemini به هرمس میاد",
+        "body": "هرمس فعلاً فقط با API Key مدل Gemini کار می‌کنه، اما قراره این محدودیت برداشته بشه. Nous داره با گوگل مذاکره می‌کنه تا سابسکریپشنی که قبلاً خریدی رو مستقیم داخل هرمس فعال کنه و دیگه نیازی به API Key جدا نداشته باشی.\n\nاین روش رسمی و مورد تأیید گوگل خواهد بود.\n\nبا این کار، اگه از قبل سابسکریپشن Gemini داری، می‌تونی بدون هزینه اضافه ازش داخل هرمس هم استفاده کنی.",
         "quote": "",
         "key_facts": [
-          "هرمس فعلاً فقط با API Key مدل Gemini کار می‌کنه",
-          "Nous در حال مذاکره با گوگل برای فعال‌سازی مستقیم سابسکریپشن Gemini است",
-          "این روش رسمی و مورد تأیید گوگل خواهد بود"
+          "هرمس فعلاً فقط با API Key کار می‌کنه",
+          "Nous در حال مذاکره با گوگل است",
+          "فعال‌سازی سابسکریپشن به صورت رسمی و تأیید شده توسط گوگل خواهد بود"
         ],
         "numbers": [],
         "entities": {
@@ -1871,10 +1871,10 @@
         "dedupe_key": "nous-hermes-gemini-subscription"
       },
       "expiry": null,
-      "lastActionAt": "2026-11-16T17:29:13.666Z",
-      "sentAt": "",
+      "lastActionAt": "2026-11-16T17:43:37.281Z",
+      "sentAt": "2026-11-16T17:43:37.281Z",
       "manual": true,
-      "lastAction": "rewrite"
+      "lastAction": "publish"
     },
     "5c232cc04a": {
       "id": "5c232cc04a",
@@ -2280,24 +2280,6 @@
       "actor": "Amir_ch13"
     },
     {
-      "at": "2026-11-16T17:31:20.263Z",
-      "action": "reject",
-      "itemId": "40ad3e2e1b",
-      "source": "tg-shayanode",
-      "reason": "irrelevant",
-      "detail": "بچه ها راجب ربات تلگرام یه چیزی بگم",
-      "actor": "Amir_ch13"
-    },
-    {
-      "at": "2026-11-16T17:31:28.297Z",
-      "action": "reject",
-      "itemId": "921fff427b",
-      "source": "tg-shayanode",
-      "reason": "irrelevant",
-      "detail": "ساخت ربات تلگرام میتونه به کار همتون بیاد",
-      "actor": "Amir_ch13"
-    },
-    {
       "at": "2026-11-16T17:28:24.039Z",
       "action": "reject",
       "itemId": "105c45cc00",
@@ -2332,6 +2314,42 @@
       "reason": "promo",
       "detail": "🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:43:16.523Z",
+      "action": "rewrite",
+      "itemId": "b294db148d",
+      "source": "tg-thenima",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001435",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:43:37.281Z",
+      "action": "publish",
+      "itemId": "b294db148d",
+      "source": "tg-thenima",
+      "reason": "",
+      "detail": "message=90 text",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:31:20.263Z",
+      "action": "reject",
+      "itemId": "40ad3e2e1b",
+      "source": "tg-shayanode",
+      "reason": "irrelevant",
+      "detail": "بچه ها راجب ربات تلگرام یه چیزی بگم",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:31:28.297Z",
+      "action": "reject",
+      "itemId": "921fff427b",
+      "source": "tg-shayanode",
+      "reason": "irrelevant",
+      "detail": "ساخت ربات تلگرام میتونه به کار همتون بیاد",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -2357,7 +2375,7 @@
       "rejects": 3,
       "rewrites": 0,
       "publishes": 0,
-      "lastAt": "2026-11-16T17:31:28.297Z"
+      "lastAt": "2026-11-16T17:28:24.039Z"
     },
     "tg-ai-by-sadeghi": {
       "rejects": 1,
@@ -2367,9 +2385,9 @@
     },
     "tg-thenima": {
       "rejects": 0,
-      "rewrites": 1,
-      "publishes": 0,
-      "lastAt": "2026-11-16T17:29:13.666Z"
+      "rewrites": 2,
+      "publishes": 1,
+      "lastAt": "2026-11-16T17:43:37.281Z"
     },
     "tg-asr-novin": {
       "rejects": 1,

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T17:31:28.297Z",
+  "updatedAt": "2026-11-16T17:43:37.284Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9691,21 +9691,21 @@
       "url": "https://t.me/shayanode/221"
     },
     "url:428ab435b0fe5929": {
-      "at": "2026-11-16T13:32:29.793Z",
-      "decision": "review",
-      "reason": "denied_link",
-      "category": "",
-      "slot": "2026-11-16T17:00+03:30",
-      "title": "سابسکریپشن Gemini قراره مستقیم به هرمس بیاد 🔥",
+      "at": "2026-11-16T17:43:37.284Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "tools",
+      "slot": "2026-11-16T21:10",
+      "title": "سابسکریپشن Gemini به هرمس میاد",
       "url": "https://t.me/thenimaonAI/534"
     },
     "title:3cffb7a94c7d4cef": {
-      "at": "2026-11-16T13:32:29.793Z",
-      "decision": "review",
-      "reason": "denied_link",
-      "category": "",
-      "slot": "2026-11-16T17:00+03:30",
-      "title": "سابسکریپشن Gemini قراره مستقیم به هرمس بیاد 🔥",
+      "at": "2026-11-16T17:43:37.284Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "tools",
+      "slot": "2026-11-16T21:10",
+      "title": "سابسکریپشن Gemini به هرمس میاد",
       "url": "https://t.me/thenimaonAI/534"
     },
     "url:9487a9878004571a": {
@@ -16013,6 +16013,24 @@
       "sourceTitle": "Kimi K3.1-Pro: released-games RE score (2026-11-16 14:17) · kodasdream/gamefeel-benchmark@655b06c",
       "sourceText": "The Gamefeel Benchmark: a creativity benchmark for AI models on game development. Each model adds content and balance changes to 12 unpublished games, and is scored on coding, gamefeel, creativity and reverse-evaluation.\nUpdate commit (2026-11-16T12:17:03Z): Kimi K3.1-Pro: released-games RE score (2026-11-16 14:17).\nKimi K3.1-Pro (Moonshot AI, effort Max): overall 29.5/100, rank 24 of 32; create 63, bugfix 55, gamefeel 10, ideas 10, visuals 45, audio 27; price per task $2.10; context 1M; open weights, 3000 GB.\nLeaderboard context: Fable-5.2 52.2, Gemini-4-Carbon 50.4, Opus-5.5 49.8.",
       "at": "2026-11-16T13:37:49.055Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-16T21:10",
+      "category": "tools",
+      "kind": "news",
+      "title": "سابسکریپشن Gemini به هرمس میاد",
+      "why": "با این کار، اگه از قبل سابسکریپشن Gemini داری، می‌تونی بدون هزینه اضافه ازش داخل هرمس هم استفاده کنی.",
+      "dedupe_key": "url:428ab435b0fe5929",
+      "post_key": "2026-11-16T21:10/review/b294db148d",
+      "sourceId": "tg-thenima",
+      "sourceName": "Thenima.one",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://t.me/thenimaonAI/534",
+      "sourceTitle": "سابسکریپشن Gemini قراره مستقیم به هرمس بیاد 🔥",
+      "sourceText": "سابسکریپشن Gemini قراره مستقیم به هرمس بیاد 🔥\n\nفعلاً هرمس فقط با API Key مدل Gemini کار می‌کنه، اما Nous در حال مذاکره با گوگل هست تا سابسکریپشن Gemini که قبلاً خریدی رو مستقیم داخل هرمس فعال کنه.\n\nاین روش رسمی و مورد تأیید گوگل خواهد بود.\n\n@thenimaonAI\n\n❤6👏3",
+      "at": "2026-11-16T17:43:37.283Z"
     }
   ],
   "telegram": {
