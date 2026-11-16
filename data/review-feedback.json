@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883498,
+  "offset": 659883501,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -2043,10 +2043,10 @@
     },
     "921fff427b": {
       "id": "921fff427b",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-16T17:01:04.951Z",
-      "updatedAt": "2026-11-16T17:01:04.951Z",
+      "updatedAt": "2026-11-16T17:31:28.297Z",
       "messageId": 343,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T20:30+03:30",
@@ -2076,15 +2076,16 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T17:31:28.297Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "40ad3e2e1b": {
       "id": "40ad3e2e1b",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-16T17:01:04.951Z",
-      "updatedAt": "2026-11-16T17:01:04.951Z",
+      "updatedAt": "2026-11-16T17:31:20.263Z",
       "messageId": 344,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T20:30+03:30",
@@ -2114,8 +2115,9 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T17:31:20.263Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "460c55a1ad": {
       "id": "460c55a1ad",
@@ -2278,6 +2280,24 @@
       "actor": "Amir_ch13"
     },
     {
+      "at": "2026-11-16T17:31:20.263Z",
+      "action": "reject",
+      "itemId": "40ad3e2e1b",
+      "source": "tg-shayanode",
+      "reason": "irrelevant",
+      "detail": "بچه ها راجب ربات تلگرام یه چیزی بگم",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:31:28.297Z",
+      "action": "reject",
+      "itemId": "921fff427b",
+      "source": "tg-shayanode",
+      "reason": "irrelevant",
+      "detail": "ساخت ربات تلگرام میتونه به کار همتون بیاد",
+      "actor": "Amir_ch13"
+    },
+    {
       "at": "2026-11-16T17:28:24.039Z",
       "action": "reject",
       "itemId": "105c45cc00",
@@ -2334,10 +2354,10 @@
       "lastAt": "2026-11-16T12:43:08.458Z"
     },
     "tg-shayanode": {
-      "rejects": 2,
+      "rejects": 3,
       "rewrites": 0,
       "publishes": 0,
-      "lastAt": "2026-11-16T17:28:24.039Z"
+      "lastAt": "2026-11-16T17:31:28.297Z"
     },
     "tg-ai-by-sadeghi": {
       "rejects": 1,
