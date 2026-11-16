@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883504,
+  "offset": 659883511,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -2448,13 +2448,13 @@
     "e9e935b5c6": {
       "id": "e9e935b5c6",
       "status": "pending",
-      "rewrites": 0,
+      "rewrites": 2,
       "createdAt": "2026-11-16T19:30:56.427Z",
-      "updatedAt": "2026-11-16T19:30:56.427Z",
-      "messageId": 350,
+      "updatedAt": "2026-11-16T20:09:38.490Z",
+      "messageId": 355,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T23:00+03:30",
-      "reason": "denied_link",
+      "reason": "manual_rewrite",
       "kind": "post",
       "source": "tg-codecloude",
       "sourceName": "Code.Cloud | کـــد کلاد",
@@ -2479,16 +2479,49 @@
       "offerHint": false,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
-      "post": null,
+      "mainEligible": true,
+      "qaPass": true,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "tools",
+        "post_type": "standard",
+        "importance": 3,
+        "title": "فیلمنامه‌ات را با Higgsfield به سریال چندقسمتی تبدیل کن",
+        "body": "Higgsfield قابلیت جدید Short Drama Studio را معرفی کرده که با کمک هوش مصنوعی، فیلمنامه را به یک مجموعه ویدیویی چندقسمتی تبدیل می‌کند. از داستان‌های فانتزی تا درام عاشقانه، با شخصیت‌های ثابت در قسمت‌های مختلف و خروجی عمودی، افقی یا مربعی.\n\nبا این ابزار، نویسنده‌ها می‌تونن بدون نیاز به تیم تولید، ایده‌شون رو سریع به ویدیو تبدیل کنن و حتی از طریق Higgsfield MCP داخل ChatGPT و Claude هم بهش دسترسی داشته باشن.",
+        "quote": "",
+        "key_facts": [
+          "تبدیل فیلمنامه به مجموعه ویدیویی چندقسمتی",
+          "شخصیت‌های ثابت در قسمت‌های مختلف",
+          "خروجی عمودی، افقی یا مربعی",
+          "قابل استفاده در ChatGPT و Claude از طریق Higgsfield MCP"
+        ],
+        "numbers": [],
+        "entities": {
+          "companies": [
+            "Higgsfield"
+          ],
+          "models": [],
+          "people": []
+        },
+        "verification": "unverified",
+        "source_url": "https://t.me/codecloude/2593",
+        "image_url": "",
+        "dedupe_key": "higgsfield-short-drama-studio-launch"
+      },
       "expiry": null,
       "note": "",
       "noteAt": "",
       "noteBy": "",
-      "previousMessageIds": [],
-      "lastActionAt": "",
-      "sentAt": ""
+      "previousMessageIds": [
+        350,
+        353
+      ],
+      "lastActionAt": "2026-11-16T20:09:38.490Z",
+      "sentAt": "",
+      "manual": true,
+      "lastAction": "rewrite"
     }
   },
   "actions": [
@@ -2635,6 +2668,24 @@
       "reason": "irrelevant",
       "detail": "ساخت ربات تلگرام میتونه به کار همتون بیاد",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T20:05:22.391Z",
+      "action": "rewrite",
+      "itemId": "e9e935b5c6",
+      "source": "tg-codecloude",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001450",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T20:09:38.490Z",
+      "action": "rewrite",
+      "itemId": "e9e935b5c6",
+      "source": "tg-codecloude",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001452",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -2679,6 +2730,12 @@
       "rewrites": 0,
       "publishes": 0,
       "lastAt": "2026-11-16T17:29:21.834Z"
+    },
+    "tg-codecloude": {
+      "rejects": 0,
+      "rewrites": 2,
+      "publishes": 0,
+      "lastAt": "2026-11-16T20:09:38.490Z"
     }
   },
   "callbackRetries": {
