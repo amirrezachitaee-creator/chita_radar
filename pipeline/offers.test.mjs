@@ -628,11 +628,75 @@ test('a ready-to-publish review keeps only the post, source and a short checklis
   });
   assert.match(text, /این پست آمادهٔ انتشاره/);
   assert.match(text, /عنوان: بایت‌دنس مدل تصویرساز/);
-  assert.match(text, /لینک منبع: https:\/\/t\.me\/testchannel\/20/);
+  assert.match(text, /کانال سرنخ: کانال تست/);
+  assert.match(text, /لینک منبع: ندارد/);
+  assert.match(text, /پست تلگرام: https:\/\/t\.me\/testchannel\/20/);
+  assert.doesNotMatch(text, /^منبع: کانال تست$/m);
+  assert.doesNotMatch(text, /لینک منبع: https:\/\/t\.me\/testchannel/);
   assert.doesNotMatch(text, /متن خام کانال/);
   assert.match(text, /چک‌لیست قبل از ارسال/);
   assert.match(text, /لینک‌های داخل پست منبع/);
   assert.ok((text.match(/^• /gm) ?? []).length <= 5);
+});
+
+test('a telegram lead with an external source shows the channel only as the lead', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'خبر',
+      sourceName: 'کانال تست',
+      sourceType: 'telegram_channel',
+      link: 'https://example.com/news',
+      leadPostUrl: 'https://t.me/testchannel/30',
+    },
+    assessment: { reason: 'denied_link' },
+    kind: 'post',
+    mainEligible: true,
+    post: { title: 'تیتر', body: 'بدنه' },
+  });
+  assert.match(text, /کانال سرنخ: کانال تست/);
+  assert.match(text, /لینک منبع: https:\/\/example\.com\/news/);
+  assert.match(text, /پست تلگرام: https:\/\/t\.me\/testchannel\/30/);
+  assert.doesNotMatch(text, /^منبع: کانال تست$/m);
+});
+
+test('a source-less telegram lead is queued with no external link', () => {
+  const text = reviewText({
+    candidate: {
+      title: 'خبر',
+      sourceName: 'کانال تست',
+      sourceType: 'telegram_channel',
+      link: 'https://t.me/testchannel/40',
+      leadPostUrl: 'https://t.me/testchannel/40',
+    },
+    assessment: { reason: 'no_link' },
+    mainEligible: false,
+    text: 'متن خام',
+  });
+  assert.match(text, /کانال سرنخ: کانال تست/);
+  assert.match(text, /لینک منبع: ندارد/);
+  assert.match(text, /پست تلگرام: https:\/\/t\.me\/testchannel\/40/);
+  assert.doesNotMatch(text, /^منبع: کانال تست$/m);
+  assert.doesNotMatch(text, /لینک منبع: https:\/\/t\.me/);
+});
+
+test('the review html labels a telegram lead and escapes the post link', () => {
+  const html = reviewHtml({
+    candidate: {
+      title: 'خبر',
+      sourceName: 'کانال & تست',
+      sourceType: 'telegram_channel',
+      link: 'https://example.com/x?a=1&b=2',
+      leadPostUrl: 'https://t.me/testchannel/50',
+    },
+    assessment: { reason: 'denied_link' },
+    kind: 'post',
+    mainEligible: true,
+    post: { title: 'تیتر', body: 'بدنه' },
+  });
+  assert.match(html, /کانال سرنخ: کانال &amp; تست/);
+  assert.match(html, /لینک منبع: https:\/\/example\.com\/x\?a=1&amp;b=2/);
+  assert.match(html, /پست تلگرام: https:\/\/t\.me\/testchannel\/50/);
+  assert.doesNotMatch(html, /^منبع: /m);
 });
 
 test('reviewSummary removes links and handles and stays short', () => {

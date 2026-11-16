@@ -666,6 +666,36 @@ export function reviewChecklist({
   return items.slice(0, 5);
 }
 
+function isTelegramPostUrl(value) {
+  try {
+    return /^(?:t\.me|telegram\.me|telegram\.dog)$/i.test(new URL(String(value)).hostname);
+  } catch {
+    return false;
+  }
+}
+
+function reviewSourceLines(candidate, link, escape = (value) => value) {
+  const postUrl = String(candidate?.leadPostUrl ?? '');
+  const telegramLead =
+    String(candidate?.sourceType ?? '') === 'telegram_channel' ||
+    String(candidate?.sourceId ?? '').startsWith('tg-') ||
+    isTelegramPostUrl(link) ||
+    isTelegramPostUrl(postUrl);
+  const externalLink = link && !isTelegramPostUrl(link) ? link : '';
+  const lines = [];
+  if (telegramLead) {
+    if (candidate?.sourceName) lines.push(`کانال سرنخ: ${escape(candidate.sourceName)}`);
+    lines.push(`لینک منبع: ${externalLink ? escape(externalLink) : 'ندارد'}`);
+    const telegramPost = postUrl || (isTelegramPostUrl(link) ? link : '');
+    if (telegramPost) lines.push(`پست تلگرام: ${escape(telegramPost)}`);
+    return lines;
+  }
+  if (candidate?.sourceName) lines.push(`منبع: ${escape(candidate.sourceName)}`);
+  if (link) lines.push(`لینک منبع: ${escape(link)}`);
+  if (postUrl && postUrl !== link) lines.push(`پست تلگرام: ${escape(postUrl)}`);
+  return lines;
+}
+
 export function reviewHtml({
   article,
   candidate,
@@ -697,11 +727,7 @@ export function reviewHtml({
   ];
   if (!mainEligible) lines.push(`دلیل: ${escapeHtml(reasonFa)}`, '');
   lines.push('———', postHtml(post), '———', '');
-  if (candidate?.sourceName) lines.push(`منبع: ${escapeHtml(candidate.sourceName)}`);
-  if (link) lines.push(`لینک منبع: ${escapeHtml(link)}`);
-  if (candidate?.leadPostUrl && candidate.leadPostUrl !== link) {
-    lines.push(`پست تلگرام: ${escapeHtml(candidate.leadPostUrl)}`);
-  }
+  lines.push(...reviewSourceLines(candidate, link, escapeHtml));
   lines.push('', 'چک‌لیست قبل از ارسال:');
   for (const item of reviewChecklist({
     reason,
@@ -767,11 +793,7 @@ export function reviewText({
     lines.push(body);
     if (quote) lines.push(`نقل‌قول: ${quote}`);
     lines.push('———', '');
-    if (candidate?.sourceName) lines.push(`منبع: ${candidate.sourceName}`);
-    if (link) lines.push(`لینک منبع: ${link}`);
-    if (candidate?.leadPostUrl && candidate.leadPostUrl !== link) {
-      lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
-    }
+    lines.push(...reviewSourceLines(candidate, link));
     lines.push('', 'چک‌لیست قبل از ارسال:');
     for (const item of reviewChecklist({
       reason,
@@ -800,11 +822,7 @@ export function reviewText({
     summary || 'خلاصه‌ای برای این سرنخ ساخته نشد.',
     '',
   ];
-  if (candidate?.sourceName) lines.push(`منبع: ${candidate.sourceName}`);
-  if (link) lines.push(`لینک منبع: ${link}`);
-  if (candidate?.leadPostUrl && candidate.leadPostUrl !== link) {
-    lines.push(`پست تلگرام: ${candidate.leadPostUrl}`);
-  }
+  lines.push(...reviewSourceLines(candidate, link));
   for (const extra of relatedLinks.slice(0, 3)) {
     if (extra !== link) lines.push(`لینک داخل پست: ${extra}`);
   }
