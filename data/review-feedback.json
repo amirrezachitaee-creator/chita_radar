@@ -1137,6 +1137,10 @@
     },
     "b3a602fe91": {
       "id": "b3a602fe91",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-16T05:00:56.544Z",
+      "updatedAt": "2026-11-16T05:00:56.544Z",
       "messageId": 319,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T08:30+03:30",
@@ -1171,15 +1175,15 @@
         "remainingHours": -224.5,
         "evidence": "Nov 6, 2026"
       },
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-16T05:00:56.544Z",
-      "updatedAt": "2026-11-16T05:00:56.544Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "ab0b698970": {
       "id": "ab0b698970",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-16T05:00:56.544Z",
+      "updatedAt": "2026-11-16T05:00:56.544Z",
       "messageId": 320,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T08:30+03:30",
@@ -1214,15 +1218,15 @@
         "remainingHours": null,
         "evidence": ""
       },
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-16T05:00:56.544Z",
-      "updatedAt": "2026-11-16T05:00:56.544Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "59dc48a75b": {
       "id": "59dc48a75b",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-16T05:00:56.544Z",
+      "updatedAt": "2026-11-16T05:00:56.544Z",
       "messageId": 321,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T08:30+03:30",
@@ -1257,15 +1261,15 @@
         "remainingHours": null,
         "evidence": ""
       },
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-16T05:00:56.544Z",
-      "updatedAt": "2026-11-16T05:00:56.544Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "5c6060e13a": {
       "id": "5c6060e13a",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-16T05:00:56.544Z",
+      "updatedAt": "2026-11-16T05:00:56.544Z",
       "messageId": 322,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T08:30+03:30",
@@ -1303,10 +1307,6 @@
         "remainingHours": null,
         "evidence": ""
       },
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-16T05:00:56.544Z",
-      "updatedAt": "2026-11-16T05:00:56.544Z",
       "lastActionAt": "",
       "sentAt": ""
     }
