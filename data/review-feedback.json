@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883519,
+  "offset": 659883521,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -2178,13 +2178,13 @@
     "80131ee9c0": {
       "id": "80131ee9c0",
       "status": "pending",
-      "rewrites": 0,
+      "rewrites": 1,
       "createdAt": "2026-11-16T17:01:04.951Z",
-      "updatedAt": "2026-11-16T17:01:04.951Z",
-      "messageId": 342,
+      "updatedAt": "2026-11-16T23:06:02.027Z",
+      "messageId": 357,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T20:30+03:30",
-      "reason": "denied_link",
+      "reason": "manual_rewrite",
       "kind": "post",
       "source": "tg-mohammad-zammani",
       "sourceName": "هوش مصنوعی | محمد زمانی",
@@ -2210,16 +2210,62 @@
       "offerHint": false,
       "rumorHint": true,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
-      "post": null,
+      "mainEligible": true,
+      "qaPass": true,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "business",
+        "post_type": "standard",
+        "importance": 4,
+        "title": "تیم ترامپ ۲۴ شرکت آمریکایی را قهرمان ملی هوش مصنوعی می‌کند",
+        "body": "تیم ترامپ قصد داره بیش از ۲۴ شرکت آمریکایی رو به‌عنوان قهرمان‌های ملی حوزه هوش مصنوعی معرفی کنه. طبق گزارش وال‌استریت ژورنال به نقل از منابع آگاه، اسم شرکت‌هایی مثل انویدیا، آمازون، مایکروسافت، OpenAI و Anthropic هم توی این لیست دیده می‌شه.\n\nبا این کار، صادرات فناوری آمریکا می‌تونه جایگزین جدی برای محصولات چینی بشه و موقعیت شرکت‌های بزرگ آمریکایی رو تو بازار جهانی محکم‌تر کنه.",
+        "quote": "قراره هاوارد لوتنیک، وزیر بازرگانی آمریکا، تا حدود یه هفته دیگه این برنامه رو به‌طور رسمی اعلام کنه؛ زمان‌بندی‌ش هنوز قطعی نیست و لیست کامل شرکت‌ها هم تا این لحظه منتشر نشده.\n\nاین برچسب قراره امتیازهایی مثل بررسی سریع‌تر مجوزهای صادرات تراشه و بقیه فناوری‌ها، حمایت مستقیم دولت از پروژه‌های خارج از کشورشون و دسترسی به منابع مالی فدرال رو برای این شرکت‌ها به همراه بیاره. ایده اصلی اینه که تراشه‌ها، مدل‌های هوش مصنوعی و بقیه فناوری‌های آمریکایی رو تو قالب بسته‌های یکپارچه کنار هم بذارن تا دولت‌ها و کسب‌وکارهای خارجی به جای گزینه‌های چینی مثل هواوی، این پکیج‌ها رو بخرن.",
+        "key_facts": [
+          "بیش از ۲۴ شرکت آمریکایی به‌عنوان قهرمان ملی هوش مصنوعی معرفی می‌شوند",
+          "شرکت‌هایی مثل انویدیا، آمازون، مایکروسافت، OpenAI و Anthropic در لیست هستند",
+          "امتیازها شامل بررسی سریع‌تر مجوز صادرات و دسترسی به منابع مالی فدرال است",
+          "هاوارد لوتنیک، وزیر بازرگانی آمریکا، تا حدود یک هفته دیگر برنامه را اعلام می‌کند"
+        ],
+        "numbers": [
+          {
+            "label": "تعداد شرکت‌ها",
+            "value": "بیش از ۲۴",
+            "unit": "شرکت"
+          }
+        ],
+        "entities": {
+          "companies": [
+            "Nvidia",
+            "Amazon",
+            "Microsoft",
+            "OpenAI",
+            "Anthropic",
+            "Huawei"
+          ],
+          "models": [],
+          "people": [
+            "Howard Lutnick",
+            "Donald Trump"
+          ]
+        },
+        "verification": "reported",
+        "source_url": "https://t.me/Mohammad_zammani/7221",
+        "image_url": "",
+        "dedupe_key": "trump-admin-ai-national-champions"
+      },
       "expiry": null,
-      "lastActionAt": "",
+      "lastActionAt": "2026-11-16T23:06:02.027Z",
       "sentAt": "",
       "note": "",
       "noteAt": "",
       "noteBy": "",
-      "previousMessageIds": []
+      "previousMessageIds": [
+        342
+      ],
+      "manual": true,
+      "lastAction": "rewrite"
     },
     "921fff427b": {
       "id": "921fff427b",
@@ -2686,6 +2732,15 @@
       "reason": "",
       "detail": "qa_pass cost=$0.001452",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T23:06:02.027Z",
+      "action": "rewrite",
+      "itemId": "80131ee9c0",
+      "source": "tg-mohammad-zammani",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001994",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -2736,6 +2791,12 @@
       "rewrites": 2,
       "publishes": 0,
       "lastAt": "2026-11-16T20:09:38.490Z"
+    },
+    "tg-mohammad-zammani": {
+      "rejects": 0,
+      "rewrites": 1,
+      "publishes": 0,
+      "lastAt": "2026-11-16T23:06:02.027Z"
     }
   },
   "callbackRetries": {
