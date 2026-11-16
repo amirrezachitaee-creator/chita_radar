@@ -118,6 +118,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_REVIEW_CHAT_ID: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+          TELEGRAM_REPORT_CHAT_ID: ${{ secrets.TELEGRAM_REPORT_CHAT_ID }}
         run: |
           set -euo pipefail
           {
@@ -128,6 +129,7 @@ jobs:
             printf 'TELEGRAM_BOT_TOKEN=%s\n' "${TELEGRAM_BOT_TOKEN:-}"
             printf 'TELEGRAM_CHAT_ID=%s\n' "${TELEGRAM_CHAT_ID:-}"
             printf 'TELEGRAM_REVIEW_CHAT_ID=%s\n' "${TELEGRAM_REVIEW_CHAT_ID:-}"
+            printf 'TELEGRAM_REPORT_CHAT_ID=%s\n' "${TELEGRAM_REPORT_CHAT_ID:-}"
           } > .env
           chmod 600 .env
 
@@ -256,7 +258,7 @@ jobs:
         if: failure()
         env:
           TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          CHAT: ${{ secrets.TELEGRAM_REVIEW_CHAT_ID }}
+          CHAT: ${{ secrets.TELEGRAM_REPORT_CHAT_ID || secrets.TELEGRAM_REVIEW_CHAT_ID }}
         run: |
           if [ -z "${TOKEN:-}" ] || [ -z "${CHAT:-}" ]; then exit 0; fi
           run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"

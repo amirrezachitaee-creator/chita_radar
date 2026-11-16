@@ -497,6 +497,10 @@ export function renderStatusMessage(health, {
   if (reviewStore) {
     const pending = Object.values(reviewStore.items ?? {}).filter((item) => item?.status === 'pending').length;
     lines.push(`صف بازبینی: ${pending} کارت`);
+    const actions = Array.isArray(reviewStore.actions) ? reviewStore.actions : [];
+    const countAction = (name) =>
+      actions.filter((entry) => entry?.action === name && entry?.at && dateKey(entry.at) === date).length;
+    lines.push(`امروز: ${countAction('reject')} رد | ${countAction('rewrite')} بازنویسی`);
   }
   if (state) lines.push(`صف تعویق: ${Object.keys(state.deferred ?? {}).length}`);
   lines.push(

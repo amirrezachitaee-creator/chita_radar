@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildStatusCard, renderDynamicSources, statusDue } from './status-report.mjs';
+import { buildStatusCard, renderDynamicSources, reportChatId, statusDue } from './status-report.mjs';
 import { emptyHealth } from './source-health.mjs';
 
 const HEALTH = {
@@ -51,12 +51,21 @@ test('the status card shows dynamic sources, trials and quarantine', () => {
     },
     now: '2026-11-16T19:30:00Z',
     state: { slots: {}, published: [], deferred: {} },
-    reviewStore: { items: { abc12345: { status: 'pending' } } },
+    reviewStore: {
+      items: { abc12345: { status: 'pending' } },
+      actions: [
+        { action: 'reject', at: '2026-11-16T10:00:00Z' },
+        { action: 'reject', at: '2026-11-16T20:00:00Z' },
+        { action: 'rewrite', at: '2026-11-16T20:10:00Z' },
+        { action: 'reject', at: '2026-11-15T10:00:00Z' },
+      ],
+    },
     changes: [{ source: 'tg-live', from: 'watch', to: 'quarantined', reason: 'sustained_rejects' }],
     runUrl: 'https://example.com/run/1',
   });
   assert.match(card, /وضعیت رادار/);
   assert.match(card, /صف بازبینی: 1 کارت/);
+  assert.match(card, /امروز: 2 رد \| 1 بازنویسی/);
   assert.match(card, /منابع پویای کشف‌شده/);
   assert.match(card, /example\.com \| آزمایشی/);
   assert.match(card, /کنار گذاشته‌شده/);
@@ -66,4 +75,23 @@ test('the status card shows dynamic sources, trials and quarantine', () => {
 
 test('no dynamic block when the discovery file is empty', () => {
   assert.equal(renderDynamicSources({ sources: [] }, HEALTH), '');
+});
+
+test('reports prefer the report chat and fall back to the review chat', () => {
+  const config = {
+    reports: { chat_env: 'TELEGRAM_REPORT_CHAT_ID' },
+    offers: { review: { chat_env: 'TELEGRAM_REVIEW_CHAT_ID' } },
+  };
+  assert.deepEqual(
+    reportChatId({
+      env: { TELEGRAM_REPORT_CHAT_ID: '-1009', TELEGRAM_REVIEW_CHAT_ID: '-1001' },
+      config,
+    }),
+    { chatId: '-1009', target: 'report' }
+  );
+  assert.deepEqual(reportChatId({ env: { TELEGRAM_REVIEW_CHAT_ID: '-1001' }, config }), {
+    chatId: '-1001',
+    target: 'review',
+  });
+  assert.deepEqual(reportChatId({ env: {}, config }), { chatId: '', target: '' });
 });

@@ -88,7 +88,7 @@ function storeOf(entries, pendingRejects = null, pendingNotes = null, noteThread
   };
 }
 
-function update(action, id, { extra = '', messageId = 42, updateId = 7 } = {}) {
+function update(action, id, { extra = '', messageId = 42, updateId = 7, chatId = -1001 } = {}) {
   const data = extra ? `rv1|${action}|${id}|${extra}` : `rv1|${action}|${id}`;
   return {
     update_id: updateId,
@@ -96,7 +96,7 @@ function update(action, id, { extra = '', messageId = 42, updateId = 7 } = {}) {
       id: `cb-${updateId}`,
       data,
       from: { id: 99, username: 'amir' },
-      message: { message_id: messageId, chat: { id: -1001 } },
+      message: { message_id: messageId, chat: { id: chatId } },
     },
   };
 }
@@ -317,6 +317,46 @@ test('the note button previews a forced-reply prompt without blocking the queue'
   assert.match(output, /DRY_NOTE_PROMPT id=deadbeef01 message=42 force_reply=1 replace=0/);
   assert.match(output, /DRY_ANSWER پیام راهنما برای نوشتن یادداشت فرستاده می‌شود/);
   assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
+});
+
+test('a note prompt for an old-channel card is sent in the review chat without a cross-chat reply', async () => {
+  const output = await run(
+    [update('n', 'deadbeef01', { chatId: -1000 })],
+    [item({ chatId: '-1000' })]
+  );
+  assert.match(
+    output,
+    /DRY_NOTE_PROMPT id=deadbeef01 message=42 force_reply=1 replace=0 chat=-1001 reply_to=0/
+  );
+  assert.match(output, /handled=1 failed=0/);
+});
+
+test('a reject on an old-channel card deletes it in its own chat', async () => {
+  const output = await run(
+    [update('x', 'deadbeef01', { extra: 'quality', chatId: -1000 })],
+    [item({ chatId: '-1000' })]
+  );
+  assert.match(output, /REVIEW_REJECTED id=deadbeef01 reason=quality deleted=no chat=-1000/);
+  assert.match(output, /DRY_CARD_DELETE message=42 chat=-1000/);
+});
+
+test('a rewrite preview keeps the old card chat and targets the review chat', async () => {
+  const output = await run(
+    [update('w', 'deadbeef01', { chatId: -1000 })],
+    [item({ chatId: '-1000' })]
+  );
+  assert.match(
+    output,
+    /DRY_REWRITE id=deadbeef01 rewrites=0->1 old_chat=-1000 next_chat=-1001/
+  );
+});
+
+test('the reject menu returns the keyboard to the card chat', async () => {
+  const output = await run(
+    [update('r', 'deadbeef01', { chatId: -1000 })],
+    [item({ chatId: '-1000' })]
+  );
+  assert.match(output, /DRY_KEYBOARD message=42 chat=-1000/);
 });
 
 test('the note button refuses a card with no rewrite left', async () => {

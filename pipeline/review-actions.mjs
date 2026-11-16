@@ -261,12 +261,19 @@ async function queueNotice() {
   log(`QUEUE_NOTICE callbacks=${callbacks.length} fresh=${fresh}`);
 }
 
-async function setKeyboard(messageId, keyboard) {
-  if (!SEND || !messageId) return;
+function cardChatOf(item) {
+  return String(item?.chatId || REVIEW_CHAT_ID);
+}
+
+async function setKeyboard(messageId, keyboard, chatId = REVIEW_CHAT_ID) {
+  if (!SEND || !messageId) {
+    if (messageId) log(`DRY_KEYBOARD message=${messageId} chat=${chatId}`);
+    return;
+  }
   try {
     await editMessageReplyMarkup({
       token: TOKEN,
-      chatId: REVIEW_CHAT_ID,
+      chatId,
       messageId,
       replyMarkup: keyboard ?? removeKeyboard(),
     });
@@ -275,10 +282,13 @@ async function setKeyboard(messageId, keyboard) {
   }
 }
 
-async function setCardTag(messageId, card, tag, detail = '') {
-  if (!SEND || !messageId) return;
+async function setCardTag(messageId, card, tag, detail = '', chatId = REVIEW_CHAT_ID) {
+  if (!SEND || !messageId) {
+    if (messageId) log(`DRY_CARD_TAG message=${messageId} chat=${chatId}`);
+    return;
+  }
   if (!card?.html && !card?.text) {
-    await setKeyboard(messageId, null);
+    await setKeyboard(messageId, null, chatId);
     return;
   }
   const tagHtml = detail ? `<b>${tag}</b>\n${detail}` : `<b>${tag}</b>`;
@@ -288,21 +298,24 @@ async function setCardTag(messageId, card, tag, detail = '') {
   try {
     await editMessageText(html || text, {
       token: TOKEN,
-      chatId: REVIEW_CHAT_ID,
+      chatId,
       messageId,
       parseMode: html ? 'HTML' : '',
       replyMarkup: removeKeyboard(),
     });
   } catch (error) {
     log(`CARD_TAG_FAILED ${messageId} ${String(error?.message ?? error)}`);
-    await setKeyboard(messageId, null);
+    await setKeyboard(messageId, null, chatId);
   }
 }
 
-async function deleteCard(messageId, card = null) {
-  if (!SEND || !messageId) return false;
+async function deleteCard(messageId, card = null, chatId = REVIEW_CHAT_ID) {
+  if (!SEND || !messageId) {
+    if (messageId) log(`DRY_CARD_DELETE message=${messageId} chat=${chatId}`);
+    return false;
+  }
   try {
-    await deleteMessage(messageId, { token: TOKEN, chatId: REVIEW_CHAT_ID });
+    await deleteMessage(messageId, { token: TOKEN, chatId });
     return true;
   } catch (error) {
     log(`CARD_DELETE_FAILED ${messageId} ${String(error?.message ?? error)}`);
@@ -311,7 +324,7 @@ async function deleteCard(messageId, card = null) {
       try {
         await editMessageText(`❌ رد شد\n\n${text}`, {
           token: TOKEN,
-          chatId: REVIEW_CHAT_ID,
+          chatId,
           messageId,
           replyMarkup: removeKeyboard(),
         });
@@ -320,7 +333,7 @@ async function deleteCard(messageId, card = null) {
         log(`CARD_TAG_FAILED ${messageId} ${String(tagError?.message ?? tagError)}`);
       }
     }
-    await setKeyboard(messageId, null);
+    await setKeyboard(messageId, null, chatId);
     return false;
   }
 }
@@ -700,7 +713,7 @@ async function handleBack(review, query) {
   const { item, error, retry } = activeItem(review, query);
   if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'دکمه‌ها برگشتند.');
-  await setKeyboard(item.messageId, keyboardFor(item, { rewriteCap: REWRITE_CAP }));
+  await setKeyboard(item.messageId, keyboardFor(item, { rewriteCap: REWRITE_CAP }), cardChatOf(item));
 }
 
 async function handleNote(review, query) {
@@ -727,11 +740,12 @@ async function handleNote(review, query) {
   if (previous?.messageId) {
     await retireNoteThread(previous.messageId, 'پیام راهنمای قبلی کنار رفت؛ از پیام تازه استفاده کن.');
   }
+  const replyTo = cardChatOf(item) === REVIEW_CHAT_ID ? item.messageId : 0;
   if (!SEND) {
     log(
       `DRY_NOTE_PROMPT id=${item.id} message=${item.messageId} force_reply=1 replace=${
         String(item.note ?? '').trim() ? 1 : 0
-      }`
+      } chat=${REVIEW_CHAT_ID} reply_to=${replyTo}`
     );
     await answer(query.id, 'پیام راهنما برای نوشتن یادداشت فرستاده می‌شود.');
     return null;
@@ -741,7 +755,7 @@ async function handleNote(review, query) {
     sent = await sendText(notePromptText(item), {
       token: TOKEN,
       chatId: REVIEW_CHAT_ID,
-      replyTo: item.messageId,
+      replyTo,
       replyMarkup: {
         force_reply: true,
         input_field_placeholder: 'نکات مدنظرت...',
@@ -764,7 +778,7 @@ async function handleNote(review, query) {
   await persistStore();
   await answer(query.id, 'پیام راهنما فرستادم؛ همان‌جا بنویس.');
   log(
-    `REVIEW_NOTE_PROMPT id=${item.id} message=${messageId} reply_to=${item.messageId} replace=${
+    `REVIEW_NOTE_PROMPT id=${item.id} message=${messageId} reply_to=${replyTo} replace=${
       String(item.note ?? '').trim() ? 1 : 0
     } | ${item.title}`
   );
@@ -779,13 +793,14 @@ async function handleDeleteMessage(query) {
     return;
   }
   await answer(query.id, 'حذف شد.');
+  const chatId = String(message.chat?.id ?? REVIEW_CHAT_ID);
   if (!SEND) {
-    log(`DRY_DELETE message=${messageId}`);
+    log(`DRY_DELETE message=${messageId} chat=${chatId}`);
     return;
   }
   try {
-    await deleteMessage(messageId, { token: TOKEN, chatId: REVIEW_CHAT_ID });
-    log(`REVIEW_MESSAGE_DELETED message=${messageId}`);
+    await deleteMessage(messageId, { token: TOKEN, chatId });
+    log(`REVIEW_MESSAGE_DELETED message=${messageId} chat=${chatId}`);
   } catch (error) {
     log(`CARD_DELETE_FAILED ${messageId} ${String(error?.message ?? error)}`);
   }
@@ -806,15 +821,16 @@ function queuePendingReject(review, query) {
 async function handleRejectMenu(review, query) {
   if (!store.items[review.id]) {
     const messageId = Number(query?.message?.message_id ?? 0);
+    const chatId = String(query?.message?.chat?.id ?? REVIEW_CHAT_ID);
     await answer(query.id, 'دلیل رد را انتخاب کن.');
-    await setKeyboard(messageId, rejectKeyboard(review.id));
-    log(`REVIEW_REJECT_MENU id=${review.id} unregistered=1 message=${messageId}`);
+    await setKeyboard(messageId, rejectKeyboard(review.id), chatId);
+    log(`REVIEW_REJECT_MENU id=${review.id} unregistered=1 message=${messageId} chat=${chatId}`);
     return null;
   }
   const { item, error, retry } = activeItem(review, query);
   if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'دلیل رد را انتخاب کن.');
-  await setKeyboard(item.messageId, rejectKeyboard(item.id));
+  await setKeyboard(item.messageId, rejectKeyboard(item.id), cardChatOf(item));
   log(`REVIEW_REJECT_MENU id=${item.id} | ${item.title}`);
   return null;
 }
@@ -824,7 +840,11 @@ async function handleReject(review, query) {
     await answer(query.id, 'رد شد؛ پیام پاک می‌شود.');
     const messageId = queuePendingReject(review, query);
     await persistStore();
-    const deleted = await deleteCard(messageId, null);
+    const deleted = await deleteCard(
+      messageId,
+      null,
+      String(query?.message?.chat?.id ?? REVIEW_CHAT_ID)
+    );
     log(
       `REVIEW_REJECT_PENDING id=${review.id} reason=${review.extra} deleted=${deleted ? 'yes' : 'no'} message=${messageId}`
     );
@@ -854,9 +874,11 @@ async function handleReject(review, query) {
     url: item.url,
   });
   await persist();
-  const deleted = await deleteCard(item.messageId, item);
+  const deleted = await deleteCard(item.messageId, item, cardChatOf(item));
   log(
-    `REVIEW_REJECTED id=${item.id} reason=${review.extra} deleted=${deleted ? 'yes' : 'no'} | ${item.title}`
+    `REVIEW_REJECTED id=${item.id} reason=${review.extra} deleted=${deleted ? 'yes' : 'no'} chat=${cardChatOf(
+      item
+    )} | ${item.title}`
   );
   return null;
 }
@@ -864,6 +886,7 @@ async function handleReject(review, query) {
 async function handleRewrite(review, query) {
   const { item, error, retry } = activeItem(review, query);
   if (error) return answerItemError(query, error, retry);
+  const oldChatId = cardChatOf(item);
   if (Number(item.rewrites) >= REWRITE_CAP) {
     return notify(`سقف بازنویسی این مورد پر است (${item.rewrites}/${REWRITE_CAP}).`);
   }
@@ -909,7 +932,7 @@ async function handleRewrite(review, query) {
     };
     const rows = keyboardFor(next, { rewriteCap: REWRITE_CAP })?.inline_keyboard ?? [];
     log(
-      `DRY_REWRITE id=${item.id} rewrites=${item.rewrites}->${next.rewrites} next_keys=${rows
+      `DRY_REWRITE id=${item.id} rewrites=${item.rewrites}->${next.rewrites} old_chat=${oldChatId} next_chat=${REVIEW_CHAT_ID} next_keys=${rows
         .map((row) => row.map((button) => button.text).join(' + '))
         .join(' / ')}`
     );
@@ -1033,12 +1056,13 @@ async function handleRewrite(review, query) {
   }
   const nextMessageId = sent.messageId ?? oldMessageId;
   const previousIds = Array.isArray(item.previousMessageIds) ? item.previousMessageIds : [];
-  if (oldMessageId && Number(oldMessageId) !== Number(nextMessageId)) {
+  if (oldChatId === REVIEW_CHAT_ID && oldMessageId && Number(oldMessageId) !== Number(nextMessageId)) {
     item.previousMessageIds = [...previousIds, Number(oldMessageId)]
       .filter((value, index, all) => Number.isInteger(value) && value > 0 && all.indexOf(value) === index)
       .slice(-5);
   }
   item.messageId = nextMessageId;
+  item.chatId = String(REVIEW_CHAT_ID);
   recordReviewAction(store, {
     item,
     action: 'rewrite',
@@ -1051,12 +1075,13 @@ async function handleRewrite(review, query) {
     oldMessageId,
     cleanReviewMessage({ post: snapshot.post }),
     '✅ بازنویسی اعمال شد',
-    'نسخهٔ تازه در پیام بعدی است.'
+    'نسخهٔ تازه در پیام بعدی است.',
+    oldChatId
   );
   log(
     `REVIEW_REWRITTEN id=${item.id} attempt=${item.rewrites}/${REWRITE_CAP} manual=1 clean=1 qa=${
       item.qaPass ? 'PASS' : 'FAIL'
-    } note=${String(item.note ?? '').trim() ? '1' : '0'} message=${item.messageId} cost=$${Number(
+    } note=${String(item.note ?? '').trim() ? '1' : '0'} message=${item.messageId} chat=${REVIEW_CHAT_ID} old_chat=${oldChatId} cost=$${Number(
       result.cost ?? 0
     ).toFixed(6)} tokens=${result.tokens}`
   );
@@ -1256,7 +1281,9 @@ async function handlePublish(review, query) {
   await setCardTag(
     item.messageId,
     cleanReviewMessage(item),
-    '🟢 منتشر شده در کانال اصلی'
+    '🟢 منتشر شده در کانال اصلی',
+    '',
+    cardChatOf(item)
   );
   log(
     `REVIEW_PUBLISHED id=${item.id} slot=${slot} manual=${manual ? '1' : '0'} message=${
@@ -1289,7 +1316,7 @@ async function processQueuedPublishes() {
       {
         id: null,
         from: { username: 'queued' },
-        message: { message_id: item.messageId, chat: { id: REVIEW_CHAT_ID } },
+        message: { message_id: item.messageId, chat: { id: cardChatOf(item) } },
       }
     );
     await new Promise((done) => setTimeout(done, 1200));

@@ -34,6 +34,16 @@ async function readJson(path) {
   }
 }
 
+export function reportChatId({ env = {}, config = {} } = {}) {
+  const reportEnv = String(config.reports?.chat_env || 'TELEGRAM_REPORT_CHAT_ID');
+  const reviewEnv = String(config.offers?.review?.chat_env || 'TELEGRAM_REVIEW_CHAT_ID');
+  const report = String(env?.[reportEnv] ?? '').trim();
+  if (report) return { chatId: report, target: 'report' };
+  const review = String(env?.[reviewEnv] ?? '').trim();
+  if (review) return { chatId: review, target: 'review' };
+  return { chatId: '', target: '' };
+}
+
 export function statusDue({ health, now, minHour = 22, force = false }) {
   const date = dateKey(now);
   if (!force && health?.lastStatusDate === date) return { due: false, date, reason: 'already_sent' };
@@ -163,10 +173,7 @@ async function main() {
 
   const env = await loadEnv(resolve(ROOT, '.env')).catch(() => ({}));
   const token = env.TELEGRAM_BOT_TOKEN || process.env.TELEGRAM_BOT_TOKEN || '';
-  const chatId =
-    env[config.offers?.review?.chat_env || 'TELEGRAM_REVIEW_CHAT_ID'] ||
-    process.env.TELEGRAM_REVIEW_CHAT_ID ||
-    '';
+  const { chatId, target } = reportChatId({ env: { ...process.env, ...env }, config });
   if (!token || !chatId) {
     console.log('STATUS_SKIP reason=credentials_missing');
     return;
@@ -176,7 +183,7 @@ async function main() {
     health.lastStatusDate = date;
     health.lastStatusAt = new Date().toISOString();
     await saveHealth(healthPath, health);
-    console.log(`STATUS_SENT message_id=${result.messageId ?? 'unknown'}`);
+    console.log(`STATUS_SENT message_id=${result.messageId ?? 'unknown'} target=${target}`);
   } catch (error) {
     console.log(`STATUS_SEND_FAILED ${String(error?.message ?? error).slice(0, 160)}`);
   }

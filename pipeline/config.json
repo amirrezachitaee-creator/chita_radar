@@ -1,6 +1,9 @@
 {
   "channel": "main",
   "timezone": "Asia/Tehran",
+  "reports": {
+    "chat_env": "TELEGRAM_REPORT_CHAT_ID"
+  },
   "categories": {
     "tools": {
       "label": "ابزارها و محصولات",
