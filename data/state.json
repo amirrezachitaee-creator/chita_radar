@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T20:04:55.409Z",
+  "updatedAt": "2026-11-16T05:02:52.140Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9248,105 +9248,144 @@
       "slot": "2026-11-15T23:00+03:30",
       "title": "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll",
       "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor"
+    },
+    "offerwatch:4c5eba51825b673a": {
+      "at": "2026-11-16T05:01:03.051Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits"
+    },
+    "offerwatch:6c8c2053f0eda87a": {
+      "at": "2026-11-16T05:01:03.280Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:12b84d0c94a0ff37": {
+      "at": "2026-11-16T05:01:03.565Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/"
+    },
+    "url:87b76e5b13944ae0": {
+      "at": "2026-11-16T05:01:23.091Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health"
+    },
+    "title:5c6fe4461136c3a9": {
+      "at": "2026-11-16T05:01:23.091Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health"
+    },
+    "url:836964a949f383bd": {
+      "at": "2026-11-16T05:01:23.092Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "LECAT: Measuring LLM Category Learning from Pretraining Data",
+      "url": "https://arxiv.org/abs/2611.18419v1"
+    },
+    "title:af769aaf7230e8eb": {
+      "at": "2026-11-16T05:01:23.092Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "LECAT: Measuring LLM Category Learning from Pretraining Data",
+      "url": "https://arxiv.org/abs/2611.18419v1"
+    },
+    "url:bbcb79fadd39dd32": {
+      "at": "2026-11-16T05:01:56.989Z",
+      "decision": "skip",
+      "reason": "stale",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
+    },
+    "title:bd24234b289faa59": {
+      "at": "2026-11-16T05:01:56.989Z",
+      "decision": "skip",
+      "reason": "stale",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
+    },
+    "url:a720dacef8969fc0": {
+      "at": "2026-11-16T05:01:58.354Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu"
+    },
+    "title:f81e4095b6d3377d": {
+      "at": "2026-11-16T05:01:58.354Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu"
+    },
+    "url:d16c86f834412880": {
+      "at": "2026-11-16T05:02:26.981Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup"
+    },
+    "title:8afb55858e2ff311": {
+      "at": "2026-11-16T05:02:26.981Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup"
+    },
+    "url:c6febd82e4661f8d": {
+      "at": "2026-11-16T05:02:52.102Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+      "benchmark": false
+    },
+    "title:10b067abd4a3739f": {
+      "at": "2026-11-16T05:02:52.102Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-16T08:30+03:30",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:fb1ddd2a5ff741f6": {
-      "id": "defer:url:fb1ddd2a5ff741f6",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:fb1ddd2a5ff741f6",
-        "title:3a36eecae5fd10b7"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending",
-      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-        "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-        "canonical": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending",
-        "published": "Thu, 12 Nov 2026 21:27:10 +0000",
-        "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-        "images": [],
-        "ageHours": 7.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:fb1ddd2a5ff741f6",
-          "title:3a36eecae5fd10b7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b397ff4d002aefbd": {
-      "id": "defer:url:b397ff4d002aefbd",
-      "at": "2026-11-13T05:01:12.904Z",
-      "firstAt": "2026-11-13T05:01:12.904Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:b397ff4d002aefbd",
-        "title:afa8524aec09855e"
-      ],
-      "canonical": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
-      "title": "Claude Meetings lets Anthropic's AI join your video calls",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Claude Meetings lets Anthropic's AI join your video calls",
-        "link": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
-        "canonical": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
-        "published": "Thu, 12 Nov 2026 20:26:50 +0000",
-        "summary": "Anthropic is adding Claude directly to video calls. Claude Meetings joins Google Meet sessions and creates documents, whiteboards, and meeting notes in real time. The feature launches in beta for Team and Enterprise plans, with more platforms coming later. The article Claude Meetings lets Anthropic's AI join your video calls appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png"
-        ],
-        "ageHours": 8.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:b397ff4d002aefbd",
-          "title:afa8524aec09855e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:5a7538ac02344da7": {
       "id": "defer:url:5a7538ac02344da7",
       "at": "2026-11-13T17:01:14.509Z",
@@ -9390,53 +9429,6 @@
         "keys": [
           "url:5a7538ac02344da7",
           "title:ef94a9689ade4a55"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bbcb79fadd39dd32": {
-      "id": "defer:url:bbcb79fadd39dd32",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:bbcb79fadd39dd32",
-        "title:bd24234b289faa59"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-        "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-        "canonical": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
-        "published": "Fri, 13 Nov 2026 16:00:12 +0000",
-        "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-        "images": [],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:bbcb79fadd39dd32",
-          "title:bd24234b289faa59"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -10279,52 +10271,6 @@
         "officialCourse": false
       }
     },
-    "defer:url:1cafc4ef12c58422": {
-      "id": "defer:url:1cafc4ef12c58422",
-      "at": "2026-11-14T17:01:12.883Z",
-      "firstAt": "2026-11-14T17:01:12.883Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1cafc4ef12c58422",
-        "title:f3e1caceb0fa70c1"
-      ],
-      "canonical": "https://www.producthunt.com/products/gemini-robotics-2-5",
-      "title": "Gemini Robotics 2.5",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Gemini Robotics 2.5",
-        "link": "https://www.producthunt.com/products/gemini-robotics-2-5",
-        "canonical": "https://www.producthunt.com/products/gemini-robotics-2-5",
-        "published": "2026-11-12T12:18:13-08:00",
-        "summary": "<p> Gemini Robotics 2.5: Google’s most capable robot model </p> <p> <a href=\"https://www.producthunt.com/products/gemini-robotics-2-5?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1314543?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/gemini-robotics-2-5",
-        "images": [],
-        "ageHours": 44.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:1cafc4ef12c58422",
-          "title:f3e1caceb0fa70c1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:05648108c87680dd": {
       "id": "defer:url:05648108c87680dd",
       "at": "2026-11-14T17:31:37.633Z",
@@ -10603,56 +10549,6 @@
         "keys": [
           "url:33aa528b7cafa355",
           "title:1cc7068d0c822fff"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a720dacef8969fc0": {
-      "id": "defer:url:a720dacef8969fc0",
-      "at": "2026-11-15T10:32:01.957Z",
-      "firstAt": "2026-11-15T10:32:01.957Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a720dacef8969fc0",
-        "title:f81e4095b6d3377d"
-      ],
-      "canonical": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
-      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-        "link": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-        "canonical": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
-        "published": "Sun, 15 Nov 2026 10:06:06 +0000",
-        "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs. The article Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/meituan-logo-wall-chatgpt-5.6.jpg"
-        ],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a720dacef8969fc0",
-          "title:f81e4095b6d3377d"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -11254,6 +11150,54 @@
         "webEducation": false,
         "officialCourse": false
       }
+    },
+    "defer:url:2e8f421d2ee2a3df": {
+      "id": "defer:url:2e8f421d2ee2a3df",
+      "at": "2026-11-16T05:02:52.140Z",
+      "firstAt": "2026-11-16T05:02:52.140Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:2e8f421d2ee2a3df",
+        "title:5b350102ec39c60b"
+      ],
+      "canonical": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "A step toward defining the Standard Model on a lattice",
+        "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "canonical": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "published": "Sun, 15 Nov 2026 22:00:01 GMT",
+        "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "images": [],
+        "ageHours": 7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:2e8f421d2ee2a3df",
+          "title:5b350102ec39c60b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -13060,6 +13004,37 @@
       "cost": 0.0017067512,
       "tokens": 20393,
       "posts": []
+    },
+    "2026-11-16T08:30+03:30": {
+      "at": "2026-11-16T05:02:52.102Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "پلاگین جدید Datasette با نقشه برداری MapLibre",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/08-30",
+      "messageId": 85,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0025143607999999996,
+      "tokens": 42291,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "پلاگین جدید Datasette با نقشه برداری MapLibre",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 85,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0002935912,
+          "tokens": 9988,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-16T05:02:52.102Z"
+        }
+      ]
     }
   },
   "published": [
@@ -14256,93 +14231,111 @@
       "sourceTitle": "Kitesurf is now open source",
       "sourceText": "کمپانی کلودفلر مرورگر مخصوص ایجنت‌ها رو متن‌باز کرد\n\nبلاگ کلودفلر می‌گه Kitesurf، موتور مرورگر سبکی که برای ایجنت‌های AI ساخته، حالا با لایسنس Apache 2.0 روی گیت‌هابه و می‌تونید خودتون اجراش کنید یا روی اکانت خودتون دیپلویش کنید. این موتور به‌جای کانتینر کامل کرومیوم روی Workers اجرا می‌شه، HTML رو پارس می‌کنه، جاوااسکریپت اجرا می‌کنه و اسکرین‌شات می‌گیره، با CPU و حافظه کمتر. از پروتکل Chrome DevTools هم پشتیبانی می‌کنه، یعنی با Puppeteer وصلش می‌کنید و ایجنت مستقیم کنترلش رو می‌گیره.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍35❤17",
       "at": "2026-11-15T17:32:52.020Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-16T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "پلاگین جدید Datasette با نقشه برداری MapLibre",
+      "why": "این پلاگین کار با داده‌های مکانی رو برای توسعه‌دهنده‌هایی که از Datasette استفاده می‌کنن خیلی ساده‌تر می‌کنه و دیگه نیازی به ابزارهای جداگانه برای نمایش نقشه نیست.",
+      "dedupe_key": "datasette-maplibre-plugin",
+      "post_key": "2026-11-16/08-30/1",
+      "sourceId": "simon-willison-prompt-injection",
+      "sourceName": "Simon Willison - Prompt Injection",
+      "sourceType": "blog_tag",
+      "benchmark": false,
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "sourceTitle": "Release: datasette-maplibre 0.1a0",
+      "sourceText": "The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .)\nI built most of this with a single prompt to Claude Fable 5.2:\nLook at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have\n\"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view.\nI also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly.\nI like this demo page showing both GeoJSON shapes and lat/lon points on the same map:\nThis is a beat by Simon Willison, posted on 15th November 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.",
+      "at": "2026-11-16T05:02:52.102Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8420,
-      "last_at": "2026-11-15T19:08:48+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "last_id": 8421,
+      "last_at": "2026-11-15T20:03:47+00:00",
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "pedramgholizadeh": {
-      "last_id": 803,
-      "last_at": "2026-11-14T19:20:44+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "last_id": 804,
+      "last_at": "2026-11-15T21:03:19+00:00",
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "ai_farshad": {
-      "last_id": 6443,
-      "last_at": "2026-11-15T17:50:07+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "last_id": 6445,
+      "last_at": "2026-11-15T20:15:35+00:00",
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7215,
-      "last_at": "2026-11-15T17:22:06+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "last_id": 7216,
+      "last_at": "2026-11-16T04:32:47+00:00",
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "techiin_ir": {
       "last_id": 20781,
       "last_at": "2026-11-15T17:44:31+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "mgh_mobin": {
       "last_id": 482,
       "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "web3nabu": {
-      "last_id": 2170,
-      "last_at": "2026-11-15T19:03:00+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "last_id": 2171,
+      "last_at": "2026-11-15T22:22:45+00:00",
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "asrnovin_ir": {
       "last_id": 11471,
       "last_at": "2026-11-15T16:33:29+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "shayanode": {
       "last_id": 208,
       "last_at": "2026-11-15T19:12:25+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "codecloude": {
       "last_id": 2590,
       "last_at": "2026-11-15T18:51:37+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "dunijet_ai": {
       "last_id": 2574,
       "last_at": "2026-11-15T17:47:54+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "MatinSenPaii": {
       "last_id": 5885,
       "last_at": "2026-11-15T14:40:08+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     },
     "thenimaonAI": {
       "last_id": 520,
       "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-15T20:04:25.699Z"
+      "checked_at": "2026-11-16T05:00:56.544Z"
     }
   },
   "offerReviews": [
@@ -17105,6 +17098,54 @@
       "slot": "2026-11-15T23:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|offer-watch:ai-free|https://aifree.dev/free-api-credits",
+      "date": "2026-11-16",
+      "at": "2026-11-16T05:00:56.544Z",
+      "source": "offer-watch:ai-free",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits",
+      "reason": "offer_watch",
+      "slot": "2026-11-16T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-16",
+      "at": "2026-11-16T05:00:56.544Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-16T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|offer-watch:free-inference|https://www.freeinference.dev/",
+      "date": "2026-11-16",
+      "at": "2026-11-16T05:00:56.544Z",
+      "source": "offer-watch:free-inference",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/",
+      "reason": "offer_watch",
+      "slot": "2026-11-16T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|the-decoder|https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "date": "2026-11-16",
+      "at": "2026-11-16T05:00:56.544Z",
+      "source": "the-decoder",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "reason": "source_not_official",
+      "slot": "2026-11-16T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -17377,8 +17418,8 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-15",
-    "at": "2026-11-15T05:01:00.403Z",
+    "lastDate": "2026-11-16",
+    "at": "2026-11-16T05:00:56.544Z",
     "found": 3,
     "delivered": 3
   },
@@ -17390,7 +17431,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-15T17:31:39.673Z",
+      "lastCheck": "2026-11-16T05:00:56.544Z",
       "status": "active",
       "misses": 0
     }
