@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T05:57:19.947Z",
+  "updatedAt": "2026-11-16T08:09:05.363Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9383,6 +9383,114 @@
       "title": "datasette-maplibre 0.1a0",
       "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
       "benchmark": false
+    },
+    "url:d6475341fb1fa3c5": {
+      "at": "2026-11-16T08:01:51.971Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+      "url": "https://arxiv.org/abs/2611.18514v1"
+    },
+    "title:73b012c5e2cacd15": {
+      "at": "2026-11-16T08:01:51.971Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+      "url": "https://arxiv.org/abs/2611.18514v1"
+    },
+    "url:755a159b6cb76c47": {
+      "at": "2026-11-16T08:02:09.631Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "🚀 عرضه مدل پرچمدار Qwen4-Max علی‌بابا",
+      "url": "https://t.me/ArchiveTell/8423"
+    },
+    "title:58dc8090d521a27b": {
+      "at": "2026-11-16T08:02:09.631Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "🚀 عرضه مدل پرچمدار Qwen4-Max علی‌بابا",
+      "url": "https://t.me/ArchiveTell/8423"
+    },
+    "url:979100514441e948": {
+      "at": "2026-11-16T08:02:13.849Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "مدل Qwen4-Max معرفی شد؛ یه رقیب جدی دیگه برای مدل‌های مطرح هوش مصنوعی!",
+      "url": "https://t.me/mgh_mobin/485"
+    },
+    "title:c252315ff70083fa": {
+      "at": "2026-11-16T08:02:13.849Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "مدل Qwen4-Max معرفی شد؛ یه رقیب جدی دیگه برای مدل‌های مطرح هوش مصنوعی!",
+      "url": "https://t.me/mgh_mobin/485"
+    },
+    "url:5fb416cadfc757e6": {
+      "at": "2026-11-16T08:02:23.925Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "مدل هوش مصنوعی جدید Qwen4-Max معرفی شده؛ یه دستیار جدید برای کارهای حرفه‌ای، خلاقانه و علمی",
+      "url": "https://t.me/Mohammad_zammani/7217"
+    },
+    "title:dcfbc4e39dc3bd09": {
+      "at": "2026-11-16T08:02:23.925Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "مدل هوش مصنوعی جدید Qwen4-Max معرفی شده؛ یه دستیار جدید برای کارهای حرفه‌ای، خلاقانه و علمی",
+      "url": "https://t.me/Mohammad_zammani/7217"
+    },
+    "url:fe274a32d3ef213e": {
+      "at": "2026-11-16T08:02:24.205Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "این ویدئو ۰ تا ۱۰۰ با هوش مصنوعی ساخته شده حتی صدای پس زمینه",
+      "url": "https://t.me/shayanode/210"
+    },
+    "title:3cc24906d61a2df4": {
+      "at": "2026-11-16T08:02:24.205Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "این ویدئو ۰ تا ۱۰۰ با هوش مصنوعی ساخته شده حتی صدای پس زمینه",
+      "url": "https://t.me/shayanode/210"
+    },
+    "url:63175f90faa0b2db": {
+      "at": "2026-11-16T08:09:05.361Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+      "benchmark": false
+    },
+    "title:f9eee83e5459dde8": {
+      "at": "2026-11-16T08:09:05.361Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-16T11:30+03:30",
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -10058,58 +10166,6 @@
         }
       },
       "detail": "tools"
-    },
-    "defer:url:a99dfdd20d85acbb": {
-      "id": "defer:url:a99dfdd20d85acbb",
-      "at": "2026-11-15T11:11:03.649Z",
-      "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_consecutive",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:a99dfdd20d85acbb",
-        "title:b26896d82a5727f6"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/shield",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-        "link": "https://openai.com/business/customer-stories/shield",
-        "canonical": "https://openai.com/business/customer-stories/shield",
-        "published": "Fri, 13 Nov 2026 08:00:00 GMT",
-        "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/shield",
-        "images": [],
-        "ageHours": 26.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a99dfdd20d85acbb",
-          "title:b26896d82a5727f6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:a99dfdd20d85acbb",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:9d694fa95af0cfae": {
       "id": "defer:url:9d694fa95af0cfae",
@@ -10920,57 +10976,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:63175f90faa0b2db": {
-      "id": "defer:url:63175f90faa0b2db",
-      "at": "2026-11-15T17:02:27.986Z",
-      "firstAt": "2026-11-15T17:02:27.986Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:63175f90faa0b2db",
-        "title:f9eee83e5459dde8"
-      ],
-      "canonical": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
-      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
-        "link": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
-        "canonical": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
-        "published": "Sun, 15 Nov 2026 15:42:03 +0000",
-        "summary": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photorealistic parking garage scene took roughly 700,000 strokes, according to Anthropic employee Jake Eaton. The article Anthropic's Claude Fable 5.2 doesn't generate images, it paints them appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
-        "images": [
-          "http://the-decoder.com/wp-content/uploads/2026/11/graczyk_demo.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/11/claude_fable_5.2_painting.png"
-        ],
-        "ageHours": 1.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:63175f90faa0b2db",
-          "title:f9eee83e5459dde8"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:167c81c5d6fc7db5": {
       "id": "defer:url:167c81c5d6fc7db5",
       "at": "2026-11-15T17:02:27.986Z",
@@ -11198,6 +11203,339 @@
         "leadKind": ""
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:eacf944e688a1074": {
+      "id": "defer:url:eacf944e688a1074",
+      "at": "2026-11-16T08:02:24.214Z",
+      "firstAt": "2026-11-16T08:02:24.214Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:eacf944e688a1074",
+        "title:d8a85a4ec48844fe"
+      ],
+      "canonical": "https://skillry.dev/ai-videos/opus-5-5",
+      "title": "اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی",
+      "candidate": {
+        "sourceId": "tg-mohammad-zammani",
+        "sourceName": "هوش مصنوعی | محمد زمانی",
+        "sourceType": "telegram_channel",
+        "title": "اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی",
+        "link": "https://skillry.dev/ai-videos/opus-5-5",
+        "canonical": "https://skillry.dev/ai-videos/opus-5-5",
+        "messageText": "اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی موشن‌گرافیک‌های حرفه‌ای، صحنه‌های سه‌بعدی و حتی موسیقی متن هماهنگ با تصویر بسازی، تا همین چند وقت پیش شبیه شوخی بود؛ اما مدل Claude Opus 5.5 این قاعده رو کاملاً عوض کرده.\n\nصفحه Opus 5.5 Videos در وب‌سایت Skillry دقیقاً جاییه که خروجی‌های وایرال و شگفت‌انگیز این مدل یک‌جا جمع شدن. اینجا با یک گالری ویدیویی معمولی طرف نیستیم؛ توی این صفحه ۴۱۸ پروژه واقعی قرار گرفته که تمام فریم‌ها و حتی افکت‌های صوتی‌شون مستقیماً با کدنویسی و ابزارهایی مثل Remotion، HyperFrames، Three.js و GSAP خلق شدن.\n\nچیزی که این صفحه رو به یک معدن طلا برای تولیدکننده‌های محتوا و توسعه‌دهنده‌ها تبدیل می‌کنه، سه ویژگی کلیدیه:\n\n✅دسترسی رایگان به پرامپت‌های اصلی: زیر هر ویدیو، پرامپت دقیق و کاملی که سازنده استفاده کرده به صورت رایگان قرار گرفته تا بتونی مستقیماً کپی کنی، شخصی‌سازی کنی یا از منطق پرامپت‌نویسی‌اش ایده بگیری.\n\n✅مقایسه زنده نسخه اصلی و بازسازی (Live Remake): یکی از جذاب‌ترین بخش‌های سایت، امکان مقایسه هم‌زمان و کنار همِ ویدیوی اصلی با نسخه بازسازی‌شده زنده در مرورگره.\n\n✅اکوسیستم مهارت‌های آماده (Skills): علاوه‌بر این آرشیو، خود پلتفرم Skillry مجموعه‌ای از مهارت‌های آماده رو ارائه می‌ده که می‌تونی روی ایجنت‌های کدنویسی مثل Claude Code، Cursor یا Codex نصب کنی تا صفر تا صد ویدیو، اسلاید یا صفحات وب رو برات بسازن.\n\nاگه می‌خوای ببینی ترکیب کدنویسی و هوش مصنوعی چطور داره جای روش‌های سنتی ساخت ویدیو و موشن‌گرافیک رو می‌گیره و دنبال الهام گرفتن از نمونه‌های واقعی هستی، حتماً به این صفحه سر بزن:\n\n✈️@mohammad_zammani\n📱Mohammad.zammani.offical\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍4😎4🔥3🥰3❤1👏1",
+        "leadPostUrl": "https://t.me/Mohammad_zammani/7219",
+        "published": "2026-11-16T07:17:07+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://skillry.dev/ai-videos/opus-5-5",
+          "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:eacf944e688a1074",
+          "title:d8a85a4ec48844fe"
+        ],
+        "leadSource": "Mohammad_zammani",
+        "leadMessageId": 7219,
+        "leadChannelUrl": "https://t.me/Mohammad_zammani",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:44bf92228a9e42f2": {
+      "id": "defer:url:44bf92228a9e42f2",
+      "at": "2026-11-16T08:02:24.214Z",
+      "firstAt": "2026-11-16T08:02:24.214Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:44bf92228a9e42f2",
+        "title:eba124c9b93b10ea"
+      ],
+      "canonical": "https://github.com/ranxianglei/billion-context",
+      "title": "GitHub - ranxianglei/billion-context: A context-compression plugin for month-long single sessions (billions of",
+      "candidate": {
+        "sourceId": "tg-thenima",
+        "sourceName": "Thenima.one",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - ranxianglei/billion-context: A context-compression plugin for month-long single sessions (billions of",
+        "link": "https://github.com/ranxianglei/billion-context",
+        "canonical": "https://github.com/ranxianglei/billion-context",
+        "messageText": "وقتی یه ایجنت کدنویسی (مثل Claude Code یا Codex) چند ساعت روی یه پروژه کار می‌کنه، کانتکست پر می‌شه. یا گفتگو بریده می‌شه، یا خودش یه خلاصه‌ی سرسری می‌سازه و نصف جزئیات گم می‌شه. 🧠\n\nBillion Context سعی می‌کنه همین مشکل رو حل کنه. ابزاری متن‌بازه که بین ایجنت و API مدل می‌شینه و بخش‌های قدیمی گفتگو رو به خلاصه‌های لایه‌ای تبدیل می‌کنه تا برای ادامه‌ی کار جا باز بشه.\n\nچطور کار می‌کنه؟\nابزار چهار تا قابلیت به مدل می‌ده و خود مدل تصمیم می‌گیره کی استفاده کنه:\n🔹 compress: یه بازه از پیام‌ها رو به خلاصه‌ی دقیق تبدیل می‌کنه\n🔹 decompress: وقتی جزئیات واقعی لازم شد، همون بخش رو برمی‌گردونه\n🔹 search_context: توی خلاصه‌ها و پیام‌های موجود جست‌وجو می‌کنه\n🔹 acp_status: وضعیت مصرف کانتکست رو نشون می‌ده\n\nچه چیزهایی باید بدونی؟\n✅ به یه مدل خاص محدود نیست؛ با Claude Code، Codex، OpenCode، Gemini CLI و کلی ابزار دیگه کار می‌کنه. شرطش اینه که ابزارت راهی برای اتصال به پراکسی داشته باشه.\n💰 پروژه رایگانه، ولی هزینه‌ی مدل جداست.\n📉 میزان صرفه‌جویی به نوع کار و تنظیمات بستگی داره.\n⚠️ سهمیه‌ی اشتراک سرویس‌ها رو حذف نمی‌کنه.\n\n🔗 \n\n@thenimaonAI",
+        "leadPostUrl": "https://t.me/thenimaonAI/522",
+        "published": "2026-11-16T06:56:32+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/ranxianglei/billion-context"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:44bf92228a9e42f2",
+          "title:eba124c9b93b10ea"
+        ],
+        "leadSource": "thenimaonAI",
+        "leadMessageId": 522,
+        "leadChannelUrl": "https://t.me/thenimaonAI",
+        "sourceFocus": "education",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:756ac6b73c7a6695": {
+      "id": "defer:url:756ac6b73c7a6695",
+      "at": "2026-11-16T08:02:24.214Z",
+      "firstAt": "2026-11-16T08:02:24.214Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:756ac6b73c7a6695",
+        "title:b3e0268d083492f4"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/15/datasette-apps",
+      "title": "datasette-apps 0.4a0",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "datasette-apps 0.4a0",
+        "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+        "canonical": "https://simonwillison.net/2026/Nov/15/datasette-apps",
+        "published": "2026-11-15T04:02:45+00:00",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other.</p> <p>This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/datasette-apps\">datasette-apps</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/urls\">urls</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+        "images": [],
+        "ageHours": 28,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:756ac6b73c7a6695",
+          "title:b3e0268d083492f4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a434c2daa44c258b": {
+      "id": "defer:url:a434c2daa44c258b",
+      "at": "2026-11-16T08:02:24.214Z",
+      "firstAt": "2026-11-16T08:02:24.214Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:a434c2daa44c258b",
+        "title:c3e4e56c83237705"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/15/datasette-agent",
+      "title": "datasette-agent 0.6a0",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "datasette-agent 0.6a0",
+        "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+        "canonical": "https://simonwillison.net/2026/Nov/15/datasette-agent",
+        "published": "2026-11-15T03:49:47+00:00",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.6a0\">datasette-agent 0.6a0</a></p> <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p> <p><img alt=\"Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an ask button. User has typed: Tell me about #re - the box is showing autocomplete results for the repos and releases tables.\" src=\"https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+        "images": [],
+        "ageHours": 28.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a434c2daa44c258b",
+          "title:c3e4e56c83237705"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:164ff2e912f3fc38": {
+      "id": "defer:url:164ff2e912f3fc38",
+      "at": "2026-11-16T08:02:24.214Z",
+      "firstAt": "2026-11-16T08:02:24.214Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:164ff2e912f3fc38",
+        "title:d2b62aae2f01884e"
+      ],
+      "canonical": "https://www.producthunt.com/products/chatgpt",
+      "title": "ChatGPT Wallet",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "ChatGPT Wallet",
+        "link": "https://www.producthunt.com/products/chatgpt",
+        "canonical": "https://www.producthunt.com/products/chatgpt",
+        "published": "2026-11-13T10:06:13-08:00",
+        "summary": "<p> Let ChatGPT agents buy things without seeing your card </p> <p> <a href=\"https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1315610?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/chatgpt",
+        "images": [],
+        "ageHours": 61.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:164ff2e912f3fc38",
+          "title:d2b62aae2f01884e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4e776fcc0d1418ab": {
+      "id": "defer:url:4e776fcc0d1418ab",
+      "at": "2026-11-16T08:02:24.214Z",
+      "firstAt": "2026-11-16T08:02:24.214Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4e776fcc0d1418ab",
+        "title:9c361e8decb9841e"
+      ],
+      "canonical": "https://github.com/alexgreensh/anidoodle",
+      "title": "😄 اینم لینک هر ۴ اسکیل انیمیشن که توی ریلز دیدی:",
+      "candidate": {
+        "sourceId": "tg-ai-farshad",
+        "sourceName": "آموزش هوش مصنوعی | ابزار و پرامپت",
+        "sourceType": "telegram_channel",
+        "title": "😄 اینم لینک هر ۴ اسکیل انیمیشن که توی ریلز دیدی:",
+        "link": "https://github.com/alexgreensh/anidoodle",
+        "canonical": "https://github.com/alexgreensh/anidoodle",
+        "messageText": "😄 اینم لینک هر ۴ اسکیل انیمیشن که توی ریلز دیدی:\n\n▶️ Anidoodle\nبرای جون دادن به نقاشی‌های ثابت\n\n▶️ Huashu Art Motion\nبرای ساخت انیمیشن‌های پیکسلی\n\n▶️ Claude Animation Base\nبرای متحرک کردن کاراکترهای کارتونی\n\n▶️ Manim Skill\nبرای متحرک کردن فرمول‌ها و نمودارهای ریاضی\n\nهمراه ما باشید. 🙏🏻\n\n@ai_farshad\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n😁2❤1👍1",
+        "leadPostUrl": "https://t.me/ai_farshad/6447",
+        "published": "2026-11-16T07:48:13+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/Cw4X6NEAOVAp7T_7ayFvIc5HdkeAGIP3QiacooNGgvOsRUXdZk7YVEceJxf-YhwSjYZpM99vE5A8ZL7NhreojnssqEv78cJqoPoZik5qFTYheUNHh9LKN-vOjfOflW3j1e1MoNanlEPVV_w2XF1OsWi_dauryiYKtwUqfQ8vI8R1pvmqKwkzhRVL65yUzgSLUgoisZ0e1r8EABiz3NJLIqZKsTdQqFLg9wMjPE5jHGJmdbDYVIf9oojB6oknbyjYP4v8ZGV6jpc_zOt96BXAX3_NC9hlPR1Lh9HxyrhbuI_ghO-mSX6DO8xgwsjck99LuxFDS_nXi1lVDxzhRyF3Tw.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": false,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/alexgreensh/anidoodle",
+          "https://github.com/alchaincyf/huashu-art-motion",
+          "https://github.com/JohnHeibel/ClaudeAnimationBase",
+          "https://github.com/adithya-s-k/manim_skill"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:4e776fcc0d1418ab",
+          "title:9c361e8decb9841e"
+        ],
+        "leadSource": "ai_farshad",
+        "leadMessageId": 6447,
+        "leadChannelUrl": "https://t.me/ai_farshad",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
     }
   },
   "slots": {
@@ -13035,6 +13373,37 @@
           "at": "2026-11-16T05:02:52.102Z"
         }
       ]
+    },
+    "2026-11-16T11:30+03:30": {
+      "at": "2026-11-16T08:09:05.361Z",
+      "status": "sent",
+      "category": "models",
+      "title": "مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/11-30",
+      "messageId": 86,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0038149216,
+      "tokens": 52949,
+      "qa": "41/43",
+      "posts": [
+        {
+          "title": "مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 86,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008182103999999999,
+          "tokens": 23448,
+          "qa": "41/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-16T08:09:05.361Z"
+        }
+      ]
     }
   },
   "published": [
@@ -14249,93 +14618,111 @@
       "sourceTitle": "Release: datasette-maplibre 0.1a0",
       "sourceText": "The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .)\nI built most of this with a single prompt to Claude Fable 5.2:\nLook at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have\n\"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view.\nI also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly.\nI like this demo page showing both GeoJSON shapes and lat/lon points on the same map:\nThis is a beat by Simon Willison, posted on 15th November 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.",
       "at": "2026-11-16T05:02:52.102Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-16T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد",
+      "why": "قیمت دسترسی به این مدل هنوز اعلام نشده، اما این روش جدید می‌تواند تولید تصویر را از یک فرآیند آماری به یک فرآیند خلاقانه و قابل کنترل تبدیل کند.",
+      "dedupe_key": "anthropic-claude-fable-5-2-painting",
+      "post_key": "2026-11-16/11-30/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "sourceTitle": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "sourceText": "Anthropic's new language model Claude Fable 5.2 can create complex and even photorealistic paintings by using code to place hundreds of thousands of individual brushstrokes on a virtual canvas.\nCurrent image models like Midjourney typically use diffusion, which gradually refines a noisy image into a clear result. Fable 5.2 takes a different approach by simulating the physical painting process, including bristle texture, how the paint goes on, and mistakes it then has to paint over.\nDeveloper Jake Eaton showed on X what the approach can do. Eaton works at Anthropic, where he regularly contributes to research on language model values, safety mechanisms, and AI agent behavior. Ad\nWhen he asked Fable 5.2 to create a painting as hard to distinguish from a photograph as possible, the model generated an image of a shopping cart in a parking garage using roughly 700,000 simulated brushstrokes. Ad\nAccording to Eaton, Claude works without an external image model and without pre-rendered or traced source images. Each piece is a Python program of 1,000 to 2,000 lines that drives a simulated paint engine. The approach resembles agentic image editing , where language models pick tools and evaluate results.\nEarlier attempts with the sibling model Opus 5.5 drew criticism for merely imitating existing art. Eaton responded by having Fable 5.2 develop its own artist personas with fictional backstories and consistent styles. The model needs several thousand brushstrokes per painting, and Eaton redirects them with comments. Ad\nAnthropic engineer Michael Graczyk shared a chat log and video of an",
+      "at": "2026-11-16T08:09:05.362Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8421,
-      "last_at": "2026-11-15T20:03:47+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "last_id": 8423,
+      "last_at": "2026-11-16T07:11:29+00:00",
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "pedramgholizadeh": {
       "last_id": 804,
       "last_at": "2026-11-15T21:03:19+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "ai_farshad": {
-      "last_id": 6445,
-      "last_at": "2026-11-15T20:15:35+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "last_id": 6447,
+      "last_at": "2026-11-16T07:48:13+00:00",
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7216,
-      "last_at": "2026-11-16T04:32:47+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "last_id": 7219,
+      "last_at": "2026-11-16T07:17:07+00:00",
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "techiin_ir": {
       "last_id": 20781,
       "last_at": "2026-11-15T17:44:31+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "mgh_mobin": {
-      "last_id": 482,
-      "last_at": "2026-11-15T06:54:48+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "last_id": 485,
+      "last_at": "2026-11-16T06:56:27+00:00",
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "web3nabu": {
       "last_id": 2171,
       "last_at": "2026-11-15T22:22:45+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "asrnovin_ir": {
       "last_id": 11471,
       "last_at": "2026-11-15T16:33:29+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "shayanode": {
-      "last_id": 208,
-      "last_at": "2026-11-15T19:12:25+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "last_id": 211,
+      "last_at": "2026-11-16T06:37:36+00:00",
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "aibysadeghi": {
       "last_id": 70,
       "last_at": "2026-11-08T07:49:27+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "codecloude": {
       "last_id": 2590,
       "last_at": "2026-11-15T18:51:37+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "dunijet_ai": {
       "last_id": 2574,
       "last_at": "2026-11-15T17:47:54+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "MatinSenPaii": {
-      "last_id": 5885,
-      "last_at": "2026-11-15T14:40:08+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "last_id": 5889,
+      "last_at": "2026-11-16T06:15:30+00:00",
+      "checked_at": "2026-11-16T08:01:36.190Z"
     },
     "thenimaonAI": {
-      "last_id": 520,
-      "last_at": "2026-11-15T08:38:05+00:00",
-      "checked_at": "2026-11-16T05:00:56.544Z"
+      "last_id": 527,
+      "last_at": "2026-11-16T07:06:24+00:00",
+      "checked_at": "2026-11-16T08:01:36.190Z"
     }
   },
   "offerReviews": [
@@ -17145,6 +17532,54 @@
       "reason": "source_not_official",
       "slot": "2026-11-16T08:30+03:30",
       "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-archive-tell|https://t.me/ArchiveTell/8423",
+      "date": "2026-11-16",
+      "at": "2026-11-16T08:01:36.190Z",
+      "source": "tg-archive-tell",
+      "title": "🚀 عرضه مدل پرچمدار Qwen4-Max علی‌بابا",
+      "url": "https://t.me/ArchiveTell/8423",
+      "reason": "denied_link",
+      "slot": "2026-11-16T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-mgh-mobin|https://t.me/mgh_mobin/485",
+      "date": "2026-11-16",
+      "at": "2026-11-16T08:01:36.190Z",
+      "source": "tg-mgh-mobin",
+      "title": "مدل Qwen4-Max معرفی شد؛ یه رقیب جدی دیگه برای مدل‌های مطرح هوش مصنوعی!",
+      "url": "https://t.me/mgh_mobin/485",
+      "reason": "denied_link",
+      "slot": "2026-11-16T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7217",
+      "date": "2026-11-16",
+      "at": "2026-11-16T08:01:36.190Z",
+      "source": "tg-mohammad-zammani",
+      "title": "مدل هوش مصنوعی جدید Qwen4-Max معرفی شده؛ یه دستیار جدید برای کارهای حرفه‌ای، خلاقانه و علمی",
+      "url": "https://t.me/Mohammad_zammani/7217",
+      "reason": "denied_link",
+      "slot": "2026-11-16T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-shayanode|https://t.me/shayanode/210",
+      "date": "2026-11-16",
+      "at": "2026-11-16T08:01:36.190Z",
+      "source": "tg-shayanode",
+      "title": "این ویدئو ۰ تا ۱۰۰ با هوش مصنوعی ساخته شده حتی صدای پس زمینه",
+      "url": "https://t.me/shayanode/210",
+      "reason": "no_link",
+      "slot": "2026-11-16T11:30+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],

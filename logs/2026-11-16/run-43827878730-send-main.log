@@ -1,0 +1,145 @@
+RUN 43827878730 | send/main | slot auto | 2026-11-16T08:01:36Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-16T11:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 6/31 | models 1/24 | security 2/11 | business 2/11
+DAILY 1/11
+DIVERSITY_TARGET models | slot 11:30
+DEFERRED_POOL 29
+  DEFERRED fetch_failed | try 1/3 | A step toward defining the Standard Model on a lattice
+  DEFERRED category_consecutive | try 0/3 | 💸 با این ۶ پروژهٔ گیت‌هاب می‌تونی پول دربیاری
+  DEFERRED source_daily | try 0/3 | GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download
+  DEFERRED source_daily | try 0/3 | Anthropic's Claude Fable 5.2 doesn't generate images, it paints them
+  DEFERRED source_daily | try 0/3 | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+DEFERRED_EXHAUSTED 5
+POLICY_STATE saved
+COLLECT sources=25 items=230 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=218 nodate=0 nonai=0 dup=18 dup_other=0 kept=68 errors=0
+TELEGRAM channels=17 posts=316 pending=18 leads=8 nolink=2 nonai=0 denied=3 promo=0 stale=0 before=0 dup=2 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0
+MEMORY lanes=main:417,review:13 delivered=430 window=30d
+STORY_DUPLICATES 1 skipped=worked_story
+  STORY_DUPLICATE arXiv | Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination | already main: هاگینگ‌فیس رابط استاندارد مدل‌های تصمیم‌گیری را معرفی کرد
+REVIEW_LEADS 4 separate_from_main=yes cap=none
+REVIEW_DRAFT ArchiveTell | 🚀 عرضه مدل پرچمدار Qwen4-Max علی‌بابا | 836 chars
+  REVIEW_ITEM id=b4ea40a91d message=323
+  REVIEW_REQUIRED reason=denied_link sent=323
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/11-30-755a159b
+REVIEW_DRAFT M G H M O B I N | مدل Qwen4-Max معرفی شد؛ یه رقیب جدی دیگه برای مدل‌های مطرح هوش مصنوعی! | 963 chars
+  REVIEW_ITEM id=b7c626f029 message=324
+  REVIEW_REQUIRED reason=denied_link sent=324
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/11-30-97910051
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | مدل هوش مصنوعی جدید Qwen4-Max معرفی شده؛ یه دستیار جدید برای کارهای حرفه‌ای، خلاقانه و علمی | 1206 chars
+  REVIEW_ITEM id=a3834854ec message=325
+  REVIEW_REQUIRED reason=denied_link sent=325
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/11-30-5fb416ca
+  REVIEW_ITEM id=556f56f6fd message=326
+  REVIEW_REQUIRED reason=no_link sent=326
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/11-30-fe274a32
+RELEVANCE candidates=63 kept=36 dropped=27
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Product Hunt | ByteVoice
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI Product Hunt | Freebuff
+  SKIP_NOT_AI arXiv | Imitation Bootstrapped Multi-Agent Reinforcement Learning
+  SKIP_NOT_AI arXiv | ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models
+  SKIP_NOT_AI TechCrunch | Helsing backer Plural raises $1.1B to fund Europe’s next moonshots
+  SKIP_NOT_AI ArchiveTell | 📱 اپ‌های اندروید روی ویندوز با ApkStart بدون شبیه‌ساز
+  SKIP_NOT_AI ... +19 more
+DIVERSITY target=models queue=3 fresh=20 deferred=29 rejected=source_consecutive:2,category_consecutive:16
+  DIVERSITY_QUEUE models:The Decoder | models:Hugging Face Blog | models:arXiv
+QUEUE_SKIPPED 43
+  QUEUE_SKIP category_consecutive | Shayanode | 💸 با این ۶ پروژهٔ گیت‌هاب می‌تونی پول دربیاری
+  QUEUE_SKIP category_consecutive | Code.Cloud | کـــد کلاد | GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download
+  QUEUE_SKIP category_consecutive | Code.Cloud | کـــد کلاد | GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents
+  QUEUE_SKIP category_consecutive | The Decoder | Australia's central bank finds AI hitting young workers first, especially in software and customer service
+  QUEUE_SKIP category_consecutive | M G H M O B I N | GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,
+  QUEUE_SKIP category_consecutive | Product Hunt | Canvas by AgentGrid.io
+  QUEUE_SKIP category_consecutive | Thenima.one | GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | 🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!
+  QUEUE_SKIP category_consecutive | هوش مصنوعی | محمد زمانی | یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | 🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!
+  QUEUE_SKIP ... +33 more
+QUEUE_HELD 6
+  QUEUE_HOLD category_consecutive | هوش مصنوعی | محمد زمانی | اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی
+  QUEUE_HOLD category_consecutive | Thenima.one | GitHub - ranxianglei/billion-context: A context-compression plugin for month-long single sessions (billions of
+  QUEUE_HOLD source_consecutive | Simon Willison - Prompt Injection | datasette-apps 0.4a0
+  QUEUE_HOLD source_consecutive | Simon Willison - Prompt Injection | datasette-agent 0.6a0
+  QUEUE_HOLD category_consecutive | Product Hunt | ChatGPT Wallet
+  QUEUE_HOLD category_consecutive | آموزش هوش مصنوعی | ابزار و پرامپت | 😄 اینم لینک هر ۴ اسکیل انیمیشن که توی ریلز دیدی:
+ATTEMPT 1/3 | deferred 0/3 The Decoder | Anthropic's Claude Fable 5.2 doesn't generate images, it paints them | 1.3h
+  TOOL_LINK candidate https://www.anthropic.com/claude-fable-and-mythos-5-2 | score 16
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TYPE_STANDARDIZED_FOR_IMAGE
+  QA_FAILED verification_source | one repair retry
+  retry in 5s (status 0 timeout)
+  BODY_TRIM
+  QUOTE_TRIM
+  REPAIR_QA PASS | score 41/43 | problems none | warnings why,numbers_grounded
+POST 1/2 status=sent category=models | QA 41/43 | $0.000818 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/11-30
+ATTEMPT 2/3 | deferred 0/3 Hugging Face Blog | llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem | 2.9h
+  TOOL_LINK candidate https://github.com/ggml-org/llama.cpp | score 32
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QA_FAILED body_paragraphs,length,category_fresh | one repair retry
+  BODY_TRIM
+  QUOTE_TRIM
+  REPAIR_QA FAIL | score 42/43 | problems category_fresh | warnings none
+  QA_FAILED category_fresh | score 42/43
+ATTEMPT 3/3 arXiv | WeightBench: Evaluating Language Models as Weight-Space Programmers | 61.1h
+  TOOL_LINK candidate https://github.com/Aayush-Marasini/WeightBench | score 28
+  MODEL DeepSeek-V4-Flash | image not_https
+  retry in 5s (status 0 timeout)
+  retry in 20s (status 0 timeout)
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | متن ورودی فقط توضیح چارچوب arXivLabs است و هیچ اطلاعاتی درباره بنچمارک WeightBench، امتیازها یا جدول مقایسه مدل‌ها ندارد
+RESULT SENT category=models | offer=no | image=yes | QA 41/43 | cost $0.005890 | post $0.000818 | tokens 84600
+TITLE مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-16/11-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST models | sent | $0.000818 | مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-16T08:16:38Z
+# گزارش روزانه 2026-11-16 (دوشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1، مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 4
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 6
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1، مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.001112
+- توکن: 33436
+- میانگین هر پست ارسال‌شده: $0.000556
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 6 | 31 | 25 |
+| مدل‌ها و پژوهش | 2 | 24 | 22 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 2 | 11 | 9 |
+| مجموع | 12 | 77 | 65 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000294 | 9988 | پلاگین جدید Datasette با نقشه برداری MapLibre |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.000818 | 23448 | مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 8
+- دلایل: از رصد آفر پیدا شد 3، منبع رسمی شرکت نیست 1، لینک خارجی این پست پذیرفته نشد 3، لینک قابل استفاده ندارد 1
+
+## صف تعویق
+- در انتظار: 38
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-16.md
