@@ -32,6 +32,11 @@ export const BANNED = [
   'game-changer',
 ];
 
+function bannedTitlePhrases(title) {
+  const value = String(title ?? '');
+  return BANNED.filter((phrase) => value.includes(phrase));
+}
+
 export const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
 
 export async function loadEnv(path) {
@@ -1201,6 +1206,13 @@ export function buildQaRepairMessage({ user, parsed, qa, imageUrl = '', previous
       const words = titleLatinUntranslated(parsed?.title).join('، ');
       return `- title_latin: واژه‌های «${words}» در تیتر ترجمه نشده‌اند؛ معادل فارسی بگذار و فقط نام شرکت، مدل یا اصطلاح فنی رایج را لاتین نگه دار.`;
     }
+    if (name === 'title_clean') {
+      const banned = bannedTitlePhrases(parsed?.title);
+      if (banned.length) {
+        return `- title_clean: عبارت «${banned.join('»، «')}» در فهرست عبارت‌های ممنوعهٔ تیتر است؛ آن را حذف کن و تیتر را با واژهٔ خبری روشن بازنویسی کن.`;
+      }
+      return `- title_clean: ${QA_FIX_HINTS.title_clean}`;
+    }
     return `- ${name}: ${QA_FIX_HINTS[name] || 'این مورد را اصلاح کن.'}`;
   });
   const warningNotes = (qa?.warnings ?? [])
@@ -1306,6 +1318,13 @@ export function buildTitleRepairMessage({ user, parsed, qa }) {
     }
     if (name === 'title_words') {
       return `- تیتر ${countTitleWords(title)} کلمه است؛ حداکثر ${TITLE_MAX_WORDS} کلمه شود.`;
+    }
+    if (name === 'title_clean') {
+      const banned = bannedTitlePhrases(title);
+      if (banned.length) {
+        return `- عبارت «${banned.join('»، «')}» در فهرست عبارت‌های ممنوعهٔ تیتر است؛ آن را حذف کن و تیتر را با واژهٔ خبری روشن بازنویسی کن.`;
+      }
+      return `- ${QA_FIX_HINTS[name] || 'تیتر را اصلاح کن.'}`;
     }
     return `- ${QA_FIX_HINTS[name] || 'تیتر را اصلاح کن.'}`;
   });

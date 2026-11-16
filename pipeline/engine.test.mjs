@@ -1062,6 +1062,26 @@ test('the focused title repair asks only for a corrected title', () => {
   assert.equal(TITLE_QA_PROBLEMS.has('length'), false);
 });
 
+test('the title repairs name the banned phrase instead of a generic hint', () => {
+  const title = 'بیست سالگی CUDA؛ پلتفرمی که محاسبات علمی را متحول کرد';
+  const focused = buildTitleRepairMessage({
+    user: '',
+    parsed: { ...repairPost, title },
+    qa: { problems: ['title_clean'], warnings: [] },
+  });
+  assert.match(focused, /متحول/);
+  assert.match(focused, /ممنوعه/);
+  assert.match(focused, /"title"/);
+
+  const whole = buildQaRepairMessage({
+    user: '',
+    parsed: { ...repairPost, title },
+    qa: { problems: ['title_clean'], warnings: [] },
+  });
+  assert.match(whole, /متحول/);
+  assert.match(whole, /ممنوعه/);
+});
+
 test('the repair message keeps an existing quote inside the post', () => {
   const message = buildQaRepairMessage({
     user: '',

@@ -425,6 +425,42 @@ test('a manual rewrite ignores freshness, source, and AI relevance but keeps str
   assert.equal(result.reason, 'ok');
 });
 
+test('a manual rewrite with no stored source falls back to the saved draft', async () => {
+  let story;
+  const item = manualItem({
+    messageText: '',
+    post: { title: MANUAL_JSON.title, body: MANUAL_BODY, quote: 'نقل قول کوتاه' },
+  });
+  const result = await draftReviewPost({
+    item,
+    now: NOW,
+    manual: true,
+    request: async (input) => {
+      story = input;
+      return { content: JSON.stringify(MANUAL_JSON), usage: { cost: 0, total_tokens: 10 } };
+    },
+  });
+  assert.ok(story, result.reason);
+  assert.equal(story.article.content, `${MANUAL_BODY.trim()}\n\nنقل قول کوتاه`);
+  assert.notEqual(result.reason, 'short');
+  assert.ok(result.post, result.reason);
+  const context = qaContextForItem(item, { category: 'tools' }, NOW, {}, '', { manual: true });
+  assert.equal(context.content, `${MANUAL_BODY.trim()}\n\nنقل قول کوتاه`);
+});
+
+test('an automatic rewrite with no stored source still fails before the model', async () => {
+  let called = false;
+  const result = await draftReviewPost({
+    item: manualItem({ messageText: '', post: { body: MANUAL_BODY, quote: '' } }),
+    now: NOW,
+    request: async () => {
+      called = true;
+    },
+  });
+  assert.equal(result.reason, 'short');
+  assert.equal(called, false);
+});
+
 test('a manual offer without expiry or official source is rewritten with the no-expiry note', async () => {
   const note = 'بدون تاریخ انقضای اعلام‌شده';
   const result = await draftReviewPost({

@@ -117,6 +117,14 @@ export function toolUsageForItem(item) {
   });
 }
 
+function savedDraftSource(item) {
+  if (!item?.post || typeof item.post !== 'object') return '';
+  return [item.post.body, item.post.quote]
+    .map((part) => String(part ?? '').trim())
+    .filter(Boolean)
+    .join('\n\n');
+}
+
 export function qaContextForItem(item, post, now, config = {}, usageUrl = '', options = {}) {
   const url = String(item?.url || item?.leadPostUrl || '');
   const host = (() => {
@@ -129,6 +137,8 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '', op
   const manual = options.manual === true || item?.manual === true;
   const noSource = manual && !externalUrlForItem(item) && !usageUrl;
   const note = String(item?.note ?? '').trim().slice(0, 2000);
+  const sourceContent =
+    String(item?.messageText ?? '').trim() || (manual ? savedDraftSource(item) : '');
   const baseOffer = offerContextFromItem(item, config);
   const offer = manual && baseOffer?.openEnded
     ? { ...baseOffer, note: String(config?.offers?.manual_no_expiry_note ?? baseOffer.note) }
@@ -141,7 +151,7 @@ export function qaContextForItem(item, post, now, config = {}, usageUrl = '', op
     imageUrl: options.imageUrl !== undefined ? options.imageUrl : resolvedImageUrl(item),
     title: String(item?.title ?? ''),
     description: '',
-    content: [String(item?.messageText ?? ''), note].filter(Boolean).join('\n\n'),
+    content: [sourceContent, note].filter(Boolean).join('\n\n'),
     links: [...(Array.isArray(item?.relatedLinks) ? item.relatedLinks : []), ...noteLinks(note)],
     usageUrl,
     publishedAt: String(item?.publishedAt ?? ''),
@@ -167,12 +177,14 @@ export async function draftReviewPost({
   repairTitle = null,
   log = () => {},
 } = {}) {
-  const content = String(item?.messageText ?? '').trim();
+  const storedContent = String(item?.messageText ?? '').trim();
+  const content = storedContent || (manual ? savedDraftSource(item) : '');
   const note = String(item?.note ?? '').trim().slice(0, 2000);
   const minimum = manual ? 1 : Math.max(0, Number(minChars) || 0);
   if (content.length < minimum) {
     return { post: null, qa: null, reason: 'short' };
   }
+  if (!storedContent && content) log('REVIEW_DRAFT_SOURCE_FALLBACK saved_post=1');
   if (!manual && item?.kind === 'offer' && !item?.expiry) {
     return { post: null, qa: null, reason: 'offer_context_missing' };
   }
