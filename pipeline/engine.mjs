@@ -499,6 +499,15 @@ const SMALL_IMAGE = /(?:^|[/_?&])(?:40|64|100|128|150|200|258|300)x(?:40|64|100|
 export function imageVerdict(url, alt = '') {
   if (!url) return { ok: false, reason: 'no_image' };
   if (!/^https:\/\//i.test(url)) return { ok: false, reason: 'not_https' };
+  let host = '';
+  try {
+    host = new URL(url).hostname;
+  } catch {
+    return { ok: false, reason: 'bad_url' };
+  }
+  if (/(?:^|\.)(?:telesco\.pe|cdn-telegram\.org)$/i.test(host)) {
+    return { ok: false, reason: 'telegram_media' };
+  }
   if (FORBIDDEN_IMAGE.test(url)) return { ok: false, reason: 'forbidden_url' };
   if (/\b(logo|avatar|icon)\b|stock photo|getty|shutterstock/i.test(alt)) return { ok: false, reason: 'forbidden_alt' };
   if (SMALL_IMAGE.test(url)) return { ok: false, reason: 'too_small' };

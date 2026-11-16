@@ -245,6 +245,14 @@ test('image policy rejects logos and stock files even with underscore names', ()
   assert.equal(imageVerdict('https://example.com/2026/11/goldman-sachs-office.jpg').ok, true);
 });
 
+test('image policy rejects telegram cdn media that can carry channel ads', () => {
+  const cdn = imageVerdict('https://cdn4.telesco.pe/file/abc123.jpg');
+  assert.equal(cdn.ok, false);
+  assert.equal(cdn.reason, 'telegram_media');
+  assert.equal(imageVerdict('https://cdn-telegram.org/file/abc.jpg').ok, false);
+  assert.equal(imageVerdict('https://example.com/files/photo.jpg').ok, true);
+});
+
 test('image download asks only for telegram photo formats and rejects webp', async (t) => {
   const dir = await mkdtemp(join(tmpdir(), 'radar-image-'));
   const original = globalThis.fetch;

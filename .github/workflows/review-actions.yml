@@ -144,6 +144,8 @@ jobs:
         run: |
           set -euo pipefail
           if [ ! -d .git ]; then echo "NO_GIT_CHECKOUT"; exit 0; fi
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
           files=()
           for f in data/review-feedback.json data/state.json data/state.review.json; do
             if [ -f "$f" ] && [ -n "$(git status --porcelain -- "$f")" ]; then files+=("$f"); fi
@@ -164,6 +166,8 @@ jobs:
           git add "${files[@]}"
           git -c user.name="radar-bot" -c user.email="radar-bot@users.noreply.github.com" commit -m "chore(state): review-actions ${GITHUB_RUN_ID}"
           for attempt in 1 2 3; do
+            git rebase --abort >/dev/null 2>&1 || true
+            git cherry-pick --abort >/dev/null 2>&1 || true
             if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
               echo "STATE_PUSHED attempt=${attempt}"
               exit 0

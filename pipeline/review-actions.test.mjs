@@ -208,3 +208,8 @@ test('a status-only button answers without touching the item', async () => {
   const rewritten = await run([update('s', 'deadbeef01')], [item({ rewrites: 1 })]);
   assert.match(rewritten, /DRY_ANSWER این نسخه بازنویسی شده؛ پیام تازه را ببین/);
 });
+
+test('the live publisher imports every store helper it calls', async () => {
+  const src = await readFile(new URL('./review-actions.mjs', import.meta.url), 'utf8');
+  assert.match(src, /import\s*\{[^}]*\brecordPublished\b[^}]*\}\s*from\s*'\.\/store\.mjs'/s);
+});

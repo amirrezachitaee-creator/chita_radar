@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process';
 import { mkdtemp, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
@@ -8,10 +9,13 @@ import {
   buildUserMessage,
   callWithRetry,
   downloadImage,
+  extractMeta,
+  fetchText,
+  imageVerdict,
   loadEnv,
   makeRedactor,
 } from './engine.mjs';
-import { deliveredEntries, loadState, markSeen, saveState } from './store.mjs';
+import { deliveredEntries, loadState, markSeen, recordPublished, saveState } from './store.mjs';
 import {
   answerCallbackQuery,
   deleteMessage,
@@ -248,8 +252,44 @@ function itemOutOfDate(item, query) {
   return String(item.chatId) !== chatId || Number(item.messageId) !== messageId;
 }
 
+let originRefreshTried = false;
+
+function refreshItemsFromOrigin() {
+  if (originRefreshTried || !SEND) return false;
+  originRefreshTried = true;
+  try {
+    const branch = process.env.GITHUB_REF_NAME || 'main';
+    execFileSync('git', ['fetch', '--quiet', 'origin', branch], {
+      cwd: ROOT,
+      timeout: 20000,
+      stdio: 'ignore',
+    });
+    const raw = execFileSync('git', ['show', `origin/${branch}:data/review-feedback.json`], {
+      cwd: ROOT,
+      timeout: 20000,
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    });
+    const latest = JSON.parse(raw);
+    if (!store.items || typeof store.items !== 'object') store.items = {};
+    let added = 0;
+    for (const [id, entry] of Object.entries(latest.items ?? {})) {
+      if (!store.items[id]) {
+        store.items[id] = entry;
+        added += 1;
+      }
+    }
+    log(`REVIEW_STATE_REFRESH added=${added}`);
+    return added > 0;
+  } catch (error) {
+    log(`REVIEW_STATE_REFRESH_FAILED ${String(error?.message ?? error)}`);
+    return false;
+  }
+}
+
 function activeItem(review, query) {
-  const item = store.items[review.id];
+  let item = store.items[review.id];
+  if (!item && refreshItemsFromOrigin()) item = store.items[review.id];
   if (!item) return { error: 'این مورد پیدا نشد؛ شاید پاک شده باشد.' };
   if (itemOutOfDate(item, query)) return { error: 'این دکمه دیگر معتبر نیست.' };
   if (item.status === 'sent') return { error: 'این مورد قبلاً به کانال اصلی رفته است.' };
@@ -494,6 +534,43 @@ async function handleRewrite(review, query) {
   return null;
 }
 
+function isPrivateHost(hostname) {
+  const host = String(hostname ?? '').toLowerCase();
+  if (!host || host === 'localhost' || host.endsWith('.local')) return true;
+  if (/^(?:127\.|10\.|0\.|169\.254\.|192\.168\.)/.test(host)) return true;
+  if (/^172\.(?:1[6-9]|2\d|3[01])\./.test(host)) return true;
+  if (/^100\.(?:6[4-9]|[7-9]\d|1[01]\d|12[0-7])\./.test(host)) return true;
+  if (host === '::1' || host === '[::1]') return true;
+  return false;
+}
+
+async function sourceImageFor(item) {
+  let parsed;
+  try {
+    parsed = new URL(String(item?.url ?? ''));
+  } catch {
+    return '';
+  }
+  if (parsed.protocol !== 'https:' || parsed.username || parsed.password) return '';
+  if (isPrivateHost(parsed.hostname)) return '';
+  if (/^(?:t\.me|telegram\.me|telegram\.dog)$/i.test(parsed.hostname)) return '';
+  try {
+    const { text } = await fetchText(parsed.href, { timeout: 12000 });
+    const meta = extractMeta(text);
+    let image = meta['og:image'] || meta['twitter:image'] || '';
+    if (Array.isArray(image)) image = image[0] || '';
+    if (!image) return '';
+    const absolute = new URL(image, parsed.href).href;
+    const alt = meta['og:image:alt'] || meta['twitter:image:alt'] || '';
+    const allowed = imageVerdict(absolute, alt).ok;
+    log(`REVIEW_SOURCE_IMAGE host=${parsed.hostname} ok=${allowed ? '1' : '0'}`);
+    return allowed ? absolute : '';
+  } catch (error) {
+    log(`REVIEW_SOURCE_IMAGE_FAILED ${String(error?.message ?? error)}`);
+    return '';
+  }
+}
+
 async function handlePublish(review, query) {
   const { item, error } = activeItem(review, query);
   if (error) return notify(error);
@@ -502,13 +579,15 @@ async function handlePublish(review, query) {
   const manual = item.manual === true;
   const offer = offerContextFromItem(item, config);
   const openEndedOffer = manual && offer?.openEnded === true;
+  const leadImage = resolvedImageUrl(item);
+  const imageUrl = SEND ? leadImage || (await sourceImageFor(item)) : leadImage;
   // Rebuild the tail from the item so an old draft cannot publish its channel name.
   item.post = applyMechanicalFixes(item.post, {
     sourceName: item.sourceName,
     sourceUrl: item.url || item.leadPostUrl || '',
     usageUrl: usage?.url ?? '',
     usageName: usage?.name ?? '',
-    imageUrl: resolvedImageUrl(item),
+    imageUrl,
     newsDate: '',
     sourceType: sourceTypeOf(item),
     openEnded: openEndedOffer,
@@ -535,7 +614,6 @@ async function handlePublish(review, query) {
 
   let imagePath = '';
   let tempDir = '';
-  const imageUrl = resolvedImageUrl(item);
   if (imageUrl) {
     try {
       tempDir = await mkdtemp(resolve(tmpdir(), 'qoder-publish-'));
@@ -566,6 +644,25 @@ async function handlePublish(review, query) {
   }
 
   const slot = publishSlotFor(NOW);
+  const sentAt = new Date().toISOString();
+  item.status = 'sent';
+  item.sentAt = sentAt;
+  item.updatedAt = sentAt;
+  log(
+    `REVIEW_PUBLISH_SENT id=${item.id} slot=${slot} manual=${manual ? '1' : '0'} message=${
+      sent.messageId ?? ''
+    } image=${imagePath ? 'yes' : 'no'}`
+  );
+  recordReviewAction(store, {
+    item,
+    action: 'publish',
+    actor: query.from?.username || String(query.from?.id ?? ''),
+    detail: `message=${sent.messageId ?? ''} ${imagePath ? 'photo' : 'text'}`,
+    at: sentAt,
+  });
+  // Save the sent status before touching the wider state so a later failure
+  // cannot leave the card publishable and send the same story again.
+  await persistStore();
   recordPublished(state, {
     slot,
     category: String(item.post.category ?? ''),
@@ -590,8 +687,6 @@ async function handlePublish(review, query) {
     title: String(item.post.title ?? item.title),
     url: item.url,
   });
-  item.status = 'sent';
-  item.sentAt = new Date().toISOString();
   delivered.push({
     lane: 'main',
     title: String(item.post.title ?? item.title),
@@ -601,26 +696,17 @@ async function handlePublish(review, query) {
     benchmark: item.benchmark === true,
     at: Date.now(),
   });
-  recordReviewAction(store, {
-    item,
-    action: 'publish',
-    actor: query.from?.username || String(query.from?.id ?? ''),
-    detail: `message=${sent.messageId ?? ''} ${imagePath ? 'photo' : 'text'}`,
-    at: item.sentAt,
-  });
   await persist();
   await setCardTag(
     item.messageId,
     cleanReviewMessage(item),
-    '✅ منتشر شد',
-    'این نسخه به کانال اصلی رفت.'
+    '🟢 منتشر شده در کانال اصلی'
   );
   log(
     `REVIEW_PUBLISHED id=${item.id} slot=${slot} manual=${manual ? '1' : '0'} message=${
       sent.messageId ?? ''
     } image=${imagePath ? 'yes' : 'no'} | ${item.post.title}`
   );
-  await notify(`منتشر شد: ${item.post.title}\n${slot}`);
   return null;
 }
 
@@ -672,7 +758,9 @@ async function runUpdates(updates) {
       if (result.handled) handled += 1;
     } catch (error) {
       failed += 1;
-      log(`REVIEW_ACTION_FAILED ${String(error?.message ?? error)}`);
+      const detail = String(error?.message ?? error).replace(/\s+/g, ' ').slice(0, 160);
+      log(`REVIEW_ACTION_FAILED ${detail}`);
+      if (SEND) await notify(`یک دکمه خطا خورد: ${detail}\nاگر انتشار بود، کانال اصلی را چک کن.`);
     }
     if (SEND) {
       store.offset = Math.max(Number(store.offset) || 0, Number(update.update_id) + 1 || 0);
@@ -699,6 +787,7 @@ async function main() {
   let handled = 0;
   let failed = 0;
   let cycles = 0;
+  let getUpdatesRetries = 0;
 
   if (UPDATES_FILE) {
     const raw = JSON.parse(await readFile(resolve(ROOT, UPDATES_FILE), 'utf8'));
@@ -720,6 +809,12 @@ async function main() {
         });
       } catch (error) {
         log(`GET_UPDATES_FAILED ${String(error?.message ?? error)}`);
+        if (cycles === 0 && getUpdatesRetries < 2) {
+          getUpdatesRetries += 1;
+          log(`GET_UPDATES_RETRY attempt=${getUpdatesRetries}`);
+          await new Promise((done) => setTimeout(done, 2000 * getUpdatesRetries));
+          continue;
+        }
         if (cycles === 0) process.exit(1);
         break;
       }
