@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T13:37:49.058Z",
+  "updatedAt": "2026-11-16T17:07:55.980Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -9779,6 +9779,240 @@
       "title": "Kimi K3.1-Pro scores 29.5 on The Gamefeel Benchmark",
       "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/655b06cf08b7fe6c926b3451723b5870a1cd9ca5",
       "benchmark": true
+    },
+    "url:0c5ba3f26c6c7ebd": {
+      "at": "2026-11-16T17:01:15.710Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Getting Started with Docker for Machine Learning and MLOps",
+      "url": "https://pyimagesearch.com/2026/11/16/getting-started-with-docker-for-machine-learning-and-mlops"
+    },
+    "title:44ec910b61b314e9": {
+      "at": "2026-11-16T17:01:15.710Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Getting Started with Docker for Machine Learning and MLOps",
+      "url": "https://pyimagesearch.com/2026/11/16/getting-started-with-docker-for-machine-learning-and-mlops"
+    },
+    "url:891aa0f995d12bb5": {
+      "at": "2026-11-16T17:01:16.815Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin"
+    },
+    "title:beef8330a08c6354": {
+      "at": "2026-11-16T17:01:16.815Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin"
+    },
+    "url:5ee05ca607827513": {
+      "at": "2026-11-16T17:01:16.815Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Qwen-3.8-Flash-Next scores 37.3 on The Gamefeel Benchmark",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/c13d99a22aeaf6c3a9b86cc25433c6320da6e218"
+    },
+    "title:0bee29e3560e9082": {
+      "at": "2026-11-16T17:01:16.815Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "Qwen-3.8-Flash-Next scores 37.3 on The Gamefeel Benchmark",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/c13d99a22aeaf6c3a9b86cc25433c6320da6e218"
+    },
+    "url:9df0e6eb2d1753eb": {
+      "at": "2026-11-16T17:01:17.657Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭",
+      "url": "https://t.me/asrnovin_ir/11474"
+    },
+    "title:c98f469f30e0c4b6": {
+      "at": "2026-11-16T17:01:17.657Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭",
+      "url": "https://t.me/asrnovin_ir/11474"
+    },
+    "url:0187c45364281723": {
+      "at": "2026-11-16T17:01:17.834Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🔥همه مدل‌های هوش مصنوعی بدون هیچ سانسوری در اینترنت.",
+      "url": "https://t.me/ArchiveTell/8432"
+    },
+    "title:a921c49b25eaf1b4": {
+      "at": "2026-11-16T17:01:17.834Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🔥همه مدل‌های هوش مصنوعی بدون هیچ سانسوری در اینترنت.",
+      "url": "https://t.me/ArchiveTell/8432"
+    },
+    "url:58bf38c5dd90ef1f": {
+      "at": "2026-11-16T17:01:18.077Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🚨 مدل Tencent Hy4 Flash به صورت رایگان در WorkBuddy در دسترس است! 🌟",
+      "url": "https://t.me/ArchiveTell/8433"
+    },
+    "title:416b9b28eaa7cf0e": {
+      "at": "2026-11-16T17:01:18.077Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🚨 مدل Tencent Hy4 Flash به صورت رایگان در WorkBuddy در دسترس است! 🌟",
+      "url": "https://t.me/ArchiveTell/8433"
+    },
+    "url:61d9bb2f05186dae": {
+      "at": "2026-11-16T17:01:53.852Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "تیم ترامپ قصد داره بیش از ۲۴ شرکت آمریکایی رو به‌عنوان قهرمان‌های ملی حوزه هوش مصنوعی",
+      "url": "https://t.me/Mohammad_zammani/7221"
+    },
+    "title:7703d234770d00b7": {
+      "at": "2026-11-16T17:01:53.852Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "تیم ترامپ قصد داره بیش از ۲۴ شرکت آمریکایی رو به‌عنوان قهرمان‌های ملی حوزه هوش مصنوعی",
+      "url": "https://t.me/Mohammad_zammani/7221"
+    },
+    "url:d3698d8a19a9fc55": {
+      "at": "2026-11-16T17:01:54.124Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "ساخت ربات تلگرام میتونه به کار همتون بیاد",
+      "url": "https://t.me/shayanode/226"
+    },
+    "title:12c82fb99a8674b7": {
+      "at": "2026-11-16T17:01:54.124Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "ساخت ربات تلگرام میتونه به کار همتون بیاد",
+      "url": "https://t.me/shayanode/226"
+    },
+    "url:4bce21253b7e86ef": {
+      "at": "2026-11-16T17:01:54.718Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "بچه ها راجب ربات تلگرام یه چیزی بگم",
+      "url": "https://t.me/shayanode/224"
+    },
+    "title:9f54cc0a6d9179cb": {
+      "at": "2026-11-16T17:01:54.718Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "بچه ها راجب ربات تلگرام یه چیزی بگم",
+      "url": "https://t.me/shayanode/224"
+    },
+    "url:886299adc4b73faf": {
+      "at": "2026-11-16T17:01:55.255Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
+      "url": "https://github.com/microsoft/TokenEconomizer"
+    },
+    "title:aebc7c8c2c3476f3": {
+      "at": "2026-11-16T17:01:55.255Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
+      "url": "https://github.com/microsoft/TokenEconomizer"
+    },
+    "url:bcc40eb1eee4216c": {
+      "at": "2026-11-16T17:04:00.717Z",
+      "decision": "review",
+      "reason": "qa_failed",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda"
+    },
+    "title:52d73e2ca08ce2df": {
+      "at": "2026-11-16T17:04:00.717Z",
+      "decision": "review",
+      "reason": "qa_failed",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda"
+    },
+    "url:11608d311d004779": {
+      "at": "2026-11-16T17:07:05.210Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026"
+    },
+    "title:fdb5f348a5c8a122": {
+      "at": "2026-11-16T17:07:05.210Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026"
+    },
+    "url:2b648b5d78a98e94": {
+      "at": "2026-11-16T17:07:55.976Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+      "url": "https://arxiv.org/abs/2611.18513v1"
+    },
+    "title:b13b37d5320c7d34": {
+      "at": "2026-11-16T17:07:55.976Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+      "url": "https://arxiv.org/abs/2611.18513v1"
     }
   },
   "deferred": {
@@ -12061,12 +12295,13 @@
     },
     "defer:url:a63a041375386e27": {
       "id": "defer:url:a63a041375386e27",
-      "at": "2026-11-16T13:32:36.966Z",
+      "at": "2026-11-16T17:01:55.304Z",
       "firstAt": "2026-11-16T13:32:36.966Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "fetch_failed"
       ],
       "keys": [
         "url:a63a041375386e27",
@@ -12105,8 +12340,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:a63a041375386e27",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
     },
     "defer:url:60f3c7381bc61eae": {
       "id": "defer:url:60f3c7381bc61eae",
@@ -12195,6 +12435,355 @@
         "keys": [
           "url:67b0b84ecc325e31",
           "title:4a7e26ce944514ab"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:37e7777f21965965": {
+      "id": "defer:url:37e7777f21965965",
+      "at": "2026-11-16T17:01:54.730Z",
+      "firstAt": "2026-11-16T17:01:54.730Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:37e7777f21965965",
+        "title:724f96e760d78e7a"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+        "link": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+        "canonical": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+        "published": "Mon, 16 Nov 2026 17:00:00 +0000",
+        "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+        "images": [],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:37e7777f21965965",
+          "title:724f96e760d78e7a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:02328ec28313e017": {
+      "id": "defer:url:02328ec28313e017",
+      "at": "2026-11-16T17:01:54.731Z",
+      "firstAt": "2026-11-16T17:01:54.731Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:02328ec28313e017",
+        "title:8f11006d5ff74a93"
+      ],
+      "canonical": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices",
+      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+        "link": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+        "canonical": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices",
+        "published": "Mon, 16 Nov 2026 16:56:04 +0000",
+        "summary": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to release smaller Qwen4 models as open source. The article Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+        "images": [
+          "http://the-decoder.com/wp-content/uploads/2026/11/Qwen_AI_for_science_wordpress_small_480p.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/07/qwen_logo-1.png"
+        ],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:02328ec28313e017",
+          "title:8f11006d5ff74a93"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:75036c3cbcd5cefd": {
+      "id": "defer:url:75036c3cbcd5cefd",
+      "at": "2026-11-16T17:01:54.731Z",
+      "firstAt": "2026-11-16T17:01:54.731Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:75036c3cbcd5cefd",
+        "title:d1f630aa30c182ed"
+      ],
+      "canonical": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html",
+      "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+        "link": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+        "canonical": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html",
+        "published": "Mon, 16 Nov 2026 16:10:22 +0000",
+        "summary": "Claude can now embed text, buttons, and other web elements into complex graphics and 3D effects. The article Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+        "images": [
+          "http://the-decoder.de/wp-content/uploads/2026/11/Felix_Rieseberg_wordpress_small_480p.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/11/claude_gemini_pro-scaled.png"
+        ],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:75036c3cbcd5cefd",
+          "title:d1f630aa30c182ed"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:742a0adaef2e2544": {
+      "id": "defer:url:742a0adaef2e2544",
+      "at": "2026-11-16T17:01:54.731Z",
+      "firstAt": "2026-11-16T17:01:54.731Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:742a0adaef2e2544",
+        "title:bc75e5bb1051c06c"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+        "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
+        "published": "Mon, 16 Nov 2026 16:00:51 +0000",
+        "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1-842x450.jpeg"
+        ],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:742a0adaef2e2544",
+          "title:bc75e5bb1051c06c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0dc8b1c6d09938c1": {
+      "id": "defer:url:0dc8b1c6d09938c1",
+      "at": "2026-11-16T17:01:54.731Z",
+      "firstAt": "2026-11-16T17:01:54.731Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0dc8b1c6d09938c1",
+        "title:33aa9b66c48fded0"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing",
+      "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+        "link": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+        "canonical": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing",
+        "published": "Mon, 16 Nov 2026 16:00:47 +0000",
+        "summary": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/quantum-computing-blog-slurm-kv-sc26-1920x1080-5942487.png",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/quantum-computing-blog-slurm-kv-sc26-1920x1080-5942487-842x450.png"
+        ],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:0dc8b1c6d09938c1",
+          "title:33aa9b66c48fded0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9da45c34799aca3f": {
+      "id": "defer:url:9da45c34799aca3f",
+      "at": "2026-11-16T17:01:54.731Z",
+      "firstAt": "2026-11-16T17:01:54.731Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:9da45c34799aca3f",
+        "title:f7b91bcac563425f"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
+      "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+        "link": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+        "canonical": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
+        "published": "Mon, 16 Nov 2026 15:25:48 +0000",
+        "summary": "Anthropic studied how Claude retains knowledge across sessions. Selective notes beat exhaustive archives by a wide margin. In a Pokémon Red test, the newer Claude Fable 5 got four times as far as the older Sonnet 3.7 by keeping just a handful of strategy files instead of more than 400. A \"Dreaming\" process retroactively corrects faulty memories. The article Anthropic says the key to agent memory is knowing what to forget, not how much to store appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/anthropic_claude-2.png"
+        ],
+        "ageHours": 1.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9da45c34799aca3f",
+          "title:f7b91bcac563425f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:21b4758ab52123ac": {
+      "id": "defer:url:21b4758ab52123ac",
+      "at": "2026-11-16T17:01:54.731Z",
+      "firstAt": "2026-11-16T17:01:54.731Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:21b4758ab52123ac",
+        "title:9ef84f7bc10afa4e"
+      ],
+      "canonical": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Advancing computer-use agents for healthcare teams",
+        "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+        "canonical": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+        "published": "Mon, 16 Nov 2026 06:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+        "images": [],
+        "ageHours": 11,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:21b4758ab52123ac",
+          "title:9ef84f7bc10afa4e"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -14130,6 +14719,14 @@
           "at": "2026-11-16T13:37:49.055Z"
         }
       ]
+    },
+    "2026-11-16T20:30+03:30": {
+      "at": "2026-11-16T17:07:55.976Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0036675128,
+      "tokens": 60965,
+      "posts": []
     }
   },
   "published": [
@@ -15420,89 +16017,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8431,
-      "last_at": "2026-11-16T11:11:48+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 8433,
+      "last_at": "2026-11-16T14:41:17+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "pedramgholizadeh": {
-      "last_id": 804,
-      "last_at": "2026-11-15T21:03:19+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 805,
+      "last_at": "2026-11-16T15:52:22+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "ai_farshad": {
-      "last_id": 6448,
-      "last_at": "2026-11-16T10:39:21+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 6450,
+      "last_at": "2026-11-16T14:45:53+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7220,
-      "last_at": "2026-11-16T12:25:32+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 7222,
+      "last_at": "2026-11-16T16:56:52+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "techiin_ir": {
-      "last_id": 20784,
-      "last_at": "2026-11-16T09:30:02+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 20786,
+      "last_at": "2026-11-16T15:58:19+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "mgh_mobin": {
       "last_id": 485,
       "last_at": "2026-11-16T06:56:27+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "web3nabu": {
       "last_id": 2171,
       "last_at": "2026-11-15T22:22:45+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "asrnovin_ir": {
-      "last_id": 11473,
-      "last_at": "2026-11-16T11:47:25+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 11474,
+      "last_at": "2026-11-16T14:20:43+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "shayanode": {
-      "last_id": 221,
-      "last_at": "2026-11-16T12:21:59+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 230,
+      "last_at": "2026-11-16T16:50:09+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "codecloude": {
-      "last_id": 2590,
-      "last_at": "2026-11-15T18:51:37+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 2592,
+      "last_at": "2026-11-16T13:56:24+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "dunijet_ai": {
       "last_id": 2576,
       "last_at": "2026-11-16T12:59:53+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "MatinSenPaii": {
-      "last_id": 5889,
-      "last_at": "2026-11-16T06:15:30+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "last_id": 5890,
+      "last_at": "2026-11-16T15:40:25+00:00",
+      "checked_at": "2026-11-16T17:01:04.951Z"
     },
     "thenimaonAI": {
       "last_id": 534,
       "last_at": "2026-11-16T10:33:16+00:00",
-      "checked_at": "2026-11-16T13:31:24.410Z"
+      "checked_at": "2026-11-16T17:01:04.951Z"
     }
   },
   "offerReviews": [
@@ -18467,6 +19064,90 @@
       "url": "https://t.me/thenimaonAI/534",
       "reason": "denied_link",
       "slot": "2026-11-16T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-asr-novin|https://t.me/asrnovin_ir/11474",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:01:04.951Z",
+      "source": "tg-asr-novin",
+      "title": "🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭",
+      "url": "https://t.me/asrnovin_ir/11474",
+      "reason": "denied_link",
+      "slot": "2026-11-16T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-archive-tell|https://t.me/ArchiveTell/8432",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:01:04.951Z",
+      "source": "tg-archive-tell",
+      "title": "🔥همه مدل‌های هوش مصنوعی بدون هیچ سانسوری در اینترنت.",
+      "url": "https://t.me/ArchiveTell/8432",
+      "reason": "denied_link",
+      "slot": "2026-11-16T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-archive-tell|https://t.me/ArchiveTell/8433",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:01:04.951Z",
+      "source": "tg-archive-tell",
+      "title": "🚨 مدل Tencent Hy4 Flash به صورت رایگان در WorkBuddy در دسترس است! 🌟",
+      "url": "https://t.me/ArchiveTell/8433",
+      "reason": "denied_link",
+      "slot": "2026-11-16T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7221",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:01:04.951Z",
+      "source": "tg-mohammad-zammani",
+      "title": "تیم ترامپ قصد داره بیش از ۲۴ شرکت آمریکایی رو به‌عنوان قهرمان‌های ملی حوزه هوش مصنوعی",
+      "url": "https://t.me/Mohammad_zammani/7221",
+      "reason": "denied_link",
+      "slot": "2026-11-16T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-shayanode|https://t.me/shayanode/226",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:01:04.951Z",
+      "source": "tg-shayanode",
+      "title": "ساخت ربات تلگرام میتونه به کار همتون بیاد",
+      "url": "https://t.me/shayanode/226",
+      "reason": "no_link",
+      "slot": "2026-11-16T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|tg-shayanode|https://t.me/shayanode/224",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:01:04.951Z",
+      "source": "tg-shayanode",
+      "title": "بچه ها راجب ربات تلگرام یه چیزی بگم",
+      "url": "https://t.me/shayanode/224",
+      "reason": "no_link",
+      "slot": "2026-11-16T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-16|nvidia-ai-blog|https://blogs.nvidia.com/blog/20-years-cuda/",
+      "date": "2026-11-16",
+      "at": "2026-11-16T17:01:04.951Z",
+      "source": "nvidia-ai-blog",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "reason": "qa_failed",
+      "slot": "2026-11-16T20:30+03:30",
       "kind": "post",
       "mainEligible": false
     }

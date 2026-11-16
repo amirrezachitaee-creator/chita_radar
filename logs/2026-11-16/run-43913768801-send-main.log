@@ -1,0 +1,187 @@
+RUN 43913768801 | send/main | slot auto | 2026-11-16T17:01:04Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-16T20:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 8/31 | models 3/24 | security 2/11 | business 2/11
+DAILY 5/11
+DIVERSITY_TARGET models | slot 20:30
+DEFERRED_POOL 37
+  DEFERRED category_consecutive | try 0/3 | Agentic System Design: A Self-Study Roadmap
+  DEFERRED fetch_failed | try 1/3 | LVMH’s Media Division announces strategic partnership with OpenAI
+  DEFERRED category_consecutive | try 0/3 | اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی
+  DEFERRED category_consecutive | try 0/3 | GitHub - ranxianglei/billion-context: A context-compression plugin for month-long single sessions (billions of
+  DEFERRED category_consecutive | try 0/3 | The King’s Trust and OpenAI launch £1m partnership
+DEFERRED_BENCHMARK 2 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 2h EXPIRING | WeightBench: Evaluating Language Models as Weight-Space Programmers
+  DEFERRED_BENCHMARK category_consecutive | expires 2h EXPIRING | Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond
+DEFERRED_EXHAUSTED 4
+SOURCE_DISCOVERY candidates=0
+SOURCE_HEALTH active=72 watch=0 probation=0 quarantined=0 protected=14 dynamic=0
+POLICY_STATE saved
+COLLECT sources=25 items=208 index=12 benchmark=4 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=191 nodate=0 nonai=0 dup=14 dup_other=0 kept=76 errors=2
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=314 pending=22 leads=7 nolink=7 nonai=0 denied=4 promo=1 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0
+MEMORY lanes=main:435,review:14 delivered=449 window=30d
+  EDU_LANG_SKIP PyImageSearch | persian=0 latin=408 | Getting Started with Docker for Machine Learning and MLOps
+TELEGRAM_EDU_LANG_SKIPPED 1 skipped=not_persian min_persian=10
+STORY_DUPLICATES 2 skipped=worked_story
+  STORY_DUPLICATE NVIDIA AI Blog | NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance | already main: Free inference with leading models
+  STORY_DUPLICATE The Gamefeel Benchmark | Qwen-3.8-Flash-Next scores 37.3 on The Gamefeel Benchmark | already main: Kimi K3.1-Pro scores 29.5 on The Gamefeel Benchmark
+REVIEW_LEADS 6 separate_from_main=yes cap=none
+  REVIEW_ITEM id=5c232cc04a message=339
+  REVIEW_REQUIRED reason=denied_link sent=339
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-9df0e6eb
+  REVIEW_ITEM id=c99d85382f message=340
+  REVIEW_REQUIRED reason=denied_link sent=340
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-0187c453
+  REVIEW_ITEM id=ef8f799c39 message=341
+  REVIEW_REQUIRED reason=denied_link sent=341
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-58bf38c5
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | تیم ترامپ قصد داره بیش از ۲۴ شرکت آمریکایی رو به‌عنوان قهرمان‌های ملی حوزه هوش مصنوعی | 984 chars
+  REVIEW_ITEM id=80131ee9c0 message=342
+  REVIEW_REQUIRED reason=denied_link sent=342
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-61d9bb2f
+  REVIEW_ITEM id=921fff427b message=343
+  REVIEW_REQUIRED reason=no_link sent=343
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-d3698d8a
+  REVIEW_ITEM id=40ad3e2e1b message=344
+  REVIEW_REQUIRED reason=no_link sent=344
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-4bce2125
+RELEVANCE candidates=67 kept=40 dropped=27
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI arXiv | Imitation Bootstrapped Multi-Agent Reinforcement Learning
+  SKIP_NOT_AI arXiv | ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models
+  SKIP_NOT_AI TechCrunch | Instagram now lets creators add Amazon affiliate links in reels and feed posts
+  SKIP_NOT_AI TechCrunch | Serena Williams winds down her VC firm, launches new fund, targets $200M
+  SKIP_NOT_AI تِک‌این | آموزش و فناوری | ✅ بازی God of War: Ascension برای کامپیوتر پورت و منتشر شد
+  SKIP_NOT_AI The Record | UK leaves client-side scanning out of new child safety rules
+  SKIP_NOT_AI ... +19 more
+DIVERSITY target=models queue=5 fresh=19 deferred=37 rejected=source_daily:12,category_consecutive:14
+  DIVERSITY_QUEUE tools:Code.Cloud | کـــد کلاد | tools:KDnuggets | tools:NVIDIA AI Blog | tools:Google AI Blog | security:arXiv
+QUEUE_SKIPPED 42
+  QUEUE_SKIP category_consecutive | OpenAI News | A step toward defining the Standard Model on a lattice
+  QUEUE_SKIP category_consecutive | OpenAI News | Our new blog for science
+  QUEUE_SKIP source_daily | The Decoder | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+  QUEUE_SKIP source_daily | The Decoder | Australia's central bank finds AI hitting young workers first, especially in software and customer service
+  QUEUE_SKIP source_daily | Simon Willison - Prompt Injection | datasette-apps 0.4a0
+  QUEUE_SKIP source_daily | Simon Willison - Prompt Injection | datasette-agent 0.6a0
+  QUEUE_SKIP source_daily | The Decoder | Anthropic CEO Amodei admits "there's a huge uncertainty in what's going to happen next year" days before a record IPO
+  QUEUE_SKIP source_daily | The Decoder | Anthropic says outdated prompting habits are slowing down Claude Opus 5.5
+  QUEUE_SKIP source_daily | The Decoder | OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary
+  QUEUE_SKIP source_daily | The Decoder | Anthropic can already retrain Mythos with "a fraction of the compute originally needed," says former researcher Coxon
+  QUEUE_SKIP ... +32 more
+QUEUE_HELD 7
+  QUEUE_HOLD category_consecutive | TechCrunch | OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM
+  QUEUE_HOLD source_daily | The Decoder | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices
+  QUEUE_HOLD source_daily | The Decoder | Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML
+  QUEUE_HOLD category_consecutive | NVIDIA AI Blog | Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics
+  QUEUE_HOLD category_consecutive | NVIDIA AI Blog | NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing
+  QUEUE_HOLD source_daily | The Decoder | Anthropic says the key to agent memory is knowing what to forget, not how much to store
+  QUEUE_HOLD category_consecutive | OpenAI News | Advancing computer-use agents for healthcare teams
+ATTEMPT 1/5 | deferred 0/3 Code.Cloud | کـــد کلاد | GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents | 0.3h
+  OFFER_SKIP offer_stale
+ATTEMPT 2/5 | deferred 0/3 KDnuggets | Agentic System Design: A Self-Study Roadmap | 0.5h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  DEFERRED fetch_failed | try 1/3
+ATTEMPT 3/5 NVIDIA AI Blog | CUDA at 20: How the Platform Transformed Scientific Computing | 1h
+  TOOL_LINK candidate https://github.com/google-deepmind/alphafold | score 26
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED title_clean | one repair retry
+  REPAIR_QA FAIL | score 41/43 | problems title_clean | warnings why
+  TITLE_REPAIR title_clean | focused retry
+  TITLE_REPAIR_QA FAIL | title_problems 1 | kept original
+  REVIEW_ITEM id=460c55a1ad message=345
+  REVIEW_REQUIRED reason=qa_failed sent=345
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-16/20-30-1d9f84a1
+  QA_TITLE_REVIEW title_clean | draft preserved in review
+  QA_FAILED title_clean | score 41/43
+ATTEMPT 4/5 Google AI Blog | New Ask Maps features to help with holiday travel and prep | 3h
+  TOOL_LINK candidate https://blog.google/products-and-platforms/products/maps/holiday-thanksgiving-travel-trends-2026/ | score 11
+  MODEL DeepSeek-V4-Flash | image allowed
+  retry in 5s (status 0 timeout)
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | خبر درباره ویژگی‌های جدید نقشه گوگل برای سفرهای تعطیلاتی است و هوش مصنوعی فقط به صورت گذرا در قابلیت‌های عامل‌گونه (agen
+ATTEMPT 5/5 arXiv | MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading | 70.5h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | ورودی فقط متن توضیحی درباره arXivLabs است و هیچ جزئیاتی درباره خود ابزار MeReader ندارد؛ خبر لاغر و بدون محتوای قابل است
+RESULT EMPTY attempts=11 reviews=7 deferred=46 | cost $0.003668 | tokens 60965
+  EMPTY_ATTEMPT review reason=denied_link | 🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭
+  EMPTY_ATTEMPT review reason=denied_link | 🔥همه مدل‌های هوش مصنوعی بدون هیچ سانسوری در اینترنت.
+  EMPTY_ATTEMPT review reason=denied_link | 🚨 مدل Tencent Hy4 Flash به صورت رایگان در WorkBuddy در دسترس است! 🌟
+  EMPTY_ATTEMPT review reason=denied_link | تیم ترامپ قصد داره بیش از ۲۴ شرکت آمریکایی رو به‌عنوان قهرمان‌های ملی حوزه هوش مصنوعی
+  EMPTY_ATTEMPT review reason=no_link | ساخت ربات تلگرام میتونه به کار همتون بیاد
+  EMPTY_ATTEMPT review reason=no_link | بچه ها راجب ربات تلگرام یه چیزی بگم
+  EMPTY_ATTEMPT offer_skip reason=offer_stale | GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents
+  EMPTY_ATTEMPT deferred reason=fetch_failed | Agentic System Design: A Self-Study Roadmap
+  EMPTY_ATTEMPT review reason=qa_failed | CUDA at 20: How the Platform Transformed Scientific Computing
+  EMPTY_ATTEMPT model_skip reason=خبر درباره ویژگی‌های جدید نقشه گوگل برای سفرهای تعطیلاتی است و هوش مصنوعی فقط به صورت گذرا در قابلیت‌های عامل‌گونه (agentic) ذکر شده؛ محتوای اصلی مرتبط با هوش مصنوعی نیست. | New Ask Maps features to help with holiday travel and prep
+  EMPTY_ATTEMPT model_skip reason=ورودی فقط متن توضیحی درباره arXivLabs است و هیچ جزئیاتی درباره خود ابزار MeReader ندارد؛ خبر لاغر و بدون محتوای قابل استخراج است. | MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-16T17:07:56Z
+# گزارش روزانه 2026-11-16 (دوشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، مدل‌ها و پژوهش 2
+- آفر: ارسال‌شده 0 | بازبینی 8
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 14
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، مدل‌ها و پژوهش 2
+
+## هزینه
+- هزینه مدل: $0.007834
+- توکن: 141769
+- میانگین هر پست ارسال‌شده: $0.001959
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 8 | 31 | 23 |
+| مدل‌ها و پژوهش | 3 | 24 | 21 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 2 | 11 | 9 |
+| مجموع | 15 | 77 | 62 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000294 | 9988 | پلاگین جدید Datasette با نقشه برداری MapLibre |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.000818 | 23448 | مدل جدید Anthropic با شبیه‌سازی نقاشی واقعی، تصویر می‌سازد |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 41/43 | $0.001046 | 24983 | anidoodle: هنر و انیمیشن با کد، خروجی یکسان در هر اجرا |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.002009 | 22385 | Kimi K3.1-Pro در بنچمارک Gamefeel رتبه ۲۴ گرفت |
+| 20:30 |  | خالی | — | $0.003668 | 60965 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 24
+- دلایل: از رصد آفر پیدا شد 3، منبع رسمی شرکت نیست 1، لینک خارجی این پست پذیرفته نشد 12، لینک قابل استفاده ندارد 5، لینک معتبر برای این آفر پیدا نشد 1، مدل این مورد را رد کرد 1، بررسی کیفیت پاس نشد 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 46
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-16.md
+SOURCE_STATUS 2026-11-16T17:07:56Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-16.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — دوشنبه ۲۵ آبان ۱۴۰۵
+پست امروز: 4 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 5
+صف بازبینی: 44 کارت
+صف تعویق: 46
+منابع: 72 فعال، 0 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/43913768801
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
