@@ -1,0 +1,57 @@
+RUN 43813517572 | send/main | slot auto | 2026-11-16T05:57:19Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-16T08:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 6/31 | models 1/24 | security 2/11 | business 2/11
+DAILY 1/11
+DIVERSITY_TARGET business | slot 08:30
+DEFERRED_POOL 29
+  DEFERRED fetch_failed | try 1/3 | A step toward defining the Standard Model on a lattice
+  DEFERRED category_consecutive | try 0/3 | 💸 با این ۶ پروژهٔ گیت‌هاب می‌تونی پول دربیاری
+  DEFERRED source_daily | try 0/3 | GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download
+  DEFERRED source_daily | try 0/3 | Anthropic's Claude Fable 5.2 doesn't generate images, it paints them
+  DEFERRED source_daily | try 0/3 | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+DEFERRED_EXHAUSTED 5
+SLOT_ALREADY_DONE 2026-11-16T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-16T05:57:19Z
+# گزارش روزانه 2026-11-16 (دوشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 1 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 1
+
+## آمار روز
+- پست ارسال‌شده: 1 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 4
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 4
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.000294
+- توکن: 9988
+- میانگین هر پست ارسال‌شده: $0.000294
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 6 | 31 | 25 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 2 | 11 | 9 |
+| مجموع | 11 | 77 | 66 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000294 | 9988 | پلاگین جدید Datasette با نقشه برداری MapLibre |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 4
+- دلایل: از رصد آفر پیدا شد 3، منبع رسمی شرکت نیست 1
+
+## صف تعویق
+- در انتظار: 34
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-16.md
