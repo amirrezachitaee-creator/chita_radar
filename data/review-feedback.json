@@ -41,7 +41,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "31613f23d5": {
       "id": "31613f23d5",
@@ -84,7 +88,11 @@
         "evidence": ""
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "6487c3b16c": {
       "id": "6487c3b16c",
@@ -127,7 +135,11 @@
         "evidence": ""
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "4fda063173": {
       "id": "4fda063173",
@@ -170,7 +182,11 @@
         "evidence": ""
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "df9c5e0d77": {
       "id": "df9c5e0d77",
@@ -239,7 +255,11 @@
       },
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "5e491f8abe": {
       "id": "5e491f8abe",
@@ -279,7 +299,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "78fa9c1712": {
       "id": "78fa9c1712",
@@ -319,7 +343,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "3a698fd568": {
       "id": "3a698fd568",
@@ -361,7 +389,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "9f303a0c4b": {
       "id": "9f303a0c4b",
@@ -402,7 +434,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "898031914d": {
       "id": "898031914d",
@@ -442,7 +478,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "2adc865ee2": {
       "id": "2adc865ee2",
@@ -480,7 +520,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "a10432144a": {
       "id": "a10432144a",
@@ -522,7 +566,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "13760f3595": {
       "id": "13760f3595",
@@ -560,7 +608,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "fa76dc28f8": {
       "id": "fa76dc28f8",
@@ -637,7 +689,11 @@
       "lastActionAt": "2026-11-15T14:42:17.514Z",
       "sentAt": "",
       "lastAction": "rewrite",
-      "manual": true
+      "manual": true,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "19548d3e34": {
       "id": "19548d3e34",
@@ -678,7 +734,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "af846ebfb8": {
       "id": "af846ebfb8",
@@ -720,7 +780,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "655a80d453": {
       "id": "655a80d453",
@@ -762,7 +826,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "8f6bae958a": {
       "id": "8f6bae958a",
@@ -808,7 +876,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "e6e01cc87d": {
       "id": "e6e01cc87d",
@@ -851,7 +923,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "ffb7a9e726": {
       "id": "ffb7a9e726",
@@ -930,7 +1006,11 @@
       "lastActionAt": "2026-11-16T12:43:08.458Z",
       "sentAt": "2026-11-16T12:43:08.458Z",
       "manual": true,
-      "lastAction": "publish"
+      "lastAction": "publish",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "888d2be7ec": {
       "id": "888d2be7ec",
@@ -1011,7 +1091,11 @@
       "lastActionAt": "2026-11-15T17:48:06.656Z",
       "sentAt": "",
       "manual": true,
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "735ca96abb": {
       "id": "735ca96abb",
@@ -1049,7 +1133,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "b4d32a8bb9": {
       "id": "b4d32a8bb9",
@@ -1096,7 +1184,11 @@
       "expiry": null,
       "lastActionAt": "2026-11-16T11:20:10.138Z",
       "sentAt": "",
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "97c45461ea": {
       "id": "97c45461ea",
@@ -1135,7 +1227,11 @@
       "expiry": null,
       "lastActionAt": "2026-11-16T11:19:42.120Z",
       "sentAt": "",
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "b3a602fe91": {
       "id": "b3a602fe91",
@@ -1178,7 +1274,11 @@
         "evidence": "Nov 6, 2026"
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "ab0b698970": {
       "id": "ab0b698970",
@@ -1221,7 +1321,11 @@
         "evidence": ""
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "59dc48a75b": {
       "id": "59dc48a75b",
@@ -1264,7 +1368,11 @@
         "evidence": ""
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "5c6060e13a": {
       "id": "5c6060e13a",
@@ -1310,7 +1418,11 @@
         "evidence": ""
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "b4ea40a91d": {
       "id": "b4ea40a91d",
@@ -1351,7 +1463,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "b7c626f029": {
       "id": "b7c626f029",
@@ -1391,7 +1507,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "a3834854ec": {
       "id": "a3834854ec",
@@ -1433,7 +1553,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "556f56f6fd": {
       "id": "556f56f6fd",
@@ -1471,7 +1595,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "91e24a6c4e": {
       "id": "91e24a6c4e",
@@ -1509,7 +1637,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "898e0b1588": {
       "id": "898e0b1588",
@@ -1552,7 +1684,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "0dee7de015": {
       "id": "0dee7de015",
@@ -1597,7 +1733,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "7cb6a7508a": {
       "id": "7cb6a7508a",
@@ -1640,7 +1780,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "93efadfdcc": {
       "id": "93efadfdcc",
@@ -1685,7 +1829,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "39c02f81eb": {
       "id": "39c02f81eb",
@@ -1726,7 +1874,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "71d5fbbd62": {
       "id": "71d5fbbd62",
@@ -1765,7 +1917,11 @@
       "expiry": null,
       "lastActionAt": "2026-11-16T17:28:36.683Z",
       "sentAt": "",
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "105c45cc00": {
       "id": "105c45cc00",
@@ -1804,7 +1960,11 @@
       "expiry": null,
       "lastActionAt": "2026-11-16T17:28:24.039Z",
       "sentAt": "",
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "b294db148d": {
       "id": "b294db148d",
@@ -1874,7 +2034,11 @@
       "lastActionAt": "2026-11-16T17:43:37.281Z",
       "sentAt": "2026-11-16T17:43:37.281Z",
       "manual": true,
-      "lastAction": "publish"
+      "lastAction": "publish",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "5c232cc04a": {
       "id": "5c232cc04a",
@@ -1913,7 +2077,11 @@
       "expiry": null,
       "lastActionAt": "2026-11-16T17:29:21.834Z",
       "sentAt": "",
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "c99d85382f": {
       "id": "c99d85382f",
@@ -1955,7 +2123,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "ef8f799c39": {
       "id": "ef8f799c39",
@@ -1997,7 +2169,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "80131ee9c0": {
       "id": "80131ee9c0",
@@ -2039,7 +2215,11 @@
       "post": null,
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "921fff427b": {
       "id": "921fff427b",
@@ -2078,7 +2258,11 @@
       "expiry": null,
       "lastActionAt": "2026-11-16T17:31:28.297Z",
       "sentAt": "",
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "40ad3e2e1b": {
       "id": "40ad3e2e1b",
@@ -2117,7 +2301,11 @@
       "expiry": null,
       "lastActionAt": "2026-11-16T17:31:20.263Z",
       "sentAt": "",
-      "lastAction": "reject"
+      "lastAction": "reject",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "460c55a1ad": {
       "id": "460c55a1ad",
@@ -2203,7 +2391,11 @@
       },
       "expiry": null,
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     },
     "6f956c6269": {
       "id": "6f956c6269",
@@ -2247,7 +2439,11 @@
         "evidence": ""
       },
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": []
     }
   },
   "actions": [
