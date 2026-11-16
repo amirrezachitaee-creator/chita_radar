@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883485,
+  "offset": 659883498,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -1730,10 +1730,10 @@
     },
     "71d5fbbd62": {
       "id": "71d5fbbd62",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-16T13:31:24.410Z",
-      "updatedAt": "2026-11-16T13:31:24.410Z",
+      "updatedAt": "2026-11-16T17:28:36.683Z",
       "messageId": 335,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T17:00+03:30",
@@ -1763,15 +1763,16 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T17:28:36.683Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "105c45cc00": {
       "id": "105c45cc00",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-16T13:31:24.410Z",
-      "updatedAt": "2026-11-16T13:31:24.410Z",
+      "updatedAt": "2026-11-16T17:28:24.039Z",
       "messageId": 336,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T17:00+03:30",
@@ -1801,19 +1802,20 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T17:28:24.039Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "b294db148d": {
       "id": "b294db148d",
       "status": "pending",
-      "rewrites": 0,
+      "rewrites": 1,
       "createdAt": "2026-11-16T13:31:24.410Z",
-      "updatedAt": "2026-11-16T13:31:24.410Z",
-      "messageId": 337,
+      "updatedAt": "2026-11-16T17:29:13.666Z",
+      "messageId": 346,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T17:00+03:30",
-      "reason": "denied_link",
+      "reason": "manual_rewrite",
       "kind": "post",
       "source": "tg-thenima",
       "sourceName": "Thenima.one",
@@ -1837,17 +1839,49 @@
       "policy": false,
       "mainEligible": false,
       "qaPass": false,
-      "post": null,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "tools",
+        "post_type": "standard",
+        "importance": 3,
+        "title": "سابسکریپشن Gemini مستقیم به هرمس میاد",
+        "body": "هرمس فعلاً فقط با API Key مدل Gemini کار می‌کنه، اما قراره این روند عوض بشه. Nous داره با گوگل مذاکره می‌کنه تا سابسکریپشنی که قبلاً خریدی رو مستقیم داخل هرمس فعال کنی. این روش رسمی و مورد تأیید گوگل خواهد بود.\n\nبا این کار، دیگه لازم نیست برای استفاده از Gemini توی هرمس API Key جدا بگیری؛ همون اشتراک فعلی‌ت کافیه.",
+        "quote": "",
+        "key_facts": [
+          "هرمس فعلاً فقط با API Key مدل Gemini کار می‌کنه",
+          "Nous در حال مذاکره با گوگل برای فعال‌سازی مستقیم سابسکریپشن Gemini است",
+          "این روش رسمی و مورد تأیید گوگل خواهد بود"
+        ],
+        "numbers": [],
+        "entities": {
+          "companies": [
+            "Nous",
+            "Google"
+          ],
+          "models": [
+            "Gemini"
+          ],
+          "people": []
+        },
+        "verification": "unverified",
+        "source_url": "https://t.me/thenimaonAI/534",
+        "image_url": "",
+        "dedupe_key": "nous-hermes-gemini-subscription"
+      },
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T17:29:13.666Z",
+      "sentAt": "",
+      "manual": true,
+      "lastAction": "rewrite"
     },
     "5c232cc04a": {
       "id": "5c232cc04a",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-16T17:01:04.951Z",
-      "updatedAt": "2026-11-16T17:01:04.951Z",
+      "updatedAt": "2026-11-16T17:29:21.834Z",
       "messageId": 339,
       "chatId": "-1004443166907",
       "slot": "2026-11-16T20:30+03:30",
@@ -1877,8 +1911,9 @@
       "qaPass": false,
       "post": null,
       "expiry": null,
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-16T17:29:21.834Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "c99d85382f": {
       "id": "c99d85382f",
@@ -2241,6 +2276,42 @@
       "reason": "",
       "detail": "message=88 text",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:28:24.039Z",
+      "action": "reject",
+      "itemId": "105c45cc00",
+      "source": "tg-shayanode",
+      "reason": "promo",
+      "detail": "دوستان عزییززززز این روزا که هوش مصنوعی ها دارن روی ip ایران سختگیری میکنن حتما از",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:28:36.683Z",
+      "action": "reject",
+      "itemId": "71d5fbbd62",
+      "source": "tg-ai-by-sadeghi",
+      "reason": "other",
+      "detail": "برای ساخت ویدیو به زیان های مختلف اشتراک هوش مصنوعی heygen نیاز دارید تو اپ این",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:29:13.666Z",
+      "action": "rewrite",
+      "itemId": "b294db148d",
+      "source": "tg-thenima",
+      "reason": "",
+      "detail": "qa_failed cost=$0.001431",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T17:29:21.834Z",
+      "action": "reject",
+      "itemId": "5c232cc04a",
+      "source": "tg-asr-novin",
+      "reason": "promo",
+      "detail": "🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -2263,10 +2334,28 @@
       "lastAt": "2026-11-16T12:43:08.458Z"
     },
     "tg-shayanode": {
+      "rejects": 2,
+      "rewrites": 0,
+      "publishes": 0,
+      "lastAt": "2026-11-16T17:28:24.039Z"
+    },
+    "tg-ai-by-sadeghi": {
       "rejects": 1,
       "rewrites": 0,
       "publishes": 0,
-      "lastAt": "2026-11-16T11:19:42.120Z"
+      "lastAt": "2026-11-16T17:28:36.683Z"
+    },
+    "tg-thenima": {
+      "rejects": 0,
+      "rewrites": 1,
+      "publishes": 0,
+      "lastAt": "2026-11-16T17:29:13.666Z"
+    },
+    "tg-asr-novin": {
+      "rejects": 1,
+      "rewrites": 0,
+      "publishes": 0,
+      "lastAt": "2026-11-16T17:29:21.834Z"
     }
   },
   "callbackRetries": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T12:43:08.466Z",
+  "updatedAt": "2026-11-16T17:29:21.842Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -421,6 +421,60 @@
       "slot": "2026-11-16T16:11",
       "title": "پلاگین جدید دیپ‌سیک هارنس، مدل‌های قوی را رایگان می‌کند",
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+    },
+    "url:bfe54c4cd8c2f1e0": {
+      "at": "2026-11-16T17:28:24.040Z",
+      "decision": "review_reject",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-16T17:00+03:30",
+      "title": "دوستان عزییززززز این روزا که هوش مصنوعی ها دارن روی ip ایران سختگیری میکنن حتما از",
+      "url": "https://t.me/shayanode/221"
+    },
+    "title:a3e0e65dcae32139": {
+      "at": "2026-11-16T17:28:24.040Z",
+      "decision": "review_reject",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-16T17:00+03:30",
+      "title": "دوستان عزییززززز این روزا که هوش مصنوعی ها دارن روی ip ایران سختگیری میکنن حتما از",
+      "url": "https://t.me/shayanode/221"
+    },
+    "url:4579e1132f0a9ead": {
+      "at": "2026-11-16T17:28:36.683Z",
+      "decision": "review_reject",
+      "reason": "other",
+      "category": "",
+      "slot": "2026-11-16T17:00+03:30",
+      "title": "برای ساخت ویدیو به زیان های مختلف اشتراک هوش مصنوعی heygen نیاز دارید تو اپ این",
+      "url": "https://t.me/aibysadeghi/71"
+    },
+    "title:275e78f7d523dfd9": {
+      "at": "2026-11-16T17:28:36.683Z",
+      "decision": "review_reject",
+      "reason": "other",
+      "category": "",
+      "slot": "2026-11-16T17:00+03:30",
+      "title": "برای ساخت ویدیو به زیان های مختلف اشتراک هوش مصنوعی heygen نیاز دارید تو اپ این",
+      "url": "https://t.me/aibysadeghi/71"
+    },
+    "url:9df0e6eb2d1753eb": {
+      "at": "2026-11-16T17:29:21.835Z",
+      "decision": "review_reject",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭",
+      "url": "https://t.me/asrnovin_ir/11474"
+    },
+    "title:c98f469f30e0c4b6": {
+      "at": "2026-11-16T17:29:21.835Z",
+      "decision": "review_reject",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-16T20:30+03:30",
+      "title": "🔴یه خبر خوب برای کسایی که دنبال اشتراک Gemini Pro بودن! 🔭",
+      "url": "https://t.me/asrnovin_ir/11474"
     }
   },
   "deferred": {},
@@ -496,13 +550,13 @@
     {
       "week": "2026-10-31",
       "slot": "2026-11-03T17:00+03:30",
-      "category": "models",
+      "category": "business",
       "kind": "news",
-      "title": "Message Threads آنتروپیک زمان پاسخ را ۳۵ درصد کم کرد",
-      "why": "اهمیتش اینه که برای گفتگوهای طولانی، سرعت پاسخ‌دهی به‌طور محسوسی بالا می‌ره و هزینه اضافه‌ای هم نداره.",
-      "dedupe_key": "anthropic-message-threads-beta",
+      "title": "نخبگان هوش مصنوعی را مثل طلا احتکار می‌کنند",
+      "why": "این بحث از این جهت مهمه که نگاه نخبگان به هوش مصنوعی می‌تونه تعیین کنه که مزایای اون بین بقیه مردم پخش بشه یا نه.",
+      "dedupe_key": "venkatesh-rao-ai-mercantilism-essay",
       "post_key": "2026-11-03/17-00",
-      "at": "2026-11-03T13:02:05.360Z"
+      "at": "2026-11-03T14:35:08.012Z"
     },
     {
       "week": "2026-10-31",
@@ -536,17 +590,6 @@
       "dedupe_key": "nvidia-cities-physical-agentic-ai",
       "post_key": "2026-11-03/23-00",
       "at": "2026-11-03T13:48:43.565Z"
-    },
-    {
-      "week": "2026-10-31",
-      "slot": "2026-11-03T17:00+03:30",
-      "category": "business",
-      "kind": "news",
-      "title": "نخبگان هوش مصنوعی را مثل طلا احتکار می‌کنند",
-      "why": "این بحث از این جهت مهمه که نگاه نخبگان به هوش مصنوعی می‌تونه تعیین کنه که مزایای اون بین بقیه مردم پخش بشه یا نه.",
-      "dedupe_key": "venkatesh-rao-ai-mercantilism-essay",
-      "post_key": "2026-11-03/17-00",
-      "at": "2026-11-03T14:35:08.012Z"
     }
   ],
   "telegram": {},
