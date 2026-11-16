@@ -55,6 +55,28 @@ export function normalizeReviewStore(value) {
       };
     }
   }
+  if (value.pendingRejects && typeof value.pendingRejects === 'object') {
+    store.pendingRejects = {};
+    for (const [id, entry] of Object.entries(value.pendingRejects)) {
+      if (!/^[a-f0-9]{8,12}$/.test(id) || !entry || typeof entry !== 'object') continue;
+      store.pendingRejects[id] = {
+        reason: String(entry.reason ?? 'other').slice(0, 40),
+        actor: String(entry.actor ?? '').slice(0, 40),
+        at: String(entry.at ?? ''),
+        messageId: Number(entry.messageId) || 0,
+      };
+    }
+  }
+  if (value.callbackRetries && typeof value.callbackRetries === 'object') {
+    store.callbackRetries = {};
+    for (const [key, entry] of Object.entries(value.callbackRetries)) {
+      if (!/^\d+$/.test(key) || !entry || typeof entry !== 'object') continue;
+      store.callbackRetries[key] = {
+        count: Math.max(0, Number(entry.count) || 0),
+        at: String(entry.at ?? ''),
+      };
+    }
+  }
   return store;
 }
 

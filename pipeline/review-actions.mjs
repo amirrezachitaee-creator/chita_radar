@@ -430,6 +430,50 @@ function refreshStatesFromOrigin({ force = false } = {}) {
   }
 }
 
+function drainPendingRejects() {
+  const pending = store.pendingRejects;
+  if (!pending || typeof pending !== 'object') return false;
+  let changed = false;
+  for (const [id, entry] of Object.entries(pending)) {
+    const item = store.items[id];
+    if (!item) {
+      const at = Date.parse(String(entry?.at ?? ''));
+      if (Number.isFinite(at) && Date.now() - at > 24 * 3600000) {
+        delete pending[id];
+        changed = true;
+      }
+      continue;
+    }
+    if (item.status === 'rejected' || item.status === 'sent') {
+      delete pending[id];
+      changed = true;
+      continue;
+    }
+    item.status = 'rejected';
+    delete item.queuedPublish;
+    recordReviewAction(store, {
+      item,
+      action: 'reject',
+      actor: String(entry?.actor ?? ''),
+      reason: String(entry?.reason ?? ''),
+      detail: item.title,
+      at: entry?.at || new Date().toISOString(),
+    });
+    markDecision(itemKeysOf(item), {
+      decision: 'review_reject',
+      reason: entry?.reason ?? '',
+      category: '',
+      slot: item.slot,
+      title: item.title,
+      url: item.url,
+    });
+    delete pending[id];
+    changed = true;
+    log(`REVIEW_REJECT_APPLIED id=${id} reason=${entry?.reason ?? ''}`);
+  }
+  return changed;
+}
+
 function activeItem(review, query) {
   let item = store.items[review.id];
   if (!item && refreshItemsFromOrigin({ force: true })) item = store.items[review.id];
@@ -489,7 +533,26 @@ async function handleDeleteMessage(query) {
   }
 }
 
+function queuePendingReject(review, query) {
+  const messageId = Number(query?.message?.message_id ?? 0);
+  if (!store.pendingRejects || typeof store.pendingRejects !== 'object') store.pendingRejects = {};
+  store.pendingRejects[review.id] = {
+    reason: String(review.extra ?? 'other'),
+    actor: query.from?.username || String(query.from?.id ?? ''),
+    at: new Date().toISOString(),
+    messageId,
+  };
+  return messageId;
+}
+
 async function handleRejectMenu(review, query) {
+  if (!store.items[review.id]) {
+    const messageId = Number(query?.message?.message_id ?? 0);
+    await answer(query.id, 'دلیل رد را انتخاب کن.');
+    await setKeyboard(messageId, rejectKeyboard(review.id));
+    log(`REVIEW_REJECT_MENU id=${review.id} unregistered=1 message=${messageId}`);
+    return null;
+  }
   const { item, error, retry } = activeItem(review, query);
   if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'دلیل رد را انتخاب کن.');
@@ -499,6 +562,16 @@ async function handleRejectMenu(review, query) {
 }
 
 async function handleReject(review, query) {
+  if (!store.items[review.id]) {
+    await answer(query.id, 'رد شد؛ پیام پاک می‌شود.');
+    const messageId = queuePendingReject(review, query);
+    await persistStore();
+    const deleted = await deleteCard(messageId, null);
+    log(
+      `REVIEW_REJECT_PENDING id=${review.id} reason=${review.extra} deleted=${deleted ? 'yes' : 'no'} message=${messageId}`
+    );
+    return null;
+  }
   const { item, error, retry } = activeItem(review, query);
   if (error) return answerItemError(query, error, retry);
   await answer(query.id, 'رد شد؛ پیام پاک می‌شود.');
@@ -1022,6 +1095,8 @@ async function main() {
     log('DRY_NO_UPDATES pass --updates <file> to preview actions');
     return;
   }
+
+  if (drainPendingRejects()) await persist();
 
   await processQueuedPublishes();
 

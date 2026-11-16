@@ -75,13 +75,14 @@ function item(fields = {}) {
   };
 }
 
-function storeOf(entries) {
+function storeOf(entries, pendingRejects = null) {
   return {
     version: 1,
     offset: 0,
     items: Object.fromEntries(entries.map((entry) => [entry.id, entry])),
     actions: [],
     sources: {},
+    ...(pendingRejects ? { pendingRejects } : {}),
   };
 }
 
@@ -98,10 +99,10 @@ function update(action, id, { extra = '', messageId = 42, updateId = 7 } = {}) {
   };
 }
 
-async function run(updates, entries, now = NOW, { queueNotice = false, env = {} } = {}) {
+async function run(updates, entries, now = NOW, { queueNotice = false, env = {}, pendingRejects = null } = {}) {
   const dir = await mkdtemp(join(tmpdir(), 'qoder-actions-'));
   const feedback = join(dir, 'feedback.json');
-  const content = `${JSON.stringify(storeOf(entries), null, 2)}\n`;
+  const content = `${JSON.stringify(storeOf(entries, pendingRejects), null, 2)}\n`;
   await writeFile(feedback, content, 'utf8');
   const updatesPath = join(dir, 'updates.json');
   await writeFile(updatesPath, JSON.stringify({ ok: true, result: updates }), 'utf8');
@@ -206,10 +207,35 @@ test('a callback from another message id is ignored', async () => {
   assert.doesNotMatch(output, /REVIEW_REJECTED/);
 });
 
-test('a press for a card not yet saved is answered and left for the next tick', async () => {
+test('a reject for a card not yet saved is queued without blocking the queue', async () => {
   const output = await run([update('x', 'deadbeef01', { extra: 'quality' })], []);
-  assert.match(output, /DRY_ANSWER این کارت هنوز در سیستم ثبت نشده/);
-  assert.doesNotMatch(output, /REVIEW_REJECTED|DRY_NOTIFY این مورد پیدا نشد/);
+  assert.match(output, /DRY_ANSWER رد شد؛ پیام پاک می‌شود/);
+  assert.match(output, /REVIEW_REJECT_PENDING id=deadbeef01 reason=quality/);
+  assert.doesNotMatch(output, /REVIEW_ACTION_RETRY|این کارت هنوز در سیستم ثبت نشده/);
+  assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
+});
+
+test('the reason menu opens even when the card is not saved yet', async () => {
+  const output = await run([update('r', 'deadbeef01')], []);
+  assert.match(output, /DRY_ANSWER دلیل رد را انتخاب کن/);
+  assert.match(output, /REVIEW_REJECT_MENU id=deadbeef01 unregistered=1/);
+  assert.doesNotMatch(output, /REVIEW_ACTION_RETRY/);
+  assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
+});
+
+test('a queued reject is applied once the card is registered', async () => {
+  const output = await run([], [item()], NOW, {
+    pendingRejects: {
+      deadbeef01: {
+        reason: 'quality',
+        actor: 'amir',
+        at: '2026-11-14T14:59:00Z',
+        messageId: 42,
+      },
+    },
+  });
+  assert.match(output, /REVIEW_REJECT_APPLIED id=deadbeef01 reason=quality/);
+  assert.match(output, /REVIEW_ACTIONS_DONE/);
 });
 
 test('a publish during a busy slot is queued and not sent', async () => {

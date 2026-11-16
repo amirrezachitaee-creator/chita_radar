@@ -195,6 +195,23 @@ test('a malformed store is normalized instead of breaking the poller', async () 
   assert.equal(normalizeReviewStore(null).offset, 0);
 });
 
+test('queued rejects and callback retries survive a store reload', () => {
+  const normalized = normalizeReviewStore({
+    items: {},
+    pendingRejects: {
+      deadbeef01: { reason: 'quality', actor: 'amir', at: '2026-11-16T17:00:00Z', messageId: 42 },
+      '../bad': { reason: 'x' },
+    },
+    callbackRetries: { 659883486: { count: 2, at: '2026-11-16T17:00:00Z' }, abc: { count: 1 } },
+  });
+  assert.deepEqual(normalized.pendingRejects, {
+    deadbeef01: { reason: 'quality', actor: 'amir', at: '2026-11-16T17:00:00Z', messageId: 42 },
+  });
+  assert.deepEqual(normalized.callbackRetries, {
+    659883486: { count: 2, at: '2026-11-16T17:00:00Z' },
+  });
+});
+
 test('pruning drops old items, trims the excess, and keeps recent feedback', () => {
   const store = emptyReviewStore();
   const old = item(store, { now: '2026-10-01T00:00:00Z' });
