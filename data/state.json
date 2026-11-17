@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T17:02:13.500Z",
+  "updatedAt": "2026-11-17T18:09:24.491Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10715,6 +10715,60 @@
       "slot": "2026-11-17T20:30+03:30",
       "title": "US moves to cut China’s remote access to AI chips",
       "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips"
+    },
+    "url:d0e3c2912e587b52": {
+      "at": "2026-11-17T17:56:39.679Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖 این دوره نیاز به داشتن هیچ اشتراک پولی",
+      "url": "https://t.me/shayanode/241"
+    },
+    "title:726e1f2e7c81df97": {
+      "at": "2026-11-17T17:56:39.679Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖 این دوره نیاز به داشتن هیچ اشتراک پولی",
+      "url": "https://t.me/shayanode/241"
+    },
+    "url:1ca2af5a29f1d8d5": {
+      "at": "2026-11-17T17:57:23.381Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+      "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise",
+      "benchmark": false
+    },
+    "title:cd5e2285c55c988f": {
+      "at": "2026-11-17T17:57:23.381Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+      "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise",
+      "benchmark": false
+    },
+    "url:0f23f3a02ee9e0a1": {
+      "at": "2026-11-17T18:09:24.488Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "Google makes it easier to use Gemini without training AI on your data",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+      "benchmark": false
+    },
+    "title:b1c697355efaa6d5": {
+      "at": "2026-11-17T18:09:24.488Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "Google makes it easier to use Gemini without training AI on your data",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -11280,9 +11334,9 @@
     },
     "defer:url:21b4758ab52123ac": {
       "id": "defer:url:21b4758ab52123ac",
-      "at": "2026-11-17T17:02:13.179Z",
+      "at": "2026-11-17T17:56:41.734Z",
       "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -11326,7 +11380,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:21b4758ab52123ac",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -14338,6 +14392,219 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:3818d6ccd2a7f7a1": {
+      "id": "defer:url:3818d6ccd2a7f7a1",
+      "at": "2026-11-17T17:56:41.691Z",
+      "firstAt": "2026-11-17T17:56:41.691Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:3818d6ccd2a7f7a1",
+        "title:b11079d430873512"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+        "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+        "canonical": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+        "published": "Tue, 17 Nov 2026 17:32:25 +0000",
+        "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+        "images": [],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:3818d6ccd2a7f7a1",
+          "title:b11079d430873512"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0fd37b922e47061f": {
+      "id": "defer:url:0fd37b922e47061f",
+      "at": "2026-11-17T17:56:41.691Z",
+      "firstAt": "2026-11-17T17:56:41.691Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0fd37b922e47061f",
+        "title:3b1acaadb85326a5"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+        "link": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+        "canonical": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+        "published": "Tue, 17 Nov 2026 17:20:41 +0000",
+        "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+        "images": [],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:0fd37b922e47061f",
+          "title:3b1acaadb85326a5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:853c63f738f0cecf": {
+      "id": "defer:url:853c63f738f0cecf",
+      "at": "2026-11-17T17:56:41.691Z",
+      "firstAt": "2026-11-17T17:56:41.691Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:853c63f738f0cecf",
+        "title:9be86cc254b40a68"
+      ],
+      "canonical": "https://github.com/thedotmack/claude-mem",
+      "title": "🤖 5 ابزار کاربردی برای حرفه‌ای‌تر کردن Claude Code؛ ابزارهای معرفی‌شده در ویدئو پیج اینستا",
+      "candidate": {
+        "sourceId": "tg-ai-farshad",
+        "sourceName": "آموزش هوش مصنوعی | ابزار و پرامپت",
+        "sourceType": "telegram_channel",
+        "title": "🤖 5 ابزار کاربردی برای حرفه‌ای‌تر کردن Claude Code؛ ابزارهای معرفی‌شده در ویدئو پیج اینستا",
+        "link": "https://github.com/thedotmack/claude-mem",
+        "canonical": "https://github.com/thedotmack/claude-mem",
+        "messageText": "🤖 5 ابزار کاربردی برای حرفه‌ای‌تر کردن Claude Code؛ ابزارهای معرفی‌شده در ویدئو پیج اینستا\n\n🔵Claude Mem\nبرای ذخیره خلاصه کارها، تصمیم‌ها و اطلاعات پروژه و حفظ پیوستگی بین چت‌های مختلف.\n\n🔵FreeLLMAPI\nبرای دسترسی به مدل‌های زبانی مختلف از طریق چندین سرویس‌دهنده.\n\n🔵Claude Code Setup\nبرای پیشنهاد تنظیمات و ابزارهای مناسب، متناسب با نیازهای پروژه.\n\n🔵Elephant Goldfish Model\nبرای بازبینی و بررسی پلن با کمک یک ایجنت مستقل، قبل از اجرای آن.\n\n🔵21st.dev Magic MCP\nبرای ساخت کامپوننت‌های رابط کاربری (UI) تنها با توضیحات متنی.\n\n💡پیشنهاد می‌کنم ابزارها رو بررسی کنید و متناسب با نوع پروژه‌تون ازشون استفاده کنید.\n\n@ai_farshad\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤5👍3😁2",
+        "leadPostUrl": "https://t.me/ai_farshad/6458",
+        "published": "2026-11-17T17:08:42+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/ThtzJMFZL2le4e-Go1VFx-QaM4Mbj-HHqh1gcau64KMZMmx_wf4HFDDkr-Hy6RDq2j01Zc8M-n5p2RmeoWNABvXoobeRPw-6RA5Wsmv5LcNqqMtYoP5rzPyABv7oOr5Eo3cEi8JpsLFM6VwLHwJA4-B3rY7cpqXJNCIR4nxiUVfsO6Ntm1cI8O0ThnUO24Kd4zM4S_hK71S2V0lxbYwqjtEXk0bNHiospcExJeFM4bmcJ2T-l1fXBafvwCQ1xZRzbhsJvELFyF7_No3ed7wP-RKJCoeWmQNCistoAiYSmuybQXVOMn3yBSrxbrKSpqHDV3eDug-uls_BUrfpCzINIA.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/thedotmack/claude-mem",
+          "https://github.com/tashfeenahmed/freellmapi",
+          "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
+          "https://github.com/google/elephant-goldfish-model",
+          "https://github.com/21st-dev/magic-mcp"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:853c63f738f0cecf",
+          "title:9be86cc254b40a68"
+        ],
+        "leadSource": "ai_farshad",
+        "leadMessageId": 6458,
+        "leadChannelUrl": "https://t.me/ai_farshad",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:830da74434e8505c": {
+      "id": "defer:url:830da74434e8505c",
+      "at": "2026-11-17T17:56:41.691Z",
+      "firstAt": "2026-11-17T17:56:41.691Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:830da74434e8505c",
+        "title:98475f7f9646f75b"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "title": "Put Gemini to work for you",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "Put Gemini to work for you",
+        "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+        "canonical": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+        "published": "Tue, 17 Nov 2026 17:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp\">Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:830da74434e8505c",
+          "title:98475f7f9646f75b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -16467,11 +16734,50 @@
     },
     "2026-11-17T20:30+03:30": {
       "at": "2026-11-17T17:02:13.499Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.00135534,
-      "tokens": 9522,
-      "posts": []
+      "cost": 0.0025147864,
+      "tokens": 33908,
+      "posts": [
+        {
+          "title": "جنسیس ای‌آی ۵۰۰ میلیون دلار جذب کرد",
+          "category": "business",
+          "status": "sent",
+          "messageId": 98,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0021196952,
+          "tokens": 23315,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-17T17:57:23.381Z"
+        },
+        {
+          "title": "گوگل کنترل آموزش جمنای روی داده‌ها را از تاریخچه جدا کرد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 99,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/20-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003950912,
+          "tokens": 10593,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-17T18:09:24.488Z"
+        }
+      ],
+      "category": "tools",
+      "title": "گوگل کنترل آموزش جمنای روی داده‌ها را از تاریخچه جدا کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/20-30-2",
+      "messageId": 99,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "43/43"
     }
   },
   "published": [
@@ -17902,93 +18208,129 @@
       "sourceTitle": "Release: llm 0.37.3",
       "sourceText": "A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software.\nHomebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code .\nThat was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug.\nThis is a beat by Simon Willison, posted on 16th November 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.",
       "at": "2026-11-17T14:33:14.508Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-17T20:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "جنسیس ای‌آی ۵۰۰ میلیون دلار جذب کرد",
+      "why": "این پول صرف توسعه زیرساخت محاسباتی، افزایش تولید ربات و استخدام نیروی جدید می‌شه. جنسیس در پاریس مستقر و حدود ۱۰۰ کارمند داره.",
+      "dedupe_key": "genesis-ai-seriesa-500m",
+      "post_key": "2026-11-17/20-30/1",
+      "sourceId": "crunchbase-news",
+      "sourceName": "Crunchbase News",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+      "sourceTitle": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+      "sourceText": "Genesis AI , a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation.\nPremji Invest , Khosla Ventures and Eclipse co-led the round, which brings the company’s disclosed funding to $605 million since its 2024 inception. Genesis previously raised $105 million in a round announced in July 2025.\nThe company is developing both robots and the AI software that controls them. Its approach combines recordings of human hand movements with training in simulated environments, where robots can practice skills before attempting them in the physical world.\nGenesis is initially targeting manufacturing, logistics and laboratories with its robot, Eno.\n“We just want to bring something more elegant, more timeless,” co-founder and CEO Zhou Xian told Crunchbase News in an interview. “In the end, this is a very full-stack company. … We have to build all different pieces across the entire stack to make sure we can tightly integrate our technology stack together, and hopefully build the most well-polished and reliable product.\nOther participants in the new financing include T. Rowe Price Associates , Durable Capital Partners , Bpifrance , HSG , Nvidia , AMD Ventures , Zoom , Samsung Next and Ericsson . Individual backers include Eric Schmidt , Eric Yuan , Jerry Yang , Xavier Niel and Zach Kirkhorn .\nThe company plans to use the capital to expand its computing infrastructure, increase robot production and hire more employees, Xian told Crunchbase News. Presently, Genesis has clo",
+      "at": "2026-11-17T17:57:23.381Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-17T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "گوگل کنترل آموزش جمنای روی داده‌ها را از تاریخچه جدا کرد",
+      "why": "با این تفکیک، کاربرها می‌تونن راحت‌تر حریم خصوصی رو کنترل کنن و همزمان از قابلیت‌های جمنای استفاده کنن.",
+      "dedupe_key": "google-gemini-training-controls",
+      "post_key": "2026-11-17/20-30/2",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "sourceTitle": "Google makes it easier to use Gemini without training AI on your data",
+      "sourceText": "AI training and chat history will now have separate toggles in the Gemini activity settings.\nIt can be hard to use Google products—or even the Internet itself—without coming into contact with Gemini AI. That is, of course, by design . The more you use Gemini, the more data Google collects to train and improve its generative AI chatbot. The options to limit training on your data have been scant, but Google is finally adding more controls to the Gemini app.\nThe change currently rolling out to Gemini will separate your chat history from training, which allows you to retain basic AI functionality without handing Google quite so much control over your data. Prior to this change, the only way to opt out of contributing your chat contents (including attachments) for training was to turn off your history. That made it impossible to go back and pick up a chat down the road.\nAs the new settings roll out, users will see separate toggles for model training and chat history. The history setting will continue to support an adjustable limit, but you will no longer have to change it to stop Google from training on your Gemini usage. Meanwhile, AI training will be an opt-out situation. You’ll need to find the toggle to block Google from using your chats for AI training. It’s under Activity in the Gemini settings. You can also access the menu from your Google account under Data and Privacy > My Activity > Other activity > Gemini Apps Activity.\nImportantly, this only applies to future interactions with Gemini. If you have previously fed any data into Google’s AI, that’s already part of the tr",
+      "at": "2026-11-17T18:09:24.489Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8437,
       "last_at": "2026-11-17T16:01:41+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "ai_farshad": {
-      "last_id": 6457,
-      "last_at": "2026-11-17T14:02:10+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "last_id": 6458,
+      "last_at": "2026-11-17T17:08:42+00:00",
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "Mohammad_zammani": {
       "last_id": 7231,
       "last_at": "2026-11-17T15:28:23+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "techiin_ir": {
-      "last_id": 20796,
-      "last_at": "2026-11-17T15:55:56+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "last_id": 20797,
+      "last_at": "2026-11-17T17:37:01+00:00",
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "mgh_mobin": {
       "last_id": 492,
       "last_at": "2026-11-17T11:28:35+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "web3nabu": {
       "last_id": 2179,
       "last_at": "2026-11-17T16:24:12+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "asrnovin_ir": {
       "last_id": 11481,
       "last_at": "2026-11-17T16:44:12+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "shayanode": {
-      "last_id": 240,
-      "last_at": "2026-11-17T04:24:58+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "last_id": 241,
+      "last_at": "2026-11-17T04:39:29+00:00",
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "codecloude": {
       "last_id": 2595,
       "last_at": "2026-11-17T13:35:12+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "marketing_aida": {
       "last_id": 108,
       "last_at": "2026-11-17T11:52:05+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "MatinSenPaii": {
       "last_id": 5897,
       "last_at": "2026-11-17T16:29:47+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     },
     "thenimaonAI": {
       "last_id": 539,
       "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-17T17:01:38.206Z"
+      "checked_at": "2026-11-17T17:56:30.297Z"
     }
   },
   "offerReviews": [
@@ -21585,7 +21927,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-17T11:20:29.114Z",
+      "lastCheck": "2026-11-17T17:56:30.297Z",
       "status": "active",
       "misses": 0
     }
