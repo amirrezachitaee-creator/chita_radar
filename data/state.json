@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T14:33:14.510Z",
+  "updatedAt": "2026-11-17T17:02:13.500Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10643,6 +10643,78 @@
       "title": "llm 0.37.3",
       "url": "https://simonwillison.net/2026/Nov/16/llm",
       "benchmark": false
+    },
+    "url:9c84447be9f60ba1": {
+      "at": "2026-11-17T17:01:54.524Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "⚠️ کالیفرنیا به‌دلیل فرار مدل‌های هوش مصنوعی از محیط آزمایش از OpenAI شکایت کرد",
+      "url": "https://t.me/techiin_ir/20794"
+    },
+    "title:456955d3e0b2183c": {
+      "at": "2026-11-17T17:01:54.524Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "⚠️ کالیفرنیا به‌دلیل فرار مدل‌های هوش مصنوعی از محیط آزمایش از OpenAI شکایت کرد",
+      "url": "https://t.me/techiin_ir/20794"
+    },
+    "url:bd834befc0707e45": {
+      "at": "2026-11-17T17:01:54.524Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face",
+      "url": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face"
+    },
+    "title:8fb63b77a3ba3131": {
+      "at": "2026-11-17T17:01:54.524Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face",
+      "url": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face"
+    },
+    "url:1bd69254079e0730": {
+      "at": "2026-11-17T17:02:13.144Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "😊تقی‌پور: باید در جمع 10 کشور برتر جهان در حوزه هوش مصنوعی قرار بگیریم",
+      "url": "https://t.me/techiin_ir/20795"
+    },
+    "title:0365304dbed43d3b": {
+      "at": "2026-11-17T17:02:13.144Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "😊تقی‌پور: باید در جمع 10 کشور برتر جهان در حوزه هوش مصنوعی قرار بگیریم",
+      "url": "https://t.me/techiin_ir/20795"
+    },
+    "url:7f59634912f807d8": {
+      "at": "2026-11-17T17:02:13.492Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "US moves to cut China’s remote access to AI chips",
+      "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips"
+    },
+    "title:17cf442ecbffe4fb": {
+      "at": "2026-11-17T17:02:13.492Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T20:30+03:30",
+      "title": "US moves to cut China’s remote access to AI chips",
+      "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips"
     }
   },
   "deferred": {
@@ -11208,9 +11280,9 @@
     },
     "defer:url:21b4758ab52123ac": {
       "id": "defer:url:21b4758ab52123ac",
-      "at": "2026-11-17T08:03:18.829Z",
+      "at": "2026-11-17T17:02:13.179Z",
       "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -11254,7 +11326,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:21b4758ab52123ac",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -13472,6 +13544,800 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:edb18e52db34b006": {
+      "id": "defer:url:edb18e52db34b006",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:edb18e52db34b006",
+        "title:eabd6d9e175d9984"
+      ],
+      "canonical": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff",
+      "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+        "link": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
+        "canonical": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff",
+        "published": "Tue, 17 Nov 2026 16:55:47 +0000",
+        "summary": "OpenAI wants GPT-6 Astra and GPT-6 Luna to automate administrative tasks in US healthcare through computer-use agents that operate existing clinic software and insurance portals the way a human would. Luna handles tasks like prior authorizations for about 8.5 cents each. Companies including CVS Health and Cigna Healthcare are already deploying the technology. The article AI agents are starting to fill out medical forms and file insurance requests in place of human staff appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
+        "images": [
+          "http://the-decoder.com/wp-content/uploads/2026/11/OpenAI-Healthcare-Teams.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/11/openai_healthcare_agents.png"
+        ],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:edb18e52db34b006",
+          "title:eabd6d9e175d9984"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6f0fb0223e38d4b7": {
+      "id": "defer:url:6f0fb0223e38d4b7",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:6f0fb0223e38d4b7",
+        "title:2dbf61156972bf87"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/17/datasette-lite",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+        "link": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+        "canonical": "https://simonwillison.net/2026/Nov/17/datasette-lite",
+        "published": "2026-11-17T16:48:33+00:00",
+        "summary": "<p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p> <p>You can now do all of the following, using a carefully crafted URL to <strong>lite.datasette.io</strong>:</p> <ul> <li>Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script</li> <li>Select a released version of Datasette to load from PyPI</li> <li>Load a specific commit, tag, or branch name from the Datasette GitHub repository</li> <li>Pick from over 100 versions of SQLite to use with Datasette</li> <li>Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools</li> </ul> <p>The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo.</p> <p>As an example, consider the following URL:</p> <p><a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent\">https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent</a></p> <p>Follow that link and, after a short loading screen, you'll find yourself on a page that looks like this:</p> <p><img src=\"https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp\" alt=\"Screenshot of a web map interface. Toolbar: &quot;View&quot; set to &quot;Clusters&quot;, &quot;Colour by&quot; set to &quot;continent&quot;, plus &quot;Filter to this area&quot; and &quot;Download GeoJSON&quot; buttons. A world map shows countries outlined and shaded by continent, with coloured dots and numbered cluster circles. A popup for a point in South America reads: capital Caracas, country Venezuela, continent South America, capital_population 2985000, latitude 10.502944, longitude -66.918983. Legend: Africa (52), Asia (45), Europe (39), North America (16), South America (13), Oceania (6). Text: &quot;All 171 rows are on the map&quot;. Below, a table with columns country, continent, capital_population, latitude, longitude, boundary. First row: Afghanistan, Asia, 3277000, 34.518636, 69.181314, with a small map in the boundary column showing Afghanistan outlined and shaded in blue.\" style=\"max-width: 100%;\" /></p> <p>That's Datasette running the new <a href=\"https://github.com/datasette/datasette-maplibre\">datasette-maplibre</a> plugin, loading up a database of GeoJSON shapes of countries and displaying both a combined map and individual boundary maps in a table.</p> <p>Let's break down that URL to see what it's doing:</p> <pre><code>https://lite.datasette.io/ ?install=datasette-maplibre &amp;url=https://.../demo.db &amp;metadata=https://.../metadata.yml #/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent </code></pre> <p>The <code>?install=datasette-maplibre</code> installs that additional plugin from PyPI. You can pass <code>&amp;install=...</code> as many times as you like to load more plugins.</p> <p><code>&amp;url=https://.../demo.db</code> loads that SQLite database from the provided URL. These URLs need to have <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS\">open CORS headers</a> - I host files like this in <a href=\"https://gist.github.com/\">Gists</a>, because they provide an easy way to get open CORS headers on a web-hosted file.</p> <p><code>&amp;metadata=https://.../metadata.yml</code> loads <a href=\"https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml\">this metadata.yml file</a>. The metadata file adds HTML descriptions to various tables, and to the Datasette homepage. Visit <a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/\">that homepage here</a> for a guided tour of the other features of that plugin, all defined in the metadata file.</p> <p><code>#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent</code> is a fragment hash that turns into a location within Datasette - here it's loading the <code>/demo/capitals_and_countries</code> SQL view, then appending <em>another</em> fragment hash to it (<code>%23</code> is a URL-encoded <code>#</code>) which tells the map plugin to zoom to a certain location and to set the color of the shapes on the map based on the <code>continent</code> column in the data.</p> <p>That URL is doing a lot of work! I wrote more about this trick for building URL-addressable software in <a href=\"https://simonwillison.net/2025/Feb/13/url-addressable-python/\">URL-addressable Pyodide Python environments</a> last year.</p> <p>The full set of supported URL arguments is <a href=\"https://github.com/simonw/datasette-lite#load-a-different-datasette-version\">described in the Datasette Lite README</a>.</p> <p>I've already started using Datasette Lite as part of the Datasette development process. Here's <a href=\"https://github.com/simonw/datasette/issues/3056#issuecomment-6902484982\">a recent issue</a> describing a pagination bug - I posted a comment there demonstrating the old, broken behavior and the new fix using links to Datasette Lite:</p> <blockquote> <p>Demo of the bug: <a href=\"https://lite.datasette.io/?ref=1.0a42&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score\">https://lite.datasette.io/?ref=1.0a42&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score</a> - click next and the second page is empty.</p> <p>Here's that same page with the bug fixed (running on 1.0a43): <a href=\"https://lite.datasette.io/?ref=1.0a43&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score\">https://lite.datasette.io/?ref=1.0a43&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score</a></p> </blockquote> <h4 id=\"how-this-works-using-service-workers\">How this works, using service workers</h4> <p>Datasette Lite is not a new project. I launched the first version <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">back in 2022</a>, originally as a bit of a joke (running server-side apps in the browser is pretty funny) but one that quickly started proving its value.</p> <p>The problem with that initial version is that it was a <em>hack</em>. It worked by running Datasette in a Pyodide web worker, simulating requests through that stack, then injecting the resulting HTML back into the top level page using <code>innerHTML</code>.</p> <p>This worked for basic Datasette, but meant that any feature that used JavaScript failed to work, because script tags in <code>innerHTML</code> don't execute, and the web worker tricks it used failed to load additional JavaScript or CSS files.</p> <p>The new version takes a completely different approach based on <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API\">Service Workers</a>. These allow JavaScript to intercept HTTP requests for new pages and resources and serve them from client-side code instead.</p> <p>Datasette Lite registers a service worker for the entire <code>lite.datasette.io</code> domain. The parent page then creates an iframe that sends requests for Datasette pages to URLs that look like this:</p> <pre><code>/app/aa94e6851595/ # the homepage (HTML) /app/aa94e6851595/data/places # a table page (HTML) /app/aa94e6851595/-/static/navigation-search.js # (JavaScript) /app/aa94e6851595/-/static/app.css # (CSS) </code></pre> <p>Those are regular Datasette URLs, but with a <code>/app/aa94e6851595/</code> prefix. What's that about?</p> <p>The <code>/app/&lt;session&gt;/</code> prefix is necessary because of multiple tabs.</p> <p>Consider the URL above, which loads the demo instance with the <code>datasette-maplibre</code> plugin. That URL defines a full, custom Datasette instance. You might have that one running in a tab, then one of my other demo links running in another.</p> <p>The service worker for <code>lite.datasette.io</code> is shared between all of those tabs. If it routed to a single instance of Datasette then every tab would share that underlying instance, no matter what plugins or other settings their URL attempted to configure.</p> <p>Instead, the parent page generates a random session ID and uses it as a prefix for all of the subsequent hidden asset and page loads. The service worker can then use that session ID to route those requests back through the parent page to a web worker running a dedicated Datasette instance for that particular session.</p> <p>(We still need a web worker because Pyodide in a service worker would not be able to maintain state beyond around 30 seconds, depending on the browser. There are a lot of moving parts here!)</p> <p>I had Claude Fable 5.2 <a href=\"https://gisthost.github.io/?4192a5a24136cad4c8490ccb15e87d83\">generate several SVG diagrams</a> to help explain this. Here's my favorite of those, now embedded in the Datasette Lite README:</p> <p><img src=\"https://static.simonwillison.net/static/2026/datasette-lite-diag.webp\" alt=\"Architecture diagram titled &quot;What happens when you click a link in Datasette Lite&quot;, with a legend showing a solid arrow for &quot;request&quot; and a dashed arrow for &quot;response&quot;. A blue box labeled &quot;index.html: the page you opened - Each tab picks a random session and starts one Web Worker.&quot; contains two white boxes: &quot;iframe Datasette pages at /app/session/…&quot; and &quot;shell.js the page's own script: relays&quot;. Below it is a yellow box labeled &quot;sw.js: the service worker - Intercepts requests for /app/session/….&quot; To the right is a green box marked 4 and labeled &quot;webworker.js: a Web Worker - Pyodide: Python in WebAssembly&quot; containing three stacked white boxes: &quot;ASGI bridge + cookie jar&quot;, &quot;Datasette ASGI app&quot; and &quot;SQLite databases&quot;. Numbered arrows connect them: solid arrow 1 from the iframe down to sw.js, solid arrow 2 from sw.js up to shell.js, solid arrow 3 from shell.js across to the Web Worker, dashed arrow 5 from the Web Worker back to shell.js, dashed arrow 6 from shell.js down to sw.js, and dashed arrow 7 from sw.js up to the iframe. A numbered key at the bottom reads: 1 The page requests /app/session/fixtures. 2 sw.js intercepts it and posts it to the owning tab. 3 shell.js forwards it to the Web Worker. 4 Python adds cookies and calls Datasette, which queries SQLite. 5 The status, headers and body return to the page, 6 then to sw.js over a MessagePort, 7 which hands the browser a Response. The iframe renders it.\" style=\"max-width: 100%;\" /></p> <p>This system started life <a href=\"https://simonwillison.net/2026/May/30/pyodide-asgi-browser/\">back in May</a> as an <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">AI research spike</a> generated using Claude Opus 4.8. It wasn't until November (and Claude Fable 5.2) that I felt familiar enough with how it all works to confidently ship it to production!</p> <h4 id=\"bonus-feature-pick-your-version-of-sqlite\">Bonus feature: pick your version of SQLite</h4> <p>I added this feature <a href=\"https://github.com/simonw/datasette-lite/commit/de661dbee42a68304811a0035b78e6b683203cd1\">last night</a> as an off-shoot of investigating <a href=\"https://simonwillison.net/2026/Nov/16/llm/\">a potential bug in SQLite</a>.</p> <p>Datasette is meant to work against any released version of SQLite since 3.25 (released in September 2018). There have been 87 further releases since then.</p> <p>Being able to fire up Datasette against a specific version of SQLite is really useful for demonstrating new SQLite features and debugging weird issues.</p> <p>In the past I've <a href=\"https://til.simonwillison.net/sqlite/sqlite-version-macos-python\">used various tricks</a> to get different SQLite versions running with Python on my Mac, but it's not a trivial process.</p> <p>WebAssembly is perfect for this. I can load up a custom SQLite build entirely in my browser, test it there, then discard it when I close my tab.</p> <p><a href=\"https://github.com/datasette/pysqlite3-wasm-wheels\">datasette/pysqlite3-wasm-wheels</a> is my new repository which contains WebAssembly compiled Python wheels for <a href=\"https://github.com/coleifer/pysqlite3\">pysqlite3</a> for 163 different SQLite versions. Each version gets a file with a name like this:</p> <p><code>pysqlite3-0.6.2-3.54.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl</code></p> <p>That's for SQLite 3.54.1, the most recent version.</p> <p>Datasette Lite now takes a special <code>?sqlite=</code> URL parameter, which will accept a version number like <code>3.54.1</code>, resolve the path to the corresponding wheel file, then fetch that wheel and install it into the Pyodide environment and configure Datasette to use it.</p> <p>Once I'd built the wheels, I decided to have Claude Fable 5.2 build me [this bonus tool](<a href=\"https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&amp;sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29)\">https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&amp;sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29)</a> for comparing a SQL query across any selected versions of SQLite. Here's an example showing how <code>select json_object('a', (select json_array(1)))</code> differs between SQLite 3.54.0 and 3.54.1:</p> <p><img src=\"https://static.simonwillison.net/static/2026/compare-sqlite.webp\" alt=\"Screenshot of a web tool for comparing SQL across SQLite versions. Heading &quot;SQLite versions (163 available)&quot; sits above a filter text input with placeholder &quot;Filter, e.g. 3.4&quot;, a &quot;Clear selection&quot; button and a blue &quot;Start REPL with 2 versions&quot; button. Below is a scrollable grid of pill-shaped checkboxes, one per version, running from 3.54.1 down past 3.30.0, with 3.54.1 and 3.54.0 checked. A &quot;REPL&quot; heading follows, with two green status badges reading &quot;3.54.1 ready&quot; and &quot;3.54.0 ready&quot;, then a textarea containing &quot;select json_object('a', (select json_array(1)))&quot; beside a blue &quot;Run&quot; button, and a row of clickable example queries labeled &quot;Examples:&quot;. The output section shows the prompt &quot;sqlite&gt; select json_object('a', (select json_array(1)))&quot; followed by an orange warning &quot;Versions differ: 2 different results&quot; and two side-by-side yellow result panels, each with the query as its column header. The &quot;SQLite 3.54.1&quot; panel returns a JSON object where key &quot;a&quot; has a string value: the array containing 1, wrapped in double quotes. The &quot;SQLite 3.54.0&quot; panel returns a JSON object where key &quot;a&quot; has an actual array containing 1, with no quotes around it.\" style=\"max-width: 100%;\" /></p> <h4 id=\"this-should-work-for-every-other-python-app-too\">This should work for every other Python app, too</h4> <p>Nothing about how Datasette Lite works is unique to Datasette. Almost any Python application should be able to pull the same trick - running entirely in the browser using WebAssembly and Pyodide, as a cheap way to provide preview environments, demonstrate features, and recreate bugs.</p> <p>C and Rust extensions used to be a blocker for this kind of thing, but any good coding agent can compile those to Pyodide-compatible WebAssembly now. You can <a href=\"https://github.com/pypi/warehouse/pull/19804\">even publish them to PyPI</a> as of PEP 783 in April 2026.</p> <p>One catch is databases. SQLite is no problem at all, but running PostgreSQL or MySQL in WebAssembly, while possible, is still a path less trodden.</p> <p>I'd love to see WebAssembly preview environments like these become a common pattern across the Python ecosystem.</p> <p>For Hacker News: Full server-side Datasette Python app in the browser with service workers</p> <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/urls\">urls</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/service-workers\">service-workers</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+        "images": [],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6f0fb0223e38d4b7",
+          "title:2dbf61156972bf87"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b71518d35afbb99f": {
+      "id": "defer:url:b71518d35afbb99f",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:b71518d35afbb99f",
+        "title:a1f9f6985156dcaa"
+      ],
+      "canonical": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output",
+      "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
+        "link": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
+        "canonical": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output",
+        "published": "Tue, 17 Nov 2026 16:47:21 +0000",
+        "summary": "The US is tightening its chip export controls. Data centers in third countries like Singapore and Malaysia will soon need a US license to buy Nvidia chips, closing the loophole that let Chinese firms rent cloud compute abroad. A Reuters investigation also reveals how China offsets its hardware shortage through industrial-scale distillation of US AI models. The article The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/03/Datacenter-Remote.png"
+        ],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:b71518d35afbb99f",
+          "title:a1f9f6985156dcaa"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:89be98d92d9e645f": {
+      "id": "defer:url:89be98d92d9e645f",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:89be98d92d9e645f",
+        "title:0a25572f58dee85c"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
+      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+        "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+        "canonical": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
+        "published": "Tue, 17 Nov 2026 16:44:15 +0000",
+        "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signalled his willingness to return as CEO.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+        "images": [],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:89be98d92d9e645f",
+          "title:0a25572f58dee85c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:179fb295e1eefeff": {
+      "id": "defer:url:179fb295e1eefeff",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:179fb295e1eefeff",
+        "title:42f441b3eba44563"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+        "link": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+        "canonical": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+        "published": "Tue, 17 Nov 2026 16:32:55 +0000",
+        "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+        "images": [],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:179fb295e1eefeff",
+          "title:42f441b3eba44563"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9a0aa0e71b450c03": {
+      "id": "defer:url:9a0aa0e71b450c03",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:9a0aa0e71b450c03",
+        "title:3f214e90e45b7bcb"
+      ],
+      "canonical": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+      "title": "تیم Claude Code می‌گه راز اینکه ده‌ها ایجنت رو هم‌زمان بچرخونید، تست گرفتن از کارشونه",
+      "candidate": {
+        "sourceId": "tg-matin-senpai",
+        "sourceName": "MatinSenPaii",
+        "sourceType": "telegram_channel",
+        "title": "تیم Claude Code می‌گه راز اینکه ده‌ها ایجنت رو هم‌زمان بچرخونید، تست گرفتن از کارشونه",
+        "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+        "canonical": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+        "messageText": "تیم Claude Code می‌گه راز اینکه ده‌ها ایجنت رو هم‌زمان بچرخونید، تست گرفتن از کارشونه\n\nتیم Claude Code نوشته حدود ۹۰٪ کدشون رو خود کلاد می‌نویسه و بازبینی می‌کنه، و برای اینکه بشه ده‌ها ایجنت رو موازی چرخوند، ایجنت باید بتونه کارش رو با مدرک چک کنه. سه تا تست رو پیشنهاد می‌کنن(که به نظرم جایگزین لوپ انجینیرینگ قدیمی میشن):\n1- تست end-to-end که جریان واقعی کاربر رو می‌ره،\n2- تست property که قانون‌های نشکستنی رو با هزاران ورودی تصادفی می‌سنجه، و\n3- تست differential که سیستم قدیم و جدید رو با ورودی یکسان مقایسه می‌کنه.\nعدد خودشون اینه: یه گریدر جدا که کار کلاد رو با روبریک سنجید، توی تست داخلی موفقیت تسک رو تا ۱۰ امتیاز(از ۱۰۰) بالا برد. طرز کارش این شکلیه که یه اسکیل verify توی ریپو می‌سازید و کلاد پیش از کامیت، خودش برنامه رو واقعا اجرا می‌کنه؛ اگه تستی بعد سه دور هنوز قرمزه، انسان رو صدا می‌زنه برای بررسی بیشتر.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤43👍3😁1🦄1",
+        "leadPostUrl": "https://t.me/MatinSenPaii/5897",
+        "published": "2026-11-17T16:29:47+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn1.telesco.pe/file/o2yzktUGAtQKCswo2_DHu61aLU-64iIc9Jxjn5nuRPpfu3tP2ggjMo9bpoWRvBklTk2F0z9xBRByPeRVP6mZnCPQ-j0vuWVjO2xOxvX5twchLMmBUHkAxIZJHVlQFSERC9eTQf88c1nXSRTALFydcQwGVyKjGjDJNawnG-c6LmCbMTu1cwL1Ao-wgY3fbEgPNjqzH-ndBo_027wUGzh31ux8m6XiQ02YhAgfdFu9tEk9_EIOsYuM8YjhJwyWHTU9asvIy4EQT7Om_zL3u6JVhOV_GF2pR0zbGn-7jPDn02OPnI5OrWdlt65HB-K_rx6t1j3jaxAQ6lSkiAbNXk89tg.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:9a0aa0e71b450c03",
+          "title:3f214e90e45b7bcb"
+        ],
+        "leadSource": "MatinSenPaii",
+        "leadMessageId": 5897,
+        "leadChannelUrl": "https://t.me/MatinSenPaii",
+        "sourceFocus": "education",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:ceb045ea888ed5b6": {
+      "id": "defer:url:ceb045ea888ed5b6",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:ceb045ea888ed5b6",
+        "title:cb911d4234d9a23a"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos",
+      "title": "Instagram’s new tool for creators targets unauthorized reposts and AI-modified videos",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Instagram’s new tool for creators targets unauthorized reposts and AI-modified videos",
+        "link": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
+        "canonical": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos",
+        "published": "Tue, 17 Nov 2026 15:00:00 +0000",
+        "summary": "The announcement likely comes in response to creators' concerns over how easily original content can be copied and redistributed across social media platforms, especially considering how generative AI has made it easier to manipulate existing videos.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
+        "images": [],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:ceb045ea888ed5b6",
+          "title:cb911d4234d9a23a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7b499de51a856296": {
+      "id": "defer:url:7b499de51a856296",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7b499de51a856296",
+        "title:7def83429183120e"
+      ],
+      "canonical": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments",
+      "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
+        "link": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+        "canonical": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments",
+        "published": "Tue, 17 Nov 2026 15:02:03 +0000",
+        "summary": "OpenAI is opening its cybersecurity tool Daybreak to NATO and several European governments, including Germany, France, and Poland. The EU's cybersecurity agency ENISA has already used it to find real vulnerabilities in EU software. The NATO Communications and Information Agency (NCIA) says it's already making heavy use of the underlying models. The article OpenAI opens its cybersecurity tool Daybreak to NATO and European governments appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/russian_influence_campaigns.png"
+        ],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:7b499de51a856296",
+          "title:7def83429183120e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1f6fca5a5cf02acb": {
+      "id": "defer:url:1f6fca5a5cf02acb",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:1f6fca5a5cf02acb",
+        "title:06ab340837d6a703"
+      ],
+      "canonical": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years",
+      "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
+        "link": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+        "canonical": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years",
+        "published": "Tue, 17 Nov 2026 14:59:50 +0000",
+        "summary": "Edinburgh's Childlight Institute reports a more than 8,400 percent increase in AI-generated child sexual abuse material over two years, from about 4,700 reports in 2023 to over 400,000 in 2025. Abusers are using tools like nudify apps for blackmail. Childlight CEO Paul Stanfield wants governments to classify the problem as a preventable public health emergency. The article Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/ai_generated_abuse.png"
+        ],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:1f6fca5a5cf02acb",
+          "title:06ab340837d6a703"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e04686f80cf8e47e": {
+      "id": "defer:url:e04686f80cf8e47e",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e04686f80cf8e47e",
+        "title:ea110323fdbc9238"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant",
+      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+        "link": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+        "canonical": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant",
+        "published": "Tue, 17 Nov 2026 15:00:00 +0000",
+        "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+        "images": [],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:e04686f80cf8e47e",
+          "title:ea110323fdbc9238"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4794d4873562de76": {
+      "id": "defer:url:4794d4873562de76",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:4794d4873562de76",
+        "title:cc3875e6fcbfa0b9"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+        "link": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+        "canonical": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials",
+        "published": "Tue, 17 Nov 2026 14:50:58 +0000",
+        "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 Billion in a Series C funding round.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+        "images": [],
+        "ageHours": 2.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:4794d4873562de76",
+          "title:cc3875e6fcbfa0b9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:011b27afc6a841bf": {
+      "id": "defer:url:011b27afc6a841bf",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:011b27afc6a841bf",
+        "title:5bd2a8ba5bd3b8ae"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+        "link": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+        "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+        "published": "Tue, 17 Nov 2026 14:00:10 +0000",
+        "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-842x450.jpeg"
+        ],
+        "ageHours": 3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:011b27afc6a841bf",
+          "title:5bd2a8ba5bd3b8ae"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:cf4f892513b4d712": {
+      "id": "defer:url:cf4f892513b4d712",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:cf4f892513b4d712",
+        "title:65145b70d2b86d62"
+      ],
+      "canonical": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+      "title": "7 Best AI Coding Plans for $10 or Less in 2026",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "7 Best AI Coding Plans for $10 or Less in 2026",
+        "link": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+        "canonical": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+        "published": "Tue, 17 Nov 2026 13:00:00 +0000",
+        "summary": "Compare affordable AI coding agents, AI-powered IDEs, open-source tools, and multi-model subscriptions from OpenCode, Cursor, GitHub Copilot, Cline, Zed, and Xiaomi MiMo.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-ai-coding-plans-for-10-or-less-in-2026-feature.webp"
+        ],
+        "ageHours": 4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:cf4f892513b4d712",
+          "title:65145b70d2b86d62"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:715394e40e54708f": {
+      "id": "defer:url:715394e40e54708f",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:715394e40e54708f",
+        "title:7cd2a42c42b2c608"
+      ],
+      "canonical": "https://www.producthunt.com/products/recall-ai",
+      "title": "Agents API by Recall.ai",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Agents API by Recall.ai",
+        "link": "https://www.producthunt.com/products/recall-ai",
+        "canonical": "https://www.producthunt.com/products/recall-ai",
+        "published": "2026-11-16T16:38:25-08:00",
+        "summary": "<p> Send your agent to meetings </p> <p> <a href=\"https://www.producthunt.com/products/recall-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319570?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/recall-ai",
+        "images": [],
+        "ageHours": 16.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:715394e40e54708f",
+          "title:7cd2a42c42b2c608"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9c481a0931060f36": {
+      "id": "defer:url:9c481a0931060f36",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:9c481a0931060f36",
+        "title:c32dd593305ad105"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "title": "datasette-llm 0.1a11",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "datasette-llm 0.1a11",
+        "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+        "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+        "published": "2026-11-14T23:59:28+00:00",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local models with <a href=\"https://lmstudio.ai\">LM Studio</a> or <a href=\"https://ollama.com\">Ollama</a> or <a href=\"https://github.com/ggml-org/llama.cpp\">llama.cpp</a> (which just hit <a href=\"https://huggingface.co/blog/ggml-org/llama-cpp-v1\">v1.0.0</a>) you can run Datasette via <code>uvx</code> like this:</p> <div class=\"highlight highlight-source-shell\"><pre>wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model <span class=\"pl-s\"><span class=\"pl-pds\">'</span>{</span> <span class=\"pl-s\"> \"model\": \"lmstudio-qwen\",</span> <span class=\"pl-s\"> \"model_name\": \"qwen/qwen3.8-27b\",</span> <span class=\"pl-s\"> \"api_base\": \"http://localhost:1234/v1\"</span> <span class=\"pl-s\"> }<span class=\"pl-pds\">'</span></span> content.db</pre></div> <p>And you'll get a local server running a Datasette Agent instance powered by your local model!</p> <p><img alt=\"Screenshot of a chat interface. Header bar reads &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &quot;Chat&quot;, a model label &quot;lmstudio-qwen&quot; and an &quot;EXPORT&quot; button. A blue user message bubble says &quot;how many repos and how many releases are there?&quot; Below it is a collapsed tool call &quot;list_databases_and_tables&quot; and an expanded tool call &quot;sql_query&quot;. Its REQUEST section shows database &quot;content&quot;, display &quot;both&quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &quot;View SQL query&quot; button. The assistant reply reads &quot;There are 200 repos and 1,889 releases in the content database.&quot; At the bottom is a text input with placeholder &quot;Type a message... (# to tag a table or query)&quot; and a blue &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+        "images": [],
+        "ageHours": 65,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9c481a0931060f36",
+          "title:c32dd593305ad105"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fb1ad380f7244f47": {
+      "id": "defer:url:fb1ad380f7244f47",
+      "at": "2026-11-17T17:02:13.153Z",
+      "firstAt": "2026-11-17T17:02:13.153Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:fb1ad380f7244f47",
+        "title:e63019f191367427"
+      ],
+      "canonical": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months",
+      "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
+        "link": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
+        "canonical": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months",
+        "published": "Tue, 17 Nov 2026 14:57:02 +0000",
+        "summary": "Isomorphic Labs has raised $5 billion, just six months after a $2.1 billion round. Alphabet's AI drug discovery company, led by Demis Hassabis, plans to use the funding to push its drug pipeline toward clinical trials. The company has no approved drugs yet. The article Isomorphic Labs raises $5 billion in its second mega-round within six months appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/Isomorphic-Labs-Funding.jpg"
+        ],
+        "ageHours": 2.1,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:fb1ad380f7244f47",
+          "title:e63019f191367427"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -15598,6 +16464,14 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "43/43"
+    },
+    "2026-11-17T20:30+03:30": {
+      "at": "2026-11-17T17:02:13.499Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.00135534,
+      "tokens": 9522,
+      "posts": []
     }
   },
   "published": [
@@ -17032,89 +17906,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8435,
-      "last_at": "2026-11-17T10:55:51+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "last_id": 8437,
+      "last_at": "2026-11-17T16:01:41+00:00",
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "ai_farshad": {
       "last_id": 6457,
       "last_at": "2026-11-17T14:02:10+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7230,
-      "last_at": "2026-11-17T14:28:55+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "last_id": 7231,
+      "last_at": "2026-11-17T15:28:23+00:00",
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "techiin_ir": {
-      "last_id": 20791,
-      "last_at": "2026-11-17T11:29:40+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "last_id": 20796,
+      "last_at": "2026-11-17T15:55:56+00:00",
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "mgh_mobin": {
       "last_id": 492,
       "last_at": "2026-11-17T11:28:35+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "web3nabu": {
-      "last_id": 2177,
-      "last_at": "2026-11-17T12:09:16+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "last_id": 2179,
+      "last_at": "2026-11-17T16:24:12+00:00",
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "asrnovin_ir": {
-      "last_id": 11479,
-      "last_at": "2026-11-17T12:34:02+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "last_id": 11481,
+      "last_at": "2026-11-17T16:44:12+00:00",
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "shayanode": {
-      "last_id": 239,
-      "last_at": "2026-11-16T19:13:27+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "last_id": 240,
+      "last_at": "2026-11-17T04:24:58+00:00",
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "codecloude": {
       "last_id": 2595,
       "last_at": "2026-11-17T13:35:12+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "marketing_aida": {
       "last_id": 108,
       "last_at": "2026-11-17T11:52:05+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "MatinSenPaii": {
-      "last_id": 5896,
-      "last_at": "2026-11-17T11:29:58+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "last_id": 5897,
+      "last_at": "2026-11-17T16:29:47+00:00",
+      "checked_at": "2026-11-17T17:01:38.206Z"
     },
     "thenimaonAI": {
       "last_id": 539,
       "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-17T14:32:04.516Z"
+      "checked_at": "2026-11-17T17:01:38.206Z"
     }
   },
   "offerReviews": [
@@ -20379,6 +21253,30 @@
       "url": "https://t.me/Mohammad_zammani/7230",
       "reason": "denied_link",
       "slot": "2026-11-17T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-techiin|https://t.me/techiin_ir/20795",
+      "date": "2026-11-17",
+      "at": "2026-11-17T17:01:38.206Z",
+      "source": "tg-techiin",
+      "title": "😊تقی‌پور: باید در جمع 10 کشور برتر جهان در حوزه هوش مصنوعی قرار بگیریم",
+      "url": "https://t.me/techiin_ir/20795",
+      "reason": "denied_link",
+      "slot": "2026-11-17T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|arstechnica-ai|https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+      "date": "2026-11-17",
+      "at": "2026-11-17T17:01:38.206Z",
+      "source": "arstechnica-ai",
+      "title": "US moves to cut China’s remote access to AI chips",
+      "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+      "reason": "source_not_official",
+      "slot": "2026-11-17T20:30+03:30",
       "kind": "offer",
       "mainEligible": false
     }

@@ -1,0 +1,149 @@
+RUN 44132215870 | send/main | slot auto | 2026-11-17T17:01:38Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-17T20:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 11/31 | models 5/24 | security 3/11 | business 4/11
+DAILY 6/11
+DIVERSITY_TARGET models | slot 20:30
+DEFERRED_POOL 50
+  DEFERRED source_consecutive | try 0/3 | Nvidia’s first big move after Jensen Huang’s exit targets national security
+  DEFERRED category_consecutive | try 0/3 | Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses
+  DEFERRED source_consecutive | try 0/3 | Genesis AI raises $500 million to deploy glove-wearing robots
+  DEFERRED category_consecutive | try 0/3 | PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027
+  DEFERRED category_consecutive | try 0/3 | Strengthening NATO and allied cyber defenses with AI
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 50h | ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+  DEFERRED_BENCHMARK source_daily | expires 49h | SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents
+  DEFERRED_BENCHMARK source_daily | expires 49h | Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle
+DEFERRED_EXHAUSTED 4
+SOURCE_DISCOVERY already_ran date=2026-11-17 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=230 index=12 benchmark=6 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=177 nodate=0 nonai=0 dup=26 dup_other=0 kept=81 errors=0
+TELEGRAM channels=17 posts=315 pending=21 leads=4 nolink=3 nonai=1 denied=3 promo=0 stale=0 before=0 dup=1 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:469,review:14 delivered=483 window=30d
+STORY_DUPLICATES 2 skipped=worked_story
+  STORY_DUPLICATE تِک‌این | آموزش و فناوری | ⚠️ کالیفرنیا به‌دلیل فرار مدل‌های هوش مصنوعی از محیط آزمایش از OpenAI شکایت کرد | already main: دادستان کالیفرنیا از OpenAI شکایت کرد
+  STORY_DUPLICATE The Decoder | California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face | already main: California state AG sues OpenAI over rogue agent incidents
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | 😊تقی‌پور: باید در جمع 10 کشور برتر جهان در حوزه هوش مصنوعی قرار بگیریم | 780 chars
+  REVIEW_ITEM id=fb71b057bd message=28
+  REVIEW_REQUIRED reason=denied_link sent=28
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/20-30-1bd69254
+RELEVANCE candidates=78 kept=56 dropped=22
+  SKIP_NOT_AI Product Hunt | GatherHQ Agent Research
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI The Record | Uber says nearly 150,000 impacted by third-party breach
+  SKIP_NOT_AI The Record | NSA Net, agency’s classified internal network, faces unspecified disruptions
+  SKIP_NOT_AI تِک‌این | آموزش و فناوری | ✅ نسخه غیررسمی سه‌گانه اصلی God of War برای اندروید منتشر شد
+  SKIP_NOT_AI TechCrunch | Uber and Zipline’s drone delivery service takes off in Texas, with dozens of cities to follow
+  SKIP_NOT_AI KDnuggets | How to Calibrate Your Classifier’s Probabilities in Scikit-learn
+  SKIP_NOT_AI ... +14 more
+DIVERSITY target=models queue=2 fresh=21 deferred=50 rejected=source_daily:43,source_consecutive:2,category_consecutive:14
+  DIVERSITY_QUEUE models:OpenAI News | security:Ars Technica AI
+QUEUE_SKIPPED 67
+  QUEUE_SKIP source_daily | TechCrunch | Nvidia’s first big move after Jensen Huang’s exit targets national security
+  QUEUE_SKIP source_daily | TechCrunch | Genesis AI raises $500 million to deploy glove-wearing robots
+  QUEUE_SKIP category_consecutive | Product Hunt | pushr
+  QUEUE_SKIP source_daily | TechCrunch | Cybersecurity AI startup Corma reaches $1B valuation in about 3 months
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+  QUEUE_SKIP source_daily | TechCrunch | All the questions Nvidia should answer on Tuesday — but probably won’t
+  QUEUE_SKIP source_daily | TechCrunch | Apple reveals new Mac security controls as AI agents raise privacy risks
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  QUEUE_SKIP source_daily | The Decoder | Google warns that fully automated cyberattacks have arrived and will get worse fast
+  QUEUE_SKIP source_daily | The Decoder | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  QUEUE_SKIP ... +57 more
+QUEUE_HELD 16
+  QUEUE_HOLD source_daily | The Decoder | AI agents are starting to fill out medical forms and file insurance requests in place of human staff
+  QUEUE_HOLD source_consecutive | Simon Willison - Prompt Injection | Running the full server-side Datasette Python app in the browser with service workers and Pyodide
+  QUEUE_HOLD source_daily | The Decoder | The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output
+  QUEUE_HOLD source_daily | TechCrunch | Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO
+  QUEUE_HOLD source_daily | TechCrunch | Daydream’s new AI agent acts as your personal stylist — and can shop for you, too
+  QUEUE_HOLD category_consecutive | MatinSenPaii | تیم Claude Code می‌گه راز اینکه ده‌ها ایجنت رو هم‌زمان بچرخونید، تست گرفتن از کارشونه
+  QUEUE_HOLD source_daily | TechCrunch | Instagram’s new tool for creators targets unauthorized reposts and AI-modified videos
+  QUEUE_HOLD source_daily | The Decoder | OpenAI opens its cybersecurity tool Daybreak to NATO and European governments
+  QUEUE_HOLD source_daily | The Decoder | Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years
+  QUEUE_HOLD source_daily | TechCrunch | Voyage Labs raises $12 million for a specialized AI travel assistant
+  QUEUE_HOLD ... +6 more
+ATTEMPT 1/2 | deferred 1/3 OpenAI News | Advancing computer-use agents for healthcare teams | 11h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 2/3
+ATTEMPT 2/2 | deferred 0/3 Ars Technica AI | US moves to cut China’s remote access to AI chips | 0.3h
+  REVIEW_ITEM id=08e24484a1 message=29
+  REVIEW_REQUIRED reason=source_not_official sent=29
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/20-30-3ac344c5
+  OFFER_REVIEW source_not_official
+RESULT EMPTY attempts=3 reviews=2 deferred=50 | cost $0.001355 | tokens 9522
+  EMPTY_ATTEMPT review reason=denied_link | 😊تقی‌پور: باید در جمع 10 کشور برتر جهان در حوزه هوش مصنوعی قرار بگیریم
+  EMPTY_ATTEMPT deferred reason=fetch_failed | Advancing computer-use agents for healthcare teams
+  EMPTY_ATTEMPT review reason=source_not_official | US moves to cut China’s remote access to AI chips
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-17T17:02:13Z
+# گزارش روزانه 2026-11-17 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 6 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 6، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 6 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 10
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 9
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.007682
+- توکن: 111881
+- میانگین هر پست ارسال‌شده: $0.001280
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 11 | 31 | 20 |
+| مدل‌ها و پژوهش | 5 | 24 | 19 |
+| امنیت و حریم خصوصی | 3 | 11 | 8 |
+| کسب‌وکار و بازار | 4 | 11 | 7 |
+| مجموع | 23 | 77 | 54 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001219 | 26413 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000937 | 22895 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000352 | 10284 | بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000377 | 10588 | کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002016 | 22496 | دادستان کالیفرنیا از OpenAI شکایت کرد |
+| 17:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001426 | 9683 | ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد |
+| 20:30 |  | خالی | — | $0.001355 | 9522 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 18
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 7، لینک قابل استفاده ندارد 3، منبع رسمی شرکت نیست 4، دریافت صفحه اصلی ناموفق بود 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-17.md
+SOURCE_STATUS 2026-11-17T17:02:13Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-17.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۲۶ آبان ۱۴۰۵
+پست امروز: 6 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 6
+صف بازبینی: 58 کارت
+امروز: 0 رد | 3 بازنویسی
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44132215870
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
