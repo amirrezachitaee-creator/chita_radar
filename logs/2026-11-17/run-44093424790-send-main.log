@@ -1,0 +1,165 @@
+RUN 44093424790 | send/main | slot auto | 2026-11-17T13:30:57Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-17T17:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 10/31 | models 5/24 | security 3/11 | business 4/11
+DAILY 5/11
+DIVERSITY_TARGET tools | slot 17:00
+DEFERRED_POOL 44
+  DEFERRED category_consecutive | try 0/3 | Strengthening NATO and allied cyber defenses with AI
+  DEFERRED category_consecutive | try 0/3 | pushr
+  DEFERRED source_consecutive | try 0/3 | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+  DEFERRED category_consecutive | try 0/3 | Apple reveals new Mac security controls as AI agents raise privacy risks
+  DEFERRED category_daily | try 0/3 | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 53h | ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+  DEFERRED_BENCHMARK source_daily | expires 53h | SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents
+  DEFERRED_BENCHMARK source_daily | expires 53h | Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle
+DEFERRED_EXHAUSTED 3
+SOURCE_DISCOVERY already_ran date=2026-11-17 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=6 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=174 nodate=0 nonai=0 dup=26 dup_other=0 kept=74 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=316 pending=21 leads=4 nolink=3 nonai=2 denied=3 promo=1 stale=0 before=0 dup=2 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:461,review:14 delivered=475 window=30d
+  EDU_LANG_SKIP Machine Learning Mastery | persian=0 latin=206 | Gradient Boosting vs. Random Forest vs. Neural Networks: A 2026 Performance Benchmark
+TELEGRAM_EDU_LANG_SKIPPED 1 skipped=not_persian min_persian=10
+REVIEW_LEADS 2 separate_from_main=yes cap=none
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | کلود اوپوس ۵.۵ اصلاً مدل ویدیوساز نیست، اما یکی از باحال‌ترین کارهایی که کاربران باهاش انجام | 1055 chars
+  REVIEW_ITEM id=e4156f87a1 message=22
+  REVIEW_REQUIRED reason=denied_link sent=22
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/17-00-2301aed1
+REVIEW_DRAFT Marketing and Ai | بچه ها اگه میخواید با AI یه شرکت یه‌نفره راه بندازید، این PDF رو از دست | 495 chars
+  REVIEW_ITEM id=e0b3172c94 message=23
+  REVIEW_REQUIRED reason=denied_link sent=23
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/17-00-8dbf4fef
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD techiin_ir | education | ✅ حرفه‌ای ترین دوره‌های آموزش پایتون دنیا برای کاربران تِک‌این رایگان شد
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_REVIEW leads=1 sent=1 ids=24 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/17-00-education/education.txt
+RELEVANCE candidates=70 kept=50 dropped=20
+  SKIP_NOT_AI Product Hunt | GatherHQ Agent Research
+  SKIP_NOT_AI TechCrunch | Uber says hackers stole information on close to 150,000 driver’s licenses during data breach
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI The Record | Uber says nearly 150,000 impacted by third-party breach
+  SKIP_NOT_AI Crunchbase News | The Money Cleared The Bank. Now The Founder Is The Risk.
+  SKIP_NOT_AI Simon Willison - Prompt Injection | Quoting Go Proverbs
+  SKIP_NOT_AI Product Hunt | Retriever
+  SKIP_NOT_AI ... +12 more
+DIVERSITY target=tools queue=4 fresh=12 deferred=44 rejected=source_daily:21,source_consecutive:9,category_consecutive:3
+  DIVERSITY_QUEUE tools:KDnuggets | tools:OpenAI News | tools:MatinSenPaii | tools:Simon Willison - Prompt Injection
+QUEUE_SKIPPED 50
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+  QUEUE_SKIP source_consecutive | TechCrunch | Apple reveals new Mac security controls as AI agents raise privacy risks
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  QUEUE_SKIP source_daily | The Decoder | Google warns that fully automated cyberattacks have arrived and will get worse fast
+  QUEUE_SKIP source_daily | The Decoder | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  QUEUE_SKIP source_consecutive | TechCrunch | Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security
+  QUEUE_SKIP source_daily | arXiv | Latent Lattice Language Models
+  QUEUE_SKIP source_daily | arXiv | Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent
+  QUEUE_SKIP source_daily | The Decoder | Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten
+  QUEUE_SKIP source_daily | arXiv | ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+  QUEUE_SKIP ... +40 more
+QUEUE_HELD 5
+  QUEUE_HOLD category_consecutive | Crunchbase News | PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027
+  QUEUE_HOLD source_consecutive | TechCrunch | Cybersecurity AI startup Corma reaches $1B valuation in about 3 months
+  QUEUE_HOLD source_consecutive | TechCrunch | All the questions Nvidia should answer on Tuesday — but probably won’t
+  QUEUE_HOLD source_daily | The Decoder | Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China
+  QUEUE_HOLD source_daily | The Decoder | Australia's central bank finds AI hitting young workers first, especially in software and customer service
+ATTEMPT 1/4 | deferred 1/3 KDnuggets | Agentic System Design: A Self-Study Roadmap | 0.5h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  DEFERRED fetch_failed | try 2/3
+ATTEMPT 2/4 | deferred 0/3 OpenAI News | Broadening access to AI for scientists | 1h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  REVIEW_ITEM id=3523d3a3ff message=25
+  REVIEW_REQUIRED reason=fetch_failed sent=25
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/17-00-2d7a5d6b
+ATTEMPT 3/4 MatinSenPaii | دیپ‌سیک برای کاربرای رایگان سقف گذاشت: ورودی ۴۰ هزار کاراکتری و چت‌های قدیمی دیگه برنمی‌گردن | 2h
+  REVIEW_ITEM id=0c5fddec02 message=26
+  REVIEW_REQUIRED reason=source_not_official sent=26
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/17-00-820c99e1
+  OFFER_REVIEW source_not_official
+ATTEMPT 4/4 Simon Willison - Prompt Injection | datasette-apps 0.4a0 | 57.5h
+  TOOL_LINK candidate https://github.com/sponsors/simonw/ | score 22
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED ai_relevance,hashtags,category_fresh | score 40/43
+RESULT EMPTY attempts=6 reviews=4 deferred=50 | cost $0.001764 | tokens 28823
+  EMPTY_ATTEMPT review reason=denied_link | کلود اوپوس ۵.۵ اصلاً مدل ویدیوساز نیست، اما یکی از باحال‌ترین کارهایی که کاربران باهاش انجام
+  EMPTY_ATTEMPT review reason=denied_link | بچه ها اگه میخواید با AI یه شرکت یه‌نفره راه بندازید، این PDF رو از دست
+  EMPTY_ATTEMPT deferred reason=fetch_failed | Agentic System Design: A Self-Study Roadmap
+  EMPTY_ATTEMPT review reason=fetch_failed | Broadening access to AI for scientists
+  EMPTY_ATTEMPT review reason=source_not_official | DeepSeek introduced limits for free users after record growth in load - Aroged
+  EMPTY_ATTEMPT qa_failed | datasette-apps 0.4a0
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-17T13:34:14Z
+# گزارش روزانه 2026-11-17 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 1، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 8
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 5
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 1، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.006665
+- توکن: 121499
+- میانگین هر پست ارسال‌شده: $0.001333
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 10 | 31 | 21 |
+| مدل‌ها و پژوهش | 5 | 24 | 19 |
+| امنیت و حریم خصوصی | 3 | 11 | 8 |
+| کسب‌وکار و بازار | 4 | 11 | 7 |
+| مجموع | 22 | 77 | 55 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001219 | 26413 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000937 | 22895 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000352 | 10284 | بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000377 | 10588 | کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002016 | 22496 | دادستان کالیفرنیا از OpenAI شکایت کرد |
+| 17:00 |  | خالی | — | $0.001764 | 28823 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 15
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 5، لینک قابل استفاده ندارد 3، منبع رسمی شرکت نیست 3، دریافت صفحه اصلی ناموفق بود 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-17.md
+SOURCE_STATUS 2026-11-17T13:34:14Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-17.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۲۶ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 5
+صف بازبینی: 55 کارت
+امروز: 0 رد | 3 بازنویسی
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44093424790
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

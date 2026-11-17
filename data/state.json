@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T11:21:25.655Z",
+  "updatedAt": "2026-11-17T13:34:13.951Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10481,6 +10481,132 @@
       "slot": "2026-11-17T14:00+03:30",
       "title": "🔥مدل Hy4 Flash رایگان در OpenCode",
       "url": "https://opencode.ai/desktop"
+    },
+    "url:3b9ba9d50a71151a": {
+      "at": "2026-11-17T13:31:07.909Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "Gradient Boosting vs. Random Forest vs. Neural Networks: A 2026 Performance Benchmark",
+      "url": "https://machinelearningmastery.com/gradient-boosting-vs-random-forest-vs-neural-networks-a-2026-performance-benchmark"
+    },
+    "title:12d22be321af5d7c": {
+      "at": "2026-11-17T13:31:07.909Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "Gradient Boosting vs. Random Forest vs. Neural Networks: A 2026 Performance Benchmark",
+      "url": "https://machinelearningmastery.com/gradient-boosting-vs-random-forest-vs-neural-networks-a-2026-performance-benchmark"
+    },
+    "url:2301aed1fa20a29c": {
+      "at": "2026-11-17T13:31:23.166Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "کلود اوپوس ۵.۵ اصلاً مدل ویدیوساز نیست، اما یکی از باحال‌ترین کارهایی که کاربران باهاش انجام",
+      "url": "https://t.me/Mohammad_zammani/7229"
+    },
+    "title:aa361b709be2d054": {
+      "at": "2026-11-17T13:31:23.166Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "کلود اوپوس ۵.۵ اصلاً مدل ویدیوساز نیست، اما یکی از باحال‌ترین کارهایی که کاربران باهاش انجام",
+      "url": "https://t.me/Mohammad_zammani/7229"
+    },
+    "url:8dbf4fefeb82439b": {
+      "at": "2026-11-17T13:32:29.899Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "بچه ها اگه میخواید با AI یه شرکت یه‌نفره راه بندازید، این PDF رو از دست",
+      "url": "https://t.me/marketing_aida/108"
+    },
+    "title:f170280363a37533": {
+      "at": "2026-11-17T13:32:29.899Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "بچه ها اگه میخواید با AI یه شرکت یه‌نفره راه بندازید، این PDF رو از دست",
+      "url": "https://t.me/marketing_aida/108"
+    },
+    "url:1f2706dc6e7efc9b": {
+      "at": "2026-11-17T13:32:30.679Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "✅ حرفه‌ای ترین دوره‌های آموزش پایتون دنیا برای کاربران تِک‌این رایگان شد",
+      "url": "https://git.ir/p/8MMPL"
+    },
+    "title:99c97ca6770f454d": {
+      "at": "2026-11-17T13:32:30.679Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "✅ حرفه‌ای ترین دوره‌های آموزش پایتون دنیا برای کاربران تِک‌این رایگان شد",
+      "url": "https://git.ir/p/8MMPL"
+    },
+    "url:2d7a5d6b20fff3cd": {
+      "at": "2026-11-17T13:32:31.049Z",
+      "decision": "review",
+      "reason": "fetch_failed",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+    },
+    "title:5a29c622e2a75b49": {
+      "at": "2026-11-17T13:32:31.049Z",
+      "decision": "review",
+      "reason": "fetch_failed",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+    },
+    "url:4994d2f4e4683cd2": {
+      "at": "2026-11-17T13:32:32.194Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "دیپ‌سیک برای کاربرای رایگان سقف گذاشت: ورودی ۴۰ هزار کاراکتری و چت‌های قدیمی دیگه برنمی‌گردن",
+      "url": "https://www.aroged.com/deepseek-introduced-limits-for-free-users-after-record-growth-in-load"
+    },
+    "title:74e67ea8738656d2": {
+      "at": "2026-11-17T13:32:32.194Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "دیپ‌سیک برای کاربرای رایگان سقف گذاشت: ورودی ۴۰ هزار کاراکتری و چت‌های قدیمی دیگه برنمی‌گردن",
+      "url": "https://www.aroged.com/deepseek-introduced-limits-for-free-users-after-record-growth-in-load"
+    },
+    "url:756ac6b73c7a6695": {
+      "at": "2026-11-17T13:34:13.948Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,hashtags,category_fresh",
+      "category": "tools",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps"
+    },
+    "title:b3e0268d083492f4": {
+      "at": "2026-11-17T13:34:13.948Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,hashtags,category_fresh",
+      "category": "tools",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps"
     }
   },
   "deferred": {
@@ -10590,9 +10716,9 @@
     },
     "defer:url:a63a041375386e27": {
       "id": "defer:url:a63a041375386e27",
-      "at": "2026-11-16T17:01:55.304Z",
+      "at": "2026-11-17T13:32:30.758Z",
       "firstAt": "2026-11-16T13:32:36.966Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -10638,7 +10764,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:a63a041375386e27",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
@@ -12914,6 +13040,251 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:c9fd12c9b52e6f26": {
+      "id": "defer:url:c9fd12c9b52e6f26",
+      "at": "2026-11-17T13:32:30.692Z",
+      "firstAt": "2026-11-17T13:32:30.692Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c9fd12c9b52e6f26",
+        "title:3a517448669676a6"
+      ],
+      "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
+      "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+        "link": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+        "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
+        "published": "Tue, 17 Nov 2026 12:00:41 +0000",
+        "summary": "In this Q&A, Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are attracting renewed interest. He also outlined what could set the stage for a stronger start to 2027.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/Forecast-crystal-ball-ai-IPO.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/mike-bellin_headshot-276x300.jpg"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:c9fd12c9b52e6f26",
+          "title:3a517448669676a6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fe023ceca2fe56df": {
+      "id": "defer:url:fe023ceca2fe56df",
+      "at": "2026-11-17T13:32:30.692Z",
+      "firstAt": "2026-11-17T13:32:30.692Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:fe023ceca2fe56df",
+        "title:bec91c5132b054de"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+        "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+        "canonical": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
+        "published": "Mon, 16 Nov 2026 23:32:32 +0000",
+        "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+        "images": [],
+        "ageHours": 14,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:fe023ceca2fe56df",
+          "title:bec91c5132b054de"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e9c996a0e3b8ea61": {
+      "id": "defer:url:e9c996a0e3b8ea61",
+      "at": "2026-11-17T13:32:30.692Z",
+      "firstAt": "2026-11-17T13:32:30.692Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:e9c996a0e3b8ea61",
+        "title:667cb6ac994a9387"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
+      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+        "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+        "canonical": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
+        "published": "Mon, 16 Nov 2026 22:03:02 +0000",
+        "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+        "images": [],
+        "ageHours": 15.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:e9c996a0e3b8ea61",
+          "title:667cb6ac994a9387"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b652366d4a49aac6": {
+      "id": "defer:url:b652366d4a49aac6",
+      "at": "2026-11-17T13:32:30.692Z",
+      "firstAt": "2026-11-17T13:32:30.692Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:b652366d4a49aac6",
+        "title:f1242987f11a1bf4"
+      ],
+      "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+        "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+        "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
+        "published": "Sun, 15 Nov 2026 14:45:12 +0000",
+        "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
+        ],
+        "ageHours": 46.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:b652366d4a49aac6",
+          "title:f1242987f11a1bf4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7e59a840b8400113": {
+      "id": "defer:url:7e59a840b8400113",
+      "at": "2026-11-17T13:32:30.692Z",
+      "firstAt": "2026-11-17T13:32:30.692Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7e59a840b8400113",
+        "title:98a472f5995eb26c"
+      ],
+      "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+        "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+        "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+        "published": "Sun, 15 Nov 2026 10:45:58 +0000",
+        "summary": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike Major cautions against jumping to conclusions, however, noting that business cycle shifts and remote work trends could also explain the numbers. The article Australia's central bank finds AI hitting young workers first, especially in software and customer service appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/ai_impact_australian_jobs.png"
+        ],
+        "ageHours": 50.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:7e59a840b8400113",
+          "title:98a472f5995eb26c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -15008,6 +15379,14 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "42/43"
+    },
+    "2026-11-17T17:00+03:30": {
+      "at": "2026-11-17T13:34:13.948Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0017640224,
+      "tokens": 28823,
+      "posts": []
     }
   },
   "published": [
@@ -16426,87 +16805,87 @@
     "ArchiveTell": {
       "last_id": 8435,
       "last_at": "2026-11-17T10:55:51+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "pedramgholizadeh": {
-      "last_id": 807,
-      "last_at": "2026-11-16T20:45:21+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 808,
+      "last_at": "2026-11-17T12:22:47+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "ai_farshad": {
-      "last_id": 6454,
-      "last_at": "2026-11-17T07:31:17+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 6455,
+      "last_at": "2026-11-17T11:25:14+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7227,
-      "last_at": "2026-11-17T07:34:16+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 7229,
+      "last_at": "2026-11-17T12:30:23+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "techiin_ir": {
-      "last_id": 20790,
-      "last_at": "2026-11-17T09:03:50+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 20791,
+      "last_at": "2026-11-17T11:29:40+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "mgh_mobin": {
-      "last_id": 491,
-      "last_at": "2026-11-17T07:53:49+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 492,
+      "last_at": "2026-11-17T11:28:35+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "web3nabu": {
-      "last_id": 2175,
-      "last_at": "2026-11-17T06:08:24+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 2177,
+      "last_at": "2026-11-17T12:09:16+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "asrnovin_ir": {
-      "last_id": 11476,
-      "last_at": "2026-11-17T08:47:21+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 11479,
+      "last_at": "2026-11-17T12:34:02+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "shayanode": {
-      "last_id": 237,
-      "last_at": "2026-11-16T18:38:34+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 238,
+      "last_at": "2026-11-16T19:12:16+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "codecloude": {
       "last_id": 2594,
       "last_at": "2026-11-17T08:49:14+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "marketing_aida": {
-      "last_id": 107,
-      "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 108,
+      "last_at": "2026-11-17T11:52:05+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "MatinSenPaii": {
-      "last_id": 5895,
-      "last_at": "2026-11-17T09:56:22+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "last_id": 5896,
+      "last_at": "2026-11-17T11:29:58+00:00",
+      "checked_at": "2026-11-17T13:30:57.473Z"
     },
     "thenimaonAI": {
       "last_id": 539,
       "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-17T11:20:29.114Z"
+      "checked_at": "2026-11-17T13:30:57.473Z"
     }
   },
   "offerReviews": [
@@ -19713,6 +20092,54 @@
       "slot": "2026-11-17T14:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7229",
+      "date": "2026-11-17",
+      "at": "2026-11-17T13:30:57.473Z",
+      "source": "tg-mohammad-zammani",
+      "title": "کلود اوپوس ۵.۵ اصلاً مدل ویدیوساز نیست، اما یکی از باحال‌ترین کارهایی که کاربران باهاش انجام",
+      "url": "https://t.me/Mohammad_zammani/7229",
+      "reason": "denied_link",
+      "slot": "2026-11-17T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-marketing-aida|https://t.me/marketing_aida/108",
+      "date": "2026-11-17",
+      "at": "2026-11-17T13:30:57.473Z",
+      "source": "tg-marketing-aida",
+      "title": "بچه ها اگه میخواید با AI یه شرکت یه‌نفره راه بندازید، این PDF رو از دست",
+      "url": "https://t.me/marketing_aida/108",
+      "reason": "denied_link",
+      "slot": "2026-11-17T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|openai-news|https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "date": "2026-11-17",
+      "at": "2026-11-17T13:30:57.473Z",
+      "source": "openai-news",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "reason": "fetch_failed",
+      "slot": "2026-11-17T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-matin-senpai|https://www.aroged.com/deepseek-introduced-limits-for-free-users-after-record-growth-in-load/",
+      "date": "2026-11-17",
+      "at": "2026-11-17T13:30:57.473Z",
+      "source": "tg-matin-senpai",
+      "title": "DeepSeek introduced limits for free users after record growth in load - Aroged",
+      "url": "https://www.aroged.com/deepseek-introduced-limits-for-free-users-after-record-growth-in-load/",
+      "reason": "source_not_official",
+      "slot": "2026-11-17T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -19995,6 +20422,13 @@
       "url": "https://t.me/shaynmll",
       "slot": "2026-11-16T23:00+03:30",
       "at": "2026-11-16T19:30:56.427Z"
+    },
+    {
+      "source": "tg-techiin",
+      "title": "✅ حرفه‌ای ترین دوره‌های آموزش پایتون دنیا برای کاربران تِک‌این رایگان شد",
+      "url": "https://git.ir/p/8MMPL",
+      "slot": "2026-11-17T17:00+03:30",
+      "at": "2026-11-17T13:30:57.473Z"
     }
   ],
   "reviewPending": {},
