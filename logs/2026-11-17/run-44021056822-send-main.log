@@ -1,0 +1,177 @@
+RUN 44021056822 | send/main | slot auto | 2026-11-17T05:01:02Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-17T08:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 9/31 | models 3/24 | security 2/11 | business 3/11
+DAILY 0/11
+DIVERSITY_TARGET models | slot 08:30
+DEFERRED_POOL 48
+  DEFERRED category_consecutive | try 0/3 | California state AG sues OpenAI over rogue agent incidents
+  DEFERRED category_daily | try 0/3 | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  DEFERRED source_daily | try 0/3 | Google warns that fully automated cyberattacks have arrived and will get worse fast
+  DEFERRED source_daily | try 0/3 | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  DEFERRED category_consecutive | try 1/3 | Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 60h | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices
+DEFERRED_EXHAUSTED 6
+  CHANGE perq new_lines=400
+  OFFER perq status=review reason=source_not_official
+  CHANGE ai-free new_lines=345
+  OFFER ai-free status=seen reason=already_reported
+  WATCH free-llm-api-hub unchanged
+  CHANGE free-inference new_lines=126
+  OFFER free-inference status=review reason=source_not_official
+  WATCH google-ai-studio unchanged
+  CHANGE openrouter new_lines=91
+  WATCH cloudflare-workers-ai unchanged
+  CHANGE zai new_lines=187
+  CHANGE deepgram new_lines=147
+  OFFER deepgram status=seen reason=already_reported
+  WATCH jina-ai unchanged
+  CHANGE huggingface new_lines=105
+  CHANGE nvidia-build new_lines=37
+  OFFER nvidia-build status=seen reason=already_reported
+  CHANGE qoder new_lines=113
+  OFFER qoder status=review reason=expiry_missing
+  WATCH cline unchanged
+  CHANGE elevenlabs new_lines=200
+  CHANGE ollama new_lines=10
+OFFER_WATCH targets=16 fetched=16 failed=0 changed=11 baseline=0 offers=0 reviews=3
+  REVIEW_ITEM id=0a8674e737 message=11
+  REVIEW_REQUIRED reason=offer_watch sent=11
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/08-30-e63417ff
+  REVIEW_ITEM id=ac56648c92 message=12
+  REVIEW_REQUIRED reason=offer_watch sent=12
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/08-30-7aeedfd6
+  REVIEW_ITEM id=01b9341f13 message=13
+  REVIEW_REQUIRED reason=offer_watch sent=13
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/08-30-abf9d839
+SOURCE_DISCOVERY candidates=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=6 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=198 nodate=0 nonai=0 dup=15 dup_other=0 kept=75 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=314 pending=12 leads=2 nolink=3 nonai=0 denied=0 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:443,review:14 delivered=457 window=30d
+STORY_DUPLICATES 2 skipped=worked_story
+  STORY_DUPLICATE The Gamefeel Benchmark | Hy4-Flash added to The Gamefeel Benchmark reverse-evaluation scores | already main: Kimi K3.1-Pro scores 29.5 on The Gamefeel Benchmark
+  STORY_DUPLICATE The Gamefeel Benchmark | Hy4-Flash added to The Gamefeel Benchmark reverse-evaluation scores | already main: Kimi K3.1-Pro scores 29.5 on The Gamefeel Benchmark
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | 🤖تازگی‌ها ردپایی از مدل Gemini 4 Neon توی نسخه وب جمینای دیده شده. | 458 chars
+  REVIEW_ITEM id=624c0d05b7 message=14
+  REVIEW_REQUIRED reason=denied_link sent=14
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/08-30-20d57ff4
+RELEVANCE candidates=72 kept=55 dropped=17
+  SKIP_NOT_AI TechCrunch | Uber says hackers stole information on close to 150,000 driver’s licenses during data breach
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI arXiv | An Interpretable Acoustic Coordinate System for Japanese Consonant Morae in Dysarthric Speech
+  SKIP_NOT_AI Product Hunt | Pine Drama Studio
+  SKIP_NOT_AI The Record | Uber says nearly 150,000 impacted by third-party breach
+  SKIP_NOT_AI TechCrunch | Cyber giant Infoblox confirms security incident after hackers access ‘company information’
+  SKIP_NOT_AI The Record | Match fined $10 million for alleged Tinder privacy violations
+  SKIP_NOT_AI ... +9 more
+DIVERSITY target=models queue=5 fresh=23 deferred=48 rejected=none
+  DIVERSITY_QUEUE models:The Decoder | models:NVIDIA AI Blog | models:arXiv | tools:Pedram Gholizadeh | پدرام قلی‌زاده | business:The Record
+QUEUE_SKIPPED 53
+  QUEUE_SKIP source_duplicate | The Decoder | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  QUEUE_SKIP source_duplicate | The Decoder | Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten
+  QUEUE_SKIP source_duplicate | The Decoder | Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML
+  QUEUE_SKIP source_duplicate | The Decoder | Anthropic says the key to agent memory is knowing what to forget, not how much to store
+  QUEUE_SKIP source_duplicate | OpenAI News | Our new blog for science
+  QUEUE_SKIP source_duplicate | The Decoder | Anthropic says outdated prompting habits are slowing down Claude Opus 5.5
+  QUEUE_SKIP source_duplicate | The Decoder | OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary
+  QUEUE_SKIP source_duplicate | The Decoder | Anthropic can already retrain Mythos with "a fraction of the compute originally needed," says former researcher Coxon
+  QUEUE_SKIP source_duplicate | NVIDIA AI Blog | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  QUEUE_SKIP source_duplicate | The Decoder | Australia's central bank finds AI hitting young workers first, especially in software and customer service
+  QUEUE_SKIP ... +43 more
+ATTEMPT 1/5 | deferred 0/3 The Decoder | Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices | 0.1h
+  TOOL_LINK candidate https://github.com/QwenLM/Qwen-Live-Delivery-Plugin | score 26
+  MODEL DeepSeek-V4-Flash | image forbidden_url
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED verification_source | one repair retry
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=models | QA 42/43 | $0.001219 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/08-30
+ATTEMPT 2/5 | deferred 0/3 NVIDIA AI Blog | NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing | 1h
+  TOOL_LINK candidate https://www.nvidia.com/en-us/solutions/quantum-computing/ | score 19
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  STYLE_WARNING why | one repair retry
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+  TOOL_LINK applied https://www.nvidia.com/en-us/solutions/quantum-computing/
+  SLOT_GAP_WAIT 558s
+POST 2/2 status=sent category=tools | QA 42/43 | $0.000937 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/08-30-2
+RESULT SENT category=tools | offer=no | image=yes | QA 42/43 | cost $0.003501 | post $0.000937 | tokens 58749
+TITLE اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/08-30-2
+SLOT_POSTS 2/2 sent=2 review=0
+  POST models | sent | $0.001219 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید
+  POST tools | sent | $0.000937 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-17T05:15:58Z
+# گزارش روزانه 2026-11-17 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 3
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.002156
+- توکن: 49308
+- میانگین هر پست ارسال‌شده: $0.001078
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 10 | 31 | 21 |
+| مدل‌ها و پژوهش | 4 | 24 | 20 |
+| امنیت و حریم خصوصی | 2 | 11 | 9 |
+| کسب‌وکار و بازار | 3 | 11 | 8 |
+| مجموع | 19 | 77 | 58 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001219 | 26413 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000937 | 22895 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 4
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 1
+
+## صف تعویق
+- در انتظار: 49
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-17.md
+SOURCE_STATUS 2026-11-17T05:15:58Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-17.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۲۶ آبان ۱۴۰۵
+پست امروز: 2 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 2
+صف بازبینی: 44 کارت
+امروز: 0 رد | 3 بازنویسی
+صف تعویق: 49
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44021056822
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

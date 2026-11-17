@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T20:18:34.503Z",
+  "updatedAt": "2026-11-17T05:01:08.654Z",
   "lastStatusDate": "2026-11-16",
   "lastStatusAt": "2026-11-16T19:33:15.345Z",
   "sources": {
@@ -230,17 +230,17 @@
       "status": "active",
       "reason": "protected_source",
       "score": 0.8,
-      "negativeRate": 0,
+      "negativeRate": 0.2,
       "counts": {
         "rejects": 0,
-        "rewrites": 0,
+        "rewrites": 2,
         "manualPublishes": 0,
         "autoPublishes": 3,
         "publishes": 3,
-        "decisions": 3
+        "decisions": 5
       },
       "rejectReasons": {},
-      "lastEventAt": "2026-11-13T13:32:57.617Z",
+      "lastEventAt": "2026-11-17T00:05:46.763Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",
@@ -1578,19 +1578,19 @@
       "dynamic": false,
       "protected": false,
       "status": "active",
-      "reason": "no_signal",
+      "reason": "ok",
       "score": 0.5,
-      "negativeRate": 0,
+      "negativeRate": 0.5,
       "counts": {
         "rejects": 0,
-        "rewrites": 0,
+        "rewrites": 1,
         "manualPublishes": 0,
         "autoPublishes": 0,
         "publishes": 0,
-        "decisions": 0
+        "decisions": 1
       },
       "rejectReasons": {},
-      "lastEventAt": "",
+      "lastEventAt": "2026-11-16T23:06:02.027Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",
