@@ -3025,6 +3025,10 @@
     },
     "b0ab3d1a96": {
       "id": "b0ab3d1a96",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-17T11:20:29.114Z",
+      "updatedAt": "2026-11-17T11:20:29.114Z",
       "messageId": 21,
       "chatId": "-1003917550874",
       "slot": "2026-11-17T14:00+03:30",
@@ -3068,10 +3072,6 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-17T11:20:29.114Z",
-      "updatedAt": "2026-11-17T11:20:29.114Z",
       "lastActionAt": "",
       "sentAt": ""
     }
