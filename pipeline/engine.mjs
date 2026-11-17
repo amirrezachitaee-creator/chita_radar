@@ -26,8 +26,6 @@ export const BANNED = [
   'در دنیای امروز',
   'همان‌طور که می‌دانید',
   'بازی را عوض می‌کند',
-  'متحول',
-  'دگرگون',
   'game changer',
   'game-changer',
 ];
@@ -1398,6 +1396,7 @@ export function qaPost(parsed, context) {
   }
 
   const normalized = normalizePostFields(parsed);
+  const manualApproved = context?.manual === true;
   const title = normalized.title;
   const body = normalized.body;
   const quote = normalized.quote;
@@ -1432,7 +1431,7 @@ export function qaPost(parsed, context) {
   add('verification_source', verificationSourceOk, `${context.sourceType}:${parsed.verification}`);
 
   add('title_words', words > 0 && words <= TITLE_MAX_WORDS);
-  add('title_clean', title.length > 0 && !/[.?!؟]\s*$/.test(title) && !/\*\*/.test(title) && !BANNED.some((phrase) => title.includes(phrase)));
+  add('title_clean', title.length > 0 && !/[.?!؟]\s*$/.test(title) && !/\*\*/.test(title) && (manualApproved || !BANNED.some((phrase) => title.includes(phrase))));
   add('title_complete', title.length > 0 && !TITLE_QUESTION_OPEN.test(title) && !titleEndsDangling(title));
   add('title_latin', titleLatinUntranslated(title).length === 0, titleLatinUntranslated(title).join(','));
   add('bullets', type === 'breaking' ? true : bullets === 0 || (bullets >= 2 && bullets <= 5));
@@ -1461,7 +1460,7 @@ export function qaPost(parsed, context) {
   add('why_opener', !whyTemplate, whyTemplate ? lastParagraph.slice(0, 40) : '', false);
   add('quote_length', !quote || quote.length <= QUOTE_MAX_CHARS, quote ? `${quote.length}` : '');
   add('quote_clean', !quote || (
-    !BANNED.some((phrase) => quote.includes(phrase)) &&
+    (manualApproved || !BANNED.some((phrase) => quote.includes(phrase))) &&
     !/\[(نام|تاریخ|لینک|عدد|شرکت|منبع)\]/u.test(quote) &&
     !quote.includes('✉️')
   ));
@@ -1488,7 +1487,7 @@ export function qaPost(parsed, context) {
   add('no_signature', !body.includes('✉️') && !quote.includes('✉️'));
   add('hashtags', tags === 0);
   add('length', lengthOk(type, body.length), `${body.length}`);
-  add('no_banned', !BANNED.some((phrase) => body.includes(phrase)) && !BANNED.some((phrase) => quote.includes(phrase)));
+  add('no_banned', manualApproved || (!BANNED.some((phrase) => body.includes(phrase)) && !BANNED.some((phrase) => quote.includes(phrase))));
   const proseForStyle = `${body}\n${quote}`
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/https?:\/\/\S+/g, ' ');

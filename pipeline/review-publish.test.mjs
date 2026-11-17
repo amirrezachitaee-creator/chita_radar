@@ -97,6 +97,26 @@ test('a post without a draft skips the publish QA', () => {
   assert.ok(Array.isArray(qa.problems));
 });
 
+test('the admin-approved CUDA title passes the publish title gate', () => {
+  const item = baseItem({
+    manual: true,
+    post: {
+      ...baseItem().post,
+      title: 'بیست سالگی CUDA؛ پلتفرمی که محاسبات علمی را متحول کرد',
+    },
+  });
+  const qa = qaForPublish(item, NOW, CONFIG);
+  assert.equal(qa.problems.includes('title_clean'), false);
+});
+
+test('a manual publish bypasses a remaining banned title word', () => {
+  const post = { ...baseItem().post, title: 'مدل تازه شرکت شوکه‌کننده معرفی شد' };
+  const auto = qaForPublish(baseItem({ post }), NOW, CONFIG);
+  assert.ok(auto.problems.includes('title_clean'));
+  const manual = qaForPublish(baseItem({ post, manual: true }), NOW, CONFIG);
+  assert.equal(manual.problems.includes('title_clean'), false);
+});
+
 test('the publisher can qualify a source page image through the qa context', () => {
   const imageUrl = 'https://opengraph.githubassets.com/abc123/example/repo';
   const item = baseItem({

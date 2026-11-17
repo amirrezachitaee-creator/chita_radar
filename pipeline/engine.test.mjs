@@ -19,6 +19,7 @@ import {
   trimBody,
   trimQuote,
   TITLE_MAX_WORDS,
+  BANNED,
   clampText,
   buildUserMessage,
   buildQaRepairMessage,
@@ -1063,13 +1064,13 @@ test('the focused title repair asks only for a corrected title', () => {
 });
 
 test('the title repairs name the banned phrase instead of a generic hint', () => {
-  const title = 'بیست سالگی CUDA؛ پلتفرمی که محاسبات علمی را متحول کرد';
+  const title = 'بیست سالگی CUDA؛ پلتفرمی که محاسبات علمی را انقلابی کرد';
   const focused = buildTitleRepairMessage({
     user: '',
     parsed: { ...repairPost, title },
     qa: { problems: ['title_clean'], warnings: [] },
   });
-  assert.match(focused, /متحول/);
+  assert.match(focused, /انقلابی/);
   assert.match(focused, /ممنوعه/);
   assert.match(focused, /"title"/);
 
@@ -1078,8 +1079,52 @@ test('the title repairs name the banned phrase instead of a generic hint', () =>
     parsed: { ...repairPost, title },
     qa: { problems: ['title_clean'], warnings: [] },
   });
-  assert.match(whole, /متحول/);
+  assert.match(whole, /انقلابی/);
   assert.match(whole, /ممنوعه/);
+});
+
+test('the neutral words متحول and دگرگون are not banned', () => {
+  assert.equal(BANNED.includes('متحول'), false);
+  assert.equal(BANNED.includes('دگرگون'), false);
+  for (const title of [
+    'بیست سالگی CUDA؛ پلتفرمی که محاسبات علمی را متحول کرد',
+    'بیست سالگی CUDA؛ پلتفرمی که محاسبات علمی را دگرگون کرد',
+  ]) {
+    const qa = qaPost({ ...titleBase, title }, titleContext);
+    assert.equal(qa.problems.includes('title_clean'), false);
+  }
+});
+
+test('manual approval bypasses banned words while automatic QA still applies them', () => {
+  const bannedTitle = 'مدل تازه شرکت شوکه‌کننده معرفی شد';
+  const autoTitle = qaPost({ ...titleBase, title: bannedTitle }, titleContext);
+  assert.ok(autoTitle.problems.includes('title_clean'));
+  const manualTitle = qaPost({ ...titleBase, title: bannedTitle }, { ...titleContext, manual: true });
+  assert.equal(manualTitle.problems.includes('title_clean'), false);
+
+  const body = `${titleBase.body}\n\nاین مدل شوکه‌کننده است.`;
+  const autoBody = qaPost({ ...titleBase, title: 'مدل تازه شرکت معرفی شد', body }, titleContext);
+  assert.ok(autoBody.problems.includes('no_banned'));
+  const manualBody = qaPost(
+    { ...titleBase, title: 'مدل تازه شرکت معرفی شد', body },
+    { ...titleContext, manual: true }
+  );
+  assert.equal(manualBody.problems.includes('no_banned'), false);
+
+  const quote = 'این مدل شوکه‌کننده است';
+  const autoQuote = qaPost({ ...titleBase, title: 'مدل تازه شرکت معرفی شد', quote }, titleContext);
+  assert.ok(autoQuote.problems.includes('quote_clean'));
+  const manualQuote = qaPost(
+    { ...titleBase, title: 'مدل تازه شرکت معرفی شد', quote },
+    { ...titleContext, manual: true }
+  );
+  assert.equal(manualQuote.problems.includes('quote_clean'), false);
+
+  const manualQuestion = qaPost(
+    { ...titleBase, title: 'مدل تازه شرکت معرفی شد؟' },
+    { ...titleContext, manual: true }
+  );
+  assert.ok(manualQuestion.problems.includes('title_clean'));
 });
 
 test('the repair message keeps an existing quote inside the post', () => {
