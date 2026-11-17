@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T10:32:23.619Z",
+  "updatedAt": "2026-11-17T11:21:25.655Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10427,1509 +10427,63 @@
       "slot": "2026-11-17T14:00+03:30",
       "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
       "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse"
+    },
+    "url:5f1aafe298691ad8": {
+      "at": "2026-11-17T11:20:39.007Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "Shayanode pinned «پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖 این دوره نیاز به داشتن هیچ",
+      "url": "https://t.me/shayanode/237"
+    },
+    "title:6fb3feea999ebb42": {
+      "at": "2026-11-17T11:20:39.007Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "Shayanode pinned «پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖 این دوره نیاز به داشتن هیچ",
+      "url": "https://t.me/shayanode/237"
+    },
+    "url:1738f67eaaddba29": {
+      "at": "2026-11-17T11:21:25.248Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "benchmark": false
+    },
+    "title:45918e3b504a8f28": {
+      "at": "2026-11-17T11:21:25.248Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "benchmark": false
+    },
+    "url:310dde1cc8bc9a41": {
+      "at": "2026-11-17T11:21:25.655Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "🔥مدل Hy4 Flash رایگان در OpenCode",
+      "url": "https://opencode.ai/desktop"
+    },
+    "title:2f1eb0795e86c6fa": {
+      "at": "2026-11-17T11:21:25.655Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "🔥مدل Hy4 Flash رایگان در OpenCode",
+      "url": "https://opencode.ai/desktop"
     }
   },
   "deferred": {
-    "defer:url:5a7538ac02344da7": {
-      "id": "defer:url:5a7538ac02344da7",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:5a7538ac02344da7",
-        "title:ef94a9689ade4a55"
-      ],
-      "canonical": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
-      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
-        "link": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
-        "canonical": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
-        "published": "Fri, 13 Nov 2026 16:37:01 +0000",
-        "summary": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control physical machines yet, but Anthropic is separately developing the Model Hardware Standard for that. The article Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/claude_for_manufactoring.png"
-        ],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:5a7538ac02344da7",
-          "title:ef94a9689ade4a55"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fc65152e593cae50": {
-      "id": "defer:url:fc65152e593cae50",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:fc65152e593cae50",
-        "title:70a05e2136525440"
-      ],
-      "canonical": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
-      "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
-        "link": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
-        "canonical": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
-        "published": "Fri, 13 Nov 2026 15:21:04 +0000",
-        "summary": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights. He estimates the hardware behind the five training runs cost more than half a billion dollars. The article Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png"
-        ],
-        "ageHours": 1.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:fc65152e593cae50",
-          "title:70a05e2136525440"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b5effea229a29bd6": {
-      "id": "defer:url:b5effea229a29bd6",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:b5effea229a29bd6",
-        "title:8a56b9aa9b0958c3"
-      ],
-      "canonical": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
-      "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
-        "link": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
-        "canonical": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
-        "published": "Fri, 13 Nov 2026 15:15:08 +0000",
-        "summary": "Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six. The article Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/Claude-Duet.png"
-        ],
-        "ageHours": 1.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b5effea229a29bd6",
-          "title:8a56b9aa9b0958c3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7887ca6fae3f41f0": {
-      "id": "defer:url:7887ca6fae3f41f0",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:7887ca6fae3f41f0",
-        "title:a401051fd127f610"
-      ],
-      "canonical": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
-      "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
-        "link": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
-        "canonical": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
-        "published": "Fri, 13 Nov 2026 15:12:44 +0000",
-        "summary": "Meta's AI agent Muse can now call businesses on behalf of paying US subscribers, handling everything from cable providers to restaurants. The agent already has over 10 million users, according to Meta's AI chief Alexandr Wang. Google Gemini, Instinct, and xAI's Grok Bot offer the same feature, but many businesses hang up as soon as they detect an AI on the line. The article Meta's Muse now calls businesses for you, but many companies might just hang up on the AI appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/met_muse_gadget_logo.jpg"
-        ],
-        "ageHours": 1.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:7887ca6fae3f41f0",
-          "title:a401051fd127f610"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:501039ee2ff6ed24": {
-      "id": "defer:url:501039ee2ff6ed24",
-      "at": "2026-11-13T17:01:14.509Z",
-      "firstAt": "2026-11-13T17:01:14.509Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:501039ee2ff6ed24",
-        "title:6a541d7fc73e129c"
-      ],
-      "canonical": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products",
-      "title": "OpenAI enters the cybersecurity market with two Daybreak products",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI enters the cybersecurity market with two Daybreak products",
-        "link": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
-        "canonical": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products",
-        "published": "Fri, 13 Nov 2026 15:08:57 +0000",
-        "summary": "OpenAI has launched two security products under its Daybreak brand. The article OpenAI enters the cybersecurity market with two Daybreak products appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_background_dark.png"
-        ],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:501039ee2ff6ed24",
-          "title:6a541d7fc73e129c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1dcca899a4f1e514": {
-      "id": "defer:url:1dcca899a4f1e514",
-      "at": "2026-11-13T17:46:26.822Z",
-      "firstAt": "2026-11-13T17:46:26.822Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:1dcca899a4f1e514",
-        "title:97a93fcf6645c9e4"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "The unfolding Jensen Huang scandal: a timeline",
-        "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-        "canonical": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
-        "published": "Fri, 13 Nov 2026 15:58:00 +0000",
-        "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-        "images": [],
-        "ageHours": 1.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:1dcca899a4f1e514",
-          "title:97a93fcf6645c9e4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3b4bb26baf783f5c": {
-      "id": "defer:url:3b4bb26baf783f5c",
-      "at": "2026-11-14T13:36:11.555Z",
-      "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 3,
-      "reason": "qa_failed",
-      "reasons": [
-        "source_weekly",
-        "qa_failed",
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3b4bb26baf783f5c",
-        "title:486013409585d403"
-      ],
-      "canonical": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet",
-      "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
-        "link": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
-        "canonical": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet",
-        "published": "Fri, 13 Nov 2026 18:55:21 +0000",
-        "summary": "OpenAI is taking a second shot at AI-powered shopping with ChatGPT Wallet after scrapping its first approach, Instant Checkout. Users register a card once and confirm each purchase through Face ID or a fingerprint, while actual card details stay hidden behind payment tokens. Rivals such as Anthropic, Meta, and xAI already have their agents making purchases. The article OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/ChatGPT-Wallet-title-scaled.png"
-        ],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3b4bb26baf783f5c",
-          "title:486013409585d403"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:3b4bb26baf783f5c",
-          "attempts": 2
-        }
-      },
-      "detail": "no_banned"
-    },
-    "defer:url:76eaf2c5f6d24706": {
-      "id": "defer:url:76eaf2c5f6d24706",
-      "at": "2026-11-13T19:31:41.167Z",
-      "firstAt": "2026-11-13T19:31:41.167Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:76eaf2c5f6d24706",
-        "title:e356effa4e556f8f"
-      ],
-      "canonical": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
-      "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
-        "link": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
-        "canonical": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
-        "published": "Fri, 13 Nov 2026 18:01:53 +0000",
-        "summary": "Chinese investors are shut out of Anthropic's IPO, Bloomberg reports. Banks are rejecting buy orders from mainland China and Hong Kong, citing U.S. export control rules known as ITAR. Similar restrictions applied during SpaceX's IPO, and Anthropic's products aren't available in either region anyway. The article Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png"
-        ],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:76eaf2c5f6d24706",
-          "title:e356effa4e556f8f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:5e381957119e4d94": {
-      "id": "defer:url:5e381957119e4d94",
-      "at": "2026-11-14T08:05:38.636Z",
-      "firstAt": "2026-11-14T08:05:38.636Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:5e381957119e4d94",
-        "title:448b82b92091bcb9"
-      ],
-      "canonical": "https://gbhackers.com/arcticrat-malware-attack",
-      "title": "🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!",
-      "candidate": {
-        "sourceId": "tg-asr-novin",
-        "sourceName": "عصر نوین | AminiYT",
-        "sourceType": "telegram_channel",
-        "title": "🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!",
-        "link": "https://gbhackers.com/arcticrat-malware-attack/",
-        "canonical": "https://gbhackers.com/arcticrat-malware-attack",
-        "messageText": "🚨 وقتی بدافزارها هم از VPN و هوش مصنوعی استفاده می‌کنن!\n\nیه بدافزار اندرویدی به اسم ArcticRAT شناسایی شده که می‌تونه گوشی قربانی رو تقریباً به‌طور کامل در اختیار مهاجم قرار بده!\n\nاما روش انتشارش یه نکته جالب داره:\n\n📱 VPN جعلی برای فریب گوگل!\n\nاین بدافزار خودش رو پشت اپلیکیشن‌هایی مثل آمازون، تیک‌تاک، فایل‌منیجر و برنامه‌های ارز دیجیتال پنهان می‌کنه.\n\nهنگام نصب، از کاربر مجوز VPN می‌گیره و با ایجاد یه اتصال VPN تقلبی، ترافیک اینترنت گوشی رو مسدود می‌کنه تا بخشی از نظارت Google Play Protect مختل بشه. بعد از اون، بدافزار اصلی رو نصب می‌کنه!\n\n🤖 اما قسمت عجیب‌تر ماجرا هوش مصنوعیه!\n\nArcticRAT اطلاعات سرقت‌شده رو به مدل هوش مصنوعی Grok می‌فرسته تا:\n\n- پیامک‌های حاوی رمز یک‌بارمصرف بانکی رو پیدا کنه.\n- برنامه‌های بانکی و ارز دیجیتال رو شناسایی کنه.\n- پیامک‌های مربوط به موجودی و تراکنش‌ها رو جدا کنه.\n- وضعیت مالی قربانی رو تحلیل کنه!\n\n👀 این بدافزار چه کارهای دیگه‌ای می‌تونه انجام بده؟\n\n🔹 مشاهده صفحه گوشی و کنترل از راه دور\n🔹 دسترسی به میکروفون\n🔹 سرقت رمز و الگوی قفل گوشی\n🔹 سوءاستفاده از مجوز Accessibility\n🔹 استفاده غیرمجاز از Wireless Debugging اندروید ۱۱ به بالا\n\nحتی می‌تونه یه صفحه جعلی با ظاهر باج‌افزار نمایش بده تا قربانی فکر کنه فایل‌هاش قفل شدن؛ درحالی‌که واقعاً هیچ فایلی رمزگذاری نشده!\n\n⚠️ چند نکته امنیتی:\n\n▪️ برنامه‌ها رو از سایت‌ها و منابع ناشناس نصب نکنید.\n▪️ به درخواست غیرمنتظره مجوز VPN هنگام نصب برنامه‌ها مشکوک باشید.\n▪️ به اپلیکیشن‌های ناشناس مجوز Accessibility ندید.\n▪️ Wireless Debugging رو بدون نیاز فعال نذارید\n\n💡 یه نکته مهم: هر برنامه‌ای که درخواست مجوز VPN می‌کنه، لزوماً یک VPN واقعی و امن نیست!\n\n🔗 گزارش کامل:\n\n👍6🤯3",
-        "leadPostUrl": "https://t.me/asrnovin_ir/11462",
-        "published": "2026-11-14T06:01:57+00:00",
-        "summary": "",
-        "images": [],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://gbhackers.com/arcticrat-malware-attack"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:5e381957119e4d94",
-          "title:448b82b92091bcb9"
-        ],
-        "leadSource": "asrnovin_ir",
-        "leadMessageId": 11462,
-        "leadChannelUrl": "https://t.me/asrnovin_ir",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:65f850563a9b4aaa": {
-      "id": "defer:url:65f850563a9b4aaa",
-      "at": "2026-11-14T08:05:38.636Z",
-      "firstAt": "2026-11-14T08:05:38.636Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:65f850563a9b4aaa",
-        "title:92f11934d009466c"
-      ],
-      "canonical": "https://gail.wharton.upenn.edu/primer",
-      "title": "یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛",
-      "candidate": {
-        "sourceId": "tg-mohammad-zammani",
-        "sourceName": "هوش مصنوعی | محمد زمانی",
-        "sourceType": "telegram_channel",
-        "title": "یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛",
-        "link": "https://gail.wharton.upenn.edu/primer/",
-        "canonical": "https://gail.wharton.upenn.edu/primer",
-        "messageText": "یه وقتایی فکر می‌کنی همه‌چیزِ مدرسه و کلاس درس رو دیگه دیدی و تموم شده رفته؛ همون تخته‌سیاه و گچِ قدیم که حالا شده وایت‌برد و اسلاید، و همون معلمی که وسط کلاس ایستاده و سعی می‌کنه یه مفهومِ خشک رو توی ذهنِ بچه‌ها جا بندازه. اما این بار، توی آزمایشگاه هوش مصنوعیِ مدرسه کسب‌وکار وارتون، تیمِ اتان مالیک اومدن یه چیزی ساختن به اسم «پرایمر» (Primer) که انگار قراره ورق رو برگردونه.\n\nتصور کن قصه از خودِ معلم شروع می‌شه. پرایمر اولِ کار می‌شینه پای حرفِ معلم؛ دقیقاً مثل یه همکارِ کنجکاو و دقیق، ازش مصاحبه می‌گیره: درس چیه؟ بچه‌ها تو چه سطحی هستن؟ تا الان چی بلدن و معمولاً کجای کار پاشون می‌لنگه و اشتباه می‌کنن؟\n\nقشنگی‌ش اینجاست که معلم مجبور نیست درگیرِ فرم‌های خشک و اداری بشه؛ می‌تونه خیلی راحت حرف بزنه، بنویسه، یا اصلاً طرح درس و معیارهای نمره‌دهی‌ش رو بذاره جلوی سیستم.\n\nبعد، پرایمر تمام این حرف‌ها و فایل‌ها رو می‌ریزه تو هم و یه سندِ طراحی درمیاره. نکته‌ی مهمش اینه که تا معلم پای این سند رو امضا نکنه و تاییدش نده، آجر روی آجر گذاشته نمی‌شه و هیچ‌چیز ساخته نمی‌شه.\n\nتوی دمویی هم که نشون دادن، همین مسیر رو برای درسِ «چرخه آب» و بچه‌های پایه هفتم و هشتم رفتن.\nحالا بیا بریم سراغ دانش‌آموز.\n\nوقتی همه‌چیز آماده شد و پرده رفت کنار، دانش‌آموز وارد یه بازیِ واقعی می‌شه؛ نه یه آزمونِ خشک و بی‌روح. اینجا با سه تا کاراکترِ هوش مصنوعی طرفه که هر کدوم نقشِ خودشون رو دارن: اولی یه منتوره که باهاش گپ می‌زنه تا ببینه اصلاً چقدر از ماجرا رو بلده؛ دومی یه هم‌پای تمرینه و سومی یه مربی که دستش رو می‌گیره و بهش بازخورد می‌ده.\n\nوسطِ تمرین هم دو تا راه جلوی پای دانش‌آموز می‌ذارن: یا باید روبه‌روی یه کاراکتر که برای خودش هدف و انگیزه داره نقش بازی کنه و از پسش بربیاد، یا باید بره و کلِ ماجرا رو برای یکی …",
-        "leadPostUrl": "https://t.me/Mohammad_zammani/7210",
-        "published": "2026-11-14T06:55:25+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/IC0CIIM-koaWgwlBkAcApscLYhWcyzP3rpTjJ_Ol-ysWQe9E04RWX_wyz4zWWAzbKbp4s3giq-EUyDvj0_m9BfbvXGzlkWSeSZetrAX0wfuBXRPz1EI5_O7725QL0ETseUhqjcdKgnKl2FZXRV40PCctKycE0ml45k2Wf_cUTUbZzwRvoFyTqd_lDniock5oxlyXJf0iu_3lb1rJeYVNSt714ZFaM_WDTKJKewXBNALnn2UFXk2FLex-wD1evMc05odvjDrVRdqaRzU2h9SXuVQxCwwiz0SttyFBBT6Wef1WoWR-y8TMt-3CJMG9mcv3jNjE05ABtumk9JWlhSJ5Fg.jpg"
-        ],
-        "ageHours": 1.1,
-        "aiHint": true,
-        "aiCentral": false,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://gail.wharton.upenn.edu/primer",
-          "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:65f850563a9b4aaa",
-          "title:92f11934d009466c"
-        ],
-        "leadSource": "Mohammad_zammani",
-        "leadMessageId": 7210,
-        "leadChannelUrl": "https://t.me/Mohammad_zammani",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:7d4d71d056da0286": {
-      "id": "defer:url:7d4d71d056da0286",
-      "at": "2026-11-14T17:05:33.769Z",
-      "firstAt": "2026-11-14T08:06:44.299Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:7d4d71d056da0286",
-        "title:6aa56c267225b62b"
-      ],
-      "canonical": "https://openai.com/index/introducing-chatgpt-wallet",
-      "title": "Introducing ChatGPT Wallet",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Introducing ChatGPT Wallet",
-        "link": "https://openai.com/index/introducing-chatgpt-wallet",
-        "canonical": "https://openai.com/index/introducing-chatgpt-wallet",
-        "published": "Fri, 13 Nov 2026 15:00:00 GMT",
-        "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/introducing-chatgpt-wallet",
-        "images": [],
-        "ageHours": 17,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7d4d71d056da0286",
-          "title:6aa56c267225b62b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:7d4d71d056da0286",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:456ace67e0015fb3": {
-      "id": "defer:url:456ace67e0015fb3",
-      "at": "2026-11-15T08:07:12.909Z",
-      "firstAt": "2026-11-14T10:31:34.879Z",
-      "attempts": 3,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:456ace67e0015fb3",
-        "title:2c178536b605e9b0"
-      ],
-      "canonical": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
-      "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
-        "link": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
-        "canonical": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
-        "published": "Sat, 14 Nov 2026 09:45:45 +0000",
-        "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The article Runway's open-source Praxis-1 turns video AI into a robot controller appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/Runway-Praxis-1.jpg"
-        ],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:456ace67e0015fb3",
-          "title:2c178536b605e9b0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:456ace67e0015fb3",
-          "attempts": 2
-        }
-      },
-      "detail": "tools"
-    },
-    "defer:url:9d694fa95af0cfae": {
-      "id": "defer:url:9d694fa95af0cfae",
-      "at": "2026-11-14T13:31:24.888Z",
-      "firstAt": "2026-11-14T13:31:24.888Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:9d694fa95af0cfae",
-        "title:e0a2332797205e94"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-        "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-        "canonical": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
-        "published": "Fri, 13 Nov 2026 22:43:00 +0000",
-        "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-        "images": [],
-        "ageHours": 14.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:9d694fa95af0cfae",
-          "title:e0a2332797205e94"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1428861313d88dcf": {
-      "id": "defer:url:1428861313d88dcf",
-      "at": "2026-11-14T13:31:24.889Z",
-      "firstAt": "2026-11-14T13:31:24.889Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1428861313d88dcf",
-        "title:037e88b6f08ba196"
-      ],
-      "canonical": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026",
-      "title": "Crunchbase Data: Nvidia’s Startup Funding Deals Hit A Record. What’s Next After Huang?",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "Crunchbase Data: Nvidia’s Startup Funding Deals Hit A Record. What’s Next After Huang?",
-        "link": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
-        "canonical": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026",
-        "published": "Fri, 13 Nov 2026 20:32:55 +0000",
-        "summary": "Before it was thrust into crisis this week, Nvidia was steadily continuing its pace as one of the busiest startup investors around, including backing many of the biggest venture deals of 2026. We take a fresh look at where Nvidia and its venture arm NVentures have been investing and what the future could hold.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/Computer_chip_02.jpg"
-        ],
-        "ageHours": 17,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:1428861313d88dcf",
-          "title:037e88b6f08ba196"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:515be026b81ca908": {
-      "id": "defer:url:515be026b81ca908",
-      "at": "2026-11-14T17:01:12.883Z",
-      "firstAt": "2026-11-14T17:01:12.883Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:515be026b81ca908",
-        "title:6ce4c0fbbcc9ffcb"
-      ],
-      "canonical": "https://jryn.me/lRey8o",
-      "title": "🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!",
-      "candidate": {
-        "sourceId": "tg-asr-novin",
-        "sourceName": "عصر نوین | AminiYT",
-        "sourceType": "telegram_channel",
-        "title": "🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!",
-        "link": "https://jryn.me/lRey8o",
-        "canonical": "https://jryn.me/lRey8o",
-        "messageText": "🚀 مشتری وردپرسی داری؟ از معرفی هاست هم درآمد بگیر!\n\n✅با همکاری در فروش راست‌چین کلود، 20٪ پورسانت از تمام خریدهات بگیر و با کد اختصاصی خودت به مشتری‌هات 10٪ تخفیف بده.\n\n☁️ هاست پیشرفته وردپرس، انتقال رایگان سایت، پشتیبانی اختصاصی وردپرس و ضمانت بازگشت وجه طبق شرایط سرویس.\n\n🔗 عضویت و دریافت کد:",
-        "leadPostUrl": "https://t.me/asrnovin_ir/11466",
-        "published": "2026-11-14T14:40:32+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/G67x7IsIpn7WGE9_X_e7S_oMON3RChXeELpg1uCFtbJUPT9nllEzkzaXOQnkI9AlmROcq4oHDtiSTSiCZSgf7QBs1RZ7ZqvkZljJeX2J7TnZEzHOLNtRxg0iDdBIsFughb2l79hzkSb6W-lQQcyW1qk0MDXUB_YbHsuEUDGAN9gfCN3apdfhRTfOryqOkXhYgch7Flc5oMAQBcSVVHg6BWXR7jNq2Ch9LZoLlc-_T-FG-IEIDpSL4xFudl3aoQMFUcuZP_aARQ5XwrucBucZ_25HksHWged88XsDuwME2GABas-ImjUabv1NWBO1GzKkJ-pDnkxtgmYl2Vq4Mi7rdg.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": false,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://jryn.me/lRey8o"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:515be026b81ca908",
-          "title:6ce4c0fbbcc9ffcb"
-        ],
-        "leadSource": "asrnovin_ir",
-        "leadMessageId": 11466,
-        "leadChannelUrl": "https://t.me/asrnovin_ir",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:05648108c87680dd": {
-      "id": "defer:url:05648108c87680dd",
-      "at": "2026-11-14T17:31:37.633Z",
-      "firstAt": "2026-11-14T17:31:37.633Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:05648108c87680dd",
-        "title:187f5e84ba8e9b8f"
-      ],
-      "canonical": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-        "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-        "canonical": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
-        "published": "Fri, 13 Nov 2026 21:20:47 +0000",
-        "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-500x500.jpg"
-        ],
-        "ageHours": 20.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:05648108c87680dd",
-          "title:187f5e84ba8e9b8f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9c481a0931060f36": {
-      "id": "defer:url:9c481a0931060f36",
-      "at": "2026-11-15T11:11:03.607Z",
-      "firstAt": "2026-11-15T05:07:42.748Z",
-      "attempts": 3,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9c481a0931060f36",
-        "title:c32dd593305ad105"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
-      "title": "datasette-llm 0.1a11",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "datasette-llm 0.1a11",
-        "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-        "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
-        "published": "2026-11-14T23:59:28+00:00",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local models with <a href=\"https://lmstudio.ai\">LM Studio</a> or <a href=\"https://ollama.com\">Ollama</a> or <a href=\"https://github.com/ggml-org/llama.cpp\">llama.cpp</a> (which just hit <a href=\"https://huggingface.co/blog/ggml-org/llama-cpp-v1\">v1.0.0</a>) you can run Datasette via <code>uvx</code> like this:</p> <div class=\"highlight highlight-source-shell\"><pre>wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model <span class=\"pl-s\"><span class=\"pl-pds\">'</span>{</span> <span class=\"pl-s\"> \"model\": \"lmstudio-qwen\",</span> <span class=\"pl-s\"> \"model_name\": \"qwen/qwen3.8-27b\",</span> <span class=\"pl-s\"> \"api_base\": \"http://localhost:1234/v1\"</span> <span class=\"pl-s\"> }<span class=\"pl-pds\">'</span></span> content.db</pre></div> <p>And you'll get a local server running a Datasette Agent instance powered by your local model!</p> <p><img alt=\"Screenshot of a chat interface. Header bar reads &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &quot;Chat&quot;, a model label &quot;lmstudio-qwen&quot; and an &quot;EXPORT&quot; button. A blue user message bubble says &quot;how many repos and how many releases are there?&quot; Below it is a collapsed tool call &quot;list_databases_and_tables&quot; and an expanded tool call &quot;sql_query&quot;. Its REQUEST section shows database &quot;content&quot;, display &quot;both&quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &quot;View SQL query&quot; button. The assistant reply reads &quot;There are 200 repos and 1,889 releases in the content database.&quot; At the bottom is a text input with placeholder &quot;Type a message... (# to tag a table or query)&quot; and a blue &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-        "images": [],
-        "ageHours": 5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9c481a0931060f36",
-          "title:c32dd593305ad105"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:9c481a0931060f36",
-          "attempts": 2
-        }
-      },
-      "detail": "tools"
-    },
-    "defer:url:699ac1b796124e5d": {
-      "id": "defer:url:699ac1b796124e5d",
-      "at": "2026-11-15T08:01:53.711Z",
-      "firstAt": "2026-11-15T08:01:53.711Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:699ac1b796124e5d",
-        "title:b1dc47f4e6f21d68"
-      ],
-      "canonical": "https://github.com/ManimCommunity/manim",
-      "title": "GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.",
-      "candidate": {
-        "sourceId": "tg-thenima",
-        "sourceName": "Thenima.one",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.",
-        "link": "https://github.com/ManimCommunity/manim",
-        "canonical": "https://github.com/ManimCommunity/manim",
-        "messageText": "یه چیزی که انیمیشن‌سازی با AI رو همیشه نصفه می‌ذاشت، هماهنگی بود: زمان‌بندی یه جا، سه‌بعدی یه جا، صدا و زیرنویس یه جای دیگه، و هیچ‌کدوم با هم حرف نمی‌زدن.\nاین ترکیب دقیقاً همین رو هدف گرفته: Fable 5.2 + ۲۰ ابزار کنار هم، تا یه ایجنت بتونه تایمینگ، سه‌بعدی، ذرات، صدا و کپشن رو یکجا مدیریت کنه. بیشتر ابزارها رایگان و متن‌بازن.\nاصول حرکت و ایجنت‌ها\n• motion-design-skill: تایمینگ، easing و ۱۲ اصل دیزنی\n• ai-kit: فنرهای CSS و ممیزی حرکت برای ایجنت‌ها\n• Remotion Skills: اسکیل‌های رسمی ویدیو برای ایجنت‌های کدنویس\nفیگور و دیاگرام\n• hairline: فیگورهای خطی تعاملی از یه ایده یا SVG\n• anatomy: ماشین و سیستم به‌شکل فیگور ایزومتریک\n• anatomy-reveal: نمای انفجاری محصول با خروجی MP4\n• Manim: دیاگرام و معادله‌ی متحرک \nسه‌بعدی و جلوه\n• blender-agents: تیم سه‌بعدی AI داخل Blender از طریق MCP\n• Three.js: صحنه و حرکت دوربین\n• react-three-rapier: فیزیک واقعی برای صحنه‌های React Three Fiber \n• react-postprocessing: بلوم، عمق میدان و افکت فیلم \n• three.quarks: ذرات و VFX \n• Tweakpane: کنترل زنده‌ی پارامترها \nموتور انیمیشن و ویدیو\n• GSAP: حالا کاملاً رایگان\n• Remotion: موتور ویدیو با React \n• Lottie: پخش انیمیشن وکتور سبک \nصدا، ریتم و تحویل\n• Openverse: افکت صوتی، صدای محیط و موسیقی رایگان\n• librosa: تشخیص بیت برای انیمیشن سینک با موزیک \n• WhisperX: زمان‌بندی کلمه‌به‌کلمه برای کپشن \n• FFmpeg: انکود و خروجی \n\n@thenimaonAI",
-        "leadPostUrl": "https://t.me/thenimaonAI/512",
-        "published": "2026-11-15T06:18:18+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.7,
-        "aiHint": true,
-        "aiCentral": false,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/ManimCommunity/manim",
-          "https://github.com/pmndrs/react-three-rapier",
-          "https://github.com/pmndrs/react-postprocessing",
-          "https://github.com/Alchemist0823/three.quarks",
-          "https://github.com/cocopon/tweakpane",
-          "https://github.com/remotion-dev/remotion",
-          "https://github.com/airbnb/lottie-web",
-          "https://github.com/librosa/librosa",
-          "https://github.com/m-bain/whisperX",
-          "https://github.com/FFmpeg/FFmpeg"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:699ac1b796124e5d",
-          "title:b1dc47f4e6f21d68"
-        ],
-        "leadSource": "thenimaonAI",
-        "leadMessageId": 512,
-        "leadChannelUrl": "https://t.me/thenimaonAI",
-        "sourceFocus": "education",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:c9cc4e89e2027c0f": {
-      "id": "defer:url:c9cc4e89e2027c0f",
-      "at": "2026-11-15T08:01:53.711Z",
-      "firstAt": "2026-11-15T08:01:53.711Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:c9cc4e89e2027c0f",
-        "title:c9932d8398fae752"
-      ],
-      "canonical": "https://github.com/iart-ai/motion-skills",
-      "title": "GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,",
-      "candidate": {
-        "sourceId": "tg-mgh-mobin",
-        "sourceName": "M G H M O B I N",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - iart-ai/motion-skills: 56 open-source skills that teach your AI coding agent to make motion graphics,",
-        "link": "https://github.com/iart-ai/motion-skills",
-        "canonical": "https://github.com/iart-ai/motion-skills",
-        "messageText": "بچه ها این‌ پروژه برای موشن خیلی به کار میاد چکش کنید حتما\n\nاین پروژه یک مجموعه متن‌باز شامل ۵۶ Skill در ۱۹ پکیج تخصصی است که به Coding Agentها یاد می‌ده چطور موشن‌گرافیک، انیمیشن و ویدئو تولید کنن.\n\n🎬 چه کارهایی می‌تونی باهاش انجام بدی؟\n\nبعضی از حوزه‌هایی که این مجموعه پوشش می‌ده:\n\n🔹 حوزه Motion Design: ساخت موشن‌گرافیک، انیمیشن لوگو، ترکیب‌بندی و طراحی حرکتی\n\n🔹حوزه Kinetic Typography: متحرک‌سازی حرفه‌ای متن و تایپوگرافی\n\n🔹حوزه TikTok / Reels / Shorts: تولید ویدئوهای عمودی و محتوای کوتاه\n\n🔹حوزه Product & E-commerce Videos: ساخت ویدئوهای تبلیغاتی و معرفی محصولات\n\n🔹 حوزه Explainer Videos: تولید ویدئوهای آموزشی و توضیحی\n\n🔹حوزه Data Animation: تبدیل داده‌ها و نمودارها به انیمیشن‌های جذاب\n\n🔹 حوزه 3D & WebGL: ساخت انیمیشن‌های سه‌بعدی، Shader و صحنه‌های تعاملی با Three.js\n\n🔹حوزه Web Animation: انیمیشن‌های وب با GSAP، SVG و Lottie\n\n🔹 حوزه Manim: ساخت انیمیشن‌های ریاضی و آموزشی\n\n🔹 حوزه Generative Illustration: تولید تصویرسازی‌های خلاقانه با کدنویسی\n\n🔹 حوزه B-Roll و Talking Head: ساخت نماهای مکمل و ویدئوهای مبتنی بر گوینده\n\nحتی برای ساخت Lower Third شفاف، انیمیشن نقشه، ویدئوهای پیامکی و انیمیشن‌های فریم‌به‌فریم با JavaScript هم Skill اختصاصی داره.\n\n⚙️ نکته جالب این پروژه چیه؟\n\nموضوع فقط تولید انیمیشن نیست؛ بلکه روی کنترل کیفیت خروجی هم تمرکز کرده.\n\nبسیاری از Skillهای این مجموعه یک چرخه مشخص برای بررسی خروجی دارن:\n\n۱. اول Agent انیمیشن رو تولید می‌کنه.\n۲. از فریم‌های خروجی تصویر می‌گیره.\n۳. فریم‌ها رو بررسی می‌کنه تا مشکلات بصری مشخص بشن.\n۴. در صورت نیاز خروجی رو اصلاح می‌کنه.\n\nیعنی به‌جای اینکه Agent صرفاً کد بنویسه و امیدوار باشیم خروجی درست باشه، خودش هم نتیجه کارش رو …",
-        "leadPostUrl": "https://t.me/mgh_mobin/481",
-        "published": "2026-11-15T06:27:59+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/iart-ai/motion-skills"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:c9cc4e89e2027c0f",
-          "title:c9932d8398fae752"
-        ],
-        "leadSource": "mgh_mobin",
-        "leadMessageId": 481,
-        "leadChannelUrl": "https://t.me/mgh_mobin",
-        "sourceFocus": "education",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:33aa528b7cafa355": {
-      "id": "defer:url:33aa528b7cafa355",
-      "at": "2026-11-15T08:48:20.909Z",
-      "firstAt": "2026-11-15T08:48:20.909Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:33aa528b7cafa355",
-        "title:1cc7068d0c822fff"
-      ],
-      "canonical": "https://www.producthunt.com/products/agentgrid-io",
-      "title": "Canvas by AgentGrid.io",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Canvas by AgentGrid.io",
-        "link": "https://www.producthunt.com/products/agentgrid-io",
-        "canonical": "https://www.producthunt.com/products/agentgrid-io",
-        "published": "2026-11-14T22:22:09-08:00",
-        "summary": "<p> Agentic Design Canvas - A visual way to collaborate with AI </p> <p> <a href=\"https://www.producthunt.com/products/agentgrid-io?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317198?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/agentgrid-io",
-        "images": [],
-        "ageHours": 2.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:33aa528b7cafa355",
-          "title:1cc7068d0c822fff"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:17fc6ede4247840a": {
-      "id": "defer:url:17fc6ede4247840a",
-      "at": "2026-11-15T10:32:01.957Z",
-      "firstAt": "2026-11-15T10:32:01.957Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:17fc6ede4247840a",
-        "title:3b7fbb1e7711dc45"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
-      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-        "link": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-        "canonical": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
-        "published": "Sat, 14 Nov 2026 19:05:17 +0000",
-        "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_logos-5.png"
-        ],
-        "ageHours": 15.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:17fc6ede4247840a",
-          "title:3b7fbb1e7711dc45"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1fe7c02fe7977698": {
-      "id": "defer:url:1fe7c02fe7977698",
-      "at": "2026-11-15T10:32:01.958Z",
-      "firstAt": "2026-11-15T10:32:01.958Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:1fe7c02fe7977698",
-        "title:62913d4fe8942d17"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
-      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-        "link": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-        "canonical": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
-        "published": "Sat, 14 Nov 2026 16:42:56 +0000",
-        "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
-        ],
-        "ageHours": 17.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:1fe7c02fe7977698",
-          "title:62913d4fe8942d17"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0657681e47e39496": {
-      "id": "defer:url:0657681e47e39496",
-      "at": "2026-11-15T10:32:01.958Z",
-      "firstAt": "2026-11-15T10:32:01.958Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0657681e47e39496",
-        "title:64914376814309f3"
-      ],
-      "canonical": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
-      "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
-        "link": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-        "canonical": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
-        "published": "Sat, 14 Nov 2026 11:40:51 +0000",
-        "summary": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to accelerate its robotics efforts. The article OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-        "images": [
-          "http://the-decoder.com/wp-content/uploads/2026/09/astra_robot_kitchen_test.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/09/openai_robot_arms.png"
-        ],
-        "ageHours": 22.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:0657681e47e39496",
-          "title:64914376814309f3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:945b3dc7df719915": {
-      "id": "defer:url:945b3dc7df719915",
-      "at": "2026-11-15T10:32:01.958Z",
-      "firstAt": "2026-11-15T10:32:01.958Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:945b3dc7df719915",
-        "title:adebadb6315f15c1"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
-      "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
-        "link": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-        "canonical": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
-        "published": "Sat, 14 Nov 2026 11:21:41 +0000",
-        "summary": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitors can catch up and human-level AI can become a commodity. The article Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/09/claude_laser.png"
-        ],
-        "ageHours": 23.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:945b3dc7df719915",
-          "title:adebadb6315f15c1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:886299adc4b73faf": {
-      "id": "defer:url:886299adc4b73faf",
-      "at": "2026-11-15T11:09:49.531Z",
-      "firstAt": "2026-11-15T11:09:49.531Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:886299adc4b73faf",
-        "title:aebc7c8c2c3476f3"
-      ],
-      "canonical": "https://github.com/microsoft/TokenEconomizer",
-      "title": "GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
-      "candidate": {
-        "sourceId": "tg-codecloude",
-        "sourceName": "Code.Cloud | کـــد کلاد",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - microsoft/TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
-        "link": "https://github.com/microsoft/TokenEconomizer",
-        "canonical": "https://github.com/microsoft/TokenEconomizer",
-        "messageText": "هوش مصنوعی کدنویس داری؟ احتمالاً داری برای توکن‌های اضافی پول می‌دی!\n\nمایکروسافت با همکاری دانشگاه برکلی ابزاری به اسم TokenEconomizer ساخته که بدون تغییر مدل AI، هزینه استفاده از ایجنت‌های کدنویسی رو کاهش می‌ده!\n\nاین ابزار اطلاعات تکراری پروژه رو به خاطر می‌سپاره، ابزارهای غیرضروری رو کنار می‌ذاره و جلوی گیرکردن ایجنت توی چرخه خطاهای تکراری رو می‌گیره.\n\n🔥 نتیجه آزمایش‌ها؟ بین ۱۸ تا ۳۱ درصد کاهش هزینه در سناریوهای بررسی‌شده! سازگار با Claude Code، Codex و GitHub Copilot CLI.\n\n🔗 پروژه رایگان و متن‌باز:\n\n💬💬📷Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
-        "leadPostUrl": "https://t.me/codecloude/2588",
-        "published": "2026-11-15T10:54:10+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/microsoft/TokenEconomizer",
-          "http://codecloude.ir/"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:886299adc4b73faf",
-          "title:aebc7c8c2c3476f3"
-        ],
-        "leadSource": "codecloude",
-        "leadMessageId": 2588,
-        "leadChannelUrl": "https://t.me/codecloude",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:7e59a840b8400113": {
-      "id": "defer:url:7e59a840b8400113",
-      "at": "2026-11-15T11:09:49.531Z",
-      "firstAt": "2026-11-15T11:09:49.531Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7e59a840b8400113",
-        "title:98a472f5995eb26c"
-      ],
-      "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
-      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
-        "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-        "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
-        "published": "Sun, 15 Nov 2026 10:45:58 +0000",
-        "summary": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike Major cautions against jumping to conclusions, however, noting that business cycle shifts and remote work trends could also explain the numbers. The article Australia's central bank finds AI hitting young workers first, especially in software and customer service appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/ai_impact_australian_jobs.png"
-        ],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:7e59a840b8400113",
-          "title:98a472f5995eb26c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b652366d4a49aac6": {
-      "id": "defer:url:b652366d4a49aac6",
-      "at": "2026-11-15T13:31:13.276Z",
-      "firstAt": "2026-11-15T13:31:13.276Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:b652366d4a49aac6",
-        "title:f1242987f11a1bf4"
-      ],
-      "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
-      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
-        "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
-        "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
-        "published": "Sun, 15 Nov 2026 11:35:12 +0000",
-        "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
-        ],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b652366d4a49aac6",
-          "title:f1242987f11a1bf4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ea9a0aeacb77421e": {
-      "id": "defer:url:ea9a0aeacb77421e",
-      "at": "2026-11-15T19:31:50.410Z",
-      "firstAt": "2026-11-15T19:31:50.410Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ea9a0aeacb77421e",
-        "title:ce35625ab6ab63e9"
-      ],
-      "canonical": "https://github.com/anefzaoui/misterdownloadmanager",
-      "title": "GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download",
-      "candidate": {
-        "sourceId": "tg-codecloude",
-        "sourceName": "Code.Cloud | کـــد کلاد",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download",
-        "link": "https://github.com/anefzaoui/misterdownloadmanager",
-        "canonical": "https://github.com/anefzaoui/misterdownloadmanager",
-        "messageText": "یه رقیب رایگان برای IDM پیدا شده که ادعا می‌کنه حتی سریع‌تر هم دانلود می‌کنه! 🔥\n\nابزار Mister Download Manager با زبان Rust ساخته شده و بدون تبلیغات، محدودیت آزمایشی یا نیاز به ثبت‌نام، دانلود‌هات رو مدیریت می‌کنه.\n\nدانلود چندبخشی، ادامه دانلودهای قطع‌شده، پشتیبانی از تورنت و ویدیو، اتصال به مرورگر و حتی کنترل دانلودها با ایجنت‌های AI!\n\n✅جذاب‌تر اینکه از زبان فارسی و رابط راست‌چین هم پشتیبانی می‌کنه!\n\n💻 ویندوز و لینوکس؛ نسخه مک فعلاً آزمایشی\n🔗 رایگان و متن‌باز:\n\n💬💬📷Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
-        "leadPostUrl": "https://t.me/codecloude/2590",
-        "published": "2026-11-15T18:51:37+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": false,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/anefzaoui/misterdownloadmanager",
-          "http://codecloude.ir/"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:ea9a0aeacb77421e",
-          "title:ce35625ab6ab63e9"
-        ],
-        "leadSource": "codecloude",
-        "leadMessageId": 2590,
-        "leadChannelUrl": "https://t.me/codecloude",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:2e8f421d2ee2a3df": {
       "id": "defer:url:2e8f421d2ee2a3df",
       "at": "2026-11-16T20:19:13.484Z",
@@ -11982,692 +10536,11 @@
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
-    "defer:url:eacf944e688a1074": {
-      "id": "defer:url:eacf944e688a1074",
-      "at": "2026-11-16T08:02:24.214Z",
-      "firstAt": "2026-11-16T08:02:24.214Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:eacf944e688a1074",
-        "title:d8a85a4ec48844fe"
-      ],
-      "canonical": "https://skillry.dev/ai-videos/opus-5-5",
-      "title": "اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی",
-      "candidate": {
-        "sourceId": "tg-mohammad-zammani",
-        "sourceName": "هوش مصنوعی | محمد زمانی",
-        "sourceType": "telegram_channel",
-        "title": "اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی",
-        "link": "https://skillry.dev/ai-videos/opus-5-5",
-        "canonical": "https://skillry.dev/ai-videos/opus-5-5",
-        "messageText": "اینکه بدون باز کردن افتر افکت و بدون زدن حتی یک کی‌فریم دستی، با هوش مصنوعی موشن‌گرافیک‌های حرفه‌ای، صحنه‌های سه‌بعدی و حتی موسیقی متن هماهنگ با تصویر بسازی، تا همین چند وقت پیش شبیه شوخی بود؛ اما مدل Claude Opus 5.5 این قاعده رو کاملاً عوض کرده.\n\nصفحه Opus 5.5 Videos در وب‌سایت Skillry دقیقاً جاییه که خروجی‌های وایرال و شگفت‌انگیز این مدل یک‌جا جمع شدن. اینجا با یک گالری ویدیویی معمولی طرف نیستیم؛ توی این صفحه ۴۱۸ پروژه واقعی قرار گرفته که تمام فریم‌ها و حتی افکت‌های صوتی‌شون مستقیماً با کدنویسی و ابزارهایی مثل Remotion، HyperFrames، Three.js و GSAP خلق شدن.\n\nچیزی که این صفحه رو به یک معدن طلا برای تولیدکننده‌های محتوا و توسعه‌دهنده‌ها تبدیل می‌کنه، سه ویژگی کلیدیه:\n\n✅دسترسی رایگان به پرامپت‌های اصلی: زیر هر ویدیو، پرامپت دقیق و کاملی که سازنده استفاده کرده به صورت رایگان قرار گرفته تا بتونی مستقیماً کپی کنی، شخصی‌سازی کنی یا از منطق پرامپت‌نویسی‌اش ایده بگیری.\n\n✅مقایسه زنده نسخه اصلی و بازسازی (Live Remake): یکی از جذاب‌ترین بخش‌های سایت، امکان مقایسه هم‌زمان و کنار همِ ویدیوی اصلی با نسخه بازسازی‌شده زنده در مرورگره.\n\n✅اکوسیستم مهارت‌های آماده (Skills): علاوه‌بر این آرشیو، خود پلتفرم Skillry مجموعه‌ای از مهارت‌های آماده رو ارائه می‌ده که می‌تونی روی ایجنت‌های کدنویسی مثل Claude Code، Cursor یا Codex نصب کنی تا صفر تا صد ویدیو، اسلاید یا صفحات وب رو برات بسازن.\n\nاگه می‌خوای ببینی ترکیب کدنویسی و هوش مصنوعی چطور داره جای روش‌های سنتی ساخت ویدیو و موشن‌گرافیک رو می‌گیره و دنبال الهام گرفتن از نمونه‌های واقعی هستی، حتماً به این صفحه سر بزن:\n\n✈️@mohammad_zammani\n📱Mohammad.zammani.offical\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍4😎4🔥3🥰3❤1👏1",
-        "leadPostUrl": "https://t.me/Mohammad_zammani/7219",
-        "published": "2026-11-16T07:17:07+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://skillry.dev/ai-videos/opus-5-5",
-          "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:eacf944e688a1074",
-          "title:d8a85a4ec48844fe"
-        ],
-        "leadSource": "Mohammad_zammani",
-        "leadMessageId": 7219,
-        "leadChannelUrl": "https://t.me/Mohammad_zammani",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:44bf92228a9e42f2": {
-      "id": "defer:url:44bf92228a9e42f2",
-      "at": "2026-11-16T08:02:24.214Z",
-      "firstAt": "2026-11-16T08:02:24.214Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:44bf92228a9e42f2",
-        "title:eba124c9b93b10ea"
-      ],
-      "canonical": "https://github.com/ranxianglei/billion-context",
-      "title": "GitHub - ranxianglei/billion-context: A context-compression plugin for month-long single sessions (billions of",
-      "candidate": {
-        "sourceId": "tg-thenima",
-        "sourceName": "Thenima.one",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - ranxianglei/billion-context: A context-compression plugin for month-long single sessions (billions of",
-        "link": "https://github.com/ranxianglei/billion-context",
-        "canonical": "https://github.com/ranxianglei/billion-context",
-        "messageText": "وقتی یه ایجنت کدنویسی (مثل Claude Code یا Codex) چند ساعت روی یه پروژه کار می‌کنه، کانتکست پر می‌شه. یا گفتگو بریده می‌شه، یا خودش یه خلاصه‌ی سرسری می‌سازه و نصف جزئیات گم می‌شه. 🧠\n\nBillion Context سعی می‌کنه همین مشکل رو حل کنه. ابزاری متن‌بازه که بین ایجنت و API مدل می‌شینه و بخش‌های قدیمی گفتگو رو به خلاصه‌های لایه‌ای تبدیل می‌کنه تا برای ادامه‌ی کار جا باز بشه.\n\nچطور کار می‌کنه؟\nابزار چهار تا قابلیت به مدل می‌ده و خود مدل تصمیم می‌گیره کی استفاده کنه:\n🔹 compress: یه بازه از پیام‌ها رو به خلاصه‌ی دقیق تبدیل می‌کنه\n🔹 decompress: وقتی جزئیات واقعی لازم شد، همون بخش رو برمی‌گردونه\n🔹 search_context: توی خلاصه‌ها و پیام‌های موجود جست‌وجو می‌کنه\n🔹 acp_status: وضعیت مصرف کانتکست رو نشون می‌ده\n\nچه چیزهایی باید بدونی؟\n✅ به یه مدل خاص محدود نیست؛ با Claude Code، Codex، OpenCode، Gemini CLI و کلی ابزار دیگه کار می‌کنه. شرطش اینه که ابزارت راهی برای اتصال به پراکسی داشته باشه.\n💰 پروژه رایگانه، ولی هزینه‌ی مدل جداست.\n📉 میزان صرفه‌جویی به نوع کار و تنظیمات بستگی داره.\n⚠️ سهمیه‌ی اشتراک سرویس‌ها رو حذف نمی‌کنه.\n\n🔗 \n\n@thenimaonAI",
-        "leadPostUrl": "https://t.me/thenimaonAI/522",
-        "published": "2026-11-16T06:56:32+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/ranxianglei/billion-context"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:44bf92228a9e42f2",
-          "title:eba124c9b93b10ea"
-        ],
-        "leadSource": "thenimaonAI",
-        "leadMessageId": 522,
-        "leadChannelUrl": "https://t.me/thenimaonAI",
-        "sourceFocus": "education",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:756ac6b73c7a6695": {
-      "id": "defer:url:756ac6b73c7a6695",
-      "at": "2026-11-16T08:02:24.214Z",
-      "firstAt": "2026-11-16T08:02:24.214Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:756ac6b73c7a6695",
-        "title:b3e0268d083492f4"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/15/datasette-apps",
-      "title": "datasette-apps 0.4a0",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "datasette-apps 0.4a0",
-        "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-        "canonical": "https://simonwillison.net/2026/Nov/15/datasette-apps",
-        "published": "2026-11-15T04:02:45+00:00",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other.</p> <p>This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/datasette-apps\">datasette-apps</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/urls\">urls</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-        "images": [],
-        "ageHours": 28,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:756ac6b73c7a6695",
-          "title:b3e0268d083492f4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a434c2daa44c258b": {
-      "id": "defer:url:a434c2daa44c258b",
-      "at": "2026-11-16T08:02:24.214Z",
-      "firstAt": "2026-11-16T08:02:24.214Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:a434c2daa44c258b",
-        "title:c3e4e56c83237705"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/15/datasette-agent",
-      "title": "datasette-agent 0.6a0",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "datasette-agent 0.6a0",
-        "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-        "canonical": "https://simonwillison.net/2026/Nov/15/datasette-agent",
-        "published": "2026-11-15T03:49:47+00:00",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.6a0\">datasette-agent 0.6a0</a></p> <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p> <p><img alt=\"Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an ask button. User has typed: Tell me about #re - the box is showing autocomplete results for the repos and releases tables.\" src=\"https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-        "images": [],
-        "ageHours": 28.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a434c2daa44c258b",
-          "title:c3e4e56c83237705"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:164ff2e912f3fc38": {
-      "id": "defer:url:164ff2e912f3fc38",
-      "at": "2026-11-16T08:02:24.214Z",
-      "firstAt": "2026-11-16T08:02:24.214Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:164ff2e912f3fc38",
-        "title:d2b62aae2f01884e"
-      ],
-      "canonical": "https://www.producthunt.com/products/chatgpt",
-      "title": "ChatGPT Wallet",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "ChatGPT Wallet",
-        "link": "https://www.producthunt.com/products/chatgpt",
-        "canonical": "https://www.producthunt.com/products/chatgpt",
-        "published": "2026-11-13T10:06:13-08:00",
-        "summary": "<p> Let ChatGPT agents buy things without seeing your card </p> <p> <a href=\"https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1315610?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/chatgpt",
-        "images": [],
-        "ageHours": 61.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:164ff2e912f3fc38",
-          "title:d2b62aae2f01884e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:33b95c2112c46efd": {
-      "id": "defer:url:33b95c2112c46efd",
-      "at": "2026-11-16T10:31:57.402Z",
-      "firstAt": "2026-11-16T10:31:57.402Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:33b95c2112c46efd",
-        "title:0879055f0cab7736"
-      ],
-      "canonical": "https://openai.com/index/our-new-blog-for-science",
-      "title": "Our new blog for science",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Our new blog for science",
-        "link": "https://openai.com/index/our-new-blog-for-science",
-        "canonical": "https://openai.com/index/our-new-blog-for-science",
-        "published": "Sun, 15 Nov 2026 22:00:00 GMT",
-        "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/our-new-blog-for-science",
-        "images": [],
-        "ageHours": 12.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:33b95c2112c46efd",
-          "title:0879055f0cab7736"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4dc52c1c30681cda": {
-      "id": "defer:url:4dc52c1c30681cda",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4dc52c1c30681cda",
-        "title:bc39bf7f77e63fe2"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18553v1",
-      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-        "link": "https://arxiv.org/abs/2611.18553v1",
-        "canonical": "https://arxiv.org/abs/2611.18553v1",
-        "published": "2026-11-13T18:58:08Z",
-        "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (WSP). Exploring this new paradigm systematically requires a robust benchmark. We introduce WEIGHTBENCH, a benchmark that evaluates LLMs of increasing capability on 42 WSP tasks across five tracks: reading, fixing and writing weights, recognizing edits that are impossible, and data-free compression. The networks whose weights the LLMs read and edit range from 2K-parameter control policies to 7B-parameter language models. Experimental benchmark results show that frontier agents can already read small networks and write working control policies without ever running them, but cannot yet patch language models, compress them without data, or tell an impossible edit from a hard one. On all 42 tasks, Claude Opus 5.5 reaches a macro score of 0.535 (Sonnet 5.5 0.466, Haiku 5.5 0.402, DeepSeek v4-flash 0.215); on the 38 tasks it was run on, GPT-6.1-sol reaches 0.568 against Opus's 0.546. Code, the task registry, our OS-level sandbox harness, and the live leaderboard are publicly available at https://github.com/Aayush-Marasini/WeightBench.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18553v1",
-        "images": [],
-        "ageHours": 63.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:4dc52c1c30681cda",
-          "title:bc39bf7f77e63fe2"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b486f086aff0edb1": {
-      "id": "defer:url:b486f086aff0edb1",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:b486f086aff0edb1",
-        "title:d50c2e9b8c47bd86"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18542v1",
-      "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
-        "link": "https://arxiv.org/abs/2611.18542v1",
-        "canonical": "https://arxiv.org/abs/2611.18542v1",
-        "published": "2026-11-13T18:49:36Z",
-        "summary": "Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the resulting probability-flow ODE. In this work, we introduce a new framework for joint schedule/discretization design based on the analyticity properties of the (complexified) ODE trajectories, which in turn ensure good numerical behavior. Our formulation can be solved exactly via conformal mapping, yielding a natural family of variance-preserving elliptic schedules, parametrized by Jacobi elliptic functions. Pairing an elliptic schedule with a tailored discretization, we obtain Zoloflow, a new sampling algorithm closely connected to Zolotarev's optimal rational function approximants. Crucially, both the elliptic schedule and Zoloflow explicitly incorporate the condition number $κ$ of the target distribution and reduce to the classical trig schedule in the limit $κ\\rightarrow 1$. For Gaussian targets, Zoloflow achieves minimax optimality among all oblivious score-span algorithms, attaining total-variation error $\\varepsilon$ using $Θ(\\logκ\\,\\log(\\sqrt d/\\varepsilon))$ (exact) score queries. For the log-concave case, the elliptic schedule allows sampling with at most $\\varepsilon$ 2-Wasserstein-error by requiring merely $\\widetilde{O}(\\sqrt{d} \\, \\mathrm{polylog}(κ, 1/\\varepsilon))$ score evaluations. Complementing these theoretical results, we empirically evaluate the elliptic schedule on general (non-log-concave) target distributions, including detailed comparisons with alternative schedule proposals on both synthetic benchmarks and existing image generation datasets.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18542v1",
-        "images": [],
-        "ageHours": 63.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b486f086aff0edb1",
-          "title:d50c2e9b8c47bd86"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4a0c4669c0456e3a": {
-      "id": "defer:url:4a0c4669c0456e3a",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4a0c4669c0456e3a",
-        "title:0707abad90105978"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18531v1",
-      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-        "link": "https://arxiv.org/abs/2611.18531v1",
-        "canonical": "https://arxiv.org/abs/2611.18531v1",
-        "published": "2026-11-13T18:43:24Z",
-        "summary": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show that long-run growth is maximized when each action is taken as often as the environment rewards it. We compare three policies. A task-only policy thrives in a sandbox rewarding completion alone but fails when conduct matters. A fixed linear policy increasingly favors task completion as its stakes rise, even where humans never reward it. A learned policy instead converges to the tradeoffs rewarded by its environment; when humans supply the rewards, we call this socialization. Accumulated experience makes socialization harder to reverse under subsequent task-only training, although violations can arise before the prevailing disposition changes, and finite memory weakens this protection. When a single violation can end a deployment, a hard prohibition can prevent it, but a mistaken prohibition can also be costly. Experiments with small neural networks illustrate how training targets and memory shape these outcomes. Our results suggest that alignment depends not only on the objectives assigned to agents, but also on the environments that shape and sustain their behavior.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18531v1",
-        "images": [],
-        "ageHours": 63.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:4a0c4669c0456e3a",
-          "title:0707abad90105978"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a255e117e2b812eb": {
-      "id": "defer:url:a255e117e2b812eb",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a255e117e2b812eb",
-        "title:98dff130c72c9be6"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18533v1",
-      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-        "link": "https://arxiv.org/abs/2611.18533v1",
-        "canonical": "https://arxiv.org/abs/2611.18533v1",
-        "published": "2026-11-13T18:45:49Z",
-        "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain, the data and the model, and keeps changing as the model trains. We introduce ModHarness-RL, which recasts the harness as programs that are learned from data and evolve as the model trains with RL. ModHarness-RL records the interaction as structured State, a set of typed blocks, and two core components of the harness are programs over these blocks, a Compression program that assembles the accumulated history into the model's context and a Steering program that supplies guidance when behavior deviates. During RL training, candidate programs are proposed from recent trajectories, verified by execution, and replayed over past trajectories, so the harness tracks how the model's behavior shifts. We study CodeSearch in depth and further analyze ALFWorld and BIRD SQL, with models from 1.5B to 8B. The proposed Compression and Steering mechanisms improve held-out performance over the fixed-harness baseline in most settings. These results suggest that a harness for agentic RL can be learned from the task's data and evolved with the model.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18533v1",
-        "images": [],
-        "ageHours": 63.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a255e117e2b812eb",
-          "title:98dff130c72c9be6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7567abc5b8d6d93f": {
-      "id": "defer:url:7567abc5b8d6d93f",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:7567abc5b8d6d93f",
-        "title:c50bd2b5e15ac1b0"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18504v1",
-      "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
-        "link": "https://arxiv.org/abs/2611.18504v1",
-        "canonical": "https://arxiv.org/abs/2611.18504v1",
-        "published": "2026-11-13T18:20:23Z",
-        "summary": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of logical gates, logical routines on encoded qubits, etc. Yet, these circuits are largely designed by hand for individual cases, with some recent works incorporating machine learning for certain aspects. We formulate this problem as agentic evolutionary program synthesis, wherein a large language model, leveraging its pretraining knowledge and tool-use proficiency, and guided by a circuit verifier, evolves a program that defines a Clifford circuit for a wide range of curated tasks such as logical state preparation, logical gate design, and logical routines such as code-switching, code growth, etc. Our approach consistently finds fault-tolerant circuits for all of these tasks, each verified by an exhaustive check over faults.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18504v1",
-        "images": [],
-        "ageHours": 64.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7567abc5b8d6d93f",
-          "title:c50bd2b5e15ac1b0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:91e666382ffe031a": {
-      "id": "defer:url:91e666382ffe031a",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:91e666382ffe031a",
-        "title:9ff0fc520c6dc993"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18493v1",
-      "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
-        "link": "https://arxiv.org/abs/2611.18493v1",
-        "canonical": "https://arxiv.org/abs/2611.18493v1",
-        "published": "2026-11-13T18:05:23Z",
-        "summary": "Autonomous trading agents need controls that prevent problematic orders without making legitimate tasks impractical. We study this aspect of agentic compliance with TradeGauntlet, a replayable limit-order-book simulator that separates detection, prevention, and execution cost. In 1,680 simulated sessions with Claude Haiku 5.5 and Sonnet 5.5, all conduct alerts were self-matches. Gates eliminated those alerts by rejecting self-crossing orders, while the aggregate-gate condition reduced Sonnet's two-sided fills by about 15%. A conduct reminder reduced Sonnet's alert rate but reduced Haiku's fills without a detectable alert benefit. These results show why zero alerts alone do not establish an agent's compliance. Scripted probes and two search methods test weaknesses beyond those observed in the LLM runs. The searches find split-order schedules that evade the implemented conduct rules; a learned baseline catches all 2,400 tested searched episodes but also flags 15% of a large maker's sessions. Aggregate caps reduce the response-dependent gain unevenly, with smaller reductions when only near-touch depth affects prices. A response fitted to five Nasdaq stocks and a separate ABIDES experiment expose the dependence of these estimates on market assumptions. A distinct adversarial prompt elicited refusals from Sonnet in all 240 rounds, yielding no candidate strategies to evaluate. TradeGauntlet provides reproducible tests of controls around trading agents; the experiments do not establish legal compliance or real-market detection accuracy.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18493v1",
-        "images": [],
-        "ageHours": 64.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:91e666382ffe031a",
-          "title:9ff0fc520c6dc993"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ef5923457d8fd1e1": {
-      "id": "defer:url:ef5923457d8fd1e1",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:ef5923457d8fd1e1",
-        "title:3a0ceb910aabdddf"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18484v1",
-      "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
-        "link": "https://arxiv.org/abs/2611.18484v1",
-        "canonical": "https://arxiv.org/abs/2611.18484v1",
-        "published": "2026-11-13T17:59:40Z",
-        "summary": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action especially visible by translating AI-generated recommendations and decisions into speech, movement, prompting, physical assistance, escalation, and care coordination, making embodiment, clinical integration, human oversight, and governance fundamental design requirements. Further progress requires safe and interoperable care architectures in which intelligent components operate through clinically validated and accountable workflows. We propose agentic robotics as a future direction for supervised systems embedded in the care ecosystem, connecting AI agents and robots with clinicians, caregivers, and patients through auditable workflows that can be interrupted and remain subject to human oversight and explicit AI governance.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18484v1",
-        "images": [],
-        "ageHours": 64.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:ef5923457d8fd1e1",
-          "title:3a0ceb910aabdddf"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7fe55dac93616568": {
-      "id": "defer:url:7fe55dac93616568",
-      "at": "2026-11-16T10:31:57.403Z",
-      "firstAt": "2026-11-16T10:31:57.403Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:7fe55dac93616568",
-        "title:4c9b4c1e34e90543"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.18485v1",
-      "title": "Interactive Program Induction with Language Model Priors",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Interactive Program Induction with Language Model Priors",
-        "link": "https://arxiv.org/abs/2611.18485v1",
-        "canonical": "https://arxiv.org/abs/2611.18485v1",
-        "published": "2026-11-13T17:59:55Z",
-        "summary": "Program induction refers to the process in which a learner aims to recover a program from a few given input-output examples. This paradigm broadens programming access by letting users demonstrate the rule-based behavior they want to apply to unseen data, instead of having to implement it themselves. However, recovering a program from finite input-output examples is fundamentally ambiguous, as a finite set of input-output examples is theoretically consistent with infinitely many programs whose output diverges on unseen inputs. We view this problem from a Bayesian perspective, where, given a prior $p^0$ over programs, identifying the target program means concentrating posterior probability mass on it by observing additional input-output examples. In the interactive program induction setting, the learner chooses maximally informative inputs and queries an oracle, such as the user, for their outputs. We derive a greedy query-selection algorithm and show that it terminates after $\\mathcal{O}(\\frac{1}γ\\log 1/p^0(f^\\star))$ informative oracle queries, and returns the target program $f^\\star$ up to approximate equivalence when no other class outweighs it under the prior. The algorithm uses a language model as the prior under a PAC-style relaxation of program equivalence, where the query-selection objective is estimated using importance sampling. On the CodeARC benchmark, the algorithm improves accuracy over the LM only agent by up to 22 percentage points while observing up to 10.5 fewer input-output examples.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.18485v1",
-        "images": [],
-        "ageHours": 64.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7fe55dac93616568",
-          "title:4c9b4c1e34e90543"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:ff7833693fa2a067": {
       "id": "defer:url:ff7833693fa2a067",
-      "at": "2026-11-17T10:32:22.758Z",
+      "at": "2026-11-17T11:21:25.301Z",
       "firstAt": "2026-11-16T10:33:44.959Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -12710,7 +10583,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:ff7833693fa2a067",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -14049,59 +11922,6 @@
         "leadKind": ""
       },
       "detail": "business"
-    },
-    "defer:url:1738f67eaaddba29": {
-      "id": "defer:url:1738f67eaaddba29",
-      "at": "2026-11-17T10:32:22.657Z",
-      "firstAt": "2026-11-16T20:18:45.031Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1738f67eaaddba29",
-        "title:45918e3b504a8f28"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "California state AG sues OpenAI over rogue agent incidents",
-        "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-        "canonical": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
-        "published": "Mon, 16 Nov 2026 20:07:13 +0000",
-        "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-        "images": [],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:1738f67eaaddba29",
-          "title:45918e3b504a8f28"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:1738f67eaaddba29",
-          "attempts": 0
-        }
-      },
-      "detail": "security"
     },
     "defer:url:a9995c40a3422c04": {
       "id": "defer:url:a9995c40a3422c04",
@@ -17159,11 +14979,35 @@
     },
     "2026-11-17T14:00+03:30": {
       "at": "2026-11-17T10:32:23.617Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0017855712,
-      "tokens": 20445,
-      "posts": []
+      "cost": 0.0020160784,
+      "tokens": 22496,
+      "posts": [
+        {
+          "title": "دادستان کالیفرنیا از OpenAI شکایت کرد",
+          "category": "business",
+          "status": "sent",
+          "messageId": 96,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0020160784,
+          "tokens": 22496,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-17T11:21:25.248Z"
+        }
+      ],
+      "category": "business",
+      "title": "دادستان کالیفرنیا از OpenAI شکایت کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/14-00",
+      "messageId": 96,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "42/43"
     }
   },
   "published": [
@@ -18558,93 +16402,111 @@
       "sourceTitle": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
       "sourceText": "California on Monday sued OpenAI for breaking state law barring companies from engaging in unfair and unlawful business practices due to its alleged failure to stop its AI agents from hacking Hugging Face and deceiving the public about that cyberattack and other similar incidents.\nThe lawsuit , filed in San Francisco Superior Court, alleges OpenAI officials told state Attorney General Rob Bonta’s office it has lost control over its agents 80-plus times during testing. OpenAI then failed to cooperate with the attorney general’s probe, the office said.\n“Rather than take responsibility and be transparent with the public and with regulators\nso that these loss-of-control incidents can be analyzed and prevented, OpenAI thwarted the\nAttorney General’s efforts to investigate these incidents, including by refusing to provide detailed\ninformation about the full universe of incidents known to the company,” the lawsuit said.\nOpenAI allegedly responded to subpoenas with “just a smattering of publicly available information, self-serving blog posts and redacted copies of a few dozen external communications containing high-level descriptions of select security incidents,” according to the lawsuit.\nThe artificial intelligence giant is violating California’s Unfair Competition Law, Bonta says, and the company also qualifies as a public nuisance under state law due to its allegedly dangerous practices.\nThe attorney general is asking a judge to prevent OpenAI from using unfair competition tactics, restore money individuals and organizations lost due to its practices and assess civil penalties ",
       "at": "2026-11-17T08:16:04.332Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-17T14:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "دادستان کالیفرنیا از OpenAI شکایت کرد",
+      "why": "این پرونده می‌تواند روی همه شرکت‌های هوش مصنوعی و مشتریان‌شان اثر بگذارد؛ چون نشان می‌دهد دولت‌ها دیگر فقط به حرف شرکت‌ها اکتفا نمی‌کنن و مسئولیت حقوقی رفتار ایجنت‌ها را جدی می‌گیرن.",
+      "dedupe_key": "california-ag-openai-lawsuit",
+      "post_key": "2026-11-17/14-00/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "sourceTitle": "California state AG sues OpenAI over rogue agent incidents | TechCrunch",
+      "sourceText": "OpenAI is facing a new lawsuit from the California Attorney General’s office , alleging that the company’s training practices and lax security pose an ongoing danger to the public.\nAt the center of the case is the July 2026 Hugging Face compromise , in which a pre-release model within OpenAI compromised both companies’ security systems to complete a training benchmark. In its official report on the incident , OpenAI called it “an outlier scenario involving a rare and unexpected confluence of events.”\nThe California lawsuit represents one of the first attempts by a government regulator to hold an AI lab legally accountable for a rogue agent incident, with significant implications for both OpenAI’s competitors and its clients.\nThe complaint centers on the Hugging Face incident, but also cites similar incidents involving RubyGems , DseWiki , the Wikimedia Foundation , and Australian government websites as evidence that the underlying behavior is ongoing.\nThe complaint also alleges that dozens of similar incidents have occurred without public disclosure.\n“OpenAI has recently sent notices to dozens of additional third parties whose websites or internal systems have been infiltrated by OpenAI agents,” the complaint reads. “In some cases, OpenAI agents were able to access sensitive personally identifiable information, such as employee records containing names, birth dates, addresses, and more. The vast majority of these incidents have not been disclosed or discussed publicly by either OpenAI or by the affected third parties.”\nThe central allegation is that OpenAI’s ongoing testing",
+      "at": "2026-11-17T11:21:25.249Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8434,
-      "last_at": "2026-11-17T05:08:45+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "last_id": 8435,
+      "last_at": "2026-11-17T10:55:51+00:00",
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "pedramgholizadeh": {
       "last_id": 807,
       "last_at": "2026-11-16T20:45:21+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "ai_farshad": {
       "last_id": 6454,
       "last_at": "2026-11-17T07:31:17+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "Mohammad_zammani": {
       "last_id": 7227,
       "last_at": "2026-11-17T07:34:16+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "techiin_ir": {
       "last_id": 20790,
       "last_at": "2026-11-17T09:03:50+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "mgh_mobin": {
       "last_id": 491,
       "last_at": "2026-11-17T07:53:49+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "web3nabu": {
       "last_id": 2175,
       "last_at": "2026-11-17T06:08:24+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "asrnovin_ir": {
       "last_id": 11476,
       "last_at": "2026-11-17T08:47:21+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "shayanode": {
-      "last_id": 236,
-      "last_at": "2026-11-16T18:36:39+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "last_id": 237,
+      "last_at": "2026-11-16T18:38:34+00:00",
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "codecloude": {
       "last_id": 2594,
       "last_at": "2026-11-17T08:49:14+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "MatinSenPaii": {
       "last_id": 5895,
       "last_at": "2026-11-17T09:56:22+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     },
     "thenimaonAI": {
       "last_id": 539,
       "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-17T10:30:54.137Z"
+      "checked_at": "2026-11-17T11:20:29.114Z"
     }
   },
   "offerReviews": [
@@ -21839,6 +19701,18 @@
       "slot": "2026-11-17T14:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-archive-tell|https://opencode.ai/desktop",
+      "date": "2026-11-17",
+      "at": "2026-11-17T11:20:29.114Z",
+      "source": "tg-archive-tell",
+      "title": "OpenCode | Desktop app for macOS, Windows and Linux",
+      "url": "https://opencode.ai/desktop",
+      "reason": "source_not_official",
+      "slot": "2026-11-17T14:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -22138,7 +20012,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-17T05:01:02.794Z",
+      "lastCheck": "2026-11-17T11:20:29.114Z",
       "status": "active",
       "misses": 0
     }

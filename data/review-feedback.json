@@ -3022,6 +3022,58 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "b0ab3d1a96": {
+      "id": "b0ab3d1a96",
+      "messageId": 21,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-17T14:00+03:30",
+      "reason": "source_not_official",
+      "kind": "offer",
+      "source": "tg-archive-tell",
+      "sourceName": "ArchiveTell",
+      "sourceType": "telegram_channel",
+      "title": "OpenCode | Desktop app for macOS, Windows and Linux",
+      "url": "https://opencode.ai/desktop",
+      "leadPostUrl": "https://t.me/ArchiveTell/8435",
+      "messageText": "🔥مدل Hy4 Flash رایگان در OpenCode\n\nدر OpenCode مدل Hy4 Flash با امکان استفاده \"تقریباً نامحدود\" به مدت دو هفته، از تاریخ 16 نوامبر ارائه می‌شود.\n\nاین سرویس با 1 میلیون توکن، از قابلیت‌های چندوجهی و ZDR بهره می‌برد.\n\nنحوه استفاده:\n🟢 نرم‌افزار OpenCode Desktop را برای سیستم‌عامل خود (ویندوز، macOS یا لینوکس) دانلود و نصب کنید.\n🟢 برنامه را اجرا کرده و پوشه پروژه را باز کنید.\n🟢 در یک چت جدید، لیست مدل‌ها را باز کرده و Hy4 flash Free را انتخاب کنید.\n\n🤔برای استفاده از این مدل رایگان، نیازی به اشتراک Go نیست.\nاگر از قبل اشتراک Go دارید، استفاده از این مدل در طول این کمپین، هیچ‌کدام از محدودیت‌های اشتراک شما را مصرف نمی‌کند.\nدر اطلاعیه، هیچ محدودیت دقیقی ذکر نشده است، بنابراین عبارت \"تقریباً\" را از \"نامحدود\" حذف نمی‌کنیم.\n\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤8🔥1😁1😎1",
+      "relatedLinks": [
+        "https://opencode.ai/desktop"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/XYKuaT9sLTzRVQri9_ERGz8Q0qXS25FTs3FfOQDETCxtwSLTPQtnWbmyRBku5elqn7tyfSfQF8EjrYXHDGZU5OQ8IXaMKU10QLCK21ipYZ0nDxsuHALfmM7tTEaNktGYpzCTku0XqxBXmjmNg9rQcK0bnBqLbg7tGJRfflF1sD8ziss7cXQe6TucdZbTU1F3wwbG95g4CTAflxfyxbon-P7GswYDaCCAUQx4s_k5EuW5QxUYrj0GzjJlgfVy0PCpD0L3SEnR7eeDiWF48hUDwp0NRqvfPOjXkyZe8uijg7ly4IqZNZO5fXzS0IejTolOVXaXHdcXqQ0x4AubNe5aiw.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-17T10:55:51.000Z",
+      "keys": [
+        "url:310dde1cc8bc9a41",
+        "title:2f1eb0795e86c6fa"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": true,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": {
+        "ok": false,
+        "reason": "expiry_missing",
+        "date": "",
+        "remainingHours": null,
+        "evidence": ""
+      },
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-17T11:20:29.114Z",
+      "updatedAt": "2026-11-17T11:20:29.114Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [

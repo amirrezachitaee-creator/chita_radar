@@ -1,0 +1,141 @@
+RUN 44073084487 | send/main | slot auto | 2026-11-17T11:20:29Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-17T14:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 10/31 | models 5/24 | security 3/11 | business 3/11
+DAILY 4/11
+DIVERSITY_TARGET business | slot 14:00
+DEFERRED_POOL 61
+  DEFERRED category_consecutive | try 0/3 | Strengthening NATO and allied cyber defenses with AI
+  DEFERRED category_consecutive | try 0/3 | pushr
+  DEFERRED source_consecutive | try 0/3 | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+  DEFERRED category_consecutive | try 0/3 | Apple reveals new Mac security controls as AI agents raise privacy risks
+  DEFERRED category_consecutive | try 1/3 | California state AG sues OpenAI over rogue agent incidents
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 55h | ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+  DEFERRED_BENCHMARK source_daily | expires 55h | SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents
+  DEFERRED_BENCHMARK source_daily | expires 55h | Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle
+DEFERRED_EXHAUSTED 6
+SOURCE_DISCOVERY already_ran date=2026-11-17 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=6 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=177 nodate=0 nonai=0 dup=23 dup_other=0 kept=71 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=317 pending=14 leads=2 nolink=0 nonai=0 denied=0 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:458,review:14 delivered=472 window=30d
+TELEGRAM_EDU_DUPLICATES 1 skipped=worked_story
+  EDU_DUPLICATE shayanode | Shayanode pinned «پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖 این دوره نیاز به داشتن هیچ | already main: پیش‌فروش مینی‌دوره ساخت ربات تلگرام با Codex 🤖
+RELEVANCE candidates=70 kept=49 dropped=21
+  SKIP_NOT_AI TechCrunch | Uber says hackers stole information on close to 150,000 driver’s licenses during data breach
+  SKIP_NOT_AI Product Hunt | infaiw
+  SKIP_NOT_AI Product Hunt | Liquid d1.2
+  SKIP_NOT_AI Product Hunt | WispOS
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI The Record | Uber says nearly 150,000 impacted by third-party breach
+  SKIP_NOT_AI Simon Willison - Prompt Injection | Quoting Go Proverbs
+  SKIP_NOT_AI ... +13 more
+DIVERSITY target=business queue=3 fresh=6 deferred=61 rejected=source_daily:25,category_consecutive:4
+  DIVERSITY_QUEUE business:TechCrunch | business:OpenAI News | tools:ArchiveTell
+QUEUE_SKIPPED 54
+  QUEUE_SKIP category_consecutive | OpenAI News | Strengthening NATO and allied cyber defenses with AI
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+  QUEUE_SKIP category_consecutive | TechCrunch | Apple reveals new Mac security controls as AI agents raise privacy risks
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  QUEUE_SKIP source_daily | The Decoder | Google warns that fully automated cyberattacks have arrived and will get worse fast
+  QUEUE_SKIP source_daily | The Decoder | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  QUEUE_SKIP category_consecutive | TechCrunch | Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security
+  QUEUE_SKIP category_consecutive | Ars Technica AI | US moves to cut China’s remote access to AI chips
+  QUEUE_SKIP source_daily | arXiv | Latent Lattice Language Models
+  QUEUE_SKIP source_daily | arXiv | Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent
+  QUEUE_SKIP ... +44 more
+ATTEMPT 1/3 | deferred 1/3 TechCrunch | California state AG sues OpenAI over rogue agent incidents | 0.2h
+  TOOL_LINK candidate https://openai.com/index/how-we-will-do-better-for-australia/ | score 10
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  STYLE_WARNING why | one repair retry
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=business | QA 42/43 | $0.002016 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/14-00
+ATTEMPT 2/3 | deferred 2/3 OpenAI News | LVMH’s Media Division announces strategic partnership with OpenAI | 1.5h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 3/3
+  DEFER_LIMIT fetch_failed | no more retries
+ATTEMPT 3/3 ArchiveTell | 🔥مدل Hy4 Flash رایگان در OpenCode | 0.4h
+  REVIEW_ITEM id=b0ab3d1a96 message=21
+  REVIEW_REQUIRED reason=source_not_official sent=21
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/14-00-310dde1c
+  OFFER_REVIEW source_not_official
+RESULT SENT category=business | offer=no | image=no | QA 42/43 | cost $0.002016 | post $0.002016 | tokens 22496
+TITLE دادستان کالیفرنیا از OpenAI شکایت کرد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/14-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST business | sent | $0.002016 | دادستان کالیفرنیا از OpenAI شکایت کرد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-17T11:21:25Z
+# گزارش روزانه 2026-11-17 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 1، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 6
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 5
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 1، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.004901
+- توکن: 92676
+- میانگین هر پست ارسال‌شده: $0.000980
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 10 | 31 | 21 |
+| مدل‌ها و پژوهش | 5 | 24 | 19 |
+| امنیت و حریم خصوصی | 3 | 11 | 8 |
+| کسب‌وکار و بازار | 4 | 11 | 7 |
+| مجموع | 22 | 77 | 55 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001219 | 26413 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000937 | 22895 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000352 | 10284 | بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000377 | 10588 | کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002016 | 22496 | دادستان کالیفرنیا از OpenAI شکایت کرد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 11
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 3، لینک قابل استفاده ندارد 3، منبع رسمی شرکت نیست 2
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-17.md
+SOURCE_STATUS 2026-11-17T11:21:25Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-17.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۲۶ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 5
+صف بازبینی: 51 کارت
+امروز: 0 رد | 3 بازنویسی
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44073084487
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
