@@ -229,6 +229,52 @@ test('a callback from another message id is ignored', async () => {
   assert.doesNotMatch(output, /REVIEW_REJECTED/);
 });
 
+test('the rewrite button on a note confirmation starts the same item rewrite', async () => {
+  const output = await run(
+    [update('w', 'deadbeef01', { messageId: 900 })],
+    [item()],
+    NOW,
+    { noteThreads: { 900: { itemId: 'deadbeef01', at: NOW } } }
+  );
+  assert.match(output, /REVIEW_REWRITE_START id=deadbeef01 attempt=1\/2/);
+  assert.match(output, /DRY_REWRITE id=deadbeef01 rewrites=0->1/);
+  assert.match(output, /DRY_NOTE_THREAD_RETIRE message=900/);
+  assert.doesNotMatch(output, /این دکمه دیگر معتبر نیست/);
+});
+
+test('a note confirmation button for another item is rejected', async () => {
+  const output = await run(
+    [update('w', 'deadbeef01', { messageId: 900 })],
+    [item(), item({ id: 'deadbeef02', messageId: 43 })],
+    NOW,
+    { noteThreads: { 900: { itemId: 'deadbeef02', at: NOW } } }
+  );
+  assert.match(output, /DRY_ANSWER این دکمه دیگر معتبر نیست/);
+  assert.doesNotMatch(output, /REVIEW_REWRITE_START/);
+});
+
+test('a note confirmation button from another chat is rejected', async () => {
+  const output = await run(
+    [update('w', 'deadbeef01', { messageId: 900, chatId: -1000 })],
+    [item()],
+    NOW,
+    { noteThreads: { 900: { itemId: 'deadbeef01', at: NOW } } }
+  );
+  assert.match(output, /DRY_ANSWER این دکمه دیگر معتبر نیست/);
+  assert.doesNotMatch(output, /REVIEW_REWRITE_START/);
+});
+
+test('a note confirmation works for a card that stays in the old channel', async () => {
+  const output = await run(
+    [update('w', 'deadbeef01', { messageId: 900 })],
+    [item({ chatId: '-1000' })],
+    NOW,
+    { noteThreads: { 900: { itemId: 'deadbeef01', at: NOW } } }
+  );
+  assert.match(output, /DRY_NOTE_THREAD_RETIRE message=900/);
+  assert.match(output, /DRY_REWRITE id=deadbeef01 rewrites=0->1 old_chat=-1000 next_chat=-1001/);
+});
+
 test('a reject for a card not yet saved is queued without blocking the queue', async () => {
   const output = await run([update('x', 'deadbeef01', { extra: 'quality' })], []);
   assert.match(output, /DRY_ANSWER رد شد؛ پیام پاک می‌شود/);

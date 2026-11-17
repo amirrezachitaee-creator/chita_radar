@@ -366,7 +366,10 @@ function itemOutOfDate(item, query) {
   const message = query?.message ?? {};
   const chatId = String(message.chat?.id ?? '');
   const messageId = Number(message.message_id ?? 0);
-  return String(item.chatId) !== chatId || Number(item.messageId) !== messageId;
+  if (String(item.chatId) === chatId && Number(item.messageId) === messageId) return false;
+  // The note confirmation is a separate ForceReply message; its rewrite button belongs to the same item.
+  const thread = store.noteThreads?.[String(messageId)];
+  return !(thread && thread.itemId === item.id && chatId === String(REVIEW_CHAT_ID));
 }
 
 let originRefreshAt = 0;
