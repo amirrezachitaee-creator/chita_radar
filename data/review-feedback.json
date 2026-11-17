@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883522,
+  "offset": 659883526,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -2356,13 +2356,13 @@
     "460c55a1ad": {
       "id": "460c55a1ad",
       "status": "pending",
-      "rewrites": 0,
+      "rewrites": 1,
       "createdAt": "2026-11-16T17:01:04.951Z",
-      "updatedAt": "2026-11-16T17:01:04.951Z",
-      "messageId": 345,
-      "chatId": "-1004443166907",
+      "updatedAt": "2026-11-16T23:56:39.927Z",
+      "messageId": 5,
+      "chatId": "-1003917550874",
       "slot": "2026-11-16T20:30+03:30",
-      "reason": "qa_failed",
+      "reason": "manual_rewrite",
       "kind": "post",
       "source": "nvidia-ai-blog",
       "sourceName": "NVIDIA AI Blog",
@@ -2387,8 +2387,8 @@
       "offerHint": false,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
+      "mainEligible": true,
+      "qaPass": true,
       "post": {
         "decision": "publish",
         "reason_code": "ok",
@@ -2396,24 +2396,30 @@
         "category": "tools",
         "post_type": "standard",
         "importance": 3,
-        "title": "بیست سالگی CUDA؛ پلتفرمی که محاسبات علمی را متحول کرد",
-        "body": "انویدیا در کنفرانس SC26 بیست سالگی CUDA رو جشن می‌گیره. این پلتفرم که نوامبر ۲۰۰۶ معرفی شد، برنامه‌نویسی با GPU رو برای دانشمندان ساده کرد و از اون زمان به بخش جدایی‌ناپذیر علم و هوش مصنوعی تبدیل شده.\n\nبا ۱۰۰۰+ کتابخانه CUDA-X، حالا توسعه‌دهنده‌ها دارن صنایع رو تغییر می‌دن؛ از کشف دارو و طراحی کارخانه تا خودروهای خودران و مدل‌سازی بازارهای مالی.\n\nلینک استفاده: [google-deepmind/alphafold](https://github.com/google-deepmind/alphafold)",
-        "quote": "یکی از نقاط عطف، آموزش AlexNet در سال ۲۰۱۲ بود؛ محققان دانشگاه تورنتو با دو GPU انویدیا این شبکه رو آموزش دادن و برنده رقابت ImageNet شدن. این اتفاق پتانسیل GPU رو برای یادگیری عمیق نشون داد.\n\nامروز بیش از ۱۱ میلیون توسعه‌دهنده روی CUDA کار می‌کنن. این پلتفرم در پروژه‌هایی مثل AlphaFold که جایزه نوبل شیمی ۲۰۲۴ رو برد، نقش کلیدی داشته و توی ساخت جلوه‌های ویژه فیلم‌های برنده اسکار هم استفاده شده.",
+        "title": "انویدیا بیست سالگی CUDA را جشن می‌گیرد",
+        "body": "انویدیا در کنفرانس SC26 بیست سالگی CUDA رو جشن می‌گیره. این پلتفرم که نوامبر ۲۰۰۶ معرفی شد، برنامه‌نویسی با GPU رو برای دانشمندان ساده کرد و از اون زمان به بخش جدایی‌ناپذیر علم و هوش مصنوعی تبدیل شده.\n\nیکی از نقاط عطف، آموزش AlexNet در سال ۲۰۱۲ بود؛ محققان دانشگاه تورنتو با دو GPU انویدیا این شبکه رو آموزش دادن و برنده رقابت ImageNet شدن. این اتفاق پتانسیل GPU رو برای یادگیری عمیق نشون داد.\n\nامروز بیش از ۱۱ میلیون توسعه‌دهنده روی CUDA کار می‌کنن و این پلتفرم توی پروژه‌هایی مثل AlphaFold که جایزه نوبل شیمی ۲۰۲۴ رو برد، نقش کلیدی داشته.\n\nمنبع: [NVIDIA AI Blog](https://blogs.nvidia.com/blog/20-years-cuda/)",
+        "quote": "با ۱۰۰۰+ کتابخانه CUDA-X، حالا توسعه‌دهنده‌ها دارن صنایع رو تغییر می‌دن؛ از کشف دارو و طراحی کارخانه تا خودروهای خودران و مدل‌سازی بازارهای مالی.",
         "key_facts": [
-          "CUDA نوامبر ۲۰۰۶ معرفی شد",
+          "CUDA در نوامبر ۲۰۰۶ معرفی شد",
           "بیش از ۱۱ میلیون توسعه‌دهنده روی CUDA کار می‌کنند",
-          "در AlphaFold برنده نوبل شیمی ۲۰۲۴ استفاده شده"
+          "شبکه AlexNet در سال ۲۰۱۲ با دو GPU انویدیا آموزش داده شد",
+          "پروژه AlphaFold با CUDA جایزه نوبل شیمی ۲۰۲۴ را برد"
         ],
         "numbers": [
           {
-            "label": "توسعه‌دهندگان",
-            "value": "11",
+            "label": "توسعه‌دهندگان CUDA",
+            "value": "۱۱",
             "unit": "میلیون"
           },
           {
             "label": "کتابخانه‌های CUDA-X",
-            "value": "1000",
+            "value": "۱۰۰۰",
             "unit": "+"
+          },
+          {
+            "label": "سال معرفی CUDA",
+            "value": "۲۰۰۶",
+            "unit": ""
           }
         ],
         "entities": {
@@ -2421,27 +2427,25 @@
             "NVIDIA"
           ],
           "models": [
-            "AlphaFold",
-            "AlexNet"
+            "AlexNet",
+            "AlphaFold"
           ],
-          "people": [
-            "Geoffrey Hinton",
-            "Demis Hassabis",
-            "John Jumper"
-          ]
+          "people": []
         },
         "verification": "official",
         "source_url": "https://blogs.nvidia.com/blog/20-years-cuda/",
         "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/cuda-at-20-1920x1080-1.jpg",
-        "dedupe_key": "nvidia-cuda-20-anniversary"
+        "dedupe_key": "nvidia-cuda-20th-anniversary"
       },
       "expiry": null,
-      "lastActionAt": "",
+      "lastActionAt": "2026-11-16T23:54:53.693Z",
       "sentAt": "",
-      "note": "",
-      "noteAt": "",
-      "noteBy": "",
-      "previousMessageIds": []
+      "note": "داخل کتیشن رو بیشتر بنویس و منبعش هم درسته",
+      "noteAt": "2026-11-16T23:56:39.927Z",
+      "noteBy": "Amir_ch13",
+      "previousMessageIds": [],
+      "manual": true,
+      "lastAction": "rewrite"
     },
     "6f956c6269": {
       "id": "6f956c6269",
@@ -2741,6 +2745,15 @@
       "reason": "",
       "detail": "qa_pass cost=$0.001994",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-16T23:54:53.693Z",
+      "action": "rewrite",
+      "itemId": "460c55a1ad",
+      "source": "nvidia-ai-blog",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001547",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -2797,6 +2810,12 @@
       "rewrites": 1,
       "publishes": 0,
       "lastAt": "2026-11-16T23:06:02.027Z"
+    },
+    "nvidia-ai-blog": {
+      "rejects": 0,
+      "rewrites": 1,
+      "publishes": 0,
+      "lastAt": "2026-11-16T23:54:53.693Z"
     }
   },
   "callbackRetries": {
@@ -2805,5 +2824,14 @@
       "at": "2026-11-16T17:03:04.461Z"
     }
   },
-  "noteThreads": {}
+  "noteThreads": {
+    "6": {
+      "itemId": "460c55a1ad",
+      "at": "2026-11-16T23:55:37.553Z"
+    },
+    "8": {
+      "itemId": "460c55a1ad",
+      "at": "2026-11-16T23:56:40.383Z"
+    }
+  }
 }
