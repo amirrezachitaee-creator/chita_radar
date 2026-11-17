@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T08:55:14.452Z",
+  "updatedAt": "2026-11-17T10:32:23.619Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10391,6 +10391,42 @@
       "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
       "url": "https://therecord.media/california-sues-openai-hugging-face",
       "benchmark": false
+    },
+    "url:a28b3023fc2273bb": {
+      "at": "2026-11-17T10:31:19.790Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "این چند وقت از چند نفر پرسیده شد که با ویدیوهای هوش مصنوعی، مثلاً چیزایی که",
+      "url": "https://t.me/thenimaonAI/538"
+    },
+    "title:e11f1b670b927030": {
+      "at": "2026-11-17T10:31:19.790Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "این چند وقت از چند نفر پرسیده شد که با ویدیوهای هوش مصنوعی، مثلاً چیزایی که",
+      "url": "https://t.me/thenimaonAI/538"
+    },
+    "url:150a4c2c4547ed1e": {
+      "at": "2026-11-17T10:32:23.612Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse"
+    },
+    "title:e2478d06b5d5d173": {
+      "at": "2026-11-17T10:32:23.612Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-17T14:00+03:30",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse"
     }
   },
   "deferred": {
@@ -12629,9 +12665,9 @@
     },
     "defer:url:ff7833693fa2a067": {
       "id": "defer:url:ff7833693fa2a067",
-      "at": "2026-11-16T10:33:44.959Z",
+      "at": "2026-11-17T10:32:22.758Z",
       "firstAt": "2026-11-16T10:33:44.959Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -12671,7 +12707,11 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:ff7833693fa2a067",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
@@ -14012,9 +14052,9 @@
     },
     "defer:url:1738f67eaaddba29": {
       "id": "defer:url:1738f67eaaddba29",
-      "at": "2026-11-16T20:18:45.031Z",
+      "at": "2026-11-17T10:32:22.657Z",
       "firstAt": "2026-11-16T20:18:45.031Z",
-      "attempts": 0,
+      "attempts": 1,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -14055,8 +14095,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:1738f67eaaddba29",
+          "attempts": 0
+        }
+      },
+      "detail": "security"
     },
     "defer:url:a9995c40a3422c04": {
       "id": "defer:url:a9995c40a3422c04",
@@ -14535,6 +14580,515 @@
         "keys": [
           "url:3d4aeac88b69acfa",
           "title:a0faa3fb5222195d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0e7f690aa4ff229b": {
+      "id": "defer:url:0e7f690aa4ff229b",
+      "at": "2026-11-17T10:31:19.801Z",
+      "firstAt": "2026-11-17T10:31:19.801Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0e7f690aa4ff229b",
+        "title:816217c29e221826"
+      ],
+      "canonical": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Strengthening NATO and allied cyber defenses with AI",
+        "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "canonical": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
+        "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "images": [],
+        "ageHours": 10.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:0e7f690aa4ff229b",
+          "title:816217c29e221826"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ac4a8d46bdc8a7d7": {
+      "id": "defer:url:ac4a8d46bdc8a7d7",
+      "at": "2026-11-17T10:31:19.801Z",
+      "firstAt": "2026-11-17T10:31:19.801Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:ac4a8d46bdc8a7d7",
+        "title:c44f05c814aca4a1"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks",
+      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+        "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+        "canonical": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks",
+        "published": "Mon, 16 Nov 2026 21:01:02 +0000",
+        "summary": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+        "images": [],
+        "ageHours": 13.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:ac4a8d46bdc8a7d7",
+          "title:c44f05c814aca4a1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7de4dfa9c60e243f": {
+      "id": "defer:url:7de4dfa9c60e243f",
+      "at": "2026-11-17T10:31:19.801Z",
+      "firstAt": "2026-11-17T10:31:19.801Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7de4dfa9c60e243f",
+        "title:b0d2754e268e61ac"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21608v1",
+      "title": "Latent Lattice Language Models",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Latent Lattice Language Models",
+        "link": "https://arxiv.org/abs/2611.21608v1",
+        "canonical": "https://arxiv.org/abs/2611.21608v1",
+        "published": "2026-11-16T18:59:38Z",
+        "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. Like hyper-connections, mHC, and attention or value residuals, the Lattice enhances the residual stream, but rather than adding or rerouting residual pathways through depth, it provides companion computational states that persist across tokens. Unlike hybrid Transformer-SSM architectures, whose recurrent states primarily serve as internal memory for sequence mixing, these latents directly condition the vertical stream's attention, KV-cache writes, MLP computation, and decoding. On Transformers trained on 20B FineWeb-Edu tokens, a 406M-parameter Lattice model lowers validation perplexity from 15.41 to 14.40 over a parameter-matched Transformer. These gains extend across architectural variants. The Lattice composes with prior residual-stream enhancements: with hyper-connections and input residuals, it lowers validation perplexity from 15.41 (base Transformer) and 14.22 (Transformer with the same enhancements) to 13.61. On Gated DeltaNet, Mamba-2, Triadic GDN, and GDN-Mamba-2 hybrids, it improves perplexity at every tested native state size, with Lattice-GDN and Lattice-Triadic-GDN variants outperforming pure baselines with 4x larger native states. These results identify persistent per-layer state as a complementary axis for scaling language-model computation.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21608v1",
+        "images": [],
+        "ageHours": 15.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7de4dfa9c60e243f",
+          "title:b0d2754e268e61ac"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dd0f3dbe278d62fc": {
+      "id": "defer:url:dd0f3dbe278d62fc",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:dd0f3dbe278d62fc",
+        "title:54036c4a1ebe1603"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21598v1",
+      "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+        "link": "https://arxiv.org/abs/2611.21598v1",
+        "canonical": "https://arxiv.org/abs/2611.21598v1",
+        "published": "2026-11-16T18:58:20Z",
+        "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradients, archives selected policies by detected dynamic regime, and retrieves them through Bayesian policy reuse. The architecture was evaluated in non-stationary CartPole and HalfCheetah environments. In the 30-replicate CartPole ablation, the complete architecture achieved a mean success rate of 83.2% across the five test environments. Among variants that learned the harder CartPole environments, the complete architecture showed the most consistent retention. A selection ablation also showed that the retrieval rule affected performance. In the evaluated sequences, ENA adapted more slowly than PPO on CartPole and achieved lower returns than SAC on HalfCheetah. The evidence concerns the complete architecture and does not isolate gradient-free optimization as the cause of retention or establish superiority over other continual-learning methods.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21598v1",
+        "images": [],
+        "ageHours": 15.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:dd0f3dbe278d62fc",
+          "title:54036c4a1ebe1603"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3d976fa9687d6c44": {
+      "id": "defer:url:3d976fa9687d6c44",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:3d976fa9687d6c44",
+        "title:25a0abb372f14cc5"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21579v1",
+      "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+        "link": "https://arxiv.org/abs/2611.21579v1",
+        "canonical": "https://arxiv.org/abs/2611.21579v1",
+        "published": "2026-11-16T18:49:56Z",
+        "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-grounded topologies, services, traffic, segmentation, and challenge chains, then instantiates and validates them in the Common Open Research Emulator (CORE). The ScenarioForge Execution Dataset contains 226 materialized scenarios covering 294 Vulhub images and all 85 custom-built challenge-resource generators developed with our AI-assisted scaffolding. All 226 passed construction, preview, sequencing, deployment, strict runtime validation, and live artifact checks; their 867 steps, each an individually verifiable challenge objective, comprise 457 vulnerability-backed and 410 generated-resource-backed instances. In a separate 50-prompt matched benchmark, ScenarioForge+Qwen3.8 and ScenarioForge+GPT5.6 each achieved 50/50 (100%) topology/build success and 160/160 intent fields; direct frontier generation reached 41/50 builds and 147/160 fields only with the full cumulative scaffold: structure, vocabulary, policy, and container-image guidance. The test still omitted ScenarioForge's downstream challenge-resource generation, dependency/flag sequencing, deployment, and live validation. The artifacts support operationally rich, reproducible exercises for training and evaluation.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21579v1",
+        "images": [],
+        "ageHours": 15.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3d976fa9687d6c44",
+          "title:25a0abb372f14cc5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4f56a0dca15d805d": {
+      "id": "defer:url:4f56a0dca15d805d",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:4f56a0dca15d805d",
+        "title:d62ceb4c33d382d9"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21562v1",
+      "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
+        "link": "https://arxiv.org/abs/2611.21562v1",
+        "canonical": "https://arxiv.org/abs/2611.21562v1",
+        "published": "2026-11-16T18:40:35Z",
+        "summary": "Zero-shot time-series foundation models (TSFMs) have become attractive alternatives to task-specific models because they handle diverse downstream tasks, including anomaly detection and forecasting, without per-series training. However, time-series data undergo distribution shifts, and the dissimilarity between two regimes is commonly scored with statistical measures such as Wasserstein-1, where a higher score is read as a more severe shift. In systematic experiments using three established severity measures on nine regime shifts from three standard traffic datasets, we show that these measures do not reliably predict degradation for instance-normalized TSFMs. The regimes rated most severe are not the regimes that degrade the models most, and degradation reaches 29% in the lowest-scoring regime. In most cases, the audit shows no positive relationship between measured severity and model degradation. We provide an equivariance-based stress-testing analysis that explains why severity readings can become decoupled from model degradation.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21562v1",
+        "images": [],
+        "ageHours": 15.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:4f56a0dca15d805d",
+          "title:d62ceb4c33d382d9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:cc00e6a211d77cbe": {
+      "id": "defer:url:cc00e6a211d77cbe",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:cc00e6a211d77cbe",
+        "title:4e7989c02d3caceb"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21545v1",
+      "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
+        "link": "https://arxiv.org/abs/2611.21545v1",
+        "canonical": "https://arxiv.org/abs/2611.21545v1",
+        "published": "2026-11-16T18:30:11Z",
+        "summary": "Language models increasingly write the explanations people receive when a rule system denies their request. If several rules deny the request independently, an explanation can name a true reason and still leave the person denied after they fix it. We call the missing property recourse validity: changing what the explanation cites, without changing what was asked for, can flip the decision. We compute it exactly, and a hitting-set argument predicts from the policy alone when a correct reason fails. In six of seven rule systems ported from access control and US benefit eligibility, a single correct reason almost never gives recourse when several reasons apply. Across 20 LLMs, checks of whether the cited reasons are correct, computed or asked of an LLM judge, are close to chance at spotting this failure, as the argument predicts. A strong judge asked whether acting on the explanation would work does spot it. Stronger and reasoning models do better but still fail on many denials with four or more independent reasons. Asking for every rule helps every open model with room to improve. Explanations of eligibility decisions should be built from the decision function and judged by whether acting on them works.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21545v1",
+        "images": [],
+        "ageHours": 16,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:cc00e6a211d77cbe",
+          "title:4e7989c02d3caceb"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0b2ec16161bd3666": {
+      "id": "defer:url:0b2ec16161bd3666",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0b2ec16161bd3666",
+        "title:e44c2ac3103069c2"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21548v1",
+      "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
+        "link": "https://arxiv.org/abs/2611.21548v1",
+        "canonical": "https://arxiv.org/abs/2611.21548v1",
+        "published": "2026-11-16T18:31:11Z",
+        "summary": "Intrusion detectors must recognize evolving malicious behavior even when confirmed attack labels are scarce or incomplete. We present TRACE, a topology-aware graph contrastive learning framework for label-efficient intrusion detection. TRACE learns from benign system-activity graphs by combining message-passing and topological representations, then assigns anomaly scores in the same projected embedding space optimized by the contrastive objective. This design captures both local interactions and graph-scale structural deviations without using attack labels during representation learning. A labeled validation set containing benign and malicious graphs is used only to calibrate the anomaly threshold. We evaluate TRACE on StreamSpot, GraSec-IoT, and Unicorn Wget against a supervised graph neural network and the benign-only GraphCL baseline. TRACE obtains F1 scores of 0.923, 0.790, and 0.583, respectively. Compared with GraphCL, this is higher on StreamSpot (0.450) and Unicorn Wget (0.203), but lower on GraSec-IoT (0.975). The supervised model leads on StreamSpot and GraSec-IoT, whereas TRACE has the highest F1 on Unicorn Wget. The mixed results show that topology-aware benign-only learning can improve detection in some graph settings but does not provide a uniform advantage.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21548v1",
+        "images": [],
+        "ageHours": 16,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:0b2ec16161bd3666",
+          "title:e44c2ac3103069c2"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dde3f93ca1ce2e5e": {
+      "id": "defer:url:dde3f93ca1ce2e5e",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:dde3f93ca1ce2e5e",
+        "title:32079bb7f2a70bb8"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21538v1",
+      "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
+        "link": "https://arxiv.org/abs/2611.21538v1",
+        "canonical": "https://arxiv.org/abs/2611.21538v1",
+        "published": "2026-11-16T18:25:42Z",
+        "summary": "Reinforcement learning from verifiable rewards inherits whatever its verifier gets wrong. Outside mathematics and code the verifier is a proxy, a rubric, a learned judge or a hand-written checker, and its distance from the true objective is never measured, so a rising reward cannot be told apart from a hack. We build a setting where the true reward is exactly computable at the process level: executable authorization policies over 124,416 contexts admit an oracle that lists every minimal sufficient reason for every decision. We compile these policies into exact process rewards, degrade the verifier along seven realistic axes (outcome-only, sufficiency, recall-only, extraction noise, coarse taxonomy, stale policy, LLM judge), and train against each while the exact verifier scores every rollout. Four phenotypes appear. Optimistic verifiers are hacked by padding: the sufficiency proxy ends at 0.940 while true faithfulness falls from 0.731 to 0.667 on 96 held-out episodes. Outcome-only verifiers saturate and stop teaching, noise dilutes, and ranking-preserving gaps do no harm. A model-free audit of the verifier, its selection error and gap sign, together with a short saturation pilot, anticipates which phenotype a run will produce. Across nine configurations spanning two frameworks, two model vendors, two adapter sizes, three precisions, two initialisations and two seeds, the phenotypes recur, sufficiency damage is positive in all 10 replication cells and beyond two standard errors in 7, and optimistic gaps remain the steeper branch. The damage magnitude does not replicate, and five pre-registered attempts to explain it are reported as they fell. We release the testbed, the training instrumentation, and 14 real public policies (Cedar, OPA, Gatekeeper) ported to executable oracles.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21538v1",
+        "images": [],
+        "ageHours": 16.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:dde3f93ca1ce2e5e",
+          "title:32079bb7f2a70bb8"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d978bdd810c1d7cf": {
+      "id": "defer:url:d978bdd810c1d7cf",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:d978bdd810c1d7cf",
+        "title:5d5cec0547e9ece3"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21541v1",
+      "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
+        "link": "https://arxiv.org/abs/2611.21541v1",
+        "canonical": "https://arxiv.org/abs/2611.21541v1",
+        "published": "2026-11-16T18:27:09Z",
+        "summary": "We introduce SciResearch-Eval, an interactive benchmark of scientific judgment built on a standard laboratory problem: measuring a material's thermal properties by heating it and fitting a heat-conduction simulator. An agent designs its own experiments, uses a supplied simulator that may be under-resolved or physically wrong, and reports each property with a 95% interval. To our knowledge it is the first benchmark to combine agent-designed experiments, a deliberately flawed simulator, and proper scoring of calibrated intervals against exact ground truth. On a held-out split (93 tasks, 9 models, 2,511 episodes), models handle procedural traps. When the simulator is missing physics, most report wrong values while stating they are 95% sure: their ranges contain the truth in 20-62% of cases, against 94% for GPT-6 Astra and 99% for Claude Fable 5.2. At default effort the failing Claude 5.5 models rarely diagnose the missing physics (Opus in 35% of episodes, against 66% for Astra), and even when they do, their ranges often miss; Astra and Fable design experiments in which the flawed simulator is accurate, such as gentle heating, which keeps Astra calibrated even when it does not name the cause. Asking for wider intervals does not help; stating the strategy improves interval scores 1.6-2.5-fold, replicated on a pre-registered fresh split, but coverage barely moves. A pre-registered effort ablation shows that the correction is latent in the Claude 5.5 models: at maximum effort Opus improves more than tenfold and is no longer detectably behind Astra at default, but only with 13-31 times more reasoning; older and open-weight models gain nothing. Fable 5.2 is the most accurate model at default effort (interval score 1.9 times better than Astra's) but writes 6 times as many tokens, and at Astra's token count it falls short. We release the environment, graders and harness.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21541v1",
+        "images": [],
+        "ageHours": 16.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d978bdd810c1d7cf",
+          "title:5d5cec0547e9ece3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4b1b4f43f242c3d8": {
+      "id": "defer:url:4b1b4f43f242c3d8",
+      "at": "2026-11-17T10:31:19.802Z",
+      "firstAt": "2026-11-17T10:31:19.802Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:4b1b4f43f242c3d8",
+        "title:3d6ab66ba1fe152b"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21529v1",
+      "title": "Procedure without Judgment: What Small Language Models Learn under an Exact Verifier",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Procedure without Judgment: What Small Language Models Learn under an Exact Verifier",
+        "link": "https://arxiv.org/abs/2611.21529v1",
+        "canonical": "https://arxiv.org/abs/2611.21529v1",
+        "published": "2026-11-16T18:20:09Z",
+        "summary": "When an authorization policy blocks an agent's tool call, the audit log should name the facts that forced the decision and nothing more. For an executable policy over an enumerable context space this minimal sufficient reason can be computed exactly, so an explanation is scored against ground truth rather than a proxy for it. We use that exactness to ask what a model can learn from a verifier that has no error in it. The explainer sees one request and one decision, never the policy, and has thirty turns in which it may call the policy on altered requests and ask whether a candidate set of facts is sufficient. Frontier models find the exact reason about half the time with the tools alone, and one sentence telling them to shrink the answer lifts Haiku 4.5 from 58% to 75%. A 4B model fine-tuned on 2000 traces of the deletion algorithm reaches 92% on the policy it was trained on. Teacher kind is what moves this: at matched data size the algorithm-taught student leads the frontier-taught one in all three training seeds, and the two arms never overlap. What the student learns is a fixed schedule of sufficiency checks, and the schedule does not travel. On three public policies it never saw, its answers stay sufficient (94%) and stop being minimal (48%), while Haiku under the same sentence is exact on all 47 episodes. Reinforcement learning from the exact reward leaves held-out accuracy where it was and inverts the strategy, from probing the policy to spending the entire budget on sufficiency checks. The oracle made the effect of training legible, but it did not make training better.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21529v1",
+        "images": [],
+        "ageHours": 16.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:4b1b4f43f242c3d8",
+          "title:3d6ab66ba1fe152b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16602,6 +17156,14 @@
           "at": "2026-11-17T08:16:04.332Z"
         }
       ]
+    },
+    "2026-11-17T14:00+03:30": {
+      "at": "2026-11-17T10:32:23.617Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0017855712,
+      "tokens": 20445,
+      "posts": []
     }
   },
   "published": [
@@ -18002,87 +18564,87 @@
     "ArchiveTell": {
       "last_id": 8434,
       "last_at": "2026-11-17T05:08:45+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "pedramgholizadeh": {
       "last_id": 807,
       "last_at": "2026-11-16T20:45:21+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "ai_farshad": {
       "last_id": 6454,
       "last_at": "2026-11-17T07:31:17+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "Mohammad_zammani": {
       "last_id": 7227,
       "last_at": "2026-11-17T07:34:16+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "techiin_ir": {
-      "last_id": 20787,
-      "last_at": "2026-11-16T18:51:59+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "last_id": 20790,
+      "last_at": "2026-11-17T09:03:50+00:00",
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "mgh_mobin": {
       "last_id": 491,
       "last_at": "2026-11-17T07:53:49+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "web3nabu": {
       "last_id": 2175,
       "last_at": "2026-11-17T06:08:24+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "asrnovin_ir": {
-      "last_id": 11475,
-      "last_at": "2026-11-17T07:43:29+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "last_id": 11476,
+      "last_at": "2026-11-17T08:47:21+00:00",
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "shayanode": {
-      "last_id": 235,
-      "last_at": "2026-11-16T18:36:02+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "last_id": 236,
+      "last_at": "2026-11-16T18:36:39+00:00",
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "codecloude": {
-      "last_id": 2593,
-      "last_at": "2026-11-16T18:26:37+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "last_id": 2594,
+      "last_at": "2026-11-17T08:49:14+00:00",
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "MatinSenPaii": {
-      "last_id": 5894,
-      "last_at": "2026-11-16T20:02:01+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "last_id": 5895,
+      "last_at": "2026-11-17T09:56:22+00:00",
+      "checked_at": "2026-11-17T10:30:54.137Z"
     },
     "thenimaonAI": {
-      "last_id": 537,
-      "last_at": "2026-11-17T06:57:51+00:00",
-      "checked_at": "2026-11-17T08:01:03.161Z"
+      "last_id": 539,
+      "last_at": "2026-11-17T09:59:35+00:00",
+      "checked_at": "2026-11-17T10:30:54.137Z"
     }
   },
   "offerReviews": [
@@ -21252,6 +21814,30 @@
       "reason": "denied_link",
       "slot": "2026-11-17T11:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-thenima|https://t.me/thenimaonAI/538",
+      "date": "2026-11-17",
+      "at": "2026-11-17T10:30:54.137Z",
+      "source": "tg-thenima",
+      "title": "این چند وقت از چند نفر پرسیده شد که با ویدیوهای هوش مصنوعی، مثلاً چیزایی که",
+      "url": "https://t.me/thenimaonAI/538",
+      "reason": "no_link",
+      "slot": "2026-11-17T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|arstechnica-ai|https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+      "date": "2026-11-17",
+      "at": "2026-11-17T10:30:54.137Z",
+      "source": "arstechnica-ai",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+      "reason": "source_not_official",
+      "slot": "2026-11-17T14:00+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],
