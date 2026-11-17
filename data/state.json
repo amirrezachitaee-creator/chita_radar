@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T18:09:24.491Z",
+  "updatedAt": "2026-11-17T19:32:55.570Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10769,61 +10769,63 @@
       "title": "Google makes it easier to use Gemini without training AI on your data",
       "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
       "benchmark": false
+    },
+    "url:2cf02f308e700632": {
+      "at": "2026-11-17T19:31:36.433Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-17T23:00+03:30",
+      "title": "Activation and Floating-Point Quantization",
+      "url": "https://machinelearningmastery.com/activation-kv-cache-and-floating-point-quantization"
+    },
+    "title:e9564c5ebb8eb410": {
+      "at": "2026-11-17T19:31:36.433Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-17T23:00+03:30",
+      "title": "Activation and Floating-Point Quantization",
+      "url": "https://machinelearningmastery.com/activation-kv-cache-and-floating-point-quantization"
+    },
+    "url:8b49601e4eecc7bb": {
+      "at": "2026-11-17T19:31:38.295Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T23:00+03:30",
+      "title": "بچه ها برای دونستن خیلی چیزا نیازی به دوره نیست واقعا خیلی از مفاهیم AI که",
+      "url": "https://t.me/shayanode/242"
+    },
+    "title:cc1eebe8cfa6b688": {
+      "at": "2026-11-17T19:31:38.295Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T23:00+03:30",
+      "title": "بچه ها برای دونستن خیلی چیزا نیازی به دوره نیست واقعا خیلی از مفاهیم AI که",
+      "url": "https://t.me/shayanode/242"
+    },
+    "url:703ed46208312615": {
+      "at": "2026-11-17T19:32:14.134Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-17T23:00+03:30",
+      "title": "شرکت Anthropic می‌گه راز حافظه‌ی ایجنت‌ها این نیست که چقدر ذخیره کنن، بلکه اینه که بدونن",
+      "url": "http://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
+      "benchmark": false
+    },
+    "title:8079039a38467f8d": {
+      "at": "2026-11-17T19:32:14.134Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-17T23:00+03:30",
+      "title": "شرکت Anthropic می‌گه راز حافظه‌ی ایجنت‌ها این نیست که چقدر ذخیره کنن، بلکه اینه که بدونن",
+      "url": "http://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:2e8f421d2ee2a3df": {
-      "id": "defer:url:2e8f421d2ee2a3df",
-      "at": "2026-11-16T20:19:13.484Z",
-      "firstAt": "2026-11-16T05:02:52.140Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:2e8f421d2ee2a3df",
-        "title:5b350102ec39c60b"
-      ],
-      "canonical": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "title": "A step toward defining the Standard Model on a lattice",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "A step toward defining the Standard Model on a lattice",
-        "link": "https://openai.com/index/step-toward-defining-the-standard-model",
-        "canonical": "https://openai.com/index/step-toward-defining-the-standard-model",
-        "published": "Sun, 15 Nov 2026 22:00:01 GMT",
-        "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/step-toward-defining-the-standard-model",
-        "images": [],
-        "ageHours": 7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:2e8f421d2ee2a3df",
-          "title:5b350102ec39c60b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:2e8f421d2ee2a3df",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
     "defer:url:ff7833693fa2a067": {
       "id": "defer:url:ff7833693fa2a067",
       "at": "2026-11-17T11:21:25.301Z",
@@ -10931,407 +10933,6 @@
       },
       "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
     },
-    "defer:url:60f3c7381bc61eae": {
-      "id": "defer:url:60f3c7381bc61eae",
-      "at": "2026-11-16T13:32:36.966Z",
-      "firstAt": "2026-11-16T13:32:36.966Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:60f3c7381bc61eae",
-        "title:acf00e5f5e52b39d"
-      ],
-      "canonical": "https://openai.com/index/the-kings-trust-and-openai",
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "The King’s Trust and OpenAI launch £1m partnership",
-        "link": "https://openai.com/index/the-kings-trust-and-openai",
-        "canonical": "https://openai.com/index/the-kings-trust-and-openai",
-        "published": "Mon, 16 Nov 2026 00:00:00 GMT",
-        "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/the-kings-trust-and-openai",
-        "images": [],
-        "ageHours": 13.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:60f3c7381bc61eae",
-          "title:acf00e5f5e52b39d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:67b0b84ecc325e31": {
-      "id": "defer:url:67b0b84ecc325e31",
-      "at": "2026-11-16T13:32:36.966Z",
-      "firstAt": "2026-11-16T13:32:36.966Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:67b0b84ecc325e31",
-        "title:4a7e26ce944514ab"
-      ],
-      "canonical": "https://www.producthunt.com/products/ui-sdk",
-      "title": "UI SDK by Vercel",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "UI SDK by Vercel",
-        "link": "https://www.producthunt.com/products/ui-sdk",
-        "canonical": "https://www.producthunt.com/products/ui-sdk",
-        "published": "2026-11-15T04:01:57-08:00",
-        "summary": "<p> Give AI agents the building blocks to create UI </p> <p> <a href=\"https://www.producthunt.com/products/ui-sdk?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317488?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/ui-sdk",
-        "images": [],
-        "ageHours": 25.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:67b0b84ecc325e31",
-          "title:4a7e26ce944514ab"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:37e7777f21965965": {
-      "id": "defer:url:37e7777f21965965",
-      "at": "2026-11-16T17:01:54.730Z",
-      "firstAt": "2026-11-16T17:01:54.730Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:37e7777f21965965",
-        "title:724f96e760d78e7a"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
-      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-        "link": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-        "canonical": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
-        "published": "Mon, 16 Nov 2026 17:00:00 +0000",
-        "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:37e7777f21965965",
-          "title:724f96e760d78e7a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:02328ec28313e017": {
-      "id": "defer:url:02328ec28313e017",
-      "at": "2026-11-16T17:01:54.731Z",
-      "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:02328ec28313e017",
-        "title:8f11006d5ff74a93"
-      ],
-      "canonical": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices",
-      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
-        "link": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
-        "canonical": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices",
-        "published": "Mon, 16 Nov 2026 16:56:04 +0000",
-        "summary": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to release smaller Qwen4 models as open source. The article Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
-        "images": [
-          "http://the-decoder.com/wp-content/uploads/2026/11/Qwen_AI_for_science_wordpress_small_480p.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/07/qwen_logo-1.png"
-        ],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:02328ec28313e017",
-          "title:8f11006d5ff74a93"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:75036c3cbcd5cefd": {
-      "id": "defer:url:75036c3cbcd5cefd",
-      "at": "2026-11-16T17:01:54.731Z",
-      "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:75036c3cbcd5cefd",
-        "title:d1f630aa30c182ed"
-      ],
-      "canonical": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html",
-      "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
-        "link": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
-        "canonical": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html",
-        "published": "Mon, 16 Nov 2026 16:10:22 +0000",
-        "summary": "Claude can now embed text, buttons, and other web elements into complex graphics and 3D effects. The article Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
-        "images": [
-          "http://the-decoder.de/wp-content/uploads/2026/11/Felix_Rieseberg_wordpress_small_480p.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/11/claude_gemini_pro-scaled.png"
-        ],
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:75036c3cbcd5cefd",
-          "title:d1f630aa30c182ed"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:742a0adaef2e2544": {
-      "id": "defer:url:742a0adaef2e2544",
-      "at": "2026-11-16T20:19:13.459Z",
-      "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 3,
-      "reason": "category_daily_cap",
-      "reasons": [
-        "category_consecutive",
-        "category_daily_cap"
-      ],
-      "keys": [
-        "url:742a0adaef2e2544",
-        "title:bc75e5bb1051c06c"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
-      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-        "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
-        "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
-        "published": "Mon, 16 Nov 2026 16:00:51 +0000",
-        "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/lambda-photonics/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1-842x450.jpeg"
-        ],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:742a0adaef2e2544",
-          "title:bc75e5bb1051c06c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:742a0adaef2e2544",
-          "attempts": 2
-        }
-      },
-      "detail": "tools"
-    },
-    "defer:url:0dc8b1c6d09938c1": {
-      "id": "defer:url:0dc8b1c6d09938c1",
-      "at": "2026-11-16T17:01:54.731Z",
-      "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:0dc8b1c6d09938c1",
-        "title:33aa9b66c48fded0"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing",
-      "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
-        "link": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
-        "canonical": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing",
-        "published": "Mon, 16 Nov 2026 16:00:47 +0000",
-        "summary": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/quantum-computing-blog-slurm-kv-sc26-1920x1080-5942487.png",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/quantum-computing-blog-slurm-kv-sc26-1920x1080-5942487-842x450.png"
-        ],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:0dc8b1c6d09938c1",
-          "title:33aa9b66c48fded0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9da45c34799aca3f": {
-      "id": "defer:url:9da45c34799aca3f",
-      "at": "2026-11-16T17:01:54.731Z",
-      "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:9da45c34799aca3f",
-        "title:f7b91bcac563425f"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
-      "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
-        "link": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
-        "canonical": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
-        "published": "Mon, 16 Nov 2026 15:25:48 +0000",
-        "summary": "Anthropic studied how Claude retains knowledge across sessions. Selective notes beat exhaustive archives by a wide margin. In a Pokémon Red test, the newer Claude Fable 5 got four times as far as the older Sonnet 3.7 by keeping just a handful of strategy files instead of more than 400. A \"Dreaming\" process retroactively corrects faulty memories. The article Anthropic says the key to agent memory is knowing what to forget, not how much to store appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/anthropic_claude-2.png"
-        ],
-        "ageHours": 1.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9da45c34799aca3f",
-          "title:f7b91bcac563425f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:21b4758ab52123ac": {
       "id": "defer:url:21b4758ab52123ac",
       "at": "2026-11-17T17:56:41.734Z",
@@ -11385,297 +10986,6 @@
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
-    "defer:url:2d7a5d6b20fff3cd": {
-      "id": "defer:url:2d7a5d6b20fff3cd",
-      "at": "2026-11-16T17:57:22.954Z",
-      "firstAt": "2026-11-16T17:57:22.954Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:2d7a5d6b20fff3cd",
-        "title:5a29c622e2a75b49"
-      ],
-      "canonical": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "title": "Broadening access to AI for scientists",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Broadening access to AI for scientists",
-        "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-        "canonical": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-        "published": "Mon, 16 Nov 2026 17:00:00 GMT",
-        "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-        "images": [],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:2d7a5d6b20fff3cd",
-          "title:5a29c622e2a75b49"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:474a91e84ee7b824": {
-      "id": "defer:url:474a91e84ee7b824",
-      "at": "2026-11-16T17:57:22.955Z",
-      "firstAt": "2026-11-16T17:57:22.955Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:474a91e84ee7b824",
-        "title:c67904ce12eb0c23"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
-      "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
-        "link": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-        "canonical": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
-        "published": "Mon, 16 Nov 2026 17:36:43 +0000",
-        "summary": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-        "images": [],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:474a91e84ee7b824",
-          "title:c67904ce12eb0c23"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4e397e27d38f36ea": {
-      "id": "defer:url:4e397e27d38f36ea",
-      "at": "2026-11-16T17:57:22.955Z",
-      "firstAt": "2026-11-16T17:57:22.955Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:4e397e27d38f36ea",
-        "title:7152ec698ee09f71"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
-      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-        "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-        "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
-        "published": "Mon, 16 Nov 2026 16:00:16 +0000",
-        "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376-842x450.jpg"
-        ],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4e397e27d38f36ea",
-          "title:7152ec698ee09f71"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:8f02058f4a02dc51": {
-      "id": "defer:url:8f02058f4a02dc51",
-      "at": "2026-11-16T17:57:22.955Z",
-      "firstAt": "2026-11-16T17:57:22.955Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:8f02058f4a02dc51",
-        "title:cf1ea7c31e12e1e3"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
-      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-        "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
-        "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
-        "published": "Mon, 16 Nov 2026 16:00:01 +0000",
-        "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1-842x450.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-press-hpc-nvl4-tray-rack-1600x900-5802807.jpg"
-        ],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:8f02058f4a02dc51",
-          "title:cf1ea7c31e12e1e3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:21e886491b30cfff": {
-      "id": "defer:url:21e886491b30cfff",
-      "at": "2026-11-16T17:57:22.955Z",
-      "firstAt": "2026-11-16T17:57:22.955Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:21e886491b30cfff",
-        "title:2d0f664aa79dd48f"
-      ],
-      "canonical": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "More ways to move care forward with ChatGPT for Healthcare",
-        "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-        "canonical": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-        "published": "Mon, 16 Nov 2026 06:00:00 GMT",
-        "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-        "images": [],
-        "ageHours": 12,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:21e886491b30cfff",
-          "title:2d0f664aa79dd48f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:551b3f8b06d4a249": {
-      "id": "defer:url:551b3f8b06d4a249",
-      "at": "2026-11-16T17:57:22.955Z",
-      "firstAt": "2026-11-16T17:57:22.955Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:551b3f8b06d4a249",
-        "title:a8cf5216a509b4a1"
-      ],
-      "canonical": "https://www.producthunt.com/products/stateweave",
-      "title": "StateWeave",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "StateWeave",
-        "link": "https://www.producthunt.com/products/stateweave",
-        "canonical": "https://www.producthunt.com/products/stateweave",
-        "published": "2026-11-15T12:32:35-08:00",
-        "summary": "<p> Test your AI agent on working clones of the apps it uses </p> <p> <a href=\"https://www.producthunt.com/products/stateweave?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317996?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/stateweave",
-        "images": [],
-        "ageHours": 21.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:551b3f8b06d4a249",
-          "title:a8cf5216a509b4a1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:dd659f011024f04f": {
       "id": "defer:url:dd659f011024f04f",
       "at": "2026-11-17T14:32:16.408Z",
@@ -11728,977 +11038,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:e103c7330eb391b4": {
-      "id": "defer:url:e103c7330eb391b4",
-      "at": "2026-11-16T19:31:36.259Z",
-      "firstAt": "2026-11-16T19:31:36.259Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e103c7330eb391b4",
-        "title:bf0767dab9585052"
-      ],
-      "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
-      "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
-        "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-        "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
-        "published": "Mon, 16 Nov 2026 19:19:56 +0000",
-        "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before realistic simulations are possible. The article OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/openai_standard_model.png"
-        ],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e103c7330eb391b4",
-          "title:bf0767dab9585052"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7f59634912f807d8": {
-      "id": "defer:url:7f59634912f807d8",
-      "at": "2026-11-16T19:31:36.259Z",
-      "firstAt": "2026-11-16T19:31:36.259Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:7f59634912f807d8",
-        "title:17cf442ecbffe4fb"
-      ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
-      "title": "US moves to cut China’s remote access to AI chips",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "US moves to cut China’s remote access to AI chips",
-        "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
-        "published": "Mon, 16 Nov 2026 19:10:09 +0000",
-        "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-500x500-1794852925.jpg"
-        ],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7f59634912f807d8",
-          "title:17cf442ecbffe4fb"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:43b552aeb88ac4f0": {
-      "id": "defer:url:43b552aeb88ac4f0",
-      "at": "2026-11-16T19:31:36.259Z",
-      "firstAt": "2026-11-16T19:31:36.259Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:43b552aeb88ac4f0",
-        "title:1e34a6df771ce691"
-      ],
-      "canonical": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten",
-      "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
-        "link": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
-        "canonical": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten",
-        "published": "Mon, 16 Nov 2026 18:52:55 +0000",
-        "summary": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/moonshot_ai_sciences.png"
-        ],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:43b552aeb88ac4f0",
-          "title:1e34a6df771ce691"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a962a9aff8c6e655": {
-      "id": "defer:url:a962a9aff8c6e655",
-      "at": "2026-11-16T19:31:36.260Z",
-      "firstAt": "2026-11-16T19:31:36.260Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a962a9aff8c6e655",
-        "title:abdf69d67316534d"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
-      "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
-        "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-        "canonical": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
-        "published": "Mon, 16 Nov 2026 18:11:10 +0000",
-        "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-        "images": [],
-        "ageHours": 1.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:a962a9aff8c6e655",
-          "title:abdf69d67316534d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b5b8d2f9cb551dda": {
-      "id": "defer:url:b5b8d2f9cb551dda",
-      "at": "2026-11-16T19:31:36.260Z",
-      "firstAt": "2026-11-16T19:31:36.260Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:b5b8d2f9cb551dda",
-        "title:4b031d5c1fcddb9e"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
-      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-        "link": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-        "canonical": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
-        "published": "Mon, 16 Nov 2026 17:10:00 +0000",
-        "summary": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-        "images": [],
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b5b8d2f9cb551dda",
-          "title:4b031d5c1fcddb9e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:af037def51a6f595": {
-      "id": "defer:url:af037def51a6f595",
-      "at": "2026-11-16T19:31:36.260Z",
-      "firstAt": "2026-11-16T19:31:36.260Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:af037def51a6f595",
-        "title:04d4b919b5b3adf6"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
-      "title": "OpenAI will embed safety researchers to investigate AI subversion",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI will embed safety researchers to investigate AI subversion",
-        "link": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-        "canonical": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
-        "published": "Mon, 16 Nov 2026 17:02:43 +0000",
-        "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-        "images": [],
-        "ageHours": 2.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:af037def51a6f595",
-          "title:04d4b919b5b3adf6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:aca925b15bf1ae05": {
-      "id": "defer:url:aca925b15bf1ae05",
-      "at": "2026-11-16T19:31:36.260Z",
-      "firstAt": "2026-11-16T19:31:36.260Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:aca925b15bf1ae05",
-        "title:11dc43ec816e5a92"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
-      "title": "Audible turns to AI to help users discover audiobooks",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Audible turns to AI to help users discover audiobooks",
-        "link": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-        "canonical": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
-        "published": "Mon, 16 Nov 2026 15:52:19 +0000",
-        "summary": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-        "images": [],
-        "ageHours": 3.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:aca925b15bf1ae05",
-          "title:11dc43ec816e5a92"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:eff702dcc52a764a": {
-      "id": "defer:url:eff702dcc52a764a",
-      "at": "2026-11-16T19:31:36.260Z",
-      "firstAt": "2026-11-16T19:31:36.260Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:eff702dcc52a764a",
-        "title:dc407eac80ee46a2"
-      ],
-      "canonical": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse",
-      "title": "In The AI Era, Keep Hiring New College Grads — And Make Them Managers From Day One",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "In The AI Era, Keep Hiring New College Grads — And Make Them Managers From Day One",
-        "link": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse/",
-        "canonical": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse",
-        "published": "Mon, 16 Nov 2026 12:00:36 +0000",
-        "summary": "As AI takes over entry-level knowledge work, guest authors Bob Morse of Strattam Capital and Michael Quoia of KSE Leadership argue that these workers should begin their careers managing AI agents, developing skills in delegation, oversight and judgment traditionally learned later.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/HR.jpeg",
-          "https://news.crunchbase.com/wp-content/uploads/Michael-Quoia-e1794341449183-261x300.jpg"
-        ],
-        "ageHours": 7.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:eff702dcc52a764a",
-          "title:dc407eac80ee46a2"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c43b7cd6d2f1c6fd": {
-      "id": "defer:url:c43b7cd6d2f1c6fd",
-      "at": "2026-11-16T19:31:36.260Z",
-      "firstAt": "2026-11-16T19:31:36.260Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:c43b7cd6d2f1c6fd",
-        "title:f3c2984127dd2db5"
-      ],
-      "canonical": "https://www.producthunt.com/products/puffin-2",
-      "title": "Puffin",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Puffin",
-        "link": "https://www.producthunt.com/products/puffin-2",
-        "canonical": "https://www.producthunt.com/products/puffin-2",
-        "published": "2026-11-15T11:51:59-08:00",
-        "summary": "<p> Identity and inboxes for AI agents </p> <p> <a href=\"https://www.producthunt.com/products/puffin-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317965?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/puffin-2",
-        "images": [],
-        "ageHours": 23.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:c43b7cd6d2f1c6fd",
-          "title:f3c2984127dd2db5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:21550db8855da891": {
-      "id": "defer:url:21550db8855da891",
-      "at": "2026-11-16T19:33:14.535Z",
-      "firstAt": "2026-11-16T19:33:14.535Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:21550db8855da891",
-        "title:5870a9c657cfba33"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
-      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-        "link": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-        "canonical": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
-        "published": "Mon, 16 Nov 2026 19:12:02 +0000",
-        "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-        "images": [],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:21550db8855da891",
-          "title:5870a9c657cfba33"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      },
-      "detail": "business"
-    },
-    "defer:url:a9995c40a3422c04": {
-      "id": "defer:url:a9995c40a3422c04",
-      "at": "2026-11-16T20:18:45.031Z",
-      "firstAt": "2026-11-16T20:18:45.031Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:a9995c40a3422c04",
-        "title:cece5d11f4250ee9"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-        "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-        "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
-        "published": "Mon, 16 Nov 2026 20:00:37 +0000",
-        "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-842x450.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/20261114_033237000_iOS-1.jpeg"
-        ],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:a9995c40a3422c04",
-          "title:cece5d11f4250ee9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0b0c9df79f2d6f2b": {
-      "id": "defer:url:0b0c9df79f2d6f2b",
-      "at": "2026-11-16T20:18:45.031Z",
-      "firstAt": "2026-11-16T20:18:45.031Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:0b0c9df79f2d6f2b",
-        "title:848e3d10fdb57bda"
-      ],
-      "canonical": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-      "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
-      "candidate": {
-        "sourceId": "import-ai",
-        "sourceName": "Import AI",
-        "sourceType": "newsletter",
-        "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
-        "link": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-        "canonical": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-        "published": "Mon, 16 Nov 2026 14:01:15 GMT",
-        "summary": "Plus: CucumberVision!",
-        "messageText": "",
-        "leadPostUrl": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-        "images": [
-          "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-        ],
-        "ageHours": 6.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:0b0c9df79f2d6f2b",
-          "title:848e3d10fdb57bda"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7f831d0690caa93b": {
-      "id": "defer:url:7f831d0690caa93b",
-      "at": "2026-11-16T20:18:45.031Z",
-      "firstAt": "2026-11-16T20:18:45.031Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7f831d0690caa93b",
-        "title:c9ae81f469da0f31"
-      ],
-      "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
-      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
-        "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
-        "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
-        "published": "Mon, 16 Nov 2026 19:42:13 +0000",
-        "summary": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. The article Google warns that fully automated cyberattacks have arrived and will get worse fast appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
-        "images": [],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7f831d0690caa93b",
-          "title:c9ae81f469da0f31"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:be1c1d96e76af57e": {
-      "id": "defer:url:be1c1d96e76af57e",
-      "at": "2026-11-17T08:03:18.799Z",
-      "firstAt": "2026-11-17T08:03:18.799Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:be1c1d96e76af57e",
-        "title:fea7494b11aaedb5"
-      ],
-      "canonical": "https://www.producthunt.com/products/pushr",
-      "title": "pushr",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "pushr",
-        "link": "https://www.producthunt.com/products/pushr",
-        "canonical": "https://www.producthunt.com/products/pushr",
-        "published": "2026-11-16T15:44:31-08:00",
-        "summary": "<p> iPhone push alerts from any script, server or AI agent </p> <p> <a href=\"https://www.producthunt.com/products/pushr?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319539?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/pushr",
-        "images": [],
-        "ageHours": 8.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:be1c1d96e76af57e",
-          "title:fea7494b11aaedb5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9634b5e75ef12012": {
-      "id": "defer:url:9634b5e75ef12012",
-      "at": "2026-11-17T08:03:18.799Z",
-      "firstAt": "2026-11-17T08:03:18.799Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:9634b5e75ef12012",
-        "title:7b0bae18e8ec3a2f"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
-      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-        "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-        "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
-        "published": "Mon, 16 Nov 2026 23:00:05 +0000",
-        "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg"
-        ],
-        "ageHours": 9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:9634b5e75ef12012",
-          "title:7b0bae18e8ec3a2f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:375d85edd1a82e94": {
-      "id": "defer:url:375d85edd1a82e94",
-      "at": "2026-11-17T08:03:18.799Z",
-      "firstAt": "2026-11-17T08:03:18.799Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:375d85edd1a82e94",
-        "title:d287ad879d1485b9"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21577v1",
-      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
-        "link": "https://arxiv.org/abs/2611.21577v1",
-        "canonical": "https://arxiv.org/abs/2611.21577v1",
-        "published": "2026-11-16T18:49:37Z",
-        "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessarily bound to a verified provider identity. This paper studies this gap as tool-provider misbinding: a failure in which a request intended for a legitimate provider is instead resolved to an attacker-controlled tool. The attacker does not compromise the host, LLM, legitimate server, or network channel; it only operates another MCP server that advertises tools with chosen metadata. We formulate tool provider misbinding as an attacker-controlled tool-selection optimization problem and evaluate it in a controlled MCP environment across five LLM-based clients. The results show that interactions drive misbinding. The strongest failures occur when exact-name collision, task-aligned description, and compatible schema reinforce one another, but authority-enhanced descriptions with compatible schema can also cause wrong-provider execution or unresolved provider ambiguity without name collision. Different models expose the same provider-binding weakness differently, including attacker-controlled provider selection, clarification requests, and unstable or inconsistent provider resolution.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21577v1",
-        "images": [],
-        "ageHours": 13.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:375d85edd1a82e94",
-          "title:d287ad879d1485b9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:29d97cd3a9606bee": {
-      "id": "defer:url:29d97cd3a9606bee",
-      "at": "2026-11-17T08:03:18.799Z",
-      "firstAt": "2026-11-17T08:03:18.799Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:29d97cd3a9606bee",
-        "title:fb04f59fe7e95a69"
-      ],
-      "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-      "title": "5 Things That Break When AI Agents Start Acting on Their Own",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "5 Things That Break When AI Agents Start Acting on Their Own",
-        "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "published": "Mon, 16 Nov 2026 18:00:47 +0000",
-        "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/Collibra-Agentic-Control-Ebook-Social-1.png"
-        ],
-        "ageHours": 14,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:29d97cd3a9606bee",
-          "title:fb04f59fe7e95a69"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:efdc00666e56954c": {
-      "id": "defer:url:efdc00666e56954c",
-      "at": "2026-11-17T08:03:18.800Z",
-      "firstAt": "2026-11-17T08:03:18.800Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:efdc00666e56954c",
-        "title:3b5ebda452d75ef6"
-      ],
-      "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-      "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
-        "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-        "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-        "published": "Mon, 16 Nov 2026 15:00:00 +0000",
-        "summary": "Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-give-claude-code-up-to-date-documentation-with-context7-feature.webp"
-        ],
-        "ageHours": 17,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:efdc00666e56954c",
-          "title:3b5ebda452d75ef6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0e64fb9fa60f0eca": {
-      "id": "defer:url:0e64fb9fa60f0eca",
-      "at": "2026-11-17T08:03:18.800Z",
-      "firstAt": "2026-11-17T08:03:18.800Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:0e64fb9fa60f0eca",
-        "title:8f66786c957bf556"
-      ],
-      "canonical": "https://www.producthunt.com/products/polyroom",
-      "title": "polyroom",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "polyroom",
-        "link": "https://www.producthunt.com/products/polyroom",
-        "canonical": "https://www.producthunt.com/products/polyroom",
-        "published": "2026-11-14T13:15:38-08:00",
-        "summary": "<p> Where AI agents work together and your team decides </p> <p> <a href=\"https://www.producthunt.com/products/polyroom?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1316848?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/polyroom",
-        "images": [],
-        "ageHours": 58.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:0e64fb9fa60f0eca",
-          "title:8f66786c957bf556"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3d4aeac88b69acfa": {
-      "id": "defer:url:3d4aeac88b69acfa",
-      "at": "2026-11-17T08:03:18.800Z",
-      "firstAt": "2026-11-17T08:03:18.800Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3d4aeac88b69acfa",
-        "title:a0faa3fb5222195d"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/holiday-extras-dots",
-      "title": "At Holiday Extras, dots get to work before anyone asks",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "At Holiday Extras, dots get to work before anyone asks",
-        "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
-        "canonical": "https://openai.com/business/customer-stories/holiday-extras-dots",
-        "published": "Mon, 16 Nov 2026 00:00:00 GMT",
-        "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/holiday-extras-dots",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:3d4aeac88b69acfa",
-          "title:a0faa3fb5222195d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:0e7f690aa4ff229b": {
       "id": "defer:url:0e7f690aa4ff229b",
@@ -14605,6 +12944,387 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:af36944b8f532014": {
+      "id": "defer:url:af36944b8f532014",
+      "at": "2026-11-17T19:31:38.304Z",
+      "firstAt": "2026-11-17T19:31:38.304Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:af36944b8f532014",
+        "title:6b85cfc01720cfdb"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+        "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+        "canonical": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+        "published": "Tue, 17 Nov 2026 19:02:20 +0000",
+        "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+        "images": [],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:af36944b8f532014",
+          "title:6b85cfc01720cfdb"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:31fa1641a8c31572": {
+      "id": "defer:url:31fa1641a8c31572",
+      "at": "2026-11-17T19:31:38.305Z",
+      "firstAt": "2026-11-17T19:31:38.305Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:31fa1641a8c31572",
+        "title:2aef2565ab073607"
+      ],
+      "canonical": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+      "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+        "link": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+        "canonical": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+        "published": "Tue, 17 Nov 2026 18:50:00 GMT",
+        "summary": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+        "images": [
+          "http://cms.therecord.media/uploads/red_digital_f1b63748b1.jpg"
+        ],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:31fa1641a8c31572",
+          "title:2aef2565ab073607"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:92ead912d06bbf7e": {
+      "id": "defer:url:92ead912d06bbf7e",
+      "at": "2026-11-17T19:31:38.305Z",
+      "firstAt": "2026-11-17T19:31:38.305Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:92ead912d06bbf7e",
+        "title:6847a6cf27f7ce7d"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+        "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+        "canonical": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+        "published": "Tue, 17 Nov 2026 18:48:23 +0000",
+        "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+        "images": [],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:92ead912d06bbf7e",
+          "title:6847a6cf27f7ce7d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5a600a844d9b7ef8": {
+      "id": "defer:url:5a600a844d9b7ef8",
+      "at": "2026-11-17T19:31:38.305Z",
+      "firstAt": "2026-11-17T19:31:38.305Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:5a600a844d9b7ef8",
+        "title:727f0bdef2ee4024"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+        "link": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+        "canonical": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+        "published": "Tue, 17 Nov 2026 18:04:16 +0000",
+        "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+        "images": [],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:5a600a844d9b7ef8",
+          "title:727f0bdef2ee4024"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8f6af8c44a4a1bfb": {
+      "id": "defer:url:8f6af8c44a4a1bfb",
+      "at": "2026-11-17T19:31:38.305Z",
+      "firstAt": "2026-11-17T19:31:38.305Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8f6af8c44a4a1bfb",
+        "title:ca9ae2ac51e3953f"
+      ],
+      "canonical": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Introducing GPT-6.2 Astra and Sol",
+        "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "canonical": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "published": "Tue, 17 Nov 2026 17:45:00 GMT",
+        "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "images": [],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:8f6af8c44a4a1bfb",
+          "title:ca9ae2ac51e3953f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c183b19404c14629": {
+      "id": "defer:url:c183b19404c14629",
+      "at": "2026-11-17T19:31:38.305Z",
+      "firstAt": "2026-11-17T19:31:38.305Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:c183b19404c14629",
+        "title:dc40074e47f9f74b"
+      ],
+      "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+        "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+        "published": "Tue, 17 Nov 2026 14:00:29 +0000",
+        "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-500x500.jpg"
+        ],
+        "ageHours": 5.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:c183b19404c14629",
+          "title:dc40074e47f9f74b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b43ef08ac3ed4f7a": {
+      "id": "defer:url:b43ef08ac3ed4f7a",
+      "at": "2026-11-17T19:31:38.332Z",
+      "firstAt": "2026-11-17T19:31:38.332Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:b43ef08ac3ed4f7a",
+        "title:d2e36fdc59b1cc09"
+      ],
+      "canonical": "https://openai.com/index/astra-law-6-2",
+      "title": "Astra for Law leads in legal intelligence",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Astra for Law leads in legal intelligence",
+        "link": "https://openai.com/index/astra-law-6-2",
+        "canonical": "https://openai.com/index/astra-law-6-2",
+        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
+        "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/astra-law-6-2",
+        "images": [],
+        "ageHours": 19.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:b43ef08ac3ed4f7a",
+          "title:d2e36fdc59b1cc09"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:c19f50a3e9a385a8": {
+      "id": "defer:url:c19f50a3e9a385a8",
+      "at": "2026-11-17T19:32:55.570Z",
+      "firstAt": "2026-11-17T19:32:55.570Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c19f50a3e9a385a8",
+        "title:dd957d6ab4f5fe9c"
+      ],
+      "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+      "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
+      "candidate": {
+        "sourceId": "artificial-analysis-articles",
+        "sourceName": "Artificial Analysis Articles",
+        "sourceType": "benchmark",
+        "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
+        "link": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+        "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+        "published": "2026-11-17",
+        "summary": "",
+        "images": [],
+        "ageHours": 19.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:c19f50a3e9a385a8",
+          "title:dd957d6ab4f5fe9c"
+        ]
+      },
+      "detail": "models"
     }
   },
   "slots": {
@@ -16778,6 +15498,37 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "43/43"
+    },
+    "2026-11-17T23:00+03:30": {
+      "at": "2026-11-17T19:32:14.134Z",
+      "status": "sent",
+      "category": "models",
+      "title": "آنتروپیک: حافظه ایجنت به فراموش کردن درست بستگی دارد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/23-00",
+      "messageId": 100,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0021749952,
+      "tokens": 23494,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "آنتروپیک: حافظه ایجنت به فراموش کردن درست بستگی دارد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 100,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0021749952,
+          "tokens": 23494,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-17T19:32:14.134Z"
+        }
+      ]
     }
   },
   "published": [
@@ -18244,93 +16995,111 @@
       "sourceTitle": "Google makes it easier to use Gemini without training AI on your data",
       "sourceText": "AI training and chat history will now have separate toggles in the Gemini activity settings.\nIt can be hard to use Google products—or even the Internet itself—without coming into contact with Gemini AI. That is, of course, by design . The more you use Gemini, the more data Google collects to train and improve its generative AI chatbot. The options to limit training on your data have been scant, but Google is finally adding more controls to the Gemini app.\nThe change currently rolling out to Gemini will separate your chat history from training, which allows you to retain basic AI functionality without handing Google quite so much control over your data. Prior to this change, the only way to opt out of contributing your chat contents (including attachments) for training was to turn off your history. That made it impossible to go back and pick up a chat down the road.\nAs the new settings roll out, users will see separate toggles for model training and chat history. The history setting will continue to support an adjustable limit, but you will no longer have to change it to stop Google from training on your Gemini usage. Meanwhile, AI training will be an opt-out situation. You’ll need to find the toggle to block Google from using your chats for AI training. It’s under Activity in the Gemini settings. You can also access the menu from your Google account under Data and Privacy > My Activity > Other activity > Gemini Apps Activity.\nImportantly, this only applies to future interactions with Gemini. If you have previously fed any data into Google’s AI, that’s already part of the tr",
       "at": "2026-11-17T18:09:24.489Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-17T23:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "آنتروپیک: حافظه ایجنت به فراموش کردن درست بستگی دارد",
+      "why": "توی یک تست حقوقی، ویکی ساخته‌شده توسط کلود با جستجو، امتیاز ۸۷ درصد گرفت؛ در حالی که جستجوی تنها ۷۳ درصد بود. آنتروپیک قبول داره که سؤال‌های باز هنوز هست: یادداشت برداشتن وسط کار حواس عامل رو پرت می‌کنه و Dreaming هزینه محاسباتی اضافه داره.",
+      "dedupe_key": "anthropic-agent-memory-forgetting",
+      "post_key": "2026-11-17/23-00/1",
+      "sourceId": "tg-dunijet-ai",
+      "sourceName": "دانیجت | Dunijet",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+      "sourceTitle": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+      "sourceText": "شرکت Anthropic می‌گه راز حافظه‌ی ایجنت‌ها این نیست که چقدر ذخیره کنن، بلکه اینه که بدونن چی رو فراموش کنن\n\nتوی تست بازی Pokémon Red، مدل قدیمی‌تر Claude Sonnet 3.7 توی حدود ۱۰ هزار قدم، ۴۱۳ فایل توی ۲۲۵ پوشه ساخت و آخرش فقط یه نشان گرفت؛ چون بیشتر وقتش صرف مرتب کردن یادداشت‌ها می‌شد. مدل جدیدتر Claude Fable 5 فقط چند تا فایل نگه داشت و چهار نشان گرفت.\n\nیه فرایند به اسم Dreaming هم دارن که توی زمان بیکاری، متن جلسه‌های قبلی رو می‌خونه و یادداشت‌های غلط رو خودش اصلاح می‌کنه.\n\nthe-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/\n\n@dunijet_ai\n\n❤3",
+      "at": "2026-11-17T19:32:14.135Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8437,
       "last_at": "2026-11-17T16:01:41+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "ai_farshad": {
       "last_id": 6458,
       "last_at": "2026-11-17T17:08:42+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "Mohammad_zammani": {
       "last_id": 7231,
       "last_at": "2026-11-17T15:28:23+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "techiin_ir": {
       "last_id": 20797,
       "last_at": "2026-11-17T17:37:01+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "mgh_mobin": {
       "last_id": 492,
       "last_at": "2026-11-17T11:28:35+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "web3nabu": {
       "last_id": 2179,
       "last_at": "2026-11-17T16:24:12+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "asrnovin_ir": {
       "last_id": 11481,
       "last_at": "2026-11-17T16:44:12+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "shayanode": {
-      "last_id": 241,
-      "last_at": "2026-11-17T04:39:29+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "last_id": 242,
+      "last_at": "2026-11-17T09:26:27+00:00",
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "codecloude": {
-      "last_id": 2595,
-      "last_at": "2026-11-17T13:35:12+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "last_id": 2596,
+      "last_at": "2026-11-17T18:29:37+00:00",
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "dunijet_ai": {
-      "last_id": 2578,
-      "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "last_id": 2579,
+      "last_at": "2026-11-17T18:28:36+00:00",
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "marketing_aida": {
       "last_id": 108,
       "last_at": "2026-11-17T11:52:05+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "MatinSenPaii": {
       "last_id": 5897,
       "last_at": "2026-11-17T16:29:47+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     },
     "thenimaonAI": {
       "last_id": 539,
       "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-17T17:56:30.297Z"
+      "checked_at": "2026-11-17T19:31:27.568Z"
     }
   },
   "offerReviews": [
@@ -21620,6 +20389,18 @@
       "reason": "source_not_official",
       "slot": "2026-11-17T20:30+03:30",
       "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-shayanode|https://t.me/shayanode/242",
+      "date": "2026-11-17",
+      "at": "2026-11-17T19:31:27.568Z",
+      "source": "tg-shayanode",
+      "title": "بچه ها برای دونستن خیلی چیزا نیازی به دوره نیست واقعا خیلی از مفاهیم AI که",
+      "url": "https://t.me/shayanode/242",
+      "reason": "denied_link",
+      "slot": "2026-11-17T23:00+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],
