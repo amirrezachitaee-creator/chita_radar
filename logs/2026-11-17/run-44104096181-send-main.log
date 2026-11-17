@@ -1,0 +1,145 @@
+RUN 44104096181 | send/main | slot auto | 2026-11-17T14:32:04Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-17T17:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 10/31 | models 5/24 | security 3/11 | business 4/11
+DAILY 5/11
+DIVERSITY_TARGET tools | slot 17:00
+DEFERRED_POOL 48
+  DEFERRED category_consecutive | try 0/3 | PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027
+  DEFERRED category_consecutive | try 0/3 | Strengthening NATO and allied cyber defenses with AI
+  DEFERRED category_consecutive | try 0/3 | pushr
+  DEFERRED source_consecutive | try 0/3 | Cybersecurity AI startup Corma reaches $1B valuation in about 3 months
+  DEFERRED source_consecutive | try 0/3 | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 52h | ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+  DEFERRED_BENCHMARK source_daily | expires 52h | SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents
+  DEFERRED_BENCHMARK source_daily | expires 52h | Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle
+DEFERRED_EXHAUSTED 3
+SOURCE_DISCOVERY already_ran date=2026-11-17 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=208 index=12 benchmark=6 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=165 nodate=0 nonai=0 dup=27 dup_other=0 kept=67 errors=2
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=316 pending=13 leads=2 nolink=1 nonai=0 denied=0 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:466,review:14 delivered=480 window=30d
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+  REVIEW_ITEM id=c2120d4a26 message=27
+  REVIEW_REQUIRED reason=denied_link sent=27
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/17-00-18ba67cb
+RELEVANCE candidates=66 kept=44 dropped=22
+  SKIP_NOT_AI TechCrunch | Uber says hackers stole information on close to 150,000 driver’s licenses during data breach
+  SKIP_NOT_AI Product Hunt | WispOS
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI The Record | Uber says nearly 150,000 impacted by third-party breach
+  SKIP_NOT_AI TechCrunch | Science Corporation’s brain tech is worth $3.5 billion after new funding
+  SKIP_NOT_AI The Record | Autistic teen hacker pleads guilty to leak of Grand Theft Auto VI footage
+  SKIP_NOT_AI TechCrunch | Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids
+  SKIP_NOT_AI ... +14 more
+DIVERSITY target=tools queue=3 fresh=9 deferred=48 rejected=source_daily:21,source_consecutive:11,category_consecutive:4
+  DIVERSITY_QUEUE tools:KDnuggets | tools:OpenAI News | models:Simon Willison - Prompt Injection
+QUEUE_SKIPPED 52
+  QUEUE_SKIP category_consecutive | Crunchbase News | PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027
+  QUEUE_SKIP source_consecutive | TechCrunch | Cybersecurity AI startup Corma reaches $1B valuation in about 3 months
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+  QUEUE_SKIP source_consecutive | TechCrunch | All the questions Nvidia should answer on Tuesday — but probably won’t
+  QUEUE_SKIP source_consecutive | TechCrunch | Apple reveals new Mac security controls as AI agents raise privacy risks
+  QUEUE_SKIP source_daily | NVIDIA AI Blog | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  QUEUE_SKIP source_daily | The Decoder | Google warns that fully automated cyberattacks have arrived and will get worse fast
+  QUEUE_SKIP source_daily | The Decoder | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  QUEUE_SKIP source_consecutive | TechCrunch | Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security
+  QUEUE_SKIP source_daily | arXiv | Latent Lattice Language Models
+  QUEUE_SKIP ... +42 more
+QUEUE_HELD 3
+  QUEUE_HOLD source_consecutive | TechCrunch | Nvidia’s first big move after Jensen Huang’s exit targets national security
+  QUEUE_HOLD source_consecutive | TechCrunch | Genesis AI raises $500 million to deploy glove-wearing robots
+  QUEUE_HOLD category_consecutive | Crunchbase News | Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses
+ATTEMPT 1/3 | deferred 2/3 KDnuggets | Agentic System Design: A Self-Study Roadmap | 0.5h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  DEFERRED fetch_failed | try 3/3
+  DEFER_LIMIT fetch_failed | no more retries
+ATTEMPT 2/3 | deferred 0/3 OpenAI News | Strengthening the fight against online child sexual abuse with new tools and support | 1h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 1/3
+ATTEMPT 3/3 Simon Willison - Prompt Injection | llm 0.37.3 | 14.6h
+  TOOL_LINK candidate https://github.com/sponsors/simonw/ | score 22
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  TOOL_LINK applied https://github.com/sponsors/simonw/
+POST 1/2 status=sent category=tools | QA 43/43 | $0.001426 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/17-00
+RESULT SENT category=tools | offer=no | image=no | QA 43/43 | cost $0.001426 | post $0.001426 | tokens 9683
+TITLE ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/17-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST tools | sent | $0.001426 | ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-17T14:33:14Z
+# گزارش روزانه 2026-11-17 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 6 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 6
+
+## آمار روز
+- پست ارسال‌شده: 6 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 9
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 5
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.006327
+- توکن: 102359
+- میانگین هر پست ارسال‌شده: $0.001054
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 11 | 31 | 20 |
+| مدل‌ها و پژوهش | 5 | 24 | 19 |
+| امنیت و حریم خصوصی | 3 | 11 | 8 |
+| کسب‌وکار و بازار | 4 | 11 | 7 |
+| مجموع | 23 | 77 | 54 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001219 | 26413 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000937 | 22895 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000352 | 10284 | بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000377 | 10588 | کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002016 | 22496 | دادستان کالیفرنیا از OpenAI شکایت کرد |
+| 17:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001426 | 9683 | ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 16
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 6، لینک قابل استفاده ندارد 3، منبع رسمی شرکت نیست 3، دریافت صفحه اصلی ناموفق بود 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-17.md
+SOURCE_STATUS 2026-11-17T14:33:14Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-17.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۲۶ آبان ۱۴۰۵
+پست امروز: 6 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 6
+صف بازبینی: 56 کارت
+امروز: 0 رد | 3 بازنویسی
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44104096181
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

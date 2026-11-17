@@ -3259,6 +3259,50 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "c2120d4a26": {
+      "id": "c2120d4a26",
+      "messageId": 27,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-17T17:00+03:30",
+      "reason": "denied_link",
+      "kind": "offer",
+      "source": "tg-mohammad-zammani",
+      "sourceName": "هوش مصنوعی | محمد زمانی",
+      "sourceType": "telegram_channel",
+      "title": "دانشمندها می‌گن ChatGPT بهره‌وری کاری‌شون رو تقریباً دو برابر کرده و بعضی‌هاشون حتی انتخاب موضوع پژوهش",
+      "url": "https://t.me/Mohammad_zammani/7230",
+      "leadPostUrl": "https://t.me/Mohammad_zammani/7230",
+      "messageText": "دانشمندها می‌گن ChatGPT بهره‌وری کاری‌شون رو تقریباً دو برابر کرده و بعضی‌هاشون حتی انتخاب موضوع پژوهش رو هم به این هوش مصنوعی می‌سپارن.\n\nشرکت OpenAI یه نظرسنجی از ۲۵۱ پژوهشگر حاضر در برنامه رایگانش برای دانشمندها انجام داده. این محقق‌ها به‌طور میانگین تخمین زدن که انجام همون کارها با همون سطح کیفیت، بدون کمک هوش مصنوعی ۱.۹ برابر بیشتر زمان می‌برد.\n\nتوی این مطالعه، ۵۸۰ هزار و ۱۸۶ پیام پژوهشی از ۱۸۱۹ دانشمند بین بازه ۲۰ آگوست تا ۲۲ سپتامبر هم بررسی شده. طبق داده‌ها، ۶۸ درصد از این افراد از ChatGPT برای پرورش ایده‌های پژوهشی استفاده کردن و توی حدود ۲۳ درصد از پیام‌های مربوط به ایده‌پردازی، ازش خواستن که خودِ سوال پژوهش رو پیشنهاد بده.\n\nنکته‌ش اینه که این صرفه‌جویی در زمان فقط برآورد شخصی خودِ دانشمندهاست و OpenAI هم می‌گه این مطالعه رابطه علت و معلولی رو ثابت نمی‌کنه. محقق‌های OpenAI هم به متن اصلی چت‌ها دسترسی نداشتن و فقط برچسب‌های خودکار هر پیام رو دیدن.\n\nحالا OpenAI می‌خواد ظرفیت این برنامه رو تا ۲۰۰ هزار پژوهشگر بالا ببره. ثبت‌نام برای دریافت ۵۰ هزار اکانت رایگان ChatGPT Plus از ۲۳ نوامبر باز می‌شه و پذیرش هم بر اساس اولویت زمان ثبت‌نامه.\n\n✈️@mohammad_zammani\n📱Mohammad.zammani.offical\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤3🔥1🥰1",
+      "relatedLinks": [
+        "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
+      ],
+      "images": [],
+      "imageUrl": "",
+      "publishedAt": "2026-11-17T14:28:55+00:00",
+      "keys": [
+        "url:18ba67cbfed6f154",
+        "title:ca8c7cf311355528"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": true,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-17T14:32:04.516Z",
+      "updatedAt": "2026-11-17T14:32:04.516Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [

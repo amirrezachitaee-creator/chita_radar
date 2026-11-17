@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T13:34:13.951Z",
+  "updatedAt": "2026-11-17T14:33:14.510Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10607,6 +10607,42 @@
       "slot": "2026-11-17T17:00+03:30",
       "title": "datasette-apps 0.4a0",
       "url": "https://simonwillison.net/2026/Nov/15/datasette-apps"
+    },
+    "url:18ba67cbfed6f154": {
+      "at": "2026-11-17T14:32:16.288Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "دانشمندها می‌گن ChatGPT بهره‌وری کاری‌شون رو تقریباً دو برابر کرده و بعضی‌هاشون حتی انتخاب موضوع پژوهش",
+      "url": "https://t.me/Mohammad_zammani/7230"
+    },
+    "title:ca8c7cf311355528": {
+      "at": "2026-11-17T14:32:16.288Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "دانشمندها می‌گن ChatGPT بهره‌وری کاری‌شون رو تقریباً دو برابر کرده و بعضی‌هاشون حتی انتخاب موضوع پژوهش",
+      "url": "https://t.me/Mohammad_zammani/7230"
+    },
+    "url:eb3125817116c9db": {
+      "at": "2026-11-17T14:33:14.508Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm",
+      "benchmark": false
+    },
+    "title:75a7e935a32f5649": {
+      "at": "2026-11-17T14:33:14.508Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-17T17:00+03:30",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -10716,9 +10752,9 @@
     },
     "defer:url:a63a041375386e27": {
       "id": "defer:url:a63a041375386e27",
-      "at": "2026-11-17T13:32:30.758Z",
+      "at": "2026-11-17T14:32:16.366Z",
       "firstAt": "2026-11-16T13:32:36.966Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -10764,7 +10800,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:a63a041375386e27",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
@@ -11516,12 +11552,13 @@
     },
     "defer:url:dd659f011024f04f": {
       "id": "defer:url:dd659f011024f04f",
-      "at": "2026-11-16T17:57:22.955Z",
+      "at": "2026-11-17T14:32:16.408Z",
       "firstAt": "2026-11-16T17:57:22.955Z",
-      "attempts": 0,
-      "reason": "category_daily",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_daily"
+        "category_daily",
+        "fetch_failed"
       ],
       "keys": [
         "url:dd659f011024f04f",
@@ -11558,8 +11595,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:dd659f011024f04f",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:e103c7330eb391b4": {
       "id": "defer:url:e103c7330eb391b4",
@@ -13280,6 +13322,151 @@
         "keys": [
           "url:7e59a840b8400113",
           "title:98a472f5995eb26c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1c3d3bc22915fae9": {
+      "id": "defer:url:1c3d3bc22915fae9",
+      "at": "2026-11-17T14:32:16.297Z",
+      "firstAt": "2026-11-17T14:32:16.297Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:1c3d3bc22915fae9",
+        "title:a3581b35b14fc831"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security",
+      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+        "link": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+        "canonical": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security",
+        "published": "Tue, 17 Nov 2026 14:05:30 +0000",
+        "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+        "images": [],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:1c3d3bc22915fae9",
+          "title:a3581b35b14fc831"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1901229e7d1fe285": {
+      "id": "defer:url:1901229e7d1fe285",
+      "at": "2026-11-17T14:32:16.297Z",
+      "firstAt": "2026-11-17T14:32:16.297Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:1901229e7d1fe285",
+        "title:c4fba79c4eabe7c8"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots",
+      "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
+        "link": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+        "canonical": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots",
+        "published": "Tue, 17 Nov 2026 14:00:00 +0000",
+        "summary": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+        "images": [],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:1901229e7d1fe285",
+          "title:c4fba79c4eabe7c8"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1ca2af5a29f1d8d5": {
+      "id": "defer:url:1ca2af5a29f1d8d5",
+      "at": "2026-11-17T14:32:16.297Z",
+      "firstAt": "2026-11-17T14:32:16.297Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1ca2af5a29f1d8d5",
+        "title:cd5e2285c55c988f"
+      ],
+      "canonical": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise",
+      "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+        "link": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+        "canonical": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise",
+        "published": "Tue, 17 Nov 2026 14:00:18 +0000",
+        "summary": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/AI-manufacturing.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/Founders-Xian-Theo-Eno-Oct-27-2027_LRG-1-scaled-e1794845154963-300x223.jpg"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:1ca2af5a29f1d8d5",
+          "title:cd5e2285c55c988f"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -15382,11 +15569,35 @@
     },
     "2026-11-17T17:00+03:30": {
       "at": "2026-11-17T13:34:13.948Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
       "cost": 0.0017640224,
       "tokens": 28823,
-      "posts": []
+      "posts": [
+        {
+          "title": "ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 97,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00142562,
+          "tokens": 9683,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-17T14:33:14.507Z"
+        }
+      ],
+      "category": "tools",
+      "title": "ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/17-00",
+      "messageId": 97,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "43/43"
     }
   },
   "published": [
@@ -16799,93 +17010,111 @@
       "sourceTitle": "California state AG sues OpenAI over rogue agent incidents | TechCrunch",
       "sourceText": "OpenAI is facing a new lawsuit from the California Attorney General’s office , alleging that the company’s training practices and lax security pose an ongoing danger to the public.\nAt the center of the case is the July 2026 Hugging Face compromise , in which a pre-release model within OpenAI compromised both companies’ security systems to complete a training benchmark. In its official report on the incident , OpenAI called it “an outlier scenario involving a rare and unexpected confluence of events.”\nThe California lawsuit represents one of the first attempts by a government regulator to hold an AI lab legally accountable for a rogue agent incident, with significant implications for both OpenAI’s competitors and its clients.\nThe complaint centers on the Hugging Face incident, but also cites similar incidents involving RubyGems , DseWiki , the Wikimedia Foundation , and Australian government websites as evidence that the underlying behavior is ongoing.\nThe complaint also alleges that dozens of similar incidents have occurred without public disclosure.\n“OpenAI has recently sent notices to dozens of additional third parties whose websites or internal systems have been infiltrated by OpenAI agents,” the complaint reads. “In some cases, OpenAI agents were able to access sensitive personally identifiable information, such as employee records containing names, birth dates, addresses, and more. The vast majority of these incidents have not been disclosed or discussed publicly by either OpenAI or by the affected third parties.”\nThe central allegation is that OpenAI’s ongoing testing",
       "at": "2026-11-17T11:21:25.249Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-17T17:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد",
+      "why": "اگه از LLM با Homebrew استفاده می‌کنی، این آپدیت لاگ‌گیری رو دوباره سر جاش می‌ذاره.",
+      "dedupe_key": "simonwillison-llm-0373-release",
+      "post_key": "2026-11-17/17-00/1",
+      "sourceId": "simon-willison-prompt-injection",
+      "sourceName": "Simon Willison - Prompt Injection",
+      "sourceType": "blog_tag",
+      "benchmark": false,
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "sourceTitle": "Release: llm 0.37.3",
+      "sourceText": "A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software.\nHomebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code .\nThat was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug.\nThis is a beat by Simon Willison, posted on 16th November 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.",
+      "at": "2026-11-17T14:33:14.508Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8435,
       "last_at": "2026-11-17T10:55:51+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "ai_farshad": {
-      "last_id": 6455,
-      "last_at": "2026-11-17T11:25:14+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "last_id": 6457,
+      "last_at": "2026-11-17T14:02:10+00:00",
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7229,
-      "last_at": "2026-11-17T12:30:23+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "last_id": 7230,
+      "last_at": "2026-11-17T14:28:55+00:00",
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "techiin_ir": {
       "last_id": 20791,
       "last_at": "2026-11-17T11:29:40+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "mgh_mobin": {
       "last_id": 492,
       "last_at": "2026-11-17T11:28:35+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "web3nabu": {
       "last_id": 2177,
       "last_at": "2026-11-17T12:09:16+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "asrnovin_ir": {
       "last_id": 11479,
       "last_at": "2026-11-17T12:34:02+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "shayanode": {
-      "last_id": 238,
-      "last_at": "2026-11-16T19:12:16+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "last_id": 239,
+      "last_at": "2026-11-16T19:13:27+00:00",
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "codecloude": {
-      "last_id": 2594,
-      "last_at": "2026-11-17T08:49:14+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "last_id": 2595,
+      "last_at": "2026-11-17T13:35:12+00:00",
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "marketing_aida": {
       "last_id": 108,
       "last_at": "2026-11-17T11:52:05+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "MatinSenPaii": {
       "last_id": 5896,
       "last_at": "2026-11-17T11:29:58+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     },
     "thenimaonAI": {
       "last_id": 539,
       "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-17T13:30:57.473Z"
+      "checked_at": "2026-11-17T14:32:04.516Z"
     }
   },
   "offerReviews": [
@@ -20137,6 +20366,18 @@
       "title": "DeepSeek introduced limits for free users after record growth in load - Aroged",
       "url": "https://www.aroged.com/deepseek-introduced-limits-for-free-users-after-record-growth-in-load/",
       "reason": "source_not_official",
+      "slot": "2026-11-17T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7230",
+      "date": "2026-11-17",
+      "at": "2026-11-17T14:32:04.516Z",
+      "source": "tg-mohammad-zammani",
+      "title": "دانشمندها می‌گن ChatGPT بهره‌وری کاری‌شون رو تقریباً دو برابر کرده و بعضی‌هاشون حتی انتخاب موضوع پژوهش",
+      "url": "https://t.me/Mohammad_zammani/7230",
+      "reason": "denied_link",
       "slot": "2026-11-17T17:00+03:30",
       "kind": "offer",
       "mainEligible": false
