@@ -1,0 +1,92 @@
+RUN 44168572322 | send/main | slot auto | 2026-11-17T20:23:07Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-17T23:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 12/31 | models 6/24 | security 3/11 | business 5/11
+DAILY 9/11
+DIVERSITY_TARGET tools | slot 23:00
+DEFERRED_POOL 47
+  DEFERRED source_daily | try 0/3 | Google expands access to Gemini Tasks, which can help with calls, purchases
+  DEFERRED source_daily | try 0/3 | Chinese state group developing automated attack tool for cyber espionage, Google says
+  DEFERRED source_daily | try 0/3 | Google to keep Gemini chats for 2 months, up from 72 hours, even with history off
+  DEFERRED source_daily | try 0/3 | Pedestal AI raises $4.7 million to agentify the supply chain
+  DEFERRED category_consecutive | try 0/3 | Introducing GPT-6.2 Astra and Sol
+DEFERRED_BENCHMARK 6 lane=benchmark
+  DEFERRED_BENCHMARK source_consecutive | expires 68h | Running the full server-side Datasette Python app in the browser with service workers and Pyodide
+  DEFERRED_BENCHMARK fetch_failed | expires 52h | Astra for Law leads in legal intelligence
+  DEFERRED_BENCHMARK category_consecutive | expires 52h | OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol
+  DEFERRED_BENCHMARK source_daily | expires 46h | ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+  DEFERRED_BENCHMARK source_daily | expires 46h | SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents
+  DEFERRED_BENCHMARK source_daily | expires 46h | Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle
+DEFERRED_EXHAUSTED 3
+SLOT_ALREADY_DONE 2026-11-17T23:00+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-17T20:23:07Z
+# گزارش روزانه 2026-11-17 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 9 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 9
+
+## آمار روز
+- پست ارسال‌شده: 9 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 3، ابزارها و محصولات 3، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 2
+- آفر: ارسال‌شده 0 | بازبینی 10
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 11
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 3، ابزارها و محصولات 3، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 2
+
+## هزینه
+- هزینه مدل: $0.011017
+- توکن: 159761
+- میانگین هر پست ارسال‌شده: $0.001224
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 12 | 31 | 19 |
+| مدل‌ها و پژوهش | 6 | 24 | 18 |
+| امنیت و حریم خصوصی | 3 | 11 | 8 |
+| کسب‌وکار و بازار | 5 | 11 | 6 |
+| مجموع | 26 | 77 | 51 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001219 | 26413 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000937 | 22895 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000352 | 10284 | بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000377 | 10588 | کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002016 | 22496 | دادستان کالیفرنیا از OpenAI شکایت کرد |
+| 17:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001426 | 9683 | ابزار خط فرمان LLM سیمون ویلیسون آپدیت شد |
+| 20:30 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002120 | 23315 | جنسیس ای‌آی ۵۰۰ میلیون دلار جذب کرد |
+| 20:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000395 | 10593 | گوگل کنترل آموزش جمنای روی داده‌ها را از تاریخچه جدا کرد |
+| 23:00 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.002175 | 23494 | آنتروپیک: حافظه ایجنت به فراموش کردن درست بستگی دارد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 19
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 8، لینک قابل استفاده ندارد 3، منبع رسمی شرکت نیست 4، دریافت صفحه اصلی ناموفق بود 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 51
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-17.md
+SOURCE_STATUS 2026-11-17T20:23:08Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-17.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۲۶ آبان ۱۴۰۵
+پست امروز: 9 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 9
+صف بازبینی: 59 کارت
+امروز: 0 رد | 3 بازنویسی
+صف تعویق: 51
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44168572322
+STATUS_CARD_END
+STATUS_SKIP reason=already_sent
