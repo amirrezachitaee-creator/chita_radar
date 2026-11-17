@@ -1,0 +1,162 @@
+RUN 44043125010 | send/main | slot auto | 2026-11-17T08:01:03Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-17T11:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 10/31 | models 4/24 | security 2/11 | business 3/11
+DAILY 2/11
+DIVERSITY_TARGET tools | slot 11:30
+DEFERRED_POOL 44
+  DEFERRED category_consecutive | try 0/3 | California state AG sues OpenAI over rogue agent incidents
+  DEFERRED category_daily | try 0/3 | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  DEFERRED source_daily | try 0/3 | Google warns that fully automated cyberattacks have arrived and will get worse fast
+  DEFERRED source_daily | try 0/3 | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  DEFERRED category_consecutive | try 1/3 | Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security
+DEFERRED_EXHAUSTED 6
+SOURCE_DISCOVERY already_ran date=2026-11-17 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=6 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=178 nodate=0 nonai=0 dup=19 dup_other=0 kept=82 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=317 pending=22 leads=6 nolink=2 nonai=0 denied=1 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=1 ocr_text=0 ocr_empty=1 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:448,review:14 delivered=462 window=30d
+REVIEW_LEADS 5 separate_from_main=yes cap=none
+  REVIEW_ITEM id=1ee5771f4f message=15
+  REVIEW_REQUIRED reason=denied_link sent=15
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/11-30-8ff791a7
+REVIEW_DRAFT عصر نوین | AminiYT | 📌طبق گزارش‌ها، سامسونگ در حال توسعه قابلیت جدیدی به اسم Galaxy Claw هست که می‌تونه هوش | 352 chars
+  REVIEW_ITEM id=8fb03675e1 message=16
+  REVIEW_REQUIRED reason=no_link sent=16
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/11-30-fc651e49
+REVIEW_DRAFT M G H M O B I N | کانال ها و پیج ها پر شده از محتوای AI نویس... یه چیزی که این روزا | 402 chars
+  REVIEW_ITEM id=e8bf37bbf7 message=17
+  REVIEW_REQUIRED reason=no_link sent=17
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/11-30-7b9ccd29
+  REVIEW_DUPLICATE M G H M O B I N | کانال ها و پیج ها پر شده از محتوای AI نویس... | کانال ها و پیج ها پر شده از محتوای AI نویس... یه چیزی که این روزا
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | 🤖یه قابلیت جدید به جمینای نوت‌بوک اضافه شده که باهاش می‌تونید فایل‌ها و منابعی که بهش | 630 chars
+  REVIEW_ITEM id=f44b4f935c message=18
+  REVIEW_REQUIRED reason=denied_link sent=18
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-17/11-30-2129c88e
+RELEVANCE candidates=77 kept=55 dropped=22
+  SKIP_NOT_AI Thenima.one | اکونومیست «The World Ahead 2027» رو منتشر کرد 📰🌍
+  SKIP_NOT_AI TechCrunch | Uber says hackers stole information on close to 150,000 driver’s licenses during data breach
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI Product Hunt | Pine Drama Studio
+  SKIP_NOT_AI Product Hunt | Ridian
+  SKIP_NOT_AI Product Hunt | seshka
+  SKIP_NOT_AI The Record | Uber says nearly 150,000 impacted by third-party breach
+  SKIP_NOT_AI ... +14 more
+DIVERSITY target=tools queue=4 fresh=26 deferred=44 rejected=source_daily:11,source_consecutive:4,category_consecutive:23
+  DIVERSITY_QUEUE models:OpenAI News | models:Simon Willison - Prompt Injection | models:arXiv | business:The Record
+QUEUE_SKIPPED 62
+  QUEUE_SKIP source_consecutive | NVIDIA AI Blog | How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future
+  QUEUE_SKIP source_daily | The Decoder | Google warns that fully automated cyberattacks have arrived and will get worse fast
+  QUEUE_SKIP source_daily | The Decoder | OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice
+  QUEUE_SKIP source_daily | The Decoder | Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten
+  QUEUE_SKIP category_consecutive | TechCrunch | FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’
+  QUEUE_SKIP category_consecutive | OpenAI News | Broadening access to AI for scientists
+  QUEUE_SKIP category_consecutive | OpenAI News | Strengthening the fight against online child sexual abuse with new tools and support
+  QUEUE_SKIP source_daily | The Decoder | Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML
+  QUEUE_SKIP source_consecutive | NVIDIA AI Blog | NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery
+  QUEUE_SKIP source_consecutive | NVIDIA AI Blog | NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics
+  QUEUE_SKIP ... +52 more
+QUEUE_HELD 7
+  QUEUE_HOLD category_consecutive | Product Hunt | pushr
+  QUEUE_HOLD source_consecutive | NVIDIA AI Blog | NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab
+  QUEUE_HOLD category_consecutive | arXiv | When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents
+  QUEUE_HOLD category_consecutive | KDnuggets | 5 Things That Break When AI Agents Start Acting on Their Own
+  QUEUE_HOLD category_consecutive | KDnuggets | How to Give Claude Code Up-to-Date Documentation With Context7
+  QUEUE_HOLD category_consecutive | Product Hunt | polyroom
+  QUEUE_HOLD category_consecutive | OpenAI News | At Holiday Extras, dots get to work before anyone asks
+ATTEMPT 1/4 | deferred 0/3 OpenAI News | Advancing computer-use agents for healthcare teams | 11h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 1/3
+ATTEMPT 2/4 | deferred 0/3 Simon Willison - Prompt Injection | datasette-agent 0.6a0 | 28.2h
+  TOOL_LINK candidate https://github.com/sponsors/simonw/ | score 22
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | خبر فقط یک جمع‌بندی از اصلاحات جزئی است و جزئیات مشخصی برای انتشار ندارد.
+ATTEMPT 3/4 arXiv | ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization | 13h
+  TOOL_LINK candidate https://github.com/huawei-lin/ViRA | score 28
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+POST 1/2 status=sent category=models | QA 42/43 | $0.000352 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/11-30
+ATTEMPT 4/4 The Record | California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness | 10.4h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  SLOT_GAP_WAIT 682s
+POST 2/2 status=sent category=security | QA 43/43 | $0.000377 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/11-30-2
+RESULT SENT category=security | offer=no | image=yes | QA 43/43 | cost $0.002502 | post $0.000377 | tokens 58455
+TITLE کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/11-30-2
+SLOT_POSTS 2/2 sent=2 review=0
+  POST models | sent | $0.000352 | بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند
+  POST security | sent | $0.000377 | کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-17T08:16:04Z
+# گزارش روزانه 2026-11-17 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 4 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 4
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 3
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.002885
+- توکن: 70180
+- میانگین هر پست ارسال‌شده: $0.000721
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 10 | 31 | 21 |
+| مدل‌ها و پژوهش | 5 | 24 | 19 |
+| امنیت و حریم خصوصی | 3 | 11 | 8 |
+| کسب‌وکار و بازار | 3 | 11 | 8 |
+| مجموع | 21 | 77 | 56 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001219 | 26413 | Qwen4-Max با قیمت کمتر به رقابت با مدل‌های بزرگ می‌آید |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000937 | 22895 | اسلارم پشتیبانی از پردازنده‌های کوانتومی را گسترش داد |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000352 | 10284 | بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000377 | 10588 | کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 8
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 3، لینک قابل استفاده ندارد 2
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-17.md
+SOURCE_STATUS 2026-11-17T08:16:04Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-17.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۲۶ آبان ۱۴۰۵
+پست امروز: 4 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 4
+صف بازبینی: 48 کارت
+امروز: 0 رد | 3 بازنویسی
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44043125010
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T05:48:05.869Z",
+  "updatedAt": "2026-11-17T08:16:04.334Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10247,6 +10247,150 @@
       "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
       "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing",
       "benchmark": false
+    },
+    "url:8ff791a76d567369": {
+      "at": "2026-11-17T08:01:18.055Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "🪪 احراز هویت Claude به حساب رایگان هم رسید",
+      "url": "https://t.me/ArchiveTell/8434"
+    },
+    "title:e7f8018bc0cd4a5c": {
+      "at": "2026-11-17T08:01:18.055Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "🪪 احراز هویت Claude به حساب رایگان هم رسید",
+      "url": "https://t.me/ArchiveTell/8434"
+    },
+    "url:fc651e4978e8eafe": {
+      "at": "2026-11-17T08:01:50.694Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "📌طبق گزارش‌ها، سامسونگ در حال توسعه قابلیت جدیدی به اسم Galaxy Claw هست که می‌تونه هوش",
+      "url": "https://t.me/asrnovin_ir/11475"
+    },
+    "title:0f1ce6a314652b10": {
+      "at": "2026-11-17T08:01:50.694Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "📌طبق گزارش‌ها، سامسونگ در حال توسعه قابلیت جدیدی به اسم Galaxy Claw هست که می‌تونه هوش",
+      "url": "https://t.me/asrnovin_ir/11475"
+    },
+    "url:7b9ccd29721ea276": {
+      "at": "2026-11-17T08:02:51.901Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "کانال ها و پیج ها پر شده از محتوای AI نویس... یه چیزی که این روزا",
+      "url": "https://t.me/mgh_mobin/490"
+    },
+    "title:8179fd8020e6593d": {
+      "at": "2026-11-17T08:02:51.901Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "کانال ها و پیج ها پر شده از محتوای AI نویس... یه چیزی که این روزا",
+      "url": "https://t.me/mgh_mobin/490"
+    },
+    "url:6fde3a09277efa21": {
+      "at": "2026-11-17T08:02:51.909Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "کانال ها و پیج ها پر شده از محتوای AI نویس...",
+      "url": "https://t.me/mgh_mobin/489"
+    },
+    "title:49504fafd9488196": {
+      "at": "2026-11-17T08:02:51.909Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "کانال ها و پیج ها پر شده از محتوای AI نویس...",
+      "url": "https://t.me/mgh_mobin/489"
+    },
+    "url:2129c88e1c382b41": {
+      "at": "2026-11-17T08:03:18.786Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "🤖یه قابلیت جدید به جمینای نوت‌بوک اضافه شده که باهاش می‌تونید فایل‌ها و منابعی که بهش",
+      "url": "https://t.me/Mohammad_zammani/7226"
+    },
+    "title:f7cd0875b0859518": {
+      "at": "2026-11-17T08:03:18.786Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "🤖یه قابلیت جدید به جمینای نوت‌بوک اضافه شده که باهاش می‌تونید فایل‌ها و منابعی که بهش",
+      "url": "https://t.me/Mohammad_zammani/7226"
+    },
+    "url:a434c2daa44c258b": {
+      "at": "2026-11-17T08:03:24.788Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent"
+    },
+    "title:c3e4e56c83237705": {
+      "at": "2026-11-17T08:03:24.788Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent"
+    },
+    "url:08587c50cc9ad11b": {
+      "at": "2026-11-17T08:04:03.530Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "url": "https://arxiv.org/abs/2611.21605v1",
+      "benchmark": true
+    },
+    "title:d7466569110cb50b": {
+      "at": "2026-11-17T08:04:03.530Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "url": "https://arxiv.org/abs/2611.21605v1",
+      "benchmark": true
+    },
+    "url:3ad23e2db9c69920": {
+      "at": "2026-11-17T08:16:04.332Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
+      "url": "https://therecord.media/california-sues-openai-hugging-face",
+      "benchmark": false
+    },
+    "title:998a0cb5017edd03": {
+      "at": "2026-11-17T08:16:04.332Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-17T11:30+03:30",
+      "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
+      "url": "https://therecord.media/california-sues-openai-hugging-face",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -12989,12 +13133,13 @@
     },
     "defer:url:21b4758ab52123ac": {
       "id": "defer:url:21b4758ab52123ac",
-      "at": "2026-11-16T17:01:54.731Z",
+      "at": "2026-11-17T08:03:18.829Z",
       "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "fetch_failed"
       ],
       "keys": [
         "url:21b4758ab52123ac",
@@ -13031,8 +13176,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:21b4758ab52123ac",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:2d7a5d6b20fff3cd": {
       "id": "defer:url:2d7a5d6b20fff3cd",
@@ -14051,6 +14201,340 @@
         "keys": [
           "url:7f831d0690caa93b",
           "title:c9ae81f469da0f31"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:be1c1d96e76af57e": {
+      "id": "defer:url:be1c1d96e76af57e",
+      "at": "2026-11-17T08:03:18.799Z",
+      "firstAt": "2026-11-17T08:03:18.799Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:be1c1d96e76af57e",
+        "title:fea7494b11aaedb5"
+      ],
+      "canonical": "https://www.producthunt.com/products/pushr",
+      "title": "pushr",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "pushr",
+        "link": "https://www.producthunt.com/products/pushr",
+        "canonical": "https://www.producthunt.com/products/pushr",
+        "published": "2026-11-16T15:44:31-08:00",
+        "summary": "<p> iPhone push alerts from any script, server or AI agent </p> <p> <a href=\"https://www.producthunt.com/products/pushr?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319539?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/pushr",
+        "images": [],
+        "ageHours": 8.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:be1c1d96e76af57e",
+          "title:fea7494b11aaedb5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9634b5e75ef12012": {
+      "id": "defer:url:9634b5e75ef12012",
+      "at": "2026-11-17T08:03:18.799Z",
+      "firstAt": "2026-11-17T08:03:18.799Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:9634b5e75ef12012",
+        "title:7b0bae18e8ec3a2f"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+        "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+        "published": "Mon, 16 Nov 2026 23:00:05 +0000",
+        "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg"
+        ],
+        "ageHours": 9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:9634b5e75ef12012",
+          "title:7b0bae18e8ec3a2f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:375d85edd1a82e94": {
+      "id": "defer:url:375d85edd1a82e94",
+      "at": "2026-11-17T08:03:18.799Z",
+      "firstAt": "2026-11-17T08:03:18.799Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:375d85edd1a82e94",
+        "title:d287ad879d1485b9"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.21577v1",
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+        "link": "https://arxiv.org/abs/2611.21577v1",
+        "canonical": "https://arxiv.org/abs/2611.21577v1",
+        "published": "2026-11-16T18:49:37Z",
+        "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessarily bound to a verified provider identity. This paper studies this gap as tool-provider misbinding: a failure in which a request intended for a legitimate provider is instead resolved to an attacker-controlled tool. The attacker does not compromise the host, LLM, legitimate server, or network channel; it only operates another MCP server that advertises tools with chosen metadata. We formulate tool provider misbinding as an attacker-controlled tool-selection optimization problem and evaluate it in a controlled MCP environment across five LLM-based clients. The results show that interactions drive misbinding. The strongest failures occur when exact-name collision, task-aligned description, and compatible schema reinforce one another, but authority-enhanced descriptions with compatible schema can also cause wrong-provider execution or unresolved provider ambiguity without name collision. Different models expose the same provider-binding weakness differently, including attacker-controlled provider selection, clarification requests, and unstable or inconsistent provider resolution.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.21577v1",
+        "images": [],
+        "ageHours": 13.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:375d85edd1a82e94",
+          "title:d287ad879d1485b9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:29d97cd3a9606bee": {
+      "id": "defer:url:29d97cd3a9606bee",
+      "at": "2026-11-17T08:03:18.799Z",
+      "firstAt": "2026-11-17T08:03:18.799Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:29d97cd3a9606bee",
+        "title:fb04f59fe7e95a69"
+      ],
+      "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+      "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+        "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "published": "Mon, 16 Nov 2026 18:00:47 +0000",
+        "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/Collibra-Agentic-Control-Ebook-Social-1.png"
+        ],
+        "ageHours": 14,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:29d97cd3a9606bee",
+          "title:fb04f59fe7e95a69"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:efdc00666e56954c": {
+      "id": "defer:url:efdc00666e56954c",
+      "at": "2026-11-17T08:03:18.800Z",
+      "firstAt": "2026-11-17T08:03:18.800Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:efdc00666e56954c",
+        "title:3b5ebda452d75ef6"
+      ],
+      "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+      "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+        "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "published": "Mon, 16 Nov 2026 15:00:00 +0000",
+        "summary": "Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-give-claude-code-up-to-date-documentation-with-context7-feature.webp"
+        ],
+        "ageHours": 17,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:efdc00666e56954c",
+          "title:3b5ebda452d75ef6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0e64fb9fa60f0eca": {
+      "id": "defer:url:0e64fb9fa60f0eca",
+      "at": "2026-11-17T08:03:18.800Z",
+      "firstAt": "2026-11-17T08:03:18.800Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0e64fb9fa60f0eca",
+        "title:8f66786c957bf556"
+      ],
+      "canonical": "https://www.producthunt.com/products/polyroom",
+      "title": "polyroom",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "polyroom",
+        "link": "https://www.producthunt.com/products/polyroom",
+        "canonical": "https://www.producthunt.com/products/polyroom",
+        "published": "2026-11-14T13:15:38-08:00",
+        "summary": "<p> Where AI agents work together and your team decides </p> <p> <a href=\"https://www.producthunt.com/products/polyroom?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1316848?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/polyroom",
+        "images": [],
+        "ageHours": 58.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:0e64fb9fa60f0eca",
+          "title:8f66786c957bf556"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3d4aeac88b69acfa": {
+      "id": "defer:url:3d4aeac88b69acfa",
+      "at": "2026-11-17T08:03:18.800Z",
+      "firstAt": "2026-11-17T08:03:18.800Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:3d4aeac88b69acfa",
+        "title:a0faa3fb5222195d"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "At Holiday Extras, dots get to work before anyone asks",
+        "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
+        "canonical": "https://openai.com/business/customer-stories/holiday-extras-dots",
+        "published": "Mon, 16 Nov 2026 00:00:00 GMT",
+        "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/holiday-extras-dots",
+        "images": [],
+        "ageHours": 32,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:3d4aeac88b69acfa",
+          "title:a0faa3fb5222195d"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16072,6 +16556,52 @@
           "at": "2026-11-17T05:15:58.586Z"
         }
       ]
+    },
+    "2026-11-17T11:30+03:30": {
+      "at": "2026-11-17T08:04:03.530Z",
+      "status": "sent",
+      "category": "security",
+      "title": "کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/11-30-2",
+      "messageId": 95,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0025019960000000003,
+      "tokens": 58455,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند",
+          "category": "models",
+          "status": "sent",
+          "messageId": 94,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003523912,
+          "tokens": 10284,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-17T08:04:03.530Z"
+        },
+        {
+          "title": "کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 95,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-17/11-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003773112,
+          "tokens": 10588,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-17T08:16:04.332Z"
+        }
+      ]
     }
   },
   "published": [
@@ -17430,93 +17960,129 @@
       "sourceTitle": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
       "sourceText": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors.\nMany of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows and tools, enabling computational chemists, nuclear physicists and materials scientists to bring quantum computing into their research domains without friction.\nIn a new release, Slurm builds on previous work with IBM, Pasqal and the wider quantum computing community to allow QPU builders to create a single interface to their hardware for every supercomputing center, through a simple file. This makes it easier than ever for HPC centers and QPU builders to integrate and serve their hardware.\nThe expansion is already being adopted by Alice & Bob , IBM , IQM , Pasqal , Quantinuum and MQSC and supports the widely used QRMI and QDMI interfaces.\nUntil now, integrating a QPU into a supercomputing center meant a new software challenge for every new QPU or supercomputing center. By building on existing quantum-HPC interfaces such as QRMI and QDMI, the Slurm expansion allows QPU builders to reuse their integrations across all their deployments. It also means that supercomputing centers can add new quantum processors to their existing scheduling and resource-management workflows without developing bespoke QPU-specific solutions.\nFor quantum computing to advance science, it needs to be used by scientists. Now scien",
       "at": "2026-11-17T05:15:58.586Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-17T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "بنچمارک Gamefeel منتشر شد؛ مدل‌ها در حس بازی سنجیده شدند",
+      "why": "این بنچمارک برای توسعه‌دهنده‌های بازی مهمه چون نشون می‌ده هر مدل کدوم بخش رو بهتر انجام می‌ده؛ مثلاً مدلی که در حس بازی قوی‌ه، می‌تونه طراحی مرحله‌های جذاب‌تری بسازه.",
+      "dedupe_key": "gamefeel-benchmark-launch",
+      "post_key": "2026-11-17/11-30/1",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "research_index",
+      "benchmark": true,
+      "url": "https://arxiv.org/abs/2611.21605v1",
+      "sourceTitle": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "sourceText": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
+      "at": "2026-11-17T08:04:03.531Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-17T11:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "کالیفرنیا از OpenAI به خاطر هک و فریبکاری شکایت کرد",
+      "why": "دادستانی کالیفرنیا از OpenAI به خاطر نقض قوانین ایالتی شکایت کرده. اتهام اصلی اینه که این شرکت جلوی هک‌های ایجنت‌هاش رو نگرفته و درباره این حملات به مردم دروغ گفته. شکایت دیروز در دادگاه سان‌فرانسیسکو ثبت شده. دادستانی می‌گه OpenAI بیش از ۸۰ بار کنترل ایجنت‌هاش رو در تست‌ها از دست داده و بعد با تحقیق همکاری نکرده.",
+      "dedupe_key": "california-openai-lawsuit",
+      "post_key": "2026-11-17/11-30/2",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://therecord.media/california-sues-openai-hugging-face",
+      "sourceTitle": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
+      "sourceText": "California on Monday sued OpenAI for breaking state law barring companies from engaging in unfair and unlawful business practices due to its alleged failure to stop its AI agents from hacking Hugging Face and deceiving the public about that cyberattack and other similar incidents.\nThe lawsuit , filed in San Francisco Superior Court, alleges OpenAI officials told state Attorney General Rob Bonta’s office it has lost control over its agents 80-plus times during testing. OpenAI then failed to cooperate with the attorney general’s probe, the office said.\n“Rather than take responsibility and be transparent with the public and with regulators\nso that these loss-of-control incidents can be analyzed and prevented, OpenAI thwarted the\nAttorney General’s efforts to investigate these incidents, including by refusing to provide detailed\ninformation about the full universe of incidents known to the company,” the lawsuit said.\nOpenAI allegedly responded to subpoenas with “just a smattering of publicly available information, self-serving blog posts and redacted copies of a few dozen external communications containing high-level descriptions of select security incidents,” according to the lawsuit.\nThe artificial intelligence giant is violating California’s Unfair Competition Law, Bonta says, and the company also qualifies as a public nuisance under state law due to its allegedly dangerous practices.\nThe attorney general is asking a judge to prevent OpenAI from using unfair competition tactics, restore money individuals and organizations lost due to its practices and assess civil penalties ",
+      "at": "2026-11-17T08:16:04.332Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8433,
-      "last_at": "2026-11-16T14:41:17+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 8434,
+      "last_at": "2026-11-17T05:08:45+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "pedramgholizadeh": {
       "last_id": 807,
       "last_at": "2026-11-16T20:45:21+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "ai_farshad": {
-      "last_id": 6453,
-      "last_at": "2026-11-16T19:59:11+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 6454,
+      "last_at": "2026-11-17T07:31:17+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7224,
-      "last_at": "2026-11-17T04:47:09+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 7227,
+      "last_at": "2026-11-17T07:34:16+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "techiin_ir": {
       "last_id": 20787,
       "last_at": "2026-11-16T18:51:59+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "mgh_mobin": {
-      "last_id": 485,
-      "last_at": "2026-11-16T06:56:27+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 491,
+      "last_at": "2026-11-17T07:53:49+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "web3nabu": {
-      "last_id": 2173,
-      "last_at": "2026-11-17T01:35:42+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 2175,
+      "last_at": "2026-11-17T06:08:24+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "asrnovin_ir": {
-      "last_id": 11474,
-      "last_at": "2026-11-16T14:20:43+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 11475,
+      "last_at": "2026-11-17T07:43:29+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "shayanode": {
-      "last_id": 234,
-      "last_at": "2026-11-16T18:35:16+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 235,
+      "last_at": "2026-11-16T18:36:02+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "codecloude": {
       "last_id": 2593,
       "last_at": "2026-11-16T18:26:37+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "dunijet_ai": {
       "last_id": 2578,
       "last_at": "2026-11-16T18:36:06+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "marketing_aida": {
       "last_id": 107,
       "last_at": "2026-11-15T07:31:30+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "miladxtalks": {
       "last_id": 244,
       "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "MatinSenPaii": {
       "last_id": 5894,
       "last_at": "2026-11-16T20:02:01+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "checked_at": "2026-11-17T08:01:03.161Z"
     },
     "thenimaonAI": {
-      "last_id": 534,
-      "last_at": "2026-11-16T10:33:16+00:00",
-      "checked_at": "2026-11-17T05:01:02.794Z"
+      "last_id": 537,
+      "last_at": "2026-11-17T06:57:51+00:00",
+      "checked_at": "2026-11-17T08:01:03.161Z"
     }
   },
   "offerReviews": [
@@ -20637,6 +21203,54 @@
       "url": "https://t.me/Mohammad_zammani/7224",
       "reason": "denied_link",
       "slot": "2026-11-17T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-archive-tell|https://t.me/ArchiveTell/8434",
+      "date": "2026-11-17",
+      "at": "2026-11-17T08:01:03.161Z",
+      "source": "tg-archive-tell",
+      "title": "🪪 احراز هویت Claude به حساب رایگان هم رسید",
+      "url": "https://t.me/ArchiveTell/8434",
+      "reason": "denied_link",
+      "slot": "2026-11-17T11:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-asr-novin|https://t.me/asrnovin_ir/11475",
+      "date": "2026-11-17",
+      "at": "2026-11-17T08:01:03.161Z",
+      "source": "tg-asr-novin",
+      "title": "📌طبق گزارش‌ها، سامسونگ در حال توسعه قابلیت جدیدی به اسم Galaxy Claw هست که می‌تونه هوش",
+      "url": "https://t.me/asrnovin_ir/11475",
+      "reason": "no_link",
+      "slot": "2026-11-17T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-mgh-mobin|https://t.me/mgh_mobin/490",
+      "date": "2026-11-17",
+      "at": "2026-11-17T08:01:03.161Z",
+      "source": "tg-mgh-mobin",
+      "title": "کانال ها و پیج ها پر شده از محتوای AI نویس... یه چیزی که این روزا",
+      "url": "https://t.me/mgh_mobin/490",
+      "reason": "no_link",
+      "slot": "2026-11-17T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-17|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7226",
+      "date": "2026-11-17",
+      "at": "2026-11-17T08:01:03.161Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖یه قابلیت جدید به جمینای نوت‌بوک اضافه شده که باهاش می‌تونید فایل‌ها و منابعی که بهش",
+      "url": "https://t.me/Mohammad_zammani/7226",
+      "reason": "denied_link",
+      "slot": "2026-11-17T11:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
