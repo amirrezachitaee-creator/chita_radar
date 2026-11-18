@@ -1,0 +1,87 @@
+RUN 44363619110 | send/main | slot auto | 2026-11-18T17:56:08Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-18T20:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 14/31 | models 7/24 | security 5/11 | business 6/11
+DAILY 6/11
+DIVERSITY_TARGET tools | slot 20:30
+DEFERRED_POOL 49
+  DEFERRED source_daily | try 0/3 | Sam Altman warns against a future where AI, not humans, calls the shots
+  DEFERRED source_daily | try 0/3 | OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’
+  DEFERRED source_daily | try 0/3 | Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author
+  DEFERRED category_daily | try 0/3 | Quoting Daniel Stenberg
+  DEFERRED source_daily | try 0/3 | Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets
+DEFERRED_BENCHMARK 2 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 53h | GPT‑6.2 Astra and GPT‑6.2 Sol
+  DEFERRED_BENCHMARK category_consecutive | expires 30h | OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol
+DEFERRED_EXHAUSTED 1
+SLOT_ALREADY_DONE 2026-11-18T20:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-18T17:56:09Z
+# گزارش روزانه 2026-11-18 (چهارشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 6 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 6، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 6 از 11
+- ترکیب دسته‌ها: کسب‌وکار و بازار 1، امنیت و حریم خصوصی 2، مدل‌ها و پژوهش 1، ابزارها و محصولات 2
+- آفر: ارسال‌شده 0 | بازبینی 6
+- آموزش‌های بازبینی: 3 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 10
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: کسب‌وکار و بازار 1، امنیت و حریم خصوصی 2، مدل‌ها و پژوهش 1، ابزارها و محصولات 2
+
+## هزینه
+- هزینه مدل: $0.014561
+- توکن: 157016
+- میانگین هر پست ارسال‌شده: $0.002427
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 14 | 31 | 17 |
+| مدل‌ها و پژوهش | 7 | 24 | 17 |
+| امنیت و حریم خصوصی | 5 | 11 | 6 |
+| کسب‌وکار و بازار | 6 | 11 | 5 |
+| مجموع | 32 | 77 | 45 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | کسب‌وکار و بازار | ارسال‌شده | 43/43 | $0.000714 | 21409 | اولین اقدام انویدیا بعد از استعفای جنسن هوانگ |
+| 08:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.003386 | 22868 | گروه‌های دولتی چین ابزار حمله خودکار جاسوسی می‌سازند |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.002782 | 26773 | OpenAI دو مدل جدید با قیمت کمتر معرفی کرد |
+| 11:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.002274 | 23396 | ابزار گوگل برای یافتن عامل بیماری‌های ژنتیکی |
+| 14:00 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.003154 | 29235 | مدل‌های پیشرفته هوش مصنوعی می‌تونن حین توسعه خودشون خرابکاری کنن |
+| 17:00 |  | خالی | — | $0.001344 | 9454 |  |
+| 20:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000906 | 23881 | مایکروسافت ورد، اکسل و پاورپوینت را داخل Copilot آورد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 26
+- دلایل: از رصد آفر پیدا شد 4، لینک خارجی این پست پذیرفته نشد 15، مقاله پژوهشی منتخب 2، لینک قابل استفاده ندارد 3، منبع رسمی شرکت نیست 1، بررسی کیفیت پاس نشد 1
+- آموزش‌های بازبینی امروز: 3 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 51
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-18.md
+SOURCE_STATUS 2026-11-18T17:56:09Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-18.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — چهارشنبه ۲۷ آبان ۱۴۰۵
+پست امروز: 6 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 6
+صف بازبینی: 85 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 51
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44363619110
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
