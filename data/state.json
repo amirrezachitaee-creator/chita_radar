@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T20:23:07.913Z",
+  "updatedAt": "2026-11-18T05:17:37.784Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -10823,6 +10823,222 @@
       "title": "شرکت Anthropic می‌گه راز حافظه‌ی ایجنت‌ها این نیست که چقدر ذخیره کنن، بلکه اینه که بدونن",
       "url": "http://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
       "benchmark": false
+    },
+    "offerwatch:16ee7c7c4130e9cc": {
+      "at": "2026-11-18T05:01:07.290Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits"
+    },
+    "offerwatch:6afdb2ddd0a0eb33": {
+      "at": "2026-11-18T05:01:07.482Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:a9ab9cb35d79b834": {
+      "at": "2026-11-18T05:01:07.663Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md"
+    },
+    "offerwatch:8ce9f761a7f0c64b": {
+      "at": "2026-11-18T05:01:07.856Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/"
+    },
+    "url:e86d77b279565c04": {
+      "at": "2026-11-18T05:01:23.739Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "یه ابزار رایگان تو گیت‌هاب اومده که فقط ایده‌ی ویدیو رو بهش می‌گی و هوش مصنوعی",
+      "url": "http://github.com/sarpstar/cinecode"
+    },
+    "title:8f67bf131da8f3c3": {
+      "at": "2026-11-18T05:01:23.739Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "یه ابزار رایگان تو گیت‌هاب اومده که فقط ایده‌ی ویدیو رو بهش می‌گی و هوش مصنوعی",
+      "url": "http://github.com/sarpstar/cinecode"
+    },
+    "url:6637ffa73df72bbf": {
+      "at": "2026-11-18T05:02:03.946Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "🤖 شرکت OpenAI رسماً مدل‌های جدیدش یعنی GPT‑6.2 Astra و GPT‑6.2 Sol رو معرفی کرده.",
+      "url": "https://t.me/Mohammad_zammani/7233"
+    },
+    "title:d7914bc6f306493d": {
+      "at": "2026-11-18T05:02:03.946Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "🤖 شرکت OpenAI رسماً مدل‌های جدیدش یعنی GPT‑6.2 Astra و GPT‑6.2 Sol رو معرفی کرده.",
+      "url": "https://t.me/Mohammad_zammani/7233"
+    },
+    "url:2a29e179d0a11228": {
+      "at": "2026-11-18T05:02:04.201Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "شرکت OpenAI دو مدل جدید GPT‑6.2 Astra و GPT‑6.2 Sol رو عرضه کرد.",
+      "url": "https://t.me/dunijet_ai/2581"
+    },
+    "title:13312db8b5836428": {
+      "at": "2026-11-18T05:02:04.201Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "شرکت OpenAI دو مدل جدید GPT‑6.2 Astra و GPT‑6.2 Sol رو عرضه کرد.",
+      "url": "https://t.me/dunijet_ai/2581"
+    },
+    "url:f2c9904a9713cda4": {
+      "at": "2026-11-18T05:02:13.686Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "دو تا مدل جدید از خانواده GPT-6 اومدن: GPT-6.2 Astra و GPT-6.2 Sol.",
+      "url": "https://t.me/mgh_mobin/493"
+    },
+    "title:192c846318f7ce02": {
+      "at": "2026-11-18T05:02:13.686Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "دو تا مدل جدید از خانواده GPT-6 اومدن: GPT-6.2 Astra و GPT-6.2 Sol.",
+      "url": "https://t.me/mgh_mobin/493"
+    },
+    "url:cc2d7d1201b90f71": {
+      "at": "2026-11-18T05:02:13.694Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "دو تا مدل جدید از خانواده GPT-6 اومدن تو صحنه: GPT-6.2 Astra و GPT-6.2 Sol.",
+      "url": "https://t.me/miladxtalks/245"
+    },
+    "title:a6dce51b80da7a0e": {
+      "at": "2026-11-18T05:02:13.694Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "دو تا مدل جدید از خانواده GPT-6 اومدن تو صحنه: GPT-6.2 Astra و GPT-6.2 Sol.",
+      "url": "https://t.me/miladxtalks/245"
+    },
+    "url:f009b081343a8c78": {
+      "at": "2026-11-18T05:02:28.292Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Sage S2.1 Flash Technical Report",
+      "url": "https://huggingface.co/papers/2611.21072"
+    },
+    "title:fbc53afe334dbc2e": {
+      "at": "2026-11-18T05:02:28.292Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Sage S2.1 Flash Technical Report",
+      "url": "https://huggingface.co/papers/2611.21072"
+    },
+    "url:a12aaadce0e654e6": {
+      "at": "2026-11-18T05:02:34.974Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "تلگرام برای اکثر کسانی که ربات های تلگرامی فروشگاهی دارن پیامی فرستاده مبنی بر اینکه پرداخت",
+      "url": "https://t.me/asrnovin_ir/11483"
+    },
+    "title:c049e15ba22f5cdc": {
+      "at": "2026-11-18T05:02:34.974Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "تلگرام برای اکثر کسانی که ربات های تلگرامی فروشگاهی دارن پیامی فرستاده مبنی بر اینکه پرداخت",
+      "url": "https://t.me/asrnovin_ir/11483"
+    },
+    "url:82858e67626db786": {
+      "at": "2026-11-18T05:02:35.777Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "من که می‌دونم همه تون میخواید با هوش مصنوعی عکس و فیلم رایگان و نامحدود بسازید",
+      "url": "https://t.me/+8MEIcluAFw4zOTNk"
+    },
+    "title:2d31b372abf796b2": {
+      "at": "2026-11-18T05:02:35.777Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "من که می‌دونم همه تون میخواید با هوش مصنوعی عکس و فیلم رایگان و نامحدود بسازید",
+      "url": "https://t.me/+8MEIcluAFw4zOTNk"
+    },
+    "url:1c3d3bc22915fae9": {
+      "at": "2026-11-18T05:05:36.753Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security",
+      "benchmark": false
+    },
+    "title:a3581b35b14fc831": {
+      "at": "2026-11-18T05:05:36.753Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security",
+      "benchmark": false
+    },
+    "url:31fa1641a8c31572": {
+      "at": "2026-11-18T05:17:37.781Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+      "url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+      "benchmark": false
+    },
+    "title:2aef2565ab073607": {
+      "at": "2026-11-18T05:17:37.781Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-18T08:30+03:30",
+      "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+      "url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -15529,6 +15745,52 @@
           "at": "2026-11-17T19:32:14.134Z"
         }
       ]
+    },
+    "2026-11-18T08:30+03:30": {
+      "at": "2026-11-18T05:05:36.752Z",
+      "status": "sent",
+      "category": "security",
+      "title": "گروه‌های دولتی چین ابزار حمله خودکار جاسوسی می‌سازند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/08-30-2",
+      "messageId": 102,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.005918309599999999,
+      "tokens": 82172,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "اولین اقدام انویدیا بعد از استعفای جنسن هوانگ",
+          "category": "business",
+          "status": "sent",
+          "messageId": 101,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0007141960000000001,
+          "tokens": 21409,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-18T05:05:36.752Z"
+        },
+        {
+          "title": "گروه‌های دولتی چین ابزار حمله خودکار جاسوسی می‌سازند",
+          "category": "security",
+          "status": "sent",
+          "messageId": 102,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/08-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00338632,
+          "tokens": 22868,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-18T05:17:37.781Z"
+        }
+      ]
     }
   },
   "published": [
@@ -17013,93 +17275,129 @@
       "sourceTitle": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
       "sourceText": "شرکت Anthropic می‌گه راز حافظه‌ی ایجنت‌ها این نیست که چقدر ذخیره کنن، بلکه اینه که بدونن چی رو فراموش کنن\n\nتوی تست بازی Pokémon Red، مدل قدیمی‌تر Claude Sonnet 3.7 توی حدود ۱۰ هزار قدم، ۴۱۳ فایل توی ۲۲۵ پوشه ساخت و آخرش فقط یه نشان گرفت؛ چون بیشتر وقتش صرف مرتب کردن یادداشت‌ها می‌شد. مدل جدیدتر Claude Fable 5 فقط چند تا فایل نگه داشت و چهار نشان گرفت.\n\nیه فرایند به اسم Dreaming هم دارن که توی زمان بیکاری، متن جلسه‌های قبلی رو می‌خونه و یادداشت‌های غلط رو خودش اصلاح می‌کنه.\n\nthe-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/\n\n@dunijet_ai\n\n❤3",
       "at": "2026-11-17T19:32:14.135Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-18T08:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "اولین اقدام انویدیا بعد از استعفای جنسن هوانگ",
+      "why": "این اقدام در حالی انجام شده که وزارت بازرگانی آمریکا قوانین جدیدی برای محدود کردن صادرات چیپ‌های هوش مصنوعی آماده می‌کنه؛ یعنی انویدیا می‌خواد با فشار فزاینده قانون‌گذاران کنار بیاد و اعتماد بازار رو برگردونه.",
+      "dedupe_key": "nvidia-national-security-committee",
+      "post_key": "2026-11-18/08-30/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "sourceTitle": "Nvidia's first big move after Jensen Huang's exit targets national security | TechCrunch",
+      "sourceText": "Nvidia has formed a committee to oversee national security policies and export control compliance following the abrupt resignation of CEO Jensen Huang over allegations of an affair with a suspected Chinese spy who had links to one of the company’s customers.\nNvidia said Tuesday that the new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks. The move comes amid increased scrutiny from U.S. lawmakers over Huang’s alleged ties to the suspected spy and his advocacy for easing restrictions on advanced AI chip exports to China.\nThe Commerce Department said Monday it was planning to introduce new export controls on AI chips and data centers outside of the U.S. in an effort to prevent companies in China and elsewhere from circumventing existing rules by remotely accessing AI infrastructure located in other countries. The interim rule was made in direct response to the unfolding chip smuggling scandal at Nvidia.\nThe announcement comes just a few hours before Nvidia’s highly anticipated third-quarter earnings call. Analysts, the media, and shareholders expect the company to address the controversy and outline how it might affect operations. This is the first major action by the company under the leadership of Colette Kress, the company’s CFO who took over as interim CEO after Huang stepped down last week.\nThe committee, which will meet at least quarterly, will be chaired by director Suzanne Nora Johnson and include fellow directors Stephen C. Neal and John O. Dabiri as members.\nNvidia already has a nati",
+      "at": "2026-11-18T05:05:36.753Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-18T08:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "گروه‌های دولتی چین ابزار حمله خودکار جاسوسی می‌سازند",
+      "why": "این ابزارها زمان حملات رو فشرده می‌کنن و بعضی گروه‌ها رو به سرعت ماشین می‌رسونن؛ با این حال ردپای دیجیتالی مشخصی هم بر جا می‌ذارن که شناسایی و مقابله رو ممکن می‌کنه.",
+      "dedupe_key": "google-china-artex-espionage",
+      "post_key": "2026-11-18/08-30/2",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
+      "sourceTitle": "Chinese state group developing automated attack tool for cyber espionage, Google says",
+      "sourceText": "Both criminal and state-backed groups in China are leveraging AI tools for cyber espionage, vulnerability research and social media influence operations.\nGoogle released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.\nWhile multiple countries — including Russia, Iran and North Korea — are using AI for nefarious purposes, few countries have matched China.\nGoogle researchers said they saw Chinese state-backed and financially motivated actors using AI tools for “reconnaissance, front-end scanning, researching targets across various sectors and geographies, and weaponizing exploits.”\nIncident responders saw Chinese contractors using large language models to translate and comb through tranches of stolen data that were eventually organized and sold to customers. Other Chinese actors are using AI platforms’ file-hosting infrastructure to stage archives of phishing lures and exfiltrate stolen data.\nSeveral different Chinese actors are also experimenting heavily with Artex — which was spotlighted on Friday by the FBI in an alert that drew alarm among cybersecurity experts. The tool was created by a Chinese researcher and allows any user to turn a large language model into a powerful hacking tool that can “automate multiple phases of cyber intrusions at machine speed, from reconnaissance through data exfiltr",
+      "at": "2026-11-18T05:17:37.782Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8437,
-      "last_at": "2026-11-17T16:01:41+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 8438,
+      "last_at": "2026-11-17T19:38:01+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "ai_farshad": {
-      "last_id": 6458,
-      "last_at": "2026-11-17T17:08:42+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 6459,
+      "last_at": "2026-11-17T20:00:55+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7231,
-      "last_at": "2026-11-17T15:28:23+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 7233,
+      "last_at": "2026-11-18T04:39:31+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "techiin_ir": {
       "last_id": 20797,
       "last_at": "2026-11-17T17:37:01+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "mgh_mobin": {
-      "last_id": 492,
-      "last_at": "2026-11-17T11:28:35+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 493,
+      "last_at": "2026-11-17T20:12:25+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "web3nabu": {
-      "last_id": 2179,
-      "last_at": "2026-11-17T16:24:12+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 2180,
+      "last_at": "2026-11-17T21:17:41+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "asrnovin_ir": {
-      "last_id": 11481,
-      "last_at": "2026-11-17T16:44:12+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 11484,
+      "last_at": "2026-11-17T20:33:38+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "shayanode": {
-      "last_id": 242,
-      "last_at": "2026-11-17T09:26:27+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 243,
+      "last_at": "2026-11-17T09:27:01+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "codecloude": {
       "last_id": 2596,
       "last_at": "2026-11-17T18:29:37+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "dunijet_ai": {
-      "last_id": 2579,
-      "last_at": "2026-11-17T18:28:36+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 2581,
+      "last_at": "2026-11-18T03:26:41+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "marketing_aida": {
       "last_id": 108,
       "last_at": "2026-11-17T11:52:05+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "miladxtalks": {
-      "last_id": 244,
-      "last_at": "2026-11-12T18:03:21+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 245,
+      "last_at": "2026-11-17T20:00:56+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "MatinSenPaii": {
-      "last_id": 5897,
-      "last_at": "2026-11-17T16:29:47+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "last_id": 5900,
+      "last_at": "2026-11-17T20:25:01+00:00",
+      "checked_at": "2026-11-18T05:01:01.763Z"
     },
     "thenimaonAI": {
       "last_id": 539,
       "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-17T19:31:27.568Z"
+      "checked_at": "2026-11-18T05:01:01.763Z"
     }
   },
   "offerReviews": [
@@ -20402,6 +20700,114 @@
       "slot": "2026-11-17T23:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|offer-watch:ai-free|https://aifree.dev/free-api-credits",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "offer-watch:ai-free",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits",
+      "reason": "offer_watch",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|offer-watch:free-llm-api-hub|https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "offer-watch:free-llm-api-hub",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "reason": "offer_watch",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|offer-watch:free-inference|https://www.freeinference.dev/",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "offer-watch:free-inference",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/",
+      "reason": "offer_watch",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7233",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖 شرکت OpenAI رسماً مدل‌های جدیدش یعنی GPT‑6.2 Astra و GPT‑6.2 Sol رو معرفی کرده.",
+      "url": "https://t.me/Mohammad_zammani/7233",
+      "reason": "denied_link",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-dunijet-ai|https://t.me/dunijet_ai/2581",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "tg-dunijet-ai",
+      "title": "شرکت OpenAI دو مدل جدید GPT‑6.2 Astra و GPT‑6.2 Sol رو عرضه کرد.",
+      "url": "https://t.me/dunijet_ai/2581",
+      "reason": "denied_link",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-mgh-mobin|https://t.me/mgh_mobin/493",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "tg-mgh-mobin",
+      "title": "دو تا مدل جدید از خانواده GPT-6 اومدن: GPT-6.2 Astra و GPT-6.2 Sol.",
+      "url": "https://t.me/mgh_mobin/493",
+      "reason": "denied_link",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|hf-papers|https://huggingface.co/papers/2611.21072",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "hf-papers",
+      "title": "Sage S2.1 Flash Technical Report",
+      "url": "https://huggingface.co/papers/2611.21072",
+      "reason": "research_paper",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-asr-novin|https://t.me/asrnovin_ir/11483",
+      "date": "2026-11-18",
+      "at": "2026-11-18T05:01:01.763Z",
+      "source": "tg-asr-novin",
+      "title": "تلگرام برای اکثر کسانی که ربات های تلگرامی فروشگاهی دارن پیامی فرستاده مبنی بر اینکه پرداخت",
+      "url": "https://t.me/asrnovin_ir/11483",
+      "reason": "denied_link",
+      "slot": "2026-11-18T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -20691,14 +21097,21 @@
       "url": "https://git.ir/p/8MMPL",
       "slot": "2026-11-17T17:00+03:30",
       "at": "2026-11-17T13:30:57.473Z"
+    },
+    {
+      "source": "tg-asr-novin",
+      "title": "من که می‌دونم همه تون میخواید با هوش مصنوعی عکس و فیلم رایگان و نامحدود بسازید",
+      "url": "https://t.me/+8MEIcluAFw4zOTNk",
+      "slot": "2026-11-18T08:30+03:30",
+      "at": "2026-11-18T05:01:01.763Z"
     }
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-17",
-    "at": "2026-11-17T05:01:02.794Z",
-    "found": 3,
-    "delivered": 3
+    "lastDate": "2026-11-18",
+    "at": "2026-11-18T05:01:01.763Z",
+    "found": 4,
+    "delivered": 4
   },
   "openOffers": {
     "blog.google": {
@@ -20708,7 +21121,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-17T17:56:30.297Z",
+      "lastCheck": "2026-11-18T05:01:01.763Z",
       "status": "active",
       "misses": 0
     }
