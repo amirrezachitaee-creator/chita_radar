@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T13:52:28.162Z",
+  "updatedAt": "2026-11-18T14:28:30.610Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11489,6 +11489,42 @@
       "slot": "2026-11-18T17:00+03:30",
       "title": "Sector Snapshot: Investors Turn Up The Volume On Voice AI",
       "url": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026"
+    },
+    "url:8fff6d943d371d49": {
+      "at": "2026-11-18T14:28:30.323Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T17:00+03:30",
+      "title": "✈️ تلگرام داره آماده می‌شه تا ایجنت هوش مصنوعی اختصاصی خودش رو با اسم «Dictator» منتشر",
+      "url": "https://t.me/Mohammad_zammani/7241"
+    },
+    "title:015672525783d45f": {
+      "at": "2026-11-18T14:28:30.323Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T17:00+03:30",
+      "title": "✈️ تلگرام داره آماده می‌شه تا ایجنت هوش مصنوعی اختصاصی خودش رو با اسم «Dictator» منتشر",
+      "url": "https://t.me/Mohammad_zammani/7241"
+    },
+    "url:830da74434e8505c": {
+      "at": "2026-11-18T14:28:30.467Z",
+      "decision": "offer_skip",
+      "reason": "offer_vendor_repeat",
+      "category": "",
+      "slot": "2026-11-18T17:00+03:30",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features"
+    },
+    "title:98475f7f9646f75b": {
+      "at": "2026-11-18T14:28:30.467Z",
+      "decision": "offer_skip",
+      "reason": "offer_vendor_repeat",
+      "category": "",
+      "slot": "2026-11-18T17:00+03:30",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features"
     }
   },
   "deferred": {
@@ -11642,152 +11678,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:b71518d35afbb99f": {
-      "id": "defer:url:b71518d35afbb99f",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:b71518d35afbb99f",
-        "title:a1f9f6985156dcaa"
-      ],
-      "canonical": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output",
-      "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
-        "link": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
-        "canonical": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output",
-        "published": "Tue, 17 Nov 2026 16:47:21 +0000",
-        "summary": "The US is tightening its chip export controls. Data centers in third countries like Singapore and Malaysia will soon need a US license to buy Nvidia chips, closing the loophole that let Chinese firms rent cloud compute abroad. A Reuters investigation also reveals how China offsets its hardware shortage through industrial-scale distillation of US AI models. The article The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/03/Datacenter-Remote.png"
-        ],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b71518d35afbb99f",
-          "title:a1f9f6985156dcaa"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:89be98d92d9e645f": {
-      "id": "defer:url:89be98d92d9e645f",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:89be98d92d9e645f",
-        "title:0a25572f58dee85c"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
-      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-        "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-        "canonical": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
-        "published": "Tue, 17 Nov 2026 16:44:15 +0000",
-        "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signalled his willingness to return as CEO.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-        "images": [],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:89be98d92d9e645f",
-          "title:0a25572f58dee85c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:179fb295e1eefeff": {
-      "id": "defer:url:179fb295e1eefeff",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:179fb295e1eefeff",
-        "title:42f441b3eba44563"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
-      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-        "link": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-        "canonical": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
-        "published": "Tue, 17 Nov 2026 16:32:55 +0000",
-        "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-        "images": [],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:179fb295e1eefeff",
-          "title:42f441b3eba44563"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:3818d6ccd2a7f7a1": {
       "id": "defer:url:3818d6ccd2a7f7a1",
       "at": "2026-11-17T17:56:41.691Z",
@@ -11878,55 +11768,6 @@
         "keys": [
           "url:0fd37b922e47061f",
           "title:3b1acaadb85326a5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:830da74434e8505c": {
-      "id": "defer:url:830da74434e8505c",
-      "at": "2026-11-17T17:56:41.691Z",
-      "firstAt": "2026-11-17T17:56:41.691Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:830da74434e8505c",
-        "title:98475f7f9646f75b"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
-      "title": "Put Gemini to work for you",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "Put Gemini to work for you",
-        "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-        "canonical": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
-        "published": "Tue, 17 Nov 2026 17:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp\">Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 0.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:830da74434e8505c",
-          "title:98475f7f9646f75b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -12227,9 +12068,9 @@
     },
     "defer:url:b43ef08ac3ed4f7a": {
       "id": "defer:url:b43ef08ac3ed4f7a",
-      "at": "2026-11-18T10:34:07.522Z",
+      "at": "2026-11-18T14:28:30.503Z",
       "firstAt": "2026-11-17T19:31:38.332Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -12272,7 +12113,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:b43ef08ac3ed4f7a",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -13949,6 +13790,206 @@
         "officialCourse": false
       },
       "detail": "security"
+    },
+    "defer:url:42bb23a62e4b2140": {
+      "id": "defer:url:42bb23a62e4b2140",
+      "at": "2026-11-18T14:28:30.337Z",
+      "firstAt": "2026-11-18T14:28:30.337Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:42bb23a62e4b2140",
+        "title:00db6bb6006de7cd"
+      ],
+      "canonical": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
+      "title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
+        "link": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+        "canonical": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
+        "published": "Wed, 18 Nov 2026 13:55:49 +0000",
+        "summary": "KPMG deployed more than 100 AI agents alongside the regular audit of a UK-listed company. The agents asked \"better questions\" than the audit team in some cases, according to UK head of audit Cath Burnet. The UK's accounting regulator, the FRC, sees a risk in the approach because AI agents analyze far more data than traditional sampling methods, potentially surfacing findings that could serve as a sales pitch for lucrative consulting work and undermine auditor independence. The article KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/KPMG-Audit-Agents.png"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:42bb23a62e4b2140",
+          "title:00db6bb6006de7cd"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7b499de51a856296": {
+      "id": "defer:url:7b499de51a856296",
+      "at": "2026-11-18T14:28:30.337Z",
+      "firstAt": "2026-11-18T14:28:30.337Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7b499de51a856296",
+        "title:7def83429183120e"
+      ],
+      "canonical": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments",
+      "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
+        "link": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+        "canonical": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments",
+        "published": "Tue, 17 Nov 2026 15:02:03 +0000",
+        "summary": "OpenAI is opening its cybersecurity tool Daybreak to NATO and several European governments, including Germany, France, and Poland. The EU's cybersecurity agency ENISA has already used it to find real vulnerabilities in EU software. The NATO Communications and Information Agency (NCIA) says it's already making heavy use of the underlying models. The article OpenAI opens its cybersecurity tool Daybreak to NATO and European governments appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/russian_influence_campaigns.png"
+        ],
+        "ageHours": 23.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:7b499de51a856296",
+          "title:7def83429183120e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1f6fca5a5cf02acb": {
+      "id": "defer:url:1f6fca5a5cf02acb",
+      "at": "2026-11-18T14:28:30.337Z",
+      "firstAt": "2026-11-18T14:28:30.337Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:1f6fca5a5cf02acb",
+        "title:06ab340837d6a703"
+      ],
+      "canonical": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years",
+      "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
+        "link": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+        "canonical": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years",
+        "published": "Tue, 17 Nov 2026 14:59:50 +0000",
+        "summary": "Edinburgh's Childlight Institute reports a more than 8,400 percent increase in AI-generated child sexual abuse material over two years, from about 4,700 reports in 2023 to over 400,000 in 2025. Abusers are using tools like nudify apps for blackmail. Childlight CEO Paul Stanfield wants governments to classify the problem as a preventable public health emergency. The article Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/ai_generated_abuse.png"
+        ],
+        "ageHours": 23.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:1f6fca5a5cf02acb",
+          "title:06ab340837d6a703"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ef87668d3ce0a4f5": {
+      "id": "defer:url:ef87668d3ce0a4f5",
+      "at": "2026-11-18T14:28:30.337Z",
+      "firstAt": "2026-11-18T14:28:30.337Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:ef87668d3ce0a4f5",
+        "title:1528435a9a7cd8ff"
+      ],
+      "canonical": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal",
+      "title": "More than half the electricity feeding America's largest data centers comes from gas and coal",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "More than half the electricity feeding America's largest data centers comes from gas and coal",
+        "link": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
+        "canonical": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal",
+        "published": "Wed, 18 Nov 2026 14:25:04 +0000",
+        "summary": "A Harvard study published in Nature Sustainability found that 403 US hyperscale data centers produced roughly 25.7 million metric tons of CO2 between May 2024 and April 2025, more than all of Denmark. Over half of their electricity came from fossil fuels. With 2,000 additional facilities planned, the researchers warn of a major climate setback. The article More than half the electricity feeding America's largest data centers comes from gas and coal appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/data_center_climate_impact2.png"
+        ],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:ef87668d3ce0a4f5",
+          "title:1528435a9a7cd8ff"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -16281,8 +16322,8 @@
       "at": "2026-11-18T13:52:28.160Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.009778316799999997,
-      "tokens": 121172,
+      "cost": 0.00134428,
+      "tokens": 9454,
       "posts": []
     }
   },
@@ -17864,87 +17905,87 @@
     "ArchiveTell": {
       "last_id": 8445,
       "last_at": "2026-11-18T13:29:01+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "ai_farshad": {
       "last_id": 6462,
       "last_at": "2026-11-18T12:30:02+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7240,
-      "last_at": "2026-11-18T12:29:16+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "last_id": 7241,
+      "last_at": "2026-11-18T13:59:17+00:00",
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "techiin_ir": {
-      "last_id": 20797,
-      "last_at": "2026-11-17T17:37:01+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "last_id": 20798,
+      "last_at": "2026-11-18T14:24:06+00:00",
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "asrnovin_ir": {
       "last_id": 11486,
       "last_at": "2026-11-18T12:29:59+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "shayanode": {
-      "last_id": 249,
-      "last_at": "2026-11-17T10:27:08+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "last_id": 250,
+      "last_at": "2026-11-17T13:53:13+00:00",
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "codecloude": {
       "last_id": 2599,
       "last_at": "2026-11-18T06:08:53+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "dunijet_ai": {
       "last_id": 2583,
       "last_at": "2026-11-18T11:58:27+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "MatinSenPaii": {
       "last_id": 5909,
       "last_at": "2026-11-18T12:54:08+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     },
     "thenimaonAI": {
       "last_id": 548,
       "last_at": "2026-11-18T11:13:46+00:00",
-      "checked_at": "2026-11-18T13:30:57.568Z"
+      "checked_at": "2026-11-18T14:27:57.063Z"
     }
   },
   "offerReviews": [
@@ -21520,6 +21561,18 @@
       "title": "Sector Snapshot: Investors Turn Up The Volume On Voice AI",
       "url": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026/",
       "reason": "qa_failed",
+      "slot": "2026-11-18T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7241",
+      "date": "2026-11-18",
+      "at": "2026-11-18T14:27:57.063Z",
+      "source": "tg-mohammad-zammani",
+      "title": "✈️ تلگرام داره آماده می‌شه تا ایجنت هوش مصنوعی اختصاصی خودش رو با اسم «Dictator» منتشر",
+      "url": "https://t.me/Mohammad_zammani/7241",
+      "reason": "denied_link",
       "slot": "2026-11-18T17:00+03:30",
       "kind": "post",
       "mainEligible": false

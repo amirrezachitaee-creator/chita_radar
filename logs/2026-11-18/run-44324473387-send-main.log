@@ -1,0 +1,141 @@
+RUN 44324473387 | send/main | slot auto | 2026-11-18T14:27:56Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-18T17:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 13/31 | models 7/24 | security 5/11 | business 6/11
+DAILY 5/11
+DIVERSITY_TARGET business | slot 17:00
+DEFERRED_POOL 47
+  DEFERRED source_daily | try 0/3 | SEC probes Nvidia over undisclosed chip sales tied to China
+  DEFERRED source_daily | try 0/3 | Nvidia clarifies when it will — and won’t —keep financing neoclouds
+  DEFERRED source_daily | try 0/3 | Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents
+  DEFERRED category_daily_cap | try 1/3 | مدل‌های هوش مصنوعی رو می‌شه با یه ترفند ساده گول زد که غیرنظامی‌ها رو هدف نظامی
+  DEFERRED source_daily | try 0/3 | India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 56h | GPT‑6.2 Astra and GPT‑6.2 Sol
+  DEFERRED_BENCHMARK fetch_failed | expires 34h | Astra for Law leads in legal intelligence
+  DEFERRED_BENCHMARK category_consecutive | expires 34h | OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol
+DEFERRED_EXHAUSTED 1
+SOURCE_DISCOVERY already_ran date=2026-11-18 dynamic=0
+SOURCE_HEALTH active=71 watch=1 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=208 index=12 benchmark=6 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=142 nodate=0 nonai=0 dup=30 dup_other=0 kept=81 errors=2
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=319 pending=4 leads=1 nolink=0 nonai=0 denied=1 promo=0 stale=0 before=0 dup=1 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:510,review:14 delivered=524 window=30d
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | ✈️ تلگرام داره آماده می‌شه تا ایجنت هوش مصنوعی اختصاصی خودش رو با اسم «Dictator» منتشر | 470 chars
+  REVIEW_ITEM id=c79da0b3e2 message=57
+  REVIEW_REQUIRED reason=denied_link sent=57
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-18/17-00-8fff6d94
+RELEVANCE candidates=80 kept=60 dropped=20
+  SKIP_NOT_AI Crunchbase News | What To Measure When ARR Isn’t Enough
+  SKIP_NOT_AI arXiv | Reading Scene States: Uncovering Safety Failures in Vision-Language Models
+  SKIP_NOT_AI Product Hunt | MAI Cyber 2 Flash
+  SKIP_NOT_AI arXiv | Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models
+  SKIP_NOT_AI Product Hunt | canfit
+  SKIP_NOT_AI Crunchbase News | VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette 1.0a43
+  SKIP_NOT_AI The Record | Ice hockey governing body website defaced amid dispute over Russia's exclusion
+  SKIP_NOT_AI ... +12 more
+DIVERSITY target=business queue=3 fresh=27 deferred=47 rejected=source_daily:30,category_daily:4
+  DIVERSITY_QUEUE tools:Google AI Blog | models:OpenAI News | business:Crunchbase News
+QUEUE_SKIPPED 63
+  QUEUE_SKIP source_daily | The Decoder | SEC probes Nvidia over undisclosed chip sales tied to China
+  QUEUE_SKIP source_daily | TechCrunch | Nvidia clarifies when it will — and won’t —keep financing neoclouds
+  QUEUE_SKIP source_daily | TechCrunch | Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents
+  QUEUE_SKIP source_daily | TechCrunch | India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need
+  QUEUE_SKIP source_daily | The Decoder | Suno's new Visuals feature pairs AI-generated music with AI-generated video
+  QUEUE_SKIP source_daily | TechCrunch | Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt
+  QUEUE_SKIP source_daily | TechCrunch | Nvidia promises that revenue will keep soaring — for now
+  QUEUE_SKIP source_daily | The Record | CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500
+  QUEUE_SKIP source_daily | TechCrunch | Nvidia is abandoning China after Jensen Huang’s ouster
+  QUEUE_SKIP source_daily | TechCrunch | Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit
+  QUEUE_SKIP ... +53 more
+QUEUE_HELD 4
+  QUEUE_HOLD source_daily | The Decoder | KPMG's "Project Exponential" put AI agents alongside a real audit team and found the bots dug deeper on individual questions
+  QUEUE_HOLD source_daily | The Decoder | OpenAI opens its cybersecurity tool Daybreak to NATO and European governments
+  QUEUE_HOLD source_daily | The Decoder | Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years
+  QUEUE_HOLD source_daily | The Decoder | More than half the electricity feeding America's largest data centers comes from gas and coal
+ATTEMPT 1/3 | deferred 0/3 Google AI Blog | Put Gemini to work for you | 0.9h
+  OFFER_SKIP offer_vendor_repeat
+ATTEMPT 2/3 | deferred 2/3 OpenAI News | Astra for Law leads in legal intelligence | 19.5h
+  FETCH_FAILED HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-
+  DEFERRED fetch_failed | try 3/3
+  DEFER_LIMIT fetch_failed | no more retries
+ATTEMPT 3/3 Crunchbase News | PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027 | 26.5h
+  GATE_STALE 116h/72h
+RESULT EMPTY attempts=4 reviews=1 deferred=50 | cost $0.001344 | tokens 9454
+  EMPTY_ATTEMPT review reason=denied_link | ✈️ تلگرام داره آماده می‌شه تا ایجنت هوش مصنوعی اختصاصی خودش رو با اسم «Dictator» منتشر
+  EMPTY_ATTEMPT offer_skip reason=offer_vendor_repeat | Put Gemini to work for you
+  EMPTY_ATTEMPT deferred reason=fetch_failed | Astra for Law leads in legal intelligence
+  EMPTY_ATTEMPT gate_stale | PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-18T14:28:30Z
+# گزارش روزانه 2026-11-18 (چهارشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: کسب‌وکار و بازار 1، امنیت و حریم خصوصی 2، مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 6
+- آموزش‌های بازبینی: 3 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 6
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: کسب‌وکار و بازار 1، امنیت و حریم خصوصی 2، مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.013654
+- توکن: 133135
+- میانگین هر پست ارسال‌شده: $0.002731
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 13 | 31 | 18 |
+| مدل‌ها و پژوهش | 7 | 24 | 17 |
+| امنیت و حریم خصوصی | 5 | 11 | 6 |
+| کسب‌وکار و بازار | 6 | 11 | 5 |
+| مجموع | 31 | 77 | 46 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | کسب‌وکار و بازار | ارسال‌شده | 43/43 | $0.000714 | 21409 | اولین اقدام انویدیا بعد از استعفای جنسن هوانگ |
+| 08:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.003386 | 22868 | گروه‌های دولتی چین ابزار حمله خودکار جاسوسی می‌سازند |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.002782 | 26773 | OpenAI دو مدل جدید با قیمت کمتر معرفی کرد |
+| 11:30 #2 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.002274 | 23396 | ابزار گوگل برای یافتن عامل بیماری‌های ژنتیکی |
+| 14:00 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.003154 | 29235 | مدل‌های پیشرفته هوش مصنوعی می‌تونن حین توسعه خودشون خرابکاری کنن |
+| 17:00 |  | خالی | — | $0.001344 | 9454 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 24
+- دلایل: از رصد آفر پیدا شد 4، لینک خارجی این پست پذیرفته نشد 14، مقاله پژوهشی منتخب 1، لینک قابل استفاده ندارد 3، منبع رسمی شرکت نیست 1، بررسی کیفیت پاس نشد 1
+- آموزش‌های بازبینی امروز: 3 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-18.md
+SOURCE_STATUS 2026-11-18T14:28:30Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-18.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — چهارشنبه ۲۷ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 5
+صف بازبینی: 83 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44324473387
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

@@ -4527,6 +4527,50 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "c79da0b3e2": {
+      "id": "c79da0b3e2",
+      "messageId": 57,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-18T17:00+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-mohammad-zammani",
+      "sourceName": "هوش مصنوعی | محمد زمانی",
+      "sourceType": "telegram_channel",
+      "title": "✈️ تلگرام داره آماده می‌شه تا ایجنت هوش مصنوعی اختصاصی خودش رو با اسم «Dictator» منتشر",
+      "url": "https://t.me/Mohammad_zammani/7241",
+      "leadPostUrl": "https://t.me/Mohammad_zammani/7241",
+      "messageText": "✈️ تلگرام داره آماده می‌شه تا ایجنت هوش مصنوعی اختصاصی خودش رو با اسم «Dictator» منتشر کنه.\n\nظاهراً معماری داخلی این سیستم بر پایه پلتفرم Hermes اجرا می‌شه، از مدل‌ها و پلاگین‌های مختلف پشتیبانی می‌کنه و قراره یه ماشین مجازی (VM) اختصاصی هم برای خودش داشته باشه.\n\nتو رابط کاربری هم یه کاراکتر شناور از Utya (همون اردک معروف تلگرام) ظاهر می‌شه.\n\n✈️@mohammad_zammani\n📱Mohammad.zammani.offical\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤9👍3🙏3🔥2👏2⚡1🥰1",
+      "relatedLinks": [
+        "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
+      ],
+      "images": [],
+      "imageUrl": "",
+      "publishedAt": "2026-11-18T13:59:17+00:00",
+      "keys": [
+        "url:8fff6d943d371d49",
+        "title:015672525783d45f"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-18T14:27:57.063Z",
+      "updatedAt": "2026-11-18T14:27:57.063Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
