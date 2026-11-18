@@ -1,0 +1,85 @@
+RUN 44247029754 | send/main | slot auto | 2026-11-18T05:50:50Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-18T08:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 12/31 | models 6/24 | security 4/11 | business 6/11
+DAILY 2/11
+DIVERSITY_TARGET security | slot 08:30
+DEFERRED_POOL 44
+  DEFERRED source_daily | try 0/3 | Google expands access to Gemini Tasks, which can help with calls, purchases
+  DEFERRED source_daily | try 0/3 | Google to keep Gemini chats for 2 months, up from 72 hours, even with history off
+  DEFERRED source_daily | try 0/3 | Pedestal AI raises $4.7 million to agentify the supply chain
+  DEFERRED category_consecutive | try 0/3 | Introducing GPT-6.2 Astra and Sol
+  DEFERRED source_daily | try 0/3 | Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop
+DEFERRED_BENCHMARK 6 lane=benchmark
+  DEFERRED_BENCHMARK source_consecutive | expires 59h | Running the full server-side Datasette Python app in the browser with service workers and Pyodide
+  DEFERRED_BENCHMARK fetch_failed | expires 42h | Astra for Law leads in legal intelligence
+  DEFERRED_BENCHMARK category_consecutive | expires 42h | OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol
+  DEFERRED_BENCHMARK source_daily | expires 37h | ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises
+  DEFERRED_BENCHMARK source_daily | expires 37h | SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents
+  DEFERRED_BENCHMARK source_daily | expires 37h | Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle
+DEFERRED_EXHAUSTED 3
+SLOT_ALREADY_DONE 2026-11-18T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-18T05:50:50Z
+# گزارش روزانه 2026-11-18 (چهارشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 4
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 2
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.004101
+- توکن: 44277
+- میانگین هر پست ارسال‌شده: $0.002050
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 12 | 31 | 19 |
+| مدل‌ها و پژوهش | 6 | 24 | 18 |
+| امنیت و حریم خصوصی | 4 | 11 | 7 |
+| کسب‌وکار و بازار | 6 | 11 | 5 |
+| مجموع | 28 | 77 | 49 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | کسب‌وکار و بازار | ارسال‌شده | 43/43 | $0.000714 | 21409 | اولین اقدام انویدیا بعد از استعفای جنسن هوانگ |
+| 08:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.003386 | 22868 | گروه‌های دولتی چین ابزار حمله خودکار جاسوسی می‌سازند |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 9
+- دلایل: از رصد آفر پیدا شد 4، لینک خارجی این پست پذیرفته نشد 4، مقاله پژوهشی منتخب 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 51
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-18.md
+SOURCE_STATUS 2026-11-18T05:50:50Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-18.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — چهارشنبه ۲۷ آبان ۱۴۰۵
+پست امروز: 2 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 2
+صف بازبینی: 68 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 51
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-shayanode: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44247029754
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
