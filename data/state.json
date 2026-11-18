@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T09:00:50.790Z",
+  "updatedAt": "2026-11-18T10:36:38.204Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11201,116 +11201,117 @@
       "title": "How genome mapping can help researchers better understand disease",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research",
       "benchmark": false
+    },
+    "url:0d41b21e85e6b77b": {
+      "at": "2026-11-18T10:33:28.174Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "حاجی خبر داری GPT 6.2 Astra & Sol اومدن",
+      "url": "https://t.me/ArchiveTell/8442"
+    },
+    "title:b284d07b56fd3a0a": {
+      "at": "2026-11-18T10:33:28.174Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "حاجی خبر داری GPT 6.2 Astra & Sol اومدن",
+      "url": "https://t.me/ArchiveTell/8442"
+    },
+    "url:c1ec8b08e034a8f7": {
+      "at": "2026-11-18T10:34:01.480Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "شرکت مایکروسافت تو رویداد Ignite 2026 از هفت مدل هوش مصنوعی جدید تو خانواده MAI رونمایی",
+      "url": "https://t.me/Mohammad_zammani/7239"
+    },
+    "title:1b88f41ac9015103": {
+      "at": "2026-11-18T10:34:01.480Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "شرکت مایکروسافت تو رویداد Ignite 2026 از هفت مدل هوش مصنوعی جدید تو خانواده MAI رونمایی",
+      "url": "https://t.me/Mohammad_zammani/7239"
+    },
+    "url:01ba336b78a47579": {
+      "at": "2026-11-18T10:34:01.745Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "این پیام روزمو ساخت و مطمعنم کرد مسیری که داریم با بچه‌های AI Lab جلو میریم",
+      "url": "https://t.me/thenimaonAI/543"
+    },
+    "title:feb457e25d86fda0": {
+      "at": "2026-11-18T10:34:01.745Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "این پیام روزمو ساخت و مطمعنم کرد مسیری که داریم با بچه‌های AI Lab جلو میریم",
+      "url": "https://t.me/thenimaonAI/543"
+    },
+    "url:15963579fdf25468": {
+      "at": "2026-11-18T10:34:01.998Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "آموزش در دل تجربه خروجیش میشه این.",
+      "url": "https://t.me/thenimaonAI/546"
+    },
+    "title:ec8c48735d645175": {
+      "at": "2026-11-18T10:34:01.998Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "آموزش در دل تجربه خروجیش میشه این.",
+      "url": "https://t.me/thenimaonAI/546"
+    },
+    "url:dde3f93ca1ce2e5e": {
+      "at": "2026-11-18T10:34:07.467Z",
+      "decision": "skip",
+      "reason": "no_source",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
+      "url": "https://arxiv.org/abs/2611.21538v1"
+    },
+    "title:32079bb7f2a70bb8": {
+      "at": "2026-11-18T10:34:07.467Z",
+      "decision": "skip",
+      "reason": "no_source",
+      "category": "",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
+      "url": "https://arxiv.org/abs/2611.21538v1"
+    },
+    "url:0b0c9df79f2d6f2b": {
+      "at": "2026-11-18T10:36:38.201Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+      "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+      "benchmark": false
+    },
+    "title:848e3d10fdb57bda": {
+      "at": "2026-11-18T10:36:38.201Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-18T14:00+03:30",
+      "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+      "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:ff7833693fa2a067": {
-      "id": "defer:url:ff7833693fa2a067",
-      "at": "2026-11-17T11:21:25.301Z",
-      "firstAt": "2026-11-16T10:33:44.959Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:ff7833693fa2a067",
-        "title:819523257fd2f750"
-      ],
-      "canonical": "https://openai.com/index/lvmh-media-division-partnership",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-        "link": "https://openai.com/index/lvmh-media-division-partnership",
-        "canonical": "https://openai.com/index/lvmh-media-division-partnership",
-        "published": "Mon, 16 Nov 2026 09:00:00 GMT",
-        "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/lvmh-media-division-partnership",
-        "images": [],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ff7833693fa2a067",
-          "title:819523257fd2f750"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:ff7833693fa2a067",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:a63a041375386e27": {
-      "id": "defer:url:a63a041375386e27",
-      "at": "2026-11-17T14:32:16.366Z",
-      "firstAt": "2026-11-16T13:32:36.966Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_consecutive",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:a63a041375386e27",
-        "title:d1f4925ebdea947a"
-      ],
-      "canonical": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
-      "title": "Agentic System Design: A Self-Study Roadmap",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "Agentic System Design: A Self-Study Roadmap",
-        "link": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
-        "canonical": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
-        "published": "Mon, 16 Nov 2026 13:00:00 +0000",
-        "summary": "Learn agentic system design with this 7-step roadmap covering tools, memory, control loops, multi-agent coordination, evaluation, and deployment.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-Agentic-System-Design-Roadmap.png"
-        ],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:a63a041375386e27",
-          "title:d1f4925ebdea947a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:a63a041375386e27",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
-    },
     "defer:url:21b4758ab52123ac": {
       "id": "defer:url:21b4758ab52123ac",
       "at": "2026-11-17T17:56:41.734Z",
@@ -11363,958 +11364,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:dd659f011024f04f": {
-      "id": "defer:url:dd659f011024f04f",
-      "at": "2026-11-17T14:32:16.408Z",
-      "firstAt": "2026-11-16T17:57:22.955Z",
-      "attempts": 1,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_daily",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:dd659f011024f04f",
-        "title:ad4cc6694f3e2d42"
-      ],
-      "canonical": "https://openai.com/index/strengthening-online-child-safety",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-        "link": "https://openai.com/index/strengthening-online-child-safety",
-        "canonical": "https://openai.com/index/strengthening-online-child-safety",
-        "published": "Mon, 16 Nov 2026 17:00:00 GMT",
-        "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/strengthening-online-child-safety",
-        "images": [],
-        "ageHours": 1,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:dd659f011024f04f",
-          "title:ad4cc6694f3e2d42"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:dd659f011024f04f",
-          "attempts": 0
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:0e7f690aa4ff229b": {
-      "id": "defer:url:0e7f690aa4ff229b",
-      "at": "2026-11-17T10:31:19.801Z",
-      "firstAt": "2026-11-17T10:31:19.801Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:0e7f690aa4ff229b",
-        "title:816217c29e221826"
-      ],
-      "canonical": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Strengthening NATO and allied cyber defenses with AI",
-        "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-        "canonical": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
-        "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-        "images": [],
-        "ageHours": 10.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:0e7f690aa4ff229b",
-          "title:816217c29e221826"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ac4a8d46bdc8a7d7": {
-      "id": "defer:url:ac4a8d46bdc8a7d7",
-      "at": "2026-11-17T10:31:19.801Z",
-      "firstAt": "2026-11-17T10:31:19.801Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:ac4a8d46bdc8a7d7",
-        "title:c44f05c814aca4a1"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks",
-      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
-        "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
-        "canonical": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks",
-        "published": "Mon, 16 Nov 2026 21:01:02 +0000",
-        "summary": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
-        "images": [],
-        "ageHours": 13.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:ac4a8d46bdc8a7d7",
-          "title:c44f05c814aca4a1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7de4dfa9c60e243f": {
-      "id": "defer:url:7de4dfa9c60e243f",
-      "at": "2026-11-17T10:31:19.801Z",
-      "firstAt": "2026-11-17T10:31:19.801Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7de4dfa9c60e243f",
-        "title:b0d2754e268e61ac"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21608v1",
-      "title": "Latent Lattice Language Models",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Latent Lattice Language Models",
-        "link": "https://arxiv.org/abs/2611.21608v1",
-        "canonical": "https://arxiv.org/abs/2611.21608v1",
-        "published": "2026-11-16T18:59:38Z",
-        "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. Like hyper-connections, mHC, and attention or value residuals, the Lattice enhances the residual stream, but rather than adding or rerouting residual pathways through depth, it provides companion computational states that persist across tokens. Unlike hybrid Transformer-SSM architectures, whose recurrent states primarily serve as internal memory for sequence mixing, these latents directly condition the vertical stream's attention, KV-cache writes, MLP computation, and decoding. On Transformers trained on 20B FineWeb-Edu tokens, a 406M-parameter Lattice model lowers validation perplexity from 15.41 to 14.40 over a parameter-matched Transformer. These gains extend across architectural variants. The Lattice composes with prior residual-stream enhancements: with hyper-connections and input residuals, it lowers validation perplexity from 15.41 (base Transformer) and 14.22 (Transformer with the same enhancements) to 13.61. On Gated DeltaNet, Mamba-2, Triadic GDN, and GDN-Mamba-2 hybrids, it improves perplexity at every tested native state size, with Lattice-GDN and Lattice-Triadic-GDN variants outperforming pure baselines with 4x larger native states. These results identify persistent per-layer state as a complementary axis for scaling language-model computation.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21608v1",
-        "images": [],
-        "ageHours": 15.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7de4dfa9c60e243f",
-          "title:b0d2754e268e61ac"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:dd0f3dbe278d62fc": {
-      "id": "defer:url:dd0f3dbe278d62fc",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:dd0f3dbe278d62fc",
-        "title:54036c4a1ebe1603"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21598v1",
-      "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
-        "link": "https://arxiv.org/abs/2611.21598v1",
-        "canonical": "https://arxiv.org/abs/2611.21598v1",
-        "published": "2026-11-16T18:58:20Z",
-        "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradients, archives selected policies by detected dynamic regime, and retrieves them through Bayesian policy reuse. The architecture was evaluated in non-stationary CartPole and HalfCheetah environments. In the 30-replicate CartPole ablation, the complete architecture achieved a mean success rate of 83.2% across the five test environments. Among variants that learned the harder CartPole environments, the complete architecture showed the most consistent retention. A selection ablation also showed that the retrieval rule affected performance. In the evaluated sequences, ENA adapted more slowly than PPO on CartPole and achieved lower returns than SAC on HalfCheetah. The evidence concerns the complete architecture and does not isolate gradient-free optimization as the cause of retention or establish superiority over other continual-learning methods.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21598v1",
-        "images": [],
-        "ageHours": 15.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:dd0f3dbe278d62fc",
-          "title:54036c4a1ebe1603"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3d976fa9687d6c44": {
-      "id": "defer:url:3d976fa9687d6c44",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3d976fa9687d6c44",
-        "title:25a0abb372f14cc5"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21579v1",
-      "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
-        "link": "https://arxiv.org/abs/2611.21579v1",
-        "canonical": "https://arxiv.org/abs/2611.21579v1",
-        "published": "2026-11-16T18:49:56Z",
-        "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-grounded topologies, services, traffic, segmentation, and challenge chains, then instantiates and validates them in the Common Open Research Emulator (CORE). The ScenarioForge Execution Dataset contains 226 materialized scenarios covering 294 Vulhub images and all 85 custom-built challenge-resource generators developed with our AI-assisted scaffolding. All 226 passed construction, preview, sequencing, deployment, strict runtime validation, and live artifact checks; their 867 steps, each an individually verifiable challenge objective, comprise 457 vulnerability-backed and 410 generated-resource-backed instances. In a separate 50-prompt matched benchmark, ScenarioForge+Qwen3.8 and ScenarioForge+GPT5.6 each achieved 50/50 (100%) topology/build success and 160/160 intent fields; direct frontier generation reached 41/50 builds and 147/160 fields only with the full cumulative scaffold: structure, vocabulary, policy, and container-image guidance. The test still omitted ScenarioForge's downstream challenge-resource generation, dependency/flag sequencing, deployment, and live validation. The artifacts support operationally rich, reproducible exercises for training and evaluation.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21579v1",
-        "images": [],
-        "ageHours": 15.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3d976fa9687d6c44",
-          "title:25a0abb372f14cc5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4f56a0dca15d805d": {
-      "id": "defer:url:4f56a0dca15d805d",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:4f56a0dca15d805d",
-        "title:d62ceb4c33d382d9"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21562v1",
-      "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
-        "link": "https://arxiv.org/abs/2611.21562v1",
-        "canonical": "https://arxiv.org/abs/2611.21562v1",
-        "published": "2026-11-16T18:40:35Z",
-        "summary": "Zero-shot time-series foundation models (TSFMs) have become attractive alternatives to task-specific models because they handle diverse downstream tasks, including anomaly detection and forecasting, without per-series training. However, time-series data undergo distribution shifts, and the dissimilarity between two regimes is commonly scored with statistical measures such as Wasserstein-1, where a higher score is read as a more severe shift. In systematic experiments using three established severity measures on nine regime shifts from three standard traffic datasets, we show that these measures do not reliably predict degradation for instance-normalized TSFMs. The regimes rated most severe are not the regimes that degrade the models most, and degradation reaches 29% in the lowest-scoring regime. In most cases, the audit shows no positive relationship between measured severity and model degradation. We provide an equivariance-based stress-testing analysis that explains why severity readings can become decoupled from model degradation.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21562v1",
-        "images": [],
-        "ageHours": 15.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:4f56a0dca15d805d",
-          "title:d62ceb4c33d382d9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cc00e6a211d77cbe": {
-      "id": "defer:url:cc00e6a211d77cbe",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:cc00e6a211d77cbe",
-        "title:4e7989c02d3caceb"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21545v1",
-      "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
-        "link": "https://arxiv.org/abs/2611.21545v1",
-        "canonical": "https://arxiv.org/abs/2611.21545v1",
-        "published": "2026-11-16T18:30:11Z",
-        "summary": "Language models increasingly write the explanations people receive when a rule system denies their request. If several rules deny the request independently, an explanation can name a true reason and still leave the person denied after they fix it. We call the missing property recourse validity: changing what the explanation cites, without changing what was asked for, can flip the decision. We compute it exactly, and a hitting-set argument predicts from the policy alone when a correct reason fails. In six of seven rule systems ported from access control and US benefit eligibility, a single correct reason almost never gives recourse when several reasons apply. Across 20 LLMs, checks of whether the cited reasons are correct, computed or asked of an LLM judge, are close to chance at spotting this failure, as the argument predicts. A strong judge asked whether acting on the explanation would work does spot it. Stronger and reasoning models do better but still fail on many denials with four or more independent reasons. Asking for every rule helps every open model with room to improve. Explanations of eligibility decisions should be built from the decision function and judged by whether acting on them works.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21545v1",
-        "images": [],
-        "ageHours": 16,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:cc00e6a211d77cbe",
-          "title:4e7989c02d3caceb"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0b2ec16161bd3666": {
-      "id": "defer:url:0b2ec16161bd3666",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0b2ec16161bd3666",
-        "title:e44c2ac3103069c2"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21548v1",
-      "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
-        "link": "https://arxiv.org/abs/2611.21548v1",
-        "canonical": "https://arxiv.org/abs/2611.21548v1",
-        "published": "2026-11-16T18:31:11Z",
-        "summary": "Intrusion detectors must recognize evolving malicious behavior even when confirmed attack labels are scarce or incomplete. We present TRACE, a topology-aware graph contrastive learning framework for label-efficient intrusion detection. TRACE learns from benign system-activity graphs by combining message-passing and topological representations, then assigns anomaly scores in the same projected embedding space optimized by the contrastive objective. This design captures both local interactions and graph-scale structural deviations without using attack labels during representation learning. A labeled validation set containing benign and malicious graphs is used only to calibrate the anomaly threshold. We evaluate TRACE on StreamSpot, GraSec-IoT, and Unicorn Wget against a supervised graph neural network and the benign-only GraphCL baseline. TRACE obtains F1 scores of 0.923, 0.790, and 0.583, respectively. Compared with GraphCL, this is higher on StreamSpot (0.450) and Unicorn Wget (0.203), but lower on GraSec-IoT (0.975). The supervised model leads on StreamSpot and GraSec-IoT, whereas TRACE has the highest F1 on Unicorn Wget. The mixed results show that topology-aware benign-only learning can improve detection in some graph settings but does not provide a uniform advantage.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21548v1",
-        "images": [],
-        "ageHours": 16,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:0b2ec16161bd3666",
-          "title:e44c2ac3103069c2"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:dde3f93ca1ce2e5e": {
-      "id": "defer:url:dde3f93ca1ce2e5e",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:dde3f93ca1ce2e5e",
-        "title:32079bb7f2a70bb8"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21538v1",
-      "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
-        "link": "https://arxiv.org/abs/2611.21538v1",
-        "canonical": "https://arxiv.org/abs/2611.21538v1",
-        "published": "2026-11-16T18:25:42Z",
-        "summary": "Reinforcement learning from verifiable rewards inherits whatever its verifier gets wrong. Outside mathematics and code the verifier is a proxy, a rubric, a learned judge or a hand-written checker, and its distance from the true objective is never measured, so a rising reward cannot be told apart from a hack. We build a setting where the true reward is exactly computable at the process level: executable authorization policies over 124,416 contexts admit an oracle that lists every minimal sufficient reason for every decision. We compile these policies into exact process rewards, degrade the verifier along seven realistic axes (outcome-only, sufficiency, recall-only, extraction noise, coarse taxonomy, stale policy, LLM judge), and train against each while the exact verifier scores every rollout. Four phenotypes appear. Optimistic verifiers are hacked by padding: the sufficiency proxy ends at 0.940 while true faithfulness falls from 0.731 to 0.667 on 96 held-out episodes. Outcome-only verifiers saturate and stop teaching, noise dilutes, and ranking-preserving gaps do no harm. A model-free audit of the verifier, its selection error and gap sign, together with a short saturation pilot, anticipates which phenotype a run will produce. Across nine configurations spanning two frameworks, two model vendors, two adapter sizes, three precisions, two initialisations and two seeds, the phenotypes recur, sufficiency damage is positive in all 10 replication cells and beyond two standard errors in 7, and optimistic gaps remain the steeper branch. The damage magnitude does not replicate, and five pre-registered attempts to explain it are reported as they fell. We release the testbed, the training instrumentation, and 14 real public policies (Cedar, OPA, Gatekeeper) ported to executable oracles.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21538v1",
-        "images": [],
-        "ageHours": 16.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:dde3f93ca1ce2e5e",
-          "title:32079bb7f2a70bb8"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d978bdd810c1d7cf": {
-      "id": "defer:url:d978bdd810c1d7cf",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:d978bdd810c1d7cf",
-        "title:5d5cec0547e9ece3"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21541v1",
-      "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
-        "link": "https://arxiv.org/abs/2611.21541v1",
-        "canonical": "https://arxiv.org/abs/2611.21541v1",
-        "published": "2026-11-16T18:27:09Z",
-        "summary": "We introduce SciResearch-Eval, an interactive benchmark of scientific judgment built on a standard laboratory problem: measuring a material's thermal properties by heating it and fitting a heat-conduction simulator. An agent designs its own experiments, uses a supplied simulator that may be under-resolved or physically wrong, and reports each property with a 95% interval. To our knowledge it is the first benchmark to combine agent-designed experiments, a deliberately flawed simulator, and proper scoring of calibrated intervals against exact ground truth. On a held-out split (93 tasks, 9 models, 2,511 episodes), models handle procedural traps. When the simulator is missing physics, most report wrong values while stating they are 95% sure: their ranges contain the truth in 20-62% of cases, against 94% for GPT-6 Astra and 99% for Claude Fable 5.2. At default effort the failing Claude 5.5 models rarely diagnose the missing physics (Opus in 35% of episodes, against 66% for Astra), and even when they do, their ranges often miss; Astra and Fable design experiments in which the flawed simulator is accurate, such as gentle heating, which keeps Astra calibrated even when it does not name the cause. Asking for wider intervals does not help; stating the strategy improves interval scores 1.6-2.5-fold, replicated on a pre-registered fresh split, but coverage barely moves. A pre-registered effort ablation shows that the correction is latent in the Claude 5.5 models: at maximum effort Opus improves more than tenfold and is no longer detectably behind Astra at default, but only with 13-31 times more reasoning; older and open-weight models gain nothing. Fable 5.2 is the most accurate model at default effort (interval score 1.9 times better than Astra's) but writes 6 times as many tokens, and at Astra's token count it falls short. We release the environment, graders and harness.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21541v1",
-        "images": [],
-        "ageHours": 16.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d978bdd810c1d7cf",
-          "title:5d5cec0547e9ece3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4b1b4f43f242c3d8": {
-      "id": "defer:url:4b1b4f43f242c3d8",
-      "at": "2026-11-17T10:31:19.802Z",
-      "firstAt": "2026-11-17T10:31:19.802Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:4b1b4f43f242c3d8",
-        "title:3d6ab66ba1fe152b"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.21529v1",
-      "title": "Procedure without Judgment: What Small Language Models Learn under an Exact Verifier",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Procedure without Judgment: What Small Language Models Learn under an Exact Verifier",
-        "link": "https://arxiv.org/abs/2611.21529v1",
-        "canonical": "https://arxiv.org/abs/2611.21529v1",
-        "published": "2026-11-16T18:20:09Z",
-        "summary": "When an authorization policy blocks an agent's tool call, the audit log should name the facts that forced the decision and nothing more. For an executable policy over an enumerable context space this minimal sufficient reason can be computed exactly, so an explanation is scored against ground truth rather than a proxy for it. We use that exactness to ask what a model can learn from a verifier that has no error in it. The explainer sees one request and one decision, never the policy, and has thirty turns in which it may call the policy on altered requests and ask whether a candidate set of facts is sufficient. Frontier models find the exact reason about half the time with the tools alone, and one sentence telling them to shrink the answer lifts Haiku 4.5 from 58% to 75%. A 4B model fine-tuned on 2000 traces of the deletion algorithm reaches 92% on the policy it was trained on. Teacher kind is what moves this: at matched data size the algorithm-taught student leads the frontier-taught one in all three training seeds, and the two arms never overlap. What the student learns is a fixed schedule of sufficiency checks, and the schedule does not travel. On three public policies it never saw, its answers stay sufficient (94%) and stop being minimal (48%), while Haiku under the same sentence is exact on all 47 episodes. Reinforcement learning from the exact reward leaves held-out accuracy where it was and inverts the strategy, from probing the policy to spending the entire budget on sufficiency checks. The oracle made the effect of training legible, but it did not make training better.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.21529v1",
-        "images": [],
-        "ageHours": 16.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:4b1b4f43f242c3d8",
-          "title:3d6ab66ba1fe152b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c9fd12c9b52e6f26": {
-      "id": "defer:url:c9fd12c9b52e6f26",
-      "at": "2026-11-17T13:32:30.692Z",
-      "firstAt": "2026-11-17T13:32:30.692Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:c9fd12c9b52e6f26",
-        "title:3a517448669676a6"
-      ],
-      "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
-      "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
-        "link": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
-        "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
-        "published": "Tue, 17 Nov 2026 12:00:41 +0000",
-        "summary": "In this Q&A, Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are attracting renewed interest. He also outlined what could set the stage for a stronger start to 2027.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/Forecast-crystal-ball-ai-IPO.jpg",
-          "https://news.crunchbase.com/wp-content/uploads/mike-bellin_headshot-276x300.jpg"
-        ],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:c9fd12c9b52e6f26",
-          "title:3a517448669676a6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fe023ceca2fe56df": {
-      "id": "defer:url:fe023ceca2fe56df",
-      "at": "2026-11-17T13:32:30.692Z",
-      "firstAt": "2026-11-17T13:32:30.692Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:fe023ceca2fe56df",
-        "title:bec91c5132b054de"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-        "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-        "canonical": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
-        "published": "Mon, 16 Nov 2026 23:32:32 +0000",
-        "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-        "images": [],
-        "ageHours": 14,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:fe023ceca2fe56df",
-          "title:bec91c5132b054de"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e9c996a0e3b8ea61": {
-      "id": "defer:url:e9c996a0e3b8ea61",
-      "at": "2026-11-17T13:32:30.692Z",
-      "firstAt": "2026-11-17T13:32:30.692Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:e9c996a0e3b8ea61",
-        "title:667cb6ac994a9387"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-        "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-        "canonical": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
-        "published": "Mon, 16 Nov 2026 22:03:02 +0000",
-        "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-        "images": [],
-        "ageHours": 15.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:e9c996a0e3b8ea61",
-          "title:667cb6ac994a9387"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b652366d4a49aac6": {
-      "id": "defer:url:b652366d4a49aac6",
-      "at": "2026-11-17T13:32:30.692Z",
-      "firstAt": "2026-11-17T13:32:30.692Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:b652366d4a49aac6",
-        "title:f1242987f11a1bf4"
-      ],
-      "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
-      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
-        "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
-        "canonical": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
-        "published": "Sun, 15 Nov 2026 14:45:12 +0000",
-        "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. The article Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
-        ],
-        "ageHours": 46.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b652366d4a49aac6",
-          "title:f1242987f11a1bf4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7e59a840b8400113": {
-      "id": "defer:url:7e59a840b8400113",
-      "at": "2026-11-17T13:32:30.692Z",
-      "firstAt": "2026-11-17T13:32:30.692Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7e59a840b8400113",
-        "title:98a472f5995eb26c"
-      ],
-      "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
-      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
-        "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-        "canonical": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
-        "published": "Sun, 15 Nov 2026 10:45:58 +0000",
-        "summary": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike Major cautions against jumping to conclusions, however, noting that business cycle shifts and remote work trends could also explain the numbers. The article Australia's central bank finds AI hitting young workers first, especially in software and customer service appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/ai_impact_australian_jobs.png"
-        ],
-        "ageHours": 50.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:7e59a840b8400113",
-          "title:98a472f5995eb26c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1c3d3bc22915fae9": {
-      "id": "defer:url:1c3d3bc22915fae9",
-      "at": "2026-11-17T14:32:16.297Z",
-      "firstAt": "2026-11-17T14:32:16.297Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:1c3d3bc22915fae9",
-        "title:a3581b35b14fc831"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security",
-      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-        "link": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-        "canonical": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security",
-        "published": "Tue, 17 Nov 2026 14:05:30 +0000",
-        "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-        "images": [],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:1c3d3bc22915fae9",
-          "title:a3581b35b14fc831"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1901229e7d1fe285": {
-      "id": "defer:url:1901229e7d1fe285",
-      "at": "2026-11-17T14:32:16.297Z",
-      "firstAt": "2026-11-17T14:32:16.297Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:1901229e7d1fe285",
-        "title:c4fba79c4eabe7c8"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots",
-      "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
-        "link": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
-        "canonical": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots",
-        "published": "Tue, 17 Nov 2026 14:00:00 +0000",
-        "summary": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
-        "images": [],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:1901229e7d1fe285",
-          "title:c4fba79c4eabe7c8"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1ca2af5a29f1d8d5": {
-      "id": "defer:url:1ca2af5a29f1d8d5",
-      "at": "2026-11-17T14:32:16.297Z",
-      "firstAt": "2026-11-17T14:32:16.297Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1ca2af5a29f1d8d5",
-        "title:cd5e2285c55c988f"
-      ],
-      "canonical": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise",
-      "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
-        "link": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
-        "canonical": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise",
-        "published": "Tue, 17 Nov 2026 14:00:18 +0000",
-        "summary": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/AI-manufacturing.jpg",
-          "https://news.crunchbase.com/wp-content/uploads/Founders-Xian-Theo-Eno-Oct-27-2027_LRG-1-scaled-e1794845154963-300x223.jpg"
-        ],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:1ca2af5a29f1d8d5",
-          "title:cd5e2285c55c988f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:edb18e52db34b006": {
       "id": "defer:url:edb18e52db34b006",
@@ -12814,296 +11863,6 @@
         "keys": [
           "url:e04686f80cf8e47e",
           "title:ea110323fdbc9238"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4794d4873562de76": {
-      "id": "defer:url:4794d4873562de76",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:4794d4873562de76",
-        "title:cc3875e6fcbfa0b9"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials",
-      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-        "link": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-        "canonical": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials",
-        "published": "Tue, 17 Nov 2026 14:50:58 +0000",
-        "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 Billion in a Series C funding round.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-        "images": [],
-        "ageHours": 2.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:4794d4873562de76",
-          "title:cc3875e6fcbfa0b9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:011b27afc6a841bf": {
-      "id": "defer:url:011b27afc6a841bf",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:011b27afc6a841bf",
-        "title:5bd2a8ba5bd3b8ae"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
-      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-        "link": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-        "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
-        "published": "Tue, 17 Nov 2026 14:00:10 +0000",
-        "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-842x450.jpeg"
-        ],
-        "ageHours": 3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:011b27afc6a841bf",
-          "title:5bd2a8ba5bd3b8ae"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cf4f892513b4d712": {
-      "id": "defer:url:cf4f892513b4d712",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:cf4f892513b4d712",
-        "title:65145b70d2b86d62"
-      ],
-      "canonical": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
-      "title": "7 Best AI Coding Plans for $10 or Less in 2026",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "7 Best AI Coding Plans for $10 or Less in 2026",
-        "link": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
-        "canonical": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
-        "published": "Tue, 17 Nov 2026 13:00:00 +0000",
-        "summary": "Compare affordable AI coding agents, AI-powered IDEs, open-source tools, and multi-model subscriptions from OpenCode, Cursor, GitHub Copilot, Cline, Zed, and Xiaomi MiMo.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-ai-coding-plans-for-10-or-less-in-2026-feature.webp"
-        ],
-        "ageHours": 4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:cf4f892513b4d712",
-          "title:65145b70d2b86d62"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:715394e40e54708f": {
-      "id": "defer:url:715394e40e54708f",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:715394e40e54708f",
-        "title:7cd2a42c42b2c608"
-      ],
-      "canonical": "https://www.producthunt.com/products/recall-ai",
-      "title": "Agents API by Recall.ai",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Agents API by Recall.ai",
-        "link": "https://www.producthunt.com/products/recall-ai",
-        "canonical": "https://www.producthunt.com/products/recall-ai",
-        "published": "2026-11-16T16:38:25-08:00",
-        "summary": "<p> Send your agent to meetings </p> <p> <a href=\"https://www.producthunt.com/products/recall-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319570?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/recall-ai",
-        "images": [],
-        "ageHours": 16.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:715394e40e54708f",
-          "title:7cd2a42c42b2c608"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9c481a0931060f36": {
-      "id": "defer:url:9c481a0931060f36",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:9c481a0931060f36",
-        "title:c32dd593305ad105"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
-      "title": "datasette-llm 0.1a11",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "datasette-llm 0.1a11",
-        "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-        "canonical": "https://simonwillison.net/2026/Nov/14/datasette-llm",
-        "published": "2026-11-14T23:59:28+00:00",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local models with <a href=\"https://lmstudio.ai\">LM Studio</a> or <a href=\"https://ollama.com\">Ollama</a> or <a href=\"https://github.com/ggml-org/llama.cpp\">llama.cpp</a> (which just hit <a href=\"https://huggingface.co/blog/ggml-org/llama-cpp-v1\">v1.0.0</a>) you can run Datasette via <code>uvx</code> like this:</p> <div class=\"highlight highlight-source-shell\"><pre>wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model <span class=\"pl-s\"><span class=\"pl-pds\">'</span>{</span> <span class=\"pl-s\"> \"model\": \"lmstudio-qwen\",</span> <span class=\"pl-s\"> \"model_name\": \"qwen/qwen3.8-27b\",</span> <span class=\"pl-s\"> \"api_base\": \"http://localhost:1234/v1\"</span> <span class=\"pl-s\"> }<span class=\"pl-pds\">'</span></span> content.db</pre></div> <p>And you'll get a local server running a Datasette Agent instance powered by your local model!</p> <p><img alt=\"Screenshot of a chat interface. Header bar reads &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &quot;Chat&quot;, a model label &quot;lmstudio-qwen&quot; and an &quot;EXPORT&quot; button. A blue user message bubble says &quot;how many repos and how many releases are there?&quot; Below it is a collapsed tool call &quot;list_databases_and_tables&quot; and an expanded tool call &quot;sql_query&quot;. Its REQUEST section shows database &quot;content&quot;, display &quot;both&quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &quot;View SQL query&quot; button. The assistant reply reads &quot;There are 200 repos and 1,889 releases in the content database.&quot; At the bottom is a text input with placeholder &quot;Type a message... (# to tag a table or query)&quot; and a blue &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-        "images": [],
-        "ageHours": 65,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9c481a0931060f36",
-          "title:c32dd593305ad105"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fb1ad380f7244f47": {
-      "id": "defer:url:fb1ad380f7244f47",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:fb1ad380f7244f47",
-        "title:e63019f191367427"
-      ],
-      "canonical": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months",
-      "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-        "link": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-        "canonical": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months",
-        "published": "Tue, 17 Nov 2026 14:57:02 +0000",
-        "summary": "Isomorphic Labs has raised $5 billion, just six months after a $2.1 billion round. Alphabet's AI drug discovery company, led by Demis Hassabis, plans to use the funding to push its drug pipeline toward clinical trials. The company has no approved drugs yet. The article Isomorphic Labs raises $5 billion in its second mega-round within six months appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/Isomorphic-Labs-Funding.jpg"
-        ],
-        "ageHours": 2.1,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:fb1ad380f7244f47",
-          "title:e63019f191367427"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13617,9 +12376,9 @@
     },
     "defer:url:b43ef08ac3ed4f7a": {
       "id": "defer:url:b43ef08ac3ed4f7a",
-      "at": "2026-11-17T19:31:38.332Z",
+      "at": "2026-11-18T10:34:07.522Z",
       "firstAt": "2026-11-17T19:31:38.332Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -13659,7 +12418,11 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:b43ef08ac3ed4f7a",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
@@ -14233,6 +12996,795 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:82b169450b02e27d": {
+      "id": "defer:url:82b169450b02e27d",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:82b169450b02e27d",
+        "title:95d1f52b55d7666d"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+        "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "canonical": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+        "published": "2026-11-17T22:38:52+00:00",
+        "summary": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a> with support for the new models.</p> <p>6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions.</p> <p>GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).</p> <p>Here are the pelicans <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fa940cc2750162ac9edf0ddf881067b83\">for GPT-6.2 Sol</a> and <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffe836e13c90c00233c9e9e499a941805\">for GPT-6.2 Astra</a>. The 6.2 Astra max pelican looks like this:</p> <p><img alt=\"Good bicycle, good pelican, one wing is on the handlebars with fingers, the other wing is behind. Feet on the correct side of the frame. Nice gradiants. Good pouch, hooked bill.\" src=\"https://static.simonwillison.net/static/2026/astra-6-2-max.webp\" /></p> <p>I have a <a href=\"https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html\">full comparison grid here</a>, but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases:</p> <p><img alt=\"Twelve pastel illustrations compare four models drawing a pelican riding a bicycle at three effort levels. All twelve have a recognizable pelican and bicycle. The clearest differences are in the feather detail and how convincingly the bird steers and pedals. gpt-6.2-astra has the most detailed Max drawing (88.71¢), with layered feathers, a trailing red scarf, and a wing on the handlebars. Xhigh (17.70¢) adds a green cap and keeps the seaside setting. High (11.55¢) simplifies the feathers while keeping the riding pose clear. gpt-6.2-sol shows a convincing pedaling pose at both Max (13.69¢) and Xhigh (6.74¢), with one foot higher than the other and a wing reaching forward. At High (2.41¢), the bird sits lower and the handlebars are harder to distinguish. gpt-6-astra gives the bird a long wing that follows the curve of the handlebars at Max (63.21¢). Xhigh (33.85¢) shows two bent legs on the pedals. At High (18.37¢), one leg stretches almost straight down, making the pose look stiffer. gpt-6.1-sol uses nearly the same long-necked bird with a wing on the bars at Max (13.48¢) and Xhigh (5.39¢). At High (3.66¢), the bird folds its wing against its body and appears to ride hands-free.\" src=\"https://static.simonwillison.net/static/2026/gpt-6-2-grid.webp\" /></p> <p>I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI:</p> <blockquote> <p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p> </blockquote> <p>Here's <a href=\"https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html\">Sol</a> and here's <a href=\"https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html\">Astra</a>. Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to <a href=\"https://tools.simonwillison.net/yonkers-rises\">Claude Fable 5.2</a> and <a href=\"https://static.simonwillison.net/static/2026/yonkers-mech-standalone.html\">Gemini 4 Carbon</a>.</p> <p>This video showing the Astra and Sol animations playing out at the same time:</p> <video controls playsinline preload=\"none\" width=\"1080\" height=\"1080\" poster=\"https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s.webp\"> <source src=\"https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s-largest.mp4\" type=\"video/mp4\"> </video> <p>I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting:</p> <blockquote> <p><code>https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html are two videos of the same thing by two different models</code></p> <p><code>I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second</code></p> <p><code>I need an overlaid label of \"GPT-6.2 Astra\" on the top half and \"GPT-6.2 Sol\" on the bottom half. These labels should be tastefully positioned.</code></p> <p><code>Make the video square and 2000x2000 pixels</code></p> </blockquote> <p>Then later:</p> <blockquote> <p><code>OK make it 20s</code></p> </blockquote> <p>Here's the <a href=\"https://gist.github.com/simonw/6b44c588a1321b60799dbbfd13db6d23\">exported transcript</a>.</p> <p>The buzz around these new models is mixed at the moment. Astra 6.2 isn't scoring quite as high as Fable 5.2 on various benchmarks, and I've seen a few complaints that its communication style can be confusing. Theo Browne's <a href=\"https://twitter.com/theo/status/2122760447103484410\">review</a> (in the form of a feedback letter he sent OpenAI during pre-release) has this useful example:</p> <blockquote> <p>When this model is working on long tasks, it can pull in a lot of subagents and manage them pretty well. It will then proceed to randomly <em>ask you some weird internal implementation detail bullshit that you could not under any earthly circumstance understand, much less have input on</em>.</p> <p>I sent \"/goal make a new level for Outer Wilds\". 2 hours in, it's \"blocked\" because it wanted to ask me \"does r24's reviewer write it's clips to 24_g521.mp4 or 24_p11.mp4?\"</p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/theo-browne\">theo-browne</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/yonkers-rising\">yonkers-rising</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "images": [],
+        "ageHours": 11.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": true,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:82b169450b02e27d",
+          "title:95d1f52b55d7666d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:21b086fc4d484154": {
+      "id": "defer:url:21b086fc4d484154",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:21b086fc4d484154",
+        "title:7f503e53e334f0fa"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.23202v1",
+      "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+        "link": "https://arxiv.org/abs/2611.23202v1",
+        "canonical": "https://arxiv.org/abs/2611.23202v1",
+        "published": "2026-11-17T18:44:25Z",
+        "summary": "AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, execution integrity, and authorization. We propose the Agent Trust Infrastructure (ATI), a framework-independent security architecture built on Public Key Infrastructure (PKI), Zero Trust Architecture (ZTA), and remote attestation. ATI establishes federated trust through peer organizational certificate authorities (AgentCAs), eliminating the need for a shared root authority. Before executing requests, ATI validates agent certificates, verifies approved model, tool, and system-prompt configurations, and enforces authorization through three policy checks. We implement ATI as an external security enforcement layer that integrates with existing agent frameworks without modifying their underlying models. We evaluate ATI in a simulated federation of eight organizations using six agent frameworks, each deploying a five-agent team. Security experiments involve two organizations and assess 14 attack scenarios and six benign tasks across five agent models, using five attack variations and three repetitions per variation. A panel of judge models evaluates the experimental outcomes. With all enforcement mechanisms enabled, attack containment increases from 43% to 84% (40% to 80% for the 11 attack scenarios evaluated consistently across all configurations), while enforcement introduces approximately 174 microseconds of overhead per request. ATI is released as an open-source, framework-independent package that uses IETF WIMSE workload token formats for identity and request verification and Entity Attestation Tokens for model, tool, and system-prompt integrity verification.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.23202v1",
+        "images": [],
+        "ageHours": 15.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:21b086fc4d484154",
+          "title:7f503e53e334f0fa"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6ced64c71386d7d3": {
+      "id": "defer:url:6ced64c71386d7d3",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:6ced64c71386d7d3",
+        "title:6ed87293174fb81a"
+      ],
+      "canonical": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video",
+      "title": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
+        "link": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+        "canonical": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video",
+        "published": "Wed, 18 Nov 2026 10:22:45 +0000",
+        "summary": "AI music generator Suno can now create images and video clips to go with its songs, thanks to a new feature called Visuals. The article Suno's new Visuals feature pairs AI-generated music with AI-generated video appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/08/suno_ai_logo.png"
+        ],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:6ced64c71386d7d3",
+          "title:6ed87293174fb81a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0db3b4bdf59c14e4": {
+      "id": "defer:url:0db3b4bdf59c14e4",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0db3b4bdf59c14e4",
+        "title:08f385c7d5af2f34"
+      ],
+      "canonical": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+        "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+        "canonical": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+        "published": "Wed, 18 Nov 2026 00:27:29 +0000",
+        "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception-500x454.png",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_New_Ecosystem_Stack_AI.png"
+        ],
+        "ageHours": 10.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:0db3b4bdf59c14e4",
+          "title:08f385c7d5af2f34"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ba46bd4827d4393d": {
+      "id": "defer:url:ba46bd4827d4393d",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:ba46bd4827d4393d",
+        "title:cda5b8fb1312946b"
+      ],
+      "canonical": "https://therecord.media/cisa-issues-java4shell-alert",
+      "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
+        "link": "https://therecord.media/cisa-issues-java4shell-alert",
+        "canonical": "https://therecord.media/cisa-issues-java4shell-alert",
+        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
+        "summary": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java — one of the world’s most used programming languages — after experts warned that it could allow an attacker to take over servers without a password.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/cisa-issues-java4shell-alert",
+        "images": [
+          "http://cms.therecord.media/uploads/2021_11_CISA_6e0fea829e.png"
+        ],
+        "ageHours": 10.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:ba46bd4827d4393d",
+          "title:cda5b8fb1312946b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3047d7657748ea76": {
+      "id": "defer:url:3047d7657748ea76",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:3047d7657748ea76",
+        "title:07dd8beb3791940f"
+      ],
+      "canonical": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "title": "Introducing ChatGPT for Sales",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Introducing ChatGPT for Sales",
+        "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "canonical": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "published": "Tue, 17 Nov 2026 08:00:00 GMT",
+        "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "images": [],
+        "ageHours": 26.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:3047d7657748ea76",
+          "title:07dd8beb3791940f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:10479bde30ccf0b1": {
+      "id": "defer:url:10479bde30ccf0b1",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:10479bde30ccf0b1",
+        "title:d047206a3a5a82c4"
+      ],
+      "canonical": "https://www.producthunt.com/products/linkbit",
+      "title": "LinkBit",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "LinkBit",
+        "link": "https://www.producthunt.com/products/linkbit",
+        "canonical": "https://www.producthunt.com/products/linkbit",
+        "published": "2026-11-16T23:57:08-08:00",
+        "summary": "<p> Free URL shortener your AI agent can use (MCP + API) </p> <p> <a href=\"https://www.producthunt.com/products/linkbit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319947?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/linkbit",
+        "images": [],
+        "ageHours": 26.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:10479bde30ccf0b1",
+          "title:d047206a3a5a82c4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9634b5e75ef12012": {
+      "id": "defer:url:9634b5e75ef12012",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:9634b5e75ef12012",
+        "title:7b0bae18e8ec3a2f"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+        "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+        "published": "Mon, 16 Nov 2026 23:00:05 +0000",
+        "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg"
+        ],
+        "ageHours": 35.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:9634b5e75ef12012",
+          "title:7b0bae18e8ec3a2f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a9995c40a3422c04": {
+      "id": "defer:url:a9995c40a3422c04",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a9995c40a3422c04",
+        "title:cece5d11f4250ee9"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+        "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+        "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+        "published": "Mon, 16 Nov 2026 20:00:37 +0000",
+        "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-842x450.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/20261114_033237000_iOS-1.jpeg"
+        ],
+        "ageHours": 38.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:a9995c40a3422c04",
+          "title:cece5d11f4250ee9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e103c7330eb391b4": {
+      "id": "defer:url:e103c7330eb391b4",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e103c7330eb391b4",
+        "title:bf0767dab9585052"
+      ],
+      "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
+      "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+        "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+        "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
+        "published": "Mon, 16 Nov 2026 19:19:56 +0000",
+        "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before realistic simulations are possible. The article OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/openai_standard_model.png"
+        ],
+        "ageHours": 39.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e103c7330eb391b4",
+          "title:bf0767dab9585052"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:29d97cd3a9606bee": {
+      "id": "defer:url:29d97cd3a9606bee",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:29d97cd3a9606bee",
+        "title:fb04f59fe7e95a69"
+      ],
+      "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+      "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+        "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "published": "Mon, 16 Nov 2026 18:00:47 +0000",
+        "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/Collibra-Agentic-Control-Ebook-Social-1.png"
+        ],
+        "ageHours": 40.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:29d97cd3a9606bee",
+          "title:fb04f59fe7e95a69"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4e397e27d38f36ea": {
+      "id": "defer:url:4e397e27d38f36ea",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4e397e27d38f36ea",
+        "title:7152ec698ee09f71"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+        "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+        "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+        "published": "Mon, 16 Nov 2026 16:00:16 +0000",
+        "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376-842x450.jpg"
+        ],
+        "ageHours": 42.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4e397e27d38f36ea",
+          "title:7152ec698ee09f71"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8f02058f4a02dc51": {
+      "id": "defer:url:8f02058f4a02dc51",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8f02058f4a02dc51",
+        "title:cf1ea7c31e12e1e3"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+        "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
+        "published": "Mon, 16 Nov 2026 16:00:01 +0000",
+        "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1-842x450.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-press-hpc-nvl4-tray-rack-1600x900-5802807.jpg"
+        ],
+        "ageHours": 42.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:8f02058f4a02dc51",
+          "title:cf1ea7c31e12e1e3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:efdc00666e56954c": {
+      "id": "defer:url:efdc00666e56954c",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:efdc00666e56954c",
+        "title:3b5ebda452d75ef6"
+      ],
+      "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+      "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+        "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "published": "Mon, 16 Nov 2026 15:00:00 +0000",
+        "summary": "Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-give-claude-code-up-to-date-documentation-with-context7-feature.webp"
+        ],
+        "ageHours": 43.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:efdc00666e56954c",
+          "title:3b5ebda452d75ef6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a51c9a55e91831da": {
+      "id": "defer:url:a51c9a55e91831da",
+      "at": "2026-11-18T10:34:02.009Z",
+      "firstAt": "2026-11-18T10:34:02.009Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a51c9a55e91831da",
+        "title:ec8793c14f365f6f"
+      ],
+      "canonical": "https://www.producthunt.com/products/s-space",
+      "title": "S.Space",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "S.Space",
+        "link": "https://www.producthunt.com/products/s-space",
+        "canonical": "https://www.producthunt.com/products/s-space",
+        "published": "2026-11-15T05:26:16-08:00",
+        "summary": "<p> Your team and everyone's AI agents, in one workspace </p> <p> <a href=\"https://www.producthunt.com/products/s-space?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1317562?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/s-space",
+        "images": [],
+        "ageHours": 69.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:a51c9a55e91831da",
+          "title:ec8793c14f365f6f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:742a0adaef2e2544": {
+      "id": "defer:url:742a0adaef2e2544",
+      "at": "2026-11-18T10:34:40.035Z",
+      "firstAt": "2026-11-18T10:34:40.035Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:742a0adaef2e2544",
+        "title:bc75e5bb1051c06c"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+        "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
+        "published": "Mon, 16 Nov 2026 16:00:51 +0000",
+        "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1-842x450.jpeg"
+        ],
+        "ageHours": 42.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:742a0adaef2e2544",
+          "title:bc75e5bb1051c06c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "tools"
     }
   },
   "slots": {
@@ -16529,6 +16081,37 @@
           "at": "2026-11-18T08:19:25.485Z"
         }
       ]
+    },
+    "2026-11-18T14:00+03:30": {
+      "at": "2026-11-18T10:36:38.201Z",
+      "status": "sent",
+      "category": "security",
+      "title": "مدل‌های پیشرفته هوش مصنوعی می‌تونن حین توسعه خودشون خرابکاری کنن",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/14-00",
+      "messageId": 105,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0051541336,
+      "tokens": 59326,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "مدل‌های پیشرفته هوش مصنوعی می‌تونن حین توسعه خودشون خرابکاری کنن",
+          "category": "security",
+          "status": "sent",
+          "messageId": 105,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0031543512,
+          "tokens": 29235,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-18T10:36:38.201Z"
+        }
+      ]
     }
   },
   "published": [
@@ -18085,93 +17668,111 @@
       "sourceTitle": "How genome mapping can help researchers better understand disease",
       "sourceText": "How genome mapping can help researchers better understand disease\nIn our latest installment of the Ask a Scientist series, a Google DeepMind research scientist explains the potential behind our AlphaGenome and AlphaGenome Atlas tools.\nYour genome is your body’s instruction manual: the blueprint that informs how your body functions. It contains 3 billion base pairs of DNA. Because this DNA is responsible in part for switching genes on and off, it could be the difference between developing a disease and avoiding one. Determining which DNA changes cause diseases (and other outcomes) is like finding a needle in a haystack.\nDecoding the DNA sequence is the goal behind AlphaGenome , a model from Google DeepMind. AlphaGenome can take a partial DNA sequence of 1 million base pairs in length, and make thousands of predictions. By comparing these predictions for DNA changes, scientists can find that needle faster.\nWe talked to Google DeepMind research scientist Žiga Avsec to learn more.\nŽA: I’m a research scientist overseeing our genomics initiative. Basically, I lead a team that builds models to help us better understand the genome.\nHow is your team making it easier for scientists to predict and understand diseases?\nIt really all comes down to how the genome works. It contains 3 billion DNA base pairs. And each pair contains two bases, which we call “letters.” These letters — A (adenine), T (thymine), C (cytosine), G (guanine) — act like a biological alphabet, spelling out the genetic instruction manual that makes someone who they are.\nSince you can replace any of those letters with",
       "at": "2026-11-18T08:19:25.485Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-18T14:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "مدل‌های پیشرفته هوش مصنوعی می‌تونن حین توسعه خودشون خرابکاری کنن",
+      "why": "این نشون می‌ده که هرچی مدل‌ها قوی‌تر می‌شن، باید بیشتر روی نظارت بر کارشون سرمایه‌گذاری کنیم.",
+      "dedupe_key": "scaleai-rsi-control-arena-sabotage",
+      "post_key": "2026-11-18/14-00/1",
+      "sourceId": "import-ai",
+      "sourceName": "Import AI",
+      "sourceType": "newsletter",
+      "benchmark": false,
+      "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+      "sourceTitle": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+      "sourceText": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.\nAI systems are getting good at sub-contracting to make themselves better: …AI can now productively spend money to improve itself… Researchers have developed FrontierML, a benchmark “that measures how well agents turn capital into model performance on challenging, end-to-end machine learning tasks.” It shows that today’s frontier systems are already able to, when given some money, turn this into improving their own performance on a basket of 21 distinct tasks. 21 long-horizon tasks “inspired by real work at frontier labs, neolabs, and academic institutions”. These tasks span six category areas, including LLM training, efficiency, vision & audio, computer use, applied NLP, and math & games. “Each task provides the agent with the same setup: a 12-hour CPU sandbox, a wallet with $10, $50, or $200, a few validation samples, and a task description.” Example task: Agents try to solve the tasks in pretty different ways. E.g, for one task about generating screenshots, the top-scoring agent fine-tuned a diffusion model using LoRA, while other high-scoring approaches involved an LLM writing a drawing program that is then rendered. Key features:\nScaling spending : “Give agents $10, $50, and $200 per task to spend on training compute and data, and evaluate whether agents can use the additional capital productively,” they write. “In our experiments, we find that stronger agents are able to reliably improve their submission",
+      "at": "2026-11-18T10:36:38.201Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8440,
-      "last_at": "2026-11-18T06:48:35+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "last_id": 8443,
+      "last_at": "2026-11-18T10:10:29+00:00",
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "ai_farshad": {
       "last_id": 6460,
       "last_at": "2026-11-18T06:47:49+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7237,
-      "last_at": "2026-11-18T06:10:45+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "last_id": 7239,
+      "last_at": "2026-11-18T10:32:06+00:00",
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "techiin_ir": {
       "last_id": 20797,
       "last_at": "2026-11-17T17:37:01+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "mgh_mobin": {
       "last_id": 493,
       "last_at": "2026-11-17T20:12:25+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "asrnovin_ir": {
-      "last_id": 11484,
-      "last_at": "2026-11-17T20:33:38+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "last_id": 11485,
+      "last_at": "2026-11-18T08:34:05+00:00",
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "shayanode": {
-      "last_id": 247,
-      "last_at": "2026-11-17T10:21:55+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "last_id": 248,
+      "last_at": "2026-11-17T10:26:04+00:00",
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "codecloude": {
       "last_id": 2599,
       "last_at": "2026-11-18T06:08:53+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "dunijet_ai": {
       "last_id": 2582,
       "last_at": "2026-11-18T06:30:26+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "marketing_aida": {
-      "last_id": 108,
-      "last_at": "2026-11-17T11:52:05+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "last_id": 109,
+      "last_at": "2026-11-18T08:11:18+00:00",
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "MatinSenPaii": {
-      "last_id": 5900,
-      "last_at": "2026-11-17T20:25:01+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "last_id": 5901,
+      "last_at": "2026-11-18T08:41:16+00:00",
+      "checked_at": "2026-11-18T10:33:13.981Z"
     },
     "thenimaonAI": {
-      "last_id": 542,
-      "last_at": "2026-11-18T07:11:56+00:00",
-      "checked_at": "2026-11-18T08:00:59.217Z"
+      "last_id": 547,
+      "last_at": "2026-11-18T10:00:46+00:00",
+      "checked_at": "2026-11-18T10:33:13.981Z"
     }
   },
   "offerReviews": [
@@ -21630,6 +21231,30 @@
       "slot": "2026-11-18T11:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7239",
+      "date": "2026-11-18",
+      "at": "2026-11-18T10:33:13.981Z",
+      "source": "tg-mohammad-zammani",
+      "title": "شرکت مایکروسافت تو رویداد Ignite 2026 از هفت مدل هوش مصنوعی جدید تو خانواده MAI رونمایی",
+      "url": "https://t.me/Mohammad_zammani/7239",
+      "reason": "denied_link",
+      "slot": "2026-11-18T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-thenima|https://t.me/thenimaonAI/543",
+      "date": "2026-11-18",
+      "at": "2026-11-18T10:33:13.981Z",
+      "source": "tg-thenima",
+      "title": "این پیام روزمو ساخت و مطمعنم کرد مسیری که داریم با بچه‌های AI Lab جلو میریم",
+      "url": "https://t.me/thenimaonAI/543",
+      "reason": "no_link",
+      "slot": "2026-11-18T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -21926,6 +21551,13 @@
       "url": "https://t.me/+8MEIcluAFw4zOTNk",
       "slot": "2026-11-18T08:30+03:30",
       "at": "2026-11-18T05:01:01.763Z"
+    },
+    {
+      "source": "tg-thenima",
+      "title": "آموزش در دل تجربه خروجیش میشه این.",
+      "url": "https://t.me/thenimaonAI/546",
+      "slot": "2026-11-18T14:00+03:30",
+      "at": "2026-11-18T10:33:13.981Z"
     }
   ],
   "reviewPending": {},
