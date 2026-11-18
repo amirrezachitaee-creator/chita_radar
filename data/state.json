@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T17:56:09.303Z",
+  "updatedAt": "2026-11-18T19:33:41.314Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11615,154 +11615,99 @@
       "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
       "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
       "benchmark": false
+    },
+    "url:4b5074710df8ef5c": {
+      "at": "2026-11-18T19:31:15.869Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "✅ مدل‌های جدید GPT-6.2 Astra و GPT-6.2 Sol با کاهش هزینه معرفی شدند",
+      "url": "https://t.me/techiin_ir/20800"
+    },
+    "title:96fb0e556be8abdd": {
+      "at": "2026-11-18T19:31:15.869Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "✅ مدل‌های جدید GPT-6.2 Astra و GPT-6.2 Sol با کاهش هزینه معرفی شدند",
+      "url": "https://t.me/techiin_ir/20800"
+    },
+    "url:b37ab90dfadf3f9d": {
+      "at": "2026-11-18T19:31:15.870Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "dusk bot",
+      "url": "https://www.producthunt.com/products/dusk-bot"
+    },
+    "title:170e7e263467b035": {
+      "at": "2026-11-18T19:31:15.870Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "dusk bot",
+      "url": "https://www.producthunt.com/products/dusk-bot"
+    },
+    "url:ee5187fbafdcbef8": {
+      "at": "2026-11-18T19:31:16.995Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "✅ نام ایجنت جمینای Spark گوگل به Tasks تغییر کرد و رایگان شد",
+      "url": "https://t.me/techiin_ir/20801"
+    },
+    "title:1b99aac7f2a3d183": {
+      "at": "2026-11-18T19:31:16.995Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "✅ نام ایجنت جمینای Spark گوگل به Tasks تغییر کرد و رایگان شد",
+      "url": "https://t.me/techiin_ir/20801"
+    },
+    "url:3f5708b88b2c22a0": {
+      "at": "2026-11-18T19:31:23.298Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "مدل‌های هوش مصنوعی رو می‌شه با یه ترفند ساده گول زد که غیرنظامی‌ها رو هدف نظامی",
+      "url": "http://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game"
+    },
+    "title:a23fc0721fb67666": {
+      "at": "2026-11-18T19:31:23.298Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "مدل‌های هوش مصنوعی رو می‌شه با یه ترفند ساده گول زد که غیرنظامی‌ها رو هدف نظامی",
+      "url": "http://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game"
+    },
+    "url:39fb3465789a3283": {
+      "at": "2026-11-18T19:33:41.311Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+      "url": "https://arxiv.org/abs/2611.23216v1",
+      "benchmark": true
+    },
+    "title:634538f12d0f08a0": {
+      "at": "2026-11-18T19:33:41.311Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-18T23:00+03:30",
+      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+      "url": "https://arxiv.org/abs/2611.23216v1",
+      "benchmark": true
     }
   },
   "deferred": {
-    "defer:url:31fa1641a8c31572": {
-      "id": "defer:url:31fa1641a8c31572",
-      "at": "2026-11-17T19:31:38.305Z",
-      "firstAt": "2026-11-17T19:31:38.305Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:31fa1641a8c31572",
-        "title:2aef2565ab073607"
-      ],
-      "canonical": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
-      "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
-        "link": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
-        "canonical": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
-        "published": "Tue, 17 Nov 2026 18:50:00 GMT",
-        "summary": "Google released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
-        "images": [
-          "http://cms.therecord.media/uploads/red_digital_f1b63748b1.jpg"
-        ],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:31fa1641a8c31572",
-          "title:2aef2565ab073607"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:92ead912d06bbf7e": {
-      "id": "defer:url:92ead912d06bbf7e",
-      "at": "2026-11-17T19:31:38.305Z",
-      "firstAt": "2026-11-17T19:31:38.305Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:92ead912d06bbf7e",
-        "title:6847a6cf27f7ce7d"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
-      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-        "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-        "canonical": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
-        "published": "Tue, 17 Nov 2026 18:48:23 +0000",
-        "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-        "images": [],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:92ead912d06bbf7e",
-          "title:6847a6cf27f7ce7d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:5a600a844d9b7ef8": {
-      "id": "defer:url:5a600a844d9b7ef8",
-      "at": "2026-11-17T19:31:38.305Z",
-      "firstAt": "2026-11-17T19:31:38.305Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:5a600a844d9b7ef8",
-        "title:727f0bdef2ee4024"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
-      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-        "link": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-        "canonical": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
-        "published": "Tue, 17 Nov 2026 18:04:16 +0000",
-        "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-        "images": [],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:5a600a844d9b7ef8",
-          "title:727f0bdef2ee4024"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:8f6af8c44a4a1bfb": {
       "id": "defer:url:8f6af8c44a4a1bfb",
       "at": "2026-11-18T17:05:05.143Z",
@@ -11816,58 +11761,6 @@
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
-    "defer:url:c183b19404c14629": {
-      "id": "defer:url:c183b19404c14629",
-      "at": "2026-11-17T19:31:38.305Z",
-      "firstAt": "2026-11-17T19:31:38.305Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:c183b19404c14629",
-        "title:dc40074e47f9f74b"
-      ],
-      "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-        "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-        "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
-        "published": "Tue, 17 Nov 2026 14:00:29 +0000",
-        "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-500x500.jpg"
-        ],
-        "ageHours": 5.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:c183b19404c14629",
-          "title:dc40074e47f9f74b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:b43ef08ac3ed4f7a": {
       "id": "defer:url:b43ef08ac3ed4f7a",
       "at": "2026-11-18T14:28:30.503Z",
@@ -11919,577 +11812,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:c19f50a3e9a385a8": {
-      "id": "defer:url:c19f50a3e9a385a8",
-      "at": "2026-11-17T19:32:55.570Z",
-      "firstAt": "2026-11-17T19:32:55.570Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:c19f50a3e9a385a8",
-        "title:dd957d6ab4f5fe9c"
-      ],
-      "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
-      "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
-      "candidate": {
-        "sourceId": "artificial-analysis-articles",
-        "sourceName": "Artificial Analysis Articles",
-        "sourceType": "benchmark",
-        "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
-        "link": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
-        "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
-        "published": "2026-11-17",
-        "summary": "",
-        "images": [],
-        "ageHours": 19.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c19f50a3e9a385a8",
-          "title:dd957d6ab4f5fe9c"
-        ]
-      },
-      "detail": "models"
-    },
-    "defer:url:0d4a3780c61dc50a": {
-      "id": "defer:url:0d4a3780c61dc50a",
-      "at": "2026-11-18T08:01:38.861Z",
-      "firstAt": "2026-11-18T08:01:38.861Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0d4a3780c61dc50a",
-        "title:e243d2b0334ecde3"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
-      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
-        "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-        "canonical": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
-        "published": "Wed, 18 Nov 2026 01:44:21 +0000",
-        "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-        "images": [],
-        "ageHours": 6.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:0d4a3780c61dc50a",
-          "title:e243d2b0334ecde3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a726a4f040d13249": {
-      "id": "defer:url:a726a4f040d13249",
-      "at": "2026-11-18T08:01:38.861Z",
-      "firstAt": "2026-11-18T08:01:38.861Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a726a4f040d13249",
-        "title:5cbdf6e16d1f4fab"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
-      "title": "Nvidia promises that revenue will keep soaring — for now",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia promises that revenue will keep soaring — for now",
-        "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-        "canonical": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
-        "published": "Wed, 18 Nov 2026 00:16:50 +0000",
-        "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-        "images": [],
-        "ageHours": 7.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:a726a4f040d13249",
-          "title:5cbdf6e16d1f4fab"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7648720b0216823a": {
-      "id": "defer:url:7648720b0216823a",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7648720b0216823a",
-        "title:6b5415223600f241"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
-      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
-        "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-        "canonical": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
-        "published": "Tue, 17 Nov 2026 23:37:48 +0000",
-        "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-        "images": [],
-        "ageHours": 8.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:7648720b0216823a",
-          "title:6b5415223600f241"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7c1076c2aa096bde": {
-      "id": "defer:url:7c1076c2aa096bde",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7c1076c2aa096bde",
-        "title:7a31b0aa07932348"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
-      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
-        "link": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
-        "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
-        "published": "Tue, 17 Nov 2026 23:04:35 +0000",
-        "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
-        "images": [],
-        "ageHours": 8.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:7c1076c2aa096bde",
-          "title:7a31b0aa07932348"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e45fd791e1fe03c2": {
-      "id": "defer:url:e45fd791e1fe03c2",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e45fd791e1fe03c2",
-        "title:0902342b955319e0"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
-      "title": "External sandboxes for coding agents",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "External sandboxes for coding agents",
-        "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-        "canonical": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
-        "published": "2026-11-17T22:52:29+00:00",
-        "summary": "<p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab behind Superpowers and <a href=\"https://github.com/orgs/prime-radiant-inc/repositories\">other projects</a>.</p> <p><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">My post</a> on the Prime Radiant blog introduces the <strong>external sandbox</strong> pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.</p> <p>To demonstrate this pattern we've released three sandbox server implementations:</p> <ul> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-v86\">external-sandbox-v86</a> runs a Node.js server which then uses <a href=\"https://github.com/copy/v86\">v86</a> to run Alpine Linux inside WebAssembly.</li> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-container\">external-sandbox-container</a> is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.</li> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-quicksand\">external-sandbox-quicksand</a> is another Python web server, this time using Microsoft's <a href=\"https://github.com/microsoft/quicksand\">Quicksand</a> sandboxing library, which bundles QEMU <em>and</em> Alpine Linux in a Python package!</li> </ul> <p>Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code.</p> <p>The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret with the agent. Here's the UI you can use to reconfigure that proxy while the sandbox is still running:</p> <p><img alt=\"The network policy page with allowed destinations, the policy JSON editor and recent proxy activity\" src=\"https://static.simonwillison.net/static/2026/sandbox-proxy.png\" /></p> <p>I continue to be fascinated by the challenge of safely running untrusted code. This external sandbox pattern provides a neat way to experiment with different approaches. <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a>, <a href=\"https://simonwillison.net/tags/pi\">pi</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-        "images": [],
-        "ageHours": 9.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:e45fd791e1fe03c2",
-          "title:0902342b955319e0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fc38b51a6db9bccf": {
-      "id": "defer:url:fc38b51a6db9bccf",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:fc38b51a6db9bccf",
-        "title:19e27e123c67167d"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
-      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
-        "link": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
-        "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
-        "published": "Tue, 17 Nov 2026 22:42:27 +0000",
-        "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
-        "images": [],
-        "ageHours": 9.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:fc38b51a6db9bccf",
-          "title:19e27e123c67167d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:dc52e334dcb4a852": {
-      "id": "defer:url:dc52e334dcb4a852",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:dc52e334dcb4a852",
-        "title:d99a9de333c5f033"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
-      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-        "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-        "canonical": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
-        "published": "Tue, 17 Nov 2026 22:29:05 +0000",
-        "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-        "images": [],
-        "ageHours": 9.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:dc52e334dcb4a852",
-          "title:d99a9de333c5f033"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:04c4dac80f3d2432": {
-      "id": "defer:url:04c4dac80f3d2432",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:04c4dac80f3d2432",
-        "title:2f9c0273e82b3bd7"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
-      "title": "SEC reportedly investigating Nvidia amid Huang exit",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "SEC reportedly investigating Nvidia amid Huang exit",
-        "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-        "canonical": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
-        "published": "Tue, 17 Nov 2026 21:48:07 +0000",
-        "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
-        "images": [],
-        "ageHours": 10.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:04c4dac80f3d2432",
-          "title:2f9c0273e82b3bd7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:85bd515d71fb7a7a": {
-      "id": "defer:url:85bd515d71fb7a7a",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:85bd515d71fb7a7a",
-        "title:f8f835a70f64a4a7"
-      ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
-      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
-        "link": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
-        "published": "Tue, 17 Nov 2026 20:32:55 +0000",
-        "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-500x500.jpg"
-        ],
-        "ageHours": 11.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:85bd515d71fb7a7a",
-          "title:f8f835a70f64a4a7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:2fb55c3571a040c5": {
-      "id": "defer:url:2fb55c3571a040c5",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:2fb55c3571a040c5",
-        "title:5c59834c60936fce"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
-      "title": "Model ML raises $250M to automate investment banking grunt work",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Model ML raises $250M to automate investment banking grunt work",
-        "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-        "canonical": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
-        "published": "Tue, 17 Nov 2026 19:32:11 +0000",
-        "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-        "images": [],
-        "ageHours": 12.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:2fb55c3571a040c5",
-          "title:5c59834c60936fce"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7f831d0690caa93b": {
-      "id": "defer:url:7f831d0690caa93b",
-      "at": "2026-11-18T08:01:38.862Z",
-      "firstAt": "2026-11-18T08:01:38.862Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:7f831d0690caa93b",
-        "title:c9ae81f469da0f31"
-      ],
-      "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
-      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
-        "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
-        "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
-        "published": "Mon, 16 Nov 2026 19:42:13 +0000",
-        "summary": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. The article Google warns that fully automated cyberattacks have arrived and will get worse fast appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
-        "images": [],
-        "ageHours": 36.3,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:7f831d0690caa93b",
-          "title:c9ae81f469da0f31"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:82b169450b02e27d": {
       "id": "defer:url:82b169450b02e27d",
@@ -13080,55 +12402,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:efdc00666e56954c": {
-      "id": "defer:url:efdc00666e56954c",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:efdc00666e56954c",
-        "title:3b5ebda452d75ef6"
-      ],
-      "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-      "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
-        "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-        "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-        "published": "Mon, 16 Nov 2026 15:00:00 +0000",
-        "summary": "Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-give-claude-code-up-to-date-documentation-with-context7-feature.webp"
-        ],
-        "ageHours": 43.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:efdc00666e56954c",
-          "title:3b5ebda452d75ef6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:742a0adaef2e2544": {
       "id": "defer:url:742a0adaef2e2544",
       "at": "2026-11-18T10:34:40.035Z",
@@ -13471,74 +12744,6 @@
         "webEducation": false,
         "leadKind": ""
       }
-    },
-    "defer:url:3f5708b88b2c22a0": {
-      "id": "defer:url:3f5708b88b2c22a0",
-      "at": "2026-11-18T13:52:28.151Z",
-      "firstAt": "2026-11-18T13:52:28.151Z",
-      "attempts": 1,
-      "reason": "category_daily_cap",
-      "reasons": [
-        "category_daily_cap"
-      ],
-      "keys": [
-        "url:3f5708b88b2c22a0",
-        "title:a23fc0721fb67666"
-      ],
-      "canonical": "http://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
-      "title": "مدل‌های هوش مصنوعی رو می‌شه با یه ترفند ساده گول زد که غیرنظامی‌ها رو هدف نظامی",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "مدل‌های هوش مصنوعی رو می‌شه با یه ترفند ساده گول زد که غیرنظامی‌ها رو هدف نظامی",
-        "link": "http://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-        "canonical": "http://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
-        "messageText": "مدل‌های هوش مصنوعی رو می‌شه با یه ترفند ساده گول زد که غیرنظامی‌ها رو هدف نظامی تشخیص بدن!\n\nشرکت Vals در سانفرانسیسکو مدل‌های OpenAI، Anthropic، Google و DeepSeek رو با تصاویر پهپادی و ماهواره‌ای اوکراین و ایران تست کرده. نتیجه این بوده که مدل‌ها بارها غیرنظامی‌ها و حتی سربازهای تسلیم‌شده رو هدف علامت زدن. وقتی هم مدل قبول نمی‌کرده، کافی بوده بهش بگن «این یه بازیه» تا جیلبریک بشه.\n\nنکته عجیب اینکه مدل‌های Anthropic بدترین عملکرد رو داشتن و هیچ درخواستی توسط سیستم امنیتی بلاک نشده. شرکت Anthropic گفته این رفتار خلاف قوانینشه و کاربرهای متخلف رو بن می‌کنه.\n\ntechcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/\n\n@dunijet_ai\n\n❤1🤯1",
-        "leadPostUrl": "https://t.me/dunijet_ai/2583",
-        "published": "2026-11-18T11:58:27+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/vwNvenL_mnPzb_KqhdrcUnwbC9sK1SYsCSXW5ptJC5rDcEyHz7CSejPFBzl9jQvKuCxTJZJwbds_r31NpkJmCX2zUx-S_Enx0n0Dm_eXEYeFUzhohumQoWN3VciDfz_iHFkrWOdFBrj9b5T1eX65Co84R_hxJGjxE6odIepFZ83khfINVv69Jh_bImI4GkivHRf3Fq_MtYYnWEaHInz1rA7WaznPrLQqekVootqilxzei5f87EQHV10ABb8sXx16NJlAlUQESlAeObi2jcEmMJZx59kWtqnBlwtPUYrG-4m1XWjRZLn2f3c1TpQAOI-PmVS1O6XOowLIp4epOAZVIQ.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "models",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:3f5708b88b2c22a0",
-          "title:a23fc0721fb67666"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2583,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "news",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      },
-      "detail": "security"
     },
     "defer:url:42bb23a62e4b2140": {
       "id": "defer:url:42bb23a62e4b2140",
@@ -14085,9 +13290,9 @@
     },
     "defer:url:aef632472a5e3af7": {
       "id": "defer:url:aef632472a5e3af7",
-      "at": "2026-11-18T17:06:51.438Z",
+      "at": "2026-11-18T19:31:37.532Z",
       "firstAt": "2026-11-18T17:06:51.438Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -14127,9 +13332,838 @@
         ],
         "educationHint": false,
         "webEducation": false,
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:aef632472a5e3af7",
+          "attempts": 1
+        }
+      },
+      "detail": "tools"
+    },
+    "defer:url:b681a976efae2472": {
+      "id": "defer:url:b681a976efae2472",
+      "at": "2026-11-18T19:31:17.010Z",
+      "firstAt": "2026-11-18T19:31:17.010Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:b681a976efae2472",
+        "title:236e669d59c0892a"
+      ],
+      "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+      "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
+        "link": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+        "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+        "published": "Wed, 18 Nov 2026 19:26:25 +0000",
+        "summary": "With Genie 4, Google DeepMind is launching its most realistic world model to date for Google AI Ultra subscribers. It generates interactive 3D worlds that can be modified in real time via text input and, for the first time, includes native sound. A community gallery allows users to share and remix the worlds they've created. The article Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/Genie-4-Google-title.png"
+        ],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:b681a976efae2472",
+          "title:236e669d59c0892a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c60f36dda0d9577c": {
+      "id": "defer:url:c60f36dda0d9577c",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:c60f36dda0d9577c",
+        "title:dabbd1acf788dfc5"
+      ],
+      "canonical": "https://therecord.media/ai-cyber-white-house",
+      "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+        "link": "https://therecord.media/ai-cyber-white-house",
+        "canonical": "https://therecord.media/ai-cyber-white-house",
+        "published": "Wed, 18 Nov 2026 19:00:00 GMT",
+        "summary": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/ai-cyber-white-house",
+        "images": [
+          "http://cms.therecord.media/uploads/Maria_Cantwell_b590a127c1.jpg"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:c60f36dda0d9577c",
+          "title:dabbd1acf788dfc5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2bf6f0805fe38a1e": {
+      "id": "defer:url:2bf6f0805fe38a1e",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:2bf6f0805fe38a1e",
+        "title:b06d273d77db7fe0"
+      ],
+      "canonical": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives",
+      "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
+        "link": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+        "canonical": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives",
+        "published": "Wed, 18 Nov 2026 18:47:36 +0000",
+        "summary": "Microsoft's AI division MAI unveiled seven new models for code, security, images, language, and routing at Ignite. MAI Code 2 reaches 98 percent of GPT-6.1 Sol's performance at 40 percent of the cost, according to Microsoft. The models are built for running AI agents around the clock in enterprises. The article Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/06/microsoft_logo_red_pink.png"
+        ],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:2bf6f0805fe38a1e",
+          "title:b06d273d77db7fe0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6e60ec8c10b2996b": {
+      "id": "defer:url:6e60ec8c10b2996b",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:6e60ec8c10b2996b",
+        "title:b684a1e58d5bb0cd"
+      ],
+      "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+      "title": "Will Wright's next simulation will use AI to mine content from your memories",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Will Wright's next simulation will use AI to mine content from your memories",
+        "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+        "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+        "published": "Wed, 18 Nov 2026 18:10:33 +0000",
+        "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-500x500.png"
+        ],
+        "ageHours": 1.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:6e60ec8c10b2996b",
+          "title:b684a1e58d5bb0cd"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:36bbeb249216ceb6": {
+      "id": "defer:url:36bbeb249216ceb6",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:36bbeb249216ceb6",
+        "title:b258dda0a1b7a261"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "title": "Google’s AI feature in Search gets its own incognito mode",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Google’s AI feature in Search gets its own incognito mode",
+        "link": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+        "canonical": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+        "published": "Wed, 18 Nov 2026 18:04:05 +0000",
+        "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+        "images": [],
+        "ageHours": 1.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:36bbeb249216ceb6",
+          "title:b258dda0a1b7a261"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a261d2eee241a886": {
+      "id": "defer:url:a261d2eee241a886",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:a261d2eee241a886",
+        "title:27beecfc5b7a45c6"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+      "title": "Genie 4 is now available",
+      "candidate": {
+        "sourceId": "google-models-research",
+        "sourceName": "Google Models & Research",
+        "sourceType": "official_blog",
+        "title": "Genie 4 is now available",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+        "published": "Wed, 18 Nov 2026 18:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_.max-600x600.format-webp.webp\">We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": true,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a261d2eee241a886",
+          "title:27beecfc5b7a45c6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:68a1101249d87f96": {
+      "id": "defer:url:68a1101249d87f96",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:68a1101249d87f96",
+        "title:971f66cfe81fd5e5"
+      ],
+      "canonical": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering",
+      "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
+        "link": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+        "canonical": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering",
+        "published": "Wed, 18 Nov 2026 18:00:33 +0000",
+        "summary": "Working with AMD, OpenAI achieved up to 14 percent PPA improvement on AMD's flagship GPU IP in less than five months. According to OpenAI, that's roughly a year's worth of progress, and AMD has already folded the changes into a design sent to production. Anthropic is also applying AI to chip work to optimize cost and performance per dollar. The article OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/07/openai_red_Logo.png"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:68a1101249d87f96",
+          "title:971f66cfe81fd5e5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:42ab85f3d5b2fc42": {
+      "id": "defer:url:42ab85f3d5b2fc42",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:42ab85f3d5b2fc42",
+        "title:c67ae2b2b69210c1"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+        "link": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+        "canonical": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+        "published": "Wed, 18 Nov 2026 17:32:10 +0000",
+        "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+        "images": [],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:42ab85f3d5b2fc42",
+          "title:c67ae2b2b69210c1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1f8aa38b5a09e4ba": {
+      "id": "defer:url:1f8aa38b5a09e4ba",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1f8aa38b5a09e4ba",
+        "title:a6cee77afb3ee44f"
+      ],
+      "canonical": "https://www.producthunt.com/products/incredible",
+      "title": "Incredible Agents",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Incredible Agents",
+        "link": "https://www.producthunt.com/products/incredible",
+        "canonical": "https://www.producthunt.com/products/incredible",
+        "published": "2026-11-17T14:02:24-08:00",
+        "summary": "<p> Fast Voice AI that sees your screen and runs your agents </p> <p> <a href=\"https://www.producthunt.com/products/incredible?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1320857?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/incredible",
+        "images": [],
+        "ageHours": 21.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:1f8aa38b5a09e4ba",
+          "title:a6cee77afb3ee44f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d1b2e82c44f78c76": {
+      "id": "defer:url:d1b2e82c44f78c76",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:d1b2e82c44f78c76",
+        "title:aa4511531a227e55"
+      ],
+      "canonical": "https://www.producthunt.com/products/openai",
+      "title": "GPT-6.2 Astra and Sol",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "GPT-6.2 Astra and Sol",
+        "link": "https://www.producthunt.com/products/openai",
+        "canonical": "https://www.producthunt.com/products/openai",
+        "published": "2026-11-17T10:06:04-08:00",
+        "summary": "<p> Two new OpenAI models: frontier Astra and efficient Sol </p> <p> <a href=\"https://www.producthunt.com/products/openai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1320655?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/openai",
+        "images": [],
+        "ageHours": 25.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:d1b2e82c44f78c76",
+          "title:aa4511531a227e55"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bf5c664361e04bcc": {
+      "id": "defer:url:bf5c664361e04bcc",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:bf5c664361e04bcc",
+        "title:264a9045fa3d3a5a"
+      ],
+      "canonical": "https://www.producthunt.com/products/ai-canvas-2",
+      "title": "AI Canvas",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "AI Canvas",
+        "link": "https://www.producthunt.com/products/ai-canvas-2",
+        "canonical": "https://www.producthunt.com/products/ai-canvas-2",
+        "published": "2026-11-17T07:46:37-08:00",
+        "summary": "<p> A design system for AI agents to design badass interfaces </p> <p> <a href=\"https://www.producthunt.com/products/ai-canvas-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1320481?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/ai-canvas-2",
+        "images": [],
+        "ageHours": 27.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:bf5c664361e04bcc",
+          "title:264a9045fa3d3a5a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:011b27afc6a841bf": {
+      "id": "defer:url:011b27afc6a841bf",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:011b27afc6a841bf",
+        "title:5bd2a8ba5bd3b8ae"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+        "link": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+        "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+        "published": "Tue, 17 Nov 2026 14:00:10 +0000",
+        "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-842x450.jpeg"
+        ],
+        "ageHours": 29.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:011b27afc6a841bf",
+          "title:5bd2a8ba5bd3b8ae"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:21e86ba4278f1f54": {
+      "id": "defer:url:21e86ba4278f1f54",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:21e86ba4278f1f54",
+        "title:1b4f718f8b148dd5"
+      ],
+      "canonical": "https://www.producthunt.com/products/kadeep-ai",
+      "title": "KaDeep AI",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "KaDeep AI",
+        "link": "https://www.producthunt.com/products/kadeep-ai",
+        "canonical": "https://www.producthunt.com/products/kadeep-ai",
+        "published": "2026-11-17T00:00:01-08:00",
+        "summary": "<p> Agentic QA, localization & accessibility: know when to ship </p> <p> <a href=\"https://www.producthunt.com/products/kadeep-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319952?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/kadeep-ai",
+        "images": [],
+        "ageHours": 35.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:21e86ba4278f1f54",
+          "title:1b4f718f8b148dd5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:25a4ca5f35209bfb": {
+      "id": "defer:url:25a4ca5f35209bfb",
+      "at": "2026-11-18T19:31:17.011Z",
+      "firstAt": "2026-11-18T19:31:17.011Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:25a4ca5f35209bfb",
+        "title:0b1bf70da2446052"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
+      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+        "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
+        "published": "Wed, 18 Nov 2026 19:19:33 +0000",
+        "summary": "Erratic Muse outputs sharing random bank, Bitcoin balances aren’t real, Meta says.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-500x500-1795023220.jpg"
+        ],
+        "ageHours": 0.2,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:25a4ca5f35209bfb",
+          "title:0b1bf70da2446052"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dd659f011024f04f": {
+      "id": "defer:url:dd659f011024f04f",
+      "at": "2026-11-18T19:31:17.012Z",
+      "firstAt": "2026-11-18T19:31:17.012Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:dd659f011024f04f",
+        "title:ad4cc6694f3e2d42"
+      ],
+      "canonical": "https://openai.com/index/strengthening-online-child-safety",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+        "link": "https://openai.com/index/strengthening-online-child-safety",
+        "canonical": "https://openai.com/index/strengthening-online-child-safety",
+        "published": "Mon, 16 Nov 2026 17:00:00 GMT",
+        "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/strengthening-online-child-safety",
+        "images": [],
+        "ageHours": 50.5,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:dd659f011024f04f",
+          "title:ad4cc6694f3e2d42"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ca9ca0837de1673f": {
+      "id": "defer:url:ca9ca0837de1673f",
+      "at": "2026-11-18T19:33:16.890Z",
+      "firstAt": "2026-11-18T19:33:16.890Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:ca9ca0837de1673f",
+        "title:27beecfc5b7a45c6"
+      ],
+      "canonical": "https://deepmind.google/blog/genie-4-is-now-available",
+      "title": "Genie 4 is now available",
+      "candidate": {
+        "sourceId": "deepmind-blog",
+        "sourceName": "Google DeepMind Blog",
+        "sourceType": "official_blog",
+        "title": "Genie 4 is now available",
+        "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+        "canonical": "https://deepmind.google/blog/genie-4-is-now-available",
+        "published": "Wed, 18 Nov 2026 18:13:42 +0000",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://deepmind.google/blog/genie-4-is-now-available/",
+        "images": [],
+        "ageHours": 1.3,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:ca9ca0837de1673f",
+          "title:27beecfc5b7a45c6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
         "leadKind": ""
       },
       "detail": "tools"
+    },
+    "defer:url:67952d9a918d2536": {
+      "id": "defer:url:67952d9a918d2536",
+      "at": "2026-11-18T19:33:16.928Z",
+      "firstAt": "2026-11-18T19:33:16.928Z",
+      "attempts": 1,
+      "reason": "fetch_failed",
+      "reasons": [
+        "fetch_failed"
+      ],
+      "keys": [
+        "url:67952d9a918d2536",
+        "title:1cf6500fb5e47411"
+      ],
+      "canonical": "https://openai.com/index/inside-the-codex-sandbox",
+      "title": "Inside the Codex sandbox",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Inside the Codex sandbox",
+        "link": "https://openai.com/index/inside-the-codex-sandbox",
+        "canonical": "https://openai.com/index/inside-the-codex-sandbox",
+        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+        "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/inside-the-codex-sandbox",
+        "images": [],
+        "ageHours": 11.5,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:67952d9a918d2536",
+          "title:1cf6500fb5e47411"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     }
   },
   "slots": {
@@ -16496,6 +16530,37 @@
           "at": "2026-11-18T17:06:30.502Z"
         }
       ]
+    },
+    "2026-11-18T23:00+03:30": {
+      "at": "2026-11-18T19:33:41.311Z",
+      "status": "sent",
+      "category": "models",
+      "title": "مدل‌های با امتیاز بالاتر در بنچمارک Gamefeel کار بیشتری انجام ندادند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/23-00",
+      "messageId": 107,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0033791855999999996,
+      "tokens": 56652,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "مدل‌های با امتیاز بالاتر در بنچمارک Gamefeel کار بیشتری انجام ندادند",
+          "category": "models",
+          "status": "sent",
+          "messageId": 107,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003511312,
+          "tokens": 10271,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-18T19:33:41.311Z"
+        }
+      ]
     }
   },
   "published": [
@@ -18088,93 +18153,111 @@
       "sourceTitle": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
       "sourceText": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.\nOpening the keynote at its Ignite event, Microsoft CEO Satya Nadella outlined the company’s vision for its new “frontier ecosystem,” announcing Tuesday the general availability of Word, Excel, and PowerPoint inside Copilot, which he described as “the new OS for work.”\nThe announcement is a striking inversion of how we’ve traditionally used software. Rather than an app like Word being the attraction and Clippy the assistant to help you use it, Microsoft envisions the new Copilot integrations will see agents driving things, with the software packages riding shotgun. Applications will become plugin components of the agent’s work, backed by an organizational knowledge layer that draws context from emails, meetings, calendars, chats, and files. Users will now be able to create documents, spreadsheets, and presentations directly in Copilot, with the resulting files remaining editable in their respective Office applications.\nThe rollout marks a major step toward the Copilot redesign the company first announced in September. Parts of that vision are now becoming “generally available,” as Nadella puts it, with autonomous agents and new governance tools arriving alongside them.\nCopilot Autopilot (not to be confused with Windows Autopilot) is a “persistent, proactive agent for personal productivity” according to Microsoft. In a nutshell, Autopilot is a cloud-based autonomous AI agent that users can delegate responsibilities to, not just single tasks. Autopilot can be authorized to work across services like",
       "at": "2026-11-18T17:06:30.502Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-18T23:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل‌های با امتیاز بالاتر در بنچمارک Gamefeel کار بیشتری انجام ندادند",
+      "why": "این یافته نشان می‌دهد که ارزیابی مدل‌ها فقط بر اساس امتیاز بنچمارک کافی نیست و باید معیارهای دیگری مثل کارایی و سرعت را هم در نظر گرفت. این موضوع برای توسعه‌دهندگانی که می‌خواهند مدل مناسب را انتخاب کنند، اهمیت زیادی دارد.",
+      "dedupe_key": "gamefeel-benchmark-results",
+      "post_key": "2026-11-18/23-00/1",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "research_index",
+      "benchmark": true,
+      "url": "https://arxiv.org/abs/2611.23216v1",
+      "sourceTitle": "Higher-Scoring Coding Models Did Not Get More Work Done",
+      "sourceText": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
+      "at": "2026-11-18T19:33:41.311Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8445,
-      "last_at": "2026-11-18T13:29:01+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "last_id": 8448,
+      "last_at": "2026-11-18T18:12:54+00:00",
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "ai_farshad": {
-      "last_id": 6465,
-      "last_at": "2026-11-18T16:57:52+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "last_id": 6466,
+      "last_at": "2026-11-18T19:30:08+00:00",
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "Mohammad_zammani": {
       "last_id": 7241,
       "last_at": "2026-11-18T13:59:17+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "techiin_ir": {
-      "last_id": 20799,
-      "last_at": "2026-11-18T14:30:01+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "last_id": 20801,
+      "last_at": "2026-11-18T18:46:12+00:00",
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "asrnovin_ir": {
-      "last_id": 11486,
-      "last_at": "2026-11-18T12:29:59+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "last_id": 11488,
+      "last_at": "2026-11-18T19:20:45+00:00",
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "shayanode": {
-      "last_id": 251,
-      "last_at": "2026-11-17T13:53:50+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "last_id": 252,
+      "last_at": "2026-11-18T16:38:57+00:00",
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "codecloude": {
       "last_id": 2600,
       "last_at": "2026-11-18T16:52:40+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "dunijet_ai": {
       "last_id": 2583,
       "last_at": "2026-11-18T11:58:27+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "MatinSenPaii": {
-      "last_id": 5909,
-      "last_at": "2026-11-18T12:54:08+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "last_id": 5911,
+      "last_at": "2026-11-18T17:17:27+00:00",
+      "checked_at": "2026-11-18T19:31:01.614Z"
     },
     "thenimaonAI": {
       "last_id": 548,
       "last_at": "2026-11-18T11:13:46+00:00",
-      "checked_at": "2026-11-18T17:01:13.405Z"
+      "checked_at": "2026-11-18T19:31:01.614Z"
     }
   },
   "offerReviews": [
@@ -21788,6 +21871,18 @@
       "reason": "research_paper",
       "slot": "2026-11-18T20:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-techiin|https://t.me/techiin_ir/20801",
+      "date": "2026-11-18",
+      "at": "2026-11-18T19:31:01.614Z",
+      "source": "tg-techiin",
+      "title": "✅ نام ایجنت جمینای Spark گوگل به Tasks تغییر کرد و رایگان شد",
+      "url": "https://t.me/techiin_ir/20801",
+      "reason": "denied_link",
+      "slot": "2026-11-18T23:00+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],

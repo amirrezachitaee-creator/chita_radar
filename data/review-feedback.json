@@ -4658,6 +4658,55 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "7aeda87d69": {
+      "id": "7aeda87d69",
+      "messageId": 60,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-18T23:00+03:30",
+      "reason": "denied_link",
+      "kind": "offer",
+      "source": "tg-techiin",
+      "sourceName": "تِک‌این | آموزش و فناوری",
+      "sourceType": "telegram_channel",
+      "title": "✅ نام ایجنت جمینای Spark گوگل به Tasks تغییر کرد و رایگان شد",
+      "url": "https://t.me/techiin_ir/20801",
+      "leadPostUrl": "https://t.me/techiin_ir/20801",
+      "messageText": "✅ نام ایجنت جمینای Spark گوگل به Tasks تغییر کرد و رایگان شد\n\nگوگل ایجنت هوش مصنوعی Spark رو با نام جدید Tasks و به‌صورت رایگان در دسترس کاربران آمریکا، کانادا، ژاپن، کره جنوبی، استرالیا و هند (به‌زودی برای سایر کشورها) قرار داده.\n\n🔹این ابزار که با مدل جمینای 4 هیدروژن کار می‌کنه و وظایفی مثل برنامه‌ریزی غذایی، مدیریت تقویم و شناسایی هزینه‌های تکراری در ایمیل‌ها رو می‌تونه انجام بده. کاربران آمریکایی همچنین می‌تونن از Tasks برای تماس با کسب‌وکارها، مقایسه قیمت و موجودی محصولات و خرید با گوگل‌پی هم استفاده کنن.\n\n📍به گفته گوگل، جمینای وظایف رو در ماشین مجازی اختصاصی و ایزوله انجام می‌ده و برای اقدامات حساسی ازجمله خرید، پیش از نهایی‌کردن عملیات از کاربر اجازه می‌گیره.",
+      "relatedLinks": [
+        "http://helixworld.ai/",
+        "https://www.instagram.com/techin_ir",
+        "https://youtube.com/@techin_ir?si=NiD_33Qz2d2IRTlP",
+        "https://x.com/techin_ir"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/S_4FPMP5kX5bDsa1O1FNld2zF6aVtPyHcgiF_xIX-GQT1jaSTo_ODNAXqJFCs3I7QccvXot1FnAfvWiusPfGvZodBkjnceTlHZ37Pc04uLWeaq6o-opUiosvW2GYNefnMyBMMCBUZ1A2DfHlBzKq1RJvlKXaPoaB0_7pMYZmHpXN-w035HPqWee0iGls2Uj8JYw-VwXatxXm7HzRg7UTr7XjVQ0fZejB8X8AV5b_Aah0lcRatGrBoxbCiKy2DgHT7DjTR04Pxqmh30pihcHhHx_PM9IazVDMLzNk5nPDO5LWrhTu38fMIMXeERWzh4xRKrbKyi3WiFYVtFnQmBc5nA.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-18T18:46:12+00:00",
+      "keys": [
+        "url:ee5187fbafdcbef8",
+        "title:1b99aac7f2a3d183"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": true,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-18T19:31:01.614Z",
+      "updatedAt": "2026-11-18T19:31:01.614Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [

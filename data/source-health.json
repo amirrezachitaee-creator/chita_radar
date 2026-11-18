@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T17:01:13.446Z",
-  "lastStatusDate": "2026-11-17",
-  "lastStatusAt": "2026-11-17T19:32:56.130Z",
+  "updatedAt": "2026-11-18T19:33:42.039Z",
+  "lastStatusDate": "2026-11-18",
+  "lastStatusAt": "2026-11-18T19:33:42.038Z",
   "sources": {
     "openai-news": {
       "name": "",
@@ -877,18 +877,18 @@
       "protected": false,
       "status": "active",
       "reason": "ok",
-      "score": 0.9091,
+      "score": 0.9167,
       "negativeRate": 0,
       "counts": {
         "rejects": 0,
         "rewrites": 0,
         "manualPublishes": 0,
-        "autoPublishes": 9,
-        "publishes": 9,
-        "decisions": 9
+        "autoPublishes": 10,
+        "publishes": 10,
+        "decisions": 10
       },
       "rejectReasons": {},
-      "lastEventAt": "2026-11-17T18:09:24.489Z",
+      "lastEventAt": "2026-11-18T17:06:30.502Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",
