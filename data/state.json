@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T14:28:30.610Z",
+  "updatedAt": "2026-11-18T17:06:51.438Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11525,303 +11525,99 @@
       "slot": "2026-11-18T17:00+03:30",
       "title": "Put Gemini to work for you",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features"
+    },
+    "url:0191a8cf5007a7e3": {
+      "at": "2026-11-18T17:01:28.116Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices"
+    },
+    "title:303382aa53b86614": {
+      "at": "2026-11-18T17:01:28.116Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices"
+    },
+    "url:df8d84151d25ff7b": {
+      "at": "2026-11-18T17:01:28.116Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+      "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed"
+    },
+    "title:6b82fc24d7c01668": {
+      "at": "2026-11-18T17:01:28.116Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+      "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed"
+    },
+    "url:7ed2e30ee3cc1cfa": {
+      "at": "2026-11-18T17:03:35.419Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "در جدید ترین اپدیت Higgsfield , این پلتفرم از ابزار جدیدش به اسم Miracle رونمایی کرده",
+      "url": "https://t.me/codecloude/2600"
+    },
+    "title:3f12b5022a595075": {
+      "at": "2026-11-18T17:03:35.419Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "در جدید ترین اپدیت Higgsfield , این پلتفرم از ابزار جدیدش به اسم Miracle رونمایی کرده",
+      "url": "https://t.me/codecloude/2600"
+    },
+    "url:756c08a8fd09ab88": {
+      "at": "2026-11-18T17:05:05.090Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "FastFrames: Video Generation at Interactive Latency",
+      "url": "https://huggingface.co/papers/2611.23226"
+    },
+    "title:b6e3d4385dce007a": {
+      "at": "2026-11-18T17:05:05.090Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "FastFrames: Video Generation at Interactive Latency",
+      "url": "https://huggingface.co/papers/2611.23226"
+    },
+    "url:0db3b4bdf59c14e4": {
+      "at": "2026-11-18T17:06:30.502Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "benchmark": false
+    },
+    "title:08f385c7d5af2f34": {
+      "at": "2026-11-18T17:06:30.502Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-18T20:30+03:30",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:21b4758ab52123ac": {
-      "id": "defer:url:21b4758ab52123ac",
-      "at": "2026-11-17T17:56:41.734Z",
-      "firstAt": "2026-11-16T17:01:54.731Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_consecutive",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:21b4758ab52123ac",
-        "title:9ef84f7bc10afa4e"
-      ],
-      "canonical": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Advancing computer-use agents for healthcare teams",
-        "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-        "canonical": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-        "published": "Mon, 16 Nov 2026 06:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-        "images": [],
-        "ageHours": 11,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:21b4758ab52123ac",
-          "title:9ef84f7bc10afa4e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:21b4758ab52123ac",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:edb18e52db34b006": {
-      "id": "defer:url:edb18e52db34b006",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:edb18e52db34b006",
-        "title:eabd6d9e175d9984"
-      ],
-      "canonical": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff",
-      "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
-        "link": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
-        "canonical": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff",
-        "published": "Tue, 17 Nov 2026 16:55:47 +0000",
-        "summary": "OpenAI wants GPT-6 Astra and GPT-6 Luna to automate administrative tasks in US healthcare through computer-use agents that operate existing clinic software and insurance portals the way a human would. Luna handles tasks like prior authorizations for about 8.5 cents each. Companies including CVS Health and Cigna Healthcare are already deploying the technology. The article AI agents are starting to fill out medical forms and file insurance requests in place of human staff appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
-        "images": [
-          "http://the-decoder.com/wp-content/uploads/2026/11/OpenAI-Healthcare-Teams.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/11/openai_healthcare_agents.png"
-        ],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:edb18e52db34b006",
-          "title:eabd6d9e175d9984"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6f0fb0223e38d4b7": {
-      "id": "defer:url:6f0fb0223e38d4b7",
-      "at": "2026-11-17T17:02:13.153Z",
-      "firstAt": "2026-11-17T17:02:13.153Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:6f0fb0223e38d4b7",
-        "title:2dbf61156972bf87"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/17/datasette-lite",
-      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-        "link": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-        "canonical": "https://simonwillison.net/2026/Nov/17/datasette-lite",
-        "published": "2026-11-17T16:48:33+00:00",
-        "summary": "<p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p> <p>You can now do all of the following, using a carefully crafted URL to <strong>lite.datasette.io</strong>:</p> <ul> <li>Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script</li> <li>Select a released version of Datasette to load from PyPI</li> <li>Load a specific commit, tag, or branch name from the Datasette GitHub repository</li> <li>Pick from over 100 versions of SQLite to use with Datasette</li> <li>Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools</li> </ul> <p>The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo.</p> <p>As an example, consider the following URL:</p> <p><a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent\">https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent</a></p> <p>Follow that link and, after a short loading screen, you'll find yourself on a page that looks like this:</p> <p><img src=\"https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp\" alt=\"Screenshot of a web map interface. Toolbar: &quot;View&quot; set to &quot;Clusters&quot;, &quot;Colour by&quot; set to &quot;continent&quot;, plus &quot;Filter to this area&quot; and &quot;Download GeoJSON&quot; buttons. A world map shows countries outlined and shaded by continent, with coloured dots and numbered cluster circles. A popup for a point in South America reads: capital Caracas, country Venezuela, continent South America, capital_population 2985000, latitude 10.502944, longitude -66.918983. Legend: Africa (52), Asia (45), Europe (39), North America (16), South America (13), Oceania (6). Text: &quot;All 171 rows are on the map&quot;. Below, a table with columns country, continent, capital_population, latitude, longitude, boundary. First row: Afghanistan, Asia, 3277000, 34.518636, 69.181314, with a small map in the boundary column showing Afghanistan outlined and shaded in blue.\" style=\"max-width: 100%;\" /></p> <p>That's Datasette running the new <a href=\"https://github.com/datasette/datasette-maplibre\">datasette-maplibre</a> plugin, loading up a database of GeoJSON shapes of countries and displaying both a combined map and individual boundary maps in a table.</p> <p>Let's break down that URL to see what it's doing:</p> <pre><code>https://lite.datasette.io/ ?install=datasette-maplibre &amp;url=https://.../demo.db &amp;metadata=https://.../metadata.yml #/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent </code></pre> <p>The <code>?install=datasette-maplibre</code> installs that additional plugin from PyPI. You can pass <code>&amp;install=...</code> as many times as you like to load more plugins.</p> <p><code>&amp;url=https://.../demo.db</code> loads that SQLite database from the provided URL. These URLs need to have <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS\">open CORS headers</a> - I host files like this in <a href=\"https://gist.github.com/\">Gists</a>, because they provide an easy way to get open CORS headers on a web-hosted file.</p> <p><code>&amp;metadata=https://.../metadata.yml</code> loads <a href=\"https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml\">this metadata.yml file</a>. The metadata file adds HTML descriptions to various tables, and to the Datasette homepage. Visit <a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/\">that homepage here</a> for a guided tour of the other features of that plugin, all defined in the metadata file.</p> <p><code>#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent</code> is a fragment hash that turns into a location within Datasette - here it's loading the <code>/demo/capitals_and_countries</code> SQL view, then appending <em>another</em> fragment hash to it (<code>%23</code> is a URL-encoded <code>#</code>) which tells the map plugin to zoom to a certain location and to set the color of the shapes on the map based on the <code>continent</code> column in the data.</p> <p>That URL is doing a lot of work! I wrote more about this trick for building URL-addressable software in <a href=\"https://simonwillison.net/2025/Feb/13/url-addressable-python/\">URL-addressable Pyodide Python environments</a> last year.</p> <p>The full set of supported URL arguments is <a href=\"https://github.com/simonw/datasette-lite#load-a-different-datasette-version\">described in the Datasette Lite README</a>.</p> <p>I've already started using Datasette Lite as part of the Datasette development process. Here's <a href=\"https://github.com/simonw/datasette/issues/3056#issuecomment-6902484982\">a recent issue</a> describing a pagination bug - I posted a comment there demonstrating the old, broken behavior and the new fix using links to Datasette Lite:</p> <blockquote> <p>Demo of the bug: <a href=\"https://lite.datasette.io/?ref=1.0a42&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score\">https://lite.datasette.io/?ref=1.0a42&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score</a> - click next and the second page is empty.</p> <p>Here's that same page with the bug fixed (running on 1.0a43): <a href=\"https://lite.datasette.io/?ref=1.0a43&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score\">https://lite.datasette.io/?ref=1.0a43&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score</a></p> </blockquote> <h4 id=\"how-this-works-using-service-workers\">How this works, using service workers</h4> <p>Datasette Lite is not a new project. I launched the first version <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">back in 2022</a>, originally as a bit of a joke (running server-side apps in the browser is pretty funny) but one that quickly started proving its value.</p> <p>The problem with that initial version is that it was a <em>hack</em>. It worked by running Datasette in a Pyodide web worker, simulating requests through that stack, then injecting the resulting HTML back into the top level page using <code>innerHTML</code>.</p> <p>This worked for basic Datasette, but meant that any feature that used JavaScript failed to work, because script tags in <code>innerHTML</code> don't execute, and the web worker tricks it used failed to load additional JavaScript or CSS files.</p> <p>The new version takes a completely different approach based on <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API\">Service Workers</a>. These allow JavaScript to intercept HTTP requests for new pages and resources and serve them from client-side code instead.</p> <p>Datasette Lite registers a service worker for the entire <code>lite.datasette.io</code> domain. The parent page then creates an iframe that sends requests for Datasette pages to URLs that look like this:</p> <pre><code>/app/aa94e6851595/ # the homepage (HTML) /app/aa94e6851595/data/places # a table page (HTML) /app/aa94e6851595/-/static/navigation-search.js # (JavaScript) /app/aa94e6851595/-/static/app.css # (CSS) </code></pre> <p>Those are regular Datasette URLs, but with a <code>/app/aa94e6851595/</code> prefix. What's that about?</p> <p>The <code>/app/&lt;session&gt;/</code> prefix is necessary because of multiple tabs.</p> <p>Consider the URL above, which loads the demo instance with the <code>datasette-maplibre</code> plugin. That URL defines a full, custom Datasette instance. You might have that one running in a tab, then one of my other demo links running in another.</p> <p>The service worker for <code>lite.datasette.io</code> is shared between all of those tabs. If it routed to a single instance of Datasette then every tab would share that underlying instance, no matter what plugins or other settings their URL attempted to configure.</p> <p>Instead, the parent page generates a random session ID and uses it as a prefix for all of the subsequent hidden asset and page loads. The service worker can then use that session ID to route those requests back through the parent page to a web worker running a dedicated Datasette instance for that particular session.</p> <p>(We still need a web worker because Pyodide in a service worker would not be able to maintain state beyond around 30 seconds, depending on the browser. There are a lot of moving parts here!)</p> <p>I had Claude Fable 5.2 <a href=\"https://gisthost.github.io/?4192a5a24136cad4c8490ccb15e87d83\">generate several SVG diagrams</a> to help explain this. Here's my favorite of those, now embedded in the Datasette Lite README:</p> <p><img src=\"https://static.simonwillison.net/static/2026/datasette-lite-diag.webp\" alt=\"Architecture diagram titled &quot;What happens when you click a link in Datasette Lite&quot;, with a legend showing a solid arrow for &quot;request&quot; and a dashed arrow for &quot;response&quot;. A blue box labeled &quot;index.html: the page you opened - Each tab picks a random session and starts one Web Worker.&quot; contains two white boxes: &quot;iframe Datasette pages at /app/session/…&quot; and &quot;shell.js the page's own script: relays&quot;. Below it is a yellow box labeled &quot;sw.js: the service worker - Intercepts requests for /app/session/….&quot; To the right is a green box marked 4 and labeled &quot;webworker.js: a Web Worker - Pyodide: Python in WebAssembly&quot; containing three stacked white boxes: &quot;ASGI bridge + cookie jar&quot;, &quot;Datasette ASGI app&quot; and &quot;SQLite databases&quot;. Numbered arrows connect them: solid arrow 1 from the iframe down to sw.js, solid arrow 2 from sw.js up to shell.js, solid arrow 3 from shell.js across to the Web Worker, dashed arrow 5 from the Web Worker back to shell.js, dashed arrow 6 from shell.js down to sw.js, and dashed arrow 7 from sw.js up to the iframe. A numbered key at the bottom reads: 1 The page requests /app/session/fixtures. 2 sw.js intercepts it and posts it to the owning tab. 3 shell.js forwards it to the Web Worker. 4 Python adds cookies and calls Datasette, which queries SQLite. 5 The status, headers and body return to the page, 6 then to sw.js over a MessagePort, 7 which hands the browser a Response. The iframe renders it.\" style=\"max-width: 100%;\" /></p> <p>This system started life <a href=\"https://simonwillison.net/2026/May/30/pyodide-asgi-browser/\">back in May</a> as an <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">AI research spike</a> generated using Claude Opus 4.8. It wasn't until November (and Claude Fable 5.2) that I felt familiar enough with how it all works to confidently ship it to production!</p> <h4 id=\"bonus-feature-pick-your-version-of-sqlite\">Bonus feature: pick your version of SQLite</h4> <p>I added this feature <a href=\"https://github.com/simonw/datasette-lite/commit/de661dbee42a68304811a0035b78e6b683203cd1\">last night</a> as an off-shoot of investigating <a href=\"https://simonwillison.net/2026/Nov/16/llm/\">a potential bug in SQLite</a>.</p> <p>Datasette is meant to work against any released version of SQLite since 3.25 (released in September 2018). There have been 87 further releases since then.</p> <p>Being able to fire up Datasette against a specific version of SQLite is really useful for demonstrating new SQLite features and debugging weird issues.</p> <p>In the past I've <a href=\"https://til.simonwillison.net/sqlite/sqlite-version-macos-python\">used various tricks</a> to get different SQLite versions running with Python on my Mac, but it's not a trivial process.</p> <p>WebAssembly is perfect for this. I can load up a custom SQLite build entirely in my browser, test it there, then discard it when I close my tab.</p> <p><a href=\"https://github.com/datasette/pysqlite3-wasm-wheels\">datasette/pysqlite3-wasm-wheels</a> is my new repository which contains WebAssembly compiled Python wheels for <a href=\"https://github.com/coleifer/pysqlite3\">pysqlite3</a> for 163 different SQLite versions. Each version gets a file with a name like this:</p> <p><code>pysqlite3-0.6.2-3.54.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl</code></p> <p>That's for SQLite 3.54.1, the most recent version.</p> <p>Datasette Lite now takes a special <code>?sqlite=</code> URL parameter, which will accept a version number like <code>3.54.1</code>, resolve the path to the corresponding wheel file, then fetch that wheel and install it into the Pyodide environment and configure Datasette to use it.</p> <p>Once I'd built the wheels, I decided to have Claude Fable 5.2 build me [this bonus tool](<a href=\"https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&amp;sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29)\">https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&amp;sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29)</a> for comparing a SQL query across any selected versions of SQLite. Here's an example showing how <code>select json_object('a', (select json_array(1)))</code> differs between SQLite 3.54.0 and 3.54.1:</p> <p><img src=\"https://static.simonwillison.net/static/2026/compare-sqlite.webp\" alt=\"Screenshot of a web tool for comparing SQL across SQLite versions. Heading &quot;SQLite versions (163 available)&quot; sits above a filter text input with placeholder &quot;Filter, e.g. 3.4&quot;, a &quot;Clear selection&quot; button and a blue &quot;Start REPL with 2 versions&quot; button. Below is a scrollable grid of pill-shaped checkboxes, one per version, running from 3.54.1 down past 3.30.0, with 3.54.1 and 3.54.0 checked. A &quot;REPL&quot; heading follows, with two green status badges reading &quot;3.54.1 ready&quot; and &quot;3.54.0 ready&quot;, then a textarea containing &quot;select json_object('a', (select json_array(1)))&quot; beside a blue &quot;Run&quot; button, and a row of clickable example queries labeled &quot;Examples:&quot;. The output section shows the prompt &quot;sqlite&gt; select json_object('a', (select json_array(1)))&quot; followed by an orange warning &quot;Versions differ: 2 different results&quot; and two side-by-side yellow result panels, each with the query as its column header. The &quot;SQLite 3.54.1&quot; panel returns a JSON object where key &quot;a&quot; has a string value: the array containing 1, wrapped in double quotes. The &quot;SQLite 3.54.0&quot; panel returns a JSON object where key &quot;a&quot; has an actual array containing 1, with no quotes around it.\" style=\"max-width: 100%;\" /></p> <h4 id=\"this-should-work-for-every-other-python-app-too\">This should work for every other Python app, too</h4> <p>Nothing about how Datasette Lite works is unique to Datasette. Almost any Python application should be able to pull the same trick - running entirely in the browser using WebAssembly and Pyodide, as a cheap way to provide preview environments, demonstrate features, and recreate bugs.</p> <p>C and Rust extensions used to be a blocker for this kind of thing, but any good coding agent can compile those to Pyodide-compatible WebAssembly now. You can <a href=\"https://github.com/pypi/warehouse/pull/19804\">even publish them to PyPI</a> as of PEP 783 in April 2026.</p> <p>One catch is databases. SQLite is no problem at all, but running PostgreSQL or MySQL in WebAssembly, while possible, is still a path less trodden.</p> <p>I'd love to see WebAssembly preview environments like these become a common pattern across the Python ecosystem.</p> <p>For Hacker News: Full server-side Datasette Python app in the browser with service workers</p> <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/urls\">urls</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/service-workers\">service-workers</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-        "images": [],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6f0fb0223e38d4b7",
-          "title:2dbf61156972bf87"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3818d6ccd2a7f7a1": {
-      "id": "defer:url:3818d6ccd2a7f7a1",
-      "at": "2026-11-17T17:56:41.691Z",
-      "firstAt": "2026-11-17T17:56:41.691Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3818d6ccd2a7f7a1",
-        "title:b11079d430873512"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
-      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-        "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-        "canonical": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
-        "published": "Tue, 17 Nov 2026 17:32:25 +0000",
-        "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-        "images": [],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:3818d6ccd2a7f7a1",
-          "title:b11079d430873512"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0fd37b922e47061f": {
-      "id": "defer:url:0fd37b922e47061f",
-      "at": "2026-11-17T17:56:41.691Z",
-      "firstAt": "2026-11-17T17:56:41.691Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0fd37b922e47061f",
-        "title:3b1acaadb85326a5"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
-      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
-        "link": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-        "canonical": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
-        "published": "Tue, 17 Nov 2026 17:20:41 +0000",
-        "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-        "images": [],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:0fd37b922e47061f",
-          "title:3b1acaadb85326a5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:af36944b8f532014": {
-      "id": "defer:url:af36944b8f532014",
-      "at": "2026-11-17T19:31:38.304Z",
-      "firstAt": "2026-11-17T19:31:38.304Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:af36944b8f532014",
-        "title:6b85cfc01720cfdb"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
-      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-        "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-        "canonical": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
-        "published": "Tue, 17 Nov 2026 19:02:20 +0000",
-        "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-        "images": [],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:af36944b8f532014",
-          "title:6b85cfc01720cfdb"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:31fa1641a8c31572": {
       "id": "defer:url:31fa1641a8c31572",
       "at": "2026-11-17T19:31:38.305Z",
@@ -11969,12 +11765,13 @@
     },
     "defer:url:8f6af8c44a4a1bfb": {
       "id": "defer:url:8f6af8c44a4a1bfb",
-      "at": "2026-11-17T19:31:38.305Z",
+      "at": "2026-11-18T17:05:05.143Z",
       "firstAt": "2026-11-17T19:31:38.305Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "fetch_failed"
       ],
       "keys": [
         "url:8f6af8c44a4a1bfb",
@@ -12011,8 +11808,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:8f6af8c44a4a1bfb",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:c183b19404c14629": {
       "id": "defer:url:c183b19404c14629",
@@ -12825,59 +12627,6 @@
         "keys": [
           "url:6ced64c71386d7d3",
           "title:6ed87293174fb81a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0db3b4bdf59c14e4": {
-      "id": "defer:url:0db3b4bdf59c14e4",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:0db3b4bdf59c14e4",
-        "title:08f385c7d5af2f34"
-      ],
-      "canonical": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
-      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-        "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-        "canonical": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
-        "published": "Wed, 18 Nov 2026 00:27:29 +0000",
-        "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception-500x454.png",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_New_Ecosystem_Stack_AI.png"
-        ],
-        "ageHours": 10.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:0db3b4bdf59c14e4",
-          "title:08f385c7d5af2f34"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13990,6 +13739,397 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:1030bbe139c979c4": {
+      "id": "defer:url:1030bbe139c979c4",
+      "at": "2026-11-18T17:05:05.104Z",
+      "firstAt": "2026-11-18T17:05:05.104Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:1030bbe139c979c4",
+        "title:a732f098d5fbdbb9"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
+      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+        "link": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+        "canonical": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
+        "published": "Wed, 18 Nov 2026 16:59:00 +0000",
+        "summary": "Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+        "images": [],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:1030bbe139c979c4",
+          "title:a732f098d5fbdbb9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e6de34d7c9a098b0": {
+      "id": "defer:url:e6de34d7c9a098b0",
+      "at": "2026-11-18T17:05:05.104Z",
+      "firstAt": "2026-11-18T17:05:05.104Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e6de34d7c9a098b0",
+        "title:a7f08457dddf3e73"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+        "link": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+        "canonical": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+        "published": "Wed, 18 Nov 2026 16:14:09 +0000",
+        "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+        "images": [],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:e6de34d7c9a098b0",
+          "title:a7f08457dddf3e73"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ddeaac3fa5abc9ef": {
+      "id": "defer:url:ddeaac3fa5abc9ef",
+      "at": "2026-11-18T17:05:05.104Z",
+      "firstAt": "2026-11-18T17:05:05.104Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:ddeaac3fa5abc9ef",
+        "title:5b6077e179c237ca"
+      ],
+      "canonical": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author",
+      "title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
+        "link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+        "canonical": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author",
+        "published": "Wed, 18 Nov 2026 16:09:08 +0000",
+        "summary": "The AI detection tool Pangram flags 99 percent of a prize-winning Peruvian novel as AI-generated, but Mexican publisher Almadía is standing by the award after its own review. Pangram also classified over 80 percent of the author's personal texts as machine-written. French publisher Gallimard plans to start screening manuscripts with the tool. The article Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/pangram_literature.png"
+        ],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:ddeaac3fa5abc9ef",
+          "title:5b6077e179c237ca"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1c2cff6fe54921ce": {
+      "id": "defer:url:1c2cff6fe54921ce",
+      "at": "2026-11-18T17:05:05.104Z",
+      "firstAt": "2026-11-18T17:05:05.104Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:1c2cff6fe54921ce",
+        "title:3e564cc2791855ca"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+      "title": "Quoting Daniel Stenberg",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "Quoting Daniel Stenberg",
+        "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+        "canonical": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+        "published": "2026-11-18T15:58:27+00:00",
+        "summary": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up?</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\">Daniel Stenberg</a>, Actual curl rewrites in Rust</p> <p>Tags: <a href=\"https://simonwillison.net/tags/daniel-stenberg\">daniel-stenberg</a>, <a href=\"https://simonwillison.net/tags/curl\">curl</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/c\">c</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/vibe-porting\">vibe-porting</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:1c2cff6fe54921ce",
+          "title:3e564cc2791855ca"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9d6cf46e7fc2630b": {
+      "id": "defer:url:9d6cf46e7fc2630b",
+      "at": "2026-11-18T17:05:05.105Z",
+      "firstAt": "2026-11-18T17:05:05.105Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:9d6cf46e7fc2630b",
+        "title:f9229375537b4665"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets",
+      "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
+        "link": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+        "canonical": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets",
+        "published": "Wed, 18 Nov 2026 15:47:49 +0000",
+        "summary": "A Vals AI investigation shows that leading AI models from Anthropic, OpenAI and Google have almost no safeguards against use in autonomous weapons systems. In tests, the models readily flagged civilians as military targets, and a simple video game framing in the prompt was enough to override even belated refusals. The providers have promised fixes. The article Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/03/AI-Fake-Chain-of-Evidence.png"
+        ],
+        "ageHours": 1.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9d6cf46e7fc2630b",
+          "title:f9229375537b4665"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:37b7ae7dfe184c8a": {
+      "id": "defer:url:37b7ae7dfe184c8a",
+      "at": "2026-11-18T17:05:05.105Z",
+      "firstAt": "2026-11-18T17:05:05.105Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:37b7ae7dfe184c8a",
+        "title:2fbb844a32866ea0"
+      ],
+      "canonical": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
+      "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
+        "link": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+        "canonical": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
+        "published": "Wed, 18 Nov 2026 14:40:52 +0000",
+        "summary": "Mistral's AI agent Vibe now has its own desktop app. The article Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+        "images": [
+          "http://the-decoder.de/wp-content/uploads/2026/11/Mistral-Vibe-Desktop.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/07/mistral_ai-3.png"
+        ],
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:37b7ae7dfe184c8a",
+          "title:2fbb844a32866ea0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:327257876e3c3ffc": {
+      "id": "defer:url:327257876e3c3ffc",
+      "at": "2026-11-18T17:05:05.105Z",
+      "firstAt": "2026-11-18T17:05:05.105Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:327257876e3c3ffc",
+        "title:bb7c5337a8c44c70"
+      ],
+      "canonical": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time",
+      "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+        "link": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+        "canonical": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time",
+        "published": "Wed, 18 Nov 2026 14:36:42 +0000",
+        "summary": "OpenAI is giving four independent audit organizations, including Apollo Research and METR, direct access to unreleased models, source code, and training data for the first time. The embedded reviews are designed to uncover hidden misbehavior and safety gaps. OpenAI can redact or delay reports, so how independent this oversight actually turns out to be remains an open question. The article OpenAI opens its AI systems to four independent on-site auditors for the first time appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png"
+        ],
+        "ageHours": 2.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:327257876e3c3ffc",
+          "title:bb7c5337a8c44c70"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:aef632472a5e3af7": {
+      "id": "defer:url:aef632472a5e3af7",
+      "at": "2026-11-18T17:06:51.438Z",
+      "firstAt": "2026-11-18T17:06:51.438Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:aef632472a5e3af7",
+        "title:fda08e470f000566"
+      ],
+      "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+        "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+        "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+        "published": "Wed, 18 Nov 2026 15:00:23 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+        "images": [],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:aef632472a5e3af7",
+          "title:fda08e470f000566"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "tools"
     }
   },
   "slots": {
@@ -16325,6 +16465,37 @@
       "cost": 0.00134428,
       "tokens": 9454,
       "posts": []
+    },
+    "2026-11-18T20:30+03:30": {
+      "at": "2026-11-18T17:06:30.502Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "مایکروسافت ورد، اکسل و پاورپوینت را داخل Copilot آورد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/20-30",
+      "messageId": 106,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0024056311999999997,
+      "tokens": 42756,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "مایکروسافت ورد، اکسل و پاورپوینت را داخل Copilot آورد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 106,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0009063599999999999,
+          "tokens": 23881,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-18T17:06:30.502Z"
+        }
+      ]
     }
   },
   "published": [
@@ -17899,93 +18070,111 @@
       "sourceTitle": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
       "sourceText": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.\nAI systems are getting good at sub-contracting to make themselves better: …AI can now productively spend money to improve itself… Researchers have developed FrontierML, a benchmark “that measures how well agents turn capital into model performance on challenging, end-to-end machine learning tasks.” It shows that today’s frontier systems are already able to, when given some money, turn this into improving their own performance on a basket of 21 distinct tasks. 21 long-horizon tasks “inspired by real work at frontier labs, neolabs, and academic institutions”. These tasks span six category areas, including LLM training, efficiency, vision & audio, computer use, applied NLP, and math & games. “Each task provides the agent with the same setup: a 12-hour CPU sandbox, a wallet with $10, $50, or $200, a few validation samples, and a task description.” Example task: Agents try to solve the tasks in pretty different ways. E.g, for one task about generating screenshots, the top-scoring agent fine-tuned a diffusion model using LoRA, while other high-scoring approaches involved an LLM writing a drawing program that is then rendered. Key features:\nScaling spending : “Give agents $10, $50, and $200 per task to spend on training compute and data, and evaluate whether agents can use the additional capital productively,” they write. “In our experiments, we find that stronger agents are able to reliably improve their submission",
       "at": "2026-11-18T10:36:38.201Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-18T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "مایکروسافت ورد، اکسل و پاورپوینت را داخل Copilot آورد",
+      "why": "این تغییر، کار تیمی و مدیریت اسناد رو یکپارچه می‌کنه؛ یعنی دیگه لازم نیست بین چند ابزار جابه‌جا بشی و ایجنت‌ها کارهای روزمره رو خودشون انجام می‌دن.",
+      "dedupe_key": "microsoft-copilot-office-general-availability",
+      "post_key": "2026-11-18/20-30/1",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+      "sourceTitle": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "sourceText": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.\nOpening the keynote at its Ignite event, Microsoft CEO Satya Nadella outlined the company’s vision for its new “frontier ecosystem,” announcing Tuesday the general availability of Word, Excel, and PowerPoint inside Copilot, which he described as “the new OS for work.”\nThe announcement is a striking inversion of how we’ve traditionally used software. Rather than an app like Word being the attraction and Clippy the assistant to help you use it, Microsoft envisions the new Copilot integrations will see agents driving things, with the software packages riding shotgun. Applications will become plugin components of the agent’s work, backed by an organizational knowledge layer that draws context from emails, meetings, calendars, chats, and files. Users will now be able to create documents, spreadsheets, and presentations directly in Copilot, with the resulting files remaining editable in their respective Office applications.\nThe rollout marks a major step toward the Copilot redesign the company first announced in September. Parts of that vision are now becoming “generally available,” as Nadella puts it, with autonomous agents and new governance tools arriving alongside them.\nCopilot Autopilot (not to be confused with Windows Autopilot) is a “persistent, proactive agent for personal productivity” according to Microsoft. In a nutshell, Autopilot is a cloud-based autonomous AI agent that users can delegate responsibilities to, not just single tasks. Autopilot can be authorized to work across services like",
+      "at": "2026-11-18T17:06:30.502Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8445,
       "last_at": "2026-11-18T13:29:01+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "pedramgholizadeh": {
-      "last_id": 808,
-      "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "last_id": 809,
+      "last_at": "2026-11-18T14:28:13+00:00",
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "ai_farshad": {
-      "last_id": 6462,
-      "last_at": "2026-11-18T12:30:02+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "last_id": 6465,
+      "last_at": "2026-11-18T16:57:52+00:00",
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "Mohammad_zammani": {
       "last_id": 7241,
       "last_at": "2026-11-18T13:59:17+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "techiin_ir": {
-      "last_id": 20798,
-      "last_at": "2026-11-18T14:24:06+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "last_id": 20799,
+      "last_at": "2026-11-18T14:30:01+00:00",
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "asrnovin_ir": {
       "last_id": 11486,
       "last_at": "2026-11-18T12:29:59+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "shayanode": {
-      "last_id": 250,
-      "last_at": "2026-11-17T13:53:13+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "last_id": 251,
+      "last_at": "2026-11-17T13:53:50+00:00",
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "codecloude": {
-      "last_id": 2599,
-      "last_at": "2026-11-18T06:08:53+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "last_id": 2600,
+      "last_at": "2026-11-18T16:52:40+00:00",
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "dunijet_ai": {
       "last_id": 2583,
       "last_at": "2026-11-18T11:58:27+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "MatinSenPaii": {
       "last_id": 5909,
       "last_at": "2026-11-18T12:54:08+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     },
     "thenimaonAI": {
       "last_id": 548,
       "last_at": "2026-11-18T11:13:46+00:00",
-      "checked_at": "2026-11-18T14:27:57.063Z"
+      "checked_at": "2026-11-18T17:01:13.405Z"
     }
   },
   "offerReviews": [
@@ -21574,6 +21763,30 @@
       "url": "https://t.me/Mohammad_zammani/7241",
       "reason": "denied_link",
       "slot": "2026-11-18T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-codecloude|https://t.me/codecloude/2600",
+      "date": "2026-11-18",
+      "at": "2026-11-18T17:01:13.405Z",
+      "source": "tg-codecloude",
+      "title": "در جدید ترین اپدیت Higgsfield , این پلتفرم از ابزار جدیدش به اسم Miracle رونمایی کرده",
+      "url": "https://t.me/codecloude/2600",
+      "reason": "denied_link",
+      "slot": "2026-11-18T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|hf-papers|https://huggingface.co/papers/2611.23226",
+      "date": "2026-11-18",
+      "at": "2026-11-18T17:01:13.405Z",
+      "source": "hf-papers",
+      "title": "FastFrames: Video Generation at Interactive Latency",
+      "url": "https://huggingface.co/papers/2611.23226",
+      "reason": "research_paper",
+      "slot": "2026-11-18T20:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
