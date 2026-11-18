@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T05:50:50.147Z",
+  "updatedAt": "2026-11-18T08:19:25.487Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11039,6 +11039,168 @@
       "title": "Chinese state group developing automated attack tool for cyber espionage, Google says",
       "url": "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
       "benchmark": false
+    },
+    "url:81e8ce5da1ed9178": {
+      "at": "2026-11-18T08:01:10.390Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "یه چیزی که انتخاب مدل رو همیشه سخت می‌کرد، این بود که مدل قوی گرون بود",
+      "url": "https://t.me/thenimaonAI/540"
+    },
+    "title:d2b54835b64f7fee": {
+      "at": "2026-11-18T08:01:10.390Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "یه چیزی که انتخاب مدل رو همیشه سخت می‌کرد، این بود که مدل قوی گرون بود",
+      "url": "https://t.me/thenimaonAI/540"
+    },
+    "url:f91cc5a0478a5174": {
+      "at": "2026-11-18T08:01:25.426Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "🤖 معرفی دو مدل جدید GPT-6.2؛ قدرت بیشتر، هزینه کمتر!",
+      "url": "https://t.me/ai_farshad/6460"
+    },
+    "title:b5ceb7a6ca4ecd2b": {
+      "at": "2026-11-18T08:01:25.426Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "🤖 معرفی دو مدل جدید GPT-6.2؛ قدرت بیشتر، هزینه کمتر!",
+      "url": "https://t.me/ai_farshad/6460"
+    },
+    "url:d8525da1ee20c864": {
+      "at": "2026-11-18T08:01:30.928Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "🤖احتمالاً این روزا توی شبکه‌های اجتماعی مثل توییتر و اینستاگرام زیاد به پست‌هایی برخوردین که ادعا",
+      "url": "https://t.me/Mohammad_zammani/7237"
+    },
+    "title:3b27b4da0e5593e5": {
+      "at": "2026-11-18T08:01:30.928Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "🤖احتمالاً این روزا توی شبکه‌های اجتماعی مثل توییتر و اینستاگرام زیاد به پست‌هایی برخوردین که ادعا",
+      "url": "https://t.me/Mohammad_zammani/7237"
+    },
+    "url:17c03194cea03b38": {
+      "at": "2026-11-18T08:01:38.697Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "🖥 شرکت مایکروسافت تو رویداد Ignite 2026 از هفت مدل هوش مصنوعی جدید تو خانواده MAI",
+      "url": "https://t.me/Mohammad_zammani/7236"
+    },
+    "title:2fed4952140a01bb": {
+      "at": "2026-11-18T08:01:38.697Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "🖥 شرکت مایکروسافت تو رویداد Ignite 2026 از هفت مدل هوش مصنوعی جدید تو خانواده MAI",
+      "url": "https://t.me/Mohammad_zammani/7236"
+    },
+    "url:26d62eb19f14319d": {
+      "at": "2026-11-18T08:01:38.851Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "اشتراک ۱ماهه چنل vip به همراه دوره ساخت ربات تلگرام 2 تومن🫱🏼‍🫲🏽",
+      "url": "https://t.me/shayanode/247"
+    },
+    "title:42a5b1e5c8229048": {
+      "at": "2026-11-18T08:01:38.851Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "اشتراک ۱ماهه چنل vip به همراه دوره ساخت ربات تلگرام 2 تومن🫱🏼‍🫲🏽",
+      "url": "https://t.me/shayanode/247"
+    },
+    "url:6f0fb0223e38d4b7": {
+      "at": "2026-11-18T08:02:26.067Z",
+      "decision": "qa_failed",
+      "reason": "schema,ai_relevance,verification_enum,verification_source,source_url",
+      "category": "tools",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite"
+    },
+    "title:2dbf61156972bf87": {
+      "at": "2026-11-18T08:02:26.067Z",
+      "decision": "qa_failed",
+      "reason": "schema,ai_relevance,verification_enum,verification_source,source_url",
+      "category": "tools",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite"
+    },
+    "url:3d976fa9687d6c44": {
+      "at": "2026-11-18T08:05:37.110Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+      "url": "https://arxiv.org/abs/2611.21579v1"
+    },
+    "title:25a0abb372f14cc5": {
+      "at": "2026-11-18T08:05:37.110Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+      "url": "https://arxiv.org/abs/2611.21579v1"
+    },
+    "url:e918fc955d52a71e": {
+      "at": "2026-11-18T08:07:24.663Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains",
+      "benchmark": true
+    },
+    "title:68278bc088e9c3e4": {
+      "at": "2026-11-18T08:07:24.663Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains",
+      "benchmark": true
+    },
+    "url:fc8988f3e7d340bc": {
+      "at": "2026-11-18T08:19:25.485Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "How genome mapping can help researchers better understand disease",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research",
+      "benchmark": false
+    },
+    "title:033907b4fc05105c": {
+      "at": "2026-11-18T08:19:25.485Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-18T11:30+03:30",
+      "title": "How genome mapping can help researchers better understand disease",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -13541,6 +13703,536 @@
         ]
       },
       "detail": "models"
+    },
+    "defer:url:0d4a3780c61dc50a": {
+      "id": "defer:url:0d4a3780c61dc50a",
+      "at": "2026-11-18T08:01:38.861Z",
+      "firstAt": "2026-11-18T08:01:38.861Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0d4a3780c61dc50a",
+        "title:e243d2b0334ecde3"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+        "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+        "canonical": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+        "published": "Wed, 18 Nov 2026 01:44:21 +0000",
+        "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+        "images": [],
+        "ageHours": 6.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0d4a3780c61dc50a",
+          "title:e243d2b0334ecde3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a726a4f040d13249": {
+      "id": "defer:url:a726a4f040d13249",
+      "at": "2026-11-18T08:01:38.861Z",
+      "firstAt": "2026-11-18T08:01:38.861Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:a726a4f040d13249",
+        "title:5cbdf6e16d1f4fab"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia promises that revenue will keep soaring — for now",
+        "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+        "canonical": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
+        "published": "Wed, 18 Nov 2026 00:16:50 +0000",
+        "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+        "images": [],
+        "ageHours": 7.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:a726a4f040d13249",
+          "title:5cbdf6e16d1f4fab"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7648720b0216823a": {
+      "id": "defer:url:7648720b0216823a",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7648720b0216823a",
+        "title:6b5415223600f241"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+        "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+        "canonical": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
+        "published": "Tue, 17 Nov 2026 23:37:48 +0000",
+        "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+        "images": [],
+        "ageHours": 8.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:7648720b0216823a",
+          "title:6b5415223600f241"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7c1076c2aa096bde": {
+      "id": "defer:url:7c1076c2aa096bde",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7c1076c2aa096bde",
+        "title:7a31b0aa07932348"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+        "link": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+        "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+        "published": "Tue, 17 Nov 2026 23:04:35 +0000",
+        "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+        "images": [],
+        "ageHours": 8.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:7c1076c2aa096bde",
+          "title:7a31b0aa07932348"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e45fd791e1fe03c2": {
+      "id": "defer:url:e45fd791e1fe03c2",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:e45fd791e1fe03c2",
+        "title:0902342b955319e0"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+      "title": "External sandboxes for coding agents",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "External sandboxes for coding agents",
+        "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+        "canonical": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+        "published": "2026-11-17T22:52:29+00:00",
+        "summary": "<p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab behind Superpowers and <a href=\"https://github.com/orgs/prime-radiant-inc/repositories\">other projects</a>.</p> <p><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">My post</a> on the Prime Radiant blog introduces the <strong>external sandbox</strong> pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.</p> <p>To demonstrate this pattern we've released three sandbox server implementations:</p> <ul> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-v86\">external-sandbox-v86</a> runs a Node.js server which then uses <a href=\"https://github.com/copy/v86\">v86</a> to run Alpine Linux inside WebAssembly.</li> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-container\">external-sandbox-container</a> is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.</li> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-quicksand\">external-sandbox-quicksand</a> is another Python web server, this time using Microsoft's <a href=\"https://github.com/microsoft/quicksand\">Quicksand</a> sandboxing library, which bundles QEMU <em>and</em> Alpine Linux in a Python package!</li> </ul> <p>Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code.</p> <p>The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret with the agent. Here's the UI you can use to reconfigure that proxy while the sandbox is still running:</p> <p><img alt=\"The network policy page with allowed destinations, the policy JSON editor and recent proxy activity\" src=\"https://static.simonwillison.net/static/2026/sandbox-proxy.png\" /></p> <p>I continue to be fascinated by the challenge of safely running untrusted code. This external sandbox pattern provides a neat way to experiment with different approaches. <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a>, <a href=\"https://simonwillison.net/tags/pi\">pi</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+        "images": [],
+        "ageHours": 9.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:e45fd791e1fe03c2",
+          "title:0902342b955319e0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fc38b51a6db9bccf": {
+      "id": "defer:url:fc38b51a6db9bccf",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:fc38b51a6db9bccf",
+        "title:19e27e123c67167d"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+        "link": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+        "canonical": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
+        "published": "Tue, 17 Nov 2026 22:42:27 +0000",
+        "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+        "images": [],
+        "ageHours": 9.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:fc38b51a6db9bccf",
+          "title:19e27e123c67167d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dc52e334dcb4a852": {
+      "id": "defer:url:dc52e334dcb4a852",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:dc52e334dcb4a852",
+        "title:d99a9de333c5f033"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+        "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+        "canonical": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+        "published": "Tue, 17 Nov 2026 22:29:05 +0000",
+        "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+        "images": [],
+        "ageHours": 9.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:dc52e334dcb4a852",
+          "title:d99a9de333c5f033"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:04c4dac80f3d2432": {
+      "id": "defer:url:04c4dac80f3d2432",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:04c4dac80f3d2432",
+        "title:2f9c0273e82b3bd7"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "SEC reportedly investigating Nvidia amid Huang exit",
+        "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+        "canonical": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
+        "published": "Tue, 17 Nov 2026 21:48:07 +0000",
+        "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+        "images": [],
+        "ageHours": 10.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:04c4dac80f3d2432",
+          "title:2f9c0273e82b3bd7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:85bd515d71fb7a7a": {
+      "id": "defer:url:85bd515d71fb7a7a",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:85bd515d71fb7a7a",
+        "title:f8f835a70f64a4a7"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+        "link": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+        "published": "Tue, 17 Nov 2026 20:32:55 +0000",
+        "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-500x500.jpg"
+        ],
+        "ageHours": 11.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:85bd515d71fb7a7a",
+          "title:f8f835a70f64a4a7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2fb55c3571a040c5": {
+      "id": "defer:url:2fb55c3571a040c5",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:2fb55c3571a040c5",
+        "title:5c59834c60936fce"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Model ML raises $250M to automate investment banking grunt work",
+        "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+        "canonical": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+        "published": "Tue, 17 Nov 2026 19:32:11 +0000",
+        "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+        "images": [],
+        "ageHours": 12.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:2fb55c3571a040c5",
+          "title:5c59834c60936fce"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7f831d0690caa93b": {
+      "id": "defer:url:7f831d0690caa93b",
+      "at": "2026-11-18T08:01:38.862Z",
+      "firstAt": "2026-11-18T08:01:38.862Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:7f831d0690caa93b",
+        "title:c9ae81f469da0f31"
+      ],
+      "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
+      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+        "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+        "canonical": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
+        "published": "Mon, 16 Nov 2026 19:42:13 +0000",
+        "summary": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. The article Google warns that fully automated cyberattacks have arrived and will get worse fast appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+        "images": [],
+        "ageHours": 36.3,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:7f831d0690caa93b",
+          "title:c9ae81f469da0f31"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -15791,6 +16483,52 @@
           "at": "2026-11-18T05:17:37.781Z"
         }
       ]
+    },
+    "2026-11-18T11:30+03:30": {
+      "at": "2026-11-18T08:07:24.663Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "ابزار گوگل برای یافتن عامل بیماری‌های ژنتیکی",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/11-30-2",
+      "messageId": 104,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0086772896,
+      "tokens": 101126,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "OpenAI دو مدل جدید با قیمت کمتر معرفی کرد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 103,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0027816712,
+          "tokens": 26773,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-18T08:07:24.663Z"
+        },
+        {
+          "title": "ابزار گوگل برای یافتن عامل بیماری‌های ژنتیکی",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 104,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-18/11-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0022736112,
+          "tokens": 23396,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-18T08:19:25.485Z"
+        }
+      ]
     }
   },
   "published": [
@@ -17311,93 +18049,129 @@
       "sourceTitle": "Chinese state group developing automated attack tool for cyber espionage, Google says",
       "sourceText": "Both criminal and state-backed groups in China are leveraging AI tools for cyber espionage, vulnerability research and social media influence operations.\nGoogle released its latest AI Threat Tracker report on Monday, writing that threat actors are rapidly evolving their use of artificial intelligence in attacks — now leaning more heavily on autonomous multi-agent offensive frameworks like Artex, CAIRN, CyberStrikeAI and PentAGI to execute multi-stage intrusions at greater operational velocity.\nWhile multiple countries — including Russia, Iran and North Korea — are using AI for nefarious purposes, few countries have matched China.\nGoogle researchers said they saw Chinese state-backed and financially motivated actors using AI tools for “reconnaissance, front-end scanning, researching targets across various sectors and geographies, and weaponizing exploits.”\nIncident responders saw Chinese contractors using large language models to translate and comb through tranches of stolen data that were eventually organized and sold to customers. Other Chinese actors are using AI platforms’ file-hosting infrastructure to stage archives of phishing lures and exfiltrate stolen data.\nSeveral different Chinese actors are also experimenting heavily with Artex — which was spotlighted on Friday by the FBI in an alert that drew alarm among cybersecurity experts. The tool was created by a Chinese researcher and allows any user to turn a large language model into a powerful hacking tool that can “automate multiple phases of cyber intrusions at machine speed, from reconnaissance through data exfiltr",
       "at": "2026-11-18T05:17:37.782Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-18T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "OpenAI دو مدل جدید با قیمت کمتر معرفی کرد",
+      "why": "این یعنی برای کارهای خلاقانه و طراحی، Astra الان گزینه قوی‌تری نسبت به رقیب‌هاست.",
+      "dedupe_key": "openai-gpt-6-2-astra-sol-launch",
+      "post_key": "2026-11-18/11-30/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "benchmark": true,
+      "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+      "sourceTitle": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "sourceText": "OpenAI releases two new language models. GPT-6.2 Astra is aimed at demanding professional work, while GPT-6.2 Sol is built for everyday use. OpenAI says both outperform their predecessors on benchmarks and cost less to run.\nGPT-6.2 Astra and Sol are available now for Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex. Pro-500 subscribers can use Ultrafast mode with both models. For the first time, Pro-200 subscribers also get Ultrafast access, starting with GPT-6.2 Sol.\nDevelopers can access both models through the OpenAI API. OpenAI says API pricing for GPT-6.2 Astra is 20 percent cheaper than its predecessor's, at $8 per million input tokens, $0.40 for cached inputs, and $40 per million output tokens. GPT-6.2 Sol keeps GPT-6.1 Sol's pricing at $2 for input, $0.10 for cached inputs, and $10 for output per million tokens. Ad\nOpenAI trained GPT-6.2 Astra to handle professional conventions in fields like law, finance, and accounting more reliably. The company says presentations pull layouts, colors, and typography from templates, matching exact font sizes. Slide titles are meant to capture a slide's main point, while body text stays focused on key details. Ad\nOpenAI's announcement leans hard on the price-to-performance ratio of its models. On Agents' Last Exam, a benchmark that tests multi-step professional workflows, GPT-6.2 Astra scores 5.2 points above its predecessor GPT-6 Astra at less than a third of the cost, according to OpenAI. It leads Anthropic's Claude Fable 5.2 by 5.5 points at just 5 percent of the cost. Only Google's Gemini 4 Carbon keeps up with As",
+      "at": "2026-11-18T08:07:24.663Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-18T11:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ابزار گوگل برای یافتن عامل بیماری‌های ژنتیکی",
+      "why": "این ابزار تشخیص و درمان بیماری‌های نادر را سرعت می‌بخشد و پیدا کردن داروهای جدید را هم سریع‌تر می‌کند.",
+      "dedupe_key": "google-deepmind-alphagenome-atlas-launch",
+      "post_key": "2026-11-18/11-30/2",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/",
+      "sourceTitle": "How genome mapping can help researchers better understand disease",
+      "sourceText": "How genome mapping can help researchers better understand disease\nIn our latest installment of the Ask a Scientist series, a Google DeepMind research scientist explains the potential behind our AlphaGenome and AlphaGenome Atlas tools.\nYour genome is your body’s instruction manual: the blueprint that informs how your body functions. It contains 3 billion base pairs of DNA. Because this DNA is responsible in part for switching genes on and off, it could be the difference between developing a disease and avoiding one. Determining which DNA changes cause diseases (and other outcomes) is like finding a needle in a haystack.\nDecoding the DNA sequence is the goal behind AlphaGenome , a model from Google DeepMind. AlphaGenome can take a partial DNA sequence of 1 million base pairs in length, and make thousands of predictions. By comparing these predictions for DNA changes, scientists can find that needle faster.\nWe talked to Google DeepMind research scientist Žiga Avsec to learn more.\nŽA: I’m a research scientist overseeing our genomics initiative. Basically, I lead a team that builds models to help us better understand the genome.\nHow is your team making it easier for scientists to predict and understand diseases?\nIt really all comes down to how the genome works. It contains 3 billion DNA base pairs. And each pair contains two bases, which we call “letters.” These letters — A (adenine), T (thymine), C (cytosine), G (guanine) — act like a biological alphabet, spelling out the genetic instruction manual that makes someone who they are.\nSince you can replace any of those letters with",
+      "at": "2026-11-18T08:19:25.485Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8438,
-      "last_at": "2026-11-17T19:38:01+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "last_id": 8440,
+      "last_at": "2026-11-18T06:48:35+00:00",
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "pedramgholizadeh": {
       "last_id": 808,
       "last_at": "2026-11-17T12:22:47+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "ai_farshad": {
-      "last_id": 6459,
-      "last_at": "2026-11-17T20:00:55+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "last_id": 6460,
+      "last_at": "2026-11-18T06:47:49+00:00",
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7233,
-      "last_at": "2026-11-18T04:39:31+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "last_id": 7237,
+      "last_at": "2026-11-18T06:10:45+00:00",
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "techiin_ir": {
       "last_id": 20797,
       "last_at": "2026-11-17T17:37:01+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "mgh_mobin": {
       "last_id": 493,
       "last_at": "2026-11-17T20:12:25+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "asrnovin_ir": {
       "last_id": 11484,
       "last_at": "2026-11-17T20:33:38+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "shayanode": {
-      "last_id": 243,
-      "last_at": "2026-11-17T09:27:01+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "last_id": 247,
+      "last_at": "2026-11-17T10:21:55+00:00",
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "codecloude": {
-      "last_id": 2596,
-      "last_at": "2026-11-17T18:29:37+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "last_id": 2599,
+      "last_at": "2026-11-18T06:08:53+00:00",
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "dunijet_ai": {
-      "last_id": 2581,
-      "last_at": "2026-11-18T03:26:41+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "last_id": 2582,
+      "last_at": "2026-11-18T06:30:26+00:00",
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "marketing_aida": {
       "last_id": 108,
       "last_at": "2026-11-17T11:52:05+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "MatinSenPaii": {
       "last_id": 5900,
       "last_at": "2026-11-17T20:25:01+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "checked_at": "2026-11-18T08:00:59.217Z"
     },
     "thenimaonAI": {
-      "last_id": 539,
-      "last_at": "2026-11-17T09:59:35+00:00",
-      "checked_at": "2026-11-18T05:01:01.763Z"
+      "last_id": 542,
+      "last_at": "2026-11-18T07:11:56+00:00",
+      "checked_at": "2026-11-18T08:00:59.217Z"
     }
   },
   "offerReviews": [
@@ -20806,6 +21580,54 @@
       "url": "https://t.me/asrnovin_ir/11483",
       "reason": "denied_link",
       "slot": "2026-11-18T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-ai-farshad|https://t.me/ai_farshad/6460",
+      "date": "2026-11-18",
+      "at": "2026-11-18T08:00:59.217Z",
+      "source": "tg-ai-farshad",
+      "title": "🤖 معرفی دو مدل جدید GPT-6.2؛ قدرت بیشتر، هزینه کمتر!",
+      "url": "https://t.me/ai_farshad/6460",
+      "reason": "denied_link",
+      "slot": "2026-11-18T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7237",
+      "date": "2026-11-18",
+      "at": "2026-11-18T08:00:59.217Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖احتمالاً این روزا توی شبکه‌های اجتماعی مثل توییتر و اینستاگرام زیاد به پست‌هایی برخوردین که ادعا",
+      "url": "https://t.me/Mohammad_zammani/7237",
+      "reason": "denied_link",
+      "slot": "2026-11-18T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7236",
+      "date": "2026-11-18",
+      "at": "2026-11-18T08:00:59.217Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🖥 شرکت مایکروسافت تو رویداد Ignite 2026 از هفت مدل هوش مصنوعی جدید تو خانواده MAI",
+      "url": "https://t.me/Mohammad_zammani/7236",
+      "reason": "denied_link",
+      "slot": "2026-11-18T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-18|tg-shayanode|https://t.me/shayanode/247",
+      "date": "2026-11-18",
+      "at": "2026-11-18T08:00:59.217Z",
+      "source": "tg-shayanode",
+      "title": "اشتراک ۱ماهه چنل vip به همراه دوره ساخت ربات تلگرام 2 تومن🫱🏼‍🫲🏽",
+      "url": "https://t.me/shayanode/247",
+      "reason": "no_link",
+      "slot": "2026-11-18T11:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
