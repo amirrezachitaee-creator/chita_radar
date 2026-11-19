@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T08:09:58.205Z",
+  "updatedAt": "2026-11-19T09:15:30.191Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -12029,6 +12029,78 @@
       "slot": "2026-11-19T11:30+03:30",
       "title": "Google continues to accelerate its release cadence with Gemini 4 Neon",
       "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain"
+    },
+    "url:b237cf15c7ab6990": {
+      "at": "2026-11-19T08:58:53.558Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "🤖گوگل مدل جدید Gemini 4 Neon رو معرفی کرده که جایگاهش بین مدل سنگین‌تر Carbon و",
+      "url": "https://t.me/Mohammad_zammani/7242"
+    },
+    "title:13e44f43bd5a5126": {
+      "at": "2026-11-19T08:58:53.558Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "🤖گوگل مدل جدید Gemini 4 Neon رو معرفی کرده که جایگاهش بین مدل سنگین‌تر Carbon و",
+      "url": "https://t.me/Mohammad_zammani/7242"
+    },
+    "url:4253f39563e97b63": {
+      "at": "2026-11-19T08:58:53.767Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "قدرت هوش مصنوعی توی ساخت ویدیو",
+      "url": "https://t.me/asrnovin_ir/11492"
+    },
+    "title:d824dd03711ea04c": {
+      "at": "2026-11-19T08:58:53.767Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "قدرت هوش مصنوعی توی ساخت ویدیو",
+      "url": "https://t.me/asrnovin_ir/11492"
+    },
+    "url:c60f36dda0d9577c": {
+      "at": "2026-11-19T09:03:29.080Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+      "url": "https://therecord.media/ai-cyber-white-house",
+      "benchmark": false
+    },
+    "title:dabbd1acf788dfc5": {
+      "at": "2026-11-19T09:03:29.080Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+      "url": "https://therecord.media/ai-cyber-white-house",
+      "benchmark": false
+    },
+    "url:5f4a2610d601bfa7": {
+      "at": "2026-11-19T09:15:30.189Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+      "benchmark": false
+    },
+    "title:eabc72d80587167c": {
+      "at": "2026-11-19T09:15:30.189Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -12084,308 +12156,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:b43ef08ac3ed4f7a": {
-      "id": "defer:url:b43ef08ac3ed4f7a",
-      "at": "2026-11-18T14:28:30.503Z",
-      "firstAt": "2026-11-17T19:31:38.332Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:b43ef08ac3ed4f7a",
-        "title:d2e36fdc59b1cc09"
-      ],
-      "canonical": "https://openai.com/index/astra-law-6-2",
-      "title": "Astra for Law leads in legal intelligence",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Astra for Law leads in legal intelligence",
-        "link": "https://openai.com/index/astra-law-6-2",
-        "canonical": "https://openai.com/index/astra-law-6-2",
-        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
-        "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/astra-law-6-2",
-        "images": [],
-        "ageHours": 19.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b43ef08ac3ed4f7a",
-          "title:d2e36fdc59b1cc09"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:b43ef08ac3ed4f7a",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:64a0b692ac380c54": {
-      "id": "defer:url:64a0b692ac380c54",
-      "at": "2026-11-18T13:33:59.978Z",
-      "firstAt": "2026-11-18T13:33:59.978Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:64a0b692ac380c54",
-        "title:7d1ce759ebd029b8"
-      ],
-      "canonical": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china",
-      "title": "SEC probes Nvidia over undisclosed chip sales tied to China",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "SEC probes Nvidia over undisclosed chip sales tied to China",
-        "link": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
-        "canonical": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china",
-        "published": "Wed, 18 Nov 2026 13:28:49 +0000",
-        "summary": "The U.S. Securities and Exchange Commission (SEC) has launched a civil investigation into Nvidia. The article SEC probes Nvidia over undisclosed chip sales tied to China appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
-        ],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:64a0b692ac380c54",
-          "title:7d1ce759ebd029b8"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:42bb23a62e4b2140": {
-      "id": "defer:url:42bb23a62e4b2140",
-      "at": "2026-11-18T14:28:30.337Z",
-      "firstAt": "2026-11-18T14:28:30.337Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:42bb23a62e4b2140",
-        "title:00db6bb6006de7cd"
-      ],
-      "canonical": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
-      "title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
-        "link": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
-        "canonical": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
-        "published": "Wed, 18 Nov 2026 13:55:49 +0000",
-        "summary": "KPMG deployed more than 100 AI agents alongside the regular audit of a UK-listed company. The agents asked \"better questions\" than the audit team in some cases, according to UK head of audit Cath Burnet. The UK's accounting regulator, the FRC, sees a risk in the approach because AI agents analyze far more data than traditional sampling methods, potentially surfacing findings that could serve as a sales pitch for lucrative consulting work and undermine auditor independence. The article KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/KPMG-Audit-Agents.png"
-        ],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:42bb23a62e4b2140",
-          "title:00db6bb6006de7cd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7b499de51a856296": {
-      "id": "defer:url:7b499de51a856296",
-      "at": "2026-11-18T14:28:30.337Z",
-      "firstAt": "2026-11-18T14:28:30.337Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7b499de51a856296",
-        "title:7def83429183120e"
-      ],
-      "canonical": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments",
-      "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
-        "link": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
-        "canonical": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments",
-        "published": "Tue, 17 Nov 2026 15:02:03 +0000",
-        "summary": "OpenAI is opening its cybersecurity tool Daybreak to NATO and several European governments, including Germany, France, and Poland. The EU's cybersecurity agency ENISA has already used it to find real vulnerabilities in EU software. The NATO Communications and Information Agency (NCIA) says it's already making heavy use of the underlying models. The article OpenAI opens its cybersecurity tool Daybreak to NATO and European governments appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/russian_influence_campaigns.png"
-        ],
-        "ageHours": 23.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:7b499de51a856296",
-          "title:7def83429183120e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1f6fca5a5cf02acb": {
-      "id": "defer:url:1f6fca5a5cf02acb",
-      "at": "2026-11-18T14:28:30.337Z",
-      "firstAt": "2026-11-18T14:28:30.337Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:1f6fca5a5cf02acb",
-        "title:06ab340837d6a703"
-      ],
-      "canonical": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years",
-      "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
-        "link": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
-        "canonical": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years",
-        "published": "Tue, 17 Nov 2026 14:59:50 +0000",
-        "summary": "Edinburgh's Childlight Institute reports a more than 8,400 percent increase in AI-generated child sexual abuse material over two years, from about 4,700 reports in 2023 to over 400,000 in 2025. Abusers are using tools like nudify apps for blackmail. Childlight CEO Paul Stanfield wants governments to classify the problem as a preventable public health emergency. The article Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/ai_generated_abuse.png"
-        ],
-        "ageHours": 23.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:1f6fca5a5cf02acb",
-          "title:06ab340837d6a703"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ef87668d3ce0a4f5": {
-      "id": "defer:url:ef87668d3ce0a4f5",
-      "at": "2026-11-18T14:28:30.337Z",
-      "firstAt": "2026-11-18T14:28:30.337Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ef87668d3ce0a4f5",
-        "title:1528435a9a7cd8ff"
-      ],
-      "canonical": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal",
-      "title": "More than half the electricity feeding America's largest data centers comes from gas and coal",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "More than half the electricity feeding America's largest data centers comes from gas and coal",
-        "link": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
-        "canonical": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal",
-        "published": "Wed, 18 Nov 2026 14:25:04 +0000",
-        "summary": "A Harvard study published in Nature Sustainability found that 403 US hyperscale data centers produced roughly 25.7 million metric tons of CO2 between May 2024 and April 2025, more than all of Denmark. Over half of their electricity came from fossil fuels. With 2,000 additional facilities planned, the researchers warn of a major climate setback. The article More than half the electricity feeding America's largest data centers comes from gas and coal appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/data_center_climate_impact2.png"
-        ],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ef87668d3ce0a4f5",
-          "title:1528435a9a7cd8ff"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:1030bbe139c979c4": {
       "id": "defer:url:1030bbe139c979c4",
@@ -12826,55 +12596,6 @@
         "keys": [
           "url:b681a976efae2472",
           "title:236e669d59c0892a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c60f36dda0d9577c": {
-      "id": "defer:url:c60f36dda0d9577c",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:c60f36dda0d9577c",
-        "title:dabbd1acf788dfc5"
-      ],
-      "canonical": "https://therecord.media/ai-cyber-white-house",
-      "title": "Lawmakers call on White House to develop defensive AI cyber systems",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "Lawmakers call on White House to develop defensive AI cyber systems",
-        "link": "https://therecord.media/ai-cyber-white-house",
-        "canonical": "https://therecord.media/ai-cyber-white-house",
-        "published": "Wed, 18 Nov 2026 19:00:00 GMT",
-        "summary": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/ai-cyber-white-house",
-        "images": [
-          "http://cms.therecord.media/uploads/Maria_Cantwell_b590a127c1.jpg"
-        ],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:c60f36dda0d9577c",
-          "title:dabbd1acf788dfc5"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13417,9 +13138,9 @@
     },
     "defer:url:67952d9a918d2536": {
       "id": "defer:url:67952d9a918d2536",
-      "at": "2026-11-19T08:04:39.601Z",
+      "at": "2026-11-19T08:58:53.833Z",
       "firstAt": "2026-11-18T19:33:16.928Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -13462,7 +13183,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:67952d9a918d2536",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
@@ -14505,6 +14226,348 @@
         "leadKind": ""
       },
       "detail": "grounding_superlatives"
+    },
+    "defer:url:82b169450b02e27d": {
+      "id": "defer:url:82b169450b02e27d",
+      "at": "2026-11-19T08:58:53.783Z",
+      "firstAt": "2026-11-19T08:58:53.783Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:82b169450b02e27d",
+        "title:95d1f52b55d7666d"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+        "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "canonical": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+        "published": "2026-11-17T22:38:52+00:00",
+        "summary": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a> with support for the new models.</p> <p>6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions.</p> <p>GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).</p> <p>Here are the pelicans <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fa940cc2750162ac9edf0ddf881067b83\">for GPT-6.2 Sol</a> and <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffe836e13c90c00233c9e9e499a941805\">for GPT-6.2 Astra</a>. The 6.2 Astra max pelican looks like this:</p> <p><img alt=\"Good bicycle, good pelican, one wing is on the handlebars with fingers, the other wing is behind. Feet on the correct side of the frame. Nice gradiants. Good pouch, hooked bill.\" src=\"https://static.simonwillison.net/static/2026/astra-6-2-max.webp\" /></p> <p>I have a <a href=\"https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html\">full comparison grid here</a>, but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases:</p> <p><img alt=\"Twelve pastel illustrations compare four models drawing a pelican riding a bicycle at three effort levels. All twelve have a recognizable pelican and bicycle. The clearest differences are in the feather detail and how convincingly the bird steers and pedals. gpt-6.2-astra has the most detailed Max drawing (88.71¢), with layered feathers, a trailing red scarf, and a wing on the handlebars. Xhigh (17.70¢) adds a green cap and keeps the seaside setting. High (11.55¢) simplifies the feathers while keeping the riding pose clear. gpt-6.2-sol shows a convincing pedaling pose at both Max (13.69¢) and Xhigh (6.74¢), with one foot higher than the other and a wing reaching forward. At High (2.41¢), the bird sits lower and the handlebars are harder to distinguish. gpt-6-astra gives the bird a long wing that follows the curve of the handlebars at Max (63.21¢). Xhigh (33.85¢) shows two bent legs on the pedals. At High (18.37¢), one leg stretches almost straight down, making the pose look stiffer. gpt-6.1-sol uses nearly the same long-necked bird with a wing on the bars at Max (13.48¢) and Xhigh (5.39¢). At High (3.66¢), the bird folds its wing against its body and appears to ride hands-free.\" src=\"https://static.simonwillison.net/static/2026/gpt-6-2-grid.webp\" /></p> <p>I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI:</p> <blockquote> <p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p> </blockquote> <p>Here's <a href=\"https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html\">Sol</a> and here's <a href=\"https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html\">Astra</a>. Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to <a href=\"https://tools.simonwillison.net/yonkers-rises\">Claude Fable 5.2</a> and <a href=\"https://static.simonwillison.net/static/2026/yonkers-mech-standalone.html\">Gemini 4 Carbon</a>.</p> <p>This video showing the Astra and Sol animations playing out at the same time:</p> <video controls playsinline preload=\"none\" width=\"1080\" height=\"1080\" poster=\"https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s.webp\"> <source src=\"https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s-largest.mp4\" type=\"video/mp4\"> </video> <p>I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting:</p> <blockquote> <p><code>https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html are two videos of the same thing by two different models</code></p> <p><code>I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second</code></p> <p><code>I need an overlaid label of \"GPT-6.2 Astra\" on the top half and \"GPT-6.2 Sol\" on the bottom half. These labels should be tastefully positioned.</code></p> <p><code>Make the video square and 2000x2000 pixels</code></p> </blockquote> <p>Then later:</p> <blockquote> <p><code>OK make it 20s</code></p> </blockquote> <p>Here's the <a href=\"https://gist.github.com/simonw/6b44c588a1321b60799dbbfd13db6d23\">exported transcript</a>.</p> <p>The buzz around these new models is mixed at the moment. Astra 6.2 isn't scoring quite as high as Fable 5.2 on various benchmarks, and I've seen a few complaints that its communication style can be confusing. Theo Browne's <a href=\"https://twitter.com/theo/status/2122760447103484410\">review</a> (in the form of a feedback letter he sent OpenAI during pre-release) has this useful example:</p> <blockquote> <p>When this model is working on long tasks, it can pull in a lot of subagents and manage them pretty well. It will then proceed to randomly <em>ask you some weird internal implementation detail bullshit that you could not under any earthly circumstance understand, much less have input on</em>.</p> <p>I sent \"/goal make a new level for Outer Wilds\". 2 hours in, it's \"blocked\" because it wanted to ask me \"does r24's reviewer write it's clips to 24_g521.mp4 or 24_p11.mp4?\"</p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/theo-browne\">theo-browne</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/yonkers-rising\">yonkers-rising</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "images": [],
+        "ageHours": 34.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": true,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:82b169450b02e27d",
+          "title:95d1f52b55d7666d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b36f7116a84b8a9e": {
+      "id": "defer:url:b36f7116a84b8a9e",
+      "at": "2026-11-19T08:58:53.783Z",
+      "firstAt": "2026-11-19T08:58:53.783Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:b36f7116a84b8a9e",
+        "title:760321d29cd9561e"
+      ],
+      "canonical": "https://www.producthunt.com/products/upsolve-ai",
+      "title": "Upsolve MCP Connections",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Upsolve MCP Connections",
+        "link": "https://www.producthunt.com/products/upsolve-ai",
+        "canonical": "https://www.producthunt.com/products/upsolve-ai",
+        "published": "2026-11-18T13:56:08-08:00",
+        "summary": "<p> Plug Notion, Linear and more into your data agent </p> <p> <a href=\"https://www.producthunt.com/products/upsolve-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1322197?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/upsolve-ai",
+        "images": [],
+        "ageHours": 11,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:b36f7116a84b8a9e",
+          "title:760321d29cd9561e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3047d7657748ea76": {
+      "id": "defer:url:3047d7657748ea76",
+      "at": "2026-11-19T08:58:53.783Z",
+      "firstAt": "2026-11-19T08:58:53.783Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:3047d7657748ea76",
+        "title:07dd8beb3791940f"
+      ],
+      "canonical": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "title": "Introducing ChatGPT for Sales",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Introducing ChatGPT for Sales",
+        "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "canonical": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "published": "Tue, 17 Nov 2026 08:00:00 GMT",
+        "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "images": [],
+        "ageHours": 49,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:3047d7657748ea76",
+          "title:07dd8beb3791940f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9634b5e75ef12012": {
+      "id": "defer:url:9634b5e75ef12012",
+      "at": "2026-11-19T08:58:53.783Z",
+      "firstAt": "2026-11-19T08:58:53.783Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:9634b5e75ef12012",
+        "title:7b0bae18e8ec3a2f"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+        "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+        "published": "Mon, 16 Nov 2026 23:00:05 +0000",
+        "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg"
+        ],
+        "ageHours": 58,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:9634b5e75ef12012",
+          "title:7b0bae18e8ec3a2f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a9995c40a3422c04": {
+      "id": "defer:url:a9995c40a3422c04",
+      "at": "2026-11-19T08:58:53.783Z",
+      "firstAt": "2026-11-19T08:58:53.783Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a9995c40a3422c04",
+        "title:cece5d11f4250ee9"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+        "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+        "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+        "published": "Mon, 16 Nov 2026 20:00:37 +0000",
+        "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-842x450.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/20261114_033237000_iOS-1.jpeg"
+        ],
+        "ageHours": 61,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:a9995c40a3422c04",
+          "title:cece5d11f4250ee9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:29d97cd3a9606bee": {
+      "id": "defer:url:29d97cd3a9606bee",
+      "at": "2026-11-19T08:58:53.783Z",
+      "firstAt": "2026-11-19T08:58:53.783Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:29d97cd3a9606bee",
+        "title:fb04f59fe7e95a69"
+      ],
+      "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+      "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+        "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "published": "Mon, 16 Nov 2026 18:00:47 +0000",
+        "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/Collibra-Agentic-Control-Ebook-Social-1.png"
+        ],
+        "ageHours": 63,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:29d97cd3a9606bee",
+          "title:fb04f59fe7e95a69"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4e397e27d38f36ea": {
+      "id": "defer:url:4e397e27d38f36ea",
+      "at": "2026-11-19T08:58:53.783Z",
+      "firstAt": "2026-11-19T08:58:53.783Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4e397e27d38f36ea",
+        "title:7152ec698ee09f71"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+        "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+        "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+        "published": "Mon, 16 Nov 2026 16:00:16 +0000",
+        "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376-842x450.jpg"
+        ],
+        "ageHours": 65,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4e397e27d38f36ea",
+          "title:7152ec698ee09f71"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -16951,11 +17014,50 @@
     },
     "2026-11-19T11:30+03:30": {
       "at": "2026-11-19T08:09:58.203Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0032831176,
-      "tokens": 72442,
-      "posts": []
+      "cost": 0.0026216288000000003,
+      "tokens": 57235,
+      "posts": [
+        {
+          "title": "سناتورها از کاخ سفید خواستند دفاع سایبری هوش مصنوعی را جدی بگیرد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 110,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0006775104,
+          "tokens": 22891,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-19T09:03:29.080Z"
+        },
+        {
+          "title": "کامپیوترهای رومیزی RTX Spark انویدیا عرضه شدند",
+          "category": "models",
+          "status": "sent",
+          "messageId": 111,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/11-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0005406184,
+          "tokens": 24482,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-19T09:15:30.189Z"
+        }
+      ],
+      "category": "models",
+      "title": "کامپیوترهای رومیزی RTX Spark انویدیا عرضه شدند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/11-30-2",
+      "messageId": 111,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "43/43"
     }
   },
   "published": [
@@ -18602,93 +18704,129 @@
       "sourceTitle": "Google's AI feature in Search gets its own incognito mode | TechCrunch",
       "sourceText": "Google’s search engine has long offered an incognito mode for all those search queries you don’t want logged or associated with your account. Now, Google’s AI Mode in Search is getting a similar feature. In a blog post , the company announced a new feature that brings “temporary threads” to AI Mode, where the conversations you have won’t be resurfaced later in areas like your search history or recommendations.\nMany leading AI chatbots already offer the option for temporary chats, Google Gemini included. However, there was not yet an option to have a temporary chat when you’re searching Google and are dropped into its conversational interface, known as AI Mode.\nGoogle says that users won’t have to adjust their settings to take advantage of the new option. Instead, they’ll be able to click a temporary threads icon in the upper right corner of AI Mode to engage in a temporary chat. This essentially works the same as a temporary chat would in the stand-alone Gemini chatbot.\nThe option could be convenient to use at those times when you start digging deeper into a particular topic via AI Mode and realize that you don’t want the discussion to become a part of your search history because of its personal nature.\nOnce the temporary thread is started, the session becomes detached from your account, Google says. This means that the responses the AI provides won’t be informed by past preferences, nor will they impact future personalization. That could also be useful for those times when you want to learn about something as more of a one-off, but don’t want Google to start to think of th",
       "at": "2026-11-19T05:14:18.422Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-19T11:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "سناتورها از کاخ سفید خواستند دفاع سایبری هوش مصنوعی را جدی بگیرد",
+      "why": "ایجاد یک استراتژی هماهنگ ملی برای استفاده از توان فنی آمریکا در دفاع سایبری، می‌تونه زمان بین کشف یک آسیب‌پذیری بحرانی و محافظت مؤثر در برابر اون رو به شدت کاهش بده.",
+      "dedupe_key": "us-senate-ai-cyber-defense",
+      "post_key": "2026-11-19/11-30/1",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://therecord.media/ai-cyber-white-house",
+      "sourceTitle": "Lawmakers call on White House to develop defensive AI cyber systems",
+      "sourceText": "Two leading members of the Senate urged the White House on Tuesday to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.\nIn a letter to Director of National Intelligence Jay Clayton, Sens. Maria Cantwell (D-Wash.) and Mike Rounds (R-S.D.) warned that AI is “rapidly increasing the ability to discover and exploit weaknesses in software” and that the country’s defenses “are not keeping pace.”\n“The fundamental problem is that AI can discover software weaknesses and help attackers exploit them faster than many organizations can respond,” the senators said. “Even when fixes are available, testing and installing patches across interconnected systems can take weeks or months, potentially disrupting essential services.”\nThe letter cites recent incidents where AI was used to discover obscure bugs and power cyber intrusions in Japan . The senators also raised concerns from banks about AI agents, which are increasingly accessing bank accounts. Several U.S. banks have said they are unable to tell whether AI agents are rogue or are accessing data on behalf of customers.\nChinese-developed AI models are also being used widely for a variety of nefarious purposes, the lawmakers said.\nRounds is the chairman of the Senate Armed Services subcommittee on cybersecurity and has repeatedly called on the White House to do more to confront risks posed by AI.\nThe senators said the White House task force on AI, which Clayton chairs, needs to speed up the development and deployment of defensive AI-powered t",
+      "at": "2026-11-19T09:03:29.080Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-19T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "کامپیوترهای رومیزی RTX Spark انویدیا عرضه شدند",
+      "why": "اجرای مدل‌ها روی خود دستگاه یعنی فایل‌ها و کد روی همون کامپیوتر می‌مونن و خبری از هزینه‌های پرداخت‌به‌ازای-توکن ابری نیست.",
+      "dedupe_key": "nvidia-rtx-spark-launch",
+      "post_key": "2026-11-19/11-30/2",
+      "sourceId": "nvidia-ai-blog",
+      "sourceName": "NVIDIA AI Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "sourceTitle": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "sourceText": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC.\nWith up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks running while a laptop travels or handles other work.\nAlongside the new desktops, an expanding software ecosystem brings more creative and development workflows to RTX Spark laptops and compact desktops.\nNative Windows on Arm applications from Adobe, the NVIDIA DLSS Ray Reconstruction feature in Blender and local generation workflows in ComfyUI expand what creators and developers can do on RTX Spark — all on one Windows PC.\nAs workflows expand to include local AI models and agents, more work can continue beyond an active editing session — from generating assets to processing long renders or scheduled tasks.\nRTX Spark compact desktops give developers, creators and AI enthusiasts a dedicated Windows PC for local models and always-on agents. They bring together image and video generation, model fine-tuning, creative applications and development tools in one compact system.\nRunning supported models locally keeps locally processed code and files on the PC and avoids per-token cloud application programming interface (API) charges for those tasks.\nRTX Spark desktops are equipped with a 20-core NVIDIA Grace CPU, an NVIDIA Blackwell RTX GPU with 6,144 CUDA cores and up to ",
+      "at": "2026-11-19T09:15:30.189Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8472,
       "last_at": "2026-11-19T05:43:52+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "ai_farshad": {
       "last_id": 6467,
       "last_at": "2026-11-19T07:30:45+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7241,
-      "last_at": "2026-11-18T13:59:17+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "last_id": 7242,
+      "last_at": "2026-11-19T08:41:11+00:00",
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "techiin_ir": {
       "last_id": 20801,
       "last_at": "2026-11-18T18:46:12+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "asrnovin_ir": {
-      "last_id": 11491,
-      "last_at": "2026-11-18T19:54:37+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "last_id": 11493,
+      "last_at": "2026-11-19T08:34:49+00:00",
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "shayanode": {
       "last_id": 252,
       "last_at": "2026-11-18T16:38:57+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "codecloude": {
       "last_id": 2602,
       "last_at": "2026-11-19T06:29:05+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "dunijet_ai": {
       "last_id": 2584,
       "last_at": "2026-11-19T06:40:39+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "MatinSenPaii": {
       "last_id": 5911,
       "last_at": "2026-11-18T17:17:27+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-19T08:02:03.955Z"
+      "checked_at": "2026-11-19T08:57:48.132Z"
     }
   },
   "offerReviews": [
@@ -22387,6 +22525,18 @@
       "slot": "2026-11-19T11:30+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7242",
+      "date": "2026-11-19",
+      "at": "2026-11-19T08:57:48.132Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖گوگل مدل جدید Gemini 4 Neon رو معرفی کرده که جایگاهش بین مدل سنگین‌تر Carbon و",
+      "url": "https://t.me/Mohammad_zammani/7242",
+      "reason": "denied_link",
+      "slot": "2026-11-19T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -22704,6 +22854,13 @@
       "url": "https://github.com/Immortal-Protocols/lastbook",
       "slot": "2026-11-19T08:30+03:30",
       "at": "2026-11-19T05:01:07.678Z"
+    },
+    {
+      "source": "tg-asr-novin",
+      "title": "قدرت هوش مصنوعی توی ساخت ویدیو",
+      "url": "https://t.me/asrnovin_ir/11492",
+      "slot": "2026-11-19T11:30+03:30",
+      "at": "2026-11-19T08:57:48.132Z"
     }
   ],
   "reviewPending": {},

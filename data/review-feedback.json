@@ -4980,6 +4980,52 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "a7e72545f6": {
+      "id": "a7e72545f6",
+      "messageId": 68,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-19T11:30+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-mohammad-zammani",
+      "sourceName": "هوش مصنوعی | محمد زمانی",
+      "sourceType": "telegram_channel",
+      "title": "🤖گوگل مدل جدید Gemini 4 Neon رو معرفی کرده که جایگاهش بین مدل سنگین‌تر Carbon و",
+      "url": "https://t.me/Mohammad_zammani/7242",
+      "leadPostUrl": "https://t.me/Mohammad_zammani/7242",
+      "messageText": "🤖گوگل مدل جدید Gemini 4 Neon رو معرفی کرده که جایگاهش بین مدل سنگین‌تر Carbon و مدل سریع‌تر Hydrogen قرار می‌گیره. این چهارمین مدلی هست که Google DeepMind فقط تو هفت هفته گذشته بیرون داده و قراره تعادلی بین هوش بالا، سرعت و هزینه برای برنامه‌نویسی، کارهای دانشی و علمی ایجاد کنه.\n\n​انتشار Neon همین الان تو نسخه پولی Gemini API (داخل AI Studio و Android Studio)، سرویس Gemini برای کسب‌وکارها و همین‌طور اپلیکیشن Gemini و پلتفرم Antigravity برای مشترک‌های Pro و Ultra شروع شده.\n\nقیمتش به ازای هر یک میلیون توکن ورودی ۳ دلار، خروجی ۱۵ دلار و ورودی کش‌شده ۰.۱۵ دلاره. این مدل پنجره کانتکس یک میلیون توکنی داره، فایل‌های PDF، اسپردشیت، نمودار، صوت و ویدیو رو هندل می‌کنه و با چهار سطح تفکر مختلف عرضه می‌شه.\n\nبه گفته گوگل، تو حالت پیش‌فرض هزینه هر تسکش ۳۲ درصد کمتر از Carbon هست و تو Antigravity می‌تونه به‌عنوان ارکستریتور چند ساب‌ایجنت Hydrogen رو هم‌زمان مدیریت کنه.\n\n​تو بنچمارک‌ها هم عملکردش قابل توجه بوده. روی CursorBench 4.1 با امتیاز ۶۵.۴ درصد رتبه اول رو گرفته و از Claude Opus 5.5 (با ۵۸.۱ درصد) جلو زده. تو شاخص Coding Agent از Artificial Analysis هم اول شده.\n\nتو Agent Arena Index با ۱۳۳۶ امتیاز مستقیم رفته رتبه دوم و از Carbon و Claude Opus 5.5 عبور کرده؛ اون هم با میانه هزینه ۲.۸۲ دلار برای هر تسک که ۵۳ درصد ارزان‌تر از Opus 5.5 هست. تو Vals Index هم با ۷۰.۹ درصد دوم شده و تو بخش‌های مالی و حقوقی رتبه اول رو گرفته.\n\n​در بخش ایمنی، گوگل می‌گه Neon همون سطح حفاظت Carbon رو حفظ کرده، ولی درخواست‌های مجاز کاربران رو خیلی کمتر رد می‌کنه و تو تست‌های داخلی Antigravity کمترین نرخ توهم و خطای ساخت اطلاعات رو تا امروز ثبت کرده.\n\n✈️@mohammad_zammani\n📱Mohammad.zammani.offical\n\nPlease …",
+      "relatedLinks": [
+        "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/LH9_NrDNL_DnJ-uNSKc60MFj4ZMISKurZ0RSnpKxNfhggtY3ORMn9Lf4LGLFPH3g4D-oKGA-R5Qex87wBealQoyb7xpgoCtjMEROC2zBOBpgdfbCCfrCyzOOurHwLXnZTdzrZpuWrHMUmhQEptxhOhW3mSGLC7tervTGqfXZk2GrtD3ucvGLkWAjh2OvQ8ZM461dwvudu_KC12vo-ItI8MMWe7HtERZUP-rAcQfIPYP73uOAoic-elUxqq8yLwxIbjYE2APceY3sHxaLsMV8YGeJ4X3EGNF6_g9QUjWJvMLj8JvR21-LBvYBEscXDvRZfvHAzDus6HHg78vGEhqk-g.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-19T08:41:11+00:00",
+      "keys": [
+        "url:b237cf15c7ab6990",
+        "title:13e44f43bd5a5126"
+      ],
+      "benchmark": true,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T08:57:48.132Z",
+      "updatedAt": "2026-11-19T08:57:48.132Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
