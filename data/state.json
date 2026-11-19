@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T14:36:53.472Z",
+  "updatedAt": "2026-11-19T17:04:27.819Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -12353,6 +12353,150 @@
       "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
       "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
       "benchmark": true
+    },
+    "url:eb17d4436b2800a4": {
+      "at": "2026-11-19T17:01:33.857Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
+      "url": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course"
+    },
+    "title:e3d7637931703202": {
+      "at": "2026-11-19T17:01:33.857Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
+      "url": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course"
+    },
+    "url:2e4e93d353a4d542": {
+      "at": "2026-11-19T17:01:33.857Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "Model Compression Beyond Quantization",
+      "url": "https://machinelearningmastery.com/model-compression-beyond-quantization"
+    },
+    "title:0b28cea53ca15fc5": {
+      "at": "2026-11-19T17:01:33.857Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "Model Compression Beyond Quantization",
+      "url": "https://machinelearningmastery.com/model-compression-beyond-quantization"
+    },
+    "url:8f6af8c44a4a1bfb": {
+      "at": "2026-11-19T17:01:35.755Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    "title:ca9ae2ac51e3953f": {
+      "at": "2026-11-19T17:01:35.755Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    "url:c19f50a3e9a385a8": {
+      "at": "2026-11-19T17:01:36.554Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
+      "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol"
+    },
+    "title:dd957d6ab4f5fe9c": {
+      "at": "2026-11-19T17:01:36.554Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
+      "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol"
+    },
+    "url:f2a41102275aaf10": {
+      "at": "2026-11-19T17:01:41.889Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "✅ مایکروسافت از مدل‌های جدید خانواده MAI رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20806"
+    },
+    "title:00b07b1ee3ce5ed6": {
+      "at": "2026-11-19T17:01:41.889Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "✅ مایکروسافت از مدل‌های جدید خانواده MAI رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20806"
+    },
+    "url:61e723f242fcdb77": {
+      "at": "2026-11-19T17:02:56.685Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "آنتروپیک قراره با وال استریت کاری کنه که تاریخ بورس تا سه هفته نتونه کمر راست",
+      "url": "https://t.me/Mohammad_zammani/7246"
+    },
+    "title:2f8c82cf33a940fc": {
+      "at": "2026-11-19T17:02:56.685Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "آنتروپیک قراره با وال استریت کاری کنه که تاریخ بورس تا سه هفته نتونه کمر راست",
+      "url": "https://t.me/Mohammad_zammani/7246"
+    },
+    "url:af8760fc4665f3d0": {
+      "at": "2026-11-19T17:03:57.473Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "وبسایت JasonZhu. AI یه کتابخونه رایگان از موشن‌گرافیک، ویدیو و بازی‌هایی داره که با خانواده کلود",
+      "url": "https://jasonzhu.ai/en/prompts/claude-opus-5-5"
+    },
+    "title:15efcff96b5df018": {
+      "at": "2026-11-19T17:03:57.473Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "وبسایت JasonZhu. AI یه کتابخونه رایگان از موشن‌گرافیک، ویدیو و بازی‌هایی داره که با خانواده کلود",
+      "url": "https://jasonzhu.ai/en/prompts/claude-opus-5-5"
+    },
+    "url:f9562d45ca6de5ed": {
+      "at": "2026-11-19T17:04:27.817Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "کالیفرنیا می‌خواد یه کلید خاموشی دولتی برای مدل‌های AI خطرناک داشته باشه",
+      "url": "http://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch",
+      "benchmark": false
+    },
+    "title:b50b70043dfb57e9": {
+      "at": "2026-11-19T17:04:27.817Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-19T20:30+03:30",
+      "title": "کالیفرنیا می‌خواد یه کلید خاموشی دولتی برای مدل‌های AI خطرناک داشته باشه",
+      "url": "http://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -12460,59 +12604,11 @@
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
-    "defer:url:fd0f1695410f8d6e": {
-      "id": "defer:url:fd0f1695410f8d6e",
-      "at": "2026-11-19T08:02:54.502Z",
-      "firstAt": "2026-11-19T08:02:54.502Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:fd0f1695410f8d6e",
-        "title:72ae0ecdd1d93f6b"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-        "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-        "canonical": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
-        "published": "Wed, 18 Nov 2026 23:17:28 +0000",
-        "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-        "images": [],
-        "ageHours": 8.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:fd0f1695410f8d6e",
-          "title:72ae0ecdd1d93f6b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:7d70f65f13463d84": {
       "id": "defer:url:7d70f65f13463d84",
-      "at": "2026-11-19T08:09:57.164Z",
+      "at": "2026-11-19T17:03:56.629Z",
       "firstAt": "2026-11-19T08:09:57.164Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "qa_failed",
       "reasons": [
         "qa_failed"
@@ -12553,18 +12649,23 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:7d70f65f13463d84",
+          "attempts": 1
+        }
       },
       "detail": "grounding_superlatives"
     },
     "defer:url:3047d7657748ea76": {
       "id": "defer:url:3047d7657748ea76",
-      "at": "2026-11-19T08:58:53.783Z",
+      "at": "2026-11-19T17:03:56.686Z",
       "firstAt": "2026-11-19T08:58:53.783Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
+      "attempts": 1,
+      "reason": "fetch_failed",
       "reasons": [
-        "category_consecutive"
+        "category_consecutive",
+        "fetch_failed"
       ],
       "keys": [
         "url:3047d7657748ea76",
@@ -12601,8 +12702,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:3047d7657748ea76",
+          "attempts": 0
+        }
+      },
+      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
     "defer:url:9634b5e75ef12012": {
       "id": "defer:url:9634b5e75ef12012",
@@ -12750,57 +12856,6 @@
         "keys": [
           "url:29d97cd3a9606bee",
           "title:fb04f59fe7e95a69"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4e397e27d38f36ea": {
-      "id": "defer:url:4e397e27d38f36ea",
-      "at": "2026-11-19T08:58:53.783Z",
-      "firstAt": "2026-11-19T08:58:53.783Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4e397e27d38f36ea",
-        "title:7152ec698ee09f71"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
-      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-        "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-        "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
-        "published": "Mon, 16 Nov 2026 16:00:16 +0000",
-        "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376-842x450.jpg"
-        ],
-        "ageHours": 65,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4e397e27d38f36ea",
-          "title:7152ec698ee09f71"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13458,97 +13513,6 @@
         "keys": [
           "url:3b3be741a87f5e21",
           "title:027c6b77f0b15e3f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c19f50a3e9a385a8": {
-      "id": "defer:url:c19f50a3e9a385a8",
-      "at": "2026-11-19T10:31:56.690Z",
-      "firstAt": "2026-11-19T10:31:56.690Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:c19f50a3e9a385a8",
-        "title:dd957d6ab4f5fe9c"
-      ],
-      "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
-      "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
-      "candidate": {
-        "sourceId": "artificial-analysis-articles",
-        "sourceName": "Artificial Analysis Articles",
-        "sourceType": "benchmark",
-        "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
-        "link": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
-        "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
-        "published": "2026-11-17",
-        "summary": "",
-        "images": [],
-        "ageHours": 58.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c19f50a3e9a385a8",
-          "title:dd957d6ab4f5fe9c"
-        ]
-      }
-    },
-    "defer:url:742a0adaef2e2544": {
-      "id": "defer:url:742a0adaef2e2544",
-      "at": "2026-11-19T10:31:56.690Z",
-      "firstAt": "2026-11-19T10:31:56.690Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:742a0adaef2e2544",
-        "title:bc75e5bb1051c06c"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
-      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-        "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
-        "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
-        "published": "Mon, 16 Nov 2026 16:00:51 +0000",
-        "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/lambda-photonics/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1-842x450.jpeg"
-        ],
-        "ageHours": 66.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:742a0adaef2e2544",
-          "title:bc75e5bb1051c06c"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -14711,58 +14675,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:8f02058f4a02dc51": {
-      "id": "defer:url:8f02058f4a02dc51",
-      "at": "2026-11-19T14:32:05.476Z",
-      "firstAt": "2026-11-19T14:32:05.476Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:8f02058f4a02dc51",
-        "title:cf1ea7c31e12e1e3"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
-      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-        "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
-        "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
-        "published": "Mon, 16 Nov 2026 16:00:01 +0000",
-        "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1-842x450.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-press-hpc-nvl4-tray-rack-1600x900-5802807.jpg"
-        ],
-        "ageHours": 70.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:8f02058f4a02dc51",
-          "title:cf1ea7c31e12e1e3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:abd04dc00b8ba51e": {
       "id": "defer:url:abd04dc00b8ba51e",
       "at": "2026-11-19T14:32:05.476Z",
@@ -14809,6 +14721,245 @@
         "keys": [
           "url:abd04dc00b8ba51e",
           "title:b83315e9c96fd91b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:56f5de5b11aedbd4": {
+      "id": "defer:url:56f5de5b11aedbd4",
+      "at": "2026-11-19T17:02:56.695Z",
+      "firstAt": "2026-11-19T17:02:56.695Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:56f5de5b11aedbd4",
+        "title:436985733c77fb99"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+      "title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
+        "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+        "canonical": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+        "published": "Thu, 19 Nov 2026 16:59:23 +0000",
+        "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+        "images": [],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:56f5de5b11aedbd4",
+          "title:436985733c77fb99"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:74b46c8b5e6ae130": {
+      "id": "defer:url:74b46c8b5e6ae130",
+      "at": "2026-11-19T17:02:56.695Z",
+      "firstAt": "2026-11-19T17:02:56.695Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:74b46c8b5e6ae130",
+        "title:9a4e099c690f9820"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+        "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+        "canonical": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+        "published": "Thu, 19 Nov 2026 16:19:41 +0000",
+        "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+        "images": [],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:74b46c8b5e6ae130",
+          "title:9a4e099c690f9820"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:aa1a53ab0b9722f7": {
+      "id": "defer:url:aa1a53ab0b9722f7",
+      "at": "2026-11-19T17:02:56.695Z",
+      "firstAt": "2026-11-19T17:02:56.695Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:aa1a53ab0b9722f7",
+        "title:577da6b959631082"
+      ],
+      "canonical": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+      "title": "European Commission confirms cyberattack, says hackers used AI tool",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "European Commission confirms cyberattack, says hackers used AI tool",
+        "link": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+        "canonical": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+        "published": "Thu, 19 Nov 2026 15:15:00 GMT",
+        "summary": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+        "images": [
+          "http://cms.therecord.media/uploads/30917367864_8dc9286dcf_o_dc03237cec.jpg"
+        ],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:aa1a53ab0b9722f7",
+          "title:577da6b959631082"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:559b89dfb99f77d3": {
+      "id": "defer:url:559b89dfb99f77d3",
+      "at": "2026-11-19T17:02:56.695Z",
+      "firstAt": "2026-11-19T17:02:56.695Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:559b89dfb99f77d3",
+        "title:9b95078babe04083"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+        "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+        "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+        "published": "Thu, 19 Nov 2026 14:54:39 +0000",
+        "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+        "images": [],
+        "ageHours": 2.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:559b89dfb99f77d3",
+          "title:9b95078babe04083"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e45fd791e1fe03c2": {
+      "id": "defer:url:e45fd791e1fe03c2",
+      "at": "2026-11-19T17:02:56.695Z",
+      "firstAt": "2026-11-19T17:02:56.695Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:e45fd791e1fe03c2",
+        "title:0902342b955319e0"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+      "title": "External sandboxes for coding agents",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "External sandboxes for coding agents",
+        "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+        "canonical": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+        "published": "2026-11-17T22:52:29+00:00",
+        "summary": "<p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab behind Superpowers and <a href=\"https://github.com/orgs/prime-radiant-inc/repositories\">other projects</a>.</p> <p><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">My post</a> on the Prime Radiant blog introduces the <strong>external sandbox</strong> pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.</p> <p>To demonstrate this pattern we've released three sandbox server implementations:</p> <ul> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-v86\">external-sandbox-v86</a> runs a Node.js server which then uses <a href=\"https://github.com/copy/v86\">v86</a> to run Alpine Linux inside WebAssembly.</li> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-container\">external-sandbox-container</a> is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.</li> <li><a href=\"https://github.com/prime-radiant-inc/external-sandbox-quicksand\">external-sandbox-quicksand</a> is another Python web server, this time using Microsoft's <a href=\"https://github.com/microsoft/quicksand\">Quicksand</a> sandboxing library, which bundles QEMU <em>and</em> Alpine Linux in a Python package!</li> </ul> <p>Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code.</p> <p>The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret with the agent. Here's the UI you can use to reconfigure that proxy while the sandbox is still running:</p> <p><img alt=\"The network policy page with allowed destinations, the policy JSON editor and recent proxy activity\" src=\"https://static.simonwillison.net/static/2026/sandbox-proxy.png\" /></p> <p>I continue to be fascinated by the challenge of safely running untrusted code. This external sandbox pattern provides a neat way to experiment with different approaches. <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a>, <a href=\"https://simonwillison.net/tags/pi\">pi</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+        "images": [],
+        "ageHours": 42.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:e45fd791e1fe03c2",
+          "title:0902342b955319e0"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -17344,6 +17495,37 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "42/43"
+    },
+    "2026-11-19T20:30+03:30": {
+      "at": "2026-11-19T17:04:27.817Z",
+      "status": "sent",
+      "category": "business",
+      "title": "کالیفرنیا به مقامات قدرت قطع اضطراری هوش مصنوعی می‌دهد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/20-30",
+      "messageId": 114,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0027888952000000005,
+      "tokens": 51851,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "کالیفرنیا به مقامات قدرت قطع اضطراری هوش مصنوعی می‌دهد",
+          "category": "business",
+          "status": "sent",
+          "messageId": 114,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003033912,
+          "tokens": 10008,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-19T17:04:27.816Z"
+        }
+      ]
     }
   },
   "published": [
@@ -19062,93 +19244,111 @@
       "sourceTitle": "GPT‑6.2 Astra and GPT‑6.2 Sol",
       "sourceText": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.\nThey're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models.\n6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions.\nGPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).\nHere are the pelicans for GPT-6.2 Sol and for GPT-6.2 Astra . The 6.2 Astra max pelican looks like this:\nI have a full comparison grid here , but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases:\nI also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI:\nMake a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\nHere's Sol and here's Astra . Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to Claude Fable 5.2 and Gemini 4 Carbon .\nThis video showing the Astra and Sol animations playing out at the same time:\nI created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting:\nhttps://static.s",
       "at": "2026-11-19T14:36:53.470Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-19T20:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "کالیفرنیا به مقامات قدرت قطع اضطراری هوش مصنوعی می‌دهد",
+      "why": "با این قدرت، کالیفرنیا می‌تونه اولین ایالت آمریکا باشه که اختیار توقف اضطراری سیستم‌های هوش مصنوعی رو داره؛ یعنی مرز جدیدی برای نظارت دولتی روی این فناوری.",
+      "dedupe_key": "california-ai-kill-switch-policy",
+      "post_key": "2026-11-19/20-30/1",
+      "sourceId": "tg-dunijet-ai",
+      "sourceName": "دانیجت | Dunijet",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch/",
+      "sourceTitle": "Newsom touts an AI kill switch to halt dangerous OpenAI, Anthropic releases",
+      "sourceText": "کالیفرنیا می‌خواد یه کلید خاموشی دولتی برای مدل‌های AI خطرناک داشته باشه\n\nپنل کارشناسی فرماندار Newsom پیشنهاد داده که مقامات بتونن وقتی آزمایشگاه‌هایی مثل OpenAI یا Anthropic خودشون یه سیستم خرابکار رو مهار نمی‌کنن، دستور خاموشی اضطراری بدن.\n\nهمچنین حسابرس‌های مستقل دارای مجوز، گزارش حادثه توی ۴۸ ساعت (به جای ۱۵ روز) و اثبات اینکه مدل‌های بزرگ واقعا قابل خاموش شدن هستن هم پیشنهاد شده. نمایندگان ۷ دسامبر برمی‌گردن و فعلا فقط یه پیشنهاده:\n\ncalmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch/\n\n@dunijet_ai\n\n❤6",
+      "at": "2026-11-19T17:04:27.817Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8477,
-      "last_at": "2026-11-19T13:42:47+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "last_id": 8481,
+      "last_at": "2026-11-19T15:28:25+00:00",
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "ai_farshad": {
-      "last_id": 6468,
-      "last_at": "2026-11-19T10:33:30+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "last_id": 6471,
+      "last_at": "2026-11-19T16:57:24+00:00",
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7245,
-      "last_at": "2026-11-19T11:49:05+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "last_id": 7247,
+      "last_at": "2026-11-19T15:54:49+00:00",
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "techiin_ir": {
-      "last_id": 20805,
-      "last_at": "2026-11-19T13:34:01+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "last_id": 20806,
+      "last_at": "2026-11-19T16:58:34+00:00",
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "asrnovin_ir": {
-      "last_id": 11493,
-      "last_at": "2026-11-19T08:34:49+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "last_id": 11494,
+      "last_at": "2026-11-19T16:30:48+00:00",
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "shayanode": {
-      "last_id": 252,
-      "last_at": "2026-11-18T16:38:57+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "last_id": 253,
+      "last_at": "2026-11-19T16:28:34+00:00",
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "codecloude": {
       "last_id": 2603,
       "last_at": "2026-11-19T12:07:34+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "dunijet_ai": {
-      "last_id": 2585,
-      "last_at": "2026-11-19T11:42:48+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "last_id": 2586,
+      "last_at": "2026-11-19T15:42:02+00:00",
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "Sajadverse": {
       "last_id": 1257,
       "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "MatinSenPaii": {
       "last_id": 5913,
       "last_at": "2026-11-19T12:27:02+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-19T14:31:46.391Z"
+      "checked_at": "2026-11-19T17:01:19.691Z"
     }
   },
   "offerReviews": [
@@ -22941,6 +23141,42 @@
       "url": "https://elements.envato.com/ai/ai-video-generator/",
       "reason": "source_not_official",
       "slot": "2026-11-19T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-techiin|https://t.me/techiin_ir/20806",
+      "date": "2026-11-19",
+      "at": "2026-11-19T17:01:19.691Z",
+      "source": "tg-techiin",
+      "title": "✅ مایکروسافت از مدل‌های جدید خانواده MAI رونمایی کرد",
+      "url": "https://t.me/techiin_ir/20806",
+      "reason": "denied_link",
+      "slot": "2026-11-19T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7246",
+      "date": "2026-11-19",
+      "at": "2026-11-19T17:01:19.691Z",
+      "source": "tg-mohammad-zammani",
+      "title": "آنتروپیک قراره با وال استریت کاری کنه که تاریخ بورس تا سه هفته نتونه کمر راست",
+      "url": "https://t.me/Mohammad_zammani/7246",
+      "reason": "denied_link",
+      "slot": "2026-11-19T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-mohammad-zammani|https://jasonzhu.ai/en/prompts/claude-opus-5-5",
+      "date": "2026-11-19",
+      "at": "2026-11-19T17:01:19.691Z",
+      "source": "tg-mohammad-zammani",
+      "title": "Claude 5.5 Prompt Library (Opus · Sonnet · Haiku · Fable): Video, Motion, 3D & Games",
+      "url": "https://jasonzhu.ai/en/prompts/claude-opus-5-5",
+      "reason": "source_not_official",
+      "slot": "2026-11-19T20:30+03:30",
       "kind": "offer",
       "mainEligible": false
     }
