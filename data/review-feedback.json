@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883533,
+  "offset": 659883538,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -5839,6 +5839,10 @@
     },
     "8ec34f495b": {
       "id": "8ec34f495b",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T19:31:05.772Z",
+      "updatedAt": "2026-11-19T19:31:05.772Z",
       "messageId": 83,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T23:00+03:30",
@@ -5881,15 +5885,15 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T19:31:05.772Z",
-      "updatedAt": "2026-11-19T19:31:05.772Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "86959176d3": {
       "id": "86959176d3",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T19:31:05.772Z",
+      "updatedAt": "2026-11-19T19:31:05.772Z",
       "messageId": 84,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T23:00+03:30",
@@ -5931,15 +5935,15 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T19:31:05.772Z",
-      "updatedAt": "2026-11-19T19:31:05.772Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "50f77ecbb0": {
       "id": "50f77ecbb0",
+      "status": "rejected",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T19:31:05.772Z",
+      "updatedAt": "2026-11-19T19:52:06.641Z",
       "messageId": 85,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T23:00+03:30",
@@ -5982,19 +5986,20 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T19:31:05.772Z",
-      "updatedAt": "2026-11-19T19:31:05.772Z",
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-19T19:52:06.641Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "fbb7d41f19": {
       "id": "fbb7d41f19",
-      "messageId": 86,
+      "status": "sent",
+      "rewrites": 1,
+      "createdAt": "2026-11-19T19:31:05.772Z",
+      "updatedAt": "2026-11-19T19:51:29.498Z",
+      "messageId": 89,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T23:00+03:30",
-      "reason": "research_paper",
+      "reason": "manual_rewrite",
       "kind": "post",
       "source": "hf-papers",
       "sourceName": "Hugging Face Daily Papers",
@@ -6016,21 +6021,60 @@
       "offerHint": false,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
-      "post": null,
+      "mainEligible": true,
+      "qaPass": true,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "models",
+        "post_type": "standard",
+        "importance": 3,
+        "title": "روشی جدید برای ترکیب استدلال دیداری و متنی در مدل‌های زبانی",
+        "body": "محققان روشی به نام AVTR معرفی کردن که به مدل‌های زبانی-دیداری اجازه می‌ده موقع حل مسئله، هم از استدلال متنی و هم از «تخیل دیداری» استفاده کنن. این روش روی ۱۶ بنچمارک، میانگین امتیاز رو ۴.۵ نمره نسبت به مدل پایه Qwen3.5 بالا برده و زمان استنتاج رو ۳۳٪ کم کرده. AVTR توی مدل‌های کوچک‌تر هم خوب کار می‌کنه و از مدل‌های هم‌اندازه ۲B بهتر عمل می‌کنه.\n\nاین روش می‌تونه مدل‌ها رو برای سؤال‌هایی که جوابشون به جزئیات تصویر بستگی داره دقیق‌تر کنه و در عین حال برای سؤال‌های ساده، خروجی اضافه تولید نکنه.\n\nمنبع: [Hugging Face Daily Papers](https://huggingface.co/papers/2611.24161)",
+        "quote": "ایده اصلی اینه که مدل به‌جای اینکه همیشه فقط روی متن تکیه کنه، بتونه تصویر رو دوباره مرور کنه و شواهد مهم رو با بازتاب دیداری استخراج کنه. انتخاب اینکه برای هر ورودی از کدوم نوع استدلال استفاده بشه هم به‌صورت خودکار و با یادگیری انجام می‌شه.",
+        "key_facts": [
+          "AVTR روی ۱۶ بنچمارک میانگین امتیاز را ۴.۵ نمره نسبت به Qwen3.5 افزایش می‌دهد",
+          "زمان استنتاج ۳۳٪ کاهش یافته",
+          "در مدل‌های کوچک‌تر از مدل‌های هم‌اندازه 2B بهتر عمل می‌کند"
+        ],
+        "numbers": [
+          {
+            "label": "بهبود میانگین امتیاز",
+            "value": "4.5",
+            "unit": "نمره"
+          },
+          {
+            "label": "کاهش زمان استنتاج",
+            "value": "33",
+            "unit": "٪"
+          }
+        ],
+        "entities": {
+          "companies": [],
+          "models": [
+            "Qwen3.5",
+            "AVTR"
+          ],
+          "people": []
+        },
+        "verification": "reported",
+        "source_url": "https://huggingface.co/papers/2611.24161",
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24161/gradient.png",
+        "dedupe_key": "avtr-adaptive-visual-textual-reasoning"
+      },
       "expiry": null,
       "note": "",
       "noteAt": "",
       "noteBy": "",
       "noteRewriteUsed": false,
-      "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T19:31:05.772Z",
-      "updatedAt": "2026-11-19T19:31:05.772Z",
-      "lastActionAt": "",
-      "sentAt": ""
+      "previousMessageIds": [
+        86
+      ],
+      "lastActionAt": "2026-11-19T19:51:29.498Z",
+      "sentAt": "2026-11-19T19:51:29.498Z",
+      "manual": true,
+      "lastAction": "publish"
     }
   },
   "actions": [
@@ -6251,6 +6295,33 @@
       "actor": "queued"
     },
     {
+      "at": "2026-11-19T19:50:55.968Z",
+      "action": "rewrite",
+      "itemId": "fbb7d41f19",
+      "source": "hf-papers",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001577",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-19T19:51:29.498Z",
+      "action": "publish",
+      "itemId": "fbb7d41f19",
+      "source": "hf-papers",
+      "reason": "",
+      "detail": "message=116 photo",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-19T19:52:06.641Z",
+      "action": "reject",
+      "itemId": "50f77ecbb0",
+      "source": "tg-techiin",
+      "reason": "duplicate",
+      "detail": "✅ هوش مصنوعی قدرتمند و پرسرعت جمینای 4 نئون رونمایی شد",
+      "actor": "Amir_ch13"
+    },
+    {
       "at": "2026-11-19T19:48:31.351Z",
       "action": "publish",
       "itemId": "ac56648c92",
@@ -6268,10 +6339,10 @@
       "lastAt": "2026-11-15T14:42:17.514Z"
     },
     "tg-techiin": {
-      "rejects": 2,
+      "rejects": 3,
       "rewrites": 1,
       "publishes": 0,
-      "lastAt": "2026-11-16T11:20:10.138Z"
+      "lastAt": "2026-11-19T19:52:06.641Z"
     },
     "tg-archive-tell": {
       "rejects": 0,
@@ -6331,13 +6402,19 @@
       "rejects": 0,
       "rewrites": 1,
       "publishes": 1,
-      "lastAt": "2026-11-19T19:48:31.351Z"
+      "lastAt": "2026-11-19T11:30:08.073Z"
     },
     "google-models-research": {
       "rejects": 0,
       "rewrites": 0,
       "publishes": 1,
       "lastAt": "2026-11-19T14:05:56.596Z"
+    },
+    "hf-papers": {
+      "rejects": 0,
+      "rewrites": 1,
+      "publishes": 1,
+      "lastAt": "2026-11-19T19:51:29.498Z"
     }
   },
   "callbackRetries": {

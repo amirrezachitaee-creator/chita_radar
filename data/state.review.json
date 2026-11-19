@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T19:48:31.363Z",
+  "updatedAt": "2026-11-19T19:52:06.648Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -565,6 +565,42 @@
       "slot": "2026-11-19T23:09",
       "title": "فهرست ۳۶۳ مدل رایگان برای ساخت برنامه",
       "url": "https://www.freeinference.dev/"
+    },
+    "url:4808af62f6eea7f5": {
+      "at": "2026-11-19T19:51:29.502Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "models",
+      "slot": "2026-11-19T23:19",
+      "title": "روشی جدید برای ترکیب استدلال دیداری و متنی در مدل‌های زبانی",
+      "url": "https://huggingface.co/papers/2611.24161"
+    },
+    "title:ec76d48663f01d23": {
+      "at": "2026-11-19T19:51:29.502Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "models",
+      "slot": "2026-11-19T23:19",
+      "title": "روشی جدید برای ترکیب استدلال دیداری و متنی در مدل‌های زبانی",
+      "url": "https://huggingface.co/papers/2611.24161"
+    },
+    "url:452a90c57d8441a9": {
+      "at": "2026-11-19T19:52:06.641Z",
+      "decision": "review_reject",
+      "reason": "duplicate",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "✅ هوش مصنوعی قدرتمند و پرسرعت جمینای 4 نئون رونمایی شد",
+      "url": "https://t.me/techiin_ir/20807"
+    },
+    "title:99c090cf6650f82c": {
+      "at": "2026-11-19T19:52:06.641Z",
+      "decision": "review_reject",
+      "reason": "duplicate",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "✅ هوش مصنوعی قدرتمند و پرسرعت جمینای 4 نئون رونمایی شد",
+      "url": "https://t.me/techiin_ir/20807"
     }
   },
   "deferred": {},
