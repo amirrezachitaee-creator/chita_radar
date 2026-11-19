@@ -5369,40 +5369,92 @@
       "chatId": "-1003917550874",
       "slot": "2026-11-19T17:00+03:30",
       "reason": "source_not_official",
-      "kind": "offer",
-      "source": "tg-dunijet-ai",
-      "sourceName": "دانیجت | Dunijet",
-      "sourceType": "telegram_channel",
+      "kind": "post",
+      "source": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
       "title": "Introducing Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
       "leadPostUrl": "https://t.me/dunijet_ai/2585",
       "messageText": "🤖 مدل Gemini 4 Neon معرفی شد؛ سریع‌تر و ارزون‌تر از مدل‌های بزرگ‌تر\n\nشرکت Google DeepMind مدل جدید Gemini 4 Neon رو با پنجره زمینه ۱ میلیون توکن و قیمت ۳ دلار برای هر میلیون توکن ورودی (۰.۱۵ دلار برای کش، ۹۵٪ تخفیف) و ۱۵ دلار خروجی معرفی کرد. Neon توی شاخص Artificial Analysis با امتیاز ۶۱ رتبه سوم رو گرفته و توی Vals Index دوم شده.\n\nتوی بنچمارک‌های حقوقی و مالی رتبه اول رو داره؛ Legal Research Bench و Tax Agent Bench رو گرفته و توی AutomationBench زاپیر با ۵۶.۳٪ اول شده. برای کارهای کدنویسی طولانی و ایجنت‌محور هم ساخته شده و توی Google Antigravity قابل استفاده‌ست.\n\ndeepmind.google/blog/introducing-gemini-4-neon\n\n@dunijet_ai\n\n❤2",
-      "relatedLinks": [
-        "http://deepmind.google/blog/introducing-gemini-4-neon"
-      ],
+      "relatedLinks": [],
       "images": [
-        "https://cdn4.telesco.pe/file/slF0kccyeHSNfiESbTY-TQajTuCfa_Ms5XnVSnZdejXZ8tFBgxn5sKNyPBbtzf63e8EuGB4YRu3t4lEgHIW_S_cJE_UTQOrJ7v246GxzNmkxnt63oP0Zmsb6oHLuX9CUY4QIW1Ok_TABQntSxkuXXjnxII0XODgDKdTWBWItoQFE_VgkUmwr1d7_fHA-8eqC0yJvzVfYEwvWnoyEbEaQX46I86rqfVJBA6qFO3G-uw_a05TP3c74U_aVwKV0erYXea4JXzMuiF9eJoDBdWciO9maBe43zUafpmVlwvqqkrNVWGc3H6qKsy2MB37bH-PPDw5kHQi5rVon_Aj1QbpV6A.jpg"
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png"
       ],
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
       "publishedAt": "2026-11-18T21:00:00.000Z",
       "keys": [
         "url:edd7b1076b4798d5",
         "title:32ad3d5fa77066d7"
       ],
-      "benchmark": true,
+      "benchmark": false,
       "toolHint": false,
-      "offerHint": true,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
-      "post": null,
-      "expiry": {
-        "ok": false,
-        "reason": "expiry_missing",
-        "date": "",
-        "remainingHours": null,
-        "evidence": ""
+      "mainEligible": true,
+      "qaPass": true,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "models",
+        "post_type": "standard",
+        "importance": 4,
+        "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
+        "body": "گوگل دیپ‌مایند مدل جدید Gemini 4 Neon رو معرفی کرد؛ مدلی که برای کارهای طولانی کدنویسی و ایجنت‌محور ساخته شده. پنجره زمینه‌اش ۱ میلیون توکنه و قیمت ورودی هر میلیون توکن ۳ دلاره، یعنی با کش ۹۵٪ تخفیف می‌گیره و خروجی هر میلیون توکن هم ۱۵ دلار. توی شاخص Artificial Analysis با امتیاز ۶۱ رتبه سوم و توی Vals Index دوم شده. این مدل توی بنچمارک‌های حقوقی و مالی اوله؛ Legal Research Bench و Tax Agent Bench رو گرفته و توی AutomationBench زاپیر با ۵۶.۳٪ اول شده. Gemini 4 Neon الان توی Google Antigravity قابل استفاده‌ست.\n\nبا این قیمت و سرعت، تیم‌های کوچک هم می‌تونن کارهای سنگین ایجنت‌محور رو با هزینه کم اجرا کنن.\n\nمنبع: [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=)",
+        "quote": "",
+        "key_facts": [
+          "پنجره زمینه ۱ میلیون توکن",
+          "قیمت ورودی ۳ دلار برای هر میلیون توکن و خروجی ۱۵ دلار",
+          "رتبه سوم در Artificial Analysis با امتیاز ۶۱",
+          "رتبه اول در بنچمارک‌های حقوقی و مالی",
+          "در دسترس در Google Antigravity"
+        ],
+        "numbers": [
+          {
+            "label": "پنجره زمینه",
+            "value": "1",
+            "unit": "میلیون توکن"
+          },
+          {
+            "label": "قیمت ورودی",
+            "value": "3",
+            "unit": "دلار به ازای هر میلیون توکن"
+          },
+          {
+            "label": "قیمت خروجی",
+            "value": "15",
+            "unit": "دلار به ازای هر میلیون توکن"
+          },
+          {
+            "label": "تخفیف کش",
+            "value": "95",
+            "unit": "درصد"
+          },
+          {
+            "label": "امتیاز Artificial Analysis",
+            "value": "61",
+            "unit": ""
+          },
+          {
+            "label": "AutomationBench زاپیر",
+            "value": "56.3",
+            "unit": "درصد"
+          }
+        ],
+        "entities": {
+          "companies": [
+            "Google DeepMind"
+          ],
+          "models": [
+            "Gemini 4 Neon"
+          ],
+          "people": []
+        },
+        "verification": "official",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+        "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+        "dedupe_key": "google-gemini-4-neon-launch"
       },
       "note": "",
       "noteAt": "",
@@ -5411,9 +5463,14 @@
       "status": "pending",
       "rewrites": 0,
       "createdAt": "2026-11-19T13:31:03.674Z",
-      "updatedAt": "2026-11-19T13:31:03.674Z",
+      "updatedAt": "2026-11-19T13:46:12.669Z",
       "lastActionAt": "",
-      "sentAt": ""
+      "sentAt": "",
+      "manual": true,
+      "queuedPublish": {
+        "at": "2026-11-19T13:46:12.669Z",
+        "actor": "amir"
+      }
     },
     "1c32b2c838": {
       "id": "1c32b2c838",
