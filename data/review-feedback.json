@@ -6078,6 +6078,10 @@
     },
     "138fe2d80b": {
       "id": "138fe2d80b",
+      "status": "rejected",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T20:26:40.660Z",
+      "updatedAt": "2026-11-19T20:27:37.935Z",
       "messageId": 90,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T23:00+03:30",
@@ -6114,12 +6118,9 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T20:26:40.660Z",
-      "updatedAt": "2026-11-19T20:26:40.660Z",
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-19T20:27:37.935Z",
+      "sentAt": "",
+      "lastAction": "reject"
     }
   },
   "actions": [
@@ -6340,6 +6341,15 @@
       "actor": "queued"
     },
     {
+      "at": "2026-11-19T19:48:31.351Z",
+      "action": "publish",
+      "itemId": "ac56648c92",
+      "source": "offer-watch:free-inference",
+      "reason": "",
+      "detail": "message=115 text",
+      "actor": "Amir_ch13"
+    },
+    {
       "at": "2026-11-19T19:50:55.968Z",
       "action": "rewrite",
       "itemId": "fbb7d41f19",
@@ -6367,12 +6377,12 @@
       "actor": "Amir_ch13"
     },
     {
-      "at": "2026-11-19T19:48:31.351Z",
-      "action": "publish",
-      "itemId": "ac56648c92",
-      "source": "offer-watch:free-inference",
-      "reason": "",
-      "detail": "message=115 text",
+      "at": "2026-11-19T20:27:37.935Z",
+      "action": "reject",
+      "itemId": "138fe2d80b",
+      "source": "tg-ai-by-sadeghi",
+      "reason": "irrelevant",
+      "detail": "سلام دانشجویانی که اکانت کلاد اون ها بن شده یا احراز هویت میخواد و دیگه نمیتونن",
       "actor": "Amir_ch13"
     }
   ],
@@ -6387,7 +6397,7 @@
       "rejects": 3,
       "rewrites": 1,
       "publishes": 0,
-      "lastAt": "2026-11-19T19:52:06.641Z"
+      "lastAt": "2026-11-16T11:20:10.138Z"
     },
     "tg-archive-tell": {
       "rejects": 0,
@@ -6402,10 +6412,10 @@
       "lastAt": "2026-11-16T17:28:24.039Z"
     },
     "tg-ai-by-sadeghi": {
-      "rejects": 1,
+      "rejects": 2,
       "rewrites": 0,
       "publishes": 0,
-      "lastAt": "2026-11-16T17:28:36.683Z"
+      "lastAt": "2026-11-19T20:27:37.935Z"
     },
     "tg-thenima": {
       "rejects": 0,
@@ -6447,7 +6457,7 @@
       "rejects": 0,
       "rewrites": 1,
       "publishes": 1,
-      "lastAt": "2026-11-19T11:30:08.073Z"
+      "lastAt": "2026-11-19T19:48:31.351Z"
     },
     "google-models-research": {
       "rejects": 0,
@@ -6474,12 +6484,5 @@
       "at": "2026-11-16T23:55:37.553Z"
     }
   },
-  "pendingRejects": {
-    "138fe2d80b": {
-      "reason": "irrelevant",
-      "actor": "Amir_ch13",
-      "at": "2026-11-19T20:27:37.935Z",
-      "messageId": 90
-    }
-  }
+  "pendingRejects": {}
 }
