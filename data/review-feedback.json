@@ -6295,15 +6295,6 @@
       "actor": "queued"
     },
     {
-      "at": "2026-11-19T19:48:31.351Z",
-      "action": "publish",
-      "itemId": "ac56648c92",
-      "source": "offer-watch:free-inference",
-      "reason": "",
-      "detail": "message=115 text",
-      "actor": "Amir_ch13"
-    },
-    {
       "at": "2026-11-19T19:50:55.968Z",
       "action": "rewrite",
       "itemId": "fbb7d41f19",
@@ -6329,6 +6320,15 @@
       "reason": "duplicate",
       "detail": "✅ هوش مصنوعی قدرتمند و پرسرعت جمینای 4 نئون رونمایی شد",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-19T19:48:31.351Z",
+      "action": "publish",
+      "itemId": "ac56648c92",
+      "source": "offer-watch:free-inference",
+      "reason": "",
+      "detail": "message=115 text",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -6342,7 +6342,7 @@
       "rejects": 3,
       "rewrites": 1,
       "publishes": 0,
-      "lastAt": "2026-11-16T11:20:10.138Z"
+      "lastAt": "2026-11-19T19:52:06.641Z"
     },
     "tg-archive-tell": {
       "rejects": 0,
@@ -6402,7 +6402,7 @@
       "rejects": 0,
       "rewrites": 1,
       "publishes": 1,
-      "lastAt": "2026-11-19T19:48:31.351Z"
+      "lastAt": "2026-11-19T11:30:08.073Z"
     },
     "google-models-research": {
       "rejects": 0,
