@@ -5119,6 +5119,10 @@
     },
     "17d0162050": {
       "id": "17d0162050",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T11:22:50.057Z",
+      "updatedAt": "2026-11-19T11:22:50.057Z",
       "messageId": 71,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T14:00+03:30",
@@ -5159,15 +5163,15 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T11:22:50.057Z",
-      "updatedAt": "2026-11-19T11:22:50.057Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "1a983f32c4": {
       "id": "1a983f32c4",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T11:22:50.057Z",
+      "updatedAt": "2026-11-19T11:22:50.057Z",
       "messageId": 72,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T14:00+03:30",
@@ -5212,10 +5216,6 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T11:22:50.057Z",
-      "updatedAt": "2026-11-19T11:22:50.057Z",
       "lastActionAt": "",
       "sentAt": ""
     }
