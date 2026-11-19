@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T09:15:30.191Z",
+  "updatedAt": "2026-11-19T10:32:08.603Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -12101,405 +12101,63 @@
       "title": "NVIDIA RTX Spark Compact Desktops Out Now",
       "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
       "benchmark": false
+    },
+    "url:3ba4896b30f8c4be": {
+      "at": "2026-11-19T10:31:56.678Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T14:00+03:30",
+      "title": "🎙 دیکته در ChatGPT بدون محدودیت ده‌دقیقه‌ای",
+      "url": "https://t.me/ArchiveTell/8473"
+    },
+    "title:d92cb40358955310": {
+      "at": "2026-11-19T10:31:56.678Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T14:00+03:30",
+      "title": "🎙 دیکته در ChatGPT بدون محدودیت ده‌دقیقه‌ای",
+      "url": "https://t.me/ArchiveTell/8473"
+    },
+    "url:1c2cff6fe54921ce": {
+      "at": "2026-11-19T10:32:01.413Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-19T14:00+03:30",
+      "title": "Quoting Daniel Stenberg",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg"
+    },
+    "title:3e564cc2791855ca": {
+      "at": "2026-11-19T10:32:01.413Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-19T14:00+03:30",
+      "title": "Quoting Daniel Stenberg",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg"
+    },
+    "url:8d5048593a3dbabd": {
+      "at": "2026-11-19T10:32:08.601Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-19T14:00+03:30",
+      "title": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ",
+      "url": "http://elementalsouls.github.io/Claude-BugHunter"
+    },
+    "title:5bdc52900359aec2": {
+      "at": "2026-11-19T10:32:08.601Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-19T14:00+03:30",
+      "title": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ",
+      "url": "http://elementalsouls.github.io/Claude-BugHunter"
     }
   },
   "deferred": {
-    "defer:url:8f6af8c44a4a1bfb": {
-      "id": "defer:url:8f6af8c44a4a1bfb",
-      "at": "2026-11-18T17:05:05.143Z",
-      "firstAt": "2026-11-17T19:31:38.305Z",
-      "attempts": 1,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_consecutive",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:8f6af8c44a4a1bfb",
-        "title:ca9ae2ac51e3953f"
-      ],
-      "canonical": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Introducing GPT-6.2 Astra and Sol",
-        "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-        "canonical": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-        "published": "Tue, 17 Nov 2026 17:45:00 GMT",
-        "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-        "images": [],
-        "ageHours": 1.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:8f6af8c44a4a1bfb",
-          "title:ca9ae2ac51e3953f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:8f6af8c44a4a1bfb",
-          "attempts": 0
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:1030bbe139c979c4": {
-      "id": "defer:url:1030bbe139c979c4",
-      "at": "2026-11-18T17:05:05.104Z",
-      "firstAt": "2026-11-18T17:05:05.104Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:1030bbe139c979c4",
-        "title:a732f098d5fbdbb9"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
-      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-        "link": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-        "canonical": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
-        "published": "Wed, 18 Nov 2026 16:59:00 +0000",
-        "summary": "Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:1030bbe139c979c4",
-          "title:a732f098d5fbdbb9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e6de34d7c9a098b0": {
-      "id": "defer:url:e6de34d7c9a098b0",
-      "at": "2026-11-18T17:05:05.104Z",
-      "firstAt": "2026-11-18T17:05:05.104Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e6de34d7c9a098b0",
-        "title:a7f08457dddf3e73"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-        "link": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-        "canonical": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
-        "published": "Wed, 18 Nov 2026 16:14:09 +0000",
-        "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-        "images": [],
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:e6de34d7c9a098b0",
-          "title:a7f08457dddf3e73"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ddeaac3fa5abc9ef": {
-      "id": "defer:url:ddeaac3fa5abc9ef",
-      "at": "2026-11-18T17:05:05.104Z",
-      "firstAt": "2026-11-18T17:05:05.104Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ddeaac3fa5abc9ef",
-        "title:5b6077e179c237ca"
-      ],
-      "canonical": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author",
-      "title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
-        "link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
-        "canonical": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author",
-        "published": "Wed, 18 Nov 2026 16:09:08 +0000",
-        "summary": "The AI detection tool Pangram flags 99 percent of a prize-winning Peruvian novel as AI-generated, but Mexican publisher Almadía is standing by the award after its own review. Pangram also classified over 80 percent of the author's personal texts as machine-written. French publisher Gallimard plans to start screening manuscripts with the tool. The article Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/pangram_literature.png"
-        ],
-        "ageHours": 0.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:ddeaac3fa5abc9ef",
-          "title:5b6077e179c237ca"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1c2cff6fe54921ce": {
-      "id": "defer:url:1c2cff6fe54921ce",
-      "at": "2026-11-18T17:05:05.104Z",
-      "firstAt": "2026-11-18T17:05:05.104Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:1c2cff6fe54921ce",
-        "title:3e564cc2791855ca"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
-      "title": "Quoting Daniel Stenberg",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "Quoting Daniel Stenberg",
-        "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-        "canonical": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
-        "published": "2026-11-18T15:58:27+00:00",
-        "summary": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up?</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\">Daniel Stenberg</a>, Actual curl rewrites in Rust</p> <p>Tags: <a href=\"https://simonwillison.net/tags/daniel-stenberg\">daniel-stenberg</a>, <a href=\"https://simonwillison.net/tags/curl\">curl</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/c\">c</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/vibe-porting\">vibe-porting</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-        "images": [],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:1c2cff6fe54921ce",
-          "title:3e564cc2791855ca"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9d6cf46e7fc2630b": {
-      "id": "defer:url:9d6cf46e7fc2630b",
-      "at": "2026-11-18T17:05:05.105Z",
-      "firstAt": "2026-11-18T17:05:05.105Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:9d6cf46e7fc2630b",
-        "title:f9229375537b4665"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets",
-      "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
-        "link": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
-        "canonical": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets",
-        "published": "Wed, 18 Nov 2026 15:47:49 +0000",
-        "summary": "A Vals AI investigation shows that leading AI models from Anthropic, OpenAI and Google have almost no safeguards against use in autonomous weapons systems. In tests, the models readily flagged civilians as military targets, and a simple video game framing in the prompt was enough to override even belated refusals. The providers have promised fixes. The article Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/03/AI-Fake-Chain-of-Evidence.png"
-        ],
-        "ageHours": 1.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9d6cf46e7fc2630b",
-          "title:f9229375537b4665"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:37b7ae7dfe184c8a": {
-      "id": "defer:url:37b7ae7dfe184c8a",
-      "at": "2026-11-18T17:05:05.105Z",
-      "firstAt": "2026-11-18T17:05:05.105Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:37b7ae7dfe184c8a",
-        "title:2fbb844a32866ea0"
-      ],
-      "canonical": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
-      "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
-        "link": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
-        "canonical": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
-        "published": "Wed, 18 Nov 2026 14:40:52 +0000",
-        "summary": "Mistral's AI agent Vibe now has its own desktop app. The article Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
-        "images": [
-          "http://the-decoder.de/wp-content/uploads/2026/11/Mistral-Vibe-Desktop.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/07/mistral_ai-3.png"
-        ],
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:37b7ae7dfe184c8a",
-          "title:2fbb844a32866ea0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:327257876e3c3ffc": {
-      "id": "defer:url:327257876e3c3ffc",
-      "at": "2026-11-18T17:05:05.105Z",
-      "firstAt": "2026-11-18T17:05:05.105Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:327257876e3c3ffc",
-        "title:bb7c5337a8c44c70"
-      ],
-      "canonical": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time",
-      "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
-        "link": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
-        "canonical": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time",
-        "published": "Wed, 18 Nov 2026 14:36:42 +0000",
-        "summary": "OpenAI is giving four independent audit organizations, including Apollo Research and METR, direct access to unreleased models, source code, and training data for the first time. The embedded reviews are designed to uncover hidden misbehavior and safety gaps. OpenAI can redact or delay reports, so how independent this oversight actually turns out to be remains an open question. The article OpenAI opens its AI systems to four independent on-site auditors for the first time appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png"
-        ],
-        "ageHours": 2.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:327257876e3c3ffc",
-          "title:bb7c5337a8c44c70"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:aef632472a5e3af7": {
       "id": "defer:url:aef632472a5e3af7",
       "at": "2026-11-19T08:04:39.551Z",
@@ -12551,590 +12209,6 @@
         }
       },
       "detail": "tools"
-    },
-    "defer:url:b681a976efae2472": {
-      "id": "defer:url:b681a976efae2472",
-      "at": "2026-11-18T19:31:17.010Z",
-      "firstAt": "2026-11-18T19:31:17.010Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:b681a976efae2472",
-        "title:236e669d59c0892a"
-      ],
-      "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
-      "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
-        "link": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
-        "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
-        "published": "Wed, 18 Nov 2026 19:26:25 +0000",
-        "summary": "With Genie 4, Google DeepMind is launching its most realistic world model to date for Google AI Ultra subscribers. It generates interactive 3D worlds that can be modified in real time via text input and, for the first time, includes native sound. A community gallery allows users to share and remix the worlds they've created. The article Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/Genie-4-Google-title.png"
-        ],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b681a976efae2472",
-          "title:236e669d59c0892a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:2bf6f0805fe38a1e": {
-      "id": "defer:url:2bf6f0805fe38a1e",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:2bf6f0805fe38a1e",
-        "title:b06d273d77db7fe0"
-      ],
-      "canonical": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives",
-      "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
-        "link": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
-        "canonical": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives",
-        "published": "Wed, 18 Nov 2026 18:47:36 +0000",
-        "summary": "Microsoft's AI division MAI unveiled seven new models for code, security, images, language, and routing at Ignite. MAI Code 2 reaches 98 percent of GPT-6.1 Sol's performance at 40 percent of the cost, according to Microsoft. The models are built for running AI agents around the clock in enterprises. The article Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/06/microsoft_logo_red_pink.png"
-        ],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:2bf6f0805fe38a1e",
-          "title:b06d273d77db7fe0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6e60ec8c10b2996b": {
-      "id": "defer:url:6e60ec8c10b2996b",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:6e60ec8c10b2996b",
-        "title:b684a1e58d5bb0cd"
-      ],
-      "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
-      "title": "Will Wright's next simulation will use AI to mine content from your memories",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Will Wright's next simulation will use AI to mine content from your memories",
-        "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-        "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
-        "published": "Wed, 18 Nov 2026 18:10:33 +0000",
-        "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-500x500.png"
-        ],
-        "ageHours": 1.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:6e60ec8c10b2996b",
-          "title:b684a1e58d5bb0cd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:68a1101249d87f96": {
-      "id": "defer:url:68a1101249d87f96",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:68a1101249d87f96",
-        "title:971f66cfe81fd5e5"
-      ],
-      "canonical": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering",
-      "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
-        "link": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
-        "canonical": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering",
-        "published": "Wed, 18 Nov 2026 18:00:33 +0000",
-        "summary": "Working with AMD, OpenAI achieved up to 14 percent PPA improvement on AMD's flagship GPU IP in less than five months. According to OpenAI, that's roughly a year's worth of progress, and AMD has already folded the changes into a design sent to production. Anthropic is also applying AI to chip work to optimize cost and performance per dollar. The article OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/openai_red_Logo.png"
-        ],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:68a1101249d87f96",
-          "title:971f66cfe81fd5e5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:42ab85f3d5b2fc42": {
-      "id": "defer:url:42ab85f3d5b2fc42",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:42ab85f3d5b2fc42",
-        "title:c67ae2b2b69210c1"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-        "link": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-        "canonical": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
-        "published": "Wed, 18 Nov 2026 17:32:10 +0000",
-        "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-        "images": [],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:42ab85f3d5b2fc42",
-          "title:c67ae2b2b69210c1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1f8aa38b5a09e4ba": {
-      "id": "defer:url:1f8aa38b5a09e4ba",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1f8aa38b5a09e4ba",
-        "title:a6cee77afb3ee44f"
-      ],
-      "canonical": "https://www.producthunt.com/products/incredible",
-      "title": "Incredible Agents",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Incredible Agents",
-        "link": "https://www.producthunt.com/products/incredible",
-        "canonical": "https://www.producthunt.com/products/incredible",
-        "published": "2026-11-17T14:02:24-08:00",
-        "summary": "<p> Fast Voice AI that sees your screen and runs your agents </p> <p> <a href=\"https://www.producthunt.com/products/incredible?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1320857?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/incredible",
-        "images": [],
-        "ageHours": 21.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:1f8aa38b5a09e4ba",
-          "title:a6cee77afb3ee44f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d1b2e82c44f78c76": {
-      "id": "defer:url:d1b2e82c44f78c76",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d1b2e82c44f78c76",
-        "title:aa4511531a227e55"
-      ],
-      "canonical": "https://www.producthunt.com/products/openai",
-      "title": "GPT-6.2 Astra and Sol",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "GPT-6.2 Astra and Sol",
-        "link": "https://www.producthunt.com/products/openai",
-        "canonical": "https://www.producthunt.com/products/openai",
-        "published": "2026-11-17T10:06:04-08:00",
-        "summary": "<p> Two new OpenAI models: frontier Astra and efficient Sol </p> <p> <a href=\"https://www.producthunt.com/products/openai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1320655?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/openai",
-        "images": [],
-        "ageHours": 25.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:d1b2e82c44f78c76",
-          "title:aa4511531a227e55"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bf5c664361e04bcc": {
-      "id": "defer:url:bf5c664361e04bcc",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:bf5c664361e04bcc",
-        "title:264a9045fa3d3a5a"
-      ],
-      "canonical": "https://www.producthunt.com/products/ai-canvas-2",
-      "title": "AI Canvas",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "AI Canvas",
-        "link": "https://www.producthunt.com/products/ai-canvas-2",
-        "canonical": "https://www.producthunt.com/products/ai-canvas-2",
-        "published": "2026-11-17T07:46:37-08:00",
-        "summary": "<p> A design system for AI agents to design badass interfaces </p> <p> <a href=\"https://www.producthunt.com/products/ai-canvas-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1320481?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/ai-canvas-2",
-        "images": [],
-        "ageHours": 27.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:bf5c664361e04bcc",
-          "title:264a9045fa3d3a5a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:011b27afc6a841bf": {
-      "id": "defer:url:011b27afc6a841bf",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:011b27afc6a841bf",
-        "title:5bd2a8ba5bd3b8ae"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
-      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-        "link": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-        "canonical": "https://blogs.nvidia.com/blog/ian-buck-sc26",
-        "published": "Tue, 17 Nov 2026 14:00:10 +0000",
-        "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-842x450.jpeg"
-        ],
-        "ageHours": 29.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:011b27afc6a841bf",
-          "title:5bd2a8ba5bd3b8ae"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:21e86ba4278f1f54": {
-      "id": "defer:url:21e86ba4278f1f54",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:21e86ba4278f1f54",
-        "title:1b4f718f8b148dd5"
-      ],
-      "canonical": "https://www.producthunt.com/products/kadeep-ai",
-      "title": "KaDeep AI",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "KaDeep AI",
-        "link": "https://www.producthunt.com/products/kadeep-ai",
-        "canonical": "https://www.producthunt.com/products/kadeep-ai",
-        "published": "2026-11-17T00:00:01-08:00",
-        "summary": "<p> Agentic QA, localization & accessibility: know when to ship </p> <p> <a href=\"https://www.producthunt.com/products/kadeep-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319952?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/kadeep-ai",
-        "images": [],
-        "ageHours": 35.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:21e86ba4278f1f54",
-          "title:1b4f718f8b148dd5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:25a4ca5f35209bfb": {
-      "id": "defer:url:25a4ca5f35209bfb",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:25a4ca5f35209bfb",
-        "title:0b1bf70da2446052"
-      ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
-      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-        "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
-        "published": "Wed, 18 Nov 2026 19:19:33 +0000",
-        "summary": "Erratic Muse outputs sharing random bank, Bitcoin balances aren’t real, Meta says.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-500x500-1795023220.jpg"
-        ],
-        "ageHours": 0.2,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:25a4ca5f35209bfb",
-          "title:0b1bf70da2446052"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:dd659f011024f04f": {
-      "id": "defer:url:dd659f011024f04f",
-      "at": "2026-11-18T19:31:17.012Z",
-      "firstAt": "2026-11-18T19:31:17.012Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:dd659f011024f04f",
-        "title:ad4cc6694f3e2d42"
-      ],
-      "canonical": "https://openai.com/index/strengthening-online-child-safety",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-        "link": "https://openai.com/index/strengthening-online-child-safety",
-        "canonical": "https://openai.com/index/strengthening-online-child-safety",
-        "published": "Mon, 16 Nov 2026 17:00:00 GMT",
-        "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/strengthening-online-child-safety",
-        "images": [],
-        "ageHours": 50.5,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:dd659f011024f04f",
-          "title:ad4cc6694f3e2d42"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:67952d9a918d2536": {
       "id": "defer:url:67952d9a918d2536",
@@ -14110,74 +13184,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:8d5048593a3dbabd": {
-      "id": "defer:url:8d5048593a3dbabd",
-      "at": "2026-11-19T08:06:49.140Z",
-      "firstAt": "2026-11-19T08:06:49.140Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8d5048593a3dbabd",
-        "title:5bdc52900359aec2"
-      ],
-      "canonical": "http://elementalsouls.github.io/Claude-BugHunter",
-      "title": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ",
-        "link": "http://elementalsouls.github.io/Claude-BugHunter",
-        "canonical": "http://elementalsouls.github.io/Claude-BugHunter",
-        "messageText": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ و Bug Bounty\n\nمجموعه‌ای از Skillها و الگوهای باگ واقعی بهش اضافه می‌کنه؛ از Recon و شناسایی Attack Surface تا بررسی XSS، IDOR، SSRF، SQLi و ضعف‌های Authentication و حتی نوشتن گزارش.\n\nحدود ۸۳ تا Skill تخصصی و ۱۵ دستور آماده و صدها نمونه آسیب‌پذیری واقعی داره:\n\nelementalsouls.github.io/Claude-BugHunter\n\n@dunijet_ai\n\n❤1",
-        "leadPostUrl": "https://t.me/dunijet_ai/2584",
-        "published": "2026-11-19T06:40:39+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/qnRwI4g7Pqexkd4BVfJ4wdSR9IAVZU9W8OVdlqnp0OLTjLX0Wwvy8qtpnQemmJ307x1n5OnrQafEk316WjVPrJwla4tWW-KUGljb7AXMYyxeKNPhEnKUa1xlRp4qu0jCNX3yPq96tAHRhpHj1xm9gzWvnlWKKRXCyFE80AckA1gVVoh99yyxp7giIcUze2Tkz7umBN2hO9s_t6Eq1N4fq-yrEbLklIFub6oR72zGgWIwSSfoXynlXaMvLWtfIpmi8Uy5qVWgoYpVpVv9UZfSfIJFUpF8Z8mZXpwliaxems98gahXNqK0z7QdEPlD1GSQFOynpfmOe4tsO3pTMIZNJw.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://elementalsouls.github.io/Claude-BugHunter"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:8d5048593a3dbabd",
-          "title:5bdc52900359aec2"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2584,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "news",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      },
-      "detail": "tools"
-    },
     "defer:url:7d70f65f13463d84": {
       "id": "defer:url:7d70f65f13463d84",
       "at": "2026-11-19T08:09:57.164Z",
@@ -14563,6 +13569,989 @@
         "keys": [
           "url:4e397e27d38f36ea",
           "title:7152ec698ee09f71"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c1fc7cd8b86a288d": {
+      "id": "defer:url:c1fc7cd8b86a288d",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:c1fc7cd8b86a288d",
+        "title:4c3e95aed0f7b61b"
+      ],
+      "canonical": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months",
+      "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+        "link": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+        "canonical": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months",
+        "published": "Thu, 19 Nov 2026 09:28:01 +0000",
+        "summary": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/07/baidu-ocr-machine-nano-banana-pro.jpg"
+        ],
+        "ageHours": 1.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:c1fc7cd8b86a288d",
+          "title:4c3e95aed0f7b61b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6f0e473998f566f9": {
+      "id": "defer:url:6f0e473998f566f9",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:6f0e473998f566f9",
+        "title:e4c731588b0a2156"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24932v1",
+      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+        "link": "https://arxiv.org/abs/2611.24932v1",
+        "canonical": "https://arxiv.org/abs/2611.24932v1",
+        "published": "2026-11-18T18:55:07Z",
+        "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise. The theory makes five claims: value is governed by calibration rather than by activity, speed, agreement, or tenure; calibration leaves observable traces in behavioral telemetry; those traces are non-diagnostic on their own, because the fast, low-revision signature of a calibrated expert is indistinguishable from that of a confident novice until it is gated by outcomes; human calibration and a model's self-knowledge are the same construct, so the joint system should defer to whichever agent is better calibrated on each item; and individual calibration is causally identifiable only above the level of the single judgment. We ground each claim in a six-month production window of an AI-assisted accounting system (541621 reviewer events, 483 reviewers), and find that a purely behavioral expertise profile inverts the ground truth, scoring an overconfident cohort (5.2 percent correction survival) higher than genuine experts (99.2 percent); that reviewer quality is flat across tenure, so the trait is not learned on the job; and that the same calibration logic that separates good from bad reviewers, applied to the model, concentrates 92.5 percent of human effort on genuine errors. We close with the boundary the theory must respect: under majority-vote aggregation, individual causal value is unidentifiable.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24932v1",
+        "images": [],
+        "ageHours": 15.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6f0e473998f566f9",
+          "title:e4c731588b0a2156"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:87d10f92995ecde5": {
+      "id": "defer:url:87d10f92995ecde5",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:87d10f92995ecde5",
+        "title:5a64490bc3d0bc32"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24927v1",
+      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+        "link": "https://arxiv.org/abs/2611.24927v1",
+        "canonical": "https://arxiv.org/abs/2611.24927v1",
+        "published": "2026-11-18T18:53:58Z",
+        "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations that make up the AI supply chain: the complex network of actors that contribute to the development and deployment of AI. We motivate the examination of the organizational AI supply chain---highlighting concerns about concentration, power, chokepoints, cascading failures, fragmented accountability, and risk---then describe our pipeline for mapping the AI supply chain. Our pipeline yields our main contribution: a multilayered, large-scale dataset of actors and relationships in the AI ecosystem, annotated with dates, descriptions, types, tags, and more. This work takes a step toward systematically mapping and measuring the AI supply chain and its properties, cataloging how models, data, chips, infrastructure, capital, and even talent flow between organizations. This data enable critical examinations of industry relationships and yield insights into the political economy of AI development and concentration. We provide several illustrative analyses, including studying the most central actors, analyzing network concentration, and identifying communities and chokepoints. While our dataset is fairly comprehensive, it is also necessarily incomplete: public documents omit private deals, and coverage is shaped by search design. Together, the approach, data, and findings aim to serve as a resource for studying the AI ecosystem. The dataset is publicly available at https://huggingface.co/datasets/sarahcen/ai-supply-chain and can be explored interactively at https://aisupplychains.org/.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24927v1",
+        "images": [],
+        "ageHours": 15.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:87d10f92995ecde5",
+          "title:5a64490bc3d0bc32"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dd960162601ffc7d": {
+      "id": "defer:url:dd960162601ffc7d",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:dd960162601ffc7d",
+        "title:a628120b6c99121b"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24888v1",
+      "title": "Who are you? The Personal Imitation Game",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Who are you? The Personal Imitation Game",
+        "link": "https://arxiv.org/abs/2611.24888v1",
+        "canonical": "https://arxiv.org/abs/2611.24888v1",
+        "published": "2026-11-18T18:32:14Z",
+        "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals interrogators rely on: stylometric features, personality traits, and biographical facts. To demonstrate the framework, we design an LLM-based system that plays the game for one of the paper's authors, drawing on an autoethnographic dataset spanning ten years of personal digital communication. In a 20-person deception study, interrogators choose our system over the author's own friends in 7 of 10 rounds, and the author over our system in 13 of 20; neither rate is distinguishable from chance at this sample size. We consider design improvements, applications of personal AI agents, and implications for identity and privacy.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24888v1",
+        "images": [],
+        "ageHours": 16,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:dd960162601ffc7d",
+          "title:a628120b6c99121b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5ca16125cb30a2a7": {
+      "id": "defer:url:5ca16125cb30a2a7",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:5ca16125cb30a2a7",
+        "title:57a014ba67ae5073"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24880v1",
+      "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+        "link": "https://arxiv.org/abs/2611.24880v1",
+        "canonical": "https://arxiv.org/abs/2611.24880v1",
+        "published": "2026-11-18T18:27:40Z",
+        "summary": "Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent can be served from a cloud API or from an inference device on the premises. For organizations whose designs, customer data or export-controlled material cannot leave the site, and whose simulators are licensed there, local deployment is the natural choice. In such a deployment, the agent becomes an electrical load on the organization's own equipment, i.e., every run consumes power and energy on a local device, generates tokens and takes time. However, existing work focuses mainly on what the agent can achieve with cloud-hosted models. What a local deployment costs in power, energy, tokens and time on real simulation tasks, and what its choices trade against one another, has received little quantitative investigation under comparable conditions. To address this gap, a systematic evaluation framework is presented in this paper. It applies locally served models to agentic power electronics tasks, from the converter level to the system level, and measures their power, energy, token and time costs. Based on these measurements, the capability boundary of a local agent on such tasks and the cost per solved task are characterized. The results are expected to provide practical insight for the use of agentic AI in power electronics and the power systems it serves.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24880v1",
+        "images": [],
+        "ageHours": 16.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:5ca16125cb30a2a7",
+          "title:57a014ba67ae5073"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:74e69f777a2a7ac9": {
+      "id": "defer:url:74e69f777a2a7ac9",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:74e69f777a2a7ac9",
+        "title:7bbd1478765e6b8e"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24869v1",
+      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+        "link": "https://arxiv.org/abs/2611.24869v1",
+        "canonical": "https://arxiv.org/abs/2611.24869v1",
+        "published": "2026-11-18T18:20:39Z",
+        "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that restored worlds follow the established rules. The latter requires accurately realizing rule-induced changes on designated objects and attributes, particularly when affected objects are unseen. In this paper, we propose WorldRuler, which organizes rule definitions, dependencies, and object states in an executable 3D rule graph and connects rule execution, video generation, and perceptual feedback in a closed loop. The graph supports joint saving and restoration of rules and world states, while dynamic object binding grounds rule-specified entities in visual instances and uses stored states to constrain generation from their first appearance. We further introduce object attribute state replacement and counterfactual reconstruction training, enabling accurate attribute control and compatible appearance and motion changes while limiting interference with unrelated content. We develop an automated data collection and annotation pipeline using GTA-V and Habitat to construct RuleVerse, a dataset of rule-driven interactions with detailed state and event annotations, including cases where rules take effect before affected objects become visible. Extensive experiments demonstrate the effectiveness of WorldRuler in preserving rule-state consistency across saving and loading and accurately realizing rule outcomes on designated objects and attributes.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24869v1",
+        "images": [],
+        "ageHours": 16.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:74e69f777a2a7ac9",
+          "title:7bbd1478765e6b8e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dd7337159384c156": {
+      "id": "defer:url:dd7337159384c156",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:dd7337159384c156",
+        "title:1eba609db0b6d0a4"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24845v1",
+      "title": "Vibe-Trading: Towards Agent-Native Trading",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Vibe-Trading: Towards Agent-Native Trading",
+        "link": "https://arxiv.org/abs/2611.24845v1",
+        "canonical": "https://arxiv.org/abs/2611.24845v1",
+        "published": "2026-11-18T18:07:57Z",
+        "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result is useful only when it remains tied to the correct time, data snapshot, and execution context. We present Vibe-Trading, a comprehensive agent-native trading framework and all-in-one workspace for building, evaluating, and evolving agents for financial trading. It unifies market research, financial data, strategy generation, backtesting, portfolio analysis, paper trading, multi-agent collaboration, and optional broker execution. Its central contribution is an architecture that keeps results, evidence, research history, and trading authority connected throughout the research-to-action process. Each result retains its source, temporal scope, configuration, and producing run. Shared evidence grounding enables verification, versioned research records support reproducible continuation, and an explicit authority gate separates strategy research from live execution. Together, these designs provide a practical foundation for trading agents whose results can be traced, reproduced, and acted on only under explicit authority.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24845v1",
+        "images": [],
+        "ageHours": 16.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:dd7337159384c156",
+          "title:1eba609db0b6d0a4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6076a2729fad4e58": {
+      "id": "defer:url:6076a2729fad4e58",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:6076a2729fad4e58",
+        "title:6dc8215e4c9ef274"
+      ],
+      "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+      "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
+        "link": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+        "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+        "published": "Wed, 18 Nov 2026 15:00:00 +0000",
+        "summary": "Why models ace Olympiad math and still fumble simple everyday tasks.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Jagged-Intelligence-Why-AI-Is-Brilliant-1.png"
+        ],
+        "ageHours": 19.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6076a2729fad4e58",
+          "title:6dc8215e4c9ef274"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:184d931227f2504d": {
+      "id": "defer:url:184d931227f2504d",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:184d931227f2504d",
+        "title:259bd3365a9e8ab9"
+      ],
+      "canonical": "https://openai.com/index/the-silent-consensus",
+      "title": "The Silent Consensus",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "The Silent Consensus",
+        "link": "https://openai.com/index/the-silent-consensus",
+        "canonical": "https://openai.com/index/the-silent-consensus",
+        "published": "Wed, 18 Nov 2026 10:00:00 GMT",
+        "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/the-silent-consensus",
+        "images": [],
+        "ageHours": 24.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:184d931227f2504d",
+          "title:259bd3365a9e8ab9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:58da586369f33999": {
+      "id": "defer:url:58da586369f33999",
+      "at": "2026-11-19T10:31:56.689Z",
+      "firstAt": "2026-11-19T10:31:56.689Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:58da586369f33999",
+        "title:1678c09ff28edc04"
+      ],
+      "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "title": "Research acceleration: The jagged frontier",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Research acceleration: The jagged frontier",
+        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+        "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "images": [],
+        "ageHours": 26.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:58da586369f33999",
+          "title:1678c09ff28edc04"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:99be0c0a7e074380": {
+      "id": "defer:url:99be0c0a7e074380",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:99be0c0a7e074380",
+        "title:a8496718434c6747"
+      ],
+      "canonical": "https://openai.com/index/managing-frontier-ai-risk",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Managing frontier AI risk: From training to deployment",
+        "link": "https://openai.com/index/managing-frontier-ai-risk",
+        "canonical": "https://openai.com/index/managing-frontier-ai-risk",
+        "published": "Wed, 18 Nov 2026 06:00:00 GMT",
+        "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/managing-frontier-ai-risk",
+        "images": [],
+        "ageHours": 28.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:99be0c0a7e074380",
+          "title:a8496718434c6747"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:68ddb817fe4001c0": {
+      "id": "defer:url:68ddb817fe4001c0",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:68ddb817fe4001c0",
+        "title:eec83baa2d9ca37b"
+      ],
+      "canonical": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "title": "Advancing chip design with OpenAI models",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Advancing chip design with OpenAI models",
+        "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+        "canonical": "https://openai.com/index/advancing-chip-design-with-our-models",
+        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
+        "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/advancing-chip-design-with-our-models",
+        "images": [],
+        "ageHours": 34.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:68ddb817fe4001c0",
+          "title:eec83baa2d9ca37b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a1de396d3910fa2e": {
+      "id": "defer:url:a1de396d3910fa2e",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a1de396d3910fa2e",
+        "title:36211a007c811bc9"
+      ],
+      "canonical": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+        "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+        "canonical": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
+        "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+        "images": [],
+        "ageHours": 34.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a1de396d3910fa2e",
+          "title:36211a007c811bc9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3b3be741a87f5e21": {
+      "id": "defer:url:3b3be741a87f5e21",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:3b3be741a87f5e21",
+        "title:027c6b77f0b15e3f"
+      ],
+      "canonical": "https://openai.com/index/introducing-openai-for-chile",
+      "title": "Introducing OpenAI for Chile",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Introducing OpenAI for Chile",
+        "link": "https://openai.com/index/introducing-openai-for-chile",
+        "canonical": "https://openai.com/index/introducing-openai-for-chile",
+        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
+        "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/introducing-openai-for-chile",
+        "images": [],
+        "ageHours": 58.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3b3be741a87f5e21",
+          "title:027c6b77f0b15e3f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c19f50a3e9a385a8": {
+      "id": "defer:url:c19f50a3e9a385a8",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c19f50a3e9a385a8",
+        "title:dd957d6ab4f5fe9c"
+      ],
+      "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+      "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
+      "candidate": {
+        "sourceId": "artificial-analysis-articles",
+        "sourceName": "Artificial Analysis Articles",
+        "sourceType": "benchmark",
+        "title": "OpenAI has the #2 model in the Intelligence Index with the release of GPT-6.2 Astra and GPT-6.2 Sol",
+        "link": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+        "canonical": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+        "published": "2026-11-17",
+        "summary": "",
+        "images": [],
+        "ageHours": 58.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:c19f50a3e9a385a8",
+          "title:dd957d6ab4f5fe9c"
+        ]
+      }
+    },
+    "defer:url:742a0adaef2e2544": {
+      "id": "defer:url:742a0adaef2e2544",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:742a0adaef2e2544",
+        "title:bc75e5bb1051c06c"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+        "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
+        "published": "Mon, 16 Nov 2026 16:00:51 +0000",
+        "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1-842x450.jpeg"
+        ],
+        "ageHours": 66.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:742a0adaef2e2544",
+          "title:bc75e5bb1051c06c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ec56b5eff9affb1c": {
+      "id": "defer:url:ec56b5eff9affb1c",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:ec56b5eff9affb1c",
+        "title:b86ce7e89de65a3d"
+      ],
+      "canonical": "https://huggingface.co/blog/moe-expert-streaming",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+        "link": "https://huggingface.co/blog/moe-expert-streaming",
+        "canonical": "https://huggingface.co/blog/moe-expert-streaming",
+        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/moe-expert-streaming",
+        "images": [],
+        "ageHours": 34.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:ec56b5eff9affb1c",
+          "title:b86ce7e89de65a3d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5b89a2db7f60ae90": {
+      "id": "defer:url:5b89a2db7f60ae90",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:5b89a2db7f60ae90",
+        "title:30bdae12f8861474"
+      ],
+      "canonical": "https://huggingface.co/blog/rumble-2-flash",
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+        "link": "https://huggingface.co/blog/rumble-2-flash",
+        "canonical": "https://huggingface.co/blog/rumble-2-flash",
+        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/rumble-2-flash",
+        "images": [],
+        "ageHours": 34.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:5b89a2db7f60ae90",
+          "title:30bdae12f8861474"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b43ef08ac3ed4f7a": {
+      "id": "defer:url:b43ef08ac3ed4f7a",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:b43ef08ac3ed4f7a",
+        "title:d2e36fdc59b1cc09"
+      ],
+      "canonical": "https://openai.com/index/astra-law-6-2",
+      "title": "Astra for Law leads in legal intelligence",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Astra for Law leads in legal intelligence",
+        "link": "https://openai.com/index/astra-law-6-2",
+        "canonical": "https://openai.com/index/astra-law-6-2",
+        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
+        "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/astra-law-6-2",
+        "images": [],
+        "ageHours": 58.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:b43ef08ac3ed4f7a",
+          "title:d2e36fdc59b1cc09"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f0b81ce3c1461288": {
+      "id": "defer:url:f0b81ce3c1461288",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f0b81ce3c1461288",
+        "title:9e3e34ef8678fa85"
+      ],
+      "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+        "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "published": "Wed, 18 Nov 2026 19:54:56 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "images": [],
+        "ageHours": 14.6,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f0b81ce3c1461288",
+          "title:9e3e34ef8678fa85"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e55c8f2df06c07ff": {
+      "id": "defer:url:e55c8f2df06c07ff",
+      "at": "2026-11-19T10:31:56.690Z",
+      "firstAt": "2026-11-19T10:31:56.690Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:e55c8f2df06c07ff",
+        "title:7202c4c44e4f6e5b"
+      ],
+      "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Why your fine-tuning job takes longer than the FLOPs say",
+        "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+        "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+        "published": "Wed, 18 Nov 2026 18:53:43 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+        "images": [],
+        "ageHours": 15.6,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e55c8f2df06c07ff",
+          "title:7202c4c44e4f6e5b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -17058,6 +17047,14 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "43/43"
+    },
+    "2026-11-19T14:00+03:30": {
+      "at": "2026-11-19T10:32:08.601Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0014609112,
+      "tokens": 18663,
+      "posts": []
     }
   },
   "published": [
@@ -18744,89 +18741,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8472,
-      "last_at": "2026-11-19T05:43:52+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "last_id": 8473,
+      "last_at": "2026-11-19T09:23:10+00:00",
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "ai_farshad": {
       "last_id": 6467,
       "last_at": "2026-11-19T07:30:45+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "Mohammad_zammani": {
       "last_id": 7242,
       "last_at": "2026-11-19T08:41:11+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "techiin_ir": {
       "last_id": 20801,
       "last_at": "2026-11-18T18:46:12+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "asrnovin_ir": {
       "last_id": 11493,
       "last_at": "2026-11-19T08:34:49+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "shayanode": {
       "last_id": 252,
       "last_at": "2026-11-18T16:38:57+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "codecloude": {
       "last_id": 2602,
       "last_at": "2026-11-19T06:29:05+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "dunijet_ai": {
       "last_id": 2584,
       "last_at": "2026-11-19T06:40:39+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "MatinSenPaii": {
       "last_id": 5911,
       "last_at": "2026-11-18T17:17:27+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-19T08:57:48.132Z"
+      "checked_at": "2026-11-19T10:31:40.993Z"
     }
   },
   "offerReviews": [
@@ -22536,6 +22533,18 @@
       "reason": "denied_link",
       "slot": "2026-11-19T11:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-archive-tell|https://t.me/ArchiveTell/8473",
+      "date": "2026-11-19",
+      "at": "2026-11-19T10:31:40.993Z",
+      "source": "tg-archive-tell",
+      "title": "🎙 دیکته در ChatGPT بدون محدودیت ده‌دقیقه‌ای",
+      "url": "https://t.me/ArchiveTell/8473",
+      "reason": "denied_link",
+      "slot": "2026-11-19T14:00+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],

@@ -5026,6 +5026,50 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "04a40d78aa": {
+      "id": "04a40d78aa",
+      "messageId": 70,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-19T14:00+03:30",
+      "reason": "denied_link",
+      "kind": "offer",
+      "source": "tg-archive-tell",
+      "sourceName": "ArchiveTell",
+      "sourceType": "telegram_channel",
+      "title": "🎙 دیکته در ChatGPT بدون محدودیت ده‌دقیقه‌ای",
+      "url": "https://t.me/ArchiveTell/8473",
+      "leadPostUrl": "https://t.me/ArchiveTell/8473",
+      "messageText": "🎙 دیکته در ChatGPT بدون محدودیت ده‌دقیقه‌ای\nحالا حرف می‌زنی و متن همان لحظه روی صفحه می‌آید، بدون اینکه منتظر تمام شدن رونویسی بمانی.\n⠀\n🔹 اسمش Live Dictation است و برای همهٔ پلن‌ها، حتی رایگان، پخش می‌شود\n🔹 روی iOS، اندروید، وب و اپ دسکتاپ\n🔹 سقف ضبط ۱۰ دقیقه‌ای برداشته شده\n🔹 با زدن روی آیکون موج صدا، متن در حال نوشته‌شدن پنهان یا نمایان می‌شود\n⠀\nطبق اعلام OpenAI، رونویسی حالا همزمان با صحبت انجام می‌شود و سریع‌تر و پایدارتر است. برای ضبط یادداشت‌های بلند، ایده‌پردازی یا نوشتن پیام طولانی با صدا کاربردی است. به گفتهٔ OpenAI عرضه به‌صورت تدریجی و جهانی است، پس ممکنه هنوز به حساب تو نرسیده باشد.\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍3",
+      "relatedLinks": [],
+      "images": [
+        "https://cdn4.telesco.pe/file/eNNIIwKK4SYkrSXcx1v99IOjq_9b9_MrPaGQx1--2l1m_dN4rDCob8aWj_RNv0vUGZgVQpOrMZquTYCzbHtR18sKVi6eOpMjf7QlIaxtGcLhZIl5JKtuG0zegnIiG6CxAxncO2VdTF7dqqU3GcfQGB6SAzO6ywgBo80WS2xJK_rojHNrPtiqDCffgq3Hf8gvx9d-Ghs1tz6lLCdTPWPdIXUuBFY0ZZsdFrBVpvqbagPi8bO6-yV_ctdIOkuO01G_ZnTcXzO7RL3cyDsIDCDpGRqLQeTXWSI5kNcSrqiYa4TiSu4MMFqr3SXEBaA4yMkXY2CqT3iHnms9tTpLXHnpog.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-19T09:23:10+00:00",
+      "keys": [
+        "url:3ba4896b30f8c4be",
+        "title:d92cb40358955310"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": true,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T10:31:40.993Z",
+      "updatedAt": "2026-11-19T10:31:40.993Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
