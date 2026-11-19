@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T19:52:06.641Z",
+  "updatedAt": "2026-11-19T20:27:27.199Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -12695,6 +12695,60 @@
       "slot": "2026-11-19T23:00+03:30",
       "title": "CodeDesign v3",
       "url": "https://www.producthunt.com/products/codedesign"
+    },
+    "url:34e94d06e3dd787b": {
+      "at": "2026-11-19T20:26:53.847Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "قدرت هوش مصنوعی توی ساخت ویدیو آموزش کامل به زودی",
+      "url": "https://t.me/asrnovin_ir/11495"
+    },
+    "title:0430596aa30488d0": {
+      "at": "2026-11-19T20:26:53.847Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "قدرت هوش مصنوعی توی ساخت ویدیو آموزش کامل به زودی",
+      "url": "https://t.me/asrnovin_ir/11495"
+    },
+    "url:b1905aaaf9aedf32": {
+      "at": "2026-11-19T20:26:57.122Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "سلام دانشجویانی که اکانت کلاد اون ها بن شده یا احراز هویت میخواد و دیگه نمیتونن",
+      "url": "https://t.me/aibysadeghi/72"
+    },
+    "title:cccba10dba7b3ca2": {
+      "at": "2026-11-19T20:26:57.122Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "سلام دانشجویانی که اکانت کلاد اون ها بن شده یا احراز هویت میخواد و دیگه نمیتونن",
+      "url": "https://t.me/aibysadeghi/72"
+    },
+    "url:5d74491cfebe7d3b": {
+      "at": "2026-11-19T20:27:27.197Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
+      "url": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor",
+      "benchmark": false
+    },
+    "title:b74dc48a06f842ea": {
+      "at": "2026-11-19T20:27:27.197Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
+      "url": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -12753,9 +12807,9 @@
     },
     "defer:url:3047d7657748ea76": {
       "id": "defer:url:3047d7657748ea76",
-      "at": "2026-11-19T19:31:40.387Z",
+      "at": "2026-11-19T20:26:57.186Z",
       "firstAt": "2026-11-19T08:58:53.783Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -12799,244 +12853,10 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:3047d7657748ea76",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:c1fc7cd8b86a288d": {
-      "id": "defer:url:c1fc7cd8b86a288d",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:c1fc7cd8b86a288d",
-        "title:4c3e95aed0f7b61b"
-      ],
-      "canonical": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months",
-      "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
-        "link": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
-        "canonical": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months",
-        "published": "Thu, 19 Nov 2026 09:28:01 +0000",
-        "summary": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/baidu-ocr-machine-nano-banana-pro.jpg"
-        ],
-        "ageHours": 1.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c1fc7cd8b86a288d",
-          "title:4c3e95aed0f7b61b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6f0e473998f566f9": {
-      "id": "defer:url:6f0e473998f566f9",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:6f0e473998f566f9",
-        "title:e4c731588b0a2156"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.24932v1",
-      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-        "link": "https://arxiv.org/abs/2611.24932v1",
-        "canonical": "https://arxiv.org/abs/2611.24932v1",
-        "published": "2026-11-18T18:55:07Z",
-        "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise. The theory makes five claims: value is governed by calibration rather than by activity, speed, agreement, or tenure; calibration leaves observable traces in behavioral telemetry; those traces are non-diagnostic on their own, because the fast, low-revision signature of a calibrated expert is indistinguishable from that of a confident novice until it is gated by outcomes; human calibration and a model's self-knowledge are the same construct, so the joint system should defer to whichever agent is better calibrated on each item; and individual calibration is causally identifiable only above the level of the single judgment. We ground each claim in a six-month production window of an AI-assisted accounting system (541621 reviewer events, 483 reviewers), and find that a purely behavioral expertise profile inverts the ground truth, scoring an overconfident cohort (5.2 percent correction survival) higher than genuine experts (99.2 percent); that reviewer quality is flat across tenure, so the trait is not learned on the job; and that the same calibration logic that separates good from bad reviewers, applied to the model, concentrates 92.5 percent of human effort on genuine errors. We close with the boundary the theory must respect: under majority-vote aggregation, individual causal value is unidentifiable.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.24932v1",
-        "images": [],
-        "ageHours": 15.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6f0e473998f566f9",
-          "title:e4c731588b0a2156"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:87d10f92995ecde5": {
-      "id": "defer:url:87d10f92995ecde5",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:87d10f92995ecde5",
-        "title:5a64490bc3d0bc32"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.24927v1",
-      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
-        "link": "https://arxiv.org/abs/2611.24927v1",
-        "canonical": "https://arxiv.org/abs/2611.24927v1",
-        "published": "2026-11-18T18:53:58Z",
-        "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations that make up the AI supply chain: the complex network of actors that contribute to the development and deployment of AI. We motivate the examination of the organizational AI supply chain---highlighting concerns about concentration, power, chokepoints, cascading failures, fragmented accountability, and risk---then describe our pipeline for mapping the AI supply chain. Our pipeline yields our main contribution: a multilayered, large-scale dataset of actors and relationships in the AI ecosystem, annotated with dates, descriptions, types, tags, and more. This work takes a step toward systematically mapping and measuring the AI supply chain and its properties, cataloging how models, data, chips, infrastructure, capital, and even talent flow between organizations. This data enable critical examinations of industry relationships and yield insights into the political economy of AI development and concentration. We provide several illustrative analyses, including studying the most central actors, analyzing network concentration, and identifying communities and chokepoints. While our dataset is fairly comprehensive, it is also necessarily incomplete: public documents omit private deals, and coverage is shaped by search design. Together, the approach, data, and findings aim to serve as a resource for studying the AI ecosystem. The dataset is publicly available at https://huggingface.co/datasets/sarahcen/ai-supply-chain and can be explored interactively at https://aisupplychains.org/.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.24927v1",
-        "images": [],
-        "ageHours": 15.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:87d10f92995ecde5",
-          "title:5a64490bc3d0bc32"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:dd960162601ffc7d": {
-      "id": "defer:url:dd960162601ffc7d",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:dd960162601ffc7d",
-        "title:a628120b6c99121b"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.24888v1",
-      "title": "Who are you? The Personal Imitation Game",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Who are you? The Personal Imitation Game",
-        "link": "https://arxiv.org/abs/2611.24888v1",
-        "canonical": "https://arxiv.org/abs/2611.24888v1",
-        "published": "2026-11-18T18:32:14Z",
-        "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals interrogators rely on: stylometric features, personality traits, and biographical facts. To demonstrate the framework, we design an LLM-based system that plays the game for one of the paper's authors, drawing on an autoethnographic dataset spanning ten years of personal digital communication. In a 20-person deception study, interrogators choose our system over the author's own friends in 7 of 10 rounds, and the author over our system in 13 of 20; neither rate is distinguishable from chance at this sample size. We consider design improvements, applications of personal AI agents, and implications for identity and privacy.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.24888v1",
-        "images": [],
-        "ageHours": 16,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:dd960162601ffc7d",
-          "title:a628120b6c99121b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:5ca16125cb30a2a7": {
-      "id": "defer:url:5ca16125cb30a2a7",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:5ca16125cb30a2a7",
-        "title:57a014ba67ae5073"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.24880v1",
-      "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
-        "link": "https://arxiv.org/abs/2611.24880v1",
-        "canonical": "https://arxiv.org/abs/2611.24880v1",
-        "published": "2026-11-18T18:27:40Z",
-        "summary": "Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent can be served from a cloud API or from an inference device on the premises. For organizations whose designs, customer data or export-controlled material cannot leave the site, and whose simulators are licensed there, local deployment is the natural choice. In such a deployment, the agent becomes an electrical load on the organization's own equipment, i.e., every run consumes power and energy on a local device, generates tokens and takes time. However, existing work focuses mainly on what the agent can achieve with cloud-hosted models. What a local deployment costs in power, energy, tokens and time on real simulation tasks, and what its choices trade against one another, has received little quantitative investigation under comparable conditions. To address this gap, a systematic evaluation framework is presented in this paper. It applies locally served models to agentic power electronics tasks, from the converter level to the system level, and measures their power, energy, token and time costs. Based on these measurements, the capability boundary of a local agent on such tasks and the cost per solved task are characterized. The results are expected to provide practical insight for the use of agentic AI in power electronics and the power systems it serves.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.24880v1",
-        "images": [],
-        "ageHours": 16.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:5ca16125cb30a2a7",
-          "title:57a014ba67ae5073"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:99be0c0a7e074380": {
       "id": "defer:url:99be0c0a7e074380",
@@ -13220,241 +13040,6 @@
         "keys": [
           "url:3b3be741a87f5e21",
           "title:027c6b77f0b15e3f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ec56b5eff9affb1c": {
-      "id": "defer:url:ec56b5eff9affb1c",
-      "at": "2026-11-19T10:31:56.690Z",
-      "firstAt": "2026-11-19T10:31:56.690Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:ec56b5eff9affb1c",
-        "title:b86ce7e89de65a3d"
-      ],
-      "canonical": "https://huggingface.co/blog/moe-expert-streaming",
-      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-        "link": "https://huggingface.co/blog/moe-expert-streaming",
-        "canonical": "https://huggingface.co/blog/moe-expert-streaming",
-        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/moe-expert-streaming",
-        "images": [],
-        "ageHours": 34.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:ec56b5eff9affb1c",
-          "title:b86ce7e89de65a3d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:5b89a2db7f60ae90": {
-      "id": "defer:url:5b89a2db7f60ae90",
-      "at": "2026-11-19T10:31:56.690Z",
-      "firstAt": "2026-11-19T10:31:56.690Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:5b89a2db7f60ae90",
-        "title:30bdae12f8861474"
-      ],
-      "canonical": "https://huggingface.co/blog/rumble-2-flash",
-      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-        "link": "https://huggingface.co/blog/rumble-2-flash",
-        "canonical": "https://huggingface.co/blog/rumble-2-flash",
-        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/rumble-2-flash",
-        "images": [],
-        "ageHours": 34.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:5b89a2db7f60ae90",
-          "title:30bdae12f8861474"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b43ef08ac3ed4f7a": {
-      "id": "defer:url:b43ef08ac3ed4f7a",
-      "at": "2026-11-19T10:31:56.690Z",
-      "firstAt": "2026-11-19T10:31:56.690Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:b43ef08ac3ed4f7a",
-        "title:d2e36fdc59b1cc09"
-      ],
-      "canonical": "https://openai.com/index/astra-law-6-2",
-      "title": "Astra for Law leads in legal intelligence",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Astra for Law leads in legal intelligence",
-        "link": "https://openai.com/index/astra-law-6-2",
-        "canonical": "https://openai.com/index/astra-law-6-2",
-        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
-        "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/astra-law-6-2",
-        "images": [],
-        "ageHours": 58.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b43ef08ac3ed4f7a",
-          "title:d2e36fdc59b1cc09"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f0b81ce3c1461288": {
-      "id": "defer:url:f0b81ce3c1461288",
-      "at": "2026-11-19T10:31:56.690Z",
-      "firstAt": "2026-11-19T10:31:56.690Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f0b81ce3c1461288",
-        "title:9e3e34ef8678fa85"
-      ],
-      "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-        "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-        "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-        "published": "Wed, 18 Nov 2026 19:54:56 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-        "images": [],
-        "ageHours": 14.6,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f0b81ce3c1461288",
-          "title:9e3e34ef8678fa85"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e55c8f2df06c07ff": {
-      "id": "defer:url:e55c8f2df06c07ff",
-      "at": "2026-11-19T10:31:56.690Z",
-      "firstAt": "2026-11-19T10:31:56.690Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e55c8f2df06c07ff",
-        "title:7202c4c44e4f6e5b"
-      ],
-      "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Why your fine-tuning job takes longer than the FLOPs say",
-        "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-        "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-        "published": "Wed, 18 Nov 2026 18:53:43 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-        "images": [],
-        "ageHours": 15.6,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e55c8f2df06c07ff",
-          "title:7202c4c44e4f6e5b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -14917,55 +14502,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:5d74491cfebe7d3b": {
-      "id": "defer:url:5d74491cfebe7d3b",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:5d74491cfebe7d3b",
-        "title:b74dc48a06f842ea"
-      ],
-      "canonical": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor",
-      "title": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
-        "link": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor/",
-        "canonical": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor",
-        "published": "Thu, 19 Nov 2026 12:00:23 +0000",
-        "summary": "So far this year, venture backers have poured close to $4 billion into an assortment of global companies focused on recruiting, finding jobs and streamlining processes associated with HR and payroll management, Crunchbase data shows. Not surprisingly, the vast majority are also incorporating a heavy dose of AI.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/AI-cowork-1024x576.jpg",
-          "https://news.crunchbase.com/wp-content/uploads/AI-cowork.jpg"
-        ],
-        "ageHours": 7.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:5d74491cfebe7d3b",
-          "title:b74dc48a06f842ea"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:9342dbf934e428aa": {
       "id": "defer:url:9342dbf934e428aa",
       "at": "2026-11-19T19:31:40.355Z",
@@ -15176,6 +14712,537 @@
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
+      }
+    },
+    "defer:url:6844576f831e5af2": {
+      "id": "defer:url:6844576f831e5af2",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:6844576f831e5af2",
+        "title:97a93fcf6645c9e4"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "The unfolding Jensen Huang scandal: a timeline",
+        "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "canonical": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+        "published": "Thu, 19 Nov 2026 20:18:49 +0000",
+        "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "images": [],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:6844576f831e5af2",
+          "title:97a93fcf6645c9e4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:eaecd34f2a6c3727": {
+      "id": "defer:url:eaecd34f2a6c3727",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:eaecd34f2a6c3727",
+        "title:fdcca212932f0479"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+        "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert",
+        "published": "Thu, 19 Nov 2026 20:19:28 +0000",
+        "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-500x500.jpg"
+        ],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:eaecd34f2a6c3727",
+          "title:fdcca212932f0479"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:88461657b387a0e6": {
+      "id": "defer:url:88461657b387a0e6",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:88461657b387a0e6",
+        "title:8f3ba806a54b0a3c"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+        "link": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+        "canonical": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs",
+        "published": "Thu, 19 Nov 2026 20:00:15 +0000",
+        "summary": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft.png",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft-842x450.png"
+        ],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:88461657b387a0e6",
+          "title:8f3ba806a54b0a3c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:74e69f777a2a7ac9": {
+      "id": "defer:url:74e69f777a2a7ac9",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:74e69f777a2a7ac9",
+        "title:7bbd1478765e6b8e"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24869v1",
+      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+        "link": "https://arxiv.org/abs/2611.24869v1",
+        "canonical": "https://arxiv.org/abs/2611.24869v1",
+        "published": "2026-11-18T18:20:39Z",
+        "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that restored worlds follow the established rules. The latter requires accurately realizing rule-induced changes on designated objects and attributes, particularly when affected objects are unseen. In this paper, we propose WorldRuler, which organizes rule definitions, dependencies, and object states in an executable 3D rule graph and connects rule execution, video generation, and perceptual feedback in a closed loop. The graph supports joint saving and restoration of rules and world states, while dynamic object binding grounds rule-specified entities in visual instances and uses stored states to constrain generation from their first appearance. We further introduce object attribute state replacement and counterfactual reconstruction training, enabling accurate attribute control and compatible appearance and motion changes while limiting interference with unrelated content. We develop an automated data collection and annotation pipeline using GTA-V and Habitat to construct RuleVerse, a dataset of rule-driven interactions with detailed state and event annotations, including cases where rules take effect before affected objects become visible. Extensive experiments demonstrate the effectiveness of WorldRuler in preserving rule-state consistency across saving and loading and accurately realizing rule outcomes on designated objects and attributes.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24869v1",
+        "images": [],
+        "ageHours": 26.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:74e69f777a2a7ac9",
+          "title:7bbd1478765e6b8e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dd7337159384c156": {
+      "id": "defer:url:dd7337159384c156",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:dd7337159384c156",
+        "title:1eba609db0b6d0a4"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.24845v1",
+      "title": "Vibe-Trading: Towards Agent-Native Trading",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Vibe-Trading: Towards Agent-Native Trading",
+        "link": "https://arxiv.org/abs/2611.24845v1",
+        "canonical": "https://arxiv.org/abs/2611.24845v1",
+        "published": "2026-11-18T18:07:57Z",
+        "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result is useful only when it remains tied to the correct time, data snapshot, and execution context. We present Vibe-Trading, a comprehensive agent-native trading framework and all-in-one workspace for building, evaluating, and evolving agents for financial trading. It unifies market research, financial data, strategy generation, backtesting, portfolio analysis, paper trading, multi-agent collaboration, and optional broker execution. Its central contribution is an architecture that keeps results, evidence, research history, and trading authority connected throughout the research-to-action process. Each result retains its source, temporal scope, configuration, and producing run. Shared evidence grounding enables verification, versioned research records support reproducible continuation, and an explicit authority gate separates strategy research from live execution. Together, these designs provide a practical foundation for trading agents whose results can be traced, reproduced, and acted on only under explicit authority.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.24845v1",
+        "images": [],
+        "ageHours": 26.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:dd7337159384c156",
+          "title:1eba609db0b6d0a4"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6076a2729fad4e58": {
+      "id": "defer:url:6076a2729fad4e58",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:6076a2729fad4e58",
+        "title:6dc8215e4c9ef274"
+      ],
+      "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+      "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
+        "link": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+        "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+        "published": "Wed, 18 Nov 2026 15:00:00 +0000",
+        "summary": "Why models ace Olympiad math and still fumble simple everyday tasks.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Jagged-Intelligence-Why-AI-Is-Brilliant-1.png"
+        ],
+        "ageHours": 29.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6076a2729fad4e58",
+          "title:6dc8215e4c9ef274"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:184d931227f2504d": {
+      "id": "defer:url:184d931227f2504d",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:184d931227f2504d",
+        "title:259bd3365a9e8ab9"
+      ],
+      "canonical": "https://openai.com/index/the-silent-consensus",
+      "title": "The Silent Consensus",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "The Silent Consensus",
+        "link": "https://openai.com/index/the-silent-consensus",
+        "canonical": "https://openai.com/index/the-silent-consensus",
+        "published": "Wed, 18 Nov 2026 10:00:00 GMT",
+        "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/the-silent-consensus",
+        "images": [],
+        "ageHours": 34.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:184d931227f2504d",
+          "title:259bd3365a9e8ab9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:58da586369f33999": {
+      "id": "defer:url:58da586369f33999",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:58da586369f33999",
+        "title:1678c09ff28edc04"
+      ],
+      "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "title": "Research acceleration: The jagged frontier",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Research acceleration: The jagged frontier",
+        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+        "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "images": [],
+        "ageHours": 36.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:58da586369f33999",
+          "title:1678c09ff28edc04"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9634b5e75ef12012": {
+      "id": "defer:url:9634b5e75ef12012",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:9634b5e75ef12012",
+        "title:7b0bae18e8ec3a2f"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+        "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+        "published": "Mon, 16 Nov 2026 23:00:05 +0000",
+        "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg"
+        ],
+        "ageHours": 69.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:9634b5e75ef12012",
+          "title:7b0bae18e8ec3a2f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:aef632472a5e3af7": {
+      "id": "defer:url:aef632472a5e3af7",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:aef632472a5e3af7",
+        "title:fda08e470f000566"
+      ],
+      "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+        "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+        "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+        "published": "Wed, 18 Nov 2026 15:00:23 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+        "images": [],
+        "ageHours": 29.4,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:aef632472a5e3af7",
+          "title:fda08e470f000566"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:67952d9a918d2536": {
+      "id": "defer:url:67952d9a918d2536",
+      "at": "2026-11-19T20:26:57.132Z",
+      "firstAt": "2026-11-19T20:26:57.132Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:67952d9a918d2536",
+        "title:1cf6500fb5e47411"
+      ],
+      "canonical": "https://openai.com/index/inside-the-codex-sandbox",
+      "title": "Inside the Codex sandbox",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Inside the Codex sandbox",
+        "link": "https://openai.com/index/inside-the-codex-sandbox",
+        "canonical": "https://openai.com/index/inside-the-codex-sandbox",
+        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+        "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/inside-the-codex-sandbox",
+        "images": [],
+        "ageHours": 36.4,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:67952d9a918d2536",
+          "title:1cf6500fb5e47411"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
       }
     }
   },
@@ -17741,11 +17808,35 @@
     },
     "2026-11-19T23:00+03:30": {
       "at": "2026-11-19T19:32:03.805Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0022058848,
-      "tokens": 48324,
-      "posts": []
+      "cost": 0.0021360584000000003,
+      "tokens": 23031,
+      "posts": [
+        {
+          "title": "سرمایه‌گذاری ۴ میلیارد دلاری روی استارتاپ‌های استخدام و منابع انسانی",
+          "category": "business",
+          "status": "sent",
+          "messageId": 117,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0021360584000000003,
+          "tokens": 23031,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-19T20:27:27.197Z"
+        }
+      ],
+      "category": "business",
+      "title": "سرمایه‌گذاری ۴ میلیارد دلاری روی استارتاپ‌های استخدام و منابع انسانی",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/23-00",
+      "messageId": 117,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "42/43"
     }
   },
   "published": [
@@ -19500,93 +19591,111 @@
       "sourceTitle": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
       "sourceText": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effectiveness, this paradigm faces two fundamental limitations. First, relying on textual reasoning alone can limit perceptual ability in vision-centric questions, where accurate answers depend on interpreting task-relevant visual evidence. Second, applying textual reasoning uniformly across inputs overlooks question-dependent variation in both reasoning modality and depth, often producing verbose and unnecessary traces when little logical inference is required. To this end, we propose Adaptive Visual-Textual Reasoning (AVTR), which introduces visual imagination as a complementary reasoning modality to textual thinking, enabling the model to revisit its visual observations and distill the salient evidence through generative visual reflection. Furthermore, we formulate reasoning-modality selection as a learned routing problem, allowing a single policy to adaptively harness the complementary strengths of visual reflection and textual reasoning in response to the perceptual and inferential demands of the input. Across 16 benchmarks, AVTR improves the average score by 4.5 points over Qwen3.5 baseline, while reducing inference latency by 33%. It also scales effectively into a smaller size backbone, outperforming the evaluated 2B-scale baselines.",
       "at": "2026-11-19T19:51:29.502Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-19T23:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "سرمایه‌گذاری ۴ میلیارد دلاری روی استارتاپ‌های استخدام و منابع انسانی",
+      "why": "این روند نشون می‌ده آینده بازار کار به سمتی می‌ره که هوش مصنوعی هم استخدام رو خودکار می‌کنه و هم نیروی انسانی رو برای آموزش جایگزین‌های خودش به کار می‌گیره.",
+      "dedupe_key": "crunchbase-recruiting-hr-ai-funding",
+      "post_key": "2026-11-19/23-00/1",
+      "sourceId": "crunchbase-news",
+      "sourceName": "Crunchbase News",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor/",
+      "sourceTitle": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
+      "sourceText": "AI agents and humanoid robots may dominate the funding headlines. But even so, investors haven’t lost interest in startups focused on finding, filling and managing jobs for actual humans.\nSo far this year, venture backers have poured close to $4 billion into an assortment of global companies focused on recruiting, finding jobs and streamlining processes associated with HR and payroll management, Crunchbase data shows. Not surprisingly, the vast majority are also incorporating a heavy dose of AI.\nTo get a sense where capital is flowing, we used Crunchbase data to analyze investment to employment-related categories for the past few years. Broadly, findings show 2026 funding on track to meet or slightly exceed year-ago levels, albeit with reduced deal count.\nMuch of this year’s investment has gone to a small group of companies. To illustrate, below we put together a list of 14 of the largest fundraisers.\nAs you can see, it’s a varied list, with a commonly shared theme of bringing more automation to hiring, HR and payroll tasks.\nBy far the largest funding recipient is Mercor , a startup that pairs human experts with developers of AI models and tools. The 4-year-old company raised $750 million in a Series D round this month at a whopping $20 billion valuation.\nSan Francisco-based Mercor is betting that as companies build AI agents to take on more work tasks, demand for subject matter experts to guide these efforts will grow. While frontier labs have been its primary buyers for the past few years, Mercor says it expects enterprises will soon be its major customers.\nThe next two l",
+      "at": "2026-11-19T20:27:27.197Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8486,
-      "last_at": "2026-11-19T18:56:29+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "last_id": 8487,
+      "last_at": "2026-11-19T20:17:30+00:00",
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "ai_farshad": {
       "last_id": 6471,
       "last_at": "2026-11-19T16:57:24+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "Mohammad_zammani": {
       "last_id": 7247,
       "last_at": "2026-11-19T15:54:49+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "techiin_ir": {
       "last_id": 20808,
       "last_at": "2026-11-19T19:14:26+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "asrnovin_ir": {
-      "last_id": 11494,
-      "last_at": "2026-11-19T16:30:48+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "last_id": 11495,
+      "last_at": "2026-11-19T19:43:25+00:00",
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "shayanode": {
       "last_id": 255,
       "last_at": "2026-11-19T17:50:47+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "aibysadeghi": {
-      "last_id": 71,
-      "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "last_id": 72,
+      "last_at": "2026-11-19T20:20:03+00:00",
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "codecloude": {
       "last_id": 2603,
       "last_at": "2026-11-19T12:07:34+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "dunijet_ai": {
       "last_id": 2588,
       "last_at": "2026-11-19T19:09:17+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "miladxtalks": {
       "last_id": 247,
       "last_at": "2026-11-19T17:49:13+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "Sajadverse": {
       "last_id": 1257,
       "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "MatinSenPaii": {
       "last_id": 5916,
       "last_at": "2026-11-19T18:50:15+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-19T19:31:05.772Z"
+      "checked_at": "2026-11-19T20:26:40.660Z"
     }
   },
   "offerReviews": [
@@ -23438,6 +23547,18 @@
       "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
       "url": "https://huggingface.co/papers/2611.24161",
       "reason": "research_paper",
+      "slot": "2026-11-19T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-ai-by-sadeghi|https://t.me/aibysadeghi/72",
+      "date": "2026-11-19",
+      "at": "2026-11-19T20:26:40.660Z",
+      "source": "tg-ai-by-sadeghi",
+      "title": "سلام دانشجویانی که اکانت کلاد اون ها بن شده یا احراز هویت میخواد و دیگه نمیتونن",
+      "url": "https://t.me/aibysadeghi/72",
+      "reason": "no_link",
       "slot": "2026-11-19T23:00+03:30",
       "kind": "post",
       "mainEligible": false

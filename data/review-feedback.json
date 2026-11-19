@@ -6075,6 +6075,51 @@
       "sentAt": "2026-11-19T19:51:29.498Z",
       "manual": true,
       "lastAction": "publish"
+    },
+    "138fe2d80b": {
+      "id": "138fe2d80b",
+      "messageId": 90,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-19T23:00+03:30",
+      "reason": "no_link",
+      "kind": "post",
+      "source": "tg-ai-by-sadeghi",
+      "sourceName": "اخبار جدید Ai",
+      "sourceType": "telegram_channel",
+      "title": "سلام دانشجویانی که اکانت کلاد اون ها بن شده یا احراز هویت میخواد و دیگه نمیتونن",
+      "url": "https://t.me/aibysadeghi/72",
+      "leadPostUrl": "https://t.me/aibysadeghi/72",
+      "messageText": "سلام دانشجویانی که اکانت کلاد اون ها بن شده یا احراز هویت میخواد و دیگه نمیتونن تو ایران از اپلیکیشن کلاد استفاده کنن راه حل جایگزینش اینه: از api کلاد روی کامپیوتر استفاده کنن که دیگه حتی وی پی ان هم نمیخواد اگر روش استفاده اش رو نمیدونید و نیاز به راهنمایی دارید به پشتیبانی پیام بدید تا راهنماییتون کنیم",
+      "relatedLinks": [],
+      "images": [
+        "https://cdn4.telesco.pe/file/ciK8fnrPS1JDER1RRae6yXBJ48_fLyYSVFQe7hgXoyRhRXjsVqyOjjfFeBTuOmK671-jSVjS2OKsMffa9Qbi4OQWq37vAtTmWfDQTDRlOusTurOuge5EJ6YiHPYuLfyRjYUDXAitIShCdKl_mEZtjFi_931VjQGZb5Ftu_bfYhdUvV5W76jXgORt9hT6MqU59cidJf3l5Q83owKBFn0AVF8eaf94rJwvXeBdwY_oqsLbun-mWtW8IigxzyD7J4a1SuedgrLoDjsyrxREb_Gi2DqbwOmzMTazgRsWHMRvRPdzkiHy8Ye6zJUWg6VeiSBb2P7cTwce-l71Uc2MtGZKGw.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-19T20:20:03+00:00",
+      "keys": [
+        "url:b1905aaaf9aedf32",
+        "title:cccba10dba7b3ca2"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T20:26:40.660Z",
+      "updatedAt": "2026-11-19T20:26:40.660Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [

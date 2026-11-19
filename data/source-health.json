@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T19:32:04.670Z",
+  "updatedAt": "2026-11-19T20:26:40.694Z",
   "lastStatusDate": "2026-11-19",
   "lastStatusAt": "2026-11-19T19:32:04.669Z",
   "sources": {
@@ -390,19 +390,19 @@
       "dynamic": false,
       "protected": false,
       "status": "active",
-      "reason": "no_signal",
-      "score": 0.5,
-      "negativeRate": 0,
+      "reason": "ok",
+      "score": 0.7273,
+      "negativeRate": 0.1667,
       "counts": {
         "rejects": 0,
-        "rewrites": 0,
-        "manualPublishes": 0,
-        "autoPublishes": 0,
-        "publishes": 0,
-        "decisions": 0
+        "rewrites": 1,
+        "manualPublishes": 1,
+        "autoPublishes": 1,
+        "publishes": 2,
+        "decisions": 3
       },
       "rejectReasons": {},
-      "lastEventAt": "",
+      "lastEventAt": "2026-11-19T19:51:29.502Z",
       "since": "2026-11-16T17:01:04.951Z",
       "trialStart": "",
       "trialUntil": "",
@@ -1604,28 +1604,29 @@
       "type": "telegram_channel",
       "dynamic": false,
       "protected": false,
-      "status": "active",
-      "reason": "ok",
+      "status": "watch",
+      "reason": "reject_pattern",
       "score": 0.1739,
-      "negativeRate": 0.8333,
+      "negativeRate": 0.875,
       "counts": {
-        "rejects": 2,
+        "rejects": 3,
         "rewrites": 1,
         "manualPublishes": 0,
         "autoPublishes": 0,
         "publishes": 0,
-        "decisions": 3
+        "decisions": 4
       },
       "rejectReasons": {
         "other": 1,
-        "irrelevant": 1
+        "irrelevant": 1,
+        "duplicate": 1
       },
-      "lastEventAt": "2026-11-16T11:20:10.138Z",
-      "since": "2026-11-16T17:01:04.951Z",
+      "lastEventAt": "2026-11-19T19:52:06.641Z",
+      "since": "2026-11-19T20:26:40.660Z",
       "trialStart": "",
       "trialUntil": "",
       "cooldownUntil": "",
-      "decidedAt": "2026-11-16T17:01:04.951Z"
+      "decidedAt": "2026-11-19T20:26:40.660Z"
     },
     "tg-mgh-mobin": {
       "name": "",
@@ -1963,6 +1964,13 @@
     {
       "at": "2026-11-16T17:57:09.157Z",
       "source": "tg-shayanode",
+      "from": "active",
+      "to": "watch",
+      "reason": "reject_pattern"
+    },
+    {
+      "at": "2026-11-19T20:26:40.660Z",
+      "source": "tg-techiin",
       "from": "active",
       "to": "watch",
       "reason": "reject_pattern"
