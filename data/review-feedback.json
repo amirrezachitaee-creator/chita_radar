@@ -5474,6 +5474,10 @@
     },
     "9e3c9df237": {
       "id": "9e3c9df237",
+      "status": "sent",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T13:31:03.674Z",
+      "updatedAt": "2026-11-19T14:05:56.596Z",
       "messageId": 77,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T17:00+03:30",
@@ -5510,7 +5514,7 @@
         "post_type": "standard",
         "importance": 4,
         "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
-        "body": "گوگل دیپ‌مایند مدل جدید Gemini 4 Neon رو معرفی کرد؛ مدلی که برای کارهای طولانی کدنویسی و ایجنت‌محور ساخته شده. پنجره زمینه‌اش ۱ میلیون توکنه و قیمت ورودی هر میلیون توکن ۳ دلاره، یعنی با کش ۹۵٪ تخفیف می‌گیره و خروجی هر میلیون توکن هم ۱۵ دلار. توی شاخص Artificial Analysis با امتیاز ۶۱ رتبه سوم و توی Vals Index دوم شده. این مدل توی بنچمارک‌های حقوقی و مالی اوله؛ Legal Research Bench و Tax Agent Bench رو گرفته و توی AutomationBench زاپیر با ۵۶.۳٪ اول شده. Gemini 4 Neon الان توی Google Antigravity قابل استفاده‌ست.\n\nبا این قیمت و سرعت، تیم‌های کوچک هم می‌تونن کارهای سنگین ایجنت‌محور رو با هزینه کم اجرا کنن.\n\nمنبع: [Google DeepMind](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=)",
+        "body": "گوگل دیپ‌مایند مدل جدید Gemini 4 Neon رو معرفی کرد؛ مدلی که برای کارهای طولانی کدنویسی و ایجنت‌محور ساخته شده. پنجره زمینه‌اش ۱ میلیون توکنه و قیمت ورودی هر میلیون توکن ۳ دلاره، یعنی با کش ۹۵٪ تخفیف می‌گیره و خروجی هر میلیون توکن هم ۱۵ دلار. توی شاخص Artificial Analysis با امتیاز ۶۱ رتبه سوم و توی Vals Index دوم شده. این مدل توی بنچمارک‌های حقوقی و مالی اوله؛ Legal Research Bench و Tax Agent Bench رو گرفته و توی AutomationBench زاپیر با ۵۶.۳٪ اول شده. Gemini 4 Neon الان توی Google Antigravity قابل استفاده‌ست.\n\nبا این قیمت و سرعت، تیم‌های کوچک هم می‌تونن کارهای سنگین ایجنت‌محور رو با هزینه کم اجرا کنن.\n\nمنبع: [Google Models & Research](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=)",
         "quote": "",
         "key_facts": [
           "پنجره زمینه ۱ میلیون توکن",
@@ -5569,17 +5573,11 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T13:31:03.674Z",
-      "updatedAt": "2026-11-19T13:46:12.669Z",
-      "lastActionAt": "",
-      "sentAt": "",
+      "lastActionAt": "2026-11-19T14:05:56.596Z",
+      "sentAt": "2026-11-19T14:05:56.596Z",
       "manual": true,
-      "queuedPublish": {
-        "at": "2026-11-19T13:46:12.669Z",
-        "actor": "amir"
-      }
+      "noteRewriteUsed": false,
+      "lastAction": "publish"
     },
     "1c32b2c838": {
       "id": "1c32b2c838",
@@ -5895,6 +5893,15 @@
       "reason": "",
       "detail": "qa_pass cost=$0.001847",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-19T14:05:56.596Z",
+      "action": "publish",
+      "itemId": "9e3c9df237",
+      "source": "google-models-research",
+      "reason": "",
+      "detail": "message=112 photo",
+      "actor": "queued"
     }
   ],
   "sources": {
@@ -5969,6 +5976,12 @@
       "rewrites": 1,
       "publishes": 0,
       "lastAt": "2026-11-19T11:30:08.073Z"
+    },
+    "google-models-research": {
+      "rejects": 0,
+      "rewrites": 0,
+      "publishes": 1,
+      "lastAt": "2026-11-19T14:05:56.596Z"
     }
   },
   "callbackRetries": {
@@ -5981,10 +5994,6 @@
     "6": {
       "itemId": "460c55a1ad",
       "at": "2026-11-16T23:55:37.553Z"
-    },
-    "8": {
-      "itemId": "460c55a1ad",
-      "at": "2026-11-16T23:56:40.383Z"
     }
   }
 }

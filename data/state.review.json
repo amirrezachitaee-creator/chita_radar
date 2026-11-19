@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T11:26:07.211Z",
+  "updatedAt": "2026-11-19T14:05:56.610Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -538,6 +538,24 @@
       "slot": "2026-11-17T08:30+03:30",
       "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
       "url": "https://perq.sh/"
+    },
+    "url:edd7b1076b4798d5": {
+      "at": "2026-11-19T14:05:56.601Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "models",
+      "slot": "2026-11-19T17:35",
+      "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
+    },
+    "title:32ad3d5fa77066d7": {
+      "at": "2026-11-19T14:05:56.601Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "models",
+      "slot": "2026-11-19T17:35",
+      "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
     }
   },
   "deferred": {},

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T13:31:31.748Z",
+  "updatedAt": "2026-11-19T14:05:56.601Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -12265,22 +12265,22 @@
       "url": "https://simonwillison.net/2026/Nov/18/llm-gemini"
     },
     "url:edd7b1076b4798d5": {
-      "at": "2026-11-19T13:31:29.922Z",
-      "decision": "review",
-      "reason": "source_not_official",
-      "category": "",
-      "slot": "2026-11-19T17:00+03:30",
-      "title": "🤖 مدل Gemini 4 Neon معرفی شد؛ سریع‌تر و ارزون‌تر از مدل‌های بزرگ‌تر",
-      "url": "http://deepmind.google/blog/introducing-gemini-4-neon"
+      "at": "2026-11-19T14:05:56.601Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "models",
+      "slot": "2026-11-19T17:35",
+      "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
     },
     "title:32ad3d5fa77066d7": {
-      "at": "2026-11-19T13:31:29.922Z",
-      "decision": "review",
-      "reason": "source_not_official",
-      "category": "",
-      "slot": "2026-11-19T17:00+03:30",
-      "title": "🤖 مدل Gemini 4 Neon معرفی شد؛ سریع‌تر و ارزون‌تر از مدل‌های بزرگ‌تر",
-      "url": "http://deepmind.google/blog/introducing-gemini-4-neon"
+      "at": "2026-11-19T14:05:56.601Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "models",
+      "slot": "2026-11-19T17:35",
+      "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
     },
     "url:c8c70a1aef29cf8d": {
       "at": "2026-11-19T13:31:30.767Z",
@@ -18921,6 +18921,24 @@
       "sourceTitle": "NVIDIA RTX Spark Compact Desktops Out Now",
       "sourceText": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC.\nWith up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks running while a laptop travels or handles other work.\nAlongside the new desktops, an expanding software ecosystem brings more creative and development workflows to RTX Spark laptops and compact desktops.\nNative Windows on Arm applications from Adobe, the NVIDIA DLSS Ray Reconstruction feature in Blender and local generation workflows in ComfyUI expand what creators and developers can do on RTX Spark — all on one Windows PC.\nAs workflows expand to include local AI models and agents, more work can continue beyond an active editing session — from generating assets to processing long renders or scheduled tasks.\nRTX Spark compact desktops give developers, creators and AI enthusiasts a dedicated Windows PC for local models and always-on agents. They bring together image and video generation, model fine-tuning, creative applications and development tools in one compact system.\nRunning supported models locally keeps locally processed code and files on the PC and avoids per-token cloud application programming interface (API) charges for those tasks.\nRTX Spark desktops are equipped with a 20-core NVIDIA Grace CPU, an NVIDIA Blackwell RTX GPU with 6,144 CUDA cores and up to ",
       "at": "2026-11-19T09:15:30.189Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-19T17:35",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
+      "why": "با این قیمت و سرعت، تیم‌های کوچک هم می‌تونن کارهای سنگین ایجنت‌محور رو با هزینه کم اجرا کنن.",
+      "dedupe_key": "url:edd7b1076b4798d5",
+      "post_key": "2026-11-19T17:35/review/9e3c9df237",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+      "sourceTitle": "Introducing Gemini 4 Neon",
+      "sourceText": "🤖 مدل Gemini 4 Neon معرفی شد؛ سریع‌تر و ارزون‌تر از مدل‌های بزرگ‌تر\n\nشرکت Google DeepMind مدل جدید Gemini 4 Neon رو با پنجره زمینه ۱ میلیون توکن و قیمت ۳ دلار برای هر میلیون توکن ورودی (۰.۱۵ دلار برای کش، ۹۵٪ تخفیف) و ۱۵ دلار خروجی معرفی کرد. Neon توی شاخص Artificial Analysis با امتیاز ۶۱ رتبه سوم رو گرفته و توی Vals Index دوم شده.\n\nتوی بنچمارک‌های حقوقی و مالی رتبه اول رو داره؛ Legal Research Bench و Tax Agent Bench رو گرفته و توی AutomationBench زاپیر با ۵۶.۳٪ اول شده. برای کارهای کدنویسی طولانی و ایجنت‌محور هم ساخته شده و توی Google Antigravity قابل استفاده‌ست.\n\ndeepmind.google/blog/introducing-gemini-4-neon\n\n@dunijet_ai\n\n❤2",
+      "at": "2026-11-19T14:05:56.601Z"
     }
   ],
   "telegram": {
