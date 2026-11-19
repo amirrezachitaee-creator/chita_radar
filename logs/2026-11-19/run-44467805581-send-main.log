@@ -1,0 +1,77 @@
+RUN 44467805581 | send/main | slot auto | 2026-11-19T05:49:48Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-19T08:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 15/31 | models 9/24 | security 5/11 | business 6/11
+DAILY 2/11
+DIVERSITY_TARGET tools | slot 08:30
+DEFERRED_POOL 48
+  DEFERRED source_weekly | try 0/3 | Google ships Gemini 4 Neon, its fourth new Gemini model in a month
+  DEFERRED source_daily | try 0/3 | Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing
+  DEFERRED source_consecutive | try 0/3 | Muse privacy invasions are freaking out Meta staffers, internal chats show
+  DEFERRED source_daily | try 0/3 | Lawmakers call on White House to develop defensive AI cyber systems
+  DEFERRED source_daily | try 0/3 | Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 41h | GPT‑6.2 Astra and GPT‑6.2 Sol
+DEFERRED_EXHAUSTED 1
+SLOT_ALREADY_DONE 2026-11-19T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-19T05:49:49Z
+# گزارش روزانه 2026-11-19 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 2
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 12
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.001564
+- توکن: 45082
+- میانگین هر پست ارسال‌شده: $0.000782
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 15 | 31 | 16 |
+| مدل‌ها و پژوهش | 9 | 24 | 15 |
+| امنیت و حریم خصوصی | 5 | 11 | 6 |
+| کسب‌وکار و بازار | 6 | 11 | 5 |
+| مجموع | 35 | 77 | 42 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000843 | 23316 | گوگل Genie 4 را منتشر کرد؛ دنیای تعاملی با متن |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000721 | 21766 | گوگل برای هوش مصنوعی جستجو حالت ناشناس آورد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 3
+- دلایل: از رصد آفر پیدا شد 2، لینک خارجی این پست پذیرفته نشد 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 49
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-19.md
+SOURCE_STATUS 2026-11-19T05:49:49Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-19.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — پنجشنبه ۲۸ آبان ۱۴۰۵
+پست امروز: 2 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 2
+صف بازبینی: 89 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 49
+منابع: 71 فعال، 1 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44467805581
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
