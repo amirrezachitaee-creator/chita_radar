@@ -17,6 +17,7 @@ import {
   isEducationLead,
   isOfficialCourse,
   isOfficialModelRelease,
+  isModelReleaseStory,
   isPromotionalUrl,
   isRumorText,
   leadTitle,
@@ -214,6 +215,27 @@ test('an official model release stays news even when the text mentions API', () 
     }),
     'tool_lead'
   );
+});
+
+test('a model family name is enough to recognize an official release without the word model', () => {
+  const url = 'https://deepmind.google/blog/introducing-gemini-4-neon';
+  assert.equal(isOfficialModelRelease(url, 'Introducing Gemini 4 Neon'), true);
+  assert.equal(
+    classifyLead(url, 'Introducing Gemini 4 Neon', { aiRelevant: true, aiCentral: true }),
+    'news'
+  );
+  assert.equal(
+    isOfficialModelRelease(
+      'https://deepmind.google/blog/introducing-our-new-research',
+      'Introducing our new research'
+    ),
+    false
+  );
+  assert.equal(
+    isModelReleaseStory('Google continues to accelerate its release cadence with Gemini 4 Neon'),
+    true
+  );
+  assert.equal(isModelReleaseStory('Gemini free trial for students'), false);
 });
 
 test('only official academy courses are news-eligible', () => {
@@ -547,6 +569,22 @@ test('a repeated story with a different title is still caught by its body', () =
       'گوگل قراره از اوایل سال آینده میلادی، دسترسی به ابزارهای هوش مصنوعی خودش رو برای حساب‌های دانش‌آموزی مدارس ابتدایی تا دبیرستان به‌صورت پیش‌فرض غیرفعال کنه. این شرکت در ماه اوت قابلیت‌های هوش مصنوعی رو در گوگل کلاس‌روم فعال کرده بود. کریس فیلیپس، معاون بخش آموزش گوگل، در گفت‌وگو با نیویورک تایمز گفته جست‌وجو و هوش مصنوعی به‌شدت به هم وابسته‌اند.',
   };
   assert.equal(findStoryDuplicate(candidate, [published]), published);
+});
+
+test('a different model variant is not a duplicate of a published sibling', () => {
+  const published = {
+    lane: 'main',
+    decision: 'publish',
+    title: 'گوگل از مدل جدید Gemini 4 Hydrogen رونمایی کرد',
+  };
+  assert.equal(
+    matchesPublishedStory('گوگل مدل Gemini 4 Neon را معرفی کرد', published),
+    false
+  );
+  assert.equal(
+    matchesPublishedStory('گوگل مدل Gemini 4 Hydrogen را معرفی کرد', published),
+    true
+  );
 });
 
 test('a passing mention of another model in the body does not make a different story a duplicate', () => {

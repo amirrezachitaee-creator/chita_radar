@@ -125,6 +125,82 @@ function savedDraftSource(item) {
     .join('\n\n');
 }
 
+const NOTE_MORE_PATTERN = /(?:بیشتر|بلندتر|مفصل|کامل[\s\u200c]*تر|بسط|\blonger\b|\bexpand\b)/iu;
+const NOTE_FIELDS = [
+  { field: 'quote', label: 'کتیشن', pattern: /(?:کتیشن|نقل[\s\u200c]*قول|\bquote\b)/iu },
+  { field: 'body', label: 'بدنه', pattern: /(?:بدنه|متن اصلی|\bbody\b)/iu },
+];
+
+export function noteExpansionTargets(note, post) {
+  const text = String(note ?? '');
+  if (!text.trim() || !NOTE_MORE_PATTERN.test(text)) return [];
+  return NOTE_FIELDS.filter(({ pattern }) => pattern.test(text)).map(({ field, label }) => {
+    const before = String(post?.[field] ?? '').trim().length;
+    return { field, label, before, target: Math.max(80, Math.ceil(before * 1.2)) };
+  });
+}
+
+export function noteExpansionMet(post, targets) {
+  return (targets ?? []).every(
+    ({ field, target }) => String(post?.[field] ?? '').trim().length >= target
+  );
+}
+
+export function noteWithExpansionTargets(note, targets) {
+  if (!targets?.length) return String(note ?? '');
+  const lines = targets.map(({ label, target }) => `${label} باید دست‌کم ${target} کاراکتر شود`);
+  return `${String(note ?? '').trim()}\n\nالزام قابل‌سنجش این بازنویسی: ${lines.join('؛ ')}. جزئیات تازه را از body به بخش خواسته‌شده منتقل کن و مجموع کپشن را زیر ۱۰۲۴ کاراکتر نگه دار.`;
+}
+
+function expandQuoteFromBody(post, target) {
+  const quote = String(post?.quote ?? '').trim();
+  if (quote.length >= target) return null;
+  const paragraphs = String(post?.body ?? '')
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const sourceIndex = paragraphs.findIndex((part) => /^(?:منبع:|لینک استفاده:)/u.test(part));
+  const end = sourceIndex === -1 ? paragraphs.length : sourceIndex;
+  if (end < 3) return null;
+  const movable = paragraphs.slice(1, end - 1);
+  if (!movable.length) return null;
+  let nextQuote = quote;
+  const remaining = [];
+  let moved = false;
+  for (const paragraph of movable) {
+    const sentences = paragraph.split(/(?<=[.!؟?])\s+/u).map((part) => part.trim()).filter(Boolean);
+    const taken = [];
+    const kept = [];
+    for (const sentence of sentences) {
+      const projected = [nextQuote, ...taken].filter(Boolean).join(' ');
+      if (projected.length < target) taken.push(sentence);
+      else kept.push(sentence);
+    }
+    if (taken.length) {
+      nextQuote = [nextQuote, taken.join(' ')].filter(Boolean).join('\n\n');
+      moved = true;
+    }
+    if (kept.length) remaining.push(kept.join(' '));
+  }
+  if (!moved || nextQuote.length < target) return null;
+  return {
+    ...post,
+    body: [paragraphs[0], ...remaining, ...paragraphs.slice(end - 1)].join('\n\n'),
+    quote: nextQuote,
+  };
+}
+
+function expandNoteFields(post, targets) {
+  let next = post;
+  for (const { field, target } of targets) {
+    if (String(next?.[field] ?? '').trim().length >= target) continue;
+    if (field !== 'quote') return null;
+    next = expandQuoteFromBody(next, target);
+    if (!next) return null;
+  }
+  return next;
+}
+
 export function qaContextForItem(item, post, now, config = {}, usageUrl = '', options = {}) {
   const url = String(item?.url || item?.leadPostUrl || '');
   const host = (() => {
@@ -354,4 +430,77 @@ export async function draftReviewPost({
     `REVIEW_REWRITE_QA ${qa.pass ? 'PASS' : 'FAIL'} ${qa.problems.join(',') || 'none'} | $${cost.toFixed(6)}`
   );
   return { post: fixed, qa, reason: qa.pass ? 'ok' : 'qa_failed', cost, tokens };
+}
+
+export async function draftReviewPostWithNote(options = {}) {
+  const targets = noteExpansionTargets(options?.item?.note, options?.item?.post);
+  let result = await draftReviewPost(options);
+  if (!result.post || !targets.length || noteExpansionMet(result.post, targets)) {
+    return {
+      ...result,
+      noteTargets: targets,
+      noteApplied: !targets.length || noteExpansionMet(result.post, targets),
+    };
+  }
+  const first = result;
+  const expanded = expandNoteFields(first.post, targets);
+  if (expanded) {
+    options.log?.(
+      `REVIEW_NOTE_EXPAND_TRY quote=${String(expanded.quote ?? '').trim().length} body=${String(
+        expanded.body ?? ''
+      ).trim().length}`
+    );
+    const qa = qaPost(
+      expanded,
+      qaContextForItem(
+        options.item,
+        expanded,
+        options.now,
+        options.config ?? {},
+        toolUsageForItem(options.item)?.url ?? '',
+        { manual: options.manual === true || options.item?.manual === true }
+      )
+    );
+    if (qa.pass) {
+      options.log?.(
+        `REVIEW_NOTE_EXPAND ${targets
+          .map(({ field, before }) => `${field}=${before}->${String(expanded[field]).trim().length}`)
+          .join(',')}`
+      );
+      return {
+        ...first,
+        post: expanded,
+        qa,
+        reason: 'ok',
+        noteTargets: targets,
+        noteApplied: true,
+        noteExpanded: true,
+      };
+    }
+    options.log?.(`REVIEW_NOTE_EXPAND_QA_FAIL ${qa.problems.join(',') || 'none'}`);
+  }
+  options.log?.(
+    `REVIEW_NOTE_RETRY ${targets
+      .map(({ field, before, target }) => `${field}=${before}->${target}`)
+      .join(',')}`
+  );
+  const retried = await draftReviewPost({
+    ...options,
+    item: { ...options.item, note: noteWithExpansionTargets(options.item.note, targets) },
+  });
+  result = {
+    ...retried,
+    cost: (Number(first.cost ?? 0) || 0) + (Number(retried.cost ?? 0) || 0),
+    tokens: (Number(first.tokens ?? 0) || 0) + (Number(retried.tokens ?? 0) || 0),
+  };
+  const applied = Boolean(result.post) && noteExpansionMet(result.post, targets);
+  options.log?.(
+    `REVIEW_NOTE_CHECK applied=${applied ? 1 : 0} ${targets
+      .map(
+        ({ field, target }) =>
+          `${field}=${String(result.post?.[field] ?? '').trim().length}/${target}`
+      )
+      .join(',')}`
+  );
+  return { ...result, noteTargets: targets, noteApplied: applied };
 }

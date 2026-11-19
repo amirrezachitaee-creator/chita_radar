@@ -7,7 +7,11 @@ import { buildUserMessage } from './engine.mjs';
 import {
   candidateFromItem,
   draftReviewPost,
+  draftReviewPostWithNote,
+  noteExpansionMet,
+  noteExpansionTargets,
   noteLinksForItem,
+  noteWithExpansionTargets,
   offerContextFromItem,
   qaContextForItem,
   resolvedImageUrl,
@@ -616,4 +620,82 @@ test('the system prompt scopes automatic skips so manual mode is not contradicto
   ]) {
     assert.ok(prompt.includes(line), line);
   }
+});
+
+test('a note that asks for more citation sets a measurable expansion target', () => {
+  const post = { quote: 'ن'.repeat(100) };
+  const targets = noteExpansionTargets('داخل کتیشن رو بیشتر بنویس و منبعش هم درسته', post);
+  assert.deepEqual(targets, [{ field: 'quote', label: 'کتیشن', before: 100, target: 120 }]);
+  assert.equal(noteExpansionMet({ quote: 'ن'.repeat(119) }, targets), false);
+  assert.equal(noteExpansionMet({ quote: 'ن'.repeat(120) }, targets), true);
+  assert.deepEqual(noteExpansionTargets('منبعش هم درسته', post), []);
+  assert.match(noteWithExpansionTargets('یادداشت', targets), /کتیشن باید دست‌کم 120 کاراکتر شود/);
+});
+
+test('a longer-citation note triggers one measurable retry and keeps total cost', async () => {
+  let calls = 0;
+  const shortQuote = 'ن'.repeat(100);
+  const item = baseItem({
+    manual: true,
+    note: 'داخل کتیشن رو بیشتر بنویس',
+    post: { title: PUBLISH_JSON.title, body: PUBLISH_JSON.body, quote: shortQuote },
+  });
+  const result = await draftReviewPostWithNote({
+    item,
+    now: NOW,
+    manual: true,
+    request: async (story) => {
+      calls += 1;
+      const quote = calls === 1 ? shortQuote : 'ن'.repeat(130);
+      if (calls === 2) assert.match(story.note, /الزام قابل‌سنجش/);
+      return {
+        content: JSON.stringify({ ...PUBLISH_JSON, quote }),
+        usage: { cost: 0.001, total_tokens: 100 },
+      };
+    },
+  });
+  assert.equal(calls, 2);
+  assert.equal(result.noteApplied, true);
+  assert.ok(result.post.quote.length >= 120);
+  assert.ok(Math.abs(result.cost - 0.002) < 1e-9);
+  assert.equal(result.tokens, 200);
+});
+
+test('an ignored citation note is reported instead of silently accepted', async () => {
+  const shortQuote = 'ن'.repeat(100);
+  const item = baseItem({
+    manual: true,
+    note: 'داخل کتیشن رو بیشتر بنویس',
+    post: { title: PUBLISH_JSON.title, body: PUBLISH_JSON.body, quote: shortQuote },
+  });
+  const result = await draftReviewPostWithNote({
+    item,
+    now: NOW,
+    manual: true,
+    request: async () => ({
+      content: JSON.stringify({ ...PUBLISH_JSON, quote: shortQuote }),
+      usage: { cost: 0, total_tokens: 10 },
+    }),
+  });
+  assert.equal(result.noteApplied, false);
+  assert.deepEqual(result.noteTargets.map(({ field }) => field), ['quote']);
+});
+
+test('a longer-citation note moves existing detail into the quote without another call', async () => {
+  let calls = 0;
+  const item = manualItem({ note: 'داخل کتیشن رو بیشتر بنویس' });
+  const result = await draftReviewPostWithNote({
+    item,
+    now: NOW,
+    manual: true,
+    request: async () => {
+      calls += 1;
+      return { content: JSON.stringify(MANUAL_JSON), usage: { cost: 0.001, total_tokens: 100 } };
+    },
+  });
+  assert.equal(calls, 1);
+  assert.equal(result.noteApplied, true);
+  assert.equal(result.noteExpanded, true);
+  assert.ok(result.post.quote.length >= 80);
+  assert.equal(result.post.body.includes(result.post.quote), false);
 });

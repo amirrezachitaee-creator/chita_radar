@@ -906,6 +906,9 @@ test('an operator note enters the writer prompt as an allowed, grounded input', 
   const withoutNote = buildUserMessage(story);
   assert.match(withNote, /یادداشت اپراتور/);
   assert.ok(withNote.includes('https://example.com/extra'));
+  assert.match(withNote, /بر قواعد پیش‌فرض طول و چینش مقدم است/);
+  assert.match(withNote, /عیناً مثل نسخه قبلی ماند، یعنی یادداشت اعمال نشده/);
+  assert.match(withNote, /همان بخش را با جزئیات موجود محسوس بلندتر کن/);
   assert.match(withNote, /نه به‌عنوان خط پایانی منبع/);
   assert.match(withNote, /عدد، نتیجه، علت یا بزرگ‌نمایی تازه از خودت اضافه نکن/);
   assert.equal(withoutNote.includes('یادداشت اپراتور'), false);

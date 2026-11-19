@@ -1692,6 +1692,7 @@ async function main() {
     const preOffer = detectOffer({
       title: candidate.title,
       content: `${candidate.summary ?? ''} ${candidate.messageText ?? ''}`,
+      modelRelease: candidate.modelRelease === true,
     });
     const leftover = String(candidate.messageText ?? '').trim();
     const protectedLead = Boolean(
@@ -1858,8 +1859,12 @@ async function main() {
     const offerContent = leftover && !article.content.includes(leftover)
       ? `${leftover}\n\n${article.content}`
       : article.content;
-    const offer = detectOffer({ title: article.title || candidate.title, content: offerContent });
-    if (candidate.resolvedLink && !offer.isOffer) {
+    const offer = detectOffer({
+      title: article.title || candidate.title,
+      content: offerContent,
+      modelRelease: candidate.modelRelease === true,
+    });
+    if (candidate.resolvedLink && !offer.isOffer && candidate.modelRelease !== true) {
       console.log('  LINK_UNVERIFIED official_page_has_no_offer');
       await deliverReview({
         candidate,

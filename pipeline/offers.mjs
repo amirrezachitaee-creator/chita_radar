@@ -70,13 +70,14 @@ export function hasReferral(text) {
   return REFERRAL.test(String(text ?? ''));
 }
 
-export function detectOffer({ title = '', content = '' } = {}) {
+export function detectOffer({ title = '', content = '', modelRelease = false } = {}) {
   const titleHits = STRONG_OFFER.filter((pattern) => pattern.test(title)).map((pattern) => pattern.source);
   const contentHits = STRONG_OFFER.filter((pattern) => pattern.test(content)).map((pattern) => pattern.source);
   const isOffer =
     titleHits.length > 0 ||
-    contentHits.length >= 2 ||
-    (contentHits.length >= 1 && EXPIRY_CUE.test(content));
+    (!modelRelease &&
+      (contentHits.length >= 2 ||
+        (contentHits.length >= 1 && EXPIRY_CUE.test(content))));
   return {
     isOffer,
     hits: [...new Set([...titleHits, ...contentHits])].slice(0, 5),

@@ -521,11 +521,19 @@ export function isOfficialCourse(raw, text, { officialCourseDomains = [] } = {})
 }
 
 const MODEL_WORD_PATTERN = /(?:\bmodels?\b|مدل)/iu;
+const MODEL_NAME_PATTERN =
+  /\b(?:gemini|gemma|gpt|chatgpt|claude|llama|mistral|qwen|deepseek|grok|phi|command(?:\s+r)?|sora|veo|imagen|whisper|dall[-\s]?e|stable\s+diffusion|midjourney)\b/iu;
 const MODEL_RELEASE_CUE_PATTERN =
-  /(?:\bnow available\b|\bavailable (?:in|to|for|today|now)\b|\bintroduc(?:e|es|ing)\b|\breleas(?:e|es|ed|ing)\b|\blaunch(?:es|ed|ing)?\b|\brolling out\b|\bpreview\b|منتشر|عرضه|رونمایی|در[\s\u200c]*دسترس|اکنون[\s\u200c]*در[\s\u200c]*دسترس|در[\s\u200c]*اختیار)/iu;
+  /(?:\bnow available\b|\bavailable (?:in|to|for|today|now)\b|\bintroduc(?:e|es|ing)\b|\breleas(?:e|es|ed|ing)\b|\blaunch(?:es|ed|ing)?\b|\bships?\b|\bdebuts?\b|\bunveil(?:s|ed|ing)?\b|\brolling out\b|\bpreview\b|منتشر|عرضه|رونمایی|معرفی|در[\s\u200c]*دسترس|اکنون[\s\u200c]*در[\s\u200c]*دسترس|در[\s\u200c]*اختیار)/iu;
 const MODEL_PATH_PATTERN = /(?:^|[-_/])models?(?:[-_/]|$)/i;
 const MODEL_RELEASE_PATH_PATTERN =
   /(?:now-available|introducing|releases?|launch(?:es|ed)?|preview|available)/i;
+
+export function isModelReleaseStory(text) {
+  const value = String(text ?? '');
+  const hasModel = MODEL_WORD_PATTERN.test(value) || MODEL_NAME_PATTERN.test(value);
+  return hasModel && MODEL_RELEASE_CUE_PATTERN.test(value);
+}
 
 export function isOfficialModelRelease(raw, text, { officialCourseDomains = [] } = {}) {
   let url;
@@ -543,8 +551,12 @@ export function isOfficialModelRelease(raw, text, { officialCourseDomains = [] }
   if (!hostIn(host, domains)) return false;
 
   const value = String(text ?? '');
-  if (MODEL_WORD_PATTERN.test(value) && MODEL_RELEASE_CUE_PATTERN.test(value)) return true;
-  return MODEL_PATH_PATTERN.test(url.pathname) && MODEL_RELEASE_PATH_PATTERN.test(url.pathname);
+  if (isModelReleaseStory(value)) return true;
+  if (MODEL_PATH_PATTERN.test(url.pathname) && MODEL_RELEASE_PATH_PATTERN.test(url.pathname)) {
+    return true;
+  }
+  const pathText = url.pathname.replace(/[-_/]+/g, ' ');
+  return MODEL_NAME_PATTERN.test(pathText) && MODEL_RELEASE_CUE_PATTERN.test(pathText);
 }
 
 const AD_START_PATTERN =
@@ -893,6 +905,60 @@ const STORY_SYNONYMS = new Map([
   ['دیتاسنترها', 'دیتاسنتر'],
 ].map(([key, value]) => [stripJoiners(key), stripJoiners(value)]));
 
+const MODEL_IDENTITY_PATTERN =
+  /\b(?:gemini|gemma|gpt|chatgpt|claude|llama|mistral|qwen|deepseek|grok|phi|command(?:\s+r)?|sora|veo|imagen|whisper|dall[-\s]?e|stable\s+diffusion|midjourney)\b/giu;
+const MODEL_VARIANT_STOPWORDS = new Set([
+  'a', 'an', 'the', 'and', 'or', 'for', 'with', 'from', 'to', 'in', 'on', 'of', 'at', 'by',
+  'is', 'are', 'was', 'were', 'be', 'been', 'being', 'new', 'model', 'models', 'now',
+  'available', 'release', 'released', 'releases', 'launch', 'launches', 'launched',
+  'introducing', 'introduce', 'introduces', 'update', 'updates', 'preview', 'beta', 'alpha',
+  'via', 'using', 'based', 'family', 'series', 'version', 'api', 'app', 'chat', 'online',
+  'today', 'this', 'that', 'its', 'their', 'has', 'have', 'will', 'can', 'into', 'over',
+  'after', 'before', 'more', 'most', 'than', 'as', 'it', 'we', 'you', 'they', 'he', 'she',
+  'his', 'her', 'our', 'your', 'my', 'me', 'us', 'them', 'what', 'which', 'who', 'when',
+  'where', 'why', 'how', 'all', 'any', 'some', 'no', 'not', 'only', 'just', 'also', 'very',
+  'much', 'many', 'few', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight',
+  'nine', 'ten',
+]);
+
+function modelIdentities(value) {
+  const text = String(value ?? '')
+    .toLowerCase()
+    .replace(/[\u200c\u200d]/g, ' ')
+    .replace(/[^\p{L}\p{N}.\- ]/gu, ' ');
+  const identities = [];
+  for (const match of text.matchAll(MODEL_IDENTITY_PATTERN)) {
+    const family = match[0].replace(/\s+/g, ' ');
+    const variant = [];
+    for (const raw of text.slice(match.index + match[0].length).split(/\s+/)) {
+      if (!raw) continue;
+      const token = raw.replace(/^[.\-]+|[.\-]+$/g, '');
+      if (!token || !/^[a-z0-9][a-z0-9.\-]*$/i.test(token)) break;
+      if (MODEL_VARIANT_STOPWORDS.has(token)) break;
+      variant.push(token);
+      if (variant.length >= 2) break;
+    }
+    identities.push({ family, variant: variant.join(' ') });
+  }
+  return identities;
+}
+
+function modelVariantConflict(left, right) {
+  const a = modelIdentities(left);
+  const b = modelIdentities(right);
+  const comparable = [];
+  for (const one of a) {
+    for (const two of b) {
+      if (one.family !== two.family || !one.variant || !two.variant) continue;
+      comparable.push([one.variant, two.variant]);
+    }
+  }
+  if (!comparable.length) return false;
+  return !comparable.some(
+    ([one, two]) => one === two || one.startsWith(two) || two.startsWith(one)
+  );
+}
+
 function storyTokens(value) {
   const tokens = normalizeConceptText(value)
     .toLowerCase()
@@ -914,6 +980,7 @@ export function matchesPublishedStory(text, entry = {}) {
     sourceText.length <= 600 ? sourceText : '',
   ].filter(Boolean);
   for (const story of stories) {
+    if (modelVariantConflict(text, story)) continue;
     const publishedTokens = storyTokens(story);
     if (!publishedTokens.size) continue;
     let shared = 0;

@@ -58,6 +58,7 @@ export function normalizeReviewStore(value) {
       entry.note = String(entry.note ?? '').slice(0, 2000);
       entry.noteAt = String(entry.noteAt ?? '');
       entry.noteBy = String(entry.noteBy ?? '').slice(0, 40);
+      entry.noteRewriteUsed = entry.noteRewriteUsed === true;
       entry.previousMessageIds = Array.isArray(entry.previousMessageIds)
         ? entry.previousMessageIds
             .map((value) => Number(value))
@@ -177,6 +178,7 @@ export function createReviewItem(store, fields = {}) {
     note: String(fields.note ?? '').slice(0, 2000),
     noteAt: String(fields.noteAt ?? ''),
     noteBy: String(fields.noteBy ?? '').slice(0, 40),
+    noteRewriteUsed: false,
     previousMessageIds: Array.isArray(fields.previousMessageIds)
       ? fields.previousMessageIds
           .map((value) => Number(value))
@@ -220,17 +222,20 @@ export function keyboardFor(item, { rewriteCap = 2 } = {}) {
   const cap = Math.max(0, Number(rewriteCap) || 0);
   const rewrites = Math.max(0, Number(item.rewrites) || 0);
   const reject = { text: 'رد', callback_data: reviewCallback('r', item.id) };
-  const note = { text: 'یادداشت', callback_data: reviewCallback('n', item.id) };
+  const note = { text: 'یادداشت (اختیاری)', callback_data: reviewCallback('n', item.id) };
+  const noteOverrideLeft = rewrites >= cap && item.noteRewriteUsed !== true;
   const rows = [];
   if (rewrites < cap) {
     rows.push([
-      reject,
       {
         text: rewrites > 0 ? 'بازنویسی مجدد' : 'بازنویسی',
         callback_data: reviewCallback('w', item.id),
       },
-      note,
     ]);
+    rows.push([note, reject]);
+  } else if (noteOverrideLeft) {
+    rows.push([note]);
+    rows.push([reject]);
   } else {
     rows.push([reject]);
   }

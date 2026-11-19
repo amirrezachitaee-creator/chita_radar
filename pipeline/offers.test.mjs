@@ -102,6 +102,20 @@ test('offer detection needs a strong term and avoids passing mentions', () => {
   );
 });
 
+test('a model release that mentions free access is not treated as an offer', () => {
+  const content =
+    'Gemini 4 Neon is now available with free access for a limited time. The free tier is available until December 31, 2026.';
+  assert.equal(detectOffer({ title: 'Introducing Gemini 4 Neon', content }).isOffer, true);
+  assert.equal(
+    detectOffer({ title: 'Introducing Gemini 4 Neon', content, modelRelease: true }).isOffer,
+    false
+  );
+  assert.equal(
+    detectOffer({ title: 'Free access to Gemini 4 Neon', content, modelRelease: true }).isOffer,
+    true
+  );
+});
+
 test('free inference and no-bank-card offers are detected', () => {
   assert.equal(
     detectOffer({ title: 'Free inference with leading models', content: 'Use Inference Endpoints' }).isOffer,

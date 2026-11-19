@@ -198,6 +198,28 @@ test('a manual rewrite starts from the item flag and logs manual=1', async () =>
   assert.match(output, /DRY_REWRITE id=deadbeef01 rewrites=0->1/);
 });
 
+test('a note at the cap allows one final note-driven rewrite', async () => {
+  const output = await run(
+    [update('w', 'deadbeef01')],
+    [item({ rewrites: 2, note: 'تیتر را فارسی کن' })]
+  );
+  assert.match(
+    output,
+    /REVIEW_REWRITE_START id=deadbeef01 attempt=3\/2 manual=1 note=1 note_override=1/
+  );
+  assert.match(output, /DRY_REWRITE id=deadbeef01 rewrites=2->3/);
+  assert.doesNotMatch(output, /سقف بازنویسی/);
+});
+
+test('a second rewrite after the final note override is refused', async () => {
+  const output = await run(
+    [update('w', 'deadbeef01')],
+    [item({ rewrites: 3, note: 'تیتر را فارسی کن', noteRewriteUsed: true })]
+  );
+  assert.match(output, /DRY_NOTIFY سقف بازنویسی این مورد پر است \(3\/2\)/);
+  assert.doesNotMatch(output, /DRY_REWRITE/);
+});
+
 test('a rewrite over the item cap is refused before any model call', async () => {
   const output = await run([update('w', 'deadbeef01')], [item({ rewrites: 2 })]);
   assert.match(output, /DRY_NOTIFY سقف بازنویسی این مورد پر است \(2\/2\)/);
@@ -365,6 +387,21 @@ test('the note button previews a forced-reply prompt without blocking the queue'
   assert.match(output, /REVIEW_ACTIONS_DONE handled=1 failed=0/);
 });
 
+test('a stale note prompt is closed automatically so it no longer grabs the reply box', async () => {
+  const output = await run([], [item()], NOW, {
+    noteThreads: { 900: { itemId: 'deadbeef01', at: '2026-11-14T14:00:00Z' } },
+  });
+  assert.match(output, /DRY_NOTE_THREAD_RETIRE message=900/);
+  assert.match(output, /REVIEW_NOTE_PROMPT_EXPIRED message=900 age_min=60/);
+});
+
+test('a fresh note prompt stays open for the operator', async () => {
+  const output = await run([], [item()], NOW, {
+    noteThreads: { 900: { itemId: 'deadbeef01', at: '2026-11-14T14:45:00Z' } },
+  });
+  assert.doesNotMatch(output, /REVIEW_NOTE_PROMPT_EXPIRED|DRY_NOTE_THREAD_RETIRE/);
+});
+
 test('a note prompt for an old-channel card is sent in the review chat without a cross-chat reply', async () => {
   const output = await run(
     [update('n', 'deadbeef01', { chatId: -1000 })],
@@ -405,9 +442,20 @@ test('the reject menu returns the keyboard to the card chat', async () => {
   assert.match(output, /DRY_KEYBOARD message=42 chat=-1000/);
 });
 
-test('the note button refuses a card with no rewrite left', async () => {
+test('the note button stays available for a final note rewrite at the cap', async () => {
   const output = await run([update('n', 'deadbeef01')], [item({ rewrites: 2 })]);
-  assert.match(output, /DRY_ANSWER سقف بازنویسی این کارت پر است \(2\/2\)/);
+  assert.match(output, /DRY_NOTE_PROMPT id=deadbeef01 message=42 force_reply=1/);
+  assert.match(output, /DRY_ANSWER پیام راهنما برای نوشتن یادداشت فرستاده می‌شود/);
+  assert.doesNotMatch(output, /سقف بازنویسی/);
+  assert.match(output, /handled=1 failed=0/);
+});
+
+test('after the final note rewrite the note button no longer starts another rewrite', async () => {
+  const output = await run(
+    [update('n', 'deadbeef01')],
+    [item({ rewrites: 3, noteRewriteUsed: true, note: 'آخرین یادداشت' })]
+  );
+  assert.match(output, /DRY_ANSWER بازنویسی نهایی این کارت با یادداشت انجام شده/);
   assert.doesNotMatch(output, /DRY_NOTE_PROMPT/);
   assert.match(output, /handled=1 failed=0/);
 });
@@ -477,12 +525,22 @@ test('a note replied to the card updates the open prompt instead of duplicating 
   assert.match(output, /DRY_NOTE_CONFIRM id=deadbeef01 target=900 reply_to=500/);
 });
 
-test('a direct note cannot attach after the rewrite cap', async () => {
+test('a direct note attaches at the cap for one final rewrite', async () => {
   const output = await run(
-    [noteUpdate('دیر رسید', { replyTo: 42, updateId: 108 })],
+    [noteUpdate('تیتر را فارسی و کوتاه کن', { replyTo: 42, updateId: 108 })],
     [item({ rewrites: 2 })]
   );
-  assert.match(output, /DRY_NOTIFY سقف بازنویسی این کارت پر است \(2\/2\)/);
+  assert.match(output, /REVIEW_NOTE id=deadbeef01/);
+  assert.match(output, /DRY_NOTE_CONFIRM id=deadbeef01/);
+  assert.doesNotMatch(output, /سقف بازنویسی/);
+});
+
+test('a direct note after the final note rewrite is refused', async () => {
+  const output = await run(
+    [noteUpdate('دیر رسید', { replyTo: 42, updateId: 108 })],
+    [item({ rewrites: 3, noteRewriteUsed: true, note: 'آخرین یادداشت' })]
+  );
+  assert.match(output, /DRY_NOTIFY بازنویسی نهایی این کارت با یادداشت انجام شده/);
   assert.doesNotMatch(output, /REVIEW_NOTE id=/);
 });
 
@@ -517,6 +575,32 @@ test('a queued note for a closed card is dropped silently', async () => {
   });
   assert.doesNotMatch(output, /REVIEW_NOTE_APPLIED/);
   assert.doesNotMatch(output, /REVIEW_NOTE_CLOSED/);
+});
+
+test('a queued note at the cap is kept for the final rewrite', async () => {
+  const output = await run([], [item({ rewrites: 2 })], NOW, {
+    pendingNotes: {
+      42: { text: 'تیتر را فارسی کن', at: '2026-11-14T14:55:00Z', actor: 'amir', chatId: '-1001' },
+    },
+  });
+  assert.match(output, /REVIEW_NOTE_APPLIED id=deadbeef01 message=42/);
+  assert.match(output, /DRY_NOTE_CONFIRM id=deadbeef01/);
+  assert.doesNotMatch(output, /REVIEW_NOTE_DROPPED/);
+});
+
+test('a queued note after the final note override is dropped', async () => {
+  const output = await run(
+    [],
+    [item({ rewrites: 3, note: 'آخرین یادداشت', noteRewriteUsed: true })],
+    NOW,
+    {
+      pendingNotes: {
+        42: { text: 'دیر رسید', at: '2026-11-14T14:55:00Z', actor: 'amir', chatId: '-1001' },
+      },
+    }
+  );
+  assert.match(output, /REVIEW_NOTE_DROPPED id=deadbeef01 message=42 reason=note_rewrite_used/);
+  assert.doesNotMatch(output, /REVIEW_NOTE_APPLIED/);
 });
 
 test('a message without a reply is ignored without stalling the queue', async () => {

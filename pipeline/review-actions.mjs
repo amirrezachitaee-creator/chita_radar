@@ -44,7 +44,7 @@ import {
   saveReviewStore,
 } from './review-items.mjs';
 import {
-  draftReviewPost,
+  draftReviewPostWithNote,
   noteLinksForItem,
   offerContextFromItem,
   resolvedImageUrl,
@@ -532,6 +532,22 @@ function attachNote(item, text, actor = '', at = new Date().toISOString()) {
 }
 
 const NOTE_REWRITE_LABEL = 'بازنویسی+نکات مهم ادمین';
+const NOTE_PROMPT_TTL_MS = 30 * 60 * 1000;
+
+function noteRewriteAtCap(item) {
+  return Boolean(
+    item &&
+      Number(item.rewrites) >= REWRITE_CAP &&
+      String(item.note ?? '').trim() &&
+      item.noteRewriteUsed !== true
+  );
+}
+
+function noteCapExhausted(item) {
+  return Boolean(
+    item && Number(item.rewrites) >= REWRITE_CAP && item.noteRewriteUsed === true
+  );
+}
 
 function latestNoteThread(itemId) {
   let best = null;
@@ -549,14 +565,14 @@ function notePromptText(item) {
   if (note) {
     return `یادداشت فعلی: «${noteSnippet(note)}»\nاگر می‌خواهی عوضش کنی، یادداشت تازه را همین‌جا بنویس؛ جایگزین قبلی می‌شود.`;
   }
-  return 'نکات مدنظرت در مورد این پست را بنویس؛ همین‌جا پاسخ بده.';
+  return 'نکات مدنظرت در مورد این پست را بنویس؛ همین‌جا پاسخ بده.\nاین مرحله اختیاری است و فقط برای همین کارت استفاده می‌شود.';
 }
 
 async function retireNoteThread(messageId, text) {
-  if (!messageId) return;
+  if (!messageId) return false;
   if (!SEND) {
     log(`DRY_NOTE_THREAD_RETIRE message=${messageId}`);
-    return;
+    return true;
   }
   try {
     await editMessageText(text, {
@@ -565,16 +581,51 @@ async function retireNoteThread(messageId, text) {
       messageId,
       replyMarkup: removeKeyboard(),
     });
+    return true;
   } catch (error) {
     log(`NOTE_THREAD_RETIRE_FAILED message=${messageId} ${String(error?.message ?? error)}`);
+    return false;
   }
 }
 
 async function retireItemNoteThreads(itemId, text) {
   const threads = Object.entries(store.noteThreads ?? {}).filter(([, entry]) => entry?.itemId === itemId);
   for (const [messageId] of threads) {
-    await retireNoteThread(Number(messageId), text);
+    if (await retireNoteThread(Number(messageId), text)) {
+      delete store.noteThreads[messageId];
+    }
   }
+}
+
+async function expireStaleNoteThreads() {
+  const now = Date.parse(NOW);
+  if (!Number.isFinite(now)) return false;
+  let changed = false;
+  for (const [key, entry] of Object.entries(store.noteThreads ?? {})) {
+    if (!entry || typeof entry !== 'object') {
+      delete store.noteThreads[key];
+      changed = true;
+      continue;
+    }
+    const at = Date.parse(String(entry.at ?? ''));
+    if (Number.isFinite(at) && now - at <= NOTE_PROMPT_TTL_MS) continue;
+    const messageId = Number(key);
+    if (!messageId) {
+      delete store.noteThreads[key];
+      changed = true;
+      continue;
+    }
+    const ageMinutes = Number.isFinite(at) ? Math.max(0, Math.round((now - at) / 60000)) : -1;
+    const retired = await retireNoteThread(
+      messageId,
+      'پیام یادداشت قدیمی شد و کنار رفت؛ اگر لازم بود دوباره دکمه یادداشت را بزن.'
+    );
+    if (!retired) continue;
+    delete store.noteThreads[key];
+    changed = true;
+    log(`REVIEW_NOTE_PROMPT_EXPIRED message=${messageId} age_min=${ageMinutes}`);
+  }
+  return changed;
 }
 
 async function showNoteConfirmation({
@@ -587,7 +638,8 @@ async function showNoteConfirmation({
   const head = attached?.replaced
     ? 'یادداشت تازه ثبت شد و جایگزین قبلی شد'
     : 'یادداشت ثبت شد';
-  const text = `${head}\n«${noteSnippet(note)}»\n\nبا دکمه زیر بازنویسی کن تا یادداشت در پست بیاید.`;
+  const final = Number(item.rewrites) >= REWRITE_CAP ? 'این آخرین بازنویسی این کارت است؛ ' : '';
+  const text = `${head}\n«${noteSnippet(note)}»\n\n${final}با دکمه زیر بازنویسی کن تا یادداشت در پست بیاید.`;
   const keyboard = {
     inline_keyboard: [[{ text: NOTE_REWRITE_LABEL, callback_data: reviewCallback('w', item.id) }]],
   };
@@ -656,10 +708,10 @@ async function drainPendingNotes({ refresh = false } = {}) {
       changed = true;
       continue;
     }
-    if (Number(item.rewrites) >= REWRITE_CAP) {
+    if (noteCapExhausted(item)) {
       delete pending[messageId];
       changed = true;
-      log(`REVIEW_NOTE_DROPPED id=${item.id} message=${messageId} reason=rewrite_cap`);
+      log(`REVIEW_NOTE_DROPPED id=${item.id} message=${messageId} reason=note_rewrite_used`);
       continue;
     }
     const attached = attachNote(item, entry?.text, entry?.actor, entry?.at || new Date().toISOString());
@@ -731,12 +783,12 @@ async function handleNote(review, query) {
     log(`REVIEW_NOTE_HINT id=${item.id} closed=1`);
     return null;
   }
-  if (Number(item.rewrites) >= REWRITE_CAP) {
+  if (noteCapExhausted(item)) {
     await answer(
       query.id,
-      `سقف بازنویسی این کارت پر است (${item.rewrites}/${REWRITE_CAP})؛ یادداشت جدید اعمال نمی‌شود.`
+      'بازنویسی نهایی این کارت با یادداشت انجام شده؛ یادداشت تازه بازنویسی نمی‌سازد.'
     );
-    log(`REVIEW_NOTE_HINT id=${item.id} cap=1 | ${item.title}`);
+    log(`REVIEW_NOTE_HINT id=${item.id} cap=1 reason=note_rewrite_used | ${item.title}`);
     return null;
   }
   const previous = latestNoteThread(item.id);
@@ -890,7 +942,8 @@ async function handleRewrite(review, query) {
   const { item, error, retry } = activeItem(review, query);
   if (error) return answerItemError(query, error, retry);
   const oldChatId = cardChatOf(item);
-  if (Number(item.rewrites) >= REWRITE_CAP) {
+  const noteOverride = noteRewriteAtCap(item);
+  if (Number(item.rewrites) >= REWRITE_CAP && !noteOverride) {
     return notify(`سقف بازنویسی این مورد پر است (${item.rewrites}/${REWRITE_CAP}).`);
   }
   if (REWRITE_DAY_CAP > 0 && rewriteCountForDay(store, NOW) >= REWRITE_DAY_CAP) {
@@ -907,6 +960,7 @@ async function handleRewrite(review, query) {
     manual: item.manual,
     reason: item.reason,
     queuedPublish: item.queuedPublish,
+    noteRewriteUsed: item.noteRewriteUsed,
   };
   const oldMessageId = item.messageId;
   item.manual = true;
@@ -917,7 +971,7 @@ async function handleRewrite(review, query) {
   log(
     `REVIEW_REWRITE_START id=${item.id} attempt=${Number(item.rewrites) + 1}/${REWRITE_CAP} manual=1 note=${
       String(item.note ?? '').trim() ? '1' : '0'
-    }`
+    }${noteOverride ? ' note_override=1' : ''}`
   );
   await retireItemNoteThreads(
     item.id,
@@ -930,6 +984,7 @@ async function handleRewrite(review, query) {
     const next = {
       ...item,
       rewrites: Number(item.rewrites) + 1,
+      noteRewriteUsed: noteOverride ? true : item.noteRewriteUsed,
       status: 'pending',
       post: item.post ?? { title: item.title },
     };
@@ -952,7 +1007,7 @@ async function handleRewrite(review, query) {
     reasoningEffort: '',
   };
   const system = await readFile(resolve(ROOT, 'bench/system-prompt.md'), 'utf8');
-  const result = await draftReviewPost({
+  const result = await draftReviewPostWithNote({
     item,
     now: NOW,
     minChars: Number(ACTION_SETTINGS.min_source_chars ?? 320) || 320,
@@ -1033,10 +1088,31 @@ async function handleRewrite(review, query) {
     return null;
   }
 
+  if (result.noteApplied === false) {
+    Object.assign(item, snapshot);
+    await persistStore();
+    const missed = (result.noteTargets ?? [])
+      .map(({ field, label, target }) => {
+        const actual = String(result.post?.[field] ?? '').trim().length;
+        return `${label} ${actual}/${target}`;
+      })
+      .join('، ');
+    log(
+      `REVIEW_NOTE_UNMET id=${item.id} note=1 ${(result.noteTargets ?? [])
+        .map(({ field, target }) => `${field}=${String(result.post?.[field] ?? '').trim().length}/${target}`)
+        .join(',')} cost=$${Number(result.cost ?? 0).toFixed(6)}`
+    );
+    await notify(
+      `یادداشت اعمال نشد: ${missed}. کارت قبلی دست‌نخورده ماند؛ دوباره بزن.`
+    );
+    return null;
+  }
+
   item.post = result.post;
   item.qaPass = result.qa?.pass === true;
   item.mainEligible = item.qaPass;
   item.rewrites = Number(item.rewrites) + 1;
+  if (noteOverride) item.noteRewriteUsed = true;
   item.status = 'pending';
   item.reason = 'manual_rewrite';
   item.updatedAt = new Date().toISOString();
@@ -1084,7 +1160,9 @@ async function handleRewrite(review, query) {
   log(
     `REVIEW_REWRITTEN id=${item.id} attempt=${item.rewrites}/${REWRITE_CAP} manual=1 clean=1 qa=${
       item.qaPass ? 'PASS' : 'FAIL'
-    } note=${String(item.note ?? '').trim() ? '1' : '0'} message=${item.messageId} chat=${REVIEW_CHAT_ID} old_chat=${oldChatId} cost=$${Number(
+    } note=${String(item.note ?? '').trim() ? '1' : '0'}${
+      noteOverride ? ' note_override=1' : ''
+    } message=${item.messageId} chat=${REVIEW_CHAT_ID} old_chat=${oldChatId} cost=$${Number(
       result.cost ?? 0
     ).toFixed(6)} tokens=${result.tokens}`
   );
@@ -1356,11 +1434,9 @@ async function dispatchNote(update) {
       log(`REVIEW_NOTE_CLOSED message=${replyTo} status=${item.status}`);
       return { handled: true };
     }
-    if (Number(item.rewrites) >= REWRITE_CAP) {
-      await notify(
-        `سقف بازنویسی این کارت پر است (${item.rewrites}/${REWRITE_CAP})؛ یادداشت جدید اعمال نمی‌شود.`
-      );
-      log(`REVIEW_NOTE_CAP id=${item.id} message=${replyTo}`);
+    if (noteCapExhausted(item)) {
+      await notify('بازنویسی نهایی این کارت با یادداشت انجام شده؛ یادداشت تازه بازنویسی نمی‌سازد.');
+      log(`REVIEW_NOTE_CAP id=${item.id} message=${replyTo} reason=note_rewrite_used`);
       return { handled: true };
     }
     const attached = attachNote(item, text, actor, at);
@@ -1511,6 +1587,8 @@ async function main() {
     return;
   }
 
+  const expiredNotes = await expireStaleNoteThreads();
+  if (expiredNotes) await persistStore();
   const drainedRejects = drainPendingRejects();
   const drainedNotes = await drainPendingNotes({ refresh: true });
   if (drainedRejects || drainedNotes) await persist();

@@ -20,6 +20,7 @@ import {
   isEducationLead,
   isOfficialCourse,
   isOfficialModelRelease,
+  isModelReleaseStory,
   isPromoHost,
   isPromotionalUrl,
   isRumorText,
@@ -726,7 +727,13 @@ async function collectTelegramSource({
     }
     const needsReview = ocrDiscovery || (reviewWorthy && (Boolean(linkFallback) || reviewCandidate));
     const leadText = leadKind === 'education' ? rawText : cleanText;
-    const offer = aiMention && (leadKind === 'free_offer' || offerCue);
+    const modelRelease =
+      aiMention &&
+      isOfficialModelRelease(link, hint, {
+        officialCourseDomains: settings.official_course_domains ?? [],
+      });
+    const releaseStory = modelRelease || (aiMention && isModelReleaseStory(hint));
+    const offer = !releaseStory && aiMention && (leadKind === 'free_offer' || offerCue);
     const category = categoryHint({
       title,
       summary: cleanText,
@@ -761,11 +768,7 @@ async function collectTelegramSource({
       offerHint: offer,
       toolHint: leadKind === 'tool_lead',
       benchmark,
-      modelRelease:
-        aiMention &&
-        isOfficialModelRelease(link, hint, {
-          officialCourseDomains: settings.official_course_domains ?? [],
-        }),
+      modelRelease,
       sourceCategories: Array.isArray(source.categories) ? source.categories : [],
       categoryHint:
         benchmark && !offer && leadKind !== 'tool_lead' && leadKind !== 'official_course'
@@ -982,7 +985,13 @@ export async function collectCandidates({
       const benchmark =
         !educationCue &&
         isBenchmarkCandidate({ sourceType: source.type, title: item.title, summary: item.summary });
-      const offer = offerHint(feedText);
+      const modelRelease =
+        aiRelevant &&
+        isOfficialModelRelease(item.link, feedText, {
+          officialCourseDomains: telegram.official_course_domains ?? [],
+        });
+      const releaseStory = modelRelease || (aiRelevant && isModelReleaseStory(feedText));
+      const offer = !releaseStory && offerHint(feedText);
       const hint = categoryHint({
         title: item.title,
         summary: item.summary,
@@ -1006,11 +1015,7 @@ export async function collectCandidates({
         aiCentral: isAiCentral(item.title, item.summary),
         offerHint: offer,
         benchmark,
-        modelRelease:
-          aiRelevant &&
-          isOfficialModelRelease(item.link, feedText, {
-            officialCourseDomains: telegram.official_course_domains ?? [],
-          }),
+        modelRelease,
         sourceCategories: Array.isArray(source.categories) ? source.categories : [],
         categoryHint: benchmark && !offer ? 'models' : hint,
         keys,

@@ -5,10 +5,10 @@ import { emptyState, markSeen, dedupeKeys } from './store.mjs';
 
 const NOW = '2026-11-02T15:00:00Z';
 
-const item = ({ title, link, date }) => `<item>
+const item = ({ title, link, date, description = 'summary' }) => `<item>
   <title><![CDATA[${title}]]></title>
   <link>${link}</link>
-  <description><![CDATA[summary]]></description>
+  <description><![CDATA[${description}]]></description>
   <pubDate>${date}</pubDate>
 </item>`;
 
@@ -113,7 +113,75 @@ test('an AI-only official feed keeps model releases and drops non-AI items', asy
   assert.equal(lead.title, 'Gemini 4 Carbon is now available');
   assert.equal(lead.modelRelease, true);
   assert.equal(lead.categoryHint, 'models');
+  assert.equal(lead.offerHint, false);
   assert.equal(result.stats.nonAi, 1);
+});
+
+test('an official model release keeps offer detection off even when it mentions free access', async () => {
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'google-models-research',
+        name: 'Google Models & Research',
+        type: 'official_blog',
+        categories: ['models'],
+        use: 'feed',
+        require_ai: true,
+        feed_url: 'https://feed.example/models',
+      },
+    ],
+    state: emptyState(),
+    now: NOW,
+    fetchImpl: async (url) => ({
+      text: feed([
+        item({
+          title: 'Introducing Gemini 4 Neon',
+          link: 'https://deepmind.google/blog/introducing-gemini-4-neon',
+          date: 'Mon, 02 Nov 2026 13:00:00 +0000',
+          description:
+            'Gemini 4 Neon is now available with free access for a limited time on the Gemini app and API.',
+        }),
+      ]),
+      url,
+    }),
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.modelRelease, true);
+  assert.equal(lead.offerHint, false);
+});
+
+test('a release story from a non-official domain is not demoted to an offer by its body text', async () => {
+  const result = await collectCandidates({
+    sources: [
+      {
+        id: 'analysis-feed',
+        name: 'Analysis Feed',
+        type: 'news_site',
+        categories: ['models'],
+        use: 'feed',
+        require_ai: true,
+        feed_url: 'https://feed.example/analysis',
+      },
+    ],
+    state: emptyState(),
+    now: NOW,
+    fetchImpl: async (url) => ({
+      text: feed([
+        item({
+          title: 'Google continues to accelerate its release cadence with Gemini 4 Neon',
+          link: 'https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain',
+          date: 'Mon, 02 Nov 2026 13:00:00 +0000',
+          description: 'Gemini 4 Neon offers free access for a limited time in the app.',
+        }),
+      ]),
+      url,
+    }),
+  });
+  assert.equal(result.candidates.length, 1);
+  const lead = result.candidates[0];
+  assert.equal(lead.modelRelease, false);
+  assert.equal(lead.offerHint, false);
 });
 
 test('collector skips an item already seen in the other lane', async () => {

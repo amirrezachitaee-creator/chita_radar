@@ -76,7 +76,7 @@ test('callback data round-trips and rejects anything outside the tiny menu', () 
   assert.throws(() => reviewCallback('p', 'bad'), /BAD_REVIEW_ID/);
 });
 
-test('the first keyboard offers reject, rewrite, and publish only for a ready post', () => {
+test('the first keyboard offers a plain rewrite, optional note, and publish only for a ready post', () => {
   const store = emptyReviewStore();
   const ready = item(store, {
     mainEligible: true,
@@ -85,12 +85,14 @@ test('the first keyboard offers reject, rewrite, and publish only for a ready po
   const notReady = item(store, {});
   const readyRows = keyboardFor(ready).inline_keyboard;
   const notReadyRows = keyboardFor(notReady).inline_keyboard;
-  assert.equal(readyRows.length, 2);
-  assert.deepEqual(readyRows[0].map((button) => button.text), ['رد', 'بازنویسی', 'یادداشت']);
-  assert.equal(readyRows[1][0].text, 'ارسال به کانال اصلی');
-  assert.equal(notReadyRows.length, 1);
-  assert.deepEqual(notReadyRows[0].map((button) => button.text), ['رد', 'بازنویسی', 'یادداشت']);
-  assert.equal(parseReviewCallback(readyRows[1][0].callback_data).action, 'p');
+  assert.equal(readyRows.length, 3);
+  assert.deepEqual(readyRows[0].map((button) => button.text), ['بازنویسی']);
+  assert.deepEqual(readyRows[1].map((button) => button.text), ['یادداشت (اختیاری)', 'رد']);
+  assert.equal(readyRows[2][0].text, 'ارسال به کانال اصلی');
+  assert.equal(notReadyRows.length, 2);
+  assert.deepEqual(notReadyRows[0].map((button) => button.text), ['بازنویسی']);
+  assert.deepEqual(notReadyRows[1].map((button) => button.text), ['یادداشت (اختیاری)', 'رد']);
+  assert.equal(parseReviewCallback(readyRows[2][0].callback_data).action, 'p');
 });
 
 test('after the first rewrite the same item offers rewrite again and publish', () => {
@@ -99,20 +101,28 @@ test('after the first rewrite the same item offers rewrite again and publish', (
   entry.rewrites = 1;
   entry.post = { title: 'نسخه دوم', body: 'متن', source_url: 'https://example.com/a' };
   const rows = keyboardFor(entry).inline_keyboard;
-  assert.deepEqual(rows[0].map((button) => button.text), ['رد', 'بازنویسی مجدد', 'یادداشت']);
-  assert.equal(rows[1][0].text, 'ارسال به کانال اصلی');
-  assert.equal(parseReviewCallback(rows[0][1].callback_data).action, 'w');
+  assert.deepEqual(rows[0].map((button) => button.text), ['بازنویسی مجدد']);
+  assert.deepEqual(rows[1].map((button) => button.text), ['یادداشت (اختیاری)', 'رد']);
+  assert.equal(rows[2][0].text, 'ارسال به کانال اصلی');
+  assert.equal(parseReviewCallback(rows[0][0].callback_data).action, 'w');
 });
 
-test('after the second rewrite only reject and publish remain', () => {
+test('after the second rewrite note and reject remain before publish', () => {
   const store = emptyReviewStore();
   const entry = item(store, { mainEligible: false });
   entry.rewrites = 2;
   entry.post = { title: 'نسخه سوم', body: 'متن', source_url: 'https://example.com/a' };
   const rows = keyboardFor(entry).inline_keyboard;
-  assert.deepEqual(rows[0].map((button) => button.text), ['رد']);
-  assert.deepEqual(rows[1].map((button) => button.text), ['ارسال به کانال اصلی']);
-  assert.equal(keyboardFor(entry, { rewriteCap: 3 }).inline_keyboard[0][1].text, 'بازنویسی مجدد');
+  assert.deepEqual(rows[0].map((button) => button.text), ['یادداشت (اختیاری)']);
+  assert.deepEqual(rows[1].map((button) => button.text), ['رد']);
+  assert.deepEqual(rows[2].map((button) => button.text), ['ارسال به کانال اصلی']);
+  assert.equal(keyboardFor(entry, { rewriteCap: 3 }).inline_keyboard[0][0].text, 'بازنویسی مجدد');
+
+  entry.noteRewriteUsed = true;
+  assert.deepEqual(
+    keyboardFor(entry).inline_keyboard[0].map((button) => button.text),
+    ['رد']
+  );
 });
 
 test('a sent or rejected item has no buttons and a rewrite in flight keeps them', () => {
