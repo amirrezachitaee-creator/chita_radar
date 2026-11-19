@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883532,
+  "offset": 659883533,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -2671,10 +2671,10 @@
     },
     "ac56648c92": {
       "id": "ac56648c92",
-      "status": "pending",
+      "status": "sent",
       "rewrites": 1,
       "createdAt": "2026-11-17T05:01:02.794Z",
-      "updatedAt": "2026-11-19T11:30:08.073Z",
+      "updatedAt": "2026-11-19T19:48:31.351Z",
       "messageId": 73,
       "chatId": "-1003917550874",
       "slot": "2026-11-17T08:30+03:30",
@@ -2756,10 +2756,10 @@
       "previousMessageIds": [
         12
       ],
-      "lastActionAt": "2026-11-19T11:30:08.073Z",
-      "sentAt": "",
+      "lastActionAt": "2026-11-19T19:48:31.351Z",
+      "sentAt": "2026-11-19T19:48:31.351Z",
       "manual": true,
-      "lastAction": "rewrite",
+      "lastAction": "publish",
       "noteRewriteUsed": false
     },
     "01b9341f13": {
@@ -6249,6 +6249,15 @@
       "reason": "",
       "detail": "message=112 photo",
       "actor": "queued"
+    },
+    {
+      "at": "2026-11-19T19:48:31.351Z",
+      "action": "publish",
+      "itemId": "ac56648c92",
+      "source": "offer-watch:free-inference",
+      "reason": "",
+      "detail": "message=115 text",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -6321,8 +6330,8 @@
     "offer-watch:free-inference": {
       "rejects": 0,
       "rewrites": 1,
-      "publishes": 0,
-      "lastAt": "2026-11-19T11:30:08.073Z"
+      "publishes": 1,
+      "lastAt": "2026-11-19T19:48:31.351Z"
     },
     "google-models-research": {
       "rejects": 0,

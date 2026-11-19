@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T14:05:56.610Z",
+  "updatedAt": "2026-11-19T19:48:31.363Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -556,6 +556,15 @@
       "slot": "2026-11-19T17:35",
       "title": "مدل جدید گوگل با پنجره یک میلیون توکن معرفی شد",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
+    },
+    "offerwatch:302abfc41a4da01c": {
+      "at": "2026-11-19T19:48:31.355Z",
+      "decision": "publish",
+      "reason": "review_publish",
+      "category": "tools",
+      "slot": "2026-11-19T23:09",
+      "title": "فهرست ۳۶۳ مدل رایگان برای ساخت برنامه",
+      "url": "https://www.freeinference.dev/"
     }
   },
   "deferred": {},
