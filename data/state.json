@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-18T20:24:42.297Z",
+  "updatedAt": "2026-11-19T05:14:18.425Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11705,6 +11705,204 @@
       "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
       "url": "https://arxiv.org/abs/2611.23216v1",
       "benchmark": true
+    },
+    "offerwatch:e4b624f081402e1d": {
+      "at": "2026-11-19T05:01:15.007Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:87920f4a0d669ff6": {
+      "at": "2026-11-19T05:01:15.180Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "Premium Model Discount Rates",
+      "url": "https://docs.qoder.com/events/100credits"
+    },
+    "url:8e625b55667858b4": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "🚀گوگل مدل Gemini 4 Neon را عرضه کرد. خوشبختانه، انتشار مدل‌های جدید به طور مکرر اتفاق",
+      "url": "https://t.me/ArchiveTell/8459"
+    },
+    "title:edfb66c689a58cd6": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "🚀گوگل مدل Gemini 4 Neon را عرضه کرد. خوشبختانه، انتشار مدل‌های جدید به طور مکرر اتفاق",
+      "url": "https://t.me/ArchiveTell/8459"
+    },
+    "url:b5d1305cad93496b": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "🚀گوگل مدل Gemini 4 Neon را عرضه کرد.",
+      "url": "https://t.me/ArchiveTell/8458"
+    },
+    "title:512ce088cb9068a6": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "🚀گوگل مدل Gemini 4 Neon را عرضه کرد.",
+      "url": "https://t.me/ArchiveTell/8458"
+    },
+    "url:9ecad94f0d87d696": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+      "url": "https://arxiv.org/abs/2611.24877v1"
+    },
+    "title:aad7b821f2de3c1b": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+      "url": "https://arxiv.org/abs/2611.24877v1"
+    },
+    "url:c02facc072b9db22": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "A Foundation Model to Measure and Predict Human Behaviour",
+      "url": "https://arxiv.org/abs/2611.24830v1"
+    },
+    "title:5b77a26cce57fd3c": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "A Foundation Model to Measure and Predict Human Behaviour",
+      "url": "https://arxiv.org/abs/2611.24830v1"
+    },
+    "url:53d809d7420a3923": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life"
+    },
+    "title:54d3a11f7569a5cc": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life"
+    },
+    "url:6b2d356ac9f74f19": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "datasette-arrows 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows"
+    },
+    "title:b1ad433b3d639a84": {
+      "at": "2026-11-19T05:01:28.839Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "datasette-arrows 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows"
+    },
+    "url:def0e5c2c63e8f81": {
+      "at": "2026-11-19T05:01:38.193Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "یک توسعه‌دهنده با معرفی پروژه متن‌ باز Garlic LLM موفق شده مدل هوش مصنوعی Qwen3.5-9B با",
+      "url": "https://t.me/asrnovin_ir/11490"
+    },
+    "title:f8a4f90f2a121a47": {
+      "at": "2026-11-19T05:01:38.193Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "یک توسعه‌دهنده با معرفی پروژه متن‌ باز Garlic LLM موفق شده مدل هوش مصنوعی Qwen3.5-9B با",
+      "url": "https://t.me/asrnovin_ir/11490"
+    },
+    "url:06d0abbc37d63f94": {
+      "at": "2026-11-19T05:01:38.904Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "🔁 بقا، تکنولوژی و بازسازی تمدن در یک پکیج!",
+      "url": "https://github.com/Immortal-Protocols/lastbook"
+    },
+    "title:e3be5769c212f712": {
+      "at": "2026-11-19T05:01:38.904Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "🔁 بقا، تکنولوژی و بازسازی تمدن در یک پکیج!",
+      "url": "https://github.com/Immortal-Protocols/lastbook"
+    },
+    "url:a261d2eee241a886": {
+      "at": "2026-11-19T05:02:17.532Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "Genie 4 is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+      "benchmark": false
+    },
+    "title:27beecfc5b7a45c6": {
+      "at": "2026-11-19T05:02:17.532Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "Genie 4 is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+      "benchmark": false
+    },
+    "url:36bbeb249216ceb6": {
+      "at": "2026-11-19T05:14:18.422Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "Google’s AI feature in Search gets its own incognito mode",
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "benchmark": false
+    },
+    "title:b258dda0a1b7a261": {
+      "at": "2026-11-19T05:14:18.422Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-19T08:30+03:30",
+      "title": "Google’s AI feature in Search gets its own incognito mode",
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -12344,58 +12542,6 @@
         "keys": [
           "url:4e397e27d38f36ea",
           "title:7152ec698ee09f71"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:8f02058f4a02dc51": {
-      "id": "defer:url:8f02058f4a02dc51",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8f02058f4a02dc51",
-        "title:cf1ea7c31e12e1e3"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
-      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-        "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
-        "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
-        "published": "Mon, 16 Nov 2026 16:00:01 +0000",
-        "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1-842x450.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-press-hpc-nvl4-tray-rack-1600x900-5802807.jpg"
-        ],
-        "ageHours": 42.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:8f02058f4a02dc51",
-          "title:cf1ea7c31e12e1e3"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13541,102 +13687,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:36bbeb249216ceb6": {
-      "id": "defer:url:36bbeb249216ceb6",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:36bbeb249216ceb6",
-        "title:b258dda0a1b7a261"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Google’s AI feature in Search gets its own incognito mode",
-        "link": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-        "canonical": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
-        "published": "Wed, 18 Nov 2026 18:04:05 +0000",
-        "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-        "images": [],
-        "ageHours": 1.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:36bbeb249216ceb6",
-          "title:b258dda0a1b7a261"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a261d2eee241a886": {
-      "id": "defer:url:a261d2eee241a886",
-      "at": "2026-11-18T19:31:17.011Z",
-      "firstAt": "2026-11-18T19:31:17.011Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a261d2eee241a886",
-        "title:27beecfc5b7a45c6"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
-      "title": "Genie 4 is now available",
-      "candidate": {
-        "sourceId": "google-models-research",
-        "sourceName": "Google Models & Research",
-        "sourceType": "official_blog",
-        "title": "Genie 4 is now available",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
-        "published": "Wed, 18 Nov 2026 18:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_.max-600x600.format-webp.webp\">We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": true,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a261d2eee241a886",
-          "title:27beecfc5b7a45c6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:68a1101249d87f96": {
       "id": "defer:url:68a1101249d87f96",
       "at": "2026-11-18T19:31:17.011Z",
@@ -14069,54 +14119,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:ca9ca0837de1673f": {
-      "id": "defer:url:ca9ca0837de1673f",
-      "at": "2026-11-18T19:33:16.890Z",
-      "firstAt": "2026-11-18T19:33:16.890Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:ca9ca0837de1673f",
-        "title:27beecfc5b7a45c6"
-      ],
-      "canonical": "https://deepmind.google/blog/genie-4-is-now-available",
-      "title": "Genie 4 is now available",
-      "candidate": {
-        "sourceId": "deepmind-blog",
-        "sourceName": "Google DeepMind Blog",
-        "sourceType": "official_blog",
-        "title": "Genie 4 is now available",
-        "link": "https://deepmind.google/blog/genie-4-is-now-available/",
-        "canonical": "https://deepmind.google/blog/genie-4-is-now-available",
-        "published": "Wed, 18 Nov 2026 18:13:42 +0000",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://deepmind.google/blog/genie-4-is-now-available/",
-        "images": [],
-        "ageHours": 1.3,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:ca9ca0837de1673f",
-          "title:27beecfc5b7a45c6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      },
-      "detail": "tools"
-    },
     "defer:url:67952d9a918d2536": {
       "id": "defer:url:67952d9a918d2536",
       "at": "2026-11-18T19:33:16.928Z",
@@ -14164,6 +14166,160 @@
         "leadKind": ""
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:3a7670ff256fb2da": {
+      "id": "defer:url:3a7670ff256fb2da",
+      "at": "2026-11-19T05:01:38.920Z",
+      "firstAt": "2026-11-19T05:01:38.920Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3a7670ff256fb2da",
+        "title:6a03e931a015b8ed"
+      ],
+      "canonical": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
+      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+        "link": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+        "canonical": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
+        "published": "Wed, 18 Nov 2026 21:03:23 +0000",
+        "summary": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models. The article Google ships Gemini 4 Neon, its fourth new Gemini model in a month appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_argon.png"
+        ],
+        "ageHours": 8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3a7670ff256fb2da",
+          "title:6a03e931a015b8ed"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:85bd515d71fb7a7a": {
+      "id": "defer:url:85bd515d71fb7a7a",
+      "at": "2026-11-19T05:01:38.920Z",
+      "firstAt": "2026-11-19T05:01:38.920Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:85bd515d71fb7a7a",
+        "title:f8f835a70f64a4a7"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+        "link": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+        "published": "Tue, 17 Nov 2026 20:32:55 +0000",
+        "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-500x500.jpg"
+        ],
+        "ageHours": 32.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:85bd515d71fb7a7a",
+          "title:f8f835a70f64a4a7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c183b19404c14629": {
+      "id": "defer:url:c183b19404c14629",
+      "at": "2026-11-19T05:01:38.920Z",
+      "firstAt": "2026-11-19T05:01:38.920Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:c183b19404c14629",
+        "title:dc40074e47f9f74b"
+      ],
+      "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+        "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+        "published": "Tue, 17 Nov 2026 14:00:29 +0000",
+        "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-500x500.jpg"
+        ],
+        "ageHours": 39,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:c183b19404c14629",
+          "title:dc40074e47f9f74b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -16561,6 +16717,52 @@
           "at": "2026-11-18T19:33:41.311Z"
         }
       ]
+    },
+    "2026-11-19T08:30+03:30": {
+      "at": "2026-11-19T05:02:17.532Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "گوگل برای هوش مصنوعی جستجو حالت ناشناس آورد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/08-30-2",
+      "messageId": 109,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.002926196,
+      "tokens": 54631,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "گوگل Genie 4 را منتشر کرد؛ دنیای تعاملی با متن",
+          "category": "models",
+          "status": "sent",
+          "messageId": 108,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008430632,
+          "tokens": 23316,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-19T05:02:17.532Z"
+        },
+        {
+          "title": "گوگل برای هوش مصنوعی جستجو حالت ناشناس آورد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 109,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-19/08-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0007213528,
+          "tokens": 21766,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-19T05:14:18.422Z"
+        }
+      ]
     }
   },
   "published": [
@@ -18171,93 +18373,129 @@
       "sourceTitle": "Higher-Scoring Coding Models Did Not Get More Work Done",
       "sourceText": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
       "at": "2026-11-18T19:33:41.311Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-19T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "گوگل Genie 4 را منتشر کرد؛ دنیای تعاملی با متن",
+      "why": "با Genie 4، ساخت یک دنیای تعاملی دیگر نیاز به تخصص فنی ندارد و هر کسی می‌تواند با چند خط متن، دنیای خودش را بسازد و با دیگران به اشتراک بگذارد.",
+      "dedupe_key": "google-genie4-launch",
+      "post_key": "2026-11-19/08-30/1",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "sourceTitle": "Genie 4 is now available",
+      "sourceText": "Explore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery.\nWe are rolling out Genie 4 to eligible Google AI Ultra subscribers, offering more responsive, social, and interactive world generation. You can now use natural language to edit environments in real time, add native audio, and share your creations in our new community gallery. Visit the Project Genie website to start building your own worlds or join the waitlist if you are a Google AI Pro member.\nWe are updating Project Genie to help you create and explore interactive digital worlds. With our new Genie 4 model, you can change weather, add characters, and hear adaptive audio in real time just by typing prompts. You can also use our new creative agent to build complex environments through simple conversation. If you subscribe to Google AI Ultra, you can start building, sharing, and remixing these custom worlds in our community gallery today.\nEarlier this year we introduced Project Genie , an experimental research prototype that lets you generate and explore interactive worlds. Early testers told us they wanted deeper control over what happens inside those worlds, and easier ways to build and share them.\nSo today, we are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, making these worlds far more responsive, creative, and social. This update unlocks first-time access to Genie 4, new upgrades to Genie 3, the Project Genie agent which helps users build their vision, and a community gallery to discover, exp",
+      "at": "2026-11-19T05:02:17.533Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-19T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "گوگل برای هوش مصنوعی جستجو حالت ناشناس آورد",
+      "why": "این قابلیت روی دسکتاپ و موبایل و برای همه زبان‌های پشتیبانی‌شده در حال انتشاره و به این ترتیب حریم خصوصی جستجوهای هوشمند هم به اندازه مرور عادی می‌شه.",
+      "dedupe_key": "google-ai-mode-temporary-threads",
+      "post_key": "2026-11-19/08-30/2",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+      "sourceTitle": "Google's AI feature in Search gets its own incognito mode | TechCrunch",
+      "sourceText": "Google’s search engine has long offered an incognito mode for all those search queries you don’t want logged or associated with your account. Now, Google’s AI Mode in Search is getting a similar feature. In a blog post , the company announced a new feature that brings “temporary threads” to AI Mode, where the conversations you have won’t be resurfaced later in areas like your search history or recommendations.\nMany leading AI chatbots already offer the option for temporary chats, Google Gemini included. However, there was not yet an option to have a temporary chat when you’re searching Google and are dropped into its conversational interface, known as AI Mode.\nGoogle says that users won’t have to adjust their settings to take advantage of the new option. Instead, they’ll be able to click a temporary threads icon in the upper right corner of AI Mode to engage in a temporary chat. This essentially works the same as a temporary chat would in the stand-alone Gemini chatbot.\nThe option could be convenient to use at those times when you start digging deeper into a particular topic via AI Mode and realize that you don’t want the discussion to become a part of your search history because of its personal nature.\nOnce the temporary thread is started, the session becomes detached from your account, Google says. This means that the responses the AI provides won’t be informed by past preferences, nor will they impact future personalization. That could also be useful for those times when you want to learn about something as more of a one-off, but don’t want Google to start to think of th",
+      "at": "2026-11-19T05:14:18.422Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8448,
-      "last_at": "2026-11-18T18:12:54+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "last_id": 8468,
+      "last_at": "2026-11-18T22:59:20+00:00",
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "ai_farshad": {
       "last_id": 6466,
       "last_at": "2026-11-18T19:30:08+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "Mohammad_zammani": {
       "last_id": 7241,
       "last_at": "2026-11-18T13:59:17+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "techiin_ir": {
       "last_id": 20801,
       "last_at": "2026-11-18T18:46:12+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "asrnovin_ir": {
-      "last_id": 11488,
-      "last_at": "2026-11-18T19:20:45+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "last_id": 11491,
+      "last_at": "2026-11-18T19:54:37+00:00",
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "shayanode": {
       "last_id": 252,
       "last_at": "2026-11-18T16:38:57+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "codecloude": {
-      "last_id": 2600,
-      "last_at": "2026-11-18T16:52:40+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "last_id": 2601,
+      "last_at": "2026-11-18T20:23:33+00:00",
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "dunijet_ai": {
       "last_id": 2583,
       "last_at": "2026-11-18T11:58:27+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "MatinSenPaii": {
       "last_id": 5911,
       "last_at": "2026-11-18T17:17:27+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     },
     "thenimaonAI": {
       "last_id": 548,
       "last_at": "2026-11-18T11:13:46+00:00",
-      "checked_at": "2026-11-18T19:31:01.614Z"
+      "checked_at": "2026-11-19T05:01:07.678Z"
     }
   },
   "offerReviews": [
@@ -21884,6 +22122,42 @@
       "slot": "2026-11-18T23:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-19",
+      "at": "2026-11-19T05:01:07.678Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-19T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|offer-watch:qoder|https://docs.qoder.com/events/100credits",
+      "date": "2026-11-19",
+      "at": "2026-11-19T05:01:07.678Z",
+      "source": "offer-watch:qoder",
+      "title": "Premium Model Discount Rates",
+      "url": "https://docs.qoder.com/events/100credits",
+      "reason": "offer_watch",
+      "slot": "2026-11-19T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-asr-novin|https://t.me/asrnovin_ir/11490",
+      "date": "2026-11-19",
+      "at": "2026-11-19T05:01:07.678Z",
+      "source": "tg-asr-novin",
+      "title": "یک توسعه‌دهنده با معرفی پروژه متن‌ باز Garlic LLM موفق شده مدل هوش مصنوعی Qwen3.5-9B با",
+      "url": "https://t.me/asrnovin_ir/11490",
+      "reason": "denied_link",
+      "slot": "2026-11-19T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -22194,14 +22468,21 @@
       "url": "https://youtu.be/7LQEWL5E3Vw",
       "slot": "2026-11-18T17:00+03:30",
       "at": "2026-11-18T13:30:57.568Z"
+    },
+    {
+      "source": "tg-archive-tell",
+      "title": "🔁 بقا، تکنولوژی و بازسازی تمدن در یک پکیج!",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "slot": "2026-11-19T08:30+03:30",
+      "at": "2026-11-19T05:01:07.678Z"
     }
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-18",
-    "at": "2026-11-18T05:01:01.763Z",
-    "found": 4,
-    "delivered": 4
+    "lastDate": "2026-11-19",
+    "at": "2026-11-19T05:01:07.678Z",
+    "found": 2,
+    "delivered": 2
   },
   "openOffers": {
     "blog.google": {
@@ -22211,7 +22492,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-18T17:56:08.982Z",
+      "lastCheck": "2026-11-19T05:01:07.678Z",
       "status": "active",
       "misses": 0
     }
