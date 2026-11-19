@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T17:52:17.739Z",
+  "updatedAt": "2026-11-19T19:32:03.809Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -12497,113 +12497,207 @@
       "title": "کالیفرنیا می‌خواد یه کلید خاموشی دولتی برای مدل‌های AI خطرناک داشته باشه",
       "url": "http://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch",
       "benchmark": false
+    },
+    "url:dc88cc571d8c7771": {
+      "at": "2026-11-19T19:31:18.557Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "Genie 4 is now available on the Gemini API.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api"
+    },
+    "title:845e07ef7eaf1a54": {
+      "at": "2026-11-19T19:31:18.557Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "Genie 4 is now available on the Gemini API.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api"
+    },
+    "url:63610b904de29506": {
+      "at": "2026-11-19T19:31:18.557Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson"
+    },
+    "title:27fef58b0ad122f3": {
+      "at": "2026-11-19T19:31:18.557Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson"
+    },
+    "url:6baae7d380ac0089": {
+      "at": "2026-11-19T19:31:24.869Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "✅ ثبت بزرگ‌ترین عرضه اولیه تاریخ با جذب 81.3 میلیارد دلاری آنتروپیک",
+      "url": "https://t.me/techiin_ir/20808"
+    },
+    "title:396d683e318bcd01": {
+      "at": "2026-11-19T19:31:24.869Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "✅ ثبت بزرگ‌ترین عرضه اولیه تاریخ با جذب 81.3 میلیارد دلاری آنتروپیک",
+      "url": "https://t.me/techiin_ir/20808"
+    },
+    "url:545822a9e60154cc": {
+      "at": "2026-11-19T19:31:34.897Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "vas (@vasuman) on X",
+      "url": "https://t.me/miladxtalks/247"
+    },
+    "title:3133df59c67e467e": {
+      "at": "2026-11-19T19:31:34.897Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "vas (@vasuman) on X",
+      "url": "https://t.me/miladxtalks/247"
+    },
+    "url:452a90c57d8441a9": {
+      "at": "2026-11-19T19:31:35.139Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "✅ هوش مصنوعی قدرتمند و پرسرعت جمینای 4 نئون رونمایی شد",
+      "url": "https://t.me/techiin_ir/20807"
+    },
+    "title:99c090cf6650f82c": {
+      "at": "2026-11-19T19:31:35.139Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "✅ هوش مصنوعی قدرتمند و پرسرعت جمینای 4 نئون رونمایی شد",
+      "url": "https://t.me/techiin_ir/20807"
+    },
+    "url:4808af62f6eea7f5": {
+      "at": "2026-11-19T19:31:38.813Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
+      "url": "https://huggingface.co/papers/2611.24161"
+    },
+    "title:ec76d48663f01d23": {
+      "at": "2026-11-19T19:31:38.813Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
+      "url": "https://huggingface.co/papers/2611.24161"
+    },
+    "url:ca7f45f336a39f6a": {
+      "at": "2026-11-19T19:31:38.962Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "ساخت انیمیشن با هوش مصنوعی از صفر تا صد | آموزش Higgsfield کامل",
+      "url": "https://youtu.be/bvfhmciVZIE?is=3OvizzYJH9yEfKRV"
+    },
+    "title:8ee415befd162b54": {
+      "at": "2026-11-19T19:31:38.962Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "ساخت انیمیشن با هوش مصنوعی از صفر تا صد | آموزش Higgsfield کامل",
+      "url": "https://youtu.be/bvfhmciVZIE?is=3OvizzYJH9yEfKRV"
+    },
+    "url:f4b6211153923072": {
+      "at": "2026-11-19T19:31:40.331Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "بچه ها پنج شنبه ۵ آذر ساعت ۸ تا ۹ شب",
+      "url": "https://t.me/dunijet_ai/2588"
+    },
+    "title:830b073d0204ee9d": {
+      "at": "2026-11-19T19:31:40.331Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "بچه ها پنج شنبه ۵ آذر ساعت ۸ تا ۹ شب",
+      "url": "https://t.me/dunijet_ai/2588"
+    },
+    "url:056cf0b58a3dbace": {
+      "at": "2026-11-19T19:32:00.805Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "tools",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"
+    },
+    "title:5f5bb8b358828e83": {
+      "at": "2026-11-19T19:32:00.805Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "tools",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"
+    },
+    "url:0139fdfe9230bc42": {
+      "at": "2026-11-19T19:32:00.858Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning",
+      "url": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning"
+    },
+    "title:b83cdbf7fc66aa86": {
+      "at": "2026-11-19T19:32:00.858Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning",
+      "url": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning"
+    },
+    "url:969b10339d321af6": {
+      "at": "2026-11-19T19:32:03.805Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "CodeDesign v3",
+      "url": "https://www.producthunt.com/products/codedesign"
+    },
+    "title:5fed2923d203ae87": {
+      "at": "2026-11-19T19:32:03.805Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-19T23:00+03:30",
+      "title": "CodeDesign v3",
+      "url": "https://www.producthunt.com/products/codedesign"
     }
   },
   "deferred": {
-    "defer:url:aef632472a5e3af7": {
-      "id": "defer:url:aef632472a5e3af7",
-      "at": "2026-11-19T08:04:39.551Z",
-      "firstAt": "2026-11-18T17:06:51.438Z",
-      "attempts": 3,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:aef632472a5e3af7",
-        "title:fda08e470f000566"
-      ],
-      "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-        "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "published": "Wed, 18 Nov 2026 15:00:23 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "images": [],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:aef632472a5e3af7",
-          "title:fda08e470f000566"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:aef632472a5e3af7",
-          "attempts": 2
-        }
-      },
-      "detail": "tools"
-    },
-    "defer:url:67952d9a918d2536": {
-      "id": "defer:url:67952d9a918d2536",
-      "at": "2026-11-19T08:58:53.833Z",
-      "firstAt": "2026-11-18T19:33:16.928Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:67952d9a918d2536",
-        "title:1cf6500fb5e47411"
-      ],
-      "canonical": "https://openai.com/index/inside-the-codex-sandbox",
-      "title": "Inside the Codex sandbox",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Inside the Codex sandbox",
-        "link": "https://openai.com/index/inside-the-codex-sandbox",
-        "canonical": "https://openai.com/index/inside-the-codex-sandbox",
-        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-        "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/inside-the-codex-sandbox",
-        "images": [],
-        "ageHours": 11.5,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:67952d9a918d2536",
-          "title:1cf6500fb5e47411"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:67952d9a918d2536",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
     "defer:url:7d70f65f13463d84": {
       "id": "defer:url:7d70f65f13463d84",
       "at": "2026-11-19T17:03:56.629Z",
@@ -12659,9 +12753,9 @@
     },
     "defer:url:3047d7657748ea76": {
       "id": "defer:url:3047d7657748ea76",
-      "at": "2026-11-19T17:03:56.686Z",
+      "at": "2026-11-19T19:31:40.387Z",
       "firstAt": "2026-11-19T08:58:53.783Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "category_consecutive",
@@ -12705,162 +12799,10 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:3047d7657748ea76",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:9634b5e75ef12012": {
-      "id": "defer:url:9634b5e75ef12012",
-      "at": "2026-11-19T08:58:53.783Z",
-      "firstAt": "2026-11-19T08:58:53.783Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9634b5e75ef12012",
-        "title:7b0bae18e8ec3a2f"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
-      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-        "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-        "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
-        "published": "Mon, 16 Nov 2026 23:00:05 +0000",
-        "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg"
-        ],
-        "ageHours": 58,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:9634b5e75ef12012",
-          "title:7b0bae18e8ec3a2f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a9995c40a3422c04": {
-      "id": "defer:url:a9995c40a3422c04",
-      "at": "2026-11-19T08:58:53.783Z",
-      "firstAt": "2026-11-19T08:58:53.783Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a9995c40a3422c04",
-        "title:cece5d11f4250ee9"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-        "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-        "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
-        "published": "Mon, 16 Nov 2026 20:00:37 +0000",
-        "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-842x450.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/20261114_033237000_iOS-1.jpeg"
-        ],
-        "ageHours": 61,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:a9995c40a3422c04",
-          "title:cece5d11f4250ee9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:29d97cd3a9606bee": {
-      "id": "defer:url:29d97cd3a9606bee",
-      "at": "2026-11-19T08:58:53.783Z",
-      "firstAt": "2026-11-19T08:58:53.783Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:29d97cd3a9606bee",
-        "title:fb04f59fe7e95a69"
-      ],
-      "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-      "title": "5 Things That Break When AI Agents Start Acting on Their Own",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "5 Things That Break When AI Agents Start Acting on Their Own",
-        "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "published": "Mon, 16 Nov 2026 18:00:47 +0000",
-        "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/Collibra-Agentic-Control-Ebook-Social-1.png"
-        ],
-        "ageHours": 63,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:29d97cd3a9606bee",
-          "title:fb04f59fe7e95a69"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:c1fc7cd8b86a288d": {
       "id": "defer:url:c1fc7cd8b86a288d",
@@ -13090,241 +13032,6 @@
         "keys": [
           "url:5ca16125cb30a2a7",
           "title:57a014ba67ae5073"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:74e69f777a2a7ac9": {
-      "id": "defer:url:74e69f777a2a7ac9",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:74e69f777a2a7ac9",
-        "title:7bbd1478765e6b8e"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.24869v1",
-      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-        "link": "https://arxiv.org/abs/2611.24869v1",
-        "canonical": "https://arxiv.org/abs/2611.24869v1",
-        "published": "2026-11-18T18:20:39Z",
-        "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that restored worlds follow the established rules. The latter requires accurately realizing rule-induced changes on designated objects and attributes, particularly when affected objects are unseen. In this paper, we propose WorldRuler, which organizes rule definitions, dependencies, and object states in an executable 3D rule graph and connects rule execution, video generation, and perceptual feedback in a closed loop. The graph supports joint saving and restoration of rules and world states, while dynamic object binding grounds rule-specified entities in visual instances and uses stored states to constrain generation from their first appearance. We further introduce object attribute state replacement and counterfactual reconstruction training, enabling accurate attribute control and compatible appearance and motion changes while limiting interference with unrelated content. We develop an automated data collection and annotation pipeline using GTA-V and Habitat to construct RuleVerse, a dataset of rule-driven interactions with detailed state and event annotations, including cases where rules take effect before affected objects become visible. Extensive experiments demonstrate the effectiveness of WorldRuler in preserving rule-state consistency across saving and loading and accurately realizing rule outcomes on designated objects and attributes.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.24869v1",
-        "images": [],
-        "ageHours": 16.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:74e69f777a2a7ac9",
-          "title:7bbd1478765e6b8e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:dd7337159384c156": {
-      "id": "defer:url:dd7337159384c156",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:dd7337159384c156",
-        "title:1eba609db0b6d0a4"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.24845v1",
-      "title": "Vibe-Trading: Towards Agent-Native Trading",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Vibe-Trading: Towards Agent-Native Trading",
-        "link": "https://arxiv.org/abs/2611.24845v1",
-        "canonical": "https://arxiv.org/abs/2611.24845v1",
-        "published": "2026-11-18T18:07:57Z",
-        "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result is useful only when it remains tied to the correct time, data snapshot, and execution context. We present Vibe-Trading, a comprehensive agent-native trading framework and all-in-one workspace for building, evaluating, and evolving agents for financial trading. It unifies market research, financial data, strategy generation, backtesting, portfolio analysis, paper trading, multi-agent collaboration, and optional broker execution. Its central contribution is an architecture that keeps results, evidence, research history, and trading authority connected throughout the research-to-action process. Each result retains its source, temporal scope, configuration, and producing run. Shared evidence grounding enables verification, versioned research records support reproducible continuation, and an explicit authority gate separates strategy research from live execution. Together, these designs provide a practical foundation for trading agents whose results can be traced, reproduced, and acted on only under explicit authority.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.24845v1",
-        "images": [],
-        "ageHours": 16.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:dd7337159384c156",
-          "title:1eba609db0b6d0a4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6076a2729fad4e58": {
-      "id": "defer:url:6076a2729fad4e58",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:6076a2729fad4e58",
-        "title:6dc8215e4c9ef274"
-      ],
-      "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-      "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
-        "link": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-        "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-        "published": "Wed, 18 Nov 2026 15:00:00 +0000",
-        "summary": "Why models ace Olympiad math and still fumble simple everyday tasks.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Jagged-Intelligence-Why-AI-Is-Brilliant-1.png"
-        ],
-        "ageHours": 19.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6076a2729fad4e58",
-          "title:6dc8215e4c9ef274"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:184d931227f2504d": {
-      "id": "defer:url:184d931227f2504d",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:184d931227f2504d",
-        "title:259bd3365a9e8ab9"
-      ],
-      "canonical": "https://openai.com/index/the-silent-consensus",
-      "title": "The Silent Consensus",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "The Silent Consensus",
-        "link": "https://openai.com/index/the-silent-consensus",
-        "canonical": "https://openai.com/index/the-silent-consensus",
-        "published": "Wed, 18 Nov 2026 10:00:00 GMT",
-        "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/the-silent-consensus",
-        "images": [],
-        "ageHours": 24.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:184d931227f2504d",
-          "title:259bd3365a9e8ab9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:58da586369f33999": {
-      "id": "defer:url:58da586369f33999",
-      "at": "2026-11-19T10:31:56.689Z",
-      "firstAt": "2026-11-19T10:31:56.689Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:58da586369f33999",
-        "title:1678c09ff28edc04"
-      ],
-      "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "title": "Research acceleration: The jagged frontier",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Research acceleration: The jagged frontier",
-        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-        "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "images": [],
-        "ageHours": 26.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:58da586369f33999",
-          "title:1678c09ff28edc04"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -14964,6 +14671,511 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
+      }
+    },
+    "defer:url:bd128091bfe5d9af": {
+      "id": "defer:url:bd128091bfe5d9af",
+      "at": "2026-11-19T19:31:40.354Z",
+      "firstAt": "2026-11-19T19:31:40.354Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bd128091bfe5d9af",
+        "title:df63a35b5d2315b3"
+      ],
+      "canonical": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing",
+      "title": "AI industry growth remains strong, but the pace is slowing",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "AI industry growth remains strong, but the pace is slowing",
+        "link": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+        "canonical": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing",
+        "published": "Thu, 19 Nov 2026 19:28:19 +0000",
+        "summary": "Token prices for AI models fell 21 percent in six weeks while usage volume hit a record high, according to the Ramp AI Index. Anthropic dominates with nearly 59 percent of token spending. Data from Ramp, Stripe and OpenRouter independently show the same pattern: the AI industry is still growing, but revenue momentum is cooling. The article AI industry growth remains strong, but the pace is slowing appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2024/02/Throwing-money-at-AI.jpg"
+        ],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:bd128091bfe5d9af",
+          "title:df63a35b5d2315b3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:694eda7767094817": {
+      "id": "defer:url:694eda7767094817",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:694eda7767094817",
+        "title:63a2e1128df279fe"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
+      "title": "Anthropic’s IPO could deliver $156 billion to charity",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic’s IPO could deliver $156 billion to charity",
+        "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+        "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
+        "published": "Thu, 19 Nov 2026 19:10:45 +0000",
+        "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+        "images": [],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:694eda7767094817",
+          "title:63a2e1128df279fe"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:62649bf472ca2edc": {
+      "id": "defer:url:62649bf472ca2edc",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:62649bf472ca2edc",
+        "title:d9c88c73aa074a81"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Google gives Gemini the ability to use your Mac for you",
+        "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "canonical": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
+        "published": "Thu, 19 Nov 2026 18:09:11 +0000",
+        "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "images": [],
+        "ageHours": 1.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:62649bf472ca2edc",
+          "title:d9c88c73aa074a81"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:47396adf5e31273b": {
+      "id": "defer:url:47396adf5e31273b",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:47396adf5e31273b",
+        "title:352044bf5e774a40"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+      "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+        "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "canonical": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+        "published": "Thu, 19 Nov 2026 17:38:40 +0000",
+        "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "images": [],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:47396adf5e31273b",
+          "title:352044bf5e774a40"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:438e5e36e7589163": {
+      "id": "defer:url:438e5e36e7589163",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:438e5e36e7589163",
+        "title:172b654651739b94"
+      ],
+      "canonical": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
+      "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
+        "link": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+        "canonical": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
+        "published": "Thu, 19 Nov 2026 17:02:41 +0000",
+        "summary": "Stricter US export controls on AI chips are hitting fast. China's Moonshot AI walked away from a $150 million deal in Indonesia, while TSMC and Samsung stopped shipping to Chinese customers. A New York Times investigation found that Alibaba had routed Nvidia chips to Chinese military researchers through a web of front companies. The article Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/07/us_vs_china_open_models.png"
+        ],
+        "ageHours": 2.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:438e5e36e7589163",
+          "title:172b654651739b94"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5d74491cfebe7d3b": {
+      "id": "defer:url:5d74491cfebe7d3b",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:5d74491cfebe7d3b",
+        "title:b74dc48a06f842ea"
+      ],
+      "canonical": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor",
+      "title": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
+        "link": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor/",
+        "canonical": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor",
+        "published": "Thu, 19 Nov 2026 12:00:23 +0000",
+        "summary": "So far this year, venture backers have poured close to $4 billion into an assortment of global companies focused on recruiting, finding jobs and streamlining processes associated with HR and payroll management, Crunchbase data shows. Not surprisingly, the vast majority are also incorporating a heavy dose of AI.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/AI-cowork-1024x576.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/AI-cowork.jpg"
+        ],
+        "ageHours": 7.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:5d74491cfebe7d3b",
+          "title:b74dc48a06f842ea"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9342dbf934e428aa": {
+      "id": "defer:url:9342dbf934e428aa",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "category_daily",
+      "reasons": [
+        "category_daily"
+      ],
+      "keys": [
+        "url:9342dbf934e428aa",
+        "title:719b8b9c65e7499b"
+      ],
+      "canonical": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+        "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "canonical": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "published": "Thu, 19 Nov 2026 08:00:00 GMT",
+        "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "images": [],
+        "ageHours": 11.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9342dbf934e428aa",
+          "title:719b8b9c65e7499b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:87281ddff48ca72f": {
+      "id": "defer:url:87281ddff48ca72f",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:87281ddff48ca72f",
+        "title:0a1d5519c225a145"
+      ],
+      "canonical": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis",
+      "title": "The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut",
+        "link": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+        "canonical": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis",
+        "published": "Wed, 18 Nov 2026 19:39:58 +0000",
+        "summary": "Just three years after launching with zero revenue, Anthropic brought in $17 billion and says more than 11,900 customers now spend at least $100,000 a year. But its IPO filing also reveals enormous computing commitments and big questions about balancing growth with risks.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/IPO-on-horizon-1024x576.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/Screenshot-2026-11-17-at-9.58.05-AM.png"
+        ],
+        "ageHours": 23.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:87281ddff48ca72f",
+          "title:0a1d5519c225a145"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c9fd12c9b52e6f26": {
+      "id": "defer:url:c9fd12c9b52e6f26",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c9fd12c9b52e6f26",
+        "title:3a517448669676a6"
+      ],
+      "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
+      "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
+        "link": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+        "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
+        "published": "Tue, 17 Nov 2026 12:00:41 +0000",
+        "summary": "In this Q&A, Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are attracting renewed interest. He also outlined what could set the stage for a stronger start to 2027.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/Forecast-crystal-ball-ai-IPO.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/mike-bellin_headshot-276x300.jpg"
+        ],
+        "ageHours": 55.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:c9fd12c9b52e6f26",
+          "title:3a517448669676a6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7d229c78771e957c": {
+      "id": "defer:url:7d229c78771e957c",
+      "at": "2026-11-19T19:31:40.355Z",
+      "firstAt": "2026-11-19T19:31:40.355Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:7d229c78771e957c",
+        "title:e7cfcea3decd44e9"
+      ],
+      "canonical": "http://github.com/punkpeye/awesome-mcp-servers",
+      "title": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده",
+        "link": "http://github.com/punkpeye/awesome-mcp-servers",
+        "canonical": "http://github.com/punkpeye/awesome-mcp-servers",
+        "messageText": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده\n\nمخزن awesome-mcp-servers مجموعه‌ای از سرورهای MCP رو لیست کرده؛ همون پروتکل که مدل‌های زبانی رو به ابزارها و سرویس‌های بیرونی وصل می‌کنه. ریپو ۲۰ هزار فورک و بیش از ۱۵ هزار کامیت داره و README فارسی هم داره.\n\ngithub.com/punkpeye/awesome-mcp-servers\n\n@dunijet_ai\n\n❤2",
+        "leadPostUrl": "https://t.me/dunijet_ai/2587",
+        "published": "2026-11-19T18:43:02+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/uFnuqscvqf0nRDa-5S-pqkoQh2p9ARTWUEYr51XPcHsum6RfAKchlvE2Pzj3L12N6b4PK_7OYypeOpAYVvaYOZbcX8aXqklHdd0PACExOl2_KSjAuM0cefBFgrFYFGNCzbHAoEtcw0RYAsOtuQ9cz9nlzHA8RjTrwM0Oy73AISY6ZU9xBEEDvK9Xnq3JotEmrWIAC6Ax3CwnB4zpqISD2dsjSJl4xyIOQI_fpBMHSRb5RmOaXWTsMJZEefAw1s2KyWrwQFygMZTQDTmc6mtLmSCmpnH-IocHMeOOVG0c0BdJ7CUVMBxXFJN10dR7XnrgIO3Gwi4XAcvI7i3P41j29A.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": false,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://github.com/punkpeye/awesome-mcp-servers"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:7d229c78771e957c",
+          "title:e7cfcea3decd44e9"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2587,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
       }
     }
   },
@@ -17526,6 +17738,14 @@
           "at": "2026-11-19T17:04:27.816Z"
         }
       ]
+    },
+    "2026-11-19T23:00+03:30": {
+      "at": "2026-11-19T19:32:03.805Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0022058848,
+      "tokens": 48324,
+      "posts": []
     }
   },
   "published": [
@@ -19266,116 +19486,92 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8481,
-      "last_at": "2026-11-19T15:28:25+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "last_id": 8486,
+      "last_at": "2026-11-19T18:56:29+00:00",
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "ai_farshad": {
       "last_id": 6471,
       "last_at": "2026-11-19T16:57:24+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "Mohammad_zammani": {
       "last_id": 7247,
       "last_at": "2026-11-19T15:54:49+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "techiin_ir": {
-      "last_id": 20806,
-      "last_at": "2026-11-19T16:58:34+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "last_id": 20808,
+      "last_at": "2026-11-19T19:14:26+00:00",
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "asrnovin_ir": {
       "last_id": 11494,
       "last_at": "2026-11-19T16:30:48+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "shayanode": {
-      "last_id": 253,
-      "last_at": "2026-11-19T16:28:34+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "last_id": 255,
+      "last_at": "2026-11-19T17:50:47+00:00",
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "codecloude": {
       "last_id": 2603,
       "last_at": "2026-11-19T12:07:34+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "dunijet_ai": {
-      "last_id": 2586,
-      "last_at": "2026-11-19T15:42:02+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "last_id": 2588,
+      "last_at": "2026-11-19T19:09:17+00:00",
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "miladxtalks": {
-      "last_id": 245,
-      "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "last_id": 247,
+      "last_at": "2026-11-19T17:49:13+00:00",
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "Sajadverse": {
       "last_id": 1257,
       "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "MatinSenPaii": {
-      "last_id": 5913,
-      "last_at": "2026-11-19T12:27:02+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "last_id": 5916,
+      "last_at": "2026-11-19T18:50:15+00:00",
+      "checked_at": "2026-11-19T19:31:05.772Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-19T17:01:19.691Z"
+      "checked_at": "2026-11-19T19:31:05.772Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-05|hf-papers|https://huggingface.co/papers/2611.05609",
-      "date": "2026-11-05",
-      "at": "2026-11-05T17:52:56.850Z",
-      "source": "hf-papers",
-      "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
-      "url": "https://huggingface.co/papers/2611.05609",
-      "reason": "research_paper",
-      "slot": "2026-11-05T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-05|tg-archive-tell|https://github.com/v1ktorrr0x/antigravity-filter-bypass",
-      "date": "2026-11-05",
-      "at": "2026-11-05T17:52:56.850Z",
-      "source": "tg-archive-tell",
-      "title": "GitHub - v1ktorrr0x/antigravity-filter-bypass",
-      "url": "https://github.com/v1ktorrr0x/antigravity-filter-bypass",
-      "reason": "model_skip",
-      "slot": "2026-11-05T20:30+03:30",
-      "kind": "tool",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-06|tg-sajadverse|https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
       "date": "2026-11-06",
@@ -23179,6 +23375,54 @@
       "slot": "2026-11-19T20:30+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-techiin|https://t.me/techiin_ir/20808",
+      "date": "2026-11-19",
+      "at": "2026-11-19T19:31:05.772Z",
+      "source": "tg-techiin",
+      "title": "✅ ثبت بزرگ‌ترین عرضه اولیه تاریخ با جذب 81.3 میلیارد دلاری آنتروپیک",
+      "url": "https://t.me/techiin_ir/20808",
+      "reason": "denied_link",
+      "slot": "2026-11-19T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-miladxtalks|https://t.me/miladxtalks/247",
+      "date": "2026-11-19",
+      "at": "2026-11-19T19:31:05.772Z",
+      "source": "tg-miladxtalks",
+      "title": "vas (@vasuman) on X",
+      "url": "https://t.me/miladxtalks/247",
+      "reason": "denied_link",
+      "slot": "2026-11-19T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-techiin|https://t.me/techiin_ir/20807",
+      "date": "2026-11-19",
+      "at": "2026-11-19T19:31:05.772Z",
+      "source": "tg-techiin",
+      "title": "✅ هوش مصنوعی قدرتمند و پرسرعت جمینای 4 نئون رونمایی شد",
+      "url": "https://t.me/techiin_ir/20807",
+      "reason": "denied_link",
+      "slot": "2026-11-19T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|hf-papers|https://huggingface.co/papers/2611.24161",
+      "date": "2026-11-19",
+      "at": "2026-11-19T19:31:05.772Z",
+      "source": "hf-papers",
+      "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
+      "url": "https://huggingface.co/papers/2611.24161",
+      "reason": "research_paper",
+      "slot": "2026-11-19T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -23503,6 +23747,20 @@
       "url": "https://t.me/asrnovin_ir/11492",
       "slot": "2026-11-19T11:30+03:30",
       "at": "2026-11-19T08:57:48.132Z"
+    },
+    {
+      "source": "tg-miladxtalks",
+      "title": "ساخت انیمیشن با هوش مصنوعی از صفر تا صد | آموزش Higgsfield کامل",
+      "url": "https://youtu.be/bvfhmciVZIE?is=3OvizzYJH9yEfKRV",
+      "slot": "2026-11-19T23:00+03:30",
+      "at": "2026-11-19T19:31:05.772Z"
+    },
+    {
+      "source": "tg-dunijet-ai",
+      "title": "بچه ها پنج شنبه ۵ آذر ساعت ۸ تا ۹ شب",
+      "url": "https://t.me/dunijet_ai/2588",
+      "slot": "2026-11-19T23:00+03:30",
+      "at": "2026-11-19T19:31:05.772Z"
     }
   ],
   "reviewPending": {},
@@ -23520,7 +23778,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-19T13:31:03.674Z",
+      "lastCheck": "2026-11-19T19:31:05.772Z",
       "status": "active",
       "misses": 0
     }
