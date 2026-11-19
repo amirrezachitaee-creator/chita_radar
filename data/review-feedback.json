@@ -5029,6 +5029,10 @@
     },
     "04a40d78aa": {
       "id": "04a40d78aa",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T10:31:40.993Z",
+      "updatedAt": "2026-11-19T10:31:40.993Z",
       "messageId": 70,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T14:00+03:30",
@@ -5064,10 +5068,6 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T10:31:40.993Z",
-      "updatedAt": "2026-11-19T10:31:40.993Z",
       "lastActionAt": "",
       "sentAt": ""
     }
