@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "offset": 659883528,
+  "offset": 659883531,
   "items": {
     "2c334fc02f": {
       "id": "2c334fc02f",
@@ -2572,10 +2572,10 @@
     },
     "0a8674e737": {
       "id": "0a8674e737",
-      "status": "pending",
+      "status": "rejected",
       "rewrites": 0,
       "createdAt": "2026-11-17T05:01:02.794Z",
-      "updatedAt": "2026-11-17T05:01:02.794Z",
+      "updatedAt": "2026-11-19T11:26:07.203Z",
       "messageId": 11,
       "chatId": "-1003917550874",
       "slot": "2026-11-17T08:30+03:30",
@@ -2614,19 +2614,20 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": [],
-      "lastActionAt": "",
-      "sentAt": ""
+      "lastActionAt": "2026-11-19T11:26:07.203Z",
+      "sentAt": "",
+      "lastAction": "reject"
     },
     "ac56648c92": {
       "id": "ac56648c92",
       "status": "pending",
-      "rewrites": 0,
+      "rewrites": 1,
       "createdAt": "2026-11-17T05:01:02.794Z",
-      "updatedAt": "2026-11-17T05:01:02.794Z",
-      "messageId": 12,
+      "updatedAt": "2026-11-19T11:30:08.073Z",
+      "messageId": 73,
       "chatId": "-1003917550874",
       "slot": "2026-11-17T08:30+03:30",
-      "reason": "offer_watch",
+      "reason": "manual_rewrite",
       "kind": "offer",
       "source": "offer-watch:free-inference",
       "sourceName": "Free Inference",
@@ -2647,9 +2648,50 @@
       "offerHint": true,
       "rumorHint": false,
       "policy": false,
-      "mainEligible": false,
-      "qaPass": false,
-      "post": null,
+      "mainEligible": true,
+      "qaPass": true,
+      "post": {
+        "decision": "publish",
+        "reason_code": "ok",
+        "reason": "",
+        "category": "tools",
+        "post_type": "standard",
+        "importance": 3,
+        "title": "فهرست ۳۶۳ مدل رایگان برای ساخت برنامه",
+        "body": "سایتی راه افتاده که همه راه‌های رایگان رسیدن به مدل‌های زبانی رو یکجا جمع کرده. اینجا ۲۷ مدل با دسترسی رایگان دائمی داره و کلی منابع دیگه که مجموعشون به ۵۰ ارائه‌دهنده و ۳۶۳ مدل می‌رسه. برای مقایسه، بخش‌های جداگانه‌ای برای «اینفرنس رایگان» و «ارائه‌دهنده‌های اینفرنس رایگان» گذاشته.\n\nبدون تاریخ انقضای اعلام‌شده\n\nمنبع: [Free Inference](https://www.freeinference.dev/)",
+        "quote": "اعتبار آزمایشی هم بعضی‌ها می‌دن؛ مثلاً ۵ تا ۲۰۰ دلار که یک‌بار مصرفه و تاریخ انقضا داره. این یعنی می‌تونی قبل از انتخاب نهایی، چند تا سرویس رو عملی تست کنی.\n\nبا این فهرست، دیگه لازم نیست برای پیدا کردن یه مدل رایگان، کلی سایت رو زیر و رو کنی؛ همه‌چیز از یه نقطه در دسترسه.",
+        "key_facts": [
+          "۲۷ مدل با دسترسی رایگان دائمی",
+          "۵۰ ارائه‌دهنده و ۳۶۳ مدل در فهرست",
+          "اعتبار آزمایشی بین ۵ تا ۲۰۰ دلار"
+        ],
+        "numbers": [
+          {
+            "label": "مدل رایگان دائمی",
+            "value": "27",
+            "unit": "مدل"
+          },
+          {
+            "label": "ارائه‌دهنده",
+            "value": "50",
+            "unit": "ارائه‌دهنده"
+          },
+          {
+            "label": "مدل در فهرست",
+            "value": "363",
+            "unit": "مدل"
+          }
+        ],
+        "entities": {
+          "companies": [],
+          "models": [],
+          "people": []
+        },
+        "verification": "unverified",
+        "source_url": "https://www.freeinference.dev/",
+        "image_url": "",
+        "dedupe_key": "freeinference-model-list"
+      },
       "expiry": {
         "ok": false,
         "reason": "expiry_missing",
@@ -2660,9 +2702,13 @@
       "note": "",
       "noteAt": "",
       "noteBy": "",
-      "previousMessageIds": [],
-      "lastActionAt": "",
-      "sentAt": ""
+      "previousMessageIds": [
+        12
+      ],
+      "lastActionAt": "2026-11-19T11:30:08.073Z",
+      "sentAt": "",
+      "manual": true,
+      "lastAction": "rewrite"
     },
     "01b9341f13": {
       "id": "01b9341f13",
@@ -5363,6 +5409,24 @@
       "reason": "",
       "detail": "qa_failed cost=$0.001644",
       "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-19T11:26:07.203Z",
+      "action": "reject",
+      "itemId": "0a8674e737",
+      "source": "offer-watch:perq",
+      "reason": "quality",
+      "detail": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "actor": "Amir_ch13"
+    },
+    {
+      "at": "2026-11-19T11:30:08.073Z",
+      "action": "rewrite",
+      "itemId": "ac56648c92",
+      "source": "offer-watch:free-inference",
+      "reason": "",
+      "detail": "qa_pass cost=$0.001847",
+      "actor": "Amir_ch13"
     }
   ],
   "sources": {
@@ -5425,6 +5489,18 @@
       "rewrites": 2,
       "publishes": 0,
       "lastAt": "2026-11-17T00:05:46.763Z"
+    },
+    "offer-watch:perq": {
+      "rejects": 1,
+      "rewrites": 0,
+      "publishes": 0,
+      "lastAt": "2026-11-19T11:26:07.203Z"
+    },
+    "offer-watch:free-inference": {
+      "rejects": 0,
+      "rewrites": 1,
+      "publishes": 0,
+      "lastAt": "2026-11-19T11:30:08.073Z"
     }
   },
   "callbackRetries": {

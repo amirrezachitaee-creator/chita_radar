@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-16T17:43:37.290Z",
+  "updatedAt": "2026-11-19T11:26:07.211Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -529,6 +529,15 @@
       "slot": "2026-11-16T21:10",
       "title": "سابسکریپشن Gemini به هرمس میاد",
       "url": "https://t.me/thenimaonAI/534"
+    },
+    "offerwatch:2af0ba0f0a7d95c6": {
+      "at": "2026-11-19T11:26:07.203Z",
+      "decision": "review_reject",
+      "reason": "quality",
+      "category": "",
+      "slot": "2026-11-17T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
     }
   },
   "deferred": {},
