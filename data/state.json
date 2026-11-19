@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T05:49:49.032Z",
+  "updatedAt": "2026-11-19T08:09:58.205Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -11903,6 +11903,132 @@
       "title": "Google’s AI feature in Search gets its own incognito mode",
       "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
       "benchmark": false
+    },
+    "url:82e7759daa5157d8": {
+      "at": "2026-11-19T08:02:18.981Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "✨ عرضهٔ Gemini 4 Neon؛ مدل میان‌رده و سریع گوگل گوگل می‌گه Neon کیفیتی نزدیک به",
+      "url": "https://t.me/ArchiveTell/8469"
+    },
+    "title:85fc6bccb5167e96": {
+      "at": "2026-11-19T08:02:18.981Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "✨ عرضهٔ Gemini 4 Neon؛ مدل میان‌رده و سریع گوگل گوگل می‌گه Neon کیفیتی نزدیک به",
+      "url": "https://t.me/ArchiveTell/8469"
+    },
+    "url:d15ef08a2a6cc148": {
+      "at": "2026-11-19T08:02:45.943Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "GTA 6 با هوش مصنوعی ساخته نشده. ولی پر از «هوشه»",
+      "url": "https://t.me/thenimaonAI/552"
+    },
+    "title:97783c2b61580e67": {
+      "at": "2026-11-19T08:02:45.943Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "GTA 6 با هوش مصنوعی ساخته نشده. ولی پر از «هوشه»",
+      "url": "https://t.me/thenimaonAI/552"
+    },
+    "url:28c52eec7322bf47": {
+      "at": "2026-11-19T08:02:54.489Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "کمپانی Openai رسما وارد شغل حسابداری شد ⚠️✋🏻",
+      "url": "https://t.me/codecloude/2602"
+    },
+    "title:c0709df15a297c9e": {
+      "at": "2026-11-19T08:02:54.489Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "کمپانی Openai رسما وارد شغل حسابداری شد ⚠️✋🏻",
+      "url": "https://t.me/codecloude/2602"
+    },
+    "url:fd9bebbff7e69286": {
+      "at": "2026-11-19T08:04:39.927Z",
+      "decision": "offer_skip",
+      "reason": "offer_vendor_repeat",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon"
+    },
+    "title:9ff50b55842f1a5a": {
+      "at": "2026-11-19T08:04:39.927Z",
+      "decision": "offer_skip",
+      "reason": "offer_vendor_repeat",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon"
+    },
+    "url:68e2ae2a24d58ba5": {
+      "at": "2026-11-19T08:06:31.528Z",
+      "decision": "skip",
+      "reason": "no_source",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2611.24924v1"
+    },
+    "title:0f2e75059e4de217": {
+      "at": "2026-11-19T08:06:31.528Z",
+      "decision": "skip",
+      "reason": "no_source",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2611.24924v1"
+    },
+    "url:7e87fb39389319b7": {
+      "at": "2026-11-19T08:09:57.962Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them",
+      "url": "https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them"
+    },
+    "title:ccce9de60bfc4dc3": {
+      "at": "2026-11-19T08:09:57.962Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them",
+      "url": "https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them"
+    },
+    "url:6185888542702135": {
+      "at": "2026-11-19T08:09:58.203Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Google continues to accelerate its release cadence with Gemini 4 Neon",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain"
+    },
+    "title:cd83a6a44cdf85af": {
+      "at": "2026-11-19T08:09:58.203Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-19T11:30+03:30",
+      "title": "Google continues to accelerate its release cadence with Gemini 4 Neon",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain"
     }
   },
   "deferred": {
@@ -12011,595 +12137,6 @@
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
-    "defer:url:82b169450b02e27d": {
-      "id": "defer:url:82b169450b02e27d",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:82b169450b02e27d",
-        "title:95d1f52b55d7666d"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-        "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-        "canonical": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
-        "published": "2026-11-17T22:38:52+00:00",
-        "summary": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a> with support for the new models.</p> <p>6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions.</p> <p>GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).</p> <p>Here are the pelicans <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fa940cc2750162ac9edf0ddf881067b83\">for GPT-6.2 Sol</a> and <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffe836e13c90c00233c9e9e499a941805\">for GPT-6.2 Astra</a>. The 6.2 Astra max pelican looks like this:</p> <p><img alt=\"Good bicycle, good pelican, one wing is on the handlebars with fingers, the other wing is behind. Feet on the correct side of the frame. Nice gradiants. Good pouch, hooked bill.\" src=\"https://static.simonwillison.net/static/2026/astra-6-2-max.webp\" /></p> <p>I have a <a href=\"https://static.simonwillison.net/static/2026/openai-pelicans-november-2026.html\">full comparison grid here</a>, but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases:</p> <p><img alt=\"Twelve pastel illustrations compare four models drawing a pelican riding a bicycle at three effort levels. All twelve have a recognizable pelican and bicycle. The clearest differences are in the feather detail and how convincingly the bird steers and pedals. gpt-6.2-astra has the most detailed Max drawing (88.71¢), with layered feathers, a trailing red scarf, and a wing on the handlebars. Xhigh (17.70¢) adds a green cap and keeps the seaside setting. High (11.55¢) simplifies the feathers while keeping the riding pose clear. gpt-6.2-sol shows a convincing pedaling pose at both Max (13.69¢) and Xhigh (6.74¢), with one foot higher than the other and a wing reaching forward. At High (2.41¢), the bird sits lower and the handlebars are harder to distinguish. gpt-6-astra gives the bird a long wing that follows the curve of the handlebars at Max (63.21¢). Xhigh (33.85¢) shows two bent legs on the pedals. At High (18.37¢), one leg stretches almost straight down, making the pose look stiffer. gpt-6.1-sol uses nearly the same long-necked bird with a wing on the bars at Max (13.48¢) and Xhigh (5.39¢). At High (3.66¢), the bird folds its wing against its body and appears to ride hands-free.\" src=\"https://static.simonwillison.net/static/2026/gpt-6-2-grid.webp\" /></p> <p>I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI:</p> <blockquote> <p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p> </blockquote> <p>Here's <a href=\"https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html\">Sol</a> and here's <a href=\"https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html\">Astra</a>. Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to <a href=\"https://tools.simonwillison.net/yonkers-rises\">Claude Fable 5.2</a> and <a href=\"https://static.simonwillison.net/static/2026/yonkers-mech-standalone.html\">Gemini 4 Carbon</a>.</p> <p>This video showing the Astra and Sol animations playing out at the same time:</p> <video controls playsinline preload=\"none\" width=\"1080\" height=\"1080\" poster=\"https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s.webp\"> <source src=\"https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s-largest.mp4\" type=\"video/mp4\"> </video> <p>I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting:</p> <blockquote> <p><code>https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html are two videos of the same thing by two different models</code></p> <p><code>I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second</code></p> <p><code>I need an overlaid label of \"GPT-6.2 Astra\" on the top half and \"GPT-6.2 Sol\" on the bottom half. These labels should be tastefully positioned.</code></p> <p><code>Make the video square and 2000x2000 pixels</code></p> </blockquote> <p>Then later:</p> <blockquote> <p><code>OK make it 20s</code></p> </blockquote> <p>Here's the <a href=\"https://gist.github.com/simonw/6b44c588a1321b60799dbbfd13db6d23\">exported transcript</a>.</p> <p>The buzz around these new models is mixed at the moment. Astra 6.2 isn't scoring quite as high as Fable 5.2 on various benchmarks, and I've seen a few complaints that its communication style can be confusing. Theo Browne's <a href=\"https://twitter.com/theo/status/2122760447103484410\">review</a> (in the form of a feedback letter he sent OpenAI during pre-release) has this useful example:</p> <blockquote> <p>When this model is working on long tasks, it can pull in a lot of subagents and manage them pretty well. It will then proceed to randomly <em>ask you some weird internal implementation detail bullshit that you could not under any earthly circumstance understand, much less have input on</em>.</p> <p>I sent \"/goal make a new level for Outer Wilds\". 2 hours in, it's \"blocked\" because it wanted to ask me \"does r24's reviewer write it's clips to 24_g521.mp4 or 24_p11.mp4?\"</p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/theo-browne\">theo-browne</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/yonkers-rising\">yonkers-rising</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-        "images": [],
-        "ageHours": 11.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": true,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:82b169450b02e27d",
-          "title:95d1f52b55d7666d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:21b086fc4d484154": {
-      "id": "defer:url:21b086fc4d484154",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:21b086fc4d484154",
-        "title:7f503e53e334f0fa"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.23202v1",
-      "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
-        "link": "https://arxiv.org/abs/2611.23202v1",
-        "canonical": "https://arxiv.org/abs/2611.23202v1",
-        "published": "2026-11-17T18:44:25Z",
-        "summary": "AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, execution integrity, and authorization. We propose the Agent Trust Infrastructure (ATI), a framework-independent security architecture built on Public Key Infrastructure (PKI), Zero Trust Architecture (ZTA), and remote attestation. ATI establishes federated trust through peer organizational certificate authorities (AgentCAs), eliminating the need for a shared root authority. Before executing requests, ATI validates agent certificates, verifies approved model, tool, and system-prompt configurations, and enforces authorization through three policy checks. We implement ATI as an external security enforcement layer that integrates with existing agent frameworks without modifying their underlying models. We evaluate ATI in a simulated federation of eight organizations using six agent frameworks, each deploying a five-agent team. Security experiments involve two organizations and assess 14 attack scenarios and six benign tasks across five agent models, using five attack variations and three repetitions per variation. A panel of judge models evaluates the experimental outcomes. With all enforcement mechanisms enabled, attack containment increases from 43% to 84% (40% to 80% for the 11 attack scenarios evaluated consistently across all configurations), while enforcement introduces approximately 174 microseconds of overhead per request. ATI is released as an open-source, framework-independent package that uses IETF WIMSE workload token formats for identity and request verification and Entity Attestation Tokens for model, tool, and system-prompt integrity verification.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.23202v1",
-        "images": [],
-        "ageHours": 15.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:21b086fc4d484154",
-          "title:7f503e53e334f0fa"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6ced64c71386d7d3": {
-      "id": "defer:url:6ced64c71386d7d3",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:6ced64c71386d7d3",
-        "title:6ed87293174fb81a"
-      ],
-      "canonical": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video",
-      "title": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
-        "link": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
-        "canonical": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video",
-        "published": "Wed, 18 Nov 2026 10:22:45 +0000",
-        "summary": "AI music generator Suno can now create images and video clips to go with its songs, thanks to a new feature called Visuals. The article Suno's new Visuals feature pairs AI-generated music with AI-generated video appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/08/suno_ai_logo.png"
-        ],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:6ced64c71386d7d3",
-          "title:6ed87293174fb81a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ba46bd4827d4393d": {
-      "id": "defer:url:ba46bd4827d4393d",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ba46bd4827d4393d",
-        "title:cda5b8fb1312946b"
-      ],
-      "canonical": "https://therecord.media/cisa-issues-java4shell-alert",
-      "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
-        "link": "https://therecord.media/cisa-issues-java4shell-alert",
-        "canonical": "https://therecord.media/cisa-issues-java4shell-alert",
-        "published": "Wed, 18 Nov 2026 00:00:00 GMT",
-        "summary": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java — one of the world’s most used programming languages — after experts warned that it could allow an attacker to take over servers without a password.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/cisa-issues-java4shell-alert",
-        "images": [
-          "http://cms.therecord.media/uploads/2021_11_CISA_6e0fea829e.png"
-        ],
-        "ageHours": 10.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:ba46bd4827d4393d",
-          "title:cda5b8fb1312946b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3047d7657748ea76": {
-      "id": "defer:url:3047d7657748ea76",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3047d7657748ea76",
-        "title:07dd8beb3791940f"
-      ],
-      "canonical": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "title": "Introducing ChatGPT for Sales",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Introducing ChatGPT for Sales",
-        "link": "https://openai.com/index/introducing-chatgpt-for-sales",
-        "canonical": "https://openai.com/index/introducing-chatgpt-for-sales",
-        "published": "Tue, 17 Nov 2026 08:00:00 GMT",
-        "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/introducing-chatgpt-for-sales",
-        "images": [],
-        "ageHours": 26.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:3047d7657748ea76",
-          "title:07dd8beb3791940f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:10479bde30ccf0b1": {
-      "id": "defer:url:10479bde30ccf0b1",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:10479bde30ccf0b1",
-        "title:d047206a3a5a82c4"
-      ],
-      "canonical": "https://www.producthunt.com/products/linkbit",
-      "title": "LinkBit",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "LinkBit",
-        "link": "https://www.producthunt.com/products/linkbit",
-        "canonical": "https://www.producthunt.com/products/linkbit",
-        "published": "2026-11-16T23:57:08-08:00",
-        "summary": "<p> Free URL shortener your AI agent can use (MCP + API) </p> <p> <a href=\"https://www.producthunt.com/products/linkbit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1319947?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/linkbit",
-        "images": [],
-        "ageHours": 26.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:10479bde30ccf0b1",
-          "title:d047206a3a5a82c4"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9634b5e75ef12012": {
-      "id": "defer:url:9634b5e75ef12012",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9634b5e75ef12012",
-        "title:7b0bae18e8ec3a2f"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
-      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-        "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-        "canonical": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
-        "published": "Mon, 16 Nov 2026 23:00:05 +0000",
-        "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1-842x450.jpg"
-        ],
-        "ageHours": 35.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:9634b5e75ef12012",
-          "title:7b0bae18e8ec3a2f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a9995c40a3422c04": {
-      "id": "defer:url:a9995c40a3422c04",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a9995c40a3422c04",
-        "title:cece5d11f4250ee9"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-        "link": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-        "canonical": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
-        "published": "Mon, 16 Nov 2026 20:00:37 +0000",
-        "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-842x450.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/20261114_033237000_iOS-1.jpeg"
-        ],
-        "ageHours": 38.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:a9995c40a3422c04",
-          "title:cece5d11f4250ee9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e103c7330eb391b4": {
-      "id": "defer:url:e103c7330eb391b4",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e103c7330eb391b4",
-        "title:bf0767dab9585052"
-      ],
-      "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
-      "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
-        "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-        "canonical": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
-        "published": "Mon, 16 Nov 2026 19:19:56 +0000",
-        "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before realistic simulations are possible. The article OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/openai_standard_model.png"
-        ],
-        "ageHours": 39.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e103c7330eb391b4",
-          "title:bf0767dab9585052"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:29d97cd3a9606bee": {
-      "id": "defer:url:29d97cd3a9606bee",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:29d97cd3a9606bee",
-        "title:fb04f59fe7e95a69"
-      ],
-      "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-      "title": "5 Things That Break When AI Agents Start Acting on Their Own",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "5 Things That Break When AI Agents Start Acting on Their Own",
-        "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "canonical": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "published": "Mon, 16 Nov 2026 18:00:47 +0000",
-        "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/Collibra-Agentic-Control-Ebook-Social-1.png"
-        ],
-        "ageHours": 40.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:29d97cd3a9606bee",
-          "title:fb04f59fe7e95a69"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4e397e27d38f36ea": {
-      "id": "defer:url:4e397e27d38f36ea",
-      "at": "2026-11-18T10:34:02.009Z",
-      "firstAt": "2026-11-18T10:34:02.009Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4e397e27d38f36ea",
-        "title:7152ec698ee09f71"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
-      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-        "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-        "canonical": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
-        "published": "Mon, 16 Nov 2026 16:00:16 +0000",
-        "summary": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376-842x450.jpg"
-        ],
-        "ageHours": 42.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4e397e27d38f36ea",
-          "title:7152ec698ee09f71"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:742a0adaef2e2544": {
-      "id": "defer:url:742a0adaef2e2544",
-      "at": "2026-11-18T10:34:40.035Z",
-      "firstAt": "2026-11-18T10:34:40.035Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:742a0adaef2e2544",
-        "title:bc75e5bb1051c06c"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
-      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-        "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
-        "canonical": "https://blogs.nvidia.com/blog/lambda-photonics",
-        "published": "Mon, 16 Nov 2026 16:00:51 +0000",
-        "summary": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/lambda-photonics/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1-842x450.jpeg"
-        ],
-        "ageHours": 42.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:742a0adaef2e2544",
-          "title:bc75e5bb1051c06c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      },
-      "detail": "tools"
-    },
     "defer:url:64a0b692ac380c54": {
       "id": "defer:url:64a0b692ac380c54",
       "at": "2026-11-18T13:33:59.978Z",
@@ -12644,247 +12181,6 @@
         "keys": [
           "url:64a0b692ac380c54",
           "title:7d1ce759ebd029b8"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b9b3936785bef300": {
-      "id": "defer:url:b9b3936785bef300",
-      "at": "2026-11-18T13:33:59.978Z",
-      "firstAt": "2026-11-18T13:33:59.978Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:b9b3936785bef300",
-        "title:09b0696869fee285"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds",
-      "title": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
-        "link": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-        "canonical": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds",
-        "published": "Wed, 18 Nov 2026 13:00:00 +0000",
-        "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-        "images": [],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b9b3936785bef300",
-          "title:09b0696869fee285"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:2c4163c7e21d994d": {
-      "id": "defer:url:2c4163c7e21d994d",
-      "at": "2026-11-18T13:33:59.978Z",
-      "firstAt": "2026-11-18T13:33:59.978Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:2c4163c7e21d994d",
-        "title:660c332f8fdc7558"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-        "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-        "canonical": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
-        "published": "Wed, 18 Nov 2026 12:00:00 +0000",
-        "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-        "images": [],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:2c4163c7e21d994d",
-          "title:660c332f8fdc7558"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ddb370c34e5553db": {
-      "id": "defer:url:ddb370c34e5553db",
-      "at": "2026-11-18T13:33:59.978Z",
-      "firstAt": "2026-11-18T13:33:59.978Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ddb370c34e5553db",
-        "title:f1912ed7d835aae1"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
-      "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
-        "link": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-        "canonical": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
-        "published": "Wed, 18 Nov 2026 11:30:00 +0000",
-        "summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-        "images": [],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ddb370c34e5553db",
-          "title:f1912ed7d835aae1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0e7f690aa4ff229b": {
-      "id": "defer:url:0e7f690aa4ff229b",
-      "at": "2026-11-18T13:33:59.978Z",
-      "firstAt": "2026-11-18T13:33:59.978Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:0e7f690aa4ff229b",
-        "title:816217c29e221826"
-      ],
-      "canonical": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Strengthening NATO and allied cyber defenses with AI",
-        "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-        "canonical": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-        "published": "Tue, 17 Nov 2026 00:00:00 GMT",
-        "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-        "images": [],
-        "ageHours": 37.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:0e7f690aa4ff229b",
-          "title:816217c29e221826"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fb1ad380f7244f47": {
-      "id": "defer:url:fb1ad380f7244f47",
-      "at": "2026-11-18T13:33:59.978Z",
-      "firstAt": "2026-11-18T13:33:59.978Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:fb1ad380f7244f47",
-        "title:e63019f191367427"
-      ],
-      "canonical": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months",
-      "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-        "link": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-        "canonical": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months",
-        "published": "Tue, 17 Nov 2026 14:57:02 +0000",
-        "summary": "Isomorphic Labs has raised $5 billion, just six months after a $2.1 billion round. Alphabet's AI drug discovery company, led by Demis Hassabis, plans to use the funding to push its drug pipeline toward clinical trials. The company has no approved drugs yet. The article Isomorphic Labs raises $5 billion in its second mega-round within six months appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/Isomorphic-Labs-Funding.jpg"
-        ],
-        "ageHours": 22.6,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:fb1ad380f7244f47",
-          "title:e63019f191367427"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13436,9 +12732,9 @@
     },
     "defer:url:aef632472a5e3af7": {
       "id": "defer:url:aef632472a5e3af7",
-      "at": "2026-11-18T19:31:37.532Z",
+      "at": "2026-11-19T08:04:39.551Z",
       "firstAt": "2026-11-18T17:06:51.438Z",
-      "attempts": 2,
+      "attempts": 3,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -13481,7 +12777,7 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:aef632472a5e3af7",
-          "attempts": 1
+          "attempts": 2
         }
       },
       "detail": "tools"
@@ -14121,9 +13417,9 @@
     },
     "defer:url:67952d9a918d2536": {
       "id": "defer:url:67952d9a918d2536",
-      "at": "2026-11-18T19:33:16.928Z",
+      "at": "2026-11-19T08:04:39.601Z",
       "firstAt": "2026-11-18T19:33:16.928Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -14163,7 +13459,11 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:67952d9a918d2536",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
     },
@@ -14320,6 +13620,891 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:8c4432adfe17d06c": {
+      "id": "defer:url:8c4432adfe17d06c",
+      "at": "2026-11-19T08:02:54.501Z",
+      "firstAt": "2026-11-19T08:02:54.501Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8c4432adfe17d06c",
+        "title:149bd4d47ab893de"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/18/llm-gemini",
+      "title": "llm-gemini 0.38",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "llm-gemini 0.38",
+        "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+        "canonical": "https://simonwillison.net/2026/Nov/18/llm-gemini",
+        "published": "2026-11-18T23:59:20+00:00",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.38\">llm-gemini 0.38</a></p> <p>Today Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\">introduced Gemini 4 Neon</a>. I <a href=\"https://simonwillison.net/2026/Nov/12/llm-gemini/\">wrote recently</a> about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse.</p> <p>Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were <em>the same price</em>, and Hydrogen was 3/4 of that price now but will be 1/4 of that price when the other two double an 1st December once their initial discount pricing expires.</p> <p>The Neon announcement pretends that Argon doesn't exist. Here's their new image explaining the model line-up:</p> <p><img alt=\"Comparison table slide titled &quot;Gemini 4 - Our next era of frontier intelligence&quot; with three model columns, Carbon, Neon and Hydrogen, where the Neon column is highlighted with a blue outline. Best For: Carbon - Hardest long-horizon projects and deep research; Neon - Deep reasoning across software engineering, knowledge work, and science; Hydrogen - Speed and efficiency in everyday coding and agentic workflows. Quality (Artificial Analysis Index): Carbon 60, Neon 61, Hydrogen 54. Price ($/1M In / Out (1M flat)): Carbon $4 / $20*, Neon $3 / $15, Hydrogen $1.50 / $7.50. Thinking levels: Carbon - Low, medium, high; Neon - Low, medium, high, xhigh; Hydrogen - Low, medium, high, xhigh. Speed (shown as rocket icons out of five): Carbon 2, Neon 3.5, Hydrogen 5. Subscriptions: Carbon - Google AI Ultra; Neon - Google AI Pro &amp; Ultra; Hydrogen - For Everyone. Availability: Carbon - Gemini API in Google AI Studio (paid), Gemini for business, Google AI Ultra: Gemini app, Google Antigravity, AI Mode in Search; Neon - Gemini API in Google AI Studio (paid), Gemini for business, Google AI Pro &amp; Ultra: Gemini app, Google Antigravity (paid); Hydrogen - Gemini API in Google AI Studio (all tiers), Gemini for business, Gemini app, Google Search, Google AI Pro &amp; Ultra: Google Antigravity (paid). Footnote: *$2 / $10 promo through Nov 30. Dated 18 November 2026.\" src=\"https://static.simonwillison.net/static/2026/gemini-4-neon__comparison-graphi.width-2000.webp\" /></p> <p>So the lineup now, from most to least expensive, is Carbon, Neon, Hydrogen.</p> <p>Except Carbon is currently half price, so right now Neon ($3/million input, $15/million output) is the most expensive of the three - then Carbon ($2/$10), then Hydrogen ($1.50/$7.50). I guess this will make more sense when Carbon doubles to $4/$20 on December 1st.</p> <p>I ran <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fabc5dfe18e8d37a46fd09a3dcc18ed5c\">some pelicans</a> through the three reasoning levels for Neon - low, medium, high.</p> <p>I dropped Argon from <a href=\"https://static.simonwillison.net/static/2026/gemini-4-carbon-neon-hydrogen.html\">my Gemini 4 comparison grid</a> - here's the new Gemini 4 lineup, where the Neon pelicans do look better than Hydrogen and worse than Carbon:</p> <p><img alt=\"Comparison grid of nine flat vector-style illustrations of a pelican riding a red bicycle, arranged as a table with three model columns and three thinking-level rows. Column headers: Thinking, gemini-4-carbon, gemini-4-neon, gemini-4-hydrogen. Row HIGH: gemini-4-carbon is the most detailed of all, a pelican in a sailor cap on a red cruiser bike with fenders, chain guard and a wicker basket holding a fish, on a beach promenade with ocean, sun, clouds and distant birds, captioned &quot;40 input tokens, 20,305 output = 20.31 cents · 4m 11s&quot;; gemini-4-neon is a clean, well-proportioned pelican on a simpler red bike on a road with a yellow dashed line and the sea behind, captioned &quot;40 input tokens, 9,691 output = 14.55 cents · 1m 11s&quot;; gemini-4-hydrogen is a plainer pelican on a basic red bike with speed lines, flat green ground and a pale sky, captioned &quot;40 input tokens, 5,311 output = 3.99 cents · 19s&quot;. Row MEDIUM: gemini-4-carbon adds a red striped scarf blowing in the wind plus the sailor cap, cream fenders, a basket and a beach with a rope fence, captioned &quot;40 input tokens, 11,020 output = 11.03 cents · 1m 53s&quot;; gemini-4-neon has a basket with a fish, green hills and a grey road, captioned &quot;40 input tokens, 7,846 output = 11.78 cents · 54s&quot;; gemini-4-hydrogen is a simple pelican and bike on a flat green strip with faint clouds, captioned &quot;40 input tokens, 3,964 output = 2.98 cents · 17s&quot;. Row LOW: gemini-4-carbon is still richly detailed with cap, scarf, basket, a seaside railing and a road, captioned &quot;40 input tokens, 9,153 output = 9.16 cents · 1m 34s&quot;; gemini-4-neon is a simpler pelican on a bike with no basket, on a road edged with grass, captioned &quot;40 input tokens, 4,974 output = 7.47 cents · 43s&quot;; gemini-4-hydrogen is the most minimal, a basic pelican and thin-framed bike over a single green line on a plain pale background, captioned &quot;40 input tokens, 2,996 output = 2.25 cents · 10s&quot;. Overall, detail and polish drop from carbon to neon to hydrogen and, less sharply, from high to low thinking, while every image remains a recognisable pelican on a bicycle.\" src=\"https://static.simonwillison.net/static/2026/gemini-grid-updated.webp\" /></p> <p>As I've done with <a href=\"https://simonwillison.net/tags/yonkers-rising/\">several recent models</a>, I also fired the following prompt against Gemini 4 Neon on \"extra\" effort level in Google Antigravity:</p> <blockquote> <p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p> </blockquote> <p><a href=\"https://static.simonwillison.net/static/2026/gemini-4-neon-yonkers/index.html\">Here's the result</a>.</p> <video controls playsinline preload=\"none\" width=\"1280\" height=\"720\" poster=\"https://static.simonwillison.net/static/2026/yonkers-neon.webp\"> <source src=\"https://static.simonwillison.net/static/2026/yonkers-neon.mp4\" type=\"video/mp4\"> </video> <p>Tags: <a href=\"https://simonwillison.net/tags/yonkers-rising\">yonkers-rising</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+        "images": [],
+        "ageHours": 8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": true,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:8c4432adfe17d06c",
+          "title:149bd4d47ab893de"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0acce46b9cbed8f4": {
+      "id": "defer:url:0acce46b9cbed8f4",
+      "at": "2026-11-19T08:02:54.501Z",
+      "firstAt": "2026-11-19T08:02:54.501Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0acce46b9cbed8f4",
+        "title:31b91119f9c85257"
+      ],
+      "canonical": "https://www.producthunt.com/products/tecla-3",
+      "title": "Tecla",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Tecla",
+        "link": "https://www.producthunt.com/products/tecla-3",
+        "canonical": "https://www.producthunt.com/products/tecla-3",
+        "published": "2026-11-18T19:05:34-08:00",
+        "summary": "<p> A proactive AI agent whose interface is a TODO list </p> <p> <a href=\"https://www.producthunt.com/products/tecla-3?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1322379?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/tecla-3",
+        "images": [],
+        "ageHours": 4.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:0acce46b9cbed8f4",
+          "title:31b91119f9c85257"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:23bcde033c74ade3": {
+      "id": "defer:url:23bcde033c74ade3",
+      "at": "2026-11-19T08:02:54.501Z",
+      "firstAt": "2026-11-19T08:02:54.501Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:23bcde033c74ade3",
+        "title:7283918905540143"
+      ],
+      "canonical": "https://www.producthunt.com/products/adside",
+      "title": "Adside",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Adside",
+        "link": "https://www.producthunt.com/products/adside",
+        "canonical": "https://www.producthunt.com/products/adside",
+        "published": "2026-11-18T16:52:42-08:00",
+        "summary": "<p> A team of specialized AI agents that manage paid ads for you </p> <p> <a href=\"https://www.producthunt.com/products/adside?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1322288?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/adside",
+        "images": [],
+        "ageHours": 7.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:23bcde033c74ade3",
+          "title:7283918905540143"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:28a1e7a21c66bddf": {
+      "id": "defer:url:28a1e7a21c66bddf",
+      "at": "2026-11-19T08:02:54.501Z",
+      "firstAt": "2026-11-19T08:02:54.501Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:28a1e7a21c66bddf",
+        "title:b914502c3c929d35"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+        "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+        "canonical": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+        "published": "Wed, 18 Nov 2026 23:45:00 +0000",
+        "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+        "images": [],
+        "ageHours": 8.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:28a1e7a21c66bddf",
+          "title:b914502c3c929d35"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fd0f1695410f8d6e": {
+      "id": "defer:url:fd0f1695410f8d6e",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:fd0f1695410f8d6e",
+        "title:72ae0ecdd1d93f6b"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+        "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+        "canonical": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
+        "published": "Wed, 18 Nov 2026 23:17:28 +0000",
+        "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+        "images": [],
+        "ageHours": 8.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:fd0f1695410f8d6e",
+          "title:72ae0ecdd1d93f6b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:591236888382df2b": {
+      "id": "defer:url:591236888382df2b",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:591236888382df2b",
+        "title:65ef233737217ef7"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+        "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+        "canonical": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+        "published": "Wed, 18 Nov 2026 22:58:11 +0000",
+        "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+        "images": [],
+        "ageHours": 9.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:591236888382df2b",
+          "title:65ef233737217ef7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9cd84c2455ae281d": {
+      "id": "defer:url:9cd84c2455ae281d",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:9cd84c2455ae281d",
+        "title:711580620c0ccd47"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic prices IPO at $83 a share, above projected range",
+        "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+        "canonical": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+        "published": "Wed, 18 Nov 2026 22:11:15 +0000",
+        "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+        "images": [],
+        "ageHours": 9.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:9cd84c2455ae281d",
+          "title:711580620c0ccd47"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d8ac169631b01ef6": {
+      "id": "defer:url:d8ac169631b01ef6",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:d8ac169631b01ef6",
+        "title:f98effa708ed76d0"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report",
+      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+        "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+        "canonical": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report",
+        "published": "Wed, 18 Nov 2026 21:57:40 +0000",
+        "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+        "images": [],
+        "ageHours": 10.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:d8ac169631b01ef6",
+          "title:f98effa708ed76d0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f2571adad4d38d72": {
+      "id": "defer:url:f2571adad4d38d72",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:f2571adad4d38d72",
+        "title:44b11baa17088cb1"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated",
+      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+        "link": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+        "canonical": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated",
+        "published": "Wed, 18 Nov 2026 21:31:21 +0000",
+        "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+        "images": [],
+        "ageHours": 10.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:f2571adad4d38d72",
+          "title:44b11baa17088cb1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3285b906d368abcf": {
+      "id": "defer:url:3285b906d368abcf",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:3285b906d368abcf",
+        "title:7cbc657b2323e105"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+        "link": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+        "canonical": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+        "published": "Wed, 18 Nov 2026 21:34:13 +0000",
+        "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+        "images": [],
+        "ageHours": 10.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:3285b906d368abcf",
+          "title:7cbc657b2323e105"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7be7e02f565f6710": {
+      "id": "defer:url:7be7e02f565f6710",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:7be7e02f565f6710",
+        "title:191ba12e639d8c7d"
+      ],
+      "canonical": "https://www.producthunt.com/products/room-ai-2",
+      "title": "Room AI",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Room AI",
+        "link": "https://www.producthunt.com/products/room-ai-2",
+        "canonical": "https://www.producthunt.com/products/room-ai-2",
+        "published": "2026-11-18T07:37:31-08:00",
+        "summary": "<p> Talk to it like a designer. Your room, one change at a time </p> <p> <a href=\"https://www.producthunt.com/products/room-ai-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1321847?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/room-ai-2",
+        "images": [],
+        "ageHours": 16.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:7be7e02f565f6710",
+          "title:191ba12e639d8c7d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0139fdfe9230bc42": {
+      "id": "defer:url:0139fdfe9230bc42",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:0139fdfe9230bc42",
+        "title:b83cdbf7fc66aa86"
+      ],
+      "canonical": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning",
+      "title": "AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning",
+        "link": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning",
+        "canonical": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning",
+        "published": "Wed, 18 Nov 2026 13:00:00 +0000",
+        "summary": "A data-backed breakdown of compensation across roles, experience levels, industries, and geographies, so you know where you stand and where the premium opportunities are.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning-hero.webp"
+        ],
+        "ageHours": 19,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:0139fdfe9230bc42",
+          "title:b83cdbf7fc66aa86"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:cf4f892513b4d712": {
+      "id": "defer:url:cf4f892513b4d712",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:cf4f892513b4d712",
+        "title:65145b70d2b86d62"
+      ],
+      "canonical": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+      "title": "7 Best AI Coding Plans for $10 or Less in 2026",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "7 Best AI Coding Plans for $10 or Less in 2026",
+        "link": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+        "canonical": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+        "published": "Tue, 17 Nov 2026 13:00:00 +0000",
+        "summary": "Compare affordable AI coding agents, AI-powered IDEs, open-source tools, and multi-model subscriptions from OpenCode, Cursor, GitHub Copilot, Cline, Zed, and Xiaomi MiMo.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-ai-coding-plans-for-10-or-less-in-2026-feature.webp"
+        ],
+        "ageHours": 43,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:cf4f892513b4d712",
+          "title:65145b70d2b86d62"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8f02058f4a02dc51": {
+      "id": "defer:url:8f02058f4a02dc51",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8f02058f4a02dc51",
+        "title:cf1ea7c31e12e1e3"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+        "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "canonical": "https://blogs.nvidia.com/blog/rubin-hpc",
+        "published": "Mon, 16 Nov 2026 16:00:01 +0000",
+        "summary": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-blog-rubin-hpc-gpu-1920x1080-5957124-1-842x450.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-press-hpc-nvl4-tray-rack-1600x900-5802807.jpg"
+        ],
+        "ageHours": 64,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:8f02058f4a02dc51",
+          "title:cf1ea7c31e12e1e3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:efdc00666e56954c": {
+      "id": "defer:url:efdc00666e56954c",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:efdc00666e56954c",
+        "title:3b5ebda452d75ef6"
+      ],
+      "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+      "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+        "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "canonical": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "published": "Mon, 16 Nov 2026 15:00:00 +0000",
+        "summary": "Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-give-claude-code-up-to-date-documentation-with-context7-feature.webp"
+        ],
+        "ageHours": 65,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:efdc00666e56954c",
+          "title:3b5ebda452d75ef6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a63a041375386e27": {
+      "id": "defer:url:a63a041375386e27",
+      "at": "2026-11-19T08:02:54.502Z",
+      "firstAt": "2026-11-19T08:02:54.502Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a63a041375386e27",
+        "title:d1f4925ebdea947a"
+      ],
+      "canonical": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
+      "title": "Agentic System Design: A Self-Study Roadmap",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "Agentic System Design: A Self-Study Roadmap",
+        "link": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
+        "canonical": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
+        "published": "Mon, 16 Nov 2026 13:00:00 +0000",
+        "summary": "Learn agentic system design with this 7-step roadmap covering tools, memory, control loops, multi-agent coordination, evaluation, and deployment.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-Agentic-System-Design-Roadmap.png"
+        ],
+        "ageHours": 67,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:a63a041375386e27",
+          "title:d1f4925ebdea947a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8d5048593a3dbabd": {
+      "id": "defer:url:8d5048593a3dbabd",
+      "at": "2026-11-19T08:06:49.140Z",
+      "firstAt": "2026-11-19T08:06:49.140Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8d5048593a3dbabd",
+        "title:5bdc52900359aec2"
+      ],
+      "canonical": "http://elementalsouls.github.io/Claude-BugHunter",
+      "title": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ",
+        "link": "http://elementalsouls.github.io/Claude-BugHunter",
+        "canonical": "http://elementalsouls.github.io/Claude-BugHunter",
+        "messageText": "یه پروژه جدید ترند شده که Claude Code رو تبدیل می‌کنه به دستیار تخصصی شکار باگ و Bug Bounty\n\nمجموعه‌ای از Skillها و الگوهای باگ واقعی بهش اضافه می‌کنه؛ از Recon و شناسایی Attack Surface تا بررسی XSS، IDOR، SSRF، SQLi و ضعف‌های Authentication و حتی نوشتن گزارش.\n\nحدود ۸۳ تا Skill تخصصی و ۱۵ دستور آماده و صدها نمونه آسیب‌پذیری واقعی داره:\n\nelementalsouls.github.io/Claude-BugHunter\n\n@dunijet_ai\n\n❤1",
+        "leadPostUrl": "https://t.me/dunijet_ai/2584",
+        "published": "2026-11-19T06:40:39+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/qnRwI4g7Pqexkd4BVfJ4wdSR9IAVZU9W8OVdlqnp0OLTjLX0Wwvy8qtpnQemmJ307x1n5OnrQafEk316WjVPrJwla4tWW-KUGljb7AXMYyxeKNPhEnKUa1xlRp4qu0jCNX3yPq96tAHRhpHj1xm9gzWvnlWKKRXCyFE80AckA1gVVoh99yyxp7giIcUze2Tkz7umBN2hO9s_t6Eq1N4fq-yrEbLklIFub6oR72zGgWIwSSfoXynlXaMvLWtfIpmi8Uy5qVWgoYpVpVv9UZfSfIJFUpF8Z8mZXpwliaxems98gahXNqK0z7QdEPlD1GSQFOynpfmOe4tsO3pTMIZNJw.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://elementalsouls.github.io/Claude-BugHunter"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:8d5048593a3dbabd",
+          "title:5bdc52900359aec2"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2584,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      },
+      "detail": "tools"
+    },
+    "defer:url:7d70f65f13463d84": {
+      "id": "defer:url:7d70f65f13463d84",
+      "at": "2026-11-19T08:09:57.164Z",
+      "firstAt": "2026-11-19T08:09:57.164Z",
+      "attempts": 1,
+      "reason": "qa_failed",
+      "reasons": [
+        "qa_failed"
+      ],
+      "keys": [
+        "url:7d70f65f13463d84",
+        "title:04a50677af51962e"
+      ],
+      "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
+      "title": "Anthropic Prices IPO Shares At $83, Above Range",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "Anthropic Prices IPO Shares At $83, Above Range",
+        "link": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+        "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
+        "published": "Wed, 18 Nov 2026 22:15:36 +0000",
+        "summary": "The offering promises to be the public market event of the season, with the Claude creator seeing investor demand for shares well in excess of its capital-raising goals.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/2020/09/IPO_.png"
+        ],
+        "ageHours": 9.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:7d70f65f13463d84",
+          "title:04a50677af51962e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "grounding_superlatives"
     }
   },
   "slots": {
@@ -16763,6 +16948,14 @@
           "at": "2026-11-19T05:14:18.422Z"
         }
       ]
+    },
+    "2026-11-19T11:30+03:30": {
+      "at": "2026-11-19T08:09:58.203Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0032831176,
+      "tokens": 72442,
+      "posts": []
     }
   },
   "published": [
@@ -18413,89 +18606,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8468,
-      "last_at": "2026-11-18T22:59:20+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "last_id": 8472,
+      "last_at": "2026-11-19T05:43:52+00:00",
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "ai_farshad": {
-      "last_id": 6466,
-      "last_at": "2026-11-18T19:30:08+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "last_id": 6467,
+      "last_at": "2026-11-19T07:30:45+00:00",
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "Mohammad_zammani": {
       "last_id": 7241,
       "last_at": "2026-11-18T13:59:17+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "techiin_ir": {
       "last_id": 20801,
       "last_at": "2026-11-18T18:46:12+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "asrnovin_ir": {
       "last_id": 11491,
       "last_at": "2026-11-18T19:54:37+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "shayanode": {
       "last_id": 252,
       "last_at": "2026-11-18T16:38:57+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "aibysadeghi": {
       "last_id": 71,
       "last_at": "2026-11-16T12:22:06+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "codecloude": {
-      "last_id": 2601,
-      "last_at": "2026-11-18T20:23:33+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "last_id": 2602,
+      "last_at": "2026-11-19T06:29:05+00:00",
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "dunijet_ai": {
-      "last_id": 2583,
-      "last_at": "2026-11-18T11:58:27+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "last_id": 2584,
+      "last_at": "2026-11-19T06:40:39+00:00",
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "miladxtalks": {
       "last_id": 245,
       "last_at": "2026-11-17T20:00:56+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "Sajadverse": {
       "last_id": 1250,
       "last_at": "2026-11-10T07:54:49+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "MatinSenPaii": {
       "last_id": 5911,
       "last_at": "2026-11-18T17:17:27+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "checked_at": "2026-11-19T08:02:03.955Z"
     },
     "thenimaonAI": {
-      "last_id": 548,
-      "last_at": "2026-11-18T11:13:46+00:00",
-      "checked_at": "2026-11-19T05:01:07.678Z"
+      "last_id": 552,
+      "last_at": "2026-11-19T07:43:40+00:00",
+      "checked_at": "2026-11-19T08:02:03.955Z"
     }
   },
   "offerReviews": [
@@ -22157,6 +22350,42 @@
       "reason": "denied_link",
       "slot": "2026-11-19T08:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-thenima|https://t.me/thenimaonAI/552",
+      "date": "2026-11-19",
+      "at": "2026-11-19T08:02:03.955Z",
+      "source": "tg-thenima",
+      "title": "GTA 6 با هوش مصنوعی ساخته نشده. ولی پر از «هوشه»",
+      "url": "https://t.me/thenimaonAI/552",
+      "reason": "denied_link",
+      "slot": "2026-11-19T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|tg-codecloude|https://t.me/codecloude/2602",
+      "date": "2026-11-19",
+      "at": "2026-11-19T08:02:03.955Z",
+      "source": "tg-codecloude",
+      "title": "کمپانی Openai رسما وارد شغل حسابداری شد ⚠️✋🏻",
+      "url": "https://t.me/codecloude/2602",
+      "reason": "denied_link",
+      "slot": "2026-11-19T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-19|kdnuggets|https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them",
+      "date": "2026-11-19",
+      "at": "2026-11-19T08:02:03.955Z",
+      "source": "kdnuggets",
+      "title": "Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them",
+      "url": "https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them",
+      "reason": "source_not_official",
+      "slot": "2026-11-19T11:30+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],
