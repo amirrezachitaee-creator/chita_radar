@@ -4983,6 +4983,10 @@
     },
     "a7e72545f6": {
       "id": "a7e72545f6",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-19T08:57:48.132Z",
+      "updatedAt": "2026-11-19T08:57:48.132Z",
       "messageId": 68,
       "chatId": "-1003917550874",
       "slot": "2026-11-19T11:30+03:30",
@@ -5020,10 +5024,6 @@
       "noteAt": "",
       "noteBy": "",
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-19T08:57:48.132Z",
-      "updatedAt": "2026-11-19T08:57:48.132Z",
       "lastActionAt": "",
       "sentAt": ""
     }
