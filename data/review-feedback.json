@@ -7239,6 +7239,56 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "91a8a00a61": {
+      "id": "91a8a00a61",
+      "messageId": 120,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-20T23:00+03:30",
+      "reason": "send_failed",
+      "kind": "post",
+      "source": "crunchbase-news",
+      "sourceName": "Crunchbase News",
+      "sourceType": "news",
+      "title": "Anthropic Closes Up 17% After Massive IPO",
+      "url": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+      "leadPostUrl": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+      "messageText": "",
+      "relatedLinks": [],
+      "images": [
+        "https://news.crunchbase.com/wp-content/uploads/2020/09/IPO_.png"
+      ],
+      "imageUrl": "https://news.crunchbase.com/wp-content/uploads/2020/09/IPO_.png",
+      "publishedAt": "2026-11-18T22:15:36.000Z",
+      "keys": [
+        "url:7d70f65f13463d84",
+        "title:d4c03a4ce35700e7"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": true,
+      "qaPass": true,
+      "post": {
+        "title": "آنتروپیک در اولین روز عرضه اولیه ۱۷ درصد رشد کرد",
+        "news_date": "📅 تاریخ خبر: پنجشنبه ۲۸ آبان ۱۴۰۵",
+        "body": "سهام آنتروپیک در اولین روز معامله روی نزدک با رشد ۱۷ درصدی بسته شد. قیمت هر سهم در عرضه اولیه ۸۳ دلار بود، بالاتر از محدوده پیش‌بینی‌شده ۷۰ تا ۷۸ دلار. مجموع عرضه اولیه و فروش خصوصی به حدود ۱۰۶ میلیارد دلار می‌رسد.\n\nاین پول عظیم به آنتروپیک اجازه می‌ده تا رقابت سنگین با اوپن‌ای‌آی را در توسعه مدل‌های پیشرفته ادامه بده.\n\nمنبع: [Crunchbase News](https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/)",
+        "quote": "آنتروپیک در ۹ ماه اول سال ۳۳.۲ میلیارد دلار درآمد داشته، در حالی که سال قبل همین مدت ۲.۵ میلیارد دلار بود. زیان عملیاتی هم از ۵.۲ میلیارد دلار به ۱.۳ میلیارد دلار کاهش پیدا کرده."
+      },
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-20T19:31:31.070Z",
+      "updatedAt": "2026-11-20T19:31:31.070Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
