@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-20T08:57:28.141Z",
+  "updatedAt": "2026-11-20T10:32:44.162Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -12983,62 +12983,117 @@
       "slot": "2026-11-20T11:30+03:30",
       "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
       "url": "https://arxiv.org/abs/2611.26564v1"
+    },
+    "url:1507a8320b402252": {
+      "at": "2026-11-20T10:31:12.915Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "بن شدن اکانت های Claude و مشکل احراز هویت",
+      "url": "https://t.me/MatinSenPaii/5922"
+    },
+    "title:46e6edb06615171c": {
+      "at": "2026-11-20T10:31:12.915Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "بن شدن اکانت های Claude و مشکل احراز هویت",
+      "url": "https://t.me/MatinSenPaii/5922"
+    },
+    "url:4f058ffd6ad8f89e": {
+      "at": "2026-11-20T10:31:12.916Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "گوگل دسترسی به Genie 4، جدیدترین مدل دنیای مجازی (World Model) تیم DeepMind رو از طریق",
+      "url": "https://t.me/Mohammad_zammani/7248"
+    },
+    "title:ccc9b9e80f05c2e0": {
+      "at": "2026-11-20T10:31:12.916Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "گوگل دسترسی به Genie 4، جدیدترین مدل دنیای مجازی (World Model) تیم DeepMind رو از طریق",
+      "url": "https://t.me/Mohammad_zammani/7248"
+    },
+    "url:712c59486715d9cf": {
+      "at": "2026-11-20T10:31:20.010Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "🔵وقتی توی پرامپت فقط می‌نویسی «سینمایی و واقع‌گرا»، انتخاب قاب، نور و حرکت دوربین رو می‌سپری",
+      "url": "https://t.me/ai_farshad/6475"
+    },
+    "title:f56e1793ec5bbdac": {
+      "at": "2026-11-20T10:31:20.010Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "🔵وقتی توی پرامپت فقط می‌نویسی «سینمایی و واقع‌گرا»، انتخاب قاب، نور و حرکت دوربین رو می‌سپری",
+      "url": "https://t.me/ai_farshad/6475"
+    },
+    "url:7d229c78771e957c": {
+      "at": "2026-11-20T10:31:37.820Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده",
+      "url": "http://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "title:e7cfcea3decd44e9": {
+      "at": "2026-11-20T10:31:37.820Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده",
+      "url": "http://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "url:978f4d437706911f": {
+      "at": "2026-11-20T10:31:40.516Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "⚒ پایتون می‌تونه آچار فرانسه رزومه‌ت باشه!",
+      "url": "https://quera.org/r/o4tk4"
+    },
+    "title:d1a8254a599df8c1": {
+      "at": "2026-11-20T10:31:40.516Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "⚒ پایتون می‌تونه آچار فرانسه رزومه‌ت باشه!",
+      "url": "https://quera.org/r/o4tk4"
+    },
+    "url:e5ce7f7c8c7deb12": {
+      "at": "2026-11-20T10:32:44.160Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership",
+      "benchmark": false
+    },
+    "title:834734d9874626ed": {
+      "at": "2026-11-20T10:32:44.160Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-20T14:00+03:30",
+      "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:7d70f65f13463d84": {
-      "id": "defer:url:7d70f65f13463d84",
-      "at": "2026-11-19T17:03:56.629Z",
-      "firstAt": "2026-11-19T08:09:57.164Z",
-      "attempts": 2,
-      "reason": "qa_failed",
-      "reasons": [
-        "qa_failed"
-      ],
-      "keys": [
-        "url:7d70f65f13463d84",
-        "title:04a50677af51962e"
-      ],
-      "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
-      "title": "Anthropic Prices IPO Shares At $83, Above Range",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "Anthropic Prices IPO Shares At $83, Above Range",
-        "link": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
-        "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
-        "published": "Wed, 18 Nov 2026 22:15:36 +0000",
-        "summary": "The offering promises to be the public market event of the season, with the Claude creator seeing investor demand for shares well in excess of its capital-raising goals.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/2020/09/IPO_.png"
-        ],
-        "ageHours": 9.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:7d70f65f13463d84",
-          "title:04a50677af51962e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:7d70f65f13463d84",
-          "attempts": 1
-        }
-      },
-      "detail": "grounding_superlatives"
-    },
     "defer:url:fe43e44d0bf528a5": {
       "id": "defer:url:fe43e44d0bf528a5",
       "at": "2026-11-20T05:03:12.523Z",
@@ -13110,606 +13165,6 @@
         }
       },
       "detail": "tools"
-    },
-    "defer:url:56f5de5b11aedbd4": {
-      "id": "defer:url:56f5de5b11aedbd4",
-      "at": "2026-11-19T17:02:56.695Z",
-      "firstAt": "2026-11-19T17:02:56.695Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:56f5de5b11aedbd4",
-        "title:436985733c77fb99"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
-      "title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
-        "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-        "canonical": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
-        "published": "Thu, 19 Nov 2026 16:59:23 +0000",
-        "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:56f5de5b11aedbd4",
-          "title:436985733c77fb99"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:74b46c8b5e6ae130": {
-      "id": "defer:url:74b46c8b5e6ae130",
-      "at": "2026-11-19T17:02:56.695Z",
-      "firstAt": "2026-11-19T17:02:56.695Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:74b46c8b5e6ae130",
-        "title:9a4e099c690f9820"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
-      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-        "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-        "canonical": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
-        "published": "Thu, 19 Nov 2026 16:19:41 +0000",
-        "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-        "images": [],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:74b46c8b5e6ae130",
-          "title:9a4e099c690f9820"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:559b89dfb99f77d3": {
-      "id": "defer:url:559b89dfb99f77d3",
-      "at": "2026-11-19T17:02:56.695Z",
-      "firstAt": "2026-11-19T17:02:56.695Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:559b89dfb99f77d3",
-        "title:9b95078babe04083"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
-      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-        "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-        "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
-        "published": "Thu, 19 Nov 2026 14:54:39 +0000",
-        "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-        "images": [],
-        "ageHours": 2.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:559b89dfb99f77d3",
-          "title:9b95078babe04083"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bd128091bfe5d9af": {
-      "id": "defer:url:bd128091bfe5d9af",
-      "at": "2026-11-19T19:31:40.354Z",
-      "firstAt": "2026-11-19T19:31:40.354Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:bd128091bfe5d9af",
-        "title:df63a35b5d2315b3"
-      ],
-      "canonical": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing",
-      "title": "AI industry growth remains strong, but the pace is slowing",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "AI industry growth remains strong, but the pace is slowing",
-        "link": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
-        "canonical": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing",
-        "published": "Thu, 19 Nov 2026 19:28:19 +0000",
-        "summary": "Token prices for AI models fell 21 percent in six weeks while usage volume hit a record high, according to the Ramp AI Index. Anthropic dominates with nearly 59 percent of token spending. Data from Ramp, Stripe and OpenRouter independently show the same pattern: the AI industry is still growing, but revenue momentum is cooling. The article AI industry growth remains strong, but the pace is slowing appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2024/02/Throwing-money-at-AI.jpg"
-        ],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:bd128091bfe5d9af",
-          "title:df63a35b5d2315b3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:694eda7767094817": {
-      "id": "defer:url:694eda7767094817",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:694eda7767094817",
-        "title:63a2e1128df279fe"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
-      "title": "Anthropic’s IPO could deliver $156 billion to charity",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Anthropic’s IPO could deliver $156 billion to charity",
-        "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-        "canonical": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
-        "published": "Thu, 19 Nov 2026 19:10:45 +0000",
-        "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-        "images": [],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:694eda7767094817",
-          "title:63a2e1128df279fe"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:62649bf472ca2edc": {
-      "id": "defer:url:62649bf472ca2edc",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:62649bf472ca2edc",
-        "title:d9c88c73aa074a81"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
-      "title": "Google gives Gemini the ability to use your Mac for you",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Google gives Gemini the ability to use your Mac for you",
-        "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-        "canonical": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
-        "published": "Thu, 19 Nov 2026 18:09:11 +0000",
-        "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-        "images": [],
-        "ageHours": 1.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:62649bf472ca2edc",
-          "title:d9c88c73aa074a81"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:47396adf5e31273b": {
-      "id": "defer:url:47396adf5e31273b",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:47396adf5e31273b",
-        "title:352044bf5e774a40"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
-      "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
-        "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-        "canonical": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
-        "published": "Thu, 19 Nov 2026 17:38:40 +0000",
-        "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-        "images": [],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:47396adf5e31273b",
-          "title:352044bf5e774a40"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:438e5e36e7589163": {
-      "id": "defer:url:438e5e36e7589163",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:438e5e36e7589163",
-        "title:172b654651739b94"
-      ],
-      "canonical": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
-      "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
-        "link": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
-        "canonical": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
-        "published": "Thu, 19 Nov 2026 17:02:41 +0000",
-        "summary": "Stricter US export controls on AI chips are hitting fast. China's Moonshot AI walked away from a $150 million deal in Indonesia, while TSMC and Samsung stopped shipping to Chinese customers. A New York Times investigation found that Alibaba had routed Nvidia chips to Chinese military researchers through a web of front companies. The article Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/us_vs_china_open_models.png"
-        ],
-        "ageHours": 2.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:438e5e36e7589163",
-          "title:172b654651739b94"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9342dbf934e428aa": {
-      "id": "defer:url:9342dbf934e428aa",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:9342dbf934e428aa",
-        "title:719b8b9c65e7499b"
-      ],
-      "canonical": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-        "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "canonical": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "published": "Thu, 19 Nov 2026 08:00:00 GMT",
-        "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "images": [],
-        "ageHours": 11.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9342dbf934e428aa",
-          "title:719b8b9c65e7499b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:87281ddff48ca72f": {
-      "id": "defer:url:87281ddff48ca72f",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:87281ddff48ca72f",
-        "title:0a1d5519c225a145"
-      ],
-      "canonical": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis",
-      "title": "The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut",
-        "link": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
-        "canonical": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis",
-        "published": "Wed, 18 Nov 2026 19:39:58 +0000",
-        "summary": "Just three years after launching with zero revenue, Anthropic brought in $17 billion and says more than 11,900 customers now spend at least $100,000 a year. But its IPO filing also reveals enormous computing commitments and big questions about balancing growth with risks.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/IPO-on-horizon-1024x576.jpg",
-          "https://news.crunchbase.com/wp-content/uploads/Screenshot-2026-11-17-at-9.58.05-AM.png"
-        ],
-        "ageHours": 23.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:87281ddff48ca72f",
-          "title:0a1d5519c225a145"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c9fd12c9b52e6f26": {
-      "id": "defer:url:c9fd12c9b52e6f26",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:c9fd12c9b52e6f26",
-        "title:3a517448669676a6"
-      ],
-      "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
-      "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "PwC’s IPO Lead On A Selective Market, AI Valuations And The Outlook For 2027",
-        "link": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
-        "canonical": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin",
-        "published": "Tue, 17 Nov 2026 12:00:41 +0000",
-        "summary": "In this Q&A, Mike Bellin, a partner and U.S. IPO services leader at PricewaterhouseCoopers, discussed the slowdown in IPO momentum, how public investors are evaluating AI companies, biotech’s resurgence and why SPACs are attracting renewed interest. He also outlined what could set the stage for a stronger start to 2027.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/public/ipo-ma-spac-ai-forecast-qa-pwcs-partner-bellin/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/Forecast-crystal-ball-ai-IPO.jpg",
-          "https://news.crunchbase.com/wp-content/uploads/mike-bellin_headshot-276x300.jpg"
-        ],
-        "ageHours": 55.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:c9fd12c9b52e6f26",
-          "title:3a517448669676a6"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7d229c78771e957c": {
-      "id": "defer:url:7d229c78771e957c",
-      "at": "2026-11-19T19:31:40.355Z",
-      "firstAt": "2026-11-19T19:31:40.355Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:7d229c78771e957c",
-        "title:e7cfcea3decd44e9"
-      ],
-      "canonical": "http://github.com/punkpeye/awesome-mcp-servers",
-      "title": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده",
-        "link": "http://github.com/punkpeye/awesome-mcp-servers",
-        "canonical": "http://github.com/punkpeye/awesome-mcp-servers",
-        "messageText": "یه ریپوی گیت‌هاب با ۹۸ هزار ستاره که کلی سرور MCP توش جمع شده\n\nمخزن awesome-mcp-servers مجموعه‌ای از سرورهای MCP رو لیست کرده؛ همون پروتکل که مدل‌های زبانی رو به ابزارها و سرویس‌های بیرونی وصل می‌کنه. ریپو ۲۰ هزار فورک و بیش از ۱۵ هزار کامیت داره و README فارسی هم داره.\n\ngithub.com/punkpeye/awesome-mcp-servers\n\n@dunijet_ai\n\n❤2",
-        "leadPostUrl": "https://t.me/dunijet_ai/2587",
-        "published": "2026-11-19T18:43:02+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/uFnuqscvqf0nRDa-5S-pqkoQh2p9ARTWUEYr51XPcHsum6RfAKchlvE2Pzj3L12N6b4PK_7OYypeOpAYVvaYOZbcX8aXqklHdd0PACExOl2_KSjAuM0cefBFgrFYFGNCzbHAoEtcw0RYAsOtuQ9cz9nlzHA8RjTrwM0Oy73AISY6ZU9xBEEDvK9Xnq3JotEmrWIAC6Ax3CwnB4zpqISD2dsjSJl4xyIOQI_fpBMHSRb5RmOaXWTsMJZEefAw1s2KyWrwQFygMZTQDTmc6mtLmSCmpnH-IocHMeOOVG0c0BdJ7CUVMBxXFJN10dR7XnrgIO3Gwi4XAcvI7i3P41j29A.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.8,
-        "aiHint": true,
-        "aiCentral": false,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://github.com/punkpeye/awesome-mcp-servers"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:7d229c78771e957c",
-          "title:e7cfcea3decd44e9"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2587,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
     },
     "defer:url:6844576f831e5af2": {
       "id": "defer:url:6844576f831e5af2",
@@ -15417,9 +14872,9 @@
     },
     "defer:url:82fe289fe466dcc1": {
       "id": "defer:url:82fe289fe466dcc1",
-      "at": "2026-11-20T08:10:55.011Z",
+      "at": "2026-11-20T10:31:37.871Z",
       "firstAt": "2026-11-20T08:10:55.011Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "fetch_failed",
       "reasons": [
         "fetch_failed"
@@ -15459,9 +14914,622 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:82fe289fe466dcc1",
+          "attempts": 1
+        }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
+    },
+    "defer:url:60870c25ff3318de": {
+      "id": "defer:url:60870c25ff3318de",
+      "at": "2026-11-20T10:31:20.022Z",
+      "firstAt": "2026-11-20T10:31:20.022Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:60870c25ff3318de",
+        "title:60ac4aaa55d0afd9"
+      ],
+      "canonical": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill",
+      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+        "link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+        "canonical": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill",
+        "published": "Fri, 20 Nov 2026 09:59:51 +0000",
+        "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/06/hermes-og-image-blue.png"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:60870c25ff3318de",
+          "title:60ac4aaa55d0afd9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0bd143457a8b550b": {
+      "id": "defer:url:0bd143457a8b550b",
+      "at": "2026-11-20T10:31:20.022Z",
+      "firstAt": "2026-11-20T10:31:20.022Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:0bd143457a8b550b",
+        "title:d3ecbf2d9b78ed31"
+      ],
+      "canonical": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+        "link": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+        "canonical": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+        "published": "Thu, 19 Nov 2026 21:19:00 GMT",
+        "summary": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+        "images": [
+          "http://cms.therecord.media/uploads/Congress_6ac7a14ca7.jpg"
+        ],
+        "ageHours": 13.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:0bd143457a8b550b",
+          "title:d3ecbf2d9b78ed31"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e86d037ec9726f1b": {
+      "id": "defer:url:e86d037ec9726f1b",
+      "at": "2026-11-20T10:31:20.022Z",
+      "firstAt": "2026-11-20T10:31:20.022Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:e86d037ec9726f1b",
+        "title:410916eba764025e"
+      ],
+      "canonical": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector",
+      "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
+        "link": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+        "canonical": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector",
+        "published": "Thu, 19 Nov 2026 14:02:22 +0000",
+        "summary": "Anthropic launches the largest IPO in history, dethroning SpaceX as the previous record holder. Early investor Dustin Moskovitz is publicly distancing himself, warning that his early funding may have been an act \"that ended the world.\" The article Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
+        ],
+        "ageHours": 20.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:e86d037ec9726f1b",
+          "title:410916eba764025e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:459d592a65e4366a": {
+      "id": "defer:url:459d592a65e4366a",
+      "at": "2026-11-20T10:31:20.022Z",
+      "firstAt": "2026-11-20T10:31:20.022Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:459d592a65e4366a",
+        "title:837ab79606ac2de5"
+      ],
+      "canonical": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues",
+      "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
+        "link": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+        "canonical": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues",
+        "published": "Thu, 19 Nov 2026 13:08:35 +0000",
+        "summary": "OpenAI's internal use of coding agents is growing fast, with theoretical token costs now exceeding researchers' base salaries. Even though teams are reluctant to work without these tools, the models still produce a lot of \"AI slop\" beyond routine tasks. The article OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo_numbers.png"
+        ],
+        "ageHours": 21.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:459d592a65e4366a",
+          "title:837ab79606ac2de5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d9c7f378bb4ec636": {
+      "id": "defer:url:d9c7f378bb4ec636",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:d9c7f378bb4ec636",
+        "title:7a7117c38461ab7e"
+      ],
+      "canonical": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago",
+      "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
+        "link": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
+        "canonical": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago",
+        "published": "Thu, 19 Nov 2026 11:18:18 +0000",
+        "summary": "Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp"
+        ],
+        "ageHours": 23.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d9c7f378bb4ec636",
+          "title:7a7117c38461ab7e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3a7670ff256fb2da": {
+      "id": "defer:url:3a7670ff256fb2da",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3a7670ff256fb2da",
+        "title:6a03e931a015b8ed"
+      ],
+      "canonical": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
+      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+        "link": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+        "canonical": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
+        "published": "Wed, 18 Nov 2026 21:03:23 +0000",
+        "summary": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models. The article Google ships Gemini 4 Neon, its fourth new Gemini model in a month appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_argon.png"
+        ],
+        "ageHours": 37.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3a7670ff256fb2da",
+          "title:6a03e931a015b8ed"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b681a976efae2472": {
+      "id": "defer:url:b681a976efae2472",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:b681a976efae2472",
+        "title:236e669d59c0892a"
+      ],
+      "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+      "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
+        "link": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+        "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+        "published": "Wed, 18 Nov 2026 19:26:25 +0000",
+        "summary": "With Genie 4, Google DeepMind is launching its most realistic world model to date for Google AI Ultra subscribers. It generates interactive 3D worlds that can be modified in real time via text input and, for the first time, includes native sound. A community gallery allows users to share and remix the worlds they've created. The article Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/Genie-4-Google-title.png"
+        ],
+        "ageHours": 39.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:b681a976efae2472",
+          "title:236e669d59c0892a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6e60ec8c10b2996b": {
+      "id": "defer:url:6e60ec8c10b2996b",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:6e60ec8c10b2996b",
+        "title:b684a1e58d5bb0cd"
+      ],
+      "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+      "title": "Will Wright's next simulation will use AI to mine content from your memories",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Will Wright's next simulation will use AI to mine content from your memories",
+        "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+        "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+        "published": "Wed, 18 Nov 2026 18:10:33 +0000",
+        "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-500x500.png"
+        ],
+        "ageHours": 40.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:6e60ec8c10b2996b",
+          "title:b684a1e58d5bb0cd"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:85bd515d71fb7a7a": {
+      "id": "defer:url:85bd515d71fb7a7a",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:85bd515d71fb7a7a",
+        "title:f8f835a70f64a4a7"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+        "link": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+        "published": "Tue, 17 Nov 2026 20:32:55 +0000",
+        "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-500x500.jpg"
+        ],
+        "ageHours": 62,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:85bd515d71fb7a7a",
+          "title:f8f835a70f64a4a7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c183b19404c14629": {
+      "id": "defer:url:c183b19404c14629",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:c183b19404c14629",
+        "title:dc40074e47f9f74b"
+      ],
+      "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+        "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "canonical": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+        "published": "Tue, 17 Nov 2026 14:00:29 +0000",
+        "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-500x500.jpg"
+        ],
+        "ageHours": 68.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:c183b19404c14629",
+          "title:dc40074e47f9f74b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:abd04dc00b8ba51e": {
+      "id": "defer:url:abd04dc00b8ba51e",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:abd04dc00b8ba51e",
+        "title:b83315e9c96fd91b"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026",
+      "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+        "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+        "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026",
+        "published": "Thu, 19 Nov 2026 14:00:12 +0000",
+        "summary": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_November_19.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_November_19-842x450.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_Black_Friday_Sale-1680x945.jpg"
+        ],
+        "ageHours": 20.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:abd04dc00b8ba51e",
+          "title:b83315e9c96fd91b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:25a4ca5f35209bfb": {
+      "id": "defer:url:25a4ca5f35209bfb",
+      "at": "2026-11-20T10:31:20.023Z",
+      "firstAt": "2026-11-20T10:31:20.023Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:25a4ca5f35209bfb",
+        "title:0b1bf70da2446052"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
+      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+        "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
+        "published": "Wed, 18 Nov 2026 19:19:33 +0000",
+        "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-500x500-1795023220.jpg"
+        ],
+        "ageHours": 39.2,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:25a4ca5f35209bfb",
+          "title:0b1bf70da2446052"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -18132,6 +18200,37 @@
           "at": "2026-11-20T08:07:23.796Z"
         }
       ]
+    },
+    "2026-11-20T14:00+03:30": {
+      "at": "2026-11-20T10:32:44.160Z",
+      "status": "sent",
+      "category": "business",
+      "title": "گوگل با بلو اوریجین برای پرتاب سنگین سان‌کچر شریک شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-20/14-00",
+      "messageId": 121,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0022732584,
+      "tokens": 49335,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "گوگل با بلو اوریجین برای پرتاب سنگین سان‌کچر شریک شد",
+          "category": "business",
+          "status": "sent",
+          "messageId": 121,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-20/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0007245671999999999,
+          "tokens": 30167,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-20T10:32:44.159Z"
+        }
+      ]
     }
   },
   "published": [
@@ -19958,108 +20057,114 @@
       "sourceTitle": "European Commission confirms cyberattack, says hackers used AI tool",
       "sourceText": "The European Commission confirmed Thursday that it had been hit by a cyberattack last month involving a publicly available artificial intelligence tool, following media reports of the incident.\nSpeaking to journalists, Commission spokesperson Thomas Regnier said the first signs of the attack were detected October 22. He described the incident as an “AI-generated cyber campaign” but did not identify the tool used or the attackers’ apparent motivation.\nPOLITICO first reported that the Commission had been impacted by the cyberattack. It said CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.\nThe attack reportedly disrupted the European Commission’s personnel systems for more than 10 days, including payroll, leave requests, medical reimbursements and translation services.\nA commission spokesperson confirmed to Recorded Future News they had “taken the necessary steps in response to a detected cyber campaign,” including taking several services offline as “a protective measure.”\nThey said they had notified affected individuals and were “preventively checking other systems” while keeping in touch with CERT-EU and the European Data Protection Supervisor.\nRegnier said investigators had found no evidence of a data breach affecting Commission staff broadly and were unaware of any ransom demand. He said the investigation remains open.\nAsked why the incident was not disclosed earlier, Regnier said publicizing defensive measures could undermine their effectiveness",
       "at": "2026-11-20T08:07:23.796Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-20T14:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "گوگل با بلو اوریجین برای پرتاب سنگین سان‌کچر شریک شد",
+      "why": "این پرتاب اختصاصی، گام مهمی در مسیر بلندمدت گوگل برای گسترش مرزهای محاسباته.",
+      "dedupe_key": "google-blue-origin-suncatcher-partnership",
+      "post_key": "2026-11-20/14-00/1",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
+      "sourceTitle": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+      "sourceText": "We’re partnering with Blue Origin on the first heavy-lift launch for Project Suncatcher, our long-term moonshot to scale AI infrastructure in space by tapping into the abundant solar power in orbit.\nTargeted for Q1 2029, Blue Origin’s heavy-lift New Glenn rocket will deploy our satellites — each with roughly the capacity of a data center rack — into sun-synchronous orbit.\nThis dedicated launch builds on our ongoing work with other satellite and launch partners and represents a crucial milestone on our long-term roadmap as we expand the boundaries of what's possible for the future of compute.",
+      "at": "2026-11-20T10:32:44.160Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8490,
-      "last_at": "2026-11-20T07:33:33+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "last_id": 8492,
+      "last_at": "2026-11-20T10:18:38+00:00",
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "ai_farshad": {
-      "last_id": 6474,
-      "last_at": "2026-11-20T07:33:53+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "last_id": 6475,
+      "last_at": "2026-11-20T09:32:27+00:00",
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7247,
-      "last_at": "2026-11-19T15:54:49+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "last_id": 7248,
+      "last_at": "2026-11-20T09:01:45+00:00",
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "techiin_ir": {
       "last_id": 20808,
       "last_at": "2026-11-19T19:14:26+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "asrnovin_ir": {
-      "last_id": 11495,
-      "last_at": "2026-11-19T19:43:25+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "last_id": 11497,
+      "last_at": "2026-11-20T09:48:49+00:00",
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "shayanode": {
       "last_id": 255,
       "last_at": "2026-11-19T17:50:47+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "codecloude": {
       "last_id": 2604,
       "last_at": "2026-11-19T20:28:59+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "dunijet_ai": {
       "last_id": 2588,
       "last_at": "2026-11-19T19:09:17+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "miladxtalks": {
       "last_id": 247,
       "last_at": "2026-11-19T17:49:13+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "Sajadverse": {
       "last_id": 1257,
       "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "MatinSenPaii": {
-      "last_id": 5921,
-      "last_at": "2026-11-20T06:40:51+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "last_id": 5925,
+      "last_at": "2026-11-20T10:26:22+00:00",
+      "checked_at": "2026-11-20T10:30:57.495Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-20T08:01:42.827Z"
+      "checked_at": "2026-11-20T10:30:57.495Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-06|tg-sajadverse|https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
-      "date": "2026-11-06",
-      "at": "2026-11-06T10:30:45.073Z",
-      "source": "tg-sajadverse",
-      "title": "ia-da-sobrevivencia/README.en.md at main · sdalberto/ia-da-sobrevivencia",
-      "url": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
-      "reason": "model_skip",
-      "slot": "2026-11-06T14:00+03:30",
-      "kind": "tool",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-07|hf-papers|https://huggingface.co/papers/2611.08376",
       "date": "2026-11-07",
@@ -24005,6 +24110,42 @@
       "url": "https://arxiv.org/abs/2611.26564v1",
       "reason": "model_skip",
       "slot": "2026-11-20T11:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-ai-farshad|https://t.me/ai_farshad/6475",
+      "date": "2026-11-20",
+      "at": "2026-11-20T10:30:57.495Z",
+      "source": "tg-ai-farshad",
+      "title": "🔵وقتی توی پرامپت فقط می‌نویسی «سینمایی و واقع‌گرا»، انتخاب قاب، نور و حرکت دوربین رو می‌سپری",
+      "url": "https://t.me/ai_farshad/6475",
+      "reason": "denied_link",
+      "slot": "2026-11-20T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-dunijet-ai|https://github.com/punkpeye/awesome-mcp-servers",
+      "date": "2026-11-20",
+      "at": "2026-11-20T10:30:57.495Z",
+      "source": "tg-dunijet-ai",
+      "title": "GitHub - punkpeye/awesome-mcp-servers: A collection of MCP servers.",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "reason": "model_skip",
+      "slot": "2026-11-20T14:00+03:30",
+      "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-asr-novin|https://quera.org/bootcamp/python-alpha?utm_source=telegram&utm_medium=paid-social&utm_campaign=qb14&utm_content=asrnovin-python",
+      "date": "2026-11-20",
+      "at": "2026-11-20T10:30:57.495Z",
+      "source": "tg-asr-novin",
+      "title": "مینی‌کمپ پایتون (Python) کوئرا با پروژه تیمی و منتورشیپ اختصاصی| کوئرا",
+      "url": "https://quera.org/bootcamp/python-alpha?utm_source=telegram&utm_medium=paid-social&utm_campaign=qb14&utm_content=asrnovin-python",
+      "reason": "source_not_official",
+      "slot": "2026-11-20T14:00+03:30",
       "kind": "offer",
       "mainEligible": false
     }
