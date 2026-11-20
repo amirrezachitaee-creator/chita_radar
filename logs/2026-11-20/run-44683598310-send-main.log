@@ -1,0 +1,77 @@
+RUN 44683598310 | send/main | slot auto | 2026-11-20T05:49:59Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-20T08:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 16/31 | models 14/24 | security 6/11 | business 8/11
+DAILY 2/11
+DIVERSITY_TARGET models | slot 08:30
+DEFERRED_POOL 49
+  DEFERRED source_weekly | try 0/3 | Apple may be developing its own AI agent that runs your Mac
+  DEFERRED source_weekly | try 0/3 | Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO
+  DEFERRED source_weekly | try 0/3 | Anthropic rival says companies can (mostly) skip the pricey models
+  DEFERRED source_weekly | try 0/3 | Want to see your live AI usage on your Mac’s icons? This clever new app lets you
+  DEFERRED source_weekly | try 0/3 | These tech outages are giving Y2K, AI agent style
+DEFERRED_EXHAUSTED 1
+SLOT_ALREADY_DONE 2026-11-20T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-20T05:49:59Z
+# گزارش روزانه 2026-11-20 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1، مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 4
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 2
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1، مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.002507
+- توکن: 33667
+- میانگین هر پست ارسال‌شده: $0.001254
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 16 | 31 | 15 |
+| مدل‌ها و پژوهش | 14 | 24 | 10 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 44 | 77 | 33 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000483 | 11145 | همکاری گسترده انویدیا و مایکروسافت برای هوش مصنوعی |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.002024 | 22522 | گمینی ۴ نئون در بنچمارک گیم‌فیل به رتبه سوم رسید |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 7
+- دلایل: از رصد آفر پیدا شد 4، لینک قابل استفاده ندارد 2، لینک ارجاعی حل نشده است 1
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-20.md
+SOURCE_STATUS 2026-11-20T05:50:00Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-20.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — جمعه ۲۹ آبان ۱۴۰۵
+پست امروز: 2 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 2
+صف بازبینی: 111 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-techiin: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44683598310
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
