@@ -1,0 +1,183 @@
+RUN 44744923264 | send/main | slot auto | 2026-11-20T13:30:56Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-20T17:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 16/31 | models 14/24 | security 7/11 | business 9/11
+DAILY 4/11
+DIVERSITY_TARGET models | slot 17:00
+DEFERRED_POOL 50
+  DEFERRED source_weekly | try 0/3 | Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill
+  DEFERRED category_consecutive | try 0/3 | Token fraud is here and it’s BAD (YouTube)
+  DEFERRED source_weekly | try 0/3 | Apple may be developing its own AI agent that runs your Mac
+  DEFERRED source_weekly | try 0/3 | Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO
+  DEFERRED source_weekly | try 0/3 | Anthropic rival says companies can (mostly) skip the pricey models
+SOURCE_DISCOVERY already_ran date=2026-11-20 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=4 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=122 nodate=0 nonai=0 dup=40 dup_other=0 kept=95 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=312 pending=15 leads=8 nolink=1 nonai=0 denied=4 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:569,review:17 delivered=586 window=30d
+TELEGRAM_EDU_DUPLICATES 1 skipped=worked_story
+  EDU_DUPLICATE undefined | Decision AI Explained in 5 Minutes | already main: 5 FREE Open-Source Alternatives to Jev
+  EDU_LANG_SKIP Machine Learning Mastery | persian=0 latin=89 | 7 Ways AI Agents Fail in Production (and How to Catch Each One)
+TELEGRAM_EDU_LANG_SKIPPED 1 skipped=not_persian min_persian=10
+STORY_DUPLICATES 1 skipped=worked_story
+  STORY_DUPLICATE The Decoder | Google's latest homepage update pushes its search engine further toward an AI answer engine | already main: Google’s AI feature in Search gets its own incognito mode
+REVIEW_LEADS 3 separate_from_main=yes cap=none
+REVIEW_DRAFT MatinSenPaii | کلادفلر مدل Clairic رو منتشر کرده که خروجیش رایگانه | 989 chars
+  REVIEW_ITEM id=9b22da85be message=102
+  REVIEW_REQUIRED reason=denied_link sent=102
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-20/17-00-b0286f17
+REVIEW_DRAFT MatinSenPaii | کلاد Fable 5.2 دو تا مسئله‌ی لاینحل و باز فیزیک مربوط به سیاه‌چاله‌ها رو حل کرده | 849 chars
+  REVIEW_ITEM id=51d4e12ad8 message=103
+  REVIEW_REQUIRED reason=denied_link sent=103
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-20/17-00-b543282a
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | مدل Ideogram 4.6 با قابلیت ساخت تصویر 4K Native و امکان ویرایش دقیق‌تر منتشر شده. تو | 816 chars
+  REVIEW_ITEM id=620ea79281 message=104
+  REVIEW_REQUIRED reason=denied_link sent=104
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-20/17-00-5c70b3ff
+RELEVANCE candidates=89 kept=60 dropped=29
+  SKIP_NOT_AI TechCrunch | Behind Jensen Huang’s exit, questions about a management style reportedly built on fear
+  SKIP_NOT_AI Crunchbase News | 5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks
+  SKIP_NOT_AI ArchiveTell | 🎞 فریم‌وی FFmpeg ۹.۱ با رمزگذار صدای بهتر
+  SKIP_NOT_AI TechCrunch | Meta’s new Muse Charm device may cost $300
+  SKIP_NOT_AI Simon Willison - Prompt Injection | PostgreSQL 19 Released
+  SKIP_NOT_AI arXiv | Active Feature Acquisition by Distilling an Oracle Teacher
+  SKIP_NOT_AI Crunchbase News | Public Markets Are Frequently Wrong. The SaaSpocalypse Shows Us Why
+  SKIP_NOT_AI Product Hunt | Tamekoshi
+  SKIP_NOT_AI ... +21 more
+DIVERSITY target=models queue=6 fresh=14 deferred=50 rejected=source_daily:3,source_weekly:22,category_consecutive:3
+  DIVERSITY_QUEUE models:Simon Willison - Prompt Injection | models:arXiv | models:ArchiveTell | tools:هوش مصنوعی | محمد زمانی | tools:Code.Cloud | کـــد کلاد | tools:Product Hunt
+QUEUE_SKIPPED 55
+  QUEUE_SKIP source_weekly | The Decoder | Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill
+  QUEUE_SKIP source_weekly | TechCrunch | Apple may be developing its own AI agent that runs your Mac
+  QUEUE_SKIP source_weekly | TechCrunch | Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO
+  QUEUE_SKIP source_weekly | TechCrunch | Anthropic rival says companies can (mostly) skip the pricey models
+  QUEUE_SKIP source_weekly | TechCrunch | Want to see your live AI usage on your Mac’s icons? This clever new app lets you
+  QUEUE_SKIP source_weekly | TechCrunch | These tech outages are giving Y2K, AI agent style
+  QUEUE_SKIP source_daily | The Record | Lawmakers launch new AI safety caucus amid rising security concerns
+  QUEUE_SKIP source_weekly | The Decoder | An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool
+  QUEUE_SKIP source_weekly | Ars Technica AI | Traumatized teens sue school, cops after Doritos bag triggers AI gun alert
+  QUEUE_SKIP source_weekly | TechCrunch | The unfolding Jensen Huang scandal: a timeline
+  QUEUE_SKIP ... +45 more
+QUEUE_HELD 6
+  QUEUE_HOLD source_weekly | TechCrunch | California AG subpoenas Nvidia over worries about Huang’s ties with China
+  QUEUE_HOLD category_consecutive | Crunchbase News | What The Telecom Bust Taught Me About AI’s Debt Boom
+  QUEUE_HOLD source_weekly | The Decoder | AI industry growth remains strong, but the pace is slowing
+  QUEUE_HOLD source_weekly | The Decoder | Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears
+  QUEUE_HOLD category_consecutive | Crunchbase News | Anthropic Closes Up 17% After Massive IPO
+  QUEUE_HOLD category_consecutive | Crunchbase News | The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut
+ATTEMPT 1/6 | deferred 0/3 Simon Willison - Prompt Injection | Token fraud is here and it’s BAD (YouTube) | 5.2h
+  REVIEW_ITEM id=b3dc513675 message=105
+  REVIEW_REQUIRED reason=source_not_official sent=105
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-20/17-00-478ea25a
+  OFFER_REVIEW source_not_official
+ATTEMPT 2/6 | deferred 0/3 arXiv | PlayCraft: Designing Engaging Games from Agent Play Experience | 13h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | متن خبر فقط توضیح چارچوب arXivLabs است و هیچ جزئیاتی درباره خود مقاله یا ابزار PlayCraft ندارد.
+ATTEMPT 3/6 ArchiveTell | 🏆 مدل مخفی Gestalt در صدر بنچمارک طراحی | 1.4h
+  TOOL_LINK candidate https://contralabs.com/ | score 11
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED title_words | one repair retry
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=models | QA 42/43 | $0.000710 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-20/17-00
+ATTEMPT 4/6 هوش مصنوعی | محمد زمانی | ایجنت هوش مصنوعی هرمس (Hermes) که توسط شرکت پژوهشی Nous Research ساخته شده، حالا با همکاری | 1.4h
+  TOOL_LINK candidate https://nousresearch.com/releases | score 23
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  REVIEW_ITEM id=05037b07d3 message=106
+  REVIEW_REQUIRED reason=tool_incomplete sent=106
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-20/17-00-811811c9
+  QA_FAILED ai_relevance | score 41/43
+ATTEMPT 5/6 Code.Cloud | کـــد کلاد | 🎬 ویدیوهای طولانی رو با هوش مصنوعی به ریلزهای جذاب تبدیل کن! 🔥 | 2.6h
+  REVIEW_ITEM id=9a19532479 message=107
+  REVIEW_REQUIRED reason=source_not_official sent=107
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-20/17-00-9d73bfe0
+  OFFER_REVIEW source_not_official
+ATTEMPT 6/6 Product Hunt | Mailpipe | 9.3h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  FETCH_TEXT_FALLBACK 324 chars
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | ورودی فقط یک تیتر کوتاه و دو لینک است و هیچ جزئیات، عدد یا اطلاعات قابل ردیابی دیگری ندارد.
+RESULT SENT category=models | offer=no | image=yes | QA 42/43 | cost $0.003096 | post $0.000710 | tokens 80067
+TITLE بنچمارک Frontier Design، مدل‌ها را روی پروژه واقعی می‌سنجد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-20/17-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST models | sent | $0.000710 | بنچمارک Frontier Design، مدل‌ها را روی پروژه واقعی می‌سنجد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-20T13:32:24Z
+# گزارش روزانه 2026-11-20 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1، مدل‌ها و پژوهش 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 8
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 12
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1، مدل‌ها و پژوهش 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.004651
+- توکن: 107989
+- میانگین هر پست ارسال‌شده: $0.000930
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 16 | 31 | 15 |
+| مدل‌ها و پژوهش | 15 | 24 | 9 |
+| امنیت و حریم خصوصی | 7 | 11 | 4 |
+| کسب‌وکار و بازار | 9 | 11 | 2 |
+| مجموع | 47 | 77 | 30 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000483 | 11145 | همکاری گسترده انویدیا و مایکروسافت برای هوش مصنوعی |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.002024 | 22522 | گمینی ۴ نئون در بنچمارک گیم‌فیل به رتبه سوم رسید |
+| 11:30 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.000709 | 22141 | کمیسیون اروپا حمله سایبری با ابزار هوش مصنوعی را تأیید کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.000725 | 30167 | گوگل با بلو اوریجین برای پرتاب سنگین سان‌کچر شریک شد |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000710 | 22014 | بنچمارک Frontier Design، مدل‌ها را روی پروژه واقعی می‌سنجد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 17
+- دلایل: از رصد آفر پیدا شد 4، لینک قابل استفاده ندارد 2، لینک ارجاعی حل نشده است 1، مدل این مورد را رد کرد 2، لینک خارجی این پست پذیرفته نشد 4، منبع رسمی شرکت نیست 3، جزئیات ابزار کامل نشد 1
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-20.md
+SOURCE_STATUS 2026-11-20T13:32:24Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-20.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — جمعه ۲۹ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 5
+صف بازبینی: 121 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-techiin: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44744923264
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

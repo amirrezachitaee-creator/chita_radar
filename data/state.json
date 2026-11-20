@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-20T11:24:32.414Z",
+  "updatedAt": "2026-11-20T13:32:21.366Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -13091,6 +13091,204 @@
       "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership",
       "benchmark": false
+    },
+    "url:add7414e37894596": {
+      "at": "2026-11-20T13:31:07.026Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "Decision AI Explained in 5 Minutes",
+      "url": "https://www.kdnuggets.com/decision-ai-explained-in-5-minutes"
+    },
+    "title:aaf8ea72a8c87fd7": {
+      "at": "2026-11-20T13:31:07.026Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "Decision AI Explained in 5 Minutes",
+      "url": "https://www.kdnuggets.com/decision-ai-explained-in-5-minutes"
+    },
+    "url:7584dc9ca244f4fa": {
+      "at": "2026-11-20T13:31:07.026Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "7 Ways AI Agents Fail in Production (and How to Catch Each One)",
+      "url": "https://machinelearningmastery.com/7-ways-ai-agents-fail-in-production-and-how-to-catch-each-one"
+    },
+    "title:5736ac603e0d94e8": {
+      "at": "2026-11-20T13:31:07.026Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "7 Ways AI Agents Fail in Production (and How to Catch Each One)",
+      "url": "https://machinelearningmastery.com/7-ways-ai-agents-fail-in-production-and-how-to-catch-each-one"
+    },
+    "url:d68899f7cc7f2c7b": {
+      "at": "2026-11-20T13:31:09.151Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine"
+    },
+    "title:e77f65d4f4355667": {
+      "at": "2026-11-20T13:31:09.151Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine"
+    },
+    "url:b0286f17c80c7eae": {
+      "at": "2026-11-20T13:31:20.278Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "کلادفلر مدل Clairic رو منتشر کرده که خروجیش رایگانه",
+      "url": "https://t.me/MatinSenPaii/5928"
+    },
+    "title:c3d3cd923f2bac29": {
+      "at": "2026-11-20T13:31:20.278Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "کلادفلر مدل Clairic رو منتشر کرده که خروجیش رایگانه",
+      "url": "https://t.me/MatinSenPaii/5928"
+    },
+    "url:b543282ade66e23b": {
+      "at": "2026-11-20T13:31:24.213Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "کلاد Fable 5.2 دو تا مسئله‌ی لاینحل و باز فیزیک مربوط به سیاه‌چاله‌ها رو حل کرده",
+      "url": "https://t.me/MatinSenPaii/5926"
+    },
+    "title:ea5e0b660d7e45c9": {
+      "at": "2026-11-20T13:31:24.213Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "کلاد Fable 5.2 دو تا مسئله‌ی لاینحل و باز فیزیک مربوط به سیاه‌چاله‌ها رو حل کرده",
+      "url": "https://t.me/MatinSenPaii/5926"
+    },
+    "url:5c70b3ffe76b946d": {
+      "at": "2026-11-20T13:31:29.339Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "مدل Ideogram 4.6 با قابلیت ساخت تصویر 4K Native و امکان ویرایش دقیق‌تر منتشر شده. تو",
+      "url": "https://t.me/Mohammad_zammani/7249"
+    },
+    "title:4dee018459ac11ca": {
+      "at": "2026-11-20T13:31:29.339Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "مدل Ideogram 4.6 با قابلیت ساخت تصویر 4K Native و امکان ویرایش دقیق‌تر منتشر شده. تو",
+      "url": "https://t.me/Mohammad_zammani/7249"
+    },
+    "url:3f7f7cffebe4ba59": {
+      "at": "2026-11-20T13:31:29.601Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad"
+    },
+    "title:5fd76b3c5067d2ca": {
+      "at": "2026-11-20T13:31:29.601Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad"
+    },
+    "url:b130bc63cdc59ab6": {
+      "at": "2026-11-20T13:31:31.543Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "url": "https://arxiv.org/abs/2611.26624v1"
+    },
+    "title:622911db2cb366f7": {
+      "at": "2026-11-20T13:31:31.543Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "url": "https://arxiv.org/abs/2611.26624v1"
+    },
+    "url:600fd96eb904d167": {
+      "at": "2026-11-20T13:32:09.135Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "🏆 مدل مخفی Gestalt در صدر بنچمارک طراحی",
+      "url": "https://contralabs.com/frontierdesign",
+      "benchmark": true
+    },
+    "title:9f924c23cc67e66f": {
+      "at": "2026-11-20T13:32:09.135Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "🏆 مدل مخفی Gestalt در صدر بنچمارک طراحی",
+      "url": "https://contralabs.com/frontierdesign",
+      "benchmark": true
+    },
+    "url:811811c93e2a1dd9": {
+      "at": "2026-11-20T13:32:20.671Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "ایجنت هوش مصنوعی هرمس (Hermes) که توسط شرکت پژوهشی Nous Research ساخته شده، حالا با همکاری",
+      "url": "https://nousresearch.com/hermes-enterprise-in-microsoft-teams"
+    },
+    "title:d571797a9db6e03b": {
+      "at": "2026-11-20T13:32:20.671Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "ایجنت هوش مصنوعی هرمس (Hermes) که توسط شرکت پژوهشی Nous Research ساخته شده، حالا با همکاری",
+      "url": "https://nousresearch.com/hermes-enterprise-in-microsoft-teams"
+    },
+    "url:9d73bfe0d8c7ab5f": {
+      "at": "2026-11-20T13:32:21.366Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "🎬 ویدیوهای طولانی رو با هوش مصنوعی به ریلزهای جذاب تبدیل کن! 🔥",
+      "url": "https://github.com/mutonby/openshorts"
+    },
+    "title:378924a4ceda7ad6": {
+      "at": "2026-11-20T13:32:21.366Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-20T17:00+03:30",
+      "title": "🎬 ویدیوهای طولانی رو با هوش مصنوعی به ریلزهای جذاب تبدیل کن! 🔥",
+      "url": "https://github.com/mutonby/openshorts"
     }
   },
   "deferred": {
@@ -13401,194 +13599,6 @@
         "keys": [
           "url:6076a2729fad4e58",
           "title:6dc8215e4c9ef274"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:184d931227f2504d": {
-      "id": "defer:url:184d931227f2504d",
-      "at": "2026-11-19T20:26:57.132Z",
-      "firstAt": "2026-11-19T20:26:57.132Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:184d931227f2504d",
-        "title:259bd3365a9e8ab9"
-      ],
-      "canonical": "https://openai.com/index/the-silent-consensus",
-      "title": "The Silent Consensus",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "The Silent Consensus",
-        "link": "https://openai.com/index/the-silent-consensus",
-        "canonical": "https://openai.com/index/the-silent-consensus",
-        "published": "Wed, 18 Nov 2026 10:00:00 GMT",
-        "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/the-silent-consensus",
-        "images": [],
-        "ageHours": 34.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:184d931227f2504d",
-          "title:259bd3365a9e8ab9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:58da586369f33999": {
-      "id": "defer:url:58da586369f33999",
-      "at": "2026-11-19T20:26:57.132Z",
-      "firstAt": "2026-11-19T20:26:57.132Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:58da586369f33999",
-        "title:1678c09ff28edc04"
-      ],
-      "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "title": "Research acceleration: The jagged frontier",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Research acceleration: The jagged frontier",
-        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-        "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "images": [],
-        "ageHours": 36.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:58da586369f33999",
-          "title:1678c09ff28edc04"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:aef632472a5e3af7": {
-      "id": "defer:url:aef632472a5e3af7",
-      "at": "2026-11-19T20:26:57.132Z",
-      "firstAt": "2026-11-19T20:26:57.132Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:aef632472a5e3af7",
-        "title:fda08e470f000566"
-      ],
-      "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-        "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "published": "Wed, 18 Nov 2026 15:00:23 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "images": [],
-        "ageHours": 29.4,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:aef632472a5e3af7",
-          "title:fda08e470f000566"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:67952d9a918d2536": {
-      "id": "defer:url:67952d9a918d2536",
-      "at": "2026-11-19T20:26:57.132Z",
-      "firstAt": "2026-11-19T20:26:57.132Z",
-      "attempts": 0,
-      "reason": "category_daily",
-      "reasons": [
-        "category_daily"
-      ],
-      "keys": [
-        "url:67952d9a918d2536",
-        "title:1cf6500fb5e47411"
-      ],
-      "canonical": "https://openai.com/index/inside-the-codex-sandbox",
-      "title": "Inside the Codex sandbox",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Inside the Codex sandbox",
-        "link": "https://openai.com/index/inside-the-codex-sandbox",
-        "canonical": "https://openai.com/index/inside-the-codex-sandbox",
-        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-        "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/inside-the-codex-sandbox",
-        "images": [],
-        "ageHours": 36.4,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:67952d9a918d2536",
-          "title:1cf6500fb5e47411"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -13929,98 +13939,6 @@
         "keys": [
           "url:c1fc7cd8b86a288d",
           "title:4c3e95aed0f7b61b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3f7f7cffebe4ba59": {
-      "id": "defer:url:3f7f7cffebe4ba59",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3f7f7cffebe4ba59",
-        "title:5fd76b3c5067d2ca"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad",
-      "title": "Token fraud is here and it’s BAD (YouTube)",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "Token fraud is here and it’s BAD (YouTube)",
-        "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
-        "canonical": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad",
-        "published": "2026-11-20T02:49:57+00:00",
-        "summary": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p> <p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</a>) Claire describes the <em>flood</em> of token fraud she has seen from groups abusing the product's free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent.</p> <blockquote> <p>I am funding a international Roblox and Fortnite map studio. They run a loop of free trials and promo codes and then tunnel to my agent and use it to build Roblox and Fortnite maps.</p> </blockquote> <p>Apparently one of the common prompts Claire saw running through her agent involved SVGs of pelicans riding bicycles! Presumably the token scammers are using that to help sniff the underlying models - different model families have a definite signature, and I've used it like this in the past to try and guess the identity of stealth preview models on platforms like OpenRouter.</p> <p>Claire is winding down her free trials entirely, which sadly looks like the right decision in the face of this abuse. <p>Tags: <a href=\"https://simonwillison.net/tags/youtube\">youtube</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
-        "images": [],
-        "ageHours": 5.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3f7f7cffebe4ba59",
-          "title:5fd76b3c5067d2ca"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b130bc63cdc59ab6": {
-      "id": "defer:url:b130bc63cdc59ab6",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:b130bc63cdc59ab6",
-        "title:622911db2cb366f7"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26624v1",
-      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-        "link": "https://arxiv.org/abs/2611.26624v1",
-        "canonical": "https://arxiv.org/abs/2611.26624v1",
-        "published": "2026-11-19T18:59:34Z",
-        "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery. Starting from an initial game, PlayCraft alternates between playing and crafting. In the playing stage, a player agent watches the game screen, uses the controls, and pursues the game objective over repeated episodes while retaining memory. After each episode, it reports its progress, outcomes, decisions, and reflections. In the crafting stage, a crafter agent uses these reports to revise the game. It estimates player abilities, predicts performance at different proficiency levels, and compares those predictions with a target learning progression. It diagnoses the game and addresses the gaps by giving players meaningful opportunities to improve through better decisions and execution. We evaluate games in fresh runs with player agents across three intelligence settings, measuring learning gain and learning slope. Compared with the initial games, PlayCraft yields larger learning gains and steeper learning slopes in most games. It also outperforms the baselines on the macro-average of each metric at every intelligence setting.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26624v1",
-        "images": [],
-        "ageHours": 13,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b130bc63cdc59ab6",
-          "title:622911db2cb366f7"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -15525,6 +15443,300 @@
         "keys": [
           "url:25a4ca5f35209bfb",
           "title:0b1bf70da2446052"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0b91c53826027566": {
+      "id": "defer:url:0b91c53826027566",
+      "at": "2026-11-20T13:31:29.352Z",
+      "firstAt": "2026-11-20T13:31:29.352Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:0b91c53826027566",
+        "title:cdc98c287be0a35c"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
+      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+        "link": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+        "canonical": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
+        "published": "Fri, 20 Nov 2026 13:21:11 +0000",
+        "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+        "images": [],
+        "ageHours": 0.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0b91c53826027566",
+          "title:cdc98c287be0a35c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1f9356c8a0bbb3b1": {
+      "id": "defer:url:1f9356c8a0bbb3b1",
+      "at": "2026-11-20T13:31:29.352Z",
+      "firstAt": "2026-11-20T13:31:29.352Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1f9356c8a0bbb3b1",
+        "title:0947aea5826df7c3"
+      ],
+      "canonical": "https://news.crunchbase.com/venture/telecom-bust-ai-startup-debt-boom-spreng-runway-growth",
+      "title": "What The Telecom Bust Taught Me About AI’s Debt Boom",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "What The Telecom Bust Taught Me About AI’s Debt Boom",
+        "link": "https://news.crunchbase.com/venture/telecom-bust-ai-startup-debt-boom-spreng-runway-growth/",
+        "canonical": "https://news.crunchbase.com/venture/telecom-bust-ai-startup-debt-boom-spreng-runway-growth",
+        "published": "Fri, 20 Nov 2026 12:00:01 +0000",
+        "summary": "The AI buildout’s growing reliance on debt echoes the telecom bubble, raising the risk that infrastructure spending will outpace the revenue needed to meet fixed repayment obligations. According to guest author David Spreng of Runway Growth Capital, even if AI fulfills its technological promise, borrowers’ survival will depend on realistic demand forecasts and debt tied to dependable cash flows, with missed timelines potentially forcing restructurings and bankruptcies.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/venture/telecom-bust-ai-startup-debt-boom-spreng-runway-growth/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/Bubble_Investment.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/David-Spreng-headshot-high-res-1-275x300.png"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:1f9356c8a0bbb3b1",
+          "title:0947aea5826df7c3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bd128091bfe5d9af": {
+      "id": "defer:url:bd128091bfe5d9af",
+      "at": "2026-11-20T13:31:29.352Z",
+      "firstAt": "2026-11-20T13:31:29.352Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bd128091bfe5d9af",
+        "title:df63a35b5d2315b3"
+      ],
+      "canonical": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing",
+      "title": "AI industry growth remains strong, but the pace is slowing",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "AI industry growth remains strong, but the pace is slowing",
+        "link": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+        "canonical": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing",
+        "published": "Thu, 19 Nov 2026 19:28:19 +0000",
+        "summary": "Token prices for AI models fell 21 percent in six weeks while usage volume hit a record high, according to the Ramp AI Index. Anthropic dominates with nearly 59 percent of token spending. Data from Ramp, Stripe and OpenRouter independently show the same pattern: the AI industry is still growing, but revenue momentum is cooling. The article AI industry growth remains strong, but the pace is slowing appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2024/02/Throwing-money-at-AI.jpg"
+        ],
+        "ageHours": 18,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:bd128091bfe5d9af",
+          "title:df63a35b5d2315b3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:438e5e36e7589163": {
+      "id": "defer:url:438e5e36e7589163",
+      "at": "2026-11-20T13:31:29.352Z",
+      "firstAt": "2026-11-20T13:31:29.352Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:438e5e36e7589163",
+        "title:172b654651739b94"
+      ],
+      "canonical": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
+      "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
+        "link": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+        "canonical": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
+        "published": "Thu, 19 Nov 2026 17:02:41 +0000",
+        "summary": "Stricter US export controls on AI chips are hitting fast. China's Moonshot AI walked away from a $150 million deal in Indonesia, while TSMC and Samsung stopped shipping to Chinese customers. A New York Times investigation found that Alibaba had routed Nvidia chips to Chinese military researchers through a web of front companies. The article Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/07/us_vs_china_open_models.png"
+        ],
+        "ageHours": 20.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:438e5e36e7589163",
+          "title:172b654651739b94"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7d70f65f13463d84": {
+      "id": "defer:url:7d70f65f13463d84",
+      "at": "2026-11-20T13:31:29.352Z",
+      "firstAt": "2026-11-20T13:31:29.352Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:7d70f65f13463d84",
+        "title:d4c03a4ce35700e7"
+      ],
+      "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
+      "title": "Anthropic Closes Up 17% After Massive IPO",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "Anthropic Closes Up 17% After Massive IPO",
+        "link": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+        "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
+        "published": "Wed, 18 Nov 2026 22:15:36 +0000",
+        "summary": "The offering promises to be the public market event of the season, with the Claude creator seeing investor demand for shares well in excess of its capital-raising goals.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/2020/09/IPO_.png"
+        ],
+        "ageHours": 39.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:7d70f65f13463d84",
+          "title:d4c03a4ce35700e7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:87281ddff48ca72f": {
+      "id": "defer:url:87281ddff48ca72f",
+      "at": "2026-11-20T13:31:29.352Z",
+      "firstAt": "2026-11-20T13:31:29.352Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:87281ddff48ca72f",
+        "title:0a1d5519c225a145"
+      ],
+      "canonical": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis",
+      "title": "The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut",
+      "candidate": {
+        "sourceId": "crunchbase-news",
+        "sourceName": "Crunchbase News",
+        "sourceType": "news",
+        "title": "The Key Numbers I’m Watching As Anthropic Makes Its IPO Debut",
+        "link": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+        "canonical": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis",
+        "published": "Wed, 18 Nov 2026 19:39:58 +0000",
+        "summary": "Just three years after launching with zero revenue, Anthropic brought in $17 billion and says more than 11,900 customers now spend at least $100,000 a year. But its IPO filing also reveals enormous computing commitments and big questions about balancing growth with risks.",
+        "messageText": "",
+        "leadPostUrl": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+        "images": [
+          "https://news.crunchbase.com/wp-content/uploads/IPO-on-horizon-1024x576.jpg",
+          "https://news.crunchbase.com/wp-content/uploads/Screenshot-2026-11-17-at-9.58.05-AM.png"
+        ],
+        "ageHours": 41.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:87281ddff48ca72f",
+          "title:0a1d5519c225a145"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -18231,6 +18443,37 @@
           "at": "2026-11-20T10:32:44.159Z"
         }
       ]
+    },
+    "2026-11-20T17:00+03:30": {
+      "at": "2026-11-20T13:32:09.135Z",
+      "status": "sent",
+      "category": "models",
+      "title": "بنچمارک Frontier Design، مدل‌ها را روی پروژه واقعی می‌سنجد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-20/17-00",
+      "messageId": 122,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0025659032,
+      "tokens": 60176,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "بنچمارک Frontier Design، مدل‌ها را روی پروژه واقعی می‌سنجد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 122,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-20/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0007101696000000001,
+          "tokens": 22014,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-20T13:32:09.135Z"
+        }
+      ]
     }
   },
   "published": [
@@ -20075,93 +20318,111 @@
       "sourceTitle": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
       "sourceText": "We’re partnering with Blue Origin on the first heavy-lift launch for Project Suncatcher, our long-term moonshot to scale AI infrastructure in space by tapping into the abundant solar power in orbit.\nTargeted for Q1 2029, Blue Origin’s heavy-lift New Glenn rocket will deploy our satellites — each with roughly the capacity of a data center rack — into sun-synchronous orbit.\nThis dedicated launch builds on our ongoing work with other satellite and launch partners and represents a crucial milestone on our long-term roadmap as we expand the boundaries of what's possible for the future of compute.",
       "at": "2026-11-20T10:32:44.160Z"
+    },
+    {
+      "week": "2026-11-14",
+      "slot": "2026-11-20T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "بنچمارک Frontier Design، مدل‌ها را روی پروژه واقعی می‌سنجد",
+      "why": "با این بنچمارک، می‌شه فهمید کدوم مدل واقعاً کار طراحی یک مشتری واقعی را دربیاره، نه فقط در تست‌های آزمایشگاهی خوب جواب بده.",
+      "dedupe_key": "contra-labs-frontier-design-benchmark",
+      "post_key": "2026-11-20/17-00/1",
+      "sourceId": "tg-archive-tell",
+      "sourceName": "ArchiveTell",
+      "sourceType": "telegram_channel",
+      "benchmark": true,
+      "url": "https://contralabs.com/frontierdesign",
+      "sourceTitle": "Frontier Design Benchmark · Contra Labs × BenchFlow",
+      "sourceText": "🏆 مدل مخفی Gestalt در صدر بنچمارک طراحی\n⠀\nیه مدل ناشناس با اسم Gestalt اول جدول بنچمارک طراحی Contra Labs نشسته.\n⠀\n🥇 گشتالت: حدود ۱۹۳۰ امتیاز\n🥈 طرح‌های طلایی انسانی: ۱۷۳۹ امتیاز\n🥉 کلود فیبل ۵٫۲: حدود ۱۷۱۴ امتیاز\n⠀\nحدس میزنن GLM-5.5 باشه.\n⠀\n📌 جدول بنچمارک طراحی Contra Labs\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n🔥15🤯1🗿1",
+      "at": "2026-11-20T13:32:09.135Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8492,
-      "last_at": "2026-11-20T10:18:38+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "last_id": 8495,
+      "last_at": "2026-11-20T12:08:24+00:00",
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "ai_farshad": {
-      "last_id": 6475,
-      "last_at": "2026-11-20T09:32:27+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "last_id": 6477,
+      "last_at": "2026-11-20T13:28:54+00:00",
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7248,
-      "last_at": "2026-11-20T09:01:45+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "last_id": 7250,
+      "last_at": "2026-11-20T12:04:30+00:00",
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "techiin_ir": {
-      "last_id": 20808,
-      "last_at": "2026-11-19T19:14:26+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "last_id": 20809,
+      "last_at": "2026-11-20T12:02:00+00:00",
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "web3nabu": {
       "last_id": 2180,
       "last_at": "2026-11-17T21:17:41+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "asrnovin_ir": {
-      "last_id": 11497,
-      "last_at": "2026-11-20T09:48:49+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "last_id": 11498,
+      "last_at": "2026-11-20T13:27:11+00:00",
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "shayanode": {
       "last_id": 255,
       "last_at": "2026-11-19T17:50:47+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "codecloude": {
-      "last_id": 2604,
-      "last_at": "2026-11-19T20:28:59+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "last_id": 2605,
+      "last_at": "2026-11-20T10:54:10+00:00",
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "dunijet_ai": {
       "last_id": 2588,
       "last_at": "2026-11-19T19:09:17+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "marketing_aida": {
       "last_id": 109,
       "last_at": "2026-11-18T08:11:18+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "miladxtalks": {
       "last_id": 247,
       "last_at": "2026-11-19T17:49:13+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "Sajadverse": {
       "last_id": 1257,
       "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "MatinSenPaii": {
-      "last_id": 5925,
-      "last_at": "2026-11-20T10:26:22+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "last_id": 5928,
+      "last_at": "2026-11-20T13:01:02+00:00",
+      "checked_at": "2026-11-20T13:30:56.751Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-20T10:30:57.495Z"
+      "checked_at": "2026-11-20T13:30:56.751Z"
     }
   },
   "offerReviews": [
@@ -24146,6 +24407,78 @@
       "url": "https://quera.org/bootcamp/python-alpha?utm_source=telegram&utm_medium=paid-social&utm_campaign=qb14&utm_content=asrnovin-python",
       "reason": "source_not_official",
       "slot": "2026-11-20T14:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-matin-senpai|https://t.me/MatinSenPaii/5928",
+      "date": "2026-11-20",
+      "at": "2026-11-20T13:30:56.751Z",
+      "source": "tg-matin-senpai",
+      "title": "کلادفلر مدل Clairic رو منتشر کرده که خروجیش رایگانه",
+      "url": "https://t.me/MatinSenPaii/5928",
+      "reason": "denied_link",
+      "slot": "2026-11-20T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-matin-senpai|https://t.me/MatinSenPaii/5926",
+      "date": "2026-11-20",
+      "at": "2026-11-20T13:30:56.751Z",
+      "source": "tg-matin-senpai",
+      "title": "کلاد Fable 5.2 دو تا مسئله‌ی لاینحل و باز فیزیک مربوط به سیاه‌چاله‌ها رو حل کرده",
+      "url": "https://t.me/MatinSenPaii/5926",
+      "reason": "denied_link",
+      "slot": "2026-11-20T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7249",
+      "date": "2026-11-20",
+      "at": "2026-11-20T13:30:56.751Z",
+      "source": "tg-mohammad-zammani",
+      "title": "مدل Ideogram 4.6 با قابلیت ساخت تصویر 4K Native و امکان ویرایش دقیق‌تر منتشر شده. تو",
+      "url": "https://t.me/Mohammad_zammani/7249",
+      "reason": "denied_link",
+      "slot": "2026-11-20T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|simon-willison-prompt-injection|https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "date": "2026-11-20",
+      "at": "2026-11-20T13:30:56.751Z",
+      "source": "simon-willison-prompt-injection",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "reason": "source_not_official",
+      "slot": "2026-11-20T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-mohammad-zammani|https://nousresearch.com/hermes-enterprise-in-microsoft-teams",
+      "date": "2026-11-20",
+      "at": "2026-11-20T13:30:56.751Z",
+      "source": "tg-mohammad-zammani",
+      "title": "Nous Research partners with Microsoft to bring Hermes Agent to the enterprise",
+      "url": "https://nousresearch.com/hermes-enterprise-in-microsoft-teams",
+      "reason": "tool_incomplete",
+      "slot": "2026-11-20T17:00+03:30",
+      "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-20|tg-codecloude|https://github.com/mutonby/openshorts",
+      "date": "2026-11-20",
+      "at": "2026-11-20T13:30:56.751Z",
+      "source": "tg-codecloude",
+      "title": "GitHub - mutonby/openshorts: Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing. Self-host free with Docker (MIT), or use the cloud with GPU speed from $12/mo. MCP server and API for AI agents.",
+      "url": "https://github.com/mutonby/openshorts",
+      "reason": "source_not_official",
+      "slot": "2026-11-20T17:00+03:30",
       "kind": "offer",
       "mainEligible": false
     }
