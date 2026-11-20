@@ -6452,6 +6452,10 @@
     },
     "968141a229": {
       "id": "968141a229",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-20T08:01:42.827Z",
+      "updatedAt": "2026-11-20T08:01:42.827Z",
       "messageId": 98,
       "chatId": "-1003917550874",
       "slot": "2026-11-20T11:30+03:30",
@@ -6486,10 +6490,6 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-20T08:01:42.827Z",
-      "updatedAt": "2026-11-20T08:01:42.827Z",
       "lastActionAt": "",
       "sentAt": ""
     }
