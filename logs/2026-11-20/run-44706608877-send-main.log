@@ -1,0 +1,77 @@
+RUN 44706608877 | send/main | slot auto | 2026-11-20T08:57:28Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-20T11:30+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 16/31 | models 14/24 | security 7/11 | business 8/11
+DAILY 3/11
+DIVERSITY_TARGET security | slot 11:30
+DEFERRED_POOL 51
+  DEFERRED category_consecutive | try 0/3 | Token fraud is here and it’s BAD (YouTube)
+  DEFERRED source_weekly | try 0/3 | Apple may be developing its own AI agent that runs your Mac
+  DEFERRED source_weekly | try 0/3 | Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO
+  DEFERRED source_weekly | try 0/3 | Anthropic rival says companies can (mostly) skip the pricey models
+  DEFERRED source_weekly | try 0/3 | Want to see your live AI usage on your Mac’s icons? This clever new app lets you
+SLOT_ALREADY_DONE 2026-11-20T11:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-20T08:57:28Z
+# گزارش روزانه 2026-11-20 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 3 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 3
+
+## آمار روز
+- پست ارسال‌شده: 3 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1، مدل‌ها و پژوهش 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 5
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 4
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1، مدل‌ها و پژوهش 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.003216
+- توکن: 55808
+- میانگین هر پست ارسال‌شده: $0.001072
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 16 | 31 | 15 |
+| مدل‌ها و پژوهش | 14 | 24 | 10 |
+| امنیت و حریم خصوصی | 7 | 11 | 4 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 45 | 77 | 32 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000483 | 11145 | همکاری گسترده انویدیا و مایکروسافت برای هوش مصنوعی |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.002024 | 22522 | گمینی ۴ نئون در بنچمارک گیم‌فیل به رتبه سوم رسید |
+| 11:30 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.000709 | 22141 | کمیسیون اروپا حمله سایبری با ابزار هوش مصنوعی را تأیید کرد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 8
+- دلایل: از رصد آفر پیدا شد 4، لینک قابل استفاده ندارد 2، لینک ارجاعی حل نشده است 1، مدل این مورد را رد کرد 1
+
+## صف تعویق
+- در انتظار: 51
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-20.md
+SOURCE_STATUS 2026-11-20T08:57:28Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-20.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — جمعه ۲۹ آبان ۱۴۰۵
+پست امروز: 3 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 3
+صف بازبینی: 112 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 51
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-techiin: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44706608877
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
