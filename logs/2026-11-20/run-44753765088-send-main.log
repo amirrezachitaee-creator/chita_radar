@@ -1,0 +1,79 @@
+RUN 44753765088 | send/main | slot auto | 2026-11-20T14:28:38Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-20T17:00+03:30 | WEEK 2026-11-14 | MODE SEND
+QUOTA tools 16/31 | models 15/24 | security 7/11 | business 9/11
+DAILY 5/11
+DIVERSITY_TARGET models | slot 17:00
+DEFERRED_POOL 48
+  DEFERRED source_weekly | try 0/3 | California AG subpoenas Nvidia over worries about Huang’s ties with China
+  DEFERRED category_consecutive | try 0/3 | What The Telecom Bust Taught Me About AI’s Debt Boom
+  DEFERRED source_weekly | try 0/3 | Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill
+  DEFERRED source_weekly | try 0/3 | Apple may be developing its own AI agent that runs your Mac
+  DEFERRED source_weekly | try 0/3 | Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO
+SLOT_ALREADY_DONE 2026-11-20T17:00+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-20T14:28:38Z
+# گزارش روزانه 2026-11-20 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1، مدل‌ها و پژوهش 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 8
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 12
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1، مدل‌ها و پژوهش 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.004651
+- توکن: 107989
+- میانگین هر پست ارسال‌شده: $0.000930
+
+## سهمیه هفتگی (هفته 2026-11-14)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 16 | 31 | 15 |
+| مدل‌ها و پژوهش | 15 | 24 | 9 |
+| امنیت و حریم خصوصی | 7 | 11 | 4 |
+| کسب‌وکار و بازار | 9 | 11 | 2 |
+| مجموع | 47 | 77 | 30 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000483 | 11145 | همکاری گسترده انویدیا و مایکروسافت برای هوش مصنوعی |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.002024 | 22522 | گمینی ۴ نئون در بنچمارک گیم‌فیل به رتبه سوم رسید |
+| 11:30 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.000709 | 22141 | کمیسیون اروپا حمله سایبری با ابزار هوش مصنوعی را تأیید کرد |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.000725 | 30167 | گوگل با بلو اوریجین برای پرتاب سنگین سان‌کچر شریک شد |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000710 | 22014 | بنچمارک Frontier Design، مدل‌ها را روی پروژه واقعی می‌سنجد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 17
+- دلایل: از رصد آفر پیدا شد 4، لینک قابل استفاده ندارد 2، لینک ارجاعی حل نشده است 1، مدل این مورد را رد کرد 2، لینک خارجی این پست پذیرفته نشد 4، منبع رسمی شرکت نیست 3، جزئیات ابزار کامل نشد 1
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-20.md
+SOURCE_STATUS 2026-11-20T14:28:39Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-20.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — جمعه ۲۹ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 5
+صف بازبینی: 121 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-techiin: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44753765088
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
