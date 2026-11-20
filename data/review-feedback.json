@@ -7242,6 +7242,10 @@
     },
     "91a8a00a61": {
       "id": "91a8a00a61",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-20T19:31:31.070Z",
+      "updatedAt": "2026-11-20T19:31:31.070Z",
       "messageId": 120,
       "chatId": "-1003917550874",
       "slot": "2026-11-20T23:00+03:30",
@@ -7283,10 +7287,6 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-20T19:31:31.070Z",
-      "updatedAt": "2026-11-20T19:31:31.070Z",
       "lastActionAt": "",
       "sentAt": ""
     }
