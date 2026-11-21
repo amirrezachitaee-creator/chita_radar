@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-21T14:18:59.986Z",
+  "updatedAt": "2026-11-21T17:04:07.629Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14324,193 +14324,189 @@
       "title": "یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده",
       "url": "http://scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math",
       "benchmark": false
+    },
+    "url:5e80e13acd5f0db1": {
+      "at": "2026-11-21T17:01:26.106Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "بر اساس گزارش‌های غیررسمی و شایعه‌هایی که جدیداً منتشر شده، گوگل در حال آماده‌سازی مدل تصویرساز",
+      "url": "https://t.me/Mohammad_zammani/7261"
+    },
+    "title:16876e91b4563c9d": {
+      "at": "2026-11-21T17:01:26.106Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "بر اساس گزارش‌های غیررسمی و شایعه‌هایی که جدیداً منتشر شده، گوگل در حال آماده‌سازی مدل تصویرساز",
+      "url": "https://t.me/Mohammad_zammani/7261"
+    },
+    "url:5d09609c66c7a8dc": {
+      "at": "2026-11-21T17:01:26.107Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "Inkling-2-Small added to The Gamefeel Benchmark reverse-evaluation scores",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/ccc567f46520a446e31b360ff9a1e48d407a3bf0"
+    },
+    "title:73eec3b797818e13": {
+      "at": "2026-11-21T17:01:26.107Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "Inkling-2-Small added to The Gamefeel Benchmark reverse-evaluation scores",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/ccc567f46520a446e31b360ff9a1e48d407a3bf0"
+    },
+    "url:9e9c7593a4213f21": {
+      "at": "2026-11-21T17:01:26.107Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions"
+    },
+    "title:eda408f68a06e590": {
+      "at": "2026-11-21T17:01:26.107Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions"
+    },
+    "url:8770f2f899ce7856": {
+      "at": "2026-11-21T17:01:27.304Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft"
+    },
+    "title:51c093dfb77e3270": {
+      "at": "2026-11-21T17:01:27.304Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft"
+    },
+    "url:15a4b185c878ab1c": {
+      "at": "2026-11-21T17:01:27.888Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "یه نمونه پیاده سازی AI Engineering در اپ ایزی تریدر مفید",
+      "url": "https://t.me/dunijet_ai/2601"
+    },
+    "title:4979ed09ddf269bc": {
+      "at": "2026-11-21T17:01:27.888Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "یه نمونه پیاده سازی AI Engineering در اپ ایزی تریدر مفید",
+      "url": "https://t.me/dunijet_ai/2601"
+    },
+    "url:2a44b694206958ad": {
+      "at": "2026-11-21T17:03:01.024Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "بچه ها اگه همه‌ی کارای مارکتینگتون رو با یه AI جلو میبرید، این PDF رو از",
+      "url": "https://t.me/marketing_aida/111"
+    },
+    "title:eccbbcd7f5fc806f": {
+      "at": "2026-11-21T17:03:01.024Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "بچه ها اگه همه‌ی کارای مارکتینگتون رو با یه AI جلو میبرید، این PDF رو از",
+      "url": "https://t.me/marketing_aida/111"
+    },
+    "url:5f9e7c9c68b06ca0": {
+      "at": "2026-11-21T17:03:04.153Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "⏺گزارش‌های جدید نشان می‌دهند OpenAI برای تولید نخستین گوشی هوشمند خود با شرکت FIH Mobile، زیرمجموعه",
+      "url": "https://t.me/asrnovin_ir/11505"
+    },
+    "title:d917781855169043": {
+      "at": "2026-11-21T17:03:04.153Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "⏺گزارش‌های جدید نشان می‌دهند OpenAI برای تولید نخستین گوشی هوشمند خود با شرکت FIH Mobile، زیرمجموعه",
+      "url": "https://t.me/asrnovin_ir/11505"
+    },
+    "url:f91d6668b798aa68": {
+      "at": "2026-11-21T17:03:04.367Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "✨جمینای به شدت در حال پیشرفته و Aura رو به خود جذب میکنه.",
+      "url": "https://t.me/ArchiveTell/8508"
+    },
+    "title:107ffe4467716a63": {
+      "at": "2026-11-21T17:03:04.367Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "✨جمینای به شدت در حال پیشرفته و Aura رو به خود جذب میکنه.",
+      "url": "https://t.me/ArchiveTell/8508"
+    },
+    "url:0983c18b1dc9de19": {
+      "at": "2026-11-21T17:03:04.737Z",
+      "decision": "review",
+      "reason": "ocr_discovery",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "پیترین‌ها ‎ole th‏ [ »کرش هوشمند از",
+      "url": "https://t.me/dunijet_ai/2600"
+    },
+    "title:dafa0826ffe5a195": {
+      "at": "2026-11-21T17:03:04.737Z",
+      "decision": "review",
+      "reason": "ocr_discovery",
+      "category": "",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "پیترین‌ها ‎ole th‏ [ »کرش هوشمند از",
+      "url": "https://t.me/dunijet_ai/2600"
+    },
+    "url:ea51260c28d0da92": {
+      "at": "2026-11-21T17:04:07.625Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+      "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+      "benchmark": false
+    },
+    "title:8803b70182f32910": {
+      "at": "2026-11-21T17:04:07.625Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-21T20:30+03:30",
+      "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+      "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:6100a45d00808ec6": {
-      "id": "defer:url:6100a45d00808ec6",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:6100a45d00808ec6",
-        "title:16c46c1e8ea220fa"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26601v1",
-      "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
-        "link": "https://arxiv.org/abs/2611.26601v1",
-        "canonical": "https://arxiv.org/abs/2611.26601v1",
-        "published": "2026-11-19T18:54:19Z",
-        "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and are rarely comparable. We introduce a framework that rates these capabilities on an autonomy scale modeled on the levels of driving automation, and qualifies each claim by its correctness, its availability and the strength of its evidence. We use this framework to systematize the published evidence on LLM capability in vulnerability research. We find that agents discovered, validated, and patched vulnerabilities in real-world software without human intervention before the restricted frontier models of 2026, and that open-weight models subsequently attained comparable autonomy for discovery and validation. We then measure the consequences of evolving LLM security capabilities in a decade of public vulnerability records, advisories and exploitation data. In 2026 the number of disclosed vulnerabilities more than doubled, with an increasing share rated critical or high, and severe bugs that had survived a decade or more in widely used code were reported several times more often than before. Yet the time between the stages of a vulnerability's life, from report to fix and from disclosure to attack, has not shifted noticeably so far. We grade the mitigations proposed in the literature with an explicit rubric and draw guidance for each group of stakeholders from the best-supported ones.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26601v1",
-        "images": [],
-        "ageHours": 13.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6100a45d00808ec6",
-          "title:16c46c1e8ea220fa"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:00830eab26e1ff01": {
-      "id": "defer:url:00830eab26e1ff01",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:00830eab26e1ff01",
-        "title:fa11a4c8a6c0f3d7"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26590v1",
-      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-        "link": "https://arxiv.org/abs/2611.26590v1",
-        "canonical": "https://arxiv.org/abs/2611.26590v1",
-        "published": "2026-11-19T18:46:50Z",
-        "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks require. We extend \"readout carriers\" from one name token to a token set to better capture and express concept information and support counterfactual experiments. (ii) Concepts in downstream computation. Counterfactual experiments show that accessed concept information participates in downstream computation and reasoning. (iii) Development of cross-modal alignment and selective access. We develop two J-space metrics tracking the development of cross-modal concept alignment more clearly than hidden state cosine in controlled VLM training. The experiment also shows that reliable selective access develops later than concept accessibility. (iv) Shared functions across models. Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26590v1",
-        "images": [],
-        "ageHours": 13.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:00830eab26e1ff01",
-          "title:fa11a4c8a6c0f3d7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f5b3d940312d1aa3": {
-      "id": "defer:url:f5b3d940312d1aa3",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f5b3d940312d1aa3",
-        "title:58dcd970dd3495dd"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26592v1",
-      "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
-        "link": "https://arxiv.org/abs/2611.26592v1",
-        "canonical": "https://arxiv.org/abs/2611.26592v1",
-        "published": "2026-11-19T18:47:51Z",
-        "summary": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are conditionally independent. We show this assumption fails in practice: reasoning streams are positively correlated through shared reasoning prefixes or across-prompt heterogeneity, changing not merely certificate efficiency but the hypothesis certified. Modeling dependence via a per-unit latent state (the random-effects / intraclass-correlation structure) induces exchangeable, equi-correlated increments with correlation $ρ$. Correlation splits the single null into a realized null about the drawn belief and a population null about average model behavior, which coincide only when $ρ=0$. We show: (i) the standard betting e-process remains anytime-valid for the realized null, not the population null; (ii) read as a population-null test, a suitable mixture has asymptotic crossing probability at least $π=P(μ(Z)>0)$, potentially exceeding nominal $ε$; (iii) the within-unit mean's effective sample size saturates at $1/ρ$, so extra within-unit rollouts cannot restore population validity; and (iv) a prompt-level e-process restores population validity, with optimal allocation at one rollout per prompt under a pure rollout budget. Simulations and Claude Haiku 4.5 rollouts confirm this regime dependence: on GSM8K ($\\hatρ=0.435$, $\\hatθ=+0.96$) the gap is dormant, whereas on AIME ($\\hatρ=0.480$, $\\hatθ=-0.15$) the single-unit rule crosses on 24% of prompts at nominal $ε=0.05$, while the prompt-level procedure declines (0.00). This correctness result identifies which reliability claim an anytime-valid certificate actually supports under dependence.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26592v1",
-        "images": [],
-        "ageHours": 13.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f5b3d940312d1aa3",
-          "title:58dcd970dd3495dd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7726583e78142258": {
-      "id": "defer:url:7726583e78142258",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:7726583e78142258",
-        "title:51d1807737e4342f"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26588v1",
-      "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
-        "link": "https://arxiv.org/abs/2611.26588v1",
-        "canonical": "https://arxiv.org/abs/2611.26588v1",
-        "published": "2026-11-19T18:45:54Z",
-        "summary": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowledge the first framework whose LLM-based Anomaly Cross-Checker examines a passing regression's traces against the specification. Of 564 bugs inserted into four OpenTitan IPs, 68 are candidate scoreboard escapes: non-equivalent, exercised by the tests, yet passing. The framework confirmed 41 as scoreboard escapes with assertions failing on the buggy design and proven on the original.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26588v1",
-        "images": [],
-        "ageHours": 13.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7726583e78142258",
-          "title:51d1807737e4342f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:82fe289fe466dcc1": {
       "id": "defer:url:82fe289fe466dcc1",
       "at": "2026-11-20T17:05:09.980Z",
@@ -15557,53 +15553,6 @@
         "officialCourse": false
       }
     },
-    "defer:url:aef632472a5e3af7": {
-      "id": "defer:url:aef632472a5e3af7",
-      "at": "2026-11-20T17:04:57.953Z",
-      "firstAt": "2026-11-20T17:04:57.953Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:aef632472a5e3af7",
-        "title:fda08e470f000566"
-      ],
-      "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-        "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "canonical": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "published": "Wed, 18 Nov 2026 15:00:23 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-        "images": [],
-        "ageHours": 50.1,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:aef632472a5e3af7",
-          "title:fda08e470f000566"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:79b7324f6ff32c68": {
       "id": "defer:url:79b7324f6ff32c68",
       "at": "2026-11-20T19:33:58.127Z",
@@ -15646,55 +15595,6 @@
         "keys": [
           "url:79b7324f6ff32c68",
           "title:03634d1d529b9fae"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ea51260c28d0da92": {
-      "id": "defer:url:ea51260c28d0da92",
-      "at": "2026-11-20T19:33:58.127Z",
-      "firstAt": "2026-11-20T19:33:58.127Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:ea51260c28d0da92",
-        "title:8803b70182f32910"
-      ],
-      "canonical": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-      "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-        "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-        "canonical": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-        "published": "Fri, 20 Nov 2026 17:30:00 GMT",
-        "summary": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-        "images": [
-          "http://cms.therecord.media/uploads/ai_planet_volumes_unsplash_79b8f00a24.jpg"
-        ],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:ea51260c28d0da92",
-          "title:8803b70182f32910"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -15941,55 +15841,6 @@
         "keys": [
           "url:eaecd34f2a6c3727",
           "title:fdcca212932f0479"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6076a2729fad4e58": {
-      "id": "defer:url:6076a2729fad4e58",
-      "at": "2026-11-20T19:33:58.128Z",
-      "firstAt": "2026-11-20T19:33:58.128Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:6076a2729fad4e58",
-        "title:6dc8215e4c9ef274"
-      ],
-      "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-      "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
-        "link": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-        "canonical": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-        "published": "Wed, 18 Nov 2026 15:00:00 +0000",
-        "summary": "Why models ace Olympiad math and still fumble simple everyday tasks.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Jagged-Intelligence-Why-AI-Is-Brilliant-1.png"
-        ],
-        "ageHours": 52.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6076a2729fad4e58",
-          "title:6dc8215e4c9ef274"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16528,102 +16379,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:4e7b2d36efdcbfa0": {
-      "id": "defer:url:4e7b2d36efdcbfa0",
-      "at": "2026-11-21T10:31:14.682Z",
-      "firstAt": "2026-11-21T10:31:14.682Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4e7b2d36efdcbfa0",
-        "title:fdad22bfb9e333b1"
-      ],
-      "canonical": "https://www.producthunt.com/products/publicit",
-      "title": "Publicit",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Publicit",
-        "link": "https://www.producthunt.com/products/publicit",
-        "canonical": "https://www.producthunt.com/products/publicit",
-        "published": "2026-11-18T07:19:01-08:00",
-        "summary": "<p> Omnichannel ad infrastructure for marketers and AI agents </p> <p> <a href=\"https://www.producthunt.com/products/publicit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1321826?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/publicit",
-        "images": [],
-        "ageHours": 67.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4e7b2d36efdcbfa0",
-          "title:fdad22bfb9e333b1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:8770f2f899ce7856": {
-      "id": "defer:url:8770f2f899ce7856",
-      "at": "2026-11-21T13:32:26.282Z",
-      "firstAt": "2026-11-21T13:32:26.282Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:8770f2f899ce7856",
-        "title:51c093dfb77e3270"
-      ],
-      "canonical": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
-      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
-        "link": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
-        "canonical": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
-        "published": "Sat, 21 Nov 2026 11:19:49 +0000",
-        "summary": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, and mathematicians are now checking whether either one holds up. The article Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_riemann.png"
-        ],
-        "ageHours": 2.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:8770f2f899ce7856",
-          "title:51c093dfb77e3270"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:2eae7b001568ca61": {
       "id": "defer:url:2eae7b001568ca61",
       "at": "2026-11-21T13:32:26.282Z",
@@ -16812,6 +16567,435 @@
         "keys": [
           "url:861ca51b04b5cf48",
           "title:a6e9e2e204430573"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f52216bdae320c52": {
+      "id": "defer:url:f52216bdae320c52",
+      "at": "2026-11-21T17:03:04.750Z",
+      "firstAt": "2026-11-21T17:03:04.750Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:f52216bdae320c52",
+        "title:d09820ef9e18411b"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Here are the top AI agents that can live in your text messages",
+        "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "canonical": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+        "published": "Sat, 21 Nov 2026 17:00:00 +0000",
+        "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "images": [],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:f52216bdae320c52",
+          "title:d09820ef9e18411b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1d5ae0e72c84bd62": {
+      "id": "defer:url:1d5ae0e72c84bd62",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:1d5ae0e72c84bd62",
+        "title:390df86ddcba19af"
+      ],
+      "canonical": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Nvidia researchers argue huge AI context windows are a dead end",
+        "link": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+        "canonical": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
+        "published": "Sat, 21 Nov 2026 16:23:45 +0000",
+        "summary": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even proposes a new class of models that works with short notes instead of long context. The article Nvidia researchers argue huge AI context windows are a dead end appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/you-dont-need-long-context-nano-banana-pro.jpg"
+        ],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:1d5ae0e72c84bd62",
+          "title:390df86ddcba19af"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4dc7fb4302fb5ae3": {
+      "id": "defer:url:4dc7fb4302fb5ae3",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:4dc7fb4302fb5ae3",
+        "title:e29f3a5cb294757b"
+      ],
+      "canonical": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion",
+      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+        "link": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+        "canonical": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion",
+        "published": "Sat, 21 Nov 2026 16:04:29 +0000",
+        "summary": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members take to train an AI in his image. Former members report manipulation and psychological breakdowns. The article Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/buddhist_ai_sect.png"
+        ],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:4dc7fb4302fb5ae3",
+          "title:e29f3a5cb294757b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f2e0e504895b9fb3": {
+      "id": "defer:url:f2e0e504895b9fb3",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:f2e0e504895b9fb3",
+        "title:332251914ab9baa0"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+        "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "canonical": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+        "published": "Sat, 21 Nov 2026 16:00:00 +0000",
+        "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:f2e0e504895b9fb3",
+          "title:332251914ab9baa0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:99d5b538040d55e1": {
+      "id": "defer:url:99d5b538040d55e1",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:99d5b538040d55e1",
+        "title:5c0cf53dbd825561"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.26557v1",
+      "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
+        "link": "https://arxiv.org/abs/2611.26557v1",
+        "canonical": "https://arxiv.org/abs/2611.26557v1",
+        "published": "2026-11-19T18:25:41Z",
+        "summary": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conflicts with it. Existing evaluations study decision-interface biases and multimodal model behavior in separate settings, leaving no common protocol to compare multimodal decision models with their backbones on practical tasks. We introduce \\textbf{MM-SystemOneBias}, which evaluates 13 models on 5,323 original instances from nine public datasets and 11 task scenarios using six paired interventions: option order, option label, external judgment, image--text description, irrelevant information, and rating scale. Across seven matched decision-model--backbone pairs, decision models are more stable under option-label, irrelevant-information, and rating-scale changes in all seven pairs; six pairs also show lower option-order flip rates. They incur smaller accuracy losses under incorrect external judgments in all seven pairs and conflicting descriptions in six. In six pairs, they gain less accuracy from correct external judgments and show less favorable accuracy changes under consistent descriptions. Among pairs with unchanged semantic decisions, mean absolute changes in answer probabilities range from 4.56 to 11.55 percentage points, revealing input effects that accuracy alone misses.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.26557v1",
+        "images": [],
+        "ageHours": 46.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:99d5b538040d55e1",
+          "title:5c0cf53dbd825561"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:24760f3d771dfd0d": {
+      "id": "defer:url:24760f3d771dfd0d",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:24760f3d771dfd0d",
+        "title:c1dc1d46a5642039"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.26562v1",
+      "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
+        "link": "https://arxiv.org/abs/2611.26562v1",
+        "canonical": "https://arxiv.org/abs/2611.26562v1",
+        "published": "2026-11-19T18:27:59Z",
+        "summary": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of a foundation model-based deep learning system for dysplasia grading, using 969 H\\&E-stained whole slide images from four institutions. Patch-level classifiers trained on expert annotations identified diagnostically relevant regions, followed by attribute-aware multiple instance learning for slide-level classification as non-dysplastic Barrett's esophagus (NDBE), low-grade dysplasia, or high-grade dysplasia. On a held-out test set (n = 130), macro-averaged AUC was 0.96 (95\\% CI 0.93--0.98). For binary dysplasia detection, sensitivity was 98\\% (80/82) and specificity 81\\% (39/48), with a negative likelihood ratio of 0.030 and quadratic-weighted \\kap{} of 0.83 against expert consensus. No high-grade dysplasia case was misclassified as NDBE. Performance was consistent across institutions without stain normalization, indicating that stain-robust foundation-model representations may remove the site-specific preprocessing that has constrained prior systems to institution-specific deployment.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.26562v1",
+        "images": [],
+        "ageHours": 46.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:24760f3d771dfd0d",
+          "title:c1dc1d46a5642039"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a890a236270cc5e3": {
+      "id": "defer:url:a890a236270cc5e3",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a890a236270cc5e3",
+        "title:3ddf2039d217ea0f"
+      ],
+      "canonical": "https://openai.com/business/learn/deploying-daybreak-red",
+      "title": "Deploying Daybreak Red",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Deploying Daybreak Red",
+        "link": "https://openai.com/business/learn/deploying-daybreak-red",
+        "canonical": "https://openai.com/business/learn/deploying-daybreak-red",
+        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
+        "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/learn/deploying-daybreak-red",
+        "images": [],
+        "ageHours": 65,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a890a236270cc5e3",
+          "title:3ddf2039d217ea0f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:da30645137037f00": {
+      "id": "defer:url:da30645137037f00",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:da30645137037f00",
+        "title:ad40bc77b2d22fba"
+      ],
+      "canonical": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "title": "Get started with Daybreak Blue",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Get started with Daybreak Blue",
+        "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+        "canonical": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
+        "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+        "images": [],
+        "ageHours": 65,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:da30645137037f00",
+          "title:ad40bc77b2d22fba"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:17b7a2b39f098895": {
+      "id": "defer:url:17b7a2b39f098895",
+      "at": "2026-11-21T17:03:04.751Z",
+      "firstAt": "2026-11-21T17:03:04.751Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:17b7a2b39f098895",
+        "title:349e696538a9bd74"
+      ],
+      "canonical": "https://openai.com/business/learn/pr-scans-demo",
+      "title": "See PR scans in action",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "See PR scans in action",
+        "link": "https://openai.com/business/learn/pr-scans-demo",
+        "canonical": "https://openai.com/business/learn/pr-scans-demo",
+        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
+        "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/learn/pr-scans-demo",
+        "images": [],
+        "ageHours": 65,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:17b7a2b39f098895",
+          "title:349e696538a9bd74"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19733,6 +19917,37 @@
           "at": "2026-11-21T13:32:47.085Z"
         }
       ]
+    },
+    "2026-11-21T20:30+03:30": {
+      "at": "2026-11-21T17:04:07.625Z",
+      "status": "sent",
+      "category": "security",
+      "title": "هکرهای چینی با ابزار هوش مصنوعی کرن، روز صفر پیدا کردند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/20-30",
+      "messageId": 130,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0022821176,
+      "tokens": 41524,
+      "qa": "41/43",
+      "posts": [
+        {
+          "title": "هکرهای چینی با ابزار هوش مصنوعی کرن، روز صفر پیدا کردند",
+          "category": "security",
+          "status": "sent",
+          "messageId": 130,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0007888664,
+          "tokens": 22623,
+          "qa": "41/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-21T17:04:07.625Z"
+        }
+      ]
     }
   },
   "published": [
@@ -21703,93 +21918,111 @@
       "sourceTitle": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math",
       "sourceText": "یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده\n\nلونت آلپوگه امروز ۲۰ نوامبر ۲۰۲۶ این ادعا رو مطرح کرده؛ فرضیه ریمان از سال ۱۸۵۹ حل‌نشده مونده و یکی از هفت مسئله جایزه هزاره با پاداش یک میلیون دلاره.\n\nخودش می‌گه این حدس توضیح می‌ده که مکان اعداد اول، با اینکه تصادفی به نظر می‌رسن، یه نظم پیچیده دارن.\n\nscientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/\n\n@dunijet_ai\n\n❤4🤯1",
       "at": "2026-11-21T13:32:47.086Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-21T20:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "هکرهای چینی با ابزار هوش مصنوعی کرن، روز صفر پیدا کردند",
+      "why": "این اولین باره که یک ابزار هوش مصنوعی به تنهایی یک روز صفر رو پیدا می‌کنه؛ یعنی سرعت حمله‌های سایبری می‌تونه خیلی بیشتر از توان تیم‌های امنیتی برای واکنش بشه.",
+      "dedupe_key": "amazon-cairn-zero-day-university-attack",
+      "post_key": "2026-11-21/20-30/1",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+      "sourceTitle": "Amazon: Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+      "sourceText": "Chinese hackers used an AI tool called Cairn to allegedly discover a zero-day while breaching several universities in Asia, according to a new report from Amazon’s Threat Intelligence team.\nCJ Moses, CISO of Amazon Integrated Security, said their investigation began on September 10, when they discovered a publicly accessible server with a publicly hosted instance of Cairn — an open-source autonomous AI penetration-testing framework.\nThey were able to view the operational history of the platform, including previous prompts and more. The operator wrote their prompts in Simplified Chinese and the timestamps were configured to China Standard Time. The targeted victim organizations were universities in East Asia.\nMoses explained that Cairn is ideal for attackers because, when given a starting point and objective in plain language, it can coordinate multiple AI agents to complete a task.\nIn this incident, the attacker provided IP addresses and asked Cairn to “obtain shell access” — meaning find a way to gain enough access to a system for various actions to be taken.\n“Based on those inputs, the AI agents planned, executed, and adjusted their approach as they learned, without the operator choosing each next step,” Moses said.\nOne of the attempts involved 148 actions taken over 16 hours that were ultimately unsuccessful, including a failed attempt at exploiting the Log4Shell vulnerability. Another failed effort saw Cairn try for more than six hours to breach university servers by testing more than 30,000 credential combinations tied to 80 real usernames.\nThe only successful attempt ",
+      "at": "2026-11-21T17:04:07.626Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8507,
-      "last_at": "2026-11-21T12:34:19+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 8508,
+      "last_at": "2026-11-21T13:40:25+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "ai_farshad": {
-      "last_id": 6489,
-      "last_at": "2026-11-21T11:34:54+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 6490,
+      "last_at": "2026-11-21T14:48:19+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7259,
-      "last_at": "2026-11-21T12:49:17+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 7261,
+      "last_at": "2026-11-21T16:22:02+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "techiin_ir": {
-      "last_id": 20816,
-      "last_at": "2026-11-21T09:50:53+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 20817,
+      "last_at": "2026-11-21T09:59:24+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "mgh_mobin": {
       "last_id": 499,
       "last_at": "2026-11-21T10:51:01+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "web3nabu": {
       "last_id": 2182,
       "last_at": "2026-11-20T16:42:02+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "asrnovin_ir": {
-      "last_id": 11504,
-      "last_at": "2026-11-21T09:55:54+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 11506,
+      "last_at": "2026-11-21T16:35:50+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "shayanode": {
       "last_id": 259,
       "last_at": "2026-11-20T22:47:17+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "codecloude": {
       "last_id": 2609,
       "last_at": "2026-11-21T08:29:34+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "dunijet_ai": {
-      "last_id": 2599,
-      "last_at": "2026-11-21T13:29:51+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 2601,
+      "last_at": "2026-11-21T16:27:11+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "marketing_aida": {
-      "last_id": 110,
-      "last_at": "2026-11-20T14:50:36+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 111,
+      "last_at": "2026-11-21T15:21:48+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "MatinSenPaii": {
-      "last_id": 5940,
-      "last_at": "2026-11-21T13:20:58+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "last_id": 5941,
+      "last_at": "2026-11-21T16:49:02+00:00",
+      "checked_at": "2026-11-21T17:01:09.755Z"
     },
     "thenimaonAI": {
       "last_id": 556,
       "last_at": "2026-11-21T08:35:44+00:00",
-      "checked_at": "2026-11-21T13:30:56.416Z"
+      "checked_at": "2026-11-21T17:01:09.755Z"
     }
   },
   "offerReviews": [
@@ -26218,6 +26451,66 @@
       "url": "https://t.me/mgh_mobin/499",
       "reason": "denied_link",
       "slot": "2026-11-21T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-dunijet-ai|https://t.me/dunijet_ai/2601",
+      "date": "2026-11-21",
+      "at": "2026-11-21T17:01:09.755Z",
+      "source": "tg-dunijet-ai",
+      "title": "یه نمونه پیاده سازی AI Engineering در اپ ایزی تریدر مفید",
+      "url": "https://t.me/dunijet_ai/2601",
+      "reason": "no_link",
+      "slot": "2026-11-21T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-marketing-aida|https://t.me/marketing_aida/111",
+      "date": "2026-11-21",
+      "at": "2026-11-21T17:01:09.755Z",
+      "source": "tg-marketing-aida",
+      "title": "بچه ها اگه همه‌ی کارای مارکتینگتون رو با یه AI جلو میبرید، این PDF رو از",
+      "url": "https://t.me/marketing_aida/111",
+      "reason": "denied_link",
+      "slot": "2026-11-21T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-asr-novin|https://t.me/asrnovin_ir/11505",
+      "date": "2026-11-21",
+      "at": "2026-11-21T17:01:09.755Z",
+      "source": "tg-asr-novin",
+      "title": "⏺گزارش‌های جدید نشان می‌دهند OpenAI برای تولید نخستین گوشی هوشمند خود با شرکت FIH Mobile، زیرمجموعه",
+      "url": "https://t.me/asrnovin_ir/11505",
+      "reason": "denied_link",
+      "slot": "2026-11-21T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-archive-tell|https://t.me/ArchiveTell/8508",
+      "date": "2026-11-21",
+      "at": "2026-11-21T17:01:09.755Z",
+      "source": "tg-archive-tell",
+      "title": "✨جمینای به شدت در حال پیشرفته و Aura رو به خود جذب میکنه.",
+      "url": "https://t.me/ArchiveTell/8508",
+      "reason": "denied_link",
+      "slot": "2026-11-21T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-dunijet-ai|https://t.me/dunijet_ai/2600",
+      "date": "2026-11-21",
+      "at": "2026-11-21T17:01:09.755Z",
+      "source": "tg-dunijet-ai",
+      "title": "پیترین‌ها ‎ole th‏ [ »کرش هوشمند از",
+      "url": "https://t.me/dunijet_ai/2600",
+      "reason": "ocr_discovery",
+      "slot": "2026-11-21T20:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
