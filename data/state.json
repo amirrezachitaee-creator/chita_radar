@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-21T08:51:03.505Z",
+  "updatedAt": "2026-11-21T10:32:17.129Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14045,6 +14045,132 @@
       "slot": "2026-11-21T11:30+03:30",
       "title": "Uizze: UI taste for AI agents",
       "url": "https://github.com/Leonxlnx/taste"
+    },
+    "url:51abb6397aeb6337": {
+      "at": "2026-11-21T10:31:09.324Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up"
+    },
+    "title:fa5f9e5c305d392d": {
+      "at": "2026-11-21T10:31:09.324Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up"
+    },
+    "url:dea274a5dc685148": {
+      "at": "2026-11-21T10:31:10.446Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "تا حالا همچین رباتی توی تلگرام دیده بودی؟؟ 🤔 تمام چیزایی که نیاز داری، همین‌جا توی",
+      "url": "https://t.me/ArchiveTell/8506"
+    },
+    "title:dab9b128919ee065": {
+      "at": "2026-11-21T10:31:10.446Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "تا حالا همچین رباتی توی تلگرام دیده بودی؟؟ 🤔 تمام چیزایی که نیاز داری، همین‌جا توی",
+      "url": "https://t.me/ArchiveTell/8506"
+    },
+    "url:14ae2840a1d4e5e8": {
+      "at": "2026-11-21T10:31:10.678Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "تا حالا همچین رباتی توی تلگرام دیده بودی؟؟ 🤔",
+      "url": "https://t.me/ArchiveTell/8505"
+    },
+    "title:1f067add40a8465a": {
+      "at": "2026-11-21T10:31:10.678Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "تا حالا همچین رباتی توی تلگرام دیده بودی؟؟ 🤔",
+      "url": "https://t.me/ArchiveTell/8505"
+    },
+    "url:12d8ab9567a88f1d": {
+      "at": "2026-11-21T10:31:14.489Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "11 خبر مهم تکنولوژی",
+      "url": "https://t.me/asrnovin_ir/11504"
+    },
+    "title:9a68a0043d701693": {
+      "at": "2026-11-21T10:31:14.489Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "11 خبر مهم تکنولوژی",
+      "url": "https://t.me/asrnovin_ir/11504"
+    },
+    "url:0cb5b5c8f6992e76": {
+      "at": "2026-11-21T10:31:14.674Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "ریاضیدان آنتروپیک ادعا می‌کنه با کمک کلاد فرضیه ریمان رو اثبات کرده لونت آلپوگه توی یه",
+      "url": "https://t.me/MatinSenPaii/5939"
+    },
+    "title:870283b13fada6a2": {
+      "at": "2026-11-21T10:31:14.674Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "ریاضیدان آنتروپیک ادعا می‌کنه با کمک کلاد فرضیه ریمان رو اثبات کرده لونت آلپوگه توی یه",
+      "url": "https://t.me/MatinSenPaii/5939"
+    },
+    "url:0b91c53826027566": {
+      "at": "2026-11-21T10:32:16.815Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+      "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
+      "benchmark": false
+    },
+    "title:cdc98c287be0a35c": {
+      "at": "2026-11-21T10:32:16.815Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+      "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
+      "benchmark": false
+    },
+    "url:532682dcd475f88a": {
+      "at": "2026-11-21T10:32:17.128Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
+      "url": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026"
+    },
+    "title:9331f66c140a0fa1": {
+      "at": "2026-11-21T10:32:17.128Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-21T14:00+03:30",
+      "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
+      "url": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026"
     }
   },
   "deferred": {
@@ -14364,147 +14490,6 @@
         "keys": [
           "url:24760f3d771dfd0d",
           "title:c1dc1d46a5642039"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a890a236270cc5e3": {
-      "id": "defer:url:a890a236270cc5e3",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a890a236270cc5e3",
-        "title:3ddf2039d217ea0f"
-      ],
-      "canonical": "https://openai.com/business/learn/deploying-daybreak-red",
-      "title": "Deploying Daybreak Red",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Deploying Daybreak Red",
-        "link": "https://openai.com/business/learn/deploying-daybreak-red",
-        "canonical": "https://openai.com/business/learn/deploying-daybreak-red",
-        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-        "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/learn/deploying-daybreak-red",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a890a236270cc5e3",
-          "title:3ddf2039d217ea0f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:da30645137037f00": {
-      "id": "defer:url:da30645137037f00",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:da30645137037f00",
-        "title:ad40bc77b2d22fba"
-      ],
-      "canonical": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "title": "Get started with Daybreak Blue",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Get started with Daybreak Blue",
-        "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-        "canonical": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-        "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:da30645137037f00",
-          "title:ad40bc77b2d22fba"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:17b7a2b39f098895": {
-      "id": "defer:url:17b7a2b39f098895",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:17b7a2b39f098895",
-        "title:349e696538a9bd74"
-      ],
-      "canonical": "https://openai.com/business/learn/pr-scans-demo",
-      "title": "See PR scans in action",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "See PR scans in action",
-        "link": "https://openai.com/business/learn/pr-scans-demo",
-        "canonical": "https://openai.com/business/learn/pr-scans-demo",
-        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-        "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/learn/pr-scans-demo",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:17b7a2b39f098895",
-          "title:349e696538a9bd74"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -15018,54 +15003,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:0b91c53826027566": {
-      "id": "defer:url:0b91c53826027566",
-      "at": "2026-11-20T13:31:29.352Z",
-      "firstAt": "2026-11-20T13:31:29.352Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:0b91c53826027566",
-        "title:cdc98c287be0a35c"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
-      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-        "link": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-        "canonical": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
-        "published": "Fri, 20 Nov 2026 13:21:11 +0000",
-        "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-        "images": [],
-        "ageHours": 0.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:0b91c53826027566",
-          "title:cdc98c287be0a35c"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:bd128091bfe5d9af": {
       "id": "defer:url:bd128091bfe5d9af",
       "at": "2026-11-20T13:31:29.352Z",
@@ -15394,55 +15331,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:532682dcd475f88a": {
-      "id": "defer:url:532682dcd475f88a",
-      "at": "2026-11-20T17:04:57.952Z",
-      "firstAt": "2026-11-20T17:04:57.952Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:532682dcd475f88a",
-        "title:9331f66c140a0fa1"
-      ],
-      "canonical": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
-      "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
-        "link": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
-        "canonical": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
-        "published": "Fri, 20 Nov 2026 15:00:00 +0000",
-        "summary": "A practical guide to choosing between open-weight and commercial models, built around the four questions that actually determine the right answer for your use case.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kd-open-source-vs-proprietary-llms-a-decision-framework-for-2026-illustration-1200x600-feature.png"
-        ],
-        "ageHours": 2.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:532682dcd475f88a",
-          "title:9331f66c140a0fa1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:1c69154a0a8df3e3": {
       "id": "defer:url:1c69154a0a8df3e3",
       "at": "2026-11-20T17:04:57.952Z",
@@ -15582,53 +15470,6 @@
         "keys": [
           "url:9342dbf934e428aa",
           "title:719b8b9c65e7499b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:184d931227f2504d": {
-      "id": "defer:url:184d931227f2504d",
-      "at": "2026-11-20T17:04:57.953Z",
-      "firstAt": "2026-11-20T17:04:57.953Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:184d931227f2504d",
-        "title:259bd3365a9e8ab9"
-      ],
-      "canonical": "https://openai.com/index/the-silent-consensus",
-      "title": "The Silent Consensus",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "The Silent Consensus",
-        "link": "https://openai.com/index/the-silent-consensus",
-        "canonical": "https://openai.com/index/the-silent-consensus",
-        "published": "Wed, 18 Nov 2026 10:00:00 GMT",
-        "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/the-silent-consensus",
-        "images": [],
-        "ageHours": 55.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:184d931227f2504d",
-          "title:259bd3365a9e8ab9"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16469,6 +16310,296 @@
         "keys": [
           "url:e55c8f2df06c07ff",
           "title:7202c4c44e4f6e5b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9866df6d164d92d0": {
+      "id": "defer:url:9866df6d164d92d0",
+      "at": "2026-11-21T10:31:14.682Z",
+      "firstAt": "2026-11-21T10:31:14.682Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:9866df6d164d92d0",
+        "title:28ae2b076369812d"
+      ],
+      "canonical": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+        "link": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+        "canonical": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+        "published": "Sat, 21 Nov 2026 09:17:24 +0000",
+        "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/bytedance-axio-training-pipeline-nano-banana-pro.jpg"
+        ],
+        "ageHours": 1.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9866df6d164d92d0",
+          "title:28ae2b076369812d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ff62a6d0a83feae4": {
+      "id": "defer:url:ff62a6d0a83feae4",
+      "at": "2026-11-21T10:31:14.682Z",
+      "firstAt": "2026-11-21T10:31:14.682Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:ff62a6d0a83feae4",
+        "title:c7006ba8b22af28a"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Google rolls out new search homepage with AI chat history and no search button",
+        "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+        "canonical": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+        "published": "Fri, 20 Nov 2026 21:58:29 +0000",
+        "summary": "Google search is making it even easier to access AI tools on the search page.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-500x500-1780514708.jpg"
+        ],
+        "ageHours": 12.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:ff62a6d0a83feae4",
+          "title:c7006ba8b22af28a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:04356e8e216a36d7": {
+      "id": "defer:url:04356e8e216a36d7",
+      "at": "2026-11-21T10:31:14.682Z",
+      "firstAt": "2026-11-21T10:31:14.682Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:04356e8e216a36d7",
+        "title:f729cb009cc949ed"
+      ],
+      "canonical": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats",
+      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+        "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+        "canonical": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats",
+        "published": "Fri, 20 Nov 2026 19:50:27 +0000",
+        "summary": "Signal is blocking screenshots to stop AI agents like Apple's Siri AI, Google's Gemini Intelligence, and Meta's Muse from reading private chats. The app calls it an \"existential threat\" to privacy, but admits its protections remain incomplete, including on macOS. Apple, Google, and Microsoft should follow suit. The article Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/signal_ai_agents.png"
+        ],
+        "ageHours": 14.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:04356e8e216a36d7",
+          "title:f729cb009cc949ed"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:07d3a6a4e8e8d0eb": {
+      "id": "defer:url:07d3a6a4e8e8d0eb",
+      "at": "2026-11-21T10:31:14.682Z",
+      "firstAt": "2026-11-21T10:31:14.682Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:07d3a6a4e8e8d0eb",
+        "title:f807a1ed5ec11437"
+      ],
+      "canonical": "https://www.producthunt.com/products/stitch-loop",
+      "title": "Stitch Loop",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Stitch Loop",
+        "link": "https://www.producthunt.com/products/stitch-loop",
+        "canonical": "https://www.producthunt.com/products/stitch-loop",
+        "published": "2026-11-20T11:38:38-08:00",
+        "summary": "<p> Google’s AI agent that ships fixes and watches the metric </p> <p> <a href=\"https://www.producthunt.com/products/stitch-loop?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1324651?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/stitch-loop",
+        "images": [],
+        "ageHours": 14.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:07d3a6a4e8e8d0eb",
+          "title:f807a1ed5ec11437"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:68055c8173516fcf": {
+      "id": "defer:url:68055c8173516fcf",
+      "at": "2026-11-21T10:31:14.682Z",
+      "firstAt": "2026-11-21T10:31:14.682Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:68055c8173516fcf",
+        "title:51b9177b0ab0a3fc"
+      ],
+      "canonical": "https://www.producthunt.com/products/gitroots",
+      "title": "gitroots",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "gitroots",
+        "link": "https://www.producthunt.com/products/gitroots",
+        "canonical": "https://www.producthunt.com/products/gitroots",
+        "published": "2026-11-20T05:22:16-08:00",
+        "summary": "<p> Path-level GitHub access for developers and AI agents </p> <p> <a href=\"https://www.producthunt.com/products/gitroots?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1324299?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/gitroots",
+        "images": [],
+        "ageHours": 21.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:68055c8173516fcf",
+          "title:51b9177b0ab0a3fc"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4e7b2d36efdcbfa0": {
+      "id": "defer:url:4e7b2d36efdcbfa0",
+      "at": "2026-11-21T10:31:14.682Z",
+      "firstAt": "2026-11-21T10:31:14.682Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4e7b2d36efdcbfa0",
+        "title:fdad22bfb9e333b1"
+      ],
+      "canonical": "https://www.producthunt.com/products/publicit",
+      "title": "Publicit",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Publicit",
+        "link": "https://www.producthunt.com/products/publicit",
+        "canonical": "https://www.producthunt.com/products/publicit",
+        "published": "2026-11-18T07:19:01-08:00",
+        "summary": "<p> Omnichannel ad infrastructure for marketers and AI agents </p> <p> <a href=\"https://www.producthunt.com/products/publicit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1321826?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/publicit",
+        "images": [],
+        "ageHours": 67.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4e7b2d36efdcbfa0",
+          "title:fdad22bfb9e333b1"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19328,6 +19459,37 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "43/43"
+    },
+    "2026-11-21T14:00+03:30": {
+      "at": "2026-11-21T10:32:16.815Z",
+      "status": "sent",
+      "category": "business",
+      "title": "دادستانی کالیفرنیا از انویدیا درباره رابطه هوانگ با چین تحقیق می‌کند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/14-00",
+      "messageId": 128,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0020964496,
+      "tokens": 31609,
+      "qa": "41/43",
+      "posts": [
+        {
+          "title": "دادستانی کالیفرنیا از انویدیا درباره رابطه هوانگ با چین تحقیق می‌کند",
+          "category": "business",
+          "status": "sent",
+          "messageId": 128,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0007630896,
+          "tokens": 22240,
+          "qa": "41/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-21T10:32:16.815Z"
+        }
+      ]
     }
   },
   "published": [
@@ -21262,93 +21424,111 @@
       "sourceTitle": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
       "sourceText": "Google now lets Gemini handle Mac tasks in the background. The new \"Computer Use\" feature in the Gemini Mac app completes multistep tasks across local files, desktop apps, and websites. Google says users simply describe a goal, and Gemini clicks, types, and navigates menus and forms. Everything runs in an isolated background window with a live chat preview, keeping the screen and cursor free for uninterrupted work.\nUsers choose which apps Gemini can access, watch every step live, pause anytime, and approve key actions beforehand. Google's examples include batch-editing photos and 3D scenes, filling out shipping forms from local PDFs, and building presentations.\nComputer Use rolls out in English in the US today, and the Gemini Mac app is available to download . OpenAI has also focused on Computer Use recently, pulling well ahead with its Astra model . Ad Ad\nEvery week, our editors pick the AI news that matter and explain what they mean. No hype, no spam.",
       "at": "2026-11-21T08:50:58.646Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-21T14:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "دادستانی کالیفرنیا از انویدیا درباره رابطه هوانگ با چین تحقیق می‌کند",
+      "why": "این پرونده می‌تونه نحوه فروش چیپ به چین رو برای همیشه عوض کنه و فشار نظارتی روی انویدیا رو به شدت زیاد کنه.",
+      "dedupe_key": "nvidia-california-subpoena-china",
+      "post_key": "2026-11-21/14-00/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+      "sourceTitle": "California AG subpoenas Nvidia over worries about Huang's ties with China | TechCrunch",
+      "sourceText": "California’s Attorney General Rob Bonta on Thursday evening said the state has served an investigative subpoena to Nvidia following news of former CEO Jensen Huang’s affair with a woman who the U.S. government believes is a Chinese spy.\nThe state is investigating the company to find out if its advanced GPUs or confidential information may have been shared with China, and if the company had somehow misled its investors and the public.\n“The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,” Bonta said in a statement .\n“My office is investigating whether Nvidia or Jensen Huang’s actions resulted in China obtaining advanced chips or confidential information — and if Nvidia misled investors and the public about this risk, in violation of the law,” he added.\nThe investigation comes in the wake of a messy couple of weeks for Nvidia, which has overnight come under intense scrutiny around the world due to the implications of Huang’s alleged relationship with the Chinese national, Alice Huang (who is not related to Jensen).\nThe Nvidia founder resigned last week after further revelations of extramarital affairs with the company’s employees. And while many tech voices have been petitioning Nvidia to bring back Huang as CEO, saying they see him as indispensable to the further development of the AI industry, the company’s new chair, Harvey Jones, said earlier this week that Nvidia had no intention of reinstating Huang to his position.\nThe company’s board has hired a law firm as well as an independent sla",
+      "at": "2026-11-21T10:32:16.816Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8502,
-      "last_at": "2026-11-21T08:30:17+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "last_id": 8506,
+      "last_at": "2026-11-21T09:55:28+00:00",
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "ai_farshad": {
       "last_id": 6487,
       "last_at": "2026-11-21T08:31:24+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "Mohammad_zammani": {
       "last_id": 7256,
       "last_at": "2026-11-21T08:00:23+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "techiin_ir": {
-      "last_id": 20814,
-      "last_at": "2026-11-20T16:38:19+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "last_id": 20815,
+      "last_at": "2026-11-20T17:09:30+00:00",
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "web3nabu": {
       "last_id": 2182,
       "last_at": "2026-11-20T16:42:02+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "asrnovin_ir": {
-      "last_id": 11503,
-      "last_at": "2026-11-21T08:26:30+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "last_id": 11504,
+      "last_at": "2026-11-21T09:55:54+00:00",
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "shayanode": {
-      "last_id": 258,
-      "last_at": "2026-11-20T22:47:02+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "last_id": 259,
+      "last_at": "2026-11-20T22:47:17+00:00",
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "codecloude": {
       "last_id": 2609,
       "last_at": "2026-11-21T08:29:34+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "dunijet_ai": {
-      "last_id": 2592,
-      "last_at": "2026-11-20T16:35:03+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "last_id": 2593,
+      "last_at": "2026-11-21T10:23:15+00:00",
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "marketing_aida": {
       "last_id": 110,
       "last_at": "2026-11-20T14:50:36+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "Sajadverse": {
-      "last_id": 1257,
-      "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "last_id": 1263,
+      "last_at": "2026-11-21T09:35:07+00:00",
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "MatinSenPaii": {
-      "last_id": 5938,
-      "last_at": "2026-11-21T06:06:02+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "last_id": 5939,
+      "last_at": "2026-11-21T09:07:22+00:00",
+      "checked_at": "2026-11-21T10:30:56.554Z"
     },
     "thenimaonAI": {
       "last_id": 556,
       "last_at": "2026-11-21T08:35:44+00:00",
-      "checked_at": "2026-11-21T08:49:01.486Z"
+      "checked_at": "2026-11-21T10:30:56.554Z"
     }
   },
   "offerReviews": [
@@ -25682,6 +25862,66 @@
       "reason": "model_skip",
       "slot": "2026-11-21T11:30+03:30",
       "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-archive-tell|https://t.me/ArchiveTell/8506",
+      "date": "2026-11-21",
+      "at": "2026-11-21T10:30:56.554Z",
+      "source": "tg-archive-tell",
+      "title": "تا حالا همچین رباتی توی تلگرام دیده بودی؟؟ 🤔 تمام چیزایی که نیاز داری، همین‌جا توی",
+      "url": "https://t.me/ArchiveTell/8506",
+      "reason": "link_missing",
+      "slot": "2026-11-21T14:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-archive-tell|https://t.me/ArchiveTell/8505",
+      "date": "2026-11-21",
+      "at": "2026-11-21T10:30:56.554Z",
+      "source": "tg-archive-tell",
+      "title": "تا حالا همچین رباتی توی تلگرام دیده بودی؟؟ 🤔",
+      "url": "https://t.me/ArchiveTell/8505",
+      "reason": "denied_link",
+      "slot": "2026-11-21T14:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-asr-novin|https://t.me/asrnovin_ir/11504",
+      "date": "2026-11-21",
+      "at": "2026-11-21T10:30:56.554Z",
+      "source": "tg-asr-novin",
+      "title": "11 خبر مهم تکنولوژی",
+      "url": "https://t.me/asrnovin_ir/11504",
+      "reason": "denied_link",
+      "slot": "2026-11-21T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-matin-senpai|https://t.me/MatinSenPaii/5939",
+      "date": "2026-11-21",
+      "at": "2026-11-21T10:30:56.554Z",
+      "source": "tg-matin-senpai",
+      "title": "ریاضیدان آنتروپیک ادعا می‌کنه با کمک کلاد فرضیه ریمان رو اثبات کرده لونت آلپوگه توی یه",
+      "url": "https://t.me/MatinSenPaii/5939",
+      "reason": "denied_link",
+      "slot": "2026-11-21T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|kdnuggets|https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
+      "date": "2026-11-21",
+      "at": "2026-11-21T10:30:56.554Z",
+      "source": "kdnuggets",
+      "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026 - KDnuggets",
+      "url": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
+      "reason": "source_not_official",
+      "slot": "2026-11-21T14:00+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],
