@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-21T17:39:22.156Z",
+  "updatedAt": "2026-11-21T19:31:20.521Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14504,6 +14504,87 @@
       "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
       "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
       "benchmark": false
+    },
+    "url:f54713977487b6ec": {
+      "at": "2026-11-21T19:31:09.505Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini"
+    },
+    "title:2a69bfed00e19835": {
+      "at": "2026-11-21T19:31:09.505Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini"
+    },
+    "url:5fe670f7b3d855b3": {
+      "at": "2026-11-21T19:31:11.228Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "میگن کلاد تعمیم های نظریه ریمان رو ثابت کرده 😳",
+      "url": "https://t.me/ArchiveTell/8512"
+    },
+    "title:cb808d646d13399a": {
+      "at": "2026-11-21T19:31:11.238Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "میگن کلاد تعمیم های نظریه ریمان رو ثابت کرده 😳",
+      "url": "https://t.me/ArchiveTell/8511"
+    },
+    "url:5b866db2fb3edd79": {
+      "at": "2026-11-21T19:31:11.238Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "میگن کلاد تعمیم های نظریه ریمان رو ثابت کرده 😳",
+      "url": "https://t.me/ArchiveTell/8511"
+    },
+    "url:8bda096dee4495a8": {
+      "at": "2026-11-21T19:31:11.458Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "🎬 تدوین حرفه‌ای ویدیو فقط با چند دستور ساده!",
+      "url": "https://t.me/ai_farshad/6491"
+    },
+    "title:91eccd0e214098d8": {
+      "at": "2026-11-21T19:31:11.458Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "🎬 تدوین حرفه‌ای ویدیو فقط با چند دستور ساده!",
+      "url": "https://t.me/ai_farshad/6491"
+    },
+    "url:ff62a6d0a83feae4": {
+      "at": "2026-11-21T19:31:20.517Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+      "benchmark": false
+    },
+    "title:c7006ba8b22af28a": {
+      "at": "2026-11-21T19:31:20.517Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-21T23:00+03:30",
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -14808,108 +14889,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:b681a976efae2472": {
-      "id": "defer:url:b681a976efae2472",
-      "at": "2026-11-20T10:31:20.023Z",
-      "firstAt": "2026-11-20T10:31:20.023Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:b681a976efae2472",
-        "title:236e669d59c0892a"
-      ],
-      "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
-      "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
-        "link": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
-        "canonical": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
-        "published": "Wed, 18 Nov 2026 19:26:25 +0000",
-        "summary": "With Genie 4, Google DeepMind is launching its most realistic world model to date for Google AI Ultra subscribers. It generates interactive 3D worlds that can be modified in real time via text input and, for the first time, includes native sound. A community gallery allows users to share and remix the worlds they've created. The article Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/Genie-4-Google-title.png"
-        ],
-        "ageHours": 39.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b681a976efae2472",
-          "title:236e669d59c0892a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6e60ec8c10b2996b": {
-      "id": "defer:url:6e60ec8c10b2996b",
-      "at": "2026-11-20T10:31:20.023Z",
-      "firstAt": "2026-11-20T10:31:20.023Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:6e60ec8c10b2996b",
-        "title:b684a1e58d5bb0cd"
-      ],
-      "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
-      "title": "Will Wright's next simulation will use AI to mine content from your memories",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Will Wright's next simulation will use AI to mine content from your memories",
-        "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-        "canonical": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
-        "published": "Wed, 18 Nov 2026 18:10:33 +0000",
-        "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-500x500.png"
-        ],
-        "ageHours": 40.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:6e60ec8c10b2996b",
-          "title:b684a1e58d5bb0cd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:abd04dc00b8ba51e": {
       "id": "defer:url:abd04dc00b8ba51e",
       "at": "2026-11-20T10:31:20.023Z",
@@ -14956,58 +14935,6 @@
         "keys": [
           "url:abd04dc00b8ba51e",
           "title:b83315e9c96fd91b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:25a4ca5f35209bfb": {
-      "id": "defer:url:25a4ca5f35209bfb",
-      "at": "2026-11-20T10:31:20.023Z",
-      "firstAt": "2026-11-20T10:31:20.023Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:25a4ca5f35209bfb",
-        "title:0b1bf70da2446052"
-      ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
-      "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-        "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
-        "published": "Wed, 18 Nov 2026 19:19:33 +0000",
-        "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-500x500-1795023220.jpg"
-        ],
-        "ageHours": 39.2,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:25a4ca5f35209bfb",
-          "title:0b1bf70da2446052"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16088,53 +16015,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:e55c8f2df06c07ff": {
-      "id": "defer:url:e55c8f2df06c07ff",
-      "at": "2026-11-21T08:01:23.238Z",
-      "firstAt": "2026-11-21T08:01:23.238Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e55c8f2df06c07ff",
-        "title:7202c4c44e4f6e5b"
-      ],
-      "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Why your fine-tuning job takes longer than the FLOPs say",
-        "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-        "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-        "published": "Wed, 18 Nov 2026 18:53:43 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-        "images": [],
-        "ageHours": 61.1,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e55c8f2df06c07ff",
-          "title:7202c4c44e4f6e5b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:9866df6d164d92d0": {
       "id": "defer:url:9866df6d164d92d0",
       "at": "2026-11-21T10:31:14.682Z",
@@ -16179,58 +16059,6 @@
         "keys": [
           "url:9866df6d164d92d0",
           "title:28ae2b076369812d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ff62a6d0a83feae4": {
-      "id": "defer:url:ff62a6d0a83feae4",
-      "at": "2026-11-21T10:31:14.682Z",
-      "firstAt": "2026-11-21T10:31:14.682Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:ff62a6d0a83feae4",
-        "title:c7006ba8b22af28a"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
-      "title": "Google rolls out new search homepage with AI chat history and no search button",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Google rolls out new search homepage with AI chat history and no search button",
-        "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-        "canonical": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
-        "published": "Fri, 20 Nov 2026 21:58:29 +0000",
-        "summary": "Google search is making it even easier to access AI tools on the search page.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-500x500-1780514708.jpg"
-        ],
-        "ageHours": 12.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:ff62a6d0a83feae4",
-          "title:c7006ba8b22af28a"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16996,6 +16824,159 @@
         "keys": [
           "url:17b7a2b39f098895",
           "title:349e696538a9bd74"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:66eae4612900f2e7": {
+      "id": "defer:url:66eae4612900f2e7",
+      "at": "2026-11-21T19:31:11.473Z",
+      "firstAt": "2026-11-21T19:31:11.473Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:66eae4612900f2e7",
+        "title:70d3250a456e9b30"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+        "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+        "canonical": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+        "published": "Fri, 20 Nov 2026 21:47:10 +0000",
+        "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-500x500.jpg"
+        ],
+        "ageHours": 21.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:66eae4612900f2e7",
+          "title:70d3250a456e9b30"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f22d46a83ecd25c4": {
+      "id": "defer:url:f22d46a83ecd25c4",
+      "at": "2026-11-21T19:31:11.473Z",
+      "firstAt": "2026-11-21T19:31:11.473Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f22d46a83ecd25c4",
+        "title:6935a7ab57a1584f"
+      ],
+      "canonical": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+        "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "canonical": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+        "published": "Fri, 20 Nov 2026 20:59:08 +0000",
+        "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-500x500.jpg"
+        ],
+        "ageHours": 22.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:f22d46a83ecd25c4",
+          "title:6935a7ab57a1584f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fc4544c70639fb7e": {
+      "id": "defer:url:fc4544c70639fb7e",
+      "at": "2026-11-21T19:31:11.473Z",
+      "firstAt": "2026-11-21T19:31:11.473Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:fc4544c70639fb7e",
+        "title:8c4937db999b1908"
+      ],
+      "canonical": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+      "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+        "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+        "canonical": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+        "published": "Fri, 20 Nov 2026 20:25:00 GMT",
+        "summary": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+        "images": [
+          "http://cms.therecord.media/uploads/garbarino_20230423_515e2f0b4a.png"
+        ],
+        "ageHours": 23.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:fc4544c70639fb7e",
+          "title:8c4937db999b1908"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19948,6 +19929,37 @@
           "at": "2026-11-21T17:04:07.625Z"
         }
       ]
+    },
+    "2026-11-21T23:00+03:30": {
+      "at": "2026-11-21T19:31:20.517Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "صفحه اصلی جستجوی گوگل بازطراحی شد و دکمه جستجو حذف شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/23-00",
+      "messageId": 131,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0015372,
+      "tokens": 10300,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "صفحه اصلی جستجوی گوگل بازطراحی شد و دکمه جستجو حذف شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 131,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0015372,
+          "tokens": 10300,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-21T19:31:20.517Z"
+        }
+      ]
     }
   },
   "published": [
@@ -21936,216 +21948,114 @@
       "sourceTitle": "Amazon: Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
       "sourceText": "Chinese hackers used an AI tool called Cairn to allegedly discover a zero-day while breaching several universities in Asia, according to a new report from Amazon’s Threat Intelligence team.\nCJ Moses, CISO of Amazon Integrated Security, said their investigation began on September 10, when they discovered a publicly accessible server with a publicly hosted instance of Cairn — an open-source autonomous AI penetration-testing framework.\nThey were able to view the operational history of the platform, including previous prompts and more. The operator wrote their prompts in Simplified Chinese and the timestamps were configured to China Standard Time. The targeted victim organizations were universities in East Asia.\nMoses explained that Cairn is ideal for attackers because, when given a starting point and objective in plain language, it can coordinate multiple AI agents to complete a task.\nIn this incident, the attacker provided IP addresses and asked Cairn to “obtain shell access” — meaning find a way to gain enough access to a system for various actions to be taken.\n“Based on those inputs, the AI agents planned, executed, and adjusted their approach as they learned, without the operator choosing each next step,” Moses said.\nOne of the attempts involved 148 actions taken over 16 hours that were ultimately unsuccessful, including a failed attempt at exploiting the Log4Shell vulnerability. Another failed effort saw Cairn try for more than six hours to breach university servers by testing more than 30,000 credential combinations tied to 80 real usernames.\nThe only successful attempt ",
       "at": "2026-11-21T17:04:07.626Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-21T23:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "صفحه اصلی جستجوی گوگل بازطراحی شد و دکمه جستجو حذف شد",
+      "why": "حذف دکمه جستجو برای کاربری که همیشه با Enter یا پیشنهادهای خودکار جستجو می‌کرده، چیز مهمی از دست نمی‌ده. ولی این تغییر نشون می‌ده گوگل چقدر جدی می‌خواد هوش مصنوعی رو به مرکز جستجو بیاره و کم‌کم داره جستجوی سنتی رو به حاشیه می‌بره.",
+      "dedupe_key": "google-search-redesign-ai-sidebar",
+      "post_key": "2026-11-21/23-00/1",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "sourceTitle": "Google rolls out new search homepage with AI chat history and no search button",
+      "sourceText": "Google search is making it even easier to access AI tools on the search page.\nGoogle’s flagship search experience is evolving into an AI experience with stunning speed. Even time-tested elements of search are getting AI makeovers, and the latest to get this treatment is the search homepage on Google.com. A redesign that’s been in testing for the last few weeks is now official, bringing easier access to AI chats and dropping the dedicated search button entirely.\nGoogle search VP Robby Stein confirmed on X that Google is deploying the new desktop search page after a successful test. The page will now have a few more buttons under the search bar, all connected to AI features. There’s an image generation button, one for analyzing files, and one for brainstorming with Gemini. The “I’m Feeling Lucky” button remains, but the Google Search button that used to sit next to it is gone.\nThe search button has obviously been a part of Google’s search page forever. However, it wasn’t in a very convenient location in the modern interface. When you begin typing a query, the autocomplete suggestions cover that button. You have to click out of the text field to access the button, which is an extra step compared to simply mashing the Enter key to run your search.\nThe other big change brings your recent AI conversations to the forefront. If you’re logged into Google, the search homepage will have an expandable sidebar on the left with your recent AI Mode search threads. This sidebar will also be accessible on the results page. According to Stein, the sidebar made a “big difference” in how peopl",
+      "at": "2026-11-21T19:31:20.518Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8508,
-      "last_at": "2026-11-21T13:40:25+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "last_id": 8514,
+      "last_at": "2026-11-21T19:24:56+00:00",
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "pedramgholizadeh": {
-      "last_id": 809,
-      "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "last_id": 810,
+      "last_at": "2026-11-21T19:26:17+00:00",
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "ai_farshad": {
-      "last_id": 6490,
-      "last_at": "2026-11-21T14:48:19+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "last_id": 6491,
+      "last_at": "2026-11-21T17:55:41+00:00",
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "Mohammad_zammani": {
       "last_id": 7261,
       "last_at": "2026-11-21T16:22:02+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "techiin_ir": {
-      "last_id": 20817,
-      "last_at": "2026-11-21T09:59:24+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "last_id": 20821,
+      "last_at": "2026-11-21T10:24:12+00:00",
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "mgh_mobin": {
       "last_id": 499,
       "last_at": "2026-11-21T10:51:01+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "web3nabu": {
       "last_id": 2182,
       "last_at": "2026-11-20T16:42:02+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "asrnovin_ir": {
       "last_id": 11506,
       "last_at": "2026-11-21T16:35:50+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "shayanode": {
-      "last_id": 259,
-      "last_at": "2026-11-20T22:47:17+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "last_id": 262,
+      "last_at": "2026-11-21T18:59:02+00:00",
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "codecloude": {
       "last_id": 2609,
       "last_at": "2026-11-21T08:29:34+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "dunijet_ai": {
-      "last_id": 2601,
-      "last_at": "2026-11-21T16:27:11+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "last_id": 2604,
+      "last_at": "2026-11-21T17:53:09+00:00",
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "marketing_aida": {
       "last_id": 111,
       "last_at": "2026-11-21T15:21:48+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "MatinSenPaii": {
-      "last_id": 5941,
-      "last_at": "2026-11-21T16:49:02+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "last_id": 5942,
+      "last_at": "2026-11-21T18:50:49+00:00",
+      "checked_at": "2026-11-21T19:30:53.945Z"
     },
     "thenimaonAI": {
       "last_id": 556,
       "last_at": "2026-11-21T08:35:44+00:00",
-      "checked_at": "2026-11-21T17:01:09.755Z"
+      "checked_at": "2026-11-21T19:30:53.945Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-07|offer-watch:elevenlabs|https://elevenlabs.io/",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:elevenlabs",
-      "title": "30,000 credits for $1 Start with 30,000 credits for only $1. Ends in 0d 00h 00m 00s",
-      "url": "https://elevenlabs.io/",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": true
-    },
-    {
-      "id": "2026-11-07|offer-watch:ai-free|https://aifree.dev/free-api-credits",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:ai-free",
-      "title": "The free AI API credits list holds 93 API credits today, best free value first. By type, the API credits split into 39 credit grants, 37 free tiers, 11 startup ",
-      "url": "https://aifree.dev/free-api-credits",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|offer-watch:perq|https://perq.sh/",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:perq",
-      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
-      "url": "https://perq.sh/",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|offer-watch:free-llm-api-hub|https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:free-llm-api-hub",
-      "title": "# Free LLM APIs with no credit card required",
-      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|offer-watch:free-inference|https://www.freeinference.dev/",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:free-inference",
-      "title": "Free Inference You Can Build With",
-      "url": "https://www.freeinference.dev/",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|offer-watch:deepgram|https://deepgram.com/",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:deepgram",
-      "title": "No minimums, no expiration, and no credit card required.",
-      "url": "https://deepgram.com/",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|offer-watch:nvidia-build|https://build.nvidia.com/",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:nvidia-build",
-      "title": "Free inference with leading models",
-      "url": "https://build.nvidia.com/",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|offer-watch:qoder|https://docs.qoder.com/events/100credits",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "offer-watch:qoder",
-      "title": "Qoduck: Try the Stealth Model Free for a Limited Time",
-      "url": "https://docs.qoder.com/events/100credits",
-      "reason": "offer_watch",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|tg-asr-novin|https://t.me/asrnovin_ir/11418",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "tg-asr-novin",
-      "title": "👀 یه تخفیف اختصاصی فقط برای همراهان عصر نوین!",
-      "url": "https://t.me/asrnovin_ir/11418",
-      "reason": "denied_link",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-07|tg-archive-tell|https://t.me/ArchiveTell/8317",
-      "date": "2026-11-07",
-      "at": "2026-11-07T19:30:38.070Z",
-      "source": "tg-archive-tell",
-      "title": "​💎 مسترکارت رایگان برای فعال سازی جمینای",
-      "url": "https://t.me/ArchiveTell/8317",
-      "reason": "denied_link",
-      "slot": "2026-11-07T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/454",
       "date": "2026-11-08",
@@ -26513,30 +26423,21 @@
       "slot": "2026-11-21T20:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-archive-tell|https://t.me/ArchiveTell/8512",
+      "date": "2026-11-21",
+      "at": "2026-11-21T19:30:53.945Z",
+      "source": "tg-archive-tell",
+      "title": "میگن کلاد تعمیم های نظریه ریمان رو ثابت کرده 😳",
+      "url": "https://t.me/ArchiveTell/8512",
+      "reason": "no_link",
+      "slot": "2026-11-21T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "machinelearningmastery",
-      "title": "Free AI and Data Courses with 365 Data Science: 100% Unlimited Access until Nov 20",
-      "url": "https://machinelearningmastery.com/free-ai-and-data-courses-with-365-data-science-100-unlimited-access-until-nov-20",
-      "slot": "2026-11-07T23:00+03:30",
-      "at": "2026-11-07T19:30:38.070Z"
-    },
-    {
-      "source": "machinelearningmastery",
-      "title": "Floating-Point Precision and Its Effects to Model Inference",
-      "url": "https://machinelearningmastery.com/floating-point-precision",
-      "slot": "2026-11-07T23:00+03:30",
-      "at": "2026-11-07T19:30:38.070Z"
-    },
-    {
-      "source": "machinelearningmastery",
-      "title": "DiffusionGemma: Hands-On with Google’s Text Model That Writes All at Once",
-      "url": "https://machinelearningmastery.com/diffusiongemma-hands-on-with-googles-text-model-that-writes-all-at-once",
-      "slot": "2026-11-07T23:00+03:30",
-      "at": "2026-11-07T19:30:38.070Z"
-    },
     {
       "source": "tg-thenima",
       "title": "این چند وقت یه بات تلگرام برای مدیریت کانال و گروه ساختم؛ از صفر، خودم.",
@@ -26858,6 +26759,13 @@
       "url": "https://t.me/Mohammad_zammani/7256",
       "slot": "2026-11-21T11:30+03:30",
       "at": "2026-11-21T08:49:01.486Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "🎬 تدوین حرفه‌ای ویدیو فقط با چند دستور ساده!",
+      "url": "https://t.me/ai_farshad/6491",
+      "slot": "2026-11-21T23:00+03:30",
+      "at": "2026-11-21T19:30:53.945Z"
     }
   ],
   "reviewPending": {},

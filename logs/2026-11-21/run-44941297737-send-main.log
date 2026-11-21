@@ -1,0 +1,146 @@
+RUN 44941297737 | send/main | slot auto | 2026-11-21T19:30:53Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-21T23:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 2/31 | models 2/24 | security 1/11 | business 1/11
+DAILY 6/11
+DIVERSITY_TARGET security | slot 23:00
+DEFERRED_POOL 44
+  DEFERRED source_daily | try 0/3 | Here are the top AI agents that can live in your text messages
+  DEFERRED source_daily | try 0/3 | Nvidia researchers argue huge AI context windows are a dead end
+  DEFERRED source_daily | try 0/3 | Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion
+  DEFERRED source_daily | try 0/3 | Is selling an AI version of your face to this microdrama startup the future of Hollywood?
+  DEFERRED source_daily | try 0/3 | New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 63h | New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop
+DEFERRED_EXHAUSTED 1
+SOURCE_DISCOVERY already_ran date=2026-11-21 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=158 nodate=0 nonai=0 dup=40 dup_other=0 kept=59 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=314 pending=16 leads=5 nolink=2 nonai=0 denied=3 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:628,review:17 delivered=645 window=30d
+STORY_DUPLICATES 1 skipped=worked_story
+  STORY_DUPLICATE Simon Willison - Prompt Injection | llm-gemini 0.38.1 | already main: Gemini 4 Carbon رسماً در دسترس قرار گرفت
+REVIEW_LEADS 2 separate_from_main=yes cap=none
+  REVIEW_ITEM id=e43594edd3 message=151
+  REVIEW_REQUIRED reason=no_link sent=151
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-21/23-00-5fe670f7
+  REVIEW_DUPLICATE ArchiveTell | میگن کلاد تعمیم های نظریه ریمان رو ثابت کرده 😳 | میگن کلاد تعمیم های نظریه ریمان رو ثابت کرده 😳
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD ai_farshad | education | 🎬 تدوین حرفه‌ای ویدیو فقط با چند دستور ساده!
+  EDU_REVIEW leads=1 sent=1 ids=152 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-21/23-00-education/education.txt
+RELEVANCE candidates=55 kept=33 dropped=22
+  SKIP_NOT_AI Simon Willison - Prompt Injection | Quoting Ravi Vakil
+  SKIP_NOT_AI TechCrunch | Super-hot rock geothermal could end data center energy woes
+  SKIP_NOT_AI Crunchbase News | 5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks
+  SKIP_NOT_AI Simon Willison - Prompt Injection | PostgreSQL 19 Released
+  SKIP_NOT_AI arXiv | Active Feature Acquisition by Distilling an Oracle Teacher
+  SKIP_NOT_AI Crunchbase News | Public Markets Are Frequently Wrong. The SaaSpocalypse Shows Us Why
+  SKIP_NOT_AI ArchiveTell | 🌲 با Tree.fm صدای جنگل‌های دنیا رو بشنو
+  SKIP_NOT_AI Pedram Gholizadeh | پدرام قلی‌زاده | Codex for Open Source
+  SKIP_NOT_AI ... +14 more
+DIVERSITY target=security queue=2 fresh=7 deferred=44 rejected=source_daily:25,source_consecutive:2,category_consecutive:3
+  DIVERSITY_QUEUE tools:ArchiveTell | tools:Ars Technica AI
+QUEUE_SKIPPED 44
+  QUEUE_SKIP source_daily | TechCrunch | Here are the top AI agents that can live in your text messages
+  QUEUE_SKIP source_daily | The Decoder | Nvidia researchers argue huge AI context windows are a dead end
+  QUEUE_SKIP source_daily | The Decoder | Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion
+  QUEUE_SKIP source_daily | TechCrunch | Is selling an AI version of your face to this microdrama startup the future of Hollywood?
+  QUEUE_SKIP source_daily | The Decoder | New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop
+  QUEUE_SKIP source_daily | The Decoder | Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model
+  QUEUE_SKIP source_daily | TechCrunch | Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now
+  QUEUE_SKIP source_daily | TechCrunch | Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.
+  QUEUE_SKIP source_daily | The Decoder | Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats
+  QUEUE_SKIP source_daily | TechCrunch | AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too
+  QUEUE_SKIP ... +34 more
+QUEUE_HELD 3
+  QUEUE_HOLD category_consecutive | Ars Technica AI | Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers
+  QUEUE_HOLD category_consecutive | Ars Technica AI | Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.
+  QUEUE_HOLD source_consecutive | The Record | US companies’ use of Chinese open weight AI draws rebuke from House chairmen
+ATTEMPT 1/2 | deferred 0/3 ArchiveTell | 🤖هوش مصنوعی و فید خبری در بتای تلگرام | 1.3h
+  GATE_STALE 128.7h/72h
+ATTEMPT 2/2 | deferred 0/3 Ars Technica AI | Google rolls out new search homepage with AI chat history and no search button | 12.5h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image forbidden_url
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK none | source line kept
+POST 1/2 status=sent category=tools | QA 42/43 | $0.001537 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/23-00
+RESULT SENT category=tools | offer=no | image=no | QA 42/43 | cost $0.001537 | post $0.001537 | tokens 10300
+TITLE صفحه اصلی جستجوی گوگل بازطراحی شد و دکمه جستجو حذف شد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/23-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST tools | sent | $0.001537 | صفحه اصلی جستجوی گوگل بازطراحی شد و دکمه جستجو حذف شد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-21T19:31:20Z
+# گزارش روزانه 2026-11-21 (شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 7 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 7
+
+## آمار روز
+- پست ارسال‌شده: 7 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 3، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 6
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 27
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 3، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.006702
+- توکن: 112135
+- میانگین هر پست ارسال‌شده: $0.000957
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 3 | 31 | 28 |
+| مدل‌ها و پژوهش | 2 | 24 | 22 |
+| امنیت و حریم خصوصی | 1 | 11 | 10 |
+| کسب‌وکار و بازار | 1 | 11 | 10 |
+| مجموع | 7 | 77 | 70 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000800 | 22131 | ابزار Gemini هشدار آتش‌سوزی را زیر ۳۰ ثانیه می‌فرستد |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000490 | 11053 | مدل جدید Inkling 2 Mini با وزن باز منتشر شد |
+| 11:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001502 | 10010 | جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 41/43 | $0.000763 | 22240 | دادستانی کالیفرنیا از انویدیا درباره رابطه هوانگ با چین تحقیق می‌کند |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000821 | 13778 | ادعای اثبات فرضیه ریمان با کمک هوش مصنوعی |
+| 20:30 | امنیت و حریم خصوصی | ارسال‌شده | 41/43 | $0.000789 | 22623 | هکرهای چینی با ابزار هوش مصنوعی کرن، روز صفر پیدا کردند |
+| 23:00 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.001537 | 10300 | صفحه اصلی جستجوی گوگل بازطراحی شد و دکمه جستجو حذف شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 26
+- دلایل: از رصد آفر پیدا شد 2، لینک قابل استفاده ندارد 4، لینک خارجی این پست پذیرفته نشد 15، منبع رسمی شرکت نیست 2، مدل این مورد را رد کرد 1، لینک معتبر برای این آفر پیدا نشد 1، متن داخل تصویر، سرنخ کشف‌شده 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 48
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-21.md
+SOURCE_STATUS 2026-11-21T19:31:20Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-21.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — شنبه ۳۰ آبان ۱۴۰۵
+پست امروز: 7 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 7
+صف بازبینی: 159 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 48
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-techiin: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44941297737
+STATUS_CARD_END
+STATUS_SENT message_id=368 target=report
