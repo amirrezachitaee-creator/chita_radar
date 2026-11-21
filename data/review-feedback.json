@@ -7750,6 +7750,10 @@
     },
     "0745ead163": {
       "id": "0745ead163",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-21T08:01:00.002Z",
+      "updatedAt": "2026-11-21T08:01:00.002Z",
       "messageId": 131,
       "chatId": "-1003917550874",
       "slot": "2026-11-21T11:30+03:30",
@@ -7789,15 +7793,15 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-21T08:01:00.002Z",
-      "updatedAt": "2026-11-21T08:01:00.002Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "079b3ddfe3": {
       "id": "079b3ddfe3",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-21T08:01:00.002Z",
+      "updatedAt": "2026-11-21T08:01:00.002Z",
       "messageId": 132,
       "chatId": "-1003917550874",
       "slot": "2026-11-21T11:30+03:30",
@@ -7841,10 +7845,6 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-21T08:01:00.002Z",
-      "updatedAt": "2026-11-21T08:01:00.002Z",
       "lastActionAt": "",
       "sentAt": ""
     }
