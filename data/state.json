@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-21T05:44:24.808Z",
+  "updatedAt": "2026-11-21T08:03:06.033Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -13793,6 +13793,150 @@
       "title": "Thinking Machines has released Inkling 2 Mini, an open weights looped transformer",
       "url": "https://artificialanalysis.ai/articles/inkling-2-mini",
       "benchmark": true
+    },
+    "url:17cf92e011137aad": {
+      "at": "2026-11-21T08:01:11.418Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "🤖 شرکت Anthropic انتشار نسخه جدید رابط کاربری موبایل برای Claude رو شروع کرده که یه",
+      "url": "https://t.me/Mohammad_zammani/7254"
+    },
+    "title:c0cbf7d2adc47f52": {
+      "at": "2026-11-21T08:01:11.418Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "🤖 شرکت Anthropic انتشار نسخه جدید رابط کاربری موبایل برای Claude رو شروع کرده که یه",
+      "url": "https://t.me/Mohammad_zammani/7254"
+    },
+    "url:70ef06d51c6e4378": {
+      "at": "2026-11-21T08:01:11.419Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "greatai Review",
+      "url": "https://www.producthunt.com/products/greatai-review"
+    },
+    "title:e3dff43f582e17c7": {
+      "at": "2026-11-21T08:01:11.419Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "greatai Review",
+      "url": "https://www.producthunt.com/products/greatai-review"
+    },
+    "url:86758c2a83886750": {
+      "at": "2026-11-21T08:01:23.223Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "هوش مصنوعی Claude تونسته یه شهر سه‌بعدی به سبک میامی با ۲۵۳۸ آبجکت مختلف داخل Blender",
+      "url": "https://t.me/codecloude/2606"
+    },
+    "title:87fafba8b18b2e4d": {
+      "at": "2026-11-21T08:01:23.223Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "هوش مصنوعی Claude تونسته یه شهر سه‌بعدی به سبک میامی با ۲۵۳۸ آبجکت مختلف داخل Blender",
+      "url": "https://t.me/codecloude/2606"
+    },
+    "url:f661101cf480248a": {
+      "at": "2026-11-21T08:01:23.706Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "🎬 ساخت گیف در جمینای ممکن شد",
+      "url": "https://support.google.com/gemini/answer/16126339"
+    },
+    "title:e9f267a2cb64db53": {
+      "at": "2026-11-21T08:01:23.706Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "🎬 ساخت گیف در جمینای ممکن شد",
+      "url": "https://support.google.com/gemini/answer/16126339"
+    },
+    "url:60870c25ff3318de": {
+      "at": "2026-11-21T08:02:09.810Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "tools",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill"
+    },
+    "title:60ac4aaa55d0afd9": {
+      "at": "2026-11-21T08:02:09.810Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "tools",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill"
+    },
+    "url:e612f852b3819d42": {
+      "at": "2026-11-21T08:02:29.973Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "UndoGuard",
+      "url": "https://www.producthunt.com/products/undoguard"
+    },
+    "title:902472f422d98cef": {
+      "at": "2026-11-21T08:02:29.973Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "UndoGuard",
+      "url": "https://www.producthunt.com/products/undoguard"
+    },
+    "url:8c2f3fb5d2437aae": {
+      "at": "2026-11-21T08:02:35.614Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics"
+    },
+    "title:9e61f856d81d1bbf": {
+      "at": "2026-11-21T08:02:35.614Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics"
+    },
+    "url:7220e54bdf8a93f9": {
+      "at": "2026-11-21T08:03:06.029Z",
+      "decision": "skip",
+      "reason": "unverified",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge"
+    },
+    "title:64422c9d67d0b43d": {
+      "at": "2026-11-21T08:03:06.029Z",
+      "decision": "skip",
+      "reason": "unverified",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge"
     }
   },
   "deferred": {
@@ -14118,53 +14262,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:99be0c0a7e074380": {
-      "id": "defer:url:99be0c0a7e074380",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:99be0c0a7e074380",
-        "title:a8496718434c6747"
-      ],
-      "canonical": "https://openai.com/index/managing-frontier-ai-risk",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Managing frontier AI risk: From training to deployment",
-        "link": "https://openai.com/index/managing-frontier-ai-risk",
-        "canonical": "https://openai.com/index/managing-frontier-ai-risk",
-        "published": "Wed, 18 Nov 2026 06:00:00 GMT",
-        "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/managing-frontier-ai-risk",
-        "images": [],
-        "ageHours": 50,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:99be0c0a7e074380",
-          "title:a8496718434c6747"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:a890a236270cc5e3": {
       "id": "defer:url:a890a236270cc5e3",
       "at": "2026-11-20T08:01:58.733Z",
@@ -14357,56 +14454,6 @@
         }
       },
       "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
-    "defer:url:60870c25ff3318de": {
-      "id": "defer:url:60870c25ff3318de",
-      "at": "2026-11-20T10:31:20.022Z",
-      "firstAt": "2026-11-20T10:31:20.022Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:60870c25ff3318de",
-        "title:60ac4aaa55d0afd9"
-      ],
-      "canonical": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill",
-      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-        "link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-        "canonical": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill",
-        "published": "Fri, 20 Nov 2026 09:59:51 +0000",
-        "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/06/hermes-og-image-blue.png"
-        ],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:60870c25ff3318de",
-          "title:60ac4aaa55d0afd9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:0bd143457a8b550b": {
       "id": "defer:url:0bd143457a8b550b",
@@ -15076,70 +15123,6 @@
         "officialCourse": false
       }
     },
-    "defer:url:f661101cf480248a": {
-      "id": "defer:url:f661101cf480248a",
-      "at": "2026-11-20T17:04:57.952Z",
-      "firstAt": "2026-11-20T17:04:57.952Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:f661101cf480248a",
-        "title:e9f267a2cb64db53"
-      ],
-      "canonical": "https://support.google.com/gemini/answer/16126339",
-      "title": "🎬 ساخت گیف در جمینای ممکن شد",
-      "candidate": {
-        "sourceId": "tg-archive-tell",
-        "sourceName": "ArchiveTell",
-        "sourceType": "telegram_channel",
-        "title": "🎬 ساخت گیف در جمینای ممکن شد",
-        "link": "https://support.google.com/gemini/answer/16126339",
-        "canonical": "https://support.google.com/gemini/answer/16126339",
-        "messageText": "🎬 ساخت گیف در جمینای ممکن شد\n⠀\nحالا میشه توی چت اصلی جمینای با یه جمله ساده، گیف متحرک ساخت و مستقیم به اشتراک گذاشت.\n⠀\nاین قابلیت با مدل Gemini Omni 1.2 Flash کار میکنه؛ انیمیشن یا میم رو میشه از روی متن، عکس یا ویدیو ساخت و بعد هم با همون چت ویرایشش کرد. گیف‌ها حدود ۳ ثانیه‌ان و به‌صورت حلقه‌ای پخش میشن.\n⠀\nشرایط استفاده:\n🟢 برای حساب شخصی، داشتن اشتراک Google AI لازمه.\n🟢 توی طرح رایگان، ساخت گیف فعلاً فقط توی آمریکا، بریتانیا، آلمان، فرانسه، کانادا، استرالیا، ژاپن و کره جنوبی فعاله.\n🟢 ساخت گیف به‌تدریج عرضه میشه و ممکنه هنوز برای همه فعال نشده باشه.\n⠀\n📌 پست رسمی جمینای در ایکس\n🌐 راهنمای رسمی ساخت ویدیو و گیف در جمینای\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤14⚡1😎1",
-        "leadPostUrl": "https://t.me/ArchiveTell/8500",
-        "published": "2026-11-20T16:56:02+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://x.com/GeminiApp/status/2123813017855103449",
-          "https://support.google.com/gemini/answer/16126339"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:f661101cf480248a",
-          "title:e9f267a2cb64db53"
-        ],
-        "leadSource": "ArchiveTell",
-        "leadMessageId": 8500,
-        "leadChannelUrl": "https://t.me/ArchiveTell",
-        "sourceFocus": "tools",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:3ae6601d10cf6a7e": {
       "id": "defer:url:3ae6601d10cf6a7e",
       "at": "2026-11-20T17:04:57.952Z",
@@ -15544,53 +15527,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:58da586369f33999": {
-      "id": "defer:url:58da586369f33999",
-      "at": "2026-11-20T17:04:57.953Z",
-      "firstAt": "2026-11-20T17:04:57.953Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:58da586369f33999",
-        "title:1678c09ff28edc04"
-      ],
-      "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "title": "Research acceleration: The jagged frontier",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Research acceleration: The jagged frontier",
-        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "canonical": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-        "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "images": [],
-        "ageHours": 57.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:58da586369f33999",
-          "title:1678c09ff28edc04"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:14b81a5414bbd18e": {
       "id": "defer:url:14b81a5414bbd18e",
       "at": "2026-11-20T17:04:57.953Z",
@@ -15698,53 +15634,6 @@
         "keys": [
           "url:aef632472a5e3af7",
           "title:fda08e470f000566"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:67952d9a918d2536": {
-      "id": "defer:url:67952d9a918d2536",
-      "at": "2026-11-20T17:04:57.953Z",
-      "firstAt": "2026-11-20T17:04:57.953Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:67952d9a918d2536",
-        "title:1cf6500fb5e47411"
-      ],
-      "canonical": "https://openai.com/index/inside-the-codex-sandbox",
-      "title": "Inside the Codex sandbox",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Inside the Codex sandbox",
-        "link": "https://openai.com/index/inside-the-codex-sandbox",
-        "canonical": "https://openai.com/index/inside-the-codex-sandbox",
-        "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-        "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/inside-the-codex-sandbox",
-        "images": [],
-        "ageHours": 57.1,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:67952d9a918d2536",
-          "title:1cf6500fb5e47411"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16293,6 +16182,241 @@
         }
       },
       "detail": "TELEGRAM_TIMEOUT"
+    },
+    "defer:url:7ad44f990f0c53ef": {
+      "id": "defer:url:7ad44f990f0c53ef",
+      "at": "2026-11-21T08:01:23.238Z",
+      "firstAt": "2026-11-21T08:01:23.238Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:7ad44f990f0c53ef",
+        "title:e8891ba574b6652b"
+      ],
+      "canonical": "https://openai.com/index/combatting-adversarial-distillation",
+      "title": "Combatting adversarial distillation",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Combatting adversarial distillation",
+        "link": "https://openai.com/index/combatting-adversarial-distillation",
+        "canonical": "https://openai.com/index/combatting-adversarial-distillation",
+        "published": "Fri, 20 Nov 2026 10:00:00 GMT",
+        "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/combatting-adversarial-distillation",
+        "images": [],
+        "ageHours": 22,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7ad44f990f0c53ef",
+          "title:e8891ba574b6652b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8145fefb47ff1ca9": {
+      "id": "defer:url:8145fefb47ff1ca9",
+      "at": "2026-11-21T08:01:23.238Z",
+      "firstAt": "2026-11-21T08:01:23.238Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8145fefb47ff1ca9",
+        "title:5239519b9bff8bd0"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/hebbia",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+        "link": "https://openai.com/business/customer-stories/hebbia",
+        "canonical": "https://openai.com/business/customer-stories/hebbia",
+        "published": "Fri, 20 Nov 2026 00:00:00 GMT",
+        "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/hebbia",
+        "images": [],
+        "ageHours": 32,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:8145fefb47ff1ca9",
+          "title:5239519b9bff8bd0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:824c03b970f1dc58": {
+      "id": "defer:url:824c03b970f1dc58",
+      "at": "2026-11-21T08:01:23.238Z",
+      "firstAt": "2026-11-21T08:01:23.238Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:824c03b970f1dc58",
+        "title:27fd696ca216ae30"
+      ],
+      "canonical": "https://huggingface.co/blog/inkling2mini",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+        "link": "https://huggingface.co/blog/inkling2mini",
+        "canonical": "https://huggingface.co/blog/inkling2mini",
+        "published": "Fri, 20 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/inkling2mini",
+        "images": [],
+        "ageHours": 32,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:824c03b970f1dc58",
+          "title:27fd696ca216ae30"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f0b81ce3c1461288": {
+      "id": "defer:url:f0b81ce3c1461288",
+      "at": "2026-11-21T08:01:23.238Z",
+      "firstAt": "2026-11-21T08:01:23.238Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f0b81ce3c1461288",
+        "title:9e3e34ef8678fa85"
+      ],
+      "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+        "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "published": "Wed, 18 Nov 2026 19:54:56 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "images": [],
+        "ageHours": 60.1,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:f0b81ce3c1461288",
+          "title:9e3e34ef8678fa85"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e55c8f2df06c07ff": {
+      "id": "defer:url:e55c8f2df06c07ff",
+      "at": "2026-11-21T08:01:23.238Z",
+      "firstAt": "2026-11-21T08:01:23.238Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:e55c8f2df06c07ff",
+        "title:7202c4c44e4f6e5b"
+      ],
+      "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Why your fine-tuning job takes longer than the FLOPs say",
+        "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+        "canonical": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+        "published": "Wed, 18 Nov 2026 18:53:43 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+        "images": [],
+        "ageHours": 61.1,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e55c8f2df06c07ff",
+          "title:7202c4c44e4f6e5b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -19115,6 +19239,14 @@
           "at": "2026-11-21T05:13:58.187Z"
         }
       ]
+    },
+    "2026-11-21T11:30+03:30": {
+      "at": "2026-11-21T08:03:06.029Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0022109248000000002,
+      "tokens": 48459,
+      "posts": []
     }
   },
   "published": [
@@ -21037,87 +21169,87 @@
     "ArchiveTell": {
       "last_id": 8501,
       "last_at": "2026-11-20T21:51:59+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "ai_farshad": {
-      "last_id": 6484,
-      "last_at": "2026-11-20T19:59:51+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "last_id": 6486,
+      "last_at": "2026-11-21T06:55:43+00:00",
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7253,
-      "last_at": "2026-11-20T18:53:07+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "last_id": 7254,
+      "last_at": "2026-11-21T06:28:15+00:00",
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "techiin_ir": {
-      "last_id": 20812,
-      "last_at": "2026-11-20T16:04:24+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "last_id": 20813,
+      "last_at": "2026-11-20T16:15:20+00:00",
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "web3nabu": {
       "last_id": 2182,
       "last_at": "2026-11-20T16:42:02+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "asrnovin_ir": {
       "last_id": 11500,
       "last_at": "2026-11-20T16:28:39+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "shayanode": {
-      "last_id": 256,
-      "last_at": "2026-11-20T22:44:45+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "last_id": 257,
+      "last_at": "2026-11-20T22:45:11+00:00",
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "codecloude": {
-      "last_id": 2605,
-      "last_at": "2026-11-20T10:54:10+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "last_id": 2607,
+      "last_at": "2026-11-21T07:05:13+00:00",
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "dunijet_ai": {
       "last_id": 2592,
       "last_at": "2026-11-20T16:35:03+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "marketing_aida": {
       "last_id": 110,
       "last_at": "2026-11-20T14:50:36+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "Sajadverse": {
       "last_id": 1257,
       "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "MatinSenPaii": {
-      "last_id": 5937,
-      "last_at": "2026-11-20T22:05:15+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "last_id": 5938,
+      "last_at": "2026-11-21T06:06:02+00:00",
+      "checked_at": "2026-11-21T08:01:00.002Z"
     },
     "thenimaonAI": {
       "last_id": 552,
       "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-21T05:00:59.335Z"
+      "checked_at": "2026-11-21T08:01:00.002Z"
     }
   },
   "offerReviews": [
@@ -25379,6 +25511,30 @@
       "reason": "denied_link",
       "slot": "2026-11-21T08:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-codecloude|https://t.me/codecloude/2606",
+      "date": "2026-11-21",
+      "at": "2026-11-21T08:01:00.002Z",
+      "source": "tg-codecloude",
+      "title": "هوش مصنوعی Claude تونسته یه شهر سه‌بعدی به سبک میامی با ۲۵۳۸ آبجکت مختلف داخل Blender",
+      "url": "https://t.me/codecloude/2606",
+      "reason": "denied_link",
+      "slot": "2026-11-21T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-archive-tell|https://support.google.com/gemini/answer/16126339",
+      "date": "2026-11-21",
+      "at": "2026-11-21T08:01:00.002Z",
+      "source": "tg-archive-tell",
+      "title": "Generate videos with Gemini Apps - Computer - Gemini Apps Help",
+      "url": "https://support.google.com/gemini/answer/16126339",
+      "reason": "source_not_official",
+      "slot": "2026-11-21T11:30+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],
