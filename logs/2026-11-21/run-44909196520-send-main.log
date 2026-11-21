@@ -1,0 +1,154 @@
+RUN 44909196520 | send/main | slot auto | 2026-11-21T13:30:56Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-21T17:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 2/31 | models 1/24 | security 0/11 | business 1/11
+DAILY 4/11
+DIVERSITY_TARGET models | slot 17:00
+DEFERRED_POOL 47
+  DEFERRED source_consecutive | try 0/3 | Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model
+  DEFERRED category_consecutive | try 0/3 | Google rolls out new search homepage with AI chat history and no search button
+  DEFERRED source_consecutive | try 0/3 | Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats
+  DEFERRED category_consecutive | try 0/3 | Stitch Loop
+  DEFERRED source_weekly | try 0/3 | Chips can survive the space environment — can their financing?
+DEFERRED_EXHAUSTED 1
+SOURCE_DISCOVERY already_ran date=2026-11-21 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=3 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=146 nodate=0 nonai=0 dup=42 dup_other=0 kept=73 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=317 pending=18 leads=8 nolink=1 nonai=0 denied=4 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:616,review:17 delivered=633 window=30d
+STORY_DUPLICATES 3 skipped=worked_story
+  STORY_DUPLICATE دانیجت | Dunijet | جمینای گوگل حالا می‌تونه اپ‌های مک رو اجرا کنه و کارهای دسکتاپ رو پس‌زمینه انجام بده | already main: جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده
+  STORY_DUPLICATE دانیجت | Dunijet | جمینای گوگل حالا می‌تونه اپ‌های مک رو اجرا کنه و کارهای دسکتاپ رو پس‌زمینه انجام بده | already main: جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده
+  STORY_DUPLICATE دانیجت | Dunijet | یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده لونت آلپوگه | already main: ریاضیدان آنتروپیک ادعا می‌کنه با کمک کلاد فرضیه ریمان رو اثبات کرده لونت آلپوگه توی یه
+REVIEW_LEADS 3 separate_from_main=yes cap=none
+REVIEW_DRAFT ArchiveTell | 🧪جدول مندلیف برای انتخاب مدل در جمینای | 663 chars
+  REVIEW_ITEM id=2055346b4d message=143
+  REVIEW_REQUIRED reason=denied_link sent=143
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-21/17-00-f103fdfc
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | انگار رفقای ما تو گوگل دیدن انتخاب مدل هوش مصنوعی خیلی ساده و بی‌دردسره، تصمیم گرفتن | 645 chars
+  REVIEW_ITEM id=c1c439fd92 message=144
+  REVIEW_REQUIRED reason=denied_link sent=144
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-21/17-00-c9904f28
+REVIEW_DRAFT M G H M O B I N | 🟢قابلیت جدید ChatGPT برای تبدیل لحظه‌ای صدا به متن معرفی شد | 592 chars
+  REVIEW_ITEM id=fa0885c8a8 message=145
+  REVIEW_REQUIRED reason=denied_link sent=145
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-21/17-00-37fe270a
+RELEVANCE candidates=67 kept=45 dropped=22
+  SKIP_NOT_AI Product Hunt | WaitFeed
+  SKIP_NOT_AI Simon Willison - Prompt Injection | Quoting Ravi Vakil
+  SKIP_NOT_AI TechCrunch | Super-hot rock geothermal could end data center energy woes
+  SKIP_NOT_AI TechCrunch | Behind Jensen Huang’s exit, questions about a management style reportedly built on fear
+  SKIP_NOT_AI Crunchbase News | 5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks
+  SKIP_NOT_AI Simon Willison - Prompt Injection | PostgreSQL 19 Released
+  SKIP_NOT_AI arXiv | Active Feature Acquisition by Distilling an Oracle Teacher
+  SKIP_NOT_AI Crunchbase News | Public Markets Are Frequently Wrong. The SaaSpocalypse Shows Us Why
+  SKIP_NOT_AI ... +14 more
+DIVERSITY target=models queue=3 fresh=12 deferred=47 rejected=source_daily:15,source_consecutive:8
+  DIVERSITY_QUEUE models:arXiv | models:OpenAI News | tools:دانیجت | Dunijet
+QUEUE_SKIPPED 49
+  QUEUE_SKIP source_daily | The Decoder | Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model
+  QUEUE_SKIP source_daily | The Decoder | Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats
+  QUEUE_SKIP source_consecutive | TechCrunch | Chips can survive the space environment — can their financing?
+  QUEUE_SKIP source_daily | The Decoder | Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others
+  QUEUE_SKIP source_daily | The Decoder | Apple joins the race for AI agents that control your device while raising new barriers for competitors
+  QUEUE_SKIP source_daily | The Decoder | Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup
+  QUEUE_SKIP source_consecutive | TechCrunch | Six AI-powered gadgets that could make your home office smarter
+  QUEUE_SKIP source_consecutive | TechCrunch | Apple may be developing its own AI agent that runs your Mac
+  QUEUE_SKIP source_consecutive | TechCrunch | Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO
+  QUEUE_SKIP source_consecutive | TechCrunch | Anthropic rival says companies can (mostly) skip the pricey models
+  QUEUE_SKIP ... +39 more
+QUEUE_HELD 5
+  QUEUE_HOLD source_daily | The Decoder | Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft
+  QUEUE_HOLD source_daily | The Decoder | New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop
+  QUEUE_HOLD source_consecutive | TechCrunch | Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now
+  QUEUE_HOLD source_consecutive | TechCrunch | Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.
+  QUEUE_HOLD source_consecutive | TechCrunch | AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too
+ATTEMPT 1/3 | deferred 0/3 arXiv | One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning | 13.1h
+  TOOL_LINK candidate https://github.com/showlab/O2LaF | score 22
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | متن ورودی فقط درباره پلتفرم arXivLabs است و هیچ اشاره‌ای به هوش مصنوعی یا مدل‌های زبانی ندارد؛ عنوان مقاله فنی است ولی م
+ATTEMPT 2/3 | deferred 0/3 OpenAI News | Can AI help scientists identify promising drug candidates? | 19.5h
+  OFFER_SKIP offer_stale
+ATTEMPT 3/3 دانیجت | Dunijet | یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده | 2.7h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+POST 1/2 status=sent category=models | QA 43/43 | $0.000821 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/17-00
+RESULT SENT category=models | offer=no | image=yes | QA 43/43 | cost $0.002616 | post $0.000821 | tokens 51558
+TITLE ادعای اثبات فرضیه ریمان با کمک هوش مصنوعی
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/17-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST models | sent | $0.000821 | ادعای اثبات فرضیه ریمان با کمک هوش مصنوعی
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-21T13:32:47Z
+# گزارش روزانه 2026-11-21 (شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 6
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 17
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، مدل‌ها و پژوهش 2، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.004376
+- توکن: 79212
+- میانگین هر پست ارسال‌شده: $0.000875
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 2 | 31 | 29 |
+| مدل‌ها و پژوهش | 2 | 24 | 22 |
+| امنیت و حریم خصوصی | 0 | 11 | 11 |
+| کسب‌وکار و بازار | 1 | 11 | 10 |
+| مجموع | 5 | 77 | 72 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000800 | 22131 | ابزار Gemini هشدار آتش‌سوزی را زیر ۳۰ ثانیه می‌فرستد |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000490 | 11053 | مدل جدید Inkling 2 Mini با وزن باز منتشر شد |
+| 11:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001502 | 10010 | جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 41/43 | $0.000763 | 22240 | دادستانی کالیفرنیا از انویدیا درباره رابطه هوانگ با چین تحقیق می‌کند |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000821 | 13778 | ادعای اثبات فرضیه ریمان با کمک هوش مصنوعی |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 20
+- دلایل: از رصد آفر پیدا شد 2، لینک قابل استفاده ندارد 2، لینک خارجی این پست پذیرفته نشد 12، منبع رسمی شرکت نیست 2، مدل این مورد را رد کرد 1، لینک معتبر برای این آفر پیدا نشد 1
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-21.md
+SOURCE_STATUS 2026-11-21T13:32:47Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-21.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — شنبه ۳۰ آبان ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 5
+صف بازبینی: 153 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+تغییرهای ۳۰ ساعت اخیر:
+• tg-techiin: فعال ← زیر نظر (reject_pattern)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44909196520
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

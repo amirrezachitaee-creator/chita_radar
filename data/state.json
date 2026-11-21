@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-21T11:13:47.705Z",
+  "updatedAt": "2026-11-21T13:32:47.089Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14171,55 +14171,162 @@
       "slot": "2026-11-21T14:00+03:30",
       "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
       "url": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026"
+    },
+    "url:fee72824fae7a5ee": {
+      "at": "2026-11-21T13:31:10.130Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "جمینای گوگل حالا می‌تونه اپ‌های مک رو اجرا کنه و کارهای دسکتاپ رو پس‌زمینه انجام بده",
+      "url": "http://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working"
+    },
+    "title:64029c8d65ed4562": {
+      "at": "2026-11-21T13:31:10.130Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "جمینای گوگل حالا می‌تونه اپ‌های مک رو اجرا کنه و کارهای دسکتاپ رو پس‌زمینه انجام بده",
+      "url": "https://t.me/dunijet_ai/2599"
+    },
+    "url:1d40c43a2d0197aa": {
+      "at": "2026-11-21T13:31:10.130Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "جمینای گوگل حالا می‌تونه اپ‌های مک رو اجرا کنه و کارهای دسکتاپ رو پس‌زمینه انجام بده",
+      "url": "https://t.me/dunijet_ai/2599"
+    },
+    "url:c9816551964225ad": {
+      "at": "2026-11-21T13:31:10.130Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده لونت آلپوگه",
+      "url": "https://t.me/dunijet_ai/2596"
+    },
+    "title:e4023a4a14e5a8ed": {
+      "at": "2026-11-21T13:31:10.130Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده لونت آلپوگه",
+      "url": "https://t.me/dunijet_ai/2596"
+    },
+    "url:f103fdfc560d3729": {
+      "at": "2026-11-21T13:31:23.667Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "🧪جدول مندلیف برای انتخاب مدل در جمینای",
+      "url": "https://t.me/ArchiveTell/8507"
+    },
+    "title:69845314ac4594f7": {
+      "at": "2026-11-21T13:31:23.667Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "🧪جدول مندلیف برای انتخاب مدل در جمینای",
+      "url": "https://t.me/ArchiveTell/8507"
+    },
+    "url:c9904f289dc713ed": {
+      "at": "2026-11-21T13:32:19.527Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "انگار رفقای ما تو گوگل دیدن انتخاب مدل هوش مصنوعی خیلی ساده و بی‌دردسره، تصمیم گرفتن",
+      "url": "https://t.me/Mohammad_zammani/7257"
+    },
+    "title:6c1f107346ffdea9": {
+      "at": "2026-11-21T13:32:19.527Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "انگار رفقای ما تو گوگل دیدن انتخاب مدل هوش مصنوعی خیلی ساده و بی‌دردسره، تصمیم گرفتن",
+      "url": "https://t.me/Mohammad_zammani/7257"
+    },
+    "url:37fe270aa0b61b83": {
+      "at": "2026-11-21T13:32:26.263Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "🟢قابلیت جدید ChatGPT برای تبدیل لحظه‌ای صدا به متن معرفی شد",
+      "url": "https://t.me/mgh_mobin/499"
+    },
+    "title:ca7eb1c1a258dc8f": {
+      "at": "2026-11-21T13:32:26.263Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "🟢قابلیت جدید ChatGPT برای تبدیل لحظه‌ای صدا به متن معرفی شد",
+      "url": "https://t.me/mgh_mobin/499"
+    },
+    "url:649bdecb4b3b61b1": {
+      "at": "2026-11-21T13:32:29.012Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "url": "https://arxiv.org/abs/2611.26617v1"
+    },
+    "title:585eeb1d7493066b": {
+      "at": "2026-11-21T13:32:29.012Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "url": "https://arxiv.org/abs/2611.26617v1"
+    },
+    "url:c1a2af93db54bfcf": {
+      "at": "2026-11-21T13:32:29.123Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench"
+    },
+    "title:7fa338b2ee892bbc": {
+      "at": "2026-11-21T13:32:29.123Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench"
+    },
+    "url:6e689e5863fc681f": {
+      "at": "2026-11-21T13:32:47.085Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده",
+      "url": "http://scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math",
+      "benchmark": false
+    },
+    "title:6ca40666b871154a": {
+      "at": "2026-11-21T13:32:47.085Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-21T17:00+03:30",
+      "title": "یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده",
+      "url": "http://scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:649bdecb4b3b61b1": {
-      "id": "defer:url:649bdecb4b3b61b1",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:649bdecb4b3b61b1",
-        "title:585eeb1d7493066b"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26617v1",
-      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-        "link": "https://arxiv.org/abs/2611.26617v1",
-        "canonical": "https://arxiv.org/abs/2611.26617v1",
-        "published": "2026-11-19T18:58:14Z",
-        "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O$^{2}$LaF, built on a simple principle: one prior, two dynamics. We initialize both models from the same pretrained video DiT and adapt them to their distinct roles: a feed-forward transition encoder with learnable action queries for inverse dynamics, and a causal, action-conditioned video generator for forward dynamics. By controlling information access and optimizing both dynamics end-to-end through a compact bottleneck, O$^{2}$LaF learns transferable actions from unlabeled videos. Across navigation and robotic manipulation, O$^{2}$LaF sets a new state of the art in few-shot action probing and enables stronger zero-shot action transfer across visual contexts and embodiments. Beyond generative video priors, we further extend our framework to predictive representation priors such as V-JEPA2, achieving competitive performance. Our findings suggest a broader paradigm for latent-action learning: repurposing pretrained video models to discover transferable actions and predict their consequences.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26617v1",
-        "images": [],
-        "ageHours": 13.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:649bdecb4b3b61b1",
-          "title:585eeb1d7493066b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:6100a45d00808ec6": {
       "id": "defer:url:6100a45d00808ec6",
       "at": "2026-11-20T08:01:58.733Z",
@@ -14398,98 +14505,6 @@
         "keys": [
           "url:7726583e78142258",
           "title:51d1807737e4342f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:99d5b538040d55e1": {
-      "id": "defer:url:99d5b538040d55e1",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:99d5b538040d55e1",
-        "title:5c0cf53dbd825561"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26557v1",
-      "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
-        "link": "https://arxiv.org/abs/2611.26557v1",
-        "canonical": "https://arxiv.org/abs/2611.26557v1",
-        "published": "2026-11-19T18:25:41Z",
-        "summary": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conflicts with it. Existing evaluations study decision-interface biases and multimodal model behavior in separate settings, leaving no common protocol to compare multimodal decision models with their backbones on practical tasks. We introduce \\textbf{MM-SystemOneBias}, which evaluates 13 models on 5,323 original instances from nine public datasets and 11 task scenarios using six paired interventions: option order, option label, external judgment, image--text description, irrelevant information, and rating scale. Across seven matched decision-model--backbone pairs, decision models are more stable under option-label, irrelevant-information, and rating-scale changes in all seven pairs; six pairs also show lower option-order flip rates. They incur smaller accuracy losses under incorrect external judgments in all seven pairs and conflicting descriptions in six. In six pairs, they gain less accuracy from correct external judgments and show less favorable accuracy changes under consistent descriptions. Among pairs with unchanged semantic decisions, mean absolute changes in answer probabilities range from 4.56 to 11.55 percentage points, revealing input effects that accuracy alone misses.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26557v1",
-        "images": [],
-        "ageHours": 13.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:99d5b538040d55e1",
-          "title:5c0cf53dbd825561"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:24760f3d771dfd0d": {
-      "id": "defer:url:24760f3d771dfd0d",
-      "at": "2026-11-20T08:01:58.733Z",
-      "firstAt": "2026-11-20T08:01:58.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:24760f3d771dfd0d",
-        "title:c1dc1d46a5642039"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.26562v1",
-      "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
-        "link": "https://arxiv.org/abs/2611.26562v1",
-        "canonical": "https://arxiv.org/abs/2611.26562v1",
-        "published": "2026-11-19T18:27:59Z",
-        "summary": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of a foundation model-based deep learning system for dysplasia grading, using 969 H\\&E-stained whole slide images from four institutions. Patch-level classifiers trained on expert annotations identified diagnostically relevant regions, followed by attribute-aware multiple instance learning for slide-level classification as non-dysplastic Barrett's esophagus (NDBE), low-grade dysplasia, or high-grade dysplasia. On a held-out test set (n = 130), macro-averaged AUC was 0.96 (95\\% CI 0.93--0.98). For binary dysplasia detection, sensitivity was 98\\% (80/82) and specificity 81\\% (39/48), with a negative likelihood ratio of 0.030 and quadratic-weighted \\kap{} of 0.83 against expert consensus. No high-grade dysplasia case was misclassified as NDBE. Performance was consistent across institutions without stain normalization, indicating that stain-robust foundation-model representations may remove the site-specific preprocessing that has constrained prior systems to institution-specific deployment.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.26562v1",
-        "images": [],
-        "ageHours": 13.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:24760f3d771dfd0d",
-          "title:c1dc1d46a5642039"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -15830,53 +15845,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:c1a2af93db54bfcf": {
-      "id": "defer:url:c1a2af93db54bfcf",
-      "at": "2026-11-20T19:33:58.127Z",
-      "firstAt": "2026-11-20T19:33:58.127Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:c1a2af93db54bfcf",
-        "title:7fa338b2ee892bbc"
-      ],
-      "canonical": "https://openai.com/index/introducing-medchembench",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Can AI help scientists identify promising drug candidates?",
-        "link": "https://openai.com/index/introducing-medchembench",
-        "canonical": "https://openai.com/index/introducing-medchembench",
-        "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-        "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/introducing-medchembench",
-        "images": [],
-        "ageHours": 19.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:c1a2af93db54bfcf",
-          "title:7fa338b2ee892bbc"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:cdf2ec3f0b6befdf": {
       "id": "defer:url:cdf2ec3f0b6befdf",
       "at": "2026-11-20T19:33:58.128Z",
@@ -16600,6 +16568,250 @@
         "keys": [
           "url:4e7b2d36efdcbfa0",
           "title:fdad22bfb9e333b1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8770f2f899ce7856": {
+      "id": "defer:url:8770f2f899ce7856",
+      "at": "2026-11-21T13:32:26.282Z",
+      "firstAt": "2026-11-21T13:32:26.282Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:8770f2f899ce7856",
+        "title:51c093dfb77e3270"
+      ],
+      "canonical": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+        "link": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+        "canonical": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+        "published": "Sat, 21 Nov 2026 11:19:49 +0000",
+        "summary": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, and mathematicians are now checking whether either one holds up. The article Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_riemann.png"
+        ],
+        "ageHours": 2.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:8770f2f899ce7856",
+          "title:51c093dfb77e3270"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2eae7b001568ca61": {
+      "id": "defer:url:2eae7b001568ca61",
+      "at": "2026-11-21T13:32:26.282Z",
+      "firstAt": "2026-11-21T13:32:26.282Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:2eae7b001568ca61",
+        "title:f6f8b0f2adda1ea6"
+      ],
+      "canonical": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+        "link": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+        "canonical": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+        "published": "Sat, 21 Nov 2026 10:33:02 +0000",
+        "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost. The article New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2025/09/thinking_machines_ca_illustration.png"
+        ],
+        "ageHours": 3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:2eae7b001568ca61",
+          "title:f6f8b0f2adda1ea6"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:93fd7d717c50effa": {
+      "id": "defer:url:93fd7d717c50effa",
+      "at": "2026-11-21T13:32:26.282Z",
+      "firstAt": "2026-11-21T13:32:26.282Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:93fd7d717c50effa",
+        "title:67c5146ac49670be"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now",
+      "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
+        "link": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+        "canonical": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now",
+        "published": "Fri, 20 Nov 2026 20:58:29 +0000",
+        "summary": "Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That's the vulnerability that honey pots exploit.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+        "images": [],
+        "ageHours": 16.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:93fd7d717c50effa",
+          "title:67c5146ac49670be"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:98001fcd04fee053": {
+      "id": "defer:url:98001fcd04fee053",
+      "at": "2026-11-21T13:32:26.282Z",
+      "firstAt": "2026-11-21T13:32:26.282Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:98001fcd04fee053",
+        "title:498072fa7568e4be"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+        "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+        "canonical": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+        "published": "Fri, 20 Nov 2026 19:53:41 +0000",
+        "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+        "images": [],
+        "ageHours": 17.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:98001fcd04fee053",
+          "title:498072fa7568e4be"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:861ca51b04b5cf48": {
+      "id": "defer:url:861ca51b04b5cf48",
+      "at": "2026-11-21T13:32:26.282Z",
+      "firstAt": "2026-11-21T13:32:26.282Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:861ca51b04b5cf48",
+        "title:a6e9e2e204430573"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+        "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "canonical": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+        "published": "Fri, 20 Nov 2026 19:32:08 +0000",
+        "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "images": [],
+        "ageHours": 18,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:861ca51b04b5cf48",
+          "title:a6e9e2e204430573"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19490,6 +19702,37 @@
           "at": "2026-11-21T10:32:16.815Z"
         }
       ]
+    },
+    "2026-11-21T17:00+03:30": {
+      "at": "2026-11-21T13:32:47.085Z",
+      "status": "sent",
+      "category": "models",
+      "title": "ادعای اثبات فرضیه ریمان با کمک هوش مصنوعی",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/17-00",
+      "messageId": 129,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0026162247999999997,
+      "tokens": 51558,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "ادعای اثبات فرضیه ریمان با کمک هوش مصنوعی",
+          "category": "models",
+          "status": "sent",
+          "messageId": 129,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008205512,
+          "tokens": 13778,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-21T13:32:47.085Z"
+        }
+      ]
     }
   },
   "published": [
@@ -21442,93 +21685,111 @@
       "sourceTitle": "California AG subpoenas Nvidia over worries about Huang's ties with China | TechCrunch",
       "sourceText": "California’s Attorney General Rob Bonta on Thursday evening said the state has served an investigative subpoena to Nvidia following news of former CEO Jensen Huang’s affair with a woman who the U.S. government believes is a Chinese spy.\nThe state is investigating the company to find out if its advanced GPUs or confidential information may have been shared with China, and if the company had somehow misled its investors and the public.\n“The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,” Bonta said in a statement .\n“My office is investigating whether Nvidia or Jensen Huang’s actions resulted in China obtaining advanced chips or confidential information — and if Nvidia misled investors and the public about this risk, in violation of the law,” he added.\nThe investigation comes in the wake of a messy couple of weeks for Nvidia, which has overnight come under intense scrutiny around the world due to the implications of Huang’s alleged relationship with the Chinese national, Alice Huang (who is not related to Jensen).\nThe Nvidia founder resigned last week after further revelations of extramarital affairs with the company’s employees. And while many tech voices have been petitioning Nvidia to bring back Huang as CEO, saying they see him as indispensable to the further development of the AI industry, the company’s new chair, Harvey Jones, said earlier this week that Nvidia had no intention of reinstating Huang to his position.\nThe company’s board has hired a law firm as well as an independent sla",
       "at": "2026-11-21T10:32:16.816Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-21T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "ادعای اثبات فرضیه ریمان با کمک هوش مصنوعی",
+      "why": "اثبات به زبان برنامه‌نویسی Lean نوشته شده که صحت هر استدلال رو بررسی می‌کنه. هنوز مشخص نیست این اثبات درست باشه، اما اگر تأیید بشه، نقطه عطفی در توانایی هوش مصنوعی در ریاضیاته.",
+      "dedupe_key": "anthropic-riemann-hypothesis-proof",
+      "post_key": "2026-11-21/17-00/1",
+      "sourceId": "tg-dunijet-ai",
+      "sourceName": "دانیجت | Dunijet",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/",
+      "sourceTitle": "Anthropic mathematician claims to prove Riemann hypothesis, most famous problem in all of math",
+      "sourceText": "یه ریاضی‌دان شاغل در Anthropic می‌گه با کمک Claude فرضیه ریمان رو اثبات کرده\n\nلونت آلپوگه امروز ۲۰ نوامبر ۲۰۲۶ این ادعا رو مطرح کرده؛ فرضیه ریمان از سال ۱۸۵۹ حل‌نشده مونده و یکی از هفت مسئله جایزه هزاره با پاداش یک میلیون دلاره.\n\nخودش می‌گه این حدس توضیح می‌ده که مکان اعداد اول، با اینکه تصادفی به نظر می‌رسن، یه نظم پیچیده دارن.\n\nscientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/\n\n@dunijet_ai\n\n❤4🤯1",
+      "at": "2026-11-21T13:32:47.086Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8506,
-      "last_at": "2026-11-21T09:55:28+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "last_id": 8507,
+      "last_at": "2026-11-21T12:34:19+00:00",
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "ai_farshad": {
-      "last_id": 6487,
-      "last_at": "2026-11-21T08:31:24+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "last_id": 6489,
+      "last_at": "2026-11-21T11:34:54+00:00",
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7256,
-      "last_at": "2026-11-21T08:00:23+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "last_id": 7259,
+      "last_at": "2026-11-21T12:49:17+00:00",
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "techiin_ir": {
-      "last_id": 20815,
-      "last_at": "2026-11-20T17:09:30+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "last_id": 20816,
+      "last_at": "2026-11-21T09:50:53+00:00",
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "mgh_mobin": {
-      "last_id": 498,
-      "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "last_id": 499,
+      "last_at": "2026-11-21T10:51:01+00:00",
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "web3nabu": {
       "last_id": 2182,
       "last_at": "2026-11-20T16:42:02+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "asrnovin_ir": {
       "last_id": 11504,
       "last_at": "2026-11-21T09:55:54+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "shayanode": {
       "last_id": 259,
       "last_at": "2026-11-20T22:47:17+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "codecloude": {
       "last_id": 2609,
       "last_at": "2026-11-21T08:29:34+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "dunijet_ai": {
-      "last_id": 2593,
-      "last_at": "2026-11-21T10:23:15+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "last_id": 2599,
+      "last_at": "2026-11-21T13:29:51+00:00",
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "marketing_aida": {
       "last_id": 110,
       "last_at": "2026-11-20T14:50:36+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "MatinSenPaii": {
-      "last_id": 5939,
-      "last_at": "2026-11-21T09:07:22+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "last_id": 5940,
+      "last_at": "2026-11-21T13:20:58+00:00",
+      "checked_at": "2026-11-21T13:30:56.416Z"
     },
     "thenimaonAI": {
       "last_id": 556,
       "last_at": "2026-11-21T08:35:44+00:00",
-      "checked_at": "2026-11-21T10:30:56.554Z"
+      "checked_at": "2026-11-21T13:30:56.416Z"
     }
   },
   "offerReviews": [
@@ -25923,16 +26184,45 @@
       "slot": "2026-11-21T14:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-archive-tell|https://t.me/ArchiveTell/8507",
+      "date": "2026-11-21",
+      "at": "2026-11-21T13:30:56.416Z",
+      "source": "tg-archive-tell",
+      "title": "🧪جدول مندلیف برای انتخاب مدل در جمینای",
+      "url": "https://t.me/ArchiveTell/8507",
+      "reason": "denied_link",
+      "slot": "2026-11-21T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7257",
+      "date": "2026-11-21",
+      "at": "2026-11-21T13:30:56.416Z",
+      "source": "tg-mohammad-zammani",
+      "title": "انگار رفقای ما تو گوگل دیدن انتخاب مدل هوش مصنوعی خیلی ساده و بی‌دردسره، تصمیم گرفتن",
+      "url": "https://t.me/Mohammad_zammani/7257",
+      "reason": "denied_link",
+      "slot": "2026-11-21T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-mgh-mobin|https://t.me/mgh_mobin/499",
+      "date": "2026-11-21",
+      "at": "2026-11-21T13:30:56.416Z",
+      "source": "tg-mgh-mobin",
+      "title": "🟢قابلیت جدید ChatGPT برای تبدیل لحظه‌ای صدا به متن معرفی شد",
+      "url": "https://t.me/mgh_mobin/499",
+      "reason": "denied_link",
+      "slot": "2026-11-21T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-ai-farshad",
-      "title": "🤖 قابلیت جدید Gemini؛ ساخت و شخصی‌سازی بیش از ۲۰۰۰ نوع صدا با هوش مصنوعی!",
-      "url": "https://ai.google.dev/gemini-api/docs/voice-remixing",
-      "slot": "2026-11-07T17:00+03:30",
-      "at": "2026-11-07T13:30:40.352Z"
-    },
     {
       "source": "machinelearningmastery",
       "title": "Free AI and Data Courses with 365 Data Science: 100% Unlimited Access until Nov 20",
