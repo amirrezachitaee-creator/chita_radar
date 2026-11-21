@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-21T08:03:06.033Z",
+  "updatedAt": "2026-11-21T08:51:03.505Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -13937,6 +13937,114 @@
       "slot": "2026-11-21T11:30+03:30",
       "title": "Quoting Levent Alpöge",
       "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge"
+    },
+    "url:4b88c0ff0f1831d9": {
+      "at": "2026-11-21T08:49:14.521Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "بعد از کلاد نوبت به اینستاگرام هم رسید!",
+      "url": "https://t.me/thenimaonAI/555"
+    },
+    "title:6f2bd7969f077516": {
+      "at": "2026-11-21T08:49:14.521Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "بعد از کلاد نوبت به اینستاگرام هم رسید!",
+      "url": "https://t.me/thenimaonAI/555"
+    },
+    "url:e0267651a70586db": {
+      "at": "2026-11-21T08:49:18.102Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "توی این فایل نگاهی انداختیم به مدل های درآمدزایی از یوتوب با تولید محتوا با هوش",
+      "url": "https://t.me/thenimaonAI/554"
+    },
+    "title:0c11d34bedcd8048": {
+      "at": "2026-11-21T08:49:18.102Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "توی این فایل نگاهی انداختیم به مدل های درآمدزایی از یوتوب با تولید محتوا با هوش",
+      "url": "https://t.me/thenimaonAI/554"
+    },
+    "url:c3c92f6244bad9b6": {
+      "at": "2026-11-21T08:49:18.284Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "✅ هیوندای النترا هیبرید 2027 با امکانات هوش مصنوعی رونمایی شد",
+      "url": "https://t.me/techiin_ir/20814"
+    },
+    "title:14f039a959150d6c": {
+      "at": "2026-11-21T08:49:18.284Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "✅ هیوندای النترا هیبرید 2027 با امکانات هوش مصنوعی رونمایی شد",
+      "url": "https://t.me/techiin_ir/20814"
+    },
+    "url:ff14fffc1b1b2888": {
+      "at": "2026-11-21T08:49:18.442Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "⚡️آموزش ساخت موشن دیزاین در Google Flow فقط با یک عکس!",
+      "url": "https://t.me/Mohammad_zammani/7256"
+    },
+    "title:e329bf74e1876583": {
+      "at": "2026-11-21T08:49:18.442Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "⚡️آموزش ساخت موشن دیزاین در Google Flow فقط با یک عکس!",
+      "url": "https://t.me/Mohammad_zammani/7256"
+    },
+    "url:eeb07cfd82815687": {
+      "at": "2026-11-21T08:50:58.645Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
+      "benchmark": false
+    },
+    "title:8453e74965f19b91": {
+      "at": "2026-11-21T08:50:58.645Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
+      "benchmark": false
+    },
+    "url:d8f07f23fc192fa3": {
+      "at": "2026-11-21T08:51:03.505Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Uizze: UI taste for AI agents",
+      "url": "https://github.com/Leonxlnx/taste"
+    },
+    "title:e983fa9b22e85779": {
+      "at": "2026-11-21T08:51:03.505Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-21T11:30+03:30",
+      "title": "Uizze: UI taste for AI agents",
+      "url": "https://github.com/Leonxlnx/taste"
     }
   },
   "deferred": {
@@ -15634,57 +15742,6 @@
         "keys": [
           "url:aef632472a5e3af7",
           "title:fda08e470f000566"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:eeb07cfd82815687": {
-      "id": "defer:url:eeb07cfd82815687",
-      "at": "2026-11-20T19:33:58.127Z",
-      "firstAt": "2026-11-20T19:33:58.127Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:eeb07cfd82815687",
-        "title:8453e74965f19b91"
-      ],
-      "canonical": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
-      "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
-        "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-        "canonical": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
-        "published": "Fri, 20 Nov 2026 18:50:31 +0000",
-        "summary": "Google is bringing \"Computer Use\" to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-        "images": [
-          "http://the-decoder.com/wp-content/uploads/2026/11/gemini_computer_use_mac_trailer.mp4",
-          "https://the-decoder.com/wp-content/uploads/2026/09/gemini_blue.png"
-        ],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:eeb07cfd82815687",
-          "title:8453e74965f19b91"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19242,11 +19299,35 @@
     },
     "2026-11-21T11:30+03:30": {
       "at": "2026-11-21T08:03:06.029Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0022109248000000002,
-      "tokens": 48459,
-      "posts": []
+      "cost": 0.00283094,
+      "tokens": 19353,
+      "posts": [
+        {
+          "title": "جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 127,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00150164,
+          "tokens": 10010,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-21T08:50:58.645Z"
+        }
+      ],
+      "category": "tools",
+      "title": "جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-21/11-30",
+      "messageId": 127,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "43/43"
     }
   },
   "published": [
@@ -21163,93 +21244,111 @@
       "sourceTitle": "Thinking Machines has released Inkling 2 Mini, an open weights looped transformer",
       "sourceText": "Thinking Machines has released Inkling 2 Mini at 20 on the Artificial Analysis Intelligence Index, an open weights looped transformer on the Pareto frontier for Intelligence vs. Active Parameters\nInkling 2 Mini is a 26B total, 5.4B active parameter mixture-of-experts model. The 5.4B active parameter count includes three passes through its looped layers; it uses 3.1B unique weights per text token, and it is small enough to run on a MacBook or DGX Spark.\nIt is released under an Apache 2.0 license, with text and image input and a 1M token context window.\nInkling 2 Mini matches Qwen3.8 27B (xhigh) and Nanbeige4.3-33B on the Intelligence Index with ~5x and ~6x fewer active parameters, respectively.\nIt is on the Pareto frontier for Intelligence vs. size on both total and active parameters.\nInkling 2 Mini uses ~38% more output tokens than Qwen3.8 27B for the same Intelligence Index score, but ~2.8x less compute.\nTwelve of its 24 layers run three times per token, adding compute without adding output tokens. It averages ~152K output tokens per Intelligence Index task vs. ~110K for Qwen3.8 27B and ~158K for Nanbeige4.3-33B. On our compute proxy measure (active parameters × tokens), it sits on the Pareto frontier, using ~2.8x less compute than Qwen3.8 27B and ~5x less than Nanbeige4.3-33B.\nInkling 2 Mini is ~6x cheaper and ~4x faster per task than Qwen3.8 27B.\nIt costs $0.59 and takes 9.0 minutes per Intelligence Index task vs. $3.53 and 38.2 minutes for Qwen3.8 27B. GPT-6 Luna (max) scores 28 for $0.15 per task. Cost uses Thinking Machines' first-party pricing ($0.15/$0.50/$0.015 per",
       "at": "2026-11-21T05:13:58.187Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-21T11:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده",
+      "why": "با این کار، کارهای تکراری و وقت‌گیر روی مک رو می‌تونی به جمنای بسپری و خودت روی کار اصلی تمرکز کنی.",
+      "dedupe_key": "google-gemini-computer-use",
+      "post_key": "2026-11-21/11-30/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+      "sourceTitle": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+      "sourceText": "Google now lets Gemini handle Mac tasks in the background. The new \"Computer Use\" feature in the Gemini Mac app completes multistep tasks across local files, desktop apps, and websites. Google says users simply describe a goal, and Gemini clicks, types, and navigates menus and forms. Everything runs in an isolated background window with a live chat preview, keeping the screen and cursor free for uninterrupted work.\nUsers choose which apps Gemini can access, watch every step live, pause anytime, and approve key actions beforehand. Google's examples include batch-editing photos and 3D scenes, filling out shipping forms from local PDFs, and building presentations.\nComputer Use rolls out in English in the US today, and the Gemini Mac app is available to download . OpenAI has also focused on Computer Use recently, pulling well ahead with its Astra model . Ad Ad\nEvery week, our editors pick the AI news that matter and explain what they mean. No hype, no spam.",
+      "at": "2026-11-21T08:50:58.646Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8501,
-      "last_at": "2026-11-20T21:51:59+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 8502,
+      "last_at": "2026-11-21T08:30:17+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "pedramgholizadeh": {
       "last_id": 809,
       "last_at": "2026-11-18T14:28:13+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "ai_farshad": {
-      "last_id": 6486,
-      "last_at": "2026-11-21T06:55:43+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 6487,
+      "last_at": "2026-11-21T08:31:24+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7254,
-      "last_at": "2026-11-21T06:28:15+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 7256,
+      "last_at": "2026-11-21T08:00:23+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "techiin_ir": {
-      "last_id": 20813,
-      "last_at": "2026-11-20T16:15:20+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 20814,
+      "last_at": "2026-11-20T16:38:19+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "mgh_mobin": {
       "last_id": 498,
       "last_at": "2026-11-18T12:40:43+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "web3nabu": {
       "last_id": 2182,
       "last_at": "2026-11-20T16:42:02+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "asrnovin_ir": {
-      "last_id": 11500,
-      "last_at": "2026-11-20T16:28:39+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 11503,
+      "last_at": "2026-11-21T08:26:30+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "shayanode": {
-      "last_id": 257,
-      "last_at": "2026-11-20T22:45:11+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 258,
+      "last_at": "2026-11-20T22:47:02+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "codecloude": {
-      "last_id": 2607,
-      "last_at": "2026-11-21T07:05:13+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 2609,
+      "last_at": "2026-11-21T08:29:34+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "dunijet_ai": {
       "last_id": 2592,
       "last_at": "2026-11-20T16:35:03+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "marketing_aida": {
       "last_id": 110,
       "last_at": "2026-11-20T14:50:36+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "Sajadverse": {
       "last_id": 1257,
       "last_at": "2026-11-19T11:42:41+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "MatinSenPaii": {
       "last_id": 5938,
       "last_at": "2026-11-21T06:06:02+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "checked_at": "2026-11-21T08:49:01.486Z"
     },
     "thenimaonAI": {
-      "last_id": 552,
-      "last_at": "2026-11-19T07:43:40+00:00",
-      "checked_at": "2026-11-21T08:01:00.002Z"
+      "last_id": 556,
+      "last_at": "2026-11-21T08:35:44+00:00",
+      "checked_at": "2026-11-21T08:49:01.486Z"
     }
   },
   "offerReviews": [
@@ -25536,6 +25635,54 @@
       "slot": "2026-11-21T11:30+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-thenima|https://t.me/thenimaonAI/555",
+      "date": "2026-11-21",
+      "at": "2026-11-21T08:49:01.486Z",
+      "source": "tg-thenima",
+      "title": "بعد از کلاد نوبت به اینستاگرام هم رسید!",
+      "url": "https://t.me/thenimaonAI/555",
+      "reason": "no_link",
+      "slot": "2026-11-21T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-thenima|https://t.me/thenimaonAI/554",
+      "date": "2026-11-21",
+      "at": "2026-11-21T08:49:01.486Z",
+      "source": "tg-thenima",
+      "title": "توی این فایل نگاهی انداختیم به مدل های درآمدزایی از یوتوب با تولید محتوا با هوش",
+      "url": "https://t.me/thenimaonAI/554",
+      "reason": "denied_link",
+      "slot": "2026-11-21T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-techiin|https://t.me/techiin_ir/20814",
+      "date": "2026-11-21",
+      "at": "2026-11-21T08:49:01.486Z",
+      "source": "tg-techiin",
+      "title": "✅ هیوندای النترا هیبرید 2027 با امکانات هوش مصنوعی رونمایی شد",
+      "url": "https://t.me/techiin_ir/20814",
+      "reason": "denied_link",
+      "slot": "2026-11-21T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-21|tg-codecloude|https://github.com/Leonxlnx/taste",
+      "date": "2026-11-21",
+      "at": "2026-11-21T08:49:01.486Z",
+      "source": "tg-codecloude",
+      "title": "Uizze: UI taste for AI agents",
+      "url": "https://github.com/Leonxlnx/taste",
+      "reason": "model_skip",
+      "slot": "2026-11-21T11:30+03:30",
+      "kind": "tool",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -25881,6 +26028,13 @@
       "url": "https://t.me/ai_farshad/6480",
       "slot": "2026-11-20T20:30+03:30",
       "at": "2026-11-20T17:04:03.850Z"
+    },
+    {
+      "source": "tg-mohammad-zammani",
+      "title": "⚡️آموزش ساخت موشن دیزاین در Google Flow فقط با یک عکس!",
+      "url": "https://t.me/Mohammad_zammani/7256",
+      "slot": "2026-11-21T11:30+03:30",
+      "at": "2026-11-21T08:49:01.486Z"
     }
   ],
   "reviewPending": {},
