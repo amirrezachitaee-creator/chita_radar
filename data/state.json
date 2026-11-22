@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T11:11:29.700Z",
+  "updatedAt": "2026-11-22T13:44:15.088Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14873,58 +14873,99 @@
       "slot": "2026-11-22T14:00+03:30",
       "title": "Stitch Loop",
       "url": "https://www.producthunt.com/products/stitch-loop"
+    },
+    "url:eb8795489a8abf5c": {
+      "at": "2026-11-22T13:31:08.793Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "​پشتیبانی از اشتراک‌های جمنای به‌زودی به پلتفرم Hermes اضافه می‌شه. در حال حاضر، برای استفاده از",
+      "url": "https://t.me/Mohammad_zammani/7262"
+    },
+    "title:ac4140c49b65334e": {
+      "at": "2026-11-22T13:31:08.793Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "​پشتیبانی از اشتراک‌های جمنای به‌زودی به پلتفرم Hermes اضافه می‌شه. در حال حاضر، برای استفاده از",
+      "url": "https://t.me/Mohammad_zammani/7262"
+    },
+    "url:86e7d7fc8c8bb4ba": {
+      "at": "2026-11-22T13:31:08.997Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "🎧 یوتیوب رو با دوبله فارسی ببین!",
+      "url": "https://aistudio.google.com/"
+    },
+    "title:2f2079a19d36996e": {
+      "at": "2026-11-22T13:31:08.997Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "🎧 یوتیوب رو با دوبله فارسی ببین!",
+      "url": "https://aistudio.google.com/"
+    },
+    "url:8ed981f5564fbdf0": {
+      "at": "2026-11-22T13:31:10.366Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "🎙 حذف نویز از میکروفون با استفاده از هوش مصنوعی با Inworld Voice Isolator",
+      "url": "https://github.com/inworld-ai/voice-isolator"
+    },
+    "title:81478dd91b7847cf": {
+      "at": "2026-11-22T13:31:10.366Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "🎙 حذف نویز از میکروفون با استفاده از هوش مصنوعی با Inworld Voice Isolator",
+      "url": "https://github.com/inworld-ai/voice-isolator"
+    },
+    "url:0bd143457a8b550b": {
+      "at": "2026-11-22T13:32:13.873Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+      "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "benchmark": false
+    },
+    "title:d3ecbf2d9b78ed31": {
+      "at": "2026-11-22T13:32:13.873Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+      "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "benchmark": false
+    },
+    "url:66eae4612900f2e7": {
+      "at": "2026-11-22T13:44:15.084Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "benchmark": false
+    },
+    "title:70d3250a456e9b30": {
+      "at": "2026-11-22T13:44:15.084Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-22T17:00+03:30",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:0bd143457a8b550b": {
-      "id": "defer:url:0bd143457a8b550b",
-      "at": "2026-11-20T10:31:20.022Z",
-      "firstAt": "2026-11-20T10:31:20.022Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:0bd143457a8b550b",
-        "title:d3ecbf2d9b78ed31"
-      ],
-      "canonical": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
-      "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
-        "link": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
-        "canonical": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
-        "published": "Thu, 19 Nov 2026 21:19:00 GMT",
-        "summary": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
-        "images": [
-          "http://cms.therecord.media/uploads/Congress_6ac7a14ca7.jpg"
-        ],
-        "ageHours": 13.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:0bd143457a8b550b",
-          "title:d3ecbf2d9b78ed31"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:e86d037ec9726f1b": {
       "id": "defer:url:e86d037ec9726f1b",
       "at": "2026-11-20T10:31:20.022Z",
@@ -14969,106 +15010,6 @@
         "keys": [
           "url:e86d037ec9726f1b",
           "title:410916eba764025e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:459d592a65e4366a": {
-      "id": "defer:url:459d592a65e4366a",
-      "at": "2026-11-20T10:31:20.022Z",
-      "firstAt": "2026-11-20T10:31:20.022Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:459d592a65e4366a",
-        "title:837ab79606ac2de5"
-      ],
-      "canonical": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues",
-      "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
-        "link": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
-        "canonical": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues",
-        "published": "Thu, 19 Nov 2026 13:08:35 +0000",
-        "summary": "OpenAI's internal use of coding agents is growing fast, with theoretical token costs now exceeding researchers' base salaries. Even though teams are reluctant to work without these tools, the models still produce a lot of \"AI slop\" beyond routine tasks. The article OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo_numbers.png"
-        ],
-        "ageHours": 21.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:459d592a65e4366a",
-          "title:837ab79606ac2de5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d9c7f378bb4ec636": {
-      "id": "defer:url:d9c7f378bb4ec636",
-      "at": "2026-11-20T10:31:20.023Z",
-      "firstAt": "2026-11-20T10:31:20.023Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:d9c7f378bb4ec636",
-        "title:7a7117c38461ab7e"
-      ],
-      "canonical": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago",
-      "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
-        "link": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
-        "canonical": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago",
-        "published": "Thu, 19 Nov 2026 11:18:18 +0000",
-        "summary": "Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp"
-        ],
-        "ageHours": 23.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d9c7f378bb4ec636",
-          "title:7a7117c38461ab7e"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16584,58 +16525,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:66eae4612900f2e7": {
-      "id": "defer:url:66eae4612900f2e7",
-      "at": "2026-11-21T19:31:11.473Z",
-      "firstAt": "2026-11-21T19:31:11.473Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:66eae4612900f2e7",
-        "title:70d3250a456e9b30"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-        "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-        "canonical": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-        "published": "Fri, 20 Nov 2026 21:47:10 +0000",
-        "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-500x500.jpg"
-        ],
-        "ageHours": 21.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:66eae4612900f2e7",
-          "title:70d3250a456e9b30"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:f22d46a83ecd25c4": {
       "id": "defer:url:f22d46a83ecd25c4",
       "at": "2026-11-21T19:31:11.473Z",
@@ -16894,6 +16783,106 @@
         "keys": [
           "url:dc9c1d3cbe5e2874",
           "title:2688c7a9495fc91a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3e5894c0851fe293": {
+      "id": "defer:url:3e5894c0851fe293",
+      "at": "2026-11-22T13:31:10.380Z",
+      "firstAt": "2026-11-22T13:31:10.380Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:3e5894c0851fe293",
+        "title:c22438a9e4e625dc"
+      ],
+      "canonical": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
+      "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+        "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+        "canonical": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
+        "published": "Sun, 22 Nov 2026 13:00:43 +0000",
+        "summary": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The article AI is getting better faster than experts can reliably test whether new systems are safe, METR warns appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3e5894c0851fe293",
+          "title:c22438a9e4e625dc"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a131c024f657a6c8": {
+      "id": "defer:url:a131c024f657a6c8",
+      "at": "2026-11-22T13:31:10.380Z",
+      "firstAt": "2026-11-22T13:31:10.380Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:a131c024f657a6c8",
+        "title:f329a41317220719"
+      ],
+      "canonical": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users",
+      "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+        "link": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+        "canonical": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users",
+        "published": "Sun, 22 Nov 2026 12:07:56 +0000",
+        "summary": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers and 125 endpoints. The article Security researchers show how cheap AI inference providers steal keys and snoop on users appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/cybersecurity_data_leak.png"
+        ],
+        "ageHours": 1.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a131c024f657a6c8",
+          "title:f329a41317220719"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19962,6 +19951,52 @@
       "cost": 0.00132216,
       "tokens": 9288,
       "posts": []
+    },
+    "2026-11-22T17:00+03:30": {
+      "at": "2026-11-22T13:32:13.873Z",
+      "status": "sent",
+      "category": "business",
+      "title": "متا هدف کربن‌صفر ۲۰۳۰ را بازبینی می‌کند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/17-00-2",
+      "messageId": 136,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0032171608,
+      "tokens": 65016,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "کنگره آمریکا گروه امنیت هوش مصنوعی تشکیل داد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 135,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0010099544000000001,
+          "tokens": 32442,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-22T13:32:13.873Z"
+        },
+        {
+          "title": "متا هدف کربن‌صفر ۲۰۳۰ را بازبینی می‌کند",
+          "category": "business",
+          "status": "sent",
+          "messageId": 136,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/17-00-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008112664,
+          "tokens": 22804,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-22T13:44:15.084Z"
+        }
+      ]
     }
   },
   "published": [
@@ -22022,93 +22057,129 @@
       "sourceTitle": "Anthropic rival says companies can (mostly) skip the pricey models | TechCrunch",
       "sourceText": "On the same day that Anthropic went public in the largest IPO on record, with investor enthusiasm for the AI lab through the roof, far away at the Slush startup conference in Helsinki, the topic du jour was open source everything.\nThat’s the enormous opportunity being chased by companies like Fireworks AI , as enterprises seek ways to avoid paying frontier prices for their AI needs.\nFour-year-old Fireworks runs AI models for other businesses. The Bay Area-based outfit specializes in open-weight models, which anyone can download, and helps customers tune them on their own data so they run faster and cheaper than the models of Anthropic, OpenAI, and other heavyweights, and are harder for rivals to copy. Customers have included Uber, Shopify, and Notion.\nFireworks co-founder Chenyu Zhao and many others believe companies are gravitating toward platforms like his because frontier models are pricey and, in most cases, he says, unnecessary unless you need the very latest and greatest generalized intelligence. There are also growing concerns that frontier labs absorb too much of their customers’ know-how, even if only through the prompts used to get answers, a worry Microsoft CEO Satya Nadella raised in July .\nFireworks has also gotten its first black eye, having disclosed two security incidents this fall. In one, hackers reached API keys and tokens stored as secrets for a limited number of accounts; in the other, attackers breached its cloud provider, made their way into a development system, and nabbed customer data, including billing records and some datasets.\nNotion says AI cha",
       "at": "2026-11-22T08:02:14.946Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-22T17:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "کنگره آمریکا گروه امنیت هوش مصنوعی تشکیل داد",
+      "why": "نظرسنجی‌های میاندوره‌ای نشون داد بیش از نیمی از رای‌دهندگان آمریکایی هوش مصنوعی رو یک مسئله بزرگ می‌دونن و ۴۳ درصد به هیچ‌کدوم از دو حزب برای مدیریت درست این موضوع اعتماد ندارن.",
+      "dedupe_key": "congress-ai-safety-caucus-launch",
+      "post_key": "2026-11-22/17-00/1",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "sourceTitle": "Lawmakers launch new AI safety caucus amid rising security concerns",
+      "sourceText": "A bipartisan group of than two dozen House lawmakers announced Thursday they are joining a new AI Safety and Innovation Caucus to confront the security risks posed by evolving and increasingly sophisticated artificial intelligence models.\nThe July breach of Hugging Face by an OpenAI agent that escaped a sandbox — and the subsequent Anthropic warning that its own AI models also broke out of testing environments to obtain unauthorized access to third-party organizations — have “underscored the need for Congress to better understand these risks and develop policy solutions,” according to a press release from Rep. George Whitesides (D-CA), a caucus co-chair.\n“As AI capabilities accelerate, so do the potential consequences of catastrophic misuse, loss of control over advanced systems, and threats to national security.”\nWhitesides and co-chairs Reps. Nathaniel Moran (R-TX) and Don Beyer (D-VA) called for bipartisan collaboration to forge basic guardrails in the face of accelerating risks, citing Americans’ well-documented concerns about the technology.\nSeven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI. The caucus is focused on finding “targeted” solutions that will not imperil innovation, Whitesides said in a statement.\nThe lawmakers will push bipartisan legislation to augment AI safety and quickly respond to AI security incidents by gathering AI developers, independent experts and government officials to brief lawmakers and help develop solutions, the press release said.\nIt will aggressively",
+      "at": "2026-11-22T13:32:13.873Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-22T17:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "متا هدف کربن‌صفر ۲۰۳۰ را بازبینی می‌کند",
+      "why": "این بازبینی در حالیه که آمازون، گوگل و مایکروسافت هنوز به اهداف اولیه پایداری‌شون پایبند موندن و متا تنها شرکتیه که این عقب‌نشینی رو علنی کرده.",
+      "dedupe_key": "meta-net-zero-2030-reconsider",
+      "post_key": "2026-11-22/17-00/2",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "sourceTitle": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "sourceText": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?\nMeta’s executives are rethinking the company’s original goal of achieving net-zero emissions by 2030. That revelation in Meta’s latest sustainability report comes as the company reported a record percentage increase in greenhouse gas emissions that exceeds any other Big Tech competitor racing to build new AI data centers.\nThe company’s 2026 sustainability report claims that “our long-term ambitions haven’t changed, but our operating environment has,” according to an introduction from Rachel Peterson, vice president of data centers at Meta, and Blair Swedeen, global head of net zero and sustainability at Meta. In the November 19, 2026, report, they attributed the changing conditions and the need for a rethink to how “demand for AI infrastructure has grown faster than almost anyone projected.”\n“We are re-evaluating our timelines, sequencing, and interim milestones—including the 2030 timeframe for our net zero emissions goal and our near-term intensity targets—so our approach reflects current operating realities while keeping progress transparent year over year,” Peterson and Swedeen wrote in the report.\nMeta’s statement about re-evaluating its 2030 emissions goal is a significant public acknowledgment, given that Amazon, Google, and Microsoft have all stuck by their original sustainability goals so far.\nBut all the companies have acknowledged challenges in balancing their original sustainability goals against the breakneck buildout of hyperscale data centers . Despite efforts to invest in more renewable en",
+      "at": "2026-11-22T13:44:15.085Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8518,
-      "last_at": "2026-11-22T09:19:12+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "last_id": 8520,
+      "last_at": "2026-11-22T13:10:50+00:00",
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "ai_farshad": {
-      "last_id": 6494,
-      "last_at": "2026-11-22T08:35:44+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "last_id": 6495,
+      "last_at": "2026-11-22T11:58:45+00:00",
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7261,
-      "last_at": "2026-11-21T16:22:02+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "last_id": 7262,
+      "last_at": "2026-11-22T12:08:33+00:00",
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "techiin_ir": {
-      "last_id": 20825,
-      "last_at": "2026-11-21T14:59:37+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "last_id": 20826,
+      "last_at": "2026-11-21T16:09:02+00:00",
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "mgh_mobin": {
       "last_id": 501,
       "last_at": "2026-11-22T07:16:34+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "web3nabu": {
-      "last_id": 2183,
-      "last_at": "2026-11-21T23:14:22+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "last_id": 2184,
+      "last_at": "2026-11-22T13:01:52+00:00",
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "asrnovin_ir": {
       "last_id": 11510,
       "last_at": "2026-11-22T08:31:04+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "shayanode": {
-      "last_id": 264,
-      "last_at": "2026-11-22T08:04:42+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "last_id": 265,
+      "last_at": "2026-11-22T08:11:05+00:00",
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "codecloude": {
-      "last_id": 2611,
-      "last_at": "2026-11-22T06:58:10+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "last_id": 2613,
+      "last_at": "2026-11-22T13:12:38+00:00",
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "marketing_aida": {
       "last_id": 111,
       "last_at": "2026-11-21T15:21:48+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "MatinSenPaii": {
       "last_id": 5955,
       "last_at": "2026-11-22T10:54:06+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     },
     "thenimaonAI": {
       "last_id": 558,
       "last_at": "2026-11-22T07:42:12+00:00",
-      "checked_at": "2026-11-22T11:11:08.047Z"
+      "checked_at": "2026-11-22T13:30:51.269Z"
     }
   },
   "offerReviews": [
@@ -26443,6 +26514,18 @@
       "slot": "2026-11-22T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7262",
+      "date": "2026-11-22",
+      "at": "2026-11-22T13:30:51.269Z",
+      "source": "tg-mohammad-zammani",
+      "title": "​پشتیبانی از اشتراک‌های جمنای به‌زودی به پلتفرم Hermes اضافه می‌شه. در حال حاضر، برای استفاده از",
+      "url": "https://t.me/Mohammad_zammani/7262",
+      "reason": "denied_link",
+      "slot": "2026-11-22T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -26795,6 +26878,20 @@
       "url": "https://t.me/shayanode/263",
       "slot": "2026-11-22T14:00+03:30",
       "at": "2026-11-22T10:30:52.455Z"
+    },
+    {
+      "source": "tg-shayanode",
+      "title": "🎧 یوتیوب رو با دوبله فارسی ببین!",
+      "url": "https://aistudio.google.com/",
+      "slot": "2026-11-22T17:00+03:30",
+      "at": "2026-11-22T13:30:51.269Z"
+    },
+    {
+      "source": "tg-archive-tell",
+      "title": "🎙 حذف نویز از میکروفون با استفاده از هوش مصنوعی با Inworld Voice Isolator",
+      "url": "https://github.com/inworld-ai/voice-isolator",
+      "slot": "2026-11-22T17:00+03:30",
+      "at": "2026-11-22T13:30:51.269Z"
     }
   ],
   "reviewPending": {},
