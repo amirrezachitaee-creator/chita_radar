@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T10:33:27.196Z",
+  "updatedAt": "2026-11-22T11:11:29.700Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14837,6 +14837,42 @@
       "slot": "2026-11-22T14:00+03:30",
       "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
       "url": "https://github.com/storytold/craft-anything"
+    },
+    "url:af3677e3e88e5c2a": {
+      "at": "2026-11-22T11:11:24.251Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "✅ حل مشهورترین مسئله تاریخ ریاضی با کمک هوش مصنوعی کلاد",
+      "url": "https://t.me/techiin_ir/20825"
+    },
+    "title:342bb7c53ba7343d": {
+      "at": "2026-11-22T11:11:24.251Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "✅ حل مشهورترین مسئله تاریخ ریاضی با کمک هوش مصنوعی کلاد",
+      "url": "https://t.me/techiin_ir/20825"
+    },
+    "url:07d3a6a4e8e8d0eb": {
+      "at": "2026-11-22T11:11:29.698Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "Stitch Loop",
+      "url": "https://www.producthunt.com/products/stitch-loop"
+    },
+    "title:f807a1ed5ec11437": {
+      "at": "2026-11-22T11:11:29.698Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "Stitch Loop",
+      "url": "https://www.producthunt.com/products/stitch-loop"
     }
   },
   "deferred": {
@@ -16070,52 +16106,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:07d3a6a4e8e8d0eb": {
-      "id": "defer:url:07d3a6a4e8e8d0eb",
-      "at": "2026-11-21T10:31:14.682Z",
-      "firstAt": "2026-11-21T10:31:14.682Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:07d3a6a4e8e8d0eb",
-        "title:f807a1ed5ec11437"
-      ],
-      "canonical": "https://www.producthunt.com/products/stitch-loop",
-      "title": "Stitch Loop",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Stitch Loop",
-        "link": "https://www.producthunt.com/products/stitch-loop",
-        "canonical": "https://www.producthunt.com/products/stitch-loop",
-        "published": "2026-11-20T11:38:38-08:00",
-        "summary": "<p> Google’s AI agent that ships fixes and watches the metric </p> <p> <a href=\"https://www.producthunt.com/products/stitch-loop?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1324651?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/stitch-loop",
-        "images": [],
-        "ageHours": 14.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:07d3a6a4e8e8d0eb",
-          "title:f807a1ed5ec11437"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:68055c8173516fcf": {
       "id": "defer:url:68055c8173516fcf",
       "at": "2026-11-21T10:31:14.682Z",
@@ -16854,6 +16844,56 @@
         "keys": [
           "url:f6f5282ad9e3c36b",
           "title:6f5e75e17c6bd27e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dc9c1d3cbe5e2874": {
+      "id": "defer:url:dc9c1d3cbe5e2874",
+      "at": "2026-11-22T11:11:24.266Z",
+      "firstAt": "2026-11-22T11:11:24.266Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:dc9c1d3cbe5e2874",
+        "title:2688c7a9495fc91a"
+      ],
+      "canonical": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+      "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+        "link": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+        "canonical": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+        "published": "Sun, 22 Nov 2026 11:08:31 +0000",
+        "summary": "The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it wouldn't happen until around 2050 and didn't expect AI to solve it alone. The article Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/05/ai_and_math.png"
+        ],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:dc9c1d3cbe5e2874",
+          "title:2688c7a9495fc91a"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19919,8 +19959,8 @@
       "at": "2026-11-22T10:33:27.194Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.002430876,
-      "tokens": 46013,
+      "cost": 0.00132216,
+      "tokens": 9288,
       "posts": []
     }
   },
@@ -21988,87 +22028,87 @@
     "ArchiveTell": {
       "last_id": 8518,
       "last_at": "2026-11-22T09:19:12+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "ai_farshad": {
       "last_id": 6494,
       "last_at": "2026-11-22T08:35:44+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "Mohammad_zammani": {
       "last_id": 7261,
       "last_at": "2026-11-21T16:22:02+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "techiin_ir": {
-      "last_id": 20824,
-      "last_at": "2026-11-21T14:31:40+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "last_id": 20825,
+      "last_at": "2026-11-21T14:59:37+00:00",
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "mgh_mobin": {
       "last_id": 501,
       "last_at": "2026-11-22T07:16:34+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "web3nabu": {
       "last_id": 2183,
       "last_at": "2026-11-21T23:14:22+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "asrnovin_ir": {
       "last_id": 11510,
       "last_at": "2026-11-22T08:31:04+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "shayanode": {
-      "last_id": 263,
-      "last_at": "2026-11-22T08:03:09+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "last_id": 264,
+      "last_at": "2026-11-22T08:04:42+00:00",
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "codecloude": {
       "last_id": 2611,
       "last_at": "2026-11-22T06:58:10+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "marketing_aida": {
       "last_id": 111,
       "last_at": "2026-11-21T15:21:48+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "MatinSenPaii": {
-      "last_id": 5954,
-      "last_at": "2026-11-22T10:21:18+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "last_id": 5955,
+      "last_at": "2026-11-22T10:54:06+00:00",
+      "checked_at": "2026-11-22T11:11:08.047Z"
     },
     "thenimaonAI": {
       "last_id": 558,
       "last_at": "2026-11-22T07:42:12+00:00",
-      "checked_at": "2026-11-22T10:30:52.455Z"
+      "checked_at": "2026-11-22T11:11:08.047Z"
     }
   },
   "offerReviews": [
@@ -26391,6 +26431,18 @@
       "slot": "2026-11-22T14:00+03:30",
       "kind": "tool",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-techiin|https://t.me/techiin_ir/20825",
+      "date": "2026-11-22",
+      "at": "2026-11-22T11:11:08.047Z",
+      "source": "tg-techiin",
+      "title": "✅ حل مشهورترین مسئله تاریخ ریاضی با کمک هوش مصنوعی کلاد",
+      "url": "https://t.me/techiin_ir/20825",
+      "reason": "denied_link",
+      "slot": "2026-11-22T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -26760,7 +26812,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-22T05:01:02.738Z",
+      "lastCheck": "2026-11-22T11:11:08.047Z",
       "status": "active",
       "misses": 0
     }

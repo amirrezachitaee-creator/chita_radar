@@ -8943,6 +8943,57 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "a580290ea2": {
+      "id": "a580290ea2",
+      "messageId": 164,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-22T14:00+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-techiin",
+      "sourceName": "تِک‌این | آموزش و فناوری",
+      "sourceType": "telegram_channel",
+      "title": "✅ حل مشهورترین مسئله تاریخ ریاضی با کمک هوش مصنوعی کلاد",
+      "url": "https://t.me/techiin_ir/20825",
+      "leadPostUrl": "https://t.me/techiin_ir/20825",
+      "messageText": "✅ حل مشهورترین مسئله تاریخ ریاضی با کمک هوش مصنوعی کلاد\n\nریاضیدان لِوِنت آلپوگه از کارکنان آنتروپیک مدعی اثبات فرضیه ریمان با کمک هوش مصنوعی Claude شده. این مسئله یکی از مشهورترین و دشوارترین چالش‌های تاریخ ریاضیاته.\nجزئیات بیشتر",
+      "relatedLinks": [
+        "https://www.instagram.com/p/DgAfqj3iGVt?knvt=MW1uaWsybXdiN3JrOA%3D%3D",
+        "http://helixworld.ai/",
+        "https://www.instagram.com/techin_ir",
+        "https://youtube.com/@techin_ir?si=NiD_33Qz2d2IRTlP",
+        "https://x.com/techin_ir"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/JOIQa3pW1ecvuiTO6XdArV4RYGYQLe4KoZgjSAO39ikWYEGl56AarOOOLl7sVa7HRWSwaQ4tBK1VJdsWfw3rj-AYTF2ny5iMKv8Fv2kK4YMMLVz4lrf34WTK6oQIA4djV8tp-zIoznm8Q4RXqWY4QIKLXG-f6L2XwOeRBX9C5aB7Cov5Vg7lznrUqep8uYraRMto_b4NT7lSseMJJczpEFPq5tG6LS75qHtqFoVra2zU5cNiL0sLd1FLI0ZnKsKrxrREDiz99PTI5Y0NJQC5VFpFNyvb2PeRBPk2TFxDjfr2mESCfroKFAkSIj1opzch3mT1svPp07TeBiwa10Z67Q.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-21T14:59:37+00:00",
+      "keys": [
+        "url:af3677e3e88e5c2a",
+        "title:342bb7c53ba7343d"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-22T11:11:08.047Z",
+      "updatedAt": "2026-11-22T11:11:08.047Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
