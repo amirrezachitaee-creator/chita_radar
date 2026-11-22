@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T14:17:54.000Z",
+  "updatedAt": "2026-11-22T17:05:40.726Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14963,111 +14963,81 @@
       "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
       "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
       "benchmark": false
+    },
+    "url:046009a81cbcb4dc": {
+      "at": "2026-11-22T17:01:21.340Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "دیگه برای ساخت انیمیشن با هوش مصنوعی هزینه پرداخت نکن | رایگان انیمیشن حرفه ای بساز",
+      "url": "https://t.me/asrnovin_ir/11512"
+    },
+    "title:e3107edf8f8ad901": {
+      "at": "2026-11-22T17:01:21.340Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "دیگه برای ساخت انیمیشن با هوش مصنوعی هزینه پرداخت نکن | رایگان انیمیشن حرفه ای بساز",
+      "url": "https://t.me/asrnovin_ir/11512"
+    },
+    "url:d00d6dc935b6c6c1": {
+      "at": "2026-11-22T17:01:21.584Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "یه چیزی پیدا کردم دیگه پول به اشتراک هوش مصنوعی نمیدین",
+      "url": "https://t.me/shayanode/266"
+    },
+    "title:67f84486892dbfc0": {
+      "at": "2026-11-22T17:01:21.584Z",
+      "decision": "review",
+      "reason": "link_missing",
+      "category": "",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "یه چیزی پیدا کردم دیگه پول به اشتراک هوش مصنوعی نمیدین",
+      "url": "https://t.me/shayanode/266"
+    },
+    "url:05621d2269fc6ee1": {
+      "at": "2026-11-22T17:01:44.783Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "AI in public | Hamza Khalid | Substack",
+      "url": "https://t.me/marketing_aida/112"
+    },
+    "title:ebc6b0e22b51bff9": {
+      "at": "2026-11-22T17:01:44.783Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "AI in public | Hamza Khalid | Substack",
+      "url": "https://t.me/marketing_aida/112"
+    },
+    "url:7ad44f990f0c53ef": {
+      "at": "2026-11-22T17:05:40.717Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "benchmark": false
+    },
+    "title:e8891ba574b6652b": {
+      "at": "2026-11-22T17:05:40.717Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-22T20:30+03:30",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:e86d037ec9726f1b": {
-      "id": "defer:url:e86d037ec9726f1b",
-      "at": "2026-11-20T10:31:20.022Z",
-      "firstAt": "2026-11-20T10:31:20.022Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:e86d037ec9726f1b",
-        "title:410916eba764025e"
-      ],
-      "canonical": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector",
-      "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
-        "link": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
-        "canonical": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector",
-        "published": "Thu, 19 Nov 2026 14:02:22 +0000",
-        "summary": "Anthropic launches the largest IPO in history, dethroning SpaceX as the previous record holder. Early investor Dustin Moskovitz is publicly distancing himself, warning that his early funding may have been an act \"that ended the world.\" The article Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
-        ],
-        "ageHours": 20.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:e86d037ec9726f1b",
-          "title:410916eba764025e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:abd04dc00b8ba51e": {
-      "id": "defer:url:abd04dc00b8ba51e",
-      "at": "2026-11-20T10:31:20.023Z",
-      "firstAt": "2026-11-20T10:31:20.023Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:abd04dc00b8ba51e",
-        "title:b83315e9c96fd91b"
-      ],
-      "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026",
-      "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
-      "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
-        "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
-        "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026",
-        "published": "Thu, 19 Nov 2026 14:00:12 +0000",
-        "summary": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_November_19.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_November_19-842x450.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_Black_Friday_Sale-1680x945.jpg"
-        ],
-        "ageHours": 20.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:abd04dc00b8ba51e",
-          "title:b83315e9c96fd91b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:bd128091bfe5d9af": {
       "id": "defer:url:bd128091bfe5d9af",
       "at": "2026-11-20T13:31:29.352Z",
@@ -15800,53 +15770,6 @@
         "keys": [
           "url:eaecd34f2a6c3727",
           "title:fdcca212932f0479"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7ad44f990f0c53ef": {
-      "id": "defer:url:7ad44f990f0c53ef",
-      "at": "2026-11-21T08:01:23.238Z",
-      "firstAt": "2026-11-21T08:01:23.238Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:7ad44f990f0c53ef",
-        "title:e8891ba574b6652b"
-      ],
-      "canonical": "https://openai.com/index/combatting-adversarial-distillation",
-      "title": "Combatting adversarial distillation",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Combatting adversarial distillation",
-        "link": "https://openai.com/index/combatting-adversarial-distillation",
-        "canonical": "https://openai.com/index/combatting-adversarial-distillation",
-        "published": "Fri, 20 Nov 2026 10:00:00 GMT",
-        "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/combatting-adversarial-distillation",
-        "images": [],
-        "ageHours": 22,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7ad44f990f0c53ef",
-          "title:e8891ba574b6652b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16883,6 +16806,106 @@
         "keys": [
           "url:a131c024f657a6c8",
           "title:f329a41317220719"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:355871b4c59f61e6": {
+      "id": "defer:url:355871b4c59f61e6",
+      "at": "2026-11-22T17:01:44.798Z",
+      "firstAt": "2026-11-22T17:01:44.798Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:355871b4c59f61e6",
+        "title:d3b318b928a3d7f1"
+      ],
+      "canonical": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+        "link": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+        "canonical": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
+        "published": "Sun, 22 Nov 2026 15:15:48 +0000",
+        "summary": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tasks completely. The models finish clear, standalone assignments quickly, but they lose track as autonomous developers. The article AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg"
+        ],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:355871b4c59f61e6",
+          "title:d3b318b928a3d7f1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:977e654476b3a126": {
+      "id": "defer:url:977e654476b3a126",
+      "at": "2026-11-22T17:01:44.798Z",
+      "firstAt": "2026-11-22T17:01:44.798Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:977e654476b3a126",
+        "title:f1a04535d9301920"
+      ],
+      "canonical": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
+      "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+        "link": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+        "canonical": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
+        "published": "Sun, 22 Nov 2026 14:20:28 +0000",
+        "summary": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business through developer tools. The article Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/06/Perplexity-Logo-Silhouette-Nano-Banana-Pro.jpg"
+        ],
+        "ageHours": 2.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:977e654476b3a126",
+          "title:f1a04535d9301920"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19997,6 +20020,37 @@
           "at": "2026-11-22T13:44:15.084Z"
         }
       ]
+    },
+    "2026-11-22T20:30+03:30": {
+      "at": "2026-11-22T17:05:40.717Z",
+      "status": "sent",
+      "category": "security",
+      "title": "اوپن‌ای‌آی روش مقابله با سرقت مدل‌ها را اعلام کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/20-30",
+      "messageId": 137,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.003785796,
+      "tokens": 36379,
+      "qa": "41/43",
+      "posts": [
+        {
+          "title": "اوپن‌ای‌آی روش مقابله با سرقت مدل‌ها را اعلام کرد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 137,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.002386356,
+          "tokens": 26548,
+          "qa": "41/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-22T17:05:40.717Z"
+        }
+      ]
     }
   },
   "published": [
@@ -22093,336 +22147,114 @@
       "sourceTitle": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
       "sourceText": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?\nMeta’s executives are rethinking the company’s original goal of achieving net-zero emissions by 2030. That revelation in Meta’s latest sustainability report comes as the company reported a record percentage increase in greenhouse gas emissions that exceeds any other Big Tech competitor racing to build new AI data centers.\nThe company’s 2026 sustainability report claims that “our long-term ambitions haven’t changed, but our operating environment has,” according to an introduction from Rachel Peterson, vice president of data centers at Meta, and Blair Swedeen, global head of net zero and sustainability at Meta. In the November 19, 2026, report, they attributed the changing conditions and the need for a rethink to how “demand for AI infrastructure has grown faster than almost anyone projected.”\n“We are re-evaluating our timelines, sequencing, and interim milestones—including the 2030 timeframe for our net zero emissions goal and our near-term intensity targets—so our approach reflects current operating realities while keeping progress transparent year over year,” Peterson and Swedeen wrote in the report.\nMeta’s statement about re-evaluating its 2030 emissions goal is a significant public acknowledgment, given that Amazon, Google, and Microsoft have all stuck by their original sustainability goals so far.\nBut all the companies have acknowledged challenges in balancing their original sustainability goals against the breakneck buildout of hyperscale data centers . Despite efforts to invest in more renewable en",
       "at": "2026-11-22T13:44:15.085Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-22T20:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "اوپن‌ای‌آی روش مقابله با سرقت مدل‌ها را اعلام کرد",
+      "why": "در مطالعه داخلی، نرخ موفقیت حمله برای استخراج استدلال مدل از ۵۴٪ به ۰.۲٪ رسیده. این دفاع‌ها هزینه دزدیدن توانایی‌های مدل‌های پیشرفته را بالا می‌بره و جلوی این را می‌گیره که توانایی‌های خطرناک بدون محافظت به دست افراد بد برسه.",
+      "dedupe_key": "openai-adversarial-distillation-defense",
+      "post_key": "2026-11-22/20-30/1",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "sourceTitle": "Combatting adversarial distillation",
+      "sourceText": "How we’re addressing safety risks of distillation and lessons we’ve learned for strengthening safeguards across the industry.\nAs frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly. Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards. An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections. For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked.\nWe’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry.\nOur approach to adversarial distillation combines adversarial testing, model training, classifiers, and API-level protections with investigations into coordinated attempts to extract model capabilities. These updated safeguards align more closely with those we use for biology and cybersecurity.\nWe place particular emphasis on preventing attackers from extracting our models’ protected reasoning: the intermediate steps a model generates internally while working toward an answer, known as its chain-of-thought. These traces can contain information the final answer leaves out, making them especially valuable tr",
+      "at": "2026-11-22T17:05:40.718Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8520,
-      "last_at": "2026-11-22T13:10:50+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "last_id": 8521,
+      "last_at": "2026-11-22T14:10:21+00:00",
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "ai_farshad": {
-      "last_id": 6495,
-      "last_at": "2026-11-22T11:58:45+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "last_id": 6502,
+      "last_at": "2026-11-22T15:00:58+00:00",
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "Mohammad_zammani": {
       "last_id": 7262,
       "last_at": "2026-11-22T12:08:33+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "techiin_ir": {
-      "last_id": 20826,
-      "last_at": "2026-11-21T16:09:02+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "last_id": 20827,
+      "last_at": "2026-11-22T09:40:07+00:00",
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "mgh_mobin": {
       "last_id": 501,
       "last_at": "2026-11-22T07:16:34+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "web3nabu": {
       "last_id": 2184,
       "last_at": "2026-11-22T13:01:52+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "asrnovin_ir": {
-      "last_id": 11510,
-      "last_at": "2026-11-22T08:31:04+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "last_id": 11512,
+      "last_at": "2026-11-22T14:56:41+00:00",
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "shayanode": {
-      "last_id": 265,
-      "last_at": "2026-11-22T08:11:05+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "last_id": 266,
+      "last_at": "2026-11-22T08:45:55+00:00",
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "codecloude": {
       "last_id": 2613,
       "last_at": "2026-11-22T13:12:38+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "marketing_aida": {
-      "last_id": 111,
-      "last_at": "2026-11-21T15:21:48+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "last_id": 112,
+      "last_at": "2026-11-22T14:24:58+00:00",
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "MatinSenPaii": {
       "last_id": 5955,
       "last_at": "2026-11-22T10:54:06+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "checked_at": "2026-11-22T17:01:05.149Z"
     },
     "thenimaonAI": {
-      "last_id": 558,
-      "last_at": "2026-11-22T07:42:12+00:00",
-      "checked_at": "2026-11-22T13:30:51.269Z"
+      "last_id": 559,
+      "last_at": "2026-11-22T14:32:05+00:00",
+      "checked_at": "2026-11-22T17:01:05.149Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20711",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-techiin",
-      "title": "✅ یک مسئله 18 ساله رایانش کوانتومی در 3 ‌روز با مدلی از آنتروپیک حل شد",
-      "url": "https://t.me/techiin_ir/20711",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20710",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-techiin",
-      "title": "🔴 آنتروپیک درحال مسدود کردن برخی حساب‌های ایرانیه؛ از اطلاعات کلادتون پشتیبان تهیه کنید",
-      "url": "https://t.me/techiin_ir/20710",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5806",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-matin-senpai",
-      "title": "مدل Ling-3.2-flash حالا عکس و ویدئو رو هم مستقیم می‌فهمه",
-      "url": "https://t.me/MatinSenPaii/5806",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/456",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "برنده نوبل: شاید بهتر بود اصلاً هوش مصنوعی رو توسعه نمی‌دادیم!",
-      "url": "https://t.me/thenimaonAI/456",
-      "reason": "no_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5802",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-matin-senpai",
-      "title": "شایعه: نسل بعدی Astra و Sol همین جمعه از OpenAI می‌رسه",
-      "url": "https://t.me/MatinSenPaii/5802",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5800",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-matin-senpai",
-      "title": "راه‌های زیادی برای دسترسی به مدلهای Uncensored هوش مصنوعی وجود داره، اما هرچقدر فکر کردم، دیدم",
-      "url": "https://t.me/MatinSenPaii/5800",
-      "reason": "no_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5797",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-matin-senpai",
-      "title": "یکی با GPT-6 Astra وزن‌های یه شبکه عصبی رو مستقیم ساخت و باهاش پونگ بازی کرد",
-      "url": "https://t.me/MatinSenPaii/5797",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/453",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "یه چیزی رو باید بگم، چون این روزها توییت‌های زیادی درباره‌ی دلایل بن شدن اکانت Claude",
-      "url": "https://t.me/thenimaonAI/453",
-      "reason": "no_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/451",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "یه ایده‌ی عجیب دیدم که ارزش امتحان کردن داره 👀 اینکه ایجنت هوش مصنوعیت (مثل Muse",
-      "url": "https://t.me/thenimaonAI/451",
-      "reason": "no_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5795",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-matin-senpai",
-      "title": "شایعه مدل تازه Anthropic که تو همه بنچمارک‌های METR بالای ۵۰ درصد زده",
-      "url": "https://t.me/MatinSenPaii/5795",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/449",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "💡 یک نظریه شاید نامحبوب، ولی به نظرم مهم:",
-      "url": "https://t.me/thenimaonAI/449",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/447",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "اگه فکر می‌کردی ChatGPT توی ساخت تصویر دیگه چیز جدیدی نداره، یه نگاه دیگه بنداز 🎨",
-      "url": "https://t.me/thenimaonAI/447",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20714",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-techiin",
-      "title": "✅ بسته حمایتی کانوا برای نیروهای تعدیل شده تحسین کاربران در لینکدین رو برانگیخت",
-      "url": "https://t.me/techiin_ir/20714",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-pedram-gholizadeh|https://t.me/pedramgholizadeh/790",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-pedram-gholizadeh",
-      "title": "بالاخره سورنای متولد شد! 💙🚀",
-      "url": "https://t.me/pedramgholizadeh/790",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20709",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-techiin",
-      "title": "✅ سازمان تامین اجتماعی حق مطالبه بدهی بیمه‌ای شرکت‌ها از فضاهای کار اشتراکی رو نداره",
-      "url": "https://t.me/techiin_ir/20709",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/455",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "ربات‌های انسان‌نمای شیائومی یه شیفت ۸ ساعته کامل توی کارخانه‌ی خودرو برقیش کار کردن 🤖🏭",
-      "url": "https://t.me/thenimaonAI/455",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/462",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "روزیکه AI شغل منو ازم گرفت…",
-      "url": "https://t.me/thenimaonAI/462",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5811",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-matin-senpai",
-      "title": "دموی Miracle نشون می‌ده وسط ویدیو رنگ مو رو عوض می‌کنید، پس‌زمینه رو برمی‌دارید و سر",
-      "url": "https://t.me/MatinSenPaii/5811",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5809",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-matin-senpai",
-      "title": "واژه‌ی Perplexity (پرپلکسیتی) توی مدل‌های زبانی، معیاریه که نشون می‌ده مدل چقدر داخل پیش‌بینی توکن بعدی",
-      "url": "https://t.me/MatinSenPaii/5809",
-      "reason": "no_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/458",
-      "date": "2026-11-08",
-      "at": "2026-11-08T17:00:47.465Z",
-      "source": "tg-thenima",
-      "title": "Free AI Video & Audio Tools, No Watermark",
-      "url": "https://t.me/thenimaonAI/458",
-      "reason": "denied_link",
-      "slot": "2026-11-08T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-08|tg-marketing-aida|https://t.me/marketing_aida/103",
       "date": "2026-11-08",
@@ -26524,6 +26356,42 @@
       "url": "https://t.me/Mohammad_zammani/7262",
       "reason": "denied_link",
       "slot": "2026-11-22T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-asr-novin|https://t.me/asrnovin_ir/11512",
+      "date": "2026-11-22",
+      "at": "2026-11-22T17:01:05.149Z",
+      "source": "tg-asr-novin",
+      "title": "دیگه برای ساخت انیمیشن با هوش مصنوعی هزینه پرداخت نکن | رایگان انیمیشن حرفه ای بساز",
+      "url": "https://t.me/asrnovin_ir/11512",
+      "reason": "denied_link",
+      "slot": "2026-11-22T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-shayanode|https://t.me/shayanode/266",
+      "date": "2026-11-22",
+      "at": "2026-11-22T17:01:05.149Z",
+      "source": "tg-shayanode",
+      "title": "یه چیزی پیدا کردم دیگه پول به اشتراک هوش مصنوعی نمیدین",
+      "url": "https://t.me/shayanode/266",
+      "reason": "link_missing",
+      "slot": "2026-11-22T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-marketing-aida|https://t.me/marketing_aida/112",
+      "date": "2026-11-22",
+      "at": "2026-11-22T17:01:05.149Z",
+      "source": "tg-marketing-aida",
+      "title": "AI in public | Hamza Khalid | Substack",
+      "url": "https://t.me/marketing_aida/112",
+      "reason": "denied_link",
+      "slot": "2026-11-22T20:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
