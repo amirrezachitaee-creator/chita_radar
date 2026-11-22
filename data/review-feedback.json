@@ -9183,6 +9183,57 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "773c388fd0": {
+      "id": "773c388fd0",
+      "messageId": 171,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-22T23:00+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-techiin",
+      "sourceName": "تِک‌این | آموزش و فناوری",
+      "sourceType": "telegram_channel",
+      "title": "✅ سهام شرکت آنتروپیک، مالک مدل هوش مصنوعی کلاد، پس از عرضه اولیه 25 درصد سقوط",
+      "url": "https://t.me/techiin_ir/20829",
+      "leadPostUrl": "https://t.me/techiin_ir/20829",
+      "messageText": "✅ سهام شرکت آنتروپیک، مالک مدل هوش مصنوعی کلاد، پس از عرضه اولیه 25 درصد سقوط کرد!",
+      "relatedLinks": [
+        "http://helixworld.ai/",
+        "https://www.instagram.com/techin_ir",
+        "https://youtube.com/@techin_ir?si=NiD_33Qz2d2IRTlP",
+        "https://x.com/techin_ir"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/TECawlpLHpzoaZ6d_6DzwMEBoLjR37MoA1ATsxAAxGfunxDspEFijvuNWvYgdjQL85fjlFtjeMMavzS96lFHdGL-4OxtFKm25WTWvcNmJcuwHzEwBDOQd7wWlnH1qk-WJRoLHWaoTvzKrWKm10lBWlgDjvcwdjDpTxJpdrn-pOycOIp3YaanxN_HcX1TXSoPzShMymDQzvMTh989gM1dS3gnCKqd1UeAhpNYzwDSlH53WTfGA2hCWNKcSb4YKhcps9U7DKUXQdorisiVO0GjH55GY5Rce6JqlQG3G7eqjUxEPUj4WULPwveWcqBh0l2NqTcjcjWF0dpM5PiURpUgrw.jpg",
+        "https://cdn4.telesco.pe/file/umO7NWQoy2cxLcc1Jq3nPepxmEjP5SU_wtFIOp-RphGz43V7RTsbRkKmJyS7u1PufzxYm5SgIZYGaYsyo5-NDSLd9NairEUyX4ukPYTD63YgfxU9smetUdG-bxKu_DM_PNGp4agd5ZVI6Ed9WidtOt2x6lcx4xWvFn8KQBsvXFM0BU6lyTZYe73S0M3ujBi6G5-SuxC7tah7QJ35Jsn6gQoXCK4b0JUbynZuvtIZBdgQPzC6aRlPjnCZApo5g7ij9zQJOKnIjRgNWpBqQ4MK7mMO3MOCPEBdRmnCs_lKhmCW3mkynstAOhkSmGW5qGCzF-T2q5Dp4w75e55nRbz2VQ.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-22T09:59:31+00:00",
+      "keys": [
+        "url:f6f2421906d4578f",
+        "title:2156b9ac85ee328d"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-22T20:15:44.713Z",
+      "updatedAt": "2026-11-22T20:15:44.713Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [

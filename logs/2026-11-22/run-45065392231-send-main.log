@@ -1,0 +1,126 @@
+RUN 45065392231 | send/main | slot auto | 2026-11-22T20:15:44Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-22T23:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 4/31 | models 3/24 | security 3/11 | business 3/11
+DAILY 6/11
+DIVERSITY_TARGET tools | slot 23:00
+DEFERRED_POOL 34
+  DEFERRED source_daily | try 0/3 | TechCrunch Mobility: A/B testing robots vs. humans
+  DEFERRED source_daily | try 0/3 | AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace
+  DEFERRED source_daily | try 0/3 | Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog
+  DEFERRED source_daily | try 0/3 | AI is getting better faster than experts can reliably test whether new systems are safe, METR warns
+  DEFERRED source_daily | try 0/3 | Security researchers show how cheap AI inference providers steal keys and snoop on users
+SOURCE_DISCOVERY already_ran date=2026-11-22 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=224 nodate=0 nonai=0 dup=21 dup_other=0 kept=39 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=310 pending=13 leads=3 nolink=2 nonai=0 denied=0 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:660,review:17 delivered=677 window=30d
+  EDU_LANG_SKIP Machine Learning Mastery | persian=0 latin=312 | Decoding Policies in a Serving Engine
+TELEGRAM_EDU_LANG_SKIPPED 1 skipped=not_persian min_persian=10
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+  REVIEW_ITEM id=773c388fd0 message=171
+  REVIEW_REQUIRED reason=denied_link sent=171
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-22/23-00-f6f24219
+RELEVANCE candidates=37 kept=20 dropped=17
+  SKIP_NOT_AI TechCrunch | Why data centers are at the center of the Big Tech backlash
+  SKIP_NOT_AI TechCrunch | A tale of two Nvidias
+  SKIP_NOT_AI Product Hunt | oovi
+  SKIP_NOT_AI Simon Willison - Prompt Injection | Quoting Ravi Vakil
+  SKIP_NOT_AI Crunchbase News | 5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks
+  SKIP_NOT_AI Simon Willison - Prompt Injection | PostgreSQL 19 Released
+  SKIP_NOT_AI ArchiveTell | 🌐 شبکهٔ خصوصی URnetwork برای همه ⠀ ترافیکت به‌جای رفتن از یک مرکز، از اینترنت واقعی
+  SKIP_NOT_AI TechCrunch | Can a TV be too large? An investigation
+  SKIP_NOT_AI ... +9 more
+DIVERSITY target=tools queue=2 fresh=1 deferred=34 rejected=source_daily:27,source_consecutive:2
+  DIVERSITY_QUEUE tools:ArchiveTell | models:Hugging Face Blog
+QUEUE_SKIPPED 33
+  QUEUE_SKIP source_daily | TechCrunch | TechCrunch Mobility: A/B testing robots vs. humans
+  QUEUE_SKIP source_daily | The Decoder | AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace
+  QUEUE_SKIP source_daily | The Decoder | Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog
+  QUEUE_SKIP source_daily | The Decoder | AI is getting better faster than experts can reliably test whether new systems are safe, METR warns
+  QUEUE_SKIP source_daily | The Decoder | Security researchers show how cheap AI inference providers steal keys and snoop on users
+  QUEUE_SKIP source_daily | The Decoder | Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct
+  QUEUE_SKIP source_consecutive | OpenAI News | Perplexity and Intelligence
+  QUEUE_SKIP source_daily | TechCrunch | Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance
+  QUEUE_SKIP source_daily | TechCrunch | Here are the top AI agents that can live in your text messages
+  QUEUE_SKIP source_daily | The Decoder | Nvidia researchers argue huge AI context windows are a dead end
+  QUEUE_SKIP ... +23 more
+ATTEMPT 1/2 | deferred 0/3 ArchiveTell | 🤖هوش مصنوعی و فید خبری در بتای تلگرام | 1.3h
+  GATE_STALE 153.4h/72h
+ATTEMPT 2/2 | deferred 0/3 Hugging Face Blog | Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup | 32h
+  OFFER_SKIP offer_stale
+RESULT EMPTY attempts=3 reviews=1 deferred=33 | cost $0.000000 | tokens 0
+  EMPTY_ATTEMPT review reason=denied_link | ✅ سهام شرکت آنتروپیک، مالک مدل هوش مصنوعی کلاد، پس از عرضه اولیه 25 درصد سقوط
+  EMPTY_ATTEMPT gate_stale | 🤖هوش مصنوعی و فید خبری در بتای تلگرام
+  EMPTY_ATTEMPT offer_skip reason=offer_stale | Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-22T20:16:00Z
+# گزارش روزانه 2026-11-22 (یکشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 6 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 6، خالی 2
+
+## آمار روز
+- پست ارسال‌شده: 6 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1، کسب‌وکار و بازار 2، امنیت و حریم خصوصی 2
+- آفر: ارسال‌شده 0 | بازبینی 4
+- آموزش‌های بازبینی: 7 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 2
+- اسلات‌های خالی: 2
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1، کسب‌وکار و بازار 2، امنیت و حریم خصوصی 2
+
+## هزینه
+- هزینه مدل: $0.008463
+- توکن: 136168
+- میانگین هر پست ارسال‌شده: $0.001411
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 4 | 31 | 27 |
+| مدل‌ها و پژوهش | 3 | 24 | 21 |
+| امنیت و حریم خصوصی | 3 | 11 | 8 |
+| کسب‌وکار و بازار | 3 | 11 | 8 |
+| مجموع | 13 | 77 | 64 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000430 | 10706 | مدل جدید Thinking Machines با استدلال حلقه‌ای معرفی شد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000254 | 9813 | سرور راستی مورو برای اجرای برنامه‌های پایتون منتشر شد |
+| 11:30 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002250 | 24567 | Fireworks AI: مدل‌های گران‌قیمت برای بیشتر شرکت‌ها لازم نیست |
+| 14:00 |  | خالی | — | $0.001322 | 9288 |  |
+| 17:00 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.001010 | 32442 | کنگره آمریکا گروه امنیت هوش مصنوعی تشکیل داد |
+| 17:00 #2 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.000811 | 22804 | متا هدف کربن‌صفر ۲۰۳۰ را بازبینی می‌کند |
+| 20:30 | امنیت و حریم خصوصی | ارسال‌شده | 41/43 | $0.002386 | 26548 | اوپن‌ای‌آی روش مقابله با سرقت مدل‌ها را اعلام کرد |
+| 23:00 |  | خالی | — | $0.000000 | 0 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 12
+- دلایل: از رصد آفر پیدا شد 2، لینک خارجی این پست پذیرفته نشد 8، جزئیات ابزار کامل نشد 1، لینک معتبر برای این آفر پیدا نشد 1
+- آموزش‌های بازبینی امروز: 7 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 33
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-22.md
+SOURCE_STATUS 2026-11-22T20:16:00Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-22.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — یکشنبه ۱ آذر ۱۴۰۵
+پست امروز: 6 | کپی بازبینی: 0 | اسلات خالی: 2 | کل امروز: 6
+صف بازبینی: 171 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 33
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45065392231
+STATUS_CARD_END
+STATUS_SKIP reason=already_sent

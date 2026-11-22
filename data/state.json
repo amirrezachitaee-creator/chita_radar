@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T19:31:24.601Z",
+  "updatedAt": "2026-11-22T20:16:00.489Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -15053,6 +15053,60 @@
       "slot": "2026-11-22T23:00+03:30",
       "title": "gitroots",
       "url": "https://www.producthunt.com/products/gitroots"
+    },
+    "url:b4d33ffd488aa1e5": {
+      "at": "2026-11-22T20:15:57.356Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-22T23:00+03:30",
+      "title": "Decoding Policies in a Serving Engine",
+      "url": "https://machinelearningmastery.com/decoding-policies-in-a-serving-engine"
+    },
+    "title:d8f2a4cad800d552": {
+      "at": "2026-11-22T20:15:57.356Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-22T23:00+03:30",
+      "title": "Decoding Policies in a Serving Engine",
+      "url": "https://machinelearningmastery.com/decoding-policies-in-a-serving-engine"
+    },
+    "url:f6f2421906d4578f": {
+      "at": "2026-11-22T20:15:59.758Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T23:00+03:30",
+      "title": "✅ سهام شرکت آنتروپیک، مالک مدل هوش مصنوعی کلاد، پس از عرضه اولیه 25 درصد سقوط",
+      "url": "https://t.me/techiin_ir/20829"
+    },
+    "title:2156b9ac85ee328d": {
+      "at": "2026-11-22T20:15:59.758Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T23:00+03:30",
+      "title": "✅ سهام شرکت آنتروپیک، مالک مدل هوش مصنوعی کلاد، پس از عرضه اولیه 25 درصد سقوط",
+      "url": "https://t.me/techiin_ir/20829"
+    },
+    "url:824c03b970f1dc58": {
+      "at": "2026-11-22T20:16:00.486Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-22T23:00+03:30",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini"
+    },
+    "title:27fd696ca216ae30": {
+      "at": "2026-11-22T20:16:00.486Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-22T23:00+03:30",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini"
     }
   },
   "deferred": {
@@ -15735,53 +15789,6 @@
         "keys": [
           "url:8145fefb47ff1ca9",
           "title:5239519b9bff8bd0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:824c03b970f1dc58": {
-      "id": "defer:url:824c03b970f1dc58",
-      "at": "2026-11-21T08:01:23.238Z",
-      "firstAt": "2026-11-21T08:01:23.238Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:824c03b970f1dc58",
-        "title:27fd696ca216ae30"
-      ],
-      "canonical": "https://huggingface.co/blog/inkling2mini",
-      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-        "link": "https://huggingface.co/blog/inkling2mini",
-        "canonical": "https://huggingface.co/blog/inkling2mini",
-        "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/inkling2mini",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:824c03b970f1dc58",
-          "title:27fd696ca216ae30"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19931,8 +19938,8 @@
       "at": "2026-11-22T19:31:24.599Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.00132636,
-      "tokens": 9300,
+      "cost": 0,
+      "tokens": 0,
       "posts": []
     }
   },
@@ -22052,89 +22059,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8525,
-      "last_at": "2026-11-22T19:25:05+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "last_id": 8527,
+      "last_at": "2026-11-22T19:58:14+00:00",
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "ai_farshad": {
-      "last_id": 6505,
-      "last_at": "2026-11-22T19:03:18+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "last_id": 6507,
+      "last_at": "2026-11-22T20:12:07+00:00",
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "Mohammad_zammani": {
       "last_id": 7262,
       "last_at": "2026-11-22T12:08:33+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "techiin_ir": {
-      "last_id": 20828,
-      "last_at": "2026-11-22T09:50:19+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "last_id": 20829,
+      "last_at": "2026-11-22T09:59:31+00:00",
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "mgh_mobin": {
       "last_id": 501,
       "last_at": "2026-11-22T07:16:34+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "web3nabu": {
-      "last_id": 2185,
-      "last_at": "2026-11-22T19:05:38+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "last_id": 2186,
+      "last_at": "2026-11-22T20:10:31+00:00",
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "asrnovin_ir": {
       "last_id": 11514,
       "last_at": "2026-11-22T17:20:35+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "codecloude": {
       "last_id": 2613,
       "last_at": "2026-11-22T13:12:38+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "marketing_aida": {
       "last_id": 112,
       "last_at": "2026-11-22T14:24:58+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "MatinSenPaii": {
       "last_id": 5956,
       "last_at": "2026-11-22T18:16:02+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     },
     "thenimaonAI": {
       "last_id": 559,
       "last_at": "2026-11-22T14:32:05+00:00",
-      "checked_at": "2026-11-22T19:31:04.039Z"
+      "checked_at": "2026-11-22T20:15:44.713Z"
     }
   },
   "offerReviews": [
@@ -25939,6 +25946,18 @@
       "url": "https://t.me/marketing_aida/112",
       "reason": "denied_link",
       "slot": "2026-11-22T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-techiin|https://t.me/techiin_ir/20829",
+      "date": "2026-11-22",
+      "at": "2026-11-22T20:15:44.713Z",
+      "source": "tg-techiin",
+      "title": "✅ سهام شرکت آنتروپیک، مالک مدل هوش مصنوعی کلاد، پس از عرضه اولیه 25 درصد سقوط",
+      "url": "https://t.me/techiin_ir/20829",
+      "reason": "denied_link",
+      "slot": "2026-11-22T23:00+03:30",
       "kind": "post",
       "mainEligible": false
     }
