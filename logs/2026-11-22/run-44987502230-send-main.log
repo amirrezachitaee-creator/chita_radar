@@ -1,0 +1,172 @@
+RUN 44987502230 | send/main | slot auto | 2026-11-22T05:01:02Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-22T08:30+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 3/31 | models 2/24 | security 1/11 | business 1/11
+DAILY 0/11
+DIVERSITY_TARGET tools | slot 08:30
+DEFERRED_POOL 41
+  DEFERRED source_daily | try 0/3 | Here are the top AI agents that can live in your text messages
+  DEFERRED source_daily | try 0/3 | Nvidia researchers argue huge AI context windows are a dead end
+  DEFERRED source_daily | try 0/3 | Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion
+  DEFERRED source_daily | try 0/3 | Is selling an AI version of your face to this microdrama startup the future of Hollywood?
+  DEFERRED source_daily | try 0/3 | New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK source_daily | expires 54h | New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop
+DEFERRED_EXHAUSTED 1
+  CHANGE perq new_lines=400
+  OFFER perq status=review reason=source_not_official
+  CHANGE ai-free new_lines=357
+  OFFER ai-free status=review reason=source_not_official expiry=2026-11-06
+  WATCH free-llm-api-hub unchanged
+  CHANGE free-inference new_lines=126
+  OFFER free-inference status=seen reason=already_reported
+  WATCH google-ai-studio unchanged
+  CHANGE openrouter new_lines=90
+  WATCH cloudflare-workers-ai unchanged
+  WATCH zai unchanged
+  WATCH deepgram unchanged
+  WATCH jina-ai unchanged
+  CHANGE huggingface new_lines=105
+  WATCH nvidia-build unchanged
+  WATCH qoder unchanged
+  WATCH cline unchanged
+  WATCH elevenlabs unchanged
+  WATCH ollama unchanged
+OFFER_WATCH targets=16 fetched=16 failed=0 changed=5 baseline=0 offers=0 reviews=2
+  REVIEW_ITEM id=0cf5630dba message=153
+  REVIEW_REQUIRED reason=offer_watch sent=153
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-22/08-30-5188ac28
+  REVIEW_ITEM id=20b47c75e9 message=154
+  REVIEW_REQUIRED reason=offer_watch sent=154
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-22/08-30-e63417ff
+SOURCE_DISCOVERY candidates=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=2 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=200 nodate=0 nonai=0 dup=36 dup_other=0 kept=51 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=313 pending=20 leads=5 nolink=4 nonai=2 denied=7 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=1 ocr_text=1 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:632,review:17 delivered=649 window=30d
+REVIEW_LEADS 2 separate_from_main=yes cap=none
+REVIEW_DRAFT Code.Cloud | کـــد کلاد | 🧠 تا حالا فکر کردی ChatGPT چطوری حرف‌هات رو می‌فهمه و جواب می‌ده؟ گوگل تصمیم گرفته | 642 chars
+  REVIEW_ITEM id=d1254ae609 message=155
+  REVIEW_REQUIRED reason=denied_link sent=155
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-22/08-30-acfc22b8
+  REVIEW_ITEM id=b2f8244f4c message=156
+  REVIEW_REQUIRED reason=denied_link sent=156
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-22/08-30-55534782
+TELEGRAM_EDU_LEADS 2 selected=2 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD asrnovin_ir | education | فردا یه روش ساخت ویدیو میخوام بهتون آموزش بدم که برگاتون میریزه
+  EDU_LEAD ai_farshad | education | 📺 با Eightify، ویدیوهای طولانی یوتیوب رو در چند ثانیه خلاصه کن!
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_REVIEW leads=2 sent=2 ids=157,158 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-22/08-30-education/education.txt
+RELEVANCE candidates=47 kept=29 dropped=18
+  SKIP_NOT_AI TechCrunch | A tale of two Nvidias
+  SKIP_NOT_AI Product Hunt | WaitFeed
+  SKIP_NOT_AI Simon Willison - Prompt Injection | Quoting Ravi Vakil
+  SKIP_NOT_AI TechCrunch | Super-hot rock geothermal could end data center energy woes
+  SKIP_NOT_AI Crunchbase News | 5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks
+  SKIP_NOT_AI Simon Willison - Prompt Injection | PostgreSQL 19 Released
+  SKIP_NOT_AI arXiv | Active Feature Acquisition by Distilling an Oracle Teacher
+  SKIP_NOT_AI Crunchbase News | Public Markets Are Frequently Wrong. The SaaSpocalypse Shows Us Why
+  SKIP_NOT_AI ... +10 more
+DIVERSITY target=tools queue=3 fresh=6 deferred=41 rejected=none
+  DIVERSITY_QUEUE tools:ArchiveTell | models:The Decoder | models:Simon Willison - Prompt Injection
+QUEUE_SKIPPED 36
+  QUEUE_SKIP source_duplicate | ArchiveTell | 🎬 ادیتور ویدیوی متن‌باز، قابل کنترل با ایجنت
+  QUEUE_SKIP source_duplicate | ArchiveTell | 🎙 ۵۰ دلار اعتبار ماهانه رایگان Rime برای صدا
+  QUEUE_SKIP source_duplicate | The Decoder | Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats
+  QUEUE_SKIP source_duplicate | Product Hunt | gitroots
+  QUEUE_SKIP source_duplicate | The Decoder | OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues
+  QUEUE_SKIP source_duplicate | The Decoder | An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool
+  QUEUE_SKIP source_duplicate | The Decoder | Nvidia researchers argue huge AI context windows are a dead end
+  QUEUE_SKIP source_duplicate | The Decoder | Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion
+  QUEUE_SKIP source_duplicate | The Decoder | Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model
+  QUEUE_SKIP source_duplicate | The Decoder | Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup
+  QUEUE_SKIP ... +26 more
+ATTEMPT 1/3 | deferred 0/3 ArchiveTell | 🤖هوش مصنوعی و فید خبری در بتای تلگرام | 1.3h
+  GATE_STALE 138.2h/72h
+ATTEMPT 2/3 | deferred 0/3 The Decoder | New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop | 3h
+  TOOL_LINK candidate https://huggingface.co/thinkingmachines/Inkling-2-Mini | score 35
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+POST 1/2 status=sent category=models | QA 43/43 | $0.000430 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/08-30
+ATTEMPT 3/3 Simon Willison - Prompt Injection | Muru | 5.1h
+  TOOL_LINK candidate https://github.com/muruhq/muru | score 32
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK applied https://github.com/muruhq/muru
+  SLOT_GAP_WAIT 710s
+POST 2/2 status=sent category=tools | QA 43/43 | $0.000254 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/08-30-2
+RESULT SENT category=tools | offer=no | image=no | QA 43/43 | cost $0.002036 | post $0.000254 | tokens 30031
+TITLE سرور راستی مورو برای اجرای برنامه‌های پایتون منتشر شد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/08-30-2
+SLOT_POSTS 2/2 sent=2 review=0
+  POST models | sent | $0.000430 | مدل جدید Thinking Machines با استدلال حلقه‌ای معرفی شد
+  POST tools | sent | $0.000254 | سرور راستی مورو برای اجرای برنامه‌های پایتون منتشر شد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-22T05:14:03Z
+# گزارش روزانه 2026-11-22 (یکشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 2
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 0
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.000684
+- توکن: 20519
+- میانگین هر پست ارسال‌شده: $0.000342
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 4 | 31 | 27 |
+| مدل‌ها و پژوهش | 3 | 24 | 21 |
+| امنیت و حریم خصوصی | 1 | 11 | 10 |
+| کسب‌وکار و بازار | 1 | 11 | 10 |
+| مجموع | 9 | 77 | 68 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000430 | 10706 | مدل جدید Thinking Machines با استدلال حلقه‌ای معرفی شد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000254 | 9813 | سرور راستی مورو برای اجرای برنامه‌های پایتون منتشر شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 4
+- دلایل: از رصد آفر پیدا شد 2، لینک خارجی این پست پذیرفته نشد 2
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 40
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-22.md
+SOURCE_STATUS 2026-11-22T05:14:03Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-22.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — یکشنبه ۱ آذر ۱۴۰۵
+پست امروز: 2 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 2
+صف بازبینی: 163 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 40
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/44987502230
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

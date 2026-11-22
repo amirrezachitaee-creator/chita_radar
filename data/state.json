@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-21T20:12:01.088Z",
+  "updatedAt": "2026-11-22T05:14:03.694Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14585,61 +14585,135 @@
       "title": "Google rolls out new search homepage with AI chat history and no search button",
       "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
       "benchmark": false
+    },
+    "offerwatch:0dc431881629acc8": {
+      "at": "2026-11-22T05:01:08.984Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits"
+    },
+    "offerwatch:1409cd0b3ef06462": {
+      "at": "2026-11-22T05:01:09.166Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "url:acfc22b8b7c1c0c3": {
+      "at": "2026-11-22T05:01:43.394Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "🧠 تا حالا فکر کردی ChatGPT چطوری حرف‌هات رو می‌فهمه و جواب می‌ده؟ گوگل تصمیم گرفته",
+      "url": "https://t.me/codecloude/2610"
+    },
+    "title:a97d2fc854924e64": {
+      "at": "2026-11-22T05:01:43.394Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "🧠 تا حالا فکر کردی ChatGPT چطوری حرف‌هات رو می‌فهمه و جواب می‌ده؟ گوگل تصمیم گرفته",
+      "url": "https://t.me/codecloude/2610"
+    },
+    "url:55534782abf8ec26": {
+      "at": "2026-11-22T05:01:43.569Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "وضعيت کنونی ai",
+      "url": "https://t.me/ArchiveTell/8515"
+    },
+    "title:6aa969e243b7941c": {
+      "at": "2026-11-22T05:01:43.569Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "وضعيت کنونی ai",
+      "url": "https://t.me/ArchiveTell/8515"
+    },
+    "url:ce914c33ef17df1e": {
+      "at": "2026-11-22T05:01:43.805Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "فردا یه روش ساخت ویدیو میخوام بهتون آموزش بدم که برگاتون میریزه",
+      "url": "https://t.me/asrnovin_ir/11508"
+    },
+    "title:8c02689826209f49": {
+      "at": "2026-11-22T05:01:43.805Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "فردا یه روش ساخت ویدیو میخوام بهتون آموزش بدم که برگاتون میریزه",
+      "url": "https://t.me/asrnovin_ir/11508"
+    },
+    "url:2d7c093d354bf38a": {
+      "at": "2026-11-22T05:01:45.585Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "📺 با Eightify، ویدیوهای طولانی یوتیوب رو در چند ثانیه خلاصه کن!",
+      "url": "https://eightify.app/"
+    },
+    "title:aa50dd766ed58d0d": {
+      "at": "2026-11-22T05:01:45.585Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "📺 با Eightify، ویدیوهای طولانی یوتیوب رو در چند ثانیه خلاصه کن!",
+      "url": "https://eightify.app/"
+    },
+    "url:2eae7b001568ca61": {
+      "at": "2026-11-22T05:02:03.290Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+      "benchmark": true
+    },
+    "title:f6f8b0f2adda1ea6": {
+      "at": "2026-11-22T05:02:03.290Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+      "benchmark": true
+    },
+    "url:aaa55aaf59895092": {
+      "at": "2026-11-22T05:14:03.690Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru",
+      "benchmark": false
+    },
+    "title:c0d0f234f5d98c39": {
+      "at": "2026-11-22T05:14:03.690Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-22T08:30+03:30",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:82fe289fe466dcc1": {
-      "id": "defer:url:82fe289fe466dcc1",
-      "at": "2026-11-20T17:05:09.980Z",
-      "firstAt": "2026-11-20T08:10:55.011Z",
-      "attempts": 3,
-      "reason": "fetch_failed",
-      "reasons": [
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:82fe289fe466dcc1",
-        "title:268c6c3a657d9811"
-      ],
-      "canonical": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "title": "Explore the Codex Security Plugin",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Explore the Codex Security Plugin",
-        "link": "https://openai.com/business/learn/codex-security-plugin-demo",
-        "canonical": "https://openai.com/business/learn/codex-security-plugin-demo",
-        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-        "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/learn/codex-security-plugin-demo",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:82fe289fe466dcc1",
-          "title:268c6c3a657d9811"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:82fe289fe466dcc1",
-          "attempts": 2
-        }
-      },
-      "detail": "HTTP 403 <html> <head> <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-"
-    },
     "defer:url:0bd143457a8b550b": {
       "id": "defer:url:0bd143457a8b550b",
       "at": "2026-11-20T10:31:20.022Z",
@@ -14833,56 +14907,6 @@
         "keys": [
           "url:d9c7f378bb4ec636",
           "title:7a7117c38461ab7e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3a7670ff256fb2da": {
-      "id": "defer:url:3a7670ff256fb2da",
-      "at": "2026-11-20T10:31:20.023Z",
-      "firstAt": "2026-11-20T10:31:20.023Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:3a7670ff256fb2da",
-        "title:6a03e931a015b8ed"
-      ],
-      "canonical": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
-      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
-        "link": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
-        "canonical": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month",
-        "published": "Wed, 18 Nov 2026 21:03:23 +0000",
-        "summary": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models. The article Google ships Gemini 4 Neon, its fourth new Gemini model in a month appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_argon.png"
-        ],
-        "ageHours": 37.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3a7670ff256fb2da",
-          "title:6a03e931a015b8ed"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -15774,59 +15798,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:7d70f65f13463d84": {
-      "id": "defer:url:7d70f65f13463d84",
-      "at": "2026-11-20T19:34:42.307Z",
-      "firstAt": "2026-11-20T19:34:42.307Z",
-      "attempts": 1,
-      "reason": "send_failed",
-      "reasons": [
-        "send_failed"
-      ],
-      "keys": [
-        "url:7d70f65f13463d84",
-        "title:d4c03a4ce35700e7"
-      ],
-      "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
-      "title": "Anthropic Closes Up 17% After Massive IPO",
-      "candidate": {
-        "sourceId": "crunchbase-news",
-        "sourceName": "Crunchbase News",
-        "sourceType": "news",
-        "title": "Anthropic Closes Up 17% After Massive IPO",
-        "link": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
-        "canonical": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range",
-        "published": "Wed, 18 Nov 2026 22:15:36 +0000",
-        "summary": "The offering promises to be the public market event of the season, with the Claude creator seeing investor demand for shares well in excess of its capital-raising goals.",
-        "messageText": "",
-        "leadPostUrl": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
-        "images": [
-          "https://news.crunchbase.com/wp-content/uploads/2020/09/IPO_.png"
-        ],
-        "ageHours": 39.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:7d70f65f13463d84",
-          "title:d4c03a4ce35700e7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:7d70f65f13463d84",
-          "attempts": 0
-        }
-      },
-      "detail": "TELEGRAM_TIMEOUT"
-    },
     "defer:url:7ad44f990f0c53ef": {
       "id": "defer:url:7ad44f990f0c53ef",
       "at": "2026-11-21T08:01:23.238Z",
@@ -15962,53 +15933,6 @@
         "keys": [
           "url:824c03b970f1dc58",
           "title:27fd696ca216ae30"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f0b81ce3c1461288": {
-      "id": "defer:url:f0b81ce3c1461288",
-      "at": "2026-11-21T08:01:23.238Z",
-      "firstAt": "2026-11-21T08:01:23.238Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f0b81ce3c1461288",
-        "title:9e3e34ef8678fa85"
-      ],
-      "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-        "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-        "canonical": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-        "published": "Wed, 18 Nov 2026 19:54:56 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-        "images": [],
-        "ageHours": 60.1,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:f0b81ce3c1461288",
-          "title:9e3e34ef8678fa85"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16201,56 +16125,6 @@
         "keys": [
           "url:68055c8173516fcf",
           "title:51b9177b0ab0a3fc"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:2eae7b001568ca61": {
-      "id": "defer:url:2eae7b001568ca61",
-      "at": "2026-11-21T13:32:26.282Z",
-      "firstAt": "2026-11-21T13:32:26.282Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:2eae7b001568ca61",
-        "title:f6f8b0f2adda1ea6"
-      ],
-      "canonical": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
-      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
-        "link": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
-        "canonical": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
-        "published": "Sat, 21 Nov 2026 10:33:02 +0000",
-        "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost. The article New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2025/09/thinking_machines_ca_illustration.png"
-        ],
-        "ageHours": 3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:2eae7b001568ca61",
-          "title:f6f8b0f2adda1ea6"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16683,147 +16557,6 @@
         "keys": [
           "url:24760f3d771dfd0d",
           "title:c1dc1d46a5642039"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a890a236270cc5e3": {
-      "id": "defer:url:a890a236270cc5e3",
-      "at": "2026-11-21T17:03:04.751Z",
-      "firstAt": "2026-11-21T17:03:04.751Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a890a236270cc5e3",
-        "title:3ddf2039d217ea0f"
-      ],
-      "canonical": "https://openai.com/business/learn/deploying-daybreak-red",
-      "title": "Deploying Daybreak Red",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Deploying Daybreak Red",
-        "link": "https://openai.com/business/learn/deploying-daybreak-red",
-        "canonical": "https://openai.com/business/learn/deploying-daybreak-red",
-        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-        "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/learn/deploying-daybreak-red",
-        "images": [],
-        "ageHours": 65,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a890a236270cc5e3",
-          "title:3ddf2039d217ea0f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:da30645137037f00": {
-      "id": "defer:url:da30645137037f00",
-      "at": "2026-11-21T17:03:04.751Z",
-      "firstAt": "2026-11-21T17:03:04.751Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:da30645137037f00",
-        "title:ad40bc77b2d22fba"
-      ],
-      "canonical": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "title": "Get started with Daybreak Blue",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Get started with Daybreak Blue",
-        "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-        "canonical": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-        "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-        "images": [],
-        "ageHours": 65,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:da30645137037f00",
-          "title:ad40bc77b2d22fba"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:17b7a2b39f098895": {
-      "id": "defer:url:17b7a2b39f098895",
-      "at": "2026-11-21T17:03:04.751Z",
-      "firstAt": "2026-11-21T17:03:04.751Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:17b7a2b39f098895",
-        "title:349e696538a9bd74"
-      ],
-      "canonical": "https://openai.com/business/learn/pr-scans-demo",
-      "title": "See PR scans in action",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "See PR scans in action",
-        "link": "https://openai.com/business/learn/pr-scans-demo",
-        "canonical": "https://openai.com/business/learn/pr-scans-demo",
-        "published": "Thu, 19 Nov 2026 00:00:00 GMT",
-        "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/learn/pr-scans-demo",
-        "images": [],
-        "ageHours": 65,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:17b7a2b39f098895",
-          "title:349e696538a9bd74"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19960,6 +19693,52 @@
           "at": "2026-11-21T19:31:20.517Z"
         }
       ]
+    },
+    "2026-11-22T08:30+03:30": {
+      "at": "2026-11-22T05:02:03.290Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "سرور راستی مورو برای اجرای برنامه‌های پایتون منتشر شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/08-30-2",
+      "messageId": 133,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0020364624,
+      "tokens": 30031,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "مدل جدید Thinking Machines با استدلال حلقه‌ای معرفی شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 132,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0004295312,
+          "tokens": 10706,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-22T05:02:03.290Z"
+        },
+        {
+          "title": "سرور راستی مورو برای اجرای برنامه‌های پایتون منتشر شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 133,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/08-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0002539712,
+          "tokens": 9813,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-22T05:14:03.690Z"
+        }
+      ]
     }
   },
   "published": [
@@ -21966,228 +21745,132 @@
       "sourceTitle": "Google rolls out new search homepage with AI chat history and no search button",
       "sourceText": "Google search is making it even easier to access AI tools on the search page.\nGoogle’s flagship search experience is evolving into an AI experience with stunning speed. Even time-tested elements of search are getting AI makeovers, and the latest to get this treatment is the search homepage on Google.com. A redesign that’s been in testing for the last few weeks is now official, bringing easier access to AI chats and dropping the dedicated search button entirely.\nGoogle search VP Robby Stein confirmed on X that Google is deploying the new desktop search page after a successful test. The page will now have a few more buttons under the search bar, all connected to AI features. There’s an image generation button, one for analyzing files, and one for brainstorming with Gemini. The “I’m Feeling Lucky” button remains, but the Google Search button that used to sit next to it is gone.\nThe search button has obviously been a part of Google’s search page forever. However, it wasn’t in a very convenient location in the modern interface. When you begin typing a query, the autocomplete suggestions cover that button. You have to click out of the text field to access the button, which is an extra step compared to simply mashing the Enter key to run your search.\nThe other big change brings your recent AI conversations to the forefront. If you’re logged into Google, the search homepage will have an expandable sidebar on the left with your recent AI Mode search threads. This sidebar will also be accessible on the results page. According to Stein, the sidebar made a “big difference” in how peopl",
       "at": "2026-11-21T19:31:20.518Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-22T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل جدید Thinking Machines با استدلال حلقه‌ای معرفی شد",
+      "why": "Inkling 2 Mini با امتیاز ۴۸.۲ درصد در DeepSWE v1.1 و ۴۶.۵ درصد در Vals Index v2.2، صدرنشین مدل‌های اوپن سورس زیر ۱۰۰ میلیارد پارامتر در تست‌های کدنویسی عاملیته؛ یعنی برای تیم‌هایی که دنبال کدنویسی خودکار با هزینه کم هستن، گزینه جدی‌ایه.",
+      "dedupe_key": "thinking-machines-inkling-2-mini-launch",
+      "post_key": "2026-11-22/08-30/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "benchmark": true,
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "sourceTitle": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "sourceText": "Thinking Machines has released Inkling 2 Mini, a so-called looped transformer. A looped transformer runs certain layers multiple times for each token. Inkling 2 Mini runs 12 of its 24 layers three times in a row. That lets the model reason internally for longer without generating more text, finding the right answer with fewer tokens, according to Thinking Machines . The open mixture-of-experts model has 26.4 billion parameters, with 5.4 billion active per token because of the loops, the company says. It processes text and images, has a 1-million-token context window, and is licensed under Apache 2.0.\nInkling 2 Mini leads all open models under 100 billion parameters on agentic coding tests, scoring 48.2 percent on DeepSWE v1.1 and 46.5 percent on the Vals Index v2.2. Artificial Analysis gives it 20 points on its Intelligence Index, tying it with Qwen3.8 27B at roughly six times lower cost and four times the speed.\nInkling 2 Mini runs locally on Macs with at least 32 GB of memory and on Nvidia's DGX Spark. You can download the weights and a research version with variable loops from Hugging Face . It is also available to try in the Tinker Playground . Ad Ad\nEvery week, our editors pick the AI news that matters and explain what it means. No hype, no spam.",
+      "at": "2026-11-22T05:02:03.290Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-22T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "سرور راستی مورو برای اجرای برنامه‌های پایتون منتشر شد",
+      "why": "برای توسعه‌دهنده‌های پایتون که سال‌ها با محدودیت‌های mod_wsgi کنار اومدن، این پروژه می‌تونه مسیر جدیدی برای اجرای برنامه‌هاشون باز کنه.",
+      "dedupe_key": "muru-rust-server-launch",
+      "post_key": "2026-11-22/08-30/2",
+      "sourceId": "simon-willison-prompt-injection",
+      "sourceName": "Simon Willison - Prompt Injection",
+      "sourceType": "blog_tag",
+      "benchmark": false,
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "sourceTitle": "Muru",
+      "sourceText": "Muru . Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since.\nMuru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production.\nAs he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process.\nHere's everything he's published so far, all in the last three weeks:\nThat post about AI as a lifestyle choice is particularly worth a read:\nThe AI may be doing a lot of the work on the surface, but deciding what isn't good enough yet is still down to me, and twenty years of getting things wrong with mod_wsgi turns out to be useful for that. I am prepared to put in the hard work to keep polishing Muru until it is something I would trust, and something you would too.\nThis is a link post by Simon Willison, posted on 21st November 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.",
+      "at": "2026-11-22T05:14:03.691Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8514,
-      "last_at": "2026-11-21T19:24:56+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 8515,
+      "last_at": "2026-11-21T19:55:17+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "pedramgholizadeh": {
-      "last_id": 810,
-      "last_at": "2026-11-21T19:26:17+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 814,
+      "last_at": "2026-11-21T23:03:59+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "ai_farshad": {
-      "last_id": 6491,
-      "last_at": "2026-11-21T17:55:41+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 6492,
+      "last_at": "2026-11-21T19:55:05+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "Mohammad_zammani": {
       "last_id": 7261,
       "last_at": "2026-11-21T16:22:02+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "techiin_ir": {
-      "last_id": 20821,
-      "last_at": "2026-11-21T10:24:12+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 20822,
+      "last_at": "2026-11-21T12:58:08+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "mgh_mobin": {
       "last_id": 499,
       "last_at": "2026-11-21T10:51:01+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "web3nabu": {
-      "last_id": 2182,
-      "last_at": "2026-11-20T16:42:02+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 2183,
+      "last_at": "2026-11-21T23:14:22+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "asrnovin_ir": {
-      "last_id": 11506,
-      "last_at": "2026-11-21T16:35:50+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 11508,
+      "last_at": "2026-11-21T20:25:50+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "shayanode": {
       "last_id": 262,
       "last_at": "2026-11-21T18:59:02+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "codecloude": {
-      "last_id": 2609,
-      "last_at": "2026-11-21T08:29:34+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 2610,
+      "last_at": "2026-11-21T22:24:08+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "marketing_aida": {
       "last_id": 111,
       "last_at": "2026-11-21T15:21:48+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "MatinSenPaii": {
-      "last_id": 5942,
-      "last_at": "2026-11-21T18:50:49+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "last_id": 5950,
+      "last_at": "2026-11-21T19:54:50+00:00",
+      "checked_at": "2026-11-22T05:01:02.738Z"
     },
     "thenimaonAI": {
       "last_id": 556,
       "last_at": "2026-11-21T08:35:44+00:00",
-      "checked_at": "2026-11-21T19:30:53.945Z"
+      "checked_at": "2026-11-22T05:01:02.738Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-08|tg-thenima|https://t.me/thenimaonAI/454",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-thenima",
-      "title": "File From Link | download from Instagram, TikTok, X, YouTube etc",
-      "url": "https://t.me/thenimaonAI/454",
-      "reason": "denied_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-sajadverse|https://t.me/Sajadverse/1246",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-sajadverse",
-      "title": "مهم‌ترین‌های ۲۴ ساعت اخیر هوش مصنوعی",
-      "url": "https://t.me/Sajadverse/1246",
-      "reason": "denied_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20713",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-techiin",
-      "title": "⚠️یک آسیب‌پذیری در حالت Lockdown در ChatGPT که",
-      "url": "https://t.me/techiin_ir/20713",
-      "reason": "denied_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7170",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-mohammad-zammani",
-      "title": "ویدیوهای منتشرشده از تست‌های جدید نشون می‌ده که مدل هوش مصنوعی Gemini 4 Hydrogen تونسته فقط",
-      "url": "https://t.me/Mohammad_zammani/7170",
-      "reason": "denied_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-ai-farshad|https://t.me/ai_farshad/6380",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-ai-farshad",
-      "title": "🤖معرفی ابزارهای هوش مصنوعی برای تولید محتوای تبلیغاتی و متنی",
-      "url": "https://t.me/ai_farshad/6380",
-      "reason": "denied_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-matin-senpai|https://t.me/MatinSenPaii/5808",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-matin-senpai",
-      "title": "گوگل با معماری Muir می‌گه ۱۰ میلیون توکن رو می‌شه توی ۲۵ مگابایت جا داد",
-      "url": "https://t.me/MatinSenPaii/5808",
-      "reason": "denied_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-pedram-gholizadeh|https://t.me/pedramgholizadeh/791",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-pedram-gholizadeh",
-      "title": "بالاخره سورنای متولد شد! 💙🚀 بعد از کلی فکر کردن، آزمون و خطا و کار کردن",
-      "url": "https://t.me/pedramgholizadeh/791",
-      "reason": "no_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|offer-watch:ai-free|https://aifree.dev/free-api-credits",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "offer-watch:ai-free",
-      "title": "Free API access falls into three groups.",
-      "url": "https://aifree.dev/free-api-credits",
-      "reason": "offer_watch",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-asr-novin|https://t.me/asrnovin_ir/11419",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-asr-novin",
-      "title": "🔴هوش مصنوعی claude گرفته رو کاربرای ایرانی ..",
-      "url": "https://t.me/asrnovin_ir/11419",
-      "reason": "denied_link",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|tg-codecloude|https://github.com/amirmushichge/interactive-garment-starter",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "tg-codecloude",
-      "title": "GitHub - amirmushichge/interactive-garment-starter: Build an interactive clothing website from product photos with your coding agent. Includes two animated garments, prompts, and a video-to-UI pipeline.",
-      "url": "https://github.com/amirmushichge/interactive-garment-starter",
-      "reason": "tool_incomplete",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "tool",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-08|the-decoder|https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
-      "date": "2026-11-08",
-      "at": "2026-11-08T05:00:45.672Z",
-      "source": "the-decoder",
-      "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
-      "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
-      "reason": "source_not_official",
-      "slot": "2026-11-08T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-08|tg-techiin|https://t.me/techiin_ir/20711",
       "date": "2026-11-08",
@@ -26435,16 +26118,57 @@
       "slot": "2026-11-21T23:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|offer-watch:ai-free|https://aifree.dev/free-api-credits",
+      "date": "2026-11-22",
+      "at": "2026-11-22T05:01:02.738Z",
+      "source": "offer-watch:ai-free",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits",
+      "reason": "offer_watch",
+      "slot": "2026-11-22T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-22",
+      "at": "2026-11-22T05:01:02.738Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-22T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-codecloude|https://t.me/codecloude/2610",
+      "date": "2026-11-22",
+      "at": "2026-11-22T05:01:02.738Z",
+      "source": "tg-codecloude",
+      "title": "🧠 تا حالا فکر کردی ChatGPT چطوری حرف‌هات رو می‌فهمه و جواب می‌ده؟ گوگل تصمیم گرفته",
+      "url": "https://t.me/codecloude/2610",
+      "reason": "denied_link",
+      "slot": "2026-11-22T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-archive-tell|https://t.me/ArchiveTell/8515",
+      "date": "2026-11-22",
+      "at": "2026-11-22T05:01:02.738Z",
+      "source": "tg-archive-tell",
+      "title": "وضعيت کنونی ai",
+      "url": "https://t.me/ArchiveTell/8515",
+      "reason": "denied_link",
+      "slot": "2026-11-22T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-thenima",
-      "title": "این چند وقت یه بات تلگرام برای مدیریت کانال و گروه ساختم؛ از صفر، خودم.",
-      "url": "https://t.me/thenimaonAI/461",
-      "slot": "2026-11-08T08:30+03:30",
-      "at": "2026-11-08T05:00:45.672Z"
-    },
     {
       "source": "tg-ai-by-sadeghi",
       "title": "این پیج رو ببینید با آموزش ساخت ویدیو با هوش مصنوعی ما میتونید پیج بزنید و",
@@ -26766,12 +26490,26 @@
       "url": "https://t.me/ai_farshad/6491",
       "slot": "2026-11-21T23:00+03:30",
       "at": "2026-11-21T19:30:53.945Z"
+    },
+    {
+      "source": "tg-asr-novin",
+      "title": "فردا یه روش ساخت ویدیو میخوام بهتون آموزش بدم که برگاتون میریزه",
+      "url": "https://t.me/asrnovin_ir/11508",
+      "slot": "2026-11-22T08:30+03:30",
+      "at": "2026-11-22T05:01:02.738Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "📺 با Eightify، ویدیوهای طولانی یوتیوب رو در چند ثانیه خلاصه کن!",
+      "url": "https://eightify.app/",
+      "slot": "2026-11-22T08:30+03:30",
+      "at": "2026-11-22T05:01:02.738Z"
     }
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-21",
-    "at": "2026-11-21T05:00:59.335Z",
+    "lastDate": "2026-11-22",
+    "at": "2026-11-22T05:01:02.738Z",
     "found": 2,
     "delivered": 2
   },
@@ -26783,7 +26521,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-21T17:39:21.797Z",
+      "lastCheck": "2026-11-22T05:01:02.738Z",
       "status": "active",
       "misses": 0
     }
