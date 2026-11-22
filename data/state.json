@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T08:48:42.845Z",
+  "updatedAt": "2026-11-22T10:33:27.196Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14765,6 +14765,78 @@
       "title": "Anthropic rival says companies can (mostly) skip the pricey models",
       "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
       "benchmark": false
+    },
+    "url:cdf192da367fc246": {
+      "at": "2026-11-22T10:31:03.446Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude"
+    },
+    "title:bba660ea427df69d": {
+      "at": "2026-11-22T10:31:03.446Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude"
+    },
+    "url:a125850f5154e903": {
+      "at": "2026-11-22T10:31:21.718Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "گزارش تازه‌ی METR: توانایی مدل‌ها توی انجام کارهای طولانی هر ۳٫۶ ماه دو برابر میشه",
+      "url": "https://t.me/MatinSenPaii/5953"
+    },
+    "title:1c38c4229f747327": {
+      "at": "2026-11-22T10:31:21.718Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "گزارش تازه‌ی METR: توانایی مدل‌ها توی انجام کارهای طولانی هر ۳٫۶ ماه دو برابر میشه",
+      "url": "https://t.me/MatinSenPaii/5953"
+    },
+    "url:56e9da4941533d66": {
+      "at": "2026-11-22T10:31:21.897Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "من همیشه به بچه ها میگم سعی کنین تو یوتوب ویدیو های خارجی آموزش هوش مصنوعی",
+      "url": "https://t.me/shayanode/263"
+    },
+    "title:ae99f28723edd94d": {
+      "at": "2026-11-22T10:31:21.897Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "من همیشه به بچه ها میگم سعی کنین تو یوتوب ویدیو های خارجی آموزش هوش مصنوعی",
+      "url": "https://t.me/shayanode/263"
+    },
+    "url:568e564024f6f6c8": {
+      "at": "2026-11-22T10:33:26.684Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything"
+    },
+    "title:154d67663ddfd4fc": {
+      "at": "2026-11-22T10:33:26.684Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-22T14:00+03:30",
+      "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything"
     }
   },
   "deferred": {
@@ -16735,70 +16807,6 @@
         "leadChannelUrl": "https://t.me/ArchiveTell",
         "sourceFocus": "tools",
         "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:568e564024f6f6c8": {
-      "id": "defer:url:568e564024f6f6c8",
-      "at": "2026-11-22T08:01:15.295Z",
-      "firstAt": "2026-11-22T08:01:15.295Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:568e564024f6f6c8",
-        "title:154d67663ddfd4fc"
-      ],
-      "canonical": "https://github.com/storytold/craft-anything",
-      "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-      "candidate": {
-        "sourceId": "tg-codecloude",
-        "sourceName": "Code.Cloud | کـــد کلاد",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-        "link": "https://github.com/storytold/craft-anything",
-        "canonical": "https://github.com/storytold/craft-anything",
-        "messageText": "🔥 یه سایت یا اپ دیدی و گفتی کاش می‌تونستم مثل اینو بسازم؟ حالا هوش مصنوعی می‌تونه بخش زیادی از مسیر رو برات انجام بده!\n\nابزار متن‌باز Craft Anything با بررسی ساختار نرم‌افزار، کمک می‌کنه نسخه جدیدی ازش بسازی؛ اونم با تکنولوژی دلخواهت!\n\nبررسی سایت، اپلیکیشن و بازی\nکدنویسی با AI Agent\nمقایسه خروجی در اندازه‌های مختلف صفحه\nبیش از ۳۲۰ ابزار برای اتوماسیون\n\n🔗 \n💬💬📷 www.Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
-        "leadPostUrl": "https://t.me/codecloude/2611",
-        "published": "2026-11-22T06:58:10+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/storytold/craft-anything",
-          "http://www.codecloude.ir/"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:568e564024f6f6c8",
-          "title:154d67663ddfd4fc"
-        ],
-        "leadSource": "codecloude",
-        "leadMessageId": 2611,
-        "leadChannelUrl": "https://t.me/codecloude",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
@@ -19906,6 +19914,14 @@
           "at": "2026-11-22T08:02:14.945Z"
         }
       ]
+    },
+    "2026-11-22T14:00+03:30": {
+      "at": "2026-11-22T10:33:27.194Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.002430876,
+      "tokens": 46013,
+      "posts": []
     }
   },
   "published": [
@@ -21970,89 +21986,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8516,
-      "last_at": "2026-11-22T06:22:48+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "last_id": 8518,
+      "last_at": "2026-11-22T09:19:12+00:00",
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "ai_farshad": {
-      "last_id": 6493,
-      "last_at": "2026-11-22T06:21:50+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "last_id": 6494,
+      "last_at": "2026-11-22T08:35:44+00:00",
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "Mohammad_zammani": {
       "last_id": 7261,
       "last_at": "2026-11-21T16:22:02+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "techiin_ir": {
-      "last_id": 20823,
-      "last_at": "2026-11-21T13:15:15+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "last_id": 20824,
+      "last_at": "2026-11-21T14:31:40+00:00",
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "mgh_mobin": {
       "last_id": 501,
       "last_at": "2026-11-22T07:16:34+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "web3nabu": {
       "last_id": 2183,
       "last_at": "2026-11-21T23:14:22+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "asrnovin_ir": {
-      "last_id": 11508,
-      "last_at": "2026-11-21T20:25:50+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "last_id": 11510,
+      "last_at": "2026-11-22T08:31:04+00:00",
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "shayanode": {
-      "last_id": 262,
-      "last_at": "2026-11-21T18:59:02+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "last_id": 263,
+      "last_at": "2026-11-22T08:03:09+00:00",
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "codecloude": {
       "last_id": 2611,
       "last_at": "2026-11-22T06:58:10+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "marketing_aida": {
       "last_id": 111,
       "last_at": "2026-11-21T15:21:48+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "MatinSenPaii": {
-      "last_id": 5952,
-      "last_at": "2026-11-22T07:37:59+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "last_id": 5954,
+      "last_at": "2026-11-22T10:21:18+00:00",
+      "checked_at": "2026-11-22T10:30:52.455Z"
     },
     "thenimaonAI": {
       "last_id": 558,
       "last_at": "2026-11-22T07:42:12+00:00",
-      "checked_at": "2026-11-22T08:00:56.975Z"
+      "checked_at": "2026-11-22T10:30:52.455Z"
     }
   },
   "offerReviews": [
@@ -26351,6 +26367,30 @@
       "slot": "2026-11-22T08:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-matin-senpai|https://t.me/MatinSenPaii/5953",
+      "date": "2026-11-22",
+      "at": "2026-11-22T10:30:52.455Z",
+      "source": "tg-matin-senpai",
+      "title": "گزارش تازه‌ی METR: توانایی مدل‌ها توی انجام کارهای طولانی هر ۳٫۶ ماه دو برابر میشه",
+      "url": "https://t.me/MatinSenPaii/5953",
+      "reason": "denied_link",
+      "slot": "2026-11-22T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-22|tg-codecloude|https://github.com/storytold/craft-anything",
+      "date": "2026-11-22",
+      "at": "2026-11-22T10:30:52.455Z",
+      "source": "tg-codecloude",
+      "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything",
+      "reason": "tool_incomplete",
+      "slot": "2026-11-22T14:00+03:30",
+      "kind": "tool",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -26696,6 +26736,13 @@
       "url": "https://t.me/thenimaonAI/557",
       "slot": "2026-11-22T11:30+03:30",
       "at": "2026-11-22T08:00:56.975Z"
+    },
+    {
+      "source": "tg-shayanode",
+      "title": "من همیشه به بچه ها میگم سعی کنین تو یوتوب ویدیو های خارجی آموزش هوش مصنوعی",
+      "url": "https://t.me/shayanode/263",
+      "slot": "2026-11-22T14:00+03:30",
+      "at": "2026-11-22T10:30:52.455Z"
     }
   ],
   "reviewPending": {},
