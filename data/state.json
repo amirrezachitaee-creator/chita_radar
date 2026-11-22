@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T05:44:20.228Z",
+  "updatedAt": "2026-11-22T08:02:14.949Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -14711,6 +14711,60 @@
       "title": "Muru",
       "url": "https://simonwillison.net/2026/Nov/21/muru",
       "benchmark": false
+    },
+    "url:d233252366b9c634": {
+      "at": "2026-11-22T08:01:13.874Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T11:30+03:30",
+      "title": "Thenima.one pinned «خب بلاخره مسخره بازی‌های اینستاگرام دامن پیج منم گرفتم...:) دوستان اگر دیدین اینستاگرام پی",
+      "url": "https://t.me/thenimaonAI/558"
+    },
+    "title:455a5d3c2888e44d": {
+      "at": "2026-11-22T08:01:13.874Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T11:30+03:30",
+      "title": "Thenima.one pinned «خب بلاخره مسخره بازی‌های اینستاگرام دامن پیج منم گرفتم...:) دوستان اگر دیدین اینستاگرام پی",
+      "url": "https://t.me/thenimaonAI/558"
+    },
+    "url:684791ed3e7bfe1b": {
+      "at": "2026-11-22T08:01:15.280Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T11:30+03:30",
+      "title": "خب بلاخره مسخره بازی‌های اینستاگرام دامن پیج منم گرفتم...:)",
+      "url": "https://t.me/thenimaonAI/557"
+    },
+    "title:75112174db8c134a": {
+      "at": "2026-11-22T08:01:15.280Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-22T11:30+03:30",
+      "title": "خب بلاخره مسخره بازی‌های اینستاگرام دامن پیج منم گرفتم...:)",
+      "url": "https://t.me/thenimaonAI/557"
+    },
+    "url:633a67e2de20159c": {
+      "at": "2026-11-22T08:02:14.946Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-22T11:30+03:30",
+      "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
+      "benchmark": false
+    },
+    "title:7f432906eee855f3": {
+      "at": "2026-11-22T08:02:14.946Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-22T11:30+03:30",
+      "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -15391,53 +15445,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:9342dbf934e428aa": {
-      "id": "defer:url:9342dbf934e428aa",
-      "at": "2026-11-20T17:04:57.953Z",
-      "firstAt": "2026-11-20T17:04:57.953Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9342dbf934e428aa",
-        "title:719b8b9c65e7499b"
-      ],
-      "canonical": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-        "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "canonical": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "published": "Thu, 19 Nov 2026 08:00:00 GMT",
-        "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "images": [],
-        "ageHours": 33.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9342dbf934e428aa",
-          "title:719b8b9c65e7499b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:14b81a5414bbd18e": {
       "id": "defer:url:14b81a5414bbd18e",
       "at": "2026-11-20T17:04:57.953Z",
@@ -15642,54 +15649,6 @@
         "keys": [
           "url:ad84405834598899",
           "title:8c9e73db3c5ee04a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:633a67e2de20159c": {
-      "id": "defer:url:633a67e2de20159c",
-      "at": "2026-11-20T19:33:58.127Z",
-      "firstAt": "2026-11-20T19:33:58.127Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:633a67e2de20159c",
-        "title:7f432906eee855f3"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
-      "title": "Anthropic rival says companies can (mostly) skip the pricey models",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Anthropic rival says companies can (mostly) skip the pricey models",
-        "link": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-        "canonical": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
-        "published": "Fri, 20 Nov 2026 00:26:03 +0000",
-        "summary": "On the day Anthropic went public, Fireworks AI’s co-founder made the case for open source models as a cheaper alternative, and addressed the breaches that have cost the company some customers’ trust.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-        "images": [],
-        "ageHours": 19.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:633a67e2de20159c",
-          "title:7f432906eee855f3"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16710,6 +16669,183 @@
         "keys": [
           "url:fc4544c70639fb7e",
           "title:8c4937db999b1908"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8f8907b06200376f": {
+      "id": "defer:url:8f8907b06200376f",
+      "at": "2026-11-22T08:01:15.295Z",
+      "firstAt": "2026-11-22T08:01:15.295Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8f8907b06200376f",
+        "title:2b56b474da9ce322"
+      ],
+      "canonical": "https://one.google.com/ai",
+      "title": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید",
+      "candidate": {
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
+        "sourceType": "telegram_channel",
+        "title": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید",
+        "link": "https://one.google.com/ai",
+        "canonical": "https://one.google.com/ai",
+        "messageText": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید\n⠀\nگوگل برای مشترک‌های فعلی، پلن سالانهٔ Google AI Pro رو تا ۲۶ نوامبر با نصف قیمت می‌ده.\n⠀\n• قیمت سال اول ۹۹٫۹۹ دلاره، به‌جای ۱۹۹٫۹۹ دلار\n• ۵ ترابایت فضای ذخیره‌سازی هم داره\n• مشترک‌های جدید از ۲۷ نوامبر می‌تونن استفاده کنن\n⠀\nبه گفتهٔ گوگل، این تخفیف فقط سال اوله و تمدید سال بعد با قیمت کامل حساب می‌شه.\nمیزان تخفیف دقیق به پلن فعلی‌ت بستگی داره و برای همهٔ اکانت‌ها یکسان نیست، پس قبل از تمدید، قیمت نهایی رو توی تنظیمات Google One خودت ببین.\n⠀\n🖱️ صفحهٔ پلن‌های Google One\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤14⚡1😎1",
+        "leadPostUrl": "https://t.me/ArchiveTell/8516",
+        "published": "2026-11-22T06:22:48+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/stI7eUiYK9yIYEXxx3UjW9m4Cf93WmGsp0oMfsM1ITvOPgFt48n2QpedEcBICe4gJQa7GARHd8dWMVGAqVYjnQwR93yInBTIRfxqX4EO33m_YAbuQ-jcAiPwgb2YuASFU3jlBDH3U4cNZad55u5TOvUsEge2aurQgEBo4dCcoXl_ynyipbPqrOnCLk8gPpWn9vRp23tG9k0g1zlUSXkTrJPQ9H-4Jm12TkPyGRnIasgnLu2KmUuBtTcVcnfXSCTwHEr7-LcN3vBSozn5WXud3WGyJLvQWC4NheQZtJ4KoT7g_k8SeOqmKAW-eIDFwXASfdFDSkGexyks4S8TfGdqhA.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://one.google.com/ai"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:8f8907b06200376f",
+          "title:2b56b474da9ce322"
+        ],
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8516,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:568e564024f6f6c8": {
+      "id": "defer:url:568e564024f6f6c8",
+      "at": "2026-11-22T08:01:15.295Z",
+      "firstAt": "2026-11-22T08:01:15.295Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:568e564024f6f6c8",
+        "title:154d67663ddfd4fc"
+      ],
+      "canonical": "https://github.com/storytold/craft-anything",
+      "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
+      "candidate": {
+        "sourceId": "tg-codecloude",
+        "sourceName": "Code.Cloud | کـــد کلاد",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
+        "link": "https://github.com/storytold/craft-anything",
+        "canonical": "https://github.com/storytold/craft-anything",
+        "messageText": "🔥 یه سایت یا اپ دیدی و گفتی کاش می‌تونستم مثل اینو بسازم؟ حالا هوش مصنوعی می‌تونه بخش زیادی از مسیر رو برات انجام بده!\n\nابزار متن‌باز Craft Anything با بررسی ساختار نرم‌افزار، کمک می‌کنه نسخه جدیدی ازش بسازی؛ اونم با تکنولوژی دلخواهت!\n\nبررسی سایت، اپلیکیشن و بازی\nکدنویسی با AI Agent\nمقایسه خروجی در اندازه‌های مختلف صفحه\nبیش از ۳۲۰ ابزار برای اتوماسیون\n\n🔗 \n💬💬📷 www.Codecloude.ir | تلگــرام\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM",
+        "leadPostUrl": "https://t.me/codecloude/2611",
+        "published": "2026-11-22T06:58:10+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/storytold/craft-anything",
+          "http://www.codecloude.ir/"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:568e564024f6f6c8",
+          "title:154d67663ddfd4fc"
+        ],
+        "leadSource": "codecloude",
+        "leadMessageId": 2611,
+        "leadChannelUrl": "https://t.me/codecloude",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:f6f5282ad9e3c36b": {
+      "id": "defer:url:f6f5282ad9e3c36b",
+      "at": "2026-11-22T08:01:15.295Z",
+      "firstAt": "2026-11-22T08:01:15.295Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f6f5282ad9e3c36b",
+        "title:6f5e75e17c6bd27e"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+        "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+        "canonical": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+        "published": "Sat, 21 Nov 2026 21:37:10 +0000",
+        "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+        "images": [],
+        "ageHours": 10.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:f6f5282ad9e3c36b",
+          "title:6f5e75e17c6bd27e"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19739,6 +19875,37 @@
           "at": "2026-11-22T05:14:03.690Z"
         }
       ]
+    },
+    "2026-11-22T11:30+03:30": {
+      "at": "2026-11-22T08:02:14.946Z",
+      "status": "sent",
+      "category": "business",
+      "title": "Fireworks AI: مدل‌های گران‌قیمت برای بیشتر شرکت‌ها لازم نیست",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/11-30",
+      "messageId": 134,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0022500688,
+      "tokens": 24567,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "Fireworks AI: مدل‌های گران‌قیمت برای بیشتر شرکت‌ها لازم نیست",
+          "category": "business",
+          "status": "sent",
+          "messageId": 134,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-22/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0022500688,
+          "tokens": 24567,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-22T08:02:14.945Z"
+        }
+      ]
     }
   },
   "published": [
@@ -21781,93 +21948,111 @@
       "sourceTitle": "Muru",
       "sourceText": "Muru . Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since.\nMuru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production.\nAs he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process.\nHere's everything he's published so far, all in the last three weeks:\nThat post about AI as a lifestyle choice is particularly worth a read:\nThe AI may be doing a lot of the work on the surface, but deciding what isn't good enough yet is still down to me, and twenty years of getting things wrong with mod_wsgi turns out to be useful for that. I am prepared to put in the hard work to keep polishing Muru until it is something I would trust, and something you would too.\nThis is a link post by Simon Willison, posted on 21st November 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.",
       "at": "2026-11-22T05:14:03.691Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-22T11:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "Fireworks AI: مدل‌های گران‌قیمت برای بیشتر شرکت‌ها لازم نیست",
+      "why": "با این اتفاق‌ها، Fireworks باید اعتماد مشتری‌هایی مثل نوتین رو دوباره جلب کنه؛ چون رقابت در این حوزه شدیده و شرکت‌هایی مثل Together AI و Baseten هم سرمایه‌های کلانی جذب کردن.",
+      "dedupe_key": "fireworks-ai-open-models-business",
+      "post_key": "2026-11-22/11-30/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+      "sourceTitle": "Anthropic rival says companies can (mostly) skip the pricey models | TechCrunch",
+      "sourceText": "On the same day that Anthropic went public in the largest IPO on record, with investor enthusiasm for the AI lab through the roof, far away at the Slush startup conference in Helsinki, the topic du jour was open source everything.\nThat’s the enormous opportunity being chased by companies like Fireworks AI , as enterprises seek ways to avoid paying frontier prices for their AI needs.\nFour-year-old Fireworks runs AI models for other businesses. The Bay Area-based outfit specializes in open-weight models, which anyone can download, and helps customers tune them on their own data so they run faster and cheaper than the models of Anthropic, OpenAI, and other heavyweights, and are harder for rivals to copy. Customers have included Uber, Shopify, and Notion.\nFireworks co-founder Chenyu Zhao and many others believe companies are gravitating toward platforms like his because frontier models are pricey and, in most cases, he says, unnecessary unless you need the very latest and greatest generalized intelligence. There are also growing concerns that frontier labs absorb too much of their customers’ know-how, even if only through the prompts used to get answers, a worry Microsoft CEO Satya Nadella raised in July .\nFireworks has also gotten its first black eye, having disclosed two security incidents this fall. In one, hackers reached API keys and tokens stored as secrets for a limited number of accounts; in the other, attackers breached its cloud provider, made their way into a development system, and nabbed customer data, including billing records and some datasets.\nNotion says AI cha",
+      "at": "2026-11-22T08:02:14.946Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8515,
-      "last_at": "2026-11-21T19:55:17+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "last_id": 8516,
+      "last_at": "2026-11-22T06:22:48+00:00",
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "ai_farshad": {
-      "last_id": 6492,
-      "last_at": "2026-11-21T19:55:05+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "last_id": 6493,
+      "last_at": "2026-11-22T06:21:50+00:00",
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "Mohammad_zammani": {
       "last_id": 7261,
       "last_at": "2026-11-21T16:22:02+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "techiin_ir": {
-      "last_id": 20822,
-      "last_at": "2026-11-21T12:58:08+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "last_id": 20823,
+      "last_at": "2026-11-21T13:15:15+00:00",
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "mgh_mobin": {
-      "last_id": 499,
-      "last_at": "2026-11-21T10:51:01+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "last_id": 501,
+      "last_at": "2026-11-22T07:16:34+00:00",
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "web3nabu": {
       "last_id": 2183,
       "last_at": "2026-11-21T23:14:22+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "asrnovin_ir": {
       "last_id": 11508,
       "last_at": "2026-11-21T20:25:50+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "shayanode": {
       "last_id": 262,
       "last_at": "2026-11-21T18:59:02+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "codecloude": {
-      "last_id": 2610,
-      "last_at": "2026-11-21T22:24:08+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "last_id": 2611,
+      "last_at": "2026-11-22T06:58:10+00:00",
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "marketing_aida": {
       "last_id": 111,
       "last_at": "2026-11-21T15:21:48+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "MatinSenPaii": {
-      "last_id": 5950,
-      "last_at": "2026-11-21T19:54:50+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "last_id": 5952,
+      "last_at": "2026-11-22T07:37:59+00:00",
+      "checked_at": "2026-11-22T08:00:56.975Z"
     },
     "thenimaonAI": {
-      "last_id": 556,
-      "last_at": "2026-11-21T08:35:44+00:00",
-      "checked_at": "2026-11-22T05:01:02.738Z"
+      "last_id": 558,
+      "last_at": "2026-11-22T07:42:12+00:00",
+      "checked_at": "2026-11-22T08:00:56.975Z"
     }
   },
   "offerReviews": [
@@ -26170,13 +26355,6 @@
   ],
   "educationReviews": [
     {
-      "source": "tg-ai-by-sadeghi",
-      "title": "این پیج رو ببینید با آموزش ساخت ویدیو با هوش مصنوعی ما میتونید پیج بزنید و",
-      "url": "https://www.instagram.com/naamava.studio?psln=c203N3RkMTBwaG56",
-      "slot": "2026-11-08T11:30+03:30",
-      "at": "2026-11-08T08:00:45.399Z"
-    },
-    {
       "source": "tg-thenima",
       "title": "این فایل٬ راهنمای انجام پروژه ها و آموزش هایی هست که در کانال AI Lab قرار",
       "url": "https://t.me/thenimaone",
@@ -26504,6 +26682,20 @@
       "url": "https://eightify.app/",
       "slot": "2026-11-22T08:30+03:30",
       "at": "2026-11-22T05:01:02.738Z"
+    },
+    {
+      "source": "tg-thenima",
+      "title": "Thenima.one pinned «خب بلاخره مسخره بازی‌های اینستاگرام دامن پیج منم گرفتم...:) دوستان اگر دیدین اینستاگرام پی",
+      "url": "https://t.me/thenimaonAI/558",
+      "slot": "2026-11-22T11:30+03:30",
+      "at": "2026-11-22T08:00:56.975Z"
+    },
+    {
+      "source": "tg-thenima",
+      "title": "خب بلاخره مسخره بازی‌های اینستاگرام دامن پیج منم گرفتم...:)",
+      "url": "https://t.me/thenimaonAI/557",
+      "slot": "2026-11-22T11:30+03:30",
+      "at": "2026-11-22T08:00:56.975Z"
     }
   ],
   "reviewPending": {},
