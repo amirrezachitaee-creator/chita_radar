@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-23T09:19:21.360Z",
+  "updatedAt": "2026-11-23T10:33:58.506Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -15359,6 +15359,114 @@
       "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
       "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
       "benchmark": false
+    },
+    "url:4af0f215166bd0d5": {
+      "at": "2026-11-23T10:31:07.469Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "🔥نسخه GLM 5.4 منتشر شد بر اساس بنچمارک‌های غیررسمی، کمی قوی‌تر از نسخه 6.1 Sol است.",
+      "url": "https://z.ai/subscribe"
+    },
+    "title:b3f4a0a8ca9b8dfc": {
+      "at": "2026-11-23T10:31:07.469Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "🔥نسخه GLM 5.4 منتشر شد بر اساس بنچمارک‌های غیررسمی، کمی قوی‌تر از نسخه 6.1 Sol است.",
+      "url": "https://z.ai/subscribe"
+    },
+    "url:4f8947dce8e6d1de": {
+      "at": "2026-11-23T10:31:08.697Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "واسه یه اشتراک GPT Go انقدر تقلب واسه چیه؟! :|",
+      "url": "https://t.me/ai_farshad/6510"
+    },
+    "title:171dae99085c2a86": {
+      "at": "2026-11-23T10:31:08.697Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "واسه یه اشتراک GPT Go انقدر تقلب واسه چیه؟! :|",
+      "url": "https://t.me/ai_farshad/6510"
+    },
+    "url:f163955998dc8715": {
+      "at": "2026-11-23T10:31:08.958Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "پیشنهاد میکنم این متنو بخونی اگر هنوز نمیدونی هوش مصنوعی میتونه برات چیکار کنه و چجوری",
+      "url": "https://t.me/thenimaonAI/564"
+    },
+    "title:eff6574f49b68928": {
+      "at": "2026-11-23T10:31:08.958Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "پیشنهاد میکنم این متنو بخونی اگر هنوز نمیدونی هوش مصنوعی میتونه برات چیکار کنه و چجوری",
+      "url": "https://t.me/thenimaonAI/564"
+    },
+    "url:0490d761ac64d414": {
+      "at": "2026-11-23T10:33:03.984Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "✅ دستیار شخصی ChatGPT Dots برای کاربران پلاس عرضه خواهد شد",
+      "url": "https://t.me/techiin_ir/20833"
+    },
+    "title:020236f1f3315321": {
+      "at": "2026-11-23T10:33:03.984Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "✅ دستیار شخصی ChatGPT Dots برای کاربران پلاس عرضه خواهد شد",
+      "url": "https://t.me/techiin_ir/20833"
+    },
+    "url:4673541717cbd6b0": {
+      "at": "2026-11-23T10:33:04.665Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "🔥 جشنواره بلک فرایدی شروع شد",
+      "url": "https://t.me/mobin_themgh"
+    },
+    "title:70cf0ae8124d4c41": {
+      "at": "2026-11-23T10:33:04.665Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "🔥 جشنواره بلک فرایدی شروع شد",
+      "url": "https://t.me/mobin_themgh"
+    },
+    "url:8ea7b5016269d351": {
+      "at": "2026-11-23T10:33:43.358Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "benchmark": false
+    },
+    "title:b9e117b66b310709": {
+      "at": "2026-11-23T10:33:43.358Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T14:00+03:30",
+      "title": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -16608,74 +16716,11 @@
         "leadKind": ""
       }
     },
-    "defer:url:8ea7b5016269d351": {
-      "id": "defer:url:8ea7b5016269d351",
-      "at": "2026-11-23T08:02:01.875Z",
-      "firstAt": "2026-11-23T08:02:01.875Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8ea7b5016269d351",
-        "title:b9e117b66b310709"
-      ],
-      "canonical": "https://github.com/microsoft/ai-agents-for-beginners",
-      "title": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents",
-      "candidate": {
-        "sourceId": "tg-marketing-aida",
-        "sourceName": "Marketing and Ai",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents",
-        "link": "https://github.com/microsoft/ai-agents-for-beginners",
-        "canonical": "https://github.com/microsoft/ai-agents-for-beginners",
-        "messageText": "بچه ها Microsoft یه کورس رایگان واسه ساختن AI Agent گذاشته رو GitHub، اسمش AI Agents for Beginners ئه 🔥\n\nAI Agent یعنی یه AI که فقط به سوالت جواب نمیده، خودش قدم بعدی رو برنامه‌ریزی میکنه و با ابزار و داده کار رو جلو میبره\n\n۱۸ تا درس داره با نمونه کدهای Python، و هر درس موضوع خودشو داره، پس از هر جا خواستی میتونی شروع کنی\n\nترجمه‌ی فارسیش هم هست، Persian (Farsi) تو لیست ترجمه‌های README ریپو اومده\n\nاگه مارکتری، پیشنهاد خودم اینه از این درسا شروع کنی (این مسیر رسمی Microsoft نیست):\n\n→ Intro to AI Agents and Agent Use Cases: که بفهمی Agent اصلا چیه و کِی ارزش استفاده داره و کِی نه\n\n→ Tool Use Design Pattern: اگه میخوای Agent فقط حرف نزنه و واقعا با ابزارها کار انجام بده\n\n→ Agentic RAG: یعنی Agent خودش میره از داده‌ها و داکیومنت‌های خودت یا منابع بیرونی اطلاعات درمیاره، مثال خود درس هم گزارش ترند بازار و دیتای رقباست\n\n→ Context Engineering for AI Agents: یعنی دقیقا چه اطلاعاتی جلوی Agent بذاری؛ اگه حس میکنی Agent گیج میزنه، مشکل خیلی وقتا همینجاست\n\nمرسی از @Mohiniuni که پیداش کرد، ولی سازنده‌ش خود Microsoft ئه\n\nلینک کورس اینجاست 👇🏻\n\n💜 @marketing_aida",
-        "leadPostUrl": "https://t.me/marketing_aida/113",
-        "published": "2026-11-23T07:40:19+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/microsoft/ai-agents-for-beginners"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:8ea7b5016269d351",
-          "title:b9e117b66b310709"
-        ],
-        "leadSource": "marketing_aida",
-        "leadMessageId": 113,
-        "leadChannelUrl": "https://t.me/marketing_aida",
-        "sourceFocus": "business",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:845dff761b2978ce": {
       "id": "defer:url:845dff761b2978ce",
-      "at": "2026-11-23T08:02:01.875Z",
+      "at": "2026-11-23T10:33:58.506Z",
       "firstAt": "2026-11-23T08:02:01.875Z",
-      "attempts": 0,
+      "attempts": 1,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -16741,8 +16786,13 @@
         "leadKind": "tool_lead",
         "educationHint": false,
         "webEducation": false,
-        "officialCourse": false
-      }
+        "officialCourse": false,
+        "deferred": {
+          "id": "defer:url:845dff761b2978ce",
+          "attempts": 0
+        }
+      },
+      "detail": "tools"
     },
     "defer:url:bef22e671e2b0a4d": {
       "id": "defer:url:bef22e671e2b0a4d",
@@ -16849,6 +16899,102 @@
         "keys": [
           "url:c2b44c28b03b2b1f",
           "title:7ffd887ed7a07b1b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:50eaee9a34139795": {
+      "id": "defer:url:50eaee9a34139795",
+      "at": "2026-11-23T10:33:04.681Z",
+      "firstAt": "2026-11-23T10:33:04.681Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:50eaee9a34139795",
+        "title:e974a6ee9a7bb627"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+        "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+        "canonical": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+        "published": "Mon, 23 Nov 2026 01:25:53 +0000",
+        "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+        "images": [],
+        "ageHours": 9.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:50eaee9a34139795",
+          "title:e974a6ee9a7bb627"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:883b69d3f986860b": {
+      "id": "defer:url:883b69d3f986860b",
+      "at": "2026-11-23T10:33:04.681Z",
+      "firstAt": "2026-11-23T10:33:04.681Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:883b69d3f986860b",
+        "title:b6158f63a25b9cdb"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+        "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+        "canonical": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+        "published": "Sun, 22 Nov 2026 21:14:07 +0000",
+        "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+        "images": [],
+        "ageHours": 13.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:883b69d3f986860b",
+          "title:b6158f63a25b9cdb"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -20094,6 +20240,37 @@
           "at": "2026-11-23T08:15:51.607Z"
         }
       ]
+    },
+    "2026-11-23T14:00+03:30": {
+      "at": "2026-11-23T10:33:43.358Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "مایکروسافت دوره رایگان ساخت ایجنت هوش مصنوعی منتشر کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/14-00",
+      "messageId": 142,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0021472696,
+      "tokens": 31926,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "مایکروسافت دوره رایگان ساخت ایجنت هوش مصنوعی منتشر کرد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 142,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008048096000000001,
+          "tokens": 22484,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-23T10:33:43.358Z"
+        }
+      ]
     }
   },
   "published": [
@@ -22280,240 +22457,114 @@
       "sourceTitle": "Is selling an AI version of your face to this microdrama startup the future of Hollywood? | TechCrunch",
       "sourceText": "For the most part, the content offered by the microdrama startup Shortical is indistinguishable from the rest of its industry . The company produces soapy, melodramatic storylines — almost always risqué romances — that, in bite-sized two-minute episodes, compel viewers to stay glued to their phones so as not to miss the latest twist in a tawdry, cliff-hanger-happy saga.\nThe primary way that Shortical — which was founded last January — makes money is through subscriptions. Typically, the first 7-10 episodes of a micro-drama are free. After that, if the user wants to finish the series, they have to pay a small monthly fee which unlocks access to all of the site’s content.\nOver the past year, the company has churned out a gush of popular live-action romances like “Crossing the Line with My Neighbor,” “Accidentally Married My Boss,” and “Spoiled by My Billionaire Sugar Daddy.”\nLately, however, the company’s homepage is covered in AI-generated content. The reason isn’t exactly hard to figure out: the production overhead for AI content is substantially less than live-action. The profit potential, meanwhile, is substantially higher, if you can draw an audience.\nIts latest microdrama premiered in Los Angeles last week. The series, called “Inevitable,” stars Aki Avni, an Israeli film and television star who has been visible in American TV shows for years (he had a stint on Fox’s 9/11-era thriller “24” years ago) but is now trying something largely unheard of in modern Hollywood: licensing his face to Shortical for the sake of its AI content.\nThe project, which is wholly AI, used Avn",
       "at": "2026-11-23T08:15:51.607Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-23T14:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "مایکروسافت دوره رایگان ساخت ایجنت هوش مصنوعی منتشر کرد",
+      "why": "این دوره رایگان، مسیر شروع ساخت ایجنت رو برای هر کسی که برنامه‌نویسی بلده کوتاه می‌کنه.",
+      "dedupe_key": "microsoft-ai-agents-for-beginners-course",
+      "post_key": "2026-11-23/14-00/1",
+      "sourceId": "tg-marketing-aida",
+      "sourceName": "Marketing and Ai",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "sourceTitle": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents",
+      "sourceText": "بچه ها Microsoft یه کورس رایگان واسه ساختن AI Agent گذاشته رو GitHub، اسمش AI Agents for Beginners ئه 🔥\n\nAI Agent یعنی یه AI که فقط به سوالت جواب نمیده، خودش قدم بعدی رو برنامه‌ریزی میکنه و با ابزار و داده کار رو جلو میبره\n\n۱۸ تا درس داره با نمونه کدهای Python، و هر درس موضوع خودشو داره، پس از هر جا خواستی میتونی شروع کنی\n\nترجمه‌ی فارسیش هم هست، Persian (Farsi) تو لیست ترجمه‌های README ریپو اومده\n\nاگه مارکتری، پیشنهاد خودم اینه از این درسا شروع کنی (این مسیر رسمی Microsoft نیست):\n\n→ Intro to AI Agents and Agent Use Cases: که بفهمی Agent اصلا چیه و کِی ارزش استفاده داره و کِی نه\n\n→ Tool Use Design Pattern: اگه میخوای Agent فقط حرف نزنه و واقعا با ابزارها کار انجام بده\n\n→ Agentic RAG: یعنی Agent خودش میره از داده‌ها و داکیومنت‌های خودت یا منابع بیرونی اطلاعات درمیاره، مثال خود درس هم گزارش ترند بازار و دیتای رقباست\n\n→ Context Engineering for AI Agents: یعنی دقیقا چه اطلاعاتی جلوی Agent بذاری؛ اگه حس میکنی Agent گیج میزنه، مشکل خیلی وقتا همینجاست\n\nمرسی از @Mohiniuni که پیداش کرد، ولی سازنده‌ش خود Microsoft ئه\n\nلینک کورس اینجاست 👇🏻\n\n💜 @marketing_aida",
+      "at": "2026-11-23T10:33:43.358Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8530,
-      "last_at": "2026-11-23T07:48:56+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "last_id": 8538,
+      "last_at": "2026-11-23T09:53:22+00:00",
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "ai_farshad": {
-      "last_id": 6509,
-      "last_at": "2026-11-23T07:33:06+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "last_id": 6510,
+      "last_at": "2026-11-23T10:28:48+00:00",
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "Mohammad_zammani": {
       "last_id": 7262,
       "last_at": "2026-11-22T12:08:33+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "techiin_ir": {
-      "last_id": 20832,
-      "last_at": "2026-11-22T10:35:09+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "last_id": 20833,
+      "last_at": "2026-11-22T14:41:13+00:00",
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "mgh_mobin": {
-      "last_id": 503,
-      "last_at": "2026-11-23T05:53:51+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "last_id": 504,
+      "last_at": "2026-11-23T08:21:35+00:00",
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "asrnovin_ir": {
       "last_id": 11517,
       "last_at": "2026-11-23T05:40:51+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "codecloude": {
       "last_id": 2615,
       "last_at": "2026-11-23T06:55:31+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "MatinSenPaii": {
-      "last_id": 5958,
-      "last_at": "2026-11-22T21:13:27+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "last_id": 5960,
+      "last_at": "2026-11-23T09:55:38+00:00",
+      "checked_at": "2026-11-23T10:30:55.563Z"
     },
     "thenimaonAI": {
-      "last_id": 563,
-      "last_at": "2026-11-23T07:04:50+00:00",
-      "checked_at": "2026-11-23T08:01:33.898Z"
+      "last_id": 566,
+      "last_at": "2026-11-23T08:54:25+00:00",
+      "checked_at": "2026-11-23T10:30:55.563Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20731",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-techiin",
-      "title": "✅ تحلیل و رشد پیج اینستاگرام با دستیار هوشمند Beterekoonesh",
-      "url": "https://t.me/techiin_ir/20731",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20730",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-techiin",
-      "title": "💹 با تأیید رابطه خارج از ازدواج جنسن هوانگ سهام انویدیا 5.5 درصد سقوط کرد",
-      "url": "https://t.me/techiin_ir/20730",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20729",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-techiin",
-      "title": "✅ نحوه کارکرد مشوق مالیاتی سرمایه‌گذاری در هوش مصنوعی",
-      "url": "https://t.me/techiin_ir/20729",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-mgh-mobin|https://t.me/mgh_mobin/464",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-mgh-mobin",
-      "title": "فردا OpenAI دوباره آشپزخونه رو روشن کرده 👨🏻‍🍳🚨",
-      "url": "https://t.me/mgh_mobin/464",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-thenima|https://t.me/thenimaonAI/474",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-thenima",
-      "title": "فردا OpenAI دوباره آشپزخونه رو روشن کرده 👨🏻‍🍳🚨",
-      "url": "https://t.me/thenimaonAI/474",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-asr-novin|https://t.me/asrnovin_ir/11425",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-asr-novin",
-      "title": "🤖 اشتراک ChatGPT فقط 890 هزار تومان!",
-      "url": "https://t.me/asrnovin_ir/11425",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-thenima|https://t.me/thenimaonAI/472",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-thenima",
-      "title": "چند وقته که این ابزار توی فیدم می‌چرخه. خلاصه‌ی نگاه من بعد از بررسیش:",
-      "url": "https://t.me/thenimaonAI/472",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20732",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-techiin",
-      "title": "✅ سقف انتقال وجه در ساتنا، پایا و پل افزایش پیدا کرد",
-      "url": "https://t.me/techiin_ir/20732",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20728",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-techiin",
-      "title": "✅ امضاء تفاهم‌نامه ایرانسل، همراه اول و توانیر برای تأسیس شرکت مشترک هوشمندسازی شبکه برق",
-      "url": "https://t.me/techiin_ir/20728",
-      "reason": "denied_link",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-codecloude|https://superduperai.co/library/",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-codecloude",
-      "title": "Free AI video prompts, formats and skills (121) — SuperDuperAI",
-      "url": "https://superduperai.co/library/",
-      "reason": "source_not_official",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-mgh-mobin|https://labs.google.com/pomelli/about/",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-mgh-mobin",
-      "title": "Pomelli by Google Labs",
-      "url": "https://labs.google.com/pomelli/about/",
-      "reason": "model_skip",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "tool",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-thenima|https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts",
-      "date": "2026-11-09",
-      "at": "2026-11-09T10:30:43.470Z",
-      "source": "tg-thenima",
-      "title": "GitHub - youart-open-source/awesome-gpt-image-2-5-prompts: GPT Image 2.5 prompts, verbatim and credited: 150 community prompts across 9 use cases, each with the author who wrote it and their post. Free to run.",
-      "url": "https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts",
-      "reason": "source_not_official",
-      "slot": "2026-11-09T14:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-09|tg-ai-farshad|https://t.me/ai_farshad/6390",
       "date": "2026-11-09",
@@ -26149,16 +26200,45 @@
       "slot": "2026-11-23T11:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-ai-farshad|https://t.me/ai_farshad/6510",
+      "date": "2026-11-23",
+      "at": "2026-11-23T10:30:55.563Z",
+      "source": "tg-ai-farshad",
+      "title": "واسه یه اشتراک GPT Go انقدر تقلب واسه چیه؟! :|",
+      "url": "https://t.me/ai_farshad/6510",
+      "reason": "no_link",
+      "slot": "2026-11-23T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-thenima|https://t.me/thenimaonAI/564",
+      "date": "2026-11-23",
+      "at": "2026-11-23T10:30:55.563Z",
+      "source": "tg-thenima",
+      "title": "پیشنهاد میکنم این متنو بخونی اگر هنوز نمیدونی هوش مصنوعی میتونه برات چیکار کنه و چجوری",
+      "url": "https://t.me/thenimaonAI/564",
+      "reason": "no_link",
+      "slot": "2026-11-23T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-techiin|https://t.me/techiin_ir/20833",
+      "date": "2026-11-23",
+      "at": "2026-11-23T10:30:55.563Z",
+      "source": "tg-techiin",
+      "title": "✅ دستیار شخصی ChatGPT Dots برای کاربران پلاس عرضه خواهد شد",
+      "url": "https://t.me/techiin_ir/20833",
+      "reason": "denied_link",
+      "slot": "2026-11-23T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-thenima",
-      "title": "این فایل٬ راهنمای انجام پروژه ها و آموزش هایی هست که در کانال AI Lab قرار",
-      "url": "https://t.me/thenimaone",
-      "slot": "2026-11-09T14:00+03:30",
-      "at": "2026-11-09T10:30:43.470Z"
-    },
     {
       "source": "machinelearningmastery",
       "title": "Benchmarking Scikit-Ollama vs. Groq-Backed Scikit-LLM: Speed, Cost, and Accuracy",
@@ -26522,6 +26602,13 @@
       "url": "https://t.me/thenimaonAI/560",
       "slot": "2026-11-23T11:30+03:30",
       "at": "2026-11-23T08:01:33.898Z"
+    },
+    {
+      "source": "tg-mgh-mobin",
+      "title": "🔥 جشنواره بلک فرایدی شروع شد",
+      "url": "https://t.me/mobin_themgh",
+      "slot": "2026-11-23T14:00+03:30",
+      "at": "2026-11-23T10:30:55.563Z"
     }
   ],
   "reviewPending": {},
