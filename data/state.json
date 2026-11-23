@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-23T17:55:47.553Z",
+  "updatedAt": "2026-11-23T19:31:28.374Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -15827,57 +15827,153 @@
       "title": "Finding faster quantum algorithms with agents and formal verification",
       "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
       "benchmark": false
+    },
+    "url:cc94737dbb3655df": {
+      "at": "2026-11-23T19:31:08.074Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
+      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy"
+    },
+    "title:eae7c2bb0d7e150b": {
+      "at": "2026-11-23T19:31:08.074Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
+      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy"
+    },
+    "url:8d3e57cfb8ac93af": {
+      "at": "2026-11-23T19:31:09.504Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "دسترسی رایگان ۷ روزه به مدل ناشناس HungerG در Qoder فعال شده 🫪",
+      "url": "https://t.me/pedramgholizadeh/817"
+    },
+    "title:5801b9f96fc86a12": {
+      "at": "2026-11-23T19:31:09.504Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "دسترسی رایگان ۷ روزه به مدل ناشناس HungerG در Qoder فعال شده 🫪",
+      "url": "https://t.me/pedramgholizadeh/817"
+    },
+    "url:ff35660824f151bd": {
+      "at": "2026-11-23T19:31:12.797Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "خب مثل اینکه مدل جدید جمینای ۴ نئون بدجوری ترکونده",
+      "url": "https://t.me/mgh_mobin/507"
+    },
+    "title:81e1ff554a4424fd": {
+      "at": "2026-11-23T19:31:12.797Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "خب مثل اینکه مدل جدید جمینای ۴ نئون بدجوری ترکونده",
+      "url": "https://t.me/mgh_mobin/507"
+    },
+    "url:536c60db358165b4": {
+      "at": "2026-11-23T19:31:12.995Z",
+      "decision": "review",
+      "reason": "ocr_discovery",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "آقا مرسیییی 🔥🌻",
+      "url": "https://t.me/dunijet_ai/2607"
+    },
+    "title:ac8c46e25234d53c": {
+      "at": "2026-11-23T19:31:12.995Z",
+      "decision": "review",
+      "reason": "ocr_discovery",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "آقا مرسیییی 🔥🌻",
+      "url": "https://t.me/dunijet_ai/2607"
+    },
+    "url:937b31d25d668885": {
+      "at": "2026-11-23T19:31:13.167Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "جنسن هوانگ با رأی هیئت‌مدیره دوباره به سمت مدیرعامل و رئیس شرکت انویدیا برگشته!",
+      "url": "https://t.me/dunijet_ai/2608"
+    },
+    "title:3b70bb0e43a4b536": {
+      "at": "2026-11-23T19:31:13.167Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "جنسن هوانگ با رأی هیئت‌مدیره دوباره به سمت مدیرعامل و رئیس شرکت انویدیا برگشته!",
+      "url": "https://t.me/dunijet_ai/2608"
+    },
+    "url:8f8907b06200376f": {
+      "at": "2026-11-23T19:31:15.713Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید",
+      "url": "https://one.google.com/ai"
+    },
+    "title:2b56b474da9ce322": {
+      "at": "2026-11-23T19:31:15.713Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید",
+      "url": "https://one.google.com/ai"
+    },
+    "url:bef22e671e2b0a4d": {
+      "at": "2026-11-23T19:31:19.607Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "افزونه جدید برای بازکردن گوگل فلو",
+      "url": "https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai"
+    },
+    "title:3841d43ae24f2e3c": {
+      "at": "2026-11-23T19:31:19.607Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "افزونه جدید برای بازکردن گوگل فلو",
+      "url": "https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai"
+    },
+    "url:4f5fe20de68e9dfd": {
+      "at": "2026-11-23T19:31:28.370Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "benchmark": false
+    },
+    "title:05a08393b43bf97d": {
+      "at": "2026-11-23T19:31:28.370Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T23:00+03:30",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:79b7324f6ff32c68": {
-      "id": "defer:url:79b7324f6ff32c68",
-      "at": "2026-11-20T19:33:58.127Z",
-      "firstAt": "2026-11-20T19:33:58.127Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:79b7324f6ff32c68",
-        "title:03634d1d529b9fae"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing",
-      "title": "Chips can survive the space environment — can their financing?",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Chips can survive the space environment — can their financing?",
-        "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-        "canonical": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing",
-        "published": "Fri, 20 Nov 2026 17:40:01 +0000",
-        "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-        "images": [],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:79b7324f6ff32c68",
-          "title:03634d1d529b9fae"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:9866df6d164d92d0": {
       "id": "defer:url:9866df6d164d92d0",
       "at": "2026-11-21T10:31:14.682Z",
@@ -16271,71 +16367,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:8f8907b06200376f": {
-      "id": "defer:url:8f8907b06200376f",
-      "at": "2026-11-22T08:01:15.295Z",
-      "firstAt": "2026-11-22T08:01:15.295Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8f8907b06200376f",
-        "title:2b56b474da9ce322"
-      ],
-      "canonical": "https://one.google.com/ai",
-      "title": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید",
-      "candidate": {
-        "sourceId": "tg-archive-tell",
-        "sourceName": "ArchiveTell",
-        "sourceType": "telegram_channel",
-        "title": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید",
-        "link": "https://one.google.com/ai",
-        "canonical": "https://one.google.com/ai",
-        "messageText": "✨ تخفیف بلک‌فرایدی Google AI Pro رسید\n⠀\nگوگل برای مشترک‌های فعلی، پلن سالانهٔ Google AI Pro رو تا ۲۶ نوامبر با نصف قیمت می‌ده.\n⠀\n• قیمت سال اول ۹۹٫۹۹ دلاره، به‌جای ۱۹۹٫۹۹ دلار\n• ۵ ترابایت فضای ذخیره‌سازی هم داره\n• مشترک‌های جدید از ۲۷ نوامبر می‌تونن استفاده کنن\n⠀\nبه گفتهٔ گوگل، این تخفیف فقط سال اوله و تمدید سال بعد با قیمت کامل حساب می‌شه.\nمیزان تخفیف دقیق به پلن فعلی‌ت بستگی داره و برای همهٔ اکانت‌ها یکسان نیست، پس قبل از تمدید، قیمت نهایی رو توی تنظیمات Google One خودت ببین.\n⠀\n🖱️ صفحهٔ پلن‌های Google One\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤14⚡1😎1",
-        "leadPostUrl": "https://t.me/ArchiveTell/8516",
-        "published": "2026-11-22T06:22:48+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/stI7eUiYK9yIYEXxx3UjW9m4Cf93WmGsp0oMfsM1ITvOPgFt48n2QpedEcBICe4gJQa7GARHd8dWMVGAqVYjnQwR93yInBTIRfxqX4EO33m_YAbuQ-jcAiPwgb2YuASFU3jlBDH3U4cNZad55u5TOvUsEge2aurQgEBo4dCcoXl_ynyipbPqrOnCLk8gPpWn9vRp23tG9k0g1zlUSXkTrJPQ9H-4Jm12TkPyGRnIasgnLu2KmUuBtTcVcnfXSCTwHEr7-LcN3vBSozn5WXud3WGyJLvQWC4NheQZtJ4KoT7g_k8SeOqmKAW-eIDFwXASfdFDSkGexyks4S8TfGdqhA.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://one.google.com/ai"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:8f8907b06200376f",
-          "title:2b56b474da9ce322"
-        ],
-        "leadSource": "ArchiveTell",
-        "leadMessageId": 8516,
-        "leadChannelUrl": "https://t.me/ArchiveTell",
-        "sourceFocus": "tools",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:f6f5282ad9e3c36b": {
       "id": "defer:url:f6f5282ad9e3c36b",
       "at": "2026-11-22T08:01:15.295Z",
@@ -16630,71 +16661,6 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
-    },
-    "defer:url:bef22e671e2b0a4d": {
-      "id": "defer:url:bef22e671e2b0a4d",
-      "at": "2026-11-23T08:02:01.875Z",
-      "firstAt": "2026-11-23T08:02:01.875Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:bef22e671e2b0a4d",
-        "title:3841d43ae24f2e3c"
-      ],
-      "canonical": "https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai",
-      "title": "افزونه جدید برای بازکردن گوگل فلو",
-      "candidate": {
-        "sourceId": "tg-asr-novin",
-        "sourceName": "عصر نوین | AminiYT",
-        "sourceType": "telegram_channel",
-        "title": "افزونه جدید برای بازکردن گوگل فلو",
-        "link": "https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai",
-        "canonical": "https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai",
-        "messageText": "افزونه جدید برای بازکردن گوگل فلو\n\nمخصوص مرورگر کروم\nمخصوص فایرفاکس\n\n@asrnovin_ir\n\n❤7👍3🔥1",
-        "leadPostUrl": "https://t.me/asrnovin_ir/11517",
-        "published": "2026-11-23T05:40:51+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai",
-          "https://addons.mozilla.org/en-US/firefox/addon/ai-flow-bypasser"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:bef22e671e2b0a4d",
-          "title:3841d43ae24f2e3c"
-        ],
-        "leadSource": "asrnovin_ir",
-        "leadMessageId": 11517,
-        "leadChannelUrl": "https://t.me/asrnovin_ir",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
       }
     },
     "defer:url:c2b44c28b03b2b1f": {
@@ -17017,52 +16983,6 @@
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
-      }
-    },
-    "defer:url:8edf310cbf9c0577": {
-      "id": "defer:url:8edf310cbf9c0577",
-      "at": "2026-11-23T13:31:56.614Z",
-      "firstAt": "2026-11-23T13:31:56.614Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8edf310cbf9c0577",
-        "title:2186d7ec63804ef9"
-      ],
-      "canonical": "https://www.producthunt.com/products/gauth-ai-course",
-      "title": "Gauth Personal Study Agent",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Gauth Personal Study Agent",
-        "link": "https://www.producthunt.com/products/gauth-ai-course",
-        "canonical": "https://www.producthunt.com/products/gauth-ai-course",
-        "published": "2026-11-20T09:12:34-08:00",
-        "summary": "<p> An AI study agent that remembers where you struggle </p> <p> <a href=\"https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1324531?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/gauth-ai-course",
-        "images": [],
-        "ageHours": 68.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:8edf310cbf9c0577",
-          "title:2186d7ec63804ef9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
       }
     },
     "defer:url:a62a31ba5f1d2afb": {
@@ -17652,6 +17572,364 @@
         "keys": [
           "url:c3079baa07ae12d8",
           "title:af88db5c47607130"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7c30fd8ec99a4c27": {
+      "id": "defer:url:7c30fd8ec99a4c27",
+      "at": "2026-11-23T19:31:13.181Z",
+      "firstAt": "2026-11-23T19:31:13.181Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7c30fd8ec99a4c27",
+        "title:1e633e568cb8a506"
+      ],
+      "canonical": "https://github.com/nidhinjs/prompt-master",
+      "title": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!",
+      "candidate": {
+        "sourceId": "tg-codecloude",
+        "sourceName": "Code.Cloud | کـــد کلاد",
+        "sourceType": "telegram_channel",
+        "title": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!",
+        "link": "https://github.com/nidhinjs/prompt-master",
+        "canonical": "https://github.com/nidhinjs/prompt-master",
+        "messageText": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!\n\nاگه با Claude کار کرده باشی، احتمالاً برات پیش اومده که یه درخواست ساده بدی، ولی برای رسیدن به نتیجه دلخواهت مجبور بشی چندین بار اصلاحش کنی! 😐\n\n🧠 پرامپت مستر ( Prompt Master ) یه ابزار رایگان و متن‌بازه که قبل از ارسال درخواست، پرامپتت رو بررسی می‌کنه و کمک می‌کنه دقیق‌تر و حرفه‌ای‌تر بنویسی.\n\n⚡ چه قابلیت‌هایی داره؟\n\n🔸 بررسی و بهینه‌سازی پرامپت با ۳۷ معیار\n🔸 نصب مستقیم به‌عنوان Skill در Claude\n🔸 پشتیبانی از ۱۴ قالب مختلف پرامپت\n🔸 کاربردی برای کدنویسی، طراحی سایت، تولید محتوا و تصویرسازی\n🔸 کاهش اصلاحات تکراری و مصرف غیرضروری توکن\n\n📥 دانلود رایگان از GitHub:\n\n🛠 روش نصب در Claude:\n\n1. از لینک بالا پروژه رو دانلود کن.\n2. وارد Claude شو و بخش Customize → Skills رو باز کن.\n3. فایل Skill رو طبق راهنمای پروژه بارگذاری کن.\n4. حالا از Claude بخواه با Prompt Master درخواستت رو بهینه کنه.\n\n💡 این ابزار محدودیت Claude رو دور نمی‌زنه، اما می‌تونه کمک کنه با درخواست‌های دقیق‌تر، از ظرفیتت بهتر استفاده کنی.\n\n📌 این پست رو ذخیره کن و برای دوستات هم بفرست!\n\n🌐 www.CodeCloude.ir | کد کلاد\n📱 @codecloude\n💬x.com\n📷instagram\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n🔥5🤯2🤷1",
+        "leadPostUrl": "https://t.me/codecloude/2616",
+        "published": "2026-11-23T18:02:18+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/nidhinjs/prompt-master",
+          "http://www.codecloude.ir/",
+          "https://x.com/codecloude",
+          "https://instagram.com/code.cloude"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:7c30fd8ec99a4c27",
+          "title:1e633e568cb8a506"
+        ],
+        "leadSource": "codecloude",
+        "leadMessageId": 2616,
+        "leadChannelUrl": "https://t.me/codecloude",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:25f33d1df44504de": {
+      "id": "defer:url:25f33d1df44504de",
+      "at": "2026-11-23T19:31:13.181Z",
+      "firstAt": "2026-11-23T19:31:13.181Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:25f33d1df44504de",
+        "title:d5ccf796664a0a39"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+        "link": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+        "canonical": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+        "published": "Mon, 23 Nov 2026 19:14:46 +0000",
+        "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+        "images": [],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:25f33d1df44504de",
+          "title:d5ccf796664a0a39"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:51f5774dedfdc437": {
+      "id": "defer:url:51f5774dedfdc437",
+      "at": "2026-11-23T19:31:13.182Z",
+      "firstAt": "2026-11-23T19:31:13.182Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:51f5774dedfdc437",
+        "title:a8c7b8490fe24b3d"
+      ],
+      "canonical": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits",
+      "title": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits",
+        "link": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+        "canonical": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits",
+        "published": "Mon, 23 Nov 2026 18:42:38 +0000",
+        "summary": "OpenAI chief scientist Jakub Pachocki has released internal perplexity scores for the entire GPT series for the first time, up to an unreleased model beyond the current generation. The metric shows that core capabilities emerge at surprisingly precise thresholds. Pachocki is pushing to make perplexity an industry-wide progress metric and establish shared limits before control over AI behavior erodes. The article OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/openai_safety.png"
+        ],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:51f5774dedfdc437",
+          "title:a8c7b8490fe24b3d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4aa489ee2a12fc59": {
+      "id": "defer:url:4aa489ee2a12fc59",
+      "at": "2026-11-23T19:31:13.182Z",
+      "firstAt": "2026-11-23T19:31:13.182Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:4aa489ee2a12fc59",
+        "title:805844a5cabce8b9"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+        "link": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+        "canonical": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo",
+        "published": "Mon, 23 Nov 2026 18:12:22 +0000",
+        "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+        "images": [],
+        "ageHours": 1.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:4aa489ee2a12fc59",
+          "title:805844a5cabce8b9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fc32915cc49c0588": {
+      "id": "defer:url:fc32915cc49c0588",
+      "at": "2026-11-23T19:31:13.182Z",
+      "firstAt": "2026-11-23T19:31:13.182Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:fc32915cc49c0588",
+        "title:9af2b7842cd915f8"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+        "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+        "canonical": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+        "published": "Mon, 23 Nov 2026 17:14:23 +0000",
+        "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+        "images": [],
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:fc32915cc49c0588",
+          "title:9af2b7842cd915f8"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:8d32fcc88c2d5088": {
+      "id": "defer:url:8d32fcc88c2d5088",
+      "at": "2026-11-23T19:31:13.182Z",
+      "firstAt": "2026-11-23T19:31:13.182Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8d32fcc88c2d5088",
+        "title:11d81584cc8f028d"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026",
+      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+        "link": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+        "canonical": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026",
+        "published": "Mon, 23 Nov 2026 17:00:08 +0000",
+        "summary": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1-842x450.jpg"
+        ],
+        "ageHours": 2.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:8d32fcc88c2d5088",
+          "title:11d81584cc8f028d"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:eb2701ff66febea2": {
+      "id": "defer:url:eb2701ff66febea2",
+      "at": "2026-11-23T19:31:13.182Z",
+      "firstAt": "2026-11-23T19:31:13.182Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:eb2701ff66febea2",
+        "title:74ed15a1b1c54206"
+      ],
+      "canonical": "https://huggingface.co/blog/allenai/robotrack",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+        "link": "https://huggingface.co/blog/allenai/robotrack",
+        "canonical": "https://huggingface.co/blog/allenai/robotrack",
+        "published": "Mon, 23 Nov 2026 17:20:37 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/allenai/robotrack",
+        "images": [],
+        "ageHours": 2.2,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:eb2701ff66febea2",
+          "title:74ed15a1b1c54206"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -21005,6 +21283,37 @@
           "at": "2026-11-23T17:16:54.941Z"
         }
       ]
+    },
+    "2026-11-23T23:00+03:30": {
+      "at": "2026-11-23T19:31:28.370Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "گوگل کیف پول و درایو را به هوش مصنوعی جستجو وصل کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/23-00",
+      "messageId": 146,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0023670752,
+      "tokens": 50439,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "گوگل کیف پول و درایو را به هوش مصنوعی جستجو وصل کرد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 146,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0006072528,
+          "tokens": 21315,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-23T19:31:28.370Z"
+        }
+      ]
     }
   },
   "published": [
@@ -23263,192 +23572,114 @@
       "sourceTitle": "Finding faster quantum algorithms with agents and formal verification — Google DeepMind",
       "sourceText": "How using agent teams and formal verification can improve quantum algorithms for modelling fusion energy, chemistry and enzymes\nQuantum computers could soon solve problems beyond the reach of classical supercomputers. However, there is a catch: even when using the best quantum algorithms, some important applications still require more resources than early quantum hardware will be able to support.\nIn a new paper , we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits. These optimized circuits, which are instructions for how a quantum computer should carry out an algorithm, could one day help us run simulations that solve complex scientific challenges, from fusion energy to drug design. To help the community build on this work, we are open-sourcing our Lean library , problem specifications, and verified solutions on GitHub.\nBecause we cannot test resource-intensive quantum circuits on classical computers or today's small quantum processors, we have to prove that they work mathematically. Our agent teams proved each result using Lean, a formal theorem prover.\nImproving quantum algorithms using agentic teams For each problem, we tasked separate, independent agent teams with finding algorithmic improvements. These ideas were then verified with Lean, before entering a shared notebook. Every four hours, agents from each team met at a virtual conference to trade, debate and compare ideas. As teams produced more effective ideas over time, the computational cost gradually fell until the experiment finished.\nWe chose to f",
       "at": "2026-11-23T17:16:54.941Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-23T23:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "گوگل کیف پول و درایو را به هوش مصنوعی جستجو وصل کرد",
+      "why": "این یعنی جستجوی شما از یک موتور عمومی به دستیاری تبدیل می‌شود که پروژه‌ها و امور مالی‌تان را می‌شناسد و می‌توانید مکالمه را از جایی که رها کردید ادامه دهید.",
+      "dedupe_key": "google-personal-intelligence-apps",
+      "post_key": "2026-11-23/23-00/1",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "sourceTitle": "A more tailored Google Search that’s uniquely yours",
+      "sourceText": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.\nWe’re adding Google Wallet and Drive to Personal Intelligence, allowing Search to provide answers based on your spending, documents, and chats. These updates help you manage finances, organize projects, and maintain context across your search threads. You can opt in to connect these apps by visiting your Search Personalization settings, where you remain in control of your data and can adjust your preferences at any time.\nRobby Stein, VP of Product for Google Search, explains that you can now connect your apps like Google Wallet and Drive to Search for more personalized results. When you opt in, Search uses your own documents, spending habits, and recent activity to provide tailored answers. This helps you track financial goals, organize project information, and continue research tasks without repeating yourself. You remain in control and can manage these connections in your settings at any time.\nThe most helpful search experience brings together the richness of the world’s information with insights uniquely relevant to you. Today, Search is getting even more tailored with the ability to connect more of your apps to Personal Intelligence — and we're introducing more personally relevant responses, so it's easier to find just what you need.\nStarting to roll out today, you can opt in to securely connect Google Wallet to Personal Intelligence in AI Mode , with support for Drive and the Gemini app following in the coming weeks — bringing",
+      "at": "2026-11-23T19:31:28.370Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8546,
-      "last_at": "2026-11-23T16:15:02+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 8553,
+      "last_at": "2026-11-23T19:16:20+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "pedramgholizadeh": {
-      "last_id": 815,
-      "last_at": "2026-11-23T14:59:15+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 817,
+      "last_at": "2026-11-23T18:43:11+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "ai_farshad": {
-      "last_id": 6515,
-      "last_at": "2026-11-23T16:54:02+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 6517,
+      "last_at": "2026-11-23T19:31:01+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7265,
-      "last_at": "2026-11-23T16:36:36+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 7269,
+      "last_at": "2026-11-23T18:36:10+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "techiin_ir": {
-      "last_id": 20835,
-      "last_at": "2026-11-22T15:11:27+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 20836,
+      "last_at": "2026-11-22T16:38:37+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "mgh_mobin": {
-      "last_id": 504,
-      "last_at": "2026-11-23T08:21:35+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 507,
+      "last_at": "2026-11-23T19:01:48+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "asrnovin_ir": {
-      "last_id": 11519,
-      "last_at": "2026-11-23T15:14:24+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 11521,
+      "last_at": "2026-11-23T18:56:02+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "codecloude": {
-      "last_id": 2615,
-      "last_at": "2026-11-23T06:55:31+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 2616,
+      "last_at": "2026-11-23T18:02:18+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "dunijet_ai": {
-      "last_id": 2604,
-      "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 2608,
+      "last_at": "2026-11-23T18:13:57+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "MatinSenPaii": {
-      "last_id": 5965,
-      "last_at": "2026-11-23T15:39:50+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "last_id": 5972,
+      "last_at": "2026-11-23T18:04:11+00:00",
+      "checked_at": "2026-11-23T19:30:55.769Z"
     },
     "thenimaonAI": {
       "last_id": 569,
       "last_at": "2026-11-23T14:42:38+00:00",
-      "checked_at": "2026-11-23T17:01:07.458Z"
+      "checked_at": "2026-11-23T19:30:55.769Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20735",
-      "date": "2026-11-09",
-      "at": "2026-11-09T17:53:11.854Z",
-      "source": "tg-techiin",
-      "title": "✅ توسعه اپلیکیشن جدید مموری مجهز به هوش مصنوعی توسط سامسونگ",
-      "url": "https://t.me/techiin_ir/20735",
-      "reason": "denied_link",
-      "slot": "2026-11-09T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-codecloude|https://t.me/codecloude/2571",
-      "date": "2026-11-09",
-      "at": "2026-11-09T17:53:11.854Z",
-      "source": "tg-codecloude",
-      "title": "🔥 بعضی از عجیب‌ترین باگ‌های نرم‌افزار از جاهایی میان که اصلاً به چشم نمیان!",
-      "url": "https://t.me/codecloude/2571",
-      "reason": "denied_link",
-      "slot": "2026-11-09T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-archive-tell|https://t.me/ArchiveTell/8341",
-      "date": "2026-11-09",
-      "at": "2026-11-09T19:30:42.674Z",
-      "source": "tg-archive-tell",
-      "title": "⚡️ شرکت Anthropic نسخه‌های Fable 5.2 و Mythos 5.2 را منتشر کرد: این مدل‌ها اکنون قادرند",
-      "url": "https://t.me/ArchiveTell/8341",
-      "reason": "denied_link",
-      "slot": "2026-11-09T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-archive-tell|https://t.me/ArchiveTell/8340",
-      "date": "2026-11-09",
-      "at": "2026-11-09T19:30:42.674Z",
-      "source": "tg-archive-tell",
-      "title": "🔥برای معرفی GPT-6.2 Astra و GPT-6.2 bel آماده شید.",
-      "url": "https://t.me/ArchiveTell/8340",
-      "reason": "denied_link",
-      "slot": "2026-11-09T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5828",
-      "date": "2026-11-09",
-      "at": "2026-11-09T19:30:42.674Z",
-      "source": "tg-matin-senpai",
-      "title": "外面卖的「Google AI Pro 12 / 24 个月」实质就是换了一串 offer token，不是真订阅。点订阅后浏览器会向 Play 发送 eacquire/multiline 请求，ear 参数里的 item",
-      "url": "https://t.me/MatinSenPaii/5828",
-      "reason": "no_link",
-      "slot": "2026-11-09T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20737",
-      "date": "2026-11-09",
-      "at": "2026-11-09T19:30:42.674Z",
-      "source": "tg-techiin",
-      "title": "✅ مصطفی سلیمان: نباید سیستم‌های هوش مصنوعی خودآگاه خلق کنیم",
-      "url": "https://t.me/techiin_ir/20737",
-      "reason": "denied_link",
-      "slot": "2026-11-09T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5827",
-      "date": "2026-11-09",
-      "at": "2026-11-09T19:30:42.674Z",
-      "source": "tg-matin-senpai",
-      "title": "میگن تا ۱۲ نوامبر احتمالش هست آنتروپیک اکانت کلاد ایرانی ها رو ببنده",
-      "url": "https://t.me/MatinSenPaii/5827",
-      "reason": "no_link",
-      "slot": "2026-11-09T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20736",
-      "date": "2026-11-09",
-      "at": "2026-11-09T19:30:42.674Z",
-      "source": "tg-techiin",
-      "title": "✅ چطور با جمینای بدون باز کردن برنامه ساعت، آلارم تنظیم کنیم؟",
-      "url": "https://t.me/techiin_ir/20736",
-      "reason": "denied_link",
-      "slot": "2026-11-09T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-10|offer-watch:perq|https://perq.sh/",
       "date": "2026-11-10",
@@ -26975,6 +27206,78 @@
       "reason": "qa_failed",
       "slot": "2026-11-23T20:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-pedram-gholizadeh|https://t.me/pedramgholizadeh/817",
+      "date": "2026-11-23",
+      "at": "2026-11-23T19:30:55.769Z",
+      "source": "tg-pedram-gholizadeh",
+      "title": "دسترسی رایگان ۷ روزه به مدل ناشناس HungerG در Qoder فعال شده 🫪",
+      "url": "https://t.me/pedramgholizadeh/817",
+      "reason": "denied_link",
+      "slot": "2026-11-23T23:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-mgh-mobin|https://t.me/mgh_mobin/507",
+      "date": "2026-11-23",
+      "at": "2026-11-23T19:30:55.769Z",
+      "source": "tg-mgh-mobin",
+      "title": "خب مثل اینکه مدل جدید جمینای ۴ نئون بدجوری ترکونده",
+      "url": "https://t.me/mgh_mobin/507",
+      "reason": "denied_link",
+      "slot": "2026-11-23T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-dunijet-ai|https://t.me/dunijet_ai/2607",
+      "date": "2026-11-23",
+      "at": "2026-11-23T19:30:55.769Z",
+      "source": "tg-dunijet-ai",
+      "title": "آقا مرسیییی 🔥🌻",
+      "url": "https://t.me/dunijet_ai/2607",
+      "reason": "ocr_discovery",
+      "slot": "2026-11-23T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-dunijet-ai|https://t.me/dunijet_ai/2608",
+      "date": "2026-11-23",
+      "at": "2026-11-23T19:30:55.769Z",
+      "source": "tg-dunijet-ai",
+      "title": "جنسن هوانگ با رأی هیئت‌مدیره دوباره به سمت مدیرعامل و رئیس شرکت انویدیا برگشته!",
+      "url": "https://t.me/dunijet_ai/2608",
+      "reason": "no_link",
+      "slot": "2026-11-23T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-archive-tell|https://accounts.google.com/v3/signin/identifier?continue=https://one.google.com/ai&followup=https://one.google.com/ai&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S319029635:1795462273276639",
+      "date": "2026-11-23",
+      "at": "2026-11-23T19:30:55.769Z",
+      "source": "tg-archive-tell",
+      "title": "Sign in - Google Accounts",
+      "url": "https://accounts.google.com/v3/signin/identifier?continue=https://one.google.com/ai&followup=https://one.google.com/ai&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S319029635:1795462273276639",
+      "reason": "model_skip",
+      "slot": "2026-11-23T23:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-asr-novin|https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai",
+      "date": "2026-11-23",
+      "at": "2026-11-23T19:30:55.769Z",
+      "source": "tg-asr-novin",
+      "title": "AI Flow Bypasser - Chrome Web Store",
+      "url": "https://chromewebstore.google.com/detail/ai-flow-bypasser/jofnbcbbmnehkjplomlbdocilobmggai",
+      "reason": "model_skip",
+      "slot": "2026-11-23T23:00+03:30",
+      "kind": "tool",
       "mainEligible": false
     }
   ],
