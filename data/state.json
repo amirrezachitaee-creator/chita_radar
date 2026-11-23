@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-23T14:38:00.190Z",
+  "updatedAt": "2026-11-23T17:16:54.944Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -15575,401 +15575,261 @@
       "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
       "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
       "benchmark": false
+    },
+    "url:5b78c0a7f7e8b871": {
+      "at": "2026-11-23T17:01:21.974Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "How to Use AI Tools to Learn Data Science Faster in 2026",
+      "url": "https://www.kdnuggets.com/how-to-use-ai-tools-to-learn-data-science-faster-in-2026"
+    },
+    "title:07c84de6af6cb8c0": {
+      "at": "2026-11-23T17:01:21.974Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "How to Use AI Tools to Learn Data Science Faster in 2026",
+      "url": "https://www.kdnuggets.com/how-to-use-ai-tools-to-learn-data-science-faster-in-2026"
+    },
+    "url:807843fbdece96ef": {
+      "at": "2026-11-23T17:01:21.974Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "Production-Ready Docker for MLOps: Docker Compose, GPUs, and Ollama",
+      "url": "https://pyimagesearch.com/2026/11/23/production-ready-docker-for-mlops-docker-compose-gpus-and-ollama"
+    },
+    "title:6e49682be5359d3f": {
+      "at": "2026-11-23T17:01:21.974Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "Production-Ready Docker for MLOps: Docker Compose, GPUs, and Ollama",
+      "url": "https://pyimagesearch.com/2026/11/23/production-ready-docker-for-mlops-docker-compose-gpus-and-ollama"
+    },
+    "url:00d52199bef25f9e": {
+      "at": "2026-11-23T17:01:21.974Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals"
+    },
+    "title:51a773148bdcb283": {
+      "at": "2026-11-23T17:01:21.974Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals"
+    },
+    "url:125ebf0c7295f5f1": {
+      "at": "2026-11-23T17:01:24.035Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "شرکت Z. ai (همون Zhipu AI) از مدل پرچمدار جدیدش به اسم GLM-5.4 رونمایی کرد که",
+      "url": "https://t.me/Mohammad_zammani/7265"
+    },
+    "title:695e7c0cecc9537c": {
+      "at": "2026-11-23T17:01:24.035Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "شرکت Z. ai (همون Zhipu AI) از مدل پرچمدار جدیدش به اسم GLM-5.4 رونمایی کرد که",
+      "url": "https://t.me/Mohammad_zammani/7265"
+    },
+    "url:2371a826aa5579f6": {
+      "at": "2026-11-23T17:01:24.035Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "US spies tracked Nvidia scandal figure's ties to Chinese intelligence for over a year",
+      "url": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year"
+    },
+    "title:3aac0d70de3b8a77": {
+      "at": "2026-11-23T17:01:24.035Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "US spies tracked Nvidia scandal figure's ties to Chinese intelligence for over a year",
+      "url": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year"
+    },
+    "url:b3fd7df0e0f199a4": {
+      "at": "2026-11-23T17:01:25.260Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "جنسن هوآنگ دوباره به سمت مدیر عاملی انویدیا منصوب شد😳",
+      "url": "https://t.me/MatinSenPaii/5964"
+    },
+    "title:9b965e54cee629c6": {
+      "at": "2026-11-23T17:01:25.260Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "جنسن هوآنگ دوباره به سمت مدیر عاملی انویدیا منصوب شد😳",
+      "url": "https://t.me/MatinSenPaii/5964"
+    },
+    "url:7794e53699fb32d7": {
+      "at": "2026-11-23T17:01:25.438Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "یک نمایش جذاب از سوی شرکت انویدیا😂",
+      "url": "https://t.me/ArchiveTell/8543"
+    },
+    "title:b44d841ed6fdb3f4": {
+      "at": "2026-11-23T17:01:25.438Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "یک نمایش جذاب از سوی شرکت انویدیا😂",
+      "url": "https://t.me/ArchiveTell/8543"
+    },
+    "url:d4ce6c3e40bfafee": {
+      "at": "2026-11-23T17:01:33.177Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "فقط ۱۲ روز بعد از اینکه جنسن هوانگ از انویدیا کناره‌گیری کرد، دوباره رسماً به شرکتی",
+      "url": "https://t.me/Mohammad_zammani/7264"
+    },
+    "title:0dfd423c6082da05": {
+      "at": "2026-11-23T17:01:33.177Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "فقط ۱۲ روز بعد از اینکه جنسن هوانگ از انویدیا کناره‌گیری کرد، دوباره رسماً به شرکتی",
+      "url": "https://t.me/Mohammad_zammani/7264"
+    },
+    "url:0fd3f681daa785d7": {
+      "at": "2026-11-23T17:01:41.912Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "✅ امکان اتصال به api هوش‌مصنوعی‌ها در درگاه توسعه‌دهندگان هلیکس‌ورلد",
+      "url": "https://t.me/techiin_ir/20835"
+    },
+    "title:32b463aa0b4dc8d7": {
+      "at": "2026-11-23T17:01:41.912Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "✅ امکان اتصال به api هوش‌مصنوعی‌ها در درگاه توسعه‌دهندگان هلیکس‌ورلد",
+      "url": "https://t.me/techiin_ir/20835"
+    },
+    "url:7918391acde2abbd": {
+      "at": "2026-11-23T17:01:42.538Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "🚀 بدون دانش برنامه‌نویسی، از صفر تا صد یه وبسایت رو بساز!",
+      "url": "https://quera.org/r/85kil"
+    },
+    "title:2cd2c4ffac1e83c9": {
+      "at": "2026-11-23T17:01:42.538Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "🚀 بدون دانش برنامه‌نویسی، از صفر تا صد یه وبسایت رو بساز!",
+      "url": "https://quera.org/r/85kil"
+    },
+    "url:4f16899c4a31e23e": {
+      "at": "2026-11-23T17:04:17.450Z",
+      "decision": "review",
+      "reason": "qa_failed",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
+      "url": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools"
+    },
+    "title:593f76d1ca4dc0ad": {
+      "at": "2026-11-23T17:04:17.450Z",
+      "decision": "review",
+      "reason": "qa_failed",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
+      "url": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools"
+    },
+    "url:845dff761b2978ce": {
+      "at": "2026-11-23T17:04:54.437Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "benchmark": false
+    },
+    "title:e57d5140f2618c12": {
+      "at": "2026-11-23T17:04:54.437Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "benchmark": false
+    },
+    "url:f1db7ce98881d890": {
+      "at": "2026-11-23T17:05:08.353Z",
+      "decision": "skip",
+      "reason": "unverified",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4"
+    },
+    "title:ad3643e2f4221dd6": {
+      "at": "2026-11-23T17:05:08.353Z",
+      "decision": "skip",
+      "reason": "unverified",
+      "category": "",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4"
+    },
+    "url:895b540db6a8889e": {
+      "at": "2026-11-23T17:16:54.941Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "benchmark": false
+    },
+    "title:7d0f71154fe4e1a7": {
+      "at": "2026-11-23T17:16:54.941Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-23T20:30+03:30",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:383a360708a36940": {
-      "id": "defer:url:383a360708a36940",
-      "at": "2026-11-20T17:04:57.952Z",
-      "firstAt": "2026-11-20T17:04:57.952Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:383a360708a36940",
-        "title:88816549041f9dff"
-      ],
-      "canonical": "https://app.rime.ai/signup",
-      "title": "🎙 ۵۰ دلار اعتبار ماهانه رایگان Rime برای صدا",
-      "candidate": {
-        "sourceId": "tg-archive-tell",
-        "sourceName": "ArchiveTell",
-        "sourceType": "telegram_channel",
-        "title": "🎙 ۵۰ دلار اعتبار ماهانه رایگان Rime برای صدا",
-        "link": "https://app.rime.ai/signup/",
-        "canonical": "https://app.rime.ai/signup",
-        "messageText": "🎙 ۵۰ دلار اعتبار ماهانه رایگان Rime برای صدا\n⠀\nپلن رایگان Rime هر ماه ۵۰ دلار اعتبار مصرفی برای مدل‌های صوتی‌اش می‌دهد، بدون نیاز به کارت بانکی.\n⠀\n🤖 مدل Prism — مکالمه صوت‌به‌صوت\n⚡️ مدل Mist v3 — تبدیل متن به گفتار سریع\n🎙️ مدل Coda v2 — تبدیل متن به گفتار طبیعی\n📝 مدل Rime STT — تبدیل گفتار به متن\n⠀\nاعتبار بین همه مدل‌ها مشترک است و هر ماه تمدید می‌شود؛ اعتبار استفاده‌نشده به ماه بعد منتقل نمی‌شود. برای شروع، حساب بسازید و پلن رایگان را انتخاب کنید، بعد در داشبورد مدل‌ها را امتحان کنید و کلید API بسازید.\n⠀\n📌 ساخت حساب رایگان در Rime\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤17🔥1😎1",
-        "leadPostUrl": "https://t.me/ArchiveTell/8496",
-        "published": "2026-11-20T14:34:28+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn1.telesco.pe/file/WD771nzlXTJAqlvn1VALoCjmNMcUTHFrwj5nXWqGqe7rVDbld1c52pT0TjpMqPiPziC5u8NQDFSYbaROdKqm-yvG4-lFub1LYocUytzzMU9ddefOPWrPbbpPM1TQagdEs7ftunWWJtW70m71-Nm5d-jiT1vmHoRS6C5CCOJvQMrw2FziJtqltNzHCKwZ_kKLLjdzS6M4cMXgbKdFlwN3G4JX7TpIRjDRsl8DYoZD-pp6ZV0Pu8gcFIk1F3I9OUGniRch0TMiGAWcG8MvM-E0GzVmceuT4hW8eMSno4gkE2wMlttHD_TD_3xpUslwUWwjmMTgD49uxNXh78V32C61aQ.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 2.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://app.rime.ai/signup"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:383a360708a36940",
-          "title:88816549041f9dff"
-        ],
-        "leadSource": "ArchiveTell",
-        "leadMessageId": 8496,
-        "leadChannelUrl": "https://t.me/ArchiveTell",
-        "sourceFocus": "tools",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:3ae6601d10cf6a7e": {
-      "id": "defer:url:3ae6601d10cf6a7e",
-      "at": "2026-11-20T17:04:57.952Z",
-      "firstAt": "2026-11-20T17:04:57.952Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:3ae6601d10cf6a7e",
-        "title:5abf4f0931347113"
-      ],
-      "canonical": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others",
-      "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
-        "link": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-        "canonical": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others",
-        "published": "Fri, 20 Nov 2026 15:56:03 +0000",
-        "summary": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China's already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns that a larger AI shock is still ahead. The article Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/08/china_flag_visual-1.png"
-        ],
-        "ageHours": 1.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:3ae6601d10cf6a7e",
-          "title:5abf4f0931347113"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ba602df81c71d7cb": {
-      "id": "defer:url:ba602df81c71d7cb",
-      "at": "2026-11-20T17:04:57.952Z",
-      "firstAt": "2026-11-20T17:04:57.952Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:ba602df81c71d7cb",
-        "title:190743cf9e766e83"
-      ],
-      "canonical": "https://admin.durovscode.com/telegram-13-3-beta-ai-agents-new-features",
-      "title": "🤖هوش مصنوعی و فید خبری در بتای تلگرام",
-      "candidate": {
-        "sourceId": "tg-archive-tell",
-        "sourceName": "ArchiveTell",
-        "sourceType": "telegram_channel",
-        "title": "🤖هوش مصنوعی و فید خبری در بتای تلگرام",
-        "link": "https://admin.durovscode.com/telegram-13-3-beta-ai-agents-new-features/",
-        "canonical": "https://admin.durovscode.com/telegram-13-3-beta-ai-agents-new-features",
-        "messageText": "🤖هوش مصنوعی و فید خبری در بتای تلگرام\n⠀\nدر بتای ۱۳٫۳ تلگرام قابلیت‌های تازه‌ای دیده شده، اما نسخهٔ پایدار هنوز منتشر نشده است.\n⠀\n🟢 ایجنت هوش مصنوعی: ربات @agent با کلید API خودتان به ChatGPT، Claude، Gemini، Grok و OpenRouter وصل می‌شود\n🟢 فید کانال‌ها: زبانه‌های «اضافه‌شده‌ها» و «برای شما» با پیشنهاد بر اساس علاقه و علامت خوانده‌شده\n🟢 فروش هدیه‌های آنچین: خرید و فروش از داخل تلگرام با کیف پول Gram\n🟢 ویرایشگر هوش مصنوعی و ترجمهٔ هم‌زمان پیام‌ها\n🟢 ویجت‌های HTML در پروفایل ربات‌ها از طریق @BotFather\n⠀\nاین‌ها در بتای iOS با شمارهٔ ساخت ۳۷۳۸۸ و بتای macOS دیده شده‌اند و تلگرام هنوز رسماً چیزی اعلام نکرده؛ پس ممکن است تا انتشار پایدار تغییر کنند یا نرسند.\n⠀\nکلیدهای API در تنظیمات مدیریت می‌شوند؛ درخواست‌های ایجنت مستقیم به ارائه‌دهندهٔ مدل می‌رود.\n\n🌐 گزارش کامل بتای ۱۳٫۳\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤13🔥3👍1😎1",
-        "leadPostUrl": "https://t.me/ArchiveTell/8498",
-        "published": "2026-11-20T15:44:39+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": true,
-        "relatedLinks": [
-          "https://admin.durovscode.com/telegram-13-3-beta-ai-agents-new-features"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:ba602df81c71d7cb",
-          "title:190743cf9e766e83"
-        ],
-        "leadSource": "ArchiveTell",
-        "leadMessageId": 8498,
-        "leadChannelUrl": "https://t.me/ArchiveTell",
-        "sourceFocus": "tools",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:a92a98d7b8a72be6": {
-      "id": "defer:url:a92a98d7b8a72be6",
-      "at": "2026-11-20T17:04:57.952Z",
-      "firstAt": "2026-11-20T17:04:57.952Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:a92a98d7b8a72be6",
-        "title:6a6f1b788015c239"
-      ],
-      "canonical": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors",
-      "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
-        "link": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-        "canonical": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors",
-        "published": "Fri, 20 Nov 2026 15:03:25 +0000",
-        "summary": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/apple_logo_neon_green.png"
-        ],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:a92a98d7b8a72be6",
-          "title:6a6f1b788015c239"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1c69154a0a8df3e3": {
-      "id": "defer:url:1c69154a0a8df3e3",
-      "at": "2026-11-20T17:04:57.952Z",
-      "firstAt": "2026-11-20T17:04:57.952Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:1c69154a0a8df3e3",
-        "title:b42416c096a367fd"
-      ],
-      "canonical": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup",
-      "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
-        "link": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-        "canonical": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup",
-        "published": "Fri, 20 Nov 2026 14:53:50 +0000",
-        "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would bolster Nvidia's own open-source models and its push into robotics. The article Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/inception.png"
-        ],
-        "ageHours": 2.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:1c69154a0a8df3e3",
-          "title:b42416c096a367fd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1895a884c21c9ded": {
-      "id": "defer:url:1895a884c21c9ded",
-      "at": "2026-11-20T17:04:57.953Z",
-      "firstAt": "2026-11-20T17:04:57.953Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:1895a884c21c9ded",
-        "title:4295426f211b66ed"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter",
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Six AI-powered gadgets that could make your home office smarter",
-        "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-        "canonical": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter",
-        "published": "Fri, 20 Nov 2026 14:00:00 +0000",
-        "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-        "images": [],
-        "ageHours": 3.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:1895a884c21c9ded",
-          "title:4295426f211b66ed"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:14b81a5414bbd18e": {
-      "id": "defer:url:14b81a5414bbd18e",
-      "at": "2026-11-20T17:04:57.953Z",
-      "firstAt": "2026-11-20T17:04:57.953Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:14b81a5414bbd18e",
-        "title:78f21ebf23fc2cd3"
-      ],
-      "canonical": "https://github.com/storytold/filmcraft",
-      "title": "🎬 ادیتور ویدیوی متن‌باز، قابل کنترل با ایجنت",
-      "candidate": {
-        "sourceId": "tg-archive-tell",
-        "sourceName": "ArchiveTell",
-        "sourceType": "telegram_channel",
-        "title": "🎬 ادیتور ویدیوی متن‌باز، قابل کنترل با ایجنت",
-        "link": "https://github.com/storytold/filmcraft",
-        "canonical": "https://github.com/storytold/filmcraft",
-        "messageText": "🎬 ادیتور ویدیوی متن‌باز، قابل کنترل با ایجنت\n⠀\nادیتور FilmCraft رو میشه هم خودت با ماوس کار کنی، هم یک ایجنت هوش مصنوعی از طریق MCP.\n⠀\n🎞 تایم‌لاین، برش و تریم\n🎨 رنگ‌بندی و اسکوپ\n🔊 میکس صدا\n📥 خروجی H.264 و ProRes\n⠀\nکل پروژه با Rust نوشته شده و روی مک، ویندوز، لینوکس و مرورگر (WebAssembly) اجرا میشه. بیشتر از ۶۵۰ دستور موتور داره که UI، CLI و MCP همه از همون‌ها استفاده میکنن. کدک‌های H.264 و AAC رو هم خودش پیاده کرده، بدون FFmpeg.\n⠀\nهنوز آلفاست: خود سازنده‌ها آمادگی برای کار واقعی رو حدود ۵۶٪ تخمین میزنن، رندر رنگ و خروجی روی CPU کند میشه و H.265 فقط با انکدر سخت‌افزاری خروجی میده.\n⠀\n📌 ریپوی FilmCraft در گیت‌هاب\n🌐 صفحه دانلود FilmCraft\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤15⚡1😎1",
-        "leadPostUrl": "https://t.me/ArchiveTell/8497",
-        "published": "2026-11-20T15:15:46+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn1.telesco.pe/file/XVtdr8_eC18PFtPly2TNa2RP8f3GMTMEaalHsgrGbBPXKR3nk_PMJSeHVwLWERMLxboWrntnlgfynn0I74UY_4HPi9QD5g6CIBhbn3Ep0yyZzq1uulsGbN8QP5EWC3eCgBDyr990kDVKrPRWQyjxltsbEYLVQaIbq11BVmYbqE0hnVdspdf3Jef00mGqTcywW0b9E7f3IAnJom0Sw_iFYTxbT9-MUhaf4X-VALm013Js0dlMCRe2b2QW17tEiYwACh6lZyU7xNN-iNtBns60DO7Z7qN0cenE-0Ymr11rZVa1Xz-Bx2b3VIEwrQQBrk63bk3eOufVhTp5sfffhn_77Q.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.8,
-        "aiHint": true,
-        "aiCentral": false,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/storytold/filmcraft",
-          "https://getartcraft.com/apps/filmcraft"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:14b81a5414bbd18e",
-          "title:78f21ebf23fc2cd3"
-        ],
-        "leadSource": "ArchiveTell",
-        "leadMessageId": 8497,
-        "leadChannelUrl": "https://t.me/ArchiveTell",
-        "sourceFocus": "tools",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:79b7324f6ff32c68": {
       "id": "defer:url:79b7324f6ff32c68",
       "at": "2026-11-20T19:33:58.127Z",
@@ -16772,84 +16632,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:845dff761b2978ce": {
-      "id": "defer:url:845dff761b2978ce",
-      "at": "2026-11-23T10:33:58.506Z",
-      "firstAt": "2026-11-23T08:02:01.875Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:845dff761b2978ce",
-        "title:e57d5140f2618c12"
-      ],
-      "canonical": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "title": "🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇",
-      "candidate": {
-        "sourceId": "tg-codecloude",
-        "sourceName": "Code.Cloud | کـــد کلاد",
-        "sourceType": "telegram_channel",
-        "title": "🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇",
-        "link": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-        "canonical": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-        "messageText": "🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇\n\n۱. UI/UX Pro Max — by Next Level Builder (۱۵۲٬۶۵۹ استار، MIT)\n\nبه کلاود کد سلیقه‌ی یه دیزاینر ارشد رو می‌ده: ۸۰ استایل UI، ۱۹۲ پالت، ۷۴ جفت فونت — پالت، تایپوگرافی و چیدمان رو خودش انتخاب می‌کنه.\n\nنصب (کلاود کد):\n\n/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill\n\nیا: npx skills add --skill ui-ux-pro-max\n\nبعد با /ui-ux-pro-max صداش کن.\n\nپرامپت: «با اسکیل /ui-ux-pro-max برای لندینگ‌پیجم پالت رنگ، فونت و چیدمان پیشنهاد بده»\n\nلینک: \n\n۲. Frontend Design — Anthropic (۱۹۸٬۷۳۰ استار)\n\nاسکیل رسمی فرانت‌اند آنتروپیک؛ خروجی‌هات دیگه شبیه کار هوش مصنوعی نمی‌شن.\n\n⚠️ نکته: لینک کارت اصلی (openclaw/skills) مرده — چنین ریپویی تو گیت‌هاب نیست. اسکیل درست همین‌جاست:\n\nنصب (کلاود کد):\n/plugin marketplace add anthropics/skills\n\n/plugin install example-skills@anthropic-agent-skills\n\nبعد با /frontend-design صداش کن.\nپرامپت: «با اسکیل /frontend-design یه داشبورد سلامتی بساز؛ حسش هدفمند باشه، نه شبیه کار AI»\n\nلینک ریپو: \n\n۳. Emil Kowalski — emilkowalski/skills (۵۸٬۷۴۸ استار، MIT)\n\nاز نوشته‌های امیل درباره‌ی ظرافت UI: انیمیشن، ایزینگ، پرفورمنس. اسکیل‌های اصلی: emil-design-eng، review-animations، animate، improve-animations.\n\n⚠️ نکته: ریپو از emilkowalski/skill به emilkowalski/skills تغییر نام داده —\n\nدستور درست اینه:\nnpx skills@latest add emilkowalski/skills\n\nپرامپت: «با اسکیل review-animations انیمیشن مودالم رو بررسی کن و ایزینگ و زمانش رو درست کن»\n\nلینک: — سایت: \n\n۴. App Store Design — ParthJadhav/app-store-screenshots (۸٬۰۱۰ استار، MIT)\n\nیه ادیتور کامل Next.js می‌سازه برای اسکرین‌شات‌های اپ‌استور و گوگل‌پلی؛ خروجی …",
-        "leadPostUrl": "https://t.me/codecloude/2615",
-        "published": "2026-11-23T06:55:31+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/BASA4JAFDBoy7bLJpR-217yRHh3xDVX8JXf2Q2dO_2NDwtOWDUOBh3xm69CdZMK2ba0eDkytYeHlkkArxF8yOySUxsbw_ucrawewyJf4v9NGQ8H5au5iXo0kufd4kPP7kge5cn86M8HqeKro1gkmYGINIJUT2pJ929WwORu5hZ7tHQtyT91G8cpclzZwaBVXLgBFe7FmxrRpJPef2AhTai2U7MmkpCeDFzRz05tvMYinBUf-leQUFN7MFRbbFFR5TQPpAa1dL1793kzGawuoTp_roh8lFu5_khfPsssN6KDhG8irkh3tHnVGClUa_-9Swwo8gReC-y4mslIj7dGY7g.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-          "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
-          "https://github.com/anthropics/skills",
-          "https://github.com/emilkowalski/skills",
-          "https://emilkowal.ski/",
-          "https://github.com/ParthJadhav/app-store-screenshots",
-          "https://github.com/garrytan/gstack.git",
-          "https://github.com/garrytan/gstack",
-          "http://www.codecloude.ir/"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:845dff761b2978ce",
-          "title:e57d5140f2618c12"
-        ],
-        "leadSource": "codecloude",
-        "leadMessageId": 2615,
-        "leadChannelUrl": "https://t.me/codecloude",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false,
-        "deferred": {
-          "id": "defer:url:845dff761b2978ce",
-          "attempts": 0
-        }
-      },
-      "detail": "tools"
-    },
     "defer:url:bef22e671e2b0a4d": {
       "id": "defer:url:bef22e671e2b0a4d",
       "at": "2026-11-23T08:02:01.875Z",
@@ -17124,55 +16906,6 @@
         "officialCourse": false
       }
     },
-    "defer:url:4f16899c4a31e23e": {
-      "id": "defer:url:4f16899c4a31e23e",
-      "at": "2026-11-23T13:31:56.614Z",
-      "firstAt": "2026-11-23T13:31:56.614Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:4f16899c4a31e23e",
-        "title:593f76d1ca4dc0ad"
-      ],
-      "canonical": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
-      "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
-        "link": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
-        "canonical": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
-        "published": "Mon, 23 Nov 2026 13:00:00 +0000",
-        "summary": "Compare five lightweight ways to give AI agents tools without an MCP server, from a Python dispatcher to framework tools, REST adapters, subprocesses, and webhooks, and learn when MCP becomes worth adding.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kdn-5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools-feature.webp"
-        ],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4f16899c4a31e23e",
-          "title:593f76d1ca4dc0ad"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:d5d1ac5ff9d7d1d1": {
       "id": "defer:url:d5d1ac5ff9d7d1d1",
       "at": "2026-11-23T13:31:56.614Z",
@@ -17326,6 +17059,599 @@
         "keys": [
           "url:8edf310cbf9c0577",
           "title:2186d7ec63804ef9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a62a31ba5f1d2afb": {
+      "id": "defer:url:a62a31ba5f1d2afb",
+      "at": "2026-11-23T17:01:42.553Z",
+      "firstAt": "2026-11-23T17:01:42.553Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:a62a31ba5f1d2afb",
+        "title:af81a5180828c116"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Jensen Huang isn’t out of the woods yet",
+        "link": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+        "canonical": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
+        "published": "Mon, 23 Nov 2026 16:57:40 +0000",
+        "summary": "It’s safe to say no one expected this. Monday morning, Jensen Huang returned as CEO of Nvidia, after resigning the position following news of multiple affairs, including one with a subordinate and one with a woman tied to Chinese intelligence services. With so much of the AI industry built on top of Nvidia’s AI infrastructure, […]",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+        "images": [],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:a62a31ba5f1d2afb",
+          "title:af81a5180828c116"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:76b72dfbff18bdc0": {
+      "id": "defer:url:76b72dfbff18bdc0",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:76b72dfbff18bdc0",
+        "title:365f9879c3b5e2a0"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+        "link": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+        "canonical": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return",
+        "published": "Mon, 23 Nov 2026 16:39:10 +0000",
+        "summary": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+        "images": [],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:76b72dfbff18bdc0",
+          "title:365f9879c3b5e2a0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b29ba51c592b2059": {
+      "id": "defer:url:b29ba51c592b2059",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:b29ba51c592b2059",
+        "title:8e75d37c9354d8f9"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion",
+      "title": "CrowdStrike to acquire Zscaler for $44 billion",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "CrowdStrike to acquire Zscaler for $44 billion",
+        "link": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+        "canonical": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion",
+        "published": "Mon, 23 Nov 2026 16:20:11 +0000",
+        "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+        "images": [],
+        "ageHours": 0.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:b29ba51c592b2059",
+          "title:8e75d37c9354d8f9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:27a6b6af092d6a67": {
+      "id": "defer:url:27a6b6af092d6a67",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:27a6b6af092d6a67",
+        "title:65ef5ea996fa4d08"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+        "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+        "canonical": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+        "published": "Mon, 23 Nov 2026 15:46:18 +0000",
+        "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-500x500.jpg"
+        ],
+        "ageHours": 1.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:27a6b6af092d6a67",
+          "title:65ef5ea996fa4d08"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:87f5f08f70ba8902": {
+      "id": "defer:url:87f5f08f70ba8902",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:87f5f08f70ba8902",
+        "title:db1f0bbaa32823da"
+      ],
+      "canonical": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model",
+      "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+        "link": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
+        "canonical": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model",
+        "published": "Mon, 23 Nov 2026 15:13:03 +0000",
+        "summary": "Z.ai is moving its flagship GLM-5.4 model to a loop architecture in which 28 layers run twice, which the company says lets the 750-billion-parameter model match models with 2 to 3 trillion parameters. Benchmark scores are only available for a smaller 30B test model so far, and Z.ai is positioning GLM-5.4 as the start of \"Generalized Coding,\" where code also generates videos, games, and CAD models. The article Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
+        "images": [
+          "http://the-decoder.de/wp-content/uploads/2026/11/glm-54-05-robotic-arm-cad-komprimiert.mp4",
+          "https://the-decoder.com/wp-content/uploads/2026/06/zhipu-ai-logo-wall-nano-banana-pro.jpg"
+        ],
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:87f5f08f70ba8902",
+          "title:db1f0bbaa32823da"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:29c9de3a1f8674ad": {
+      "id": "defer:url:29c9de3a1f8674ad",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:29c9de3a1f8674ad",
+        "title:3fc04907f0aa7117"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+        "link": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+        "canonical": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+        "published": "Mon, 23 Nov 2026 15:04:01 +0000",
+        "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+        "images": [],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:29c9de3a1f8674ad",
+          "title:3fc04907f0aa7117"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4cf5935296644c8c": {
+      "id": "defer:url:4cf5935296644c8c",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:4cf5935296644c8c",
+        "title:7aa7f2cd441dc7b3"
+      ],
+      "canonical": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles",
+      "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
+        "link": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+        "canonical": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles",
+        "published": "Mon, 23 Nov 2026 14:43:23 +0000",
+        "summary": "Chinese military researchers fear that AI advances could give the US an edge in the nuclear balance of power. The article Chinese military fears AI could let the US find and destroy its nuclear missiles appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/03/AI-Fake-Carrier-Iran-small.png"
+        ],
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:4cf5935296644c8c",
+          "title:7aa7f2cd441dc7b3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:f623141117fe3174": {
+      "id": "defer:url:f623141117fe3174",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:f623141117fe3174",
+        "title:414ac949aa239d72"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+        "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+        "canonical": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off",
+        "published": "Mon, 23 Nov 2026 14:43:03 +0000",
+        "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+        "images": [],
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:f623141117fe3174",
+          "title:414ac949aa239d72"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6f66fe15bb8cd402": {
+      "id": "defer:url:6f66fe15bb8cd402",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:6f66fe15bb8cd402",
+        "title:fb22f6b271677a80"
+      ],
+      "canonical": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks",
+      "title": "Nvidia tried life without Jensen Huang and it lasted about two weeks",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Nvidia tried life without Jensen Huang and it lasted about two weeks",
+        "link": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
+        "canonical": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks",
+        "published": "Mon, 23 Nov 2026 14:24:47 +0000",
+        "summary": "Nvidia's board of directors has reinstated Jensen Huang as president, CEO, and board member, effective immediately. The article Nvidia tried life without Jensen Huang and it lasted about two weeks appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/05/huang_sccp_ai_screenshot-scaled.png"
+        ],
+        "ageHours": 2.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6f66fe15bb8cd402",
+          "title:fb22f6b271677a80"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:89fc33d5028ef502": {
+      "id": "defer:url:89fc33d5028ef502",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:89fc33d5028ef502",
+        "title:3452061a37e69a0b"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+        "link": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+        "canonical": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+        "published": "Mon, 23 Nov 2026 14:21:59 +0000",
+        "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+        "images": [],
+        "ageHours": 2.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:89fc33d5028ef502",
+          "title:3452061a37e69a0b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0330bccfc355824b": {
+      "id": "defer:url:0330bccfc355824b",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0330bccfc355824b",
+        "title:a36e6af75e7d5231"
+      ],
+      "canonical": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough",
+      "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
+        "link": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
+        "canonical": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough",
+        "published": "Mon, 23 Nov 2026 13:59:36 +0000",
+        "summary": "Meta's Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/07/meta_logo-2.png"
+        ],
+        "ageHours": 3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:0330bccfc355824b",
+          "title:a36e6af75e7d5231"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c3079baa07ae12d8": {
+      "id": "defer:url:c3079baa07ae12d8",
+      "at": "2026-11-23T17:01:42.554Z",
+      "firstAt": "2026-11-23T17:01:42.554Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:c3079baa07ae12d8",
+        "title:af88db5c47607130"
+      ],
+      "canonical": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+        "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+        "canonical": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+        "published": "Mon, 23 Nov 2026 12:00:00 +0000",
+        "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-500x500.jpg"
+        ],
+        "ageHours": 5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:c3079baa07ae12d8",
+          "title:af88db5c47607130"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -20633,6 +20959,52 @@
           "at": "2026-11-23T13:37:32.930Z"
         }
       ]
+    },
+    "2026-11-23T20:30+03:30": {
+      "at": "2026-11-23T17:04:54.437Z",
+      "status": "sent",
+      "category": "models",
+      "title": "گوگل دیپ‌مایند با ایجنت‌ها الگوریتم‌های کوانتومی را بهینه کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/20-30-2",
+      "messageId": 145,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0043949528,
+      "tokens": 101284,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "ابزار اوپن سورس UI/UX Pro Max برای طراحی رابط کاربری منتشر شد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 144,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0005542712,
+          "tokens": 11921,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-23T17:04:54.437Z"
+        },
+        {
+          "title": "گوگل دیپ‌مایند با ایجنت‌ها الگوریتم‌های کوانتومی را بهینه کرد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 145,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/20-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0009102296,
+          "tokens": 22928,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-23T17:16:54.941Z"
+        }
+      ]
     }
   },
   "published": [
@@ -22855,132 +23227,132 @@
       "sourceTitle": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
       "sourceText": "Test using prompts with unique, trackable secrets proves that data doesn’t stay private.\nResearchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services to find out what happened to sensitive information entrusted to them. What they discovered was an ecosystem that leaked highly sensitive data like a sieve.\nThe exposure was found through an ingenious experiment designed to test if sensitive information can leak through the vast chain of widely used AI services and how that information is exploited when it does. Many of today’s AI apps use services such as OpenRouter or Vercel that act as brokers. These “AI routers,” sometimes also known as “AI gateways,” receive large numbers of prompts sent from AI app end users and route them to an available inference engine based on criteria such as the one charging the lowest price or being best suited for the given task. Instead of using Anthropic, OpenAI, or another big provider, the developer hires an AI router to find the most suitable model.\nUpdate, Nov 21: Posts on both Hacker News and X report that OpenRouter has sent customers an email notifying them that some of their prompts may have been read. OpenRouter cited the research and said that it received a report that the potential exposure involved prompts sent to MiniMax, a China-based model provider. OpenRouter said the researchers’ planted URLs were accessed whether the prompts were sent to MiniMax directly or through three other resellers: AtlasCloud, Novita, and StreamLake. OpenRouter has removed a “Zero Data Retention” label from M",
       "at": "2026-11-23T13:37:32.931Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-23T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ابزار اوپن سورس UI/UX Pro Max برای طراحی رابط کاربری منتشر شد",
+      "why": "با این ابزار، تیم‌های کوچیک هم می‌تونن بدون استخدام طراح، رابط کاربری حرفه‌ای و یکپارچه بسازن.",
+      "dedupe_key": "github-ui-ux-pro-max-skill",
+      "post_key": "2026-11-23/20-30/1",
+      "sourceId": "tg-codecloude",
+      "sourceName": "Code.Cloud | کـــد کلاد",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceTitle": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "sourceText": "🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇\n\n۱. UI/UX Pro Max — by Next Level Builder (۱۵۲٬۶۵۹ استار، MIT)\n\nبه کلاود کد سلیقه‌ی یه دیزاینر ارشد رو می‌ده: ۸۰ استایل UI، ۱۹۲ پالت، ۷۴ جفت فونت — پالت، تایپوگرافی و چیدمان رو خودش انتخاب می‌کنه.\n\nنصب (کلاود کد):\n\n/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill\n\nیا: npx skills add --skill ui-ux-pro-max\n\nبعد با /ui-ux-pro-max صداش کن.\n\nپرامپت: «با اسکیل /ui-ux-pro-max برای لندینگ‌پیجم پالت رنگ، فونت و چیدمان پیشنهاد بده»\n\nلینک: \n\n۲. Frontend Design — Anthropic (۱۹۸٬۷۳۰ استار)\n\nاسکیل رسمی فرانت‌اند آنتروپیک؛ خروجی‌هات دیگه شبیه کار هوش مصنوعی نمی‌شن.\n\n⚠️ نکته: لینک کارت اصلی (openclaw/skills) مرده — چنین ریپویی تو گیت‌هاب نیست. اسکیل درست همین‌جاست:\n\nنصب (کلاود کد):\n/plugin marketplace add anthropics/skills\n\n/plugin install example-skills@anthropic-agent-skills\n\nبعد با /frontend-design صداش کن.\nپرامپت: «با اسکیل /frontend-design یه داشبورد سلامتی بساز؛ حسش هدفمند باشه، نه شبیه کار AI»\n\nلینک ریپو: \n\n۳. Emil Kowalski — emilkowalski/skills (۵۸٬۷۴۸ استار، MIT)\n\nاز نوشته‌های امیل درباره‌ی ظرافت UI: انیمیشن، ایزینگ، پرفورمنس. اسکیل‌های اصلی: emil-design-eng، review-animations، animate، improve-animations.\n\n⚠️ نکته: ریپو از emilkowalski/skill به emilkowalski/skills تغییر نام داده —\n\nدستور درست اینه:\nnpx skills@latest add emilkowalski/skills\n\nپرامپت: «با اسکیل review-animations انیمیشن مودالم رو بررسی کن و ایزینگ و زمانش رو درست کن»\n\nلینک: — سایت: \n\n۴. App Store Design — ParthJadhav/app-store-screenshots (۸٬۰۱۰ استار، MIT)\n\nیه ادیتور کامل Next.js می‌سازه برای اسکرین‌شات‌های اپ‌استور و گوگل‌پلی؛ خروجی …",
+      "at": "2026-11-23T17:04:54.437Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-23T20:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "گوگل دیپ‌مایند با ایجنت‌ها الگوریتم‌های کوانتومی را بهینه کرد",
+      "why": "این روش می‌تونه کارهایی که سال‌ها طراحی دستی طول می‌کشید رو فشرده کنه و محققان رو روی انتخاب مسئله و تفسیر نتایج متمرکز کنه.",
+      "dedupe_key": "google-deepmind-quantum-algorithm-optimization",
+      "post_key": "2026-11-23/20-30/2",
+      "sourceId": "deepmind-blog",
+      "sourceName": "Google DeepMind Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "sourceTitle": "Finding faster quantum algorithms with agents and formal verification — Google DeepMind",
+      "sourceText": "How using agent teams and formal verification can improve quantum algorithms for modelling fusion energy, chemistry and enzymes\nQuantum computers could soon solve problems beyond the reach of classical supercomputers. However, there is a catch: even when using the best quantum algorithms, some important applications still require more resources than early quantum hardware will be able to support.\nIn a new paper , we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits. These optimized circuits, which are instructions for how a quantum computer should carry out an algorithm, could one day help us run simulations that solve complex scientific challenges, from fusion energy to drug design. To help the community build on this work, we are open-sourcing our Lean library , problem specifications, and verified solutions on GitHub.\nBecause we cannot test resource-intensive quantum circuits on classical computers or today's small quantum processors, we have to prove that they work mathematically. Our agent teams proved each result using Lean, a formal theorem prover.\nImproving quantum algorithms using agentic teams For each problem, we tasked separate, independent agent teams with finding algorithmic improvements. These ideas were then verified with Lean, before entering a shared notebook. Every four hours, agents from each team met at a virtual conference to trade, debate and compare ideas. As teams produced more effective ideas over time, the computational cost gradually fell until the experiment finished.\nWe chose to f",
+      "at": "2026-11-23T17:16:54.941Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8541,
-      "last_at": "2026-11-23T12:53:01+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 8546,
+      "last_at": "2026-11-23T16:15:02+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "pedramgholizadeh": {
-      "last_id": 814,
-      "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 815,
+      "last_at": "2026-11-23T14:59:15+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "ai_farshad": {
-      "last_id": 6512,
-      "last_at": "2026-11-23T10:58:22+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 6515,
+      "last_at": "2026-11-23T16:54:02+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7263,
-      "last_at": "2026-11-23T11:07:51+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 7265,
+      "last_at": "2026-11-23T16:36:36+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "techiin_ir": {
-      "last_id": 20834,
-      "last_at": "2026-11-22T14:52:20+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 20835,
+      "last_at": "2026-11-22T15:11:27+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "mgh_mobin": {
       "last_id": 504,
       "last_at": "2026-11-23T08:21:35+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "asrnovin_ir": {
-      "last_id": 11518,
-      "last_at": "2026-11-23T11:17:47+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 11519,
+      "last_at": "2026-11-23T15:14:24+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "codecloude": {
       "last_id": 2615,
       "last_at": "2026-11-23T06:55:31+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "MatinSenPaii": {
-      "last_id": 5963,
-      "last_at": "2026-11-23T13:02:35+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 5965,
+      "last_at": "2026-11-23T15:39:50+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     },
     "thenimaonAI": {
-      "last_id": 567,
-      "last_at": "2026-11-23T10:46:28+00:00",
-      "checked_at": "2026-11-23T13:30:55.643Z"
+      "last_id": 569,
+      "last_at": "2026-11-23T14:42:38+00:00",
+      "checked_at": "2026-11-23T17:01:07.458Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-09|tg-miladxtalks|https://t.me/miladxtalks/241",
-      "date": "2026-11-09",
-      "at": "2026-11-09T17:00:53.574Z",
-      "source": "tg-miladxtalks",
-      "title": "این فایل مربوط به ساخت کنترل سنتر با هوش مصنوعی کلاد",
-      "url": "https://t.me/miladxtalks/241",
-      "reason": "no_link",
-      "slot": "2026-11-09T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-archive-tell|https://t.me/ArchiveTell/8334",
-      "date": "2026-11-09",
-      "at": "2026-11-09T17:00:53.574Z",
-      "source": "tg-archive-tell",
-      "title": "🚀نسخه 10.4 از Bot API با ویجت‌های HTML منتشر شد.",
-      "url": "https://t.me/ArchiveTell/8334",
-      "reason": "denied_link",
-      "slot": "2026-11-09T20:30+03:30",
-      "kind": "post",
-      "mainEligible": true
-    },
-    {
-      "id": "2026-11-09|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7181",
-      "date": "2026-11-09",
-      "at": "2026-11-09T17:00:53.574Z",
-      "source": "tg-mohammad-zammani",
-      "title": "🔍اگه بازار داغ هوش مصنوعی رو دنبال کرده باشین، حتماً دیدین که همه کمپانی‌ها افتادن توی",
-      "url": "https://t.me/Mohammad_zammani/7181",
-      "reason": "denied_link",
-      "slot": "2026-11-09T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20735",
       "date": "2026-11-09",
@@ -26544,16 +26916,69 @@
       "slot": "2026-11-23T17:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-matin-senpai|https://t.me/MatinSenPaii/5964",
+      "date": "2026-11-23",
+      "at": "2026-11-23T17:01:07.458Z",
+      "source": "tg-matin-senpai",
+      "title": "جنسن هوآنگ دوباره به سمت مدیر عاملی انویدیا منصوب شد😳",
+      "url": "https://t.me/MatinSenPaii/5964",
+      "reason": "denied_link",
+      "slot": "2026-11-23T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-archive-tell|https://t.me/ArchiveTell/8543",
+      "date": "2026-11-23",
+      "at": "2026-11-23T17:01:07.458Z",
+      "source": "tg-archive-tell",
+      "title": "یک نمایش جذاب از سوی شرکت انویدیا😂",
+      "url": "https://t.me/ArchiveTell/8543",
+      "reason": "denied_link",
+      "slot": "2026-11-23T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7264",
+      "date": "2026-11-23",
+      "at": "2026-11-23T17:01:07.458Z",
+      "source": "tg-mohammad-zammani",
+      "title": "فقط ۱۲ روز بعد از اینکه جنسن هوانگ از انویدیا کناره‌گیری کرد، دوباره رسماً به شرکتی",
+      "url": "https://t.me/Mohammad_zammani/7264",
+      "reason": "denied_link",
+      "slot": "2026-11-23T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-techiin|https://t.me/techiin_ir/20835",
+      "date": "2026-11-23",
+      "at": "2026-11-23T17:01:07.458Z",
+      "source": "tg-techiin",
+      "title": "✅ امکان اتصال به api هوش‌مصنوعی‌ها در درگاه توسعه‌دهندگان هلیکس‌ورلد",
+      "url": "https://t.me/techiin_ir/20835",
+      "reason": "denied_link",
+      "slot": "2026-11-23T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|kdnuggets|https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+      "date": "2026-11-23",
+      "at": "2026-11-23T17:01:07.458Z",
+      "source": "kdnuggets",
+      "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools - KDnuggets",
+      "url": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+      "reason": "qa_failed",
+      "slot": "2026-11-23T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "pyimagesearch",
-      "title": "What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps",
-      "url": "https://pyimagesearch.com/2026/11/09/what-is-mlops-architecture-mlops-vs-devops-and-llmops",
-      "slot": "2026-11-09T20:30+03:30",
-      "at": "2026-11-09T17:00:53.574Z"
-    },
     {
       "source": "tg-ai-farshad",
       "title": "✍راستی، لازم نیست هزینه دوره رو یک‌جا پرداخت کنی 🔹AI Plus رو حتی با همین تخفیف،",
@@ -26917,6 +27342,13 @@
       "url": "https://claude.ai/public/artifacts/ce67e6a2-4942-4161-9ca2-1e1bc744fd95",
       "slot": "2026-11-23T17:00+03:30",
       "at": "2026-11-23T13:30:55.643Z"
+    },
+    {
+      "source": "tg-asr-novin",
+      "title": "🚀 بدون دانش برنامه‌نویسی، از صفر تا صد یه وبسایت رو بساز!",
+      "url": "https://quera.org/r/85kil",
+      "slot": "2026-11-23T20:30+03:30",
+      "at": "2026-11-23T17:01:07.458Z"
     }
   ],
   "reviewPending": {},
