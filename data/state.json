@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-23T11:26:18.692Z",
+  "updatedAt": "2026-11-23T13:37:32.933Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -15467,6 +15467,114 @@
       "title": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents",
       "url": "https://github.com/microsoft/ai-agents-for-beginners",
       "benchmark": false
+    },
+    "url:0a6baa81b233aba8": {
+      "at": "2026-11-23T13:31:05.771Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "How to Build Tool-Calling Local AI Agents in Python",
+      "url": "https://machinelearningmastery.com/how-to-build-tool-calling-local-ai-agents-in-python"
+    },
+    "title:32acec7f88eb6da4": {
+      "at": "2026-11-23T13:31:05.771Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "How to Build Tool-Calling Local AI Agents in Python",
+      "url": "https://machinelearningmastery.com/how-to-build-tool-calling-local-ai-agents-in-python"
+    },
+    "url:b977eb0e219402e6": {
+      "at": "2026-11-23T13:31:27.986Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "مدیریت Claude Code و Codex با Herdr | همه ایجنت‌ها یک‌جا",
+      "url": "https://t.me/MatinSenPaii/5963"
+    },
+    "title:d4a9b793ec3bac08": {
+      "at": "2026-11-23T13:31:27.986Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "مدیریت Claude Code و Codex با Herdr | همه ایجنت‌ها یک‌جا",
+      "url": "https://t.me/MatinSenPaii/5963"
+    },
+    "url:ac5c1cfc5d24e04c": {
+      "at": "2026-11-23T13:31:49.174Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "🤖 هوش مصنوعی بدون سانسور روی کامپیوتر خودت",
+      "url": "https://t.me/ArchiveTell/8541"
+    },
+    "title:e5ccb40095adc057": {
+      "at": "2026-11-23T13:31:49.174Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "🤖 هوش مصنوعی بدون سانسور روی کامپیوتر خودت",
+      "url": "https://t.me/ArchiveTell/8541"
+    },
+    "url:20fa1847e11cd6b7": {
+      "at": "2026-11-23T13:31:56.266Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "✅ فحاشی به هوش مصنوعی احتمال دریافت پاسخ‌های مفید رو کاهش می‌ده",
+      "url": "https://t.me/techiin_ir/20834"
+    },
+    "title:efcafac709546b82": {
+      "at": "2026-11-23T13:31:56.266Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "✅ فحاشی به هوش مصنوعی احتمال دریافت پاسخ‌های مفید رو کاهش می‌ده",
+      "url": "https://t.me/techiin_ir/20834"
+    },
+    "url:e01ed990abd544a4": {
+      "at": "2026-11-23T13:31:56.602Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "۳ پروژه عملی هوش مصنوعی — آموزش گام‌به‌گام",
+      "url": "https://claude.ai/public/artifacts/ce67e6a2-4942-4161-9ca2-1e1bc744fd95"
+    },
+    "title:c70e2ff8f9fbb887": {
+      "at": "2026-11-23T13:31:56.602Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "۳ پروژه عملی هوش مصنوعی — آموزش گام‌به‌گام",
+      "url": "https://claude.ai/public/artifacts/ce67e6a2-4942-4161-9ca2-1e1bc744fd95"
+    },
+    "url:f22d46a83ecd25c4": {
+      "at": "2026-11-23T13:37:32.930Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+      "benchmark": false
+    },
+    "title:6935a7ab57a1584f": {
+      "at": "2026-11-23T13:37:32.930Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-23T17:00+03:30",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -16254,58 +16362,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:f22d46a83ecd25c4": {
-      "id": "defer:url:f22d46a83ecd25c4",
-      "at": "2026-11-21T19:31:11.473Z",
-      "firstAt": "2026-11-21T19:31:11.473Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f22d46a83ecd25c4",
-        "title:6935a7ab57a1584f"
-      ],
-      "canonical": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-        "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-        "canonical": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-        "published": "Fri, 20 Nov 2026 20:59:08 +0000",
-        "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-500x500.jpg"
-        ],
-        "ageHours": 22.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:f22d46a83ecd25c4",
-          "title:6935a7ab57a1584f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:fc4544c70639fb7e": {
       "id": "defer:url:fc4544c70639fb7e",
       "at": "2026-11-21T19:31:11.473Z",
@@ -16995,6 +17051,281 @@
         "keys": [
           "url:883b69d3f986860b",
           "title:b6158f63a25b9cdb"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:adb89e6d7a020e3c": {
+      "id": "defer:url:adb89e6d7a020e3c",
+      "at": "2026-11-23T13:31:56.614Z",
+      "firstAt": "2026-11-23T13:31:56.614Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:adb89e6d7a020e3c",
+        "title:902701dcf0792a44"
+      ],
+      "canonical": "https://www.aialphabet.ir/best-free-ai-tools",
+      "title": "بهترین ابزارهای رایگان هوش مصنوعی؛ ۱۲ ابزار که واقعاً به کارت میاد",
+      "candidate": {
+        "sourceId": "tg-mohammad-zammani",
+        "sourceName": "هوش مصنوعی | محمد زمانی",
+        "sourceType": "telegram_channel",
+        "title": "بهترین ابزارهای رایگان هوش مصنوعی؛ ۱۲ ابزار که واقعاً به کارت میاد",
+        "link": "https://www.aialphabet.ir/best-free-ai-tools/",
+        "canonical": "https://www.aialphabet.ir/best-free-ai-tools",
+        "messageText": "بهترین ابزارهای رایگان هوش مصنوعی؛ ۱۲ ابزار که واقعاً به کارت میاد\n\n✈️@mohammad_zammani\n📱Mohammad.zammani.offical\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍18❤8🔥4💯3⚡1",
+        "leadPostUrl": "https://t.me/Mohammad_zammani/7263",
+        "published": "2026-11-23T11:07:51+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/sxuplI8ABm-NB564xZx85rD36BMZF8jrtQh3WWUzL6zktLMgtF75DBiBJ36L7ABjQ9N4osQtHcvy7rrVRkBtiuRZkD80QLuMMM6qwYu0mWMw-31SlLWZHCFotZnf40ppCtNcs5lqvusZWhQ4dAJwC76WgpmCGcPRwIEb_5LC-1pkfbvq9GrgnQKw-7x_5kjPf-ZTJCtDGdVLjmH_gSaqr6uX6Mk1YHM2pGIyMkX5REqOBqTFEXCFQdbe5NZZ81W7BshL3NGyCSmTxYqRdtYgBFkb0itzq0MKMP1O0dCzKAXiEO0mVgffXk9zgZsF54IGFxEDCyK7FiqLv-x5f_KDRQ.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 2.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://www.aialphabet.ir/best-free-ai-tools",
+          "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:adb89e6d7a020e3c",
+          "title:902701dcf0792a44"
+        ],
+        "leadSource": "Mohammad_zammani",
+        "leadMessageId": 7263,
+        "leadChannelUrl": "https://t.me/Mohammad_zammani",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:4f16899c4a31e23e": {
+      "id": "defer:url:4f16899c4a31e23e",
+      "at": "2026-11-23T13:31:56.614Z",
+      "firstAt": "2026-11-23T13:31:56.614Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:4f16899c4a31e23e",
+        "title:593f76d1ca4dc0ad"
+      ],
+      "canonical": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+      "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
+        "link": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+        "canonical": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+        "published": "Mon, 23 Nov 2026 13:00:00 +0000",
+        "summary": "Compare five lightweight ways to give AI agents tools without an MCP server, from a Python dispatcher to framework tools, REST adapters, subprocesses, and webhooks, and learn when MCP becomes worth adding.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools-feature.webp"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4f16899c4a31e23e",
+          "title:593f76d1ca4dc0ad"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d5d1ac5ff9d7d1d1": {
+      "id": "defer:url:d5d1ac5ff9d7d1d1",
+      "at": "2026-11-23T13:31:56.614Z",
+      "firstAt": "2026-11-23T13:31:56.614Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:d5d1ac5ff9d7d1d1",
+        "title:25a73dd54b4fe26f"
+      ],
+      "canonical": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
+      "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+        "link": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+        "canonical": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
+        "published": "Mon, 23 Nov 2026 12:17:01 +0000",
+        "summary": "OpenAI's GPT-6.2 Astra independently produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem, the first of its kind according to Vals AI. The model chose its own approach because key foundations were missing from Mathlib. On Autoform-Hard, Astra now leads the leaderboard with 49 of 56 tasks solved. The article GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/gpt_lean_proof.png"
+        ],
+        "ageHours": 1.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d5d1ac5ff9d7d1d1",
+          "title:25a73dd54b4fe26f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2ed4d92d13921381": {
+      "id": "defer:url:2ed4d92d13921381",
+      "at": "2026-11-23T13:31:56.614Z",
+      "firstAt": "2026-11-23T13:31:56.614Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:2ed4d92d13921381",
+        "title:2a7e4de7ae9e7285"
+      ],
+      "canonical": "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html",
+      "title": "وقتی هوش مصنوعی به‌جامون فکر می‌کنه، ذهنمون تنبل می‌شه؟ — مرتضی باش‌سیز",
+      "candidate": {
+        "sourceId": "tg-matin-senpai",
+        "sourceName": "MatinSenPaii",
+        "sourceType": "telegram_channel",
+        "title": "وقتی هوش مصنوعی به‌جامون فکر می‌کنه، ذهنمون تنبل می‌شه؟ — مرتضی باش‌سیز",
+        "link": "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html",
+        "canonical": "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html",
+        "messageText": "یه جمله توی این پست دیدم که زیبا بود:\n\"آینده مال کساییه که هنوز می‌تونن خودشون فکر کنن\"\nو باهاش موافقم",
+        "leadPostUrl": "https://t.me/MatinSenPaii/5962",
+        "published": "2026-11-23T10:51:47+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 2.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:2ed4d92d13921381",
+          "title:2a7e4de7ae9e7285"
+        ],
+        "leadSource": "MatinSenPaii",
+        "leadMessageId": 5962,
+        "leadChannelUrl": "https://t.me/MatinSenPaii",
+        "sourceFocus": "education",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:8edf310cbf9c0577": {
+      "id": "defer:url:8edf310cbf9c0577",
+      "at": "2026-11-23T13:31:56.614Z",
+      "firstAt": "2026-11-23T13:31:56.614Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:8edf310cbf9c0577",
+        "title:2186d7ec63804ef9"
+      ],
+      "canonical": "https://www.producthunt.com/products/gauth-ai-course",
+      "title": "Gauth Personal Study Agent",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Gauth Personal Study Agent",
+        "link": "https://www.producthunt.com/products/gauth-ai-course",
+        "canonical": "https://www.producthunt.com/products/gauth-ai-course",
+        "published": "2026-11-20T09:12:34-08:00",
+        "summary": "<p> An AI study agent that remembers where you struggle </p> <p> <a href=\"https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1324531?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/gauth-ai-course",
+        "images": [],
+        "ageHours": 68.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:8edf310cbf9c0577",
+          "title:2186d7ec63804ef9"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -20271,6 +20602,37 @@
           "at": "2026-11-23T10:33:43.358Z"
         }
       ]
+    },
+    "2026-11-23T17:00+03:30": {
+      "at": "2026-11-23T13:37:32.930Z",
+      "status": "sent",
+      "category": "security",
+      "title": "نشت گسترده داده‌های کاربران در زنجیره تامین هوش مصنوعی",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/17-00",
+      "messageId": 143,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0065342312,
+      "tokens": 52819,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "نشت گسترده داده‌های کاربران در زنجیره تامین هوش مصنوعی",
+          "category": "security",
+          "status": "sent",
+          "messageId": 143,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00369362,
+          "tokens": 24497,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-23T13:37:32.930Z"
+        }
+      ]
     }
   },
   "published": [
@@ -22475,204 +22837,114 @@
       "sourceTitle": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents",
       "sourceText": "بچه ها Microsoft یه کورس رایگان واسه ساختن AI Agent گذاشته رو GitHub، اسمش AI Agents for Beginners ئه 🔥\n\nAI Agent یعنی یه AI که فقط به سوالت جواب نمیده، خودش قدم بعدی رو برنامه‌ریزی میکنه و با ابزار و داده کار رو جلو میبره\n\n۱۸ تا درس داره با نمونه کدهای Python، و هر درس موضوع خودشو داره، پس از هر جا خواستی میتونی شروع کنی\n\nترجمه‌ی فارسیش هم هست، Persian (Farsi) تو لیست ترجمه‌های README ریپو اومده\n\nاگه مارکتری، پیشنهاد خودم اینه از این درسا شروع کنی (این مسیر رسمی Microsoft نیست):\n\n→ Intro to AI Agents and Agent Use Cases: که بفهمی Agent اصلا چیه و کِی ارزش استفاده داره و کِی نه\n\n→ Tool Use Design Pattern: اگه میخوای Agent فقط حرف نزنه و واقعا با ابزارها کار انجام بده\n\n→ Agentic RAG: یعنی Agent خودش میره از داده‌ها و داکیومنت‌های خودت یا منابع بیرونی اطلاعات درمیاره، مثال خود درس هم گزارش ترند بازار و دیتای رقباست\n\n→ Context Engineering for AI Agents: یعنی دقیقا چه اطلاعاتی جلوی Agent بذاری؛ اگه حس میکنی Agent گیج میزنه، مشکل خیلی وقتا همینجاست\n\nمرسی از @Mohiniuni که پیداش کرد، ولی سازنده‌ش خود Microsoft ئه\n\nلینک کورس اینجاست 👇🏻\n\n💜 @marketing_aida",
       "at": "2026-11-23T10:33:43.358Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-23T17:00+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "نشت گسترده داده‌های کاربران در زنجیره تامین هوش مصنوعی",
+      "why": "این آزمایش نشون داد که حتی برچسب «حفظ حریم خصوصی» هم جلوی نشت رو نمی‌گیره؛ یک آزمایشگاه چینی آدرس‌های محرمانه رو از بیش از نیمی از پرامپت‌ها برداشت کرد.",
+      "dedupe_key": "dragos-ai-supply-chain-leak",
+      "post_key": "2026-11-23/17-00/1",
+      "sourceId": "arstechnica-ai",
+      "sourceName": "Ars Technica AI",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "sourceTitle": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "sourceText": "Test using prompts with unique, trackable secrets proves that data doesn’t stay private.\nResearchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services to find out what happened to sensitive information entrusted to them. What they discovered was an ecosystem that leaked highly sensitive data like a sieve.\nThe exposure was found through an ingenious experiment designed to test if sensitive information can leak through the vast chain of widely used AI services and how that information is exploited when it does. Many of today’s AI apps use services such as OpenRouter or Vercel that act as brokers. These “AI routers,” sometimes also known as “AI gateways,” receive large numbers of prompts sent from AI app end users and route them to an available inference engine based on criteria such as the one charging the lowest price or being best suited for the given task. Instead of using Anthropic, OpenAI, or another big provider, the developer hires an AI router to find the most suitable model.\nUpdate, Nov 21: Posts on both Hacker News and X report that OpenRouter has sent customers an email notifying them that some of their prompts may have been read. OpenRouter cited the research and said that it received a report that the potential exposure involved prompts sent to MiniMax, a China-based model provider. OpenRouter said the researchers’ planted URLs were accessed whether the prompts were sent to MiniMax directly or through three other resellers: AtlasCloud, Novita, and StreamLake. OpenRouter has removed a “Zero Data Retention” label from M",
+      "at": "2026-11-23T13:37:32.931Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8538,
-      "last_at": "2026-11-23T09:53:22+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "last_id": 8541,
+      "last_at": "2026-11-23T12:53:01+00:00",
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "ai_farshad": {
-      "last_id": 6510,
-      "last_at": "2026-11-23T10:28:48+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "last_id": 6512,
+      "last_at": "2026-11-23T10:58:22+00:00",
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7262,
-      "last_at": "2026-11-22T12:08:33+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "last_id": 7263,
+      "last_at": "2026-11-23T11:07:51+00:00",
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "techiin_ir": {
-      "last_id": 20833,
-      "last_at": "2026-11-22T14:41:13+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "last_id": 20834,
+      "last_at": "2026-11-22T14:52:20+00:00",
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "mgh_mobin": {
       "last_id": 504,
       "last_at": "2026-11-23T08:21:35+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "asrnovin_ir": {
-      "last_id": 11517,
-      "last_at": "2026-11-23T05:40:51+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "last_id": 11518,
+      "last_at": "2026-11-23T11:17:47+00:00",
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "codecloude": {
       "last_id": 2615,
       "last_at": "2026-11-23T06:55:31+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "MatinSenPaii": {
-      "last_id": 5960,
-      "last_at": "2026-11-23T09:55:38+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "last_id": 5963,
+      "last_at": "2026-11-23T13:02:35+00:00",
+      "checked_at": "2026-11-23T13:30:55.643Z"
     },
     "thenimaonAI": {
-      "last_id": 566,
-      "last_at": "2026-11-23T08:54:25+00:00",
-      "checked_at": "2026-11-23T10:30:55.563Z"
+      "last_id": 567,
+      "last_at": "2026-11-23T10:46:28+00:00",
+      "checked_at": "2026-11-23T13:30:55.643Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-09|tg-ai-farshad|https://t.me/ai_farshad/6390",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-ai-farshad",
-      "title": "⚙️ با کمک ChatGPT، تعمیرات خونه رو خودت انجام بده!",
-      "url": "https://t.me/ai_farshad/6390",
-      "reason": "denied_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5825",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-matin-senpai",
-      "title": "Claude Code حالا سشن‌های موازی رو به هم وصل می‌کنه",
-      "url": "https://t.me/MatinSenPaii/5825",
-      "reason": "denied_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-shayanode|https://t.me/shayanode/108",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-shayanode",
-      "title": "این پکیج مخصوص کلاد نیست و برای همه هوش مصنوعی ها قابل استفادست👌🏼",
-      "url": "https://t.me/shayanode/108",
-      "reason": "no_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-ai-farshad|https://t.me/ai_farshad/6389",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-ai-farshad",
-      "title": "📸 300 کد برای ساخت عکس‌های عاشقانه و خاص با هوش مصنوعی",
-      "url": "https://t.me/ai_farshad/6389",
-      "reason": "denied_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5821",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-matin-senpai",
-      "title": "ماجرا از این قراره که جنسن هوانگ، مدیرعامل انویدیا، که همه فکر می‌کردن بزرگ‌ترین دغدغه‌ش هوش",
-      "url": "https://t.me/MatinSenPaii/5821",
-      "reason": "denied_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20733",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-techiin",
-      "title": "✅ معاون نظارت بنیاد ملی بازی‌های رایانه‌ای از حذف بازی‌های بدون رده سنی تا پایان سال",
-      "url": "https://t.me/techiin_ir/20733",
-      "reason": "denied_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7180",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-mohammad-zammani",
-      "title": "بایت‌دنس بی‌سر و صدا یه بمب جدید رو کرد و مدل تصویرساز Seedream 5.5 رو فرستاد",
-      "url": "https://t.me/Mohammad_zammani/7180",
-      "reason": "denied_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20734",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-techiin",
-      "title": "✅ با تصویب دولت نخبگان مقیم خارج می‌تونن خودرو وارد کنن و عضو هیات‌ علمی بشن",
-      "url": "https://t.me/techiin_ir/20734",
-      "reason": "denied_link",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-codecloude|https://github.com/BunsDev/perplexica-search-engine-ai",
-      "date": "2026-11-09",
-      "at": "2026-11-09T13:30:40.341Z",
-      "source": "tg-codecloude",
-      "title": "GitHub - BunsDev/perplexica-search-engine-ai: Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI",
-      "url": "https://github.com/BunsDev/perplexica-search-engine-ai",
-      "reason": "source_not_official",
-      "slot": "2026-11-09T17:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-09|tg-miladxtalks|https://t.me/miladxtalks/241",
       "date": "2026-11-09",
@@ -26236,16 +26508,45 @@
       "slot": "2026-11-23T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-matin-senpai|https://t.me/MatinSenPaii/5963",
+      "date": "2026-11-23",
+      "at": "2026-11-23T13:30:55.643Z",
+      "source": "tg-matin-senpai",
+      "title": "مدیریت Claude Code و Codex با Herdr | همه ایجنت‌ها یک‌جا",
+      "url": "https://t.me/MatinSenPaii/5963",
+      "reason": "denied_link",
+      "slot": "2026-11-23T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-archive-tell|https://t.me/ArchiveTell/8541",
+      "date": "2026-11-23",
+      "at": "2026-11-23T13:30:55.643Z",
+      "source": "tg-archive-tell",
+      "title": "🤖 هوش مصنوعی بدون سانسور روی کامپیوتر خودت",
+      "url": "https://t.me/ArchiveTell/8541",
+      "reason": "denied_link",
+      "slot": "2026-11-23T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-techiin|https://t.me/techiin_ir/20834",
+      "date": "2026-11-23",
+      "at": "2026-11-23T13:30:55.643Z",
+      "source": "tg-techiin",
+      "title": "✅ فحاشی به هوش مصنوعی احتمال دریافت پاسخ‌های مفید رو کاهش می‌ده",
+      "url": "https://t.me/techiin_ir/20834",
+      "reason": "denied_link",
+      "slot": "2026-11-23T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "machinelearningmastery",
-      "title": "Benchmarking Scikit-Ollama vs. Groq-Backed Scikit-LLM: Speed, Cost, and Accuracy",
-      "url": "https://machinelearningmastery.com/benchmarking-scikit-ollama-vs-groq-backed-scikit-llm-speed-cost-and-accuracy",
-      "slot": "2026-11-09T17:00+03:30",
-      "at": "2026-11-09T13:30:40.341Z"
-    },
     {
       "source": "pyimagesearch",
       "title": "What Is MLOps? Architecture, MLOps vs DevOps, and LLMOps",
@@ -26609,6 +26910,13 @@
       "url": "https://t.me/mobin_themgh",
       "slot": "2026-11-23T14:00+03:30",
       "at": "2026-11-23T10:30:55.563Z"
+    },
+    {
+      "source": "tg-thenima",
+      "title": "۳ پروژه عملی هوش مصنوعی — آموزش گام‌به‌گام",
+      "url": "https://claude.ai/public/artifacts/ce67e6a2-4942-4161-9ca2-1e1bc744fd95",
+      "slot": "2026-11-23T17:00+03:30",
+      "at": "2026-11-23T13:30:55.643Z"
     }
   ],
   "reviewPending": {},

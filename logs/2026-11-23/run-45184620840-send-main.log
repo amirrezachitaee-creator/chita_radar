@@ -1,0 +1,166 @@
+RUN 45184620840 | send/main | slot auto | 2026-11-23T13:30:55Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-23T17:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 6/31 | models 5/24 | security 3/11 | business 4/11
+DAILY 5/11
+DIVERSITY_TARGET security | slot 17:00
+DEFERRED_POOL 29
+  DEFERRED category_consecutive | try 1/3 | 🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇
+  DEFERRED category_consecutive | try 0/3 | افزونه جدید برای بازکردن گوگل فلو
+  DEFERRED source_consecutive | try 0/3 | How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO
+  DEFERRED source_consecutive | try 0/3 | OpenAI’s chief scientist has thoughts on how to limit AI development
+  DEFERRED category_consecutive | try 0/3 | Plango
+SOURCE_DISCOVERY already_ran date=2026-11-23 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=216 nodate=0 nonai=0 dup=17 dup_other=0 kept=54 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=310 pending=18 leads=7 nolink=1 nonai=0 denied=2 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:682,review:17 delivered=699 window=30d
+  EDU_LANG_SKIP Machine Learning Mastery | persian=0 latin=140 | How to Build Tool-Calling Local AI Agents in Python
+TELEGRAM_EDU_LANG_SKIPPED 1 skipped=not_persian min_persian=10
+REVIEW_LEADS 3 separate_from_main=yes cap=none
+REVIEW_DRAFT MatinSenPaii | مدیریت Claude Code و Codex با Herdr | همه ایجنت‌ها یک‌جا | 541 chars
+  REVIEW_ITEM id=3c55622a28 message=185
+  REVIEW_REQUIRED reason=denied_link sent=185
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-23/17-00-b977eb0e
+REVIEW_DRAFT ArchiveTell | 🤖 هوش مصنوعی بدون سانسور روی کامپیوتر خودت | 573 chars
+  REVIEW_ITEM id=f22927eef7 message=186
+  REVIEW_REQUIRED reason=denied_link sent=186
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-23/17-00-ac5c1cfc
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | ✅ فحاشی به هوش مصنوعی احتمال دریافت پاسخ‌های مفید رو کاهش می‌ده | 481 chars
+  REVIEW_ITEM id=b64d65f8cc message=187
+  REVIEW_REQUIRED reason=denied_link sent=187
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-23/17-00-20fa1847
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD thenimaonAI | education | ۳ پروژه عملی هوش مصنوعی — آموزش گام‌به‌گام
+  EDU_REVIEW leads=1 sent=1 ids=188 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-23/17-00-education/education.txt
+RELEVANCE candidates=49 kept=27 dropped=22
+  SKIP_NOT_AI TechCrunch | Why data centers are at the center of the Big Tech backlash
+  SKIP_NOT_AI TechCrunch | A tale of two Nvidias
+  SKIP_NOT_AI Simon Willison - Prompt Injection | Quoting Ravi Vakil
+  SKIP_NOT_AI arXiv | Optimal Linear Regression Without a Variance
+  SKIP_NOT_AI arXiv | TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?
+  SKIP_NOT_AI ArchiveTell | دوستانی که پروژه تمیز دارن و نیاز به دیده شدن دارن بیان دایرکت یا کاملا رایگان
+  SKIP_NOT_AI The Record | Hackers breach Austrian Foreign Ministry website, access diplomats' contact details
+  SKIP_NOT_AI Product Hunt | Strict
+  SKIP_NOT_AI ... +14 more
+DIVERSITY target=security queue=3 fresh=15 deferred=29 rejected=source_daily:21,category_consecutive:11
+  DIVERSITY_QUEUE security:Ars Technica AI | security:The Record | models:arXiv
+QUEUE_SKIPPED 41
+  QUEUE_SKIP category_consecutive | Code.Cloud | کـــد کلاد | 🔥۵ اسکیل کلاود کد برای پروداکت دیزاینرها، از پست dailywebdesign 👇
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | افزونه جدید برای بازکردن گوگل فلو
+  QUEUE_SKIP source_daily | TechCrunch | How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO
+  QUEUE_SKIP source_daily | TechCrunch | OpenAI’s chief scientist has thoughts on how to limit AI development
+  QUEUE_SKIP category_consecutive | Product Hunt | Plango
+  QUEUE_SKIP source_daily | TechCrunch | TechCrunch Mobility: A/B testing robots vs. humans
+  QUEUE_SKIP source_daily | The Decoder | AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace
+  QUEUE_SKIP source_daily | The Decoder | Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog
+  QUEUE_SKIP source_daily | The Decoder | AI is getting better faster than experts can reliably test whether new systems are safe, METR warns
+  QUEUE_SKIP source_daily | The Decoder | Security researchers show how cheap AI inference providers steal keys and snoop on users
+  QUEUE_SKIP ... +31 more
+QUEUE_HELD 5
+  QUEUE_HOLD category_consecutive | هوش مصنوعی | محمد زمانی | بهترین ابزارهای رایگان هوش مصنوعی؛ ۱۲ ابزار که واقعاً به کارت میاد
+  QUEUE_HOLD category_consecutive | KDnuggets | 5 Lightweight Alternatives to MCP for Giving AI Agents Tools
+  QUEUE_HOLD source_daily | The Decoder | GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy
+  QUEUE_HOLD category_consecutive | MatinSenPaii | وقتی هوش مصنوعی به‌جامون فکر می‌کنه، ذهنمون تنبل می‌شه؟ — مرتضی باش‌سیز
+  QUEUE_HOLD category_consecutive | Product Hunt | Gauth Personal Study Agent
+ATTEMPT 1/3 | deferred 0/3 Ars Technica AI | Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced. | 22.5h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  retry in 5s (status 0 timeout)
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TYPE_STANDARDIZED_FOR_IMAGE
+  STYLE_WARNING why | one repair retry
+  BODY_TRIM
+  QUOTE_TRIM
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=security | QA 42/43 | $0.003694 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/17-00
+ATTEMPT 2/3 | deferred 0/3 The Record | US companies’ use of Chinese open weight AI draws rebuke from House chairmen | 23.1h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | این خبر درباره سیاست و امنیت ملی است و تمرکز اصلی آن بر هوش مصنوعی نیست.
+ATTEMPT 3/3 arXiv | Non-penetrating World Models | 66.8h
+  TOOL_LINK candidate https://github.com/yuhangdai427/NoPeWorld | score 28
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QA_FAILED category_fresh | one repair retry
+  retry in 5s (status 0 timeout)
+  REPAIR_QA FAIL | score 40/43 | problems category_fresh | warnings why,numbers_grounded
+  QA_FAILED category_fresh | score 40/43
+RESULT SENT category=security | offer=no | image=yes | QA 42/43 | cost $0.007427 | post $0.003694 | tokens 84128
+TITLE نشت گسترده داده‌های کاربران در زنجیره تامین هوش مصنوعی
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/17-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST security | sent | $0.003694 | نشت گسترده داده‌های کاربران در زنجیره تامین هوش مصنوعی
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-23T13:43:32Z
+# گزارش روزانه 2026-11-23 (دوشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 6 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 6
+
+## آمار روز
+- پست ارسال‌شده: 6 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 2
+- آموزش‌های بازبینی: 3 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 4
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، کسب‌وکار و بازار 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.007099
+- توکن: 116661
+- میانگین هر پست ارسال‌شده: $0.001183
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 6 | 31 | 25 |
+| مدل‌ها و پژوهش | 5 | 24 | 19 |
+| امنیت و حریم خصوصی | 4 | 11 | 7 |
+| کسب‌وکار و بازار | 4 | 11 | 7 |
+| مجموع | 19 | 77 | 58 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000296 | 10005 | اثبات فرضیه ریمان با کمک هوش مصنوعی تأیید شد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000217 | 9633 | ابزاری برای استایل‌دهی به باکس‌های انتخاب |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.001087 | 25349 | اوپن‌ای‌آی: پیشرفت هوش مصنوعی با پرپلکسیتی سنجیده شود |
+| 11:30 #2 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.001000 | 24693 | بازیگر اسرائیلی چهره‌اش را برای سریال هوش مصنوعی اجاره داد |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.000805 | 22484 | مایکروسافت دوره رایگان ساخت ایجنت هوش مصنوعی منتشر کرد |
+| 17:00 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.003694 | 24497 | نشت گسترده داده‌های کاربران در زنجیره تامین هوش مصنوعی |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 14
+- دلایل: از رصد آفر پیدا شد 2، لینک خارجی این پست پذیرفته نشد 10، لینک قابل استفاده ندارد 2
+- آموزش‌های بازبینی امروز: 3 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 33
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-23.md
+SOURCE_STATUS 2026-11-23T13:43:32Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-23.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — دوشنبه ۲ آذر ۱۴۰۵
+پست امروز: 6 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 6
+صف بازبینی: 185 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 33
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45184620840
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
