@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T20:16:00.489Z",
+  "updatedAt": "2026-11-23T05:14:00.558Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -15107,6 +15107,114 @@
       "slot": "2026-11-22T23:00+03:30",
       "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
       "url": "https://huggingface.co/blog/inkling2mini"
+    },
+    "offerwatch:bf9091cb3eab89fd": {
+      "at": "2026-11-23T05:01:08.200Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits"
+    },
+    "offerwatch:912ea3f0bf4ded98": {
+      "at": "2026-11-23T05:01:08.373Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "url:f1c7cc7ad230dc2d": {
+      "at": "2026-11-23T05:01:27.325Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "۱. مجسمه (Seedream 5.5، نسبت 3:4، کیفیت 2K)",
+      "url": "https://t.me/MatinSenPaii/5957"
+    },
+    "title:d9d9f8079f25393e": {
+      "at": "2026-11-23T05:01:27.325Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "۱. مجسمه (Seedream 5.5، نسبت 3:4، کیفیت 2K)",
+      "url": "https://t.me/MatinSenPaii/5957"
+    },
+    "url:1354fba0aef82730": {
+      "at": "2026-11-23T05:01:30.390Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "ویدئوهای AI رو دیگه نمیشه از واقعیت تشخیص داد | Seedance 2.5 4K",
+      "url": "https://t.me/MatinSenPaii/5958"
+    },
+    "title:99a93cb3fade0672": {
+      "at": "2026-11-23T05:01:30.390Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "ویدئوهای AI رو دیگه نمیشه از واقعیت تشخیص داد | Seedance 2.5 4K",
+      "url": "https://t.me/MatinSenPaii/5958"
+    },
+    "url:f52216bdae320c52": {
+      "at": "2026-11-23T05:01:30.494Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages"
+    },
+    "title:d09820ef9e18411b": {
+      "at": "2026-11-23T05:01:30.494Z",
+      "decision": "offer_skip",
+      "reason": "offer_stale",
+      "category": "",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages"
+    },
+    "url:dc9c1d3cbe5e2874": {
+      "at": "2026-11-23T05:02:00.018Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+      "benchmark": false
+    },
+    "title:2688c7a9495fc91a": {
+      "at": "2026-11-23T05:02:00.018Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+      "benchmark": false
+    },
+    "url:71ff2ee8bf23be9b": {
+      "at": "2026-11-23T05:14:00.555Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling",
+      "benchmark": false
+    },
+    "title:c82eb7a43901c58c": {
+      "at": "2026-11-23T05:14:00.555Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-23T08:30+03:30",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -15550,251 +15658,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:dbe111187a465a8a": {
-      "id": "defer:url:dbe111187a465a8a",
-      "at": "2026-11-20T19:33:58.127Z",
-      "firstAt": "2026-11-20T19:33:58.127Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:dbe111187a465a8a",
-        "title:c91636802bc3ec3f"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Apple may be developing its own AI agent that runs your Mac",
-        "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-        "canonical": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
-        "published": "Fri, 20 Nov 2026 00:56:01 +0000",
-        "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-        "images": [],
-        "ageHours": 18.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:dbe111187a465a8a",
-          "title:c91636802bc3ec3f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ad84405834598899": {
-      "id": "defer:url:ad84405834598899",
-      "at": "2026-11-20T19:33:58.127Z",
-      "firstAt": "2026-11-20T19:33:58.127Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:ad84405834598899",
-        "title:8c9e73db3c5ee04a"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
-      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-        "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-        "canonical": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
-        "published": "Fri, 20 Nov 2026 00:43:50 +0000",
-        "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-        "images": [],
-        "ageHours": 18.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ad84405834598899",
-          "title:8c9e73db3c5ee04a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:cdf2ec3f0b6befdf": {
-      "id": "defer:url:cdf2ec3f0b6befdf",
-      "at": "2026-11-20T19:33:58.128Z",
-      "firstAt": "2026-11-20T19:33:58.128Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:cdf2ec3f0b6befdf",
-        "title:2d97ae407cd7ade1"
-      ],
-      "canonical": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool",
-      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
-        "link": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
-        "canonical": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool",
-        "published": "Thu, 19 Nov 2026 21:15:01 +0000",
-        "summary": "An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt injection as a possible trigger but cannot establish it as the sole cause. The article An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/agent_mail_compromise.png"
-        ],
-        "ageHours": 22.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:cdf2ec3f0b6befdf",
-          "title:2d97ae407cd7ade1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:eaecd34f2a6c3727": {
-      "id": "defer:url:eaecd34f2a6c3727",
-      "at": "2026-11-20T19:33:58.128Z",
-      "firstAt": "2026-11-20T19:33:58.128Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:eaecd34f2a6c3727",
-        "title:fdcca212932f0479"
-      ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert",
-      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-        "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert",
-        "published": "Thu, 19 Nov 2026 20:19:28 +0000",
-        "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-500x500.jpg"
-        ],
-        "ageHours": 23.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:eaecd34f2a6c3727",
-          "title:fdcca212932f0479"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:8145fefb47ff1ca9": {
-      "id": "defer:url:8145fefb47ff1ca9",
-      "at": "2026-11-21T08:01:23.238Z",
-      "firstAt": "2026-11-21T08:01:23.238Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:8145fefb47ff1ca9",
-        "title:5239519b9bff8bd0"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/hebbia",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-        "link": "https://openai.com/business/customer-stories/hebbia",
-        "canonical": "https://openai.com/business/customer-stories/hebbia",
-        "published": "Fri, 20 Nov 2026 00:00:00 GMT",
-        "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/hebbia",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:8145fefb47ff1ca9",
-          "title:5239519b9bff8bd0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:9866df6d164d92d0": {
       "id": "defer:url:9866df6d164d92d0",
       "at": "2026-11-21T10:31:14.682Z",
@@ -16033,54 +15896,6 @@
         "keys": [
           "url:861ca51b04b5cf48",
           "title:a6e9e2e204430573"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f52216bdae320c52": {
-      "id": "defer:url:f52216bdae320c52",
-      "at": "2026-11-21T17:03:04.750Z",
-      "firstAt": "2026-11-21T17:03:04.750Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:f52216bdae320c52",
-        "title:d09820ef9e18411b"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Here are the top AI agents that can live in your text messages",
-        "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-        "canonical": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
-        "published": "Sat, 21 Nov 2026 17:00:00 +0000",
-        "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:f52216bdae320c52",
-          "title:d09820ef9e18411b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -16443,56 +16258,6 @@
         "keys": [
           "url:f6f5282ad9e3c36b",
           "title:6f5e75e17c6bd27e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:dc9c1d3cbe5e2874": {
-      "id": "defer:url:dc9c1d3cbe5e2874",
-      "at": "2026-11-22T11:11:24.266Z",
-      "firstAt": "2026-11-22T11:11:24.266Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:dc9c1d3cbe5e2874",
-        "title:2688c7a9495fc91a"
-      ],
-      "canonical": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
-      "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
-        "link": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
-        "canonical": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
-        "published": "Sun, 22 Nov 2026 11:08:31 +0000",
-        "summary": "The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it wouldn't happen until around 2050 and didn't expect AI to solve it alone. The article Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/05/ai_and_math.png"
-        ],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:dc9c1d3cbe5e2874",
-          "title:2688c7a9495fc91a"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19941,6 +19706,52 @@
       "cost": 0,
       "tokens": 0,
       "posts": []
+    },
+    "2026-11-23T08:30+03:30": {
+      "at": "2026-11-23T05:02:00.018Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "ابزاری برای استایل‌دهی به باکس‌های انتخاب",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/08-30-2",
+      "messageId": 139,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0020307336,
+      "tokens": 38668,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "اثبات فرضیه ریمان با کمک هوش مصنوعی تأیید شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 138,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0002955512,
+          "tokens": 10005,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-23T05:02:00.018Z"
+        },
+        {
+          "title": "ابزاری برای استایل‌دهی به باکس‌های انتخاب",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 139,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-23/08-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0002172912,
+          "tokens": 9633,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-23T05:14:00.555Z"
+        }
+      ]
     }
   },
   "published": [
@@ -22055,180 +21866,132 @@
       "sourceTitle": "Combatting adversarial distillation",
       "sourceText": "How we’re addressing safety risks of distillation and lessons we’ve learned for strengthening safeguards across the industry.\nAs frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly. Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards. An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections. For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked.\nWe’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry.\nOur approach to adversarial distillation combines adversarial testing, model training, classifiers, and API-level protections with investigations into coordinated attempts to extract model capabilities. These updated safeguards align more closely with those we use for biology and cybersecurity.\nWe place particular emphasis on preventing attackers from extracting our models’ protected reasoning: the intermediate steps a model generates internally while working toward an answer, known as its chain-of-thought. These traces can contain information the final answer leaves out, making them especially valuable tr",
       "at": "2026-11-22T17:05:40.718Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-23T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "اثبات فرضیه ریمان با کمک هوش مصنوعی تأیید شد",
+      "why": "جامعه لین و مثلیب به‌طور رسمی تأیید کرد که اثبات لونت آلپوگه از فرضیه ریمان درست است. آلپوگه، ریاضی‌دان دانشگاه استنفورد، این اثبات را ۱۷ میلیون خط کد به زبان لین نوشته که صحت برهان‌های ریاضی را بررسی می‌کند. ده‌ها نفر به‌طور مستقل کد را اجرا کردند و به نتیجه یکسانی رسیدند.",
+      "dedupe_key": "lean-mathlib-riemann-hypothesis-proof",
+      "post_key": "2026-11-23/08-30/1",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "sourceTitle": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+      "sourceText": "The Lean and Mathlib community has confirmed that Levent Alpöge's proof of the Riemann hypothesis is correct. \"We have full confidence that Alpöge's proof is correct, and we congratulate him on this achievement,\" the community said in a statement .\nAlpöge, a Stanford mathematician, published the proof on Nov. 20, 2026, as 17 million lines of code written in Lean , a tool that checks mathematical proofs for errors. Dozens of people ran the code independently and got the same result. The verification programs are designed so they provably cannot accept a flawed proof. MIT mathematician Andrew Sutherland lists the independent checks on his website .\nThe Riemann hypothesis had been one of the most famous unsolved problems in math, making a prediction about how prime numbers are distributed. The video below, generated with Fable 5.2, explains the proof if you want to dig deeper. Ad\nThe solution arrived much earlier than expected. As Ethan Mollick notes , forecasters on Metaculus had put the expected date at May 2035. Mathematician Terence Tao said last month he expected the problem to fall to \"a combination of humans and AI around 2050 or so.\" Ad\nEvery week, our editors pick the AI news that matters and explain what it means. No hype, no spam.",
+      "at": "2026-11-23T05:02:00.019Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-23T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ابزاری برای استایل‌دهی به باکس‌های انتخاب",
+      "why": "این ابزار برای طراحان وب کاربردی است که می‌خواهند ظاهر فرم‌ها را در همه مرورگرها یکسان و زیباتر کنند.",
+      "dedupe_key": "simonwillison-select-styling",
+      "post_key": "2026-11-23/08-30/2",
+      "sourceId": "simon-willison-prompt-injection",
+      "sourceName": "Simon Willison - Prompt Injection",
+      "sourceType": "blog_tag",
+      "benchmark": false,
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "sourceTitle": "Tool: Select Styling Specimens",
+      "sourceText": "I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser\nAfter some experimentation I've decided my favorite CSS for select boxes is this:\nThis is a beat by Simon Willison, posted on 22nd November 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.",
+      "at": "2026-11-23T05:14:00.555Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8527,
       "last_at": "2026-11-22T19:58:14+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "pedramgholizadeh": {
       "last_id": 814,
       "last_at": "2026-11-21T23:03:59+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "ai_farshad": {
-      "last_id": 6507,
-      "last_at": "2026-11-22T20:12:07+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "last_id": 6508,
+      "last_at": "2026-11-22T21:20:08+00:00",
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "Mohammad_zammani": {
       "last_id": 7262,
       "last_at": "2026-11-22T12:08:33+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "techiin_ir": {
-      "last_id": 20829,
-      "last_at": "2026-11-22T09:59:31+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "last_id": 20831,
+      "last_at": "2026-11-22T10:23:39+00:00",
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "mgh_mobin": {
       "last_id": 501,
       "last_at": "2026-11-22T07:16:34+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "web3nabu": {
-      "last_id": 2186,
-      "last_at": "2026-11-22T20:10:31+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "last_id": 2187,
+      "last_at": "2026-11-22T20:30:19+00:00",
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "asrnovin_ir": {
       "last_id": 11514,
       "last_at": "2026-11-22T17:20:35+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "codecloude": {
-      "last_id": 2613,
-      "last_at": "2026-11-22T13:12:38+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "last_id": 2614,
+      "last_at": "2026-11-22T20:34:43+00:00",
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "dunijet_ai": {
       "last_id": 2604,
       "last_at": "2026-11-21T17:53:09+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "marketing_aida": {
       "last_id": 112,
       "last_at": "2026-11-22T14:24:58+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "MatinSenPaii": {
-      "last_id": 5956,
-      "last_at": "2026-11-22T18:16:02+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "last_id": 5958,
+      "last_at": "2026-11-22T21:13:27+00:00",
+      "checked_at": "2026-11-23T05:01:00.428Z"
     },
     "thenimaonAI": {
       "last_id": 559,
       "last_at": "2026-11-22T14:32:05+00:00",
-      "checked_at": "2026-11-22T20:15:44.713Z"
+      "checked_at": "2026-11-23T05:01:00.428Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-09|offer-watch:perq|https://perq.sh/",
-      "date": "2026-11-09",
-      "at": "2026-11-09T05:00:47.567Z",
-      "source": "offer-watch:perq",
-      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
-      "url": "https://perq.sh/",
-      "reason": "offer_watch",
-      "slot": "2026-11-09T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|offer-watch:free-inference|https://www.freeinference.dev/",
-      "date": "2026-11-09",
-      "at": "2026-11-09T05:00:47.567Z",
-      "source": "offer-watch:free-inference",
-      "title": "Free Inference You Can Build With",
-      "url": "https://www.freeinference.dev/",
-      "reason": "offer_watch",
-      "slot": "2026-11-09T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5817",
-      "date": "2026-11-09",
-      "at": "2026-11-09T05:00:47.567Z",
-      "source": "tg-matin-senpai",
-      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره توی r/LocalLLaMA",
-      "url": "https://t.me/MatinSenPaii/5817",
-      "reason": "no_link",
-      "slot": "2026-11-09T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5818",
-      "date": "2026-11-09",
-      "at": "2026-11-09T05:00:47.567Z",
-      "source": "tg-matin-senpai",
-      "title": "مخصوصا روی Deepseek harness",
-      "url": "https://t.me/MatinSenPaii/5818",
-      "reason": "no_link",
-      "slot": "2026-11-09T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-matin-senpai|https://t.me/MatinSenPaii/5816",
-      "date": "2026-11-09",
-      "at": "2026-11-09T05:00:47.567Z",
-      "source": "tg-matin-senpai",
-      "title": "شایعه رودمپ Kimi: آخر ۲۰۲۶ K3 Flash میاد و K4 هم ۵٫۴ تریلیون پارامتره",
-      "url": "https://t.me/MatinSenPaii/5816",
-      "reason": "denied_link",
-      "slot": "2026-11-09T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-dunijet-ai|https://t.me/dunijet_ai/2523",
-      "date": "2026-11-09",
-      "at": "2026-11-09T05:00:47.567Z",
-      "source": "tg-dunijet-ai",
-      "title": "کلاس هوشمندسازی بچه های دارو و پزشکی دانشگاه اصفهان هم به پایان رسید.",
-      "url": "https://t.me/dunijet_ai/2523",
-      "reason": "no_link",
-      "slot": "2026-11-09T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-09|tg-techiin|https://t.me/techiin_ir/20727",
-      "date": "2026-11-09",
-      "at": "2026-11-09T05:00:47.567Z",
-      "source": "tg-techiin",
-      "title": "‌✅ بازی محبوب Hill Climb Racing 3 برای موبایل رونمایی شد",
-      "url": "https://t.me/techiin_ir/20727",
-      "reason": "denied_link",
-      "slot": "2026-11-09T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-09|tg-sajadverse|https://t.me/Sajadverse/1247",
       "date": "2026-11-09",
@@ -25960,6 +25723,54 @@
       "slot": "2026-11-22T23:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|offer-watch:ai-free|https://aifree.dev/free-api-credits",
+      "date": "2026-11-23",
+      "at": "2026-11-23T05:01:00.428Z",
+      "source": "offer-watch:ai-free",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits",
+      "reason": "offer_watch",
+      "slot": "2026-11-23T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-23",
+      "at": "2026-11-23T05:01:00.428Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-23T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-matin-senpai|https://t.me/MatinSenPaii/5957",
+      "date": "2026-11-23",
+      "at": "2026-11-23T05:01:00.428Z",
+      "source": "tg-matin-senpai",
+      "title": "۱. مجسمه (Seedream 5.5، نسبت 3:4، کیفیت 2K)",
+      "url": "https://t.me/MatinSenPaii/5957",
+      "reason": "denied_link",
+      "slot": "2026-11-23T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-23|tg-matin-senpai|https://t.me/MatinSenPaii/5958",
+      "date": "2026-11-23",
+      "at": "2026-11-23T05:01:00.428Z",
+      "source": "tg-matin-senpai",
+      "title": "ویدئوهای AI رو دیگه نمیشه از واقعیت تشخیص داد | Seedance 2.5 4K",
+      "url": "https://t.me/MatinSenPaii/5958",
+      "reason": "denied_link",
+      "slot": "2026-11-23T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -26330,8 +26141,8 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-22",
-    "at": "2026-11-22T05:01:02.738Z",
+    "lastDate": "2026-11-23",
+    "at": "2026-11-23T05:01:00.428Z",
     "found": 2,
     "delivered": 2
   },
@@ -26343,7 +26154,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-22T17:39:11.979Z",
+      "lastCheck": "2026-11-23T05:01:00.428Z",
       "status": "active",
       "misses": 0
     }

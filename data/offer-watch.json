@@ -2,100 +2,100 @@
   "version": 1,
   "targets": {
     "perq": {
-      "hash": "392fd2a4abb8813b",
-      "chars": 101873,
+      "hash": "2c6b2cba77c6d677",
+      "chars": 103330,
       "url": "https://perq.sh/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "ai-free": {
-      "hash": "e89702ea5e02eb08",
+      "hash": "b10825d7904705f3",
       "chars": 33682,
       "url": "https://aifree.dev/free-api-credits",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "free-llm-api-hub": {
       "hash": "73e5bf674e37be51",
       "chars": 41836,
       "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "free-inference": {
-      "hash": "489b98925a9e17aa",
+      "hash": "f301f3555d05e081",
       "chars": 6026,
       "url": "https://www.freeinference.dev/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "google-ai-studio": {
       "hash": "bc76b790be6997a3",
       "chars": 60,
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "openrouter": {
-      "hash": "af78dcf4a3afae96",
+      "hash": "10b563b370ebbd35",
       "chars": 3548,
       "url": "https://openrouter.ai/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "cloudflare-workers-ai": {
       "hash": "586fe32e73476cdd",
       "chars": 5491,
       "url": "https://developers.cloudflare.com/workers-ai/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "zai": {
-      "hash": "ce7d3848a8e35d5c",
+      "hash": "8681e06e1b6ca532",
       "chars": 99297,
       "url": "https://docs.z.ai/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "deepgram": {
-      "hash": "89b513a20bd5ad87",
+      "hash": "5e924033abb7e0de",
       "chars": 6600,
       "url": "https://deepgram.com/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "jina-ai": {
       "hash": "20763805bd554f3e",
       "chars": 11022,
       "url": "https://jina.ai/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "huggingface": {
-      "hash": "b142467d1e0c2934",
+      "hash": "091afa5e7f4b8643",
       "chars": 4547,
       "url": "https://huggingface.co/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "nvidia-build": {
       "hash": "dab92ea707a95a7c",
       "chars": 1381,
       "url": "https://build.nvidia.com/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "qoder": {
       "hash": "3037e17d4a68dcdd",
       "chars": 9877,
       "url": "https://docs.qoder.com/events/100credits",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "cline": {
       "hash": "6697ec019cc31baf",
       "chars": 3169,
       "url": "https://cline.bot/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "elevenlabs": {
       "hash": "8f16569a18cfd3ac",
       "chars": 11782,
       "url": "https://elevenlabs.io/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     },
     "ollama": {
-      "hash": "a7b7e1d035fb4b9c",
+      "hash": "39f1a8cd93ab5197",
       "chars": 529,
       "url": "https://ollama.com/",
-      "fetched_at": "2026-11-22T05:01:02.738Z"
+      "fetched_at": "2026-11-23T05:01:00.428Z"
     }
   },
   "seen": {
@@ -392,7 +392,21 @@
       "status": "review",
       "reason": "source_not_official",
       "source": "change"
+    },
+    "912ea3f0bf4ded98": {
+      "vendor": "perq",
+      "first_seen": "2026-11-23T05:01:00.428Z",
+      "status": "review",
+      "reason": "source_not_official",
+      "source": "change"
+    },
+    "bf9091cb3eab89fd": {
+      "vendor": "ai-free",
+      "first_seen": "2026-11-23T05:01:00.428Z",
+      "status": "review",
+      "reason": "source_not_official",
+      "source": "change"
     }
   },
-  "updated_at": "2026-11-22T05:01:02.738Z"
+  "updated_at": "2026-11-23T05:01:00.428Z"
 }
