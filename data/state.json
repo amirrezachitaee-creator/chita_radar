@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T14:34:29.724Z",
+  "updatedAt": "2026-11-24T17:03:32.221Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16502,257 +16502,261 @@
       "title": "See what 6 builders are making with Gemini 4 Hydrogen",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders",
       "benchmark": false
+    },
+    "url:79a666f6aa79ef3f": {
+      "at": "2026-11-24T17:01:19.812Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio",
+      "url": "https://www.kdnuggets.com/how-to-run-inkling-2-mini-locally-on-an-rtx-3090-using-unsloth-studio"
+    },
+    "title:29626460a564719b": {
+      "at": "2026-11-24T17:01:19.812Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio",
+      "url": "https://www.kdnuggets.com/how-to-run-inkling-2-mini-locally-on-an-rtx-3090-using-unsloth-studio"
+    },
+    "url:a4cb5a65f0d9bf1e": {
+      "at": "2026-11-24T17:01:22.398Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race"
+    },
+    "title:d2a43ded5fbf9f58": {
+      "at": "2026-11-24T17:01:22.398Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race"
+    },
+    "url:225acda236a2b670": {
+      "at": "2026-11-24T17:01:22.398Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout",
+      "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout"
+    },
+    "title:934bbccb2767e60c": {
+      "at": "2026-11-24T17:01:22.398Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout",
+      "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout"
+    },
+    "url:601c3201c5f6142c": {
+      "at": "2026-11-24T17:01:22.398Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "7 Most Downloaded AI Models on Hugging Face",
+      "url": "https://www.kdnuggets.com/7-most-downloaded-ai-models-on-hugging-face"
+    },
+    "title:58af3fb754c2742c": {
+      "at": "2026-11-24T17:01:22.398Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "7 Most Downloaded AI Models on Hugging Face",
+      "url": "https://www.kdnuggets.com/7-most-downloaded-ai-models-on-hugging-face"
+    },
+    "url:2f6fd5197e68a73e": {
+      "at": "2026-11-24T17:01:29.402Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "⚡️ بیشتر بساز، کمتر هزینه کن!",
+      "url": "https://t.me/asrnovin_ir/11531"
+    },
+    "title:87aaea5b5b01ad0e": {
+      "at": "2026-11-24T17:01:29.402Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "⚡️ بیشتر بساز، کمتر هزینه کن!",
+      "url": "https://t.me/asrnovin_ir/11531"
+    },
+    "url:9a85ad067c3e0924": {
+      "at": "2026-11-24T17:02:01.435Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "امروز یکی از ساده ترین راه های درآمدزایی با هوش مصنوعی رو آموزش دادم که میتونید",
+      "url": "https://t.me/asrnovin_ir/11530"
+    },
+    "title:7202414ae9b3d9db": {
+      "at": "2026-11-24T17:02:01.435Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "امروز یکی از ساده ترین راه های درآمدزایی با هوش مصنوعی رو آموزش دادم که میتونید",
+      "url": "https://t.me/asrnovin_ir/11530"
+    },
+    "url:2aa477253ca6e95e": {
+      "at": "2026-11-24T17:02:01.682Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "گویا فرضیه ژاکوبین بعد از حدود ۸۶ سال رد شده و پای یک مدل زبانی وسط",
+      "url": "https://t.me/dunijet_ai/2611"
+    },
+    "title:942dee3ba78ff600": {
+      "at": "2026-11-24T17:02:01.682Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "گویا فرضیه ژاکوبین بعد از حدود ۸۶ سال رد شده و پای یک مدل زبانی وسط",
+      "url": "https://t.me/dunijet_ai/2611"
+    },
+    "url:cec09b8f0388ca69": {
+      "at": "2026-11-24T17:02:07.811Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "کنوا اعلام کرده که MCP خودش رو به‌صورت عمومی و بدون لیست انتظار در دسترس قرار",
+      "url": "https://t.me/Mohammad_zammani/7272"
+    },
+    "title:3f65958df6d2f6a3": {
+      "at": "2026-11-24T17:02:07.811Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "کنوا اعلام کرده که MCP خودش رو به‌صورت عمومی و بدون لیست انتظار در دسترس قرار",
+      "url": "https://t.me/Mohammad_zammani/7272"
+    },
+    "url:8e601675b81d4af0": {
+      "at": "2026-11-24T17:02:20.356Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "✅ گوگل ۶ محصول و سرویس خودش رو در سال ۲۰۲۶ تعطیل کرد",
+      "url": "https://t.me/techiin_ir/20841"
+    },
+    "title:c65ccaf28956f21a": {
+      "at": "2026-11-24T17:02:20.356Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "✅ گوگل ۶ محصول و سرویس خودش رو در سال ۲۰۲۶ تعطیل کرد",
+      "url": "https://t.me/techiin_ir/20841"
+    },
+    "url:02b650158199884d": {
+      "at": "2026-11-24T17:02:43.358Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
+      "url": "https://huggingface.co/papers/2611.29619"
+    },
+    "title:1480aa4d0f42d753": {
+      "at": "2026-11-24T17:02:43.358Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
+      "url": "https://huggingface.co/papers/2611.29619"
+    },
+    "url:9149a17c74bae03c": {
+      "at": "2026-11-24T17:02:43.582Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🔵از یک عکس ساده، یک سکانس سینمایی در سبک نوآر بساز!",
+      "url": "https://t.me/ai_farshad/6521"
+    },
+    "title:e73f2868e5a0865d": {
+      "at": "2026-11-24T17:02:43.582Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🔵از یک عکس ساده، یک سکانس سینمایی در سبک نوآر بساز!",
+      "url": "https://t.me/ai_farshad/6521"
+    },
+    "url:6402763a03be8fc1": {
+      "at": "2026-11-24T17:02:44.973Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🏎️ دیتابیس ماشین‌های GTA 6",
+      "url": "https://www.gtabase.com/gta-6/vehicles"
+    },
+    "title:3df10edde6a03001": {
+      "at": "2026-11-24T17:02:44.973Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🏎️ دیتابیس ماشین‌های GTA 6",
+      "url": "https://www.gtabase.com/gta-6/vehicles"
+    },
+    "url:f022b27f70ff8148": {
+      "at": "2026-11-24T17:03:26.295Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!",
+      "url": "https://github.com/FlashML-org/FreeVideo"
+    },
+    "title:cad89eef43430ee5": {
+      "at": "2026-11-24T17:03:26.295Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!",
+      "url": "https://github.com/FlashML-org/FreeVideo"
+    },
+    "url:a45a61b5e5c87745": {
+      "at": "2026-11-24T17:03:32.217Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "AI Bias In HR: Why Polished Work Gets Overrated And What to Do About It",
+      "url": "https://news.crunchbase.com/workplace/ai-bias-in-hr-hiring-job-applications"
+    },
+    "title:1596b0b650336075": {
+      "at": "2026-11-24T17:03:32.217Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "AI Bias In HR: Why Polished Work Gets Overrated And What to Do About It",
+      "url": "https://news.crunchbase.com/workplace/ai-bias-in-hr-hiring-job-applications"
     }
   },
   "deferred": {
-    "defer:url:1d5ae0e72c84bd62": {
-      "id": "defer:url:1d5ae0e72c84bd62",
-      "at": "2026-11-21T17:03:04.751Z",
-      "firstAt": "2026-11-21T17:03:04.751Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:1d5ae0e72c84bd62",
-        "title:390df86ddcba19af"
-      ],
-      "canonical": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
-      "title": "Nvidia researchers argue huge AI context windows are a dead end",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Nvidia researchers argue huge AI context windows are a dead end",
-        "link": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
-        "canonical": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
-        "published": "Sat, 21 Nov 2026 16:23:45 +0000",
-        "summary": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even proposes a new class of models that works with short notes instead of long context. The article Nvidia researchers argue huge AI context windows are a dead end appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/you-dont-need-long-context-nano-banana-pro.jpg"
-        ],
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:1d5ae0e72c84bd62",
-          "title:390df86ddcba19af"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4dc7fb4302fb5ae3": {
-      "id": "defer:url:4dc7fb4302fb5ae3",
-      "at": "2026-11-21T17:03:04.751Z",
-      "firstAt": "2026-11-21T17:03:04.751Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:4dc7fb4302fb5ae3",
-        "title:e29f3a5cb294757b"
-      ],
-      "canonical": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion",
-      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
-        "link": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
-        "canonical": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion",
-        "published": "Sat, 21 Nov 2026 16:04:29 +0000",
-        "summary": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members take to train an AI in his image. Former members report manipulation and psychological breakdowns. The article Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/buddhist_ai_sect.png"
-        ],
-        "ageHours": 0.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:4dc7fb4302fb5ae3",
-          "title:e29f3a5cb294757b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f6f5282ad9e3c36b": {
-      "id": "defer:url:f6f5282ad9e3c36b",
-      "at": "2026-11-22T08:01:15.295Z",
-      "firstAt": "2026-11-22T08:01:15.295Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f6f5282ad9e3c36b",
-        "title:6f5e75e17c6bd27e"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-        "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-        "canonical": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
-        "published": "Sat, 21 Nov 2026 21:37:10 +0000",
-        "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-        "images": [],
-        "ageHours": 10.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:f6f5282ad9e3c36b",
-          "title:6f5e75e17c6bd27e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3e5894c0851fe293": {
-      "id": "defer:url:3e5894c0851fe293",
-      "at": "2026-11-22T13:31:10.380Z",
-      "firstAt": "2026-11-22T13:31:10.380Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3e5894c0851fe293",
-        "title:c22438a9e4e625dc"
-      ],
-      "canonical": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
-      "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
-        "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
-        "canonical": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
-        "published": "Sun, 22 Nov 2026 13:00:43 +0000",
-        "summary": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The article AI is getting better faster than experts can reliably test whether new systems are safe, METR warns appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png"
-        ],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3e5894c0851fe293",
-          "title:c22438a9e4e625dc"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a131c024f657a6c8": {
-      "id": "defer:url:a131c024f657a6c8",
-      "at": "2026-11-22T13:31:10.380Z",
-      "firstAt": "2026-11-22T13:31:10.380Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a131c024f657a6c8",
-        "title:f329a41317220719"
-      ],
-      "canonical": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users",
-      "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
-        "link": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
-        "canonical": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users",
-        "published": "Sun, 22 Nov 2026 12:07:56 +0000",
-        "summary": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers and 125 endpoints. The article Security researchers show how cheap AI inference providers steal keys and snoop on users appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/cybersecurity_data_leak.png"
-        ],
-        "ageHours": 1.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a131c024f657a6c8",
-          "title:f329a41317220719"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:355871b4c59f61e6": {
       "id": "defer:url:355871b4c59f61e6",
       "at": "2026-11-22T17:01:44.798Z",
@@ -17821,70 +17825,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:f022b27f70ff8148": {
-      "id": "defer:url:f022b27f70ff8148",
-      "at": "2026-11-24T08:02:53.195Z",
-      "firstAt": "2026-11-24T08:02:53.195Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f022b27f70ff8148",
-        "title:cad89eef43430ee5"
-      ],
-      "canonical": "https://github.com/FlashML-org/FreeVideo",
-      "title": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!",
-      "candidate": {
-        "sourceId": "tg-asr-novin",
-        "sourceName": "عصر نوین | AminiYT",
-        "sourceType": "telegram_channel",
-        "title": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!",
-        "link": "https://github.com/FlashML-org/FreeVideo",
-        "canonical": "https://github.com/FlashML-org/FreeVideo",
-        "messageText": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!\n\nروی کامپیوتر خودت، رایگان ویدیوهای AI بساز، بدون نیاز به اشتراک، بدون نیاز به امتیاز! آستانه ورود خیلی پایینه، فقط با ۸ گیگابایت حافظه گرافیکی + ۱۶ گیگابایت رم می‌تونی اجراش کنی.\n\n· پشتیبانی از متن، تصویر، ویدیو و صدا، ورودی چندوجهی چهارگانه\n· پشتیبانی از ویدیوهای طولانی در حد دقیقه، با ویرایشگر خط زمانی داخلی\n· پشتیبانی از Windows، Linux و نسخه پیش‌نمایش Apple Silicon\n· ویژگی جدید H3 تصویر، پشتیبانی مستقیم از کیفیت فوق‌العاده واضح تا ۱۶ مگاپیکسل\n\nلینک مخزن\n\n❤12👍1",
-        "leadPostUrl": "https://t.me/asrnovin_ir/11526",
-        "published": "2026-11-24T06:26:32+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/FlashML-org/FreeVideo"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:f022b27f70ff8148",
-          "title:cad89eef43430ee5"
-        ],
-        "leadSource": "asrnovin_ir",
-        "leadMessageId": 11526,
-        "leadChannelUrl": "https://t.me/asrnovin_ir",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:5e2478fb7557e8d3": {
       "id": "defer:url:5e2478fb7557e8d3",
       "at": "2026-11-24T08:02:53.195Z",
@@ -18450,9 +18390,9 @@
     },
     "defer:url:6d743dea15159994": {
       "id": "defer:url:6d743dea15159994",
-      "at": "2026-11-24T13:32:12.208Z",
+      "at": "2026-11-24T17:03:25.124Z",
       "firstAt": "2026-11-24T13:32:12.208Z",
-      "attempts": 0,
+      "attempts": 1,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -18512,8 +18452,13 @@
         "leadKind": "tool_lead",
         "educationHint": false,
         "webEducation": false,
-        "officialCourse": false
-      }
+        "officialCourse": false,
+        "deferred": {
+          "id": "defer:url:6d743dea15159994",
+          "attempts": 0
+        }
+      },
+      "detail": "models"
     },
     "defer:url:7d6908c6da8f7c39": {
       "id": "defer:url:7d6908c6da8f7c39",
@@ -18655,6 +18600,672 @@
         "keys": [
           "url:95f216a1d940ffe1",
           "title:5fe1656c59b7308a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b0f646dfac9a0a0a": {
+      "id": "defer:url:b0f646dfac9a0a0a",
+      "at": "2026-11-24T17:02:44.988Z",
+      "firstAt": "2026-11-24T17:02:44.988Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:b0f646dfac9a0a0a",
+        "title:e16d02df25d10eda"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+        "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+        "canonical": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+        "published": "Tue, 24 Nov 2026 17:00:00 +0000",
+        "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+        "images": [],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:b0f646dfac9a0a0a",
+          "title:e16d02df25d10eda"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6f0f83d3e1c30af4": {
+      "id": "defer:url:6f0f83d3e1c30af4",
+      "at": "2026-11-24T17:02:44.988Z",
+      "firstAt": "2026-11-24T17:02:44.988Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:6f0f83d3e1c30af4",
+        "title:6dad2b8576f78b78"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+        "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "canonical": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+        "published": "Tue, 24 Nov 2026 16:46:00 +0000",
+        "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "images": [],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:6f0f83d3e1c30af4",
+          "title:6dad2b8576f78b78"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0d4dbfed2ba868d7": {
+      "id": "defer:url:0d4dbfed2ba868d7",
+      "at": "2026-11-24T17:02:44.988Z",
+      "firstAt": "2026-11-24T17:02:44.988Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:0d4dbfed2ba868d7",
+        "title:0aea23cbfec6b6f8"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+        "link": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+        "canonical": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
+        "published": "Tue, 24 Nov 2026 16:10:00 +0000",
+        "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+        "images": [],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0d4dbfed2ba868d7",
+          "title:0aea23cbfec6b6f8"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a7a0adf7d6c734e3": {
+      "id": "defer:url:a7a0adf7d6c734e3",
+      "at": "2026-11-24T17:02:44.988Z",
+      "firstAt": "2026-11-24T17:02:44.988Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a7a0adf7d6c734e3",
+        "title:6d34e15de00d1cfe"
+      ],
+      "canonical": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "candidate": {
+        "sourceId": "google-ai-blog",
+        "sourceName": "Google AI Blog",
+        "sourceType": "official_blog",
+        "title": "How Gemini is changing the game for Golden State's organization and fans.",
+        "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+        "canonical": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+        "published": "Tue, 24 Nov 2026 16:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\">Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:a7a0adf7d6c734e3",
+          "title:6d34e15de00d1cfe"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a9a1f591c3b5ca40": {
+      "id": "defer:url:a9a1f591c3b5ca40",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:a9a1f591c3b5ca40",
+        "title:2a84cc44ab87ee96"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+        "link": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+        "canonical": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+        "published": "Tue, 24 Nov 2026 16:02:37 +0000",
+        "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:a9a1f591c3b5ca40",
+          "title:2a84cc44ab87ee96"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:932f47f1b7cb3403": {
+      "id": "defer:url:932f47f1b7cb3403",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:932f47f1b7cb3403",
+        "title:fa49697b030b2d40"
+      ],
+      "canonical": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures",
+      "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
+        "link": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+        "canonical": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures",
+        "published": "Tue, 24 Nov 2026 14:02:31 +0000",
+        "summary": "According to an Axios report, many employees at OpenAI and Anthropic believe the companies' own unreleased frontier models can no longer be safely controlled. Both companies are internally debating whether to halt releases or even stop training altogether, while employee trust in leadership is eroding. The article Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/openai_anthropic.png"
+        ],
+        "ageHours": 3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:932f47f1b7cb3403",
+          "title:fa49697b030b2d40"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:40e1efe8cfa51bc9": {
+      "id": "defer:url:40e1efe8cfa51bc9",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:40e1efe8cfa51bc9",
+        "title:795a7c145bda3d33"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board",
+      "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
+        "link": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
+        "canonical": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board",
+        "published": "Tue, 24 Nov 2026 13:29:53 +0000",
+        "summary": "During a meeting before his reinstatement, Huang admitted to more affairs beyond the two that have been reported in the news, according to The Wall Street Journal.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
+        "images": [],
+        "ageHours": 3.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:40e1efe8cfa51bc9",
+          "title:795a7c145bda3d33"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:876aad68c91f878f": {
+      "id": "defer:url:876aad68c91f878f",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:876aad68c91f878f",
+        "title:8610fece37a4c767"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+        "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+        "canonical": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+        "published": "Mon, 23 Nov 2026 22:02:05 +0000",
+        "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+        "images": [],
+        "ageHours": 19,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:876aad68c91f878f",
+          "title:8610fece37a4c767"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:affb554213303069": {
+      "id": "defer:url:affb554213303069",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:affb554213303069",
+        "title:4490923b2a514486"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+        "link": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+        "canonical": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
+        "published": "Mon, 23 Nov 2026 21:47:41 +0000",
+        "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+        "images": [],
+        "ageHours": 19.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:affb554213303069",
+          "title:4490923b2a514486"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bf8c71fe2ac4958a": {
+      "id": "defer:url:bf8c71fe2ac4958a",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:bf8c71fe2ac4958a",
+        "title:c4a08bc6de96498e"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.31185v1",
+      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+        "link": "https://arxiv.org/abs/2611.31185v1",
+        "canonical": "https://arxiv.org/abs/2611.31185v1",
+        "published": "2026-11-23T18:38:53Z",
+        "summary": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agnostic interventional attribution framework in which an RL-trained agent and its pre-RL initialization jointly generate a single trajectory under closed-loop execution with live retrieval. Each policy controls a mutually exclusive subset of four functional roles: intermediate reasoning, search-or-answer decision, search query generation, and final answer extraction. Evaluating all 2^4=16 role assignments without modifying weights or retraining defines a cooperative game whose Shapley values decompose the total RL gain across roles, while M\"obius interaction terms distinguish standalone role improvements from multi-role coupling. Applying CO-GRAFT to Search-R1 agents across Qwen2.5 and Llama-3.2 models (spanning two sizes, base and instruction-tuned initializations, GRPO and PPO optimizers, and NQ and HotpotQA datasets), we show that query generation never exceeds 15% of the total gain; instead, gains are governed by pre-RL answer validity, search retention, model scale, and fixed task-level search budgets, shifting credit from reasoning toward answer extraction in larger or well-formatted answer response checkpoints while smaller base models rely on reasoning--decision coupling.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.31185v1",
+        "images": [],
+        "ageHours": 22.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:bf8c71fe2ac4958a",
+          "title:c4a08bc6de96498e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:12e3e0bf572ed55e": {
+      "id": "defer:url:12e3e0bf572ed55e",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:12e3e0bf572ed55e",
+        "title:f27508e33f246634"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.31175v1",
+      "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
+        "link": "https://arxiv.org/abs/2611.31175v1",
+        "canonical": "https://arxiv.org/abs/2611.31175v1",
+        "published": "2026-11-23T18:32:04Z",
+        "summary": "Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their ordering does not show which needs an item meets. We show that a conversational recommender can be built from typed decisions instead: named questions over fixed options, answered with option probabilities rather than generated text. On each turn, one typed request maps the message onto the catalog's fields, keeps what no field expresses in the user's words, and decides how the turn changes each earlier need. Needwise then ranks candidates must-first: the needs on the kind of item, its place and its price form a tier, and within it one holistic decision and need-level verdicts (supported, contradicted or unknown) are combined with equal weight (Needwise-HF). With the graded attributes withheld from the records, so that needs must be inferred from names, descriptions and reviews, Needwise-HF ranks Google Local requests significantly better than GPT-6 Sol (0.383 against 0.343 nDCG@10) and is not significantly different from the strongest LLM ranker on Google Local and Yelp; these comparisons keep their sign under every treatment of unrecorded attributes we test. It costs a fraction of GPT-6 Sol's API price and answers in 2.5 s at the median on Google Local, against 5.6 s for GPT-6 Sol. In conversations, the typed state keeps the ranking across switches and returns, but it recognizes only 19-27% of withdrawn needs.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.31175v1",
+        "images": [],
+        "ageHours": 22.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:12e3e0bf572ed55e",
+          "title:f27508e33f246634"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d989696f1a8d1cec": {
+      "id": "defer:url:d989696f1a8d1cec",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:d989696f1a8d1cec",
+        "title:c225dc8c8935b9fc"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.31160v1",
+      "title": "Habitats: A Framework for Open-Ended Evolution of Agent Objectives",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Habitats: A Framework for Open-Ended Evolution of Agent Objectives",
+        "link": "https://arxiv.org/abs/2611.31160v1",
+        "canonical": "https://arxiv.org/abs/2611.31160v1",
+        "published": "2026-11-23T18:23:16Z",
+        "summary": "Designing what an agent should optimize can be as difficult as optimizing the agent itself. Existing language-model-based reward-generation methods typically refine objectives for predefined tasks and couple the decision of what to explore with the synthesis of how to implement it, potentially narrowing the resulting behavioral repertoire. We introduce Habitats, a framework for open-ended evolution of executable agent objectives. Habitats maintains a population of reward-policy pairs and evaluates every policy under every population reward, producing a cross-fitness matrix that exposes self-mastery, transfer, and functional diversity. A population-level Planner uses this information to select parent rewards and issue targeted mutation directives, while a separate Mutator translates those directives into validated reward programs. We evaluate Habitats in a discrete Card Sandbox and three continuous-control environments (Cart-Pole, Hopper, and Cheetah) against Independent Generation and Direct Mutation baselines. Across four environments and three random seeds, Habitats achieves the highest macro-averaged final Specialist Quality and Behavioral Diversity, with final diversity reaching 1.8x that of Direct Mutation and 2.5x that of Independent Generation. Finally, across ten downstream objectives unseen during evolution, frozen Habitats policy libraries achieve higher paired win rates than size-matched Direct Mutation and Independent Generation libraries at 10,000 adaptation episodes, while also surpassing task-specific policies trained from scratch for 20,000 episodes. These results suggest that separating population-level planning from reward synthesis enables the discovery of diverse, learnable, and reusable behaviors.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.31160v1",
+        "images": [],
+        "ageHours": 22.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d989696f1a8d1cec",
+          "title:c225dc8c8935b9fc"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d7c60e7c7c009ef9": {
+      "id": "defer:url:d7c60e7c7c009ef9",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:d7c60e7c7c009ef9",
+        "title:c78398c51cca5091"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.31139v1",
+      "title": "Deneb-Vritra: Descriptions, Edges and Names Examined by Blocking Via Restoring Token Representations and Attention",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "Deneb-Vritra: Descriptions, Edges and Names Examined by Blocking Via Restoring Token Representations and Attention",
+        "link": "https://arxiv.org/abs/2611.31139v1",
+        "canonical": "https://arxiv.org/abs/2611.31139v1",
+        "published": "2026-11-23T18:09:20Z",
+        "summary": "Laya is a 421M-parameter encoder that answers a question about a text in one pass: each answer option, written as a name plus a description, gets a marker token, and one score is read from the network at each marker. We first confirm that such models can follow an option's name when it contradicts the description; the question is where in the network this happens. We locate it. On 951 synthetic questions we move each name onto another option's description and count how often the model picks the option with the right name (the name shortcut): 53% for the released checkpoint, 59% for our fine-tune v1, 11% for a fine-tune with name randomisation. On a 320-item sample, blocking attention from each marker to its own name tokens in layers 14 to 17 of 28 cuts v1's shortcut from 67% to 16% (19% on two schemas held out from component selection) while accuracy with the original names stays at 90%; blocking marker edges to the question, other options or text has no effect. No single head matters (largest effect 9 points), and restoring clean marker states undoes the swap from layer 16. Attention mass tracks the window by layer but not by head. Repeated on 5 checkpoints (released, fine-tuned, name-randomised, and a pair trained without two schemas), the knockout finds similar layers; in the name-randomised ones, blocking the description edges instead brings the shortcut back to 56-58%, so the read persists and is outvoted. Marker states decode the name from layer 0; a one-direction probe erasure changed nothing but was weaker than a random edit. Copying layers 0-13 or 14-27 of a name-randomised sibling into a fine-tune recovers 66% and 65% (v1); 21% and 45% (pair A) of its shortcut reduction. 9 of the 12 predictions we could score, written before running, failed. Head sweeps cover 5 of 5 checkpoints; data are synthetic and LLM-labelled; one architecture.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.31139v1",
+        "images": [],
+        "ageHours": 22.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d7c60e7c7c009ef9",
+          "title:c78398c51cca5091"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:6a28e842b3bf4bfd": {
+      "id": "defer:url:6a28e842b3bf4bfd",
+      "at": "2026-11-24T17:02:44.989Z",
+      "firstAt": "2026-11-24T17:02:44.989Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:6a28e842b3bf4bfd",
+        "title:f99fb4ddb7541638"
+      ],
+      "canonical": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+        "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+        "canonical": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+        "published": "Tue, 24 Nov 2026 16:34:13 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+        "images": [],
+        "ageHours": 0.4,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:6a28e842b3bf4bfd",
+          "title:f99fb4ddb7541638"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -22208,6 +22819,14 @@
           "at": "2026-11-24T13:45:55.525Z"
         }
       ]
+    },
+    "2026-11-24T20:30+03:30": {
+      "at": "2026-11-24T17:03:32.217Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0043168944,
+      "tokens": 80100,
+      "posts": []
     }
   },
   "published": [
@@ -24614,116 +25233,92 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8567,
-      "last_at": "2026-11-24T13:16:08+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "last_id": 8569,
+      "last_at": "2026-11-24T16:04:32+00:00",
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "ai_farshad": {
-      "last_id": 6519,
-      "last_at": "2026-11-24T11:00:02+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "last_id": 6521,
+      "last_at": "2026-11-24T16:33:52+00:00",
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7271,
-      "last_at": "2026-11-24T12:07:55+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "last_id": 7272,
+      "last_at": "2026-11-24T13:56:43+00:00",
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "techiin_ir": {
-      "last_id": 20840,
-      "last_at": "2026-11-23T10:02:43+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "last_id": 20841,
+      "last_at": "2026-11-23T18:38:53+00:00",
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "mgh_mobin": {
       "last_id": 511,
       "last_at": "2026-11-24T11:32:16+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "asrnovin_ir": {
-      "last_id": 11529,
-      "last_at": "2026-11-24T10:35:02+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "last_id": 11531,
+      "last_at": "2026-11-24T16:33:17+00:00",
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "codecloude": {
       "last_id": 2618,
       "last_at": "2026-11-24T10:21:09+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "dunijet_ai": {
-      "last_id": 2610,
-      "last_at": "2026-11-24T12:31:58+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "last_id": 2612,
+      "last_at": "2026-11-24T16:03:31+00:00",
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "MatinSenPaii": {
-      "last_id": 5983,
-      "last_at": "2026-11-24T12:21:42+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "last_id": 5985,
+      "last_at": "2026-11-24T13:40:20+00:00",
+      "checked_at": "2026-11-24T17:01:06.693Z"
     },
     "thenimaonAI": {
       "last_id": 578,
       "last_at": "2026-11-24T09:20:29+00:00",
-      "checked_at": "2026-11-24T13:30:53.871Z"
+      "checked_at": "2026-11-24T17:01:06.693Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-10|tg-archive-tell|https://t.me/ArchiveTell/8357",
-      "date": "2026-11-10",
-      "at": "2026-11-10T17:00:54.601Z",
-      "source": "tg-archive-tell",
-      "title": "🚀 بالاخره مدل Gemini 4 Carbon رسید ⠀ گوگل مدل جدیدش را برای همه منتشر کرد؛",
-      "url": "https://t.me/ArchiveTell/8357",
-      "reason": "denied_link",
-      "slot": "2026-11-10T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-codecloude|https://t.me/codecloude/2573",
-      "date": "2026-11-10",
-      "at": "2026-11-10T17:00:54.601Z",
-      "source": "tg-codecloude",
-      "title": "🔴پاول یه قابلیت معرفی کرده که می‌تونه دنیای ربات‌ها رو زیرورو کنه!",
-      "url": "https://t.me/codecloude/2573",
-      "reason": "denied_link",
-      "slot": "2026-11-10T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-10|tg-techiin|https://t.me/techiin_ir/20747",
       "date": "2026-11-10",
@@ -28227,16 +28822,93 @@
       "slot": "2026-11-24T17:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-asr-novin|https://t.me/asrnovin_ir/11531",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:01:06.693Z",
+      "source": "tg-asr-novin",
+      "title": "⚡️ بیشتر بساز، کمتر هزینه کن!",
+      "url": "https://t.me/asrnovin_ir/11531",
+      "reason": "denied_link",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-asr-novin|https://t.me/asrnovin_ir/11530",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:01:06.693Z",
+      "source": "tg-asr-novin",
+      "title": "امروز یکی از ساده ترین راه های درآمدزایی با هوش مصنوعی رو آموزش دادم که میتونید",
+      "url": "https://t.me/asrnovin_ir/11530",
+      "reason": "denied_link",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-dunijet-ai|https://t.me/dunijet_ai/2611",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:01:06.693Z",
+      "source": "tg-dunijet-ai",
+      "title": "گویا فرضیه ژاکوبین بعد از حدود ۸۶ سال رد شده و پای یک مدل زبانی وسط",
+      "url": "https://t.me/dunijet_ai/2611",
+      "reason": "denied_link",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7272",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:01:06.693Z",
+      "source": "tg-mohammad-zammani",
+      "title": "کنوا اعلام کرده که MCP خودش رو به‌صورت عمومی و بدون لیست انتظار در دسترس قرار",
+      "url": "https://t.me/Mohammad_zammani/7272",
+      "reason": "denied_link",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-techiin|https://t.me/techiin_ir/20841",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:01:06.693Z",
+      "source": "tg-techiin",
+      "title": "✅ گوگل ۶ محصول و سرویس خودش رو در سال ۲۰۲۶ تعطیل کرد",
+      "url": "https://t.me/techiin_ir/20841",
+      "reason": "denied_link",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|hf-papers|https://huggingface.co/papers/2611.29619",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:01:06.693Z",
+      "source": "hf-papers",
+      "title": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
+      "url": "https://huggingface.co/papers/2611.29619",
+      "reason": "research_paper",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-asr-novin|https://github.com/FlashML-org/FreeVideo",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:01:06.693Z",
+      "source": "tg-asr-novin",
+      "title": "GitHub - FlashML-org/FreeVideo: Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
+      "url": "https://github.com/FlashML-org/FreeVideo",
+      "reason": "source_not_official",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "kdnuggets",
-      "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
-      "url": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm",
-      "slot": "2026-11-10T20:30+03:30",
-      "at": "2026-11-10T17:00:54.601Z"
-    },
     {
       "source": "kdnuggets",
       "title": "How to Use AI for Enterprise BI",
@@ -28572,6 +29244,20 @@
       "url": "https://huggingface.co/Sentinel7/h3?not-for-all-audiences=true",
       "slot": "2026-11-24T17:00+03:30",
       "at": "2026-11-24T13:30:53.871Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "🔵از یک عکس ساده، یک سکانس سینمایی در سبک نوآر بساز!",
+      "url": "https://t.me/ai_farshad/6521",
+      "slot": "2026-11-24T20:30+03:30",
+      "at": "2026-11-24T17:01:06.693Z"
+    },
+    {
+      "source": "tg-archive-tell",
+      "title": "🏎️ دیتابیس ماشین‌های GTA 6",
+      "url": "https://www.gtabase.com/gta-6/vehicles",
+      "slot": "2026-11-24T20:30+03:30",
+      "at": "2026-11-24T17:01:06.693Z"
     }
   ],
   "reviewPending": {},
