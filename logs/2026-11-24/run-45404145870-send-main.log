@@ -1,0 +1,172 @@
+RUN 45404145870 | send/main | slot auto | 2026-11-24T13:30:53Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-24T17:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 10/31 | models 8/24 | security 5/11 | business 4/11
+DAILY 5/11
+DIVERSITY_TARGET tools | slot 17:00
+DEFERRED_POOL 39
+  DEFERRED category_consecutive | try 1/3 | شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی
+  DEFERRED category_consecutive | try 1/3 | GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a
+  DEFERRED category_consecutive | try 0/3 | با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!
+  DEFERRED source_daily | try 0/3 | GLM-5.4: Toward Generalized Coding with Our First Loop Transformer
+  DEFERRED category_consecutive | try 0/3 | Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes
+SOURCE_DISCOVERY already_ran date=2026-11-24 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=208 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=160 nodate=0 nonai=0 dup=23 dup_other=0 kept=65 errors=2
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=310 pending=21 leads=7 nolink=1 nonai=1 denied=4 promo=0 stale=0 before=0 dup=1 dup_other=0 ocr=1 ocr_text=1 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:723,review:17 delivered=740 window=30d
+TELEGRAM_EDU_DUPLICATES 2 skipped=worked_story
+  EDU_DUPLICATE undefined | The Complete Guide to Embedding Models for Machine Learning | already main: The Complete Guide to LLM Evaluation
+  EDU_DUPLICATE mgh_mobin | جشنواره بلک فرایدی ‏ | already main: 🔥 جشنواره بلک فرایدی شروع شد
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | Ⓜ️متا ظاهرآ روش کلاد پدرسوخته رو در پیش گرفته و امروز شاهد این صحنه تو کلی | 406 chars
+  REVIEW_ITEM id=92b510122b message=210
+  REVIEW_REQUIRED reason=denied_link sent=210
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-24/17-00-c75f22ef
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD ArchiveTell | education | مدل LoRA بدون سانسور برای Minimax H3 😮
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_REVIEW leads=1 sent=1 ids=211 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-24/17-00-education/education.txt
+RELEVANCE candidates=61 kept=34 dropped=27
+  SKIP_NOT_AI Crunchbase News | Startups Are Picking Names That Can Work Even If The Original Business Model Doesn’t
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-charts 0.2a0
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-agent 0.7a1
+  SKIP_NOT_AI Product Hunt | Juncts
+  SKIP_NOT_AI Product Hunt | tday.com
+  SKIP_NOT_AI arXiv | CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans
+  SKIP_NOT_AI arXiv | Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning
+  SKIP_NOT_AI arXiv | Learning Neurovascular Codes for EEG-to-fMRI Synthesis
+  SKIP_NOT_AI ... +19 more
+DIVERSITY target=tools queue=6 fresh=18 deferred=39 rejected=source_daily:16,category_consecutive:14
+  DIVERSITY_QUEUE business:TechCrunch | security:Ars Technica AI | tools:MatinSenPaii | models:arXiv | models:Google Models & Research | business:Crunchbase News
+QUEUE_SKIPPED 50
+  QUEUE_SKIP category_consecutive | دانیجت | Dunijet | شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی
+  QUEUE_SKIP category_consecutive | M G H M O B I N | GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a
+  QUEUE_SKIP category_consecutive | عصر نوین | AminiYT | با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!
+  QUEUE_SKIP source_daily | Simon Willison - Prompt Injection | GLM-5.4: Toward Generalized Coding with Our First Loop Transformer
+  QUEUE_SKIP category_consecutive | TechCrunch | Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes
+  QUEUE_SKIP category_consecutive | TechCrunch | Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses
+  QUEUE_SKIP category_consecutive | arXiv | ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents
+  QUEUE_SKIP source_daily | The Decoder | OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits
+  QUEUE_SKIP category_consecutive | Product Hunt | Fleetify
+  QUEUE_SKIP source_daily | The Decoder | Chinese military fears AI could let the US find and destroy its nuclear missiles
+  QUEUE_SKIP ... +40 more
+QUEUE_HELD 4
+  QUEUE_HOLD category_consecutive | دانیجت | Dunijet | 🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون
+  QUEUE_HOLD source_daily | The Decoder | German researchers call for computer science to reinvent itself as "Computer and AI Science"
+  QUEUE_HOLD source_daily | The Decoder | Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own
+  QUEUE_HOLD category_consecutive | Product Hunt | Claude Ship
+ATTEMPT 1/6 | deferred 0/3 TechCrunch | CrowdStrike to acquire Zscaler for $44 billion | 0.7h
+  TOOL_LINK candidate https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/ | score 16
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  IMAGE_SET_BY_POLICY
+  QA_FAILED schema,verification_enum,verification_source,source_url | one repair retry
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=business | QA 42/43 | $0.001933 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/17-00
+ATTEMPT 2/6 | deferred 0/3 Ars Technica AI | Jensen Huang reinstated as Nvidia CEO, board chair | 1.2h
+  TOOL_LINK candidate https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026/card/meet-some-famous-members-of-the-jensen-huang-fan-club-4cETEthVUZXpzCr30wf5 | score 16
+  MODEL DeepSeek-V4-Flash | image forbidden_url
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  DIVERSITY_CATEGORY_CONSECUTIVE business
+  DEFERRED category_consecutive | try 1/3
+ATTEMPT 3/6 MatinSenPaii | mehdi-hf/tiny-ava · Hugging Face | 1.2h
+  TOOL_LINK candidate https://huggingface.co/mehdi-hf/tiny-ava | score 100
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  QA_FAILED ai_relevance | score 42/43
+ATTEMPT 4/6 arXiv | Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL | 18.8h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | متن خبر درباره arXivLabs است و هیچ اشاره‌ای به هوش مصنوعی یا مدل‌های زبانی ندارد؛ فقط توضیح یک چارچوب مشارکتی برای توسعه
+ATTEMPT 5/6 Google Models & Research | See what 6 builders are making with Gemini 4 Hydrogen | 19.5h
+  TOOL_LINK candidate https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen | score 54
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  SLOT_GAP_WAIT 599s
+POST 2/2 status=sent category=models | QA 43/43 | $0.000378 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/17-00-2
+RESULT SENT category=models | offer=no | image=yes | QA 43/43 | cost $0.004486 | post $0.000378 | tokens 71068
+TITLE شش پروژه ساخته‌شده با Gemini 4 Hydrogen معرفی شد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/17-00-2
+SLOT_POSTS 2/2 sent=2 review=0
+  POST business | sent | $0.001933 | CrowdStrike با پرداخت ۴۳.۹ میلیارد دلار Zscaler را می‌خرد
+  POST models | sent | $0.000378 | شش پروژه ساخته‌شده با Gemini 4 Hydrogen معرفی شد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-24T13:45:55Z
+# گزارش روزانه 2026-11-24 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 7 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 7
+
+## آمار روز
+- پست ارسال‌شده: 7 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 3، ابزارها و محصولات 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 3 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 14
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 3، ابزارها و محصولات 2، امنیت و حریم خصوصی 1، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.010350
+- توکن: 138195
+- میانگین هر پست ارسال‌شده: $0.001479
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 10 | 31 | 21 |
+| مدل‌ها و پژوهش | 9 | 24 | 15 |
+| امنیت و حریم خصوصی | 5 | 11 | 6 |
+| کسب‌وکار و بازار | 5 | 11 | 6 |
+| مجموع | 29 | 77 | 48 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.002203 | 24385 | Z.ai مدل پرچمدارش را با معماری حلقه‌ای معرفی کرد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000735 | 13031 | RoboTrack؛ بنچمارک و داده آموزشی برای ردیابی نقطه در رباتیک |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.000962 | 24065 | بنچمارک Gamefeel به‌روزرسانی شد؛ مدل‌ها جابه‌جا شدن |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000807 | 22751 | OpenAI و سیسکو Shirudo را برای محافظت از لینوکس منتشر کردند |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.003332 | 22319 | اسکیل جدیدی که پرامپت دقیق برای هر ابزار هوش مصنوعی می‌نویسه |
+| 17:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.001933 | 21251 | CrowdStrike با پرداخت ۴۳.۹ میلیارد دلار Zscaler را می‌خرد |
+| 17:00 #2 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000378 | 10393 | شش پروژه ساخته‌شده با Gemini 4 Hydrogen معرفی شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 8
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 3، مقاله پژوهشی منتخب 1، مدل این مورد را رد کرد 1
+- آموزش‌های بازبینی امروز: 3 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 42
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-24.md
+SOURCE_STATUS 2026-11-24T13:45:55Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-24.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۳ آذر ۱۴۰۵
+پست امروز: 7 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 7
+صف بازبینی: 204 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 42
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45404145870
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

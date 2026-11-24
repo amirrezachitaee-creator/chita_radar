@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T11:20:29.063Z",
+  "updatedAt": "2026-11-24T13:45:55.527Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16358,6 +16358,150 @@
       "slot": "2026-11-24T14:00+03:30",
       "title": "استخدام AI Product Engineer (Applied AI / Agentic Systems) در سیف‌زی",
       "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/j/1.html"
+    },
+    "url:ece82d41e97f230e": {
+      "at": "2026-11-24T13:31:04.126Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "The Complete Guide to Embedding Models for Machine Learning",
+      "url": "https://machinelearningmastery.com/the-complete-guide-to-embedding-models-for-machine-learning"
+    },
+    "title:c0baf3920fcb0376": {
+      "at": "2026-11-24T13:31:04.126Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "The Complete Guide to Embedding Models for Machine Learning",
+      "url": "https://machinelearningmastery.com/the-complete-guide-to-embedding-models-for-machine-learning"
+    },
+    "url:4a0ad3b2d6777741": {
+      "at": "2026-11-24T13:31:04.126Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "جشنواره بلک فرایدی ‏",
+      "url": "https://t.me/mgh_mobin/510"
+    },
+    "title:c0a6c8f699ee016c": {
+      "at": "2026-11-24T13:31:04.126Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "جشنواره بلک فرایدی ‏",
+      "url": "https://t.me/mgh_mobin/510"
+    },
+    "url:c75f22ef49d6f9e4": {
+      "at": "2026-11-24T13:32:11.471Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "Ⓜ️متا ظاهرآ روش کلاد پدرسوخته رو در پیش گرفته و امروز شاهد این صحنه تو کلی",
+      "url": "https://t.me/Mohammad_zammani/7271"
+    },
+    "title:e04468bf895c95ab": {
+      "at": "2026-11-24T13:32:11.471Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "Ⓜ️متا ظاهرآ روش کلاد پدرسوخته رو در پیش گرفته و امروز شاهد این صحنه تو کلی",
+      "url": "https://t.me/Mohammad_zammani/7271"
+    },
+    "url:2b370fa0bfe2c16f": {
+      "at": "2026-11-24T13:32:12.195Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "مدل LoRA بدون سانسور برای Minimax H3 😮",
+      "url": "https://huggingface.co/Sentinel7/h3?not-for-all-audiences=true"
+    },
+    "title:3e1e16d8c4e68670": {
+      "at": "2026-11-24T13:32:12.195Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "مدل LoRA بدون سانسور برای Minimax H3 😮",
+      "url": "https://huggingface.co/Sentinel7/h3?not-for-all-audiences=true"
+    },
+    "url:b29ba51c592b2059": {
+      "at": "2026-11-24T13:33:54.340Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "CrowdStrike to acquire Zscaler for $44 billion",
+      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion",
+      "benchmark": false
+    },
+    "title:8e75d37c9354d8f9": {
+      "at": "2026-11-24T13:33:54.340Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "CrowdStrike to acquire Zscaler for $44 billion",
+      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion",
+      "benchmark": false
+    },
+    "url:053c9c4e8707d81a": {
+      "at": "2026-11-24T13:34:59.541Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "models",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "mehdi-hf/tiny-ava · Hugging Face",
+      "url": "https://huggingface.co/mehdi-hf/tiny-ava"
+    },
+    "title:c5833430ca16bec2": {
+      "at": "2026-11-24T13:34:59.541Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance",
+      "category": "models",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "mehdi-hf/tiny-ava · Hugging Face",
+      "url": "https://huggingface.co/mehdi-hf/tiny-ava"
+    },
+    "url:a9857f2faa3c69cc": {
+      "at": "2026-11-24T13:35:20.671Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
+      "url": "https://arxiv.org/abs/2611.31190v1"
+    },
+    "title:ecbcd7a595241517": {
+      "at": "2026-11-24T13:35:20.671Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
+      "url": "https://arxiv.org/abs/2611.31190v1"
+    },
+    "url:17a4c12938fd3e48": {
+      "at": "2026-11-24T13:45:55.525Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "See what 6 builders are making with Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders",
+      "benchmark": false
+    },
+    "title:931121c4caccefcb": {
+      "at": "2026-11-24T13:45:55.525Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-24T17:00+03:30",
+      "title": "See what 6 builders are making with Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -17079,62 +17223,15 @@
         "officialCourse": false
       }
     },
-    "defer:url:b29ba51c592b2059": {
-      "id": "defer:url:b29ba51c592b2059",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:b29ba51c592b2059",
-        "title:8e75d37c9354d8f9"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion",
-      "title": "CrowdStrike to acquire Zscaler for $44 billion",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "CrowdStrike to acquire Zscaler for $44 billion",
-        "link": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
-        "canonical": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion",
-        "published": "Mon, 23 Nov 2026 16:20:11 +0000",
-        "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
-        "images": [],
-        "ageHours": 0.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:b29ba51c592b2059",
-          "title:8e75d37c9354d8f9"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:27a6b6af092d6a67": {
       "id": "defer:url:27a6b6af092d6a67",
-      "at": "2026-11-23T17:01:42.554Z",
+      "at": "2026-11-24T13:34:31.724Z",
       "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
+      "attempts": 1,
+      "reason": "category_consecutive",
       "reasons": [
-        "source_consecutive"
+        "source_consecutive",
+        "category_consecutive"
       ],
       "keys": [
         "url:27a6b6af092d6a67",
@@ -17176,8 +17273,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:27a6b6af092d6a67",
+          "attempts": 0
+        }
+      },
+      "detail": "business"
     },
     "defer:url:29c9de3a1f8674ad": {
       "id": "defer:url:29c9de3a1f8674ad",
@@ -18345,6 +18447,219 @@
         "officialCourse": false
       },
       "detail": "tools"
+    },
+    "defer:url:6d743dea15159994": {
+      "id": "defer:url:6d743dea15159994",
+      "at": "2026-11-24T13:32:12.208Z",
+      "firstAt": "2026-11-24T13:32:12.208Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:6d743dea15159994",
+        "title:a6461cf2c1c54ef6"
+      ],
+      "canonical": "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "title": "🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون",
+        "link": "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+        "canonical": "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+        "messageText": "🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون رو با هم رد و بدل می‌کنن\n\nنتیجه‌اش یه مدار کوانتومی برای همجوشی لیزری شده که هزینه محاسباتیش ۱۱.۸ برابر کمتر شده و حافظه‌اش از ۵,۶۵۰ به ۴,۳۳۸ کیوبیت تصحیح‌خطا رسیده. یه روتین پرکاربرد هم ۲۹۰ برابر سریع‌تر شده.\n\nدرستی همه مدارها با Lean که اثبات‌های ریاضی رو چک می‌کنه تایید شده:\n\ndeepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/\n\n@dunijet_ai\n\n❤1",
+        "leadPostUrl": "https://t.me/dunijet_ai/2610",
+        "published": "2026-11-24T12:31:58+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/c6NVCCLh27sdRQmlzxgbQjLJtrOvI9r2YXjZXibZX5jbRi6wxCgGO3eHksyBZM4XUFHre5WAC9EW0-45VW5ncn3m9PlNlYnXFHOwT9mAgjXdvgsV4-0EKGbH4rrJdDVgz4CE3vRZVmcdjxeN9Lr5vYPZHD4eDhS30DJsUokzuTQqdI3Uia5OKe4c-Rb204jAOZXn6z0uNfOZ7eDdVCLNl24wGR20fD5flD5xpAIykt5hqyzgn9XsTr1KArMYXBnSRk7fKGqWIbRTqwL7nK1hHLB49tmg5fSfWKkq_Ef6M7Tcb824zbE-D2U6ycRaUUBzZbnhnUDFYJwb6ozcYhgOGw.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:6d743dea15159994",
+          "title:a6461cf2c1c54ef6"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2610,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:7d6908c6da8f7c39": {
+      "id": "defer:url:7d6908c6da8f7c39",
+      "at": "2026-11-24T13:32:12.208Z",
+      "firstAt": "2026-11-24T13:32:12.208Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7d6908c6da8f7c39",
+        "title:1a8547ba9377a8be"
+      ],
+      "canonical": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science",
+      "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+        "link": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+        "canonical": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science",
+        "published": "Tue, 24 Nov 2026 12:30:49 +0000",
+        "summary": "In a position paper, TU Darmstadt researchers call for redefining computer science as \"Computer and AI Science.\" Their biggest concern is code generated on the fly at runtime, which they say upends today's safety and correctness guarantees. The article German researchers call for computer science to reinvent itself as \"Computer and AI Science\" appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/darmstadt_ai_computer_science.png"
+        ],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7d6908c6da8f7c39",
+          "title:1a8547ba9377a8be"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:713448d5590bd5f6": {
+      "id": "defer:url:713448d5590bd5f6",
+      "at": "2026-11-24T13:32:12.208Z",
+      "firstAt": "2026-11-24T13:32:12.208Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:713448d5590bd5f6",
+        "title:ca95559d38c5987e"
+      ],
+      "canonical": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own",
+      "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+        "link": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+        "canonical": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own",
+        "published": "Tue, 24 Nov 2026 11:26:23 +0000",
+        "summary": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/Claude-Ship.png"
+        ],
+        "ageHours": 2.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:713448d5590bd5f6",
+          "title:ca95559d38c5987e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:95f216a1d940ffe1": {
+      "id": "defer:url:95f216a1d940ffe1",
+      "at": "2026-11-24T13:32:12.208Z",
+      "firstAt": "2026-11-24T13:32:12.208Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:95f216a1d940ffe1",
+        "title:5fe1656c59b7308a"
+      ],
+      "canonical": "https://www.producthunt.com/products/claude-code",
+      "title": "Claude Ship",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Claude Ship",
+        "link": "https://www.producthunt.com/products/claude-code",
+        "canonical": "https://www.producthunt.com/products/claude-code",
+        "published": "2026-11-23T13:00:36-08:00",
+        "summary": "<p> Ship code as fast as you can write it </p> <p> <a href=\"https://www.producthunt.com/products/claude-code?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1328257?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/claude-code",
+        "images": [],
+        "ageHours": 16.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:95f216a1d940ffe1",
+          "title:5fe1656c59b7308a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
     }
   },
   "slots": {
@@ -21847,6 +22162,52 @@
           "at": "2026-11-24T10:36:49.279Z"
         }
       ]
+    },
+    "2026-11-24T17:00+03:30": {
+      "at": "2026-11-24T13:33:54.340Z",
+      "status": "sent",
+      "category": "models",
+      "title": "شش پروژه ساخته‌شده با Gemini 4 Hydrogen معرفی شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/17-00-2",
+      "messageId": 153,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.004486356,
+      "tokens": 71068,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "CrowdStrike با پرداخت ۴۳.۹ میلیارد دلار Zscaler را می‌خرد",
+          "category": "business",
+          "status": "sent",
+          "messageId": 152,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0019331312,
+          "tokens": 21251,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-24T13:33:54.340Z"
+        },
+        {
+          "title": "شش پروژه ساخته‌شده با Gemini 4 Hydrogen معرفی شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 153,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/17-00-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003781512,
+          "tokens": 10393,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-24T13:45:55.525Z"
+        }
+      ]
     }
   },
   "published": [
@@ -24213,120 +24574,132 @@
       "sourceTitle": "GitHub - nidhinjs/prompt-master: A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
       "sourceText": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!\n\nاگه با Claude کار کرده باشی، احتمالاً برات پیش اومده که یه درخواست ساده بدی، ولی برای رسیدن به نتیجه دلخواهت مجبور بشی چندین بار اصلاحش کنی! 😐\n\n🧠 پرامپت مستر ( Prompt Master ) یه ابزار رایگان و متن‌بازه که قبل از ارسال درخواست، پرامپتت رو بررسی می‌کنه و کمک می‌کنه دقیق‌تر و حرفه‌ای‌تر بنویسی.\n\n⚡ چه قابلیت‌هایی داره؟\n\n🔸 بررسی و بهینه‌سازی پرامپت با ۳۷ معیار\n🔸 نصب مستقیم به‌عنوان Skill در Claude\n🔸 پشتیبانی از ۱۴ قالب مختلف پرامپت\n🔸 کاربردی برای کدنویسی، طراحی سایت، تولید محتوا و تصویرسازی\n🔸 کاهش اصلاحات تکراری و مصرف غیرضروری توکن\n\n📥 دانلود رایگان از GitHub:\n\n🛠 روش نصب در Claude:\n\n1. از لینک بالا پروژه رو دانلود کن.\n2. وارد Claude شو و بخش Customize → Skills رو باز کن.\n3. فایل Skill رو طبق راهنمای پروژه بارگذاری کن.\n4. حالا از Claude بخواه با Prompt Master درخواستت رو بهینه کنه.\n\n💡 این ابزار محدودیت Claude رو دور نمی‌زنه، اما می‌تونه کمک کنه با درخواست‌های دقیق‌تر، از ظرفیتت بهتر استفاده کنی.\n\n📌 این پست رو ذخیره کن و برای دوستات هم بفرست!\n\n🌐 www.CodeCloude.ir | کد کلاد\n📱 @codecloude\n💬x.com\n📷instagram\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n🔥5🤯2🤷1",
       "at": "2026-11-24T10:36:49.279Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-24T17:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "CrowdStrike با پرداخت ۴۳.۹ میلیارد دلار Zscaler را می‌خرد",
+      "why": "این خرید، بزرگ‌ترین بازار قابل دسترس امنیت سایبری رو می‌سازه و جایگاه هر دو شرکت رو برای عصر هوش مصنوعی بهتر می‌کنه.",
+      "dedupe_key": "crowdstrike-zscaler-acquisition",
+      "post_key": "2026-11-24/17-00/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "sourceTitle": "CrowdStrike to acquire Zscaler for $44 billion | TechCrunch",
+      "sourceText": "Cybersecurity giant CrowdStrike has agreed to buy Zscaler in a $43.9 billion all-stock deal, the companies announced Monday.\nCrowdStrike and Zscaler said that the deal will create the “largest single addressable market” for cybersecurity, which will enable the companies to better position themselves for the AI era.\nZscaler is a San Jose, California-based tech company that provides cloud cybersecurity products to about 8,000 enterprise companies. The company offers zero-trust technology, a security feature that requires employees to authenticate each and every time they access an internal system or resource. The aim is to protect against hackers from stealing credentials and using them to gain unfettered access to a company’s network.\nCrowdStrike, which secures the computers, laptops, phones, and other devices connected to a company’s network, said the deal will unite its endpoint protection software with Zscaler’s zero-trust platform to better defend their customers against data breaches. By combining the two products, CrowdStrike and Zscaler say that they can offer “superior protection” to their customers.\nIn remarks on Monday, the companies said that the acquisition will help customers safely adopt AI.\nThe deal, which is subject to regulatory approval, is expected to close around this time next year.\nEvery weekday and Sunday, you can get the best of TechCrunch’s coverage.\nTechCrunch Mobility is your destination for transportation news and insight.\nStartups are the core of TechCrunch, so get our best coverage delivered weekly.\nProvides movers and shakers with the info they",
+      "at": "2026-11-24T13:33:54.340Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-24T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "شش پروژه ساخته‌شده با Gemini 4 Hydrogen معرفی شد",
+      "why": "این پروژه‌ها نشون می‌دن که Hydrogen چطور می‌تونه کارهای پیچیده رو سریع و خلاقانه انجام بده؛ یعنی برای تیم‌هایی که می‌خوان ایده‌هاشون رو سریع به نمونهٔ اولیه تبدیل کنن، گزینهٔ جذابیه.",
+      "dedupe_key": "google-gemini4hydrogen-projects",
+      "post_key": "2026-11-24/17-00/2",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+      "sourceTitle": "See what 6 builders are making with Gemini 4 Hydrogen",
+      "sourceText": "Explore six early projects created with Gemini 4 Hydrogen, including a rainy sci-fi skyscape, two contrasting koi ponds, an interactive ruby-red moth that responds to your clicks, and more.\nWe recently introduced Gemini 4 Hydrogen , bringing cutting-edge intelligence to everyone. Built for rapid execution across diverse agentic workflows, Hydrogen can stand on its own as a model for everyday work — or pair with Carbon as the high-efficiency execution engine in multi-model workflows. Thanks to these capabilities, builders have already been putting Hydrogen to work. Check out six projects showing what Hydrogen can do.\n@kimmonismus created a sci-fi-inspired journey through a Three.js skyline with Hydrogen on high thinking in Google Antigravity.\n@LuminaBench swept across the sea by plane, showing the passage of time as the scene changes from morning to night.\n@IamEmily2050 used Hydrogen in the Gemini app to create a 3D voxel koi pond, complete with a red pagoda, cherry blossoms, and lantern-lit bridges.\nSpeaking of koi ponds, @notjazii used Hydrogen to put a softer spin on a koi pond with a squishy, jelly-like form instead of angular edges.\n@thtbee_ brought a crimson moth to life pairing our two latest models in Google Antigravity. Gemini 4 Carbon orchestrated a /swarm of Hydrogen workers to create an interactive animation with atmospheric visuals and sound. Then Hydrogen recorded the demo video, too.\nAnd @Bhavani_00007 gave us a look at the progression from Gemini 3.8 Flash to Hydrogen by running the same animated 3D desert ranch prompt on both, with Hydrogen bringing the scen",
+      "at": "2026-11-24T13:45:55.525Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8561,
-      "last_at": "2026-11-24T10:17:11+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 8567,
+      "last_at": "2026-11-24T13:16:08+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "ai_farshad": {
-      "last_id": 6518,
-      "last_at": "2026-11-24T07:51:39+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 6519,
+      "last_at": "2026-11-24T11:00:02+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7270,
-      "last_at": "2026-11-24T06:55:38+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 7271,
+      "last_at": "2026-11-24T12:07:55+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "techiin_ir": {
-      "last_id": 20839,
-      "last_at": "2026-11-23T09:45:02+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 20840,
+      "last_at": "2026-11-23T10:02:43+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "mgh_mobin": {
-      "last_id": 509,
-      "last_at": "2026-11-24T08:13:25+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 511,
+      "last_at": "2026-11-24T11:32:16+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "asrnovin_ir": {
-      "last_id": 11527,
-      "last_at": "2026-11-24T08:24:54+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 11529,
+      "last_at": "2026-11-24T10:35:02+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "codecloude": {
       "last_id": 2618,
       "last_at": "2026-11-24T10:21:09+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "dunijet_ai": {
-      "last_id": 2609,
-      "last_at": "2026-11-24T09:22:04+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 2610,
+      "last_at": "2026-11-24T12:31:58+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "MatinSenPaii": {
-      "last_id": 5980,
-      "last_at": "2026-11-24T09:09:59+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "last_id": 5983,
+      "last_at": "2026-11-24T12:21:42+00:00",
+      "checked_at": "2026-11-24T13:30:53.871Z"
     },
     "thenimaonAI": {
       "last_id": 578,
       "last_at": "2026-11-24T09:20:29+00:00",
-      "checked_at": "2026-11-24T10:30:56.466Z"
+      "checked_at": "2026-11-24T13:30:53.871Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-10|tg-matin-senpai|https://t.me/MatinSenPaii/5838",
-      "date": "2026-11-10",
-      "at": "2026-11-10T13:30:48.692Z",
-      "source": "tg-matin-senpai",
-      "title": "مدل Fable 5.2 برای محصولی که خودش اختراع کرده یه فیلم تبلیغاتی کامل ساخته",
-      "url": "https://t.me/MatinSenPaii/5838",
-      "reason": "denied_link",
-      "slot": "2026-11-10T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-matin-senpai|https://t.me/MatinSenPaii/5837",
-      "date": "2026-11-10",
-      "at": "2026-11-10T13:30:48.692Z",
-      "source": "tg-matin-senpai",
-      "title": "کمیته نوبلیست‌ها داره اثبات هوش مصنوعی یانگ‌میلز رو عمومی می‌کنه",
-      "url": "https://t.me/MatinSenPaii/5837",
-      "reason": "denied_link",
-      "slot": "2026-11-10T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-10|tg-archive-tell|https://t.me/ArchiveTell/8357",
       "date": "2026-11-10",
@@ -27842,30 +28215,21 @@
       "slot": "2026-11-24T14:00+03:30",
       "kind": "tool",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7271",
+      "date": "2026-11-24",
+      "at": "2026-11-24T13:30:53.871Z",
+      "source": "tg-mohammad-zammani",
+      "title": "Ⓜ️متا ظاهرآ روش کلاد پدرسوخته رو در پیش گرفته و امروز شاهد این صحنه تو کلی",
+      "url": "https://t.me/Mohammad_zammani/7271",
+      "reason": "denied_link",
+      "slot": "2026-11-24T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-techiin",
-      "title": "با مکتب‌خونه، بورسیه‌ی دانشگاه هاروارد شو!",
-      "url": "https://land.maktabkhooneh.org/tavalod1405?amp%3Butm_campaign=tavalod1405-telegram-hashtag-techiinir&amp%3Butm_medium=social",
-      "slot": "2026-11-10T17:00+03:30",
-      "at": "2026-11-10T13:30:48.692Z"
-    },
-    {
-      "source": "openai-news",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "slot": "2026-11-10T17:00+03:30",
-      "at": "2026-11-10T13:30:48.692Z"
-    },
-    {
-      "source": "machinelearningmastery",
-      "title": "What Are Diffusion Language Models, and Why Are They Different From GPT?",
-      "url": "https://machinelearningmastery.com/what-are-diffusion-language-models-and-why-are-they-different-from-gpt",
-      "slot": "2026-11-10T17:00+03:30",
-      "at": "2026-11-10T13:30:48.692Z"
-    },
     {
       "source": "kdnuggets",
       "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
@@ -28201,6 +28565,13 @@
       "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/",
       "slot": "2026-11-24T14:00+03:30",
       "at": "2026-11-24T10:30:56.466Z"
+    },
+    {
+      "source": "tg-archive-tell",
+      "title": "مدل LoRA بدون سانسور برای Minimax H3 😮",
+      "url": "https://huggingface.co/Sentinel7/h3?not-for-all-audiences=true",
+      "slot": "2026-11-24T17:00+03:30",
+      "at": "2026-11-24T13:30:53.871Z"
     }
   ],
   "reviewPending": {},
