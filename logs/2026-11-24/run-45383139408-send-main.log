@@ -1,0 +1,78 @@
+RUN 45383139408 | send/main | slot auto | 2026-11-24T11:20:28Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER active blog.google
+SLOT 2026-11-24T14:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 10/31 | models 8/24 | security 5/11 | business 4/11
+DAILY 5/11
+DIVERSITY_TARGET business | slot 14:00
+DEFERRED_POOL 39
+  DEFERRED category_consecutive | try 1/3 | شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی
+  DEFERRED category_consecutive | try 1/3 | GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a
+  DEFERRED category_consecutive | try 0/3 | با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!
+  DEFERRED source_daily | try 0/3 | GLM-5.4: Toward Generalized Coding with Our First Loop Transformer
+  DEFERRED category_consecutive | try 0/3 | Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes
+SLOT_ALREADY_DONE 2026-11-24T14:00+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-24T11:20:29Z
+# گزارش روزانه 2026-11-24 (سه‌شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 5 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 5
+
+## آمار روز
+- پست ارسال‌شده: 5 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 10
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 2، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.008039
+- توکن: 106551
+- میانگین هر پست ارسال‌شده: $0.001608
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 10 | 31 | 21 |
+| مدل‌ها و پژوهش | 8 | 24 | 16 |
+| امنیت و حریم خصوصی | 5 | 11 | 6 |
+| کسب‌وکار و بازار | 4 | 11 | 7 |
+| مجموع | 27 | 77 | 50 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.002203 | 24385 | Z.ai مدل پرچمدارش را با معماری حلقه‌ای معرفی کرد |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000735 | 13031 | RoboTrack؛ بنچمارک و داده آموزشی برای ردیابی نقطه در رباتیک |
+| 11:30 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.000962 | 24065 | بنچمارک Gamefeel به‌روزرسانی شد؛ مدل‌ها جابه‌جا شدن |
+| 11:30 #2 | امنیت و حریم خصوصی | ارسال‌شده | 43/43 | $0.000807 | 22751 | OpenAI و سیسکو Shirudo را برای محافظت از لینوکس منتشر کردند |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.003332 | 22319 | اسکیل جدیدی که پرامپت دقیق برای هر ابزار هوش مصنوعی می‌نویسه |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 7
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 2، مقاله پژوهشی منتخب 1، مدل این مورد را رد کرد 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 39
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-24.md
+SOURCE_STATUS 2026-11-24T11:20:29Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-24.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — سه‌شنبه ۳ آذر ۱۴۰۵
+پست امروز: 5 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 5
+صف بازبینی: 203 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 39
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45383139408
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
