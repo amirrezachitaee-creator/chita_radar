@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T05:47:39.774Z",
+  "updatedAt": "2026-11-24T08:18:16.972Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16124,6 +16124,150 @@
       "title": "RoboTrack: Point tracking for real-world robotic manipulation",
       "url": "https://huggingface.co/blog/allenai/robotrack",
       "benchmark": false
+    },
+    "url:1a9180c38a5c015f": {
+      "at": "2026-11-24T08:01:24.265Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "گوگل موج جدیدی از آپدیت‌ها رو برای پلتفرم برنامه‌نویسی Antigravity منتشر کرده. به گفته وارون موهان،",
+      "url": "https://www.aialphabet.ir/google-antigravity-quota-reset"
+    },
+    "title:e4f671c84ce126a8": {
+      "at": "2026-11-24T08:01:24.265Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "گوگل موج جدیدی از آپدیت‌ها رو برای پلتفرم برنامه‌نویسی Antigravity منتشر کرده. به گفته وارون موهان،",
+      "url": "https://www.aialphabet.ir/google-antigravity-quota-reset"
+    },
+    "url:8bf3d7ffc695cbb3": {
+      "at": "2026-11-24T08:01:24.265Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Reducing Order Sensitivity in Decision Models",
+      "url": "https://arxiv.org/abs/2611.31174v1"
+    },
+    "title:a327f0c57163d439": {
+      "at": "2026-11-24T08:01:24.265Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Reducing Order Sensitivity in Decision Models",
+      "url": "https://arxiv.org/abs/2611.31174v1"
+    },
+    "url:28b0503eaf8f1fa3": {
+      "at": "2026-11-24T08:02:52.884Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "با Gemini 4 neon دارن کاراشو می کنند 😂 طبق چیزهایی که دیده میشه، برای اجرای",
+      "url": "https://t.me/asrnovin_ir/11525"
+    },
+    "title:1a3d6730dd2b84c4": {
+      "at": "2026-11-24T08:02:52.884Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "با Gemini 4 neon دارن کاراشو می کنند 😂 طبق چیزهایی که دیده میشه، برای اجرای",
+      "url": "https://t.me/asrnovin_ir/11525"
+    },
+    "url:3174330a4ca47da9": {
+      "at": "2026-11-24T08:02:53.179Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "۸ کتابخانه Ui که هر دولوپری باید بشناسه",
+      "url": "https://manus.im/"
+    },
+    "title:98cbc1ec16601f64": {
+      "at": "2026-11-24T08:02:53.179Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "۸ کتابخانه Ui که هر دولوپری باید بشناسه",
+      "url": "https://manus.im/"
+    },
+    "url:8d32fcc88c2d5088": {
+      "at": "2026-11-24T08:04:25.038Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026"
+    },
+    "title:11d81584cc8f028d": {
+      "at": "2026-11-24T08:04:25.038Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026"
+    },
+    "url:a62a31ba5f1d2afb": {
+      "at": "2026-11-24T08:05:07.797Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet"
+    },
+    "title:af81a5180828c116": {
+      "at": "2026-11-24T08:05:07.797Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet"
+    },
+    "url:981d6178a1cb2235": {
+      "at": "2026-11-24T08:06:16.363Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird",
+      "benchmark": true
+    },
+    "title:aba3b42157683211": {
+      "at": "2026-11-24T08:06:16.363Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird",
+      "benchmark": true
+    },
+    "url:b0689cf87ab570a4": {
+      "at": "2026-11-24T08:18:16.969Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "benchmark": false
+    },
+    "title:8049ec2fc14d2f58": {
+      "at": "2026-11-24T08:18:16.969Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-24T11:30+03:30",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -16895,54 +17039,6 @@
         "officialCourse": false
       }
     },
-    "defer:url:a62a31ba5f1d2afb": {
-      "id": "defer:url:a62a31ba5f1d2afb",
-      "at": "2026-11-23T17:01:42.553Z",
-      "firstAt": "2026-11-23T17:01:42.553Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a62a31ba5f1d2afb",
-        "title:af81a5180828c116"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
-      "title": "Jensen Huang isn’t out of the woods yet",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Jensen Huang isn’t out of the woods yet",
-        "link": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
-        "canonical": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
-        "published": "Mon, 23 Nov 2026 16:57:40 +0000",
-        "summary": "It’s safe to say no one expected this. Monday morning, Jensen Huang returned as CEO of Nvidia, after resigning the position following news of multiple affairs, including one with a subordinate and one with a woman tied to Chinese intelligence services. With so much of the AI industry built on top of Nvidia’s AI infrastructure, […]",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
-        "images": [],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:a62a31ba5f1d2afb",
-          "title:af81a5180828c116"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:76b72dfbff18bdc0": {
       "id": "defer:url:76b72dfbff18bdc0",
       "at": "2026-11-23T17:01:42.554Z",
@@ -17697,37 +17793,284 @@
         "leadKind": ""
       }
     },
-    "defer:url:8d32fcc88c2d5088": {
-      "id": "defer:url:8d32fcc88c2d5088",
-      "at": "2026-11-23T19:31:13.182Z",
-      "firstAt": "2026-11-23T19:31:13.182Z",
+    "defer:url:f022b27f70ff8148": {
+      "id": "defer:url:f022b27f70ff8148",
+      "at": "2026-11-24T08:02:53.195Z",
+      "firstAt": "2026-11-24T08:02:53.195Z",
       "attempts": 0,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
       ],
       "keys": [
-        "url:8d32fcc88c2d5088",
-        "title:11d81584cc8f028d"
+        "url:f022b27f70ff8148",
+        "title:cad89eef43430ee5"
       ],
-      "canonical": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026",
-      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "canonical": "https://github.com/FlashML-org/FreeVideo",
+      "title": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!",
       "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
-        "link": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
-        "canonical": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026",
-        "published": "Mon, 23 Nov 2026 17:00:08 +0000",
-        "summary": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. […]",
-        "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1-842x450.jpg"
+        "sourceId": "tg-asr-novin",
+        "sourceName": "عصر نوین | AminiYT",
+        "sourceType": "telegram_channel",
+        "title": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!",
+        "link": "https://github.com/FlashML-org/FreeVideo",
+        "canonical": "https://github.com/FlashML-org/FreeVideo",
+        "messageText": "با این ابزار، دیگه کی پول می‌ده برای خرید اعتبار ویدیوهای AI!؟!\n\nروی کامپیوتر خودت، رایگان ویدیوهای AI بساز، بدون نیاز به اشتراک، بدون نیاز به امتیاز! آستانه ورود خیلی پایینه، فقط با ۸ گیگابایت حافظه گرافیکی + ۱۶ گیگابایت رم می‌تونی اجراش کنی.\n\n· پشتیبانی از متن، تصویر، ویدیو و صدا، ورودی چندوجهی چهارگانه\n· پشتیبانی از ویدیوهای طولانی در حد دقیقه، با ویرایشگر خط زمانی داخلی\n· پشتیبانی از Windows، Linux و نسخه پیش‌نمایش Apple Silicon\n· ویژگی جدید H3 تصویر، پشتیبانی مستقیم از کیفیت فوق‌العاده واضح تا ۱۶ مگاپیکسل\n\nلینک مخزن\n\n❤12👍1",
+        "leadPostUrl": "https://t.me/asrnovin_ir/11526",
+        "published": "2026-11-24T06:26:32+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/FlashML-org/FreeVideo"
         ],
-        "ageHours": 2.5,
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:f022b27f70ff8148",
+          "title:cad89eef43430ee5"
+        ],
+        "leadSource": "asrnovin_ir",
+        "leadMessageId": 11526,
+        "leadChannelUrl": "https://t.me/asrnovin_ir",
+        "sourceFocus": "news",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:5e2478fb7557e8d3": {
+      "id": "defer:url:5e2478fb7557e8d3",
+      "at": "2026-11-24T08:02:53.195Z",
+      "firstAt": "2026-11-24T08:02:53.195Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:5e2478fb7557e8d3",
+        "title:a630118785cb60e3"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+        "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+        "canonical": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+        "published": "Mon, 23 Nov 2026 22:05:50 +0000",
+        "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+        "images": [],
+        "ageHours": 9.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:5e2478fb7557e8d3",
+          "title:a630118785cb60e3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d58b6985c3adfc5b": {
+      "id": "defer:url:d58b6985c3adfc5b",
+      "at": "2026-11-24T08:02:53.196Z",
+      "firstAt": "2026-11-24T08:02:53.196Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:d58b6985c3adfc5b",
+        "title:4992334ec23bb5a3"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.31198v1",
+      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+        "link": "https://arxiv.org/abs/2611.31198v1",
+        "canonical": "https://arxiv.org/abs/2611.31198v1",
+        "published": "2026-11-23T18:48:02Z",
+        "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence formats, and failure modes are encountered in the wild. Human practitioners, by contrast, cope with insufficient tools by fashioning new ones from familiar parts and reusing them across tasks. Inspired by this, we propose ToolSmith, an automatic tool-generation framework that grows and reuses modules on top of a lean base tool library. We evaluate ToolSmith on three in-domain multimodal search benchmarks and ten out-of-domain benchmarks under a VLM-as-a-Judge protocol. ToolSmith consistently improves over the base library across deployed agents of varying scales, with larger backbones reaping greater gains, demonstrating the scalability of the approach. Our code and data are available at https://threesr.github.io/toolsmith/.",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.31198v1",
+        "images": [],
+        "ageHours": 13.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:d58b6985c3adfc5b",
+          "title:4992334ec23bb5a3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:530ffa3a377bd895": {
+      "id": "defer:url:530ffa3a377bd895",
+      "at": "2026-11-24T08:02:53.196Z",
+      "firstAt": "2026-11-24T08:02:53.196Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:530ffa3a377bd895",
+        "title:298a013728c82d29"
+      ],
+      "canonical": "https://www.producthunt.com/products/fleetify",
+      "title": "Fleetify",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Fleetify",
+        "link": "https://www.producthunt.com/products/fleetify",
+        "canonical": "https://www.producthunt.com/products/fleetify",
+        "published": "2026-11-23T08:11:52-08:00",
+        "summary": "<p> Open-source command center for your AI coding agents </p> <p> <a href=\"https://www.producthunt.com/products/fleetify?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1327943?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/fleetify",
+        "images": [],
+        "ageHours": 15.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:530ffa3a377bd895",
+          "title:298a013728c82d29"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fbb27b1834118aee": {
+      "id": "defer:url:fbb27b1834118aee",
+      "at": "2026-11-24T08:02:53.196Z",
+      "firstAt": "2026-11-24T08:02:53.196Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:fbb27b1834118aee",
+        "title:ad75b9705490e6e8"
+      ],
+      "canonical": "https://www.producthunt.com/products/clam-ai",
+      "title": "Clam AI",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Clam AI",
+        "link": "https://www.producthunt.com/products/clam-ai",
+        "canonical": "https://www.producthunt.com/products/clam-ai",
+        "published": "2026-11-23T00:44:25-08:00",
+        "summary": "<p> Your inbox, safely shared with AI agents </p> <p> <a href=\"https://www.producthunt.com/products/clam-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1327369?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/clam-ai",
+        "images": [],
+        "ageHours": 23.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:fbb27b1834118aee",
+          "title:ad75b9705490e6e8"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1259b534687dd8b3": {
+      "id": "defer:url:1259b534687dd8b3",
+      "at": "2026-11-24T08:02:53.196Z",
+      "firstAt": "2026-11-24T08:02:53.196Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1259b534687dd8b3",
+        "title:988ceedbe0528be0"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Richpanel helps companies automate 50% of support in 30 days",
+        "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "canonical": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "published": "Mon, 23 Nov 2026 08:00:00 GMT",
+        "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "images": [],
+        "ageHours": 24,
         "aiHint": true,
         "aiCentral": true,
         "offerHint": false,
@@ -17735,13 +18078,12 @@
         "modelRelease": false,
         "sourceCategories": [
           "models",
-          "business",
           "tools"
         ],
-        "categoryHint": "models",
+        "categoryHint": "tools",
         "keys": [
-          "url:8d32fcc88c2d5088",
-          "title:11d81584cc8f028d"
+          "url:1259b534687dd8b3",
+          "title:988ceedbe0528be0"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -21172,6 +21514,52 @@
           "at": "2026-11-24T05:21:01.861Z"
         }
       ]
+    },
+    "2026-11-24T11:30+03:30": {
+      "at": "2026-11-24T08:06:16.363Z",
+      "status": "sent",
+      "category": "security",
+      "title": "OpenAI و سیسکو Shirudo را برای محافظت از لینوکس منتشر کردند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/11-30-2",
+      "messageId": 150,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0036370488,
+      "tokens": 79777,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "بنچمارک Gamefeel به‌روزرسانی شد؛ مدل‌ها جابه‌جا شدن",
+          "category": "models",
+          "status": "sent",
+          "messageId": 149,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0009618,
+          "tokens": 24065,
+          "qa": "41/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-24T08:06:16.363Z"
+        },
+        {
+          "title": "OpenAI و سیسکو Shirudo را برای محافظت از لینوکس منتشر کردند",
+          "category": "security",
+          "status": "sent",
+          "messageId": 150,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/11-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008070664000000001,
+          "tokens": 22751,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-24T08:18:16.969Z"
+        }
+      ]
     }
   },
   "published": [
@@ -23484,168 +23872,132 @@
       "sourceTitle": "RoboTrack: Point tracking for real-world robotic manipulation",
       "sourceText": "🤖 Models | 📄 Tech Report | 📊 Data | 💻 Code | 🌐 Project Page | 📈 Benchmark\nDeploying robots in real-world settings requires reliable perception throughout an interaction. To pick something up, a robot needs to follow the positions of its gripper and the object as they move. In a laboratory, a robot handling a pipette must keep track of its tip while aligning it with the opening of a tube. These tasks become harder when nearby objects clutter the view, the gripper obscures the object being handled, or the viewing angle changes.\nOne way to help robots follow these interactions is to track specific locations on the objects they handle. This is the idea behind point tracking . Given a location in one video frame, a tracker estimates where that same point appears in subsequent frames, when it is occluded, and where it reappears. These trajectories can help robots learn from demonstrations, plan and guide movements, and model how objects respond to actions.\nRobotics systems often rely on off-the-shelf trackers to automatically annotate motion in videos and provide feedback during execution. And current trackers score well on established robotics benchmarks, suggesting they could be ready for wider use in real-world systems. We wanted to see whether those results hold up across the varied scenes, viewpoints, and object interactions robots encounter in practice.\nWe introduce RoboTrack , a benchmark and training data suite for point tracking in robotic manipulation. RoboTrack-Bench contains 307 human-annotated videos from DROID, Ego-Exo4D, MolmoAct 2 , and EgoVerse, covering di",
       "at": "2026-11-24T05:21:01.861Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-24T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "بنچمارک Gamefeel به‌روزرسانی شد؛ مدل‌ها جابه‌جا شدن",
+      "why": "این جدول به تیم‌ها کمک می‌کنه بر اساس هزینه و توانایی، انتخاب دقیق‌تری بین مدل‌ها داشته باشن.",
+      "dedupe_key": "gamefeel-benchmark-update",
+      "post_key": "2026-11-24/11-30/1",
+      "sourceId": "simon-willison-prompt-injection",
+      "sourceName": "Simon Willison - Prompt Injection",
+      "sourceType": "blog_tag",
+      "benchmark": true,
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "sourceTitle": "Ladybird’s first alpha release",
+      "sourceText": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS .\nThis morning the Ladybird project released their first alpha , which means you can now install the browser (on macOS or Linux) without having to compile it yourself!\nI’ve been trying it out today, and it’s very impressive. It feels fast, the UI is lightweight and intuitive, and most of the websites I’ve tried to load in it have worked as they should. It looks like this (showing my video-compressor tool):\nHere’s the process tree after I opened six tabs in one window and another tab in a second window (generated by this script , thanks Claude):\nLadybird runs different tabs in different processes, an isolation mechanism used by most browsers (well, technically Chrome uses a process-per-site).\nI tried Ladybird against several of my more advanced tool examples—like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly. I had it resize its own screenshot using my image-resize tool . It happily runs my Pyodide REPL (Python compiled to WebAssembly) too.\nThe one thing I tried that didn’t work was Datasette Lite , which runs Pyodide in a complicated arrangement of service workers and web",
+      "at": "2026-11-24T08:06:16.363Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-24T11:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "OpenAI و سیسکو Shirudo را برای محافظت از لینوکس منتشر کردند",
+      "why": "با این کار، تیم‌های امنیتی می‌تونن بین محافظت از سیستم و ادامه سرویس‌دهی، یکی رو انتخاب نکنن و هر دو رو داشته باشن.",
+      "dedupe_key": "openai-cisco-shirudo-launch",
+      "post_key": "2026-11-24/11-30/2",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "sourceTitle": "OpenAI and Cisco introduce Shirudo",
+      "sourceText": "An open-source runtime that helps operators protect running Linux systems without needing to wait for the patch or restarts\nOpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches. In a controlled test ⁠ (opens in a new window) , a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.\nWe’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further. The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.\nTesting and deploying a patch can still take days or weeks. Protecting a service in the meantime can be challenging because an exploit and a legitimate request may rely on the same Linux operation. Blocking that operation entirely could take the service offline.\nShirudo (Japanese for “shield”) is designed to help security teams navigate this tradeoff. Teams can test whether a temporary safeguard, called a shield, blocks the behavior that exposes a vulnerability while allowing legitimate requests through. Once an operator approves the shield, it can be deployed while the service continues running.\nShirudo uses eBPF, a Linux technology that allows small programs to run at specific points inside the operating system. This makes it possible to observe suspicious activity and apply targeted security protections to running systems.\nH",
+      "at": "2026-11-24T08:18:16.969Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8558,
-      "last_at": "2026-11-23T21:48:43+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 8559,
+      "last_at": "2026-11-24T06:36:43+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "ai_farshad": {
-      "last_id": 6517,
-      "last_at": "2026-11-23T19:31:01+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 6518,
+      "last_at": "2026-11-24T07:51:39+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7269,
-      "last_at": "2026-11-23T18:36:10+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 7270,
+      "last_at": "2026-11-24T06:55:38+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "techiin_ir": {
-      "last_id": 20837,
-      "last_at": "2026-11-22T18:20:49+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 20838,
+      "last_at": "2026-11-23T09:40:01+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "mgh_mobin": {
-      "last_id": 507,
-      "last_at": "2026-11-23T19:01:48+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 508,
+      "last_at": "2026-11-24T07:05:11+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "asrnovin_ir": {
-      "last_id": 11524,
-      "last_at": "2026-11-23T20:55:42+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 11526,
+      "last_at": "2026-11-24T06:26:32+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "codecloude": {
-      "last_id": 2616,
-      "last_at": "2026-11-23T18:02:18+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 2617,
+      "last_at": "2026-11-24T07:04:26+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "dunijet_ai": {
       "last_id": 2608,
       "last_at": "2026-11-23T18:13:57+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "MatinSenPaii": {
-      "last_id": 5975,
-      "last_at": "2026-11-24T04:53:20+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "last_id": 5977,
+      "last_at": "2026-11-24T05:04:04+00:00",
+      "checked_at": "2026-11-24T08:01:09.736Z"
     },
     "thenimaonAI": {
       "last_id": 569,
       "last_at": "2026-11-23T14:42:38+00:00",
-      "checked_at": "2026-11-24T05:03:59.303Z"
+      "checked_at": "2026-11-24T08:01:09.736Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-10|tg-web3nabu|https://t.me/web3nabu/2151",
-      "date": "2026-11-10",
-      "at": "2026-11-10T08:00:49.263Z",
-      "source": "tg-web3nabu",
-      "title": "کوئیز امروز میبینمتون",
-      "url": "https://t.me/web3nabu/2151",
-      "reason": "denied_link",
-      "slot": "2026-11-10T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-archive-tell|https://t.me/ArchiveTell/8348",
-      "date": "2026-11-10",
-      "at": "2026-11-10T08:00:49.263Z",
-      "source": "tg-archive-tell",
-      "title": "⚡️ امروز نسخه کربن یا فلش از Gemini 4 عرضه خواهد شد.",
-      "url": "https://t.me/ArchiveTell/8348",
-      "reason": "denied_link",
-      "slot": "2026-11-10T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-thenima|https://t.me/thenimaonAI/483",
-      "date": "2026-11-10",
-      "at": "2026-11-10T08:00:49.263Z",
-      "source": "tg-thenima",
-      "title": "یه آپدیت جالب از Runway برای کسایی که فیلم، تبلیغ یا طراحی محیط با AI می‌سازن",
-      "url": "https://t.me/thenimaonAI/483",
-      "reason": "denied_link",
-      "slot": "2026-11-10T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-thenima|https://t.me/thenimaonAI/486",
-      "date": "2026-11-10",
-      "at": "2026-11-10T08:00:49.263Z",
-      "source": "tg-thenima",
-      "title": "🔹 در بخش مهندسی سخت‌افزار، مدل Fable 5.2 با دریافت یک دستور متنی کوتاه، سه دستگاه",
-      "url": "https://t.me/thenimaonAI/486",
-      "reason": "denied_link",
-      "slot": "2026-11-10T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-thenima|https://github.com/HamSanders/soundbox",
-      "date": "2026-11-10",
-      "at": "2026-11-10T08:00:49.263Z",
-      "source": "tg-thenima",
-      "title": "GitHub - HamSanders/soundbox: Free, open-source, local alternative to ElevenLabs and Suno. AI sound effects, music with lyrics, text-to-speech and voice cloning on your own GPU (Stable Audio, ACE-Step and more). No account, no credits, offline. Windows/macOS app, HTTP API and a 21-tool MCP server for Claude Code and Cursor.",
-      "url": "https://github.com/HamSanders/soundbox",
-      "reason": "source_not_official",
-      "slot": "2026-11-10T11:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-archive-tell|https://platform.experientiallabs.ai/models",
-      "date": "2026-11-10",
-      "at": "2026-11-10T08:00:49.263Z",
-      "source": "tg-archive-tell",
-      "title": "AI models and API prices · Experiential",
-      "url": "https://platform.experientiallabs.ai/models",
-      "reason": "thin_content",
-      "slot": "2026-11-10T11:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-10|tg-thenima|https://t.me/thenimaonAI/491",
       "date": "2026-11-10",
@@ -27185,16 +27537,21 @@
       "slot": "2026-11-24T08:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-asr-novin|https://t.me/asrnovin_ir/11525",
+      "date": "2026-11-24",
+      "at": "2026-11-24T08:01:09.736Z",
+      "source": "tg-asr-novin",
+      "title": "با Gemini 4 neon دارن کاراشو می کنند 😂 طبق چیزهایی که دیده میشه، برای اجرای",
+      "url": "https://t.me/asrnovin_ir/11525",
+      "reason": "denied_link",
+      "slot": "2026-11-24T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-matin-senpai",
-      "title": "آموزش قدم به قدمش رو این دوستمون گذاشته:",
-      "url": "https://t.me/ExploreWithMehdi/397",
-      "slot": "2026-11-10T11:30+03:30",
-      "at": "2026-11-10T08:00:49.263Z"
-    },
     {
       "source": "tg-techiin",
       "title": "با مکتب‌خونه، بورسیه‌ی دانشگاه هاروارد شو!",
@@ -27537,6 +27894,13 @@
       "url": "https://quera.org/r/85kil",
       "slot": "2026-11-23T20:30+03:30",
       "at": "2026-11-23T17:01:07.458Z"
+    },
+    {
+      "source": "tg-codecloude",
+      "title": "۸ کتابخانه Ui که هر دولوپری باید بشناسه",
+      "url": "https://manus.im/",
+      "slot": "2026-11-24T11:30+03:30",
+      "at": "2026-11-24T08:01:09.736Z"
     }
   ],
   "reviewPending": {},
