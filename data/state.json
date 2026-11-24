@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T17:03:32.221Z",
+  "updatedAt": "2026-11-24T17:52:24.140Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16754,6 +16754,96 @@
       "slot": "2026-11-24T20:30+03:30",
       "title": "AI Bias In HR: Why Polished Work Gets Overrated And What to Do About It",
       "url": "https://news.crunchbase.com/workplace/ai-bias-in-hr-hiring-job-applications"
+    },
+    "url:7eea171611f31c8f": {
+      "at": "2026-11-24T17:51:42.273Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery"
+    },
+    "title:c05efb0a473cd809": {
+      "at": "2026-11-24T17:51:42.273Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery"
+    },
+    "url:62a184833d377b8a": {
+      "at": "2026-11-24T17:51:42.273Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "✅ رونمایی Z.ai از مدل GLM-5.4 با معماری ترنسفورمر حلقه‌ای",
+      "url": "https://t.me/techiin_ir/20842"
+    },
+    "title:3a6a6c9e84d35460": {
+      "at": "2026-11-24T17:51:42.273Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "✅ رونمایی Z.ai از مدل GLM-5.4 با معماری ترنسفورمر حلقه‌ای",
+      "url": "https://t.me/techiin_ir/20842"
+    },
+    "url:b2a2cb2b89522cc6": {
+      "at": "2026-11-24T17:51:43.809Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🌐 www.CodeCloude.ir | کد کلاد",
+      "url": "https://t.me/codecloude/2620"
+    },
+    "title:5bc7c3d4f7e00966": {
+      "at": "2026-11-24T17:51:43.809Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🌐 www.CodeCloude.ir | کد کلاد",
+      "url": "https://t.me/codecloude/2620"
+    },
+    "url:7922e801aa638781": {
+      "at": "2026-11-24T17:51:44.034Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🚀 فعال شدن Gemini 4 Hydrogen در Antigravity برای اکانت‌های پرو غیرپولی",
+      "url": "https://t.me/ArchiveTell/8570"
+    },
+    "title:1b8b43e75e5f9723": {
+      "at": "2026-11-24T17:51:44.034Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "🚀 فعال شدن Gemini 4 Hydrogen در Antigravity برای اکانت‌های پرو غیرپولی",
+      "url": "https://t.me/ArchiveTell/8570"
+    },
+    "url:9447d2e67a707c8a": {
+      "at": "2026-11-24T17:52:24.138Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a",
+      "url": "https://github.com/Jakeschincariol/founder-skill",
+      "benchmark": false
+    },
+    "title:d663403028afda6e": {
+      "at": "2026-11-24T17:52:24.138Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-24T20:30+03:30",
+      "title": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a",
+      "url": "https://github.com/Jakeschincariol/founder-skill",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -18318,81 +18408,11 @@
       },
       "detail": "tools"
     },
-    "defer:url:9447d2e67a707c8a": {
-      "id": "defer:url:9447d2e67a707c8a",
-      "at": "2026-11-24T10:39:49.972Z",
-      "firstAt": "2026-11-24T10:39:49.972Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9447d2e67a707c8a",
-        "title:d663403028afda6e"
-      ],
-      "canonical": "https://github.com/Jakeschincariol/founder-skill",
-      "title": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a",
-      "candidate": {
-        "sourceId": "tg-mgh-mobin",
-        "sourceName": "M G H M O B I N",
-        "sourceType": "telegram_channel",
-        "title": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a",
-        "link": "https://github.com/Jakeschincariol/founder-skill",
-        "canonical": "https://github.com/Jakeschincariol/founder-skill",
-        "messageText": "۵ ابزار برای شروع کار با Claude Code ⚡️\nاگه کلاد توی هر جلسه از صفر شروع می‌کنه، یه اشتباه رو چند بار تکرار می‌کنه یا برای یه تغییر کوچیک کلی کد می‌نویسه، این ۵ ابزار رو ببین. هرکدوم یه کار مشخص انجام می‌دن 👇\n\n۱. اسکیل Founder Skill\nقبل از اینکه وقت و پول بذاری پای ساخت محصول، ایده‌ت رو به ابزار Founder Board بده. با نگاه الکس هرمزی، پیتر تیل و استیو جابز ایده رو بررسی می‌کنه و می‌گه کدوم فرض‌هات هنوز نیاز به تست دارن. GitHub\n🔗 github.com/Jakeschincariol/founder-skill\n\n۲. اسکیل Napkin\nیه دفترچه برای هر پروژه می‌سازه. کلاد توش می‌نویسه کجا اشتباه کرده، چی رو اصلاح کردی و چه روشی جواب داده. جلسهٔ بعد همون یادداشت‌ها رو می‌خونه تا دوباره از همون راه اشتباه نره. GitHub\n🔗 github.com/blader/napkin\n\n۳. اسکیل Ponytail\nبه کلاد می‌گه قبل از نوشتن کد جدید، ببینه چی از قبل توی پروژه هست. مثلاً اگه برای انتخاب تاریخ یه ورودی ساده کفایت می‌کنه، سراغ ساخت یه تقویم کامل نره. GitHub\n🔗 github.com/DietrichGebert/ponytail\n\n۴. اسکیل Claude Mem\nیه افزونه‌ست که از کارهای انجام‌شده توی هر جلسه یادداشت برمی‌داره و اطلاعات مرتبط رو جلسهٔ بعد در اختیار کلاد می‌ذاره. برای پروژه‌هایی خوبه که چند روز روشون کار می‌کنی و هر بار باید توضیح بدی تا کجا پیش رفتی. GitHub\n🔗 github.com/thedotmack/claude-mem\n\n۵. اسکیل Awesome DESIGN.md\nیه مجموعه از فایل‌های راهنمای طراحی بر اساس تحلیل سایت‌هایی مثل Notion، Linear و Vercel. فایل سبک دلخواهت رو بذار توی پروژه تا کلاد برای انتخاب رنگ، فونت و فاصله‌گذاری یه مرجع مشخص داشته باشه. GitHub\n🔗 github.com/VoltAgent/awesome-design-md\n\n@mgh_mobin",
-        "leadPostUrl": "https://t.me/mgh_mobin/509",
-        "published": "2026-11-24T08:13:25+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/Jakeschincariol/founder-skill",
-          "https://github.com/blader/napkin",
-          "https://github.com/DietrichGebert/ponytail",
-          "https://github.com/thedotmack/claude-mem/blob/main/docs/public/introduction.mdx",
-          "https://github.com/thedotmack/claude-mem",
-          "http://design.md/",
-          "https://github.com/VoltAgent/awesome-design-md"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:9447d2e67a707c8a",
-          "title:d663403028afda6e"
-        ],
-        "leadSource": "mgh_mobin",
-        "leadMessageId": 509,
-        "leadChannelUrl": "https://t.me/mgh_mobin",
-        "sourceFocus": "education",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      },
-      "detail": "tools"
-    },
     "defer:url:6d743dea15159994": {
       "id": "defer:url:6d743dea15159994",
-      "at": "2026-11-24T17:03:25.124Z",
+      "at": "2026-11-24T17:51:57.540Z",
       "firstAt": "2026-11-24T13:32:12.208Z",
-      "attempts": 1,
+      "attempts": 2,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -18455,7 +18475,7 @@
         "officialCourse": false,
         "deferred": {
           "id": "defer:url:6d743dea15159994",
-          "attempts": 0
+          "attempts": 1
         }
       },
       "detail": "models"
@@ -19266,6 +19286,54 @@
         "keys": [
           "url:6a28e842b3bf4bfd",
           "title:f99fb4ddb7541638"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:141c148d6874e34e": {
+      "id": "defer:url:141c148d6874e34e",
+      "at": "2026-11-24T17:51:44.043Z",
+      "firstAt": "2026-11-24T17:51:44.043Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:141c148d6874e34e",
+        "title:1fb2ac6872603048"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders",
+      "title": "See what 5 builders are making with Gemini 4 Neon",
+      "candidate": {
+        "sourceId": "google-models-research",
+        "sourceName": "Google Models & Research",
+        "sourceType": "official_blog",
+        "title": "See what 5 builders are making with Gemini 4 Neon",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders",
+        "published": "Tue, 24 Nov 2026 16:00:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Builders_Neon_herosocial.max-600x600.format-webp.webp\">See five projects builders created with Gemini 4 Neon, from a glowing 3D Earth and Three.js butterflies to an interactive black hole.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Builders_Neon_herosocial.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:141c148d6874e34e",
+          "title:1fb2ac6872603048"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -22822,11 +22890,35 @@
     },
     "2026-11-24T20:30+03:30": {
       "at": "2026-11-24T17:03:32.217Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.0043168944,
-      "tokens": 80100,
-      "posts": []
+      "cost": 0.0028573048,
+      "tokens": 45503,
+      "posts": [
+        {
+          "title": "۱۱ مهارت رایگان کلود برای تست ایده کسب‌وکار",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 154,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0009848664,
+          "tokens": 23608,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-24T17:52:24.138Z"
+        }
+      ],
+      "category": "tools",
+      "title": "۱۱ مهارت رایگان کلود برای تست ایده کسب‌وکار",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/20-30",
+      "messageId": 154,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "42/43"
     }
   },
   "published": [
@@ -25229,93 +25321,111 @@
       "sourceTitle": "See what 6 builders are making with Gemini 4 Hydrogen",
       "sourceText": "Explore six early projects created with Gemini 4 Hydrogen, including a rainy sci-fi skyscape, two contrasting koi ponds, an interactive ruby-red moth that responds to your clicks, and more.\nWe recently introduced Gemini 4 Hydrogen , bringing cutting-edge intelligence to everyone. Built for rapid execution across diverse agentic workflows, Hydrogen can stand on its own as a model for everyday work — or pair with Carbon as the high-efficiency execution engine in multi-model workflows. Thanks to these capabilities, builders have already been putting Hydrogen to work. Check out six projects showing what Hydrogen can do.\n@kimmonismus created a sci-fi-inspired journey through a Three.js skyline with Hydrogen on high thinking in Google Antigravity.\n@LuminaBench swept across the sea by plane, showing the passage of time as the scene changes from morning to night.\n@IamEmily2050 used Hydrogen in the Gemini app to create a 3D voxel koi pond, complete with a red pagoda, cherry blossoms, and lantern-lit bridges.\nSpeaking of koi ponds, @notjazii used Hydrogen to put a softer spin on a koi pond with a squishy, jelly-like form instead of angular edges.\n@thtbee_ brought a crimson moth to life pairing our two latest models in Google Antigravity. Gemini 4 Carbon orchestrated a /swarm of Hydrogen workers to create an interactive animation with atmospheric visuals and sound. Then Hydrogen recorded the demo video, too.\nAnd @Bhavani_00007 gave us a look at the progression from Gemini 3.8 Flash to Hydrogen by running the same animated 3D desert ranch prompt on both, with Hydrogen bringing the scen",
       "at": "2026-11-24T13:45:55.525Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-24T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "۱۱ مهارت رایگان کلود برای تست ایده کسب‌وکار",
+      "why": "این‌ها شبیه‌ساز هستن، نه مشتری واقعی؛ پس نتیجه‌هاشون رو به‌عنوان سقف در نظر بگیر و قبل از تصمیم‌های بزرگ با آدم‌های واقعی چک کن.",
+      "dedupe_key": "jakeschincariol-founder-skill-launch",
+      "post_key": "2026-11-24/20-30/1",
+      "sourceId": "tg-mgh-mobin",
+      "sourceName": "M G H M O B I N",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://github.com/Jakeschincariol/founder-skill",
+      "sourceTitle": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+      "sourceText": "۵ ابزار برای شروع کار با Claude Code ⚡️\nاگه کلاد توی هر جلسه از صفر شروع می‌کنه، یه اشتباه رو چند بار تکرار می‌کنه یا برای یه تغییر کوچیک کلی کد می‌نویسه، این ۵ ابزار رو ببین. هرکدوم یه کار مشخص انجام می‌دن 👇\n\n۱. اسکیل Founder Skill\nقبل از اینکه وقت و پول بذاری پای ساخت محصول، ایده‌ت رو به ابزار Founder Board بده. با نگاه الکس هرمزی، پیتر تیل و استیو جابز ایده رو بررسی می‌کنه و می‌گه کدوم فرض‌هات هنوز نیاز به تست دارن. GitHub\n🔗 github.com/Jakeschincariol/founder-skill\n\n۲. اسکیل Napkin\nیه دفترچه برای هر پروژه می‌سازه. کلاد توش می‌نویسه کجا اشتباه کرده، چی رو اصلاح کردی و چه روشی جواب داده. جلسهٔ بعد همون یادداشت‌ها رو می‌خونه تا دوباره از همون راه اشتباه نره. GitHub\n🔗 github.com/blader/napkin\n\n۳. اسکیل Ponytail\nبه کلاد می‌گه قبل از نوشتن کد جدید، ببینه چی از قبل توی پروژه هست. مثلاً اگه برای انتخاب تاریخ یه ورودی ساده کفایت می‌کنه، سراغ ساخت یه تقویم کامل نره. GitHub\n🔗 github.com/DietrichGebert/ponytail\n\n۴. اسکیل Claude Mem\nیه افزونه‌ست که از کارهای انجام‌شده توی هر جلسه یادداشت برمی‌داره و اطلاعات مرتبط رو جلسهٔ بعد در اختیار کلاد می‌ذاره. برای پروژه‌هایی خوبه که چند روز روشون کار می‌کنی و هر بار باید توضیح بدی تا کجا پیش رفتی. GitHub\n🔗 github.com/thedotmack/claude-mem\n\n۵. اسکیل Awesome DESIGN.md\nیه مجموعه از فایل‌های راهنمای طراحی بر اساس تحلیل سایت‌هایی مثل Notion، Linear و Vercel. فایل سبک دلخواهت رو بذار توی پروژه تا کلاد برای انتخاب رنگ، فونت و فاصله‌گذاری یه مرجع مشخص داشته باشه. GitHub\n🔗 github.com/VoltAgent/awesome-design-md\n\n@mgh_mobin",
+      "at": "2026-11-24T17:52:24.138Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8569,
-      "last_at": "2026-11-24T16:04:32+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "last_id": 8570,
+      "last_at": "2026-11-24T17:13:17+00:00",
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "ai_farshad": {
       "last_id": 6521,
       "last_at": "2026-11-24T16:33:52+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "Mohammad_zammani": {
       "last_id": 7272,
       "last_at": "2026-11-24T13:56:43+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "techiin_ir": {
-      "last_id": 20841,
-      "last_at": "2026-11-23T18:38:53+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "last_id": 20842,
+      "last_at": "2026-11-23T18:45:13+00:00",
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "mgh_mobin": {
       "last_id": 511,
       "last_at": "2026-11-24T11:32:16+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "asrnovin_ir": {
       "last_id": 11531,
       "last_at": "2026-11-24T16:33:17+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "codecloude": {
-      "last_id": 2618,
-      "last_at": "2026-11-24T10:21:09+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "last_id": 2620,
+      "last_at": "2026-11-24T17:16:20+00:00",
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "dunijet_ai": {
       "last_id": 2612,
       "last_at": "2026-11-24T16:03:31+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "MatinSenPaii": {
       "last_id": 5985,
       "last_at": "2026-11-24T13:40:20+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     },
     "thenimaonAI": {
       "last_id": 578,
       "last_at": "2026-11-24T09:20:29+00:00",
-      "checked_at": "2026-11-24T17:01:06.693Z"
+      "checked_at": "2026-11-24T17:51:27.115Z"
     }
   },
   "offerReviews": [
@@ -28906,6 +29016,30 @@
       "slot": "2026-11-24T20:30+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-codecloude|https://t.me/codecloude/2620",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:51:27.115Z",
+      "source": "tg-codecloude",
+      "title": "🌐 www.CodeCloude.ir | کد کلاد",
+      "url": "https://t.me/codecloude/2620",
+      "reason": "denied_link",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-archive-tell|https://t.me/ArchiveTell/8570",
+      "date": "2026-11-24",
+      "at": "2026-11-24T17:51:27.115Z",
+      "source": "tg-archive-tell",
+      "title": "🚀 فعال شدن Gemini 4 Hydrogen در Antigravity برای اکانت‌های پرو غیرپولی",
+      "url": "https://t.me/ArchiveTell/8570",
+      "reason": "no_link",
+      "slot": "2026-11-24T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -29275,7 +29409,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-24T11:20:28.821Z",
+      "lastCheck": "2026-11-24T17:51:27.115Z",
       "status": "active",
       "misses": 0
     }
