@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T19:31:29.749Z",
+  "updatedAt": "2026-11-24T20:22:08.252Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16898,6 +16898,42 @@
       "slot": "2026-11-24T23:00+03:30",
       "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
       "url": "https://arxiv.org/abs/2611.31185v1"
+    },
+    "url:51e5b23cdd2812cc": {
+      "at": "2026-11-24T20:21:57.320Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "✅ ویدئوی اولین روز برگشت جنسن هوانگ به انویدیا",
+      "url": "https://t.me/techiin_ir/20844"
+    },
+    "title:ec64694564b3667d": {
+      "at": "2026-11-24T20:21:57.320Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "✅ ویدئوی اولین روز برگشت جنسن هوانگ به انویدیا",
+      "url": "https://t.me/techiin_ir/20844"
+    },
+    "url:a7a0adf7d6c734e3": {
+      "at": "2026-11-24T20:22:08.249Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "benchmark": false
+    },
+    "title:6d34e15de00d1cfe": {
+      "at": "2026-11-24T20:22:08.249Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -16966,56 +17002,6 @@
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
-      }
-    },
-    "defer:url:d5d1ac5ff9d7d1d1": {
-      "id": "defer:url:d5d1ac5ff9d7d1d1",
-      "at": "2026-11-23T13:31:56.614Z",
-      "firstAt": "2026-11-23T13:31:56.614Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:d5d1ac5ff9d7d1d1",
-        "title:25a73dd54b4fe26f"
-      ],
-      "canonical": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
-      "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
-        "link": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
-        "canonical": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
-        "published": "Mon, 23 Nov 2026 12:17:01 +0000",
-        "summary": "OpenAI's GPT-6.2 Astra independently produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem, the first of its kind according to Vals AI. The model chose its own approach because key foundations were missing from Mathlib. On Autoform-Hard, Astra now leads the leaderboard with 49 of 56 tasks solved. The article GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/gpt_lean_proof.png"
-        ],
-        "ageHours": 1.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d5d1ac5ff9d7d1d1",
-          "title:25a73dd54b4fe26f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
       }
     },
     "defer:url:27a6b6af092d6a67": {
@@ -18471,60 +18457,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:a7a0adf7d6c734e3": {
-      "id": "defer:url:a7a0adf7d6c734e3",
-      "at": "2026-11-24T19:31:27.773Z",
-      "firstAt": "2026-11-24T17:02:44.988Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a7a0adf7d6c734e3",
-        "title:6d34e15de00d1cfe"
-      ],
-      "canonical": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "candidate": {
-        "sourceId": "google-ai-blog",
-        "sourceName": "Google AI Blog",
-        "sourceType": "official_blog",
-        "title": "How Gemini is changing the game for Golden State's organization and fans.",
-        "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-        "canonical": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-        "published": "Tue, 24 Nov 2026 16:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\">Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a7a0adf7d6c734e3",
-          "title:6d34e15de00d1cfe"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:a7a0adf7d6c734e3",
-          "attempts": 0
-        }
-      },
-      "detail": "tools"
-    },
     "defer:url:a9a1f591c3b5ca40": {
       "id": "defer:url:a9a1f591c3b5ca40",
       "at": "2026-11-24T17:02:44.989Z",
@@ -19381,6 +19313,119 @@
         "keys": [
           "url:7e14b56be6744308",
           "title:51cc66f43581801f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b4f7eee1a7784fef": {
+      "id": "defer:url:b4f7eee1a7784fef",
+      "at": "2026-11-24T20:21:58.486Z",
+      "firstAt": "2026-11-24T20:21:58.486Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:b4f7eee1a7784fef",
+        "title:483863f707c0c9a6"
+      ],
+      "canonical": "https://github.com/ersinkoc/phonebox",
+      "title": "📱 تبدیل گوشی اندروید قدیمی به مرکز کنترل کامپیوتر",
+      "candidate": {
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
+        "sourceType": "telegram_channel",
+        "title": "📱 تبدیل گوشی اندروید قدیمی به مرکز کنترل کامپیوتر",
+        "link": "https://github.com/ersinkoc/phonebox",
+        "canonical": "https://github.com/ersinkoc/phonebox",
+        "messageText": "📱 تبدیل گوشی اندروید قدیمی به مرکز کنترل کامپیوتر\n\nاپلیکیشن PhoneBox گوشی هوشمند رو به یک داشبورد تبدیل میکنه: صفحه نمایش شامل دما قطعات، میزان استفاده از پردازنده (CPU) و کارت گرافیک (GPU)، وضعیت حافظه رم، اعلان‌های دریافتی و آهنگ در حال پخشه. 🎛️\n\nعلاوه بر مانیتورینگ، امکان تنظیم ماکروها، کلیدهای میانبر و ویجت‌هایی با آمار مربوط به Claude Code و Codex نیز وجود داره.\n\nاین پلتفرم از سیستم‌عامل‌های Windows، Linux و macOS پشتیبانی میکنه. اتصال از طریق USB یا Wi-Fi امکان‌پذیره. 📶\n\n🔗 گیت هاب پروژه\n\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤4🫡1🗿1",
+        "leadPostUrl": "https://t.me/ArchiveTell/8572",
+        "published": "2026-11-24T20:20:29+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn1.telesco.pe/file/X4jCH14asflsXo5SELguNNB0PCOegNOsL64LzzWXoXrnv7SC9ol26NnAdPxtjiaBCwa9HIvFZ-j-o5ycIuCHYCYsPli_hKJvgUDpr4YSMEeOvsb0CYMyQVc9u5G9bbKpdRNlRsY5zKoUm68-5M8Dyu5Hdh1pDYZufdfHNrCbG8nO7Di85e6uQ8pAik7D1R_dPKKmV4n-wM3M-SkVnQTS5Qjabq5RLW97VuPTdh36VsUGinOV6xktsiZQED1OFLd-ji2fvZgGLFxtzWIamL_SpO7uivvdNpqOqDy6AdhaHJ1C5beENEg4DGvbkuQYahSzwCPx6C9NVYSihukErKI7JQ.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/ersinkoc/phonebox"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:b4f7eee1a7784fef",
+          "title:483863f707c0c9a6"
+        ],
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8572,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:adfa512c9bee7d82": {
+      "id": "defer:url:adfa512c9bee7d82",
+      "at": "2026-11-24T20:21:58.486Z",
+      "firstAt": "2026-11-24T20:21:58.486Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:adfa512c9bee7d82",
+        "title:9a68f02ac24fd314"
+      ],
+      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
+      "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+      "candidate": {
+        "sourceId": "google-models-research",
+        "sourceName": "Google Models & Research",
+        "sourceType": "official_blog",
+        "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
+        "published": "Tue, 24 Nov 2026 19:30:00 +0000",
+        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-600x600.format-webp.webp\">Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.",
+        "messageText": "",
+        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+        "images": [
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-600x600.format-webp.webp"
+        ],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:adfa512c9bee7d82",
+          "title:9a68f02ac24fd314"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -22969,11 +23014,35 @@
     },
     "2026-11-24T23:00+03:30": {
       "at": "2026-11-24T19:31:29.746Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.001950396,
-      "tokens": 30166,
-      "posts": []
+      "cost": 0.000521696,
+      "tokens": 20448,
+      "posts": [
+        {
+          "title": "گلدن استیت، جمینی را شریک رسمی هوش مصنوعی خود کرد",
+          "category": "business",
+          "status": "sent",
+          "messageId": 155,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.000521696,
+          "tokens": 20448,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-24T20:22:08.249Z"
+        }
+      ],
+      "category": "business",
+      "title": "گلدن استیت، جمینی را شریک رسمی هوش مصنوعی خود کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/23-00",
+      "messageId": 155,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "42/43"
     }
   },
   "published": [
@@ -25394,93 +25463,111 @@
       "sourceTitle": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
       "sourceText": "۵ ابزار برای شروع کار با Claude Code ⚡️\nاگه کلاد توی هر جلسه از صفر شروع می‌کنه، یه اشتباه رو چند بار تکرار می‌کنه یا برای یه تغییر کوچیک کلی کد می‌نویسه، این ۵ ابزار رو ببین. هرکدوم یه کار مشخص انجام می‌دن 👇\n\n۱. اسکیل Founder Skill\nقبل از اینکه وقت و پول بذاری پای ساخت محصول، ایده‌ت رو به ابزار Founder Board بده. با نگاه الکس هرمزی، پیتر تیل و استیو جابز ایده رو بررسی می‌کنه و می‌گه کدوم فرض‌هات هنوز نیاز به تست دارن. GitHub\n🔗 github.com/Jakeschincariol/founder-skill\n\n۲. اسکیل Napkin\nیه دفترچه برای هر پروژه می‌سازه. کلاد توش می‌نویسه کجا اشتباه کرده، چی رو اصلاح کردی و چه روشی جواب داده. جلسهٔ بعد همون یادداشت‌ها رو می‌خونه تا دوباره از همون راه اشتباه نره. GitHub\n🔗 github.com/blader/napkin\n\n۳. اسکیل Ponytail\nبه کلاد می‌گه قبل از نوشتن کد جدید، ببینه چی از قبل توی پروژه هست. مثلاً اگه برای انتخاب تاریخ یه ورودی ساده کفایت می‌کنه، سراغ ساخت یه تقویم کامل نره. GitHub\n🔗 github.com/DietrichGebert/ponytail\n\n۴. اسکیل Claude Mem\nیه افزونه‌ست که از کارهای انجام‌شده توی هر جلسه یادداشت برمی‌داره و اطلاعات مرتبط رو جلسهٔ بعد در اختیار کلاد می‌ذاره. برای پروژه‌هایی خوبه که چند روز روشون کار می‌کنی و هر بار باید توضیح بدی تا کجا پیش رفتی. GitHub\n🔗 github.com/thedotmack/claude-mem\n\n۵. اسکیل Awesome DESIGN.md\nیه مجموعه از فایل‌های راهنمای طراحی بر اساس تحلیل سایت‌هایی مثل Notion، Linear و Vercel. فایل سبک دلخواهت رو بذار توی پروژه تا کلاد برای انتخاب رنگ، فونت و فاصله‌گذاری یه مرجع مشخص داشته باشه. GitHub\n🔗 github.com/VoltAgent/awesome-design-md\n\n@mgh_mobin",
       "at": "2026-11-24T17:52:24.138Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-24T23:00+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "گلدن استیت، جمینی را شریک رسمی هوش مصنوعی خود کرد",
+      "why": "با این ابزارها، کارهای روزمره باشگاه سریع‌تر پیش می‌ره و تجربه تماشای بازی برای هواداران هم جذاب‌تر می‌شه.",
+      "dedupe_key": "google-golden-state-partnership",
+      "post_key": "2026-11-24/23-00/1",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "sourceTitle": "How Gemini is changing the game for Golden State's organization and fans.",
+      "sourceText": "Today, we’re expanding our partnership with Golden State — making Google Gemini the Official AI Assistant Partner and Official Generative AI & Enterprise LLM Partner of the Warriors, the 2026 WNBA Champion Valkyries, and Chase Center.\nThe collaboration integrates Gemini across the entire franchise ecosystem. For fans, that means a more interactive game-day experience, both inside Chase Center via interactive videoboard features, and across digital channels for fans following from home. And behind the scenes, Golden State is deploying Gemini for business to build custom AI agents, helping their teams work smarter across both business and basketball operations.\nAs a Founding Partner of Chase Center since 2019, Golden State has used our gen AI tools to help their operations run smoother, and this next chapter brings the best of Gemini to the team and fans alike.",
+      "at": "2026-11-24T20:22:08.249Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8570,
-      "last_at": "2026-11-24T17:13:17+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "last_id": 8572,
+      "last_at": "2026-11-24T20:20:29+00:00",
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "ai_farshad": {
-      "last_id": 6521,
-      "last_at": "2026-11-24T16:33:52+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "last_id": 6522,
+      "last_at": "2026-11-24T20:06:49+00:00",
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "Mohammad_zammani": {
       "last_id": 7272,
       "last_at": "2026-11-24T13:56:43+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "techiin_ir": {
-      "last_id": 20843,
-      "last_at": "2026-11-24T09:24:15+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "last_id": 20844,
+      "last_at": "2026-11-24T09:35:14+00:00",
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "mgh_mobin": {
       "last_id": 511,
       "last_at": "2026-11-24T11:32:16+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "asrnovin_ir": {
       "last_id": 11531,
       "last_at": "2026-11-24T16:33:17+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "codecloude": {
       "last_id": 2620,
       "last_at": "2026-11-24T17:16:20+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "dunijet_ai": {
       "last_id": 2612,
       "last_at": "2026-11-24T16:03:31+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "MatinSenPaii": {
       "last_id": 5986,
       "last_at": "2026-11-24T19:20:38+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     },
     "thenimaonAI": {
       "last_id": 578,
       "last_at": "2026-11-24T09:20:29+00:00",
-      "checked_at": "2026-11-24T19:30:55.627Z"
+      "checked_at": "2026-11-24T20:21:42.432Z"
     }
   },
   "offerReviews": [
