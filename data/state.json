@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T08:58:45.282Z",
+  "updatedAt": "2026-11-24T10:39:49.972Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16268,59 +16268,99 @@
       "title": "OpenAI and Cisco introduce Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
       "benchmark": false
+    },
+    "url:ffcc822197da4486": {
+      "at": "2026-11-24T10:31:09.434Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "AI Lab | از یادگیری تا ساختن",
+      "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/"
+    },
+    "title:7866576f2d2c77f3": {
+      "at": "2026-11-24T10:31:09.434Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "AI Lab | از یادگیری تا ساختن",
+      "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/"
+    },
+    "url:76b72dfbff18bdc0": {
+      "at": "2026-11-24T10:31:54.177Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return"
+    },
+    "title:365f9879c3b5e2a0": {
+      "at": "2026-11-24T10:31:54.177Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return"
+    },
+    "url:7c30fd8ec99a4c27": {
+      "at": "2026-11-24T10:36:49.279Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "benchmark": false
+    },
+    "title:1e633e568cb8a506": {
+      "at": "2026-11-24T10:36:49.279Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "benchmark": false
+    },
+    "url:ae07ac1bbdbcfaaa": {
+      "at": "2026-11-24T10:37:00.903Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+      "url": "https://arxiv.org/abs/2611.31228v1"
+    },
+    "title:f485c73613fccb62": {
+      "at": "2026-11-24T10:37:00.903Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+      "url": "https://arxiv.org/abs/2611.31228v1"
+    },
+    "url:8292ea127348fd67": {
+      "at": "2026-11-24T10:38:00.027Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "استخدام AI Product Engineer (Applied AI / Agentic Systems) در سیف‌زی",
+      "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/j/1.html"
+    },
+    "title:9ca27fc7fee469f2": {
+      "at": "2026-11-24T10:38:00.027Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-24T14:00+03:30",
+      "title": "استخدام AI Product Engineer (Applied AI / Agentic Systems) در سیف‌زی",
+      "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/j/1.html"
     }
   },
   "deferred": {
-    "defer:url:9866df6d164d92d0": {
-      "id": "defer:url:9866df6d164d92d0",
-      "at": "2026-11-21T10:31:14.682Z",
-      "firstAt": "2026-11-21T10:31:14.682Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:9866df6d164d92d0",
-        "title:28ae2b076369812d"
-      ],
-      "canonical": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
-      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-        "link": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-        "canonical": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
-        "published": "Sat, 21 Nov 2026 09:17:24 +0000",
-        "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/bytedance-axio-training-pipeline-nano-banana-pro.jpg"
-        ],
-        "ageHours": 1.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9866df6d164d92d0",
-          "title:28ae2b076369812d"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:1d5ae0e72c84bd62": {
       "id": "defer:url:1d5ae0e72c84bd62",
       "at": "2026-11-21T17:03:04.751Z",
@@ -17039,54 +17079,6 @@
         "officialCourse": false
       }
     },
-    "defer:url:76b72dfbff18bdc0": {
-      "id": "defer:url:76b72dfbff18bdc0",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:76b72dfbff18bdc0",
-        "title:365f9879c3b5e2a0"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return",
-      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-        "link": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
-        "canonical": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return",
-        "published": "Mon, 23 Nov 2026 16:39:10 +0000",
-        "summary": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
-        "images": [],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:76b72dfbff18bdc0",
-          "title:365f9879c3b5e2a0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:b29ba51c592b2059": {
       "id": "defer:url:b29ba51c592b2059",
       "at": "2026-11-23T17:01:42.554Z",
@@ -17531,72 +17523,6 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
-    },
-    "defer:url:7c30fd8ec99a4c27": {
-      "id": "defer:url:7c30fd8ec99a4c27",
-      "at": "2026-11-23T19:31:13.181Z",
-      "firstAt": "2026-11-23T19:31:13.181Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7c30fd8ec99a4c27",
-        "title:1e633e568cb8a506"
-      ],
-      "canonical": "https://github.com/nidhinjs/prompt-master",
-      "title": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!",
-      "candidate": {
-        "sourceId": "tg-codecloude",
-        "sourceName": "Code.Cloud | کـــد کلاد",
-        "sourceType": "telegram_channel",
-        "title": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!",
-        "link": "https://github.com/nidhinjs/prompt-master",
-        "canonical": "https://github.com/nidhinjs/prompt-master",
-        "messageText": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!\n\nاگه با Claude کار کرده باشی، احتمالاً برات پیش اومده که یه درخواست ساده بدی، ولی برای رسیدن به نتیجه دلخواهت مجبور بشی چندین بار اصلاحش کنی! 😐\n\n🧠 پرامپت مستر ( Prompt Master ) یه ابزار رایگان و متن‌بازه که قبل از ارسال درخواست، پرامپتت رو بررسی می‌کنه و کمک می‌کنه دقیق‌تر و حرفه‌ای‌تر بنویسی.\n\n⚡ چه قابلیت‌هایی داره؟\n\n🔸 بررسی و بهینه‌سازی پرامپت با ۳۷ معیار\n🔸 نصب مستقیم به‌عنوان Skill در Claude\n🔸 پشتیبانی از ۱۴ قالب مختلف پرامپت\n🔸 کاربردی برای کدنویسی، طراحی سایت، تولید محتوا و تصویرسازی\n🔸 کاهش اصلاحات تکراری و مصرف غیرضروری توکن\n\n📥 دانلود رایگان از GitHub:\n\n🛠 روش نصب در Claude:\n\n1. از لینک بالا پروژه رو دانلود کن.\n2. وارد Claude شو و بخش Customize → Skills رو باز کن.\n3. فایل Skill رو طبق راهنمای پروژه بارگذاری کن.\n4. حالا از Claude بخواه با Prompt Master درخواستت رو بهینه کنه.\n\n💡 این ابزار محدودیت Claude رو دور نمی‌زنه، اما می‌تونه کمک کنه با درخواست‌های دقیق‌تر، از ظرفیتت بهتر استفاده کنی.\n\n📌 این پست رو ذخیره کن و برای دوستات هم بفرست!\n\n🌐 www.CodeCloude.ir | کد کلاد\n📱 @codecloude\n💬x.com\n📷instagram\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n🔥5🤯2🤷1",
-        "leadPostUrl": "https://t.me/codecloude/2616",
-        "published": "2026-11-23T18:02:18+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/nidhinjs/prompt-master",
-          "http://www.codecloude.ir/",
-          "https://x.com/codecloude",
-          "https://instagram.com/code.cloude"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:7c30fd8ec99a4c27",
-          "title:1e633e568cb8a506"
-        ],
-        "leadSource": "codecloude",
-        "leadMessageId": 2616,
-        "leadChannelUrl": "https://t.me/codecloude",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
       }
     },
     "defer:url:25f33d1df44504de": {
@@ -18089,6 +18015,336 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:105d2dd6f5d647be": {
+      "id": "defer:url:105d2dd6f5d647be",
+      "at": "2026-11-24T10:31:09.447Z",
+      "firstAt": "2026-11-24T10:31:09.447Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:105d2dd6f5d647be",
+        "title:efabf512a4dfdeae"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/23/glm-54",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+        "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
+        "canonical": "https://simonwillison.net/2026/Nov/23/glm-54",
+        "published": "2026-11-23T23:40:49+00:00",
+        "summary": "<p><strong><a href=\"https://z.ai/blog/glm-5.4\">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</a></strong></p> GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:</p> <blockquote> <p>In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.</p> </blockquote> <p>This is the second mention of looped transformers I've seen in the past week - the first was <a href=\"https://thinkingmachines.ai/news/inkling-2-mini/\">Inkling 2 Mini</a> from Thinking Machines Lab on November 20th, who said:</p> <blockquote> <p>Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality.</p> </blockquote> <p>GLM 5.4 is not (yet?) available as open weights. I tried it out using the Z.ai API, for which I had to sign up for their <a href=\"https://docs.z.ai/devpack/overview\">Coding Plan subscription</a> because 5.4 cannot currently be accessed through the regular API.</p> <p>It turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at <code>https://api.z.ai/api/v1</code>), and the API key for the coding plan worked with that and gave me access to the new model.</p> <p>I built a <a href=\"https://github.com/simonw/llm-glm\">llm-glm plugin</a>, then realized that <a href=\"https://github.com/irthomasthomas/llm-zai\">llm-zai</a> by Tommy Hughes already exists! I've shipped mine purely because <code>llm-zai</code> doesn't yet support the new model, but I'll likely retire mine once that plugin catches up.</p> <p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fae838c5a6837ca0a602c180c07ac0887\">pelicans for GLM-5.4</a> on low, high, and max. This is the max one:</p> <p><img alt=\"It's not great to be honest - the pelican is recognizable, but the bicycle frame has a funny front bar connection post and doesn't look like it would steer.\" src=\"https://static.simonwillison.net/static/2026/glm-5.4-max.webp\" /></p> <p>I realized I never ran pelicans for GLM-5.3, so <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F8826d1366dcc98783c7cbc593f6a6e77\">here those are</a> for the same effort levels. They look similar in quality to 5.4.</p> <p>It's interesting how <a href=\"https://simonwillison.net/2026/Apr/7/glm-51/\">GLM 5.1</a> and <a href=\"https://simonwillison.net/2026/Jun/17/glm-52/#excellent-pelican-disappointing-opossum\">GLM 5.2</a> produced radically different pelicans from other models. The pelicans for 5.3 and 5.4 are much more comparable to those I get from OpenAI or Anthropic models - the previous generations had their own distinctive look.</p> <p>I made a <a href=\"https://static.simonwillison.net/static/2026/glm-pelican-comparison.html\">comparison grid</a> showing the four generations of GLM pelicans all in one place. The style transition between 5.2 and 5.3 is pretty stark.</p> <p><img alt=\"The 5.4 and 5.3 pelicans look similar at all three levels. The 5.2 one is on a cyberpunk bicycle. The 5.1 is much more colorful and animated.\" src=\"https://static.simonwillison.net/static/2026/glm-family-4.webp\" /> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/glm\">glm</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/23/glm-54/",
+        "images": [],
+        "ageHours": 10.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:105d2dd6f5d647be",
+          "title:efabf512a4dfdeae"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bf2b853553a4f501": {
+      "id": "defer:url:bf2b853553a4f501",
+      "at": "2026-11-24T10:31:09.447Z",
+      "firstAt": "2026-11-24T10:31:09.447Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:bf2b853553a4f501",
+        "title:5602c56c4cbca286"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+        "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+        "published": "Mon, 23 Nov 2026 21:30:44 +0000",
+        "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-500x500.jpg"
+        ],
+        "ageHours": 13,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:bf2b853553a4f501",
+          "title:5602c56c4cbca286"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:2ee4674409e7413b": {
+      "id": "defer:url:2ee4674409e7413b",
+      "at": "2026-11-24T10:31:09.447Z",
+      "firstAt": "2026-11-24T10:31:09.447Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:2ee4674409e7413b",
+        "title:be35dbc2fda0c850"
+      ],
+      "canonical": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+      "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+      "candidate": {
+        "sourceId": "the-record",
+        "sourceName": "The Record",
+        "sourceType": "news",
+        "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+        "link": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+        "canonical": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+        "published": "Mon, 23 Nov 2026 18:37:00 GMT",
+        "summary": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
+        "messageText": "",
+        "leadPostUrl": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+        "images": [
+          "http://cms.therecord.media/uploads/signal_icon_brett_jordan_unsplash_9bbe4ed6d8.jpg"
+        ],
+        "ageHours": 15.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:2ee4674409e7413b",
+          "title:be35dbc2fda0c850"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:10878202550bbbf9": {
+      "id": "defer:url:10878202550bbbf9",
+      "at": "2026-11-24T10:31:09.447Z",
+      "firstAt": "2026-11-24T10:31:09.447Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:10878202550bbbf9",
+        "title:a2ef9367388aadb1"
+      ],
+      "canonical": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "title": "Connected intelligence for in-house legal",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Connected intelligence for in-house legal",
+        "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "canonical": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "published": "Mon, 23 Nov 2026 08:00:00 GMT",
+        "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "images": [],
+        "ageHours": 26.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:10878202550bbbf9",
+          "title:a2ef9367388aadb1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:14c12e212d38f00c": {
+      "id": "defer:url:14c12e212d38f00c",
+      "at": "2026-11-24T10:37:32.161Z",
+      "firstAt": "2026-11-24T10:37:32.161Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:14c12e212d38f00c",
+        "title:0c702722b1a9559e"
+      ],
+      "canonical": "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+      "title": "شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی",
+        "link": "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+        "canonical": "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+        "messageText": "شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی اجازه میده خودش تغییرات کد رو تایید کنه\n\nسه بخش داره: Code Review که همین حالا فعاله، PR Steward که مشکلاتی مثل شکست خوردن تست‌های CI رو درست می‌کنه، و Claude Approvals که تغییرات روتین رو طبق سیاست‌هایی که تیمت تعیین می‌کنه تایید می‌کنه.\n\nشرکت Anthropic می‌گه بیشتر کد تیم خود Claude Code رو همین Claude می‌نویسه و می‌خواسته کارهای بعد از PR هم به همون سرعت پیش بره.\n\ntechcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/\n\n@dunijet_ai\n\n❤4",
+        "leadPostUrl": "https://t.me/dunijet_ai/2609",
+        "published": "2026-11-24T09:22:04+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:14c12e212d38f00c",
+          "title:0c702722b1a9559e"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2609,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      },
+      "detail": "tools"
+    },
+    "defer:url:9447d2e67a707c8a": {
+      "id": "defer:url:9447d2e67a707c8a",
+      "at": "2026-11-24T10:39:49.972Z",
+      "firstAt": "2026-11-24T10:39:49.972Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:9447d2e67a707c8a",
+        "title:d663403028afda6e"
+      ],
+      "canonical": "https://github.com/Jakeschincariol/founder-skill",
+      "title": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a",
+      "candidate": {
+        "sourceId": "tg-mgh-mobin",
+        "sourceName": "M G H M O B I N",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a",
+        "link": "https://github.com/Jakeschincariol/founder-skill",
+        "canonical": "https://github.com/Jakeschincariol/founder-skill",
+        "messageText": "۵ ابزار برای شروع کار با Claude Code ⚡️\nاگه کلاد توی هر جلسه از صفر شروع می‌کنه، یه اشتباه رو چند بار تکرار می‌کنه یا برای یه تغییر کوچیک کلی کد می‌نویسه، این ۵ ابزار رو ببین. هرکدوم یه کار مشخص انجام می‌دن 👇\n\n۱. اسکیل Founder Skill\nقبل از اینکه وقت و پول بذاری پای ساخت محصول، ایده‌ت رو به ابزار Founder Board بده. با نگاه الکس هرمزی، پیتر تیل و استیو جابز ایده رو بررسی می‌کنه و می‌گه کدوم فرض‌هات هنوز نیاز به تست دارن. GitHub\n🔗 github.com/Jakeschincariol/founder-skill\n\n۲. اسکیل Napkin\nیه دفترچه برای هر پروژه می‌سازه. کلاد توش می‌نویسه کجا اشتباه کرده، چی رو اصلاح کردی و چه روشی جواب داده. جلسهٔ بعد همون یادداشت‌ها رو می‌خونه تا دوباره از همون راه اشتباه نره. GitHub\n🔗 github.com/blader/napkin\n\n۳. اسکیل Ponytail\nبه کلاد می‌گه قبل از نوشتن کد جدید، ببینه چی از قبل توی پروژه هست. مثلاً اگه برای انتخاب تاریخ یه ورودی ساده کفایت می‌کنه، سراغ ساخت یه تقویم کامل نره. GitHub\n🔗 github.com/DietrichGebert/ponytail\n\n۴. اسکیل Claude Mem\nیه افزونه‌ست که از کارهای انجام‌شده توی هر جلسه یادداشت برمی‌داره و اطلاعات مرتبط رو جلسهٔ بعد در اختیار کلاد می‌ذاره. برای پروژه‌هایی خوبه که چند روز روشون کار می‌کنی و هر بار باید توضیح بدی تا کجا پیش رفتی. GitHub\n🔗 github.com/thedotmack/claude-mem\n\n۵. اسکیل Awesome DESIGN.md\nیه مجموعه از فایل‌های راهنمای طراحی بر اساس تحلیل سایت‌هایی مثل Notion، Linear و Vercel. فایل سبک دلخواهت رو بذار توی پروژه تا کلاد برای انتخاب رنگ، فونت و فاصله‌گذاری یه مرجع مشخص داشته باشه. GitHub\n🔗 github.com/VoltAgent/awesome-design-md\n\n@mgh_mobin",
+        "leadPostUrl": "https://t.me/mgh_mobin/509",
+        "published": "2026-11-24T08:13:25+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/Jakeschincariol/founder-skill",
+          "https://github.com/blader/napkin",
+          "https://github.com/DietrichGebert/ponytail",
+          "https://github.com/thedotmack/claude-mem/blob/main/docs/public/introduction.mdx",
+          "https://github.com/thedotmack/claude-mem",
+          "http://design.md/",
+          "https://github.com/VoltAgent/awesome-design-md"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:9447d2e67a707c8a",
+          "title:d663403028afda6e"
+        ],
+        "leadSource": "mgh_mobin",
+        "leadMessageId": 509,
+        "leadChannelUrl": "https://t.me/mgh_mobin",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      },
+      "detail": "tools"
     }
   },
   "slots": {
@@ -21560,6 +21816,37 @@
           "at": "2026-11-24T08:18:16.969Z"
         }
       ]
+    },
+    "2026-11-24T14:00+03:30": {
+      "at": "2026-11-24T10:36:49.279Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "اسکیل جدیدی که پرامپت دقیق برای هر ابزار هوش مصنوعی می‌نویسه",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/14-00",
+      "messageId": 151,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.00476336,
+      "tokens": 32347,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "اسکیل جدیدی که پرامپت دقیق برای هر ابزار هوش مصنوعی می‌نویسه",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 151,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-24/14-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00333172,
+          "tokens": 22319,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-24T10:36:49.279Z"
+        }
+      ]
     }
   },
   "published": [
@@ -23908,120 +24195,114 @@
       "sourceTitle": "OpenAI and Cisco introduce Shirudo",
       "sourceText": "An open-source runtime that helps operators protect running Linux systems without needing to wait for the patch or restarts\nOpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches. In a controlled test ⁠ (opens in a new window) , a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart.\nWe’re inviting developers, security researchers, and infrastructure operators across the industry to help develop the project further. The project brings together OpenAI’s frontier AI, security and infrastructure research and Cisco’s infrastructure and security expertise to help protect the systems people rely on every day.\nTesting and deploying a patch can still take days or weeks. Protecting a service in the meantime can be challenging because an exploit and a legitimate request may rely on the same Linux operation. Blocking that operation entirely could take the service offline.\nShirudo (Japanese for “shield”) is designed to help security teams navigate this tradeoff. Teams can test whether a temporary safeguard, called a shield, blocks the behavior that exposes a vulnerability while allowing legitimate requests through. Once an operator approves the shield, it can be deployed while the service continues running.\nShirudo uses eBPF, a Linux technology that allows small programs to run at specific points inside the operating system. This makes it possible to observe suspicious activity and apply targeted security protections to running systems.\nH",
       "at": "2026-11-24T08:18:16.969Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-24T14:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "اسکیل جدیدی که پرامپت دقیق برای هر ابزار هوش مصنوعی می‌نویسه",
+      "why": "با این ابزار، دیگه لازم نیست برای رسیدن به جواب درست، چند بار پرامپت رو عوض کنی و هزینه اضافی بپردازی.",
+      "dedupe_key": "prompt-master-claude-skill-launch",
+      "post_key": "2026-11-24/14-00/1",
+      "sourceId": "tg-codecloude",
+      "sourceName": "Code.Cloud | کـــد کلاد",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "sourceTitle": "GitHub - nidhinjs/prompt-master: A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "sourceText": "🔥 با این ابزار رایگان، کمتر محدودیت Claude رو هدر بده!\n\nاگه با Claude کار کرده باشی، احتمالاً برات پیش اومده که یه درخواست ساده بدی، ولی برای رسیدن به نتیجه دلخواهت مجبور بشی چندین بار اصلاحش کنی! 😐\n\n🧠 پرامپت مستر ( Prompt Master ) یه ابزار رایگان و متن‌بازه که قبل از ارسال درخواست، پرامپتت رو بررسی می‌کنه و کمک می‌کنه دقیق‌تر و حرفه‌ای‌تر بنویسی.\n\n⚡ چه قابلیت‌هایی داره؟\n\n🔸 بررسی و بهینه‌سازی پرامپت با ۳۷ معیار\n🔸 نصب مستقیم به‌عنوان Skill در Claude\n🔸 پشتیبانی از ۱۴ قالب مختلف پرامپت\n🔸 کاربردی برای کدنویسی، طراحی سایت، تولید محتوا و تصویرسازی\n🔸 کاهش اصلاحات تکراری و مصرف غیرضروری توکن\n\n📥 دانلود رایگان از GitHub:\n\n🛠 روش نصب در Claude:\n\n1. از لینک بالا پروژه رو دانلود کن.\n2. وارد Claude شو و بخش Customize → Skills رو باز کن.\n3. فایل Skill رو طبق راهنمای پروژه بارگذاری کن.\n4. حالا از Claude بخواه با Prompt Master درخواستت رو بهینه کنه.\n\n💡 این ابزار محدودیت Claude رو دور نمی‌زنه، اما می‌تونه کمک کنه با درخواست‌های دقیق‌تر، از ظرفیتت بهتر استفاده کنی.\n\n📌 این پست رو ذخیره کن و برای دوستات هم بفرست!\n\n🌐 www.CodeCloude.ir | کد کلاد\n📱 @codecloude\n💬x.com\n📷instagram\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n🔥5🤯2🤷1",
+      "at": "2026-11-24T10:36:49.279Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8559,
-      "last_at": "2026-11-24T06:36:43+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 8561,
+      "last_at": "2026-11-24T10:17:11+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "ai_farshad": {
       "last_id": 6518,
       "last_at": "2026-11-24T07:51:39+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "Mohammad_zammani": {
       "last_id": 7270,
       "last_at": "2026-11-24T06:55:38+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "techiin_ir": {
-      "last_id": 20838,
-      "last_at": "2026-11-23T09:40:01+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 20839,
+      "last_at": "2026-11-23T09:45:02+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "mgh_mobin": {
-      "last_id": 508,
-      "last_at": "2026-11-24T07:05:11+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 509,
+      "last_at": "2026-11-24T08:13:25+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "asrnovin_ir": {
-      "last_id": 11526,
-      "last_at": "2026-11-24T06:26:32+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 11527,
+      "last_at": "2026-11-24T08:24:54+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "codecloude": {
-      "last_id": 2617,
-      "last_at": "2026-11-24T07:04:26+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 2618,
+      "last_at": "2026-11-24T10:21:09+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "dunijet_ai": {
-      "last_id": 2608,
-      "last_at": "2026-11-23T18:13:57+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 2609,
+      "last_at": "2026-11-24T09:22:04+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "MatinSenPaii": {
-      "last_id": 5977,
-      "last_at": "2026-11-24T05:04:04+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 5980,
+      "last_at": "2026-11-24T09:09:59+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     },
     "thenimaonAI": {
-      "last_id": 569,
-      "last_at": "2026-11-23T14:42:38+00:00",
-      "checked_at": "2026-11-24T08:01:09.736Z"
+      "last_id": 578,
+      "last_at": "2026-11-24T09:20:29+00:00",
+      "checked_at": "2026-11-24T10:30:56.466Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-10|tg-thenima|https://t.me/thenimaonAI/491",
-      "date": "2026-11-10",
-      "at": "2026-11-10T10:30:44.462Z",
-      "source": "tg-thenima",
-      "title": "عضویت کانال AI Lab محدوده دلیلشم اینه وقتی تعداد از یه حدی بگذره مدیریت٬ پشتیبانی و",
-      "url": "https://t.me/thenimaonAI/491",
-      "reason": "no_link",
-      "slot": "2026-11-10T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-thenima|https://t.me/thenimaonAI/489",
-      "date": "2026-11-10",
-      "at": "2026-11-10T10:30:44.462Z",
-      "source": "tg-thenima",
-      "title": "👆 این ویدیو نمونه‌ای از کارهاییه که یکی از بچه‌های AI Lab با زحمت خودش طراحی",
-      "url": "https://t.me/thenimaonAI/489",
-      "reason": "no_link",
-      "slot": "2026-11-10T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-10|tg-matin-senpai|https://t.me/MatinSenPaii/5838",
       "date": "2026-11-10",
@@ -27549,6 +27830,18 @@
       "slot": "2026-11-24T11:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-thenima|https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/j/1",
+      "date": "2026-11-24",
+      "at": "2026-11-24T10:30:56.466Z",
+      "source": "tg-thenima",
+      "title": "سیف‌زی | AI Product Engineer | جاب‌ویژن",
+      "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/j/1",
+      "reason": "model_skip",
+      "slot": "2026-11-24T14:00+03:30",
+      "kind": "tool",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -27901,6 +28194,13 @@
       "url": "https://manus.im/",
       "slot": "2026-11-24T11:30+03:30",
       "at": "2026-11-24T08:01:09.736Z"
+    },
+    {
+      "source": "tg-thenima",
+      "title": "AI Lab | از یادگیری تا ساختن",
+      "url": "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/",
+      "slot": "2026-11-24T14:00+03:30",
+      "at": "2026-11-24T10:30:56.466Z"
     }
   ],
   "reviewPending": {},
