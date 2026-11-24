@@ -10654,6 +10654,10 @@
     },
     "22cdc733dc": {
       "id": "22cdc733dc",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-24T08:01:09.736Z",
+      "updatedAt": "2026-11-24T08:01:09.736Z",
       "messageId": 206,
       "chatId": "-1003917550874",
       "slot": "2026-11-24T11:30+03:30",
@@ -10688,10 +10692,6 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-24T08:01:09.736Z",
-      "updatedAt": "2026-11-24T08:01:09.736Z",
       "lastActionAt": "",
       "sentAt": ""
     }
