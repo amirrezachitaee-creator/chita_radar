@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T17:52:24.140Z",
+  "updatedAt": "2026-11-24T19:31:29.749Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16844,299 +16844,63 @@
       "title": "GitHub - Jakeschincariol/founder-skill: Eleven free Claude skills that test a business before you launch it: a",
       "url": "https://github.com/Jakeschincariol/founder-skill",
       "benchmark": false
+    },
+    "url:4e3081247a551ab3": {
+      "at": "2026-11-24T19:31:08.502Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "Speculative Decoding",
+      "url": "https://machinelearningmastery.com/speculative-decoding"
+    },
+    "title:79eaa52f46f62294": {
+      "at": "2026-11-24T19:31:08.502Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "Speculative Decoding",
+      "url": "https://machinelearningmastery.com/speculative-decoding"
+    },
+    "url:05544c798129dba4": {
+      "at": "2026-11-24T19:31:12.233Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "✅ فعالیت ستاد هوش مصنوعی با دبیری معاونت علمی ریاست جمهوری",
+      "url": "https://t.me/techiin_ir/20843"
+    },
+    "title:94c2541940a10463": {
+      "at": "2026-11-24T19:31:12.233Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "✅ فعالیت ستاد هوش مصنوعی با دبیری معاونت علمی ریاست جمهوری",
+      "url": "https://t.me/techiin_ir/20843"
+    },
+    "url:bf8c71fe2ac4958a": {
+      "at": "2026-11-24T19:31:29.746Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+      "url": "https://arxiv.org/abs/2611.31185v1"
+    },
+    "title:c4a08bc6de96498e": {
+      "at": "2026-11-24T19:31:29.746Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-24T23:00+03:30",
+      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+      "url": "https://arxiv.org/abs/2611.31185v1"
     }
   },
   "deferred": {
-    "defer:url:355871b4c59f61e6": {
-      "id": "defer:url:355871b4c59f61e6",
-      "at": "2026-11-22T17:01:44.798Z",
-      "firstAt": "2026-11-22T17:01:44.798Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:355871b4c59f61e6",
-        "title:d3b318b928a3d7f1"
-      ],
-      "canonical": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
-      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-        "link": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
-        "canonical": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
-        "published": "Sun, 22 Nov 2026 15:15:48 +0000",
-        "summary": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tasks completely. The models finish clear, standalone assignments quickly, but they lose track as autonomous developers. The article AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg"
-        ],
-        "ageHours": 1.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:355871b4c59f61e6",
-          "title:d3b318b928a3d7f1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:977e654476b3a126": {
-      "id": "defer:url:977e654476b3a126",
-      "at": "2026-11-22T17:01:44.798Z",
-      "firstAt": "2026-11-22T17:01:44.798Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:977e654476b3a126",
-        "title:f1a04535d9301920"
-      ],
-      "canonical": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
-      "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
-        "link": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
-        "canonical": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
-        "published": "Sun, 22 Nov 2026 14:20:28 +0000",
-        "summary": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business through developer tools. The article Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/06/Perplexity-Logo-Silhouette-Nano-Banana-Pro.jpg"
-        ],
-        "ageHours": 2.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:977e654476b3a126",
-          "title:f1a04535d9301920"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:28c48f816e4d2e4f": {
-      "id": "defer:url:28c48f816e4d2e4f",
-      "at": "2026-11-22T19:31:20.993Z",
-      "firstAt": "2026-11-22T19:31:20.993Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:28c48f816e4d2e4f",
-        "title:6b118de322f22733"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans",
-      "title": "TechCrunch Mobility: A/B testing robots vs. humans",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "TechCrunch Mobility: A/B testing robots vs. humans",
-        "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
-        "canonical": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans",
-        "published": "Sun, 22 Nov 2026 17:06:00 +0000",
-        "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
-        "images": [],
-        "ageHours": 2.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:28c48f816e4d2e4f",
-          "title:6b118de322f22733"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c2b44c28b03b2b1f": {
-      "id": "defer:url:c2b44c28b03b2b1f",
-      "at": "2026-11-23T08:02:01.875Z",
-      "firstAt": "2026-11-23T08:02:01.875Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:c2b44c28b03b2b1f",
-        "title:7ffd887ed7a07b1b"
-      ],
-      "canonical": "https://www.producthunt.com/products/plango",
-      "title": "Plango",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Plango",
-        "link": "https://www.producthunt.com/products/plango",
-        "canonical": "https://www.producthunt.com/products/plango",
-        "published": "2026-11-22T09:08:26-08:00",
-        "summary": "<p> Plango lets your AI agents work all night - safely </p> <p> <a href=\"https://www.producthunt.com/products/plango?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1326568?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/plango",
-        "images": [],
-        "ageHours": 14.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:c2b44c28b03b2b1f",
-          "title:7ffd887ed7a07b1b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:50eaee9a34139795": {
-      "id": "defer:url:50eaee9a34139795",
-      "at": "2026-11-23T10:33:04.681Z",
-      "firstAt": "2026-11-23T10:33:04.681Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:50eaee9a34139795",
-        "title:e974a6ee9a7bb627"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-        "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-        "canonical": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
-        "published": "Mon, 23 Nov 2026 01:25:53 +0000",
-        "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-        "images": [],
-        "ageHours": 9.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:50eaee9a34139795",
-          "title:e974a6ee9a7bb627"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:883b69d3f986860b": {
-      "id": "defer:url:883b69d3f986860b",
-      "at": "2026-11-23T10:33:04.681Z",
-      "firstAt": "2026-11-23T10:33:04.681Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:883b69d3f986860b",
-        "title:b6158f63a25b9cdb"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-        "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-        "canonical": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
-        "published": "Sun, 22 Nov 2026 21:14:07 +0000",
-        "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-        "images": [],
-        "ageHours": 13.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:883b69d3f986860b",
-          "title:b6158f63a25b9cdb"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:adb89e6d7a020e3c": {
       "id": "defer:url:adb89e6d7a020e3c",
       "at": "2026-11-23T13:31:56.614Z",
@@ -17252,69 +17016,6 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
-      }
-    },
-    "defer:url:2ed4d92d13921381": {
-      "id": "defer:url:2ed4d92d13921381",
-      "at": "2026-11-23T13:31:56.614Z",
-      "firstAt": "2026-11-23T13:31:56.614Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:2ed4d92d13921381",
-        "title:2a7e4de7ae9e7285"
-      ],
-      "canonical": "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html",
-      "title": "وقتی هوش مصنوعی به‌جامون فکر می‌کنه، ذهنمون تنبل می‌شه؟ — مرتضی باش‌سیز",
-      "candidate": {
-        "sourceId": "tg-matin-senpai",
-        "sourceName": "MatinSenPaii",
-        "sourceType": "telegram_channel",
-        "title": "وقتی هوش مصنوعی به‌جامون فکر می‌کنه، ذهنمون تنبل می‌شه؟ — مرتضی باش‌سیز",
-        "link": "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html",
-        "canonical": "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html",
-        "messageText": "یه جمله توی این پست دیدم که زیبا بود:\n\"آینده مال کساییه که هنوز می‌تونن خودشون فکر کنن\"\nو باهاش موافقم",
-        "leadPostUrl": "https://t.me/MatinSenPaii/5962",
-        "published": "2026-11-23T10:51:47+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 2.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://bashsiz.com/fa/blog/when-ai-thinks-for-us.html"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:2ed4d92d13921381",
-          "title:2a7e4de7ae9e7285"
-        ],
-        "leadSource": "MatinSenPaii",
-        "leadMessageId": 5962,
-        "leadChannelUrl": "https://t.me/MatinSenPaii",
-        "sourceFocus": "education",
-        "leadKind": "news",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
       }
     },
     "defer:url:27a6b6af092d6a67": {
@@ -18772,9 +18473,9 @@
     },
     "defer:url:a7a0adf7d6c734e3": {
       "id": "defer:url:a7a0adf7d6c734e3",
-      "at": "2026-11-24T17:02:44.988Z",
+      "at": "2026-11-24T19:31:27.773Z",
       "firstAt": "2026-11-24T17:02:44.988Z",
-      "attempts": 0,
+      "attempts": 1,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
@@ -18816,8 +18517,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:a7a0adf7d6c734e3",
+          "attempts": 0
+        }
+      },
+      "detail": "tools"
     },
     "defer:url:a9a1f591c3b5ca40": {
       "id": "defer:url:a9a1f591c3b5ca40",
@@ -19061,52 +18767,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:bf8c71fe2ac4958a": {
-      "id": "defer:url:bf8c71fe2ac4958a",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:bf8c71fe2ac4958a",
-        "title:c4a08bc6de96498e"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.31185v1",
-      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
-        "link": "https://arxiv.org/abs/2611.31185v1",
-        "canonical": "https://arxiv.org/abs/2611.31185v1",
-        "published": "2026-11-23T18:38:53Z",
-        "summary": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agnostic interventional attribution framework in which an RL-trained agent and its pre-RL initialization jointly generate a single trajectory under closed-loop execution with live retrieval. Each policy controls a mutually exclusive subset of four functional roles: intermediate reasoning, search-or-answer decision, search query generation, and final answer extraction. Evaluating all 2^4=16 role assignments without modifying weights or retraining defines a cooperative game whose Shapley values decompose the total RL gain across roles, while M\"obius interaction terms distinguish standalone role improvements from multi-role coupling. Applying CO-GRAFT to Search-R1 agents across Qwen2.5 and Llama-3.2 models (spanning two sizes, base and instruction-tuned initializations, GRPO and PPO optimizers, and NQ and HotpotQA datasets), we show that query generation never exceeds 15% of the total gain; instead, gains are governed by pre-RL answer validity, search retention, model scale, and fixed task-level search budgets, shifting credit from reasoning toward answer extraction in larger or well-formatted answer response checkpoints while smaller base models rely on reasoning--decision coupling.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.31185v1",
-        "images": [],
-        "ageHours": 22.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:bf8c71fe2ac4958a",
-          "title:c4a08bc6de96498e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:12e3e0bf572ed55e": {
       "id": "defer:url:12e3e0bf572ed55e",
       "at": "2026-11-24T17:02:44.989Z",
@@ -19334,6 +18994,393 @@
         "keys": [
           "url:141c148d6874e34e",
           "title:1fb2ac6872603048"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5e42b2783f9731cb": {
+      "id": "defer:url:5e42b2783f9731cb",
+      "at": "2026-11-24T19:31:12.245Z",
+      "firstAt": "2026-11-24T19:31:12.245Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:5e42b2783f9731cb",
+        "title:6bcd4eab92bbba3b"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents",
+      "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+        "link": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+        "canonical": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents",
+        "published": "Tue, 24 Nov 2026 19:23:41 +0000",
+        "summary": "Two years after launch, Anthropic reports more than 700 million monthly downloads for its MCP interface standard. New features such as background tasks, follow-up questions for users, and file uploads are meant to let Claude work more independently. The article Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
+        ],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:5e42b2783f9731cb",
+          "title:6bcd4eab92bbba3b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7992bf690613aecd": {
+      "id": "defer:url:7992bf690613aecd",
+      "at": "2026-11-24T19:31:12.245Z",
+      "firstAt": "2026-11-24T19:31:12.245Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7992bf690613aecd",
+        "title:586bfb60d1e7e394"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+        "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+        "canonical": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+        "published": "Tue, 24 Nov 2026 18:30:42 +0000",
+        "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:7992bf690613aecd",
+          "title:586bfb60d1e7e394"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7538e4a083698160": {
+      "id": "defer:url:7538e4a083698160",
+      "at": "2026-11-24T19:31:12.245Z",
+      "firstAt": "2026-11-24T19:31:12.245Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7538e4a083698160",
+        "title:0cf714c93eda9904"
+      ],
+      "canonical": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease",
+      "title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
+        "link": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
+        "canonical": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease",
+        "published": "Tue, 24 Nov 2026 18:01:55 +0000",
+        "summary": "Novartis CEO Vas Narasimhan, who also sits on Anthropic's board, is pushing back on the cure-all promises from Anthropic CEO Amodei and DeepMind founder Hassabis. AI will speed up drug development, he says, but it won't beat cancer in a decade. The real value lies \"somewhere in the middle.\" The article Novartis CEO says AI will shave four years off drug development, not cure all disease appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/claude_novartis.png"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7538e4a083698160",
+          "title:0cf714c93eda9904"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:e86585c397fb091d": {
+      "id": "defer:url:e86585c397fb091d",
+      "at": "2026-11-24T19:31:12.245Z",
+      "firstAt": "2026-11-24T19:31:12.245Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e86585c397fb091d",
+        "title:e2d3394d4fa5c6e5"
+      ],
+      "canonical": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress",
+      "title": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
+        "link": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
+        "canonical": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress",
+        "published": "Tue, 24 Nov 2026 17:58:44 +0000",
+        "summary": "OpenAI researcher Noam Brown is urging promising students to drop out, saying it's \"not a great time to sit on the sidelines.\" The o1 co-creator says AI is still in a \"centaur period\" and struggles with planning and self-correction, though he expects a \"very steep rate of progress\" soon. According to Brown, language models are already being used to build the next generation of models. The article OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\" appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/openai_driscoll.png"
+        ],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:e86585c397fb091d",
+          "title:e2d3394d4fa5c6e5"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4113acb1424b41bb": {
+      "id": "defer:url:4113acb1424b41bb",
+      "at": "2026-11-24T19:31:12.245Z",
+      "firstAt": "2026-11-24T19:31:12.245Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:4113acb1424b41bb",
+        "title:2b0b671c5b50cd88"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+        "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+        "canonical": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+        "published": "Tue, 24 Nov 2026 18:02:59 +0000",
+        "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+        "images": [],
+        "ageHours": 1.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:4113acb1424b41bb",
+          "title:2b0b671c5b50cd88"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:89a905d5eae9fa3e": {
+      "id": "defer:url:89a905d5eae9fa3e",
+      "at": "2026-11-24T19:31:12.246Z",
+      "firstAt": "2026-11-24T19:31:12.246Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:89a905d5eae9fa3e",
+        "title:9e9ee9335fc7b859"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/ifood",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "How iFood scales coding agents across 15,000 repositories",
+        "link": "https://openai.com/business/customer-stories/ifood",
+        "canonical": "https://openai.com/business/customer-stories/ifood",
+        "published": "Tue, 24 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/ifood",
+        "images": [],
+        "ageHours": 19.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:89a905d5eae9fa3e",
+          "title:9e9ee9335fc7b859"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7758c04a629331bf": {
+      "id": "defer:url:7758c04a629331bf",
+      "at": "2026-11-24T19:31:12.246Z",
+      "firstAt": "2026-11-24T19:31:12.246Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7758c04a629331bf",
+        "title:a703d13085eef862"
+      ],
+      "canonical": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "title": "Searching for distant planets with Astra",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Searching for distant planets with Astra",
+        "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+        "canonical": "https://openai.com/index/searching-for-distant-planets-with-astra",
+        "published": "Tue, 24 Nov 2026 11:00:00 GMT",
+        "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/searching-for-distant-planets-with-astra",
+        "images": [],
+        "ageHours": 8.5,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7758c04a629331bf",
+          "title:a703d13085eef862"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:7e14b56be6744308": {
+      "id": "defer:url:7e14b56be6744308",
+      "at": "2026-11-24T19:31:12.246Z",
+      "firstAt": "2026-11-24T19:31:12.246Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:7e14b56be6744308",
+        "title:51cc66f43581801f"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/intentful-dots",
+      "title": "How Intentful uses dots to make more time for growth",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "How Intentful uses dots to make more time for growth",
+        "link": "https://openai.com/business/customer-stories/intentful-dots",
+        "canonical": "https://openai.com/business/customer-stories/intentful-dots",
+        "published": "Tue, 24 Nov 2026 00:00:00 GMT",
+        "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/intentful-dots",
+        "images": [],
+        "ageHours": 19.5,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:7e14b56be6744308",
+          "title:51cc66f43581801f"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -22919,6 +22966,14 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "42/43"
+    },
+    "2026-11-24T23:00+03:30": {
+      "at": "2026-11-24T19:31:29.746Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.001950396,
+      "tokens": 30166,
+      "posts": []
     }
   },
   "published": [
@@ -25345,126 +25400,90 @@
     "ArchiveTell": {
       "last_id": 8570,
       "last_at": "2026-11-24T17:13:17+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "ai_farshad": {
       "last_id": 6521,
       "last_at": "2026-11-24T16:33:52+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "Mohammad_zammani": {
       "last_id": 7272,
       "last_at": "2026-11-24T13:56:43+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "techiin_ir": {
-      "last_id": 20842,
-      "last_at": "2026-11-23T18:45:13+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "last_id": 20843,
+      "last_at": "2026-11-24T09:24:15+00:00",
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "mgh_mobin": {
       "last_id": 511,
       "last_at": "2026-11-24T11:32:16+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "asrnovin_ir": {
       "last_id": 11531,
       "last_at": "2026-11-24T16:33:17+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "shayanode": {
       "last_id": 267,
       "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "codecloude": {
       "last_id": 2620,
       "last_at": "2026-11-24T17:16:20+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "dunijet_ai": {
       "last_id": 2612,
       "last_at": "2026-11-24T16:03:31+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "MatinSenPaii": {
-      "last_id": 5985,
-      "last_at": "2026-11-24T13:40:20+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "last_id": 5986,
+      "last_at": "2026-11-24T19:20:38+00:00",
+      "checked_at": "2026-11-24T19:30:55.627Z"
     },
     "thenimaonAI": {
       "last_id": 578,
       "last_at": "2026-11-24T09:20:29+00:00",
-      "checked_at": "2026-11-24T17:51:27.115Z"
+      "checked_at": "2026-11-24T19:30:55.627Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-10|tg-techiin|https://t.me/techiin_ir/20747",
-      "date": "2026-11-10",
-      "at": "2026-11-10T19:30:43.236Z",
-      "source": "tg-techiin",
-      "title": "✅ کوچک‌ترین و بهینه‌ترین مدل متا برای اجرای ایجنت‌ها رونمایی شد",
-      "url": "https://t.me/techiin_ir/20747",
-      "reason": "denied_link",
-      "slot": "2026-11-10T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-matin-senpai|https://t.me/MatinSenPaii/5839",
-      "date": "2026-11-10",
-      "at": "2026-11-10T19:30:43.236Z",
-      "source": "tg-matin-senpai",
-      "title": "اینم موشن گرافیکی که Claude Opus 5.5 ساخت توی 18 دقیقه هیچ ابزار خاصی هم نصب",
-      "url": "https://t.me/MatinSenPaii/5839",
-      "reason": "denied_link",
-      "slot": "2026-11-10T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-10|tg-ai-farshad|https://nvlabs.github.io/Sana/Sol-Engine/",
-      "date": "2026-11-10",
-      "at": "2026-11-10T19:30:43.236Z",
-      "source": "tg-ai-farshad",
-      "title": "Sol Video Inference Engine | Agent-Native Full-Stack Acceleration",
-      "url": "https://nvlabs.github.io/Sana/Sol-Engine/",
-      "reason": "model_skip",
-      "slot": "2026-11-10T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-11|offer-watch:perq|https://perq.sh/",
       "date": "2026-11-11",
@@ -29040,16 +29059,21 @@
       "slot": "2026-11-24T20:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-24|tg-techiin|https://t.me/techiin_ir/20843",
+      "date": "2026-11-24",
+      "at": "2026-11-24T19:30:55.627Z",
+      "source": "tg-techiin",
+      "title": "✅ فعالیت ستاد هوش مصنوعی با دبیری معاونت علمی ریاست جمهوری",
+      "url": "https://t.me/techiin_ir/20843",
+      "reason": "denied_link",
+      "slot": "2026-11-24T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "kdnuggets",
-      "title": "How to Use AI for Enterprise BI",
-      "url": "https://www.kdnuggets.com/2026/11/lansa/how-to-use-ai-for-enterprise-bi",
-      "slot": "2026-11-10T23:00+03:30",
-      "at": "2026-11-10T19:30:43.236Z"
-    },
     {
       "source": "machinelearningmastery",
       "title": "Sandboxing AI Agent Code Execution in Python: Containers, MicroVMs and Beyond",
