@@ -10697,6 +10697,10 @@
     },
     "9602cc89e4": {
       "id": "9602cc89e4",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-24T10:30:56.466Z",
+      "updatedAt": "2026-11-24T10:30:56.466Z",
       "messageId": 209,
       "chatId": "-1003917550874",
       "slot": "2026-11-24T14:00+03:30",
@@ -10739,10 +10743,6 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-24T10:30:56.466Z",
-      "updatedAt": "2026-11-24T10:30:56.466Z",
       "lastActionAt": "",
       "sentAt": ""
     }
