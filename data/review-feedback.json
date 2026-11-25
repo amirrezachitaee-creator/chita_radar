@@ -11996,6 +11996,10 @@
     },
     "65297d8ba2": {
       "id": "65297d8ba2",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-25T13:30:57.906Z",
+      "updatedAt": "2026-11-25T13:30:57.906Z",
       "messageId": 242,
       "chatId": "-1003917550874",
       "slot": "2026-11-25T17:00+03:30",
@@ -12032,15 +12036,15 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-25T13:30:57.906Z",
-      "updatedAt": "2026-11-25T13:30:57.906Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "45654f83c7": {
       "id": "45654f83c7",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-25T13:30:57.906Z",
+      "updatedAt": "2026-11-25T13:30:57.906Z",
       "messageId": 243,
       "chatId": "-1003917550874",
       "slot": "2026-11-25T17:00+03:30",
@@ -12075,15 +12079,15 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-25T13:30:57.906Z",
-      "updatedAt": "2026-11-25T13:30:57.906Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "e37daff331": {
       "id": "e37daff331",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-25T13:30:57.906Z",
+      "updatedAt": "2026-11-25T13:30:57.906Z",
       "messageId": 244,
       "chatId": "-1003917550874",
       "slot": "2026-11-25T17:00+03:30",
@@ -12123,15 +12127,15 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-25T13:30:57.906Z",
-      "updatedAt": "2026-11-25T13:30:57.906Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "8a6a28e0c7": {
       "id": "8a6a28e0c7",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-25T13:30:57.906Z",
+      "updatedAt": "2026-11-25T13:30:57.906Z",
       "messageId": 245,
       "chatId": "-1003917550874",
       "slot": "2026-11-25T17:00+03:30",
@@ -12174,15 +12178,15 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-25T13:30:57.906Z",
-      "updatedAt": "2026-11-25T13:30:57.906Z",
       "lastActionAt": "",
       "sentAt": ""
     },
     "0f1ef532ed": {
       "id": "0f1ef532ed",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-25T13:30:57.906Z",
+      "updatedAt": "2026-11-25T13:30:57.906Z",
       "messageId": 246,
       "chatId": "-1003917550874",
       "slot": "2026-11-25T17:00+03:30",
@@ -12217,10 +12221,6 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-25T13:30:57.906Z",
-      "updatedAt": "2026-11-25T13:30:57.906Z",
       "lastActionAt": "",
       "sentAt": ""
     }
@@ -12580,11 +12580,6 @@
       "at": "2026-11-16T17:03:04.461Z"
     }
   },
-  "noteThreads": {
-    "6": {
-      "itemId": "460c55a1ad",
-      "at": "2026-11-16T23:55:37.553Z"
-    }
-  },
+  "noteThreads": {},
   "pendingRejects": {}
 }
