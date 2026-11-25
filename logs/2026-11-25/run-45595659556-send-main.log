@@ -1,0 +1,169 @@
+RUN 45595659556 | send/main | slot auto | 2026-11-25T10:30:57Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-25T14:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 12/31 | models 10/24 | security 6/11 | business 6/11
+DAILY 3/11
+DIVERSITY_TARGET tools | slot 14:00
+DEFERRED_POOL 49
+  DEFERRED source_weekly | try 0/3 | Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion
+  DEFERRED source_weekly | try 0/3 | Even the best AI agents struggle with everyday life
+  DEFERRED source_weekly | try 0/3 | Walmart teams up with Meta to bring Black Friday deals to AI agent Muse
+  DEFERRED source_weekly | try 0/3 | Maple raises $5.3M to build AI products that protect your data, even from itself
+  DEFERRED category_consecutive | try 0/3 | What's going on with the Riemann hypothesis?
+SOURCE_DISCOVERY already_ran date=2026-11-25 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=147 nodate=0 nonai=0 dup=30 dup_other=0 kept=79 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=315 pending=27 leads=10 nolink=3 nonai=0 denied=2 promo=2 stale=0 before=0 dup=1 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=2
+MEMORY lanes=main:758,review:17 delivered=775 window=30d
+REVIEW_LEADS 6 separate_from_main=yes cap=none
+  REVIEW_ITEM id=6d0a414e7f message=234
+  REVIEW_REQUIRED reason=no_link sent=234
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-25/14-00-c9fc675b
+  REVIEW_ITEM id=efd6638ab6 message=235
+  REVIEW_REQUIRED reason=no_link sent=235
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-25/14-00-8fa9168c
+  REVIEW_DUPLICATE Thenima.one | توی کسب و کار واقعی کسایی که دیدم از AI درآمد خوبی دارن، یه چیز برام | توی کسب و کار واقعی کسایی که دیدم از AI درآمد خوبی دارن، یه چیز برام
+  REVIEW_ITEM id=75ca263ff1 message=236
+  REVIEW_REQUIRED reason=no_link sent=236
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-25/14-00-2d610a5f
+REVIEW_DRAFT Code.Cloud | کـــد کلاد | 🔥 ساخت ویدیوی ۳۰ ثانیه‌ای با هوش مصنوعی، فقط ۲.۴ دلار! | 726 chars
+  REVIEW_ITEM id=c6724d6376 message=237
+  REVIEW_REQUIRED reason=denied_link sent=237
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-25/14-00-4b56e24b
+  REVIEW_ITEM id=77034b4baf message=238
+  REVIEW_REQUIRED reason=no_link sent=238
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-25/14-00-38df632d
+TELEGRAM_EDU_LEADS 3 selected=3 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD thenimaonAI | education | کسایی که از قدیم منو دنبال می‌کنن می‌دونن من همیشه درگیر همین بخش ماجرا بودم. اینکه
+  EDU_LEAD thenimaonAI | education | وقتی داشتم آموزشای AI Lab رو طراحی می‌کردم، رفتم سراغ سؤالایی که خودتون ازم می‌پرسیدید٬ نه
+  EDU_LEAD shayanode | education | این چند روز که نبودم داشتم روی دوره ساخت ربات تلگرام کار میکردم
+  EDU_REVIEW leads=3 sent=3 ids=239,240,241 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-25/14-00-education/education.txt
+RELEVANCE candidates=70 kept=46 dropped=24
+  SKIP_NOT_AI TechCrunch | In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy
+  SKIP_NOT_AI Crunchbase News | Startups Are Picking Names That Can Work Even If The Original Business Model Doesn’t
+  SKIP_NOT_AI Product Hunt | Hai
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-charts 0.2a0
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-agent 0.7a1
+  SKIP_NOT_AI Product Hunt | 3way.Social MCP
+  SKIP_NOT_AI Crunchbase News | Most Unicorns Are Worth More Than Their Last Funding-Round Valuations, Crunchbase Estimates
+  SKIP_NOT_AI The Record | Treasury's FinCEN takes systems offline after cybersecurity incident
+  SKIP_NOT_AI ... +16 more
+DIVERSITY target=tools queue=2 fresh=20 deferred=49 rejected=source_daily:1,source_weekly:25,source_consecutive:1,category_consecutive:21
+  DIVERSITY_QUEUE tools:ArchiveTell | tools:دانیجت | Dunijet
+QUEUE_SKIPPED 63
+  QUEUE_SKIP source_weekly | TechCrunch | Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion
+  QUEUE_SKIP source_weekly | TechCrunch | Even the best AI agents struggle with everyday life
+  QUEUE_SKIP source_weekly | TechCrunch | Walmart teams up with Meta to bring Black Friday deals to AI agent Muse
+  QUEUE_SKIP source_weekly | TechCrunch | Maple raises $5.3M to build AI products that protect your data, even from itself
+  QUEUE_SKIP source_weekly | The Decoder | Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents
+  QUEUE_SKIP source_weekly | TechCrunch | Anthropic shares fall below IPO price, a worrying sign for AI startups
+  QUEUE_SKIP source_weekly | TechCrunch | UK warns AI-driven cyberattacks are exposing years of weak security
+  QUEUE_SKIP source_weekly | The Decoder | Novartis CEO says AI will shave four years off drug development, not cure all disease
+  QUEUE_SKIP source_weekly | The Decoder | OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a "very steep rate of progress"
+  QUEUE_SKIP source_weekly | TechCrunch | Meta brings its Muse AI assistant directly into Instagram DMs
+  QUEUE_SKIP ... +53 more
+QUEUE_HELD 14
+  QUEUE_HOLD category_consecutive | Simon Willison - Prompt Injection | Three LLM inflection points in twelve months
+  QUEUE_HOLD category_consecutive | arXiv | MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing
+  QUEUE_HOLD category_consecutive | arXiv | Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions
+  QUEUE_HOLD category_consecutive | arXiv | Temporal Conditioning for Human Behavioral Cloning in Chess
+  QUEUE_HOLD category_consecutive | arXiv | Delegent: A Multi-Agent Harness That Reduces Cost without Sacrificing Performance
+  QUEUE_HOLD category_consecutive | arXiv | AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design
+  QUEUE_HOLD category_consecutive | arXiv | EventDiffusion: Learning Native Event Stream Distribution from Videos
+  QUEUE_HOLD category_consecutive | arXiv | Uncertainty-Aware Candidate Generation for Entity Linking in Cyber Threat Intelligence
+  QUEUE_HOLD category_consecutive | arXiv | Auditing the Judge: Human-Derived Bias Discovery, Quantification, and Mitigation in LLM Judges
+  QUEUE_HOLD category_consecutive | arXiv | ClusterVAD: Threshold-Free Unsupervised Voice Activity Detection with Pre-Trained Neural Representations
+  QUEUE_HOLD ... +4 more
+ATTEMPT 1/2 | deferred 0/3 ArchiveTell | 📱 تبدیل گوشی اندروید قدیمی به مرکز کنترل کامپیوتر | 0h
+  TOOL_LINK candidate https://github.com/ersinkoc/phonebox | score 100
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK applied https://github.com/ersinkoc/phonebox
+POST 1/2 status=sent category=tools | QA 43/43 | $0.000497 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/14-00
+ATTEMPT 2/2 | deferred 2/3 دانیجت | Dunijet | 🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون | 1h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image telegram_media
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QA_FAILED body_paragraphs | one repair retry
+  BODY_TRIM
+  QUOTE_TRIM
+  REPAIR_QA PASS | score 43/43 | problems none | warnings none
+  TOOL_LINK none | source line kept
+  DIVERSITY_CATEGORY_CONSECUTIVE tools
+  DEFERRED category_consecutive | try 3/3
+  DEFER_LIMIT category_consecutive | no more retries
+RESULT SENT category=tools | offer=no | image=no | QA 43/43 | cost $0.003929 | post $0.000497 | tokens 42925
+TITLE گوشی اندرویدی قدیمی را به پنل لمسی رومیزی تبدیل کن
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/14-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST tools | sent | $0.000497 | گوشی اندرویدی قدیمی را به پنل لمسی رومیزی تبدیل کن
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-25T10:35:16Z
+# گزارش روزانه 2026-11-25 (چهارشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 4 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: امنیت و حریم خصوصی 1، ابزارها و محصولات 2، مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 3 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 8
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: امنیت و حریم خصوصی 1، ابزارها و محصولات 2، مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.003500
+- توکن: 56047
+- میانگین هر پست ارسال‌شده: $0.000875
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 13 | 31 | 18 |
+| مدل‌ها و پژوهش | 10 | 24 | 14 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 6 | 11 | 5 |
+| مجموع | 35 | 77 | 42 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | امنیت و حریم خصوصی | ارسال‌شده | 42/43 | $0.000872 | 22692 | سیگنال اسکرین‌شات را در اپل و گوگل مسدود می‌کند |
+| 11:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001801 | 11921 | آموزش جدید انویدیا برای فرار ربات از مانع |
+| 11:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 43/43 | $0.000331 | 10113 | گوگل آزمون قابلیت اطمینان مدل‌های زبانی را منتشر کرد |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000497 | 11321 | گوشی اندرویدی قدیمی را به پنل لمسی رومیزی تبدیل کن |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 15
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 7، مقاله پژوهشی منتخب 1، لینک قابل استفاده ندارد 4
+- آموزش‌های بازبینی امروز: 3 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-25.md
+SOURCE_STATUS 2026-11-25T10:35:16Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-25.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — چهارشنبه ۴ آذر ۱۴۰۵
+پست امروز: 4 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 4
+صف بازبینی: 229 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45595659556
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
