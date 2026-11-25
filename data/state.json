@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T11:25:38.672Z",
+  "updatedAt": "2026-11-25T13:34:54.388Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -17402,6 +17402,150 @@
       "title": "📱 تبدیل گوشی اندروید قدیمی به مرکز کنترل کامپیوتر",
       "url": "https://github.com/ersinkoc/phonebox",
       "benchmark": false
+    },
+    "url:7392a065ea041b38": {
+      "at": "2026-11-25T13:31:12.470Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "🍿 مدل DeepSeek V4.1 Flash به مدت محدود در پلتفرم SandBase به صورت رایگان ارائه میشه.",
+      "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4.1-flash-free"
+    },
+    "title:537ea644b744cb7e": {
+      "at": "2026-11-25T13:31:12.470Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "🍿 مدل DeepSeek V4.1 Flash به مدت محدود در پلتفرم SandBase به صورت رایگان ارائه میشه.",
+      "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4.1-flash-free"
+    },
+    "url:3e3db7d5837c77fc": {
+      "at": "2026-11-25T13:31:12.470Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "🎁 مدل DeepSeek V4.1 Flash به مدت محدود، به صورت رایگان در پلتفرم TokenRouter در دسترسه.",
+      "url": "https://www.tokenrouter.com/models/deepseek/deepseek-v4.1-flash-1017-free"
+    },
+    "title:a00c4111f105ced8": {
+      "at": "2026-11-25T13:31:12.470Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "🎁 مدل DeepSeek V4.1 Flash به مدت محدود، به صورت رایگان در پلتفرم TokenRouter در دسترسه.",
+      "url": "https://www.tokenrouter.com/models/deepseek/deepseek-v4.1-flash-1017-free"
+    },
+    "url:27bf1d9231636ea6": {
+      "at": "2026-11-25T13:31:19.237Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "🤖شرکت OpenAI اعلام کرده مدل‌های GPT-6 فقط با تکیه بر استدلال و کدنویسی تونستن شکل سه‌بعدی",
+      "url": "https://t.me/Mohammad_zammani/7278"
+    },
+    "title:d8a7477463058f6a": {
+      "at": "2026-11-25T13:31:19.237Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "🤖شرکت OpenAI اعلام کرده مدل‌های GPT-6 فقط با تکیه بر استدلال و کدنویسی تونستن شکل سه‌بعدی",
+      "url": "https://t.me/Mohammad_zammani/7278"
+    },
+    "url:2c691fbed1b0ef1a": {
+      "at": "2026-11-25T13:31:23.993Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "⚡️ بیشتر بساز، کمتر هزینه کن! بهترین ابزارهای هوش مصنوعی و اشتراک‌های دیجیتال، یک‌جا در AppStore",
+      "url": "https://t.me/asrnovin_ir/11536"
+    },
+    "title:9f038cef4773132c": {
+      "at": "2026-11-25T13:31:23.993Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "⚡️ بیشتر بساز، کمتر هزینه کن! بهترین ابزارهای هوش مصنوعی و اشتراک‌های دیجیتال، یک‌جا در AppStore",
+      "url": "https://t.me/asrnovin_ir/11536"
+    },
+    "url:ce61bf62aaa6ee86": {
+      "at": "2026-11-25T13:31:52.921Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "Conqueror - SEO + GEO, done by your favourite AI(s)",
+      "url": "https://t.me/codecloude/2624"
+    },
+    "title:807ab067357cf233": {
+      "at": "2026-11-25T13:31:52.921Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "Conqueror - SEO + GEO, done by your favourite AI(s)",
+      "url": "https://t.me/codecloude/2624"
+    },
+    "url:15c9992d23d3791a": {
+      "at": "2026-11-25T13:31:53.168Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "✅ بررسی و تأیید خودکار کدهای برنامه‌نویسی با Claude Ship آنتروپیک",
+      "url": "https://t.me/techiin_ir/20848"
+    },
+    "title:372920bc8470bcf6": {
+      "at": "2026-11-25T13:31:53.168Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "✅ بررسی و تأیید خودکار کدهای برنامه‌نویسی با Claude Ship آنتروپیک",
+      "url": "https://t.me/techiin_ir/20848"
+    },
+    "url:5814529dacaf573e": {
+      "at": "2026-11-25T13:31:58.974Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+      "url": "https://huggingface.co/papers/2611.32884"
+    },
+    "title:39f275abd76bc73f": {
+      "at": "2026-11-25T13:31:58.974Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+      "url": "https://huggingface.co/papers/2611.32884"
+    },
+    "url:105d2dd6f5d647be": {
+      "at": "2026-11-25T13:34:54.385Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+      "benchmark": false
+    },
+    "title:efabf512a4dfdeae": {
+      "at": "2026-11-25T13:34:54.385Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-25T17:00+03:30",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -17463,118 +17607,6 @@
         }
       },
       "detail": "grounding_superlatives"
-    },
-    "defer:url:105d2dd6f5d647be": {
-      "id": "defer:url:105d2dd6f5d647be",
-      "at": "2026-11-24T10:31:09.447Z",
-      "firstAt": "2026-11-24T10:31:09.447Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:105d2dd6f5d647be",
-        "title:efabf512a4dfdeae"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/23/glm-54",
-      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-        "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
-        "canonical": "https://simonwillison.net/2026/Nov/23/glm-54",
-        "published": "2026-11-23T23:40:49+00:00",
-        "summary": "<p><strong><a href=\"https://z.ai/blog/glm-5.4\">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</a></strong></p> GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:</p> <blockquote> <p>In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.</p> </blockquote> <p>This is the second mention of looped transformers I've seen in the past week - the first was <a href=\"https://thinkingmachines.ai/news/inkling-2-mini/\">Inkling 2 Mini</a> from Thinking Machines Lab on November 20th, who said:</p> <blockquote> <p>Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality.</p> </blockquote> <p>GLM 5.4 is not (yet?) available as open weights. I tried it out using the Z.ai API, for which I had to sign up for their <a href=\"https://docs.z.ai/devpack/overview\">Coding Plan subscription</a> because 5.4 cannot currently be accessed through the regular API.</p> <p>It turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at <code>https://api.z.ai/api/v1</code>), and the API key for the coding plan worked with that and gave me access to the new model.</p> <p>I built a <a href=\"https://github.com/simonw/llm-glm\">llm-glm plugin</a>, then realized that <a href=\"https://github.com/irthomasthomas/llm-zai\">llm-zai</a> by Tommy Hughes already exists! I've shipped mine purely because <code>llm-zai</code> doesn't yet support the new model, but I'll likely retire mine once that plugin catches up.</p> <p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fae838c5a6837ca0a602c180c07ac0887\">pelicans for GLM-5.4</a> on low, high, and max. This is the max one:</p> <p><img alt=\"It's not great to be honest - the pelican is recognizable, but the bicycle frame has a funny front bar connection post and doesn't look like it would steer.\" src=\"https://static.simonwillison.net/static/2026/glm-5.4-max.webp\" /></p> <p>I realized I never ran pelicans for GLM-5.3, so <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F8826d1366dcc98783c7cbc593f6a6e77\">here those are</a> for the same effort levels. They look similar in quality to 5.4.</p> <p>It's interesting how <a href=\"https://simonwillison.net/2026/Apr/7/glm-51/\">GLM 5.1</a> and <a href=\"https://simonwillison.net/2026/Jun/17/glm-52/#excellent-pelican-disappointing-opossum\">GLM 5.2</a> produced radically different pelicans from other models. The pelicans for 5.3 and 5.4 are much more comparable to those I get from OpenAI or Anthropic models - the previous generations had their own distinctive look.</p> <p>I made a <a href=\"https://static.simonwillison.net/static/2026/glm-pelican-comparison.html\">comparison grid</a> showing the four generations of GLM pelicans all in one place. The style transition between 5.2 and 5.3 is pretty stark.</p> <p><img alt=\"The 5.4 and 5.3 pelicans look similar at all three levels. The 5.2 one is on a cyberpunk bicycle. The 5.1 is much more colorful and animated.\" src=\"https://static.simonwillison.net/static/2026/glm-family-4.webp\" /> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/glm\">glm</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/23/glm-54/",
-        "images": [],
-        "ageHours": 10.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:105d2dd6f5d647be",
-          "title:efabf512a4dfdeae"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:14c12e212d38f00c": {
-      "id": "defer:url:14c12e212d38f00c",
-      "at": "2026-11-24T10:37:32.161Z",
-      "firstAt": "2026-11-24T10:37:32.161Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:14c12e212d38f00c",
-        "title:0c702722b1a9559e"
-      ],
-      "canonical": "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-      "title": "شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی",
-        "link": "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-        "canonical": "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-        "messageText": "شرکت Anthropic یه ابزار جدید به اسم Claude Ship معرفی کرده که به ایجنت هوش مصنوعی اجازه میده خودش تغییرات کد رو تایید کنه\n\nسه بخش داره: Code Review که همین حالا فعاله، PR Steward که مشکلاتی مثل شکست خوردن تست‌های CI رو درست می‌کنه، و Claude Approvals که تغییرات روتین رو طبق سیاست‌هایی که تیمت تعیین می‌کنه تایید می‌کنه.\n\nشرکت Anthropic می‌گه بیشتر کد تیم خود Claude Code رو همین Claude می‌نویسه و می‌خواسته کارهای بعد از PR هم به همون سرعت پیش بره.\n\ntechcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/\n\n@dunijet_ai\n\n❤4",
-        "leadPostUrl": "https://t.me/dunijet_ai/2609",
-        "published": "2026-11-24T09:22:04+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:14c12e212d38f00c",
-          "title:0c702722b1a9559e"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2609,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      },
-      "detail": "tools"
     },
     "defer:url:6d743dea15159994": {
       "id": "defer:url:6d743dea15159994",
@@ -17648,152 +17680,6 @@
       },
       "detail": "tools"
     },
-    "defer:url:7d6908c6da8f7c39": {
-      "id": "defer:url:7d6908c6da8f7c39",
-      "at": "2026-11-24T13:32:12.208Z",
-      "firstAt": "2026-11-24T13:32:12.208Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7d6908c6da8f7c39",
-        "title:1a8547ba9377a8be"
-      ],
-      "canonical": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science",
-      "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
-        "link": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
-        "canonical": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science",
-        "published": "Tue, 24 Nov 2026 12:30:49 +0000",
-        "summary": "In a position paper, TU Darmstadt researchers call for redefining computer science as \"Computer and AI Science.\" Their biggest concern is code generated on the fly at runtime, which they say upends today's safety and correctness guarantees. The article German researchers call for computer science to reinvent itself as \"Computer and AI Science\" appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/darmstadt_ai_computer_science.png"
-        ],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7d6908c6da8f7c39",
-          "title:1a8547ba9377a8be"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:713448d5590bd5f6": {
-      "id": "defer:url:713448d5590bd5f6",
-      "at": "2026-11-24T13:32:12.208Z",
-      "firstAt": "2026-11-24T13:32:12.208Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:713448d5590bd5f6",
-        "title:ca95559d38c5987e"
-      ],
-      "canonical": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own",
-      "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
-        "link": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
-        "canonical": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own",
-        "published": "Tue, 24 Nov 2026 11:26:23 +0000",
-        "summary": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/Claude-Ship.png"
-        ],
-        "ageHours": 2.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:713448d5590bd5f6",
-          "title:ca95559d38c5987e"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:95f216a1d940ffe1": {
-      "id": "defer:url:95f216a1d940ffe1",
-      "at": "2026-11-24T13:32:12.208Z",
-      "firstAt": "2026-11-24T13:32:12.208Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:95f216a1d940ffe1",
-        "title:5fe1656c59b7308a"
-      ],
-      "canonical": "https://www.producthunt.com/products/claude-code",
-      "title": "Claude Ship",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Claude Ship",
-        "link": "https://www.producthunt.com/products/claude-code",
-        "canonical": "https://www.producthunt.com/products/claude-code",
-        "published": "2026-11-23T13:00:36-08:00",
-        "summary": "<p> Ship code as fast as you can write it </p> <p> <a href=\"https://www.producthunt.com/products/claude-code?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1328257?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/claude-code",
-        "images": [],
-        "ageHours": 16.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:95f216a1d940ffe1",
-          "title:5fe1656c59b7308a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:b0f646dfac9a0a0a": {
       "id": "defer:url:b0f646dfac9a0a0a",
       "at": "2026-11-24T17:02:44.988Z",
@@ -17836,102 +17722,6 @@
         "keys": [
           "url:b0f646dfac9a0a0a",
           "title:e16d02df25d10eda"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6f0f83d3e1c30af4": {
-      "id": "defer:url:6f0f83d3e1c30af4",
-      "at": "2026-11-24T17:02:44.988Z",
-      "firstAt": "2026-11-24T17:02:44.988Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:6f0f83d3e1c30af4",
-        "title:6dad2b8576f78b78"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
-      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-        "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-        "canonical": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
-        "published": "Tue, 24 Nov 2026 16:46:00 +0000",
-        "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-        "images": [],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:6f0f83d3e1c30af4",
-          "title:6dad2b8576f78b78"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0d4dbfed2ba868d7": {
-      "id": "defer:url:0d4dbfed2ba868d7",
-      "at": "2026-11-24T17:02:44.988Z",
-      "firstAt": "2026-11-24T17:02:44.988Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0d4dbfed2ba868d7",
-        "title:0aea23cbfec6b6f8"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
-      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
-        "link": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-        "canonical": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
-        "published": "Tue, 24 Nov 2026 16:10:00 +0000",
-        "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-        "images": [],
-        "ageHours": 0.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:0d4dbfed2ba868d7",
-          "title:0aea23cbfec6b6f8"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -18661,12 +18451,13 @@
     },
     "defer:url:7758c04a629331bf": {
       "id": "defer:url:7758c04a629331bf",
-      "at": "2026-11-24T19:31:12.246Z",
+      "at": "2026-11-25T13:34:09.817Z",
       "firstAt": "2026-11-24T19:31:12.246Z",
-      "attempts": 0,
-      "reason": "source_daily",
+      "attempts": 1,
+      "reason": "category_consecutive",
       "reasons": [
-        "source_daily"
+        "source_daily",
+        "category_consecutive"
       ],
       "keys": [
         "url:7758c04a629331bf",
@@ -18703,8 +18494,13 @@
         ],
         "educationHint": false,
         "webEducation": false,
-        "leadKind": ""
-      }
+        "leadKind": "",
+        "deferred": {
+          "id": "defer:url:7758c04a629331bf",
+          "attempts": 0
+        }
+      },
+      "detail": "tools"
     },
     "defer:url:7e14b56be6744308": {
       "id": "defer:url:7e14b56be6744308",
@@ -19846,6 +19642,351 @@
         "keys": [
           "url:0077e07924e43bf7",
           "title:cadbe2fc7c64f0ec"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:305e62040e8a734e": {
+      "id": "defer:url:305e62040e8a734e",
+      "at": "2026-11-25T13:31:58.984Z",
+      "firstAt": "2026-11-25T13:31:58.984Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:305e62040e8a734e",
+        "title:30534e34066e0963"
+      ],
+      "canonical": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+      "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+        "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+        "canonical": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+        "published": "Wed, 25 Nov 2026 13:23:36 +0000",
+        "summary": "Google Deepmind uses AI agents to run experiments on their own for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. For oversight, Deepmind intentionally leaves the agents' internal chains of thought untrained so they can be reviewed. Kavukcuoglu measures AGI by everyday user trust rather than benchmarks. The article AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp"
+        ],
+        "ageHours": 0.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:305e62040e8a734e",
+          "title:30534e34066e0963"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:4d46466267d16523": {
+      "id": "defer:url:4d46466267d16523",
+      "at": "2026-11-25T13:31:58.984Z",
+      "firstAt": "2026-11-25T13:31:58.984Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:4d46466267d16523",
+        "title:3ac235ced3440387"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
+      "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
+        "link": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
+        "canonical": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
+        "published": "Wed, 25 Nov 2026 13:14:27 +0000",
+        "summary": "Anthropic studied nearly 300 AI deployments across 58 US companies with sobering results. Nearly one in five still delivers no business value, held back by heavy review workloads, internal bottlenecks, and employee resistance. The researchers say the biggest hurdles stem from outdated company structures. The article Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/ai_office_paper.png"
+        ],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:4d46466267d16523",
+          "title:3ac235ced3440387"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ec57c99a6a096767": {
+      "id": "defer:url:ec57c99a6a096767",
+      "at": "2026-11-25T13:31:58.984Z",
+      "firstAt": "2026-11-25T13:31:58.984Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:ec57c99a6a096767",
+        "title:a594739bceafca04"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
+      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+        "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+        "canonical": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
+        "published": "Wed, 25 Nov 2026 13:00:00 +0000",
+        "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+        "images": [],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:ec57c99a6a096767",
+          "title:a594739bceafca04"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:d8d9a3b587bcc0a2": {
+      "id": "defer:url:d8d9a3b587bcc0a2",
+      "at": "2026-11-25T13:31:58.984Z",
+      "firstAt": "2026-11-25T13:31:58.984Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:d8d9a3b587bcc0a2",
+        "title:d362b0dd49045ef7"
+      ],
+      "canonical": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable",
+      "title": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
+        "link": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+        "canonical": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable",
+        "published": "Wed, 25 Nov 2026 10:47:51 +0000",
+        "summary": "MIT researchers have developed a method that lets AI climate models get by with a single training run instead of the usual six to eight. An algorithm generates deliberately unrealistic scenarios with extreme CO2 or methane swings that make the model more robust. Until now, these emulators were often outdated by the time they were finished, according to the researchers. The article MIT team discovers that unrealistic training data makes AI climate predictions more reliable appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/mit_climate.png"
+        ],
+        "ageHours": 2.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:d8d9a3b587bcc0a2",
+          "title:d362b0dd49045ef7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1259b534687dd8b3": {
+      "id": "defer:url:1259b534687dd8b3",
+      "at": "2026-11-25T13:31:58.984Z",
+      "firstAt": "2026-11-25T13:31:58.984Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1259b534687dd8b3",
+        "title:988ceedbe0528be0"
+      ],
+      "canonical": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Richpanel helps companies automate 50% of support in 30 days",
+        "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "canonical": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "published": "Mon, 23 Nov 2026 08:00:00 GMT",
+        "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "images": [],
+        "ageHours": 53.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:1259b534687dd8b3",
+          "title:988ceedbe0528be0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:161c1109213e1492": {
+      "id": "defer:url:161c1109213e1492",
+      "at": "2026-11-25T13:31:58.984Z",
+      "firstAt": "2026-11-25T13:31:58.984Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:161c1109213e1492",
+        "title:caacf10d3d176ec7"
+      ],
+      "canonical": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages",
+      "title": "Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages",
+        "link": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
+        "canonical": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages",
+        "published": "Wed, 25 Nov 2026 13:07:44 +0000",
+        "summary": "The US Financial Crimes Enforcement Network took systems offline as a precaution after unauthorized access. Hours earlier, reports emerged of a separate breach at the CIA, NGA, and ODNI, in which investigators suspect attackers used the AI defense tool Artex. Both incidents land on a US public that is already on edge. The article Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/cyberkraken_4.png"
+        ],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:161c1109213e1492",
+          "title:caacf10d3d176ec7"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3a3c0d45396bda4f": {
+      "id": "defer:url:3a3c0d45396bda4f",
+      "at": "2026-11-25T13:31:58.984Z",
+      "firstAt": "2026-11-25T13:31:58.984Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3a3c0d45396bda4f",
+        "title:ae0117704bbfaea8"
+      ],
+      "canonical": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb",
+      "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+        "link": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+        "canonical": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb",
+        "published": "Wed, 25 Nov 2026 11:51:49 +0000",
+        "summary": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/07/prsim_ml_demo.png"
+        ],
+        "ageHours": 1.7,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3a3c0d45396bda4f",
+          "title:ae0117704bbfaea8"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -23571,6 +23712,37 @@
           "at": "2026-11-25T10:33:02.797Z"
         }
       ]
+    },
+    "2026-11-25T17:00+03:30": {
+      "at": "2026-11-25T13:34:54.385Z",
+      "status": "sent",
+      "category": "models",
+      "title": "GLM-5.4 از Z.ai با معماری جدید حلقه‌ای معرفی شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/17-00",
+      "messageId": 160,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0044031904,
+      "tokens": 73241,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "GLM-5.4 از Z.ai با معماری جدید حلقه‌ای معرفی شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 160,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003357312,
+          "tokens": 10263,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-25T13:34:54.385Z"
+        }
+      ]
     }
   },
   "published": [
@@ -26081,108 +26253,114 @@
       "sourceTitle": "GitHub - ersinkoc/phonebox: Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
       "sourceText": "📱 تبدیل گوشی اندروید قدیمی به مرکز کنترل کامپیوتر\n\nاپلیکیشن PhoneBox گوشی هوشمند رو به یک داشبورد تبدیل میکنه: صفحه نمایش شامل دما قطعات، میزان استفاده از پردازنده (CPU) و کارت گرافیک (GPU)، وضعیت حافظه رم، اعلان‌های دریافتی و آهنگ در حال پخشه. 🎛️\n\nعلاوه بر مانیتورینگ، امکان تنظیم ماکروها، کلیدهای میانبر و ویجت‌هایی با آمار مربوط به Claude Code و Codex نیز وجود داره.\n\nاین پلتفرم از سیستم‌عامل‌های Windows، Linux و macOS پشتیبانی میکنه. اتصال از طریق USB یا Wi-Fi امکان‌پذیره. 📶\n\n🔗 گیت هاب پروژه\n\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤4🫡1🗿1",
       "at": "2026-11-25T10:33:02.797Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-25T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "GLM-5.4 از Z.ai با معماری جدید حلقه‌ای معرفی شد",
+      "why": "معماری حلقه‌ای می‌تونه استدلال مدل را با توکن‌های کمتر تقویت کنه؛ یعنی برای کارهایی مثل کدنویسی عاملی، جواب‌ها با هزینه کمتر و دقت بالاتر به دست می‌یان.",
+      "dedupe_key": "zai-glm54-launch",
+      "post_key": "2026-11-25/17-00/1",
+      "sourceId": "simon-willison-prompt-injection",
+      "sourceName": "Simon Willison - Prompt Injection",
+      "sourceType": "blog_tag",
+      "benchmark": false,
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "sourceTitle": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "sourceText": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer . GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:\nIn a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.\nThis is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said:\nInkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality.\nWe plan to open-source the model weights responsibly after completing necessary safety hardening.\nIt turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at https://api.z.ai/api/v1 ), and the API key for the coding plan worked with that and gave me access to the new model.\nI built a llm-glm plugin , then realized that llm-zai by Tommy Hughes already exists! I've shipped mine purely because llm-zai doesn't yet support the new model, but I'll likely retire mine once that plugin catches up.\nHere are pelicans for GLM-5.4 on low, high, and max. This is the max one:\nI realized I never ran pelicans for GLM-5.3, so here those are for",
+      "at": "2026-11-25T13:34:54.385Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8575,
-      "last_at": "2026-11-25T09:02:56+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "last_id": 8580,
+      "last_at": "2026-11-25T12:12:13+00:00",
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "ai_farshad": {
-      "last_id": 6525,
-      "last_at": "2026-11-25T10:26:18+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "last_id": 6527,
+      "last_at": "2026-11-25T12:45:01+00:00",
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7277,
-      "last_at": "2026-11-25T06:34:55+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "last_id": 7278,
+      "last_at": "2026-11-25T12:34:35+00:00",
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "techiin_ir": {
-      "last_id": 20847,
-      "last_at": "2026-11-24T09:58:38+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "last_id": 20848,
+      "last_at": "2026-11-24T16:24:22+00:00",
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "mgh_mobin": {
       "last_id": 513,
       "last_at": "2026-11-25T06:28:01+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "asrnovin_ir": {
-      "last_id": 11535,
-      "last_at": "2026-11-25T09:05:51+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "last_id": 11538,
+      "last_at": "2026-11-25T12:46:25+00:00",
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "shayanode": {
-      "last_id": 270,
-      "last_at": "2026-11-24T22:41:33+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "last_id": 271,
+      "last_at": "2026-11-24T22:42:54+00:00",
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "codecloude": {
-      "last_id": 2623,
-      "last_at": "2026-11-25T08:19:31+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "last_id": 2624,
+      "last_at": "2026-11-25T11:52:34+00:00",
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "dunijet_ai": {
       "last_id": 2613,
       "last_at": "2026-11-25T03:55:07+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "MatinSenPaii": {
       "last_id": 5987,
       "last_at": "2026-11-25T05:31:54+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     },
     "thenimaonAI": {
       "last_id": 593,
       "last_at": "2026-11-25T08:44:42+00:00",
-      "checked_at": "2026-11-25T10:30:57.354Z"
+      "checked_at": "2026-11-25T13:30:57.906Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-11|tg-asr-novin|https://t.me/asrnovin_ir/11440",
-      "date": "2026-11-11",
-      "at": "2026-11-11T13:30:41.888Z",
-      "source": "tg-asr-novin",
-      "title": "😒کلاد دیگه فقط یه چت‌بات نیست،کلاد تبدیل به یه محیط کار هوشمند شد!!",
-      "url": "https://t.me/asrnovin_ir/11440",
-      "reason": "denied_link",
-      "slot": "2026-11-11T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-11|tg-shayanode|https://t.me/shayanode/133",
       "date": "2026-11-11",
@@ -29830,16 +30008,69 @@
       "slot": "2026-11-25T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7278",
+      "date": "2026-11-25",
+      "at": "2026-11-25T13:30:57.906Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖شرکت OpenAI اعلام کرده مدل‌های GPT-6 فقط با تکیه بر استدلال و کدنویسی تونستن شکل سه‌بعدی",
+      "url": "https://t.me/Mohammad_zammani/7278",
+      "reason": "denied_link",
+      "slot": "2026-11-25T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-asr-novin|https://t.me/asrnovin_ir/11536",
+      "date": "2026-11-25",
+      "at": "2026-11-25T13:30:57.906Z",
+      "source": "tg-asr-novin",
+      "title": "⚡️ بیشتر بساز، کمتر هزینه کن! بهترین ابزارهای هوش مصنوعی و اشتراک‌های دیجیتال، یک‌جا در AppStore",
+      "url": "https://t.me/asrnovin_ir/11536",
+      "reason": "no_link",
+      "slot": "2026-11-25T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-codecloude|https://t.me/codecloude/2624",
+      "date": "2026-11-25",
+      "at": "2026-11-25T13:30:57.906Z",
+      "source": "tg-codecloude",
+      "title": "Conqueror - SEO + GEO, done by your favourite AI(s)",
+      "url": "https://t.me/codecloude/2624",
+      "reason": "denied_link",
+      "slot": "2026-11-25T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-techiin|https://t.me/techiin_ir/20848",
+      "date": "2026-11-25",
+      "at": "2026-11-25T13:30:57.906Z",
+      "source": "tg-techiin",
+      "title": "✅ بررسی و تأیید خودکار کدهای برنامه‌نویسی با Claude Ship آنتروپیک",
+      "url": "https://t.me/techiin_ir/20848",
+      "reason": "denied_link",
+      "slot": "2026-11-25T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|hf-papers|https://huggingface.co/papers/2611.32884",
+      "date": "2026-11-25",
+      "at": "2026-11-25T13:30:57.906Z",
+      "source": "hf-papers",
+      "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+      "url": "https://huggingface.co/papers/2611.32884",
+      "reason": "research_paper",
+      "slot": "2026-11-25T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "machinelearningmastery",
-      "title": "Sandboxing AI Agent Code Execution in Python: Containers, MicroVMs and Beyond",
-      "url": "https://machinelearningmastery.com/sandboxing-ai-agent-code-execution-in-python-containers-microvms-and-beyond",
-      "slot": "2026-11-11T17:00+03:30",
-      "at": "2026-11-11T13:30:41.888Z"
-    },
     {
       "source": "tg-shayanode",
       "title": "یه قالب آماده برای طراحی سایت، با بنر عریض و فرم‌های شیشه‌ای که خیلی آروم تغییر",
