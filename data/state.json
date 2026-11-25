@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T05:47:19.586Z",
+  "updatedAt": "2026-11-25T08:17:17.749Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -17105,6 +17105,132 @@
       "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
       "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
       "benchmark": false
+    },
+    "url:0b699687bd2319d0": {
+      "at": "2026-11-25T08:01:56.459Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "🤖اپلیکیشن دسکتاپ Claude روی macOS و Windows یه قابلیت جدید و جذاب اضافه کرده که به",
+      "url": "https://t.me/Mohammad_zammani/7277"
+    },
+    "title:25bdc550ea196867": {
+      "at": "2026-11-25T08:01:56.459Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "🤖اپلیکیشن دسکتاپ Claude روی macOS و Windows یه قابلیت جدید و جذاب اضافه کرده که به",
+      "url": "https://t.me/Mohammad_zammani/7277"
+    },
+    "url:53a7615c32797458": {
+      "at": "2026-11-25T08:02:51.697Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "کلاد داره چیکار‌ میکنه 😐",
+      "url": "https://t.me/mgh_mobin/512"
+    },
+    "title:0989d5238ab37947": {
+      "at": "2026-11-25T08:02:51.697Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "کلاد داره چیکار‌ میکنه 😐",
+      "url": "https://t.me/mgh_mobin/512"
+    },
+    "url:962093830401f49f": {
+      "at": "2026-11-25T08:02:51.709Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "کلاد داره چیکار‌ میکنه 😐 از الان به بعد Artifact یا همون نرم افزار هایی که",
+      "url": "https://t.me/mgh_mobin/513"
+    },
+    "title:f4a79bd373c11752": {
+      "at": "2026-11-25T08:02:51.709Z",
+      "decision": "review_duplicate",
+      "reason": "duplicate_in_review",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "کلاد داره چیکار‌ میکنه 😐 از الان به بعد Artifact یا همون نرم افزار هایی که",
+      "url": "https://t.me/mgh_mobin/513"
+    },
+    "url:224bc6333642f1d4": {
+      "at": "2026-11-25T08:04:02.355Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "اگر یک درصد فکر میکنی الان امنیت سایبری داری و کسی دسترسی‌ای به چتت و تعاملت",
+      "url": "https://t.me/thenimaonAI/579"
+    },
+    "title:1df9bf7d12d82059": {
+      "at": "2026-11-25T08:04:02.355Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "اگر یک درصد فکر میکنی الان امنیت سایبری داری و کسی دسترسی‌ای به چتت و تعاملت",
+      "url": "https://t.me/thenimaonAI/579"
+    },
+    "url:5b1dcf4f61abe899": {
+      "at": "2026-11-25T08:04:36.471Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "✅ زمان زیادی برای مهار سلاح‌های خودمختار و هوش مصنوعی نداریم",
+      "url": "https://t.me/techiin_ir/20846"
+    },
+    "title:08275b691ab8f776": {
+      "at": "2026-11-25T08:04:36.471Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "✅ زمان زیادی برای مهار سلاح‌های خودمختار و هوش مصنوعی نداریم",
+      "url": "https://t.me/techiin_ir/20846"
+    },
+    "url:6a28e842b3bf4bfd": {
+      "at": "2026-11-25T08:05:16.003Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "benchmark": false
+    },
+    "title:f99fb4ddb7541638": {
+      "at": "2026-11-25T08:05:16.003Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "benchmark": false
+    },
+    "url:adfa512c9bee7d82": {
+      "at": "2026-11-25T08:17:17.746Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
+      "benchmark": false
+    },
+    "title:9a68f02ac24fd314": {
+      "at": "2026-11-25T08:17:17.746Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-25T11:30+03:30",
+      "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -17209,202 +17335,6 @@
         "keys": [
           "url:29c9de3a1f8674ad",
           "title:3fc04907f0aa7117"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4cf5935296644c8c": {
-      "id": "defer:url:4cf5935296644c8c",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:4cf5935296644c8c",
-        "title:7aa7f2cd441dc7b3"
-      ],
-      "canonical": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles",
-      "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
-        "link": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
-        "canonical": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles",
-        "published": "Mon, 23 Nov 2026 14:43:23 +0000",
-        "summary": "Chinese military researchers fear that AI advances could give the US an edge in the nuclear balance of power. The article Chinese military fears AI could let the US find and destroy its nuclear missiles appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/03/AI-Fake-Carrier-Iran-small.png"
-        ],
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:4cf5935296644c8c",
-          "title:7aa7f2cd441dc7b3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:f623141117fe3174": {
-      "id": "defer:url:f623141117fe3174",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:f623141117fe3174",
-        "title:414ac949aa239d72"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off",
-      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-        "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-        "canonical": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off",
-        "published": "Mon, 23 Nov 2026 14:43:03 +0000",
-        "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-        "images": [],
-        "ageHours": 2.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:f623141117fe3174",
-          "title:414ac949aa239d72"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:6f66fe15bb8cd402": {
-      "id": "defer:url:6f66fe15bb8cd402",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:6f66fe15bb8cd402",
-        "title:fb22f6b271677a80"
-      ],
-      "canonical": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks",
-      "title": "Nvidia tried life without Jensen Huang and it lasted about two weeks",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Nvidia tried life without Jensen Huang and it lasted about two weeks",
-        "link": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
-        "canonical": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks",
-        "published": "Mon, 23 Nov 2026 14:24:47 +0000",
-        "summary": "Nvidia's board of directors has reinstated Jensen Huang as president, CEO, and board member, effective immediately. The article Nvidia tried life without Jensen Huang and it lasted about two weeks appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/05/huang_sccp_ai_screenshot-scaled.png"
-        ],
-        "ageHours": 2.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6f66fe15bb8cd402",
-          "title:fb22f6b271677a80"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:89fc33d5028ef502": {
-      "id": "defer:url:89fc33d5028ef502",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:89fc33d5028ef502",
-        "title:3452061a37e69a0b"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
-      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-        "link": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-        "canonical": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
-        "published": "Mon, 23 Nov 2026 14:21:59 +0000",
-        "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-        "images": [],
-        "ageHours": 2.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:89fc33d5028ef502",
-          "title:3452061a37e69a0b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -18791,53 +18721,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:6a28e842b3bf4bfd": {
-      "id": "defer:url:6a28e842b3bf4bfd",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:6a28e842b3bf4bfd",
-        "title:f99fb4ddb7541638"
-      ],
-      "canonical": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-        "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-        "canonical": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-        "published": "Tue, 24 Nov 2026 16:34:13 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-        "images": [],
-        "ageHours": 0.4,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:6a28e842b3bf4bfd",
-          "title:f99fb4ddb7541638"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:141c148d6874e34e": {
       "id": "defer:url:141c148d6874e34e",
       "at": "2026-11-24T17:51:44.043Z",
@@ -19338,54 +19221,6 @@
         "officialCourse": false
       }
     },
-    "defer:url:adfa512c9bee7d82": {
-      "id": "defer:url:adfa512c9bee7d82",
-      "at": "2026-11-24T20:21:58.486Z",
-      "firstAt": "2026-11-24T20:21:58.486Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:adfa512c9bee7d82",
-        "title:9a68f02ac24fd314"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
-      "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
-      "candidate": {
-        "sourceId": "google-models-research",
-        "sourceName": "Google Models & Research",
-        "sourceType": "official_blog",
-        "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
-        "canonical": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
-        "published": "Tue, 24 Nov 2026 19:30:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-600x600.format-webp.webp\">Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 0.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:adfa512c9bee7d82",
-          "title:9a68f02ac24fd314"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:cd26d95554d7ee3a": {
       "id": "defer:url:cd26d95554d7ee3a",
       "at": "2026-11-25T05:01:52.171Z",
@@ -19572,6 +19407,266 @@
         "keys": [
           "url:977f9f016cc6ca5b",
           "title:36a06a7fc386b7e8"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:53fd63244ab16fab": {
+      "id": "defer:url:53fd63244ab16fab",
+      "at": "2026-11-25T08:04:36.488Z",
+      "firstAt": "2026-11-25T08:04:36.488Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:53fd63244ab16fab",
+        "title:cb624e6c8c5b21c0"
+      ],
+      "canonical": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+        "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+        "canonical": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
+        "published": "Tue, 24 Nov 2026 14:56:50 +0000",
+        "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-500x500.jpg"
+        ],
+        "ageHours": 17.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:53fd63244ab16fab",
+          "title:cb624e6c8c5b21c0"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:44bd775b8ffe162a": {
+      "id": "defer:url:44bd775b8ffe162a",
+      "at": "2026-11-25T08:04:36.488Z",
+      "firstAt": "2026-11-25T08:04:36.488Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:44bd775b8ffe162a",
+        "title:827bff1206a5a4d3"
+      ],
+      "canonical": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+        "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+        "canonical": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+        "published": "Tue, 24 Nov 2026 12:30:05 +0000",
+        "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner-500x500.jpg"
+        ],
+        "ageHours": 19.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:44bd775b8ffe162a",
+          "title:827bff1206a5a4d3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c3079baa07ae12d8": {
+      "id": "defer:url:c3079baa07ae12d8",
+      "at": "2026-11-25T08:04:36.489Z",
+      "firstAt": "2026-11-25T08:04:36.489Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c3079baa07ae12d8",
+        "title:af88db5c47607130"
+      ],
+      "canonical": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+        "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+        "canonical": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+        "published": "Mon, 23 Nov 2026 12:00:00 +0000",
+        "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-500x500.jpg"
+        ],
+        "ageHours": 44,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:c3079baa07ae12d8",
+          "title:af88db5c47607130"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ea655aef5669054d": {
+      "id": "defer:url:ea655aef5669054d",
+      "at": "2026-11-25T08:04:36.489Z",
+      "firstAt": "2026-11-25T08:04:36.489Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:ea655aef5669054d",
+        "title:b14da60a1c3546f3"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis",
+      "title": "What's going on with the Riemann hypothesis?",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "What's going on with the Riemann hypothesis?",
+        "link": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+        "canonical": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis",
+        "published": "Tue, 24 Nov 2026 20:34:53 +0000",
+        "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-500x500.jpeg"
+        ],
+        "ageHours": 11.4,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:ea655aef5669054d",
+          "title:b14da60a1c3546f3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1a3ac1c1f3d1afa7": {
+      "id": "defer:url:1a3ac1c1f3d1afa7",
+      "at": "2026-11-25T08:04:36.489Z",
+      "firstAt": "2026-11-25T08:04:36.489Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1a3ac1c1f3d1afa7",
+        "title:c6a6ea7ea7413e37"
+      ],
+      "canonical": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage",
+      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+        "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+        "canonical": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage",
+        "published": "Tue, 24 Nov 2026 18:47:57 +0000",
+        "summary": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-500x500.jpg"
+        ],
+        "ageHours": 13.2,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:1a3ac1c1f3d1afa7",
+          "title:c6a6ea7ea7413e37"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -23220,6 +23315,52 @@
           "at": "2026-11-25T05:05:23.267Z"
         }
       ]
+    },
+    "2026-11-25T11:30+03:30": {
+      "at": "2026-11-25T08:05:16.003Z",
+      "status": "sent",
+      "category": "models",
+      "title": "گوگل آزمون قابلیت اطمینان مدل‌های زبانی را منتشر کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/11-30-2",
+      "messageId": 158,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0051273936,
+      "tokens": 59863,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "آموزش جدید انویدیا برای فرار ربات از مانع",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 157,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00180054,
+          "tokens": 11921,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-25T08:05:16.003Z"
+        },
+        {
+          "title": "گوگل آزمون قابلیت اطمینان مدل‌های زبانی را منتشر کرد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 158,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/11-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0003309712,
+          "tokens": 10113,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-25T08:17:17.746Z"
+        }
+      ]
     }
   },
   "published": [
@@ -25676,108 +25817,132 @@
       "sourceTitle": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
       "sourceText": "The encrypted messaging platform Signal has announced it will by default stop users from taking screenshots of messages if they are using Google or Apple operating systems, a move fueled by concerns about how the tech giants deploy artificial intelligence agents.\nLast year, the widely used messaging app restricted Microsoft 11 users from screenshotting and keeping messages. Similar restrictions will now apply to Google’s Gemini Intelligence and Apple's Siri AI, Signal Foundation president Meredith Whittaker said in a Friday blog post.\n“These agentic AI integrations are changing this environment in a way that’s making it increasingly hostile to privacy,” the blog post said. “This is an existential threat to Signal, and our ability to responsibly uphold our mission.”\nWhittaker said Signal plans to specifically restrict the agentic systems integrated into iOS 27 and versions of Android where Signal detects AI assistants trying to read text.\nThe operating systems’ AI agents attempt to glean information from users by scanning what’s on their screens, Whittaker said, and in doing so hoover up the data in order to “answer your questions and do your bidding,” the blog post said.\nWhittaker warned the agents are making the captured data accessible to random local databases and remote servers at random.\n“All of this is outside of Signal’s control once the data has been captured, and imperils the privacy of all the participants in a conversation,” the blog post said.\nWhile screenshots won’t be permitted by default, the blog post said users who choose to can disable the block in setting",
       "at": "2026-11-25T05:05:23.268Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-25T11:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "آموزش جدید انویدیا برای فرار ربات از مانع",
+      "why": "با این روش، ربات‌ها می‌توانند رفتار پیچیده‌ای مثل دور زدن مانع را بدون به‌هم زدن الگوی راه رفتن آموزش‌دیده یاد بگیرند و این یعنی زمان توسعه ربات‌های متحرک به‌طور قابل توجهی کم می‌شود.",
+      "dedupe_key": "nvidia-microduck-obstacle-avoidance-tutorial",
+      "post_key": "2026-11-25/11-30/1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "sourceTitle": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "sourceText": "Add local obstacle avoidance to Microduck while keeping its walking policy fixed. Build varied courses with reusable SimReady assets, model ToF sensing with Newton’s raycaster, and train a controller in Isaac Lab to adjust gamepad velocity commands around obstacles. This tutorial covers simulation training, evaluation, export, and real-robot deployment.\nA walking policy can keep Microduck balanced, but it does not tell the robot how to steer around an obstacle in its path. In this workflow, we reuse the walking policy from our first Microduck tutorial and keep its weights fixed. This follow-up trains a separate avoidance controller using time-of-flight (ToF) sensing. You choose a direction with a gamepad; the controller adjusts the velocity command before passing it to the walking policy.\nNVIDIA Isaac Lab is an open-source framework for training policies across thousands of GPU-parallel simulations and it provides the robot-learning environment. Newton simulates physics and the sensor’s depth measurements. We will cover the control architecture, train on varied obstacle layouts, evaluate the resulting policies, and prepare the interface for hardware testing.\nA Linux system with a compatible NVIDIA GPU and driver. See the Isaac Lab installation guide for platform requirements.\nA configured Microduck. Load the same backlash walking-policy export used by the navigation task.\nInstall uv if it is not already installed. Then clone the exp/microduck branch of the Isaac Lab repository and install its dependencies:\nOnce setup is complete, list the available Microduck environments an",
+      "at": "2026-11-25T08:05:16.004Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-25T11:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "گوگل آزمون قابلیت اطمینان مدل‌های زبانی را منتشر کرد",
+      "why": "این بنچمارک به‌جای این که فقط ببینه مدل یه بار می‌تونه جواب بده، می‌سنجه که هر بار و با تغییرات جزئی هم جواب درست می‌ده؛ یعنی قابلیت اطمینان مدل رو برای استفاده واقعی مشخص می‌کنه.",
+      "dedupe_key": "google-hfe-benchmark-launch",
+      "post_key": "2026-11-25/11-30/2",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "sourceTitle": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+      "sourceText": "Today, we’re launching the Humanity’s First Exam (HFE) benchmark on Kaggle to measure how reliably LLMs answer straightforward, everyday questions. Current frontier models excel at complex math, coding, and science, with most benchmarks measuring these domain-specific capability ceilings.\nInstead of focusing on whether a model is capable of solving a task once, HFE measures whether models can consistently solve tasks (and slight variations) every single time. The dataset consists of 544 elementary text and image prompts across 20 foundational capabilities. Over the last 6 months, frontier models have made significant progress on HFE.\nExplore the live leaderboard , or read our technical report .\nTo keep the HFE benchmark dataset up to date, we’re inviting the community to help. Join our three-week Kaggle competition through December 15 and submit everyday questions that today’s models still get wrong.\nExample prompt from Humanity’s First Exam’s public dataset: “List the color of the third letter of each word in the neon sign in order, separated by a semicolon.” (Answer: green; yellow; white; blue; blue)",
+      "at": "2026-11-25T08:17:17.746Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8573,
-      "last_at": "2026-11-24T22:03:46+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 8574,
+      "last_at": "2026-11-25T07:56:54+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "ai_farshad": {
-      "last_id": 6522,
-      "last_at": "2026-11-24T20:06:49+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 6523,
+      "last_at": "2026-11-25T07:30:02+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7272,
-      "last_at": "2026-11-24T13:56:43+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 7277,
+      "last_at": "2026-11-25T06:34:55+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "techiin_ir": {
-      "last_id": 20845,
-      "last_at": "2026-11-24T09:40:13+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 20846,
+      "last_at": "2026-11-24T09:45:15+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "mgh_mobin": {
-      "last_id": 511,
-      "last_at": "2026-11-24T11:32:16+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 513,
+      "last_at": "2026-11-25T06:28:01+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "asrnovin_ir": {
-      "last_id": 11532,
-      "last_at": "2026-11-24T22:10:23+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 11534,
+      "last_at": "2026-11-25T06:18:49+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "shayanode": {
-      "last_id": 268,
-      "last_at": "2026-11-24T22:37:49+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 269,
+      "last_at": "2026-11-24T22:39:07+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "codecloude": {
       "last_id": 2622,
       "last_at": "2026-11-24T22:18:26+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "dunijet_ai": {
       "last_id": 2613,
       "last_at": "2026-11-25T03:55:07+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "MatinSenPaii": {
-      "last_id": 5986,
-      "last_at": "2026-11-24T19:20:38+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 5987,
+      "last_at": "2026-11-25T05:31:54+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     },
     "thenimaonAI": {
-      "last_id": 578,
-      "last_at": "2026-11-24T09:20:29+00:00",
-      "checked_at": "2026-11-25T05:01:06.787Z"
+      "last_id": 580,
+      "last_at": "2026-11-25T06:35:15+00:00",
+      "checked_at": "2026-11-25T08:01:05.718Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-11|tg-archive-tell|https://t.me/ArchiveTell/8362",
-      "date": "2026-11-11",
-      "at": "2026-11-11T08:00:51.000Z",
-      "source": "tg-archive-tell",
-      "title": "💎 امروز یه مدل جدید دیگه از گوگل منتشر میشه.",
-      "url": "https://t.me/ArchiveTell/8362",
-      "reason": "denied_link",
-      "slot": "2026-11-11T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-11|tg-archive-tell|https://t.me/ArchiveTell/8364",
       "date": "2026-11-11",
@@ -29375,6 +29540,54 @@
       "url": "https://huggingface.co/papers/2611.31209",
       "reason": "research_paper",
       "slot": "2026-11-25T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7277",
+      "date": "2026-11-25",
+      "at": "2026-11-25T08:01:05.718Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖اپلیکیشن دسکتاپ Claude روی macOS و Windows یه قابلیت جدید و جذاب اضافه کرده که به",
+      "url": "https://t.me/Mohammad_zammani/7277",
+      "reason": "denied_link",
+      "slot": "2026-11-25T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-mgh-mobin|https://t.me/mgh_mobin/512",
+      "date": "2026-11-25",
+      "at": "2026-11-25T08:01:05.718Z",
+      "source": "tg-mgh-mobin",
+      "title": "کلاد داره چیکار‌ میکنه 😐",
+      "url": "https://t.me/mgh_mobin/512",
+      "reason": "denied_link",
+      "slot": "2026-11-25T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-thenima|https://t.me/thenimaonAI/579",
+      "date": "2026-11-25",
+      "at": "2026-11-25T08:01:05.718Z",
+      "source": "tg-thenima",
+      "title": "اگر یک درصد فکر میکنی الان امنیت سایبری داری و کسی دسترسی‌ای به چتت و تعاملت",
+      "url": "https://t.me/thenimaonAI/579",
+      "reason": "denied_link",
+      "slot": "2026-11-25T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-techiin|https://t.me/techiin_ir/20846",
+      "date": "2026-11-25",
+      "at": "2026-11-25T08:01:05.718Z",
+      "source": "tg-techiin",
+      "title": "✅ زمان زیادی برای مهار سلاح‌های خودمختار و هوش مصنوعی نداریم",
+      "url": "https://t.me/techiin_ir/20846",
+      "reason": "denied_link",
+      "slot": "2026-11-25T11:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
