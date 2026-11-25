@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-24T20:22:08.252Z",
+  "updatedAt": "2026-11-25T05:05:23.272Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -16934,85 +16934,190 @@
       "title": "How Gemini is changing the game for Golden State's organization and fans.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
       "benchmark": false
+    },
+    "offerwatch:af6ec626b5f5e8c1": {
+      "at": "2026-11-25T05:01:12.426Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits"
+    },
+    "offerwatch:31ac6ba932db23fb": {
+      "at": "2026-11-25T05:01:12.638Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:0b591a439ac87725": {
+      "at": "2026-11-25T05:01:12.846Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md"
+    },
+    "url:707059155681987f": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+      "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary"
+    },
+    "title:4f7e750ec76f7bdd": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+      "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary"
+    },
+    "url:ec1ec99fc2a2b875": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows"
+    },
+    "title:668438c90a75655c": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows"
+    },
+    "url:59a904e363feba08": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
+      "url": "https://arxiv.org/abs/2611.32957v1"
+    },
+    "title:8a539ffc13cb109e": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
+      "url": "https://arxiv.org/abs/2611.32957v1"
+    },
+    "url:19f4d0a0f6f233f0": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Do Vision-Language Models Know Their Own Visual Weaknesses? Probing Capability-Level Metacognition",
+      "url": "https://arxiv.org/abs/2611.32940v1"
+    },
+    "title:facc5a8a35a187fa": {
+      "at": "2026-11-25T05:01:28.168Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Do Vision-Language Models Know Their Own Visual Weaknesses? Probing Capability-Level Metacognition",
+      "url": "https://arxiv.org/abs/2611.32940v1"
+    },
+    "url:c7f25b73b225a956": {
+      "at": "2026-11-25T05:01:36.773Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "از این به بعد برای ساخت نرم‌افزار ویندوز و مک، حتی لازم نیست برنامه‌نویسی بلد باشی!",
+      "url": "https://t.me/codecloude/2621"
+    },
+    "title:64f5149541d25afc": {
+      "at": "2026-11-25T05:01:36.773Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "از این به بعد برای ساخت نرم‌افزار ویندوز و مک، حتی لازم نیست برنامه‌نویسی بلد باشی!",
+      "url": "https://t.me/codecloude/2621"
+    },
+    "url:1ef9f01e5f39dc3e": {
+      "at": "2026-11-25T05:01:37.008Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "😀واکنش جالب کاربران به بازگشت جنسن هوانگ به انویدیا",
+      "url": "https://t.me/techiin_ir/20845"
+    },
+    "title:ed9ee3405ca5b67c": {
+      "at": "2026-11-25T05:01:37.008Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "😀واکنش جالب کاربران به بازگشت جنسن هوانگ به انویدیا",
+      "url": "https://t.me/techiin_ir/20845"
+    },
+    "url:a3e8b6fb9c8c135b": {
+      "at": "2026-11-25T05:01:52.153Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
+      "url": "https://huggingface.co/papers/2611.31209"
+    },
+    "title:cfdd0ebe7e7a6f15": {
+      "at": "2026-11-25T05:01:52.153Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
+      "url": "https://huggingface.co/papers/2611.31209"
+    },
+    "url:2ee4674409e7413b": {
+      "at": "2026-11-25T05:05:23.268Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+      "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+      "benchmark": false
+    },
+    "title:be35dbc2fda0c850": {
+      "at": "2026-11-25T05:05:23.268Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-25T08:30+03:30",
+      "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+      "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:adb89e6d7a020e3c": {
-      "id": "defer:url:adb89e6d7a020e3c",
-      "at": "2026-11-23T13:31:56.614Z",
-      "firstAt": "2026-11-23T13:31:56.614Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:adb89e6d7a020e3c",
-        "title:902701dcf0792a44"
-      ],
-      "canonical": "https://www.aialphabet.ir/best-free-ai-tools",
-      "title": "بهترین ابزارهای رایگان هوش مصنوعی؛ ۱۲ ابزار که واقعاً به کارت میاد",
-      "candidate": {
-        "sourceId": "tg-mohammad-zammani",
-        "sourceName": "هوش مصنوعی | محمد زمانی",
-        "sourceType": "telegram_channel",
-        "title": "بهترین ابزارهای رایگان هوش مصنوعی؛ ۱۲ ابزار که واقعاً به کارت میاد",
-        "link": "https://www.aialphabet.ir/best-free-ai-tools/",
-        "canonical": "https://www.aialphabet.ir/best-free-ai-tools",
-        "messageText": "بهترین ابزارهای رایگان هوش مصنوعی؛ ۱۲ ابزار که واقعاً به کارت میاد\n\n✈️@mohammad_zammani\n📱Mohammad.zammani.offical\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n👍18❤8🔥4💯3⚡1",
-        "leadPostUrl": "https://t.me/Mohammad_zammani/7263",
-        "published": "2026-11-23T11:07:51+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/sxuplI8ABm-NB564xZx85rD36BMZF8jrtQh3WWUzL6zktLMgtF75DBiBJ36L7ABjQ9N4osQtHcvy7rrVRkBtiuRZkD80QLuMMM6qwYu0mWMw-31SlLWZHCFotZnf40ppCtNcs5lqvusZWhQ4dAJwC76WgpmCGcPRwIEb_5LC-1pkfbvq9GrgnQKw-7x_5kjPf-ZTJCtDGdVLjmH_gSaqr6uX6Mk1YHM2pGIyMkX5REqOBqTFEXCFQdbe5NZZ81W7BshL3NGyCSmTxYqRdtYgBFkb0itzq0MKMP1O0dCzKAXiEO0mVgffXk9zgZsF54IGFxEDCyK7FiqLv-x5f_KDRQ.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 2.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://www.aialphabet.ir/best-free-ai-tools",
-          "https://www.instagram.com/mohammad.zammani.offical?igsh=MWhwM3M4cjMwb3h0YQ%3D%3D"
-        ],
-        "offerHint": true,
-        "toolHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:adb89e6d7a020e3c",
-          "title:902701dcf0792a44"
-        ],
-        "leadSource": "Mohammad_zammani",
-        "leadMessageId": 7263,
-        "leadChannelUrl": "https://t.me/Mohammad_zammani",
-        "sourceFocus": "news",
-        "leadKind": "free_offer",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:27a6b6af092d6a67": {
       "id": "defer:url:27a6b6af092d6a67",
-      "at": "2026-11-24T13:34:31.724Z",
+      "at": "2026-11-25T05:03:11.719Z",
       "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
+      "attempts": 2,
+      "reason": "qa_failed",
       "reasons": [
         "source_consecutive",
-        "category_consecutive"
+        "category_consecutive",
+        "qa_failed"
       ],
       "keys": [
         "url:27a6b6af092d6a67",
@@ -17057,10 +17162,10 @@
         "leadKind": "",
         "deferred": {
           "id": "defer:url:27a6b6af092d6a67",
-          "attempts": 0
+          "attempts": 1
         }
       },
-      "detail": "business"
+      "detail": "grounding_superlatives"
     },
     "defer:url:29c9de3a1f8674ad": {
       "id": "defer:url:29c9de3a1f8674ad",
@@ -17300,108 +17405,6 @@
         "keys": [
           "url:89fc33d5028ef502",
           "title:3452061a37e69a0b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:0330bccfc355824b": {
-      "id": "defer:url:0330bccfc355824b",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0330bccfc355824b",
-        "title:a36e6af75e7d5231"
-      ],
-      "canonical": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough",
-      "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
-        "link": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
-        "canonical": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough",
-        "published": "Mon, 23 Nov 2026 13:59:36 +0000",
-        "summary": "Meta's Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/meta_logo-2.png"
-        ],
-        "ageHours": 3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:0330bccfc355824b",
-          "title:a36e6af75e7d5231"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:c3079baa07ae12d8": {
-      "id": "defer:url:c3079baa07ae12d8",
-      "at": "2026-11-23T17:01:42.554Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:c3079baa07ae12d8",
-        "title:af88db5c47607130"
-      ],
-      "canonical": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-        "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
-        "canonical": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-        "published": "Mon, 23 Nov 2026 12:00:00 +0000",
-        "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-500x500.jpg"
-        ],
-        "ageHours": 5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:c3079baa07ae12d8",
-          "title:af88db5c47607130"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -17927,55 +17930,6 @@
         "keys": [
           "url:bf2b853553a4f501",
           "title:5602c56c4cbca286"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:2ee4674409e7413b": {
-      "id": "defer:url:2ee4674409e7413b",
-      "at": "2026-11-24T10:31:09.447Z",
-      "firstAt": "2026-11-24T10:31:09.447Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:2ee4674409e7413b",
-        "title:be35dbc2fda0c850"
-      ],
-      "canonical": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-      "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
-      "candidate": {
-        "sourceId": "the-record",
-        "sourceName": "The Record",
-        "sourceType": "news",
-        "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
-        "link": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-        "canonical": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-        "published": "Mon, 23 Nov 2026 18:37:00 GMT",
-        "summary": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
-        "messageText": "",
-        "leadPostUrl": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-        "images": [
-          "http://cms.therecord.media/uploads/signal_icon_brett_jordan_unsplash_9bbe4ed6d8.jpg"
-        ],
-        "ageHours": 15.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:2ee4674409e7413b",
-          "title:be35dbc2fda0c850"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19426,6 +19380,198 @@
         "keys": [
           "url:adfa512c9bee7d82",
           "title:9a68f02ac24fd314"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:cd26d95554d7ee3a": {
+      "id": "defer:url:cd26d95554d7ee3a",
+      "at": "2026-11-25T05:01:52.171Z",
+      "firstAt": "2026-11-25T05:01:52.171Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:cd26d95554d7ee3a",
+        "title:828c0fb6afeaa0aa"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+        "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+        "canonical": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion",
+        "published": "Wed, 25 Nov 2026 00:12:02 +0000",
+        "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+        "images": [],
+        "ageHours": 4.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:cd26d95554d7ee3a",
+          "title:828c0fb6afeaa0aa"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:86266e890e18a6d4": {
+      "id": "defer:url:86266e890e18a6d4",
+      "at": "2026-11-25T05:01:52.172Z",
+      "firstAt": "2026-11-25T05:01:52.172Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:86266e890e18a6d4",
+        "title:cfc4c9122b4aac36"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+      "title": "Even the best AI agents struggle with everyday life",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Even the best AI agents struggle with everyday life",
+        "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+        "canonical": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+        "published": "Tue, 24 Nov 2026 21:33:29 +0000",
+        "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+        "images": [],
+        "ageHours": 7.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:86266e890e18a6d4",
+          "title:cfc4c9122b4aac36"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5edc970ed59b587c": {
+      "id": "defer:url:5edc970ed59b587c",
+      "at": "2026-11-25T05:01:52.172Z",
+      "firstAt": "2026-11-25T05:01:52.172Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:5edc970ed59b587c",
+        "title:ee7b1e865c4f9aef"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+        "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+        "canonical": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+        "published": "Tue, 24 Nov 2026 21:32:38 +0000",
+        "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+        "images": [],
+        "ageHours": 7.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:5edc970ed59b587c",
+          "title:ee7b1e865c4f9aef"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:977f9f016cc6ca5b": {
+      "id": "defer:url:977f9f016cc6ca5b",
+      "at": "2026-11-25T05:01:52.172Z",
+      "firstAt": "2026-11-25T05:01:52.172Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:977f9f016cc6ca5b",
+        "title:36a06a7fc386b7e8"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+        "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+        "canonical": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+        "published": "Tue, 24 Nov 2026 21:19:52 +0000",
+        "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+        "images": [],
+        "ageHours": 7.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:977f9f016cc6ca5b",
+          "title:36a06a7fc386b7e8"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -23043,6 +23189,37 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "42/43"
+    },
+    "2026-11-25T08:30+03:30": {
+      "at": "2026-11-25T05:05:23.267Z",
+      "status": "sent",
+      "category": "security",
+      "title": "سیگنال اسکرین‌شات را در اپل و گوگل مسدود می‌کند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/08-30",
+      "messageId": 156,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0032092872,
+      "tokens": 64452,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "سیگنال اسکرین‌شات را در اپل و گوگل مسدود می‌کند",
+          "category": "security",
+          "status": "sent",
+          "messageId": 156,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008718695999999999,
+          "tokens": 22692,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-25T05:05:23.267Z"
+        }
+      ]
     }
   },
   "published": [
@@ -25481,144 +25658,114 @@
       "sourceTitle": "How Gemini is changing the game for Golden State's organization and fans.",
       "sourceText": "Today, we’re expanding our partnership with Golden State — making Google Gemini the Official AI Assistant Partner and Official Generative AI & Enterprise LLM Partner of the Warriors, the 2026 WNBA Champion Valkyries, and Chase Center.\nThe collaboration integrates Gemini across the entire franchise ecosystem. For fans, that means a more interactive game-day experience, both inside Chase Center via interactive videoboard features, and across digital channels for fans following from home. And behind the scenes, Golden State is deploying Gemini for business to build custom AI agents, helping their teams work smarter across both business and basketball operations.\nAs a Founding Partner of Chase Center since 2019, Golden State has used our gen AI tools to help their operations run smoother, and this next chapter brings the best of Gemini to the team and fans alike.",
       "at": "2026-11-24T20:22:08.249Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-25T08:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "سیگنال اسکرین‌شات را در اپل و گوگل مسدود می‌کند",
+      "why": "ویتاکر هشدار می‌دهد که این راه‌حل کامل نیست، چون ایجنت‌ها می‌توانند از راه‌های دیگری مثل دسترسی به فایل‌های دستگاه، داده‌ها را به دست بیاورند.",
+      "dedupe_key": "signal-screenshot-block-ai-agents",
+      "post_key": "2026-11-25/08-30/1",
+      "sourceId": "the-record",
+      "sourceName": "The Record",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+      "sourceTitle": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+      "sourceText": "The encrypted messaging platform Signal has announced it will by default stop users from taking screenshots of messages if they are using Google or Apple operating systems, a move fueled by concerns about how the tech giants deploy artificial intelligence agents.\nLast year, the widely used messaging app restricted Microsoft 11 users from screenshotting and keeping messages. Similar restrictions will now apply to Google’s Gemini Intelligence and Apple's Siri AI, Signal Foundation president Meredith Whittaker said in a Friday blog post.\n“These agentic AI integrations are changing this environment in a way that’s making it increasingly hostile to privacy,” the blog post said. “This is an existential threat to Signal, and our ability to responsibly uphold our mission.”\nWhittaker said Signal plans to specifically restrict the agentic systems integrated into iOS 27 and versions of Android where Signal detects AI assistants trying to read text.\nThe operating systems’ AI agents attempt to glean information from users by scanning what’s on their screens, Whittaker said, and in doing so hoover up the data in order to “answer your questions and do your bidding,” the blog post said.\nWhittaker warned the agents are making the captured data accessible to random local databases and remote servers at random.\n“All of this is outside of Signal’s control once the data has been captured, and imperils the privacy of all the participants in a conversation,” the blog post said.\nWhile screenshots won’t be permitted by default, the blog post said users who choose to can disable the block in setting",
+      "at": "2026-11-25T05:05:23.268Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8572,
-      "last_at": "2026-11-24T20:20:29+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "last_id": 8573,
+      "last_at": "2026-11-24T22:03:46+00:00",
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "pedramgholizadeh": {
       "last_id": 817,
       "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "ai_farshad": {
       "last_id": 6522,
       "last_at": "2026-11-24T20:06:49+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "Mohammad_zammani": {
       "last_id": 7272,
       "last_at": "2026-11-24T13:56:43+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "techiin_ir": {
-      "last_id": 20844,
-      "last_at": "2026-11-24T09:35:14+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "last_id": 20845,
+      "last_at": "2026-11-24T09:40:13+00:00",
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "mgh_mobin": {
       "last_id": 511,
       "last_at": "2026-11-24T11:32:16+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "asrnovin_ir": {
-      "last_id": 11531,
-      "last_at": "2026-11-24T16:33:17+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "last_id": 11532,
+      "last_at": "2026-11-24T22:10:23+00:00",
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "shayanode": {
-      "last_id": 267,
-      "last_at": "2026-11-22T08:49:02+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "last_id": 268,
+      "last_at": "2026-11-24T22:37:49+00:00",
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "codecloude": {
-      "last_id": 2620,
-      "last_at": "2026-11-24T17:16:20+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "last_id": 2622,
+      "last_at": "2026-11-24T22:18:26+00:00",
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "dunijet_ai": {
-      "last_id": 2612,
-      "last_at": "2026-11-24T16:03:31+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "last_id": 2613,
+      "last_at": "2026-11-25T03:55:07+00:00",
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "miladxtalks": {
       "last_id": 251,
       "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "MatinSenPaii": {
       "last_id": 5986,
       "last_at": "2026-11-24T19:20:38+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     },
     "thenimaonAI": {
       "last_id": 578,
       "last_at": "2026-11-24T09:20:29+00:00",
-      "checked_at": "2026-11-24T20:21:42.432Z"
+      "checked_at": "2026-11-25T05:01:06.787Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-11|offer-watch:perq|https://perq.sh/",
-      "date": "2026-11-11",
-      "at": "2026-11-11T05:00:50.017Z",
-      "source": "offer-watch:perq",
-      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
-      "url": "https://perq.sh/",
-      "reason": "offer_watch",
-      "slot": "2026-11-11T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-11|tg-dunijet-ai|https://t.me/dunijet_ai/2531",
-      "date": "2026-11-11",
-      "at": "2026-11-11T05:00:50.017Z",
-      "source": "tg-dunijet-ai",
-      "title": "شرکت Anthropic هم یه سوییت اداری هوش مصنوعی برای کارمندان غیرفنی رونمایی کرد",
-      "url": "https://t.me/dunijet_ai/2531",
-      "reason": "denied_link",
-      "slot": "2026-11-11T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-11|tg-techiin|https://t.me/techiin_ir/20749",
-      "date": "2026-11-11",
-      "at": "2026-11-11T05:00:50.017Z",
-      "source": "tg-techiin",
-      "title": "✅ مدل جمینای 4 کربن از طریق اپلیکیشن جمینای در دسترس کاربران قرار گرفت",
-      "url": "https://t.me/techiin_ir/20749",
-      "reason": "denied_link",
-      "slot": "2026-11-11T08:30+03:30",
-      "kind": "post",
-      "mainEligible": true
-    },
-    {
-      "id": "2026-11-11|artificial-analysis-articles|https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
-      "date": "2026-11-11",
-      "at": "2026-11-11T05:00:50.017Z",
-      "source": "artificial-analysis-articles",
-      "title": "Multimodal Knowledge Agent (MKA) benchmark: testing knowledge work capabilities with complex visual files",
-      "url": "https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent",
-      "reason": "send_failed",
-      "slot": "2026-11-11T08:30+03:30",
-      "kind": "post",
-      "mainEligible": true
-    },
     {
       "id": "2026-11-11|tg-archive-tell|https://t.me/ArchiveTell/8362",
       "date": "2026-11-11",
@@ -29158,6 +29305,78 @@
       "slot": "2026-11-24T23:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|offer-watch:ai-free|https://aifree.dev/free-api-credits",
+      "date": "2026-11-25",
+      "at": "2026-11-25T05:01:06.787Z",
+      "source": "offer-watch:ai-free",
+      "title": "Free API access falls into three groups.",
+      "url": "https://aifree.dev/free-api-credits",
+      "reason": "offer_watch",
+      "slot": "2026-11-25T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-25",
+      "at": "2026-11-25T05:01:06.787Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-25T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|offer-watch:free-llm-api-hub|https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "date": "2026-11-25",
+      "at": "2026-11-25T05:01:06.787Z",
+      "source": "offer-watch:free-llm-api-hub",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "reason": "offer_watch",
+      "slot": "2026-11-25T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-codecloude|https://t.me/codecloude/2621",
+      "date": "2026-11-25",
+      "at": "2026-11-25T05:01:06.787Z",
+      "source": "tg-codecloude",
+      "title": "از این به بعد برای ساخت نرم‌افزار ویندوز و مک، حتی لازم نیست برنامه‌نویسی بلد باشی!",
+      "url": "https://t.me/codecloude/2621",
+      "reason": "denied_link",
+      "slot": "2026-11-25T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-techiin|https://t.me/techiin_ir/20845",
+      "date": "2026-11-25",
+      "at": "2026-11-25T05:01:06.787Z",
+      "source": "tg-techiin",
+      "title": "😀واکنش جالب کاربران به بازگشت جنسن هوانگ به انویدیا",
+      "url": "https://t.me/techiin_ir/20845",
+      "reason": "denied_link",
+      "slot": "2026-11-25T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|hf-papers|https://huggingface.co/papers/2611.31209",
+      "date": "2026-11-25",
+      "at": "2026-11-25T05:01:06.787Z",
+      "source": "hf-papers",
+      "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
+      "url": "https://huggingface.co/papers/2611.31209",
+      "reason": "research_paper",
+      "slot": "2026-11-25T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -29507,8 +29726,8 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-24",
-    "at": "2026-11-24T05:03:59.303Z",
+    "lastDate": "2026-11-25",
+    "at": "2026-11-25T05:01:06.787Z",
     "found": 3,
     "delivered": 3
   },
@@ -29520,7 +29739,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-24T17:51:27.115Z",
+      "lastCheck": "2026-11-25T05:01:06.787Z",
       "status": "active",
       "misses": 0
     }
