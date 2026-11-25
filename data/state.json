@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T14:40:32.385Z",
+  "updatedAt": "2026-11-25T17:06:00.671Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -17546,68 +17546,153 @@
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://simonwillison.net/2026/Nov/23/glm-54",
       "benchmark": false
+    },
+    "url:1a53be0cf1ccc158": {
+      "at": "2026-11-25T17:01:21.958Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "مدل جدید ویدیوی هوش مصنوعی که تا ۳۰ ثانیه ویدیو ۱۰۸۰ با صدا می‌سازه.",
+      "url": "https://t.me/miladxtalks/252"
+    },
+    "title:b18b9249c3eb5264": {
+      "at": "2026-11-25T17:01:21.958Z",
+      "decision": "review",
+      "reason": "no_link",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "مدل جدید ویدیوی هوش مصنوعی که تا ۳۰ ثانیه ویدیو ۱۰۸۰ با صدا می‌سازه.",
+      "url": "https://t.me/miladxtalks/252"
+    },
+    "url:5eeea5ba60f6f26a": {
+      "at": "2026-11-25T17:01:28.446Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "اگه هوش مصنوعی تونسته باشه یکی از بزرگ‌ترین مسائل حل‌نشده تاریخ کامپیوتر رو حل کنه چی؟",
+      "url": "https://t.me/mgh_mobin/514"
+    },
+    "title:abc4df9dc8caaa9e": {
+      "at": "2026-11-25T17:01:28.446Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "اگه هوش مصنوعی تونسته باشه یکی از بزرگ‌ترین مسائل حل‌نشده تاریخ کامپیوتر رو حل کنه چی؟",
+      "url": "https://t.me/mgh_mobin/514"
+    },
+    "url:010671ab7a99e50f": {
+      "at": "2026-11-25T17:01:28.687Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "🚨 پکیج کامل آموزش هوش مصنوعی, ai plus و ai ultra ! 🔵ابتدا در AI Plus",
+      "url": "https://t.me/ai_farshad/6528"
+    },
+    "title:9e934f185054004b": {
+      "at": "2026-11-25T17:01:28.687Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "🚨 پکیج کامل آموزش هوش مصنوعی, ai plus و ai ultra ! 🔵ابتدا در AI Plus",
+      "url": "https://t.me/ai_farshad/6528"
+    },
+    "url:1259b534687dd8b3": {
+      "at": "2026-11-25T17:02:38.271Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+    },
+    "title:988ceedbe0528be0": {
+      "at": "2026-11-25T17:02:38.271Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+    },
+    "url:27a6b6af092d6a67": {
+      "at": "2026-11-25T17:02:58.076Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair"
+    },
+    "title:65ef5ea996fa4d08": {
+      "at": "2026-11-25T17:02:58.076Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair"
+    },
+    "url:4622ca8e7ed69293": {
+      "at": "2026-11-25T17:03:04.027Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "🚨 فوری | احتمال مسدود شدن حساب‌های هوش مصنوعی!",
+      "url": "https://amir.technology/studio"
+    },
+    "title:65c76fc9856f4b65": {
+      "at": "2026-11-25T17:03:04.027Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "🚨 فوری | احتمال مسدود شدن حساب‌های هوش مصنوعی!",
+      "url": "https://amir.technology/studio"
+    },
+    "url:60ba88fff17fdbe4": {
+      "at": "2026-11-25T17:03:50.081Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "MAGI-2",
+      "url": "https://www.producthunt.com/products/magi-1"
+    },
+    "title:958b6a6721ca2248": {
+      "at": "2026-11-25T17:03:50.081Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "MAGI-2",
+      "url": "https://www.producthunt.com/products/magi-1"
+    },
+    "url:805b93a7183bdbae": {
+      "at": "2026-11-25T17:06:00.667Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today",
+      "url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today",
+      "benchmark": false
+    },
+    "title:deb045e1a02a241d": {
+      "at": "2026-11-25T17:06:00.667Z",
+      "decision": "publish",
+      "category": "business",
+      "slot": "2026-11-25T20:30+03:30",
+      "title": "Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today",
+      "url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:27a6b6af092d6a67": {
-      "id": "defer:url:27a6b6af092d6a67",
-      "at": "2026-11-25T05:03:11.719Z",
-      "firstAt": "2026-11-23T17:01:42.554Z",
-      "attempts": 2,
-      "reason": "qa_failed",
-      "reasons": [
-        "source_consecutive",
-        "category_consecutive",
-        "qa_failed"
-      ],
-      "keys": [
-        "url:27a6b6af092d6a67",
-        "title:65ef5ea996fa4d08"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
-      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-        "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-        "canonical": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
-        "published": "Mon, 23 Nov 2026 15:46:18 +0000",
-        "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-500x500.jpg"
-        ],
-        "ageHours": 1.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:27a6b6af092d6a67",
-          "title:65ef5ea996fa4d08"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:27a6b6af092d6a67",
-          "attempts": 1
-        }
-      },
-      "detail": "grounding_superlatives"
-    },
     "defer:url:6d743dea15159994": {
       "id": "defer:url:6d743dea15159994",
       "at": "2026-11-25T10:35:16.468Z",
@@ -17679,54 +17764,6 @@
         }
       },
       "detail": "tools"
-    },
-    "defer:url:b0f646dfac9a0a0a": {
-      "id": "defer:url:b0f646dfac9a0a0a",
-      "at": "2026-11-24T17:02:44.988Z",
-      "firstAt": "2026-11-24T17:02:44.988Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:b0f646dfac9a0a0a",
-        "title:e16d02df25d10eda"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
-      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-        "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-        "canonical": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
-        "published": "Tue, 24 Nov 2026 17:00:00 +0000",
-        "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-        "images": [],
-        "ageHours": 0,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:b0f646dfac9a0a0a",
-          "title:e16d02df25d10eda"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:a9a1f591c3b5ca40": {
       "id": "defer:url:a9a1f591c3b5ca40",
@@ -18056,52 +18093,6 @@
         "keys": [
           "url:d989696f1a8d1cec",
           "title:c225dc8c8935b9fc"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d7c60e7c7c009ef9": {
-      "id": "defer:url:d7c60e7c7c009ef9",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d7c60e7c7c009ef9",
-        "title:c78398c51cca5091"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.31139v1",
-      "title": "Deneb-Vritra: Descriptions, Edges and Names Examined by Blocking Via Restoring Token Representations and Attention",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Deneb-Vritra: Descriptions, Edges and Names Examined by Blocking Via Restoring Token Representations and Attention",
-        "link": "https://arxiv.org/abs/2611.31139v1",
-        "canonical": "https://arxiv.org/abs/2611.31139v1",
-        "published": "2026-11-23T18:09:20Z",
-        "summary": "Laya is a 421M-parameter encoder that answers a question about a text in one pass: each answer option, written as a name plus a description, gets a marker token, and one score is read from the network at each marker. We first confirm that such models can follow an option's name when it contradicts the description; the question is where in the network this happens. We locate it. On 951 synthetic questions we move each name onto another option's description and count how often the model picks the option with the right name (the name shortcut): 53% for the released checkpoint, 59% for our fine-tune v1, 11% for a fine-tune with name randomisation. On a 320-item sample, blocking attention from each marker to its own name tokens in layers 14 to 17 of 28 cuts v1's shortcut from 67% to 16% (19% on two schemas held out from component selection) while accuracy with the original names stays at 90%; blocking marker edges to the question, other options or text has no effect. No single head matters (largest effect 9 points), and restoring clean marker states undoes the swap from layer 16. Attention mass tracks the window by layer but not by head. Repeated on 5 checkpoints (released, fine-tuned, name-randomised, and a pair trained without two schemas), the knockout finds similar layers; in the name-randomised ones, blocking the description edges instead brings the shortcut back to 56-58%, so the read persists and is outvoted. Marker states decode the name from layer 0; a one-direction probe erasure changed nothing but was weaker than a random edit. Copying layers 0-13 or 14-27 of a name-randomised sibling into a fine-tune recovers 66% and 65% (v1); 21% and 45% (pair A) of its shortcut reduction. 9 of the 12 predictions we could score, written before running, failed. Head sweeps cover 5 of 5 checkpoints; data are synthetic and LLM-labelled; one architecture.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.31139v1",
-        "images": [],
-        "ageHours": 22.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d7c60e7c7c009ef9",
-          "title:c78398c51cca5091"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19846,53 +19837,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:1259b534687dd8b3": {
-      "id": "defer:url:1259b534687dd8b3",
-      "at": "2026-11-25T13:31:58.984Z",
-      "firstAt": "2026-11-25T13:31:58.984Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1259b534687dd8b3",
-        "title:988ceedbe0528be0"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "title": "Richpanel helps companies automate 50% of support in 30 days",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Richpanel helps companies automate 50% of support in 30 days",
-        "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-        "canonical": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-        "published": "Mon, 23 Nov 2026 08:00:00 GMT",
-        "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-        "images": [],
-        "ageHours": 53.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:1259b534687dd8b3",
-          "title:988ceedbe0528be0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:161c1109213e1492": {
       "id": "defer:url:161c1109213e1492",
       "at": "2026-11-25T13:31:58.984Z",
@@ -19987,6 +19931,216 @@
         "keys": [
           "url:3a3c0d45396bda4f",
           "title:ae0117704bbfaea8"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a29d15b5b34b6d60": {
+      "id": "defer:url:a29d15b5b34b6d60",
+      "at": "2026-11-25T17:01:28.705Z",
+      "firstAt": "2026-11-25T17:01:28.705Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:a29d15b5b34b6d60",
+        "title:d506abcc415380bc"
+      ],
+      "canonical": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store",
+      "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
+        "link": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+        "canonical": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store",
+        "published": "Wed, 25 Nov 2026 16:44:37 +0000",
+        "summary": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all agentic shopping orders. The article Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store. appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/met_muse_gadget_logo.jpg"
+        ],
+        "ageHours": 0.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:a29d15b5b34b6d60",
+          "title:d506abcc415380bc"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:a0b7740b9fd5bc2b": {
+      "id": "defer:url:a0b7740b9fd5bc2b",
+      "at": "2026-11-25T17:01:28.705Z",
+      "firstAt": "2026-11-25T17:01:28.705Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:a0b7740b9fd5bc2b",
+        "title:0932c65cc223bb3f"
+      ],
+      "canonical": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
+      "title": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت",
+      "candidate": {
+        "sourceId": "tg-matin-senpai",
+        "sourceName": "MatinSenPaii",
+        "sourceType": "telegram_channel",
+        "title": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت",
+        "link": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
+        "canonical": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
+        "messageText": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت\n\nیه مکالمه یک میلیون توکنی توی ۲۰۲۲ به بیش از ۱۳۰ ترابایت حافظه گرافیکی نیاز داشت؛ یعنی حدود ۱۷۰۰ تا H100 برای یه چت. همون یک میلیون توکن با DeepSeek-V4.1-Flash که سپتامبر ۲۰۲۶ اومد، فقط ۸۹۰ مگابایت می‌خواد؛ یعنی ۱۵۰ هزار برابر کمتر و روی تقریبا هر گرافیکی جا میشه.\n\nطرز کارش این شکلیه که چهار تا عدد رو یکی‌یکی کوچیک کردن: FlashAttention جدول امتیازها رو حذف کرد و رسید به ۲٫۵ ترابایت، GQA به ۳۲۰ گیگابایت، MLA دیپ‌سیک به ۶۸٫۶ گیگابایت، کوانتیزه کردن کش (یعنی همون حافظه موقت مکالمه) به ۴۶٫۹ گیگابایت، ادغام توکن‌های همسایه به ۳٫۴ گیگابایت و در آخر اشتراک کش بین لایه‌ها به ۸۹۰ مگابایت.\n\nاین یعنی کانتکست یک میلیون توکنی دیگه چیز لوکسی نیست؛ واسه همینه که ارائه‌دهنده‌ها می‌تونن حافظه مکالمه رو نگه دارن و وقتی همون متن رو دوباره می‌فرستید ارزون‌تر حساب کنن.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤60👍6🦄3🆒2",
+        "leadPostUrl": "https://t.me/MatinSenPaii/5989",
+        "published": "2026-11-25T16:27:58+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn1.telesco.pe/file/IR-euH1EH12DOJIjGh5mWNUMFoMIAcsd9KIwd8u0fyPMx-KPSYLVwk4dSktPLcuPUawUJ7Q-VV7klHTeZatOn2bV1E2_9hDzSPOJXHinJuXHeyWl0xxtc-oXh7LWyGnL1geEs0zLyGnebvxC4BS91WdutxLa5ezbjeSbvFMAFlSi6FujKniGgQIPo-1fsG3xUMAcC9ysx3l-jiMLJ-LONlsx5jrUek-awfi5AVJcFcgoUrqrRbloI1oIAGFKzl97JgbB0W8UB5oeF6_WGz8tLtPlK3GbPhb8kZZ_D6POZ3fQeB2FXYoa87XbMVd8OqLkhylaw7ZMfDa7CmddmGwE-Q.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "benchmark": true,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:a0b7740b9fd5bc2b",
+          "title:0932c65cc223bb3f"
+        ],
+        "leadSource": "MatinSenPaii",
+        "leadMessageId": 5989,
+        "leadChannelUrl": "https://t.me/MatinSenPaii",
+        "sourceFocus": "education",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:3057c1692fc87eb1": {
+      "id": "defer:url:3057c1692fc87eb1",
+      "at": "2026-11-25T17:01:28.705Z",
+      "firstAt": "2026-11-25T17:01:28.705Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3057c1692fc87eb1",
+        "title:13b197f4a0149c2f"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+        "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+        "canonical": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse",
+        "published": "Wed, 25 Nov 2026 14:10:18 +0000",
+        "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+        "images": [],
+        "ageHours": 2.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:3057c1692fc87eb1",
+          "title:13b197f4a0149c2f"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:10878202550bbbf9": {
+      "id": "defer:url:10878202550bbbf9",
+      "at": "2026-11-25T17:01:28.705Z",
+      "firstAt": "2026-11-25T17:01:28.705Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:10878202550bbbf9",
+        "title:a2ef9367388aadb1"
+      ],
+      "canonical": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "title": "Connected intelligence for in-house legal",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "Connected intelligence for in-house legal",
+        "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "canonical": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "published": "Mon, 23 Nov 2026 08:00:00 GMT",
+        "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "images": [],
+        "ageHours": 57,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:10878202550bbbf9",
+          "title:a2ef9367388aadb1"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -23743,6 +23897,37 @@
           "at": "2026-11-25T13:34:54.385Z"
         }
       ]
+    },
+    "2026-11-25T20:30+03:30": {
+      "at": "2026-11-25T17:06:00.667Z",
+      "status": "sent",
+      "category": "business",
+      "title": "قراردادهای امروز، فروش آینده استارتاپ هوش مصنوعی را تعیین می‌کند",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/20-30",
+      "messageId": 161,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0052746176,
+      "tokens": 85412,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "قراردادهای امروز، فروش آینده استارتاپ هوش مصنوعی را تعیین می‌کند",
+          "category": "business",
+          "status": "sent",
+          "messageId": 161,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0024483312,
+          "tokens": 24061,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-25T17:06:00.667Z"
+        }
+      ]
     }
   },
   "published": [
@@ -26271,156 +26456,114 @@
       "sourceTitle": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "sourceText": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer . GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:\nIn a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.\nThis is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said:\nInkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality.\nWe plan to open-source the model weights responsibly after completing necessary safety hardening.\nIt turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at https://api.z.ai/api/v1 ), and the API key for the coding plan worked with that and gave me access to the new model.\nI built a llm-glm plugin , then realized that llm-zai by Tommy Hughes already exists! I've shipped mine purely because llm-zai doesn't yet support the new model, but I'll likely retire mine once that plugin catches up.\nHere are pelicans for GLM-5.4 on low, high, and max. This is the max one:\nI realized I never ran pelicans for GLM-5.3, so here those are for",
       "at": "2026-11-25T13:34:54.385Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-25T20:30+03:30",
+      "category": "business",
+      "kind": "news",
+      "title": "قراردادهای امروز، فروش آینده استارتاپ هوش مصنوعی را تعیین می‌کند",
+      "why": "با این کار، استارتاپ‌ها می‌تونن انعطاف‌شون رو برای فروش حفظ کنن و سرعتی که باعث جذب سرمایه شده، بعداً به ضررشون تموم نشه.",
+      "dedupe_key": "crunchbase-ai-startup-exit-deals",
+      "post_key": "2026-11-25/20-30/1",
+      "sourceId": "crunchbase-news",
+      "sourceName": "Crunchbase News",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
+      "sourceTitle": "Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today",
+      "sourceText": "Valuations for AI companies have soared, and the companies are moving faster than ever. In the financings our firm has worked on so far in 2026, AI companies raised at median pre-money valuations up to 2.5 times those of non-AI companies from seed through Series C.\nAcross the broader private market, Crunchbase’s Current Valuation Model estimates that the more than 1,900 startups on its Unicorn Board are worth about $2 trillion more collectively than their last reported funding-round valuations.\nWhen everything moves that fast, the terms of your financings and of your contracts for compute, data and distribution get set early and in a hurry. Some of those terms will later slow a sale, add cost and erode value. The key is making sure you take long enough to consider what a deal does to your exit before you sign.\nTake license-and-hire deals, where a buyer licenses your technology and hires your team instead of acquiring the company. They’ve become more common in AI, and the National Venture Capital Association has responded by updating its model charter. In 2025, it added an optional investor approval right over these deals, and sign-off by the board, including the investors’ directors, was enough to satisfy it.\nThe November 2026 update requires a vote of the preferred stockholders instead. Investors are often reluctant to use an approval right to block a deal. But it puts them at the negotiating table when an offer arrives, with a voice in how the proceeds are split between retention packages for the team and the cap table.\nThe stakes are higher when an investor is also a str",
+      "at": "2026-11-25T17:06:00.668Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8580,
-      "last_at": "2026-11-25T12:12:13+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 8586,
+      "last_at": "2026-11-25T16:58:33+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "pedramgholizadeh": {
-      "last_id": 817,
-      "last_at": "2026-11-23T18:43:11+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 818,
+      "last_at": "2026-11-25T13:45:02+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "ai_farshad": {
-      "last_id": 6527,
-      "last_at": "2026-11-25T12:45:01+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 6528,
+      "last_at": "2026-11-25T13:41:23+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "Mohammad_zammani": {
       "last_id": 7278,
       "last_at": "2026-11-25T12:34:35+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "techiin_ir": {
-      "last_id": 20848,
-      "last_at": "2026-11-24T16:24:22+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 20849,
+      "last_at": "2026-11-24T16:45:17+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "mgh_mobin": {
-      "last_id": 513,
-      "last_at": "2026-11-25T06:28:01+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 514,
+      "last_at": "2026-11-25T15:24:17+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "web3nabu": {
       "last_id": 2187,
       "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "asrnovin_ir": {
-      "last_id": 11538,
-      "last_at": "2026-11-25T12:46:25+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 11539,
+      "last_at": "2026-11-25T16:41:16+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "shayanode": {
       "last_id": 271,
       "last_at": "2026-11-24T22:42:54+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "codecloude": {
       "last_id": 2624,
       "last_at": "2026-11-25T11:52:34+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "dunijet_ai": {
       "last_id": 2613,
       "last_at": "2026-11-25T03:55:07+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "miladxtalks": {
-      "last_id": 251,
-      "last_at": "2026-11-20T17:32:10+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 252,
+      "last_at": "2026-11-25T16:07:30+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "MatinSenPaii": {
-      "last_id": 5987,
-      "last_at": "2026-11-25T05:31:54+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "last_id": 5989,
+      "last_at": "2026-11-25T16:27:58+00:00",
+      "checked_at": "2026-11-25T17:01:03.333Z"
     },
     "thenimaonAI": {
       "last_id": 593,
       "last_at": "2026-11-25T08:44:42+00:00",
-      "checked_at": "2026-11-25T13:30:57.906Z"
+      "checked_at": "2026-11-25T17:01:03.333Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-11|tg-shayanode|https://t.me/shayanode/133",
-      "date": "2026-11-11",
-      "at": "2026-11-11T17:00:52.247Z",
-      "source": "tg-shayanode",
-      "title": "🔓 نسخه رایگان",
-      "url": "https://t.me/shayanode/133",
-      "reason": "link_missing",
-      "slot": "2026-11-11T20:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-11|tg-archive-tell|https://t.me/ArchiveTell/8369",
-      "date": "2026-11-11",
-      "at": "2026-11-11T17:00:52.247Z",
-      "source": "tg-archive-tell",
-      "title": "پروژه ای زدید با Qwen 4 زدید ؟",
-      "url": "https://t.me/ArchiveTell/8369",
-      "reason": "no_link",
-      "slot": "2026-11-11T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-11|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7197",
-      "date": "2026-11-11",
-      "at": "2026-11-11T17:00:52.247Z",
-      "source": "tg-mohammad-zammani",
-      "title": "طبق گزارش تازه بلومبرگ، شرکت ByteDance (مالک تیک‌تاک) حسابی دست‌به‌کار شده و قصد داره ظرف چند",
-      "url": "https://t.me/Mohammad_zammani/7197",
-      "reason": "denied_link",
-      "slot": "2026-11-11T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-11|tg-asr-novin|https://t.me/asrnovin_ir/11441",
-      "date": "2026-11-11",
-      "at": "2026-11-11T17:00:52.247Z",
-      "source": "tg-asr-novin",
-      "title": "با RyzerDNS، تحریم‌ها دیگر مانع شما نیستند.",
-      "url": "https://t.me/asrnovin_ir/11441",
-      "reason": "denied_link",
-      "slot": "2026-11-11T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-11|hf-papers|https://huggingface.co/papers/2611.14320",
-      "date": "2026-11-11",
-      "at": "2026-11-11T17:00:52.247Z",
-      "source": "hf-papers",
-      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-      "url": "https://huggingface.co/papers/2611.14320",
-      "reason": "research_paper",
-      "slot": "2026-11-11T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-11|tg-codecloude|https://t.me/codecloude/2579",
       "date": "2026-11-11",
@@ -30068,16 +30211,45 @@
       "slot": "2026-11-25T17:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-miladxtalks|https://t.me/miladxtalks/252",
+      "date": "2026-11-25",
+      "at": "2026-11-25T17:01:03.333Z",
+      "source": "tg-miladxtalks",
+      "title": "مدل جدید ویدیوی هوش مصنوعی که تا ۳۰ ثانیه ویدیو ۱۰۸۰ با صدا می‌سازه.",
+      "url": "https://t.me/miladxtalks/252",
+      "reason": "no_link",
+      "slot": "2026-11-25T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-mgh-mobin|https://t.me/mgh_mobin/514",
+      "date": "2026-11-25",
+      "at": "2026-11-25T17:01:03.333Z",
+      "source": "tg-mgh-mobin",
+      "title": "اگه هوش مصنوعی تونسته باشه یکی از بزرگ‌ترین مسائل حل‌نشده تاریخ کامپیوتر رو حل کنه چی؟",
+      "url": "https://t.me/mgh_mobin/514",
+      "reason": "denied_link",
+      "slot": "2026-11-25T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-25|tg-asr-novin|https://amir.technology/studio/",
+      "date": "2026-11-25",
+      "at": "2026-11-25T17:01:03.333Z",
+      "source": "tg-asr-novin",
+      "title": "AMIR STUDIO · همه‌ی مدل‌ها در یک‌جا",
+      "url": "https://amir.technology/studio/",
+      "reason": "model_skip",
+      "slot": "2026-11-25T20:30+03:30",
+      "kind": "tool",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-shayanode",
-      "title": "یه قالب آماده برای طراحی سایت، با بنر عریض و فرم‌های شیشه‌ای که خیلی آروم تغییر",
-      "url": "https://t.me/shayanode/126",
-      "slot": "2026-11-11T20:30+03:30",
-      "at": "2026-11-11T17:00:52.247Z"
-    },
     {
       "source": "tg-codecloude",
       "title": "GitHub - google-deepmind/mujoco: Multi-Joint dynamics with Contact. A general purpose physics simulator.",
@@ -30427,6 +30599,13 @@
       "url": "https://t.me/shayanode/270",
       "slot": "2026-11-25T14:00+03:30",
       "at": "2026-11-25T10:30:57.354Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "🚨 پکیج کامل آموزش هوش مصنوعی, ai plus و ai ultra ! 🔵ابتدا در AI Plus",
+      "url": "https://t.me/ai_farshad/6528",
+      "slot": "2026-11-25T20:30+03:30",
+      "at": "2026-11-25T17:01:03.333Z"
     }
   ],
   "reviewPending": {},
