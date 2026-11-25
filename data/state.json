@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T17:48:08.438Z",
+  "updatedAt": "2026-11-25T19:43:30.525Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -17690,6 +17690,60 @@
       "title": "Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today",
       "url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today",
       "benchmark": false
+    },
+    "url:844f8eb7272a7bfd": {
+      "at": "2026-11-25T19:31:13.848Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T23:00+03:30",
+      "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data"
+    },
+    "title:c073c256156c41c0": {
+      "at": "2026-11-25T19:31:13.848Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-25T23:00+03:30",
+      "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data"
+    },
+    "url:a0b7740b9fd5bc2b": {
+      "at": "2026-11-25T19:31:29.703Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-25T23:00+03:30",
+      "title": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت",
+      "url": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
+      "benchmark": true
+    },
+    "title:0932c65cc223bb3f": {
+      "at": "2026-11-25T19:31:29.703Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-25T23:00+03:30",
+      "title": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت",
+      "url": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
+      "benchmark": true
+    },
+    "url:7758c04a629331bf": {
+      "at": "2026-11-25T19:43:30.522Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-25T23:00+03:30",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "benchmark": false
+    },
+    "title:a703d13085eef862": {
+      "at": "2026-11-25T19:43:30.522Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-25T23:00+03:30",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -17857,242 +17911,6 @@
         "keys": [
           "url:932f47f1b7cb3403",
           "title:fa49697b030b2d40"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:40e1efe8cfa51bc9": {
-      "id": "defer:url:40e1efe8cfa51bc9",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:40e1efe8cfa51bc9",
-        "title:795a7c145bda3d33"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board",
-      "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
-        "link": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
-        "canonical": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board",
-        "published": "Tue, 24 Nov 2026 13:29:53 +0000",
-        "summary": "During a meeting before his reinstatement, Huang admitted to more affairs beyond the two that have been reported in the news, according to The Wall Street Journal.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
-        "images": [],
-        "ageHours": 3.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:40e1efe8cfa51bc9",
-          "title:795a7c145bda3d33"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:876aad68c91f878f": {
-      "id": "defer:url:876aad68c91f878f",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:876aad68c91f878f",
-        "title:8610fece37a4c767"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
-      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-        "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-        "canonical": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
-        "published": "Mon, 23 Nov 2026 22:02:05 +0000",
-        "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-        "images": [],
-        "ageHours": 19,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:876aad68c91f878f",
-          "title:8610fece37a4c767"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:affb554213303069": {
-      "id": "defer:url:affb554213303069",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:affb554213303069",
-        "title:4490923b2a514486"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
-      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-        "link": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-        "canonical": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
-        "published": "Mon, 23 Nov 2026 21:47:41 +0000",
-        "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-        "images": [],
-        "ageHours": 19.2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:affb554213303069",
-          "title:4490923b2a514486"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:12e3e0bf572ed55e": {
-      "id": "defer:url:12e3e0bf572ed55e",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:12e3e0bf572ed55e",
-        "title:f27508e33f246634"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.31175v1",
-      "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
-        "link": "https://arxiv.org/abs/2611.31175v1",
-        "canonical": "https://arxiv.org/abs/2611.31175v1",
-        "published": "2026-11-23T18:32:04Z",
-        "summary": "Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their ordering does not show which needs an item meets. We show that a conversational recommender can be built from typed decisions instead: named questions over fixed options, answered with option probabilities rather than generated text. On each turn, one typed request maps the message onto the catalog's fields, keeps what no field expresses in the user's words, and decides how the turn changes each earlier need. Needwise then ranks candidates must-first: the needs on the kind of item, its place and its price form a tier, and within it one holistic decision and need-level verdicts (supported, contradicted or unknown) are combined with equal weight (Needwise-HF). With the graded attributes withheld from the records, so that needs must be inferred from names, descriptions and reviews, Needwise-HF ranks Google Local requests significantly better than GPT-6 Sol (0.383 against 0.343 nDCG@10) and is not significantly different from the strongest LLM ranker on Google Local and Yelp; these comparisons keep their sign under every treatment of unrecorded attributes we test. It costs a fraction of GPT-6 Sol's API price and answers in 2.5 s at the median on Google Local, against 5.6 s for GPT-6 Sol. In conversations, the typed state keeps the ranking across switches and returns, but it recognizes only 19-27% of withdrawn needs.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.31175v1",
-        "images": [],
-        "ageHours": 22.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:12e3e0bf572ed55e",
-          "title:f27508e33f246634"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d989696f1a8d1cec": {
-      "id": "defer:url:d989696f1a8d1cec",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d989696f1a8d1cec",
-        "title:c225dc8c8935b9fc"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.31160v1",
-      "title": "Habitats: A Framework for Open-Ended Evolution of Agent Objectives",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Habitats: A Framework for Open-Ended Evolution of Agent Objectives",
-        "link": "https://arxiv.org/abs/2611.31160v1",
-        "canonical": "https://arxiv.org/abs/2611.31160v1",
-        "published": "2026-11-23T18:23:16Z",
-        "summary": "Designing what an agent should optimize can be as difficult as optimizing the agent itself. Existing language-model-based reward-generation methods typically refine objectives for predefined tasks and couple the decision of what to explore with the synthesis of how to implement it, potentially narrowing the resulting behavioral repertoire. We introduce Habitats, a framework for open-ended evolution of executable agent objectives. Habitats maintains a population of reward-policy pairs and evaluates every policy under every population reward, producing a cross-fitness matrix that exposes self-mastery, transfer, and functional diversity. A population-level Planner uses this information to select parent rewards and issue targeted mutation directives, while a separate Mutator translates those directives into validated reward programs. We evaluate Habitats in a discrete Card Sandbox and three continuous-control environments (Cart-Pole, Hopper, and Cheetah) against Independent Generation and Direct Mutation baselines. Across four environments and three random seeds, Habitats achieves the highest macro-averaged final Specialist Quality and Behavioral Diversity, with final diversity reaching 1.8x that of Direct Mutation and 2.5x that of Independent Generation. Finally, across ten downstream objectives unseen during evolution, frozen Habitats policy libraries achieve higher paired win rates than size-matched Direct Mutation and Independent Generation libraries at 10,000 adaptation episodes, while also surpassing task-specific policies trained from scratch for 20,000 episodes. These results suggest that separating population-level planning from reward synthesis enables the discovery of diverse, learnable, and reusable behaviors.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.31160v1",
-        "images": [],
-        "ageHours": 22.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d989696f1a8d1cec",
-          "title:c225dc8c8935b9fc"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -18439,59 +18257,6 @@
         "webEducation": false,
         "leadKind": ""
       }
-    },
-    "defer:url:7758c04a629331bf": {
-      "id": "defer:url:7758c04a629331bf",
-      "at": "2026-11-25T13:34:09.817Z",
-      "firstAt": "2026-11-24T19:31:12.246Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "source_daily",
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:7758c04a629331bf",
-        "title:a703d13085eef862"
-      ],
-      "canonical": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "title": "Searching for distant planets with Astra",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Searching for distant planets with Astra",
-        "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
-        "canonical": "https://openai.com/index/searching-for-distant-planets-with-astra",
-        "published": "Tue, 24 Nov 2026 11:00:00 GMT",
-        "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/searching-for-distant-planets-with-astra",
-        "images": [],
-        "ageHours": 8.5,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7758c04a629331bf",
-          "title:a703d13085eef862"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:7758c04a629331bf",
-          "attempts": 0
-        }
-      },
-      "detail": "tools"
     },
     "defer:url:7e14b56be6744308": {
       "id": "defer:url:7e14b56be6744308",
@@ -19987,71 +19752,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:a0b7740b9fd5bc2b": {
-      "id": "defer:url:a0b7740b9fd5bc2b",
-      "at": "2026-11-25T17:01:28.705Z",
-      "firstAt": "2026-11-25T17:01:28.705Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a0b7740b9fd5bc2b",
-        "title:0932c65cc223bb3f"
-      ],
-      "canonical": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
-      "title": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت",
-      "candidate": {
-        "sourceId": "tg-matin-senpai",
-        "sourceName": "MatinSenPaii",
-        "sourceType": "telegram_channel",
-        "title": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت",
-        "link": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
-        "canonical": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
-        "messageText": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت\n\nیه مکالمه یک میلیون توکنی توی ۲۰۲۲ به بیش از ۱۳۰ ترابایت حافظه گرافیکی نیاز داشت؛ یعنی حدود ۱۷۰۰ تا H100 برای یه چت. همون یک میلیون توکن با DeepSeek-V4.1-Flash که سپتامبر ۲۰۲۶ اومد، فقط ۸۹۰ مگابایت می‌خواد؛ یعنی ۱۵۰ هزار برابر کمتر و روی تقریبا هر گرافیکی جا میشه.\n\nطرز کارش این شکلیه که چهار تا عدد رو یکی‌یکی کوچیک کردن: FlashAttention جدول امتیازها رو حذف کرد و رسید به ۲٫۵ ترابایت، GQA به ۳۲۰ گیگابایت، MLA دیپ‌سیک به ۶۸٫۶ گیگابایت، کوانتیزه کردن کش (یعنی همون حافظه موقت مکالمه) به ۴۶٫۹ گیگابایت، ادغام توکن‌های همسایه به ۳٫۴ گیگابایت و در آخر اشتراک کش بین لایه‌ها به ۸۹۰ مگابایت.\n\nاین یعنی کانتکست یک میلیون توکنی دیگه چیز لوکسی نیست؛ واسه همینه که ارائه‌دهنده‌ها می‌تونن حافظه مکالمه رو نگه دارن و وقتی همون متن رو دوباره می‌فرستید ارزون‌تر حساب کنن.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤60👍6🦄3🆒2",
-        "leadPostUrl": "https://t.me/MatinSenPaii/5989",
-        "published": "2026-11-25T16:27:58+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn1.telesco.pe/file/IR-euH1EH12DOJIjGh5mWNUMFoMIAcsd9KIwd8u0fyPMx-KPSYLVwk4dSktPLcuPUawUJ7Q-VV7klHTeZatOn2bV1E2_9hDzSPOJXHinJuXHeyWl0xxtc-oXh7LWyGnL1geEs0zLyGnebvxC4BS91WdutxLa5ezbjeSbvFMAFlSi6FujKniGgQIPo-1fsG3xUMAcC9ysx3l-jiMLJ-LONlsx5jrUek-awfi5AVJcFcgoUrqrRbloI1oIAGFKzl97JgbB0W8UB5oeF6_WGz8tLtPlK3GbPhb8kZZ_D6POZ3fQeB2FXYoa87XbMVd8OqLkhylaw7ZMfDa7CmddmGwE-Q.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank"
-        ],
-        "offerHint": false,
-        "toolHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:a0b7740b9fd5bc2b",
-          "title:0932c65cc223bb3f"
-        ],
-        "leadSource": "MatinSenPaii",
-        "leadMessageId": 5989,
-        "leadChannelUrl": "https://t.me/MatinSenPaii",
-        "sourceFocus": "education",
-        "leadKind": "news",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:3057c1692fc87eb1": {
       "id": "defer:url:3057c1692fc87eb1",
       "at": "2026-11-25T17:01:28.705Z",
@@ -20141,6 +19841,294 @@
         "keys": [
           "url:10878202550bbbf9",
           "title:a2ef9367388aadb1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:88bd06d7e0e9b82f": {
+      "id": "defer:url:88bd06d7e0e9b82f",
+      "at": "2026-11-25T19:31:15.074Z",
+      "firstAt": "2026-11-25T19:31:15.074Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:88bd06d7e0e9b82f",
+        "title:6dd30373185a6e6b"
+      ],
+      "canonical": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "title": "Where scientists draw the line on AI agents",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Where scientists draw the line on AI agents",
+        "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+        "canonical": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+        "published": "Wed, 25 Nov 2026 18:52:55 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+        "images": [],
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:88bd06d7e0e9b82f",
+          "title:6dd30373185a6e6b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fd3eea6ab732b725": {
+      "id": "defer:url:fd3eea6ab732b725",
+      "at": "2026-11-25T19:31:15.074Z",
+      "firstAt": "2026-11-25T19:31:15.074Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:fd3eea6ab732b725",
+        "title:8f5d16d43515af67"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+        "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+        "canonical": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+        "published": "Wed, 25 Nov 2026 18:11:46 +0000",
+        "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+        "images": [],
+        "ageHours": 1.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:fd3eea6ab732b725",
+          "title:8f5d16d43515af67"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:628d3c512960bc42": {
+      "id": "defer:url:628d3c512960bc42",
+      "at": "2026-11-25T19:31:15.074Z",
+      "firstAt": "2026-11-25T19:31:15.074Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:628d3c512960bc42",
+        "title:43936befa2535f96"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+        "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+        "canonical": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+        "published": "Wed, 25 Nov 2026 17:35:58 +0000",
+        "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+        "images": [],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:628d3c512960bc42",
+          "title:43936befa2535f96"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ef008d66d5e06c14": {
+      "id": "defer:url:ef008d66d5e06c14",
+      "at": "2026-11-25T19:31:15.075Z",
+      "firstAt": "2026-11-25T19:31:15.075Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:ef008d66d5e06c14",
+        "title:47c5ec6d55c08708"
+      ],
+      "canonical": "https://arxiv.org/abs/2611.33158v1",
+      "title": "OmniAct: One Policy, One Million Embodiments",
+      "candidate": {
+        "sourceId": "arxiv",
+        "sourceName": "arXiv",
+        "sourceType": "research_index",
+        "title": "OmniAct: One Policy, One Million Embodiments",
+        "link": "https://arxiv.org/abs/2611.33158v1",
+        "canonical": "https://arxiv.org/abs/2611.33158v1",
+        "published": "2026-11-24T18:59:58Z",
+        "summary": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how differences in robot morphology should shape manipulation strategies. We introduce OmniAct, a cross-embodiment manipulation policy that conditions directly on each robot's kinematics in a specific scene to produce embodiment-specific behavior. This kinematic graph represents the robot's joint positions, motion axes, and connectivity to its visual observation, allowing the policy to account for how its embodiment related to objects and surfaces in the scene. A flow-matching policy predicts relative joint motions for each node, enabling control across robots with different degrees of freedom and kinematic configurations. To learn how physical structure shapes behavior at scale, we procedurally design and filter one million physically feasible robot embodiments; next, we develop algorithms to generate robot trajectories in simulation for all embodiments; finally, we train across diverse simulated manipulation tasks. On 2,000 embodiment-scene-held-out evaluation episodes, OmniAct achieves 63.0% success, compared to 17.8% for pi 0.5 and 57.9% for the strongest baseline; on the task families GPT-6 Astra was evaluated on, it achieves 64.7% against GPT-6 Astra's 41.1%. On a previously unseen real-world robot, it achieves nearly twice the success rate of the next best method, MolmoAct2. Beyond task success, we observe that OmniAct learns distinct manipulation strategies that exploit the capabilities and accommodate the limitations of different morphologies. Project: https://omniact.github.io/",
+        "messageText": "",
+        "leadPostUrl": "https://arxiv.org/abs/2611.33158v1",
+        "images": [],
+        "ageHours": 24.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:ef008d66d5e06c14",
+          "title:47c5ec6d55c08708"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3d9795e0b578488b": {
+      "id": "defer:url:3d9795e0b578488b",
+      "at": "2026-11-25T19:31:15.075Z",
+      "firstAt": "2026-11-25T19:31:15.075Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:3d9795e0b578488b",
+        "title:68e49785a03a7e09"
+      ],
+      "canonical": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "candidate": {
+        "sourceId": "arstechnica-ai",
+        "sourceName": "Ars Technica AI",
+        "sourceType": "news",
+        "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+        "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+        "canonical": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
+        "published": "Tue, 24 Nov 2026 17:34:34 +0000",
+        "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+        "messageText": "",
+        "leadPostUrl": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+        "images": [
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg",
+          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-500x500.jpg"
+        ],
+        "ageHours": 25.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security",
+          "business",
+          "models",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:3d9795e0b578488b",
+          "title:68e49785a03a7e09"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:df3be113c8aed13f": {
+      "id": "defer:url:df3be113c8aed13f",
+      "at": "2026-11-25T19:31:15.075Z",
+      "firstAt": "2026-11-25T19:31:15.075Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:df3be113c8aed13f",
+        "title:92c015f56ca53cb1"
+      ],
+      "canonical": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+        "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+        "canonical": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+        "published": "Wed, 25 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+        "images": [],
+        "ageHours": 19.5,
+        "aiHint": true,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:df3be113c8aed13f",
+          "title:92c015f56ca53cb1"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -23928,6 +23916,52 @@
           "at": "2026-11-25T17:06:00.667Z"
         }
       ]
+    },
+    "2026-11-25T23:00+03:30": {
+      "at": "2026-11-25T19:31:29.703Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "دو ستاره‌شناس آماتور با Astra سیاره‌های تازه پیدا کردن",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/23-00-2",
+      "messageId": 163,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0032044768,
+      "tokens": 39357,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "حافظه پردازش یک میلیون توکن به ۸۹۰ مگابایت رسید",
+          "category": "models",
+          "status": "sent",
+          "messageId": 162,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/23-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00213948,
+          "tokens": 14462,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-25T19:31:29.703Z"
+        },
+        {
+          "title": "دو ستاره‌شناس آماتور با Astra سیاره‌های تازه پیدا کردن",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 163,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-25/23-00-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0010649968,
+          "tokens": 24895,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-25T19:43:30.522Z"
+        }
+      ]
     }
   },
   "published": [
@@ -26474,108 +26508,132 @@
       "sourceTitle": "Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today",
       "sourceText": "Valuations for AI companies have soared, and the companies are moving faster than ever. In the financings our firm has worked on so far in 2026, AI companies raised at median pre-money valuations up to 2.5 times those of non-AI companies from seed through Series C.\nAcross the broader private market, Crunchbase’s Current Valuation Model estimates that the more than 1,900 startups on its Unicorn Board are worth about $2 trillion more collectively than their last reported funding-round valuations.\nWhen everything moves that fast, the terms of your financings and of your contracts for compute, data and distribution get set early and in a hurry. Some of those terms will later slow a sale, add cost and erode value. The key is making sure you take long enough to consider what a deal does to your exit before you sign.\nTake license-and-hire deals, where a buyer licenses your technology and hires your team instead of acquiring the company. They’ve become more common in AI, and the National Venture Capital Association has responded by updating its model charter. In 2025, it added an optional investor approval right over these deals, and sign-off by the board, including the investors’ directors, was enough to satisfy it.\nThe November 2026 update requires a vote of the preferred stockholders instead. Investors are often reluctant to use an approval right to block a deal. But it puts them at the negotiating table when an offer arrives, with a voice in how the proceeds are split between retention packages for the team and the cap table.\nThe stakes are higher when an investor is also a str",
       "at": "2026-11-25T17:06:00.668Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-25T23:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "حافظه پردازش یک میلیون توکن به ۸۹۰ مگابایت رسید",
+      "why": "این تغییر باعث می‌شه ارائه‌دهنده‌ها بتونن کش گفتگو رو روی SSD نگه دارن و وقتی همان متن دوباره ارسال می‌شه، هزینه کمتری بگیرن؛ یعنی کرایه پنجره یک میلیون توکنی برای کاربر عادی ممکن شده.",
+      "dedupe_key": "deepseek-v41flash-memory-reduction",
+      "post_key": "2026-11-25/23-00/1",
+      "sourceId": "tg-matin-senpai",
+      "sourceName": "MatinSenPaii",
+      "sourceType": "telegram_channel",
+      "benchmark": true,
+      "url": "https://three.dev/blog/how-the-memory-for-a-million-tokens-shrank",
+      "sourceTitle": "GPU memory for 1M tokens of context, from standard attention to DeepSeek-V4.1-Flash",
+      "sourceText": "حافظه لازم برای یک میلیون توکن از ۱۳۰ ترابایت رسید به ۸۹۰ مگابایت\n\nیه مکالمه یک میلیون توکنی توی ۲۰۲۲ به بیش از ۱۳۰ ترابایت حافظه گرافیکی نیاز داشت؛ یعنی حدود ۱۷۰۰ تا H100 برای یه چت. همون یک میلیون توکن با DeepSeek-V4.1-Flash که سپتامبر ۲۰۲۶ اومد، فقط ۸۹۰ مگابایت می‌خواد؛ یعنی ۱۵۰ هزار برابر کمتر و روی تقریبا هر گرافیکی جا میشه.\n\nطرز کارش این شکلیه که چهار تا عدد رو یکی‌یکی کوچیک کردن: FlashAttention جدول امتیازها رو حذف کرد و رسید به ۲٫۵ ترابایت، GQA به ۳۲۰ گیگابایت، MLA دیپ‌سیک به ۶۸٫۶ گیگابایت، کوانتیزه کردن کش (یعنی همون حافظه موقت مکالمه) به ۴۶٫۹ گیگابایت، ادغام توکن‌های همسایه به ۳٫۴ گیگابایت و در آخر اشتراک کش بین لایه‌ها به ۸۹۰ مگابایت.\n\nاین یعنی کانتکست یک میلیون توکنی دیگه چیز لوکسی نیست؛ واسه همینه که ارائه‌دهنده‌ها می‌تونن حافظه مکالمه رو نگه دارن و وقتی همون متن رو دوباره می‌فرستید ارزون‌تر حساب کنن.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤60👍6🦄3🆒2",
+      "at": "2026-11-25T19:31:29.703Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-25T23:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "دو ستاره‌شناس آماتور با Astra سیاره‌های تازه پیدا کردن",
+      "why": "با این ابزارها، آماتورها هم می‌تونن توی جست‌وجوی سیاره‌ها نقش واقعی داشته باشن و سرنخ‌هایی به اخترشناس‌های حرفه‌ای بدن.",
+      "dedupe_key": "openai-astra-exoplanet-search",
+      "post_key": "2026-11-25/23-00/2",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+      "sourceTitle": "Searching for distant planets with Astra",
+      "sourceText": "Two amateur astronomers used Codex and Astra to look for signs of planets in public telescope data. Now they’ve given professional astronomers a few places to look more closely.\nAstronomers have confirmed more than 6,400 planets beyond our solar system ⁠ (opens in a new window) since the first ones were announced in 1992 ⁠ (opens in a new window) . A worldwide community of amateur astronomers has long been part of that search. Some comb through public telescope data for small, repeated dips in a star’s brightness that could signal an orbiting planet. Others use their own telescopes to watch for the next dip and share what they see with researchers.\n*Data from the NASA Exoplanet Archive’s Planetary Systems Composite Parameters table ⁠ (opens in a new window) . 2026 data are year to date through November 24, 2026.\nAstronomers have used AI in this search for years. In 2017, researchers trained a neural network on 15,000 signals from NASA’s Kepler Space Telescope ⁠ (opens in a new window) that astronomers had already examined. From those examples, the model learned to recognize which patterns in starlight were most likely to come from a planet. When the researchers used it to examine weaker signals, one led them to an eighth planet orbiting a star called Kepler-90 ⁠ (opens in a new window) .\nNow, tools like Astra are helping amateur astronomers design and run searches of their own, often on data that has already yielded the more obvious exoplanet signals. Kevin Bond, an engineer at OpenAI, came to astronomy through his love of photographing the night sky. He used Codex to searc",
+      "at": "2026-11-25T19:43:30.522Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8586,
-      "last_at": "2026-11-25T16:58:33+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "last_id": 8589,
+      "last_at": "2026-11-25T18:46:51+00:00",
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "pedramgholizadeh": {
       "last_id": 818,
       "last_at": "2026-11-25T13:45:02+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "ai_farshad": {
       "last_id": 6528,
       "last_at": "2026-11-25T13:41:23+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7278,
-      "last_at": "2026-11-25T12:34:35+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "last_id": 7279,
+      "last_at": "2026-11-25T17:09:39+00:00",
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "techiin_ir": {
-      "last_id": 20849,
-      "last_at": "2026-11-24T16:45:17+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "last_id": 20850,
+      "last_at": "2026-11-24T17:44:58+00:00",
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "mgh_mobin": {
-      "last_id": 514,
-      "last_at": "2026-11-25T15:24:17+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "last_id": 516,
+      "last_at": "2026-11-25T17:07:22+00:00",
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "web3nabu": {
-      "last_id": 2187,
-      "last_at": "2026-11-22T20:30:19+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "last_id": 2189,
+      "last_at": "2026-11-25T19:20:33+00:00",
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "asrnovin_ir": {
       "last_id": 11539,
       "last_at": "2026-11-25T16:41:16+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "shayanode": {
       "last_id": 271,
       "last_at": "2026-11-24T22:42:54+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "codecloude": {
-      "last_id": 2624,
-      "last_at": "2026-11-25T11:52:34+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "last_id": 2625,
+      "last_at": "2026-11-25T19:18:22+00:00",
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "dunijet_ai": {
-      "last_id": 2613,
-      "last_at": "2026-11-25T03:55:07+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "last_id": 2614,
+      "last_at": "2026-11-25T18:41:08+00:00",
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "MatinSenPaii": {
       "last_id": 5989,
       "last_at": "2026-11-25T16:27:58+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     },
     "thenimaonAI": {
       "last_id": 593,
       "last_at": "2026-11-25T08:44:42+00:00",
-      "checked_at": "2026-11-25T17:01:03.333Z"
+      "checked_at": "2026-11-25T19:30:58.651Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-11|tg-codecloude|https://t.me/codecloude/2579",
-      "date": "2026-11-11",
-      "at": "2026-11-11T19:30:43.275Z",
-      "source": "tg-codecloude",
-      "title": "🔥تصور کن نقشه دوبعدی یه خونه رو به هوش مصنوعی بدی و چند دقیقه بعد، داخل",
-      "url": "https://t.me/codecloude/2579",
-      "reason": "denied_link",
-      "slot": "2026-11-11T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-12|offer-watch:perq|https://perq.sh/",
       "date": "2026-11-12",
@@ -30250,13 +30308,6 @@
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-codecloude",
-      "title": "GitHub - google-deepmind/mujoco: Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "slot": "2026-11-11T23:00+03:30",
-      "at": "2026-11-11T19:30:43.275Z"
-    },
     {
       "source": "machinelearningmastery",
       "title": "Getting Reliable Structured Outputs from LLMs: Validation, Retries and Constrained Decoding",
