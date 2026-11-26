@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-25T20:22:36.825Z",
+  "updatedAt": "2026-11-26T05:15:04.055Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -17744,6 +17744,96 @@
       "title": "Searching for distant planets with Astra",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "benchmark": false
+    },
+    "offerwatch:11b3cf7f569b2001": {
+      "at": "2026-11-26T05:01:05.317Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:15f3fe51c1352df6": {
+      "at": "2026-11-26T05:01:05.473Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/"
+    },
+    "url:3a73412d0df0bb71": {
+      "at": "2026-11-26T05:01:18.383Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work"
+    },
+    "title:7d756a52fd541127": {
+      "at": "2026-11-26T05:01:18.383Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work"
+    },
+    "url:9fe946029b0cfde5": {
+      "at": "2026-11-26T05:01:20.275Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "🔥 بلک فرایدی دانیجت 🔥",
+      "url": "https://dunijet.ir/"
+    },
+    "title:750dc7b41846f28d": {
+      "at": "2026-11-26T05:01:20.275Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "🔥 بلک فرایدی دانیجت 🔥",
+      "url": "https://dunijet.ir/"
+    },
+    "url:0077e07924e43bf7": {
+      "at": "2026-11-26T05:03:02.933Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "benchmark": false
+    },
+    "title:cadbe2fc7c64f0ec": {
+      "at": "2026-11-26T05:03:02.933Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "benchmark": false
+    },
+    "url:141c148d6874e34e": {
+      "at": "2026-11-26T05:15:04.051Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "See what 5 builders are making with Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders",
+      "benchmark": false
+    },
+    "title:1fb2ac6872603048": {
+      "at": "2026-11-26T05:15:04.051Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-26T08:30+03:30",
+      "title": "See what 5 builders are making with Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -17818,152 +17908,6 @@
         }
       },
       "detail": "tools"
-    },
-    "defer:url:a9a1f591c3b5ca40": {
-      "id": "defer:url:a9a1f591c3b5ca40",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a9a1f591c3b5ca40",
-        "title:2a84cc44ab87ee96"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
-      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Pinterest will now let parents limit the AI-generated content their teens see",
-        "link": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-        "canonical": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
-        "published": "Tue, 24 Nov 2026 16:02:37 +0000",
-        "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-        "images": [],
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:a9a1f591c3b5ca40",
-          "title:2a84cc44ab87ee96"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:932f47f1b7cb3403": {
-      "id": "defer:url:932f47f1b7cb3403",
-      "at": "2026-11-24T17:02:44.989Z",
-      "firstAt": "2026-11-24T17:02:44.989Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:932f47f1b7cb3403",
-        "title:fa49697b030b2d40"
-      ],
-      "canonical": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures",
-      "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
-        "link": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
-        "canonical": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures",
-        "published": "Tue, 24 Nov 2026 14:02:31 +0000",
-        "summary": "According to an Axios report, many employees at OpenAI and Anthropic believe the companies' own unreleased frontier models can no longer be safely controlled. Both companies are internally debating whether to halt releases or even stop training altogether, while employee trust in leadership is eroding. The article Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/openai_anthropic.png"
-        ],
-        "ageHours": 3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:932f47f1b7cb3403",
-          "title:fa49697b030b2d40"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:141c148d6874e34e": {
-      "id": "defer:url:141c148d6874e34e",
-      "at": "2026-11-24T17:51:44.043Z",
-      "firstAt": "2026-11-24T17:51:44.043Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:141c148d6874e34e",
-        "title:1fb2ac6872603048"
-      ],
-      "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders",
-      "title": "See what 5 builders are making with Gemini 4 Neon",
-      "candidate": {
-        "sourceId": "google-models-research",
-        "sourceName": "Google Models & Research",
-        "sourceType": "official_blog",
-        "title": "See what 5 builders are making with Gemini 4 Neon",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
-        "canonical": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders",
-        "published": "Tue, 24 Nov 2026 16:00:00 +0000",
-        "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Builders_Neon_herosocial.max-600x600.format-webp.webp\">See five projects builders created with Gemini 4 Neon, from a glowing 3D Earth and Three.js butterflies to an interactive black hole.",
-        "messageText": "",
-        "leadPostUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
-        "images": [
-          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Builders_Neon_herosocial.max-600x600.format-webp.webp"
-        ],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:141c148d6874e34e",
-          "title:1fb2ac6872603048"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
     },
     "defer:url:5e42b2783f9731cb": {
       "id": "defer:url:5e42b2783f9731cb",
@@ -18057,154 +18001,6 @@
         "keys": [
           "url:7992bf690613aecd",
           "title:586bfb60d1e7e394"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7538e4a083698160": {
-      "id": "defer:url:7538e4a083698160",
-      "at": "2026-11-24T19:31:12.245Z",
-      "firstAt": "2026-11-24T19:31:12.245Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:7538e4a083698160",
-        "title:0cf714c93eda9904"
-      ],
-      "canonical": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease",
-      "title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
-        "link": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-        "canonical": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease",
-        "published": "Tue, 24 Nov 2026 18:01:55 +0000",
-        "summary": "Novartis CEO Vas Narasimhan, who also sits on Anthropic's board, is pushing back on the cure-all promises from Anthropic CEO Amodei and DeepMind founder Hassabis. AI will speed up drug development, he says, but it won't beat cancer in a decade. The real value lies \"somewhere in the middle.\" The article Novartis CEO says AI will shave four years off drug development, not cure all disease appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/claude_novartis.png"
-        ],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7538e4a083698160",
-          "title:0cf714c93eda9904"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e86585c397fb091d": {
-      "id": "defer:url:e86585c397fb091d",
-      "at": "2026-11-24T19:31:12.245Z",
-      "firstAt": "2026-11-24T19:31:12.245Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e86585c397fb091d",
-        "title:e2d3394d4fa5c6e5"
-      ],
-      "canonical": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress",
-      "title": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
-        "link": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
-        "canonical": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress",
-        "published": "Tue, 24 Nov 2026 17:58:44 +0000",
-        "summary": "OpenAI researcher Noam Brown is urging promising students to drop out, saying it's \"not a great time to sit on the sidelines.\" The o1 co-creator says AI is still in a \"centaur period\" and struggles with planning and self-correction, though he expects a \"very steep rate of progress\" soon. According to Brown, language models are already being used to build the next generation of models. The article OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\" appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/openai_driscoll.png"
-        ],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e86585c397fb091d",
-          "title:e2d3394d4fa5c6e5"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4113acb1424b41bb": {
-      "id": "defer:url:4113acb1424b41bb",
-      "at": "2026-11-24T19:31:12.245Z",
-      "firstAt": "2026-11-24T19:31:12.245Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:4113acb1424b41bb",
-        "title:2b0b671c5b50cd88"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-        "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-        "canonical": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
-        "published": "Tue, 24 Nov 2026 18:02:59 +0000",
-        "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-        "images": [],
-        "ageHours": 1.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:4113acb1424b41bb",
-          "title:2b0b671c5b50cd88"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19357,53 +19153,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:0077e07924e43bf7": {
-      "id": "defer:url:0077e07924e43bf7",
-      "at": "2026-11-25T10:31:36.905Z",
-      "firstAt": "2026-11-25T10:31:36.905Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:0077e07924e43bf7",
-        "title:cadbe2fc7c64f0ec"
-      ],
-      "canonical": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "title": "An Indic Voice Agent with CUGA",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "An Indic Voice Agent with CUGA",
-        "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-        "canonical": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-        "published": "Wed, 25 Nov 2026 10:22:09 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-        "images": [],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:0077e07924e43bf7",
-          "title:cadbe2fc7c64f0ec"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:305e62040e8a734e": {
       "id": "defer:url:305e62040e8a734e",
       "at": "2026-11-25T13:31:58.984Z",
@@ -20129,6 +19878,390 @@
         "keys": [
           "url:df3be113c8aed13f",
           "title:92c015f56ca53cb1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3c53fbfc405d080f": {
+      "id": "defer:url:3c53fbfc405d080f",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:3c53fbfc405d080f",
+        "title:897a04755ae4ba7c"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/25/scott-aaronson",
+      "title": "Quoting Scott Aaronson",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "Quoting Scott Aaronson",
+        "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+        "canonical": "https://simonwillison.net/2026/Nov/25/scott-aaronson",
+        "published": "2026-11-25T23:26:32+00:00",
+        "summary": "<blockquote cite=\"https://scottaaronson.blog/?p=10379\"><p>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you <em>some</em> idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://scottaaronson.blog/?p=10379\">Scott Aaronson</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+        "images": [],
+        "ageHours": 5.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:3c53fbfc405d080f",
+          "title:897a04755ae4ba7c"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:77bb663b6361291f": {
+      "id": "defer:url:77bb663b6361291f",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:77bb663b6361291f",
+        "title:3eb426267ef34b1a"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+        "canonical": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+        "published": "Wed, 25 Nov 2026 22:44:32 +0000",
+        "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+        "images": [],
+        "ageHours": 6.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:77bb663b6361291f",
+          "title:3eb426267ef34b1a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:71fa87fc35c44117": {
+      "id": "defer:url:71fa87fc35c44117",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:71fa87fc35c44117",
+        "title:3b5ef462d5727260"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space",
+      "title": "FCC approves SpaceX plan to put AI data centers in space",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "FCC approves SpaceX plan to put AI data centers in space",
+        "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+        "canonical": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space",
+        "published": "Wed, 25 Nov 2026 20:56:44 +0000",
+        "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+        "images": [],
+        "ageHours": 8.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:71fa87fc35c44117",
+          "title:3b5ef462d5727260"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:32376c95badc3ad2": {
+      "id": "defer:url:32376c95badc3ad2",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:32376c95badc3ad2",
+        "title:c1598ca9beb5ea59"
+      ],
+      "canonical": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs",
+      "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+        "link": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+        "canonical": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs",
+        "published": "Wed, 25 Nov 2026 20:51:02 +0000",
+        "summary": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap is widening. The article US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/us_china.png"
+        ],
+        "ageHours": 8.2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:32376c95badc3ad2",
+          "title:c1598ca9beb5ea59"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9d785a295e5240ae": {
+      "id": "defer:url:9d785a295e5240ae",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:9d785a295e5240ae",
+        "title:1cf7bc35424198ae"
+      ],
+      "canonical": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea",
+      "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+        "link": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+        "canonical": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea",
+        "published": "Wed, 25 Nov 2026 20:15:50 +0000",
+        "summary": "Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says \"turning over governance to AI is a bad idea.\" The article Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\" appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/09/anthropic_amodei.png"
+        ],
+        "ageHours": 8.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9d785a295e5240ae",
+          "title:1cf7bc35424198ae"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c3986ed0d71a9c0f": {
+      "id": "defer:url:c3986ed0d71a9c0f",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:c3986ed0d71a9c0f",
+        "title:2e09c69965463b99"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+        "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+        "canonical": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it",
+        "published": "Wed, 25 Nov 2026 19:54:57 +0000",
+        "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+        "images": [],
+        "ageHours": 9.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:c3986ed0d71a9c0f",
+          "title:2e09c69965463b99"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:71a07b1df043fc19": {
+      "id": "defer:url:71a07b1df043fc19",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:71a07b1df043fc19",
+        "title:6fc37c49e23a197e"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+        "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+        "canonical": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+        "published": "Wed, 25 Nov 2026 19:44:24 +0000",
+        "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+        "images": [],
+        "ageHours": 9.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:71a07b1df043fc19",
+          "title:6fc37c49e23a197e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:9685432920849ecf": {
+      "id": "defer:url:9685432920849ecf",
+      "at": "2026-11-26T05:01:20.293Z",
+      "firstAt": "2026-11-26T05:01:20.293Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:9685432920849ecf",
+        "title:203ad1979be7034f"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/25/datasette-charts",
+      "title": "datasette-charts 0.3a0",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "datasette-charts 0.3a0",
+        "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+        "canonical": "https://simonwillison.net/2026/Nov/25/datasette-charts",
+        "published": "2026-11-25T18:16:50+00:00",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.3a0\">datasette-charts 0.3a0</a></p> <p>I added chart annotations to <a href=\"https://github.com/datasette/datasette-charts\">datasette-charts</a>!</p> <p>You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.</p> <p>A chart with annotations looks like this:</p> <p><img alt=\"Screenshot of an annotated bar chart with the y-axis label &quot;↑ Total capacity_mw&quot;, showing blue bars for each decade from 1950 to 2010. Capacity is low in the earlier decades, then jumps sharply for 2000 and 2010. The chart carries three annotations: a gray shaded band across 1950 to 1990 with the note &quot;Much smaller summed capacity in earlier decades&quot;, a dot on top of the 2000 bar labeled &quot;Largest decade total in these records: 1.157 million MW&quot;, and a dashed horizontal line labeled &quot;1,000,000 MW reference&quot;. A caption below reads &quot;Global plant records with commissioning years 1950–2019; coverage and missing years may affect comparisons.&quot;\" src=\"https://static.simonwillison.net/static/2026/chart-with-annotations.webp\" /></p> <p>Here's <a href=\"https://lite.datasette.io/?install=datasette-charts&amp;url=https://datasette.io/global-power-plants.db#/global-power-plants/-/query?sql=SELECT+CAST%28commissioning_year+%2F+10+AS+INTEGER%29+%2A+10+AS+decade%2C+capacity_mw+FROM+%22global-power-plants%22+WHERE+commissioning_year+BETWEEN+1950+AND+2019+AND+capacity_mw+IS+NOT+NULL#chart=%7B%22v%22%3A1%2C%22type%22%3A%22bar%22%2C%22encoding%22%3A%7B%22x%22%3A%7B%22column%22%3A%22decade%22%2C%22sort%22%3A%22key%22%2C%22limit%22%3A20%2C%22other%22%3Afalse%7D%2C%22y%22%3A%7B%22column%22%3A%22capacity_mw%22%2C%22aggregate%22%3A%22sum%22%7D%7D%2C%22options%22%3A%7B%22orientation%22%3A%22vertical%22%7D%2C%22annotations%22%3A%5B%7B%22type%22%3A%22point%22%2C%22x%22%3A2000%2C%22text%22%3A%22Largest%20decade%20total%20in%20these%20records%3A%201.157%20million%20MW%22%7D%2C%7B%22type%22%3A%22range%22%2C%22x%22%3A1950%2C%22x2%22%3A1990%2C%22text%22%3A%22Much%20smaller%20summed%20capacity%20in%20earlier%20decades%22%7D%2C%7B%22type%22%3A%22line%22%2C%22y%22%3A1000000%2C%22text%22%3A%221%2C000%2C000%20MW%20reference%22%7D%2C%7B%22type%22%3A%22text%22%2C%22left%22%3A0.02%2C%22top%22%3A0.04%2C%22text%22%3A%22Global%20plant%20records%20with%20commissioning%20years%201950–2019%3B%20coverage%20and%20missing%20years%20may%20affect%20comparisons.%22%7D%5D%7D\">that same chart in Datasette Lite</a>, where you can tweak the annotations using the chart builder UI:</p> <p><img alt=\"Animated screen recording of an &quot;Edit annotation&quot; dialog for a chart titled &quot;Total capacity_mw by decade&quot;. A form on the left has fields for &quot;Kind&quot;, &quot;Capacity_mw&quot;, &quot;Label (optional)&quot;, &quot;Label position&quot;, &quot;Color&quot; and &quot;Line style&quot;, and a &quot;PREVIEW&quot; panel on the right shows a blue bar chart of total capacity by decade from 1950 to 2010, with a dashed horizontal line labeled &quot;1,000,000 MW reference&quot;. The preview updates live as the user edits: changing the Capacity_mw value from &quot;1000000&quot; to &quot;900000&quot; and then &quot;800000&quot; moves the dashed line down the chart in step, and editing the label text, first adding an exclamation mark, then removing it and deleting the word &quot;reference&quot;, changes the label on the line to &quot;1,000,000 MW reference!&quot; and finally &quot;1,000,000 MW&quot;. The user then clicks the &quot;Save&quot; button.\" src=\"https://static.simonwillison.net/static/2026/chart-annotate.gif\" /></p> <p>If you also install <a href=\"https://agent.datasette.io/\">Datasette Agent</a> the agent can build annotated charts for you. Here's what I got on the <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo for this prompt:</p> <blockquote> <p><code>Show a chart comparing Simon's tagged content about LLMs with his tagged content about Datasette, with annotations</code></p> </blockquote> <p><img alt=\"Screenshot of a chat-style AI agent interface that has produced a chart in response to a question. At the top is a collapsed reasoning line reading &quot;Thinking: …26 partial year is labeled correctly in the output. Let's go with this approach!&quot; followed by a collapsed tool call labeled &quot;chart&quot;. Below that is a line chart titled &quot;Total content_count per year by topic&quot;, with a legend for &quot;LLMs&quot; (blue) and &quot;Datasette&quot; (orange), the y-axis label &quot;↑ Total content_count&quot; and years 2017 to 2026 on the x-axis. The Datasette line stays low throughout, with an annotation &quot;Datasette peak year&quot; pointing at 2020. The LLMs line sits near zero until 2022, then climbs steeply to a peak in 2025 before dropping in 2026, with an annotation &quot;LLM-tagged content rises&quot; pointing at 2023. A note on the chart reads &quot;Counts include posts, notes and links; 2026 is year-to-date.&quot; Under the chart are the controls &quot;Open in the chart builder&quot;, &quot;Copy link&quot;, &quot;This chart's SQL&quot;, &quot;Copy TSV&quot; and &quot;Copy CSV&quot;. Another collapsed reasoning line reads &quot;Thinking: …rends start low for LLMs in 2020, and they're projected to rise sharply by 2026.&quot; The agent's reply then says: &quot;The chart compares annual counts of non-draft posts, notes, and link posts tagged with LLM-related terms or Datasette-related terms. The annotations mark Datasette's peak year (2020) and the sharp rise in LLM-tagged content beginning in 2023. 2026 is year-to-date.&quot; At the bottom is a message box with the placeholder &quot;Type a message... (# to tag a table or query)&quot; and a &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/annotations-agent.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/visualization\">visualization</a>, <a href=\"https://simonwillison.net/tags/datasette-charts\">datasette-charts</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+        "images": [],
+        "ageHours": 10.7,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:9685432920849ecf",
+          "title:203ad1979be7034f"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -23962,6 +24095,52 @@
           "at": "2026-11-25T19:43:30.522Z"
         }
       ]
+    },
+    "2026-11-26T08:30+03:30": {
+      "at": "2026-11-26T05:03:02.933Z",
+      "status": "sent",
+      "category": "models",
+      "title": "پنج پروژه ساخته‌شده با Gemini 4 Neon رونمایی شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/08-30-2",
+      "messageId": 165,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.002358496,
+      "tokens": 32265,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "ای‌بی‌ام یک ایجنت صوتی چندزبانه برای کشاورزان هندی ساخت",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 164,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.00158578,
+          "tokens": 10601,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-26T05:03:02.932Z"
+        },
+        {
+          "title": "پنج پروژه ساخته‌شده با Gemini 4 Neon رونمایی شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 165,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/08-30-2",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.000772716,
+          "tokens": 21664,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-26T05:15:04.051Z"
+        }
+      ]
     }
   },
   "published": [
@@ -26544,168 +26723,132 @@
       "sourceTitle": "Searching for distant planets with Astra",
       "sourceText": "Two amateur astronomers used Codex and Astra to look for signs of planets in public telescope data. Now they’ve given professional astronomers a few places to look more closely.\nAstronomers have confirmed more than 6,400 planets beyond our solar system ⁠ (opens in a new window) since the first ones were announced in 1992 ⁠ (opens in a new window) . A worldwide community of amateur astronomers has long been part of that search. Some comb through public telescope data for small, repeated dips in a star’s brightness that could signal an orbiting planet. Others use their own telescopes to watch for the next dip and share what they see with researchers.\n*Data from the NASA Exoplanet Archive’s Planetary Systems Composite Parameters table ⁠ (opens in a new window) . 2026 data are year to date through November 24, 2026.\nAstronomers have used AI in this search for years. In 2017, researchers trained a neural network on 15,000 signals from NASA’s Kepler Space Telescope ⁠ (opens in a new window) that astronomers had already examined. From those examples, the model learned to recognize which patterns in starlight were most likely to come from a planet. When the researchers used it to examine weaker signals, one led them to an eighth planet orbiting a star called Kepler-90 ⁠ (opens in a new window) .\nNow, tools like Astra are helping amateur astronomers design and run searches of their own, often on data that has already yielded the more obvious exoplanet signals. Kevin Bond, an engineer at OpenAI, came to astronomy through his love of photographing the night sky. He used Codex to searc",
       "at": "2026-11-25T19:43:30.522Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-26T08:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "ای‌بی‌ام یک ایجنت صوتی چندزبانه برای کشاورزان هندی ساخت",
+      "why": "با این روش، خدمات دیجیتال می‌تونن به آدم‌هایی برسن که صفحه‌های متنی انگلیسی هیچ‌وقت بهشون خدمت نکرده.",
+      "dedupe_key": "ibm-cuga-voice-agent",
+      "post_key": "2026-11-26/08-30/1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "sourceTitle": "An Indic Voice Agent with CUGA",
+      "sourceText": "Most useful knowledge is written and digitized in English. Most of the people who need it speak, and think, in their own regional languages like Hindi, Tamil, Telugu, Gujarati, Marathi and many others. Many would rather talk than type.\nWe built a small voice agent to close that gap, using CUGA as the agent harness. This post explains the use case and what we learned. You can try it yourself in CUGA Apps .\nA farmer asks a question aloud, in their own language: how do I tell good seed from bad? The agent:\nIf someone asks about cricket or coding, it politely steers them back to farming instead of making something up.\nCUGA (ConfigUrable Generalist Agent) is IBM Research's open-source agent harness. It handles the model wiring, tool management, state and guardrails, so you write tools and a prompt instead of the agent loop. Here we use it as an embedded SDK inside a small web app, for three things:\nThe key design idea is simple: CUGA is a text-in, text-out brain. Voice is two thin layers around it.\nBecause the agent only ever sees text, you can build and test it with plain text first, then add the ears and the mouth. You can also swap speech providers without touching the agent. We support two: Sarvam AI's cloud speech APIs, called directly from the user's browser, and open-source models (SraVaani for speech-to-text, Svara for text-to-speech) running on your own server.\nAdding speech is the easy part. The hard part is cross-lingual retrieval : a Hindi question has to find an English paragraph.\nThe fix is to use a multilingual embedding model (we use intfloat/multilingual-e5-larg",
+      "at": "2026-11-26T05:03:02.933Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-26T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "پنج پروژه ساخته‌شده با Gemini 4 Neon رونمایی شد",
+      "why": "این پروژه‌ها نشان می‌دهند که Gemini 4 Neon برای ساخت سریع ابزارهای بصری و تعاملی، گزینه مناسبی است.",
+      "dedupe_key": "google-gemini-4-neon-showcase",
+      "post_key": "2026-11-26/08-30/2",
+      "sourceId": "google-models-research",
+      "sourceName": "Google Models & Research",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+      "sourceTitle": "See what 5 builders are making with Gemini 4 Neon",
+      "sourceText": "Their projects include a glowing 3D Earth, an interactive black hole shader, a 3D pendulum wave simulation, and more.\nGemini 4 Neon brings frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Since we introduced the model, builders have been experimenting with its balance of depth and efficiency, dialing up its thinking levels for complex coding and interactive 3D builds. Check out five projects showing what Neon can do below.\nStarting with a literal neon world: @HarshithLucky3 used Neon on high thinking in Google Antigravity to build this glowing 3D Earth.\n@thtbee_ ran Neon on xhigh thinking in Google Antigravity to craft imaginative Three.js butterflies.\nIn under five minutes, @anicho used /swarm with Neon in Google Antigravity to build this glowing, interactive hexagon flame shader for the web.\n@kimmonismus used Neon in Google Antigravity to build an interactive 3D black hole shader with switchable camera viewpoints and lensing warp sliders.\n@goodhunt coded a 3D pendulum wave simulation with Neon where each sphere's period creates traveling interference patterns.\nDevelopers can get started with Gemini 4 Neon using the Gemini API paid tier in Google AI Studio and Android Studio . If you’re a paid Google AI Pro or Ultra subscriber, you can try Neon in Google Antigravity, and all Pro and Ultra subscribers can try it in AI Studio or by selecting Gemini 4 Neon from the model drop-down in the Gemini app . Enterprise teams can use Neon in Gemini for business (via the API or model drop-down) ",
+      "at": "2026-11-26T05:15:04.051Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8589,
-      "last_at": "2026-11-25T18:46:51+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "last_id": 8598,
+      "last_at": "2026-11-25T23:18:51+00:00",
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "pedramgholizadeh": {
       "last_id": 818,
       "last_at": "2026-11-25T13:45:02+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "ai_farshad": {
       "last_id": 6528,
       "last_at": "2026-11-25T13:41:23+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "Mohammad_zammani": {
       "last_id": 7279,
       "last_at": "2026-11-25T17:09:39+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "techiin_ir": {
-      "last_id": 20850,
-      "last_at": "2026-11-24T17:44:58+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "last_id": 20851,
+      "last_at": "2026-11-25T09:01:23+00:00",
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "mgh_mobin": {
       "last_id": 516,
       "last_at": "2026-11-25T17:07:22+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "web3nabu": {
-      "last_id": 2189,
-      "last_at": "2026-11-25T19:20:33+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "last_id": 2192,
+      "last_at": "2026-11-25T21:23:07+00:00",
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "asrnovin_ir": {
       "last_id": 11539,
       "last_at": "2026-11-25T16:41:16+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "shayanode": {
       "last_id": 271,
       "last_at": "2026-11-24T22:42:54+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "codecloude": {
       "last_id": 2625,
       "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "dunijet_ai": {
-      "last_id": 2614,
-      "last_at": "2026-11-25T18:41:08+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "last_id": 2617,
+      "last_at": "2026-11-25T21:06:04+00:00",
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "marketing_aida": {
       "last_id": 113,
       "last_at": "2026-11-23T07:40:19+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "MatinSenPaii": {
       "last_id": 5989,
       "last_at": "2026-11-25T16:27:58+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     },
     "thenimaonAI": {
       "last_id": 593,
       "last_at": "2026-11-25T08:44:42+00:00",
-      "checked_at": "2026-11-25T19:30:58.651Z"
+      "checked_at": "2026-11-26T05:00:59.782Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-12|offer-watch:perq|https://perq.sh/",
-      "date": "2026-11-12",
-      "at": "2026-11-12T05:00:48.373Z",
-      "source": "offer-watch:perq",
-      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
-      "url": "https://perq.sh/",
-      "reason": "offer_watch",
-      "slot": "2026-11-12T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-matin-senpai|https://t.me/MatinSenPaii/5850",
-      "date": "2026-11-12",
-      "at": "2026-11-12T05:00:48.373Z",
-      "source": "tg-matin-senpai",
-      "title": "دوستم با یه انیمیشن کارتونی باحال که با GPT و Ai ساخته، نزدیک 1000 تا فالوور",
-      "url": "https://t.me/MatinSenPaii/5850",
-      "reason": "no_link",
-      "slot": "2026-11-12T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8374",
-      "date": "2026-11-12",
-      "at": "2026-11-12T05:00:48.373Z",
-      "source": "tg-archive-tell",
-      "title": "Fable 5.2 و Gemini CARBON 🚀",
-      "url": "https://t.me/ArchiveTell/8374",
-      "reason": "denied_link",
-      "slot": "2026-11-12T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-asr-novin|https://t.me/asrnovin_ir/11444",
-      "date": "2026-11-12",
-      "at": "2026-11-12T05:00:48.373Z",
-      "source": "tg-asr-novin",
-      "title": "🤖 اگه دنبال تبلیغات و خرید ممبر صدرصد واقعی هستید میتونید تبلیغات خودتون رو توی ربات",
-      "url": "https://t.me/asrnovin_ir/11444",
-      "reason": "denied_link",
-      "slot": "2026-11-12T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-asr-novin|https://higgsfield.ai/@youtubeteam/blogs/how-to-grow-on-social-media-with-ai-in-2026?utm_source=yt&utm_medium=social&utm_category=gr&utm_campaign=Higgsfield_Shorts_Studio_YT&utm_creator=asrnovin_ir&utm_platform_id=UC-1NxszUxJYagJg72S3oRmw&utm_content_type=de&utm_post=vMczFx&invite_code=higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
-      "date": "2026-11-12",
-      "at": "2026-11-12T05:00:48.373Z",
-      "source": "tg-asr-novin",
-      "title": "How to Grow on Social Media With AI in 2026",
-      "url": "https://higgsfield.ai/@youtubeteam/blogs/how-to-grow-on-social-media-with-ai-in-2026?utm_source=yt&utm_medium=social&utm_category=gr&utm_campaign=Higgsfield_Shorts_Studio_YT&utm_creator=asrnovin_ir&utm_platform_id=UC-1NxszUxJYagJg72S3oRmw&utm_content_type=de&utm_post=vMczFx&invite_code=higgsfield-shorts-studio-yt-asrnovin-ir-vMczFx",
-      "reason": "model_skip",
-      "slot": "2026-11-12T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-archive-tell|https://acemusic.ai/signup/?next=%2Fcreate%2F",
-      "date": "2026-11-12",
-      "at": "2026-11-12T05:00:48.373Z",
-      "source": "tg-archive-tell",
-      "title": "Create Music | ACE Music",
-      "url": "https://acemusic.ai/signup/?next=%2Fcreate%2F",
-      "reason": "model_skip",
-      "slot": "2026-11-12T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-12|tg-shayanode|https://t.me/shayanode/152",
       "date": "2026-11-12",
@@ -30305,6 +30448,30 @@
       "slot": "2026-11-25T20:30+03:30",
       "kind": "tool",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-26",
+      "at": "2026-11-26T05:00:59.782Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-26T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|offer-watch:free-inference|https://www.freeinference.dev/",
+      "date": "2026-11-26",
+      "at": "2026-11-26T05:00:59.782Z",
+      "source": "offer-watch:free-inference",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/",
+      "reason": "offer_watch",
+      "slot": "2026-11-26T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -30657,14 +30824,21 @@
       "url": "https://t.me/ai_farshad/6528",
       "slot": "2026-11-25T20:30+03:30",
       "at": "2026-11-25T17:01:03.333Z"
+    },
+    {
+      "source": "tg-dunijet-ai",
+      "title": "🔥 بلک فرایدی دانیجت 🔥",
+      "url": "https://dunijet.ir/",
+      "slot": "2026-11-26T08:30+03:30",
+      "at": "2026-11-26T05:00:59.782Z"
     }
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-25",
-    "at": "2026-11-25T05:01:06.787Z",
-    "found": 3,
-    "delivered": 3
+    "lastDate": "2026-11-26",
+    "at": "2026-11-26T05:00:59.782Z",
+    "found": 2,
+    "delivered": 2
   },
   "openOffers": {
     "blog.google": {
@@ -30674,7 +30848,7 @@
       "title": "گوگل API جدیدی برای تصمیم‌گیری سریع معرفی کرد",
       "firstSeen": "2026-11-12T08:00:46.543Z",
       "publishedAt": "2026-11-12T08:00:46.543Z",
-      "lastCheck": "2026-11-25T17:48:08.050Z",
+      "lastCheck": "2026-11-26T05:00:59.782Z",
       "status": "active",
       "misses": 0
     }
