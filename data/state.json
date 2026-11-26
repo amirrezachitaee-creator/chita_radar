@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-26T19:31:27.609Z",
+  "updatedAt": "2026-11-26T20:26:05.327Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -18554,6 +18554,60 @@
       "slot": "2026-11-26T23:00+03:30",
       "title": "Flurra",
       "url": "https://www.producthunt.com/products/flurra"
+    },
+    "url:22892fc397a50fb8": {
+      "at": "2026-11-26T20:25:59.571Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "✅ قابلیت ساخت ویدئوهای 15 ثانیه‌ای با امتداد صحنه به Flow اضافه شد",
+      "url": "https://t.me/techiin_ir/20858"
+    },
+    "title:8d47d8aa0080255f": {
+      "at": "2026-11-26T20:25:59.571Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "✅ قابلیت ساخت ویدئوهای 15 ثانیه‌ای با امتداد صحنه به Flow اضافه شد",
+      "url": "https://t.me/techiin_ir/20858"
+    },
+    "url:4c29ee4b004536da": {
+      "at": "2026-11-26T20:26:02.578Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "🔵 حذف اشیای اضافی از تصاویر با کمک هوش مصنوعی؛ آشنایی با «Magic Eraser»",
+      "url": "https://magicstudio.com/magiceraser"
+    },
+    "title:4d9fff59c748e2ea": {
+      "at": "2026-11-26T20:26:02.578Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "🔵 حذف اشیای اضافی از تصاویر با کمک هوش مصنوعی؛ آشنایی با «Magic Eraser»",
+      "url": "https://magicstudio.com/magiceraser"
+    },
+    "url:80050f48f8e14a79": {
+      "at": "2026-11-26T20:26:05.324Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "Ottante",
+      "url": "https://www.producthunt.com/products/ottante"
+    },
+    "title:6de7d590beaf4d21": {
+      "at": "2026-11-26T20:26:05.324Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "Ottante",
+      "url": "https://www.producthunt.com/products/ottante"
     }
   },
   "deferred": {
@@ -20864,6 +20918,104 @@
         "keys": [
           "url:c4e1dfcc1d992c0c",
           "title:4d17f9b26d61e868"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:33b3d08d99aeb285": {
+      "id": "defer:url:33b3d08d99aeb285",
+      "at": "2026-11-26T20:25:59.584Z",
+      "firstAt": "2026-11-26T20:25:59.584Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:33b3d08d99aeb285",
+        "title:c00a165dc6d8baf1"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "canonical": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+        "published": "Thu, 26 Nov 2026 20:03:54 +0000",
+        "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "images": [],
+        "ageHours": 0.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:33b3d08d99aeb285",
+          "title:c00a165dc6d8baf1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fc6fc056734bd3a0": {
+      "id": "defer:url:fc6fc056734bd3a0",
+      "at": "2026-11-26T20:25:59.584Z",
+      "firstAt": "2026-11-26T20:25:59.584Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:fc6fc056734bd3a0",
+        "title:3cb1ab84863ff858"
+      ],
+      "canonical": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it",
+      "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+        "link": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+        "canonical": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it",
+        "published": "Thu, 26 Nov 2026 19:31:46 +0000",
+        "summary": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography. The article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/09/math_geometry_openai_hodge.png"
+        ],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:fc6fc056734bd3a0",
+          "title:3cb1ab84863ff858"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -24888,8 +25040,8 @@
       "at": "2026-11-26T19:31:27.607Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.0016573424,
-      "tokens": 28399,
+      "cost": 0.0016618224,
+      "tokens": 28423,
       "posts": []
     }
   },
@@ -27605,87 +27757,87 @@
     "ArchiveTell": {
       "last_id": 8610,
       "last_at": "2026-11-26T18:03:37+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "pedramgholizadeh": {
       "last_id": 819,
       "last_at": "2026-11-26T12:43:47+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "ai_farshad": {
-      "last_id": 6528,
-      "last_at": "2026-11-25T13:41:23+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "last_id": 6530,
+      "last_at": "2026-11-26T19:39:53+00:00",
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "Mohammad_zammani": {
       "last_id": 7285,
       "last_at": "2026-11-26T17:14:12+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "techiin_ir": {
-      "last_id": 20857,
-      "last_at": "2026-11-25T12:31:55+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "last_id": 20858,
+      "last_at": "2026-11-25T13:04:25+00:00",
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "mgh_mobin": {
       "last_id": 517,
       "last_at": "2026-11-26T14:41:35+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "web3nabu": {
       "last_id": 2193,
       "last_at": "2026-11-26T18:16:49+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "asrnovin_ir": {
-      "last_id": 11550,
-      "last_at": "2026-11-26T16:23:13+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "last_id": 11552,
+      "last_at": "2026-11-26T19:46:34+00:00",
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "codecloude": {
       "last_id": 2625,
       "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "dunijet_ai": {
-      "last_id": 2630,
-      "last_at": "2026-11-26T19:14:32+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "last_id": 2632,
+      "last_at": "2026-11-26T20:22:23+00:00",
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "MatinSenPaii": {
       "last_id": 5992,
       "last_at": "2026-11-26T14:30:45+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     },
     "thenimaonAI": {
       "last_id": 598,
       "last_at": "2026-11-26T16:20:10+00:00",
-      "checked_at": "2026-11-26T19:30:54.432Z"
+      "checked_at": "2026-11-26T20:25:42.161Z"
     }
   },
   "offerReviews": [
@@ -31308,6 +31460,30 @@
       "source": "tg-dunijet-ai",
       "title": "google-research/cogentic_research_papers at master · google-research/google-research",
       "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "reason": "model_skip",
+      "slot": "2026-11-26T23:00+03:30",
+      "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-techiin|https://t.me/techiin_ir/20858",
+      "date": "2026-11-26",
+      "at": "2026-11-26T20:25:42.161Z",
+      "source": "tg-techiin",
+      "title": "✅ قابلیت ساخت ویدئوهای 15 ثانیه‌ای با امتداد صحنه به Flow اضافه شد",
+      "url": "https://t.me/techiin_ir/20858",
+      "reason": "denied_link",
+      "slot": "2026-11-26T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-ai-farshad|https://magicstudio.com/magiceraser/",
+      "date": "2026-11-26",
+      "at": "2026-11-26T20:25:42.161Z",
+      "source": "tg-ai-farshad",
+      "title": "Remove objects from photos | Magic Eraser by Magic Studio",
+      "url": "https://magicstudio.com/magiceraser/",
       "reason": "model_skip",
       "slot": "2026-11-26T23:00+03:30",
       "kind": "tool",
