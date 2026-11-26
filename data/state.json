@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-26T13:31:21.669Z",
+  "updatedAt": "2026-11-26T14:39:02.604Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -18212,6 +18212,114 @@
       "slot": "2026-11-26T17:00+03:30",
       "title": "Claude-Mem Cloud Sync",
       "url": "https://www.producthunt.com/products/claude-mem"
+    },
+    "url:33d8ab96b6c730f7": {
+      "at": "2026-11-26T14:36:54.694Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "Top 5 Open-Source Alternatives to OpenAI Dots",
+      "url": "https://www.kdnuggets.com/top-5-open-source-alternatives-to-openai-dots"
+    },
+    "title:61b0e373ff2400c4": {
+      "at": "2026-11-26T14:36:54.694Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "Top 5 Open-Source Alternatives to OpenAI Dots",
+      "url": "https://www.kdnuggets.com/top-5-open-source-alternatives-to-openai-dots"
+    },
+    "url:8d776604888cd1b3": {
+      "at": "2026-11-26T14:37:21.233Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "✅ باز گوگل یک ایده عجیب داد؛ ساخت کانال تلویزیونی با AI که شما شخصیت اصلی",
+      "url": "https://t.me/techiin_ir/20855"
+    },
+    "title:4620f67a4f58d33d": {
+      "at": "2026-11-26T14:37:21.233Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "✅ باز گوگل یک ایده عجیب داد؛ ساخت کانال تلویزیونی با AI که شما شخصیت اصلی",
+      "url": "https://t.me/techiin_ir/20855"
+    },
+    "url:e5323f1163ca5609": {
+      "at": "2026-11-26T14:37:28.777Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "WhipDesk",
+      "url": "https://www.producthunt.com/products/whipdesk"
+    },
+    "title:8eb71ad6225c9fc1": {
+      "at": "2026-11-26T14:37:28.777Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "WhipDesk",
+      "url": "https://www.producthunt.com/products/whipdesk"
+    },
+    "url:9dbab71e1cebbd69": {
+      "at": "2026-11-26T14:38:17.291Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
+      "url": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+      "benchmark": false
+    },
+    "title:6734cd573caf8140": {
+      "at": "2026-11-26T14:38:17.291Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
+      "url": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+      "benchmark": false
+    },
+    "url:acd1839cbac010dd": {
+      "at": "2026-11-26T14:39:01.583Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "یه سیستم‌عامل ۲۴ کیلوبایتی فقط با اسمبلی، مدل Qwen3-0.6B رو بدون لینوکس اجرا می‌کنه",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os"
+    },
+    "title:eba219ce9eeae3c8": {
+      "at": "2026-11-26T14:39:01.583Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "یه سیستم‌عامل ۲۴ کیلوبایتی فقط با اسمبلی، مدل Qwen3-0.6B رو بدون لینوکس اجرا می‌کنه",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os"
+    },
+    "url:4610d0b991136a68": {
+      "at": "2026-11-26T14:39:02.604Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "🧰 تیم Anthropic ستاپ‌های خودش برای Claude Code رو توی ۷ ریپوی رایگان گذاشته و یه",
+      "url": "http://github.com/anthropics/claude-code-playground"
+    },
+    "title:5a900301f6bf9cb6": {
+      "at": "2026-11-26T14:39:02.604Z",
+      "decision": "review",
+      "reason": "source_not_official",
+      "category": "",
+      "slot": "2026-11-26T17:00+03:30",
+      "title": "🧰 تیم Anthropic ستاپ‌های خودش برای Claude Code رو توی ۷ ریپوی رایگان گذاشته و یه",
+      "url": "http://github.com/anthropics/claude-code-playground"
     }
   },
   "deferred": {
@@ -18327,52 +18435,6 @@
         "keys": [
           "url:9971c92d30f0e475",
           "title:b2d68e6b4fd206fd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:b1428095dfcba7a5": {
-      "id": "defer:url:b1428095dfcba7a5",
-      "at": "2026-11-25T10:31:36.905Z",
-      "firstAt": "2026-11-25T10:31:36.905Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:b1428095dfcba7a5",
-        "title:3ea1fffa21d23ce9"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.33106v1",
-      "title": "Temporal Conditioning for Human Behavioral Cloning in Chess",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Temporal Conditioning for Human Behavioral Cloning in Chess",
-        "link": "https://arxiv.org/abs/2611.33106v1",
-        "canonical": "https://arxiv.org/abs/2611.33106v1",
-        "published": "2026-11-24T18:40:51Z",
-        "summary": "Behavioral cloning models in chess typically predict human moves from board states while ignoring temporal inputs such as the remaining clock. However, time pressure is a major determinant of human decision-making quality, and temporal state is a missing dimension of human behavioral modeling. This paper introduces a time-aware transformer that extends a Chessformer-style architecture with learned temporal conditioning tokens encoding player clock state, time control, and recent tempo, together with behavioral heads for thinking time and resignation. The model is trained on large-scale online chess data and evaluated against time-agnostic baselines and the state of the art. Results show that temporal conditioning yields modest overall accuracy improvements but substantially stronger gains under time pressure. Beyond move choice, it also produces more accurate thinking-time and resignation predictions. More importantly, the model better matches human move-quality degradation in critical time regimes, reducing the systematic over-strength observed in time-agnostic behavioral cloning models. These results suggest that temporal state is a previously underutilized but important signal for human behavioral cloning in chess.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.33106v1",
-        "images": [],
-        "ageHours": 15.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:b1428095dfcba7a5",
-          "title:3ea1fffa21d23ce9"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19905,107 +19967,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:e5323f1163ca5609": {
-      "id": "defer:url:e5323f1163ca5609",
-      "at": "2026-11-26T10:32:21.001Z",
-      "firstAt": "2026-11-26T10:32:21.001Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e5323f1163ca5609",
-        "title:8eb71ad6225c9fc1"
-      ],
-      "canonical": "https://www.producthunt.com/products/whipdesk",
-      "title": "WhipDesk",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "WhipDesk",
-        "link": "https://www.producthunt.com/products/whipdesk",
-        "canonical": "https://www.producthunt.com/products/whipdesk",
-        "published": "2026-11-25T13:44:16-08:00",
-        "summary": "<p> Control AI coding agents from your phone </p> <p> <a href=\"https://www.producthunt.com/products/whipdesk?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1331155?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/whipdesk",
-        "images": [],
-        "ageHours": 12.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:e5323f1163ca5609",
-          "title:8eb71ad6225c9fc1"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:9dbab71e1cebbd69": {
-      "id": "defer:url:9dbab71e1cebbd69",
-      "at": "2026-11-26T13:31:21.649Z",
-      "firstAt": "2026-11-26T10:32:21.001Z",
-      "attempts": 1,
-      "reason": "fetch_failed",
-      "reasons": [
-        "category_consecutive",
-        "fetch_failed"
-      ],
-      "keys": [
-        "url:9dbab71e1cebbd69",
-        "title:6734cd573caf8140"
-      ],
-      "canonical": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
-      "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
-        "link": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
-        "canonical": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
-        "published": "Wed, 25 Nov 2026 18:00:33 +0000",
-        "summary": "Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/Bitrix24_Alaio_Vibecode_Article_Banner.png"
-        ],
-        "ageHours": 16.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:9dbab71e1cebbd69",
-          "title:6734cd573caf8140"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": "",
-        "deferred": {
-          "id": "defer:url:9dbab71e1cebbd69",
-          "attempts": 0
-        }
-      },
-      "detail": "HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content=\"widt"
-    },
     "defer:url:89a905d5eae9fa3e": {
       "id": "defer:url:89a905d5eae9fa3e",
       "at": "2026-11-26T10:32:21.002Z",
@@ -20640,6 +20601,155 @@
         "keys": [
           "url:e0d965bae52b9875",
           "title:d47266b30a44ba63"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:86a29c35a6741c4a": {
+      "id": "defer:url:86a29c35a6741c4a",
+      "at": "2026-11-26T14:37:21.250Z",
+      "firstAt": "2026-11-26T14:37:21.250Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:86a29c35a6741c4a",
+        "title:18eaf7688446cc18"
+      ],
+      "canonical": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040",
+      "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+        "link": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+        "canonical": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040",
+        "published": "Thu, 26 Nov 2026 13:41:07 +0000",
+        "summary": "The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating by 2040. Google and Blue Origin are also working on AI infrastructure in space, but Boston Consulting Group estimates costs will stay well above ground-based data centers for now. The article FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040 appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/SpaceX-xAI-Satellite-scaled.png"
+        ],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:86a29c35a6741c4a",
+          "title:18eaf7688446cc18"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:ac2f786b30f6d457": {
+      "id": "defer:url:ac2f786b30f6d457",
+      "at": "2026-11-26T14:37:21.250Z",
+      "firstAt": "2026-11-26T14:37:21.250Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:ac2f786b30f6d457",
+        "title:fa68629a63504c26"
+      ],
+      "canonical": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "candidate": {
+        "sourceId": "openai-news",
+        "sourceName": "OpenAI News",
+        "sourceType": "official_blog",
+        "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "canonical": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "published": "Tue, 24 Nov 2026 13:00:00 GMT",
+        "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+        "messageText": "",
+        "leadPostUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "images": [],
+        "ageHours": 49.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:ac2f786b30f6d457",
+          "title:fa68629a63504c26"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c91b7def9228b89a": {
+      "id": "defer:url:c91b7def9228b89a",
+      "at": "2026-11-26T14:37:21.250Z",
+      "firstAt": "2026-11-26T14:37:21.250Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:c91b7def9228b89a",
+        "title:ab38b209612309e0"
+      ],
+      "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward",
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "candidate": {
+        "sourceId": "nvidia-ai-blog",
+        "sourceName": "NVIDIA AI Blog",
+        "sourceType": "official_blog",
+        "title": "Come for the Games, Stay for the Community With GeForce NOW",
+        "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+        "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward",
+        "published": "Thu, 26 Nov 2026 14:00:22 +0000",
+        "summary": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own […]",
+        "messageText": "",
+        "leadPostUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+        "images": [
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday-November_26.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday-November_26-842x450.jpg",
+          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday-Cyberpunk_2077.jpeg"
+        ],
+        "ageHours": 0.6,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:c91b7def9228b89a",
+          "title:ab38b209612309e0"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -24599,11 +24709,35 @@
     },
     "2026-11-26T17:00+03:30": {
       "at": "2026-11-26T13:31:21.667Z",
-      "status": "empty",
+      "status": "sent",
       "reason": "all_candidates_rejected",
-      "cost": 0.00133196,
-      "tokens": 9323,
-      "posts": []
+      "cost": 0.0023408448,
+      "tokens": 43226,
+      "posts": [
+        {
+          "title": "با Alaio Vibecode داشبورد CRM اختصاصی بسازید",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 169,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008599136,
+          "tokens": 24437,
+          "qa": "43/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-26T14:38:17.291Z"
+        }
+      ],
+      "category": "tools",
+      "title": "با Alaio Vibecode داشبورد CRM اختصاصی بسازید",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/17-00",
+      "messageId": 169,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "qa": "43/43"
     }
   },
   "published": [
@@ -27276,93 +27410,111 @@
       "sourceTitle": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
       "sourceText": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
       "at": "2026-11-26T10:48:18.723Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-26T17:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "با Alaio Vibecode داشبورد CRM اختصاصی بسازید",
+      "why": "با این ابزار، ایده‌های تحلیلی که قبلاً نیاز به پروژه توسعه جداگانه داشتن، حالا سریع تبدیل به اپلیکیشن می‌شن و تیم‌ها می‌تونن بدون دانش برنامه‌نویسی، ابزارهای اختصاصی خودشون رو بسازن.",
+      "dedupe_key": "alaio-vibecode-crm-dashboards",
+      "post_key": "2026-11-26/17-00/1",
+      "sourceId": "kdnuggets",
+      "sourceName": "KDnuggets",
+      "sourceType": "blog",
+      "benchmark": false,
+      "url": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+      "sourceTitle": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents - KDnuggets",
+      "sourceText": "Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.\nSome of a company's most valuable analytical knowledge never makes it into its software. It lives in spreadsheets, internal documents, or calculations employees have developed through years of experience. A sales team, for example, might use its own scoring model to evaluate opportunities based on account type, engagement patterns, and deal history. The model helps determine which customers deserve attention, but applying it still requires someone to collect the data, run calculations, and organize the results.\nWhat if that scoring model could become an application working directly with the company's CRM data?\nThis is the kind of specific requirement that Alaio Vibecode , an AI app builder and vibe coding platform for Bitrix24, is designed to address. Teams can describe what they need in natural language and use AI-assisted development to create custom CRM analytics dashboards, reporting applications, lead scoring tools, chatbots, and AI agents.\nBitrix24 brings CRM, projects, tasks, documents, communication, analytics, and automation into one environment. Alaio Vibecode lets businesses build additional applications around their own calculations, processes, and ways of working, without starting a conventional development project.\nWith Alaio Vibecode, teams can create applications that retrieve relevant Bitrix24 records, apply company-specific logic, and present results in a format suited to a particular decision.\n",
+      "at": "2026-11-26T14:38:17.292Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8603,
       "last_at": "2026-11-26T11:58:24+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "pedramgholizadeh": {
       "last_id": 819,
       "last_at": "2026-11-26T12:43:47+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "ai_farshad": {
       "last_id": 6528,
       "last_at": "2026-11-25T13:41:23+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7280,
-      "last_at": "2026-11-26T07:10:30+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "last_id": 7282,
+      "last_at": "2026-11-26T14:24:02+00:00",
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "techiin_ir": {
-      "last_id": 20854,
-      "last_at": "2026-11-25T09:32:14+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "last_id": 20855,
+      "last_at": "2026-11-25T10:31:52+00:00",
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "mgh_mobin": {
       "last_id": 516,
       "last_at": "2026-11-25T17:07:22+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "web3nabu": {
       "last_id": 2192,
       "last_at": "2026-11-25T21:23:07+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "asrnovin_ir": {
       "last_id": 11549,
       "last_at": "2026-11-26T12:55:28+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "shayanode": {
-      "last_id": 273,
-      "last_at": "2026-11-26T10:15:01+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "last_id": 274,
+      "last_at": "2026-11-26T11:43:08+00:00",
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "codecloude": {
       "last_id": 2625,
       "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "dunijet_ai": {
-      "last_id": 2621,
-      "last_at": "2026-11-26T08:56:45+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "last_id": 2622,
+      "last_at": "2026-11-26T14:17:44+00:00",
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "MatinSenPaii": {
-      "last_id": 5991,
-      "last_at": "2026-11-26T08:36:02+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "last_id": 5992,
+      "last_at": "2026-11-26T14:30:45+00:00",
+      "checked_at": "2026-11-26T14:36:39.231Z"
     },
     "thenimaonAI": {
       "last_id": 597,
       "last_at": "2026-11-26T05:25:03+00:00",
-      "checked_at": "2026-11-26T13:30:58.687Z"
+      "checked_at": "2026-11-26T14:36:39.231Z"
     }
   },
   "offerReviews": [
@@ -30976,6 +31128,42 @@
       "reason": "research_paper",
       "slot": "2026-11-26T14:00+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-techiin|https://t.me/techiin_ir/20855",
+      "date": "2026-11-26",
+      "at": "2026-11-26T14:36:39.231Z",
+      "source": "tg-techiin",
+      "title": "✅ باز گوگل یک ایده عجیب داد؛ ساخت کانال تلویزیونی با AI که شما شخصیت اصلی",
+      "url": "https://t.me/techiin_ir/20855",
+      "reason": "denied_link",
+      "slot": "2026-11-26T17:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-matin-senpai|https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "date": "2026-11-26",
+      "at": "2026-11-26T14:36:39.231Z",
+      "source": "tg-matin-senpai",
+      "title": "llm.asm/02-baremetal-os at main · alesha-pro/llm.asm",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "reason": "model_skip",
+      "slot": "2026-11-26T17:00+03:30",
+      "kind": "tool",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-dunijet-ai|https://github.com/anthropics/claude-code-playground",
+      "date": "2026-11-26",
+      "at": "2026-11-26T14:36:39.231Z",
+      "source": "tg-dunijet-ai",
+      "title": "GitHub - anthropics/claude-code-playground",
+      "url": "https://github.com/anthropics/claude-code-playground",
+      "reason": "source_not_official",
+      "slot": "2026-11-26T17:00+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],
