@@ -1,0 +1,79 @@
+RUN 45763816842 | send/main | slot auto | 2026-11-26T05:47:13Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-26T08:30+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 15/31 | models 13/24 | security 6/11 | business 7/11
+DAILY 2/11
+DIVERSITY_TARGET tools | slot 08:30
+DEFERRED_POOL 49
+  DEFERRED source_weekly | try 0/3 | Quoting Scott Aaronson
+  DEFERRED source_weekly | try 0/3 | S&P considers Nvidia credit downgrade over governance and ‘key man’ risks
+  DEFERRED source_weekly | try 0/3 | FCC approves SpaceX plan to put AI data centers in space
+  DEFERRED source_weekly | try 0/3 | US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs
+  DEFERRED source_weekly | try 0/3 | Anthropic CEO Dario Amodei says letting AI govern society would be "a bad idea"
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 37h | MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing
+  DEFERRED_BENCHMARK category_consecutive | expires 37h | AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design
+  DEFERRED_BENCHMARK category_consecutive | expires 36h | Hybrid AI for AI-Native RAN Control: A Functional Perspective
+DEFERRED_EXHAUSTED 1
+SLOT_ALREADY_DONE 2026-11-26T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-26T05:47:13Z
+# گزارش روزانه 2026-11-26 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 1، مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 2
+- آموزش‌های بازبینی: 1 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 2
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 1، مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.002358
+- توکن: 32265
+- میانگین هر پست ارسال‌شده: $0.001179
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 15 | 31 | 16 |
+| مدل‌ها و پژوهش | 13 | 24 | 11 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 7 | 11 | 4 |
+| مجموع | 41 | 77 | 36 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001586 | 10601 | ای‌بی‌ام یک ایجنت صوتی چندزبانه برای کشاورزان هندی ساخت |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000773 | 21664 | پنج پروژه ساخته‌شده با Gemini 4 Neon رونمایی شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 2
+- دلایل: از رصد آفر پیدا شد 2
+- آموزش‌های بازبینی امروز: 1 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-26.md
+SOURCE_STATUS 2026-11-26T05:47:14Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-26.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — پنجشنبه ۵ آذر ۱۴۰۵
+پست امروز: 2 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 2
+صف بازبینی: 239 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45763816842
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
