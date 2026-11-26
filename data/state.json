@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-26T14:39:02.604Z",
+  "updatedAt": "2026-11-26T17:04:37.726Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -18320,127 +18320,153 @@
       "slot": "2026-11-26T17:00+03:30",
       "title": "🧰 تیم Anthropic ستاپ‌های خودش برای Claude Code رو توی ۷ ریپوی رایگان گذاشته و یه",
       "url": "http://github.com/anthropics/claude-code-playground"
+    },
+    "url:7e26a33da101ff3f": {
+      "at": "2026-11-26T17:01:17.193Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "تیم آنتروپیک ستاپ‌های شخصی خودش برای کلود کد (Claude Code) رو تو قالب یه لیست هفت‌تایی",
+      "url": "https://github.com/anthropics/claude-code-playground"
+    },
+    "title:bcde4a91688554c2": {
+      "at": "2026-11-26T17:01:17.193Z",
+      "decision": "education_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "تیم آنتروپیک ستاپ‌های شخصی خودش برای کلود کد (Claude Code) رو تو قالب یه لیست هفت‌تایی",
+      "url": "https://github.com/anthropics/claude-code-playground"
+    },
+    "url:72cef7cc8a43abe2": {
+      "at": "2026-11-26T17:01:20.814Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "🔓 باز کردن گوگل فلو بدون وی‌پی‌ان با افزونه‌ی AI Flow Bypasser اگه گوگل فلو (Google",
+      "url": "https://t.me/ArchiveTell/8609"
+    },
+    "title:fbe62c2f4575196b": {
+      "at": "2026-11-26T17:01:20.814Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "🔓 باز کردن گوگل فلو بدون وی‌پی‌ان با افزونه‌ی AI Flow Bypasser اگه گوگل فلو (Google",
+      "url": "https://t.me/ArchiveTell/8609"
+    },
+    "url:11dbe502cb1e5c39": {
+      "at": "2026-11-26T17:01:29.289Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "یه چیزی چند وقته توی ذهنمه و امروز نشستم تایپش کردم.",
+      "url": "https://t.me/thenimaonAI/598"
+    },
+    "title:3725c233ae7c5e26": {
+      "at": "2026-11-26T17:01:29.289Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "یه چیزی چند وقته توی ذهنمه و امروز نشستم تایپش کردم.",
+      "url": "https://t.me/thenimaonAI/598"
+    },
+    "url:308e90d071fb8148": {
+      "at": "2026-11-26T17:01:58.558Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "📚 گوگل یه قابلیت جدید به Gemini Notebook (همون NotebookLM سابق) اضافه کرده که به نظرم",
+      "url": "https://t.me/mgh_mobin/517"
+    },
+    "title:dcaa48e290fa978c": {
+      "at": "2026-11-26T17:01:58.558Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "📚 گوگل یه قابلیت جدید به Gemini Notebook (همون NotebookLM سابق) اضافه کرده که به نظرم",
+      "url": "https://t.me/mgh_mobin/517"
+    },
+    "url:972899f45092ce30": {
+      "at": "2026-11-26T17:02:57.739Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "✅ قابلیت آرشیو چت‌ها در جمینای؛ مکالمات قدیمی رو بدون حذف پنهان کنید",
+      "url": "https://t.me/techiin_ir/20856"
+    },
+    "title:a3e29f4fcbdc99fc": {
+      "at": "2026-11-26T17:02:57.739Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "✅ قابلیت آرشیو چت‌ها در جمینای؛ مکالمات قدیمی رو بدون حذف پنهان کنید",
+      "url": "https://t.me/techiin_ir/20856"
+    },
+    "url:4be8b01299a7c915": {
+      "at": "2026-11-26T17:02:58.432Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "🚁 آینده هوانوردی را از همین امروز آغاز کنید!",
+      "url": "https://amir.technology/zero"
+    },
+    "title:17cb39acf187c7e8": {
+      "at": "2026-11-26T17:02:58.432Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "🚁 آینده هوانوردی را از همین امروز آغاز کنید!",
+      "url": "https://amir.technology/zero"
+    },
+    "url:c91b7def9228b89a": {
+      "at": "2026-11-26T17:03:18.053Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward"
+    },
+    "title:ab38b209612309e0": {
+      "at": "2026-11-26T17:03:18.053Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward"
+    },
+    "url:a1210e534c74c271": {
+      "at": "2026-11-26T17:04:37.722Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
+      "url": "https://artificialanalysis.ai/articles/aa-robotics-sim",
+      "benchmark": true
+    },
+    "title:a88284fd33af253a": {
+      "at": "2026-11-26T17:04:37.722Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-26T20:30+03:30",
+      "title": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
+      "url": "https://artificialanalysis.ai/articles/aa-robotics-sim",
+      "benchmark": true
     }
   },
   "deferred": {
-    "defer:url:6d743dea15159994": {
-      "id": "defer:url:6d743dea15159994",
-      "at": "2026-11-25T10:35:16.468Z",
-      "firstAt": "2026-11-24T13:32:12.208Z",
-      "attempts": 3,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:6d743dea15159994",
-        "title:a6461cf2c1c54ef6"
-      ],
-      "canonical": "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-      "title": "🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون",
-        "link": "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-        "canonical": "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-        "messageText": "🤖 تیم‌های ایجنت Gemini 4 گوگل هر چهار ساعت یه کنفرانس مجازی برگزار می‌کنن و ایده‌هاشون رو با هم رد و بدل می‌کنن\n\nنتیجه‌اش یه مدار کوانتومی برای همجوشی لیزری شده که هزینه محاسباتیش ۱۱.۸ برابر کمتر شده و حافظه‌اش از ۵,۶۵۰ به ۴,۳۳۸ کیوبیت تصحیح‌خطا رسیده. یه روتین پرکاربرد هم ۲۹۰ برابر سریع‌تر شده.\n\nدرستی همه مدارها با Lean که اثبات‌های ریاضی رو چک می‌کنه تایید شده:\n\ndeepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/\n\n@dunijet_ai\n\n❤1",
-        "leadPostUrl": "https://t.me/dunijet_ai/2610",
-        "published": "2026-11-24T12:31:58+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/c6NVCCLh27sdRQmlzxgbQjLJtrOvI9r2YXjZXibZX5jbRi6wxCgGO3eHksyBZM4XUFHre5WAC9EW0-45VW5ncn3m9PlNlYnXFHOwT9mAgjXdvgsV4-0EKGbH4rrJdDVgz4CE3vRZVmcdjxeN9Lr5vYPZHD4eDhS30DJsUokzuTQqdI3Uia5OKe4c-Rb204jAOZXn6z0uNfOZ7eDdVCLNl24wGR20fD5flD5xpAIykt5hqyzgn9XsTr1KArMYXBnSRk7fKGqWIbRTqwL7nK1hHLB49tmg5fSfWKkq_Ef6M7Tcb824zbE-D2U6ycRaUUBzZbnhnUDFYJwb6ozcYhgOGw.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:6d743dea15159994",
-          "title:a6461cf2c1c54ef6"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2610,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false,
-        "deferred": {
-          "id": "defer:url:6d743dea15159994",
-          "attempts": 2
-        }
-      },
-      "detail": "tools"
-    },
-    "defer:url:9971c92d30f0e475": {
-      "id": "defer:url:9971c92d30f0e475",
-      "at": "2026-11-25T10:31:36.905Z",
-      "firstAt": "2026-11-25T10:31:36.905Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:9971c92d30f0e475",
-        "title:b2d68e6b4fd206fd"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.33111v1",
-      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
-        "link": "https://arxiv.org/abs/2611.33111v1",
-        "canonical": "https://arxiv.org/abs/2611.33111v1",
-        "published": "2026-11-24T18:41:59Z",
-        "summary": "Speculative decoding accelerates large language model (LLM) inference by employing a lightweight draft model to propose draft tokens and allowing the target model to verify the new tokens in parallel to improve inference-time compute utilization. The speedup relies on the acceptance probability of draft tokens in target verification, which is directly related to the gap $\\|p-q\\|_1$ between the target distribution $p$ and the draft distribution $q$. In this paper, we study draft calibration of speculative decoding to improve the speedup of speculative decoding, where we employ post-hoc methods to calibrate the draft distribution to mitigate the distribution gap. We observe that though current community open-source draft models may learn the top candidate token correctly, they are generally underconfident compared to the target model, suggesting a consistent distribution mismatch. To mitigate the effect of this mismatch on the acceptance rate of the draft models, we try various post-hoc calibration methods, including standard temperature scaling and token-wise calibration. Our results suggest that a standard temperature scaling applied to the draft distribution improves the acceptance length by up to approximately 10\\% with almost no additional cost across different tasks. Throughput analysis further verifies that this improvement in serving efficiency. Analysis of more general calibration methods reveals further potential room for improvement.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.33111v1",
-        "images": [],
-        "ageHours": 15.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9971c92d30f0e475",
-          "title:b2d68e6b4fd206fd"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:305e62040e8a734e": {
       "id": "defer:url:305e62040e8a734e",
       "at": "2026-11-25T13:31:58.984Z",
@@ -18535,204 +18561,6 @@
         "keys": [
           "url:4d46466267d16523",
           "title:3ac235ced3440387"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ec57c99a6a096767": {
-      "id": "defer:url:ec57c99a6a096767",
-      "at": "2026-11-25T13:31:58.984Z",
-      "firstAt": "2026-11-25T13:31:58.984Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:ec57c99a6a096767",
-        "title:a594739bceafca04"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-        "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-        "canonical": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
-        "published": "Wed, 25 Nov 2026 13:00:00 +0000",
-        "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-        "images": [],
-        "ageHours": 0.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:ec57c99a6a096767",
-          "title:a594739bceafca04"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d8d9a3b587bcc0a2": {
-      "id": "defer:url:d8d9a3b587bcc0a2",
-      "at": "2026-11-25T13:31:58.984Z",
-      "firstAt": "2026-11-25T13:31:58.984Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:d8d9a3b587bcc0a2",
-        "title:d362b0dd49045ef7"
-      ],
-      "canonical": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable",
-      "title": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
-        "link": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
-        "canonical": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable",
-        "published": "Wed, 25 Nov 2026 10:47:51 +0000",
-        "summary": "MIT researchers have developed a method that lets AI climate models get by with a single training run instead of the usual six to eight. An algorithm generates deliberately unrealistic scenarios with extreme CO2 or methane swings that make the model more robust. Until now, these emulators were often outdated by the time they were finished, according to the researchers. The article MIT team discovers that unrealistic training data makes AI climate predictions more reliable appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/mit_climate.png"
-        ],
-        "ageHours": 2.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d8d9a3b587bcc0a2",
-          "title:d362b0dd49045ef7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:161c1109213e1492": {
-      "id": "defer:url:161c1109213e1492",
-      "at": "2026-11-25T13:31:58.984Z",
-      "firstAt": "2026-11-25T13:31:58.984Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:161c1109213e1492",
-        "title:caacf10d3d176ec7"
-      ],
-      "canonical": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages",
-      "title": "Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages",
-        "link": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
-        "canonical": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages",
-        "published": "Wed, 25 Nov 2026 13:07:44 +0000",
-        "summary": "The US Financial Crimes Enforcement Network took systems offline as a precaution after unauthorized access. Hours earlier, reports emerged of a separate breach at the CIA, NGA, and ODNI, in which investigators suspect attackers used the AI defense tool Artex. Both incidents land on a US public that is already on edge. The article Back-to-back cyber incidents at US financial investigators and spy agencies follow a string of federal hacks and outages appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/cyberkraken_4.png"
-        ],
-        "ageHours": 0.4,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:161c1109213e1492",
-          "title:caacf10d3d176ec7"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3a3c0d45396bda4f": {
-      "id": "defer:url:3a3c0d45396bda4f",
-      "at": "2026-11-25T13:31:58.984Z",
-      "firstAt": "2026-11-25T13:31:58.984Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:3a3c0d45396bda4f",
-        "title:ae0117704bbfaea8"
-      ],
-      "canonical": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb",
-      "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
-        "link": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
-        "canonical": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb",
-        "published": "Wed, 25 Nov 2026 11:51:49 +0000",
-        "summary": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/07/prsim_ml_demo.png"
-        ],
-        "ageHours": 1.7,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3a3c0d45396bda4f",
-          "title:ae0117704bbfaea8"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -19831,46 +19659,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:a1210e534c74c271": {
-      "id": "defer:url:a1210e534c74c271",
-      "at": "2026-11-26T08:03:21.733Z",
-      "firstAt": "2026-11-26T08:03:21.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a1210e534c74c271",
-        "title:a88284fd33af253a"
-      ],
-      "canonical": "https://artificialanalysis.ai/articles/aa-robotics-sim",
-      "title": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
-      "candidate": {
-        "sourceId": "artificial-analysis-articles",
-        "sourceName": "Artificial Analysis Articles",
-        "sourceType": "benchmark",
-        "title": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
-        "link": "https://artificialanalysis.ai/articles/aa-robotics-sim",
-        "canonical": "https://artificialanalysis.ai/articles/aa-robotics-sim",
-        "published": "2026-11-25",
-        "summary": "",
-        "images": [],
-        "ageHours": 32,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a1210e534c74c271",
-          "title:a88284fd33af253a"
-        ]
-      }
-    },
     "defer:url:3d2697b636d74b83": {
       "id": "defer:url:3d2697b636d74b83",
       "at": "2026-11-26T08:03:21.733Z",
@@ -20704,40 +20492,86 @@
         "leadKind": ""
       }
     },
-    "defer:url:c91b7def9228b89a": {
-      "id": "defer:url:c91b7def9228b89a",
-      "at": "2026-11-26T14:37:21.250Z",
-      "firstAt": "2026-11-26T14:37:21.250Z",
+    "defer:url:7aa896c7cb490e59": {
+      "id": "defer:url:7aa896c7cb490e59",
+      "at": "2026-11-26T17:02:58.449Z",
+      "firstAt": "2026-11-26T17:02:58.449Z",
       "attempts": 0,
-      "reason": "category_consecutive",
+      "reason": "source_weekly",
       "reasons": [
-        "category_consecutive"
+        "source_weekly"
       ],
       "keys": [
-        "url:c91b7def9228b89a",
-        "title:ab38b209612309e0"
+        "url:7aa896c7cb490e59",
+        "title:6a006fac260c3bbd"
       ],
-      "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward",
-      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "canonical": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
       "candidate": {
-        "sourceId": "nvidia-ai-blog",
-        "sourceName": "NVIDIA AI Blog",
-        "sourceType": "official_blog",
-        "title": "Come for the Games, Stay for the Community With GeForce NOW",
-        "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
-        "canonical": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward",
-        "published": "Thu, 26 Nov 2026 14:00:22 +0000",
-        "summary": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own […]",
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+        "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "canonical": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+        "published": "Thu, 26 Nov 2026 16:00:00 +0000",
+        "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
         "messageText": "",
-        "leadPostUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
-        "images": [
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday-November_26.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday-November_26-842x450.jpg",
-          "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday-Cyberpunk_2077.jpeg"
+        "leadPostUrl": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "images": [],
+        "ageHours": 1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
         ],
-        "ageHours": 0.6,
-        "aiHint": false,
-        "aiCentral": false,
+        "categoryHint": "business",
+        "keys": [
+          "url:7aa896c7cb490e59",
+          "title:6a006fac260c3bbd"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0cbde04697fb93d7": {
+      "id": "defer:url:0cbde04697fb93d7",
+      "at": "2026-11-26T17:02:58.449Z",
+      "firstAt": "2026-11-26T17:02:58.449Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:0cbde04697fb93d7",
+        "title:3e9ae75fc561a101"
+      ],
+      "canonical": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead",
+      "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+        "link": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+        "canonical": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead",
+        "published": "Thu, 26 Nov 2026 15:45:08 +0000",
+        "summary": "Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/us_china.png"
+        ],
+        "ageHours": 1.3,
+        "aiHint": true,
+        "aiCentral": true,
         "offerHint": false,
         "benchmark": false,
         "modelRelease": false,
@@ -20748,8 +20582,311 @@
         ],
         "categoryHint": "models",
         "keys": [
-          "url:c91b7def9228b89a",
-          "title:ab38b209612309e0"
+          "url:0cbde04697fb93d7",
+          "title:3e9ae75fc561a101"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:dbe542754cd16121": {
+      "id": "defer:url:dbe542754cd16121",
+      "at": "2026-11-26T17:02:58.450Z",
+      "firstAt": "2026-11-26T17:02:58.450Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:dbe542754cd16121",
+        "title:7da05eeae27de19b"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "title": "Quoting Jack Despain Zhou",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "Quoting Jack Despain Zhou",
+        "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+        "canonical": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+        "published": "2026-11-26T15:09:31+00:00",
+        "summary": "<blockquote cite=\"https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude\"><p>Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, <em>and I see Claude</em>.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude\">Jack Despain Zhou</a>, Spitting in the Face of Glaude</p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+        "images": [],
+        "ageHours": 1.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:dbe542754cd16121",
+          "title:7da05eeae27de19b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3d2c3bb01bc8c7de": {
+      "id": "defer:url:3d2c3bb01bc8c7de",
+      "at": "2026-11-26T17:02:58.450Z",
+      "firstAt": "2026-11-26T17:02:58.450Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:3d2c3bb01bc8c7de",
+        "title:b7c265adeb52948d"
+      ],
+      "canonical": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "title": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته",
+      "candidate": {
+        "sourceId": "tg-dunijet-ai",
+        "sourceName": "دانیجت | Dunijet",
+        "sourceType": "telegram_channel",
+        "title": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته",
+        "link": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+        "canonical": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+        "messageText": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته\n\nفقط پرامپت اول رو یه آدم داده. شرکت Google Research چهارشنبه این شش مقاله رو منتشر کرد که همه‌شون «کاملا توسط Cogentic» ساخته شدن؛ ایجنت هوش مصنوعیشون که روی Gemini 4 اجرا میشه.\n\nمقاله اصلی درباره فاکتورگیری و تجزیه اعداد بزرگ به اعداد اوله، همون چیزی که امنیت RSA به سخت بودنش وابسته‌ست. ادعا میکنه برای یه روش در همون کلاس سرعت، اثبات ارائه داده. ولی کلید کسی رو نمی‌شکنه؛ ثابت اثبات‌شده‌اش ۱۰۵ در مقایسه با حدود ۱.۹ روش عملی، یعنی یه تضمین روی کاغذه نه یه حمله سریع‌تر.\n\nهیچ‌کدوم هنوز داوری نشدن. خود مقاله‌ها میگن اثبات‌های Lean همه‌شون کامپیوتری چک شده و جداگانه منتشر میشه.\n\ngithub.com/google-research/google-research/tree/master/cogentic_research_papers\n\n@dunijet_ai\n\n❤2",
+        "leadPostUrl": "https://t.me/dunijet_ai/2623",
+        "published": "2026-11-26T15:01:44+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/ij-o851TVpHxutAsxmIaL_ENjDO6n8eYtvwb4GQpQmiX1vfsY7XtH7KqnWMXjksM-hclH5olMCLgr7TqMVQqjWtf9CaTxATkq8YiSiaaojgOK4ux8akHL3OGNpvAX-MsXCB99-XdK6bhCd_EIJqVxZLACmys2EEhGjEDkLbj-W7Vns4-szE4l8TNy27hORRHNqV16zBCpEWpw9tTLfL9NT_0WuE4OMKobnFzqYB3lp7ofF_36Xy6URcTQ37e1IyqcYLwQPc3Ut3y5oBAyOeLNCW-_1V7AoSt2RoqCllPDmW4TnQ4XvDRwvdydmECTwKF33Oo0JekmrleOrCFeEsC5A.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security",
+          "business"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:3d2c3bb01bc8c7de",
+          "title:b7c265adeb52948d"
+        ],
+        "leadSource": "dunijet_ai",
+        "leadMessageId": 2623,
+        "leadChannelUrl": "https://t.me/dunijet_ai",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:e9988cf012ebf30f": {
+      "id": "defer:url:e9988cf012ebf30f",
+      "at": "2026-11-26T17:02:58.450Z",
+      "firstAt": "2026-11-26T17:02:58.450Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:e9988cf012ebf30f",
+        "title:401f4578dce9a0c3"
+      ],
+      "canonical": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
+      "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
+        "link": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
+        "canonical": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
+        "published": "Thu, 26 Nov 2026 15:00:00 +0000",
+        "summary": "The skills that keep you irreplaceable when AI handles the boilerplate.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work-feature.webp"
+        ],
+        "ageHours": 2,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:e9988cf012ebf30f",
+          "title:401f4578dce9a0c3"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fc654cd8c7a75232": {
+      "id": "defer:url:fc654cd8c7a75232",
+      "at": "2026-11-26T17:02:58.450Z",
+      "firstAt": "2026-11-26T17:02:58.450Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:fc654cd8c7a75232",
+        "title:95a86c276567302a"
+      ],
+      "canonical": "https://simonwillison.net/2026/Nov/26/hn-50651685",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "candidate": {
+        "sourceId": "simon-willison-prompt-injection",
+        "sourceName": "Simon Willison - Prompt Injection",
+        "sourceType": "blog_tag",
+        "title": "The New York Times warns photographers not to update Photoshop over AI features",
+        "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+        "canonical": "https://simonwillison.net/2026/Nov/26/hn-50651685",
+        "published": "2026-11-26T05:08:46+00:00",
+        "summary": "<p><a href=\"https://news.ycombinator.com/item?id=50647673#50651685\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50647673\">The New York Times warns photographers not to update Photoshop over AI features</a> &mdash; Hacker News.</p><p>I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that.</p> <p>He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted.</p> <p>The photo at the top of <a href=\"https://www.nytimes.com/2026/02/02/technology/moltbook-ai-social-media.html\">https://www.nytimes.com/2026/02/02/technology/moltbook-ai-so...</a> is my laptop, taken in my garden, after hunting around for the best spot that didn't have too much glare on the screen. You can see how dirty my screen is, too!</p> <p>Photography for a newspaper is photo journalism, and they take it seriously.</p> <p>(Thankfully I did not have a visible stain on my shirt.)</p> <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/new-york-times\">new-york-times</a>, <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a></p>",
+        "messageText": "",
+        "leadPostUrl": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+        "images": [],
+        "ageHours": 11.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "security"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:fc654cd8c7a75232",
+          "title:95a86c276567302a"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1b4f32b14bc9f666": {
+      "id": "defer:url:1b4f32b14bc9f666",
+      "at": "2026-11-26T17:02:58.450Z",
+      "firstAt": "2026-11-26T17:02:58.450Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:1b4f32b14bc9f666",
+        "title:5cf9c0437504356e"
+      ],
+      "canonical": "https://www.producthunt.com/products/flurra",
+      "title": "Flurra",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Flurra",
+        "link": "https://www.producthunt.com/products/flurra",
+        "canonical": "https://www.producthunt.com/products/flurra",
+        "published": "2026-11-25T08:34:30-08:00",
+        "summary": "<p> Ask Claude or ChatGPT to edit your videos </p> <p> <a href=\"https://www.producthunt.com/products/flurra?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1330867?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/flurra",
+        "images": [],
+        "ageHours": 24.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:1b4f32b14bc9f666",
+          "title:5cf9c0437504356e"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c4e1dfcc1d992c0c": {
+      "id": "defer:url:c4e1dfcc1d992c0c",
+      "at": "2026-11-26T17:02:58.450Z",
+      "firstAt": "2026-11-26T17:02:58.450Z",
+      "attempts": 0,
+      "reason": "source_consecutive",
+      "reasons": [
+        "source_consecutive"
+      ],
+      "keys": [
+        "url:c4e1dfcc1d992c0c",
+        "title:4d17f9b26d61e868"
+      ],
+      "canonical": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
+      "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
+        "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
+        "canonical": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
+        "published": "Wed, 25 Nov 2026 13:00:00 +0000",
+        "summary": "From cybersecurity foundations to defending machine learning systems, agentic pipelines, and large language model applications.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-the-roadmap-to-becoming-an-ai-security-engineer-in-2026-feature.webp"
+        ],
+        "ageHours": 28,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "security",
+        "keys": [
+          "url:c4e1dfcc1d992c0c",
+          "title:4d17f9b26d61e868"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -24738,6 +24875,37 @@
       "model": "DeepSeek-V4-Flash",
       "fallback": null,
       "qa": "43/43"
+    },
+    "2026-11-26T20:30+03:30": {
+      "at": "2026-11-26T17:04:37.722Z",
+      "status": "sent",
+      "category": "models",
+      "title": "بنچمارک جدید کنترل ربات انسان‌نما با مدل‌های زبانی رونمایی شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/20-30",
+      "messageId": 170,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0025026736,
+      "tokens": 42039,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "بنچمارک جدید کنترل ربات انسان‌نما با مدل‌های زبانی رونمایی شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 170,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0006168512,
+          "tokens": 12068,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-26T17:04:37.722Z"
+        }
+      ]
     }
   },
   "published": [
@@ -27428,144 +27596,114 @@
       "sourceTitle": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents - KDnuggets",
       "sourceText": "Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.\nSome of a company's most valuable analytical knowledge never makes it into its software. It lives in spreadsheets, internal documents, or calculations employees have developed through years of experience. A sales team, for example, might use its own scoring model to evaluate opportunities based on account type, engagement patterns, and deal history. The model helps determine which customers deserve attention, but applying it still requires someone to collect the data, run calculations, and organize the results.\nWhat if that scoring model could become an application working directly with the company's CRM data?\nThis is the kind of specific requirement that Alaio Vibecode , an AI app builder and vibe coding platform for Bitrix24, is designed to address. Teams can describe what they need in natural language and use AI-assisted development to create custom CRM analytics dashboards, reporting applications, lead scoring tools, chatbots, and AI agents.\nBitrix24 brings CRM, projects, tasks, documents, communication, analytics, and automation into one environment. Alaio Vibecode lets businesses build additional applications around their own calculations, processes, and ways of working, without starting a conventional development project.\nWith Alaio Vibecode, teams can create applications that retrieve relevant Bitrix24 records, apply company-specific logic, and present results in a format suited to a particular decision.\n",
       "at": "2026-11-26T14:38:17.292Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-26T20:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "بنچمارک جدید کنترل ربات انسان‌نما با مدل‌های زبانی رونمایی شد",
+      "why": "این بنچمارک نشان می‌دهد مدل‌های زبانی می‌توانند کد بنویسند و اجرا کنند تا در دنیای فیزیکی عمل کنند؛ قدمی مهم به سمت ربات‌های خانگی هوشمندتر.",
+      "dedupe_key": "artificialanalysis-aa-robotics-sim-v01-launch",
+      "post_key": "2026-11-26/20-30/1",
+      "sourceId": "artificial-analysis-articles",
+      "sourceName": "Artificial Analysis Articles",
+      "sourceType": "benchmark",
+      "benchmark": true,
+      "url": "https://artificialanalysis.ai/articles/aa-robotics-sim",
+      "sourceTitle": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
+      "sourceText": "AA-Robotics-Sim v0.1 gives frontier language models control of a simulated Unitree G1 humanoid robot across ten household and industrial tasks. Today’s research preview of our simulation benchmark follows last month’s preview of AA-Robotics v0.1, our work with physical robot arms in our lab. In AA-Robotics-Sim v0.1, each model practices five episodes per task, keeps only the notes and code it wrote, and is then scored on ten new evaluation scenes with different rooms, lighting and task details.\nFrontier language models can now write and run code well enough to act in the physical world. AA-Robotics v0.1 was our first step, with models controlling a robot arm. AA-Robotics-Sim v0.1 evaluates frontier language models on their ability to control a simulated humanoid robot, which has to walk, look around, and use two dexterous hands at once.\nAA-Robotics-Sim v0.1 is our research preview of the simplest experiment we have designed to test this: language models in coding agent harnesses directly controlling a humanoid. Each model is given control of a simulated Unitree G1, with 29 joints, three-fingered hands and a head camera, and a simple objective for each task. It is the next step in our work measuring AI agents in simulated robotics, and we plan to expand from here.\nFor each task, the model is first given five practice episodes back to back, each in a new scene, to learn the environment and take notes. Only the files it writes (memory, notes, code and skills) are kept. Using these, the model is then evaluated on ten new scenes, each with a different room, lighting, layout and ",
+      "at": "2026-11-26T17:04:37.723Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8603,
-      "last_at": "2026-11-26T11:58:24+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "last_id": 8609,
+      "last_at": "2026-11-26T15:43:46+00:00",
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "pedramgholizadeh": {
       "last_id": 819,
       "last_at": "2026-11-26T12:43:47+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "ai_farshad": {
       "last_id": 6528,
       "last_at": "2026-11-25T13:41:23+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7282,
-      "last_at": "2026-11-26T14:24:02+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "last_id": 7284,
+      "last_at": "2026-11-26T15:14:42+00:00",
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "techiin_ir": {
-      "last_id": 20855,
-      "last_at": "2026-11-25T10:31:52+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "last_id": 20856,
+      "last_at": "2026-11-25T11:34:50+00:00",
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "mgh_mobin": {
-      "last_id": 516,
-      "last_at": "2026-11-25T17:07:22+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "last_id": 517,
+      "last_at": "2026-11-26T14:41:35+00:00",
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "web3nabu": {
       "last_id": 2192,
       "last_at": "2026-11-25T21:23:07+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "asrnovin_ir": {
-      "last_id": 11549,
-      "last_at": "2026-11-26T12:55:28+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "last_id": 11550,
+      "last_at": "2026-11-26T16:23:13+00:00",
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "codecloude": {
       "last_id": 2625,
       "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "dunijet_ai": {
-      "last_id": 2622,
-      "last_at": "2026-11-26T14:17:44+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "last_id": 2626,
+      "last_at": "2026-11-26T16:27:46+00:00",
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "MatinSenPaii": {
       "last_id": 5992,
       "last_at": "2026-11-26T14:30:45+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "checked_at": "2026-11-26T17:01:04.634Z"
     },
     "thenimaonAI": {
-      "last_id": 597,
-      "last_at": "2026-11-26T05:25:03+00:00",
-      "checked_at": "2026-11-26T14:36:39.231Z"
+      "last_id": 598,
+      "last_at": "2026-11-26T16:20:10+00:00",
+      "checked_at": "2026-11-26T17:01:04.634Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-12|tg-asr-novin|https://t.me/asrnovin_ir/11449",
-      "date": "2026-11-12",
-      "at": "2026-11-12T17:00:51.639Z",
-      "source": "tg-asr-novin",
-      "title": "این معدن طلایی برای Claude Code است و ۱۰۰٪ رایگان است!",
-      "url": "https://t.me/asrnovin_ir/11449",
-      "reason": "denied_link",
-      "slot": "2026-11-12T20:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7203",
-      "date": "2026-11-12",
-      "at": "2026-11-12T17:00:51.639Z",
-      "source": "tg-mohammad-zammani",
-      "title": "طبق بیانیه رسمی انویدیا، جنسن هوانگ از مدیرعاملی این شرکت استعفا داده.",
-      "url": "https://t.me/Mohammad_zammani/7203",
-      "reason": "denied_link",
-      "slot": "2026-11-12T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8389",
-      "date": "2026-11-12",
-      "at": "2026-11-12T17:00:51.639Z",
-      "source": "tg-archive-tell",
-      "title": "این دو تا فایل HTML رو از نظر UI بررسی کنید و نظرتون رو زیر این",
-      "url": "https://t.me/ArchiveTell/8389",
-      "reason": "denied_link",
-      "slot": "2026-11-12T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|hf-papers|https://huggingface.co/papers/2611.14115",
-      "date": "2026-11-12",
-      "at": "2026-11-12T17:00:51.639Z",
-      "source": "hf-papers",
-      "title": "LEASH: Stay Safe in Agentic Robotics",
-      "url": "https://huggingface.co/papers/2611.14115",
-      "reason": "research_paper",
-      "slot": "2026-11-12T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8391",
       "date": "2026-11-12",
@@ -31165,6 +31303,42 @@
       "slot": "2026-11-26T17:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-thenima|https://t.me/thenimaonAI/598",
+      "date": "2026-11-26",
+      "at": "2026-11-26T17:01:04.634Z",
+      "source": "tg-thenima",
+      "title": "یه چیزی چند وقته توی ذهنمه و امروز نشستم تایپش کردم.",
+      "url": "https://t.me/thenimaonAI/598",
+      "reason": "denied_link",
+      "slot": "2026-11-26T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-mgh-mobin|https://t.me/mgh_mobin/517",
+      "date": "2026-11-26",
+      "at": "2026-11-26T17:01:04.634Z",
+      "source": "tg-mgh-mobin",
+      "title": "📚 گوگل یه قابلیت جدید به Gemini Notebook (همون NotebookLM سابق) اضافه کرده که به نظرم",
+      "url": "https://t.me/mgh_mobin/517",
+      "reason": "denied_link",
+      "slot": "2026-11-26T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-techiin|https://t.me/techiin_ir/20856",
+      "date": "2026-11-26",
+      "at": "2026-11-26T17:01:04.634Z",
+      "source": "tg-techiin",
+      "title": "✅ قابلیت آرشیو چت‌ها در جمینای؛ مکالمات قدیمی رو بدون حذف پنهان کنید",
+      "url": "https://t.me/techiin_ir/20856",
+      "reason": "denied_link",
+      "slot": "2026-11-26T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -31531,6 +31705,13 @@
       "url": "https://t.me/asrnovin_ir/11545",
       "slot": "2026-11-26T17:00+03:30",
       "at": "2026-11-26T13:30:58.687Z"
+    },
+    {
+      "source": "tg-asr-novin",
+      "title": "🚁 آینده هوانوردی را از همین امروز آغاز کنید!",
+      "url": "https://amir.technology/zero",
+      "slot": "2026-11-26T20:30+03:30",
+      "at": "2026-11-26T17:01:04.634Z"
     }
   ],
   "reviewPending": {},

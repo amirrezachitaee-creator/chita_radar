@@ -1,0 +1,170 @@
+RUN 45863951642 | send/main | slot auto | 2026-11-26T17:01:04Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-26T20:30+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 17/31 | models 14/24 | security 6/11 | business 8/11
+DAILY 6/11
+DIVERSITY_TARGET business | slot 20:30
+DEFERRED_POOL 49
+  DEFERRED category_consecutive | try 0/3 | Come for the Games, Stay for the Community With GeForce NOW
+  DEFERRED source_weekly | try 0/3 | FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040
+  DEFERRED source_daily | try 0/3 | Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+  DEFERRED source_weekly | try 0/3 | Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks
+  DEFERRED source_weekly | try 0/3 | Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls
+DEFERRED_BENCHMARK 4 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 50h | Diverse Alternative Reasoning Traces for Hard Math Problems
+  DEFERRED_BENCHMARK category_consecutive | expires 50h | How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches
+  DEFERRED_BENCHMARK category_consecutive | expires 49h | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+  DEFERRED_BENCHMARK category_consecutive | expires 31h | Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1
+DEFERRED_EXHAUSTED 1
+SOURCE_DISCOVERY already_ran date=2026-11-26 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=131 nodate=0 nonai=0 dup=33 dup_other=0 kept=86 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=316 pending=29 leads=8 nolink=1 nonai=1 denied=3 promo=0 stale=0 before=0 dup=2 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:811,review:17 delivered=828 window=30d
+TELEGRAM_EDU_DUPLICATES 1 skipped=worked_story
+  EDU_DUPLICATE Mohammad_zammani | تیم آنتروپیک ستاپ‌های شخصی خودش برای کلود کد (Claude Code) رو تو قالب یه لیست هفت‌تایی | already main: 🧰 تیم Anthropic ستاپ‌های خودش برای Claude Code رو توی ۷ ریپوی رایگان گذاشته و یه
+STORY_DUPLICATES 1 skipped=worked_story
+  STORY_DUPLICATE ArchiveTell | 🔓 باز کردن گوگل فلو بدون وی‌پی‌ان با افزونه‌ی AI Flow Bypasser اگه گوگل فلو (Google | already main: افزونه جدید برای بازکردن گوگل فلو
+REVIEW_LEADS 3 separate_from_main=yes cap=none
+REVIEW_DRAFT Thenima.one | یه چیزی چند وقته توی ذهنمه و امروز نشستم تایپش کردم. | 1599 chars
+  REVIEW_ITEM id=33454f6c1a message=268
+  REVIEW_REQUIRED reason=denied_link sent=268
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/20-30-11dbe502
+REVIEW_DRAFT M G H M O B I N | 📚 گوگل یه قابلیت جدید به Gemini Notebook (همون NotebookLM سابق) اضافه کرده که به نظرم | 515 chars
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  retry in 20s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  REVIEW_ITEM id=629bc06229 message=269
+  REVIEW_REQUIRED reason=denied_link sent=269
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/20-30-308e90d0
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | ✅ قابلیت آرشیو چت‌ها در جمینای؛ مکالمات قدیمی رو بدون حذف پنهان کنید | 451 chars
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  retry in 20s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  REVIEW_ITEM id=313f89ada9 message=270
+  REVIEW_REQUIRED reason=denied_link sent=270
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/20-30-972899f4
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD asrnovin_ir | education | 🚁 آینده هوانوردی را از همین امروز آغاز کنید!
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_REVIEW leads=1 sent=1 ids=271 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/20-30-education/education.txt
+RELEVANCE candidates=80 kept=51 dropped=29
+  SKIP_NOT_AI The Record | Microsoft: China’s Salt Typhoon hackers are using Artex
+  SKIP_NOT_AI arXiv | Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation
+  SKIP_NOT_AI arXiv | RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies
+  SKIP_NOT_AI Product Hunt | Hub
+  SKIP_NOT_AI Crunchbase News | Startups Are Picking Names That Can Work Even If The Original Business Model Doesn’t
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-charts 0.2a0
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-agent 0.7a1
+  SKIP_NOT_AI TechCrunch | A month with the iPhone Duo has changed how I use my phone
+  SKIP_NOT_AI ... +21 more
+DIVERSITY target=business queue=2 fresh=8 deferred=49 rejected=source_daily:20,source_weekly:30,source_consecutive:2,category_consecutive:2
+  DIVERSITY_QUEUE models:NVIDIA AI Blog | models:Artificial Analysis Articles
+QUEUE_SKIPPED 54
+  QUEUE_SKIP source_weekly | The Decoder | FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040
+  QUEUE_SKIP source_daily | Hugging Face Blog | Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+  QUEUE_SKIP source_weekly | The Decoder | Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks
+  QUEUE_SKIP source_weekly | The Decoder | Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls
+  QUEUE_SKIP source_daily | Hugging Face Blog | Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | Quoting Scott Aaronson
+  QUEUE_SKIP source_weekly | TechCrunch | S&P considers Nvidia credit downgrade over governance and ‘key man’ risks
+  QUEUE_SKIP source_weekly | TechCrunch | FCC approves SpaceX plan to put AI data centers in space
+  QUEUE_SKIP source_weekly | The Decoder | US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs
+  QUEUE_SKIP source_weekly | The Decoder | Anthropic CEO Dario Amodei says letting AI govern society would be "a bad idea"
+  QUEUE_SKIP ... +44 more
+QUEUE_HELD 8
+  QUEUE_HOLD source_weekly | TechCrunch | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  QUEUE_HOLD source_weekly | The Decoder | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  QUEUE_HOLD source_weekly | Simon Willison - Prompt Injection | Quoting Jack Despain Zhou
+  QUEUE_HOLD category_consecutive | دانیجت | Dunijet | 🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته
+  QUEUE_HOLD source_consecutive | KDnuggets | How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work
+  QUEUE_HOLD source_weekly | Simon Willison - Prompt Injection | The New York Times warns photographers not to update Photoshop over AI features
+  QUEUE_HOLD category_consecutive | Product Hunt | Flurra
+  QUEUE_HOLD source_consecutive | KDnuggets | The Roadmap to Becoming an AI Security Engineer in 2027
+ATTEMPT 1/2 | deferred 0/3 NVIDIA AI Blog | Come for the Games, Stay for the Community With GeForce NOW | 0.6h
+  TOOL_LINK candidate https://www.nvidia.com/en-us/geforce-now/games/ | score 19
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP promo | محتوای ورودی عمدتاً تبلیغاتی و شامل فروش اشتراک، تخفیف بلک فرایدی و معرفی محصول بدون خبر فنی مستقل است.
+ATTEMPT 2/2 | deferred 0/3 Artificial Analysis Articles | Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1 | 32h
+  TOOL_LINK candidate https://github.com/isaac-sim/IsaacLab | score 22
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  STYLE_WARNING why | one repair retry
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  REPAIR_INVALID_JSON
+POST 1/2 status=sent category=models | QA 42/43 | $0.000617 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/20-30
+RESULT SENT category=models | offer=no | image=yes | QA 42/43 | cost $0.002503 | post $0.000617 | tokens 42039
+TITLE بنچمارک جدید کنترل ربات انسان‌نما با مدل‌های زبانی رونمایی شد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/20-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST models | sent | $0.000617 | بنچمارک جدید کنترل ربات انسان‌نما با مدل‌های زبانی رونمایی شد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-26T17:04:37Z
+# گزارش روزانه 2026-11-26 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 7 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 7
+
+## آمار روز
+- پست ارسال‌شده: 7 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 3، مدل‌ها و پژوهش 3، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 5 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 14
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 3، مدل‌ها و پژوهش 3، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.007202
+- توکن: 123982
+- میانگین هر پست ارسال‌شده: $0.001029
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 17 | 31 | 14 |
+| مدل‌ها و پژوهش | 15 | 24 | 9 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 46 | 77 | 31 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001586 | 10601 | ای‌بی‌ام یک ایجنت صوتی چندزبانه برای کشاورزان هندی ساخت |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000773 | 21664 | پنج پروژه ساخته‌شده با Gemini 4 Neon رونمایی شد |
+| 11:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000387 | 10604 | Concat؛ ادیتور ویدیوی رایگان و اوپن سورس با هوش مصنوعی |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002189 | 22714 | پهپاد آمازون به گاراژ برخورد کرد و FAA تحقیق باز کرد |
+| 14:00 #2 | مدل‌ها و پژوهش | ارسال‌شده | 40/43 | $0.000791 | 21894 | بنچمارک جدید برای سنجش دستیارهای صوتی چندکاربره معرفی شد |
+| 17:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000860 | 24437 | با Alaio Vibecode داشبورد CRM اختصاصی بسازید |
+| 20:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000617 | 12068 | بنچمارک جدید کنترل ربات انسان‌نما با مدل‌های زبانی رونمایی شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 15
+- دلایل: از رصد آفر پیدا شد 2، لینک قابل استفاده ندارد 2، لینک خارجی این پست پذیرفته نشد 7، مدل این مورد را رد کرد 2، مقاله پژوهشی منتخب 1، منبع رسمی شرکت نیست 1
+- آموزش‌های بازبینی امروز: 5 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-26.md
+SOURCE_STATUS 2026-11-26T17:04:37Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-26.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — پنجشنبه ۵ آذر ۱۴۰۵
+پست امروز: 7 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 7
+صف بازبینی: 252 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45863951642
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
