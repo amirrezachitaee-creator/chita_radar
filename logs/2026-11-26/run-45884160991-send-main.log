@@ -1,0 +1,145 @@
+RUN 45884160991 | send/main | slot auto | 2026-11-26T19:30:54Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-26T23:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 17/31 | models 15/24 | security 6/11 | business 8/11
+DAILY 7/11
+DIVERSITY_TARGET tools | slot 23:00
+DEFERRED_POOL 50
+  DEFERRED source_weekly | try 0/3 | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  DEFERRED source_weekly | try 0/3 | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  DEFERRED source_weekly | try 0/3 | Quoting Jack Despain Zhou
+  DEFERRED category_consecutive | try 0/3 | 🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته
+  DEFERRED source_consecutive | try 0/3 | How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 47h | Diverse Alternative Reasoning Traces for Hard Math Problems
+  DEFERRED_BENCHMARK category_consecutive | expires 47h | How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches
+  DEFERRED_BENCHMARK category_consecutive | expires 47h | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+SOURCE_DISCOVERY already_ran date=2026-11-26 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=135 nodate=0 nonai=0 dup=30 dup_other=0 kept=78 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=316 pending=24 leads=2 nolink=4 nonai=0 denied=1 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:817,review:17 delivered=834 window=30d
+STORY_DUPLICATES 2 skipped=worked_story
+  STORY_DUPLICATE ArchiveTell | 🚀 جایگزین Muse رو پیدا کردیم! یه اپ هوش مصنوعی به اسم Hark Pro که دقیقاً | already main: جمنای حالا می‌تونه کارهای مک رو در پس‌زمینه انجام بده
+  STORY_DUPLICATE The Decoder | GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error | already main: دو مدل جدید GPT-6.2 با قیمت کمتر معرفی شدند
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | ✅ قابلیت Personal Intelligence گوگل با پشتیبانی از درایو، والت و اپلیکیشن Gemini | 571 chars
+  REVIEW_ITEM id=6179397b8b message=272
+  REVIEW_REQUIRED reason=denied_link sent=272
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/23-00-5511932a
+RELEVANCE candidates=75 kept=47 dropped=28
+  SKIP_NOT_AI TechCrunch | Grand Theft Auto VI proves why efficiency isn’t a virtue
+  SKIP_NOT_AI Product Hunt | Pax by Pydantic
+  SKIP_NOT_AI The Record | Microsoft: China’s Salt Typhoon hackers are using Artex
+  SKIP_NOT_AI arXiv | Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation
+  SKIP_NOT_AI arXiv | RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies
+  SKIP_NOT_AI Product Hunt | NEXUS
+  SKIP_NOT_AI Crunchbase News | Startups Are Picking Names That Can Work Even If The Original Business Model Doesn’t
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-charts 0.2a0
+  SKIP_NOT_AI ... +20 more
+DIVERSITY target=tools queue=2 fresh=1 deferred=50 rejected=source_daily:21,source_weekly:26,category_consecutive:1
+  DIVERSITY_QUEUE tools:دانیجت | Dunijet | tools:Product Hunt
+QUEUE_SKIPPED 49
+  QUEUE_SKIP source_weekly | TechCrunch | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  QUEUE_SKIP source_weekly | The Decoder | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | Quoting Jack Despain Zhou
+  QUEUE_SKIP source_daily | KDnuggets | How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work
+  QUEUE_SKIP source_weekly | The Decoder | FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040
+  QUEUE_SKIP source_daily | Hugging Face Blog | Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+  QUEUE_SKIP source_weekly | The Decoder | Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks
+  QUEUE_SKIP source_weekly | The Decoder | Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | The New York Times warns photographers not to update Photoshop over AI features
+  QUEUE_SKIP source_daily | Hugging Face Blog | Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference
+  QUEUE_SKIP ... +39 more
+ATTEMPT 1/2 | deferred 0/3 دانیجت | Dunijet | 🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته | 2h
+  CONTENT_SUPPLEMENT +762 chars telegram
+  TOOL_LINK candidate https://github.com/google-research/google-research | score 41
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  REVIEW_ITEM id=05f487bf58 message=273
+  REVIEW_REQUIRED reason=model_skip sent=273
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/23-00-dc9f384d
+  MODEL_SKIP unverified | خبر فقط از یک پست تلگرامی بدون منبع قابل بررسی است و هیچ منبع رسمی یا رسانه معتبری برای آن یافت نشد.
+ATTEMPT 2/2 | deferred 0/3 Product Hunt | Flurra | 24.4h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  FETCH_TEXT_FALLBACK 308 chars
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image no_image
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | ورودی فقط یک تیتر و دو لینک است و هیچ جزئیات، عدد یا محتوای قابل استخراجی برای نوشتن پست ندارد.
+RESULT EMPTY attempts=3 reviews=2 deferred=48 | cost $0.001657 | tokens 28399
+  EMPTY_ATTEMPT review reason=denied_link | ✅ قابلیت Personal Intelligence گوگل با پشتیبانی از درایو، والت و اپلیکیشن Gemini
+  EMPTY_ATTEMPT review reason=model_skip | google-research/cogentic_research_papers at master · google-research/google-research
+  EMPTY_ATTEMPT model_skip reason=ورودی فقط یک تیتر و دو لینک است و هیچ جزئیات، عدد یا محتوای قابل استخراجی برای نوشتن پست ندارد. | Flurra
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-26T19:31:27Z
+# گزارش روزانه 2026-11-26 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 7 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 7، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 7 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 3، مدل‌ها و پژوهش 3، کسب‌وکار و بازار 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 5 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 18
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: ابزارها و محصولات 3، مدل‌ها و پژوهش 3، کسب‌وکار و بازار 1
+
+## هزینه
+- هزینه مدل: $0.008860
+- توکن: 152381
+- میانگین هر پست ارسال‌شده: $0.001266
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 17 | 31 | 14 |
+| مدل‌ها و پژوهش | 15 | 24 | 9 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 46 | 77 | 31 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001586 | 10601 | ای‌بی‌ام یک ایجنت صوتی چندزبانه برای کشاورزان هندی ساخت |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000773 | 21664 | پنج پروژه ساخته‌شده با Gemini 4 Neon رونمایی شد |
+| 11:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000387 | 10604 | Concat؛ ادیتور ویدیوی رایگان و اوپن سورس با هوش مصنوعی |
+| 14:00 | کسب‌وکار و بازار | ارسال‌شده | 42/43 | $0.002189 | 22714 | پهپاد آمازون به گاراژ برخورد کرد و FAA تحقیق باز کرد |
+| 14:00 #2 | مدل‌ها و پژوهش | ارسال‌شده | 40/43 | $0.000791 | 21894 | بنچمارک جدید برای سنجش دستیارهای صوتی چندکاربره معرفی شد |
+| 17:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000860 | 24437 | با Alaio Vibecode داشبورد CRM اختصاصی بسازید |
+| 20:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000617 | 12068 | بنچمارک جدید کنترل ربات انسان‌نما با مدل‌های زبانی رونمایی شد |
+| 23:00 |  | خالی | — | $0.001657 | 28399 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 17
+- دلایل: از رصد آفر پیدا شد 2، لینک قابل استفاده ندارد 2، لینک خارجی این پست پذیرفته نشد 8، مدل این مورد را رد کرد 3، مقاله پژوهشی منتخب 1، منبع رسمی شرکت نیست 1
+- آموزش‌های بازبینی امروز: 5 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 48
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-26.md
+SOURCE_STATUS 2026-11-26T19:31:27Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-26.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — پنجشنبه ۵ آذر ۱۴۰۵
+پست امروز: 7 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 7
+صف بازبینی: 254 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 48
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45884160991
+STATUS_CARD_END
+STATUS_SENT message_id=374 target=report

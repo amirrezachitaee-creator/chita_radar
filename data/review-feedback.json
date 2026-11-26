@@ -13098,6 +13098,103 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "6179397b8b": {
+      "id": "6179397b8b",
+      "messageId": 272,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-26T23:00+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-techiin",
+      "sourceName": "تِک‌این | آموزش و فناوری",
+      "sourceType": "telegram_channel",
+      "title": "✅ قابلیت Personal Intelligence گوگل با پشتیبانی از درایو، والت و اپلیکیشن Gemini",
+      "url": "https://t.me/techiin_ir/20857",
+      "leadPostUrl": "https://t.me/techiin_ir/20857",
+      "messageText": "✅ قابلیت Personal Intelligence گوگل با پشتیبانی از درایو، والت و اپلیکیشن Gemini\n\n🔹قابلیت Personal Intelligence به گوگل Drive، گوگل Wallet و اپلیکیشن Gemini گسترش پیدا می‌کنه. هوش مصنوعی گوگل می‌تونه از اسناد، فایل‌های PDF، صفحات گسترده و اطلاعات شخصی کاربران استفاده کنه.\n\n🔹یکپارچگی با Google Wallet امکان بررسی وضعیت مالی و بهینه‌سازی مزایای کارت‌های اعتباری رو فراهم می‌کنه. کاربران می‌تونن گفت‌وگوها و فایل‌های خودشون در Gemini رو به AI Mode متصل کنن.\n\n📍امکان اتصال Gemini به Personal Intelligence از امروز فعال شده، اما قابلیت نهایی طی هفته‌های آینده منتشر می‌شه.",
+      "relatedLinks": [
+        "http://helixworld.ai/",
+        "https://www.instagram.com/techin_ir",
+        "https://youtube.com/@techin_ir?si=NiD_33Qz2d2IRTlP",
+        "https://x.com/techin_ir"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/jvJzABQbv2S5Gn5L4MpyQdb30GRlN_OETKfLwyAnu5dYc6O1w5sPJ59d8Ioo8c_7_zoMjA7RkHigEHsaoU1tz-njCGMA9MPS6cxMNQkd3y0oqE8ufGncodQXveL9YADFVnDKiNAkYq3h5RSCeYpT7A9Sb6sdyr8R_pU1PAyDWFmJ48g5FGmMy6cysZjDuj8IejAUQ_cFwQxnubmA7-_k3OGjts3025krWCx0TeWhUwmGyrNbAcVgoflwVpRLboWulFEoxDRVXRwFC_XupfXUWH40mzv_N92UYVkpubfGG4Zl8jaO7dTbyGtekphsgFpcz95KIcHOVOsxV8fxI0Z7HA.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-25T12:31:55+00:00",
+      "keys": [
+        "url:5511932a14e0a3e6",
+        "title:5f1b830b8d446609"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-26T19:30:54.432Z",
+      "updatedAt": "2026-11-26T19:30:54.432Z",
+      "lastActionAt": "",
+      "sentAt": ""
+    },
+    "05f487bf58": {
+      "id": "05f487bf58",
+      "messageId": 273,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-26T23:00+03:30",
+      "reason": "model_skip",
+      "kind": "tool",
+      "source": "tg-dunijet-ai",
+      "sourceName": "دانیجت | Dunijet",
+      "sourceType": "telegram_channel",
+      "title": "google-research/cogentic_research_papers at master · google-research/google-research",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "leadPostUrl": "https://t.me/dunijet_ai/2623",
+      "messageText": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته\n\nفقط پرامپت اول رو یه آدم داده. شرکت Google Research چهارشنبه این شش مقاله رو منتشر کرد که همه‌شون «کاملا توسط Cogentic» ساخته شدن؛ ایجنت هوش مصنوعیشون که روی Gemini 4 اجرا میشه.\n\nمقاله اصلی درباره فاکتورگیری و تجزیه اعداد بزرگ به اعداد اوله، همون چیزی که امنیت RSA به سخت بودنش وابسته‌ست. ادعا میکنه برای یه روش در همون کلاس سرعت، اثبات ارائه داده. ولی کلید کسی رو نمی‌شکنه؛ ثابت اثبات‌شده‌اش ۱۰۵ در مقایسه با حدود ۱.۹ روش عملی، یعنی یه تضمین روی کاغذه نه یه حمله سریع‌تر.\n\nهیچ‌کدوم هنوز داوری نشدن. خود مقاله‌ها میگن اثبات‌های Lean همه‌شون کامپیوتری چک شده و جداگانه منتشر میشه.\n\ngithub.com/google-research/google-research/tree/master/cogentic_research_papers\n\n@dunijet_ai\n\n❤2",
+      "relatedLinks": [
+        "http://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/ij-o851TVpHxutAsxmIaL_ENjDO6n8eYtvwb4GQpQmiX1vfsY7XtH7KqnWMXjksM-hclH5olMCLgr7TqMVQqjWtf9CaTxATkq8YiSiaaojgOK4ux8akHL3OGNpvAX-MsXCB99-XdK6bhCd_EIJqVxZLACmys2EEhGjEDkLbj-W7Vns4-szE4l8TNy27hORRHNqV16zBCpEWpw9tTLfL9NT_0WuE4OMKobnFzqYB3lp7ofF_36Xy6URcTQ37e1IyqcYLwQPc3Ut3y5oBAyOeLNCW-_1V7AoSt2RoqCllPDmW4TnQ4XvDRwvdydmECTwKF33Oo0JekmrleOrCFeEsC5A.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-26T15:01:44.000Z",
+      "keys": [
+        "url:3d2c3bb01bc8c7de",
+        "title:b7c265adeb52948d"
+      ],
+      "benchmark": false,
+      "toolHint": true,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-26T19:30:54.432Z",
+      "updatedAt": "2026-11-26T19:30:54.432Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-26T17:52:29.599Z",
+  "updatedAt": "2026-11-26T19:31:27.609Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -18464,6 +18464,96 @@
       "title": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
       "url": "https://artificialanalysis.ai/articles/aa-robotics-sim",
       "benchmark": true
+    },
+    "url:342e085228913a6c": {
+      "at": "2026-11-26T19:31:07.770Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "🚀 جایگزین Muse رو پیدا کردیم! یه اپ هوش مصنوعی به اسم Hark Pro که دقیقاً",
+      "url": "https://hark.com/r/EJWBHV"
+    },
+    "title:624ffeb787554dde": {
+      "at": "2026-11-26T19:31:07.770Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "🚀 جایگزین Muse رو پیدا کردیم! یه اپ هوش مصنوعی به اسم Hark Pro که دقیقاً",
+      "url": "https://hark.com/r/EJWBHV"
+    },
+    "url:e461690b677636ee": {
+      "at": "2026-11-26T19:31:07.770Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error"
+    },
+    "title:b144b703f436211d": {
+      "at": "2026-11-26T19:31:07.770Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error"
+    },
+    "url:5511932a14e0a3e6": {
+      "at": "2026-11-26T19:31:12.915Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "✅ قابلیت Personal Intelligence گوگل با پشتیبانی از درایو، والت و اپلیکیشن Gemini",
+      "url": "https://t.me/techiin_ir/20857"
+    },
+    "title:5f1b830b8d446609": {
+      "at": "2026-11-26T19:31:12.915Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "✅ قابلیت Personal Intelligence گوگل با پشتیبانی از درایو، والت و اپلیکیشن Gemini",
+      "url": "https://t.me/techiin_ir/20857"
+    },
+    "url:3d2c3bb01bc8c7de": {
+      "at": "2026-11-26T19:31:18.105Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته",
+      "url": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+    },
+    "title:b7c265adeb52948d": {
+      "at": "2026-11-26T19:31:18.105Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته",
+      "url": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+    },
+    "url:1b4f32b14bc9f666": {
+      "at": "2026-11-26T19:31:27.607Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "Flurra",
+      "url": "https://www.producthunt.com/products/flurra"
+    },
+    "title:5cf9c0437504356e": {
+      "at": "2026-11-26T19:31:27.607Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-26T23:00+03:30",
+      "title": "Flurra",
+      "url": "https://www.producthunt.com/products/flurra"
     }
   },
   "deferred": {
@@ -20636,73 +20726,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:3d2c3bb01bc8c7de": {
-      "id": "defer:url:3d2c3bb01bc8c7de",
-      "at": "2026-11-26T17:02:58.450Z",
-      "firstAt": "2026-11-26T17:02:58.450Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3d2c3bb01bc8c7de",
-        "title:b7c265adeb52948d"
-      ],
-      "canonical": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-      "title": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته",
-      "candidate": {
-        "sourceId": "tg-dunijet-ai",
-        "sourceName": "دانیجت | Dunijet",
-        "sourceType": "telegram_channel",
-        "title": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته",
-        "link": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-        "canonical": "http://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-        "messageText": "🤖 هوش مصنوعی گوگل شش مقاله ریاضی رو خودش نوشت؛ یکیش درباره ریاضیات پشت رمزنگاری‌ته\n\nفقط پرامپت اول رو یه آدم داده. شرکت Google Research چهارشنبه این شش مقاله رو منتشر کرد که همه‌شون «کاملا توسط Cogentic» ساخته شدن؛ ایجنت هوش مصنوعیشون که روی Gemini 4 اجرا میشه.\n\nمقاله اصلی درباره فاکتورگیری و تجزیه اعداد بزرگ به اعداد اوله، همون چیزی که امنیت RSA به سخت بودنش وابسته‌ست. ادعا میکنه برای یه روش در همون کلاس سرعت، اثبات ارائه داده. ولی کلید کسی رو نمی‌شکنه؛ ثابت اثبات‌شده‌اش ۱۰۵ در مقایسه با حدود ۱.۹ روش عملی، یعنی یه تضمین روی کاغذه نه یه حمله سریع‌تر.\n\nهیچ‌کدوم هنوز داوری نشدن. خود مقاله‌ها میگن اثبات‌های Lean همه‌شون کامپیوتری چک شده و جداگانه منتشر میشه.\n\ngithub.com/google-research/google-research/tree/master/cogentic_research_papers\n\n@dunijet_ai\n\n❤2",
-        "leadPostUrl": "https://t.me/dunijet_ai/2623",
-        "published": "2026-11-26T15:01:44+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/ij-o851TVpHxutAsxmIaL_ENjDO6n8eYtvwb4GQpQmiX1vfsY7XtH7KqnWMXjksM-hclH5olMCLgr7TqMVQqjWtf9CaTxATkq8YiSiaaojgOK4ux8akHL3OGNpvAX-MsXCB99-XdK6bhCd_EIJqVxZLACmys2EEhGjEDkLbj-W7Vns4-szE4l8TNy27hORRHNqV16zBCpEWpw9tTLfL9NT_0WuE4OMKobnFzqYB3lp7ofF_36Xy6URcTQ37e1IyqcYLwQPc3Ut3y5oBAyOeLNCW-_1V7AoSt2RoqCllPDmW4TnQ4XvDRwvdydmECTwKF33Oo0JekmrleOrCFeEsC5A.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://github.com/google-research/google-research/tree/master/cogentic_research_papers"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security",
-          "business"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:3d2c3bb01bc8c7de",
-          "title:b7c265adeb52948d"
-        ],
-        "leadSource": "dunijet_ai",
-        "leadMessageId": 2623,
-        "leadChannelUrl": "https://t.me/dunijet_ai",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:e9988cf012ebf30f": {
       "id": "defer:url:e9988cf012ebf30f",
       "at": "2026-11-26T17:02:58.450Z",
@@ -20792,52 +20815,6 @@
         "keys": [
           "url:fc654cd8c7a75232",
           "title:95a86c276567302a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:1b4f32b14bc9f666": {
-      "id": "defer:url:1b4f32b14bc9f666",
-      "at": "2026-11-26T17:02:58.450Z",
-      "firstAt": "2026-11-26T17:02:58.450Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:1b4f32b14bc9f666",
-        "title:5cf9c0437504356e"
-      ],
-      "canonical": "https://www.producthunt.com/products/flurra",
-      "title": "Flurra",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Flurra",
-        "link": "https://www.producthunt.com/products/flurra",
-        "canonical": "https://www.producthunt.com/products/flurra",
-        "published": "2026-11-25T08:34:30-08:00",
-        "summary": "<p> Ask Claude or ChatGPT to edit your videos </p> <p> <a href=\"https://www.producthunt.com/products/flurra?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1330867?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/flurra",
-        "images": [],
-        "ageHours": 24.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:1b4f32b14bc9f666",
-          "title:5cf9c0437504356e"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -24906,6 +24883,14 @@
           "at": "2026-11-26T17:04:37.722Z"
         }
       ]
+    },
+    "2026-11-26T23:00+03:30": {
+      "at": "2026-11-26T19:31:27.607Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0016573424,
+      "tokens": 28399,
+      "posts": []
     }
   },
   "published": [
@@ -27618,128 +27603,92 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8609,
-      "last_at": "2026-11-26T15:43:46+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "last_id": 8610,
+      "last_at": "2026-11-26T18:03:37+00:00",
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "pedramgholizadeh": {
       "last_id": 819,
       "last_at": "2026-11-26T12:43:47+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "ai_farshad": {
       "last_id": 6528,
       "last_at": "2026-11-25T13:41:23+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7284,
-      "last_at": "2026-11-26T15:14:42+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "last_id": 7285,
+      "last_at": "2026-11-26T17:14:12+00:00",
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "techiin_ir": {
-      "last_id": 20856,
-      "last_at": "2026-11-25T11:34:50+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "last_id": 20857,
+      "last_at": "2026-11-25T12:31:55+00:00",
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "mgh_mobin": {
       "last_id": 517,
       "last_at": "2026-11-26T14:41:35+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "web3nabu": {
-      "last_id": 2192,
-      "last_at": "2026-11-25T21:23:07+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "last_id": 2193,
+      "last_at": "2026-11-26T18:16:49+00:00",
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "asrnovin_ir": {
       "last_id": 11550,
       "last_at": "2026-11-26T16:23:13+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "codecloude": {
       "last_id": 2625,
       "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "dunijet_ai": {
-      "last_id": 2626,
-      "last_at": "2026-11-26T16:27:46+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "last_id": 2630,
+      "last_at": "2026-11-26T19:14:32+00:00",
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "MatinSenPaii": {
       "last_id": 5992,
       "last_at": "2026-11-26T14:30:45+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     },
     "thenimaonAI": {
       "last_id": 598,
       "last_at": "2026-11-26T16:20:10+00:00",
-      "checked_at": "2026-11-26T17:01:04.634Z"
+      "checked_at": "2026-11-26T19:30:54.432Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8391",
-      "date": "2026-11-12",
-      "at": "2026-11-12T17:49:31.843Z",
-      "source": "tg-archive-tell",
-      "title": "🚀 مدل جدید Gemini 4 Hydrogen منتشر شد!",
-      "url": "https://t.me/ArchiveTell/8391",
-      "reason": "denied_link",
-      "slot": "2026-11-12T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-techiin|https://t.me/techiin_ir/20762",
-      "date": "2026-11-12",
-      "at": "2026-11-12T19:30:44.705Z",
-      "source": "tg-techiin",
-      "title": "✅ گوگل از یک مدل تصمیم‌گیری Gemini Decision 1 رونمایی کرد",
-      "url": "https://t.me/techiin_ir/20762",
-      "reason": "denied_link",
-      "slot": "2026-11-12T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-12|tg-archive-tell|https://t.me/ArchiveTell/8398",
-      "date": "2026-11-12",
-      "at": "2026-11-12T19:30:44.705Z",
-      "source": "tg-archive-tell",
-      "title": "یه مقایسه ریز از Gemini 4 Hydrogen و Fable 5.2 ببینیم 🚀",
-      "url": "https://t.me/ArchiveTell/8398",
-      "reason": "denied_link",
-      "slot": "2026-11-12T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-13|offer-watch:ai-free|https://aifree.dev/free-api-credits",
       "date": "2026-11-13",
@@ -31339,16 +31288,33 @@
       "slot": "2026-11-26T20:30+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-techiin|https://t.me/techiin_ir/20857",
+      "date": "2026-11-26",
+      "at": "2026-11-26T19:30:54.432Z",
+      "source": "tg-techiin",
+      "title": "✅ قابلیت Personal Intelligence گوگل با پشتیبانی از درایو، والت و اپلیکیشن Gemini",
+      "url": "https://t.me/techiin_ir/20857",
+      "reason": "denied_link",
+      "slot": "2026-11-26T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-26|tg-dunijet-ai|https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "date": "2026-11-26",
+      "at": "2026-11-26T19:30:54.432Z",
+      "source": "tg-dunijet-ai",
+      "title": "google-research/cogentic_research_papers at master · google-research/google-research",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "reason": "model_skip",
+      "slot": "2026-11-26T23:00+03:30",
+      "kind": "tool",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-miladxtalks",
-      "title": "آموزش ساخت ویدیو با هوش مصنوعی کلاد | کسب درآمد با هوش مصنوعی",
-      "url": "https://youtu.be/njNBZv_IoRw",
-      "slot": "2026-11-12T23:00+03:30",
-      "at": "2026-11-12T19:30:44.705Z"
-    },
     {
       "source": "tg-asr-novin",
       "title": "آموزش دریافت اشتراک 6 ماهه رایگان ChatGpt Pro همراه با Codex Security و api رایگان",
