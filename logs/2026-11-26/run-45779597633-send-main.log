@@ -1,0 +1,189 @@
+RUN 45779597633 | send/main | slot auto | 2026-11-26T08:02:14Z
+RUN_ARGS --send --max-candidates 8
+OPEN_OFFER window_closed blog.google
+SLOT 2026-11-26T11:30+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 15/31 | models 13/24 | security 6/11 | business 7/11
+DAILY 2/11
+DIVERSITY_TARGET models | slot 11:30
+DEFERRED_POOL 48
+  DEFERRED source_weekly | try 0/3 | Quoting Scott Aaronson
+  DEFERRED source_weekly | try 0/3 | S&P considers Nvidia credit downgrade over governance and ‘key man’ risks
+  DEFERRED source_weekly | try 0/3 | FCC approves SpaceX plan to put AI data centers in space
+  DEFERRED source_weekly | try 0/3 | US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs
+  DEFERRED source_weekly | try 0/3 | Anthropic CEO Dario Amodei says letting AI govern society would be "a bad idea"
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 35h | MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing
+  DEFERRED_BENCHMARK category_consecutive | expires 34h | AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design
+  DEFERRED_BENCHMARK category_consecutive | expires 34h | Hybrid AI for AI-Native RAN Control: A Functional Perspective
+DEFERRED_EXHAUSTED 1
+SOURCE_DISCOVERY already_ran date=2026-11-26 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=132 nodate=0 nonai=0 dup=28 dup_other=0 kept=91 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=315 pending=23 leads=8 nolink=1 nonai=0 denied=1 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:790,review:17 delivered=807 window=30d
+STORY_DUPLICATES 1 skipped=worked_story
+  STORY_DUPLICATE هوش مصنوعی | محمد زمانی | گوگل تو پنج روز گذشته با افزایش ظرفیت کش و بهینه‌سازی هارنس، عملاً ظرفیت استفاده از | already main: گوگل مدل Gemini 4 Neon رو منتشر کرد
+REVIEW_LEADS 4 separate_from_main=yes cap=none
+REVIEW_DRAFT Thenima.one | • پلتفرم برتر و مرز واقعیت: در بین شبکه‌های اجتماعی، اینستاگرام را به دلیل قابلیت Whitelisting | 366 chars
+  REVIEW_ITEM id=0fc2006178 message=254
+  REVIEW_REQUIRED reason=no_link sent=254
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/11-30-c0bae1c0
+REVIEW_DRAFT Thenima.one | خلاصه نکات مهمشو هم با Gemini دراوردم، میتونید اینم بخونید👇 | 1600 chars
+  REVIEW_ITEM id=61ecd998b5 message=255
+  REVIEW_REQUIRED reason=no_link sent=255
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/11-30-eb2f8d3e
+  REVIEW_ITEM id=ac8c4fc3d3 message=256
+  REVIEW_REQUIRED reason=denied_link sent=256
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/11-30-a99bfc6a
+REVIEW_DRAFT تِک‌این | آموزش و فناوری | ✅ اولین موافقت اصولی خدمات هوش مصنوعی صادر شد | 780 chars
+  REVIEW_DRAFT_QA FAIL source | $0.000271
+  REVIEW_ITEM id=dfb2939e3f message=257
+  REVIEW_REQUIRED reason=denied_link sent=257
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/11-30-89322f15
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD thenimaonAI | education | بخش چهارم: کارگاه زنده — سیستم ۶ مرحله‌ای ساخت تیزر تبلیغاتی از صفر تا صد
+  EDU_REVIEW leads=1 sent=2 ids=258,259 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/11-30-education/education.txt
+RELEVANCE candidates=85 kept=53 dropped=32
+  SKIP_NOT_AI Product Hunt | Superframes
+  SKIP_NOT_AI Product Hunt | Pax by Pydantic
+  SKIP_NOT_AI The Record | Microsoft: China’s Salt Typhoon hackers are using Artex
+  SKIP_NOT_AI arXiv | RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies
+  SKIP_NOT_AI arXiv | Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation
+  SKIP_NOT_AI Crunchbase News | Startups Are Picking Names That Can Work Even If The Original Business Model Doesn’t
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-charts 0.2a0
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-agent 0.7a1
+  SKIP_NOT_AI ... +24 more
+DIVERSITY target=models queue=6 fresh=23 deferred=48 rejected=source_daily:3,source_weekly:29,category_consecutive:21
+  DIVERSITY_QUEUE security:Ars Technica AI | business:arXiv | tools:MatinSenPaii | tools:عصر نوین | AminiYT | tools:Product Hunt | tools:KDnuggets
+QUEUE_SKIPPED 65
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | Quoting Scott Aaronson
+  QUEUE_SKIP source_weekly | TechCrunch | S&P considers Nvidia credit downgrade over governance and ‘key man’ risks
+  QUEUE_SKIP source_weekly | TechCrunch | FCC approves SpaceX plan to put AI data centers in space
+  QUEUE_SKIP source_weekly | The Decoder | US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs
+  QUEUE_SKIP source_weekly | The Decoder | Anthropic CEO Dario Amodei says letting AI govern society would be "a bad idea"
+  QUEUE_SKIP source_weekly | TechCrunch | Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it
+  QUEUE_SKIP source_weekly | TechCrunch | Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’
+  QUEUE_SKIP source_daily | Hugging Face Blog | Where scientists draw the line on AI agents
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | datasette-charts 0.3a0
+  QUEUE_SKIP source_weekly | TechCrunch | Want to buy your kid an AI toy this Christmas? Not in New York
+  QUEUE_SKIP ... +55 more
+QUEUE_HELD 12
+  QUEUE_HOLD category_consecutive | arXiv | Attack Policy Selection can Mislead Monitor Evaluators
+  QUEUE_HOLD category_consecutive | arXiv | Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning
+  QUEUE_HOLD category_consecutive | arXiv | $μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents
+  QUEUE_HOLD category_consecutive | arXiv | Diverse Alternative Reasoning Traces for Hard Math Problems
+  QUEUE_HOLD category_consecutive | arXiv | Enhancing Maritime Domain Awareness using Latent Space Representations
+  QUEUE_HOLD category_consecutive | arXiv | Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits
+  QUEUE_HOLD category_consecutive | arXiv | How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches
+  QUEUE_HOLD category_consecutive | arXiv | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+  QUEUE_HOLD category_consecutive | arXiv | From Prediction to Decision: Decision-Focused Fine-Tuning of Autoregressive Tabular Transformers for Cost-Sensitive Financial Events
+  QUEUE_HOLD category_consecutive | Artificial Analysis Articles | Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1
+  QUEUE_HOLD ... +2 more
+ATTEMPT 1/6 | deferred 0/3 Ars Technica AI | What's going on with the Riemann hypothesis? | 11.4h
+  OFFER_SKIP offer_stale
+ATTEMPT 2/6 | deferred 0/3 arXiv | OmniAct: One Policy, One Million Embodiments | 24.5h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | محتوای ورودی درباره چارچوب همکاری arXivLabs است و به هوش مصنوعی مرتبط نیست.
+ATTEMPT 3/6 MatinSenPaii | تیم Anthropic با کمک خود کلاد، Messages API رو از پایتون به راست برد | 1.6h
+  TOOL_LINK candidate https://platform.claude.com/docs/en/build-with-claude/working-with-messages | score 23
+  MODEL DeepSeek-V4-Flash | image forbidden_alt
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  WRITER primary model=DeepSeek-V4-Flash
+  REVIEW_ITEM id=7397e232a9 message=260
+  REVIEW_REQUIRED reason=model_skip sent=260
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-26/11-30-69fbec99
+  MODEL_SKIP off_topic | این خبر درباره مهاجرت API به زبان Rust است و موضوع اصلی آن هوش مصنوعی نیست؛ فقط اشاره‌ای گذرا به استفاده از Claude در فر
+ATTEMPT 4/6 عصر نوین | AminiYT | یه پروژهٔ متن‌باز یه عالمه قابلیت پولی رو یهو رایگان کرد!🔥 | 2.3h
+  TOOL_LINK candidate https://github.com/jub0t/concat | score 100
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  TITLE_TRIM
+  BODY_TRIM
+  QUOTE_TRIM
+  TOOL_LINK applied https://github.com/jub0t/concat
+POST 1/2 status=sent category=tools | QA 43/43 | $0.000387 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/11-30
+ATTEMPT 5/6 Product Hunt | Remora | 13.6h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  FETCH_TEXT_FALLBACK 309 chars
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | ورودی فقط یک جمله تبلیغاتی کوتاه است و هیچ جزئیات، عدد یا منبع قابل راستی‌آزمایی ندارد.
+ATTEMPT 6/6 KDnuggets | Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents | 14h
+  TOOL_LINK candidate https://www.kdnuggets.com/5-ai-coding-platforms-to-build-apps-without-the-headache | score 16
+  MODEL DeepSeek-V4-Flash | image forbidden_url
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP promo | این محتوا معرفی یک ابزار خاص (Alaio Vibecode) است و جنبه تبلیغی و رپورتاژ دارد؛ خبر مستقلی درباره هوش مصنوعی نیست.
+RESULT SENT category=tools | offer=no | image=yes | QA 43/43 | cost $0.003581 | post $0.000387 | tokens 82984
+TITLE Concat؛ ادیتور ویدیوی رایگان و اوپن سورس با هوش مصنوعی
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-26/11-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST tools | sent | $0.000387 | Concat؛ ادیتور ویدیوی رایگان و اوپن سورس با هوش مصنوعی
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-26T08:05:36Z
+# گزارش روزانه 2026-11-26 (پنجشنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 3 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 3
+
+## آمار روز
+- پست ارسال‌شده: 3 از 11
+- ترکیب دسته‌ها: ابزارها و محصولات 2، مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 2
+- آموزش‌های بازبینی: 2 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 4
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: ابزارها و محصولات 2، مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.002746
+- توکن: 42869
+- میانگین هر پست ارسال‌شده: $0.000915
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 16 | 31 | 15 |
+| مدل‌ها و پژوهش | 13 | 24 | 11 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 7 | 11 | 4 |
+| مجموع | 42 | 77 | 35 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.001586 | 10601 | ای‌بی‌ام یک ایجنت صوتی چندزبانه برای کشاورزان هندی ساخت |
+| 08:30 #2 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000773 | 21664 | پنج پروژه ساخته‌شده با Gemini 4 Neon رونمایی شد |
+| 11:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000387 | 10604 | Concat؛ ادیتور ویدیوی رایگان و اوپن سورس با هوش مصنوعی |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 7
+- دلایل: از رصد آفر پیدا شد 2، لینک قابل استفاده ندارد 2، لینک خارجی این پست پذیرفته نشد 2، مدل این مورد را رد کرد 1
+- آموزش‌های بازبینی امروز: 2 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 50
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-26.md
+SOURCE_STATUS 2026-11-26T08:05:36Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-26.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — پنجشنبه ۵ آذر ۱۴۰۵
+پست امروز: 3 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 3
+صف بازبینی: 244 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 50
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45779597633
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
