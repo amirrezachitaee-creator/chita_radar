@@ -14012,6 +14012,10 @@
     },
     "900b3ba8fd": {
       "id": "900b3ba8fd",
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-27T13:31:08.322Z",
+      "updatedAt": "2026-11-27T13:31:08.322Z",
       "messageId": 296,
       "chatId": "-1003917550874",
       "slot": "2026-11-27T17:00+03:30",
@@ -14050,10 +14054,6 @@
       "noteBy": "",
       "noteRewriteUsed": false,
       "previousMessageIds": [],
-      "status": "pending",
-      "rewrites": 0,
-      "createdAt": "2026-11-27T13:31:08.322Z",
-      "updatedAt": "2026-11-27T13:31:08.322Z",
       "lastActionAt": "",
       "sentAt": ""
     }
