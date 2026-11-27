@@ -1,0 +1,182 @@
+RUN 45943218124 | send/main | slot auto | 2026-11-27T05:01:04Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-27T08:30+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 17/31 | models 15/24 | security 6/11 | business 8/11
+DAILY 0/11
+DIVERSITY_TARGET models | slot 08:30
+DEFERRED_POOL 46
+  DEFERRED source_weekly | try 0/3 | Nvidia hits pause on chip shipments to Southeast Asia
+  DEFERRED source_weekly | try 0/3 | Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it
+  DEFERRED source_weekly | try 0/3 | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  DEFERRED source_weekly | try 0/3 | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  DEFERRED source_weekly | try 0/3 | Quoting Jack Despain Zhou
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 38h | Diverse Alternative Reasoning Traces for Hard Math Problems
+  DEFERRED_BENCHMARK category_consecutive | expires 38h | How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches
+  DEFERRED_BENCHMARK category_consecutive | expires 37h | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+  CHANGE perq new_lines=400
+  OFFER perq status=review reason=source_not_official expiry=2026-11-30
+  CHANGE ai-free new_lines=391
+  OFFER ai-free status=seen reason=already_reported
+  CHANGE free-llm-api-hub new_lines=25
+  OFFER free-llm-api-hub status=review reason=source_not_official expiry=2026-11-30
+  CHANGE free-inference new_lines=126
+  OFFER free-inference status=review reason=source_not_official
+  WATCH google-ai-studio unchanged
+  CHANGE openrouter new_lines=92
+  WATCH cloudflare-workers-ai unchanged
+  CHANGE zai new_lines=187
+  CHANGE deepgram new_lines=147
+  OFFER deepgram status=seen reason=already_reported
+  WATCH jina-ai unchanged
+  CHANGE huggingface new_lines=105
+  CHANGE nvidia-build new_lines=36
+  OFFER nvidia-build status=seen reason=already_reported
+  CHANGE qoder new_lines=137
+  OFFER qoder status=seen reason=already_reported
+  WATCH cline unchanged
+  WATCH elevenlabs unchanged
+  CHANGE ollama new_lines=10
+OFFER_WATCH targets=16 fetched=16 failed=0 changed=11 baseline=0 offers=0 reviews=3
+  REVIEW_ITEM id=dcc8ed9c91 message=276
+  REVIEW_REQUIRED reason=offer_watch sent=276
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/08-30-e63417ff
+  REVIEW_ITEM id=a14ffc6359 message=277
+  REVIEW_REQUIRED reason=offer_watch sent=277
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/08-30-4513434d
+  REVIEW_ITEM id=e88764318c message=278
+  REVIEW_REQUIRED reason=offer_watch sent=278
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/08-30-7aeedfd6
+SOURCE_DISCOVERY candidates=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=159 nodate=0 nonai=0 dup=27 dup_other=0 kept=70 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=315 pending=18 leads=2 nolink=1 nonai=0 denied=1 promo=0 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:821,review:17 delivered=838 window=30d
+REVIEW_LEADS 3 separate_from_main=yes cap=none
+REVIEW_DRAFT MatinSenPaii | واقعا میشه با هوش مصنوعی از یوتوب درآمد داشت؟ | 666 chars
+  retry in 5s (status 429 {"detail":{"error":{"message":"Model 'DeepSeek-V4-Flash' is at capacity; you can)
+  REVIEW_ITEM id=1657b7768b message=279
+  REVIEW_REQUIRED reason=denied_link sent=279
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/08-30-77f0b519
+  REVIEW_ITEM id=2ff0e0920d message=280
+  REVIEW_REQUIRED reason=denied_link sent=280
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/08-30-a1e204c7
+REVIEW_DRAFT Hugging Face Daily Papers | DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding | 1219 chars
+  REVIEW_DRAFT_QA FAIL category_fresh | $0.000296
+  REVIEW_ITEM id=1b25308bcd message=281
+  REVIEW_REQUIRED reason=research_paper sent=281
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/08-30-d7cff3c2
+RELEVANCE candidates=67 kept=41 dropped=26
+  SKIP_NOT_AI TechCrunch | Is Alice Huang a spy or not?
+  SKIP_NOT_AI TechCrunch | Grand Theft Auto VI proves why efficiency isn’t a virtue
+  SKIP_NOT_AI The Record | Microsoft: China’s Salt Typhoon hackers are using Artex
+  SKIP_NOT_AI arXiv | Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation
+  SKIP_NOT_AI arXiv | RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies
+  SKIP_NOT_AI Product Hunt | NEXUS
+  SKIP_NOT_AI Product Hunt | Hub
+  SKIP_NOT_AI Crunchbase News | Startups Are Picking Names That Can Work Even If The Original Business Model Doesn’t
+  SKIP_NOT_AI ... +18 more
+DIVERSITY target=models queue=3 fresh=1 deferred=46 rejected=source_weekly:30
+  DIVERSITY_QUEUE models:Hugging Face Blog | models:arXiv | tools:Product Hunt
+QUEUE_SKIPPED 42
+  QUEUE_SKIP source_weekly | TechCrunch | Nvidia hits pause on chip shipments to Southeast Asia
+  QUEUE_SKIP source_weekly | The Decoder | Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it
+  QUEUE_SKIP source_weekly | TechCrunch | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  QUEUE_SKIP source_weekly | The Decoder | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | Quoting Jack Despain Zhou
+  QUEUE_SKIP source_weekly | The Decoder | FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040
+  QUEUE_SKIP source_weekly | The Decoder | Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks
+  QUEUE_SKIP source_weekly | The Decoder | Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | The New York Times warns photographers not to update Photoshop over AI features
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | Quoting Scott Aaronson
+  QUEUE_SKIP ... +32 more
+ATTEMPT 1/3 | deferred 0/3 Hugging Face Blog | Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon | 1.9h
+  TOOL_LINK candidate https://github.com/ggml-org/llama-install.sh | score 31
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  CATEGORY_FIX tools->models model_release
+  BODY_TRIM
+  QUOTE_TRIM
+  STYLE_WARNING why | one repair retry
+  REPAIR_QA PASS | score 42/43 | problems none | warnings why
+POST 1/2 status=sent category=models | QA 42/43 | $0.000810 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/08-30
+ATTEMPT 2/3 | deferred 0/3 arXiv | Diverse Alternative Reasoning Traces for Hard Math Problems | 13.1h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | متن خبر فقط توضیح arXivLabs است و هیچ اطلاعاتی درباره بنچمارک Gamefeel یا امتیاز مدل‌ها ندارد.
+ATTEMPT 3/3 Product Hunt | Transept AI | 36.4h
+  FETCH_FAILED HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  FETCH_TEXT_FALLBACK 330 chars
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | ورودی فقط یک جمله تیزرگونه است و هیچ جزئیات، عدد یا اطلاعات قابل ردیابی درباره ابزار ندارد.
+RESULT SENT category=models | offer=no | image=yes | QA 42/43 | cost $0.003963 | post $0.000810 | tokens 60537
+TITLE داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/08-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST models | sent | $0.000810 | داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-27T05:04:26Z
+# گزارش روزانه 2026-11-27 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 1 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 1
+
+## آمار روز
+- پست ارسال‌شده: 1 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 0 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 0
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1
+
+## هزینه
+- هزینه مدل: $0.000810
+- توکن: 22132
+- میانگین هر پست ارسال‌شده: $0.000810
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 17 | 31 | 14 |
+| مدل‌ها و پژوهش | 16 | 24 | 8 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 47 | 77 | 30 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000810 | 22132 | داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 6
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 2، مقاله پژوهشی منتخب 1
+
+## صف تعویق
+- در انتظار: 45
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-27.md
+SOURCE_STATUS 2026-11-27T05:04:26Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-27.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — جمعه ۶ آذر ۱۴۰۵
+پست امروز: 1 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 1
+صف بازبینی: 262 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 45
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/45943218124
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

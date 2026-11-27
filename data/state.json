@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-26T20:26:05.327Z",
+  "updatedAt": "2026-11-27T05:03:40.397Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -18608,6 +18608,105 @@
       "slot": "2026-11-26T23:00+03:30",
       "title": "Ottante",
       "url": "https://www.producthunt.com/products/ottante"
+    },
+    "offerwatch:e02f27cc43dbbeeb": {
+      "at": "2026-11-27T05:01:09.316Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/"
+    },
+    "offerwatch:ef8f092cd79a57b4": {
+      "at": "2026-11-27T05:01:09.470Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md"
+    },
+    "offerwatch:73b28660db9390a0": {
+      "at": "2026-11-27T05:01:09.625Z",
+      "decision": "review",
+      "reason": "offer_watch",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/"
+    },
+    "url:77f0b51924b8b01a": {
+      "at": "2026-11-27T05:01:47.580Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "واقعا میشه با هوش مصنوعی از یوتوب درآمد داشت؟",
+      "url": "https://t.me/MatinSenPaii/5993"
+    },
+    "title:f0ce4dd5da1dcb12": {
+      "at": "2026-11-27T05:01:47.580Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "واقعا میشه با هوش مصنوعی از یوتوب درآمد داشت؟",
+      "url": "https://t.me/MatinSenPaii/5993"
+    },
+    "url:a1e204c757810ab5": {
+      "at": "2026-11-27T05:01:47.757Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "✅ مدل هوش مصنوعی GPT-6.2 Sol به چت‌های ChatGPT اضافه شد",
+      "url": "https://t.me/techiin_ir/20859"
+    },
+    "title:9b62a92b6fc23cd7": {
+      "at": "2026-11-27T05:01:47.757Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "✅ مدل هوش مصنوعی GPT-6.2 Sol به چت‌های ChatGPT اضافه شد",
+      "url": "https://t.me/techiin_ir/20859"
+    },
+    "url:d7cff3c2a286ca73": {
+      "at": "2026-11-27T05:02:20.619Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+      "url": "https://huggingface.co/papers/2611.34420"
+    },
+    "title:cad5041bfa39c060": {
+      "at": "2026-11-27T05:02:20.619Z",
+      "decision": "review",
+      "reason": "research_paper",
+      "category": "",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+      "url": "https://huggingface.co/papers/2611.34420"
+    },
+    "url:a734da9d3a1d8760": {
+      "at": "2026-11-27T05:03:40.393Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "benchmark": false
+    },
+    "title:75cea89d15b3ea51": {
+      "at": "2026-11-27T05:03:40.393Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-27T08:30+03:30",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -19899,147 +19998,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:89a905d5eae9fa3e": {
-      "id": "defer:url:89a905d5eae9fa3e",
-      "at": "2026-11-26T10:32:21.002Z",
-      "firstAt": "2026-11-26T10:32:21.002Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:89a905d5eae9fa3e",
-        "title:9e9ee9335fc7b859"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/ifood",
-      "title": "How iFood scales coding agents across 15,000 repositories",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "How iFood scales coding agents across 15,000 repositories",
-        "link": "https://openai.com/business/customer-stories/ifood",
-        "canonical": "https://openai.com/business/customer-stories/ifood",
-        "published": "Tue, 24 Nov 2026 00:00:00 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/ifood",
-        "images": [],
-        "ageHours": 58.5,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:89a905d5eae9fa3e",
-          "title:9e9ee9335fc7b859"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:7e14b56be6744308": {
-      "id": "defer:url:7e14b56be6744308",
-      "at": "2026-11-26T10:32:21.002Z",
-      "firstAt": "2026-11-26T10:32:21.002Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:7e14b56be6744308",
-        "title:51cc66f43581801f"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/intentful-dots",
-      "title": "How Intentful uses dots to make more time for growth",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "How Intentful uses dots to make more time for growth",
-        "link": "https://openai.com/business/customer-stories/intentful-dots",
-        "canonical": "https://openai.com/business/customer-stories/intentful-dots",
-        "published": "Tue, 24 Nov 2026 00:00:00 GMT",
-        "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/intentful-dots",
-        "images": [],
-        "ageHours": 58.5,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:7e14b56be6744308",
-          "title:51cc66f43581801f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a734da9d3a1d8760": {
-      "id": "defer:url:a734da9d3a1d8760",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:a734da9d3a1d8760",
-        "title:75cea89d15b3ea51"
-      ],
-      "canonical": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-        "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-        "canonical": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-        "published": "Thu, 26 Nov 2026 11:37:17 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-        "images": [],
-        "ageHours": 1.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": true,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a734da9d3a1d8760",
-          "title:75cea89d15b3ea51"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:3f9ab1df906b7868": {
       "id": "defer:url:3f9ab1df906b7868",
       "at": "2026-11-26T13:31:13.620Z",
@@ -20382,105 +20340,6 @@
         "keys": [
           "url:44bd775b8ffe162a",
           "title:827bff1206a5a4d3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:a3c9028eefd69cfd": {
-      "id": "defer:url:a3c9028eefd69cfd",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:a3c9028eefd69cfd",
-        "title:1111b8ff58ac7240"
-      ],
-      "canonical": "https://openai.com/business/customer-stories/clay-plugins-openai",
-      "title": "Clay helps sales teams win with Codex and ChatGPT",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "Clay helps sales teams win with Codex and ChatGPT",
-        "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
-        "canonical": "https://openai.com/business/customer-stories/clay-plugins-openai",
-        "published": "Tue, 24 Nov 2026 00:00:00 GMT",
-        "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/business/customer-stories/clay-plugins-openai",
-        "images": [],
-        "ageHours": 61.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:a3c9028eefd69cfd",
-          "title:1111b8ff58ac7240"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:bf2b853553a4f501": {
-      "id": "defer:url:bf2b853553a4f501",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:bf2b853553a4f501",
-        "title:5602c56c4cbca286"
-      ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
-      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-        "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
-        "published": "Mon, 23 Nov 2026 21:30:44 +0000",
-        "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-500x500.jpg"
-        ],
-        "ageHours": 64,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:bf2b853553a4f501",
-          "title:5602c56c4cbca286"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -25043,6 +24902,37 @@
       "cost": 0.0016618224,
       "tokens": 28423,
       "posts": []
+    },
+    "2026-11-27T08:30+03:30": {
+      "at": "2026-11-27T05:03:40.393Z",
+      "status": "sent",
+      "category": "models",
+      "title": "داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/08-30",
+      "messageId": 171,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0024624039999999996,
+      "tokens": 41596,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 171,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/08-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0008102528000000001,
+          "tokens": 22132,
+          "qa": "42/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-27T05:03:40.392Z"
+        }
+      ]
     }
   },
   "published": [
@@ -27751,132 +27641,114 @@
       "sourceTitle": "Can language models drive a humanoid robot? Introducing AA-Robotics-Sim v0.1",
       "sourceText": "AA-Robotics-Sim v0.1 gives frontier language models control of a simulated Unitree G1 humanoid robot across ten household and industrial tasks. Today’s research preview of our simulation benchmark follows last month’s preview of AA-Robotics v0.1, our work with physical robot arms in our lab. In AA-Robotics-Sim v0.1, each model practices five episodes per task, keeps only the notes and code it wrote, and is then scored on ten new evaluation scenes with different rooms, lighting and task details.\nFrontier language models can now write and run code well enough to act in the physical world. AA-Robotics v0.1 was our first step, with models controlling a robot arm. AA-Robotics-Sim v0.1 evaluates frontier language models on their ability to control a simulated humanoid robot, which has to walk, look around, and use two dexterous hands at once.\nAA-Robotics-Sim v0.1 is our research preview of the simplest experiment we have designed to test this: language models in coding agent harnesses directly controlling a humanoid. Each model is given control of a simulated Unitree G1, with 29 joints, three-fingered hands and a head camera, and a simple objective for each task. It is the next step in our work measuring AI agents in simulated robotics, and we plan to expand from here.\nFor each task, the model is first given five practice episodes back to back, each in a new scene, to learn the environment and take notes. Only the files it writes (memory, notes, code and skills) are kept. Using these, the model is then evaluated on ten new scenes, each with a different room, lighting, layout and ",
       "at": "2026-11-26T17:04:37.723Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-27T08:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد",
+      "why": "با این ابزار، توسعه‌دهنده‌های AMD می‌تونن قبل از انتخاب مدل یا بیلد، عملکرد واقعی رو روی سخت‌افزار خودشون ببینن و بهترین ترکیب رو پیدا کنن.",
+      "dedupe_key": "llamacpp-amd-benchmark-dashboard",
+      "post_key": "2026-11-27/08-30/1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official_blog",
+      "benchmark": false,
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "sourceTitle": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "sourceText": "The llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen and Radeon hardware.\nLocal inference performance changes as models, kernels, and builds evolve. We want those changes to be easy to inspect for any AMD developer: pick a hardware, a model and a build, compare quantizations, and follow performance over time. The benchmark workflow and underlying results are public, so you can also inspect how we benchmark inference performance.\nYou can choose Hardware , Model , and llama.cpp build in the Configuration sidebar. The current hardware choices are Radeon 8060S (gfx1151) and Radeon AI Pro R9700S (gfx1201).\nThe dashboard shows two separate tests, both measured in tokens per second:\nBoth tests start at context depth zero ( n_depth=0 ). PP512 measures processing 512 input tokens without generation; TG128 measures generating 128 tokens without a pre-existing context. The plotted value is the mean throughput ( avg_ts ). These are useful reference workloads, while the Context scaling tab lets you explore token generation throughput as the context grows.\nWe benchmark the prebuilt binaries distributed through llama-install.sh , the build and installation project behind llama.app . The public gfx1151 and gfx1201 workflows are scheduled weekly and run the standard benchmarks using the llama-bench tool with Flash Attention on and off, with 10 repetitions per configuration.\nThe model set evolves ",
+      "at": "2026-11-27T05:03:40.393Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
       "last_id": 8610,
       "last_at": "2026-11-26T18:03:37+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "pedramgholizadeh": {
-      "last_id": 819,
-      "last_at": "2026-11-26T12:43:47+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "last_id": 821,
+      "last_at": "2026-11-26T21:29:16+00:00",
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "ai_farshad": {
       "last_id": 6530,
       "last_at": "2026-11-26T19:39:53+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "Mohammad_zammani": {
       "last_id": 7285,
       "last_at": "2026-11-26T17:14:12+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "techiin_ir": {
-      "last_id": 20858,
-      "last_at": "2026-11-25T13:04:25+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "last_id": 20859,
+      "last_at": "2026-11-25T13:32:04+00:00",
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "mgh_mobin": {
       "last_id": 517,
       "last_at": "2026-11-26T14:41:35+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "web3nabu": {
       "last_id": 2193,
       "last_at": "2026-11-26T18:16:49+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "asrnovin_ir": {
       "last_id": 11552,
       "last_at": "2026-11-26T19:46:34+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "codecloude": {
       "last_id": 2625,
       "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "dunijet_ai": {
-      "last_id": 2632,
-      "last_at": "2026-11-26T20:22:23+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "last_id": 2633,
+      "last_at": "2026-11-26T20:39:20+00:00",
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "MatinSenPaii": {
-      "last_id": 5992,
-      "last_at": "2026-11-26T14:30:45+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "last_id": 5993,
+      "last_at": "2026-11-26T21:56:43+00:00",
+      "checked_at": "2026-11-27T05:01:04.429Z"
     },
     "thenimaonAI": {
       "last_id": 598,
       "last_at": "2026-11-26T16:20:10+00:00",
-      "checked_at": "2026-11-26T20:25:42.161Z"
+      "checked_at": "2026-11-27T05:01:04.429Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-13|offer-watch:ai-free|https://aifree.dev/free-api-credits",
-      "date": "2026-11-13",
-      "at": "2026-11-13T05:00:48.959Z",
-      "source": "offer-watch:ai-free",
-      "title": "Free API access falls into three groups.",
-      "url": "https://aifree.dev/free-api-credits",
-      "reason": "offer_watch",
-      "slot": "2026-11-13T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|offer-watch:perq|https://perq.sh/",
-      "date": "2026-11-13",
-      "at": "2026-11-13T05:00:48.959Z",
-      "source": "offer-watch:perq",
-      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
-      "url": "https://perq.sh/",
-      "reason": "offer_watch",
-      "slot": "2026-11-13T08:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-techiin|https://t.me/techiin_ir/20764",
-      "date": "2026-11-13",
-      "at": "2026-11-13T05:00:48.959Z",
-      "source": "tg-techiin",
-      "title": "✅ رونمایی آنتروپیک از مجموعه ابزارهای اداری کلاد برای کاربران غیرفنی",
-      "url": "https://t.me/techiin_ir/20764",
-      "reason": "denied_link",
-      "slot": "2026-11-13T08:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-13|hf-papers|https://huggingface.co/papers/2611.13028",
       "date": "2026-11-13",
@@ -31488,23 +31360,81 @@
       "slot": "2026-11-26T23:00+03:30",
       "kind": "tool",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|offer-watch:perq|https://perq.sh/",
+      "date": "2026-11-27",
+      "at": "2026-11-27T05:01:04.429Z",
+      "source": "offer-watch:perq",
+      "title": "GPU rental prices rose over the past month (B200 +20.5% on Ornn’s index , Oct 23). What the data shows, and the free GPU & inference credits to use → · Provider",
+      "url": "https://perq.sh/",
+      "reason": "offer_watch",
+      "slot": "2026-11-27T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|offer-watch:free-llm-api-hub|https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "date": "2026-11-27",
+      "at": "2026-11-27T05:01:04.429Z",
+      "source": "offer-watch:free-llm-api-hub",
+      "title": "# Free LLM APIs with no credit card required",
+      "url": "https://raw.githubusercontent.com/pacocartones/free-llm-api-hub/main/collections/no-credit-card.md",
+      "reason": "offer_watch",
+      "slot": "2026-11-27T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|offer-watch:free-inference|https://www.freeinference.dev/",
+      "date": "2026-11-27",
+      "at": "2026-11-27T05:01:04.429Z",
+      "source": "offer-watch:free-inference",
+      "title": "Free Inference You Can Build With",
+      "url": "https://www.freeinference.dev/",
+      "reason": "offer_watch",
+      "slot": "2026-11-27T08:30+03:30",
+      "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-matin-senpai|https://t.me/MatinSenPaii/5993",
+      "date": "2026-11-27",
+      "at": "2026-11-27T05:01:04.429Z",
+      "source": "tg-matin-senpai",
+      "title": "واقعا میشه با هوش مصنوعی از یوتوب درآمد داشت؟",
+      "url": "https://t.me/MatinSenPaii/5993",
+      "reason": "denied_link",
+      "slot": "2026-11-27T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-techiin|https://t.me/techiin_ir/20859",
+      "date": "2026-11-27",
+      "at": "2026-11-27T05:01:04.429Z",
+      "source": "tg-techiin",
+      "title": "✅ مدل هوش مصنوعی GPT-6.2 Sol به چت‌های ChatGPT اضافه شد",
+      "url": "https://t.me/techiin_ir/20859",
+      "reason": "denied_link",
+      "slot": "2026-11-27T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|hf-papers|https://huggingface.co/papers/2611.34420",
+      "date": "2026-11-27",
+      "at": "2026-11-27T05:01:04.429Z",
+      "source": "hf-papers",
+      "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+      "url": "https://huggingface.co/papers/2611.34420",
+      "reason": "research_paper",
+      "slot": "2026-11-27T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-asr-novin",
-      "title": "آموزش دریافت اشتراک 6 ماهه رایگان ChatGpt Pro همراه با Codex Security و api رایگان",
-      "url": "https://developers.openai.com/community/codex-for-oss",
-      "slot": "2026-11-13T08:30+03:30",
-      "at": "2026-11-13T05:00:48.959Z"
-    },
-    {
-      "source": "tg-asr-novin",
-      "title": "با جمینی ۴ هیدروژن آشنا شوید.",
-      "url": "https://t.me/aminiyt",
-      "slot": "2026-11-13T08:30+03:30",
-      "at": "2026-11-13T05:00:48.959Z"
-    },
     {
       "source": "machinelearningmastery",
       "title": "The Complete Guide to LLM Evaluation",
@@ -31858,10 +31788,10 @@
   ],
   "reviewPending": {},
   "offerWatch": {
-    "lastDate": "2026-11-26",
-    "at": "2026-11-26T05:00:59.782Z",
-    "found": 2,
-    "delivered": 2
+    "lastDate": "2026-11-27",
+    "at": "2026-11-27T05:01:04.429Z",
+    "found": 3,
+    "delivered": 3
   },
   "openOffers": {
     "blog.google": {
