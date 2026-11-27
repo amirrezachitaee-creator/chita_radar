@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T11:17:43.881Z",
+  "updatedAt": "2026-11-27T13:32:41.788Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19103,6 +19103,78 @@
       "title": "⬅️ ساخت ویدیوهای انیمیشنی و سه‌بعدی فقط با یک پرامپت؛ تجربه‌ای متفاوت با Luma Dream Machine",
       "url": "https://lumalabs.ai/dream-machine",
       "benchmark": false
+    },
+    "url:7d93e4d36ae3018c": {
+      "at": "2026-11-27T13:31:19.442Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "10 GitHub Repositories to Master AI Decision Models",
+      "url": "https://www.kdnuggets.com/10-github-repositories-to-master-ai-decision-models"
+    },
+    "title:56e74314af0956fe": {
+      "at": "2026-11-27T13:31:19.442Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "10 GitHub Repositories to Master AI Decision Models",
+      "url": "https://www.kdnuggets.com/10-github-repositories-to-master-ai-decision-models"
+    },
+    "url:66a63b987b88843b": {
+      "at": "2026-11-27T13:31:19.442Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "Building a Multi-Agent Verification Loop in Python with Small Open Models",
+      "url": "https://machinelearningmastery.com/building-a-multi-agent-verification-loop-in-python-with-small-open-models"
+    },
+    "title:2272c2df61af7b11": {
+      "at": "2026-11-27T13:31:19.442Z",
+      "decision": "education_lang_skip",
+      "reason": "not_persian",
+      "category": "",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "Building a Multi-Agent Verification Loop in Python with Small Open Models",
+      "url": "https://machinelearningmastery.com/building-a-multi-agent-verification-loop-in-python-with-small-open-models"
+    },
+    "url:dbef732d917951c7": {
+      "at": "2026-11-27T13:31:23.197Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "📌اخرین فرصت عضویت در کامیونیتی آموزشیه AI Lab و استفاده از تخفیف جمعه سیاه❗️",
+      "url": "https://t.me/thenimaonAI/613"
+    },
+    "title:bfd9d1c29ce688c7": {
+      "at": "2026-11-27T13:31:23.197Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "📌اخرین فرصت عضویت در کامیونیتی آموزشیه AI Lab و استفاده از تخفیف جمعه سیاه❗️",
+      "url": "https://t.me/thenimaonAI/613"
+    },
+    "url:92a9dea02f472d08": {
+      "at": "2026-11-27T13:32:41.785Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
+      "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26",
+      "benchmark": false
+    },
+    "title:8542503431367c58": {
+      "at": "2026-11-27T13:32:41.785Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-27T17:00+03:30",
+      "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
+      "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -20345,55 +20417,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:616293296550946f": {
-      "id": "defer:url:616293296550946f",
-      "at": "2026-11-26T08:03:21.733Z",
-      "firstAt": "2026-11-26T08:03:21.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:616293296550946f",
-        "title:e6ee73731af752d2"
-      ],
-      "canonical": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity",
-      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-      "candidate": {
-        "sourceId": "deepmind-blog",
-        "sourceName": "Google DeepMind Blog",
-        "sourceType": "official_blog",
-        "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-        "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
-        "canonical": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity",
-        "published": "Tue, 24 Nov 2026 13:07:53 +0000",
-        "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
-        "messageText": "",
-        "leadPostUrl": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
-        "images": [
-          "https://lh3.googleusercontent.com/CtAfS_JWygw2R9cuDNty3xd0S4WFRzVew1vtNDiPaN1ZOGa88hCwTiCLxtgCtpSFER2t3jFO-moRkPnQYPjXziNgMvKHVc0wkOkzBTdGRoOYL3Ld=w528-h297-n-nu-rw-lo"
-        ],
-        "ageHours": 42.9,
-        "aiHint": false,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:616293296550946f",
-          "title:e6ee73731af752d2"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:3f9ab1df906b7868": {
       "id": "defer:url:3f9ab1df906b7868",
       "at": "2026-11-26T13:31:13.620Z",
@@ -20644,58 +20667,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:44bd775b8ffe162a": {
-      "id": "defer:url:44bd775b8ffe162a",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:44bd775b8ffe162a",
-        "title:827bff1206a5a4d3"
-      ],
-      "canonical": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
-      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-        "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-        "canonical": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
-        "published": "Tue, 24 Nov 2026 12:30:05 +0000",
-        "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner-500x500.jpg"
-        ],
-        "ageHours": 49,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:44bd775b8ffe162a",
-          "title:827bff1206a5a4d3"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:e0d965bae52b9875": {
       "id": "defer:url:e0d965bae52b9875",
       "at": "2026-11-26T13:31:13.620Z",
@@ -20792,53 +20763,6 @@
         "keys": [
           "url:86a29c35a6741c4a",
           "title:18eaf7688446cc18"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:ac2f786b30f6d457": {
-      "id": "defer:url:ac2f786b30f6d457",
-      "at": "2026-11-26T14:37:21.250Z",
-      "firstAt": "2026-11-26T14:37:21.250Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:ac2f786b30f6d457",
-        "title:fa68629a63504c26"
-      ],
-      "canonical": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "candidate": {
-        "sourceId": "openai-news",
-        "sourceName": "OpenAI News",
-        "sourceType": "official_blog",
-        "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-        "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-        "canonical": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-        "published": "Tue, 24 Nov 2026 13:00:00 GMT",
-        "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-        "messageText": "",
-        "leadPostUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-        "images": [],
-        "ageHours": 49.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:ac2f786b30f6d457",
-          "title:fa68629a63504c26"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -21133,70 +21057,227 @@
         "leadKind": ""
       }
     },
-    "defer:url:92a9dea02f472d08": {
-      "id": "defer:url:92a9dea02f472d08",
-      "at": "2026-11-27T08:03:15.960Z",
-      "firstAt": "2026-11-27T08:03:15.960Z",
+    "defer:url:a124128f9b611472": {
+      "id": "defer:url:a124128f9b611472",
+      "at": "2026-11-27T13:31:23.211Z",
+      "firstAt": "2026-11-27T13:31:23.211Z",
       "attempts": 0,
       "reason": "category_consecutive",
       "reasons": [
         "category_consecutive"
       ],
       "keys": [
-        "url:92a9dea02f472d08",
-        "title:8542503431367c58"
+        "url:a124128f9b611472",
+        "title:8b982910f5109ba3"
       ],
-      "canonical": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26",
-      "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
+      "canonical": "https://github.com/google-gemini/gemini-api-cli",
+      "title": "🚨 خداحافظ آنتی‌گرَویتی!",
       "candidate": {
-        "sourceId": "tg-matin-senpai",
-        "sourceName": "MatinSenPaii",
+        "sourceId": "tg-asr-novin",
+        "sourceName": "عصر نوین | AminiYT",
         "sourceType": "telegram_channel",
-        "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
-        "link": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
-        "canonical": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26",
-        "messageText": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد\n\nبه گزارش رویترز، شرکت Z.AI قرار بود همین ماه مدل پرچم‌دار بعدی‌ش، GLM-5.5، رو بده بیرون ولی عقب افتاده. این مدل حدود ۳ تریلیون پارامتر داره و یکی از دلیل‌های عقب افتادنش اینه که جلوی دیستیل‌کردن رو سخت‌تر کردن(😂😂😂😂😂😂😂)؛ Distillation attack یعنی آموزش مدل با جواب‌های مدل‌های قوی‌تر(مثل کلاد)، شبیه کپی کردن از روی دست بقیه. قانون تازه آمریکا برای دسترسی به چیپ‌های انویدیا توی دیتاسنترهای خارجی هم می‌تونه عرضه‌ش رو به سه‌ماهه اول ۲۰۲۷ یا دیرتر بندازه.\n\nهمزمان دوشنبه همین هفته Z.AI مدل GLM-5.4 رو داده که ۷۵۰ میلیارد پارامتر داره و به ادعای خودشون عملکردش به مدل‌های ۲ تا ۳ تریلیون پارامتری می‌رسه. مون‌شات هم ممکنه Kimi K4 رو تا حدود وسط ۲۰۲۷ عقب بندازه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤57😁33👍6🦄2",
-        "leadPostUrl": "https://t.me/MatinSenPaii/5996",
-        "published": "2026-11-27T05:12:50+00:00",
+        "title": "🚨 خداحافظ آنتی‌گرَویتی!",
+        "link": "https://github.com/google-gemini/gemini-api-cli",
+        "canonical": "https://github.com/google-gemini/gemini-api-cli",
+        "messageText": "🚨 خداحافظ آنتی‌گرَویتی!\n\nچه می‌شد اگر میتونستی جمینی را مستقیماً از کلود کد، کودکس یا آنتی‌گرَویتی، بدون عوض کردن ابزار، استفاده کنی؟\n\nخب، حالا این کار ممکن شده است.\n\nگوگل تازهٔ gemini-api-cli را منتشر کرده؛ ابزاری آزمایشی که عامل‌های هوش مصنوعی‌ات را از طریق ترمینال به مدل‌های جمینی وصل می‌کند.\n\nجالبش چیست؟\n\n→ تولید و ویرایش تصویر\n→ ساخت ویدئو، موسیقی و صدا\n→ تحلیل PDF، تصاویر و فایل‌ها\n→ رونویسی صدا و ویدئو\n→ اجرای عامل‌های جمینی در پس‌زمینه\n→ استفاده از مدل‌های مختلف جمینی از طریق عامل موردعلاقه‌ات\n\nهمهٔ این‌ها از یک رابط خط فرمان واحد که با Go نوشته شده است.\n\nبدون عوض کردن محیط. بدون قطع کردن روند کار.\n\nاین پست را ذخیره کن تا از دستش ندهی🔖\n\n❤11",
+        "leadPostUrl": "https://t.me/asrnovin_ir/11555",
+        "published": "2026-11-27T12:55:00+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.6,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/google-gemini/gemini-api-cli"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models",
+          "security"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:a124128f9b611472",
+          "title:8b982910f5109ba3"
+        ],
+        "leadSource": "asrnovin_ir",
+        "leadMessageId": 11555,
+        "leadChannelUrl": "https://t.me/asrnovin_ir",
+        "sourceFocus": "news",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:f7bf65f36b51bdd3": {
+      "id": "defer:url:f7bf65f36b51bdd3",
+      "at": "2026-11-27T13:31:23.211Z",
+      "firstAt": "2026-11-27T13:31:23.211Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:f7bf65f36b51bdd3",
+        "title:f8bb212cf155defd"
+      ],
+      "canonical": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
+      "title": "🔥جیلبریک Gemini 4 Neon هم اومد",
+      "candidate": {
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
+        "sourceType": "telegram_channel",
+        "title": "🔥جیلبریک Gemini 4 Neon هم اومد",
+        "link": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
+        "canonical": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
+        "messageText": "🔥جیلبریک Gemini 4 Neon هم اومد\n\nاول از لینک گیت هابی که براتون گذاشتم فایل .md رو دانلود کنید .\n\nتو ویندوز دکمه های Win+R و بزنین و %USERPROFILE%\\.gemini\\ و تایپ یا کپی کنین تا وارد فولدرش بشید و فایل و داخل فولدر بزارید و به gemini.md رینیم کنین .\n\nحالا آنتی گرویتی رو ری استارت کنین و تمام . ✅\n\nتوجه: احتمال مسدود شدن اکانت بسیار بالاست ❗️\n\n🔗GitHub\n\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤21",
+        "leadPostUrl": "https://t.me/ArchiveTell/8614",
+        "published": "2026-11-27T11:46:29+00:00",
         "summary": "",
         "images": [
-          "https://cdn1.telesco.pe/file/nDKdwUy_iVAlBAyhU9N4AuhvECl0e5FPSAFzjbKh_C3E0OFxdJGiye-cxYQiOOyfS2nr228LWxnmCV4-QRjaA77A3CUk8ElvcGUh1uH8dMhQf0UXhO_0m9vO7FnkpNdnC_-0HjZMicZhJpF0jsYENYMDPNBNVT8yL0zkvUl034b6odjCTUZ6ui0XI7vXq9f_Z4qrgeKvwV7gXDadBqDpuFQAJ7E5aZMZnh_JBC0BmVgdBT5ju1qvfNVU8K6jkHLo3klABHerNUvX74dZa5G-0rGHvW40tqAOyVK1zDfFlLCD_zlHbBJw5SqycyY6fxIY7i_C1uvMvkUlJpmRaUyUkg.jpg"
+          "https://cdn4.telesco.pe/file/M6vX9A7Z_aX-QUrzmNattoVFYSw5wz-J4f87TgVYfxy18m9gFQMdk7rc0dO_n4sxmXR1o52CYTggm0bg6M-bNioXfzVRsZGMJoOYvvcH1cBEOfUtnIkEtwL7u4fLi-Qcfg-hrBOXu4D1XF3nwoUip9c1PhNrXwBY78GYISa1aYI6o0hlaqyKZquxdlk11YmFp0Q7vPbNq2PtZnC0Dq3McQxRj9t_lZNGcgJzjtmxivX85QMxg9vZDQOja4WMGGWjYguBNlmpKOMAByrGuO58ojpPs-I_wpDKOAax3WcnIUl8vHpBZ4YS6aOu1XrJuuJkcwbZsH_Y-FVPIG8asQ30PQ.jpg"
         ],
         "ocr": false,
         "ocrDiscovery": false,
-        "ageHours": 2.8,
+        "ageHours": 1.7,
         "aiHint": true,
         "aiCentral": true,
         "titleAi": true,
         "rumorHint": false,
         "relatedLinks": [
-          "http://z.ai/",
-          "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26"
+          "http://gemini.md/",
+          "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md"
         ],
         "offerHint": false,
-        "toolHint": false,
+        "toolHint": true,
         "benchmark": false,
         "modelRelease": false,
         "sourceCategories": [
           "tools",
           "models"
         ],
-        "categoryHint": "models",
+        "categoryHint": "tools",
         "referral": false,
         "needsReview": false,
         "reviewReason": "",
         "keys": [
-          "url:92a9dea02f472d08",
-          "title:8542503431367c58"
+          "url:f7bf65f36b51bdd3",
+          "title:f8bb212cf155defd"
         ],
-        "leadSource": "MatinSenPaii",
-        "leadMessageId": 5996,
-        "leadChannelUrl": "https://t.me/MatinSenPaii",
-        "sourceFocus": "education",
-        "leadKind": "news",
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8614,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "tool_lead",
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
+      }
+    },
+    "defer:url:e2a1983bb54421b2": {
+      "id": "defer:url:e2a1983bb54421b2",
+      "at": "2026-11-27T13:31:23.211Z",
+      "firstAt": "2026-11-27T13:31:23.211Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:e2a1983bb54421b2",
+        "title:30f601cb972d6922"
+      ],
+      "canonical": "https://www.producthunt.com/products/ploid",
+      "title": "Ploid",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Ploid",
+        "link": "https://www.producthunt.com/products/ploid",
+        "canonical": "https://www.producthunt.com/products/ploid",
+        "published": "2026-11-26T13:06:26-08:00",
+        "summary": "<p> People search for AI agents, across 2B+ profiles </p> <p> <a href=\"https://www.producthunt.com/products/ploid?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1332536?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/ploid",
+        "images": [],
+        "ageHours": 16.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:e2a1983bb54421b2",
+          "title:30f601cb972d6922"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:c2bd7953104652e4": {
+      "id": "defer:url:c2bd7953104652e4",
+      "at": "2026-11-27T13:31:23.211Z",
+      "firstAt": "2026-11-27T13:31:23.211Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:c2bd7953104652e4",
+        "title:fa3c7b3553a12871"
+      ],
+      "canonical": "https://huggingface.co/blog/video-trainium3",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "candidate": {
+        "sourceId": "huggingface-blog",
+        "sourceName": "Hugging Face Blog",
+        "sourceType": "official_blog",
+        "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+        "link": "https://huggingface.co/blog/video-trainium3",
+        "canonical": "https://huggingface.co/blog/video-trainium3",
+        "published": "Fri, 27 Nov 2026 00:00:00 GMT",
+        "summary": "",
+        "messageText": "",
+        "leadPostUrl": "https://huggingface.co/blog/video-trainium3",
+        "images": [],
+        "ageHours": 13.5,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:c2bd7953104652e4",
+          "title:fa3c7b3553a12871"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
       }
     }
   },
@@ -25290,6 +25371,37 @@
           "at": "2026-11-27T10:32:45.844Z"
         }
       ]
+    },
+    "2026-11-27T17:00+03:30": {
+      "at": "2026-11-27T13:32:41.785Z",
+      "status": "sent",
+      "category": "models",
+      "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/17-00",
+      "messageId": 173,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0019608848,
+      "tokens": 21570,
+      "qa": "41/43",
+      "posts": [
+        {
+          "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 173,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0019608848,
+          "tokens": 21570,
+          "qa": "41/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-27T13:32:41.785Z"
+        }
+      ]
     }
   },
   "published": [
@@ -28034,120 +28146,114 @@
       "sourceTitle": "Creative agents for creative professionals | Luma",
       "sourceText": "⬅️ ساخت ویدیوهای انیمیشنی و سه‌بعدی فقط با یک پرامپت؛ تجربه‌ای متفاوت با Luma Dream Machine\n\n🟡 چالش: تولید انیمیشن‌های حرفه‌ای، حرکات طبیعی و ویدیوهای سینمایی معمولاً به نرم‌افزارهای پیچیده، تجهیزات تخصصی و مهارت بالای طراحی سه‌بعدی نیاز دارد.\n\n🟠 راه‌حل: ابزار هوش مصنوعی Luma Dream Machine این امکان را فراهم می‌کند تا تنها با وارد کردن یک متن یا آپلود تصویر، ویدیوهایی متحرک با جزئیات چشم‌نواز، حرکات روان و حرکت دوربین سینمایی خلق کنید.\n\n🟡بدون نیاز به دانش تخصصی انیمیشن‌سازی، ایده‌هایتان را به ویدیوهای جذاب تبدیل کنید!\n\n🔗 ورود به ابزار:\n\nهمراه ما باشید. 🙏🏻\n\n@ai_farshad\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤5👍3😁2",
       "at": "2026-11-27T10:32:45.845Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-27T17:00+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاد",
+      "why": "تأخیر در عرضه مدل پرچم‌دار، رقابت Z.AI با غول‌های چینی و آمریکایی رو در بازار مدل‌های بزرگ سخت‌تر می‌کنه.",
+      "dedupe_key": "zai-glm55-delay",
+      "post_key": "2026-11-27/17-00/1",
+      "sourceId": "tg-matin-senpai",
+      "sourceName": "MatinSenPaii",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+      "sourceTitle": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
+      "sourceText": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد\n\nبه گزارش رویترز، شرکت Z.AI قرار بود همین ماه مدل پرچم‌دار بعدی‌ش، GLM-5.5، رو بده بیرون ولی عقب افتاده. این مدل حدود ۳ تریلیون پارامتر داره و یکی از دلیل‌های عقب افتادنش اینه که جلوی دیستیل‌کردن رو سخت‌تر کردن(😂😂😂😂😂😂😂)؛ Distillation attack یعنی آموزش مدل با جواب‌های مدل‌های قوی‌تر(مثل کلاد)، شبیه کپی کردن از روی دست بقیه. قانون تازه آمریکا برای دسترسی به چیپ‌های انویدیا توی دیتاسنترهای خارجی هم می‌تونه عرضه‌ش رو به سه‌ماهه اول ۲۰۲۷ یا دیرتر بندازه.\n\nهمزمان دوشنبه همین هفته Z.AI مدل GLM-5.4 رو داده که ۷۵۰ میلیارد پارامتر داره و به ادعای خودشون عملکردش به مدل‌های ۲ تا ۳ تریلیون پارامتری می‌رسه. مون‌شات هم ممکنه Kimi K4 رو تا حدود وسط ۲۰۲۷ عقب بندازه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤57😁33👍6🦄2",
+      "at": "2026-11-27T13:32:41.785Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8613,
-      "last_at": "2026-11-27T10:02:32+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "last_id": 8614,
+      "last_at": "2026-11-27T11:46:29+00:00",
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "pedramgholizadeh": {
       "last_id": 821,
       "last_at": "2026-11-26T21:29:16+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "ai_farshad": {
       "last_id": 6531,
       "last_at": "2026-11-27T10:08:24+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "Mohammad_zammani": {
       "last_id": 7289,
       "last_at": "2026-11-27T09:42:39+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "techiin_ir": {
-      "last_id": 20862,
-      "last_at": "2026-11-25T15:02:49+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "last_id": 20863,
+      "last_at": "2026-11-25T16:36:58+00:00",
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "mgh_mobin": {
       "last_id": 519,
       "last_at": "2026-11-27T10:16:56+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "web3nabu": {
       "last_id": 2193,
       "last_at": "2026-11-26T18:16:49+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "asrnovin_ir": {
-      "last_id": 11553,
-      "last_at": "2026-11-27T07:58:56+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "last_id": 11556,
+      "last_at": "2026-11-27T13:20:04+00:00",
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "codecloude": {
       "last_id": 2626,
       "last_at": "2026-11-27T08:18:16+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "dunijet_ai": {
-      "last_id": 2635,
-      "last_at": "2026-11-27T05:12:40+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "last_id": 2636,
+      "last_at": "2026-11-27T12:31:19+00:00",
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "MatinSenPaii": {
       "last_id": 5996,
       "last_at": "2026-11-27T05:12:50+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "checked_at": "2026-11-27T13:31:08.322Z"
     },
     "thenimaonAI": {
-      "last_id": 608,
-      "last_at": "2026-11-27T10:22:18+00:00",
-      "checked_at": "2026-11-27T10:30:53.337Z"
+      "last_id": 613,
+      "last_at": "2026-11-27T12:53:24+00:00",
+      "checked_at": "2026-11-27T13:31:08.322Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-13|tg-asr-novin|https://t.me/asrnovin_ir/11456",
-      "date": "2026-11-13",
-      "at": "2026-11-13T13:30:58.414Z",
-      "source": "tg-asr-novin",
-      "title": "🔴هوش مصنوعی تا ۱۰ سال آینده سرطان و آلزایمر رو ریشه‌کن می‌کنه؟!",
-      "url": "https://t.me/asrnovin_ir/11456",
-      "reason": "denied_link",
-      "slot": "2026-11-13T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-ai-farshad|https://claude.com/resources/articles/claude-meetings",
-      "date": "2026-11-13",
-      "at": "2026-11-13T13:30:58.414Z",
-      "source": "tg-ai-farshad",
-      "title": "Introducing Claude Meetings, now in beta",
-      "url": "https://claude.com/resources/articles/claude-meetings",
-      "reason": "tool_incomplete",
-      "slot": "2026-11-13T17:00+03:30",
-      "kind": "tool",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/169",
       "date": "2026-11-13",
@@ -31843,16 +31949,21 @@
       "slot": "2026-11-27T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-thenima|https://t.me/thenimaonAI/613",
+      "date": "2026-11-27",
+      "at": "2026-11-27T13:31:08.322Z",
+      "source": "tg-thenima",
+      "title": "📌اخرین فرصت عضویت در کامیونیتی آموزشیه AI Lab و استفاده از تخفیف جمعه سیاه❗️",
+      "url": "https://t.me/thenimaonAI/613",
+      "reason": "denied_link",
+      "slot": "2026-11-27T17:00+03:30",
+      "kind": "offer",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "machinelearningmastery",
-      "title": "The Complete Guide to LLM Evaluation",
-      "url": "https://machinelearningmastery.com/the-complete-guide-to-llm-evaluation",
-      "slot": "2026-11-13T17:00+03:30",
-      "at": "2026-11-13T13:30:58.414Z"
-    },
     {
       "source": "tg-asr-novin",
       "title": "آموزش گرفتن اشتراک یکساله Google Ai Pro دانشجویی کاملا رایگان فقط با یک ربات تلگرامی",

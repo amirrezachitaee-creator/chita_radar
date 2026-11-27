@@ -1,0 +1,145 @@
+RUN 46007710281 | send/main | slot auto | 2026-11-27T13:31:08Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-27T17:00+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 18/31 | models 16/24 | security 6/11 | business 8/11
+DAILY 2/11
+DIVERSITY_TARGET models | slot 17:00
+DEFERRED_POOL 40
+  DEFERRED category_consecutive | try 0/3 | مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد
+  DEFERRED source_weekly | try 0/3 | Nvidia hits pause on chip shipments to Southeast Asia
+  DEFERRED source_weekly | try 0/3 | Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it
+  DEFERRED source_weekly | try 0/3 | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  DEFERRED source_weekly | try 0/3 | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 29h | Diverse Alternative Reasoning Traces for Hard Math Problems
+  DEFERRED_BENCHMARK category_consecutive | expires 29h | How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches
+  DEFERRED_BENCHMARK category_consecutive | expires 29h | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+SOURCE_DISCOVERY already_ran date=2026-11-27 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=218 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=170 nodate=0 nonai=0 dup=27 dup_other=0 kept=66 errors=1
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=315 pending=17 leads=3 nolink=0 nonai=0 denied=1 promo=0 stale=0 before=0 dup=1 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:842,review:17 delivered=859 window=30d
+  EDU_LANG_SKIP KDnuggets | persian=0 latin=166 | 10 GitHub Repositories to Master AI Decision Models
+  EDU_LANG_SKIP Machine Learning Mastery | persian=0 latin=181 | Building a Multi-Agent Verification Loop in Python with Small Open Models
+TELEGRAM_EDU_LANG_SKIPPED 2 skipped=not_persian min_persian=10
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+  REVIEW_ITEM id=900b3ba8fd message=296
+  REVIEW_REQUIRED reason=denied_link sent=296
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/17-00-dbef732d
+RELEVANCE candidates=63 kept=37 dropped=26
+  SKIP_NOT_AI TechCrunch | Is Alice Huang a spy or not?
+  SKIP_NOT_AI TechCrunch | Grand Theft Auto VI proves why efficiency isn’t a virtue
+  SKIP_NOT_AI Product Hunt | slay
+  SKIP_NOT_AI The Record | Microsoft: China’s Salt Typhoon hackers are using Artex
+  SKIP_NOT_AI arXiv | Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation
+  SKIP_NOT_AI arXiv | RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies
+  SKIP_NOT_AI Product Hunt | Wizstar R1
+  SKIP_NOT_AI Product Hunt | gpyou
+  SKIP_NOT_AI ... +18 more
+DIVERSITY target=models queue=2 fresh=4 deferred=40 rejected=source_daily:4,source_weekly:28,category_consecutive:3
+  DIVERSITY_QUEUE models:MatinSenPaii | models:arXiv
+QUEUE_SKIPPED 42
+  QUEUE_SKIP source_weekly | TechCrunch | Nvidia hits pause on chip shipments to Southeast Asia
+  QUEUE_SKIP source_weekly | The Decoder | Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it
+  QUEUE_SKIP source_weekly | TechCrunch | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  QUEUE_SKIP source_weekly | The Decoder | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | Quoting Jack Despain Zhou
+  QUEUE_SKIP source_weekly | The Decoder | FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040
+  QUEUE_SKIP source_weekly | The Decoder | Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks
+  QUEUE_SKIP source_weekly | The Decoder | Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | The New York Times warns photographers not to update Photoshop over AI features
+  QUEUE_SKIP source_daily | Hugging Face Blog | Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference
+  QUEUE_SKIP ... +32 more
+QUEUE_HELD 4
+  QUEUE_HOLD category_consecutive | عصر نوین | AminiYT | 🚨 خداحافظ آنتی‌گرَویتی!
+  QUEUE_HOLD category_consecutive | ArchiveTell | 🔥جیلبریک Gemini 4 Neon هم اومد
+  QUEUE_HOLD category_consecutive | Product Hunt | Ploid
+  QUEUE_HOLD source_daily | Hugging Face Blog | Taking Trainium3 to the Track: Generating Videos with LTX-2.5
+ATTEMPT 1/2 | deferred 0/3 MatinSenPaii | مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد | 2.8h
+  FETCH_FAILED HTTP 401 <html lang="en"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0
+  FETCH_TEXT_FALLBACK 824 chars
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image telegram_media
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  QUOTE_TRIM
+  STYLE_WARNING why,grounding_cues | one repair retry
+  REPAIR_QA PASS | score 41/43 | problems none | warnings why,grounding_cues
+POST 1/2 status=sent category=models | QA 41/43 | $0.001961 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/17-00
+ATTEMPT 2/2 | deferred 0/3 arXiv | Diverse Alternative Reasoning Traces for Hard Math Problems | 13.1h
+  TOOL_LINK candidate none | source fallback
+  MODEL DeepSeek-V4-Flash | image not_https
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP thin | متن خبر فقط توضیح arXivLabs است و هیچ اطلاعاتی درباره بنچمارک Gamefeel، امتیازها یا مدل‌ها ندارد.
+RESULT SENT category=models | offer=no | image=no | QA 41/43 | cost $0.002141 | post $0.001961 | tokens 31228
+TITLE مدل GLM-5.5 شرکت Z.AI عقب افتاد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/17-00
+SLOT_POSTS 1/2 sent=1 review=0
+  POST models | sent | $0.001961 | مدل GLM-5.5 شرکت Z.AI عقب افتاد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-27T13:32:46Z
+# گزارش روزانه 2026-11-27 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 3 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 3، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 3 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 5
+- آموزش‌های بازبینی: 6 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 4
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.004951
+- توکن: 83765
+- میانگین هر پست ارسال‌شده: $0.001650
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 18 | 31 | 13 |
+| مدل‌ها و پژوهش | 17 | 24 | 7 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 49 | 77 | 28 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000810 | 22132 | داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد |
+| 11:30 |  | خالی | — | $0.001905 | 30184 |  |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000275 | 9879 | Luma Agent برای تیم‌های خلاق معرفی شد |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.001961 | 21570 | مدل GLM-5.5 شرکت Z.AI عقب افتاد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 15
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 10، مقاله پژوهشی منتخب 1، مدل این مورد را رد کرد 1
+- آموزش‌های بازبینی امروز: 6 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 43
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-27.md
+SOURCE_STATUS 2026-11-27T13:32:46Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-27.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — جمعه ۶ آذر ۱۴۰۵
+پست امروز: 3 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 3
+صف بازبینی: 271 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 43
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/46007710281
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

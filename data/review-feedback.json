@@ -14009,6 +14009,53 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "900b3ba8fd": {
+      "id": "900b3ba8fd",
+      "messageId": 296,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-27T17:00+03:30",
+      "reason": "denied_link",
+      "kind": "offer",
+      "source": "tg-thenima",
+      "sourceName": "Thenima.one",
+      "sourceType": "telegram_channel",
+      "title": "📌اخرین فرصت عضویت در کامیونیتی آموزشیه AI Lab و استفاده از تخفیف جمعه سیاه❗️",
+      "url": "https://t.me/thenimaonAI/613",
+      "leadPostUrl": "https://t.me/thenimaonAI/613",
+      "messageText": "📌اخرین فرصت عضویت در کامیونیتی آموزشیه AI Lab و استفاده از تخفیف جمعه سیاه❗️\n\nبرای دریافت اطلاعات کامیونیتی آموزشی AI Lab وارد اینک زیر بشن (با vpn وارد بشین)\n\nبرای عضویت به pv من پیام بدین:\n@thenimaone\n\n❕تخفیف تا پایان‌ امروز فعاله❕",
+      "relatedLinks": [
+        "https://ai-lab-black-friday-1405.shrewdgenet16384.chatgpt.site/"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/a_ntb-LcXzaFPQcNcIR9bDpTwra8Vrz0zJ0B7MbqlUPfcyJG8sS5c-SU8TSC9H_eJu-R0l1T9rN5sZbiU6XNYi4-FneBe-8k3YSO2Bjr1So1UXS57moaLNSgy7XqpQdJXzritNFE2F4G9PjHzvFfOTx54py0L-C8PghdzBdfXfzyqPjix_6cZ4_1h5zqfl_XYzltfaTStBv5ssDJ_isuL8wKwWbdlP7uq0AOXB4uOvov4FysAxFfECVopVinPU7x3v3EzBi328o3dKP6ZcjdPnfluJbPPZkAv8yGe96QrbDABAsDIM8KPGLzI2LADHGNEaCM_hvT3cjvanADpiyKWg.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-27T12:53:24+00:00",
+      "keys": [
+        "url:dbef732d917951c7",
+        "title:bfd9d1c29ce688c7"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": true,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-27T13:31:08.322Z",
+      "updatedAt": "2026-11-27T13:31:08.322Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [
