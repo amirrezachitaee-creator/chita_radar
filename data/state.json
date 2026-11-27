@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T05:50:26.857Z",
+  "updatedAt": "2026-11-27T08:05:15.583Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -18707,6 +18707,150 @@
       "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
       "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "benchmark": false
+    },
+    "url:3b9cb310736843b8": {
+      "at": "2026-11-27T08:01:22.085Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "AI Channels Are Getting Demonetized Again, Here’s How to Avoid It (2026)",
+      "url": "https://t.me/MatinSenPaii/5994"
+    },
+    "title:0a16bd7cab742710": {
+      "at": "2026-11-27T08:01:22.085Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "AI Channels Are Getting Demonetized Again, Here’s How to Avoid It (2026)",
+      "url": "https://t.me/MatinSenPaii/5994"
+    },
+    "url:51affce339b74bd3": {
+      "at": "2026-11-27T08:01:22.085Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "محقق سابق OpenAI می‌گه اصل ماجرا خودِ اثبات فرضیه ریمان نیست، بلکه اینه که یه سیستم",
+      "url": "http://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it"
+    },
+    "title:79529f5bef648bde": {
+      "at": "2026-11-27T08:01:22.085Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "محقق سابق OpenAI می‌گه اصل ماجرا خودِ اثبات فرضیه ریمان نیست، بلکه اینه که یه سیستم",
+      "url": "http://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it"
+    },
+    "url:a5d8990ce3c8948a": {
+      "at": "2026-11-27T08:02:47.588Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "یکی از زیباترین کارهایی که با AI ساخته شده و واقعا لذت بردم از دیدنش 👌🏻",
+      "url": "https://t.me/mgh_mobin/518"
+    },
+    "title:9dc1a36e4202e48f": {
+      "at": "2026-11-27T08:02:47.588Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "یکی از زیباترین کارهایی که با AI ساخته شده و واقعا لذت بردم از دیدنش 👌🏻",
+      "url": "https://t.me/mgh_mobin/518"
+    },
+    "url:ddd7404cfbb3db2e": {
+      "at": "2026-11-27T08:03:15.946Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "✅ وزیر ارتباطات از تأمین زیرساخت پردازشی (GPU) مورد نیاز شرکت‌ها توسط اپراتورهای هوش مصنوعی، بدون",
+      "url": "https://t.me/techiin_ir/20860"
+    },
+    "title:0e2e3f573252dc14": {
+      "at": "2026-11-27T08:03:15.946Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "✅ وزیر ارتباطات از تأمین زیرساخت پردازشی (GPU) مورد نیاز شرکت‌ها توسط اپراتورهای هوش مصنوعی، بدون",
+      "url": "https://t.me/techiin_ir/20860"
+    },
+    "url:2003104a69cc6845": {
+      "at": "2026-11-27T08:03:36.492Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+      "url": "https://arxiv.org/abs/2611.34868v1"
+    },
+    "title:b44549095d6cbd82": {
+      "at": "2026-11-27T08:03:36.492Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+      "url": "https://arxiv.org/abs/2611.34868v1"
+    },
+    "url:c4e1dfcc1d992c0c": {
+      "at": "2026-11-27T08:03:41.796Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
+      "url": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026"
+    },
+    "title:4d17f9b26d61e868": {
+      "at": "2026-11-27T08:03:41.796Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
+      "url": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026"
+    },
+    "url:d34c9d437172cf52": {
+      "at": "2026-11-27T08:04:50.967Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "دو روش برای دریافت Claude و GPT از طریق API به صورت رایگان 👾👾👾",
+      "url": "https://cantrustai.xyz/dashboard"
+    },
+    "title:c762cb2848a90638": {
+      "at": "2026-11-27T08:04:50.967Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "دو روش برای دریافت Claude و GPT از طریق API به صورت رایگان 👾👾👾",
+      "url": "https://cantrustai.xyz/dashboard"
+    },
+    "url:c424c2d2e717d705": {
+      "at": "2026-11-27T08:05:15.579Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "Contral",
+      "url": "https://www.producthunt.com/products/contral"
+    },
+    "title:f2eb735ab0c60913": {
+      "at": "2026-11-27T08:05:15.579Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "Contral",
+      "url": "https://www.producthunt.com/products/contral"
     }
   },
   "deferred": {
@@ -20098,52 +20242,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:2003104a69cc6845": {
-      "id": "defer:url:2003104a69cc6845",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:2003104a69cc6845",
-        "title:b44549095d6cbd82"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.34868v1",
-      "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
-        "link": "https://arxiv.org/abs/2611.34868v1",
-        "canonical": "https://arxiv.org/abs/2611.34868v1",
-        "published": "2026-11-25T18:33:07Z",
-        "summary": "Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.34868v1",
-        "images": [],
-        "ageHours": 19,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:2003104a69cc6845",
-          "title:b44549095d6cbd82"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:319f463cce75ff29": {
       "id": "defer:url:319f463cce75ff29",
       "at": "2026-11-26T13:31:13.620Z",
@@ -20734,55 +20832,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:c4e1dfcc1d992c0c": {
-      "id": "defer:url:c4e1dfcc1d992c0c",
-      "at": "2026-11-26T17:02:58.450Z",
-      "firstAt": "2026-11-26T17:02:58.450Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:c4e1dfcc1d992c0c",
-        "title:4d17f9b26d61e868"
-      ],
-      "canonical": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
-      "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
-        "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
-        "canonical": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
-        "published": "Wed, 25 Nov 2026 13:00:00 +0000",
-        "summary": "From cybersecurity foundations to defending machine learning systems, agentic pipelines, and large language model applications.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kdn-the-roadmap-to-becoming-an-ai-security-engineer-in-2026-feature.webp"
-        ],
-        "ageHours": 28,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:c4e1dfcc1d992c0c",
-          "title:4d17f9b26d61e868"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:33b3d08d99aeb285": {
       "id": "defer:url:33b3d08d99aeb285",
       "at": "2026-11-26T20:25:59.584Z",
@@ -20879,6 +20928,72 @@
         "educationHint": false,
         "webEducation": false,
         "leadKind": ""
+      }
+    },
+    "defer:url:92a9dea02f472d08": {
+      "id": "defer:url:92a9dea02f472d08",
+      "at": "2026-11-27T08:03:15.960Z",
+      "firstAt": "2026-11-27T08:03:15.960Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:92a9dea02f472d08",
+        "title:8542503431367c58"
+      ],
+      "canonical": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26",
+      "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
+      "candidate": {
+        "sourceId": "tg-matin-senpai",
+        "sourceName": "MatinSenPaii",
+        "sourceType": "telegram_channel",
+        "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
+        "link": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+        "canonical": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26",
+        "messageText": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد\n\nبه گزارش رویترز، شرکت Z.AI قرار بود همین ماه مدل پرچم‌دار بعدی‌ش، GLM-5.5، رو بده بیرون ولی عقب افتاده. این مدل حدود ۳ تریلیون پارامتر داره و یکی از دلیل‌های عقب افتادنش اینه که جلوی دیستیل‌کردن رو سخت‌تر کردن(😂😂😂😂😂😂😂)؛ Distillation attack یعنی آموزش مدل با جواب‌های مدل‌های قوی‌تر(مثل کلاد)، شبیه کپی کردن از روی دست بقیه. قانون تازه آمریکا برای دسترسی به چیپ‌های انویدیا توی دیتاسنترهای خارجی هم می‌تونه عرضه‌ش رو به سه‌ماهه اول ۲۰۲۷ یا دیرتر بندازه.\n\nهمزمان دوشنبه همین هفته Z.AI مدل GLM-5.4 رو داده که ۷۵۰ میلیارد پارامتر داره و به ادعای خودشون عملکردش به مدل‌های ۲ تا ۳ تریلیون پارامتری می‌رسه. مون‌شات هم ممکنه Kimi K4 رو تا حدود وسط ۲۰۲۷ عقب بندازه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤57😁33👍6🦄2",
+        "leadPostUrl": "https://t.me/MatinSenPaii/5996",
+        "published": "2026-11-27T05:12:50+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn1.telesco.pe/file/nDKdwUy_iVAlBAyhU9N4AuhvECl0e5FPSAFzjbKh_C3E0OFxdJGiye-cxYQiOOyfS2nr228LWxnmCV4-QRjaA77A3CUk8ElvcGUh1uH8dMhQf0UXhO_0m9vO7FnkpNdnC_-0HjZMicZhJpF0jsYENYMDPNBNVT8yL0zkvUl034b6odjCTUZ6ui0XI7vXq9f_Z4qrgeKvwV7gXDadBqDpuFQAJ7E5aZMZnh_JBC0BmVgdBT5ju1qvfNVU8K6jkHLo3klABHerNUvX74dZa5G-0rGHvW40tqAOyVK1zDfFlLCD_zlHbBJw5SqycyY6fxIY7i_C1uvMvkUlJpmRaUyUkg.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 2.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://z.ai/",
+          "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26"
+        ],
+        "offerHint": false,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:92a9dea02f472d08",
+          "title:8542503431367c58"
+        ],
+        "leadSource": "MatinSenPaii",
+        "leadMessageId": 5996,
+        "leadChannelUrl": "https://t.me/MatinSenPaii",
+        "sourceFocus": "education",
+        "leadKind": "news",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
       }
     }
   },
@@ -24933,6 +25048,14 @@
           "at": "2026-11-27T05:03:40.392Z"
         }
       ]
+    },
+    "2026-11-27T11:30+03:30": {
+      "at": "2026-11-27T08:05:15.580Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0022099448,
+      "tokens": 49030,
+      "posts": []
     }
   },
   "published": [
@@ -27663,104 +27786,92 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8610,
-      "last_at": "2026-11-26T18:03:37+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "last_id": 8611,
+      "last_at": "2026-11-27T07:34:50+00:00",
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "pedramgholizadeh": {
       "last_id": 821,
       "last_at": "2026-11-26T21:29:16+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "ai_farshad": {
       "last_id": 6530,
       "last_at": "2026-11-26T19:39:53+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "Mohammad_zammani": {
       "last_id": 7285,
       "last_at": "2026-11-26T17:14:12+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "techiin_ir": {
-      "last_id": 20859,
-      "last_at": "2026-11-25T13:32:04+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "last_id": 20860,
+      "last_at": "2026-11-25T14:01:17+00:00",
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "mgh_mobin": {
-      "last_id": 517,
-      "last_at": "2026-11-26T14:41:35+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "last_id": 518,
+      "last_at": "2026-11-27T06:53:13+00:00",
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "web3nabu": {
       "last_id": 2193,
       "last_at": "2026-11-26T18:16:49+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "asrnovin_ir": {
-      "last_id": 11552,
-      "last_at": "2026-11-26T19:46:34+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "last_id": 11553,
+      "last_at": "2026-11-27T07:58:56+00:00",
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "codecloude": {
       "last_id": 2625,
       "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "dunijet_ai": {
-      "last_id": 2633,
-      "last_at": "2026-11-26T20:39:20+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "last_id": 2635,
+      "last_at": "2026-11-27T05:12:40+00:00",
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "MatinSenPaii": {
-      "last_id": 5993,
-      "last_at": "2026-11-26T21:56:43+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "last_id": 5996,
+      "last_at": "2026-11-27T05:12:50+00:00",
+      "checked_at": "2026-11-27T08:01:07.897Z"
     },
     "thenimaonAI": {
       "last_id": 598,
       "last_at": "2026-11-26T16:20:10+00:00",
-      "checked_at": "2026-11-27T05:01:04.429Z"
+      "checked_at": "2026-11-27T08:01:07.897Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-13|hf-papers|https://huggingface.co/papers/2611.13028",
-      "date": "2026-11-13",
-      "at": "2026-11-13T08:00:47.979Z",
-      "source": "hf-papers",
-      "title": "GTAGym: AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2611.13028",
-      "reason": "research_paper",
-      "slot": "2026-11-13T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-13|tg-techiin|https://t.me/techiin_ir/20767",
       "date": "2026-11-13",
@@ -31431,6 +31542,42 @@
       "reason": "research_paper",
       "slot": "2026-11-27T08:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-mgh-mobin|https://t.me/mgh_mobin/518",
+      "date": "2026-11-27",
+      "at": "2026-11-27T08:01:07.897Z",
+      "source": "tg-mgh-mobin",
+      "title": "یکی از زیباترین کارهایی که با AI ساخته شده و واقعا لذت بردم از دیدنش 👌🏻",
+      "url": "https://t.me/mgh_mobin/518",
+      "reason": "denied_link",
+      "slot": "2026-11-27T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-techiin|https://t.me/techiin_ir/20860",
+      "date": "2026-11-27",
+      "at": "2026-11-27T08:01:07.897Z",
+      "source": "tg-techiin",
+      "title": "✅ وزیر ارتباطات از تأمین زیرساخت پردازشی (GPU) مورد نیاز شرکت‌ها توسط اپراتورهای هوش مصنوعی، بدون",
+      "url": "https://t.me/techiin_ir/20860",
+      "reason": "denied_link",
+      "slot": "2026-11-27T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-archive-tell|https://cantrustai.xyz/dashboard",
+      "date": "2026-11-27",
+      "at": "2026-11-27T08:01:07.897Z",
+      "source": "tg-archive-tell",
+      "title": "CanTrustAI",
+      "url": "https://cantrustai.xyz/dashboard",
+      "reason": "model_skip",
+      "slot": "2026-11-27T11:30+03:30",
+      "kind": "offer",
       "mainEligible": false
     }
   ],
