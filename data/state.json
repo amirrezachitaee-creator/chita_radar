@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T17:53:26.656Z",
+  "updatedAt": "2026-11-27T19:31:54.589Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19265,6 +19265,78 @@
       "slot": "2026-11-27T20:30+03:30",
       "title": "🔥جیلبریک Gemini 4 Neon هم اومد",
       "url": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md"
+    },
+    "url:5f4c3786768de877": {
+      "at": "2026-11-27T19:31:46.417Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "🔥 چندتا ایجنت هوش مصنوعی داری که وسط کار سهمیه‌شون تموم می‌شه؟ آپدیت جدید OpenBot به",
+      "url": "https://t.me/codecloude/2627"
+    },
+    "title:ae4523e135853432": {
+      "at": "2026-11-27T19:31:46.417Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "🔥 چندتا ایجنت هوش مصنوعی داری که وسط کار سهمیه‌شون تموم می‌شه؟ آپدیت جدید OpenBot به",
+      "url": "https://t.me/codecloude/2627"
+    },
+    "url:06b52db9e35aa39e": {
+      "at": "2026-11-27T19:31:51.714Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "✅ مدل‌های هوش مصنوعی Anthropic و OpenAI اثبات‌هایی برای یک مسئله ریاضی 47 ساله ارائه دادن",
+      "url": "https://t.me/techiin_ir/20865"
+    },
+    "title:87e8070f98c48d33": {
+      "at": "2026-11-27T19:31:51.714Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "✅ مدل‌های هوش مصنوعی Anthropic و OpenAI اثبات‌هایی برای یک مسئله ریاضی 47 ساله ارائه دادن",
+      "url": "https://t.me/techiin_ir/20865"
+    },
+    "url:26547d1892127dd0": {
+      "at": "2026-11-27T19:31:52.404Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "دیگه برای ادیت حرفه‌ای لازم نیست ماه‌ها نرم‌افزار یاد بگیرید یا یه ادیتور گرون استخدام کنید‼️",
+      "url": "https://telegram.me/mxaiacademy"
+    },
+    "title:58751bf1e3542371": {
+      "at": "2026-11-27T19:31:52.404Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "دیگه برای ادیت حرفه‌ای لازم نیست ماه‌ها نرم‌افزار یاد بگیرید یا یه ادیتور گرون استخدام کنید‼️",
+      "url": "https://telegram.me/mxaiacademy"
+    },
+    "url:e653365b440ea301": {
+      "at": "2026-11-27T19:31:54.586Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "url": "https://arxiv.org/abs/2611.34928v1"
+    },
+    "title:262f406fa3251919": {
+      "at": "2026-11-27T19:31:54.586Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "url": "https://arxiv.org/abs/2611.34928v1"
     }
   },
   "deferred": {
@@ -19603,58 +19675,6 @@
         "keys": [
           "url:628d3c512960bc42",
           "title:43936befa2535f96"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3d9795e0b578488b": {
-      "id": "defer:url:3d9795e0b578488b",
-      "at": "2026-11-25T19:31:15.075Z",
-      "firstAt": "2026-11-25T19:31:15.075Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3d9795e0b578488b",
-        "title:68e49785a03a7e09"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
-      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-        "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-        "canonical": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
-        "published": "Tue, 24 Nov 2026 17:34:34 +0000",
-        "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-500x500.jpg"
-        ],
-        "ageHours": 25.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:3d9795e0b578488b",
-          "title:68e49785a03a7e09"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -20178,52 +20198,6 @@
         "keys": [
           "url:0f8bd73c026011a7",
           "title:cca5b602339477bb"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e653365b440ea301": {
-      "id": "defer:url:e653365b440ea301",
-      "at": "2026-11-26T08:03:21.733Z",
-      "firstAt": "2026-11-26T08:03:21.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e653365b440ea301",
-        "title:262f406fa3251919"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.34928v1",
-      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
-        "link": "https://arxiv.org/abs/2611.34928v1",
-        "canonical": "https://arxiv.org/abs/2611.34928v1",
-        "published": "2026-11-25T18:59:11Z",
-        "summary": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces. On greedy-unsolved DeepMath-103K problems, DART recovers 37% more problems than MC sampling at a matched number of generated traces. Its estimated generation cost per recovered problem is nearly identical, while its cost per accepted trace is 30% lower. Post-training Llama-3.1-8B-Instruct on traces mined by DART achieves the highest point estimate in five of six evaluations across MATH-500 and AIME benchmarks. These results demonstrate that revisiting rejected traces with DART can expand problem coverage and provide effective post-training data.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.34928v1",
-        "images": [],
-        "ageHours": 13.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:e653365b440ea301",
-          "title:262f406fa3251919"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -21432,6 +21406,102 @@
         "keys": [
           "url:bb3c3075e275f343",
           "title:522bb6b9fd5cc2de"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:0cda3e0008b79c9a": {
+      "id": "defer:url:0cda3e0008b79c9a",
+      "at": "2026-11-27T19:31:52.417Z",
+      "firstAt": "2026-11-27T19:31:52.417Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:0cda3e0008b79c9a",
+        "title:e7689753812c4484"
+      ],
+      "canonical": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports",
+      "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+        "link": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+        "canonical": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports",
+        "published": "Fri, 27 Nov 2026 18:27:02 +0000",
+        "summary": "Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/jensen_huang_china.png"
+        ],
+        "ageHours": 1.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:0cda3e0008b79c9a",
+          "title:e7689753812c4484"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:5f7060337179d205": {
+      "id": "defer:url:5f7060337179d205",
+      "at": "2026-11-27T19:31:52.417Z",
+      "firstAt": "2026-11-27T19:31:52.417Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:5f7060337179d205",
+        "title:450c6494727875ea"
+      ],
+      "canonical": "https://www.producthunt.com/products/spark-ai-7",
+      "title": "Spark AI",
+      "candidate": {
+        "sourceId": "product-hunt",
+        "sourceName": "Product Hunt",
+        "sourceType": "community_board",
+        "title": "Spark AI",
+        "link": "https://www.producthunt.com/products/spark-ai-7",
+        "canonical": "https://www.producthunt.com/products/spark-ai-7",
+        "published": "2026-11-24T23:30:40-08:00",
+        "summary": "<p> AI-native permitting & diligence services for data centers </p> <p> <a href=\"https://www.producthunt.com/products/spark-ai-7?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1330200?app_id=339\">Link</a> </p>",
+        "messageText": "",
+        "leadPostUrl": "https://www.producthunt.com/products/spark-ai-7",
+        "images": [],
+        "ageHours": 60,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:5f7060337179d205",
+          "title:450c6494727875ea"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -25591,6 +25661,14 @@
           "at": "2026-11-27T17:02:56.881Z"
         }
       ]
+    },
+    "2026-11-27T23:00+03:30": {
+      "at": "2026-11-27T19:31:54.586Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0018316424,
+      "tokens": 29175,
+      "posts": []
     }
   },
   "published": [
@@ -28377,126 +28455,90 @@
     "ArchiveTell": {
       "last_id": 8615,
       "last_at": "2026-11-27T14:54:52+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "pedramgholizadeh": {
       "last_id": 821,
       "last_at": "2026-11-26T21:29:16+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "ai_farshad": {
       "last_id": 6535,
       "last_at": "2026-11-27T16:49:10+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "Mohammad_zammani": {
       "last_id": 7291,
       "last_at": "2026-11-27T15:13:58+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "techiin_ir": {
-      "last_id": 20864,
-      "last_at": "2026-11-25T17:00:29+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "last_id": 20865,
+      "last_at": "2026-11-25T17:32:38+00:00",
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "mgh_mobin": {
       "last_id": 520,
       "last_at": "2026-11-27T13:41:05+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "web3nabu": {
-      "last_id": 2193,
-      "last_at": "2026-11-26T18:16:49+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "last_id": 2196,
+      "last_at": "2026-11-27T19:30:03+00:00",
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "asrnovin_ir": {
-      "last_id": 11557,
-      "last_at": "2026-11-27T13:42:26+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "last_id": 11561,
+      "last_at": "2026-11-27T19:23:01+00:00",
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "codecloude": {
-      "last_id": 2626,
-      "last_at": "2026-11-27T08:18:16+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "last_id": 2627,
+      "last_at": "2026-11-27T17:34:25+00:00",
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "dunijet_ai": {
-      "last_id": 2638,
-      "last_at": "2026-11-27T13:36:39+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "last_id": 2639,
+      "last_at": "2026-11-27T17:22:44+00:00",
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "miladxtalks": {
-      "last_id": 252,
-      "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "last_id": 253,
+      "last_at": "2026-11-27T17:28:25+00:00",
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "MatinSenPaii": {
-      "last_id": 5996,
-      "last_at": "2026-11-27T05:12:50+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "last_id": 5998,
+      "last_at": "2026-11-27T19:04:24+00:00",
+      "checked_at": "2026-11-27T19:31:02.557Z"
     },
     "thenimaonAI": {
       "last_id": 613,
       "last_at": "2026-11-27T12:53:24+00:00",
-      "checked_at": "2026-11-27T17:01:01.924Z"
+      "checked_at": "2026-11-27T19:31:02.557Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/179",
-      "date": "2026-11-13",
-      "at": "2026-11-13T17:45:39.278Z",
-      "source": "tg-shayanode",
-      "title": "یه سایت هست که اگه اشتراک پولی هوش مصنوعی ها رو ندارین میتونین بدون لیمیت از",
-      "url": "https://t.me/shayanode/179",
-      "reason": "link_missing",
-      "slot": "2026-11-13T20:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|hf-papers|https://huggingface.co/papers/2607.13920",
-      "date": "2026-11-13",
-      "at": "2026-11-13T17:45:39.278Z",
-      "source": "hf-papers",
-      "title": "DeepStress: Stress-Testing Deep Search Agents",
-      "url": "https://huggingface.co/papers/2607.13920",
-      "reason": "research_paper",
-      "slot": "2026-11-13T20:30+03:30",
-      "kind": "post",
-      "mainEligible": true
-    },
-    {
-      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5860",
-      "date": "2026-11-13",
-      "at": "2026-11-13T19:30:41.080Z",
-      "source": "tg-matin-senpai",
-      "title": "این قضیه انویدیا داره به طرز کسل کننده ای مطابق الگویی که حدس زدم پیش میره",
-      "url": "https://t.me/MatinSenPaii/5860",
-      "reason": "denied_link",
-      "slot": "2026-11-13T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/183",
       "date": "2026-11-13",
@@ -32156,37 +32198,33 @@
       "slot": "2026-11-27T20:30+03:30",
       "kind": "tool",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-codecloude|https://t.me/codecloude/2627",
+      "date": "2026-11-27",
+      "at": "2026-11-27T19:31:02.557Z",
+      "source": "tg-codecloude",
+      "title": "🔥 چندتا ایجنت هوش مصنوعی داری که وسط کار سهمیه‌شون تموم می‌شه؟ آپدیت جدید OpenBot به",
+      "url": "https://t.me/codecloude/2627",
+      "reason": "denied_link",
+      "slot": "2026-11-27T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-techiin|https://t.me/techiin_ir/20865",
+      "date": "2026-11-27",
+      "at": "2026-11-27T19:31:02.557Z",
+      "source": "tg-techiin",
+      "title": "✅ مدل‌های هوش مصنوعی Anthropic و OpenAI اثبات‌هایی برای یک مسئله ریاضی 47 ساله ارائه دادن",
+      "url": "https://t.me/techiin_ir/20865",
+      "reason": "denied_link",
+      "slot": "2026-11-27T23:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-ai-farshad",
-      "title": "📊استخراج خودکار جدول‌ها و اطلاعات از PDF با کمک Docsumo!",
-      "url": "https://www.docsumo.com/",
-      "slot": "2026-11-13T20:30+03:30",
-      "at": "2026-11-13T17:45:39.278Z"
-    },
-    {
-      "source": "tg-ai-farshad",
-      "title": "این پیجو تو وقتای آزادم با کلاود از صفر کامل زدم.",
-      "url": "https://t.me/ai_farshad/6425",
-      "slot": "2026-11-13T20:30+03:30",
-      "at": "2026-11-13T17:45:39.278Z"
-    },
-    {
-      "source": "tg-ai-farshad",
-      "title": "🟪ساخت موشن با کلاد، از صفر تا خروجی MP4 🔵توی این مینی‌دوره، امیرعلی کلانپایی قدم‌به‌قدم نشونت",
-      "url": "http://t.me/pelyedit",
-      "slot": "2026-11-13T23:00+03:30",
-      "at": "2026-11-13T19:30:41.080Z"
-    },
-    {
-      "source": "tg-ai-farshad",
-      "title": "🟪ساخت موشن با کلاد، از صفر تا خروجی MP4 🔵توی این مینی‌دوره، امیرعلی کلانپایی قدم‌به‌قدم نشونت",
-      "url": "https://t.me/ai_farshad/6429",
-      "slot": "2026-11-13T23:00+03:30",
-      "at": "2026-11-13T19:30:41.080Z"
-    },
     {
       "source": "tg-ai-farshad",
       "title": "🤖 اگه هوش مصنوعی رو برای برنامه‌نویسی استفاده می‌کنی، باید بدونی هر کاری رو به کدوم",
@@ -32536,6 +32574,13 @@
       "url": "https://pelymedia.com/product/ai-plus-ai-ultra-bundle",
       "slot": "2026-11-27T20:30+03:30",
       "at": "2026-11-27T17:01:01.924Z"
+    },
+    {
+      "source": "tg-miladxtalks",
+      "title": "دیگه برای ادیت حرفه‌ای لازم نیست ماه‌ها نرم‌افزار یاد بگیرید یا یه ادیتور گرون استخدام کنید‼️",
+      "url": "https://telegram.me/mxaiacademy",
+      "slot": "2026-11-27T23:00+03:30",
+      "at": "2026-11-27T19:31:02.557Z"
     }
   ],
   "reviewPending": {},
