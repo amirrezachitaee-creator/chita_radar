@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T08:05:15.583Z",
+  "updatedAt": "2026-11-27T09:00:51.424Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -18851,6 +18851,60 @@
       "slot": "2026-11-27T11:30+03:30",
       "title": "Contral",
       "url": "https://www.producthunt.com/products/contral"
+    },
+    "url:03557f684c1fdc0c": {
+      "at": "2026-11-27T08:59:58.195Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "🔥فقط ۷ سنت برای جستجوی ردپای دیجیتال یک نفر!",
+      "url": "https://t.me/codecloude/2626"
+    },
+    "title:e14c6d11657c4e2c": {
+      "at": "2026-11-27T08:59:58.195Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "🔥فقط ۷ سنت برای جستجوی ردپای دیجیتال یک نفر!",
+      "url": "https://t.me/codecloude/2626"
+    },
+    "url:e9988cf012ebf30f": {
+      "at": "2026-11-27T09:00:32.022Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
+      "url": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work"
+    },
+    "title:401f4578dce9a0c3": {
+      "at": "2026-11-27T09:00:32.022Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
+      "url": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work"
+    },
+    "url:64a0e78fb4ccff21": {
+      "at": "2026-11-27T09:00:51.421Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "Depost AI",
+      "url": "https://www.producthunt.com/products/depost-ai"
+    },
+    "title:45c711ee38fc6218": {
+      "at": "2026-11-27T09:00:51.421Z",
+      "decision": "skip",
+      "reason": "promo",
+      "category": "",
+      "slot": "2026-11-27T11:30+03:30",
+      "title": "Depost AI",
+      "url": "https://www.producthunt.com/products/depost-ai"
     }
   },
   "deferred": {
@@ -20731,55 +20785,6 @@
         "keys": [
           "url:dbe542754cd16121",
           "title:7da05eeae27de19b"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e9988cf012ebf30f": {
-      "id": "defer:url:e9988cf012ebf30f",
-      "at": "2026-11-26T17:02:58.450Z",
-      "firstAt": "2026-11-26T17:02:58.450Z",
-      "attempts": 0,
-      "reason": "source_consecutive",
-      "reasons": [
-        "source_consecutive"
-      ],
-      "keys": [
-        "url:e9988cf012ebf30f",
-        "title:401f4578dce9a0c3"
-      ],
-      "canonical": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
-      "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
-        "link": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
-        "canonical": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
-        "published": "Thu, 26 Nov 2026 15:00:00 +0000",
-        "summary": "The skills that keep you irreplaceable when AI handles the boilerplate.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work-feature.webp"
-        ],
-        "ageHours": 2,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:e9988cf012ebf30f",
-          "title:401f4578dce9a0c3"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -25053,8 +25058,8 @@
       "at": "2026-11-27T08:05:15.580Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.0022099448,
-      "tokens": 49030,
+      "cost": 0.0019047223999999999,
+      "tokens": 30184,
       "posts": []
     }
   },
@@ -27788,87 +27793,87 @@
     "ArchiveTell": {
       "last_id": 8611,
       "last_at": "2026-11-27T07:34:50+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "pedramgholizadeh": {
       "last_id": 821,
       "last_at": "2026-11-26T21:29:16+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "ai_farshad": {
       "last_id": 6530,
       "last_at": "2026-11-26T19:39:53+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "Mohammad_zammani": {
       "last_id": 7285,
       "last_at": "2026-11-26T17:14:12+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "techiin_ir": {
-      "last_id": 20860,
-      "last_at": "2026-11-25T14:01:17+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "last_id": 20861,
+      "last_at": "2026-11-25T14:34:32+00:00",
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "mgh_mobin": {
       "last_id": 518,
       "last_at": "2026-11-27T06:53:13+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "web3nabu": {
       "last_id": 2193,
       "last_at": "2026-11-26T18:16:49+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "asrnovin_ir": {
       "last_id": 11553,
       "last_at": "2026-11-27T07:58:56+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "codecloude": {
-      "last_id": 2625,
-      "last_at": "2026-11-25T19:18:22+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "last_id": 2626,
+      "last_at": "2026-11-27T08:18:16+00:00",
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "dunijet_ai": {
       "last_id": 2635,
       "last_at": "2026-11-27T05:12:40+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "MatinSenPaii": {
       "last_id": 5996,
       "last_at": "2026-11-27T05:12:50+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     },
     "thenimaonAI": {
       "last_id": 598,
       "last_at": "2026-11-26T16:20:10+00:00",
-      "checked_at": "2026-11-27T08:01:07.897Z"
+      "checked_at": "2026-11-27T08:59:28.908Z"
     }
   },
   "offerReviews": [
@@ -31578,6 +31583,18 @@
       "reason": "model_skip",
       "slot": "2026-11-27T11:30+03:30",
       "kind": "offer",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-codecloude|https://t.me/codecloude/2626",
+      "date": "2026-11-27",
+      "at": "2026-11-27T08:59:28.908Z",
+      "source": "tg-codecloude",
+      "title": "🔥فقط ۷ سنت برای جستجوی ردپای دیجیتال یک نفر!",
+      "url": "https://t.me/codecloude/2626",
+      "reason": "denied_link",
+      "slot": "2026-11-27T11:30+03:30",
+      "kind": "post",
       "mainEligible": false
     }
   ],
