@@ -1,0 +1,153 @@
+RUN 46038345399 | send/main | slot auto | 2026-11-27T17:01:01Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-27T20:30+03:30 | WEEK 2026-11-21 | MODE SEND
+QUOTA tools 18/31 | models 17/24 | security 6/11 | business 8/11
+DAILY 3/11
+DIVERSITY_TARGET business | slot 20:30
+DEFERRED_POOL 42
+  DEFERRED category_consecutive | try 0/3 | 🚨 خداحافظ آنتی‌گرَویتی!
+  DEFERRED category_consecutive | try 0/3 | 🔥جیلبریک Gemini 4 Neon هم اومد
+  DEFERRED source_daily | try 0/3 | Taking Trainium3 to the Track: Generating Videos with LTX-2.5
+  DEFERRED category_consecutive | try 0/3 | Ploid
+  DEFERRED source_weekly | try 0/3 | Nvidia hits pause on chip shipments to Southeast Asia
+DEFERRED_BENCHMARK 3 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 26h | Diverse Alternative Reasoning Traces for Hard Math Problems
+  DEFERRED_BENCHMARK category_consecutive | expires 26h | How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches
+  DEFERRED_BENCHMARK category_consecutive | expires 25h | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+SOURCE_DISCOVERY already_ran date=2026-11-27 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=199 index=12 benchmark=1 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=165 nodate=0 nonai=0 dup=21 dup_other=0 kept=64 errors=3
+  FEED_ERROR pyimagesearch: The operation was aborted due to timeout
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+  FEED_ERROR import-ai: HTTP 403 <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+TELEGRAM channels=17 posts=316 pending=23 leads=5 nolink=1 nonai=0 denied=1 promo=0 stale=0 before=0 dup=3 dup_other=0 ocr=2 ocr_text=2 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:845,review:17 delivered=862 window=30d
+REVIEW_LEADS 2 separate_from_main=yes cap=none
+REVIEW_DRAFT هوش مصنوعی | محمد زمانی | ​گوگل الان تمرکز اصلیش رو گذاشته روی Antigravity و داره اون رو به یه سوپراپ هوش | 1250 chars
+  REVIEW_ITEM id=d51375ece7 message=297
+  REVIEW_REQUIRED reason=denied_link sent=297
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/20-30-b069ac50
+  REVIEW_ITEM id=eca495e234 message=298
+  REVIEW_REQUIRED reason=denied_link sent=298
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/20-30-608091f8
+TELEGRAM_EDU_LEADS 1 selected=1 cap=none source_cap=none private_only=yes verbatim=yes
+  EDU_LEAD ai_farshad | education | اگه می‌خوای هوش مصنوعی رو از صفر شروع کنی، امروز با کد PLUS20 می‌تونی دوره AI
+  EDU_PHOTO_FALLBACK TELEGRAM_400_Bad Request: failed to get HTTP URL content
+  EDU_REVIEW leads=1 sent=1 ids=299 file=/home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/20-30-education/education.txt
+RELEVANCE candidates=61 kept=36 dropped=25
+  SKIP_NOT_AI TechCrunch | Is Alice Huang a spy or not?
+  SKIP_NOT_AI Product Hunt | Onset
+  SKIP_NOT_AI TechCrunch | Grand Theft Auto VI proves why efficiency isn’t a virtue
+  SKIP_NOT_AI Product Hunt | slay
+  SKIP_NOT_AI arXiv | Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation
+  SKIP_NOT_AI arXiv | RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies
+  SKIP_NOT_AI Product Hunt | Wizstar R1
+  SKIP_NOT_AI Product Hunt | gpyou
+  SKIP_NOT_AI ... +17 more
+DIVERSITY target=business queue=2 fresh=6 deferred=42 rejected=source_daily:4,source_weekly:32,category_consecutive:8
+  DIVERSITY_QUEUE tools:عصر نوین | AminiYT | tools:ArchiveTell
+QUEUE_SKIPPED 45
+  QUEUE_SKIP source_daily | Hugging Face Blog | Taking Trainium3 to the Track: Generating Videos with LTX-2.5
+  QUEUE_SKIP source_weekly | TechCrunch | Nvidia hits pause on chip shipments to Southeast Asia
+  QUEUE_SKIP source_weekly | The Decoder | Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it
+  QUEUE_SKIP source_weekly | TechCrunch | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  QUEUE_SKIP source_weekly | The Decoder | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | Quoting Jack Despain Zhou
+  QUEUE_SKIP source_weekly | The Decoder | FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040
+  QUEUE_SKIP source_weekly | The Decoder | Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks
+  QUEUE_SKIP source_weekly | The Decoder | Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls
+  QUEUE_SKIP source_weekly | Simon Willison - Prompt Injection | The New York Times warns photographers not to update Photoshop over AI features
+  QUEUE_SKIP ... +35 more
+QUEUE_HELD 5
+  QUEUE_HOLD source_weekly | The Decoder | Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models
+  QUEUE_HOLD source_weekly | The Decoder | OpenAI is building "Athena" data platform to cut down on AI agent guesswork
+  QUEUE_HOLD source_weekly | The Decoder | Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?
+  QUEUE_HOLD source_weekly | The Decoder | SAP plans to cut at least 10,000 jobs as it pivots to AI
+  QUEUE_HOLD source_weekly | The Decoder | Hackers breached the US Air Force's flagship Cloud One platform, report says
+ATTEMPT 1/2 | deferred 0/3 عصر نوین | AminiYT | 🚨 خداحافظ آنتی‌گرَویتی! | 0.6h
+  TOOL_LINK candidate https://github.com/google-gemini/gemini-api-cli | score 100
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  TOOL_LINK applied https://github.com/google-gemini/gemini-api-cli
+POST 1/2 status=sent category=tools | QA 43/43 | $0.000469 | /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/20-30
+ATTEMPT 2/2 | deferred 0/3 ArchiveTell | 🔥جیلبریک Gemini 4 Neon هم اومد | 1.7h
+  TOOL_LINK candidate https://github.com/togg53192-cmd/jailbreaks | score 37
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  REVIEW_ITEM id=53aebf5c1c message=300
+  REVIEW_REQUIRED reason=model_skip sent=300
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-27/20-30-f7bf65f3
+  MODEL_SKIP off_topic | محتوای ورودی درباره جیل‌بریک‌ها و ابزارهای تقلب در بازی است و هیچ ارتباطی با هوش مصنوعی ندارد.
+RESULT SENT category=tools | offer=no | image=yes | QA 43/43 | cost $0.002170 | post $0.000469 | tokens 31600
+TITLE گوگل ابزار خط فرمان رسمی برای Gemini API منتشر کرد
+OUTBOX /home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/20-30
+SLOT_POSTS 1/2 sent=1 review=0
+  POST tools | sent | $0.000469 | گوگل ابزار خط فرمان رسمی برای Gemini API منتشر کرد
+SENT_TO_TELEGRAM
+DAILY_REPORT 2026-11-27T17:03:19Z
+# گزارش روزانه 2026-11-27 (جمعه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 4 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 2، ابزارها و محصولات 2
+- آفر: ارسال‌شده 0 | بازبینی 5
+- آموزش‌های بازبینی: 7 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 4
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 2، ابزارها و محصولات 2
+
+## هزینه
+- هزینه مدل: $0.005420
+- توکن: 94986
+- میانگین هر پست ارسال‌شده: $0.001355
+
+## سهمیه هفتگی (هفته 2026-11-21)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 19 | 31 | 12 |
+| مدل‌ها و پژوهش | 17 | 24 | 7 |
+| امنیت و حریم خصوصی | 6 | 11 | 5 |
+| کسب‌وکار و بازار | 8 | 11 | 3 |
+| مجموع | 50 | 77 | 27 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.000810 | 22132 | داشبورد بنچمارک llama.cpp برای سخت‌افزار AMD منتشر شد |
+| 11:30 |  | خالی | — | $0.001905 | 30184 |  |
+| 14:00 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000275 | 9879 | Luma Agent برای تیم‌های خلاق معرفی شد |
+| 17:00 | مدل‌ها و پژوهش | ارسال‌شده | 41/43 | $0.001961 | 21570 | مدل GLM-5.5 شرکت Z.AI عقب افتاد |
+| 20:30 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000469 | 11221 | گوگل ابزار خط فرمان رسمی برای Gemini API منتشر کرد |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 18
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 12، مقاله پژوهشی منتخب 1، مدل این مورد را رد کرد 2
+- آموزش‌های بازبینی امروز: 7 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 45
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-27.md
+SOURCE_STATUS 2026-11-27T17:03:19Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-27.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — جمعه ۶ آذر ۱۴۰۵
+پست امروز: 4 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 4
+صف بازبینی: 274 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 45
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/46038345399
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

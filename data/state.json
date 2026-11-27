@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T14:30:50.012Z",
+  "updatedAt": "2026-11-27T17:03:19.831Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19175,6 +19175,96 @@
       "title": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
       "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26",
       "benchmark": false
+    },
+    "url:b069ac50eec27e51": {
+      "at": "2026-11-27T17:01:55.984Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "​گوگل الان تمرکز اصلیش رو گذاشته روی Antigravity و داره اون رو به یه سوپراپ هوش",
+      "url": "https://t.me/Mohammad_zammani/7290"
+    },
+    "title:d13dc9a5f31cc7c3": {
+      "at": "2026-11-27T17:01:55.984Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "​گوگل الان تمرکز اصلیش رو گذاشته روی Antigravity و داره اون رو به یه سوپراپ هوش",
+      "url": "https://t.me/Mohammad_zammani/7290"
+    },
+    "url:608091f82e2db707": {
+      "at": "2026-11-27T17:01:56.194Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "✅ فعال شدن قابلیت نصب آرتیفکت‌های کلاد به‌عنوان اپلیکیشن دسکتاپ",
+      "url": "https://t.me/techiin_ir/20864"
+    },
+    "title:83b73a111c699e5b": {
+      "at": "2026-11-27T17:01:56.194Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "✅ فعال شدن قابلیت نصب آرتیفکت‌های کلاد به‌عنوان اپلیکیشن دسکتاپ",
+      "url": "https://t.me/techiin_ir/20864"
+    },
+    "url:c6b757ecc89283af": {
+      "at": "2026-11-27T17:01:56.771Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "اگه می‌خوای هوش مصنوعی رو از صفر شروع کنی، امروز با کد PLUS20 می‌تونی دوره AI",
+      "url": "https://pelymedia.com/product/ai-plus-ai-ultra-bundle"
+    },
+    "title:c3ef70ae51e04cc8": {
+      "at": "2026-11-27T17:01:56.771Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "اگه می‌خوای هوش مصنوعی رو از صفر شروع کنی، امروز با کد PLUS20 می‌تونی دوره AI",
+      "url": "https://pelymedia.com/product/ai-plus-ai-ultra-bundle"
+    },
+    "url:a124128f9b611472": {
+      "at": "2026-11-27T17:02:56.881Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "🚨 خداحافظ آنتی‌گرَویتی!",
+      "url": "https://github.com/google-gemini/gemini-api-cli",
+      "benchmark": false
+    },
+    "title:8b982910f5109ba3": {
+      "at": "2026-11-27T17:02:56.881Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "🚨 خداحافظ آنتی‌گرَویتی!",
+      "url": "https://github.com/google-gemini/gemini-api-cli",
+      "benchmark": false
+    },
+    "url:f7bf65f36b51bdd3": {
+      "at": "2026-11-27T17:03:19.831Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "🔥جیلبریک Gemini 4 Neon هم اومد",
+      "url": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md"
+    },
+    "title:f8bb212cf155defd": {
+      "at": "2026-11-27T17:03:19.831Z",
+      "decision": "review",
+      "reason": "model_skip",
+      "category": "",
+      "slot": "2026-11-27T20:30+03:30",
+      "title": "🔥جیلبریک Gemini 4 Neon هم اومد",
+      "url": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md"
     }
   },
   "deferred": {
@@ -20615,58 +20705,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:53fd63244ab16fab": {
-      "id": "defer:url:53fd63244ab16fab",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:53fd63244ab16fab",
-        "title:cb624e6c8c5b21c0"
-      ],
-      "canonical": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
-      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-        "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
-        "canonical": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
-        "published": "Tue, 24 Nov 2026 14:56:50 +0000",
-        "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-500x500.jpg"
-        ],
-        "ageHours": 46.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:53fd63244ab16fab",
-          "title:cb624e6c8c5b21c0"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:e0d965bae52b9875": {
       "id": "defer:url:e0d965bae52b9875",
       "at": "2026-11-26T13:31:13.620Z",
@@ -21057,136 +21095,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:a124128f9b611472": {
-      "id": "defer:url:a124128f9b611472",
-      "at": "2026-11-27T13:31:23.211Z",
-      "firstAt": "2026-11-27T13:31:23.211Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:a124128f9b611472",
-        "title:8b982910f5109ba3"
-      ],
-      "canonical": "https://github.com/google-gemini/gemini-api-cli",
-      "title": "🚨 خداحافظ آنتی‌گرَویتی!",
-      "candidate": {
-        "sourceId": "tg-asr-novin",
-        "sourceName": "عصر نوین | AminiYT",
-        "sourceType": "telegram_channel",
-        "title": "🚨 خداحافظ آنتی‌گرَویتی!",
-        "link": "https://github.com/google-gemini/gemini-api-cli",
-        "canonical": "https://github.com/google-gemini/gemini-api-cli",
-        "messageText": "🚨 خداحافظ آنتی‌گرَویتی!\n\nچه می‌شد اگر میتونستی جمینی را مستقیماً از کلود کد، کودکس یا آنتی‌گرَویتی، بدون عوض کردن ابزار، استفاده کنی؟\n\nخب، حالا این کار ممکن شده است.\n\nگوگل تازهٔ gemini-api-cli را منتشر کرده؛ ابزاری آزمایشی که عامل‌های هوش مصنوعی‌ات را از طریق ترمینال به مدل‌های جمینی وصل می‌کند.\n\nجالبش چیست؟\n\n→ تولید و ویرایش تصویر\n→ ساخت ویدئو، موسیقی و صدا\n→ تحلیل PDF، تصاویر و فایل‌ها\n→ رونویسی صدا و ویدئو\n→ اجرای عامل‌های جمینی در پس‌زمینه\n→ استفاده از مدل‌های مختلف جمینی از طریق عامل موردعلاقه‌ات\n\nهمهٔ این‌ها از یک رابط خط فرمان واحد که با Go نوشته شده است.\n\nبدون عوض کردن محیط. بدون قطع کردن روند کار.\n\nاین پست را ذخیره کن تا از دستش ندهی🔖\n\n❤11",
-        "leadPostUrl": "https://t.me/asrnovin_ir/11555",
-        "published": "2026-11-27T12:55:00+00:00",
-        "summary": "",
-        "images": [],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 0.6,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": false,
-        "rumorHint": false,
-        "relatedLinks": [
-          "https://github.com/google-gemini/gemini-api-cli"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models",
-          "security"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:a124128f9b611472",
-          "title:8b982910f5109ba3"
-        ],
-        "leadSource": "asrnovin_ir",
-        "leadMessageId": 11555,
-        "leadChannelUrl": "https://t.me/asrnovin_ir",
-        "sourceFocus": "news",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
-    "defer:url:f7bf65f36b51bdd3": {
-      "id": "defer:url:f7bf65f36b51bdd3",
-      "at": "2026-11-27T13:31:23.211Z",
-      "firstAt": "2026-11-27T13:31:23.211Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:f7bf65f36b51bdd3",
-        "title:f8bb212cf155defd"
-      ],
-      "canonical": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
-      "title": "🔥جیلبریک Gemini 4 Neon هم اومد",
-      "candidate": {
-        "sourceId": "tg-archive-tell",
-        "sourceName": "ArchiveTell",
-        "sourceType": "telegram_channel",
-        "title": "🔥جیلبریک Gemini 4 Neon هم اومد",
-        "link": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
-        "canonical": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
-        "messageText": "🔥جیلبریک Gemini 4 Neon هم اومد\n\nاول از لینک گیت هابی که براتون گذاشتم فایل .md رو دانلود کنید .\n\nتو ویندوز دکمه های Win+R و بزنین و %USERPROFILE%\\.gemini\\ و تایپ یا کپی کنین تا وارد فولدرش بشید و فایل و داخل فولدر بزارید و به gemini.md رینیم کنین .\n\nحالا آنتی گرویتی رو ری استارت کنین و تمام . ✅\n\nتوجه: احتمال مسدود شدن اکانت بسیار بالاست ❗️\n\n🔗GitHub\n\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤21",
-        "leadPostUrl": "https://t.me/ArchiveTell/8614",
-        "published": "2026-11-27T11:46:29+00:00",
-        "summary": "",
-        "images": [
-          "https://cdn4.telesco.pe/file/M6vX9A7Z_aX-QUrzmNattoVFYSw5wz-J4f87TgVYfxy18m9gFQMdk7rc0dO_n4sxmXR1o52CYTggm0bg6M-bNioXfzVRsZGMJoOYvvcH1cBEOfUtnIkEtwL7u4fLi-Qcfg-hrBOXu4D1XF3nwoUip9c1PhNrXwBY78GYISa1aYI6o0hlaqyKZquxdlk11YmFp0Q7vPbNq2PtZnC0Dq3McQxRj9t_lZNGcgJzjtmxivX85QMxg9vZDQOja4WMGGWjYguBNlmpKOMAByrGuO58ojpPs-I_wpDKOAax3WcnIUl8vHpBZ4YS6aOu1XrJuuJkcwbZsH_Y-FVPIG8asQ30PQ.jpg"
-        ],
-        "ocr": false,
-        "ocrDiscovery": false,
-        "ageHours": 1.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "titleAi": true,
-        "rumorHint": false,
-        "relatedLinks": [
-          "http://gemini.md/",
-          "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md"
-        ],
-        "offerHint": false,
-        "toolHint": true,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "tools",
-        "referral": false,
-        "needsReview": false,
-        "reviewReason": "",
-        "keys": [
-          "url:f7bf65f36b51bdd3",
-          "title:f8bb212cf155defd"
-        ],
-        "leadSource": "ArchiveTell",
-        "leadMessageId": 8614,
-        "leadChannelUrl": "https://t.me/ArchiveTell",
-        "sourceFocus": "tools",
-        "leadKind": "tool_lead",
-        "educationHint": false,
-        "webEducation": false,
-        "officialCourse": false
-      }
-    },
     "defer:url:e2a1983bb54421b2": {
       "id": "defer:url:e2a1983bb54421b2",
       "at": "2026-11-27T13:31:23.211Z",
@@ -21274,6 +21182,256 @@
         "keys": [
           "url:c2bd7953104652e4",
           "title:fa3c7b3553a12871"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bae77cd2f2491f18": {
+      "id": "defer:url:bae77cd2f2491f18",
+      "at": "2026-11-27T17:01:56.782Z",
+      "firstAt": "2026-11-27T17:01:56.782Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bae77cd2f2491f18",
+        "title:7de5546766d65cb1"
+      ],
+      "canonical": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models",
+      "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+        "link": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+        "canonical": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models",
+        "published": "Fri, 27 Nov 2026 16:58:56 +0000",
+        "summary": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction, though the pieces still need to grow together. The article Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2025/08/ai_story_lecun.png"
+        ],
+        "ageHours": 0,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:bae77cd2f2491f18",
+          "title:7de5546766d65cb1"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:49a0b0da24d2d359": {
+      "id": "defer:url:49a0b0da24d2d359",
+      "at": "2026-11-27T17:01:56.782Z",
+      "firstAt": "2026-11-27T17:01:56.782Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:49a0b0da24d2d359",
+        "title:39ad61bf21c60e2b"
+      ],
+      "canonical": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork",
+      "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+        "link": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+        "canonical": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork",
+        "published": "Fri, 27 Nov 2026 16:05:23 +0000",
+        "summary": "OpenAI's data agent in ChatGPT Work still isn't accurate enough. Under the codename \"Athena,\" the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks. The article OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png"
+        ],
+        "ageHours": 0.9,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:49a0b0da24d2d359",
+          "title:39ad61bf21c60e2b"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:1db0e8d6686b4da3": {
+      "id": "defer:url:1db0e8d6686b4da3",
+      "at": "2026-11-27T17:01:56.782Z",
+      "firstAt": "2026-11-27T17:01:56.782Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:1db0e8d6686b4da3",
+        "title:44c6a1e4f1df4a00"
+      ],
+      "canonical": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents",
+      "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+        "link": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+        "canonical": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents",
+        "published": "Fri, 27 Nov 2026 15:37:47 +0000",
+        "summary": "More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running. Rockstar's delayed PC business model is coming under pressure. The article Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents? appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/Rockstar-logo-reihe.png"
+        ],
+        "ageHours": 1.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:1db0e8d6686b4da3",
+          "title:44c6a1e4f1df4a00"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:940b001f1ed79a18": {
+      "id": "defer:url:940b001f1ed79a18",
+      "at": "2026-11-27T17:01:56.782Z",
+      "firstAt": "2026-11-27T17:01:56.782Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:940b001f1ed79a18",
+        "title:8e78e09a5327ba65"
+      ],
+      "canonical": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai",
+      "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+        "link": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+        "canonical": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai",
+        "published": "Fri, 27 Nov 2026 14:57:25 +0000",
+        "summary": "SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter. The article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png"
+        ],
+        "ageHours": 2.1,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:940b001f1ed79a18",
+          "title:8e78e09a5327ba65"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:bb3c3075e275f343": {
+      "id": "defer:url:bb3c3075e275f343",
+      "at": "2026-11-27T17:01:56.782Z",
+      "firstAt": "2026-11-27T17:01:56.782Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:bb3c3075e275f343",
+        "title:522bb6b9fd5cc2de"
+      ],
+      "canonical": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says",
+      "title": "Hackers breached the US Air Force's flagship Cloud One platform, report says",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Hackers breached the US Air Force's flagship Cloud One platform, report says",
+        "link": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+        "canonical": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says",
+        "published": "Fri, 27 Nov 2026 16:06:43 +0000",
+        "summary": "Hackers breached the US Air Force's flagship cloud platform. The article Hackers breached the US Air Force's flagship Cloud One platform, report says appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/XQ-58-Testflight-scaled.jpg"
+        ],
+        "ageHours": 0.9,
+        "aiHint": false,
+        "aiCentral": false,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:bb3c3075e275f343",
+          "title:522bb6b9fd5cc2de"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -25402,6 +25560,37 @@
           "at": "2026-11-27T13:32:41.785Z"
         }
       ]
+    },
+    "2026-11-27T20:30+03:30": {
+      "at": "2026-11-27T17:02:56.881Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "گوگل ابزار خط فرمان رسمی برای Gemini API منتشر کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/20-30",
+      "messageId": 174,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0018541712,
+      "tokens": 20971,
+      "qa": "43/43",
+      "posts": [
+        {
+          "title": "گوگل ابزار خط فرمان رسمی برای Gemini API منتشر کرد",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 174,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-27/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0004690112,
+          "tokens": 11221,
+          "qa": "43/43",
+          "image": true,
+          "offer": false,
+          "at": "2026-11-27T17:02:56.881Z"
+        }
+      ]
     }
   },
   "published": [
@@ -28164,144 +28353,114 @@
       "sourceTitle": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد",
       "sourceText": "مدل GLM-5.5 شرکت Z.AI عقب افتاده؛ قرار بود همین ماه بیاد\n\nبه گزارش رویترز، شرکت Z.AI قرار بود همین ماه مدل پرچم‌دار بعدی‌ش، GLM-5.5، رو بده بیرون ولی عقب افتاده. این مدل حدود ۳ تریلیون پارامتر داره و یکی از دلیل‌های عقب افتادنش اینه که جلوی دیستیل‌کردن رو سخت‌تر کردن(😂😂😂😂😂😂😂)؛ Distillation attack یعنی آموزش مدل با جواب‌های مدل‌های قوی‌تر(مثل کلاد)، شبیه کپی کردن از روی دست بقیه. قانون تازه آمریکا برای دسترسی به چیپ‌های انویدیا توی دیتاسنترهای خارجی هم می‌تونه عرضه‌ش رو به سه‌ماهه اول ۲۰۲۷ یا دیرتر بندازه.\n\nهمزمان دوشنبه همین هفته Z.AI مدل GLM-5.4 رو داده که ۷۵۰ میلیارد پارامتر داره و به ادعای خودشون عملکردش به مدل‌های ۲ تا ۳ تریلیون پارامتری می‌رسه. مون‌شات هم ممکنه Kimi K4 رو تا حدود وسط ۲۰۲۷ عقب بندازه.\n\n🔗 منبع\n✉️ t.me/MatinSenPaii\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤57😁33👍6🦄2",
       "at": "2026-11-27T13:32:41.785Z"
+    },
+    {
+      "week": "2026-11-21",
+      "slot": "2026-11-27T20:30+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "گوگل ابزار خط فرمان رسمی برای Gemini API منتشر کرد",
+      "why": "با این ابزار، ایجنت‌هایی که به شل دسترسی دارن می‌تونن قابلیت‌های چندرسانه‌ای Gemini رو مستقیم توی پروژه‌هاشون به کار ببرن و دیگه لازم نیست برای هر کار جداگانه به وب‌سرویس وصل بشن.",
+      "dedupe_key": "google-gemini-api-cli-release",
+      "post_key": "2026-11-27/20-30/1",
+      "sourceId": "tg-asr-novin",
+      "sourceName": "عصر نوین | AminiYT",
+      "sourceType": "telegram_channel",
+      "benchmark": false,
+      "url": "https://github.com/google-gemini/gemini-api-cli",
+      "sourceTitle": "GitHub - google-gemini/gemini-api-cli: An (experimental) CLI for the Gemini API",
+      "sourceText": "🚨 خداحافظ آنتی‌گرَویتی!\n\nچه می‌شد اگر میتونستی جمینی را مستقیماً از کلود کد، کودکس یا آنتی‌گرَویتی، بدون عوض کردن ابزار، استفاده کنی؟\n\nخب، حالا این کار ممکن شده است.\n\nگوگل تازهٔ gemini-api-cli را منتشر کرده؛ ابزاری آزمایشی که عامل‌های هوش مصنوعی‌ات را از طریق ترمینال به مدل‌های جمینی وصل می‌کند.\n\nجالبش چیست؟\n\n→ تولید و ویرایش تصویر\n→ ساخت ویدئو، موسیقی و صدا\n→ تحلیل PDF، تصاویر و فایل‌ها\n→ رونویسی صدا و ویدئو\n→ اجرای عامل‌های جمینی در پس‌زمینه\n→ استفاده از مدل‌های مختلف جمینی از طریق عامل موردعلاقه‌ات\n\nهمهٔ این‌ها از یک رابط خط فرمان واحد که با Go نوشته شده است.\n\nبدون عوض کردن محیط. بدون قطع کردن روند کار.\n\nاین پست را ذخیره کن تا از دستش ندهی🔖\n\n❤11",
+      "at": "2026-11-27T17:02:56.881Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8614,
-      "last_at": "2026-11-27T11:46:29+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "last_id": 8615,
+      "last_at": "2026-11-27T14:54:52+00:00",
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "pedramgholizadeh": {
       "last_id": 821,
       "last_at": "2026-11-26T21:29:16+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "ai_farshad": {
-      "last_id": 6531,
-      "last_at": "2026-11-27T10:08:24+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "last_id": 6535,
+      "last_at": "2026-11-27T16:49:10+00:00",
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7289,
-      "last_at": "2026-11-27T09:42:39+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "last_id": 7291,
+      "last_at": "2026-11-27T15:13:58+00:00",
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "techiin_ir": {
-      "last_id": 20863,
-      "last_at": "2026-11-25T16:36:58+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "last_id": 20864,
+      "last_at": "2026-11-25T17:00:29+00:00",
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "mgh_mobin": {
-      "last_id": 519,
-      "last_at": "2026-11-27T10:16:56+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "last_id": 520,
+      "last_at": "2026-11-27T13:41:05+00:00",
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "web3nabu": {
       "last_id": 2193,
       "last_at": "2026-11-26T18:16:49+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "asrnovin_ir": {
-      "last_id": 11556,
-      "last_at": "2026-11-27T13:20:04+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "last_id": 11557,
+      "last_at": "2026-11-27T13:42:26+00:00",
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "codecloude": {
       "last_id": 2626,
       "last_at": "2026-11-27T08:18:16+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "dunijet_ai": {
-      "last_id": 2636,
-      "last_at": "2026-11-27T12:31:19+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "last_id": 2638,
+      "last_at": "2026-11-27T13:36:39+00:00",
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "miladxtalks": {
       "last_id": 252,
       "last_at": "2026-11-25T16:07:30+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "MatinSenPaii": {
       "last_id": 5996,
       "last_at": "2026-11-27T05:12:50+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     },
     "thenimaonAI": {
       "last_id": 613,
       "last_at": "2026-11-27T12:53:24+00:00",
-      "checked_at": "2026-11-27T13:31:08.322Z"
+      "checked_at": "2026-11-27T17:01:01.924Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/169",
-      "date": "2026-11-13",
-      "at": "2026-11-13T14:28:28.084Z",
-      "source": "tg-shayanode",
-      "title": "اگه از هوش مصنوعی استفاده میکنید خیلی باید حواستون به VPN باشه که اکانتتون بن نشه‼️",
-      "url": "https://t.me/shayanode/169",
-      "reason": "no_link",
-      "slot": "2026-11-13T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5857",
-      "date": "2026-11-13",
-      "at": "2026-11-13T17:00:52.715Z",
-      "source": "tg-matin-senpai",
-      "title": "این پرامپت قدیمی که توی ویدئو کلاد رایگان یاد داده بودم با Kimi K3 رو دادم",
-      "url": "https://t.me/MatinSenPaii/5857",
-      "reason": "denied_link",
-      "slot": "2026-11-13T20:30+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5858",
-      "date": "2026-11-13",
-      "at": "2026-11-13T17:00:52.715Z",
-      "source": "tg-matin-senpai",
-      "title": "Toggle on/off لامپ هم گذاشته خودش مثل qwen 3.8 max",
-      "url": "https://t.me/MatinSenPaii/5858",
-      "reason": "no_link",
-      "slot": "2026-11-13T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-matin-senpai|https://t.me/MatinSenPaii/5859",
-      "date": "2026-11-13",
-      "at": "2026-11-13T17:00:52.715Z",
-      "source": "tg-matin-senpai",
-      "title": "توی صفحه‌ی چت Ai studio درست کرد",
-      "url": "https://t.me/MatinSenPaii/5859",
-      "reason": "no_link",
-      "slot": "2026-11-13T20:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/179",
       "date": "2026-11-13",
@@ -31961,23 +32120,45 @@
       "slot": "2026-11-27T17:00+03:30",
       "kind": "offer",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7290",
+      "date": "2026-11-27",
+      "at": "2026-11-27T17:01:01.924Z",
+      "source": "tg-mohammad-zammani",
+      "title": "​گوگل الان تمرکز اصلیش رو گذاشته روی Antigravity و داره اون رو به یه سوپراپ هوش",
+      "url": "https://t.me/Mohammad_zammani/7290",
+      "reason": "denied_link",
+      "slot": "2026-11-27T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-techiin|https://t.me/techiin_ir/20864",
+      "date": "2026-11-27",
+      "at": "2026-11-27T17:01:01.924Z",
+      "source": "tg-techiin",
+      "title": "✅ فعال شدن قابلیت نصب آرتیفکت‌های کلاد به‌عنوان اپلیکیشن دسکتاپ",
+      "url": "https://t.me/techiin_ir/20864",
+      "reason": "denied_link",
+      "slot": "2026-11-27T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-27|tg-archive-tell|https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
+      "date": "2026-11-27",
+      "at": "2026-11-27T17:01:01.924Z",
+      "source": "tg-archive-tell",
+      "title": "jailbreaks/Google/Gemini-4-Neon.md at main · togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks/blob/main/Google/Gemini-4-Neon.md",
+      "reason": "model_skip",
+      "slot": "2026-11-27T20:30+03:30",
+      "kind": "tool",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-asr-novin",
-      "title": "آموزش گرفتن اشتراک یکساله Google Ai Pro دانشجویی کاملا رایگان فقط با یک ربات تلگرامی",
-      "url": "https://one.google.com/ai-student",
-      "slot": "2026-11-13T20:30+03:30",
-      "at": "2026-11-13T17:00:52.715Z"
-    },
-    {
-      "source": "tg-asr-novin",
-      "title": "آموزش کار با ربات تلگرامی و گرفتن اشتراک یک ساله",
-      "url": "https://t.me/bunnytoolss_bot?start=sref_212219286",
-      "slot": "2026-11-13T20:30+03:30",
-      "at": "2026-11-13T17:00:52.715Z"
-    },
     {
       "source": "tg-ai-farshad",
       "title": "📊استخراج خودکار جدول‌ها و اطلاعات از PDF با کمک Docsumo!",
@@ -32348,6 +32529,13 @@
       "url": "https://t.me/thenimaonAI/602",
       "slot": "2026-11-27T14:00+03:30",
       "at": "2026-11-27T10:30:53.337Z"
+    },
+    {
+      "source": "tg-ai-farshad",
+      "title": "اگه می‌خوای هوش مصنوعی رو از صفر شروع کنی، امروز با کد PLUS20 می‌تونی دوره AI",
+      "url": "https://pelymedia.com/product/ai-plus-ai-ultra-bundle",
+      "slot": "2026-11-27T20:30+03:30",
+      "at": "2026-11-27T17:01:01.924Z"
     }
   ],
   "reviewPending": {},
