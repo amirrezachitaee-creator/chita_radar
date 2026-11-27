@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T19:31:54.589Z",
+  "updatedAt": "2026-11-27T20:25:22.303Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19337,6 +19337,24 @@
       "slot": "2026-11-27T23:00+03:30",
       "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
       "url": "https://arxiv.org/abs/2611.34928v1"
+    },
+    "url:d5654076067589d6": {
+      "at": "2026-11-27T20:25:15.529Z",
+      "decision": "skip",
+      "reason": "no_source",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+      "url": "https://arxiv.org/abs/2611.34875v1"
+    },
+    "title:e31cd0d577ac9050": {
+      "at": "2026-11-27T20:25:15.529Z",
+      "decision": "skip",
+      "reason": "no_source",
+      "category": "",
+      "slot": "2026-11-27T23:00+03:30",
+      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+      "url": "https://arxiv.org/abs/2611.34875v1"
     }
   },
   "deferred": {
@@ -20290,52 +20308,6 @@
         "keys": [
           "url:9294d9bc13983732",
           "title:b1f0b3f4ef52bc36"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:d5654076067589d6": {
-      "id": "defer:url:d5654076067589d6",
-      "at": "2026-11-26T08:03:21.733Z",
-      "firstAt": "2026-11-26T08:03:21.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:d5654076067589d6",
-        "title:e31cd0d577ac9050"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.34875v1",
-      "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
-        "link": "https://arxiv.org/abs/2611.34875v1",
-        "canonical": "https://arxiv.org/abs/2611.34875v1",
-        "published": "2026-11-25T18:37:06Z",
-        "summary": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribution (DRA), which replays agent trajectories, traces every block (unit) of the final patch to the step that wrote it, reverts each unit, and reruns the task tests to decide whether the unit is needed. We apply DRA to 7,660 resolved GitHub Copilot CLI trajectories from 18 frontier models on SWE-bench Verified (6,728) and DeepSWE (932), and grade developer patches using the same method. Agent patches do change more lines than developers'; on SWE-bench Verified the majority of extra edits add tests (61%) and documentation (13%) while on DeepSWE, most extra edits are code (58%). On both benchmarks, agents' code is on average at least as necessary as developers' (mean $NP_{code}$ 0.887 vs. 0.864 on SWE-bench Verified, where 11 of 18 models leave less unneeded code than developers, and 0.797 vs. 0.785 on DeepSWE). On average, 11% of an agent patch's code units on SWE-bench Verified are still unneeded, and 89% of those change behavior. Debug steps write almost none of the unneeded code. Code necessity differs substantially by model; it is unrelated to resolve rate on SWE-bench Verified and negatively correlated with it on DeepSWE (Spearman -0.59, p = 0.01). On SWE-bench Verified, pruning with DRA using only the tests the agent can see (its own tests and the repository's) removes the majority of unneeded code but also some needed code (67% recall, 46% precision), and 89% of pruned patches still resolve the task; asking the agent to audit its own diff is more precise but less effective (36% recall, 66% precision). We recommend that benchmarks report code necessity next to resolve rate and that over-editing be addressed through model training and harness-level pruning.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.34875v1",
-        "images": [],
-        "ageHours": 13.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:d5654076067589d6",
-          "title:e31cd0d577ac9050"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -21507,6 +21479,106 @@
         "webEducation": false,
         "leadKind": ""
       }
+    },
+    "defer:url:08f091640aa6ea32": {
+      "id": "defer:url:08f091640aa6ea32",
+      "at": "2026-11-27T20:25:06.210Z",
+      "firstAt": "2026-11-27T20:25:06.210Z",
+      "attempts": 0,
+      "reason": "source_weekly",
+      "reasons": [
+        "source_weekly"
+      ],
+      "keys": [
+        "url:08f091640aa6ea32",
+        "title:3265033e1e6278bc"
+      ],
+      "canonical": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers",
+      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+        "link": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+        "canonical": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers",
+        "published": "Fri, 27 Nov 2026 19:38:37 +0000",
+        "summary": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png"
+        ],
+        "ageHours": 0.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:08f091640aa6ea32",
+          "title:3265033e1e6278bc"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:fd2a2e03e82ebd76": {
+      "id": "defer:url:fd2a2e03e82ebd76",
+      "at": "2026-11-27T20:25:22.294Z",
+      "firstAt": "2026-11-27T20:25:22.294Z",
+      "attempts": 1,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:fd2a2e03e82ebd76",
+        "title:833482b28d5e97a2"
+      ],
+      "canonical": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+      "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
+      "candidate": {
+        "sourceId": "kdnuggets",
+        "sourceName": "KDnuggets",
+        "sourceType": "blog",
+        "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
+        "link": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+        "canonical": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+        "published": "Fri, 27 Nov 2026 15:00:00 +0000",
+        "summary": "A two-stage pipeline for document clustering and LLM-driven topic discovery, aided by Scikit-LLM's summarization tools.",
+        "messageText": "",
+        "leadPostUrl": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+        "images": [
+          "https://www.kdnuggets.com/wp-content/uploads/kdn-blending-unsupervised-clustering-tasks-with-scikit-llm-feature.webp"
+        ],
+        "ageHours": 5.4,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:fd2a2e03e82ebd76",
+          "title:833482b28d5e97a2"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      },
+      "detail": "tools"
     }
   },
   "slots": {
@@ -25666,8 +25738,8 @@
       "at": "2026-11-27T19:31:54.586Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.0018316424,
-      "tokens": 29175,
+      "cost": 0.0017827712000000001,
+      "tokens": 20478,
       "posts": []
     }
   },
@@ -28455,138 +28527,90 @@
     "ArchiveTell": {
       "last_id": 8615,
       "last_at": "2026-11-27T14:54:52+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "pedramgholizadeh": {
       "last_id": 821,
       "last_at": "2026-11-26T21:29:16+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "ai_farshad": {
-      "last_id": 6535,
-      "last_at": "2026-11-27T16:49:10+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "last_id": 6537,
+      "last_at": "2026-11-27T20:17:30+00:00",
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "Mohammad_zammani": {
       "last_id": 7291,
       "last_at": "2026-11-27T15:13:58+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "techiin_ir": {
-      "last_id": 20865,
-      "last_at": "2026-11-25T17:32:38+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "last_id": 20866,
+      "last_at": "2026-11-26T10:09:12+00:00",
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "mgh_mobin": {
       "last_id": 520,
       "last_at": "2026-11-27T13:41:05+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "web3nabu": {
       "last_id": 2196,
       "last_at": "2026-11-27T19:30:03+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "asrnovin_ir": {
       "last_id": 11561,
       "last_at": "2026-11-27T19:23:01+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "codecloude": {
       "last_id": 2627,
       "last_at": "2026-11-27T17:34:25+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "dunijet_ai": {
-      "last_id": 2639,
-      "last_at": "2026-11-27T17:22:44+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "last_id": 2640,
+      "last_at": "2026-11-27T19:44:29+00:00",
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "miladxtalks": {
       "last_id": 253,
       "last_at": "2026-11-27T17:28:25+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "MatinSenPaii": {
       "last_id": 5998,
       "last_at": "2026-11-27T19:04:24+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     },
     "thenimaonAI": {
       "last_id": 613,
       "last_at": "2026-11-27T12:53:24+00:00",
-      "checked_at": "2026-11-27T19:31:02.557Z"
+      "checked_at": "2026-11-27T20:24:22.672Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/183",
-      "date": "2026-11-13",
-      "at": "2026-11-13T20:21:28.998Z",
-      "source": "tg-shayanode",
-      "title": "یه سایت هست میشه باهاش از مدل Seedance 2.5 میشه رایگان روزی ۲تا ویدیو ساخت",
-      "url": "https://t.me/shayanode/183",
-      "reason": "link_missing",
-      "slot": "2026-11-13T23:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/184",
-      "date": "2026-11-13",
-      "at": "2026-11-13T20:21:28.998Z",
-      "source": "tg-shayanode",
-      "title": "دوستان تمومه محصولات و اکانت های هوش مصنوعی توی کانال زیر قرار میگیره",
-      "url": "https://t.me/shayanode/184",
-      "reason": "denied_link",
-      "slot": "2026-11-13T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-shayanode|https://t.me/shayanode/182",
-      "date": "2026-11-13",
-      "at": "2026-11-13T20:21:28.998Z",
-      "source": "tg-shayanode",
-      "title": "اینجا کسی علاقه مند به ساخت ویدیو با هوش مصنوعی هست؟",
-      "url": "https://t.me/shayanode/182",
-      "reason": "no_link",
-      "slot": "2026-11-13T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-13|tg-codecloude|https://t.me/codecloude/2584",
-      "date": "2026-11-13",
-      "at": "2026-11-13T20:21:28.998Z",
-      "source": "tg-codecloude",
-      "title": "🤯 تصور کن هنوز جلسه تموم نشده، ولی گزارش‌ها و کارهات آماده‌ان! 🔥 🚀 آنتروپیک از",
-      "url": "https://t.me/codecloude/2584",
-      "reason": "denied_link",
-      "slot": "2026-11-13T23:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-14|offer-watch:elevenlabs|https://elevenlabs.io/",
       "date": "2026-11-14",
