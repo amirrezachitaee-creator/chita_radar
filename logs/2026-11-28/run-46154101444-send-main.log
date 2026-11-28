@@ -1,0 +1,79 @@
+RUN 46154101444 | send/main | slot auto | 2026-11-28T14:20:19Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-28T17:00+03:30 | WEEK 2026-11-28 | MODE SEND
+QUOTA tools 2/31 | models 1/24 | security 1/11 | business 0/11
+DAILY 4/11
+DIVERSITY_TARGET models | slot 17:00
+DEFERRED_POOL 34
+  DEFERRED source_daily | try 0/3 | Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots
+  DEFERRED source_daily | try 0/3 | 🔘ابزاری رایگان که به شما کمک میکنه تا فرآیند بررسی در App Store و Google Play
+  DEFERRED source_weekly | try 0/3 | OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers
+  DEFERRED source_weekly | try 0/3 | Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports
+  DEFERRED source_weekly | try 0/3 | Hackers breached the US Air Force's flagship Cloud One platform, report says
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 4h EXPIRING | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+SLOT_ALREADY_DONE 2026-11-28T17:00+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-28T14:20:19Z
+# گزارش روزانه 2026-11-28 (شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 4 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 4، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 4 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 2، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 5 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 4
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 2، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.010671
+- توکن: 125608
+- میانگین هر پست ارسال‌شده: $0.002668
+
+## سهمیه هفتگی (هفته 2026-11-28)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 2 | 31 | 29 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 1 | 11 | 10 |
+| کسب‌وکار و بازار | 0 | 11 | 11 |
+| مجموع | 4 | 77 | 73 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.003192 | 21385 | سه مطالعه جدید از مسیر JEPA لکان حمایت می‌کنند |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000930 | 23769 | اوپن‌گیم؛ استودیوی بازی‌سازی اوپن سورس |
+| 11:30 | امنیت و حریم خصوصی | ارسال‌شده | 41/43 | $0.000964 | 23392 | نیویورک فروش اسباب‌بازی‌های هوش مصنوعی را ممنوع کرد |
+| 14:00 |  | خالی | — | $0.003588 | 34223 |  |
+| 17:00 | ابزارها و محصولات | ارسال‌شده | 42/43 | $0.001997 | 22839 | خوشه‌بندی اسناد با Scikit-LLM و مدل زبانی |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 9
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 5، جزئیات ابزار کامل نشد 1
+- آموزش‌های بازبینی امروز: 5 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 35
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-28.md
+SOURCE_STATUS 2026-11-28T14:20:19Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-28.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — شنبه ۷ آذر ۱۴۰۵
+پست امروز: 4 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 4
+صف بازبینی: 285 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 35
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/46154101444
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
