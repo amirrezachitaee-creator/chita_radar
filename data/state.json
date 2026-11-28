@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-28T05:45:35.831Z",
+  "updatedAt": "2026-11-28T08:05:43.102Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19508,6 +19508,60 @@
       "title": "🎮 بازی بساز با ایجنت‌های هوش مصنوعی",
       "url": "https://github.com/nexu-io/opengame",
       "benchmark": false
+    },
+    "url:f0e4638dd8c83995": {
+      "at": "2026-11-28T08:02:50.895Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T11:30+03:30",
+      "title": "مقایسه رو در روی Seedance 2.5 با MAGI-2 شرکت Sand AI؛ با پرامپت‌های کاملا یکسان.",
+      "url": "https://t.me/MatinSenPaii/6002"
+    },
+    "title:4fdd4380ad50df65": {
+      "at": "2026-11-28T08:02:50.895Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T11:30+03:30",
+      "title": "مقایسه رو در روی Seedance 2.5 با MAGI-2 شرکت Sand AI؛ با پرامپت‌های کاملا یکسان.",
+      "url": "https://t.me/MatinSenPaii/6002"
+    },
+    "url:6c0c89688055f58d": {
+      "at": "2026-11-28T08:03:53.789Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T11:30+03:30",
+      "title": "​یه منبع آگاه به عملیات شرکت چینی Moonshot (سازنده مدل Kimi) به خبرگزاری رویترز گفته که",
+      "url": "https://t.me/Mohammad_zammani/7292"
+    },
+    "title:1c1464e8d6f973cb": {
+      "at": "2026-11-28T08:03:53.789Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T11:30+03:30",
+      "title": "​یه منبع آگاه به عملیات شرکت چینی Moonshot (سازنده مدل Kimi) به خبرگزاری رویترز گفته که",
+      "url": "https://t.me/Mohammad_zammani/7292"
+    },
+    "url:fd3eea6ab732b725": {
+      "at": "2026-11-28T08:05:43.097Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-28T11:30+03:30",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "benchmark": false
+    },
+    "title:8f5d16d43515af67": {
+      "at": "2026-11-28T08:05:43.097Z",
+      "decision": "publish",
+      "category": "security",
+      "slot": "2026-11-28T11:30+03:30",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "benchmark": false
     }
   },
   "deferred": {
@@ -19703,54 +19757,6 @@
         "keys": [
           "url:3057c1692fc87eb1",
           "title:13b197f4a0149c2f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:fd3eea6ab732b725": {
-      "id": "defer:url:fd3eea6ab732b725",
-      "at": "2026-11-25T19:31:15.074Z",
-      "firstAt": "2026-11-25T19:31:15.074Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:fd3eea6ab732b725",
-        "title:8f5d16d43515af67"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-        "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-        "canonical": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
-        "published": "Wed, 25 Nov 2026 18:11:46 +0000",
-        "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-        "images": [],
-        "ageHours": 1.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:fd3eea6ab732b725",
-          "title:8f5d16d43515af67"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -21397,52 +21403,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:5f7060337179d205": {
-      "id": "defer:url:5f7060337179d205",
-      "at": "2026-11-27T19:31:52.417Z",
-      "firstAt": "2026-11-27T19:31:52.417Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:5f7060337179d205",
-        "title:450c6494727875ea"
-      ],
-      "canonical": "https://www.producthunt.com/products/spark-ai-7",
-      "title": "Spark AI",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Spark AI",
-        "link": "https://www.producthunt.com/products/spark-ai-7",
-        "canonical": "https://www.producthunt.com/products/spark-ai-7",
-        "published": "2026-11-24T23:30:40-08:00",
-        "summary": "<p> AI-native permitting & diligence services for data centers </p> <p> <a href=\"https://www.producthunt.com/products/spark-ai-7?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1330200?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/spark-ai-7",
-        "images": [],
-        "ageHours": 60,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:5f7060337179d205",
-          "title:450c6494727875ea"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:08f091640aa6ea32": {
       "id": "defer:url:08f091640aa6ea32",
       "at": "2026-11-27T20:25:06.210Z",
@@ -21542,6 +21502,83 @@
         "leadKind": ""
       },
       "detail": "tools"
+    },
+    "defer:url:511a5089717fad8a": {
+      "id": "defer:url:511a5089717fad8a",
+      "at": "2026-11-28T08:03:53.806Z",
+      "firstAt": "2026-11-28T08:03:53.806Z",
+      "attempts": 0,
+      "reason": "category_consecutive",
+      "reasons": [
+        "category_consecutive"
+      ],
+      "keys": [
+        "url:511a5089717fad8a",
+        "title:7b389c609d8f3e95"
+      ],
+      "canonical": "https://github.com/yt-dlp/yt-dlp",
+      "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+      "candidate": {
+        "sourceId": "tg-mgh-mobin",
+        "sourceName": "M G H M O B I N",
+        "sourceType": "telegram_channel",
+        "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+        "link": "https://github.com/yt-dlp/yt-dlp",
+        "canonical": "https://github.com/yt-dlp/yt-dlp",
+        "messageText": "🎬 با کلاد تدوین کن، زیرنویس بساز و موشن بزن\n\nاگه می‌خوای بخشی از تدوین ویدیو رو بسپری به کلاد، این فهرست رو دم دستت داشته باش. از تبدیل صدا به متن و برش ویدیو تا ساخت ریلز از ویدیوهای بلند و موشن‌گرافیک با کد، برای هرکدوم یه ابزار معرفی کردم.\n\n🎙 دانلود، زیرنویس و تدوین\n\n۰۱. اسکیل yt-dlp | دانلود ویدیو و صدا از سایت‌های پشتیبانی‌شده\n\n۰۲. اسکیل Whisper | تبدیل گفتار به متن برای ساخت زیرنویس\n\n۰۳. اسکیل FFmpeg Skill | برش ویدیو، تغییر کادر و آماده‌کردن خروجی\n\n۰۴. اسکیل Claude FFmpeg | پردازش صدا و ویدیو و تبدیل فرمت با FFmpeg\n\n۰۵. اسکیل Ghost Editor | تدوین ریلز از ویدیوی خامی که توش رو به دوربین حرف می‌زنی\n\n۰۶. اسکیل Claude Shorts | پیدا کردن بخش‌های مناسب ویدیوی بلند و تبدیلشون به کلیپ کوتاه با زیرنویس متحرک\n\n🟠 سه‌بعدی و موشن‌گرافیک\n\n۰۷. اسکیل Three.js Skills | ساخت صحنه و انیمیشن سه‌بعدی\n\n۰۸. اسکیل Three.js Claude Skill Package | مجموعه اسکیل‌های سه‌بعدی برای نور، دوربین، متریال و انیمیشن\n\n۰۹. اسکیل Motion Skills | ساخت متن متحرک، ویدیوی توضیحی و نمودار متحرک\n\n۱۰. اسکیل Motion Graphics | اسکیل‌های موشن‌گرافیک برای Claude Code و Codex\n\n۱۱. اسکیل Motion Graphics Skill | ساخت ویدیوی موشن، از طراحی و انیمیشن تا زیرنویس و صداگذاری\n\n۱۲. اسکیل MotionClone | استفاده از حرکت یه ویدیوی مرجع برای ساخت ویدیوی جدید\n\n۱۳. دموی اسکیل MotionClone | مقایسهٔ حرکت ویدیوی مرجع و خروجی همون پروژه\n\n۱۴. اسکیل HyperFrames | ساخت و تدوین ویدیو با HTML و گرفتن خروجی MP4\n\n۱۵. اسکیل Awesome Claude Video Skills | فهرست ابزارها و اسکیل‌های ویدیویی برای Claude Code و بقیهٔ ایجنت‌های کدنویسی\n\nاگه می‌خوای از یه ویدیوی بلند چند کلیپ کوتاه دربیاری، از اسکیل Claude Shorts شروع کن. برای ساخت موشن از صفر با …",
+        "leadPostUrl": "https://t.me/mgh_mobin/522",
+        "published": "2026-11-28T06:13:54+00:00",
+        "summary": "",
+        "images": [],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 1.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": false,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://github.com/yt-dlp/yt-dlp",
+          "https://github.com/openai/whisper",
+          "https://github.com/kajisho5/ffmpeg-skill",
+          "https://github.com/ychoi-kr/claude-ffmpeg-skill",
+          "https://github.com/kurbaitaev/ghost-editor",
+          "https://github.com/AgriciDaniel/claude-shorts",
+          "https://github.com/CloudAI-X/threejs-skills",
+          "https://github.com/Impertio-Studio/Three.js-Claude-Skill-Package",
+          "https://github.com/iart-ai/motion-skills",
+          "https://github.com/Barty-Bart/motion-graphics",
+          "https://github.com/mattypark/Motion-graphics-skill",
+          "https://github.com/LPengYang/MotionClone",
+          "https://bujiazi.github.io/motionclone.github.io",
+          "https://github.com/heygen-com/hyperframes",
+          "https://github.com/zhuyansen/awesome-claude-video-skills"
+        ],
+        "offerHint": false,
+        "toolHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:511a5089717fad8a",
+          "title:7b389c609d8f3e95"
+        ],
+        "leadSource": "mgh_mobin",
+        "leadMessageId": 522,
+        "leadChannelUrl": "https://t.me/mgh_mobin",
+        "sourceFocus": "education",
+        "leadKind": "tool_lead",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
     }
   },
   "slots": {
@@ -25750,6 +25787,37 @@
           "at": "2026-11-28T05:15:42.417Z"
         }
       ]
+    },
+    "2026-11-28T11:30+03:30": {
+      "at": "2026-11-28T08:05:43.097Z",
+      "status": "sent",
+      "category": "security",
+      "title": "نیویورک فروش اسباب‌بازی‌های هوش مصنوعی را ممنوع کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-28/11-30",
+      "messageId": 177,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0024866576,
+      "tokens": 42482,
+      "qa": "41/43",
+      "posts": [
+        {
+          "title": "نیویورک فروش اسباب‌بازی‌های هوش مصنوعی را ممنوع کرد",
+          "category": "security",
+          "status": "sent",
+          "messageId": 177,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-28/11-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0009640064,
+          "tokens": 23392,
+          "qa": "41/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-28T08:05:43.097Z"
+        }
+      ]
     }
   },
   "published": [
@@ -28566,144 +28634,114 @@
       "sourceTitle": "GitHub - nexu-io/opengame: The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
       "sourceText": "🎮 بازی بساز با ایجنت‌های هوش مصنوعی\n⠀\nایجنت کدنویسیت رو به یه استودیوی بازی‌سازی کامل تبدیل کن.\n⠀\n🎮 ۲۵ قالب بازی آماده، از مسابقه سه‌بعدی تا پلتفرمر پیکسلی\n🔄 ریمیکس و تغییر استایل هر بازی با یه کلیک\n🎨 کاور و تریلر خودکار برای هر بازی\n⠀\nپروژه متن‌باز OpenGame ایجنت‌های محلی مثل Claude Code و Codex و DeepSeek رو به تیم توسعه بازی تبدیل میکنه؛ از یه ایده تا دنیای سه‌بعدی یا مینی‌گیم آماده انتشار.\n⠀\nآرت، موزیک و صداگذاری با کلیدهای API خودت ساخته میشه؛ بدون اونا اسپرایت‌ها با کد کشیده و صدا ساخته میشه. خروجی رو میشه روی تلگرام، تیک‌تاک، وی‌چت و itch.io منتشر کرد.\n⠀\n📌 گیت‌هاب OpenGame\n⠀\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤18🔥2😎1",
       "at": "2026-11-28T05:15:42.417Z"
+    },
+    {
+      "week": "2026-11-28",
+      "slot": "2026-11-28T11:30+03:30",
+      "category": "security",
+      "kind": "news",
+      "title": "نیویورک فروش اسباب‌بازی‌های هوش مصنوعی را ممنوع کرد",
+      "why": "این ممنوعیت نشان می‌ده که نگرانی درباره خطرات این اسباب‌بازی‌ها برای بچه‌ها جدی شده و حالا به قانون تبدیل می‌شه.",
+      "dedupe_key": "new-york-ai-toy-ban",
+      "post_key": "2026-11-28/11-30/1",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceType": "news",
+      "benchmark": false,
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "sourceTitle": "Want to buy your kid an AI toy this Christmas? Not in New York | TechCrunch",
+      "sourceText": "Santa won’t be delivering any AI chatbot toys to New York kids this Christmas.\nGov. Kathy Hochul this week signed a bill banning the manufacture, distribution, and sale of such toys in New York for the next five years. The bill explicitly targets toys with embedded or integrated AI chatbots, like talking stuffed animals, dolls, and robots that rely on the internet to keep kids yapping.\nThe bill makes New York the second state after California to institute a ban on AI toys.\nTechnically, the new law takes effect 90 days after signing, so some parents could try to fulfill their kids’ wish lists for a creepy toy like a jumped-up Furby in time for the holidays, but the governor urges them not to, given the risks. Apparently, about a quarter of American parents with kids under eight either own an AI toy or are considering giving their child one this holiday season, according to a new study released this week by Common Sense Media.\n“Parents shopping for gifts for the holidays or any other occasion should not have to worry that dangerous chatbots disguised as toys could expose their children to inappropriate conversations, manipulate their feelings or put their privacy at risk,” Hochul said, calling the toys “unregulated artificial intelligence.”\nWhen asked how New York will enforce the ban given the pervasiveness of e-commerce platforms, a spokesperson directed TechCrunch to a statement from Albert Pulido, deputy secretary for finance and technology: “We’re partnering closely with the attorney general on this and the fees are very steep — they’re $15,000 a day. So working closely ",
+      "at": "2026-11-28T08:05:43.098Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8616,
-      "last_at": "2026-11-27T21:30:17+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "last_id": 8617,
+      "last_at": "2026-11-28T06:27:51+00:00",
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "pedramgholizadeh": {
       "last_id": 822,
       "last_at": "2026-11-27T21:07:24+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "ai_farshad": {
-      "last_id": 6540,
-      "last_at": "2026-11-27T22:47:26+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "last_id": 6541,
+      "last_at": "2026-11-28T07:30:48+00:00",
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7291,
-      "last_at": "2026-11-27T15:13:58+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "last_id": 7293,
+      "last_at": "2026-11-28T06:23:55+00:00",
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "techiin_ir": {
-      "last_id": 20867,
-      "last_at": "2026-11-26T10:15:02+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "last_id": 20868,
+      "last_at": "2026-11-26T14:10:24+00:00",
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "mgh_mobin": {
-      "last_id": 521,
-      "last_at": "2026-11-27T20:30:28+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "last_id": 522,
+      "last_at": "2026-11-28T06:13:54+00:00",
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "web3nabu": {
       "last_id": 2199,
       "last_at": "2026-11-27T22:03:57+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "asrnovin_ir": {
       "last_id": 11561,
       "last_at": "2026-11-27T19:23:01+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "codecloude": {
       "last_id": 2627,
       "last_at": "2026-11-27T17:34:25+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "dunijet_ai": {
       "last_id": 2640,
       "last_at": "2026-11-27T19:44:29+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "miladxtalks": {
       "last_id": 253,
       "last_at": "2026-11-27T17:28:25+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "MatinSenPaii": {
-      "last_id": 6000,
-      "last_at": "2026-11-27T23:29:26+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "last_id": 6002,
+      "last_at": "2026-11-28T07:59:42+00:00",
+      "checked_at": "2026-11-28T08:01:05.888Z"
     },
     "thenimaonAI": {
       "last_id": 613,
       "last_at": "2026-11-27T12:53:24+00:00",
-      "checked_at": "2026-11-28T05:01:23.227Z"
+      "checked_at": "2026-11-28T08:01:05.888Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-14|tg-thenima|https://t.me/thenimaonAI/509",
-      "date": "2026-11-14",
-      "at": "2026-11-14T08:00:53.135Z",
-      "source": "tg-thenima",
-      "title": "ادوبی توی رویداد MAX 2026 یه دموی آزمایشی نشون داده که با AI لباس آدم‌ها رو",
-      "url": "https://t.me/thenimaonAI/509",
-      "reason": "denied_link",
-      "slot": "2026-11-14T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-14|tg-asr-novin|https://t.me/asrnovin_ir/11463",
-      "date": "2026-11-14",
-      "at": "2026-11-14T08:00:53.135Z",
-      "source": "tg-asr-novin",
-      "title": "🟢اوپن‌ای‌آی از ChatGPT Wallet رونمایی کرد؛ انجام خرید به جای کاربران با ایجنت‌ها",
-      "url": "https://t.me/asrnovin_ir/11463",
-      "reason": "denied_link",
-      "slot": "2026-11-14T11:30+03:30",
-      "kind": "post",
-      "mainEligible": true
-    },
-    {
-      "id": "2026-11-14|tg-archive-tell|https://t.me/ArchiveTell/8411",
-      "date": "2026-11-14",
-      "at": "2026-11-14T08:00:53.135Z",
-      "source": "tg-archive-tell",
-      "title": "🚨 قانون اشتراک فمیلی Google AI؛ چی جداست، چی مشترک؟",
-      "url": "https://t.me/ArchiveTell/8411",
-      "reason": "denied_link",
-      "slot": "2026-11-14T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-14|tg-thenima|https://t.me/thenimaonAI/507",
-      "date": "2026-11-14",
-      "at": "2026-11-14T08:00:53.135Z",
-      "source": "tg-thenima",
-      "title": "Claude (@claudeai) on X",
-      "url": "https://t.me/thenimaonAI/507",
-      "reason": "denied_link",
-      "slot": "2026-11-14T11:30+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-14|tg-shayanode|https://t.me/shayanode/193",
       "date": "2026-11-14",
@@ -32301,6 +32339,30 @@
       "url": "https://t.me/pedramgholizadeh/822",
       "reason": "denied_link",
       "slot": "2026-11-28T08:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-matin-senpai|https://t.me/MatinSenPaii/6002",
+      "date": "2026-11-28",
+      "at": "2026-11-28T08:01:05.888Z",
+      "source": "tg-matin-senpai",
+      "title": "مقایسه رو در روی Seedance 2.5 با MAGI-2 شرکت Sand AI؛ با پرامپت‌های کاملا یکسان.",
+      "url": "https://t.me/MatinSenPaii/6002",
+      "reason": "denied_link",
+      "slot": "2026-11-28T11:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7292",
+      "date": "2026-11-28",
+      "at": "2026-11-28T08:01:05.888Z",
+      "source": "tg-mohammad-zammani",
+      "title": "​یه منبع آگاه به عملیات شرکت چینی Moonshot (سازنده مدل Kimi) به خبرگزاری رویترز گفته که",
+      "url": "https://t.me/Mohammad_zammani/7292",
+      "reason": "denied_link",
+      "slot": "2026-11-28T11:30+03:30",
       "kind": "post",
       "mainEligible": false
     }
