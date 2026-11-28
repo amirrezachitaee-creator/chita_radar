@@ -1,0 +1,136 @@
+RUN 46135508502 | send/main | slot auto | 2026-11-28T10:31:23Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-28T14:00+03:30 | WEEK 2026-11-28 | MODE SEND
+QUOTA tools 1/31 | models 1/24 | security 1/11 | business 0/11
+DAILY 3/11
+DIVERSITY_TARGET business | slot 14:00
+DEFERRED_POOL 41
+  DEFERRED category_consecutive | try 0/3 | GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader
+  DEFERRED source_weekly | try 0/3 | OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers
+  DEFERRED source_weekly | try 0/3 | Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports
+  DEFERRED source_weekly | try 0/3 | Hackers breached the US Air Force's flagship Cloud One platform, report says
+  DEFERRED source_weekly | try 0/3 | OpenAI is building "Athena" data platform to cut down on AI agent guesswork
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 8h EXPIRING | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+SOURCE_DISCOVERY already_ran date=2026-11-28 dynamic=0
+SOURCE_HEALTH active=70 watch=2 probation=0 quarantined=0 protected=14 dynamic=0
+  SOURCE_LIMIT tg-techiin per_run=1
+  SOURCE_LIMIT tg-shayanode per_run=1
+POLICY_STATE saved
+COLLECT sources=25 items=211 index=12 benchmark=0 policy=0 policy_changes=0 policy_reminder=0 api=50 stale=210 nodate=0 nonai=0 dup=14 dup_other=0 kept=51 errors=2
+  FEED_ERROR pyimagesearch: The operation was aborted due to timeout
+  FEED_ERROR kdnuggets: HTTP 403 <!DOCTYPE html><title>Checking your browser...</title><noscript><p>Javascript required</p></noscript><meta content="widt
+TELEGRAM channels=17 posts=318 pending=26 leads=2 nolink=0 nonai=0 denied=3 promo=2 stale=0 before=0 dup=0 dup_other=0 ocr=0 ocr_text=0 ocr_empty=0 ocr_err=0 ocr_na=0 ocr_leads=0 capped=1
+MEMORY lanes=main:866,review:17 delivered=883 window=30d
+REVIEW_LEADS 1 separate_from_main=yes cap=none
+REVIEW_DRAFT Thenima.one | اگه این هفته حس کردی سهمیه‌ی ChatGPT زودتر از همیشه تموم می‌شه، اشتباه نمی‌کنی و مشکل | 1599 chars
+  REVIEW_ITEM id=ab46c14a82 message=313
+  REVIEW_REQUIRED reason=denied_link sent=313
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-28/14-00-e258aefb
+RELEVANCE candidates=50 kept=28 dropped=22
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-charts 0.4a0
+  SKIP_NOT_AI Simon Willison - Prompt Injection | datasette-mcp 0.4
+  SKIP_NOT_AI TechCrunch | Is Alice Huang a spy or not?
+  SKIP_NOT_AI TechCrunch | Grand Theft Auto VI proves why efficiency isn’t a virtue
+  SKIP_NOT_AI arXiv | Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation
+  SKIP_NOT_AI arXiv | RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies
+  SKIP_NOT_AI Product Hunt | RankTheSearch
+  SKIP_NOT_AI The Record | Japan’s education ministry discloses breach of government procurement system
+  SKIP_NOT_AI ... +14 more
+DIVERSITY target=business queue=2 fresh=1 deferred=41 rejected=source_daily:17,source_consecutive:8,category_consecutive:4
+  DIVERSITY_QUEUE tools:M G H M O B I N | tools:Simon Willison - Prompt Injection
+QUEUE_SKIPPED 36
+  QUEUE_SKIP source_daily | The Decoder | OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers
+  QUEUE_SKIP source_daily | The Decoder | Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports
+  QUEUE_SKIP source_daily | The Decoder | Hackers breached the US Air Force's flagship Cloud One platform, report says
+  QUEUE_SKIP source_daily | The Decoder | OpenAI is building "Athena" data platform to cut down on AI agent guesswork
+  QUEUE_SKIP source_daily | The Decoder | Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?
+  QUEUE_SKIP source_daily | The Decoder | SAP plans to cut at least 10,000 jobs as it pivots to AI
+  QUEUE_SKIP source_consecutive | TechCrunch | Nvidia hits pause on chip shipments to Southeast Asia
+  QUEUE_SKIP source_daily | The Decoder | Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it
+  QUEUE_SKIP source_consecutive | TechCrunch | As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+  QUEUE_SKIP source_daily | The Decoder | After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead
+  QUEUE_SKIP ... +26 more
+QUEUE_HELD 1
+  QUEUE_HOLD source_daily | ArchiveTell | 🔘ابزاری رایگان که به شما کمک میکنه تا فرآیند بررسی در App Store و Google Play
+ATTEMPT 1/2 | deferred 0/3 M G H M O B I N | GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader | 1.8h
+  TOOL_LINK candidate https://github.com/yt-dlp/yt-dlp | score 100
+  MODEL DeepSeek-V4-Flash | image allowed
+  WRITER primary model=DeepSeek-V4-Flash
+  BODY_TRIM
+  REVIEW_ITEM id=56e9285653 message=314
+  REVIEW_REQUIRED reason=tool_incomplete sent=314
+  REVIEW_DIR /home/runner/work/chita_radar/chita_radar/results/review/2026-11-28/14-00-511a5089
+  QA_FAILED ai_relevance | score 41/43
+ATTEMPT 2/2 | deferred 0/3 Simon Willison - Prompt Injection | The New York Times warns photographers not to update Photoshop over AI features | 11.9h
+  TOOL_LINK candidate https://github.com/sponsors/simonw/ | score 22
+  MODEL DeepSeek-V4-Flash | image no_image
+  WRITER primary model=DeepSeek-V4-Flash
+  MODEL_SKIP off_topic | این ورودی یک نظر شخصی در هاک‌نیوز درباره سیاست عکاسان نیویورک‌تایمز است و خبری درباره هوش مصنوعی نیست.
+RESULT EMPTY attempts=3 reviews=2 deferred=40 | cost $0.002492 | tokens 33807
+  EMPTY_ATTEMPT review reason=denied_link | اگه این هفته حس کردی سهمیه‌ی ChatGPT زودتر از همیشه تموم می‌شه، اشتباه نمی‌کنی و مشکل
+  EMPTY_ATTEMPT review reason=tool_incomplete | GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader
+  EMPTY_ATTEMPT model_skip reason=این ورودی یک نظر شخصی در هاک‌نیوز درباره سیاست عکاسان نیویورک‌تایمز است و خبری درباره هوش مصنوعی نیست. | The New York Times warns photographers not to update Photoshop over AI features
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-28T10:33:41Z
+# گزارش روزانه 2026-11-28 (شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 3 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 3، خالی 1
+
+## آمار روز
+- پست ارسال‌شده: 3 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1، امنیت و حریم خصوصی 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 3 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 0
+- اسلات‌های خالی: 1
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1، امنیت و حریم خصوصی 1
+
+## هزینه
+- هزینه مدل: $0.007579
+- توکن: 102353
+- میانگین هر پست ارسال‌شده: $0.002526
+
+## سهمیه هفتگی (هفته 2026-11-28)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 1 | 31 | 30 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 1 | 11 | 10 |
+| کسب‌وکار و بازار | 0 | 11 | 11 |
+| مجموع | 3 | 77 | 74 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.003192 | 21385 | سه مطالعه جدید از مسیر JEPA لکان حمایت می‌کنند |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000930 | 23769 | اوپن‌گیم؛ استودیوی بازی‌سازی اوپن سورس |
+| 11:30 | امنیت و حریم خصوصی | ارسال‌شده | 41/43 | $0.000964 | 23392 | نیویورک فروش اسباب‌بازی‌های هوش مصنوعی را ممنوع کرد |
+| 14:00 |  | خالی | — | $0.002492 | 33807 |  |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 8
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 4، جزئیات ابزار کامل نشد 1
+- آموزش‌های بازبینی امروز: 3 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 40
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-28.md
+SOURCE_STATUS 2026-11-28T10:33:41Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-28.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — شنبه ۷ آذر ۱۴۰۵
+پست امروز: 3 | کپی بازبینی: 0 | اسلات خالی: 1 | کل امروز: 3
+صف بازبینی: 284 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 40
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/46135508502
+STATUS_CARD_END
+STATUS_SKIP reason=before_22

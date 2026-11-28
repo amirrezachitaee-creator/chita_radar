@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-28T08:48:41.634Z",
+  "updatedAt": "2026-11-28T10:33:41.675Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19562,6 +19562,60 @@
       "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
       "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
       "benchmark": false
+    },
+    "url:e258aefb84de9f01": {
+      "at": "2026-11-28T10:32:18.191Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "اگه این هفته حس کردی سهمیه‌ی ChatGPT زودتر از همیشه تموم می‌شه، اشتباه نمی‌کنی و مشکل",
+      "url": "https://t.me/thenimaonAI/615"
+    },
+    "title:34ebdf9230f38c94": {
+      "at": "2026-11-28T10:32:18.191Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "اگه این هفته حس کردی سهمیه‌ی ChatGPT زودتر از همیشه تموم می‌شه، اشتباه نمی‌کنی و مشکل",
+      "url": "https://t.me/thenimaonAI/615"
+    },
+    "url:511a5089717fad8a": {
+      "at": "2026-11-28T10:32:48.028Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    "title:7b389c609d8f3e95": {
+      "at": "2026-11-28T10:32:48.028Z",
+      "decision": "review",
+      "reason": "tool_incomplete",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    "url:fc654cd8c7a75232": {
+      "at": "2026-11-28T10:33:41.672Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685"
+    },
+    "title:95a86c276567302a": {
+      "at": "2026-11-28T10:33:41.672Z",
+      "decision": "skip",
+      "reason": "off_topic",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685"
     }
   },
   "deferred": {
@@ -20916,52 +20970,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:fc654cd8c7a75232": {
-      "id": "defer:url:fc654cd8c7a75232",
-      "at": "2026-11-26T17:02:58.450Z",
-      "firstAt": "2026-11-26T17:02:58.450Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:fc654cd8c7a75232",
-        "title:95a86c276567302a"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/26/hn-50651685",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "The New York Times warns photographers not to update Photoshop over AI features",
-        "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-        "canonical": "https://simonwillison.net/2026/Nov/26/hn-50651685",
-        "published": "2026-11-26T05:08:46+00:00",
-        "summary": "<p><a href=\"https://news.ycombinator.com/item?id=50647673#50651685\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50647673\">The New York Times warns photographers not to update Photoshop over AI features</a> &mdash; Hacker News.</p><p>I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that.</p> <p>He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted.</p> <p>The photo at the top of <a href=\"https://www.nytimes.com/2026/02/02/technology/moltbook-ai-social-media.html\">https://www.nytimes.com/2026/02/02/technology/moltbook-ai-so...</a> is my laptop, taken in my garden, after hunting around for the best spot that didn't have too much glare on the screen. You can see how dirty my screen is, too!</p> <p>Photography for a newspaper is photo journalism, and they take it seriously.</p> <p>(Thankfully I did not have a visible stain on my shirt.)</p> <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/new-york-times\">new-york-times</a>, <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-        "images": [],
-        "ageHours": 11.9,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:fc654cd8c7a75232",
-          "title:95a86c276567302a"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:33b3d08d99aeb285": {
       "id": "defer:url:33b3d08d99aeb285",
       "at": "2026-11-26T20:25:59.584Z",
@@ -21503,59 +21511,47 @@
       },
       "detail": "tools"
     },
-    "defer:url:511a5089717fad8a": {
-      "id": "defer:url:511a5089717fad8a",
-      "at": "2026-11-28T08:03:53.806Z",
-      "firstAt": "2026-11-28T08:03:53.806Z",
+    "defer:url:11418a0ccfe2dccc": {
+      "id": "defer:url:11418a0ccfe2dccc",
+      "at": "2026-11-28T10:32:18.203Z",
+      "firstAt": "2026-11-28T10:32:18.203Z",
       "attempts": 0,
-      "reason": "category_consecutive",
+      "reason": "source_daily",
       "reasons": [
-        "category_consecutive"
+        "source_daily"
       ],
       "keys": [
-        "url:511a5089717fad8a",
-        "title:7b389c609d8f3e95"
+        "url:11418a0ccfe2dccc",
+        "title:5a551f481f1bf18c"
       ],
-      "canonical": "https://github.com/yt-dlp/yt-dlp",
-      "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+      "canonical": "https://github.com/mjmirza/app-store-compliance",
+      "title": "🔘ابزاری رایگان که به شما کمک میکنه تا فرآیند بررسی در App Store و Google Play",
       "candidate": {
-        "sourceId": "tg-mgh-mobin",
-        "sourceName": "M G H M O B I N",
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
         "sourceType": "telegram_channel",
-        "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
-        "link": "https://github.com/yt-dlp/yt-dlp",
-        "canonical": "https://github.com/yt-dlp/yt-dlp",
-        "messageText": "🎬 با کلاد تدوین کن، زیرنویس بساز و موشن بزن\n\nاگه می‌خوای بخشی از تدوین ویدیو رو بسپری به کلاد، این فهرست رو دم دستت داشته باش. از تبدیل صدا به متن و برش ویدیو تا ساخت ریلز از ویدیوهای بلند و موشن‌گرافیک با کد، برای هرکدوم یه ابزار معرفی کردم.\n\n🎙 دانلود، زیرنویس و تدوین\n\n۰۱. اسکیل yt-dlp | دانلود ویدیو و صدا از سایت‌های پشتیبانی‌شده\n\n۰۲. اسکیل Whisper | تبدیل گفتار به متن برای ساخت زیرنویس\n\n۰۳. اسکیل FFmpeg Skill | برش ویدیو، تغییر کادر و آماده‌کردن خروجی\n\n۰۴. اسکیل Claude FFmpeg | پردازش صدا و ویدیو و تبدیل فرمت با FFmpeg\n\n۰۵. اسکیل Ghost Editor | تدوین ریلز از ویدیوی خامی که توش رو به دوربین حرف می‌زنی\n\n۰۶. اسکیل Claude Shorts | پیدا کردن بخش‌های مناسب ویدیوی بلند و تبدیلشون به کلیپ کوتاه با زیرنویس متحرک\n\n🟠 سه‌بعدی و موشن‌گرافیک\n\n۰۷. اسکیل Three.js Skills | ساخت صحنه و انیمیشن سه‌بعدی\n\n۰۸. اسکیل Three.js Claude Skill Package | مجموعه اسکیل‌های سه‌بعدی برای نور، دوربین، متریال و انیمیشن\n\n۰۹. اسکیل Motion Skills | ساخت متن متحرک، ویدیوی توضیحی و نمودار متحرک\n\n۱۰. اسکیل Motion Graphics | اسکیل‌های موشن‌گرافیک برای Claude Code و Codex\n\n۱۱. اسکیل Motion Graphics Skill | ساخت ویدیوی موشن، از طراحی و انیمیشن تا زیرنویس و صداگذاری\n\n۱۲. اسکیل MotionClone | استفاده از حرکت یه ویدیوی مرجع برای ساخت ویدیوی جدید\n\n۱۳. دموی اسکیل MotionClone | مقایسهٔ حرکت ویدیوی مرجع و خروجی همون پروژه\n\n۱۴. اسکیل HyperFrames | ساخت و تدوین ویدیو با HTML و گرفتن خروجی MP4\n\n۱۵. اسکیل Awesome Claude Video Skills | فهرست ابزارها و اسکیل‌های ویدیویی برای Claude Code و بقیهٔ ایجنت‌های کدنویسی\n\nاگه می‌خوای از یه ویدیوی بلند چند کلیپ کوتاه دربیاری، از اسکیل Claude Shorts شروع کن. برای ساخت موشن از صفر با …",
-        "leadPostUrl": "https://t.me/mgh_mobin/522",
-        "published": "2026-11-28T06:13:54+00:00",
+        "title": "🔘ابزاری رایگان که به شما کمک میکنه تا فرآیند بررسی در App Store و Google Play",
+        "link": "https://github.com/mjmirza/app-store-compliance",
+        "canonical": "https://github.com/mjmirza/app-store-compliance",
+        "messageText": "🔘ابزاری رایگان که به شما کمک میکنه تا فرآیند بررسی در App Store و Google Play رو با موفقیت پشت سر بذارید.\n\nابزار \"App Store Compliance\" پروژه شما رو بر اساس پایگاه داده‌ای شامل 125 دلیل رایج برای رد کردن بررسی میکنه و به شما نشون میده که چگونه مشکلات رو برطرف کنید. این ابزار رو میشه به Claude Code، Codex، Cursor و سایر ابزارهای مشابه متصل کرد تا قبل از انتشار، به صورت خودکار بررسی‌های لازم انجام بشه.\n\n🔗 گیت‌هاب پروژه\n\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤17🫡1😎1",
+        "leadPostUrl": "https://t.me/ArchiveTell/8618",
+        "published": "2026-11-28T09:04:44+00:00",
         "summary": "",
-        "images": [],
+        "images": [
+          "https://cdn1.telesco.pe/file/QMEsKcA218bCdCYf9BCcgJBDTQazItITldBTSL6YE4v6UnqMhvUhImmuPoBo1q8try5lmHTUqoymqtNTVf2msUAitHW9iHvOyNZHW0lH46iYo4P09Z88GXgeYVUL2dfo5QpxPL7o3MJmq085PPV672v3Q0QLFJrdrKcvh5hTj__NpCOFxZOfvORa_BgVFIfAB-3AaQje4cEdaYxLRCUX-Dn57gWomNscFNzGRJXTF_ops9Yud62uNsgeGlpxn41lTCxTMReIYrQwAapzXJP5DV4K3qAhVMM5U2k9lw96FfdBoVmsDHB0ychAIh8QnOWu5nwRdlRDvgANCmXcvDa7ig.jpg"
+        ],
         "ocr": false,
         "ocrDiscovery": false,
-        "ageHours": 1.8,
+        "ageHours": 1.4,
         "aiHint": true,
-        "aiCentral": true,
+        "aiCentral": false,
         "titleAi": false,
         "rumorHint": false,
         "relatedLinks": [
-          "https://github.com/yt-dlp/yt-dlp",
-          "https://github.com/openai/whisper",
-          "https://github.com/kajisho5/ffmpeg-skill",
-          "https://github.com/ychoi-kr/claude-ffmpeg-skill",
-          "https://github.com/kurbaitaev/ghost-editor",
-          "https://github.com/AgriciDaniel/claude-shorts",
-          "https://github.com/CloudAI-X/threejs-skills",
-          "https://github.com/Impertio-Studio/Three.js-Claude-Skill-Package",
-          "https://github.com/iart-ai/motion-skills",
-          "https://github.com/Barty-Bart/motion-graphics",
-          "https://github.com/mattypark/Motion-graphics-skill",
-          "https://github.com/LPengYang/MotionClone",
-          "https://bujiazi.github.io/motionclone.github.io",
-          "https://github.com/heygen-com/hyperframes",
-          "https://github.com/zhuyansen/awesome-claude-video-skills"
+          "https://github.com/mjmirza/app-store-compliance"
         ],
-        "offerHint": false,
-        "toolHint": true,
+        "offerHint": true,
+        "toolHint": false,
         "benchmark": false,
         "modelRelease": false,
         "sourceCategories": [
@@ -21567,14 +21563,14 @@
         "needsReview": false,
         "reviewReason": "",
         "keys": [
-          "url:511a5089717fad8a",
-          "title:7b389c609d8f3e95"
+          "url:11418a0ccfe2dccc",
+          "title:5a551f481f1bf18c"
         ],
-        "leadSource": "mgh_mobin",
-        "leadMessageId": 522,
-        "leadChannelUrl": "https://t.me/mgh_mobin",
-        "sourceFocus": "education",
-        "leadKind": "tool_lead",
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8618,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "free_offer",
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
@@ -25818,6 +25814,14 @@
           "at": "2026-11-28T08:05:43.097Z"
         }
       ]
+    },
+    "2026-11-28T14:00+03:30": {
+      "at": "2026-11-28T10:33:41.673Z",
+      "status": "empty",
+      "reason": "all_candidates_rejected",
+      "cost": 0.0024924424,
+      "tokens": 33807,
+      "posts": []
     }
   },
   "published": [
@@ -28656,152 +28660,92 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8617,
-      "last_at": "2026-11-28T06:27:51+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "last_id": 8620,
+      "last_at": "2026-11-28T09:18:14+00:00",
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "pedramgholizadeh": {
       "last_id": 822,
       "last_at": "2026-11-27T21:07:24+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "ai_farshad": {
-      "last_id": 6541,
-      "last_at": "2026-11-28T07:30:48+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "last_id": 6542,
+      "last_at": "2026-11-28T09:42:42+00:00",
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "Mohammad_zammani": {
       "last_id": 7293,
       "last_at": "2026-11-28T06:23:55+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "techiin_ir": {
-      "last_id": 20868,
-      "last_at": "2026-11-26T14:10:24+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "last_id": 20869,
+      "last_at": "2026-11-26T14:33:07+00:00",
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "mgh_mobin": {
       "last_id": 522,
       "last_at": "2026-11-28T06:13:54+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "web3nabu": {
       "last_id": 2199,
       "last_at": "2026-11-27T22:03:57+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "asrnovin_ir": {
-      "last_id": 11561,
-      "last_at": "2026-11-27T19:23:01+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "last_id": 11563,
+      "last_at": "2026-11-28T09:50:17+00:00",
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "codecloude": {
       "last_id": 2627,
       "last_at": "2026-11-27T17:34:25+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "dunijet_ai": {
       "last_id": 2640,
       "last_at": "2026-11-27T19:44:29+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "miladxtalks": {
       "last_id": 253,
       "last_at": "2026-11-27T17:28:25+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "MatinSenPaii": {
       "last_id": 6002,
       "last_at": "2026-11-28T07:59:42+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "checked_at": "2026-11-28T10:31:23.321Z"
     },
     "thenimaonAI": {
-      "last_id": 613,
-      "last_at": "2026-11-27T12:53:24+00:00",
-      "checked_at": "2026-11-28T08:01:05.888Z"
+      "last_id": 615,
+      "last_at": "2026-11-28T08:52:07+00:00",
+      "checked_at": "2026-11-28T10:31:23.321Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-14|tg-shayanode|https://t.me/shayanode/193",
-      "date": "2026-11-14",
-      "at": "2026-11-14T10:30:40.182Z",
-      "source": "tg-shayanode",
-      "title": "هوش مصنوعی فارسی و آنلاین | چت، عکس و ویدیو | نقطه | رایگان",
-      "url": "https://t.me/shayanode/193",
-      "reason": "denied_link",
-      "slot": "2026-11-14T14:00+03:30",
-      "kind": "offer",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-14|tg-techiin|https://t.me/techiin_ir/20771",
-      "date": "2026-11-14",
-      "at": "2026-11-14T10:30:40.182Z",
-      "source": "tg-techiin",
-      "title": "✅ خروج جنسن هوانگ از انویدیا تاثیری روی آینده هوش مصنوعی متن‌باز خواهد داشت؟",
-      "url": "https://t.me/techiin_ir/20771",
-      "reason": "denied_link",
-      "slot": "2026-11-14T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-14|tg-shayanode|https://t.me/shayanode/196",
-      "date": "2026-11-14",
-      "at": "2026-11-14T10:30:40.182Z",
-      "source": "tg-shayanode",
-      "title": "📸 به ChatGPT می‌گی فقط بک‌گراند عکس رو عوض کنه، بعد می‌بینی قیافه‌ات هم عوض شده؟",
-      "url": "https://t.me/shayanode/196",
-      "reason": "denied_link",
-      "slot": "2026-11-14T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-14|tg-shayanode|https://t.me/shayanode/195",
-      "date": "2026-11-14",
-      "at": "2026-11-14T10:30:40.182Z",
-      "source": "tg-shayanode",
-      "title": "برای شما هم پیش اومده که با chat GPT بخاین یه موردی رو تو عکستون عوض",
-      "url": "https://t.me/shayanode/195",
-      "reason": "no_link",
-      "slot": "2026-11-14T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
-    {
-      "id": "2026-11-14|tg-mgh-mobin|https://t.me/mgh_mobin/479",
-      "date": "2026-11-14",
-      "at": "2026-11-14T10:30:40.182Z",
-      "source": "tg-mgh-mobin",
-      "title": "در یک کلام Gemini Hydrogen 4 حرف نداره .",
-      "url": "https://t.me/mgh_mobin/479",
-      "reason": "denied_link",
-      "slot": "2026-11-14T14:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-14|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7211",
       "date": "2026-11-14",
@@ -32364,6 +32308,30 @@
       "reason": "denied_link",
       "slot": "2026-11-28T11:30+03:30",
       "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-thenima|https://t.me/thenimaonAI/615",
+      "date": "2026-11-28",
+      "at": "2026-11-28T10:31:23.321Z",
+      "source": "tg-thenima",
+      "title": "اگه این هفته حس کردی سهمیه‌ی ChatGPT زودتر از همیشه تموم می‌شه، اشتباه نمی‌کنی و مشکل",
+      "url": "https://t.me/thenimaonAI/615",
+      "reason": "denied_link",
+      "slot": "2026-11-28T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-mgh-mobin|https://github.com/yt-dlp/yt-dlp",
+      "date": "2026-11-28",
+      "at": "2026-11-28T10:31:23.321Z",
+      "source": "tg-mgh-mobin",
+      "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "reason": "tool_incomplete",
+      "slot": "2026-11-28T14:00+03:30",
+      "kind": "tool",
       "mainEligible": false
     }
   ],
