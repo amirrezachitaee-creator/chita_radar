@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-28T11:17:20.439Z",
+  "updatedAt": "2026-11-28T13:32:24.110Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19706,109 +19706,63 @@
       "slot": "2026-11-28T14:00+03:30",
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+    },
+    "url:9b31307958e838a8": {
+      "at": "2026-11-28T13:31:09.060Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-28T17:00+03:30",
+      "title": "🔘؛Ferret گوشی و لپ تاپت رو روی وای‌فای خودت به هم وصل میکنه؛ بدون اکانت و",
+      "url": "https://github.com/SoFluffyOS/ferret"
+    },
+    "title:79ae2e348de9fc45": {
+      "at": "2026-11-28T13:31:09.060Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-28T17:00+03:30",
+      "title": "🔘؛Ferret گوشی و لپ تاپت رو روی وای‌فای خودت به هم وصل میکنه؛ بدون اکانت و",
+      "url": "https://github.com/SoFluffyOS/ferret"
+    },
+    "url:364f1982694c9aa8": {
+      "at": "2026-11-28T13:31:10.516Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-28T17:00+03:30",
+      "title": "محقق‌های Stanford تکنیکی ساختن به اسم Plato's Key که مدل‌های زبانی مستقل می‌تونن بدون آموزش مجدد",
+      "url": "http://hazyresearch.stanford.edu/blog/2026-11-25-platos-key"
+    },
+    "title:7e23cdc3d45d7b01": {
+      "at": "2026-11-28T13:31:10.516Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-28T17:00+03:30",
+      "title": "محقق‌های Stanford تکنیکی ساختن به اسم Plato's Key که مدل‌های زبانی مستقل می‌تونن بدون آموزش مجدد",
+      "url": "http://hazyresearch.stanford.edu/blog/2026-11-25-platos-key"
+    },
+    "url:fd2a2e03e82ebd76": {
+      "at": "2026-11-28T13:32:24.108Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-28T17:00+03:30",
+      "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
+      "url": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+      "benchmark": false
+    },
+    "title:833482b28d5e97a2": {
+      "at": "2026-11-28T13:32:24.108Z",
+      "decision": "publish",
+      "category": "tools",
+      "slot": "2026-11-28T17:00+03:30",
+      "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
+      "url": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+      "benchmark": false
     }
   },
   "deferred": {
-    "defer:url:305e62040e8a734e": {
-      "id": "defer:url:305e62040e8a734e",
-      "at": "2026-11-25T13:31:58.984Z",
-      "firstAt": "2026-11-25T13:31:58.984Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:305e62040e8a734e",
-        "title:30534e34066e0963"
-      ],
-      "canonical": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
-      "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
-        "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-        "canonical": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
-        "published": "Wed, 25 Nov 2026 13:23:36 +0000",
-        "summary": "Google Deepmind uses AI agents to run experiments on their own for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. For oversight, Deepmind intentionally leaves the agents' internal chains of thought untrained so they can be reviewed. Kavukcuoglu measures AGI by everyday user trust rather than benchmarks. The article AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp"
-        ],
-        "ageHours": 0.1,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:305e62040e8a734e",
-          "title:30534e34066e0963"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:4d46466267d16523": {
-      "id": "defer:url:4d46466267d16523",
-      "at": "2026-11-25T13:31:58.984Z",
-      "firstAt": "2026-11-25T13:31:58.984Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:4d46466267d16523",
-        "title:3ac235ced3440387"
-      ],
-      "canonical": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
-      "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools",
-        "link": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
-        "canonical": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
-        "published": "Wed, 25 Nov 2026 13:14:27 +0000",
-        "summary": "Anthropic studied nearly 300 AI deployments across 58 US companies with sobering results. Nearly one in five still delivers no business value, held back by heavy review workloads, internal bottlenecks, and employee resistance. The researchers say the biggest hurdles stem from outdated company structures. The article Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/11/ai_office_paper.png"
-        ],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:4d46466267d16523",
-          "title:3ac235ced3440387"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:a29d15b5b34b6d60": {
       "id": "defer:url:a29d15b5b34b6d60",
       "at": "2026-11-25T17:01:28.705Z",
@@ -20715,58 +20669,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:319f463cce75ff29": {
-      "id": "defer:url:319f463cce75ff29",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:319f463cce75ff29",
-        "title:7cec471354fe7796"
-      ],
-      "canonical": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next",
-      "title": "AI may soon change what it means to be a theoretical physicist",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "AI may soon change what it means to be a theoretical physicist",
-        "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-        "canonical": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next",
-        "published": "Wed, 25 Nov 2026 12:00:28 +0000",
-        "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-1152x648.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-500x500.jpg"
-        ],
-        "ageHours": 25.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:319f463cce75ff29",
-          "title:7cec471354fe7796"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:e0d965bae52b9875": {
       "id": "defer:url:e0d965bae52b9875",
       "at": "2026-11-26T13:31:13.620Z",
@@ -21457,56 +21359,6 @@
         "webEducation": false,
         "leadKind": ""
       }
-    },
-    "defer:url:fd2a2e03e82ebd76": {
-      "id": "defer:url:fd2a2e03e82ebd76",
-      "at": "2026-11-27T20:25:22.294Z",
-      "firstAt": "2026-11-27T20:25:22.294Z",
-      "attempts": 1,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:fd2a2e03e82ebd76",
-        "title:833482b28d5e97a2"
-      ],
-      "canonical": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
-      "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
-      "candidate": {
-        "sourceId": "kdnuggets",
-        "sourceName": "KDnuggets",
-        "sourceType": "blog",
-        "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
-        "link": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
-        "canonical": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
-        "published": "Fri, 27 Nov 2026 15:00:00 +0000",
-        "summary": "A two-stage pipeline for document clustering and LLM-driven topic discovery, aided by Scikit-LLM's summarization tools.",
-        "messageText": "",
-        "leadPostUrl": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
-        "images": [
-          "https://www.kdnuggets.com/wp-content/uploads/kdn-blending-unsupervised-clustering-tasks-with-scikit-llm-feature.webp"
-        ],
-        "ageHours": 5.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools",
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:fd2a2e03e82ebd76",
-          "title:833482b28d5e97a2"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      },
-      "detail": "tools"
     },
     "defer:url:11418a0ccfe2dccc": {
       "id": "defer:url:11418a0ccfe2dccc",
@@ -25869,6 +25721,37 @@
       "cost": 0.0035883456000000004,
       "tokens": 34223,
       "posts": []
+    },
+    "2026-11-28T17:00+03:30": {
+      "at": "2026-11-28T13:32:24.108Z",
+      "status": "sent",
+      "category": "tools",
+      "title": "خوشه‌بندی اسناد با Scikit-LLM و مدل زبانی",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-28/17-00",
+      "messageId": 178,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0019967752,
+      "tokens": 22839,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "خوشه‌بندی اسناد با Scikit-LLM و مدل زبانی",
+          "category": "tools",
+          "status": "sent",
+          "messageId": 178,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-28/17-00",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0019967752,
+          "tokens": 22839,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-28T13:32:24.107Z"
+        }
+      ]
     }
   },
   "published": [
@@ -28703,108 +28586,114 @@
       "sourceTitle": "Want to buy your kid an AI toy this Christmas? Not in New York | TechCrunch",
       "sourceText": "Santa won’t be delivering any AI chatbot toys to New York kids this Christmas.\nGov. Kathy Hochul this week signed a bill banning the manufacture, distribution, and sale of such toys in New York for the next five years. The bill explicitly targets toys with embedded or integrated AI chatbots, like talking stuffed animals, dolls, and robots that rely on the internet to keep kids yapping.\nThe bill makes New York the second state after California to institute a ban on AI toys.\nTechnically, the new law takes effect 90 days after signing, so some parents could try to fulfill their kids’ wish lists for a creepy toy like a jumped-up Furby in time for the holidays, but the governor urges them not to, given the risks. Apparently, about a quarter of American parents with kids under eight either own an AI toy or are considering giving their child one this holiday season, according to a new study released this week by Common Sense Media.\n“Parents shopping for gifts for the holidays or any other occasion should not have to worry that dangerous chatbots disguised as toys could expose their children to inappropriate conversations, manipulate their feelings or put their privacy at risk,” Hochul said, calling the toys “unregulated artificial intelligence.”\nWhen asked how New York will enforce the ban given the pervasiveness of e-commerce platforms, a spokesperson directed TechCrunch to a statement from Albert Pulido, deputy secretary for finance and technology: “We’re partnering closely with the attorney general on this and the fees are very steep — they’re $15,000 a day. So working closely ",
       "at": "2026-11-28T08:05:43.098Z"
+    },
+    {
+      "week": "2026-11-28",
+      "slot": "2026-11-28T17:00+03:30",
+      "category": "tools",
+      "kind": "news",
+      "title": "خوشه‌بندی اسناد با Scikit-LLM و مدل زبانی",
+      "why": "با این روش، دیگه لازم نیست برای فهمیدن موضوع هر خوشه، کلمه‌ها رو دستی بررسی کنی؛ مدل خودش اسم خوشه‌ها رو می‌گه.",
+      "dedupe_key": "kdnuggets-scikit-llm-clustering-tutorial",
+      "post_key": "2026-11-28/17-00/1",
+      "sourceId": "kdnuggets",
+      "sourceName": "KDnuggets",
+      "sourceType": "blog",
+      "benchmark": false,
+      "url": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+      "sourceTitle": "Blending Unsupervised Clustering Tasks with Scikit-LLM - KDnuggets",
+      "sourceText": "A two-stage pipeline for document clustering and LLM-driven topic discovery, aided by Scikit-LLM's summarization tools.\nTraditional approaches for unsupervised text clustering usually produce groups that are defined in a mathematical, rather \"anonymous\" way. More often than not, we have the extra burden of guessing the underlying themes characterizing each cluster based on manual keyword inspection.\nThis article proposes an alternative, hands-on approach: aided by Scikit-LLM 's summarization tools fueled by large language models (LLMs) alongside local text embeddings, we build a two-stage pipeline that:\nThe solution we are about to build is cost-free and easy to run even in a notebook environment.\nThis example can be run entirely in a Google Colab notebook. It uses Groq's LLM API to rely fully on free models. A prerequisite is to visit the Groq website , register, and generate your own API key. Once it is generated, carefully copy your API key (it is shown only once) and add it as a new \"Secret\" in Google Colab — found under the key icon on the left-hand side of Colab. There, paste your copied API key and name the secret GROQ_API_KEY .\nAfter that, we start our notebook by installing Scikit-LLM and sentence-transformers :\nNow, let's start writing our Python code. The first step is to configure the environment surrounding Scikit-LLM, routing our requests through Groq's API instead of the default OpenAI API. This way, we can leverage Groq's free-tier pre-trained models and avoid per-token costs.\nNext, we get some real data. Real-world unsupervised learning scenarios assume dat",
+      "at": "2026-11-28T13:32:24.108Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8621,
-      "last_at": "2026-11-28T10:38:11+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "last_id": 8623,
+      "last_at": "2026-11-28T13:17:19+00:00",
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "pedramgholizadeh": {
       "last_id": 822,
       "last_at": "2026-11-27T21:07:24+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "ai_farshad": {
       "last_id": 6542,
       "last_at": "2026-11-28T09:42:42+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "Mohammad_zammani": {
       "last_id": 7293,
       "last_at": "2026-11-28T06:23:55+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "techiin_ir": {
-      "last_id": 20870,
-      "last_at": "2026-11-26T14:33:07+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "last_id": 20871,
+      "last_at": "2026-11-26T16:28:01+00:00",
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "mgh_mobin": {
       "last_id": 522,
       "last_at": "2026-11-28T06:13:54+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "web3nabu": {
       "last_id": 2199,
       "last_at": "2026-11-27T22:03:57+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "asrnovin_ir": {
       "last_id": 11563,
       "last_at": "2026-11-28T09:50:17+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "codecloude": {
       "last_id": 2627,
       "last_at": "2026-11-27T17:34:25+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "dunijet_ai": {
-      "last_id": 2640,
-      "last_at": "2026-11-27T19:44:29+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "last_id": 2641,
+      "last_at": "2026-11-28T12:12:24+00:00",
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "miladxtalks": {
       "last_id": 253,
       "last_at": "2026-11-27T17:28:25+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "MatinSenPaii": {
       "last_id": 6002,
       "last_at": "2026-11-28T07:59:42+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     },
     "thenimaonAI": {
       "last_id": 615,
       "last_at": "2026-11-28T08:52:07+00:00",
-      "checked_at": "2026-11-28T11:15:48.402Z"
+      "checked_at": "2026-11-28T13:30:55.921Z"
     }
   },
   "offerReviews": [
-    {
-      "id": "2026-11-14|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7211",
-      "date": "2026-11-14",
-      "at": "2026-11-14T13:30:40.353Z",
-      "source": "tg-mohammad-zammani",
-      "title": "🤖از حدود ۱۷ و ۱۸ آبان ۱۴۰۵، گزارش‌هایی درباره یه چک‌پوینت داخلی جدید تو خانواده مدل‌های",
-      "url": "https://t.me/Mohammad_zammani/7211",
-      "reason": "denied_link",
-      "slot": "2026-11-14T17:00+03:30",
-      "kind": "post",
-      "mainEligible": false
-    },
     {
       "id": "2026-11-14|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7212",
       "date": "2026-11-14",
@@ -32397,13 +32286,6 @@
   "educationReviews": [
     {
       "source": "tg-ai-farshad",
-      "title": "🤖 اگه هوش مصنوعی رو برای برنامه‌نویسی استفاده می‌کنی، باید بدونی هر کاری رو به کدوم",
-      "url": "https://t.me/ai_farshad/6437",
-      "slot": "2026-11-14T17:00+03:30",
-      "at": "2026-11-14T13:30:40.353Z"
-    },
-    {
-      "source": "tg-ai-farshad",
       "title": "📸 عکست رو به یک تصویرسازی مینیمال به سبک Notion تبدیل کن!",
       "url": "https://t.me/ai_farshad/6438",
       "slot": "2026-11-14T20:30+03:30",
@@ -32779,6 +32661,13 @@
       "url": "https://offloop.org/",
       "slot": "2026-11-28T14:00+03:30",
       "at": "2026-11-28T11:15:48.402Z"
+    },
+    {
+      "source": "tg-dunijet-ai",
+      "title": "محقق‌های Stanford تکنیکی ساختن به اسم Plato's Key که مدل‌های زبانی مستقل می‌تونن بدون آموزش مجدد",
+      "url": "http://hazyresearch.stanford.edu/blog/2026-11-25-platos-key",
+      "slot": "2026-11-28T17:00+03:30",
+      "at": "2026-11-28T13:30:55.921Z"
     }
   ],
   "reviewPending": {},
