@@ -1,0 +1,76 @@
+RUN 46113519034 | send/main | slot auto | 2026-11-28T05:45:35Z
+RUN_ARGS --send --max-candidates 8
+SLOT 2026-11-28T08:30+03:30 | WEEK 2026-11-28 | MODE SEND
+QUOTA tools 1/31 | models 1/24 | security 0/11 | business 0/11
+DAILY 2/11
+DIVERSITY_TARGET models | slot 08:30
+DEFERRED_POOL 42
+  DEFERRED source_weekly | try 0/3 | OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers
+  DEFERRED source_weekly | try 0/3 | Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports
+  DEFERRED source_weekly | try 0/3 | Hackers breached the US Air Force's flagship Cloud One platform, report says
+  DEFERRED source_weekly | try 0/3 | OpenAI is building "Athena" data platform to cut down on AI agent guesswork
+  DEFERRED source_weekly | try 0/3 | Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?
+DEFERRED_BENCHMARK 1 lane=benchmark
+  DEFERRED_BENCHMARK category_consecutive | expires 13h EXPIRING | BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding
+SLOT_ALREADY_DONE 2026-11-28T08:30+03:30 status=sent
+NOTHING_WAS_SENT
+DAILY_REPORT 2026-11-28T05:45:35Z
+# گزارش روزانه 2026-11-28 (شنبه)
+
+## ارسال و سقف روز
+- ثبت‌شده امروز: 2 از 11
+- وضعیت اسلات‌ها: ارسال‌شده 2
+
+## آمار روز
+- پست ارسال‌شده: 2 از 11
+- ترکیب دسته‌ها: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+- آفر: ارسال‌شده 0 | بازبینی 3
+- آموزش‌های بازبینی: 3 (بدون سقف، کانال بازبینی)
+- موارد تکراری ردشده: 0
+- اسلات‌های خالی: 0
+- دسته‌های ارسال‌شده: مدل‌ها و پژوهش 1، ابزارها و محصولات 1
+
+## هزینه
+- هزینه مدل: $0.004122
+- توکن: 45154
+- میانگین هر پست ارسال‌شده: $0.002061
+
+## سهمیه هفتگی (هفته 2026-11-28)
+| دسته | مصرف | سهمیه | باقی‌مانده |
+| --- | --- | --- | --- |
+| ابزارها و محصولات | 1 | 31 | 30 |
+| مدل‌ها و پژوهش | 1 | 24 | 23 |
+| امنیت و حریم خصوصی | 0 | 11 | 11 |
+| کسب‌وکار و بازار | 0 | 11 | 11 |
+| مجموع | 2 | 77 | 75 |
+
+## اسلات‌های امروز
+| اسلات | دسته | وضعیت | کیفیت | هزینه | توکن | عنوان |
+| --- | --- | --- | --- | --- | --- | --- |
+| 08:30 | مدل‌ها و پژوهش | ارسال‌شده | 42/43 | $0.003192 | 21385 | سه مطالعه جدید از مسیر JEPA لکان حمایت می‌کنند |
+| 08:30 #2 | ابزارها و محصولات | ارسال‌شده | 43/43 | $0.000930 | 23769 | اوپن‌گیم؛ استودیوی بازی‌سازی اوپن سورس |
+
+## بازبینی
+- کپی‌های بازبینی امروز: 4
+- دلایل: از رصد آفر پیدا شد 3، لینک خارجی این پست پذیرفته نشد 1
+- آموزش‌های بازبینی امروز: 3 (بدون سقف)
+
+## صف تعویق
+- در انتظار: 42
+REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/2026-11-28.md
+SOURCE_STATUS 2026-11-28T05:45:35Z
+STATUS_REPORT_SAVED /home/runner/work/chita_radar/chita_radar/results/reports/source-health-2026-11-28.md
+STATUS_CARD_BEGIN
+📊 وضعیت رادار — شنبه ۷ آذر ۱۴۰۵
+پست امروز: 2 | کپی بازبینی: 0 | اسلات خالی: 0 | کل امروز: 2
+صف بازبینی: 280 کارت
+امروز: 0 رد | 0 بازنویسی
+صف تعویق: 42
+منابع: 70 فعال، 2 زیر نظر، 0 آزمایشی، 0 کنارگذاشته (0 پویا)
+
+منابع حفاظت‌شده: 14
+
+گزارش اجرا:
+https://github.com/amirrezachitaee-creator/chita_radar/actions/runs/46113519034
+STATUS_CARD_END
+STATUS_SKIP reason=before_22
