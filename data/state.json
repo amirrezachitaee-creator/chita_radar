@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-28T14:20:19.802Z",
+  "updatedAt": "2026-11-28T17:05:32.819Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19760,107 +19760,117 @@
       "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
       "url": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
       "benchmark": false
+    },
+    "url:87aa2ff5337119a0": {
+      "at": "2026-11-28T17:01:38.565Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "🎬 از یک عکس ساده تا یک تیزر فشن در سطح برندهای لوکس!",
+      "url": "https://t.me/ai_farshad/6544"
+    },
+    "title:003b82fd44e25066": {
+      "at": "2026-11-28T17:01:38.565Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "🎬 از یک عکس ساده تا یک تیزر فشن در سطح برندهای لوکس!",
+      "url": "https://t.me/ai_farshad/6544"
+    },
+    "url:2e15be572d017a61": {
+      "at": "2026-11-28T17:01:46.358Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "🤖گوگل قصد داره قابلیت فلش‌کارت‌ها رو تو Gemini Notebook با استفاده از روش تکرار فاصله‌دار (Spaced",
+      "url": "https://t.me/Mohammad_zammani/7294"
+    },
+    "title:db1d8aee9cc9d73f": {
+      "at": "2026-11-28T17:01:46.358Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "🤖گوگل قصد داره قابلیت فلش‌کارت‌ها رو تو Gemini Notebook با استفاده از روش تکرار فاصله‌دار (Spaced",
+      "url": "https://t.me/Mohammad_zammani/7294"
+    },
+    "url:8d3f5a4e99b2cec5": {
+      "at": "2026-11-28T17:02:07.854Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "✴️ کره شمالی هم ChatGPT مخصوص خودش رو ساخت",
+      "url": "https://t.me/techiin_ir/20873"
+    },
+    "title:37701fdb5151d179": {
+      "at": "2026-11-28T17:02:07.854Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "✴️ کره شمالی هم ChatGPT مخصوص خودش رو ساخت",
+      "url": "https://t.me/techiin_ir/20873"
+    },
+    "url:9685432920849ecf": {
+      "at": "2026-11-28T17:04:12.066Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts"
+    },
+    "title:203ad1979be7034f": {
+      "at": "2026-11-28T17:04:12.066Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts"
+    },
+    "url:3daf9c389bad927c": {
+      "at": "2026-11-28T17:05:01.881Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,category_fresh",
+      "category": "models",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
+      "url": "https://arxiv.org/abs/2611.34862v1"
+    },
+    "title:b1ed14e8a68afd55": {
+      "at": "2026-11-28T17:05:01.881Z",
+      "decision": "qa_failed",
+      "reason": "ai_relevance,category_fresh",
+      "category": "models",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
+      "url": "https://arxiv.org/abs/2611.34862v1"
+    },
+    "url:c7527920934bd8d9": {
+      "at": "2026-11-28T17:05:32.815Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "Gemini-4-Carbon tops The Gamefeel Benchmark with 47.54 overall",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/75843ec3377504aa4809e733d6e1edf5d6d52b77",
+      "benchmark": true
+    },
+    "title:e62a4176481fb3b7": {
+      "at": "2026-11-28T17:05:32.815Z",
+      "decision": "publish",
+      "category": "models",
+      "slot": "2026-11-28T20:30+03:30",
+      "title": "Gemini-4-Carbon tops The Gamefeel Benchmark with 47.54 overall",
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/75843ec3377504aa4809e733d6e1edf5d6d52b77",
+      "benchmark": true
     }
   },
   "deferred": {
-    "defer:url:a29d15b5b34b6d60": {
-      "id": "defer:url:a29d15b5b34b6d60",
-      "at": "2026-11-25T17:01:28.705Z",
-      "firstAt": "2026-11-25T17:01:28.705Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:a29d15b5b34b6d60",
-        "title:d506abcc415380bc"
-      ],
-      "canonical": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store",
-      "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
-      "candidate": {
-        "sourceId": "the-decoder",
-        "sourceName": "The Decoder",
-        "sourceType": "news",
-        "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
-        "link": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-        "canonical": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store",
-        "published": "Wed, 25 Nov 2026 16:44:37 +0000",
-        "summary": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all agentic shopping orders. The article Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store. appeared first on The Decoder .",
-        "messageText": "",
-        "leadPostUrl": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-        "images": [
-          "https://the-decoder.com/wp-content/uploads/2026/10/met_muse_gadget_logo.jpg"
-        ],
-        "ageHours": 0.3,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "business",
-          "tools"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:a29d15b5b34b6d60",
-          "title:d506abcc415380bc"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:3057c1692fc87eb1": {
-      "id": "defer:url:3057c1692fc87eb1",
-      "at": "2026-11-25T17:01:28.705Z",
-      "firstAt": "2026-11-25T17:01:28.705Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:3057c1692fc87eb1",
-        "title:13b197f4a0149c2f"
-      ],
-      "canonical": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "candidate": {
-        "sourceId": "techcrunch",
-        "sourceName": "TechCrunch",
-        "sourceType": "news",
-        "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-        "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-        "canonical": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse",
-        "published": "Wed, 25 Nov 2026 14:10:18 +0000",
-        "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-        "messageText": "",
-        "leadPostUrl": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-        "images": [],
-        "ageHours": 2.8,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "business",
-          "tools",
-          "models"
-        ],
-        "categoryHint": "business",
-        "keys": [
-          "url:3057c1692fc87eb1",
-          "title:13b197f4a0149c2f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:628d3c512960bc42": {
       "id": "defer:url:628d3c512960bc42",
       "at": "2026-11-25T19:31:15.074Z",
@@ -20247,52 +20257,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:9685432920849ecf": {
-      "id": "defer:url:9685432920849ecf",
-      "at": "2026-11-26T05:01:20.293Z",
-      "firstAt": "2026-11-26T05:01:20.293Z",
-      "attempts": 0,
-      "reason": "source_weekly",
-      "reasons": [
-        "source_weekly"
-      ],
-      "keys": [
-        "url:9685432920849ecf",
-        "title:203ad1979be7034f"
-      ],
-      "canonical": "https://simonwillison.net/2026/Nov/25/datasette-charts",
-      "title": "datasette-charts 0.3a0",
-      "candidate": {
-        "sourceId": "simon-willison-prompt-injection",
-        "sourceName": "Simon Willison - Prompt Injection",
-        "sourceType": "blog_tag",
-        "title": "datasette-charts 0.3a0",
-        "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-        "canonical": "https://simonwillison.net/2026/Nov/25/datasette-charts",
-        "published": "2026-11-25T18:16:50+00:00",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.3a0\">datasette-charts 0.3a0</a></p> <p>I added chart annotations to <a href=\"https://github.com/datasette/datasette-charts\">datasette-charts</a>!</p> <p>You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.</p> <p>A chart with annotations looks like this:</p> <p><img alt=\"Screenshot of an annotated bar chart with the y-axis label &quot;↑ Total capacity_mw&quot;, showing blue bars for each decade from 1950 to 2010. Capacity is low in the earlier decades, then jumps sharply for 2000 and 2010. The chart carries three annotations: a gray shaded band across 1950 to 1990 with the note &quot;Much smaller summed capacity in earlier decades&quot;, a dot on top of the 2000 bar labeled &quot;Largest decade total in these records: 1.157 million MW&quot;, and a dashed horizontal line labeled &quot;1,000,000 MW reference&quot;. A caption below reads &quot;Global plant records with commissioning years 1950–2019; coverage and missing years may affect comparisons.&quot;\" src=\"https://static.simonwillison.net/static/2026/chart-with-annotations.webp\" /></p> <p>Here's <a href=\"https://lite.datasette.io/?install=datasette-charts&amp;url=https://datasette.io/global-power-plants.db#/global-power-plants/-/query?sql=SELECT+CAST%28commissioning_year+%2F+10+AS+INTEGER%29+%2A+10+AS+decade%2C+capacity_mw+FROM+%22global-power-plants%22+WHERE+commissioning_year+BETWEEN+1950+AND+2019+AND+capacity_mw+IS+NOT+NULL#chart=%7B%22v%22%3A1%2C%22type%22%3A%22bar%22%2C%22encoding%22%3A%7B%22x%22%3A%7B%22column%22%3A%22decade%22%2C%22sort%22%3A%22key%22%2C%22limit%22%3A20%2C%22other%22%3Afalse%7D%2C%22y%22%3A%7B%22column%22%3A%22capacity_mw%22%2C%22aggregate%22%3A%22sum%22%7D%7D%2C%22options%22%3A%7B%22orientation%22%3A%22vertical%22%7D%2C%22annotations%22%3A%5B%7B%22type%22%3A%22point%22%2C%22x%22%3A2000%2C%22text%22%3A%22Largest%20decade%20total%20in%20these%20records%3A%201.157%20million%20MW%22%7D%2C%7B%22type%22%3A%22range%22%2C%22x%22%3A1950%2C%22x2%22%3A1990%2C%22text%22%3A%22Much%20smaller%20summed%20capacity%20in%20earlier%20decades%22%7D%2C%7B%22type%22%3A%22line%22%2C%22y%22%3A1000000%2C%22text%22%3A%221%2C000%2C000%20MW%20reference%22%7D%2C%7B%22type%22%3A%22text%22%2C%22left%22%3A0.02%2C%22top%22%3A0.04%2C%22text%22%3A%22Global%20plant%20records%20with%20commissioning%20years%201950–2019%3B%20coverage%20and%20missing%20years%20may%20affect%20comparisons.%22%7D%5D%7D\">that same chart in Datasette Lite</a>, where you can tweak the annotations using the chart builder UI:</p> <p><img alt=\"Animated screen recording of an &quot;Edit annotation&quot; dialog for a chart titled &quot;Total capacity_mw by decade&quot;. A form on the left has fields for &quot;Kind&quot;, &quot;Capacity_mw&quot;, &quot;Label (optional)&quot;, &quot;Label position&quot;, &quot;Color&quot; and &quot;Line style&quot;, and a &quot;PREVIEW&quot; panel on the right shows a blue bar chart of total capacity by decade from 1950 to 2010, with a dashed horizontal line labeled &quot;1,000,000 MW reference&quot;. The preview updates live as the user edits: changing the Capacity_mw value from &quot;1000000&quot; to &quot;900000&quot; and then &quot;800000&quot; moves the dashed line down the chart in step, and editing the label text, first adding an exclamation mark, then removing it and deleting the word &quot;reference&quot;, changes the label on the line to &quot;1,000,000 MW reference!&quot; and finally &quot;1,000,000 MW&quot;. The user then clicks the &quot;Save&quot; button.\" src=\"https://static.simonwillison.net/static/2026/chart-annotate.gif\" /></p> <p>If you also install <a href=\"https://agent.datasette.io/\">Datasette Agent</a> the agent can build annotated charts for you. Here's what I got on the <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo for this prompt:</p> <blockquote> <p><code>Show a chart comparing Simon's tagged content about LLMs with his tagged content about Datasette, with annotations</code></p> </blockquote> <p><img alt=\"Screenshot of a chat-style AI agent interface that has produced a chart in response to a question. At the top is a collapsed reasoning line reading &quot;Thinking: …26 partial year is labeled correctly in the output. Let's go with this approach!&quot; followed by a collapsed tool call labeled &quot;chart&quot;. Below that is a line chart titled &quot;Total content_count per year by topic&quot;, with a legend for &quot;LLMs&quot; (blue) and &quot;Datasette&quot; (orange), the y-axis label &quot;↑ Total content_count&quot; and years 2017 to 2026 on the x-axis. The Datasette line stays low throughout, with an annotation &quot;Datasette peak year&quot; pointing at 2020. The LLMs line sits near zero until 2022, then climbs steeply to a peak in 2025 before dropping in 2026, with an annotation &quot;LLM-tagged content rises&quot; pointing at 2023. A note on the chart reads &quot;Counts include posts, notes and links; 2026 is year-to-date.&quot; Under the chart are the controls &quot;Open in the chart builder&quot;, &quot;Copy link&quot;, &quot;This chart's SQL&quot;, &quot;Copy TSV&quot; and &quot;Copy CSV&quot;. Another collapsed reasoning line reads &quot;Thinking: …rends start low for LLMs in 2020, and they're projected to rise sharply by 2026.&quot; The agent's reply then says: &quot;The chart compares annual counts of non-draft posts, notes, and link posts tagged with LLM-related terms or Datasette-related terms. The annotations mark Datasette's peak year (2020) and the sharp rise in LLM-tagged content beginning in 2023. 2026 is year-to-date.&quot; At the bottom is a message box with the placeholder &quot;Type a message... (# to tag a table or query)&quot; and a &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/annotations-agent.webp\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/visualization\">visualization</a>, <a href=\"https://simonwillison.net/tags/datasette-charts\">datasette-charts</a></p>",
-        "messageText": "",
-        "leadPostUrl": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-        "images": [],
-        "ageHours": 10.7,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:9685432920849ecf",
-          "title:203ad1979be7034f"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:0c272f1d0957d70a": {
       "id": "defer:url:0c272f1d0957d70a",
       "at": "2026-11-26T08:03:21.732Z",
@@ -20477,52 +20441,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:3daf9c389bad927c": {
-      "id": "defer:url:3daf9c389bad927c",
-      "at": "2026-11-26T08:03:21.733Z",
-      "firstAt": "2026-11-26T08:03:21.733Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:3daf9c389bad927c",
-        "title:b1ed14e8a68afd55"
-      ],
-      "canonical": "https://arxiv.org/abs/2611.34862v1",
-      "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
-      "candidate": {
-        "sourceId": "arxiv",
-        "sourceName": "arXiv",
-        "sourceType": "research_index",
-        "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
-        "link": "https://arxiv.org/abs/2611.34862v1",
-        "canonical": "https://arxiv.org/abs/2611.34862v1",
-        "published": "2026-11-25T18:29:36Z",
-        "summary": "We introduce BOP-Refer, the first benchmark for monocular 3D and 2D grounding of everyday and industrial objects sourced from 9 diverse BOP datasets. We pair images from these datasets with VLM-generated and human-verified referring expressions, and derive accurate ground-truth 3D and 2D bounding boxes of the referred objects from their 3D models and 6DoF pose annotations. Our systematic evaluation of 17 frontier VLMs across the major proprietary and open-weight families (Gemini, GPT, Claude, Qwen, Gemma) shows that the best model, Gemini 4 Carbon, reaches 72.6% AP_IoU2D in 2D but only 12.4% AP_IoU3D in 3D, despite the more lenient IoU thresholds in 3D. The predicted 3D boxes are usually centered on the target objects in the image but often off in depth by more than the object's size, suggesting that metric scale estimation, which needs reliable object size priors, is currently by far the main source of error.",
-        "messageText": "",
-        "leadPostUrl": "https://arxiv.org/abs/2611.34862v1",
-        "images": [],
-        "ageHours": 13.5,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": true,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3daf9c389bad927c",
-          "title:b1ed14e8a68afd55"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:50f0b45bf5f82a35": {
       "id": "defer:url:50f0b45bf5f82a35",
       "at": "2026-11-26T08:03:21.733Z",
@@ -20663,58 +20581,6 @@
         "keys": [
           "url:5ce3f7b36cf64547",
           "title:22df3f26accffa94"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
-    "defer:url:e0d965bae52b9875": {
-      "id": "defer:url:e0d965bae52b9875",
-      "at": "2026-11-26T13:31:13.620Z",
-      "firstAt": "2026-11-26T13:31:13.620Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:e0d965bae52b9875",
-        "title:d47266b30a44ba63"
-      ],
-      "canonical": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop",
-      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
-      "candidate": {
-        "sourceId": "arstechnica-ai",
-        "sourceName": "Ars Technica AI",
-        "sourceType": "news",
-        "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
-        "link": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
-        "canonical": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop",
-        "published": "Wed, 25 Nov 2026 16:47:14 +0000",
-        "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
-        "messageText": "",
-        "leadPostUrl": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
-        "images": [
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg",
-          "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia-500x500.jpg"
-        ],
-        "ageHours": 20.7,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "security",
-          "business",
-          "models",
-          "tools"
-        ],
-        "categoryHint": "security",
-        "keys": [
-          "url:e0d965bae52b9875",
-          "title:d47266b30a44ba63"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -21469,6 +21335,288 @@
         "keys": [
           "url:8f18315375d127f6",
           "title:84634846a18e6315"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:094ccd7fb8c3b178": {
+      "id": "defer:url:094ccd7fb8c3b178",
+      "at": "2026-11-28T17:02:07.871Z",
+      "firstAt": "2026-11-28T17:02:07.871Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:094ccd7fb8c3b178",
+        "title:a2018aa447499921"
+      ],
+      "canonical": "http://dash.packet.ai/serverless",
+      "title": "دسترسی به API هوش مصنوعی 💥🆓",
+      "candidate": {
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
+        "sourceType": "telegram_channel",
+        "title": "دسترسی به API هوش مصنوعی 💥🆓",
+        "link": "http://dash.packet.ai/serverless",
+        "canonical": "http://dash.packet.ai/serverless",
+        "messageText": "دسترسی به API هوش مصنوعی 💥🆓\n\nDeepseek V4.1 Flash 1017 | Minimax M3.1 Flash ✅\n\nبا این سایت میتونید به صورت کاملا نامحدود به API مدل های هوش مصنوعی بالا دسترسی پیدا کنید ✅\n\n✨ آموزش فعال‌سازی :\n\n1️⃣ وارد این سایت بشید و ثبت نام کنید\n\n2️⃣ ازتون شماره تلفن میخواد ، از طریق این سایت یک شماره مجازی رایگان بگیرید و وریفای کنید\n\n3️⃣ به این بخش بروید یک کلید از بخش Token Factory keys بسازید\n\n4️⃣ تمام ، می‌توانید از API خود استفاده کنید\n\n📌 Base URL : \n\n🔗 Document\n\n✈️@ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤18👍1🔥1😎1",
+        "leadPostUrl": "https://t.me/ArchiveTell/8627",
+        "published": "2026-11-28T16:32:50+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/oEN0ZqQJq4KECvUI211dPl-l2MfdaV7PN5Abf3glw_W5iyoX9VKzZACMvCz0lwNsUbtrQbFmLwCO7jpnIHjxrl5oi9KEI5Wl_5sXH82KBgi-k2uTatOIbiOTITWg1TrYiNsl-gbYdRCqZE_bAfWe5BGtL5YQBcfkQ7dbb6MfBQuZlVWsxbPoj1qn72A8z5k7_yb14bKm0Vk2S8yNMXvrk9wtE_miL4fq7pAL_cZGlBpy_fSQm8DF8X2xXP7znpA6QGjVEDlrkJ5GvpQxaVRxFBwu7xSNg7hzTPGIzbIvH4j0qd8Q8uPxnuLMfuFRUvZDmexCNx8XeSTS6AznRN11Uw.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "http://dash.packet.ai/serverless",
+          "http://2nd-no.com/",
+          "https://dash.packet.ai/settings?tab=keys",
+          "https://dash.packet.ai/docs",
+          "https://api.packet.ai/v1"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:094ccd7fb8c3b178",
+          "title:a2018aa447499921"
+        ],
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8627,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:9983cbd2d3708dd2": {
+      "id": "defer:url:9983cbd2d3708dd2",
+      "at": "2026-11-28T17:02:07.871Z",
+      "firstAt": "2026-11-28T17:02:07.871Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:9983cbd2d3708dd2",
+        "title:c9cde2597fd5d2c6"
+      ],
+      "canonical": "https://app.getavori.com/?amp%3Bft_landing=%2F&amp%3Bft_present=1&amp%3Binterval=monthly&amp%3Bplan=pro&amp%3Bseats=1&signup=1",
+      "title": "😀 دسترسی رایگان به فضای کاری مدل‌های پیشرفته هوش مصنوعی.",
+      "candidate": {
+        "sourceId": "tg-archive-tell",
+        "sourceName": "ArchiveTell",
+        "sourceType": "telegram_channel",
+        "title": "😀 دسترسی رایگان به فضای کاری مدل‌های پیشرفته هوش مصنوعی.",
+        "link": "https://app.getavori.com/?signup=1&amp;plan=pro&amp;interval=monthly&amp;seats=1&amp;ft_present=1&amp;ft_landing=%2F",
+        "canonical": "https://app.getavori.com/?amp%3Bft_landing=%2F&amp%3Bft_present=1&amp%3Binterval=monthly&amp%3Bplan=pro&amp%3Bseats=1&signup=1",
+        "messageText": "😀 دسترسی رایگان به فضای کاری مدل‌های پیشرفته هوش مصنوعی.\n\n🔘مدل‌های موجود:\nClaude Opus 5.5,\nClaude Fable 5.2,\nGemini 4 Neon,\nGemini 4 Carbon,\nGPT 6.2 Astra,\nو سایر موارد...\n\n🔘روش کار:\n1. در وب‌سایت ثبت‌نام کنید. از ایمیل‌های موقت استفاده کنید.\n2. طرح آزمایشی (تریال) با بالاترین سطح رو فعال کنید.\n🍿 روش پرداخت\n\n🔘محدودیت‌ها:\nمحدودیت‌ها زیاد نیستن، با استفاده از ایمیل‌های موقت، حساب‌های مختلفی ایجاد کنید.\n\n💻 اتصال به کامپیوتر:\nبرای سیستم‌عامل مک، یه برنامه دسکتاپ وجود داره که میتونید اون رو از وب‌سایت سرویس دانلود کنید.\nبرای ویندوز، میتونید از MCP برای دسترسی به پروژه‌های محلی استفاده کنید.\n\n✈️ @ArchiveTell\n\nPlease open Telegram to view this post\n\nVIEW IN TELEGRAM\n\n❤19🔥1🫡1🗿1",
+        "leadPostUrl": "https://t.me/ArchiveTell/8624",
+        "published": "2026-11-28T14:13:35+00:00",
+        "summary": "",
+        "images": [
+          "https://cdn4.telesco.pe/file/nr8fnYb-jY8R9DvKEXrQxzg60vgkZdwBenQwwU51uzZ63f5dyAHHdOhBB0FRHZxrfR4Q6LgEBZSdcBvcspbD6GDP4J-00r7r_OueF0NUil5ZOE6ethDGKoYuZwg2x3idCXzgdEQRhF0iR8zklFJd3G_y2NKgsIZ4okPeujzHXWBpl0o2dfdi9lABPNSnrVkoVTVEDoZ1edmF_JrrxH0vUjRv641QeTII3QZ5Md6HACeVxbXus11imBIRxVXaHj36oaC6Eo_Wdhf-o7-qFZ-tx9wa2eVF0CXHmG03jdGbn6IxEmBpvVpFK6B9KuLxRWwi9xnxiU-12rRyQTX26Bd6wg.jpg"
+        ],
+        "ocr": false,
+        "ocrDiscovery": false,
+        "ageHours": 2.8,
+        "aiHint": true,
+        "aiCentral": true,
+        "titleAi": true,
+        "rumorHint": false,
+        "relatedLinks": [
+          "https://app.getavori.com/?amp%3Bft_landing=%2F&amp%3Bft_present=1&amp%3Binterval=monthly&amp%3Bplan=pro&amp%3Bseats=1&signup=1"
+        ],
+        "offerHint": true,
+        "toolHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "tools",
+          "models"
+        ],
+        "categoryHint": "tools",
+        "referral": false,
+        "needsReview": false,
+        "reviewReason": "",
+        "keys": [
+          "url:9983cbd2d3708dd2",
+          "title:c9cde2597fd5d2c6"
+        ],
+        "leadSource": "ArchiveTell",
+        "leadMessageId": 8624,
+        "leadChannelUrl": "https://t.me/ArchiveTell",
+        "sourceFocus": "tools",
+        "leadKind": "free_offer",
+        "educationHint": false,
+        "webEducation": false,
+        "officialCourse": false
+      }
+    },
+    "defer:url:e6b9a392e9dfb234": {
+      "id": "defer:url:e6b9a392e9dfb234",
+      "at": "2026-11-28T17:02:07.871Z",
+      "firstAt": "2026-11-28T17:02:07.871Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:e6b9a392e9dfb234",
+        "title:5c0849627677f3d9"
+      ],
+      "canonical": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence",
+      "title": "UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence",
+        "link": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/",
+        "canonical": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence",
+        "published": "Sat, 28 Nov 2026 13:42:00 +0000",
+        "summary": "The UK Parliament is turning up the pressure on Anthropic. Committee chair Liam Byrne is demanding the unredacted METR safety report on AI acceleration by December 4. METR criticized Anthropic for cutting \"most informative\" evidence before publication. The episode raises broader questions about the transparency of voluntary AI safety evaluations and again shows Europe's dependence on US AI labs. The article UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/ukflag_blue.png"
+        ],
+        "ageHours": 3.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": true,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "tools",
+        "keys": [
+          "url:e6b9a392e9dfb234",
+          "title:5c0849627677f3d9"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:b136fbb3faf8f5e7": {
+      "id": "defer:url:b136fbb3faf8f5e7",
+      "at": "2026-11-28T17:02:07.872Z",
+      "firstAt": "2026-11-28T17:02:07.872Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:b136fbb3faf8f5e7",
+        "title:ac24412aae957614"
+      ],
+      "canonical": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste",
+      "title": "Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\"",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\"",
+        "link": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste/",
+        "canonical": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste",
+        "published": "Sat, 28 Nov 2026 14:45:01 +0000",
+        "summary": "Terence Tao outlines his vision of \"Big Math\" on the Hard Fork podcast. Instead of solo work, human-AI teams would systematically map thousands of problems. He also calls AI proofs from major tech companies \"toxic waste,\" saying the models solve problems but can't explain their results. Tao hopes for a new division of labor where AI delivers the first rough solution and humans put it in context. The article Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\" appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/03/terence_tao_ai_math.png"
+        ],
+        "ageHours": 2.3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:b136fbb3faf8f5e7",
+          "title:ac24412aae957614"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
+      }
+    },
+    "defer:url:3b601806e50ea410": {
+      "id": "defer:url:3b601806e50ea410",
+      "at": "2026-11-28T17:02:07.872Z",
+      "firstAt": "2026-11-28T17:02:07.872Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:3b601806e50ea410",
+        "title:7d3369cf352a9e0b"
+      ],
+      "canonical": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security",
+      "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+      "candidate": {
+        "sourceId": "techcrunch",
+        "sourceName": "TechCrunch",
+        "sourceType": "news",
+        "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+        "link": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+        "canonical": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security",
+        "published": "Sat, 28 Nov 2026 14:00:00 +0000",
+        "summary": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
+        "messageText": "",
+        "leadPostUrl": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+        "images": [],
+        "ageHours": 3,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "business",
+          "tools",
+          "models"
+        ],
+        "categoryHint": "models",
+        "keys": [
+          "url:3b601806e50ea410",
+          "title:7d3369cf352a9e0b"
         ],
         "educationHint": false,
         "webEducation": false,
@@ -25752,6 +25900,37 @@
           "at": "2026-11-28T13:32:24.107Z"
         }
       ]
+    },
+    "2026-11-28T20:30+03:30": {
+      "at": "2026-11-28T17:05:32.815Z",
+      "status": "sent",
+      "category": "models",
+      "title": "بنچمارک Gamefeel امتیاز دو مدل Gemini را اصلاح کرد",
+      "postDir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-28/20-30",
+      "messageId": 179,
+      "mode": "send",
+      "model": "DeepSeek-V4-Flash",
+      "fallback": null,
+      "cost": 0.0048252008,
+      "tokens": 82380,
+      "qa": "42/43",
+      "posts": [
+        {
+          "title": "بنچمارک Gamefeel امتیاز دو مدل Gemini را اصلاح کرد",
+          "category": "models",
+          "status": "sent",
+          "messageId": 179,
+          "dir": "/home/runner/work/chita_radar/chita_radar/results/outbox/2026-11-28/20-30",
+          "model": "DeepSeek-V4-Flash",
+          "fallback": false,
+          "cost": 0.0023200912,
+          "tokens": 23278,
+          "qa": "42/43",
+          "image": false,
+          "offer": false,
+          "at": "2026-11-28T17:05:32.815Z"
+        }
+      ]
     }
   },
   "published": [
@@ -28604,93 +28783,111 @@
       "sourceTitle": "Blending Unsupervised Clustering Tasks with Scikit-LLM - KDnuggets",
       "sourceText": "A two-stage pipeline for document clustering and LLM-driven topic discovery, aided by Scikit-LLM's summarization tools.\nTraditional approaches for unsupervised text clustering usually produce groups that are defined in a mathematical, rather \"anonymous\" way. More often than not, we have the extra burden of guessing the underlying themes characterizing each cluster based on manual keyword inspection.\nThis article proposes an alternative, hands-on approach: aided by Scikit-LLM 's summarization tools fueled by large language models (LLMs) alongside local text embeddings, we build a two-stage pipeline that:\nThe solution we are about to build is cost-free and easy to run even in a notebook environment.\nThis example can be run entirely in a Google Colab notebook. It uses Groq's LLM API to rely fully on free models. A prerequisite is to visit the Groq website , register, and generate your own API key. Once it is generated, carefully copy your API key (it is shown only once) and add it as a new \"Secret\" in Google Colab — found under the key icon on the left-hand side of Colab. There, paste your copied API key and name the secret GROQ_API_KEY .\nAfter that, we start our notebook by installing Scikit-LLM and sentence-transformers :\nNow, let's start writing our Python code. The first step is to configure the environment surrounding Scikit-LLM, routing our requests through Groq's API instead of the default OpenAI API. This way, we can leverage Groq's free-tier pre-trained models and avoid per-token costs.\nNext, we get some real data. Real-world unsupervised learning scenarios assume dat",
       "at": "2026-11-28T13:32:24.108Z"
+    },
+    {
+      "week": "2026-11-28",
+      "slot": "2026-11-28T20:30+03:30",
+      "category": "models",
+      "kind": "news",
+      "title": "بنچمارک Gamefeel امتیاز دو مدل Gemini را اصلاح کرد",
+      "why": "این اصلاح امتیاز، جایگاه مدل‌ها رو در یک بنچمارک عمومی و قابل مقایسه دقیق‌تر می‌کنه و برای تیم‌هایی که می‌خوان مدل مناسب توسعه بازی رو انتخاب کنن، مرجع به‌تری می‌شه.",
+      "dedupe_key": "gamefeel-benchmark-gemini-scores-correction",
+      "post_key": "2026-11-28/20-30/1",
+      "sourceId": "gamefeel-benchmark",
+      "sourceName": "The Gamefeel Benchmark",
+      "sourceType": "benchmark",
+      "benchmark": true,
+      "url": "https://github.com/kodasdream/gamefeel-benchmark/commit/75843ec3377504aa4809e733d6e1edf5d6d52b77",
+      "sourceTitle": "Gemini-4-Hydrogen High and Gemini-4-Carbon High task scores corrected… · kodasdream/gamefeel-benchmark@75843ec",
+      "sourceText": "The Gamefeel Benchmark: a creativity benchmark for AI models on game development. Each model adds content and balance changes to 12 unpublished games, and is scored on coding, gamefeel, creativity and reverse-evaluation.\nUpdate commit (2026-11-28T15:19:09Z): Gemini-4-Hydrogen High and Gemini-4-Carbon High task scores corrected.\nGemini-4-Carbon (Google DeepMind, effort High): overall 47.54/100, rank 1 of 34; create 64, bugfix 59, gamefeel 51, ideas 47, visuals 67, audio 33; price per task $8.80; context 1M; closed weights.\nGemini-4-Carbon (Google DeepMind, effort Low): price per task $2.04; context 1M; closed weights.\nGemini-4-Carbon (Google DeepMind, effort Medium): price per task $2.13; context 1M; closed weights.\nGemini-4-Hydrogen (Google DeepMind, effort High): overall 45.2/100, rank 7 of 34; create 63, bugfix 58, gamefeel 53, ideas 50, visuals 65, audio 32; price per task $0.94; context 1M; closed weights.\nGemini-4-Hydrogen (Google DeepMind, effort XHigh): context 1M; open weights not listed.\nGemini-4-Hydrogen (Google DeepMind, effort Medium): price per task $0.27; context 1M; open weights not listed.\nLeaderboard context: Gemini-4-Carbon 47.54, Fable-5.2 47.41, Gemini-4-Neon 46.87.",
+      "at": "2026-11-28T17:05:32.815Z"
     }
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8623,
-      "last_at": "2026-11-28T13:17:19+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "last_id": 8627,
+      "last_at": "2026-11-28T16:32:50+00:00",
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "pedramgholizadeh": {
-      "last_id": 822,
-      "last_at": "2026-11-27T21:07:24+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "last_id": 823,
+      "last_at": "2026-11-28T15:14:47+00:00",
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "ai_farshad": {
-      "last_id": 6542,
-      "last_at": "2026-11-28T09:42:42+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "last_id": 6550,
+      "last_at": "2026-11-28T16:30:55+00:00",
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "Mohammad_zammani": {
-      "last_id": 7293,
-      "last_at": "2026-11-28T06:23:55+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "last_id": 7294,
+      "last_at": "2026-11-28T16:07:53+00:00",
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "techiin_ir": {
-      "last_id": 20871,
-      "last_at": "2026-11-26T16:28:01+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "last_id": 20873,
+      "last_at": "2026-11-26T17:31:05+00:00",
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "mgh_mobin": {
       "last_id": 522,
       "last_at": "2026-11-28T06:13:54+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "web3nabu": {
-      "last_id": 2199,
-      "last_at": "2026-11-27T22:03:57+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "last_id": 2201,
+      "last_at": "2026-11-28T16:53:29+00:00",
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "asrnovin_ir": {
       "last_id": 11563,
       "last_at": "2026-11-28T09:50:17+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "codecloude": {
       "last_id": 2627,
       "last_at": "2026-11-27T17:34:25+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "dunijet_ai": {
       "last_id": 2641,
       "last_at": "2026-11-28T12:12:24+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "miladxtalks": {
       "last_id": 253,
       "last_at": "2026-11-27T17:28:25+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "MatinSenPaii": {
       "last_id": 6002,
       "last_at": "2026-11-28T07:59:42+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "checked_at": "2026-11-28T17:01:01.598Z"
     },
     "thenimaonAI": {
-      "last_id": 615,
-      "last_at": "2026-11-28T08:52:07+00:00",
-      "checked_at": "2026-11-28T13:30:55.921Z"
+      "last_id": 617,
+      "last_at": "2026-11-28T13:49:49+00:00",
+      "checked_at": "2026-11-28T17:01:01.598Z"
     }
   },
   "offerReviews": [
@@ -32281,23 +32478,45 @@
       "slot": "2026-11-28T14:00+03:30",
       "kind": "post",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-ai-farshad|https://t.me/ai_farshad/6544",
+      "date": "2026-11-28",
+      "at": "2026-11-28T17:01:01.598Z",
+      "source": "tg-ai-farshad",
+      "title": "🎬 از یک عکس ساده تا یک تیزر فشن در سطح برندهای لوکس!",
+      "url": "https://t.me/ai_farshad/6544",
+      "reason": "denied_link",
+      "slot": "2026-11-28T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-mohammad-zammani|https://t.me/Mohammad_zammani/7294",
+      "date": "2026-11-28",
+      "at": "2026-11-28T17:01:01.598Z",
+      "source": "tg-mohammad-zammani",
+      "title": "🤖گوگل قصد داره قابلیت فلش‌کارت‌ها رو تو Gemini Notebook با استفاده از روش تکرار فاصله‌دار (Spaced",
+      "url": "https://t.me/Mohammad_zammani/7294",
+      "reason": "denied_link",
+      "slot": "2026-11-28T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-techiin|https://t.me/techiin_ir/20873",
+      "date": "2026-11-28",
+      "at": "2026-11-28T17:01:01.598Z",
+      "source": "tg-techiin",
+      "title": "✴️ کره شمالی هم ChatGPT مخصوص خودش رو ساخت",
+      "url": "https://t.me/techiin_ir/20873",
+      "reason": "denied_link",
+      "slot": "2026-11-28T20:30+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
-    {
-      "source": "tg-ai-farshad",
-      "title": "📸 عکست رو به یک تصویرسازی مینیمال به سبک Notion تبدیل کن!",
-      "url": "https://t.me/ai_farshad/6438",
-      "slot": "2026-11-14T20:30+03:30",
-      "at": "2026-11-14T17:00:55.502Z"
-    },
-    {
-      "source": "machinelearningmastery",
-      "title": "Weight-Only Quantization",
-      "url": "https://machinelearningmastery.com/weight-only-quantization",
-      "slot": "2026-11-14T20:30+03:30",
-      "at": "2026-11-14T17:00:55.502Z"
-    },
     {
       "source": "tg-dunijet-ai",
       "title": "دوست داشتم بتونم یه جورایی هوش مصنوعی و دوره های ویدیویی رو ترکیب کنم بلاخره شد",
