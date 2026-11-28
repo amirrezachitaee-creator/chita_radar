@@ -14716,6 +14716,57 @@
       "previousMessageIds": [],
       "lastActionAt": "",
       "sentAt": ""
+    },
+    "f703655a34": {
+      "id": "f703655a34",
+      "messageId": 315,
+      "chatId": "-1003917550874",
+      "slot": "2026-11-28T14:00+03:30",
+      "reason": "denied_link",
+      "kind": "post",
+      "source": "tg-techiin",
+      "sourceName": "تِک‌این | آموزش و فناوری",
+      "sourceType": "telegram_channel",
+      "title": "✅ آزمون جدید اولین امتحان بشریت، برای ارزیابی مهارت‌های هوش‌مصنوعی",
+      "url": "https://t.me/techiin_ir/20870",
+      "leadPostUrl": "https://t.me/techiin_ir/20870",
+      "messageText": "✅ آزمون جدید اولین امتحان بشریت، برای ارزیابی مهارت‌های هوش‌مصنوعی\n\nگوگل دیپ‌مایند آزمون جدیدی با نام \"اولین امتحان بشریت\" (Humanity’s First Exam) رو راه‌اندازی کرده که به‌جای سنجش توانایی هوش مصنوعی در حل مسائل پیچیده، بررسی می‌کنه مدل‌ها تا چه اندازه می‌تونن به پرسش‌های ساده و روزمره پاسخ درست بدن.\nجزئیات بیشتر",
+      "relatedLinks": [
+        "https://www.instagram.com/p/DgKzA5hNf-b?evlk=M2t0cHR3bm1wZ3Fr",
+        "http://helixworld.ai/",
+        "https://www.instagram.com/techin_ir",
+        "https://youtube.com/@techin_ir?si=NiD_33Qz2d2IRTlP",
+        "https://x.com/techin_ir"
+      ],
+      "images": [
+        "https://cdn4.telesco.pe/file/dyY1LCGHLziKgIyPRRpor9kglkrZCEW360t9bZ2L4y4t6PG9YT6skB2gt4LO19Xe4p3_XcRuoqtLtzgxkLEv4NVDr0gOIK5Z8viqOn1iF0pJ4919r0NHsy1bRibYZxYWqLYiap_7b1OhLHKUQY7sLDGQdqcxKxLX7GRibADfWJyTMiOCD_OpxPVaTMgkTkcmwAniqOlKfv853GXGq2thhYR_OleiL8XNWUKr6o8IoakYDheUpJ_oAJzqpvqUmiz-uyzKG00Mz32eGZl8jpwEJySU_iTGki72LBS_z_ZrUerNpwFEyganfJi3XHY8TCL8Sz_i2ETaI6QRdfpoj0_8Iw.jpg"
+      ],
+      "imageUrl": "",
+      "publishedAt": "2026-11-26T14:33:07+00:00",
+      "keys": [
+        "url:6e04e75d1ec5a17c",
+        "title:fb8742681fb5d14a"
+      ],
+      "benchmark": false,
+      "toolHint": false,
+      "offerHint": false,
+      "rumorHint": false,
+      "policy": false,
+      "mainEligible": false,
+      "qaPass": false,
+      "post": null,
+      "expiry": null,
+      "note": "",
+      "noteAt": "",
+      "noteBy": "",
+      "noteRewriteUsed": false,
+      "previousMessageIds": [],
+      "status": "pending",
+      "rewrites": 0,
+      "createdAt": "2026-11-28T11:15:48.402Z",
+      "updatedAt": "2026-11-28T11:15:48.402Z",
+      "lastActionAt": "",
+      "sentAt": ""
     }
   },
   "actions": [

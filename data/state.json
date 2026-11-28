@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-28T10:33:41.675Z",
+  "updatedAt": "2026-11-28T11:17:20.439Z",
   "seen": {
     "url:cfe776d783ceaa5c": {
       "at": "2026-11-02T16:57:28.268Z",
@@ -19616,6 +19616,96 @@
       "slot": "2026-11-28T14:00+03:30",
       "title": "The New York Times warns photographers not to update Photoshop over AI features",
       "url": "https://simonwillison.net/2026/Nov/26/hn-50651685"
+    },
+    "url:2ec6f3df5316a6a1": {
+      "at": "2026-11-28T11:16:00.959Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs"
+    },
+    "title:d9d06a098522bcc8": {
+      "at": "2026-11-28T11:16:00.959Z",
+      "decision": "story_duplicate",
+      "reason": "already_main",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs"
+    },
+    "url:6e04e75d1ec5a17c": {
+      "at": "2026-11-28T11:16:02.962Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "✅ آزمون جدید اولین امتحان بشریت، برای ارزیابی مهارت‌های هوش‌مصنوعی",
+      "url": "https://t.me/techiin_ir/20870"
+    },
+    "title:fb8742681fb5d14a": {
+      "at": "2026-11-28T11:16:02.962Z",
+      "decision": "review",
+      "reason": "denied_link",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "✅ آزمون جدید اولین امتحان بشریت، برای ارزیابی مهارت‌های هوش‌مصنوعی",
+      "url": "https://t.me/techiin_ir/20870"
+    },
+    "url:12108a2aa8d70efe": {
+      "at": "2026-11-28T11:16:03.606Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "🍿 سرویس offloop یه دوره آزمایشی رایگان یه ماهه ارائه میده.",
+      "url": "https://offloop.org/"
+    },
+    "title:3ada6de275c52453": {
+      "at": "2026-11-28T11:16:03.606Z",
+      "decision": "education_review",
+      "reason": "education_private",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "🍿 سرویس offloop یه دوره آزمایشی رایگان یه ماهه ارائه میده.",
+      "url": "https://offloop.org/"
+    },
+    "url:e2a1983bb54421b2": {
+      "at": "2026-11-28T11:16:08.487Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "Ploid",
+      "url": "https://www.producthunt.com/products/ploid"
+    },
+    "title:30f601cb972d6922": {
+      "at": "2026-11-28T11:16:08.487Z",
+      "decision": "skip",
+      "reason": "thin",
+      "category": "",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "Ploid",
+      "url": "https://www.producthunt.com/products/ploid"
+    },
+    "url:3d2697b636d74b83": {
+      "at": "2026-11-28T11:17:20.433Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+    },
+    "title:d127826167977e82": {
+      "at": "2026-11-28T11:17:20.433Z",
+      "decision": "qa_failed",
+      "reason": "category_fresh",
+      "category": "tools",
+      "slot": "2026-11-28T14:00+03:30",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
     }
   },
   "deferred": {
@@ -20525,53 +20615,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:3d2697b636d74b83": {
-      "id": "defer:url:3d2697b636d74b83",
-      "at": "2026-11-26T08:03:21.733Z",
-      "firstAt": "2026-11-26T08:03:21.733Z",
-      "attempts": 0,
-      "reason": "source_daily",
-      "reasons": [
-        "source_daily"
-      ],
-      "keys": [
-        "url:3d2697b636d74b83",
-        "title:d127826167977e82"
-      ],
-      "canonical": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-      "candidate": {
-        "sourceId": "huggingface-blog",
-        "sourceName": "Hugging Face Blog",
-        "sourceType": "official_blog",
-        "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-        "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-        "canonical": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-        "published": "Thu, 26 Nov 2026 05:05:36 GMT",
-        "summary": "",
-        "messageText": "",
-        "leadPostUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-        "images": [],
-        "ageHours": 2.9,
-        "aiHint": true,
-        "aiCentral": false,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "models",
-          "tools"
-        ],
-        "categoryHint": "models",
-        "keys": [
-          "url:3d2697b636d74b83",
-          "title:d127826167977e82"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:3f9ab1df906b7868": {
       "id": "defer:url:3f9ab1df906b7868",
       "at": "2026-11-26T13:31:13.620Z",
@@ -21068,52 +21111,6 @@
         "leadKind": ""
       }
     },
-    "defer:url:e2a1983bb54421b2": {
-      "id": "defer:url:e2a1983bb54421b2",
-      "at": "2026-11-27T13:31:23.211Z",
-      "firstAt": "2026-11-27T13:31:23.211Z",
-      "attempts": 0,
-      "reason": "category_consecutive",
-      "reasons": [
-        "category_consecutive"
-      ],
-      "keys": [
-        "url:e2a1983bb54421b2",
-        "title:30f601cb972d6922"
-      ],
-      "canonical": "https://www.producthunt.com/products/ploid",
-      "title": "Ploid",
-      "candidate": {
-        "sourceId": "product-hunt",
-        "sourceName": "Product Hunt",
-        "sourceType": "community_board",
-        "title": "Ploid",
-        "link": "https://www.producthunt.com/products/ploid",
-        "canonical": "https://www.producthunt.com/products/ploid",
-        "published": "2026-11-26T13:06:26-08:00",
-        "summary": "<p> People search for AI agents, across 2B+ profiles </p> <p> <a href=\"https://www.producthunt.com/products/ploid?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1332536?app_id=339\">Link</a> </p>",
-        "messageText": "",
-        "leadPostUrl": "https://www.producthunt.com/products/ploid",
-        "images": [],
-        "ageHours": 16.4,
-        "aiHint": true,
-        "aiCentral": true,
-        "offerHint": false,
-        "benchmark": false,
-        "modelRelease": false,
-        "sourceCategories": [
-          "tools"
-        ],
-        "categoryHint": "tools",
-        "keys": [
-          "url:e2a1983bb54421b2",
-          "title:30f601cb972d6922"
-        ],
-        "educationHint": false,
-        "webEducation": false,
-        "leadKind": ""
-      }
-    },
     "defer:url:c2bd7953104652e4": {
       "id": "defer:url:c2bd7953104652e4",
       "at": "2026-11-27T13:31:23.211Z",
@@ -21574,6 +21571,56 @@
         "educationHint": false,
         "webEducation": false,
         "officialCourse": false
+      }
+    },
+    "defer:url:8f18315375d127f6": {
+      "id": "defer:url:8f18315375d127f6",
+      "at": "2026-11-28T11:16:03.624Z",
+      "firstAt": "2026-11-28T11:16:03.624Z",
+      "attempts": 0,
+      "reason": "source_daily",
+      "reasons": [
+        "source_daily"
+      ],
+      "keys": [
+        "url:8f18315375d127f6",
+        "title:84634846a18e6315"
+      ],
+      "canonical": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots",
+      "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+      "candidate": {
+        "sourceId": "the-decoder",
+        "sourceName": "The Decoder",
+        "sourceType": "news",
+        "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+        "link": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+        "canonical": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots",
+        "published": "Sat, 28 Nov 2026 10:48:18 +0000",
+        "summary": "Embo raised $110 million in seed funding to build a universal robot brain with world models. Its AI learns how the physical world works from internet video and practices motor skills in simulation. Google Deepmind, Meta, and MIT researchers are behind the startup as the race for general-purpose robotics AI accelerates. The article Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots appeared first on The Decoder .",
+        "messageText": "",
+        "leadPostUrl": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+        "images": [
+          "https://the-decoder.com/wp-content/uploads/2026/11/embo_logo.png"
+        ],
+        "ageHours": 0.5,
+        "aiHint": true,
+        "aiCentral": true,
+        "offerHint": false,
+        "benchmark": false,
+        "modelRelease": false,
+        "sourceCategories": [
+          "models",
+          "business",
+          "tools"
+        ],
+        "categoryHint": "business",
+        "keys": [
+          "url:8f18315375d127f6",
+          "title:84634846a18e6315"
+        ],
+        "educationHint": false,
+        "webEducation": false,
+        "leadKind": ""
       }
     }
   },
@@ -25819,8 +25866,8 @@
       "at": "2026-11-28T10:33:41.673Z",
       "status": "empty",
       "reason": "all_candidates_rejected",
-      "cost": 0.0024924424,
-      "tokens": 33807,
+      "cost": 0.0035883456000000004,
+      "tokens": 34223,
       "posts": []
     }
   },
@@ -28660,89 +28707,89 @@
   ],
   "telegram": {
     "ArchiveTell": {
-      "last_id": 8620,
-      "last_at": "2026-11-28T09:18:14+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "last_id": 8621,
+      "last_at": "2026-11-28T10:38:11+00:00",
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "pedramgholizadeh": {
       "last_id": 822,
       "last_at": "2026-11-27T21:07:24+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "ai_farshad": {
       "last_id": 6542,
       "last_at": "2026-11-28T09:42:42+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "Mohammad_zammani": {
       "last_id": 7293,
       "last_at": "2026-11-28T06:23:55+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "techiin_ir": {
-      "last_id": 20869,
+      "last_id": 20870,
       "last_at": "2026-11-26T14:33:07+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "mgh_mobin": {
       "last_id": 522,
       "last_at": "2026-11-28T06:13:54+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "web3nabu": {
       "last_id": 2199,
       "last_at": "2026-11-27T22:03:57+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "asrnovin_ir": {
       "last_id": 11563,
       "last_at": "2026-11-28T09:50:17+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "shayanode": {
       "last_id": 274,
       "last_at": "2026-11-26T11:43:08+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "aibysadeghi": {
       "last_id": 72,
       "last_at": "2026-11-19T20:20:03+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "codecloude": {
       "last_id": 2627,
       "last_at": "2026-11-27T17:34:25+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "dunijet_ai": {
       "last_id": 2640,
       "last_at": "2026-11-27T19:44:29+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "marketing_aida": {
       "last_id": 114,
       "last_at": "2026-11-26T11:03:22+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "miladxtalks": {
       "last_id": 253,
       "last_at": "2026-11-27T17:28:25+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "Sajadverse": {
       "last_id": 1263,
       "last_at": "2026-11-21T09:35:07+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "MatinSenPaii": {
       "last_id": 6002,
       "last_at": "2026-11-28T07:59:42+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     },
     "thenimaonAI": {
       "last_id": 615,
       "last_at": "2026-11-28T08:52:07+00:00",
-      "checked_at": "2026-11-28T10:31:23.321Z"
+      "checked_at": "2026-11-28T11:15:48.402Z"
     }
   },
   "offerReviews": [
@@ -32333,6 +32380,18 @@
       "slot": "2026-11-28T14:00+03:30",
       "kind": "tool",
       "mainEligible": false
+    },
+    {
+      "id": "2026-11-28|tg-techiin|https://t.me/techiin_ir/20870",
+      "date": "2026-11-28",
+      "at": "2026-11-28T11:15:48.402Z",
+      "source": "tg-techiin",
+      "title": "✅ آزمون جدید اولین امتحان بشریت، برای ارزیابی مهارت‌های هوش‌مصنوعی",
+      "url": "https://t.me/techiin_ir/20870",
+      "reason": "denied_link",
+      "slot": "2026-11-28T14:00+03:30",
+      "kind": "post",
+      "mainEligible": false
     }
   ],
   "educationReviews": [
@@ -32713,6 +32772,13 @@
       "url": "https://t.me/farshad_frhni",
       "slot": "2026-11-28T08:30+03:30",
       "at": "2026-11-28T05:01:23.227Z"
+    },
+    {
+      "source": "tg-archive-tell",
+      "title": "🍿 سرویس offloop یه دوره آزمایشی رایگان یه ماهه ارائه میده.",
+      "url": "https://offloop.org/",
+      "slot": "2026-11-28T14:00+03:30",
+      "at": "2026-11-28T11:15:48.402Z"
     }
   ],
   "reviewPending": {},
